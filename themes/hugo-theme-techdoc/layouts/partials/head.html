@@ -1,0 +1,37 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+{{- if eq .Title "" }}
+<title>{{ .Site.Title }}</title>
+{{- else }}
+<title>{{ .Title }} - {{ .Site.Title }}</title>
+{{- end }}
+{{- if ne .Description "" }}
+<meta name="description" content="{{ .Description }}">
+{{- else if isset .Site.Params "description" }}
+<meta name="description" content="{{ .Site.Params.description }}">
+{{- end }}
+{{ hugo.Generator }}
+<link href="{{ .Site.BaseURL }}index.xml" rel="alternate" type="application/rss+xml">
+<link rel="canonical" href="{{ .Permalink }}">
+<link rel="stylesheet" href="{{"css/theme.css" | absURL}}">
+<link rel="stylesheet" href="{{"css/header.css" | absURL}}">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!-- <link href="//d14b7h0kp9rj1j.cloudfront.net/templates/fruition/css/template_47.css" rel="stylesheet" type="text/css"> -->
+<!-- <script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> -->
+{{ partial "meta/chroma.html" . -}}
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.8/lunr.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script src="{{"js/bundle.js" | absURL}}"></script>
+{{- partial "meta/google-analytics-async.html" . -}}
+{{- partial "meta/tag-manager.html" . -}}
+{{- partial "meta/google-site-verification.html" . -}}
+{{- partial "custom-css.html" . -}}
+{{- template "_internal/opengraph.html" . -}}
+{{- template "_internal/twitter_cards.html" . -}}
+{{- template "_internal/schema.html" . -}}

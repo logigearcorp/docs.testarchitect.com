@@ -1,0 +1,62 @@
+<style>
+:root {
+  {{- with .Site.Params.custom_font_color }}--custom-font-color: {{ . | safeCSS }};{{ end -}}
+  {{- with .Site.Params.custom_background_color }}--custom-background-color: {{ . | safeCSS }};{{ end -}}
+}
+
+.sidebar ul a {
+    padding-left: 2.5rem;    
+}
+
+.sidebar nav>ul>li li a{padding-left:3rem}
+.sidebar nav>ul ul>li li a{padding-left:4rem}
+.sidebar nav>ul ul ul>li li a{padding-left:5rem}
+.sidebar nav>ul ul ul ul>li li a{padding-left:6rem}
+.sidebar nav>ul ul ul ul ul>li li a{padding-left:7rem}
+.sidebar nav>ul ul ul ul ul ul>li li a{padding-left:8rem}
+.sidebar nav>ul ul ul ul ul ul ul>li li a{padding-left:9rem}
+
+a.has-child::before {
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid #f7d542; 
+  border-right: 1px solid #f7d542;
+  transform: rotate(45deg);
+  display: inline-block;
+  content: '';
+  position: absolute;
+  top: calc(50% - 5px);
+  margin-left: -30px;
+}
+
+.sidebar  li.active > a {
+  border-left-color: #f7d542;
+}
+
+.open > a.has-child::before {
+  transform: rotate(135deg);
+  margin-left: -25px;
+  top: calc(50% - 10px);
+}
+
+.open-menu > ul {
+  display: block;
+}
+.open-menu ul ul{
+  display: none;
+}
+
+.open-menu .open > ul {
+  display: block;
+}
+
+.open-sub-item {
+  display: block;
+}
+
+.close-sub-item {
+  display: none;
+}
+
+
+</style>

@@ -1,0 +1,117 @@
+body {
+    background-color: white;
+}
+
+.container {
+    background-color: white;
+}
+
+header {
+    background-color: white;
+    padding: 10px 0;
+}
+
+.content-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header-container {
+    background-color: white;
+    box-shadow: 2px 6px 6px -6px #91959c;
+    margin-bottom: 5px;
+    width: 100% !important;
+    display: block;
+    padding: 8px 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    height: 66px;
+}
+
+header h1 {
+    color: black;
+    font-weight: 500 !important;
+}
+
+.header-right {
+   
+    color: black;
+    font-size: 15px;
+    text-decoration: none !important;
+}
+
+.header-right:hover {
+    color: black;
+}
+
+.btn-testarchitect{
+    color: black;
+    font-size: 15px;
+    text-decoration: none !important;
+}
+
+.btn-testarchitect:hover {
+    color: black;
+}
+.btn-testarchitect:visited {
+    color: black;
+}
+
+
+
+
+.header-title {
+    display: inline;
+    position: relative;
+    left: 5px;
+    opacity: 0.6;
+    top: -18px
+}
+
+.header-content {
+    display: block;
+}
+
+.col-4 {
+    width: 33%;
+    display: inline-flex;
+    padding: 0 20px;
+}
+
+.col-3 {
+    width: 24%;
+    display: inline-flex;
+    padding: 0 10px;
+}
+
+.col-3 > div {
+    margin-top: 83px;
+  }
+
+.col-5 {
+    width: 41.67%;
+    display: inline-flex;
+    padding: 0 20px;
+}
+
+#results {
+    z-index: 9999;
+    background-color: white;
+    position: absolute;
+    box-shadow: -1px 6px 11px -4px rgb(41, 37, 41), -1px 6px 11px -4px rgb(41, 37, 41), -1px 6px 11px -4px rgb(41, 37, 41);
+}
+
+#results li {
+    list-style: none; 
+    margin-left: -5px;
+
+}
+
+.sidebar {
+    position: relative;
+}
+
+#search {
+    width: 100%;
+}

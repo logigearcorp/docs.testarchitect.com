@@ -1,0 +1,57 @@
+{{- define "main" -}}
+<style>
+    main {
+        max-width: unset;
+        flex: unset;
+        width: 100%;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .container_img {
+        max-width: 50%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .back_home {
+        background-color: #134A8D;
+        color: white;
+        width: 150px;
+        padding: 5px;
+        text-decoration: none;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .back_home:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+    @media screen and (max-width: 480px) {
+        .container_img {
+            max-width: 90%;
+        }
+
+        .back_home {
+            margin-bottom: 40px;
+        }
+    }
+</style>
+<div class="container" style="text-align: center;">
+    <h1>Oops...</h1>
+    <p style="margin-top: 0px; font-weight: bold;">The page you are looking for was not found.</p>
+    <img class="container_img" src="/images/404.png" />
+
+    <a href="/" class="back_home">Back to home</a>
+</div>
+
+
+
+
+
+{{- end -}}
