@@ -1,0 +1,12 @@
+--- 
+title: "container class"
+linktitle: "container class"
+aliases: 
+    - /TA_Glossary/Topics/glossaryContainerClass.html
+---
+# container class {#gl.glossary_entry_container_class .glossentry}
+
+A class of control, such as Table or Listbox, which typically contains child controls.
+
+\(See also [Container classes](../../TA_Help/Topics/Interface_def_container_class.html).\)
+

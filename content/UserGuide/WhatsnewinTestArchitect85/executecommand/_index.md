@@ -1,0 +1,475 @@
+--- 
+title: "execute command"
+linktitle: "execute command"
+aliases: 
+    - /TA_Help/Topics/TA_command_line_execute.html
+---
+# execute command {#TA_command_line_execute .reference}
+
+ta execute is used to execute tests from the command-line interface.
+
+## Syntax {#section_dmr_y1p_wfb .section}
+
+ta execute -ls <machine name:port\> -rep <repository\> -proj <project\> -u <username\> -p <password\> t <test path\> \[Optional arguments\]
+
+## Arguments {#section_dph_2jp_wfb .section}
+
+|Argument|Description|
+|--------|-----------|
+|-?,--help\(Optional\)
+
+|Displays the help information for the execute command|
+|-ls\(Required\)
+
+|Specified the machine name \(IP address\) and port number of the license server, or the trial key mode. Example:
+
+-   `-ls "localhost:14101"`
+-   Trial key mode: `-ls "trialkey:abc12-xyz12-dxed123"`
+
+**Note:**
+
+-   The port number must fall within a range of 14101-14199.
+-   The default port number is 14101
+
+|
+|-rep\(Required\)
+
+|Specifies the name or ID of the repositoryExample:
+
+-   -rep "SampleRepository"
+-   -rep "bkpzf0xoy9ku"
+
+|
+|-prj\(Required\)
+
+|Specifies the name or ID of the project.Example:
+
+-   -prj "Car Rental"
+-   -prj "10jqmmcsw8"
+
+|
+|-u\(Required\)
+
+|Specifies the user name to log in to the repository|
+|-p\(Required\)
+
+|Specifies the password to log in to the repository.Example: -p "aeteyfghdt13"
+
+**Tip:** you can exact the encrypted password of a given username from a test execution batch file.
+
+|
+|-t\(Required\)
+
+|Specifies the full path or ID of the test suite or the test module to be executedExample:
+
+-   Test module: `-t "/Action-based Testing Basics/Action Based Testing"`
+-   Test suite: `-t "Test Suites/Functional Tests"`
+
+|
+|-tcs\(Optional\)
+
+|Specifies given test case\(s\) or section\(s\) of a test module to be executed, separated by a semicolon \(;\)Example: -tcs "initial;tc01;final"
+
+![](../Images/execute_cmd_tcs.png)
+
+|
+|-rls\(Optional\)
+
+|Specifies the IP address or machine name of the [redundant license server](../../TA_Administration/Topics/LS_TA_Redundant_license.html)Example: `-rls "192.168.167.134:14101"`
+
+**Note:**
+
+-   The port number must fall within a range of 14101-14199.
+-   The default port number is 14101
+
+|
+|-rs\(Optional\)
+
+|Specifies the IP address or machine name of the repository server. Example: -rs 192.168.167.134:53400
+
+**Note:**
+
+-   The port number must fall within a range of 53400 to 53499
+-   The default machine name is localhost and port number is 53400.
+
+|
+|-c\(Optional\)
+
+|Specifies the IP address or machine name of the TestArchitect Controller that runs the test.Defined in the Controllers/Devices panel of the Execute Test dialog box
+
+![](../Images/execute_cmd_d_c_dc.png)
+
+Example: -c "localhost:53600"
+
+**Note:**
+
+-   The port number must fall within a range of 53600-53699
+-   The default port number is 53600.
+
+|
+|-d\(Optional\)
+
+|Specifies the IDs of devices to upon which the test are executed, separated by a semicolon \(;\)Defined in the Controllers/Devices panel of the Execute Test dialog box.
+
+|
+|-dc\(Optional\)
+
+|Specifies the JSON file which contains desired capabilities about the target cloud devices. Defined in the Controllers/Devices panel of the Execute Test dialog box.
+
+|
+|-kwd\(Optional\)
+
+|Specifies the keyword variation\(s\) that is applied to the test execution, separated by a semicolon \(;\)Defined within the **Keyword** box in the Execute Test dialog box. \([Learn more](Variations_create_keyword.html).\)
+
+![](../Images/execute_cmd_keywords.png)
+
+Example: -kwd "English;China"
+
+|
+|-lv\(Optional\)
+
+|Linked variation\(s\) to apply to the test execution, separated by a semicolon \(;\)Defined within the **AUT Version** box in the Execute Test dialog box. \([Learn more](Variations_create_linked.html).\)
+
+![](../Images/execute_cmd_versions.png)
+
+Example: -lv "Browser:Firefox; OS:Win8"
+
+|
+|-udf\(Optional\)
+
+|Assigns values to user-defined fields in Result item and the **Build Number** built-in field.The **Build Number** value is defined within the Settings panel of the Execute Test dialog box
+
+![](../Images/execute_cmd_udf.png)
+
+Example: -udf "build number=1.1;run machine=lgvn111"
+
+|
+|-rev\(Optional\)
+
+|Specifies the historical snapshot, based on a given revision timestamp, of the project items invoked by the test run.Defined within the **Time Traveling** box in the Execute Test dialog box. \([Learn more](ug_time_traveling.html).\)
+
+![](../Images/execute_cmd_timetraveling.png)
+
+Example: -rev "08-09-2017 14:40:32.694+0700"
+
+|
+|-ss\(Optional\)
+
+|Specifies the list of [user-defined settings](../../TA_Automation/Topics/aut_startup_settings.html) or reconfigured [built-in settings](../../TA_Automation/Topics/aut_startup_settings.html). Multiple settings are separated by semicolons \(;\)
+
+ Syntax: -ss "<Setting Name\>=<Setting Type\>=<Setting Value\>"
+
+ Options of **Setting Type**:
+
+-   bis: built-in setting
+-   uds: user-defined setting
+
+ Defined within the **Startup Settings** tab in the Execute Test dialog box.
+
+ ![](../Images/execute_cmd_startupsettings.png)
+
+Example: -ss "object wait=bis=1;page wait=bis=234"
+
+|
+|-cc\(Optional\)
+
+|Specifies which types of test outcome events are to have associated screenshots captured and logged during the automated test.Defined within the Screenshot Recording panel of the Execute Test dialog box. [Learn more](ug_Screenshot_recording_capturing.md#step_dfm_5gp_j4).\)
+
+![](../Images/execute_cmd_capturecond.png)
+
+Options: \(Multiple conditions are separated by semicolons\)
+
+-   Passed: Passed events
+-   Failed: Failed events
+-   WE: Passed events with Warnings/Errors
+
+Example: -cc "Passed;Failed;WE"
+
+|
+|-cl\(Optional\)
+
+|Specifies the number of UI-interacting actions preceding each event specified in -capturecond for which the screenshots are to be retained and logged to the results. \(Default: screenshots of all UI-interacting actions are captured and logged.\) Defined within the Screenshot Recording panel of the Execute Test dialog box. \([Learn more](ug_Screenshot_recording_capturing.md#step_hp4_5gp_j4).\)
+
+![](../Images/execute_cmd_capturelimit.png)
+
+Example: -cl "3"
+
+|
+|-r\(Optional\)
+
+|Specifies a name for the test resultDefined within the **Result Name** box of the Execute Test dialog box.
+
+![](../Images/execute_cmd_result.png)
+
+Example: -r "UI Elements"
+
+|
+|-cmt\(Optional\)
+
+|Gives a comment on the testDefined within the **Comment** box of the Execute Test dialog box.
+
+![](../Images/execute_cmd_comment.png)
+
+|
+|-x\(Optional\)
+
+|Specifies the location where the test result report in xUnit form is stored.Defined within the Export Result\(s\) to xUnit panel under the **Advanced Settings** tab of the Execute Test dialog box. \([Learn more](Test_result_export_xUnit.html).\)
+
+![](../Images/execute_cmd_XML.png)
+
+Example: -x "D:\\results"
+
+|
+|-xml\(Optional\)
+
+|Specifies the location to which to store the test result report in XML form.Defined: within the **Export Result\(s\) to XML Detail** panel under the **Advanced Settings** tab of the **Execute Test** dialog box. \([Learn more](Test_result_export_XML.html)\)
+
+![](../Images/execute_cmd_XML.png)
+
+Example: -xml "E:\\results"
+
+|
+|-tares\(Optional\)
+
+|Specifies the location where the test result report in .TARESULT form is stored.Defined within the Export Result\(s\) to TARESULT panel under the **Advanced Settings** tab of the Execute Test dialog box. \([Learn more](ug_test_results_export_local_results_TARESULT.html)\)
+
+![](../Images/execute_cmd_taresult.png)
+
+Example: -tares "D:\\results"
+
+|
+|-subtares\(Optional\)
+
+|Determines whether or not the master result and its subresults are all exported into .TARESULT files.Defined within Result\(s\) to TARESULT panel under the **Advanced Settings** tab of the Execute Test dialog box. \([Learn more](ug_test_results_export_local_results_TARESULT.html).\)
+
+![](../Images/execute_cmd_exportsubtaresults.png)
+
+Options:
+
+-   0: \(Default\) Do not export the master result and its subresults
+-   1: Export the master result and its subresults
+
+|
+|-taresscrn\(Optional\)
+
+|Determines whether or not to keep captured screenshots when exporting test results to .TARESULT files.In the Execute Test dialog box, this parameter corresponds to the Export Result\(s\) to TARESULT panel of the **Advanced Settings** tab. \([Learn more](ug_test_results_export_local_results_TARESULT.html).\)
+
+![](../Images/execute_cmd_exportscreenshotcondtaresult.png)
+
+Options:
+
+-   0: \(Default\) Do not export captured screenshots.
+-   1: Export screenshots.
+
+|
+|-html\(Optional\)
+
+|Specifies the location and filename to which the test result report in HTML form is stored.Defined within the Export Result\(s\) to HTML panel under the **Advanced Settings** tab of the Execute Test dialog box. \([Learn more](Test_result_export_HTML.html).\)
+
+![](../Images/execute_cmd_htmlresult.png)
+
+Example: -html "D:\\results"
+
+|
+|-xsl\(Optional\)
+
+|Specifies the location to store the customized XSLT template applied for HTML results.Defined within the Apply customized XSLT template panel. \([Learn more](Test_result_export_HTML.html).\)
+
+![](../Images/execute_cmd_xsl.png)
+
+Example: -xls "C:\\Program Files\(x86\)\\LogiGear\\TestArchitect\\templates\\xsl"
+
+|
+|-subfld\(Optional\)
+
+|Determines whether or not a flat structure directory or a folder structure directory is employed to store HTML results.Defined within the Export Result\(s\) to HTML panel under the **Advanced Settings** tab of the Execute Test dialog box. \([Learn more](Test_result_export_HTML.html).\)
+
+![](../Images/execute_cmd_subfld.png)
+
+Options:
+
+-   0: Flat structure, that is, TestArchitect does not create subdirectories. There is only one top-level directory which contains all HTML results.
+-   1: \(Default\) Folder structure, that is, TestArchitect creates a hierarchical tree structure, or subdirectories to store HTML results.
+
+Example: -subfld "1"
+
+|
+|-subhtml\(Optional\)
+
+|Determines whether or not the master result and its subresults are all exported into HTML files. Defined within the Export Result\(s\) to HTML panel under the **Advanced Settings** tab of the Execute Test dialog box. \([Learn more](Test_result_export_HTML.html).\)
+
+![](../Images/execute_cmd_exportsubresults.png)
+
+Options:
+
+-   0: \(Default\) Do not export the master result and its subresults
+-   1: Export the master result and its subresults
+
+Example: -subhtml "1"
+
+|
+|-htmlscrn\(Optional\)
+
+|Determines whether or not to keep captured screenshots when exporting test results to HTML. In the Execute Test dialog box, this parameter corresponds to the Export Result\(s\) to HTML panel of the **Advanced Settings** tab. \([Learn more](Test_result_export_HTML.html).\)
+
+![](../Images/execute_cmd_exportscreenshotcond.png)
+
+Options:
+
+-   0: \(Default\) Do not export captured screenshots.
+-   1: Screenshots are exported as thumbnail images.
+-   2: Screenshots are exported in their original, full size resolution.
+
+Example: `-htmlscrn "2"`|
+|-up\(Optional\)
+
+|Specifies the path to the repository result folder where the test result is to be stored.Defined within the Automatically add result\(s\) to repository panel under the **Advanced Settings** tab of the Execute Test dialog box. \([Learn more](Test_result_storing_automatically.html).\)
+
+![](../Images/execute_cmd_uploadtorepo.png)
+
+Example: -up "/Car Rental/Results"
+
+|
+|-upc\(Optional\)
+
+|Specifies which types of test results are to be automatically stored to the repository after execution completes.![](../Images/execute_cmd_uploadcond.png)
+
+For detailed information on how to have TestArchitect store test results automatically based on pre-defined conditions, refer to [Adding test results automatically](Test_result_storing_automatically.html).
+
+Options: \(separate multiple conditions with commas, terminate the string with a semicolon\)
+
+-   [Passed](ug_test_results_status.html): Passed test results
+-   [Failed](ug_test_results_status.html): Failed test results
+-   [WE](ug_test_results_status.html): Passed test results with Warnings/Errors
+-   [KB](ug_test_results_status.html): Passed test results with known bug
+-   [NF](ug_test_results_status.html): Incomplete test results.
+
+Example: -upc "Passed,Failed,WE,KB,NF"
+
+|
+|-upe\(Optional\)
+
+|Specifies a destination path plus other configuration options for the currently configured external test tool, such as [Team Foundation Server](ug_MTM_def.html) \(TFS\) or [HP Quality Center](Integration_QC_intro.html) .![](../Images/execute_cmd_uploadext.png)
+
+**Note:**
+
+-   Please contact LogiGear Support if you need details of how to configure this parameter by hand.
+-   When running a batch file that uploads to a given external tool, you must ensure that the host repository is currently configured for that same tool.
+    -   TFS \([on-premises Team Foundation Server](ug_MTM_setting_up_environment.html) and [Azure DevOps](Azure_DevOps_running_automated_tests.html)\)
+    -   HP Quality Center \([Learn more](Integration_QC_connecting_repo_to_QC_server.html).\)
+
+|
+|-w\(Optional\)
+
+|Specifies Work Item Query Language used to query for [test points](ug_MTM_WIQL_reference.html) on TFS. This argument only takes effect with TFS integration and TFS Helper upload method. \([Learn more](ug_MTM_upload_result_automatic.html).\)![](../Images/execute_cmd_wiql.png)
+
+|
+|-uptst\(Optional\)
+
+|To automatically upload result to TFS. Specifies Test Plan Settings used to query a collection of satisfied TFS test cases . This argument only takes effect with TFS integration and Rest API upload method. \([Learn more](ug_MTM_upload_result_automatic.html).\)![](../Images/execute_cmd_tst.png)
+
+For specifies information of Test Plan Settings, TestArchitect support user a list of arguments to do this.
+
+![](../Images/execute_cmd_tst_info.png)
+
+-   planid\(required\): Specify the Test Plan ID
+-   suiteid\(required\): Specify the Test Suite ID
+-   configurationid\(optional\): Specify the Configuration ID
+-   recursive\(required\): Default value "true". TestArchitect will scan all the sub-folder\(s\) for desired test case\(s\).
+
+**Note:** Those arguments support environment variable with the argument value inside curly brackets,i.e. \{planid\}
+
+
+For example: -uptst "planid= 1;suiteid= 2;configurationid= 1;recursive=true"
+
+Example with environment variables: -uptst "planid=\{planid\};suiteid=\{suiteid\};configurationid=\{configurationid\};recursive=true"
+
+|
+|-uprst\(Optional\)
+
+|To automatically upload result to TFS. Specifies Test Run Settings used to to query a collection of satisfied TFS test cases. This argument only takes effect with TFS integration and Rest API upload method. \([Learn more](ug_MTM_upload_result_automatic.html).\)![](../Images/execute_cmd_rst.png)
+
+For specifies information of Test Run Settings, TestArchitect support user a list of arguments to do this.
+
+![](../Images/execute_cmd_rst_info.png)
+
+-   runid\(required\): Specify the Test Run ID
+-   configurationid\(optional\): Specify the Configuration ID
+
+**Note:** Those arguments support environment variable with the argument value inside curly brackets.i.e \{runid\}
+
+
+ For example: -uptst "runid=87;configurationid=1"Example with environment variables: -uptst "runid=\{runid\};configurationid=\{configurationid\}"
+
+|
+|-upec\(Optional\)
+
+|Specifies which associated Team Foundation Server \(TFS\) test cases are to receive links to the attached test result. This determination is based, for each given test case, on its result in terms of its TFS outcome.This argument only takes effect with TFS integration. \([Learn more](ug_MTM_upload_result_automatic.html).\)
+
+![](../Images/execute_cmd_uploadextcond.png)
+
+Options: \(multiple conditions are separated by commas\)
+
+-   Passed: Attach the TA test result file if the test case's TFS outcome is Passed.
+-   Inconclusive: Attach the TA test result file if the test case's TFS outcome is Inconclusive.
+-   Failed: Attach the TA test result file if the test case's TFS outcome is Failed.
+
+Example: -upec "Failed,Inconclusive,Passed"
+
+|
+|-upet\(Optional\)
+
+|Specifies the format of the test results uploaded to the external test tool, when the automated tests are run through TestArchitect.This argument only takes effect with TFS integration. \([Learn more](ug_MTM_upload_result_automatic.html).\)
+
+![](../Images/execute_cmd_uploadfiletype.png)
+
+Options:
+
+-   html: HTML format
+-   zip: ZIP format
+-   <max html file size\>: TestArchitect uploads the result as an HTML file if the file's size does not exceed the specified limit. If the limit is exceeded, it is compressed and uploaded as a ZIP file.
+
+Example: -upet "HTML"
+
+|
+|-xsltfs\(Optional\)
+
+|Specifies the location to store the customized XSLT template applied for HTML results attached to TFS.This argument only takes effect with TFS-MTM integration.
+
+Defined within the Apply customized XSLT template panel \([Learn more](ug_MTM_upload_result_automatic.md#step_XSLT.template).\)
+
+![](../Images/execute_cmd_xsltfs.png)
+
+|
+|-tscript\(Optional\)
+
+|Specifies script's path for the test playback tool.Defined in the Automation Tools dialog box.
+
+![](../Images/execute_cmd_toolscript_toolcmd_toolpath.png)
+
+|
+|-tcmd\(Optional\)
+
+|Executes a command to run test automation with a customized harness program.Defined in the Automation Tools dialog box.
+
+|
+|-tpath\(Optional\)
+
+|Specifies the executable application's path to run the test.Defined in the Automation Tools dialog box.
+
+|
+|-dl\(Optional\)
+
+|Specifies the delay time between actions.|
+|-compileonly\(Optional\)
+
+|Changes the generated batch file to only compile tests and not run the tests when the batch file executes.**Note:** -compileonly cannot be specified from the Execute Test dialog box. You may find it useful to add this flag to an existing batch file enabling a switch to the command from execution to compilation.
+
+|
+
+**Parent topic:**[TestArchitect command line tool](../../TA_Help/Topics/TA_command_line_tool.html)
+
+**Previous topic:**[delete command](../../TA_Help/Topics/TA_command_line_delete.html)
+
+**Next topic:**[export command](../../TA_Help/Topics/TA_command_line_export.html)
+

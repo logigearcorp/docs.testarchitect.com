@@ -171,9 +171,9 @@
   function searchRemote(query, page) {
     var currentLanguage = readCookie('googtrans');
     if(currentLanguage !== undefined) {
-      var searchHost = 'https://glowing-harmony-272303.appspot.com/ja?q=';
+      var searchHost = 'http://glowing-harmony-272303.appspot.com/ja?q=';
      } else {
-      var searchHost = 'https://glowing-harmony-272303.appspot.com/?q=';
+      var searchHost = 'http://glowing-harmony-272303.appspot.com/?q=';
      }
 
     var $results = $("main");
@@ -228,7 +228,7 @@ setTimeout(function(){ $("#search-header").val(""); }, 1000);
   function renderResults(res, query) {
     var $results = $("main");
     if (res.results.length < 1) {
-      $results.append($("<div>", {html: "<h3>Sorry we couldn't find any matches for <span class='search-query'>"+query +'</span></h3>'}));
+      $results.append($("<div>", {text: 'There no result'}));
       return ;
     }
 

@@ -1,0 +1,63 @@
+--- 
+title: "get screen orientation"
+linktitle: "get screen orientation"
+aliases: 
+    - /TA_Automation/Topics/bia_get_screen_orientation.html
+---
+# get screen orientation {#bia_get_screen_orientation .reference}
+
+## Description { .section}
+
+Return the current orientation of the mobile device.
+
+## Arguments { .section}
+
+variable
+:   \(Optional\) Variable to receive the returned value.
+
+:   Possible returned values:
+
+    -   portrait
+    -   landscape
+
+## Valid contexts { .section}
+
+This action may be used within the following project items:test modules and user-defined actions.
+
+## Applicable Systems/Platforms {#section_jft_bcl_zcb .section}
+
+Use of this action is supported on the following systems/platforms: iOS.
+
+## Notes { .section}
+
+-   If the variable in argumentvariablehas not been declared, the action creates it as a global.
+-   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
+-   This action supports the [<ignore\>](../../reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+
+## Applicable Built-In Settings { .section}
+
+The following settings are applicable to this action:[remove double quotes from cells](bis_remove_double_quotes_from_cells.html).
+
+## Example { .section}
+
+![](../Images/Android_phone.portrait_mode.jpg)
+
+**Action Lines**
+
+![](../Images/bia_get_screen_orientation_pgm.png)
+
+**Result**
+
+![](../Images/bia_get_screen_orientation_res.png)
+
+**Parent topic:**[Device](../../TA_Automation/Topics/bia_device.html)
+
+**Previous topic:**[get displayed text](../../TA_Automation/Topics/bia_get_displayed_text.html)
+
+**Next topic:**[kill process](../../TA_Automation/Topics/bia_kill_process.html)
+
+**Related information**  
+
+
+[set screen orientation](../../TA_Automation/Topics/bia_set_screen_orientation.html)
+

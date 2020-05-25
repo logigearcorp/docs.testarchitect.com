@@ -1,0 +1,25 @@
+--- 
+title: "Configuring integration with Zephyr"
+linktitle: "Configuring integration with Zephyr"
+aliases: 
+    - /TA_Help/Topics/ug_Zephyr_configuring.html
+---
+# Configuring integration with Zephyr {#concept_sls_r43_jp .concept}
+
+Establishing and terminating communications between TestArchitect and Zephyr.
+
+**Important:** TestArchitect-Zephyr integration supports the following versions of Zephyr.
+
+-   [6.2](https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/550633474/6.2+Release+Notes)
+    -   [Zephyr Cloud](https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/263521484/Zephyr+Enterprise+Cloud+Requirements)
+    -   TestArchitect 8.4 Update 4 & 5
+
+1.  [Setting up the connection with Zephyr](../../TA_Help/Topics/ug_Zephyr_setting_up_connection.html)  
+Before you start working with Zephyr, you need to set up TestArchitect and Zephyr.
+2.  [Disconnecting from the Zephyr server](../../TA_Help/Topics/ug_Zephyr_disconnection.html)  
+If it is no longer required, you may terminate the connection between the Zephyr server and your TestArchitect repository.
+
+**Parent topic:**[Zephyr integration](../../TA_Help/Topics/ug_Zephyr.html)
+
+**Next topic:**[Notice about integrating TestArchitect with Zephyr](../../TA_Help/Topics/ug_Zephyr_notice.html)
+
