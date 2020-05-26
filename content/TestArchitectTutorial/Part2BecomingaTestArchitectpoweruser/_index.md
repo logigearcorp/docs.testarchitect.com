@@ -1,6 +1,7 @@
 --- 
 title: "Part 2: Becoming a TestArchitect power user"
 linktitle: "Part 2: Becoming a TestArchitect power user"
+weight: 2
 aliases: 
     - /TA_Tutorials/Topics/tut_part2_becoming_power_user.html
 ---

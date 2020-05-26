@@ -1,6 +1,7 @@
 --- 
 title: "Finding bugs with TestArchitect"
 linktitle: "Finding bugs with TestArchitect"
+weight: 11
 aliases: 
     - /TA_Help/Topics/Debugging_finding_bugs.html
 ---

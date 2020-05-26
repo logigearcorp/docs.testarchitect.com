@@ -1,6 +1,7 @@
 --- 
 title: "Projects and project items"
 linktitle: "Projects and project items"
+weight: 4
 aliases: 
     - /TA_Help/Topics/Projects_and_project_items.html
 ---

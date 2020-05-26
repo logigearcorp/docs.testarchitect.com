@@ -1,6 +1,7 @@
 --- 
 title: "Functions"
 linktitle: "Functions"
+weight: 3
 aliases: 
     - /TA_Automation/Topics/The_test_language_functions.html
 ---

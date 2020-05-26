@@ -1,6 +1,7 @@
 --- 
 title: "Part 3: Extending TestArchitect"
 linktitle: "Part 3: Extending TestArchitect"
+weight: 3
 aliases: 
     - /TA_Tutorials/Topics/tut_part3_extending_TA.html
 ---

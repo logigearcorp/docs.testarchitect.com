@@ -1,6 +1,7 @@
 --- 
 title: "Support"
 linktitle: "Support"
+weight: 18
 aliases: 
     - /TA_Help/Topics/Support.html
 ---

@@ -1,6 +1,7 @@
 --- 
 title: "The test language"
 linktitle: "The test language"
+weight: 1
 aliases: 
     - /TA_Automation/Topics/The_test_language.html
 ---

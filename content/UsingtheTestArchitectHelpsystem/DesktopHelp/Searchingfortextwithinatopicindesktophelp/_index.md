@@ -1,6 +1,7 @@
 --- 
 title: "Searching for text within a topic in desktop help"
 linktitle: "Searching for text within a topic in desktop help"
+weight: 4
 aliases: 
     - /TA_UsingHelpSystem/Topics/hs_CHM_search_text.html
 ---

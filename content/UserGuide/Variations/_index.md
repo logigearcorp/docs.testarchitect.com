@@ -1,6 +1,7 @@
 --- 
 title: "Variations"
 linktitle: "Variations"
+weight: 9
 aliases: 
     - /TA_Help/Topics/Variations.html
 ---

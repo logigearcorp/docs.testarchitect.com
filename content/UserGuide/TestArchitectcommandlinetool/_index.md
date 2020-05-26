@@ -1,6 +1,7 @@
 --- 
 title: "TestArchitect command line tool"
 linktitle: "TestArchitect command line tool"
+weight: 14
 aliases: 
     - /TA_Help/Topics/TA_command_line_tool.html
 ---

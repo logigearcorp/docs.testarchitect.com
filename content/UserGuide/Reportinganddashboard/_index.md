@@ -1,6 +1,7 @@
 --- 
 title: "Reporting and dashboard"
 linktitle: "Reporting and dashboard"
+weight: 15
 aliases: 
     - /TA_Help/Topics/Reporting_dashboard_def.html
 ---

@@ -1,0 +1,22 @@
+--- 
+title: "Setting 100% zoom"
+linktitle: "Setting 100% zoom"
+weight: 2
+aliases: 
+    - /TA_Automation/Topics/aut_app_testing_setting_zoom_GC.html
+---
+# Setting 100% zoom {#task_qrh_5dv_z4 .task}
+
+TestArchitect requires that the browser zoom be set to 100% to correctly identify HTML controls and their positions on web pages.
+
+Google Chrome uses 100% zoom by default. If you changed the zoom manually, you can restore it by doing one of the following
+
+-   Press Ctrl + 0.
+
+-   Click Chrome's **Customize and control Google Chrome** ![](../Images/Chrome_btn.png) button. From the drop-down menu, use the **+** or **-** button of the **Zoom** menu item to set the value to 100%.
+
+
+**Parent topic:**[Preparing Google Chrome for web testing](../../TA_Help/Topics/ug_preparing_Chrome.html)
+
+**Previous topic:**[Configuring Google Chrome](../../TA_Automation/Topics/aut_setting_switches_GC.html)
+

@@ -1,6 +1,7 @@
 --- 
 title: "Repository Server Management"
 linktitle: "Repository Server Management"
+weight: 1
 aliases: 
     - /TA_Administration/Topics/Repo_server_management.html
 ---

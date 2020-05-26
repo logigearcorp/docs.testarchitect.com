@@ -1,6 +1,7 @@
 --- 
 title: "Built-in settings"
 linktitle: "Built-in settings"
+weight: 3
 aliases: 
     - /TA_Automation/Topics/bis_Built_in_settings.html
 ---

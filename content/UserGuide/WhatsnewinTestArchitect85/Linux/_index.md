@@ -1,6 +1,7 @@
 --- 
 title: "What's new in TestArchitect for Linux"
 linktitle: "Linux"
+weight: 2
 aliases: 
     - /TA_ReleaseNotes/DITA_source/Whats_New_Linux.html
 ---

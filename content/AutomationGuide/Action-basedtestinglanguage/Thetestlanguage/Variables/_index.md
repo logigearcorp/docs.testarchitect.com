@@ -1,6 +1,7 @@
 --- 
 title: "Variables"
 linktitle: "Variables"
+weight: 1
 aliases: 
     - /TA_Automation/Topics/The_test_language_variables.html
 ---

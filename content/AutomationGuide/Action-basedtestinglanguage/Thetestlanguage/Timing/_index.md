@@ -1,6 +1,7 @@
 --- 
 title: "Timing"
 linktitle: "Timing"
+weight: 8
 aliases: 
     - /TA_Automation/Topics/Automation_practices_Timing.html
 ---

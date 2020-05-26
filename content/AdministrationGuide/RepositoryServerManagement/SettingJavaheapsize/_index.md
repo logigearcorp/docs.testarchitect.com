@@ -1,6 +1,7 @@
 --- 
 title: "Setting Java heap size"
 linktitle: "Setting Java heap size"
+weight: 13
 aliases: 
     - /TA_Administration/Topics/Repo_setting_heap_size.html
 ---

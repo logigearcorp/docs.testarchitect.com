@@ -1,6 +1,7 @@
 --- 
 title: "Default port numbers and port ranges"
 linktitle: "Default port numbers and port ranges"
+weight: 7
 aliases: 
     - /TA_Administration/Topics/adm_port_number_port_ranges.html
 ---

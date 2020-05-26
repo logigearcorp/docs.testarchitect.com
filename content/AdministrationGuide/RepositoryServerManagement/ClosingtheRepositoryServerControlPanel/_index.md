@@ -1,6 +1,7 @@
 --- 
 title: "Closing the Repository Server Control Panel"
 linktitle: "Closing the Repository Server Control Panel"
+weight: 4
 aliases: 
     - /TA_Administration/Topics/Repo_server_management_closing.html
 ---

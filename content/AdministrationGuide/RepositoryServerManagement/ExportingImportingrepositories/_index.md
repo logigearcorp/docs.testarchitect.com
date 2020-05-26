@@ -1,6 +1,7 @@
 --- 
 title: "Exporting/Importing repositories"
 linktitle: "Exporting/Importing repositories"
+weight: 8
 aliases: 
     - /TA_Administration/Topics/adm_Exporting_import_repository.html
 ---

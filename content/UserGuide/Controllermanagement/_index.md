@@ -1,6 +1,7 @@
 --- 
 title: "Controller management"
 linktitle: "Controller management"
+weight: 12
 aliases: 
     - /TA_Help/Topics/Controller_management.html
 ---

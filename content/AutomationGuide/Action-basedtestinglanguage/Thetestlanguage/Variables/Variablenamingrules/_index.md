@@ -1,6 +1,7 @@
 --- 
 title: "Variable naming rules"
 linktitle: "Variable naming rules"
+weight: 1
 aliases: 
     - /TA_Automation/Topics/The_test_language_variable_naming.html
 ---

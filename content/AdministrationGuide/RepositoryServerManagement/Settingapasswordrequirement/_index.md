@@ -1,6 +1,7 @@
 --- 
 title: "Setting a password requirement"
 linktitle: "Setting a password requirement"
+weight: 7
 aliases: 
     - /TA_Administration/Topics/Repo_server_management_setting_pw.html
 ---

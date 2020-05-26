@@ -1,6 +1,7 @@
 --- 
 title: "Launching the Repository Server Control Panel"
 linktitle: "Launching the Repository Server Control Panel"
+weight: 1
 aliases: 
     - /TA_Administration/Topics/Repo_server_management_launching.html
 ---

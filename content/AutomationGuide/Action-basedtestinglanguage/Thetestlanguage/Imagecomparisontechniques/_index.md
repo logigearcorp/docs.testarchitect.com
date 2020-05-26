@@ -1,6 +1,7 @@
 --- 
 title: "Image comparison techniques"
 linktitle: "Image comparison techniques"
+weight: 10
 aliases: 
     - /TA_Automation/Topics/aut_image_comparison_techniques.html
 ---

@@ -1,0 +1,44 @@
+--- 
+title: "License Server installation on Windows"
+linktitle: "Windows"
+weight: 2
+aliases: 
+    - /TA_InstallationGuide/DITA_source/Topics/inst_LS_Windows.html
+---
+# License Server installation on Windows {#task_zl4_kfd_qw .task}
+
+How to install TestArchitect License Server on Windows.
+
+1.  Double-click the TestArchitectLicenseServer.exe installation file to begin the installation process.
+
+    The Welcome dialog box appears. This contains the license agreement specifying the conditions of TestArchitect software usage.
+
+2.  Please read through the license agreement and then click **I Agree** to indicate your agreement with the license terms.
+
+    ![](../Images/install_LS_Wins_1.png)
+
+3.  In the Configuration dialog box, use the **Browse** buttons to choose the program and data locations for the TestArchitect License Server or, alternatively, accept the default locations.
+
+    ![](../Images/install_LS_Wins_2.png)
+
+4.  Click **Next** to continue.
+
+5.  On the Ready to Install the Program dialog box, click **Install** to begin installing the License Server.
+
+    ![](../Images/install_LS_Wins_3.png)
+
+    The Setup Status message box appears to indicate the progress of the installation and the tasks being performed.
+
+6.  Upon completion, the Installation Complete dialog box appears.
+
+    Using the check boxes of this dialog box, you may launch the License Server immediately and/or open the License Server Help.
+
+    ![](../Images/install_LS_Wins_4.png)
+
+7.  Click **Finish**.
+
+
+License Server setup is complete.
+
+**Parent topic:**[License Server installation guide](../../../TA_InstallationGuide/DITA_source/Topics/inst_LS.html)
+

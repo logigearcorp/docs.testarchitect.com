@@ -1,6 +1,7 @@
 --- 
 title: "Summary: What you learned"
 linktitle: "Summary: What you learned"
+weight: 4
 aliases: 
     - /TA_Tutorials/Topics/Summary_Creating_a_simple_test.html
 ---

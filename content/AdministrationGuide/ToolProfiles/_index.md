@@ -1,6 +1,7 @@
 --- 
 title: "Tool Profiles"
 linktitle: "Tool Profiles"
+weight: 4
 aliases: 
     - /TA_Administration/Topics/Test_tool_profile.html
 ---

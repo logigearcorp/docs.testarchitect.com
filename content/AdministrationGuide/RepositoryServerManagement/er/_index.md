@@ -1,6 +1,7 @@
 --- 
 title: "Configuring connection backlog size for a repository server"
 linktitle: "Configuring connection backlog size for a repository server"
+weight: 11
 aliases: 
     - /TA_Administration/Topics/Repo_connection_backlog.html
 ---

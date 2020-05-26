@@ -1,6 +1,7 @@
 --- 
 title: "Microsoft UI Automation"
 linktitle: "Microsoft UI Automation"
+weight: 2
 aliases: 
     - /TA_Automation/Topics/aut_Using_UIA.html
 ---

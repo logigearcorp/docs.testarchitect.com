@@ -1,6 +1,7 @@
 --- 
 title: "TestArchitect Register Server"
 linktitle: "TestArchitect Register Server"
+weight: 6
 aliases: 
     - /TA_Administration/Topics/adm_taregserver.html
 ---

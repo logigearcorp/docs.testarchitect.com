@@ -1,6 +1,7 @@
 --- 
 title: "Deleting a repository"
 linktitle: "Deleting a repository"
+weight: 19
 aliases: 
     - /TA_Administration/Topics/adm_delete_repo.html
 ---

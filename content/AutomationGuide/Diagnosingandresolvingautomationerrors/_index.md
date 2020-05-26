@@ -1,6 +1,7 @@
 --- 
 title: "Diagnosing and resolving automation errors"
 linktitle: "Diagnosing and resolving automation errors"
+weight: 4
 aliases: 
     - /TA_FAQ/Topics/faq.automation_error.html
 ---

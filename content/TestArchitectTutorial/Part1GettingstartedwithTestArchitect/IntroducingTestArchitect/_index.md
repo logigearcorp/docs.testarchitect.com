@@ -1,6 +1,7 @@
 --- 
 title: "Introducing TestArchitect"
 linktitle: "Introducing TestArchitect"
+weight: 1
 aliases: 
     - /TA_Tutorials/Topics/Tutorial_Introducing_TA.html
 ---

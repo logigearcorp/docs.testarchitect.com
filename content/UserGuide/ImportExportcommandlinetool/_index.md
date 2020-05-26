@@ -1,6 +1,7 @@
 --- 
 title: "Import/Export command line tool"
 linktitle: "Import/Export command line tool"
+weight: 17
 aliases: 
     - /TA_Help/Topics/ug_export_import_tool.html
 ---

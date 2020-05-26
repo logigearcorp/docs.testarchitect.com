@@ -1,6 +1,7 @@
 --- 
 title: "Tests"
 linktitle: "Tests"
+weight: 5
 aliases: 
     - /TA_Help/Topics/Project_items_tests.html
 ---

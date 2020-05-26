@@ -1,6 +1,7 @@
 --- 
 title: "TestArchitect Automation Classes"
 linktitle: "TestArchitect Automation Classes"
+weight: 4
 aliases: 
     - /TA_Automation/Topics/abt_automation_classes.html
 ---

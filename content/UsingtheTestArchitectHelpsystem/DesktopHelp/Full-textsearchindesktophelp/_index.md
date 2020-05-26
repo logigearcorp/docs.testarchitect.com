@@ -1,6 +1,7 @@
 --- 
 title: "Full-text search in desktop help"
 linktitle: "Full-text search in desktop help"
+weight: 3
 aliases: 
     - /TA_UsingHelpSystem/Topics/hs_CHM_full_text_search.html
 ---

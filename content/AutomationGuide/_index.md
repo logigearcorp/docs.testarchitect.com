@@ -1,6 +1,7 @@
 --- 
 title: "Automation Guide"
 linktitle: "Automation Guide"
+weight: 5
 aliases: 
     - /TA_Automation/Topics/Automation_Guide_begin.html
 ---

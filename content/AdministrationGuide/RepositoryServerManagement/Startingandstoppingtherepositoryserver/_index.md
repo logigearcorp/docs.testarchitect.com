@@ -1,6 +1,7 @@
 --- 
 title: "Starting and stopping the repository server"
 linktitle: "Starting and stopping the repository server"
+weight: 3
 aliases: 
     - /TA_Administration/Topics/Repo_server_management_starting_stopping.html
 ---

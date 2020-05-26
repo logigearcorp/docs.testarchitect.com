@@ -1,6 +1,7 @@
 --- 
 title: "Version history"
 linktitle: "Version history"
+weight: 2
 aliases: 
     - /TA_ReleaseNotes/DITA_source/Version_History.html
 ---

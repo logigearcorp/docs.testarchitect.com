@@ -1,6 +1,7 @@
 --- 
 title: "Adding a repository"
 linktitle: "Adding a repository"
+weight: 6
 aliases: 
     - /TA_Administration/Topics/Repo_server_management_adding.html
 ---

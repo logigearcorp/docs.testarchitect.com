@@ -1,6 +1,7 @@
 --- 
 title: "Using local help documentation in offline mode on Linux and macOS"
 linktitle: "Using local help documentation in offline mode on Linux and macOS"
+weight: 1
 aliases: 
     - /TA_UsingHelpSystem/Topics/hs_local_help_linux_macOS.html
 ---

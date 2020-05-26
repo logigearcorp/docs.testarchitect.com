@@ -1,6 +1,7 @@
 --- 
 title: "Changing repository server port number"
 linktitle: "Changing repository server port number"
+weight: 10
 aliases: 
     - /TA_Administration/Topics/Repo_changing_port.html
 ---

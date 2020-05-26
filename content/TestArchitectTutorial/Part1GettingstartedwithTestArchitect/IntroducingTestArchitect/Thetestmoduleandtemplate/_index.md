@@ -1,6 +1,7 @@
 --- 
 title: "The test module and template"
 linktitle: "The test module and template"
+weight: 3
 aliases: 
     - /TA_Tutorials/Topics/The_test_module_template.html
 ---

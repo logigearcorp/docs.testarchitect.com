@@ -1,6 +1,7 @@
 --- 
 title: "Actions"
 linktitle: "Actions"
+weight: 6
 aliases: 
     - /reuse/reuse.Creating_and_using_actions.html
 ---

@@ -1,6 +1,7 @@
 --- 
 title: "Test editor basics"
 linktitle: "Test editor basics"
+weight: 4
 aliases: 
     - /TA_Tutorials/Topics/Test_editor_basics.html
 ---

@@ -1,6 +1,7 @@
 --- 
 title: "Stopping the repository server"
 linktitle: "Stopping the repository server"
+weight: 2
 aliases: 
     - /TA_Administration/Topics/Stopping_repository_server.html
 ---

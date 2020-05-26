@@ -1,6 +1,7 @@
 --- 
 title: "What's new in TestArchitect for Windows"
 linktitle: "Windows"
+weight: 1
 aliases: 
     - /TA_ReleaseNotes/DITA_source/Whats_New_Windows.html
 ---

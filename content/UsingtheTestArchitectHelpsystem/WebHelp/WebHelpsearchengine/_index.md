@@ -1,6 +1,7 @@
 --- 
 title: "WebHelp search engine"
 linktitle: "WebHelp search engine"
+weight: 3
 aliases: 
     - /TA_UsingHelpSystem/Topics/hs_WebHelp_full_text_search.html
 ---

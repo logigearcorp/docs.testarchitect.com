@@ -1,6 +1,7 @@
 --- 
 title: "Running a test and viewing the results"
 linktitle: "Running a test and viewing the results"
+weight: 3
 aliases: 
     - /TA_Tutorials/Topics/Running_a_test.html
 ---

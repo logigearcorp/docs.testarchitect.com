@@ -1,6 +1,7 @@
 --- 
 title: "Action-based testing language"
 linktitle: "Action-based testing language"
+weight: 1
 aliases: 
     - /TA_Automation/Topics/Action_based_testing_language.html
 ---

@@ -1,6 +1,7 @@
 --- 
 title: "Logging on to the sample repository"
 linktitle: "Logging on to the sample repository"
+weight: 1
 aliases: 
     - /TA_Tutorials/Topics/Logging_in_to_sample_repo.html
 ---

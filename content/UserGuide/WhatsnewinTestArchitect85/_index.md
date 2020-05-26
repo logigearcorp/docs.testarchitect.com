@@ -1,6 +1,7 @@
 --- 
 title: "What's new in TestArchitect 8.5"
 linktitle: "What's new in TestArchitect 8.5"
+weight: 1
 aliases: 
     - /TA_ReleaseNotes/DITA_source/Whats_New.html
 ---

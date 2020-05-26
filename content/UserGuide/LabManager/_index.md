@@ -1,6 +1,7 @@
 --- 
 title: "Lab Manager"
 linktitle: "Lab Manager"
+weight: 16
 aliases: 
     - /TA_Help/Topics/Lab_manager.html
 ---

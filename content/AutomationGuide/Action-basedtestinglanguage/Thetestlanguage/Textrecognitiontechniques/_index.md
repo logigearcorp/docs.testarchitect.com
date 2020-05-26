@@ -1,6 +1,7 @@
 --- 
 title: "Text recognition techniques"
 linktitle: "Text recognition techniques"
+weight: 11
 aliases: 
     - /TA_Automation/Topics/aut_text_recognition_techniques.html
 ---

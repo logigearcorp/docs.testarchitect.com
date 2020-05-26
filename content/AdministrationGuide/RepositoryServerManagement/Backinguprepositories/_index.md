@@ -1,6 +1,7 @@
 --- 
 title: "Backing up repositories"
 linktitle: "Backing up repositories"
+weight: 9
 aliases: 
     - /TA_Administration/Topics/Repo_server_management_bk.html
 ---

@@ -1,6 +1,7 @@
 --- 
 title: "Clearing hit list periodically"
 linktitle: "Clearing hit list periodically"
+weight: 18
 aliases: 
     - /TA_Administration/Topics/adm_clear_hitlist.html
 ---

@@ -1,6 +1,7 @@
 --- 
 title: "Desktop Help"
 linktitle: "Desktop Help"
+weight: 3
 aliases: 
     - /TA_UsingHelpSystem/Topics/hs_CHM.html
 ---

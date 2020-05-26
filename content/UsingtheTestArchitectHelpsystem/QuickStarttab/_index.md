@@ -1,6 +1,7 @@
 --- 
 title: "Quick Start tab"
 linktitle: "Quick Start tab"
+weight: 2
 aliases: 
     - /TA_Help/Topics/Quick_start.html
 ---

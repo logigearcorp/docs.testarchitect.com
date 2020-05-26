@@ -1,6 +1,7 @@
 --- 
 title: "Administration Guide"
 linktitle: "Administration Guide"
+weight: 4
 aliases: 
     - /TA_Administration/Topics/Administration_Guide_begin.html
 ---

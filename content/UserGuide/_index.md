@@ -1,6 +1,7 @@
 --- 
 title: "User Guide"
 linktitle: "User Guide"
+weight: 3
 aliases: 
     - /TA_Help/Topics/User_Guide_begin.html
 ---

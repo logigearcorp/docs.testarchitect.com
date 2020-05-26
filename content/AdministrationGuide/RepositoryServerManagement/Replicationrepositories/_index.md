@@ -1,6 +1,7 @@
 --- 
 title: "Replication repositories"
 linktitle: "Replication repositories"
+weight: 12
 aliases: 
     - /TA_Administration/Topics/Repo_server_management_replication_repo.html
 ---

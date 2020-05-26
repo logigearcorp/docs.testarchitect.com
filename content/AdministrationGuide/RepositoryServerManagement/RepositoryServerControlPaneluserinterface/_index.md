@@ -1,6 +1,7 @@
 --- 
 title: "Repository Server Control Panel user interface"
 linktitle: "Repository Server Control Panel user interface"
+weight: 2
 aliases: 
     - /TA_Administration/Topics/Repo_server_management_control_panel.html
 ---

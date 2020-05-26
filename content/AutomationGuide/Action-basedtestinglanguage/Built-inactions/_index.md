@@ -1,6 +1,7 @@
 --- 
 title: "Built-in actions"
 linktitle: "Built-in actions"
+weight: 2
 aliases: 
     - /TA_Automation/Topics/bia_Built_in_actions.html
 ---

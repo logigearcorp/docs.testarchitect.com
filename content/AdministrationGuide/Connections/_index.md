@@ -1,6 +1,7 @@
 --- 
 title: "Connections"
 linktitle: "Connections"
+weight: 8
 aliases: 
     - /TA_Administration/Topics/Connections.html
 ---

@@ -1,6 +1,7 @@
 --- 
 title: "Legal and usage information"
 linktitle: "Legal and usage information"
+weight: 20
 aliases: 
     - /TA_Help/Topics/Legal_and_contact_information.html
 ---

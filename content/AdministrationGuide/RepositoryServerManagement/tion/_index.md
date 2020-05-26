@@ -1,6 +1,7 @@
 --- 
 title: "Upgrading the repository database for name change propagation"
 linktitle: "Upgrading the repository database for name change propagation"
+weight: 16
 aliases: 
     - /TA_Administration/Topics/Repo_database_upgrade.html
 ---

@@ -1,6 +1,7 @@
 --- 
 title: "Integration with third-party tools"
 linktitle: "Integration with third-party tools"
+weight: 8
 aliases: 
     - /TA_Help/Topics/Integration_def.html
 ---

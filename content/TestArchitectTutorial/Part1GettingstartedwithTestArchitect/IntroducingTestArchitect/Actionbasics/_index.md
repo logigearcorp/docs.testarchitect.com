@@ -1,6 +1,7 @@
 --- 
 title: "Action basics"
 linktitle: "Action basics"
+weight: 2
 aliases: 
     - /TA_Tutorials/Topics/Action_basics.html
 ---

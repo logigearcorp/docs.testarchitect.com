@@ -1,6 +1,7 @@
 --- 
 title: "Getting started"
 linktitle: "Getting started"
+weight: 3
 aliases: 
     - /TA_Help/Topics/Getting_started.html
 ---

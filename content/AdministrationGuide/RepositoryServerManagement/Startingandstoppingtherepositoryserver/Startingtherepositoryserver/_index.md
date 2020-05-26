@@ -1,6 +1,7 @@
 --- 
 title: "Starting the repository server"
 linktitle: "Starting the repository server"
+weight: 1
 aliases: 
     - /TA_Administration/Topics/Starting_repository_server.html
 ---

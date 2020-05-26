@@ -1,6 +1,7 @@
 --- 
 title: "Using local help documentation in offline mode on Windows"
 linktitle: "Using local help documentation in offline mode on Windows"
+weight: 1
 aliases: 
     - /TA_UsingHelpSystem/Topics/hs_local_help_Windows.html
 ---

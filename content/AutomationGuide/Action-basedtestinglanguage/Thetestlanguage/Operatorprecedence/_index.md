@@ -1,6 +1,7 @@
 --- 
 title: "Operator precedence"
 linktitle: "Operator precedence"
+weight: 5
 aliases: 
     - /TA_Automation/Topics/aut_operator_precedence.html
 ---

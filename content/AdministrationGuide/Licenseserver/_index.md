@@ -1,6 +1,7 @@
 --- 
 title: "License server for TestArchitect"
 linktitle: "License server"
+weight: 5
 aliases: 
     - /TA_Administration/Topics/LS_TA_License_server.html
 ---

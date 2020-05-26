@@ -1,6 +1,7 @@
 --- 
 title: "What's new in TestArchitect for macOS"
 linktitle: "macOS"
+weight: 3
 aliases: 
     - /TA_ReleaseNotes/DITA_source/Whats_New_Mac.html
 ---

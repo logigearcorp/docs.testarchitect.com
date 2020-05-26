@@ -1,6 +1,7 @@
 --- 
 title: "TestArchitect Tutorial"
 linktitle: "TestArchitect Tutorial"
+weight: 2
 aliases: 
     - /TA_Tutorials/Topics/Tutorials_Managing_Tests_with_TestArchitect.html
 ---

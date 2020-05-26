@@ -1,6 +1,7 @@
 --- 
 title: "Application testing"
 linktitle: "Application testing"
+weight: 3
 aliases: 
     - /TA_Automation/Topics/aut_app_testing.html
 ---

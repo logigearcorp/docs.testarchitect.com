@@ -1,6 +1,7 @@
 --- 
 title: "Lesson \\#1: Creating a simple test"
 linktitle: "Lesson \\#1: Creating a simple test"
+weight: 2
 aliases: 
     - /TA_Tutorials/Topics/Tutorial_Creating_a_simple_test.html
 ---

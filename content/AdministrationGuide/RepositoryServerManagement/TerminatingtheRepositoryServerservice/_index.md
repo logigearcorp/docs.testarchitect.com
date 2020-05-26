@@ -1,6 +1,7 @@
 --- 
 title: "Terminating the Repository Server service"
 linktitle: "Terminating the Repository Server service"
+weight: 5
 aliases: 
     - /TA_Administration/Topics/Repo_server_management_terminating.html
 ---

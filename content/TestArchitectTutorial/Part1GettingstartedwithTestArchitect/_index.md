@@ -1,6 +1,7 @@
 --- 
 title: "Part 1: Getting started with TestArchitect"
 linktitle: "Part 1: Getting started with TestArchitect"
+weight: 1
 aliases: 
     - /TA_Tutorials/Topics/tut_part1_getting_started.html
 ---

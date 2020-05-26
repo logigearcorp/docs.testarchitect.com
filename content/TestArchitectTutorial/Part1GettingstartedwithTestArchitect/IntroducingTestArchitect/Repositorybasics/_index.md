@@ -1,6 +1,7 @@
 --- 
 title: "Repository basics"
 linktitle: "Repository basics"
+weight: 1
 aliases: 
     - /TA_Tutorials/Topics/Repository_basics.html
 ---

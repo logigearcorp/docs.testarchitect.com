@@ -1,6 +1,7 @@
 --- 
 title: "Working with checks"
 linktitle: "Working with checks"
+weight: 6
 aliases: 
     - /TA_Automation/Topics/Automation_model_working_with_checks.html
 ---
