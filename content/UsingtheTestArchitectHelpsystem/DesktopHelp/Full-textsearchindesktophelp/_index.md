@@ -2,7 +2,8 @@
 title: "Full-text search in desktop help"
 linktitle: "Full-text search in desktop help"
 weight: 3
-url: "TA_UsingHelpSystem/Topics/hs_CHM_full_text_search.html"
+aliases: 
+    - TA_UsingHelpSystem/Topics/hs_CHM_full_text_search.html
 ---
 # Full-text search in desktop help {#concept_yrq_myb_cp .concept}
 

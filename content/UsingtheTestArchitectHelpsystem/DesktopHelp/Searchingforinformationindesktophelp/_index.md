@@ -2,7 +2,8 @@
 title: "Searching for information in desktop help"
 linktitle: "Searching for information in desktop help"
 weight: 2
-url: "TA_UsingHelpSystem/Topics/hs_CHM_search.html"
+aliases: 
+    - TA_UsingHelpSystem/Topics/hs_CHM_search.html
 ---
 # Searching for information in desktop help {#concept_yzx_gvb_cp .concept}
 

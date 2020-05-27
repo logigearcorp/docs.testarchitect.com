@@ -2,7 +2,8 @@
 title: "Getting Help"
 linktitle: "Getting Help"
 weight: 1
-url: "TA_UsingHelpSystem/Topics/hs_getting_help.html"
+aliases: 
+    - TA_UsingHelpSystem/Topics/hs_getting_help.html
 ---
 # Getting Help {#concept_wp5_gqb_cp .concept}
 

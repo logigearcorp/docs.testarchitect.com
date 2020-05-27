@@ -2,7 +2,8 @@
 title: "WebHelp"
 linktitle: "WebHelp"
 weight: 4
-url: "TA_UsingHelpSystem/Topics/hs_WebHelp.html"
+aliases: 
+    - TA_UsingHelpSystem/Topics/hs_WebHelp.html
 ---
 # WebHelp {#concept_syk_rq3_cp .concept}
 

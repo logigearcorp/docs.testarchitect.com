@@ -2,7 +2,8 @@
 title: "Using local help documentation in offline mode on Windows"
 linktitle: "Using local help documentation in offline mode on Windows"
 weight: 1
-url: "TA_UsingHelpSystem/Topics/hs_local_help_Windows.html"
+aliases: 
+    - TA_UsingHelpSystem/Topics/hs_local_help_Windows.html
 ---
 # Using local help documentation in offline mode on Windows {#task_fqd_wmt_t1b .task}
 
