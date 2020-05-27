@@ -2,8 +2,7 @@
 title: "Using the TestArchitect Help system"
 linktitle: "Using the TestArchitect Help system"
 weight: 1
-aliases: 
-    - /TA_UsingHelpSystem/Topics/hs_using_help_system.html
+url: "TA_UsingHelpSystem/Topics/hs_using_help_system.html"
 ---
 # Using the TestArchitect Help system {#concept_e3v_dpb_cp .concept}
 

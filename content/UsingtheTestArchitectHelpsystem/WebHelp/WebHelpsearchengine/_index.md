@@ -2,8 +2,7 @@
 title: "WebHelp search engine"
 linktitle: "WebHelp search engine"
 weight: 3
-aliases: 
-    - /TA_UsingHelpSystem/Topics/hs_WebHelp_full_text_search.html
+url: "TA_UsingHelpSystem/Topics/hs_WebHelp_full_text_search.html"
 ---
 # WebHelp search engine {#concept_cj3_jv3_cp .concept}
 

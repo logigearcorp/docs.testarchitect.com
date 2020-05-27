@@ -2,8 +2,7 @@
 title: "Searching for information in TestArchitect web help"
 linktitle: "Searching for information in TestArchitect web help"
 weight: 2
-aliases: 
-    - /TA_UsingHelpSystem/Topics/hs_WebHelp_search.html
+url: "TA_UsingHelpSystem/Topics/hs_WebHelp_search.html"
 ---
 # Searching for information in TestArchitect web help {#concept_bxr_sr3_cp .concept}
 

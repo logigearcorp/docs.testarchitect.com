@@ -2,8 +2,7 @@
 title: "Desktop Help"
 linktitle: "Desktop Help"
 weight: 3
-aliases: 
-    - /TA_UsingHelpSystem/Topics/hs_CHM.html
+url: "TA_UsingHelpSystem/Topics/hs_CHM.html"
 ---
 # Desktop Help {#concept_iqs_qvb_cp .concept}
 
