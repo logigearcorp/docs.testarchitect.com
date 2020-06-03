@@ -3,7 +3,7 @@ title: "Viewing license information"
 linktitle: "Viewing license information"
 weight: 2
 aliases: 
-    - TA_Administration/Topics/LS_TA_viewing_license_information.html
+    - /TA_Administration/Topics/LS_TA_viewing_license_information.html
 ---
 
 You can access current TestArchitect Client licensing information from the TestArchitect Client **Help** menu.
@@ -17,9 +17,9 @@ The TestArchitect Licensing dialog box appears, displaying the current licensing
 
 **Note:** The **License Information** panel is not available when using TestArchitect Client with a trial key.
 
-**Parent topic:**[Managing licenses](../../TA_Administration/Topics/LS_TA_managing_licenses.md)
+**Parent topic:**[Managing licenses](/TA_Administration/Topics/LS_TA_managing_licenses.html)
 
-**Previous topic:**[TestArchitect editions](../../TA_Administration/Topics/TA_Editions.md)
+**Previous topic:**[TestArchitect editions](/TA_Administration/Topics/TA_Editions.html)
 
-**Next topic:**[License conversion](../../TA_Administration/Topics/LS_TA_license_conversion.md)
+**Next topic:**[License conversion](/TA_Administration/Topics/LS_TA_license_conversion.html)
 

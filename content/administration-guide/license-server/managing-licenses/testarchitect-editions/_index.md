@@ -3,7 +3,7 @@ title: "TestArchitect editions"
 linktitle: "TestArchitect editions"
 weight: 1
 aliases: 
-    - TA_Administration/Topics/TA_Editions.html
+    - /TA_Administration/Topics/TA_Editions.html
 ---
 
 TestArchitect Team, and TestArchitect Enterprise editions of TestArchitect offer a range of capabilities tailored to meet the needs of your organization.
@@ -29,7 +29,7 @@ The following table compares the detailed differences among TestArchitect editio
 
 All the above editions of TestArchitect include both the TestArchitect Client and TestArchitect Controller software \(for developing and executing tests, respectively\). In addition, it is also possible to purchase separate Agent licenses, which apply to the TestArchitect Controller software and allow strictly for the execution of tests on a given machine.
 
-**Parent topic:**[Managing licenses](../../TA_Administration/Topics/LS_TA_managing_licenses.md)
+**Parent topic:**[Managing licenses](/TA_Administration/Topics/LS_TA_managing_licenses.html)
 
-**Next topic:**[Viewing license information](../../TA_Administration/Topics/LS_TA_viewing_license_information.md)
+**Next topic:**[Viewing license information](/TA_Administration/Topics/LS_TA_viewing_license_information.html)
 

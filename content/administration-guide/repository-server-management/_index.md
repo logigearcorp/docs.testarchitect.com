@@ -3,7 +3,7 @@ title: "Repository Server Management"
 linktitle: "Repository Server Management"
 weight: 1
 aliases: 
-    - TA_Administration/Topics/Repo_server_management.html
+    - /TA_Administration/Topics/Repo_server_management.html
 ---
 
 The repository server handles read and write requests from TestArchitect Client, TestArchitect Controller, and third party applications.
@@ -12,46 +12,48 @@ In Windows it is a service, in Linux and Unix-based systems it is a daemon. \(Fo
 
 **Important:** Hardware and software in computers are prone to power outage or surge. There is a chance that the power supply fails as you are carrying out actions on TA repositories. It might result in corruption of repositories. Recovering them is laborious and sometimes impossible. Thus it is recommended you provide steady power supply for your machine.
 
-1.  [Launching the Repository Server Control Panel](../../TA_Administration/Topics/Repo_server_management_launching.md)  
+1.  [Launching the Repository Server Control Panel](/TA_Administration/Topics/Repo_server_management_launching.html)  
 How to start the TestArchitect Repository Server Control Panel on different operating systems.
-2.  [Repository Server Control Panel user interface](../../TA_Administration/Topics/Repo_server_management_control_panel.md)  
+2.  [Repository Server Control Panel user interface](/TA_Administration/Topics/Repo_server_management_control_panel.html)  
 The Repository Server Control Panel provides you with repository server information and repository lists; it is the "central command" from which you control the repository and the repository services.
-3.  [Starting and stopping the repository server](../../TA_Administration/Topics/Repo_server_management_starting_stopping.md)  
+3.  [Starting and stopping the repository server](/TA_Administration/Topics/Repo_server_management_starting_stopping.html)  
 The repository server can be started or stopped from the TestArchitect Repository Server Control Panel. This server normally runs when your system is running but can be stopped when needed.
-4.  [Closing the Repository Server Control Panel](../../TA_Administration/Topics/Repo_server_management_closing.md)  
+4.  [Closing the Repository Server Control Panel](/TA_Administration/Topics/Repo_server_management_closing.html)  
 Closing the Repository Server Control Panel does not change the running status of the repository service nor the TA Repository Server service.
-5.  [Terminating the Repository Server service](../../TA_Administration/Topics/Repo_server_management_terminating.md)  
+5.  [Terminating the Repository Server service](/TA_Administration/Topics/Repo_server_management_terminating.html)  
 Terminating the OS-level TA Repository Server service stops the repository service and shuts down the Repository Server Control Panel.
-6.  [Adding a repository](../../TA_Administration/Topics/Repo_server_management_adding.md)  
+6.  [Adding a repository](/TA_Administration/Topics/Repo_server_management_adding.html)  
 A new repository can be added from the Repository Server Control Panel or from within TestArchitect Client.
-7.  [Setting a password requirement](../../TA_Administration/Topics/Repo_server_management_setting_pw.md)  
+7.  [Setting a password requirement](/TA_Administration/Topics/Repo_server_management_setting_pw.html)  
 Setting a password requirement limits the ability of users, remote or local, to create repositories on your local machine. Only authenticated users are allowed to add or modify repositories.
-8.  [Exporting/Importing repositories](../../TA_Administration/Topics/adm_Exporting_import_repository.md)  
+8.  [Exporting/Importing repositories](/TA_Administration/Topics/adm_Exporting_import_repository.html)  
 How to manage export and import repository operations in TestArchitect.
-9.  [Backing up repositories](../../TA_Administration/Topics/Repo_server_management_bk.md)  
+9.  [Backing up repositories](/TA_Administration/Topics/Repo_server_management_bk.html)  
 A TestArchitect repository is the central storage location for all your work on test modules, actions, interfaces, data, and test results. It is essential that you back up repositories in case of data loss or corruption.
-10. [Changing repository server port number](../../TA_Administration/Topics/Repo_changing_port.md)  
+10. [Changing repository server port number](/TA_Administration/Topics/Repo_changing_port.html)  
 Rather than accept the default, you can manually change the port number of a repository server if necessary.
-11. [Configuring connection backlog size for a repository server](../../TA_Administration/Topics/Repo_connection_backlog.md)  
+11. [Configuring connection backlog size for a repository server](/TA_Administration/Topics/Repo_connection_backlog.html)  
 TestArchitect enables you to specify the maximum size of the queue used for holding pending connections to a repository server
-12. [Replication repositories](../../TA_Administration/Topics/Repo_server_management_replication_repo.md)  
+12. [Replication repositories](/TA_Administration/Topics/Repo_server_management_replication_repo.html)  
 Primary and replication repository relationships, associated configurations, and the synchronization process.
-13. [Setting Java heap size](../../TA_Administration/Topics/Repo_setting_heap_size.md)  
+13. [Setting Java heap size](/TA_Administration/Topics/Repo_setting_heap_size.html)  
 The Java Virtual Machine requires enough heap memory to prevent out-of-memory conditions.
-14. [Changing user account to start the repository server](../../TA_Administration/Topics/adm_changing_OS_account.md)  
+14. [Changing user account to start the repository server](/TA_Administration/Topics/adm_changing_OS_account.html)  
 The repository server requires user accounts with granted permission to be started.
-15. [TestArchitect Utility Server](../../TA_Administration/Topics/TA_Utility_Server.md)  
+15. [TestArchitect Utility Server](/TA_Administration/Topics/TA_Utility_Server.html)  
  The TestArchitect Utility Server is used to manage both the Lab Manager and Dashboard applications and to provide access to project information.
-16. [Upgrading the repository database for name change propagation](../../TA_Administration/Topics/Repo_database_upgrade.md)  
+16. [Upgrading the repository database for name change propagation](/TA_Administration/Topics/Repo_database_upgrade.html)  
 Legacy databases must be upgraded so that necessary referencing information can be generated to enable name change propagation.
-17. [Upgrading the repository database for time-traveling execution](../../TA_Administration/Topics/adm_database_upgrade_time_traveling.md)  
+17. [Upgrading the repository database for time-traveling execution](/TA_Administration/Topics/adm_database_upgrade_time_traveling.html)  
 Upgrading of legacy databases is required to enable time-traveling execution to function correctly.
-18. [Clearing hit list periodically](../../TA_Administration/Topics/adm_clear_hitlist.md)  
+18. [Clearing hit list periodically](/TA_Administration/Topics/adm_clear_hitlist.html)  
 Hit list clearance should be scheduled periodically to avoid performance issues for repositories and for TestArchitect automation.
-19. [Deleting a repository](../../TA_Administration/Topics/adm_delete_repo.md)  
+19. [Deleting a repository](/TA_Administration/Topics/adm_delete_repo.html)  
 You can delete a repository using the Repository Server Control Panel
+20. [Repository Version](/TA_Administration/Topics/adm_repo_versioning.html)  
+From 8.5 Update 1 onward, all versions of TestArchitect Client 8.5 and Repository Server 8.5 will be compatible with each other.
 
-**Parent topic:**[Administration Guide](../../TA_Administration/Topics/Administration_Guide_begin.md)
+**Parent topic:**[Administration Guide](/TA_Administration/Topics/Administration_Guide_begin.html)
 
-**Next topic:**[Users and passwords](../../TA_Administration/Topics/adm_users_and_passwords.md)
+**Next topic:**[Users and passwords](/TA_Administration/Topics/adm_users_and_passwords.html)
 
