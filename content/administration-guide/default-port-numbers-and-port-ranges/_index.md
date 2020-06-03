@@ -3,7 +3,7 @@ title: "Default port numbers and port ranges"
 linktitle: "Default port numbers and port ranges"
 weight: 7
 aliases: 
-    - TA_Administration/Topics/adm_port_number_port_ranges.html
+    - /TA_Administration/Topics/adm_port_number_port_ranges.html
 ---
 
 During installation, TestArchitect assigns port number to components from a set of default port numbers. This topic lists the default port numbers and port number ranges which can be used to change the assigned port after installation.
@@ -38,9 +38,9 @@ Many TestArchitect components use TCP/IP port numbers. In general, when establis
 |QT agent|1000|1000-unlimited|
 |Android port forwarder \(adb/cable mode\)|53301|53301-53391|
 
-**Parent topic:**[Administration Guide](../../TA_Administration/Topics/Administration_Guide_begin.md)
+**Parent topic:**[Administration Guide](/TA_Administration/Topics/Administration_Guide_begin.html)
 
-**Previous topic:**[TestArchitect Register Server](../../TA_Administration/Topics/adm_taregserver.md)
+**Previous topic:**[TestArchitect Register Server](/TA_Administration/Topics/adm_taregserver.html)
 
-**Next topic:**[Connections](../../TA_Administration/Topics/Connections.md)
+**Next topic:**[Connections](/TA_Administration/Topics/Connections.html)
 

@@ -3,7 +3,7 @@ title: "Performing repository database upgrade"
 linktitle: "Performing repository database upgrade"
 weight: 1
 aliases: 
-    - TA_Administration/Topics/Repo_upgrading_database.html
+    - /TA_Administration/Topics/Repo_upgrading_database.html
 ---
 
 Upgrading a repository database, which needs to be performed only once, adds necessary referencing information to the database to allow for name change propagation to function.If you update TestArchitect Client to version 7.1 or newer from a version older than 7.1, TestArchitect will automatically detect, at first run after the install, whether or not a repository database upgrade is required to enable name change propagation functions. If TestArchitect asks you to upgrade the repository database and you want to upgrade the database, be sure the database upgrade prerequisites mentioned below are met.
@@ -16,11 +16,11 @@ Ensure the following requirements are met before upgrading a database.
 -   All subscribed projects used in the database are available before performing the upgrade.
 -   You have the built-in user account administrator login privileges for the database you want to upgrade.
 
-1.  After TestArchitect has been installed, open the [Repository Server Control Panel](Repo_server_management_launching.md).
+1.  After TestArchitect has been installed, open the [Repository Server Control Panel](Repo_server_management_launching.html).
 
     A dialog box appears to inform you that all databases will be upgraded. This dialog box only appears one time after TestArchitect has been installed.
 
-    ![](/images/TA_Administration/Images/upgrade_database_dialog.png)
+    ![](/images//Images/upgrade_database_dialog.png)
 
 2.  In the dialog box, you have the following options:
 
@@ -41,12 +41,12 @@ Ensure the following requirements are met before upgrading a database.
 
     There is no way for TestArchitect to undo the changes made to the database after it has been upgraded.
 
-6.  TestArchitect may present additional Specify Interface dialog boxes for you to map [ambiguous entities](Repo_mapping_ambiguous_entities.md), depending on whether or not the database has any such ambiguities which need to be resolved.
+6.  TestArchitect may present additional Specify Interface dialog boxes for you to map [ambiguous entities](Repo_mapping_ambiguous_entities.html), depending on whether or not the database has any such ambiguities which need to be resolved.
 
 
-Depending on the size of the database, it may take some time to complete the upgrade. An Upgrade Database Tool dialog box appears showing the status of the upgrade and the upgrade results for each project in the database. Successfully upgraded projects are marked with check icons ![](/images/TA_Administration/Images/Repo_upgrade_pass.png). Projects that fail to upgrade are marked with 'X' ![](/images/TA_Administration/Images/Repo_upgrade_fail.png) icons. Click **View upgrade log** next to a project's name to view the upgrade log for that project.
+Depending on the size of the database, it may take some time to complete the upgrade. An Upgrade Database Tool dialog box appears showing the status of the upgrade and the upgrade results for each project in the database. Successfully upgraded projects are marked with check icons ![](/images//Images/Repo_upgrade_pass.png). Projects that fail to upgrade are marked with 'X' ![](/images//Images/Repo_upgrade_fail.png) icons. Click **View upgrade log** next to a project's name to view the upgrade log for that project.
 
-**Parent topic:**[Upgrading the repository database for name change propagation](../../TA_Administration/Topics/Repo_database_upgrade.md)
+**Parent topic:**[Upgrading the repository database for name change propagation](/TA_Administration/Topics/Repo_database_upgrade.html)
 
-**Next topic:**[Ambiguous entities](../../TA_Administration/Topics/Repo_mapping_ambiguous_entities.md)
+**Next topic:**[Ambiguous entities](/TA_Administration/Topics/Repo_mapping_ambiguous_entities.html)
 

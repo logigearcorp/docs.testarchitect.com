@@ -3,7 +3,7 @@ title: "Clearing hit list periodically"
 linktitle: "Clearing hit list periodically"
 weight: 18
 aliases: 
-    - TA_Administration/Topics/adm_clear_hitlist.html
+    - /TA_Administration/Topics/adm_clear_hitlist.html
 ---
 
 Continuous hit list clearance whenever changes occur in the repository can significantly impact the repository's performance. Consequently, TestArchitect can also hang under such circumstances, such as when many test results are uploaded to the repository at one time. Hit list clearance should be scheduled periodically to avoid performance issues for repositories and for TestArchitect automation.
@@ -14,7 +14,7 @@ Scheduled hit list clearance is configurable for each given repository server. \
 
 **Tip:**
 
--   It is recommended that you do not plan the hit list clearance at the same time as other scheduling, such as: [backing up the repository](Repo_server_management_bk.md) or [synchronizing data](adm_Synchronizing_data.md).
+-   It is recommended that you do not plan the hit list clearance at the same time as other scheduling, such as: [backing up the repository](Repo_server_management_bk.html) or [synchronizing data](adm_Synchronizing_data.html).
 -   Hit list clearance should be scheduled when your teams are idle.
 
 To create a hit list clearance schedule, perform the steps below:
@@ -72,9 +72,9 @@ To create a hit list clearance schedule, perform the steps below:
 4.  Save the file.
 
 
-**Parent topic:**[Repository Server Management](../../TA_Administration/Topics/Repo_server_management.md)
+**Parent topic:**[Repository Server Management](/TA_Administration/Topics/Repo_server_management.html)
 
-**Previous topic:**[Upgrading the repository database for time-traveling execution](../../TA_Administration/Topics/adm_database_upgrade_time_traveling.md)
+**Previous topic:**[Upgrading the repository database for time-traveling execution](/TA_Administration/Topics/adm_database_upgrade_time_traveling.html)
 
-**Next topic:**[Deleting a repository](../../TA_Administration/Topics/adm_delete_repo.md)
+**Next topic:**[Deleting a repository](/TA_Administration/Topics/adm_delete_repo.html)
 

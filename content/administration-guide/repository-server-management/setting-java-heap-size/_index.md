@@ -3,7 +3,7 @@ title: "Setting Java heap size"
 linktitle: "Setting Java heap size"
 weight: 13
 aliases: 
-    - TA_Administration/Topics/Repo_setting_heap_size.html
+    - /TA_Administration/Topics/Repo_setting_heap_size.html
 ---
 
 The Java Virtual Machine requires enough heap memory to prevent out-of-memory conditions.
@@ -17,26 +17,26 @@ If Java heap memory is set too low, TestArchitect may not have enough memory to 
 
 **Tip:** The current Java heap size setting is displayed in the **Repository Server Information** panel in the Repository Server Control Panel window.
 
-![](/images/TA_Administration/Images/java_heap_size_info.png)
+![](/images//Images/java_heap_size_info.png)
 
-1.  Open the [Repository Server Control Panel](Repo_server_management_launching.md) dialog box.
+1.  Open the [Repository Server Control Panel](Repo_server_management_launching.html) dialog box.
 
-2.  On the toolbar, click **Options...** ![](/images/TA_Administration/Images/set_java_heap_size_btn.png)
+2.  On the toolbar, click **Options...** ![](/images//Images/set_java_heap_size_btn.png)
 
     The Options dialog box appears.
 
-    ![](/images/TA_Administration/Images/Options_java_heap_size_dialog.png)
+    ![](/images//Images/Options_java_heap_size_dialog.png)
 
 3.  In the Set Heap Size panel, type the amount of memory \(in megabytes\) that is to be made available to Java as heap storage, and then click **OK**.
 
     **Tip:** Click **Reset** dialog box to return the heap size to the default setting for your system.
 
 
-Changing the Java heap size value automatically restarts the repository server. All access to the server is temporarily disabled while the server restarts. Server requests made during this time will be rerouted to a [replication server](Repo_server_management_replication_repo_intro.md), if one is available.
+Changing the Java heap size value automatically restarts the repository server. All access to the server is temporarily disabled while the server restarts. Server requests made during this time will be rerouted to a [replication server](Repo_server_management_replication_repo_intro.html), if one is available.
 
-**Parent topic:**[Repository Server Management](../../TA_Administration/Topics/Repo_server_management.md)
+**Parent topic:**[Repository Server Management](/TA_Administration/Topics/Repo_server_management.html)
 
-**Previous topic:**[Replication repositories](../../TA_Administration/Topics/Repo_server_management_replication_repo.md)
+**Previous topic:**[Replication repositories](/TA_Administration/Topics/Repo_server_management_replication_repo.html)
 
-**Next topic:**[Changing user account to start the repository server](../../TA_Administration/Topics/adm_changing_OS_account.md)
+**Next topic:**[Changing user account to start the repository server](/TA_Administration/Topics/adm_changing_OS_account.html)
 

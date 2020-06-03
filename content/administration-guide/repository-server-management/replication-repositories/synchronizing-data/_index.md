@@ -3,7 +3,7 @@ title: "Synchronizing data"
 linktitle: "Synchronizing data"
 weight: 4
 aliases: 
-    - TA_Administration/Topics/adm_Synchronizing_data.html
+    - /TA_Administration/Topics/adm_Synchronizing_data.html
 ---
 
 Data synchronization between the primary repository and the replication repository is a two-way process. Each modification to the primary repository is synchronized with the replication repository, and vice-versa.
@@ -12,13 +12,13 @@ Data synchronization between the primary repository and the replication reposito
 
 To synchronize data, do the following:
 
-1.  On the host that acts as primary server, [start](Repo_server_management_launching.md) the Repository Server Control Panel dialog box.
+1.  On the host that acts as primary server, [start](Repo_server_management_launching.html) the Repository Server Control Panel dialog box.
 
 2.  In the dialog box, select the primary repository to be set up for synchronization.
 
 3.  Select **Tools** \> **Replication Repository Settings**.
 
-    ![](/images/TA_Administration/Images/admin_RS_dlg_replication_9.png)
+    ![](/images//Images/admin_RS_dlg_replication_9.png)
 
 4.  Select the synchronization mode and schedule:
 
@@ -26,7 +26,7 @@ To synchronize data, do the following:
     -   **Lazy**: Synchronization is scheduled at a specific time for a specific duration.
         -   **First start at**: Specifies the start time to initiate the synchronization.
         -   **Interval**: Specifies the time between synchronizations.
-    ![](/images/TA_Administration/Images/admin_RS_dlg_replication_10.png)
+    ![](/images//Images/admin_RS_dlg_replication_10.png)
 
     **Important:** TestArchitect calculates a synchronization schedule based on the assumption that the start time is for the current day, whether or not that time has already passed. For example, let's say the current time is 10:00 AM; the following table then specifies initial synchronization times based on a given start time.
 
@@ -39,12 +39,12 @@ To synchronize data, do the following:
 5.  Click **OK**.
 
 
-**Parent topic:**[Replication repositories](../../TA_Administration/Topics/Repo_server_management_replication_repo.md)
+**Parent topic:**[Replication repositories](/TA_Administration/Topics/Repo_server_management_replication_repo.html)
 
-**Previous topic:**[Breaking primary-replication relationship](../../TA_Administration/Topics/adm_Removing_primary_repication_repository_main.md)
+**Previous topic:**[Breaking primary-replication relationship](/TA_Administration/Topics/adm_Removing_primary_repication_repository_main.html)
 
 **Related information**  
 
 
-[Troubleshooting power outage-related problems](../../TA_Administration/Topics/adm_troubleshooting_power_blackout.md)
+[Troubleshooting power outage-related problems](/TA_Administration/Topics/adm_troubleshooting_power_blackout.html)
 

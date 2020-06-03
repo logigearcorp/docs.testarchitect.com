@@ -3,7 +3,7 @@ title: "Deleting a user-defined field"
 linktitle: "Deleting a user-defined field"
 weight: 3
 aliases: 
-    - TA_Administration/Topics/User_defined_fields_delete.html
+    - /TA_Administration/Topics/User_defined_fields_delete.html
 ---
 
 If you no longer need a user-defined field, you can delete it.
@@ -19,7 +19,7 @@ If you no longer need a user-defined field, you can delete it.
 
 The user-defined field is removed from the repository.
 
-**Parent topic:**[User-defined fields](../../TA_Administration/Topics/User_defined_fields.md)
+**Parent topic:**[User-defined fields](/TA_Administration/Topics/User_defined_fields.html)
 
-**Previous topic:**[Editing a user-defined field](../../TA_Administration/Topics/User_defined_fields_edit.md)
+**Previous topic:**[Editing a user-defined field](/TA_Administration/Topics/User_defined_fields_edit.html)
 

@@ -3,7 +3,7 @@ title: "Configuring connection backlog size for a repository server"
 linktitle: "Configuring connection backlog size for a repository server"
 weight: 11
 aliases: 
-    - TA_Administration/Topics/Repo_connection_backlog.html
+    - /TA_Administration/Topics/Repo_connection_backlog.html
 ---
 
 TestArchitect enables you to specify the maximum size of the queue used for holding pending connections to a repository server
@@ -26,9 +26,9 @@ TestArchitect enables you to specify the maximum size of the queue used for hold
 4.  Save the file
 
 
-**Parent topic:**[Repository Server Management](../../TA_Administration/Topics/Repo_server_management.md)
+**Parent topic:**[Repository Server Management](/TA_Administration/Topics/Repo_server_management.html)
 
-**Previous topic:**[Changing repository server port number](../../TA_Administration/Topics/Repo_changing_port.md)
+**Previous topic:**[Changing repository server port number](/TA_Administration/Topics/Repo_changing_port.html)
 
-**Next topic:**[Replication repositories](../../TA_Administration/Topics/Repo_server_management_replication_repo.md)
+**Next topic:**[Replication repositories](/TA_Administration/Topics/Repo_server_management_replication_repo.html)
 
