@@ -36,7 +36,7 @@ There may be times when you'll want to augment the set of fields that TestArchit
 
     **Note:**
 
-    -   If a user-defined field is added to the **Test Step** project item type, the field will appear as a column under the [**Steps** List View](/TA_Help/Topics/Projects_and_tests_steps_creating.md#) of the **Test Case** as shown in the screenshot below.
+    -   If a user-defined field is added to the **Test Step** project item type, the field will appear as a column under the [**Steps** List View](/TA_Help/Topics/Projects_and_tests_steps_creating.html#) of the **Test Case** as shown in the screenshot below.
     ![](/images//Images/ug_userdefinefield2.4.png)
 
     -   In the case of a user-defined field being added to the Result project item type, the field also appears in the **Result Fields** tab of the [Execute Test](/TA_Help/Topics/Test_exec_test_execution.html) dialog box, as depicted in the screenshot below. A value entered into this box prior to a test run results in that value being recorded into the corresponding field of the test result for that run.

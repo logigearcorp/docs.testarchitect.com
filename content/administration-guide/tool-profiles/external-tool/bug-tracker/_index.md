@@ -11,7 +11,7 @@ TestArchitect can be integrated with issue tracking systems, enabling you and yo
 Currently, TestArchitect supports connections with the following issue tracking tool\(s\):
 
 -   [JIRA](/TA_Help/Topics/JIRA_registering.html)
--   [Team Foundation Server](/TA_Help/Topics/ug_TFS_BugTracker_Registering_bugtracker.md#)
+-   [Team Foundation Server](/TA_Help/Topics/ug_TFS_BugTracker_Registering_bugtracker.html#)
 
 **Parent topic:**[External Tool](/TA_Administration/Topics/External_tool.html)
 

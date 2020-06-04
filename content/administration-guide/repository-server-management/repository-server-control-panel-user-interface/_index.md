@@ -33,7 +33,7 @@ Buttons on the toolbar, as well as menu items in the menus, are enabled or disab
 |[Close](Repo_server_management_closing.html)|Close the Repository Server Control Panel|
 |[Terminate](Repo_server_management_terminating.html)|Stop the Repository Server Service/Demon|
 |[Add repository](Repo_server_management_adding.html)|Create a new repository|
-|[Delete repository](adm_delete_repo.md#)|Delete a repository|
+|[Delete repository](adm_delete_repo.html#)|Delete a repository|
 |[Import repository](Repo_server_management_importing.html)|Import a repository from a file|
 |[Export repository](Repo_server_management_exporting.html)|Export a specified repository to a file|
 |[Set primary repository](adm_Setting_up_primary_replication_repository.html)|Specify another host as the primary repository for a given imported repository. This action establishes imported repository as a replication repository.|

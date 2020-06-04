@@ -10,20 +10,20 @@ A TestArchitect license server can be configured as a single server, one of mult
 
 TestArchitect Client software has three different types of licensing schemes: floating, node-locked, or host-based. The type of licensing determines how the license may be administered.
 
-Each licensed edition of TestArchitect Client software includes a single-machine license for TestArchitect Controller, which manages the execution of automated tests. Additional licenses for TestArchitect Controller, known as [Agent](TA_Editions.md#p.ta_editions.agent) licenses, may also be purchased.
+Each licensed edition of TestArchitect Client software includes a single-machine license for TestArchitect Controller, which manages the execution of automated tests. Additional licenses for TestArchitect Controller, known as [Agent](TA_Editions.html#p.ta_editions.agent) licenses, may also be purchased.
 
 The type of available license scheme to you depends upon your license of TestArchitect:
 
 |License|License scheme available|
 |-------|------------------------|
-|[Universal](TA_Editions.md#note_Universal.license)|Floating
+|[Universal](TA_Editions.html#note_Universal.license)|Floating
 
  Node-locked
 
  Host-based
 
 |
-|[Agent](TA_Editions.md#p.ta_editions.agent)|Floating
+|[Agent](TA_Editions.html#p.ta_editions.agent)|Floating
 
  Host-based
 
@@ -31,8 +31,8 @@ The type of available license scheme to you depends upon your license of TestArc
 
 **Note:**
 
--   Copies of Universal licenses are sold under both a floating or node-locked license \([learn more](LS_TA_requesting_key.md#choice.Premium_floating)\). However, you have the option of converting a license from a floating to a host-based license, and vice versa, at any time.
--   Agent licenses are available for purchase under a floating licensing agreement \([learn more](LS_TA_requesting_key.md#choice.Agent_floating)\). However, similar to Universal, you have the option of converting a license from a floating to a host-based license, and vice versa, at any time.
+-   Copies of Universal licenses are sold under both a floating or node-locked license \([learn more](LS_TA_requesting_key.html#choice.Premium_floating)\). However, you have the option of converting a license from a floating to a host-based license, and vice versa, at any time.
+-   Agent licenses are available for purchase under a floating licensing agreement \([learn more](LS_TA_requesting_key.html#choice.Agent_floating)\). However, similar to Universal, you have the option of converting a license from a floating to a host-based license, and vice versa, at any time.
 
 ## Floating licenses
 
@@ -57,7 +57,7 @@ Similarly, a node-locked license is granted to a specific machine, and when that
 
 ## Agent licenses
 
-[Agent](TA_Editions.md#p.ta_editions.agent) licenses for TestArchitect, which allow for tests to be run on a machine but do not cover the TestArchitect Client software.
+[Agent](TA_Editions.html#p.ta_editions.agent) licenses for TestArchitect, which allow for tests to be run on a machine but do not cover the TestArchitect Client software.
 
 **Note:** You also have the option of converting a license from a floating to a host-based license, and vice versa, at any time.
 

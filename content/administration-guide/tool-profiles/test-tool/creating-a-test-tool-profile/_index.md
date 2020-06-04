@@ -30,7 +30,7 @@ To configure your custom harness test tool, do the following:
 
         **Note:** The harness may be implemented as a single executable file \(as is the case with the sample C\# harness\), or as an interpreted script file. An example of the latter is the sample Python harness, implemented as the script file ta\_main.py, which is executed by the Python interpreter.
 
-        **Note:** The specified executable program appears in the **Executable\(s\)** field of the [Automation Tools](/TA_Help/Topics/Test_exec_test_execution.md#li_ux4_421_zp) dialog box, which you can access during test run setup from the Execute Test dialog box.
+        **Note:** The specified executable program appears in the **Executable\(s\)** field of the [Automation Tools](/TA_Help/Topics/Test_exec_test_execution.html#li_ux4_421_zp) dialog box, which you can access during test run setup from the Execute Test dialog box.
 
         ![](/images//Images/Executable_test_tool.01.png)
 
@@ -43,7 +43,7 @@ To configure your custom harness test tool, do the following:
         **Note:** Unless you are an advanced user or have the assistance of TestArchitect support, your choice should simply be File.
 
     -   Available options: Here, you list those "yes/no" options that the user of the tool may specify at test run setup time, and which will be passed to the specified harness as command line arguments.
-        -   The arguments will appear to the tool user as check box options in the Options panel of the [Automation Tools](/TA_Help/Topics/Test_exec_test_execution.md#li_ux4_421_zp) dialog box.
+        -   The arguments will appear to the tool user as check box options in the Options panel of the [Automation Tools](/TA_Help/Topics/Test_exec_test_execution.html#li_ux4_421_zp) dialog box.
         -   Syntax for specifying how each check box option is to appear on the command line, based on the user's selected options:
 
             ```

@@ -27,7 +27,7 @@ Ensure the following requirements are met before upgrading a database.
     -   Click **OK**, if you want all databases to be upgraded automatically.
     -   Click **Cancel**, if you do not want the upgrading process to take place immediately.
 
-        **Note:** If you click **Cancel**, proceed to step [3](Repo_upgrading_database.md#step_login) to manually run the upgrade process for specific repositories.
+        **Note:** If you click **Cancel**, proceed to step [3](Repo_upgrading_database.html#step_login) to manually run the upgrade process for specific repositories.
 
 3.  From TestArchitect Client, log in to the repository that you want to upgrade using the built-in user account, **administrator**.
 
