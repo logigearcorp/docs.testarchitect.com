@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 disablePathToLower = true
-
+uglyurls = true
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
@@ -19,14 +19,6 @@ enableMissingTranslationPlaceholders = false
 
 [Params]
 
-    # Source Code repository section
-    description = "TestArchitect is a code-less test automation framework that is both easy to use and powerful. Learn more here."
-    github_repository = "https://github.com/thingsym/hugo-theme-techdoc"
-    version = "0.8.0"
-    ta_home="https://www.testarchitect.com"
-    # Documentation repository section
-    # documentation repository (set edit link to documentation repository)
-    github_doc_repository = "https://github.com/thingsym/hugo-theme-techdoc"
 
     # Analytic section
     google_analytics_id = "" # Your Google Analytics tracking id
