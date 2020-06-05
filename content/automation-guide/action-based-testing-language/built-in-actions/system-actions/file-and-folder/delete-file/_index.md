@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "delete file"
 linktitle: "delete file"
 weight: 10
 aliases: 

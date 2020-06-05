@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get selected items"
 linktitle: "get selected items"
 weight: 24
 aliases: 

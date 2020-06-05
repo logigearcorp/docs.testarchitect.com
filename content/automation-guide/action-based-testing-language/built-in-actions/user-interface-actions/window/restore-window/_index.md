@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "restore window"
 linktitle: "restore window"
 weight: 15
 aliases: 

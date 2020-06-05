@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get xml query result"
 linktitle: "get xml query result"
 weight: 2
 aliases: 

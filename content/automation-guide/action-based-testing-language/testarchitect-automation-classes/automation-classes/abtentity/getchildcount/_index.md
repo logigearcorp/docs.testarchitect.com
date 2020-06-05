@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "GetChildCount"
 linktitle: "GetChildCount"
 weight: 13
 aliases: 

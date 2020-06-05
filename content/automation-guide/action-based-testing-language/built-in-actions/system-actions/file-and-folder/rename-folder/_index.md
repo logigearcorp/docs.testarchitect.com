@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "rename folder"
 linktitle: "rename folder"
 weight: 20
 aliases: 

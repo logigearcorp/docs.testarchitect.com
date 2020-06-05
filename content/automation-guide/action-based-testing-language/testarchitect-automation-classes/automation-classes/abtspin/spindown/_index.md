@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "SpinDown"
 linktitle: "SpinDown"
 weight: 3
 aliases: 

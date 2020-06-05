@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get screen resolution"
 linktitle: "get screen resolution"
 weight: 4
 aliases: 

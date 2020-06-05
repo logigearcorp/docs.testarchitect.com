@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "go home"
 linktitle: "go home"
 weight: 18
 aliases: 

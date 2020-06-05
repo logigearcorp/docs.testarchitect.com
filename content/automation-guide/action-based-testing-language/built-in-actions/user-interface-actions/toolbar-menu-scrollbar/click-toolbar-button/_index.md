@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "click toolbar button"
 linktitle: "click toolbar button"
 weight: 15
 aliases: 

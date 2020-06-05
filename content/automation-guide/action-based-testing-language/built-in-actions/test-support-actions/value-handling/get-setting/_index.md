@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get setting"
 linktitle: "get setting"
 weight: 6
 aliases: 

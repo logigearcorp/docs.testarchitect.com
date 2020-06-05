@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "check selected count"
 linktitle: "check selected count"
 weight: 10
 aliases: 

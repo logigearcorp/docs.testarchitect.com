@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "ignore tabs and newlines"
 linktitle: "ignore tabs and newlines"
 weight: 4
 aliases: 

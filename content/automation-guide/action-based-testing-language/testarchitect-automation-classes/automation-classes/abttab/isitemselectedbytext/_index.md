@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "IsItemSelectedByText"
 linktitle: "IsItemSelectedByText"
 weight: 10
 aliases: 

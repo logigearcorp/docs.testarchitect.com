@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "Type"
 linktitle: "Type"
 weight: 27
 aliases: 

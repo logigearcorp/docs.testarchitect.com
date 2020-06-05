@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get list cell value"
 linktitle: "get list cell value"
 weight: 20
 aliases: 

@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "collapse tree node"
 linktitle: "collapse tree node"
 weight: 6
 aliases: 

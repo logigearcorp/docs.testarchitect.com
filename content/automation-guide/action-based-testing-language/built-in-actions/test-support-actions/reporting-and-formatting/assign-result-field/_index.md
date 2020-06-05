@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "assign result field"
 linktitle: "assign result field"
 weight: 1
 aliases: 

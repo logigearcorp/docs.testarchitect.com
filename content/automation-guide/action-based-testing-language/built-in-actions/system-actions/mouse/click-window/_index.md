@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "click window"
 linktitle: "click window"
 weight: 2
 aliases: 

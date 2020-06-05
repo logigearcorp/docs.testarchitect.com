@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "GetBaselineCount"
 linktitle: "GetBaselineCount"
 weight: 2
 aliases: 

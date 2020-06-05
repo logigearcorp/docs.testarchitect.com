@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "wait for all deputies"
 linktitle: "wait for all deputies"
 weight: 5
 aliases: 

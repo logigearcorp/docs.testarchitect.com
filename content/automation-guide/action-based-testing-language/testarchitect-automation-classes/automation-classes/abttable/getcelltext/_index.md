@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "GetCellText"
 linktitle: "GetCellText"
 weight: 6
 aliases: 

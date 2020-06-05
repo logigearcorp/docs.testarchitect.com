@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "configure web service settings"
 linktitle: "configure web service settings"
 weight: 6
 aliases: 

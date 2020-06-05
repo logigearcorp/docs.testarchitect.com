@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "TARect"
 linktitle: "TARect"
 weight: 6
 aliases: 

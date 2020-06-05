@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get table cell containing"
 linktitle: "get table cell containing"
 weight: 25
 aliases: 

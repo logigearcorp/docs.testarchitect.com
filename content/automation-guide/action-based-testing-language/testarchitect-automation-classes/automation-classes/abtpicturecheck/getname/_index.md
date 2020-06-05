@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "GetName"
 linktitle: "GetName"
 weight: 3
 aliases: 

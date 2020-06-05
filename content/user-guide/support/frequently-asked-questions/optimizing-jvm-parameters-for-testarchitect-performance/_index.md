@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "Optimizing JVM parameters for TestArchitect performance"
 linktitle: "Optimizing JVM parameters for TestArchitect performance"
 weight: 32
 aliases: 

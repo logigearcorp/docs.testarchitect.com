@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "check pattern not in text"
 linktitle: "check pattern not in text"
 weight: 2
 aliases: 

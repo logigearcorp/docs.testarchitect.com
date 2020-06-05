@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "multi touch slide"
 linktitle: "multi touch slide"
 weight: 18
 aliases: 

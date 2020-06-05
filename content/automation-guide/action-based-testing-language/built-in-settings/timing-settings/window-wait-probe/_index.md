@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "window wait probe"
 linktitle: "window wait probe"
 weight: 16
 aliases: 

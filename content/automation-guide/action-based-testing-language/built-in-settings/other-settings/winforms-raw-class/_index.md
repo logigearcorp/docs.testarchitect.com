@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "winforms raw class"
 linktitle: "winforms raw class"
 weight: 26
 aliases: 

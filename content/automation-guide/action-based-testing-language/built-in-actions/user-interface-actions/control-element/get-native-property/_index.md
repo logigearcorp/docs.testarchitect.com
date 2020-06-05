@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get native property"
 linktitle: "get native property"
 weight: 14
 aliases: 

@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get context menu item state"
 linktitle: "get context menu item state"
 weight: 21
 aliases: 

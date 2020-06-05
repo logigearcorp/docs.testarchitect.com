@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "RemoveColumnByName"
 linktitle: "RemoveColumnByName"
 weight: 13
 aliases: 

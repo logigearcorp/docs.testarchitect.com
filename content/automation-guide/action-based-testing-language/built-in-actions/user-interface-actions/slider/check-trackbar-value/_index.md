@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "check trackbar value"
 linktitle: "check trackbar value"
 weight: 1
 aliases: 

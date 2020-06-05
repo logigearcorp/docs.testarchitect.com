@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "clear popup queue"
 linktitle: "clear popup queue"
 weight: 4
 aliases: 

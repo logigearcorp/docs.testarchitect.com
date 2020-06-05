@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get table view cell value"
 linktitle: "get table view cell value"
 weight: 7
 aliases: 

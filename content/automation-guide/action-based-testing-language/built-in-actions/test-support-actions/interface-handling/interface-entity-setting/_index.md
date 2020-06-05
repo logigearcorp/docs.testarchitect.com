@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "interface entity setting"
 linktitle: "interface entity setting"
 weight: 3
 aliases: 

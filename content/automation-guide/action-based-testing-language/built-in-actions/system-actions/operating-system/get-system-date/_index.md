@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get system date"
 linktitle: "get system date"
 weight: 5
 aliases: 

@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "load invisible controls"
 linktitle: "load invisible controls"
 weight: 13
 aliases: 

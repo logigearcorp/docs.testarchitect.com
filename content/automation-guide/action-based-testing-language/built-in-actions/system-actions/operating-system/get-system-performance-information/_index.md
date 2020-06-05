@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get system performance information"
 linktitle: "get system performance information"
 weight: 7
 aliases: 

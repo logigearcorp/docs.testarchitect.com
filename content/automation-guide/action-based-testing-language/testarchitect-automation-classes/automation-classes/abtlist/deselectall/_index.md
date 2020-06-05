@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "DeselectAll"
 linktitle: "DeselectAll"
 weight: 1
 aliases: 

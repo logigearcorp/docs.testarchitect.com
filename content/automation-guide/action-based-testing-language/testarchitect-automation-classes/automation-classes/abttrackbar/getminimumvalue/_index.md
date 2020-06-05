@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "GetMinimumValue"
 linktitle: "GetMinimumValue"
 weight: 3
 aliases: 

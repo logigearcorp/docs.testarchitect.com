@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "global variable"
 linktitle: "global variable"
 weight: 7
 aliases: 

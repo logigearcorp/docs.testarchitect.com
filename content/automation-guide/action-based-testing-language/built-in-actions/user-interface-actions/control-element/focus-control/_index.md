@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "focus control"
 linktitle: "focus control"
 weight: 10
 aliases: 

@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "test objective"
 linktitle: "test objective"
 weight: 7
 aliases: 

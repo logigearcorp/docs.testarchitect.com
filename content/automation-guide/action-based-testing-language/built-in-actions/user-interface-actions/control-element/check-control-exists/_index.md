@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "check control exists"
 linktitle: "check control exists"
 weight: 2
 aliases: 

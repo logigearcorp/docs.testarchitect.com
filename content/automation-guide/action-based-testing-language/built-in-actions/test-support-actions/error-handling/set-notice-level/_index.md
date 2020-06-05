@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "set notice level"
 linktitle: "set notice level"
 weight: 6
 aliases: 

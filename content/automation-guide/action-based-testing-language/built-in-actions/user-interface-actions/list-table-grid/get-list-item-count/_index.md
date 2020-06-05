@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get list item count"
 linktitle: "get list item count"
 weight: 22
 aliases: 

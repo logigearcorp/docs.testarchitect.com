@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get text count"
 linktitle: "get text count"
 weight: 10
 aliases: 

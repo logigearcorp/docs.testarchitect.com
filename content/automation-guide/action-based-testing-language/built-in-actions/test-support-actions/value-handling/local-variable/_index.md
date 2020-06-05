@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "local variable"
 linktitle: "local variable"
 weight: 8
 aliases: 

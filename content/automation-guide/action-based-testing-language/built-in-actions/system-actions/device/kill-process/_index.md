@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "kill process"
 linktitle: "kill process"
 weight: 17
 aliases: 

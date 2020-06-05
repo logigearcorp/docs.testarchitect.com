@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "control condition wait"
 linktitle: "control condition wait"
 weight: 4
 aliases: 

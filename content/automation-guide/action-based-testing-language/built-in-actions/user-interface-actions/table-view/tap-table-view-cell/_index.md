@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "tap table view cell"
 linktitle: "tap table view cell"
 weight: 10
 aliases: 

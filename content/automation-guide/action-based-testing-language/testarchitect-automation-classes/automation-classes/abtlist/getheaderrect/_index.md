@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "GetHeaderRect"
 linktitle: "GetHeaderRect"
 weight: 7
 aliases: 

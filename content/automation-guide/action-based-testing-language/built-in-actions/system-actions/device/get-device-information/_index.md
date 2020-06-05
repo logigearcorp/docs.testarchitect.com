@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get device information"
 linktitle: "get device information"
 weight: 12
 aliases: 

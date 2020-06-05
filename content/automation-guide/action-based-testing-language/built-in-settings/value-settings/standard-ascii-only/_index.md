@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "standard ASCII only"
 linktitle: "standard ASCII only"
 weight: 8
 aliases: 

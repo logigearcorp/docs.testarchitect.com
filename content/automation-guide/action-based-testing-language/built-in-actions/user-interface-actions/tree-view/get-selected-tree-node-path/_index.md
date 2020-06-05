@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get selected tree node path"
 linktitle: "get selected tree node path"
 weight: 10
 aliases: 

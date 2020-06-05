@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "TestArchitect fails to interact with child window number 3 of an SAP application."
 linktitle: "TestArchitect fails to interact with child window number 3 of an SAP application."
 weight: 3
 aliases: 

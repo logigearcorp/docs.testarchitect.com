@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "clickCenter"
 linktitle: "clickCenter"
 weight: 4
 aliases: 

@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "CheckProperty"
 linktitle: "CheckProperty"
 weight: 2
 aliases: 

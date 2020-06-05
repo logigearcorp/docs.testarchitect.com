@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "move mouse"
 linktitle: "move mouse"
 weight: 6
 aliases: 

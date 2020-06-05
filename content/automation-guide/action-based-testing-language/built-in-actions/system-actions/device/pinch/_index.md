@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "pinch"
 linktitle: "pinch"
 weight: 20
 aliases: 

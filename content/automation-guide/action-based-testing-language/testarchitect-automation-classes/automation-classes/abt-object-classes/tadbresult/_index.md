@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "TADBResult"
 linktitle: "TADBResult"
 weight: 2
 aliases: 

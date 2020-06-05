@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "GetLastError"
 linktitle: "GetLastError"
 weight: 8
 aliases: 

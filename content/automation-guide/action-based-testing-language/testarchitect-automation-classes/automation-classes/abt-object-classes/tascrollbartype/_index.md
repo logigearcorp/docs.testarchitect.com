@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "TAScrollBarType"
 linktitle: "TAScrollBarType"
 weight: 7
 aliases: 

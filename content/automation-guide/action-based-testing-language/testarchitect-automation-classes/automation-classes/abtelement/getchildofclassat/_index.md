@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "GetChildOfClassAt"
 linktitle: "GetChildOfClassAt"
 weight: 10
 aliases: 

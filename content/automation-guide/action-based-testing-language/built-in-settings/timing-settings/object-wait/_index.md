@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "object wait"
 linktitle: "object wait"
 weight: 8
 aliases: 

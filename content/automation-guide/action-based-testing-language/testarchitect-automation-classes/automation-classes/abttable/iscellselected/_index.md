@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "IsCellSelected"
 linktitle: "IsCellSelected"
 weight: 12
 aliases: 

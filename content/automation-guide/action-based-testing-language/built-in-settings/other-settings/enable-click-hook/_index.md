@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "enable click hook"
 linktitle: "enable click hook"
 weight: 6
 aliases: 

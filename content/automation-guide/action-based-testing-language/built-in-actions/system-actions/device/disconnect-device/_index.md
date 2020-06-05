@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "disconnect device"
 linktitle: "disconnect device"
 weight: 8
 aliases: 

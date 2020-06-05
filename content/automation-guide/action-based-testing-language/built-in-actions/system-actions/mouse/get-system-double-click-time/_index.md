@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get system double click time"
 linktitle: "get system double click time"
 weight: 5
 aliases: 

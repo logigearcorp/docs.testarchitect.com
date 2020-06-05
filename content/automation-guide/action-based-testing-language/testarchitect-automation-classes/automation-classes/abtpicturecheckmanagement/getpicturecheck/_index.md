@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "GetPictureCheck"
 linktitle: "GetPictureCheck"
 weight: 1
 aliases: 

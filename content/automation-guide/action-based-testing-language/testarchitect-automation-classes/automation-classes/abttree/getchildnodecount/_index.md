@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "GetChildNodeCount"
 linktitle: "GetChildNodeCount"
 weight: 7
 aliases: 

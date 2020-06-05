@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "GetParentPath"
 linktitle: "GetParentPath"
 weight: 11
 aliases: 

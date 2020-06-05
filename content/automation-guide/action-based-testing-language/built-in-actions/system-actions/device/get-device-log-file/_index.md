@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get device log file"
 linktitle: "get device log file"
 weight: 13
 aliases: 

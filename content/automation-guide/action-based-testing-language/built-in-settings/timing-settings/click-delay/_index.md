@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "click delay"
 linktitle: "click delay"
 weight: 2
 aliases: 

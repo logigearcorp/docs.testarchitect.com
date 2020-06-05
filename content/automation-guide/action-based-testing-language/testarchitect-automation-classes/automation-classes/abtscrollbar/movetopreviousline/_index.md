@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "MoveToPreviousLine"
 linktitle: "MoveToPreviousLine"
 weight: 3
 aliases: 

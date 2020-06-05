@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get table view section"
 linktitle: "get table view section"
 weight: 8
 aliases: 

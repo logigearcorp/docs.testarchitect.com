@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "press device buttons"
 linktitle: "press device buttons"
 weight: 21
 aliases: 

@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get operating system name"
 linktitle: "get operating system name"
 weight: 3
 aliases: 

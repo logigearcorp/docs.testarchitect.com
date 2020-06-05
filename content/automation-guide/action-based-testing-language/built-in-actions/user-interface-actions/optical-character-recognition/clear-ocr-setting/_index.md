@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "clear ocr setting"
 linktitle: "clear ocr setting"
 weight: 3
 aliases: 

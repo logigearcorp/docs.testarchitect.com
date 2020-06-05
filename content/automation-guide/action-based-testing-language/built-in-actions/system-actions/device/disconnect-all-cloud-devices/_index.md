@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "disconnect all cloud devices"
 linktitle: "disconnect all cloud devices"
 weight: 6
 aliases: 

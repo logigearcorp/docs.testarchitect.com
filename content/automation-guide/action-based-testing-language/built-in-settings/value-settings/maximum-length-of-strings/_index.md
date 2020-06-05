@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "maximum length of strings"
 linktitle: "maximum length of strings"
 weight: 6
 aliases: 

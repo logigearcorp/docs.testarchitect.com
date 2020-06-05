@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "assign cloud device"
 linktitle: "assign cloud device"
 weight: 1
 aliases: 

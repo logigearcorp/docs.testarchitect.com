@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get window property"
 linktitle: "get window property"
 weight: 9
 aliases: 

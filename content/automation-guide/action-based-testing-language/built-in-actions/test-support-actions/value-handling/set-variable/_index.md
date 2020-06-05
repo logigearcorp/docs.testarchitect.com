@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "set variable"
 linktitle: "set variable"
 weight: 10
 aliases: 

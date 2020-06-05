@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "value changed wait"
 linktitle: "value changed wait"
 weight: 14
 aliases: 

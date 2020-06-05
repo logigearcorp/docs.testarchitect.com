@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get column number"
 linktitle: "get column number"
 weight: 19
 aliases: 

@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "linking distance"
 linktitle: "linking distance"
 weight: 12
 aliases: 

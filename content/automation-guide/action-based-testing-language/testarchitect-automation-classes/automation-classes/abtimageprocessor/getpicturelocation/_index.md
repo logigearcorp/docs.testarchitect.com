@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "GetPictureLocation"
 linktitle: "GetPictureLocation"
 weight: 1
 aliases: 

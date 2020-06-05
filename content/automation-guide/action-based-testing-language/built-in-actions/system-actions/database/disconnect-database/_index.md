@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "disconnect database"
 linktitle: "disconnect\\_database"
 weight: 5
 aliases: 

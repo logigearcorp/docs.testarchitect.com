@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "OpenEntity"
 linktitle: "OpenEntity"
 weight: 6
 aliases: 

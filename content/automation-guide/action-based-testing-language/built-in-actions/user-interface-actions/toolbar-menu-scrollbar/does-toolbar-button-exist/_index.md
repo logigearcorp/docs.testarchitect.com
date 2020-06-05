@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "does toolbar button exist"
 linktitle: "does toolbar button exist"
 weight: 19
 aliases: 

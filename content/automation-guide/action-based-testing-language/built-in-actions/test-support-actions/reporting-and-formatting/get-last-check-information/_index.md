@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get last check information"
 linktitle: "get last check information"
 weight: 7
 aliases: 

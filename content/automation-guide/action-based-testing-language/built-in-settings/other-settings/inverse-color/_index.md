@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "inverse color"
 linktitle: "inverse color"
 weight: 8
 aliases: 

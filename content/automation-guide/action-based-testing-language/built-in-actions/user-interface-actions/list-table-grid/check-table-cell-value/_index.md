@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "check table cell value"
 linktitle: "check table cell value"
 weight: 12
 aliases: 

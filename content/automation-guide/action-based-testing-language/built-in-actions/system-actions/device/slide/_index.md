@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "slide"
 linktitle: "slide"
 weight: 24
 aliases: 

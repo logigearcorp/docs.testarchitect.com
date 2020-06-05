@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "navigate"
 linktitle: "navigate"
 weight: 19
 aliases: 

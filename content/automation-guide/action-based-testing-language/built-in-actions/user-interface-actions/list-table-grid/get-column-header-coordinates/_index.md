@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get column header coordinates"
 linktitle: "get column header coordinates"
 weight: 17
 aliases: 

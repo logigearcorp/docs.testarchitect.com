@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "GetValueByColIndex"
 linktitle: "GetValueByColIndex"
 weight: 1
 aliases: 

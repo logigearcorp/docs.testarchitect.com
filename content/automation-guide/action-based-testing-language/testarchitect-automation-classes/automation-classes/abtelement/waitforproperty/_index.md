@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "WaitForProperty"
 linktitle: "WaitForProperty"
 weight: 28
 aliases: 

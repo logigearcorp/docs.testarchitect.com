@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "scroll right"
 linktitle: "scroll right"
 weight: 26
 aliases: 

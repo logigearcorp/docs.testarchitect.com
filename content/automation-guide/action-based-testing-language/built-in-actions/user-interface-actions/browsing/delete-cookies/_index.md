@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "delete cookies"
 linktitle: "delete cookies"
 weight: 8
 aliases: 

@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "Maximize"
 linktitle: "Maximize"
 weight: 22
 aliases: 

@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "set media property"
 linktitle: "set media property"
 weight: 3
 aliases: 

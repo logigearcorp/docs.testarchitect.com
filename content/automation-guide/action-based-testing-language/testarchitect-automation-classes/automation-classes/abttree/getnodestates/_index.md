@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "GetNodeStates"
 linktitle: "GetNodeStates"
 weight: 9
 aliases: 

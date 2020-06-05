@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "Connect"
 linktitle: "Connect"
 weight: 1
 aliases: 

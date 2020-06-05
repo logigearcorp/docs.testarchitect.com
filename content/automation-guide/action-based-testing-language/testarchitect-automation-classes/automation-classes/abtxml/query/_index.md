@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "Query"
 linktitle: "Query"
 weight: 1
 aliases: 

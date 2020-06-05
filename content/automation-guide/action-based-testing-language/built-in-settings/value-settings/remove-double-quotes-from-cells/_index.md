@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "remove double quotes from cells"
 linktitle: "remove double quotes from cells"
 weight: 5
 aliases: 

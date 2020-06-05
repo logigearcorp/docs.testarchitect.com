@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "CheckIn"
 linktitle: "CheckIn"
 weight: 1
 aliases: 

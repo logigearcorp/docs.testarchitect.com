@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "DeselectColumn"
 linktitle: "DeselectColumn"
 weight: 2
 aliases: 

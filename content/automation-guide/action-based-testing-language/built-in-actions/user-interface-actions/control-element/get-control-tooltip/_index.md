@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get control tooltip"
 linktitle: "get control tooltip"
 weight: 13
 aliases: 

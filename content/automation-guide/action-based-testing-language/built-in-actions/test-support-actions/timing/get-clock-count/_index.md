@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get clock count"
 linktitle: "get clock count"
 weight: 1
 aliases: 

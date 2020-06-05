@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "check control property"
 linktitle: "check control property"
 weight: 4
 aliases: 

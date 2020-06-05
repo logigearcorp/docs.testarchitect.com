@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "Testing headless Chrome and APIs with Docker"
 linktitle: "Testing headless Chrome and APIs with Docker"
 weight: 5
 aliases: 

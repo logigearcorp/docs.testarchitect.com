@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "case sensitive"
 linktitle: "case sensitive"
 weight: 1
 aliases: 

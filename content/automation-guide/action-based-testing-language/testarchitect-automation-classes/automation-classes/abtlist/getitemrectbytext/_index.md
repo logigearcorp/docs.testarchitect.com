@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "GetItemRectByText"
 linktitle: "GetItemRectByText"
 weight: 12
 aliases: 

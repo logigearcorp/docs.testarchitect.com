@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get device screen size"
 linktitle: "get device screen size"
 weight: 14
 aliases: 

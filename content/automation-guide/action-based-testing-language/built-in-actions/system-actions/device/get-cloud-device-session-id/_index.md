@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get cloud device session id"
 linktitle: "get cloud device session id"
 weight: 11
 aliases: 

@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "TAMouseClickType"
 linktitle: "TAMouseClickType"
 weight: 4
 aliases: 

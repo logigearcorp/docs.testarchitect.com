@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "ignore blank space"
 linktitle: "ignore blank space"
 weight: 3
 aliases: 

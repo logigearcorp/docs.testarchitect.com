@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get screen orientation"
 linktitle: "get screen orientation"
 weight: 16
 aliases: 

@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "escape sequences"
 linktitle: "escape sequences"
 weight: 2
 aliases: 

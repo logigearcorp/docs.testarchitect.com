@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "wait for window close"
 linktitle: "wait for window close"
 weight: 8
 aliases: 

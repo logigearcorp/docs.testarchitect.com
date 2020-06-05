@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "GetTAClass"
 linktitle: "GetTAClass"
 weight: 19
 aliases: 

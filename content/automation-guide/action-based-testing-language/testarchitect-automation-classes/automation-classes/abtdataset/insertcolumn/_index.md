@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "InsertColumn"
 linktitle: "InsertColumn"
 weight: 9
 aliases: 

@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "wait for control not exists"
 linktitle: "wait for control not exists"
 weight: 5
 aliases: 

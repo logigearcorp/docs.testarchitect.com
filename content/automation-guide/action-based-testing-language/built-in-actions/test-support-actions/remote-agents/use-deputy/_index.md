@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "use deputy"
 linktitle: "use deputy"
 weight: 3
 aliases: 

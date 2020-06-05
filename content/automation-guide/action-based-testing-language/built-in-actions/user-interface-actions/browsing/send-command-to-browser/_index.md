@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "send command to browser"
 linktitle: "send command to browser"
 weight: 21
 aliases: 

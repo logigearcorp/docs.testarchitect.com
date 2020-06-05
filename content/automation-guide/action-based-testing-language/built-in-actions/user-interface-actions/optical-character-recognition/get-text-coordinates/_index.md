@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get text coordinates"
 linktitle: "get text coordinates"
 weight: 9
 aliases: 

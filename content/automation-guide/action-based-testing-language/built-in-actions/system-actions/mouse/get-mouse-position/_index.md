@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get mouse position"
 linktitle: "get mouse position"
 weight: 4
 aliases: 

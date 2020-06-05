@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "close tab"
 linktitle: "close tab"
 weight: 3
 aliases: 

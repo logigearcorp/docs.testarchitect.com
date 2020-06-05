@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "check toolbar control value"
 linktitle: "check toolbar control value"
 weight: 10
 aliases: 

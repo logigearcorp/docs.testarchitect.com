@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "ClickCell"
 linktitle: "ClickCell"
 weight: 1
 aliases: 

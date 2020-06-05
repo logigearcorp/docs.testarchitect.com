@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get selected picker view item"
 linktitle: "get selected picker view item"
 weight: 8
 aliases: 

@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "modal close attempts"
 linktitle: "modal close attempts"
 weight: 17
 aliases: 

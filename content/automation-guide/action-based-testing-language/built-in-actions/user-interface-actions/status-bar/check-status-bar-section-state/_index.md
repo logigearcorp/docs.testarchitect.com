@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "check status bar section state"
 linktitle: "check status bar section state"
 weight: 1
 aliases: 

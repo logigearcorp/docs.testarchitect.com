@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "set clipboard"
 linktitle: "set clipboard"
 weight: 3
 aliases: 

@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "number digits after decimal"
 linktitle: "number digits after decimal"
 weight: 9
 aliases: 

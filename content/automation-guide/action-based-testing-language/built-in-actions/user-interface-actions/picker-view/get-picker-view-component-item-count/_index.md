@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get picker view component item count"
 linktitle: "get picker view component item count"
 weight: 6
 aliases: 

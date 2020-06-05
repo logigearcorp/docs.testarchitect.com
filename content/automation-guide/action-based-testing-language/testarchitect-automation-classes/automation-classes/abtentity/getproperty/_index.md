@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "GetProperty"
 linktitle: "GetProperty"
 weight: 16
 aliases: 

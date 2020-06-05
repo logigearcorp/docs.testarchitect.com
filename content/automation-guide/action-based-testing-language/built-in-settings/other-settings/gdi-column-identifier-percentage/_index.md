@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "gdi column identifier percentage"
 linktitle: "gdi column identifier percentage"
 weight: 9
 aliases: 

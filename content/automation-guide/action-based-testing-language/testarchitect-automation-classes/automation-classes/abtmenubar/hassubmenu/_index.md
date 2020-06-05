@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "HasSubMenu"
 linktitle: "HasSubMenu"
 weight: 4
 aliases: 

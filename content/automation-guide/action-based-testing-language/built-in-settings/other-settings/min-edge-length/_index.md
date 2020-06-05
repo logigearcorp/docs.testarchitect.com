@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "min edge length"
 linktitle: "min edge length"
 weight: 15
 aliases: 

@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "select column"
 linktitle: "select column"
 weight: 29
 aliases: 

@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "lexical scoping"
 linktitle: "lexical scoping"
 weight: 11
 aliases: 

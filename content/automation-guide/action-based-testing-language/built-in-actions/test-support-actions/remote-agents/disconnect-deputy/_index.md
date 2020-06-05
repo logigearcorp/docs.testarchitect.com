@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "disconnect deputy"
 linktitle: "disconnect deputy"
 weight: 2
 aliases: 

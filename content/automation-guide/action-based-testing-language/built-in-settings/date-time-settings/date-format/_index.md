@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "date format"
 linktitle: "date format"
 weight: 3
 aliases: 

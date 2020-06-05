@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get file attributes"
 linktitle: "get file attributes"
 weight: 14
 aliases: 

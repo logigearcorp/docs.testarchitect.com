@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "click method"
 linktitle: "click method"
 weight: 4
 aliases: 

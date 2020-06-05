@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "minimum accuracy"
 linktitle: "minimum accuracy"
 weight: 16
 aliases: 

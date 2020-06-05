@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "pause"
 linktitle: "pause"
 weight: 1
 aliases: 

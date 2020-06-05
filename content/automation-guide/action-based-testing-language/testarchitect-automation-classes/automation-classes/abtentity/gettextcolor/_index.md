@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "GetTextColor"
 linktitle: "GetTextColor"
 weight: 18
 aliases: 

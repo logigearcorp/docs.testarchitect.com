@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "connect database"
 linktitle: "connect database"
 weight: 2
 aliases: 

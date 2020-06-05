@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "GetSelectedText"
 linktitle: "GetSelectedText"
 weight: 2
 aliases: 

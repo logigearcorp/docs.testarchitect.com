@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "GetSelectedNodes"
 linktitle: "GetSelectedNodes"
 weight: 12
 aliases: 

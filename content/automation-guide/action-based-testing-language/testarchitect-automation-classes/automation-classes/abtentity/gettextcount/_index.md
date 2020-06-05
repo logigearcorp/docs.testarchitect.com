@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "GetTextCount"
 linktitle: "GetTextCount"
 weight: 21
 aliases: 

@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "ExpandAll"
 linktitle: "ExpandAll"
 weight: 5
 aliases: 

@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "character recognition technique"
 linktitle: "character recognition technique"
 weight: 3
 aliases: 

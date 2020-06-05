@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "execute command"
 linktitle: "execute command"
 weight: 1
 aliases: 

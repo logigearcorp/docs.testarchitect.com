@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "page wait state"
 linktitle: "page wait state"
 weight: 11
 aliases: 

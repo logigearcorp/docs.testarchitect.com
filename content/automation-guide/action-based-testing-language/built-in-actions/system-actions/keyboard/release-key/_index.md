@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "release key"
 linktitle: "release key"
 weight: 2
 aliases: 

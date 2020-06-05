@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "authenticate"
 linktitle: "authenticate"
 weight: 5
 aliases: 

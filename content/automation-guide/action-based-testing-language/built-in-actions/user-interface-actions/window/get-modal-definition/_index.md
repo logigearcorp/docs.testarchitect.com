@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get modal definition"
 linktitle: "get modal definition"
 weight: 8
 aliases: 

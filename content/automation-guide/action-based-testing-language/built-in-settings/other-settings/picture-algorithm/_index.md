@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "picture algorithm"
 linktitle: "picture algorithm"
 weight: 19
 aliases: 

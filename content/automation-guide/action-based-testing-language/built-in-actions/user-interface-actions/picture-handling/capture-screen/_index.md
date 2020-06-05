@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "capture screen"
 linktitle: "capture screen"
 weight: 1
 aliases: 

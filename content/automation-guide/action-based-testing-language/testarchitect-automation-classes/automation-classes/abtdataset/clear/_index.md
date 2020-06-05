@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "Clear"
 linktitle: "Clear"
 weight: 5
 aliases: 

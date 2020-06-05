@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get toolbar menu state"
 linktitle: "get toolbar menu state"
 weight: 22
 aliases: 

@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get table view cell containing"
 linktitle: "get table view cell containing"
 weight: 6
 aliases: 

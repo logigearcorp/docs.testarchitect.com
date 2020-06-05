@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "color format"
 linktitle: "color format"
 weight: 5
 aliases: 

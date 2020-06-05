@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "assign device"
 linktitle: "assign device"
 weight: 2
 aliases: 

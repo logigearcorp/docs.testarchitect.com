@@ -1,5 +1,5 @@
 --- 
-title: "-"
+title: "get json query result"
 linktitle: "get json query result"
 weight: 2
 aliases: 
