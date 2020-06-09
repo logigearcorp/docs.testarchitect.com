@@ -56,7 +56,7 @@ This action may be used within the following project items:test modules and user
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action: [remove double quotes from cells](bis_remove_double_quotes_from_cells.html).
+The following settings are applicable to this action: [remove double quotes from cells](remove_double_quotes_from_cells.html).
 
 ## Applicable Systems/Platforms
 
@@ -88,10 +88,10 @@ Suppose that you'd like to compare the baseline image against the runtime image,
 
 A basic workflow is as follows:
 
-1.  Capture the runtime image in the AUT, and then save it to a local path by using [capture screen](bia_capture_screen.html).
-2.  Retrieve the total number of baseline images in a given picture check by using [get baseline image count](bia_get_baseline_image_count.html).
+1.  Capture the runtime image in the AUT, and then save it to a local path by using [capture screen](capture_screen.html).
+2.  Retrieve the total number of baseline images in a given picture check by using [get baseline image count](get_baseline_image_count.html).
 3.  Loop through the list of returned baseline image\(s\).
-4.  Export the baseline images to a file with [export baseline picture](bia_export_baseline_picture.html).
+4.  Export the baseline images to a file with [export baseline picture](export_baseline_picture.html).
 5.  Use [ImageMagick CLI](http://www.imagemagick.org/script/command-line-processing.php) to preprocess and compare the baseline image\(s\) against the runtime image.
 6.  Get the returned value from ImageMagick, and then check it against an expected value.
 

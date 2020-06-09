@@ -8,7 +8,7 @@ aliases:
 
 How to conveniently create a list of predefined mobile device profiles to be used in tests.
 
-You can certainly add JSON strings to define mobile device profiles in the [send command to browser](bia_send_command_to_browser.html) built-in action. But these JSON strings are lengthy, and this can render your test procedures hard to read. Much more convenient is to create a list of JSON strings defining mobile emulator profiles and assign a name to each one within a [user-defined action](/reuse/reuse.High_level_actions.html). Passing the action a specific device name allows that action to return the associated JSON string. In his example, we call this action get json of device.
+You can certainly add JSON strings to define mobile device profiles in the [send command to browser](send_command_to_browser.html) built-in action. But these JSON strings are lengthy, and this can render your test procedures hard to read. Much more convenient is to create a list of JSON strings defining mobile emulator profiles and assign a name to each one within a [user-defined action](/reuse/reuse.High_level_actions.html). Passing the action a specific device name allows that action to return the associated JSON string. In his example, we call this action get json of device.
 
 ## get json of device
 

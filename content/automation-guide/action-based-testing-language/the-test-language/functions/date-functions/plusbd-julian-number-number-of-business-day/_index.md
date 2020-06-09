@@ -33,7 +33,7 @@ Returns a Julian date number computed by adding a number of business days to a J
 
 ## Applicable Built-In Settings
 
-The following built-in setting\(s\) are supported: [date order](bis_date_order.html).
+The following built-in setting\(s\) are supported: [date order](date_order.html).
 
 ## Example
 

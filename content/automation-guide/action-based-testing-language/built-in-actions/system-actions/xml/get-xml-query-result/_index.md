@@ -20,7 +20,7 @@ Query an XML string by XPath.
 
     XML target string that the query runs against.
 
-    **Tip:** To access content from an XML file, use the [get text file](bia_get_text_file.html) action to load the XML document into a variable, then reference the variable in this argument.
+    **Tip:** To access content from an XML file, use the [get text file](get_text_file.html) action to load the XML document into a variable, then reference the variable in this argument.
 
 -   **xpath**
 
@@ -35,7 +35,7 @@ Query an XML string by XPath.
 
 -   It is possible to insert an entire XML file's content into the xml argument; however, all whitespace and line breaks between XML nodes must be removed manually to avoid automation failure \(see example \#4 below\).
 -   Depending upon the XPath query, some of the following notes for the variable argument may apply:
-    -   The returned value may contain multiple XML nodes. To extract or check the content of a single line from variable, use the [get text line](bia_get_text_line.html) or [check text line](bia_check_text_line.html) actions. \(See example \#5.\)
+    -   The returned value may contain multiple XML nodes. To extract or check the content of a single line from variable, use the [get text line](get_text_line.html) or [check text line](check_text_line.html) actions. \(See example \#5.\)
     -   If the returned value contains multiple XML nodes, and is to be used in another XPath query, ensure that it is well-formed XML by adding a single root element at the top level \(see example \#6\).
 -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
 -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
@@ -44,7 +44,7 @@ Query an XML string by XPath.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](bis_remove_double_quotes_from_cells.html).
+The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html).
 
 ## Applicable Controls
 

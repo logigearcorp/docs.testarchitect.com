@@ -41,7 +41,7 @@ This action may be used within the following project items:high-level actions
 
 ## Notes
 
--   All necessary argument actions for a given user-defined action should appear immediately after the [action definition](bia_action_definition_1.html) line of the action definition.
+-   All necessary argument actions for a given user-defined action should appear immediately after the [action definition](action_definition_1.html) line of the action definition.
 -   This action also has a documentary function. Although it is optional, you are strongly urged to make good use of the description argument.
 
 ## Applicable Built-In Settings

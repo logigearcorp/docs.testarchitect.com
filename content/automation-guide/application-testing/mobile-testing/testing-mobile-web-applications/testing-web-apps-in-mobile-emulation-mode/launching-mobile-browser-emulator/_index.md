@@ -12,14 +12,14 @@ To start an emulator, do the following in your test:
 
 1.  Close all Google Chrome instances, if running.
 
-2.  Use the [use browser](bis_use_browser.html) built-in setting to launch Google Chrome, since Chrome's Device Mode is an integral part of DevTools.
+2.  Use the [use browser](use_browser.html) built-in setting to launch Google Chrome, since Chrome's Device Mode is an integral part of DevTools.
 
     ```
                  setting          value
     setting      use browser      Chrome
     ```
 
-3.  Use the [navigate](bia_navigate.html) built-in action to navigate to a web page.
+3.  Use the [navigate](navigate.html) built-in action to navigate to a web page.
 
     ```
                  location
@@ -27,7 +27,7 @@ To start an emulator, do the following in your test:
     
     ```
 
-4.  Use the [send command to browser](bia_send_command_to_browser.html) built-in action to invoke your selected emulator in Chrome's Device Mode \([learn more](aut_app_testing_responsive_web_Chrome_DevTools_creating_profiles.html)\). For example, the following JSON string defines:
+4.  Use the [send command to browser](send_command_to_browser.html) built-in action to invoke your selected emulator in Chrome's Device Mode \([learn more](aut_app_testing_responsive_web_Chrome_DevTools_creating_profiles.html)\). For example, the following JSON string defines:
 
     -   the user agent,
     -   whether to emulate a mobile device,
@@ -43,7 +43,7 @@ To start an emulator, do the following in your test:
                                            {"method":"Emulation.setTouchEmulationEnabled","params":{"enabled":true}}]
     ```
 
-5.  Refresh the page by using the [refresh](bia_refresh.html) built-in action to ensure the newly-invoked emulator take effect properly.
+5.  Refresh the page by using the [refresh](refresh.html) built-in action to ensure the newly-invoked emulator take effect properly.
 
     **Important:** It should be noted that, upon conclusion of an automated run on the emulator, the Chrome browser automatically switches out of Device Mode and returns to Desktop Mode.
 
@@ -76,7 +76,7 @@ To start an emulator, do the following in your test:
     //Do something
     ```
 
-7.  You may wish to change the environment for the emulator to customize its behaviors. When the mobile browser emulator has been invoked, use the [send command to browser](bia_send_command_to_browser.html) built-in action again.
+7.  You may wish to change the environment for the emulator to customize its behaviors. When the mobile browser emulator has been invoked, use the [send command to browser](send_command_to_browser.html) built-in action again.
 
     Technically, send command to browser sends a JSON string request to Google Chrome to customize the emulator behaviors on-the-fly. Note that you can change as many behaviors as you want, as long as those behaviors are supported by [Chrome debugging protocol](https://chromedevtools.github.io/debugger-protocol-viewer/tot/).
 
@@ -110,7 +110,7 @@ To start an emulator, do the following in your test:
 
             ![](/images//Images/accelerometer.png)
 
-8.  Since you change the emulator behaviors on-the-fly, it is highly recommended that you refresh the page by using the [refresh](bia_refresh.html) built-in action to ensure all new behaviors take effect properly.
+8.  Since you change the emulator behaviors on-the-fly, it is highly recommended that you refresh the page by using the [refresh](refresh.html) built-in action to ensure all new behaviors take effect properly.
 
     Your snippet of test should resemble the following.
 

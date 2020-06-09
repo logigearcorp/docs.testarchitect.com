@@ -89,7 +89,7 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   This built-in action employs both [Optional Character Recognition](aut_text_recognition_techniques.html) \(OCR\) and [Graphics Device Interface](aut_text_recognition_techniques.html) \(GDI\) techniques. By default, the action employs OCR technique. To switch to GDI technique, refer to the [character recognition technique](bis_character_recognition_technique.html) built-in setting for details.
+-   This built-in action employs both [Optional Character Recognition](aut_text_recognition_techniques.html) \(OCR\) and [Graphics Device Interface](aut_text_recognition_techniques.html) \(GDI\) techniques. By default, the action employs OCR technique. To switch to GDI technique, refer to the [character recognition technique](character_recognition_technique.html) built-in setting for details.
 
     **Important:**
 
@@ -119,9 +119,9 @@ This action may be used within the following project items:test modules and user
 
 -   If the action fails to find the specified bitmap text fragment, an error is generated.
 -   text argument:
-    -   For OCR technique: While the [case sensitive](bis_case_sensitive.html) setting applies to the property values used to identify the correct window or control for this action, the action's OCR text identification functionality is non-case sensitive, and remains unaffected by the value of this setting.
+    -   For OCR technique: While the [case sensitive](case_sensitive.html) setting applies to the property values used to identify the correct window or control for this action, the action's OCR text identification functionality is non-case sensitive, and remains unaffected by the value of this setting.
     -   For GDI technique:
-        -   The action's GDI text identification functionality is case sensitive, and is affected by the value of the [case sensitive](bis_case_sensitive.html) setting.
+        -   The action's GDI text identification functionality is case sensitive, and is affected by the value of the [case sensitive](case_sensitive.html) setting.
         -   It is highly recommended that you apply wildcards for this argument's value, since the text re-drawn by given drawing functions might contain surrounding noise. For example: given a value of \{Administration.\*\}, TestArchitect searches for texts whose string beginnings match Administration. In more general terms, this argument accepts regular expressions.
 -   text color argument:
     -   No value is required if your test procedure does not make use of the built-in [set ocr setting](/images//Images/TA_Automation/Topics/bia_set_ocr_setting.html) action and [OCR Detector Tool](/images//Images/TA_Help/Topics/ug_OCR_detector_tool.html).
@@ -136,7 +136,7 @@ This action may be used within the following project items:test modules and user
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[case sensitive](bis_case_sensitive.html) \(see Notes\), [remove double quotes from cells](bis_remove_double_quotes_from_cells.html), [standard ASCII only](bis_standard_ASCII_only.html), [object wait](bis_object_wait.html), [window wait](bis_window_wait.html).
+The following settings are applicable to this action:[case sensitive](case_sensitive.html) \(see Notes\), [remove double quotes from cells](remove_double_quotes_from_cells.html), [standard ASCII only](standard_ASCII_only.html), [object wait](object_wait.html), [window wait](window_wait.html).
 
 ## Example - Case 1: With window and control arguments specified
 

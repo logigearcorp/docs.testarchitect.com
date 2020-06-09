@@ -6,7 +6,7 @@ aliases:
     - /TA_Automation/Topics/bis_Built_in_settings.html
 ---
 
-TestArchitect has a number of built-in settings that control various runtime behaviors of TestArchitect.All built-in settings are assigned non-empty default values by TestArchitect prior to the start of each test run. These defaults can be overridden, however, during either [run setup time](/TA_Glossary/Topics/glossaryRunSetupTime.html) \([learn more](aut_configuring_built_in_settings.html)\), or during [run time](/TA_Glossary/Topics/glossaryRunTime.html) by means of the built-in [setting](bia_setting.html) action.
+TestArchitect has a number of built-in settings that control various runtime behaviors of TestArchitect.All built-in settings are assigned non-empty default values by TestArchitect prior to the start of each test run. These defaults can be overridden, however, during either [run setup time](/TA_Glossary/Topics/glossaryRunSetupTime.html) \([learn more](aut_configuring_built_in_settings.html)\), or during [run time](/TA_Glossary/Topics/glossaryRunTime.html) by means of the built-in [setting](setting.html) action.
 
 1.  [Date, time settings](/TA_Automation/Topics/bis_date_time.html)  
 Setting functions that operate on date and time values are classified as date and time settings. They include functions for specifying the date format, controlling the behavior when months are added to a date but the resulting date is invalid, etc.

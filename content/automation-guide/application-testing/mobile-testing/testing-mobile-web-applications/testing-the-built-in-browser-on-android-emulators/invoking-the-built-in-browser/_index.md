@@ -12,7 +12,7 @@ There are two methods by which the built-in browser may be invoked in Android em
 
     ![](/images//Images/default_browser_emulator.png)
 
-2.  Alternatively, use the [navigate](bia_navigate.html) built-in action.
+2.  Alternatively, use the [navigate](navigate.html) built-in action.
 
 **Remember:**
 

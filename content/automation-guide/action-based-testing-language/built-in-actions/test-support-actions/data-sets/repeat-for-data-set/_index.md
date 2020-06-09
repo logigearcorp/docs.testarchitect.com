@@ -24,7 +24,7 @@ Use of this action is supported on the following systems/platforms: Windows, Lin
 
 ## Notes
 
--   The lines between [use data set](bia_use_data_set.html) and this action are repeated for each data row supplied from the data set.
+-   The lines between [use data set](use_data_set.html) and this action are repeated for each data row supplied from the data set.
 
 ## Applicable Built-In Settings
 

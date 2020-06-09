@@ -36,9 +36,7 @@ Reports can be produced for entire projects or for specified project items.
     |****Data****|Data sets|
     |****Interfaces****|Interface entities|
     |****Test suites****|Test suites|
-    |****Results****|Test results and test case results. **Note:** The report can only include test results residing in the repository \(not local results\).
-
-|
+    |****Results****|Test results and test case results. **Note:** The report can only include test results residing in the repository \(not local results\).|
     |****Bugs****|Bugs|
 
 3.  After selecting a report type to create, an **Edit Profile** panel appears in the main window, listing the options for defining the properties of the report \(see [customizing a report](Report_customizing.html)\).

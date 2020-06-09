@@ -12,7 +12,7 @@ keyword: [assign a mobile cloud device, name a mobile cloud device]
 
 ## Description
 
-Assign a logical name for a given capability of a target cloud device. This name may then be used in the action [connect cloud device](bia_connect_cloud_device.html).
+Assign a logical name for a given capability of a target cloud device. This name may then be used in the action [connect cloud device](connect_cloud_device.html).
 
 ## Arguments
 
@@ -40,7 +40,7 @@ This action may be used within the following project items:test modules and user
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](bis_remove_double_quotes_from_cells.html).
+The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html).
 
 ## Example
 

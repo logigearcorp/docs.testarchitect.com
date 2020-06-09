@@ -6,7 +6,7 @@ aliases:
     - /TA_Automation/Topics/Expressions_functions_fj.html
 ---
 
-Convert a specific Gregorian date to its equivalent Julian day number. The Gregorian date order format is specified by the [date order](bis_date_order.html) built-in setting.
+Convert a specific Gregorian date to its equivalent Julian day number. The Gregorian date order format is specified by the [date order](date_order.html) built-in setting.
 
 ## Syntax
 
@@ -16,7 +16,7 @@ Convert a specific Gregorian date to its equivalent Julian day number. The Grego
 
 -   **date**
 
-    A Gregorian date. Format is specified by the built-in setting [date order](bis_date_order.html).
+    A Gregorian date. Format is specified by the built-in setting [date order](date_order.html).
 
 
 ## Return Value
@@ -107,7 +107,7 @@ Returns the equivalent Julian day number.
 
 ## Applicable Built-In Settings
 
-The following built-in setting\(s\) are supported: [date order](bis_date_order.html).
+The following built-in setting\(s\) are supported: [date order](date_order.html).
 
 ## Example
 

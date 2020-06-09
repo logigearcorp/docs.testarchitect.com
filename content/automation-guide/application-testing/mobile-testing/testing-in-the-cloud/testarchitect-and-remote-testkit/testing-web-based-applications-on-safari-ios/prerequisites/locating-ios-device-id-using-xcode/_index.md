@@ -21,7 +21,7 @@ For the device identifier, perform the following steps:
 
 3.  Under Device Information, you will get an identifier, or UDID, of the device.
 
-    **Remember:** This UDID is necessary when [configuring](aut_app_cloud_testing_Appium_RTK_iOS.html) Appium server locally, and defining desired capabilities for the [assign cloud device](bia_assign_cloud_device.html) built-in action. \([Learn more](aut_app_cloud_testing_Appium_RTK_iOS_workflow.html).\)
+    **Remember:** This UDID is necessary when [configuring](aut_app_cloud_testing_Appium_RTK_iOS.html) Appium server locally, and defining desired capabilities for the [assign cloud device](assign_cloud_device.html) built-in action. \([Learn more](aut_app_cloud_testing_Appium_RTK_iOS_workflow.html).\)
 
 
 **Parent topic:**[Prerequisites](/TA_Automation/Topics/aut_app_cloud_testing_iOS_prerequisites.html)

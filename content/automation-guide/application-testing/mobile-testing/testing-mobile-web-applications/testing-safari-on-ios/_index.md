@@ -32,27 +32,9 @@ TestArchitect supports the testing of web applications running within the Safari
 
     |Built-in actions|Applicable controls|Sequence of events triggered|
     |----------------|-------------------|----------------------------|
-    |[click](bia_click.html), [tap](bia_tap.html)|all controls|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
-    |[click table cell](bia_click_table_cell.html)|table|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
-    |[set list check](bia_set_list_check.html)|ul, ol|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
-    |[select](bia_select.html), [click list item](bia_click_list_item.html)|select-one, select-multiple|**click** \> **change**|
-    |[set](bia_set.html)|input-checkbox, input-radio|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
-    |[enter](bia_enter.html), [set](bia_set.html)|input-text, input-password, input-search, input-tel, input-url, input-email, input-number|**keydown** \> **keypress** \> **input** \> **keyup** \> **change**|
-    |textarea|**keydown** \> **keypress** \> **input** \> **keyup**|
-
-
-1.  [Safari iOS testing prerequisites](/TA_Automation/Topics/aut_app_testing_mobile_web_Safari_prerequesites.html)  
-Guides to setting up Safari iOS automation under TestArchitect.
-2.  [Invoking Safari on iOS during automation](/TA_Automation/Topics/aut_app_testing_mobile_web_invoking_Safari.html)  
-There are two methods by which Safari may be invoked on iOS devices:
-3.  [Handling JavaScript popups on Safari iOS](/TA_Automation/Topics/aut_app_testing_safari_apps_popups.html)  
-TestArchitect offers a special set of actions for interfacing with JavaScript popups, which include alerts, prompts and confirmation dialogs.
-4.  [List of supported Safari iOS built-in actions](/TA_Automation/Topics/aut_app_testing_mobile_web_Safari_actions.html)  
-Built-in actions supported by TestArchitect for testing Safari on iOS.
-5.  [Limitations and workarounds of testing Safari on iOS](/TA_Automation/Topics/aut_app_testing_mobile_web_Safari_limitations.html)  
-This topic categorizes some limitations you might encounter in testing web applications in Safari on iOS. Applicable workarounds, if available, are also discussed.
-
-**Parent topic:**[Testing mobile web applications](/TA_Automation/Topics/aut_app_testing_mobile_web.html)
-
-**Next topic:**[Testing Google Chrome on Android](/TA_Automation/Topics/aut_app_testing_mobile_web_Android.html)
-
+    |[click](click.html), [tap](tap.html)|all controls|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
+    |[click table cell](click_table_cell.html)|table|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
+    |[set list check](set_list_check.html)|ul, ol|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
+    |[select](select.html), [click list item](click_list_item.html)|select-one, select-multiple|**click** \> **change**|
+    |[set](set.html)|input-checkbox, input-radio|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
+    |[enter](enter.html), [set](set.html)|input-text, input-password, input-search, input-tel, input-url, input-email, input-number|**keydown** \> **keypress** \> **input** \> **keyup** \> **change**|

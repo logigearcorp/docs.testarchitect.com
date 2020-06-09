@@ -26,7 +26,7 @@ This action may be used within the following project items:test modules and user
 
 ## Note
 
--   switch frame by path cannot move the focus back to its parent frame or default page. To move the focus to the parent frame or default page. You ought to adopt the [switch frame by destination](bia_switch_frame_by_destination.html) action.
+-   switch frame by path cannot move the focus back to its parent frame or default page. To move the focus to the parent frame or default page. You ought to adopt the [switch frame by destination](switch_frame_by_destination.html) action.
 
 ## Example![](/images//Images/bia_switch_frame_by_path_illustration.png)
 

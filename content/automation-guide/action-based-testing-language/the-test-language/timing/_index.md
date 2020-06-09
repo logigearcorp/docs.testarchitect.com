@@ -10,21 +10,23 @@ Successful testing requires that the automation correctly handle the varying res
 
 ## Timing Settings
 
-The behavior of built-in actions in TestArchitect is governed by a number of user-definable settings, documented in [Built-in Settings](bis_Built_in_settings.html) of the Automation Guide. Among the built-in settings are several that relate to timing issues during test execution, all summarized in the table below. These timing settings all have default values, but you are free to modify such values within your test modules, using the built-in [setting](bia_setting.html) action.
+The behavior of built-in actions in TestArchitect is governed by a number of user-definable settings, documented in [Built-in Settings](Built_in_settings.html) of the Automation Guide. Among the built-in settings are several that relate to timing issues during test execution, all summarized in the table below. These timing settings all have default values, but you are free to modify such values within your test modules, using the built-in [setting](setting.html) action.
 
 The following table summarizes the settings:
 
+|||||
+|------|------|------|------|
 |**Setting**|**Default Value**|**Units**|**Description**|
-|[object wait](bis_object_wait.html)|20|seconds|The maximum time to wait for a control to become available.|
-|[page wait](bis_page_wait.html)|30|seconds|The maximum wait time for an HTML page to load completely.|
-|[window wait](bis_window_wait.html)|20|seconds|The maximum wait time for a window to become available. If a control on a window is addressed TestArchitect looks for that window. If the window is not yet visible, TestArchitect waits until either the window is available or the maximum time specified by this setting is exhausted.|
-|[property wait](bis_property_wait.html)|5|seconds|The maximum wait time for property value of a control or window to be available.|
-|[window wait probe](bis_window_wait_probe.html)|2|seconds|How long to wait for a window in case of only three following actions: [if window exists](bia_if_window_exists.html), [if window not exists](bia_if_window_not_exists.html) and [does window exist](bia_does_window_exist.html). If the maximum time specified by this setting is reached, the result is false.|
-|[object wait probe](bis_object_wait_probe.html)|2|seconds|How long to wait for a control in case of only three following actions: [if control exists](bia_if_control_exists.html), [if control not exists](bia_if_control_not_exists.html) and [does control exist](bia_does_control_exist.html). If the maximum time specified by this setting is reached, the result is false.|
-|[item wait](bis_item_wait.html)|3|seconds|The maximum wait time for an item to become available. Items affected can be tree nodes, menu items, list/combo box items or table cells.|
-|[value changed wait](bis_value_changed_wait.html)|500|milliseconds|The maximum wait time for a value of a get or check action to be changed.|
-|[control condition](bis_control_condition.html)|None|Dynamic identifier expression that evaluates to a Boolean True or False|Waits for given UI controls to be ready before [UI-interactive actions](timing_classifying_actions.html) are executed.|
-|[control condition wait](bis_control_condition_wait.html)|5|seconds|The maximum wait time for all TA properties to satisfy the conditions defined in [control condition](bis_control_condition.html).|
+|[object wait](object_wait.html)|20|seconds|The maximum time to wait for a control to become available.|
+|[page wait](page_wait.html)|30|seconds|The maximum wait time for an HTML page to load completely.|
+|[window wait](window_wait.html)|20|seconds|The maximum wait time for a window to become available. If a control on a window is addressed TestArchitect looks for that window. If the window is not yet visible, TestArchitect waits until either the window is available or the maximum time specified by this setting is exhausted.|
+|[property wait](property_wait.html)|5|seconds|The maximum wait time for property value of a control or window to be available.|
+|[window wait probe](window_wait_probe.html)|2|seconds|How long to wait for a window in case of only three following actions: [if window exists](if_window_exists.html), [if window not exists](if_window_not_exists.html) and [does window exist](does_window_exist.html). If the maximum time specified by this setting is reached, the result is false.|
+|[object wait probe](object_wait_probe.html)|2|seconds|How long to wait for a control in case of only three following actions: [if control exists](if_control_exists.html), [if control not exists](if_control_not_exists.html) and [does control exist](does_control_exist.html). If the maximum time specified by this setting is reached, the result is false.|
+|[item wait](item_wait.html)|3|seconds|The maximum wait time for an item to become available. Items affected can be tree nodes, menu items, list/combo box items or table cells.|
+|[value changed wait](value_changed_wait.html)|500|milliseconds|The maximum wait time for a value of a get or check action to be changed.|
+|[control condition](control_condition.html)|None|Dynamic identifier expression that evaluates to a Boolean True or False|Waits for given UI controls to be ready before [UI-interactive actions](timing_classifying_actions.html) are executed.|
+|[control condition wait](control_condition_wait.html)|5|seconds|The maximum wait time for all TA properties to satisfy the conditions defined in [control condition](control_condition.html).|
 
 Waits are important in test automation. Ideally, a system under test should be able to respond to an input in zero time, or at least a lot faster than the test automation can test those responses, but we know that’s not always the case. Hence, a test automation system needs to make allowances for the system under test.
 

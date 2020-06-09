@@ -15,9 +15,7 @@ If TestArchitect is unsuccessful in exporting repository files, the status of ea
 The following table describes the error message\(s\) that you may encounter while exporting repository files, and their detailed descriptions .
 
 |**Message**|**Description**|
-|Unable to find the file at specified path. Make sure the destination folder is writeable.
-
-|This error is commonly encountered when you do not have write permission on the destination folder.|
+|Unable to find the file at specified path. Make sure the destination folder is writeable.|This error is commonly encountered when you do not have write permission on the destination folder.|
 
 **Parent topic:**[Exporting/Importing repositories](/TA_Administration/Topics/adm_Exporting_import_repository.html)
 

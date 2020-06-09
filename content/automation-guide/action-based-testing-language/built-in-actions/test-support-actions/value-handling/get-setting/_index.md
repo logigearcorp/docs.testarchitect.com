@@ -12,7 +12,7 @@ keyword: [get setting, get current value of setting, retrieve current value of s
 
 ## Description
 
-Retrieve the current value of a [built-in](bis_Built_in_settings.html) or [user-defined](aut_defining_user_defined_settings.html) setting.
+Retrieve the current value of a [built-in](Built_in_settings.html) or [user-defined](aut_defining_user_defined_settings.html) setting.
 
 ## Arguments
 
@@ -58,13 +58,13 @@ You could do this by establishing a user-defined setting, which we'll call langu
 
 Since our tests will default to English, in order to have them perform their testing in English, you have the option of setting the above value to English, or simply clearing it.
 
-Since there are a lot of various messages and user interface bits of text that are used by our tests, and which will vary by language, we use an ODBC database \(one that TestArchitect's [database actions](bia_Database.html) can work with\), to store the translations:
+Since there are a lot of various messages and user interface bits of text that are used by our tests, and which will vary by language, we use an ODBC database \(one that TestArchitect's [database actions](Database.html) can work with\), to store the translations:
 
 ![](/images//Images/bia_get_setting.translation_table.png)
 
 Each test module of the project is initialized with a get setting action that writes the test language to a variable, current\_lang \(line \#11 in the example below\). With the default argument set to English, we are assured that, if no value has been set for language in the **Statup Settings**, current\_lang will be set to English.
 
-Next, a user-defined action, connect to language database, handles the minutiae of connecting to and using the database with our **translations\_table**. The [execute sql](bia_execute_sql.html) action \(line \#16\) following it issues a query that retrieves all of the translations in the table for the given language, writing them out to a single data set row.
+Next, a user-defined action, connect to language database, handles the minutiae of connecting to and using the database with our **translations\_table**. The [execute sql](execute_sql.html) action \(line \#16\) following it issues a query that retrieves all of the translations in the table for the given language, writing them out to a single data set row.
 
 Now that we have all the translations we need, the first test case demonstrates how they are used. Another user-defined action \(line \#24\) attempts to log in to the AUT with a wrong password. Upon return, we check for a message from the AUT indicating that the login was invalid. Assuming, for instance, that the test run was launched with language = German, the data set field msg\_invalid\_login holds the value, ungültiger Benutzername oder Passwort \(the German equivalent of “invalid username or password”\), and that is the message that is checked for.
 
@@ -74,7 +74,7 @@ Now that we have all the translations we need, the first test case demonstrates 
 
 ## Example \#2: Reading built-in settings
 
-The get setting action allows your test procedure to determine the value of a built-in setting and take action accordingly. Say, for instance, that your test needs to interact with an HTML element that is treated differently by different browser types. In that case, it is helpful to know which browser you are interacting with, and your test can determine this by reading the current state of the [use browser](bis_use_browser.html) setting.
+The get setting action allows your test procedure to determine the value of a built-in setting and take action accordingly. Say, for instance, that your test needs to interact with an HTML element that is treated differently by different browser types. In that case, it is helpful to know which browser you are interacting with, and your test can determine this by reading the current state of the [use browser](use_browser.html) setting.
 
 One example is the HTML5 **input** element with a type attribute of color:
 

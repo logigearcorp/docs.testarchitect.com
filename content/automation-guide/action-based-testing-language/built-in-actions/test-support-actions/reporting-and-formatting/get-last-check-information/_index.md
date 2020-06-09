@@ -12,7 +12,7 @@ keyword: [get last check information, retrieve information from last check, get 
 
 ## Description
 
-Retrieve the basic information related to the most recently executed check action. \(Note that this applies to any check-type action, such as [check control exists](bia_check_control_exists.html).\)
+Retrieve the basic information related to the most recently executed check action. \(Note that this applies to any check-type action, such as [check control exists](check_control_exists.html).\)
 
 ## Arguments
 
@@ -49,7 +49,7 @@ This action may be used within the following project items:test modules and user
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](bis_remove_double_quotes_from_cells.html).
+The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html).
 
 ## Example
 

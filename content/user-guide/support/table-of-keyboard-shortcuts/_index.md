@@ -52,9 +52,7 @@ The following table describes shortcuts used when working with item tabs.
 |Action|Windows|macOS|Linux|
 |------|-------|-----|-----|
 |Close the current item tab|Ctrl + W or Ctrl + F4|![](/images//Images/Mac_command_key.png) + W or ![](/images//Images/Mac_command_key.png) + F4|Ctrl + W or Ctrl + F4|
-|Reopen the last item tab you've closed|Ctrl + Shift + T
-
-|![](/images//Images/Mac_command_key.png) + ![](/images//Images/Mac_shift_key.png) + T|Ctrl + Shift + T|
+|Reopen the last item tab you've closed|Ctrl + Shift + T|![](/images//Images/Mac_command_key.png) + ![](/images//Images/Mac_shift_key.png) + T|Ctrl + Shift + T|
 |Select item tab \#1 to \#8|Ctrl + 1 through Ctrl + 8|![](/images//Images/Mac_command_key.png) + 1 through ![](/images//Images/Mac_command_key.png) + 8|Ctrl + 1 through Ctrl + 8|
 |Select last item tab|Ctrl + 9|![](/images//Images/Mac_command_key.png) + 9|Ctrl + 9|
 |Go to item tab to the right|Ctrl + Tab|N/A|Ctrl + Tab|

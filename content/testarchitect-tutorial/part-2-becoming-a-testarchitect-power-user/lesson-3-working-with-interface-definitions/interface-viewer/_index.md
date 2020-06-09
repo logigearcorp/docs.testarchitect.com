@@ -45,6 +45,8 @@ The UI explorer panel displays the open windows of the host environment as a col
 
 Unmapped controls are indicated with red double-angle brackets ![](/images//Images/icn.Interface_Viewer.Red_angle_brackets.png) in the node icons. Mapped nodes are indicated with green check marks ![](/images//Images/icn.Interface_Viewer.Green_check_mark.png).
 
+||||
+|------|------|------|
 |**Icon**|**Meaning**|**View**|
 |![](/images//Images/icn.Interface_Viewer.Green_check_mark_on_window.png)|Mapped window|class, hierarchy|
 |![](/images//Images/icn.Interface_Viewer.Green_check_mark.png)|Mapped control/container|class, hierarchy|

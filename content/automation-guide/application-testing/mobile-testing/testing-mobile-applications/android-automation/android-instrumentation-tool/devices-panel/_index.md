@@ -12,6 +12,8 @@ The Devices panel lists the physical devices that are currently connected \(by U
 
 In the Devices panel, there are five possible icons representing detected device types and their current states:
 
+|||
+|------|------|
 |![](/images//Images/android_4.png)|Unavailable physical device on USB port|
 |![](/images//Images/android_5.png)|Available physical device on USB port|
 |![](/images//Images/android_6.png)|Available physical device on Wi-Fi connection|

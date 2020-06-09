@@ -13,9 +13,7 @@ TestArchitect relies on test modules that are typically developed and executed a
 |TestArchitect|Quality Center|
 |-------------|--------------|
 |Test folder|Folder \(with subfolders representing TA test modules\)|
-|Test module|FolderOptionally, a '\#' test \(QC test with '\#' prepended to the name\) may also be created to hold essential test module metadata.
-
-|
+|Test module|FolderOptionally, a '\#' test \(QC test with '\#' prepended to the name\) may also be created to hold essential test module metadata.|
 |Test case|Test|
 
 At the broadest level, the steps involved in developing Quality Center tests for integration within TestArchitect could be described as follows:

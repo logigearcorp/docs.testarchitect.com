@@ -37,7 +37,7 @@ Carry out the following procedures:
     **Important:** The USB cable connection must always be maintained during automation.
 
 
-Now you are free to use the [navigate](bia_navigate.html) action in your test procedures to invoke Safari on iOS.
+Now you are free to use the [navigate](navigate.html) action in your test procedures to invoke Safari on iOS.
 
 **Parent topic:**[Invoking Safari on iOS during automation](/TA_Automation/Topics/aut_app_testing_mobile_web_invoking_Safari.html)
 

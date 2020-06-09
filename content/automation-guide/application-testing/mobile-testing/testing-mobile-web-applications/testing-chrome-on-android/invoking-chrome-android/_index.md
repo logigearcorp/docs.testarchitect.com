@@ -9,7 +9,7 @@ aliases:
 There are two methods by which Chrome may be invoked on Android devices.
 
 1.  The “real-world” method: that is, simulate a manual tap on the Chrome icon on the device.
-2.  Use the [navigate](bia_navigate.html) built-in action.
+2.  Use the [navigate](navigate.html) built-in action.
 
 **Remember:**
 

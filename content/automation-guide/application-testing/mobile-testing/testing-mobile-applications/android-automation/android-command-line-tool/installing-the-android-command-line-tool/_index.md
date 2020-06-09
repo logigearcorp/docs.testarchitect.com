@@ -60,11 +60,7 @@ The following table describes the output messages you may encounter while using 
 |-------|-----------|
 |The file at location <File Location\> cannot be found.|This error is commonly encountered when attempting to re-sign or install a specified .apk file, but the file cannot be found.|
 |<File Name\> is signed successfully.|The specified .apk file has been signed or re-signed successfully.|
-|<File Name\> cannot be signed.
-
-|An attempt to sign or re-sign a specified .apk file could not be completed.
-
-|
+|<File Name\> cannot be signed.|An attempt to sign or re-sign a specified .apk file could not be completed.|
 |Cannot save the file after resigning.|Often caused when the directory in which you want to save the re-signed .apk file has the read-only attribute set.|
 |Cannot connect to the device.|This error occurs when the Android command line tool cannot connect to the targeted Android device.|
 |Cannot find the device.|This error occurs when the Android command line tool cannot find the targeted Android device.|

@@ -35,9 +35,7 @@ The editor is designed to facilitate the creation of action-based tests, though 
 |Ctrl+Home|Move the cell pointer to the upper left of the worksheet.|
 |Ctrl+End|Move the cell pointer to the bottom of the editor \(three rows below the last line\) to continue adding action lines.|
 |Ctrl+End|Move the cell pointer to the lower right of the worksheet.|
-|Enter|Enter or edit action lines.**Note:** The Enter key uses intelligent navigation to anticipate the next cell you intend to edit.
-
-|
+|Enter|Enter or edit action lines.**Note:** The Enter key uses intelligent navigation to anticipate the next cell you intend to edit.|
 |Shift+Enter|Move the cell pointer up to the previous cell.|
 
 ## Editing cell content

@@ -10,7 +10,7 @@ Startup settings are settings which you can configure before launching a test ru
 
 ## Built-in settings
 
-TestArchitect has a number of built-in settings that control how your action lines are handled by the TestArchitect interpreter or automation. \([Learn more](bis_Built_in_settings.html).\) All built-in settings have default values. Those defaults may be overwritten by you prior to the launch of a test run, or during [run time](/TA_Glossary/Topics/glossaryRunTime.html) from within a test procedure.
+TestArchitect has a number of built-in settings that control how your action lines are handled by the TestArchitect interpreter or automation. \([Learn more](Built_in_settings.html).\) All built-in settings have default values. Those defaults may be overwritten by you prior to the launch of a test run, or during [run time](/TA_Glossary/Topics/glossaryRunTime.html) from within a test procedure.
 
 ## User-defined settings
 

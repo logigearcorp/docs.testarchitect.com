@@ -30,25 +30,9 @@ TestArchitect supports the testing of web applications running within the Safari
 
     |Built-in actions|Applicable controls|Sequence of events triggered|
     |----------------|-------------------|----------------------------|
-    |[click](bia_click.html), [tap](bia_tap.html)|all controls|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
-    |[click table cell](bia_click_table_cell.html)|table|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
-    |[set list check](bia_set_list_check.html)|ul, ol|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
-    |[select](bia_select.html), [click list item](bia_click_list_item.html)|select-one, select-multiple|**click** \> **change**|
-    |[set](bia_set.html)|input-checkbox, input-radio|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
-    |[enter](bia_enter.html), [set](bia_set.html)|input-text, input-password, input-search, input-tel, input-url, input-email, input-number|**keydown** \> **keypress** \> **input** \> **keyup** \> **change**|
-    |textarea|**keydown** \> **keypress** \> **input** \> **keyup**|
-
-
-1.  [Configuring an iOS Simulator for testing Safari](/TA_Automation/Topics/aut_app_testing_mobile_web_simulator_config.html)  
-This section describes essential configurations needed to ensure that automated tests on Safari on the iOS Simulator run successfully and stably.
-2.  [Invoking Safari on iOS Simulator during automation](/TA_Automation/Topics/aut_app_testing_mobile_web_simulator_invoking_browser.html)  
-There are two methods by which Safari may be invoked in the iOS Simulator:
-3.  [Automation testing on Safari in iOS Simulator](/TA_Automation/Topics/aut_app_testing_mobile_web_simulator_automation.html)  
-After having completed the prerequisites, you can now start to automate your tests on Safari in the target iOS Simulator.
-
-**Parent topic:**[Testing mobile web applications](/TA_Automation/Topics/aut_app_testing_mobile_web.html)
-
-**Previous topic:**[Testing the built-in browser on Android emulators](/TA_Automation/Topics/aut_app_testing_mobile_web_Android_emulators.html)
-
-**Next topic:**[Testing web apps in mobile emulation mode](/TA_Automation/Topics/aut_app_testing_responsive_web.html)
-
+    |[click](click.html), [tap](tap.html)|all controls|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
+    |[click table cell](click_table_cell.html)|table|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
+    |[set list check](set_list_check.html)|ul, ol|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
+    |[select](select.html), [click list item](click_list_item.html)|select-one, select-multiple|**click** \> **change**|
+    |[set](set.html)|input-checkbox, input-radio|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
+    |[enter](enter.html), [set](set.html)|input-text, input-password, input-search, input-tel, input-url, input-email, input-number|**keydown** \> **keypress** \> **input** \> **keyup** \> **change**|

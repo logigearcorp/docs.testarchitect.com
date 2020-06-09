@@ -57,6 +57,8 @@ The following set of action lines indicates some of the rules that the TestArchi
 
 Upon execution of the above, the results reported are as follows:
 
+||||
+|------|------|------|
 |**line**|**reported value**|**why?**|
 |line 17|a + b|Contents of the text argument are treated literally, since there is no expression indicator \(\#\).|
 |line 18|13|The expression indicator \(\#\) causes the interpreter to parse the expression into the addition of variables a and b.|

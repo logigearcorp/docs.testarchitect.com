@@ -39,7 +39,7 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   The returned values of the get system date action are not affected by the built-in setting [date format](bis_date_format.html).
+-   The returned values of the get system date action are not affected by the built-in setting [date format](date_format.html).
 -   The date expression, [\# fd\(today\(\)\)](Expressions_functions_fd.html), may be used to get the current date from the host machine.
 -   If the variables in argumentsyear, month, day or weekdayhave not been declared, the action creates them as globals.
 -   For each of year, month, day and weekday, if the argument is left empty, a variable with the same name as the argument header is created to hold the return value.
@@ -47,7 +47,7 @@ This action may be used within the following project items:test modules and user
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](bis_remove_double_quotes_from_cells.html).
+The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html).
 
 ## Example
 

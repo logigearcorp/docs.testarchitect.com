@@ -18,7 +18,7 @@ Direct the execution of the following block of action lines to a specified deput
 
 -   **name**
 
-    Name of the deputy controller machine \(previously established via the [connect deputy](bia_connect_deputy.html) action\).
+    Name of the deputy controller machine \(previously established via the [connect deputy](connect_deputy.html) action\).
 
 -   **parallel**
 
@@ -48,7 +48,7 @@ This action may be used within the following project items:test modules and user
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](bis_remove_double_quotes_from_cells.html).
+The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html).
 
 ## Example
 

@@ -14,7 +14,7 @@ keyword: [control condition wait, maximum wait time for control's properties to 
 
 The maximum wait time for TA properties to satisfy the conditions of the control condition setting.
 
-**Note:** The TA properties and their conditions are defined in the [control condition](bis_control_condition.html) built-in setting.
+**Note:** The TA properties and their conditions are defined in the [control condition](control_condition.html) built-in setting.
 
 ## Value Units
 
@@ -26,7 +26,7 @@ seconds
 
 ## Applicable Built-in Settings
 
-This built-in setting only takes effect when it is used in combination with the [control condition](bis_control_condition.html) built-in setting.
+This built-in setting only takes effect when it is used in combination with the [control condition](control_condition.html) built-in setting.
 
 ## Example
 

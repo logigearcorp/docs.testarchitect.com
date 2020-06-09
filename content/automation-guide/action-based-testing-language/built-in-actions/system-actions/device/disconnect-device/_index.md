@@ -29,7 +29,7 @@ Use of this action is supported on the following systems/platforms: Mobile opera
 ## Notes
 
 -   The primary value of this action lies in allowing your test to switch from mobile mode to host mode during the test. This action is also used to ascertain the success of some aspects of testing, such as messaging or synchronizing, that involve the host PC.
--   disconnect device is not used for switching between mobile devices. Instead, use the [use device](bia_use_device.html) action, which automatically performs a logical disconnect from a connected device before connecting to the specified device.
+-   disconnect device is not used for switching between mobile devices. Instead, use the [use device](use_device.html) action, which automatically performs a logical disconnect from a connected device before connecting to the specified device.
 
 ## Applicable Built-In Settings
 

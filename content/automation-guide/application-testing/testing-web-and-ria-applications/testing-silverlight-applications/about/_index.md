@@ -12,7 +12,7 @@ TestArchitect provides full support for automated testing of applications based 
 
 ## Actions supported for Silverlight controls
 
-TestArchitect provides many built-in actions for automating various user interactions on Silverlight applications. A full reference guide to these actions may be found in the [User Interface actions](bia_User_Interface.html) section of the Automation Guide.
+TestArchitect provides many built-in actions for automating various user interactions on Silverlight applications. A full reference guide to these actions may be found in the [User Interface actions](User_Interface.html) section of the Automation Guide.
 
 ## Silverlight control identification
 

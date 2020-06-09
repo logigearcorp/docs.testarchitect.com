@@ -34,7 +34,7 @@ no/false
 -   This built-in setting is supported on the following systems/platforms:
     -   Windows: Mozilla Firefox.
 -   This built-in setting is able to successfully output a report file, when all of the below conditions are met. Otherwise, no report file is generated.
-    1.  The [use browser](bis_use_browser.html) built-in setting is set to Firefox.
+    1.  The [use browser](use_browser.html) built-in setting is set to Firefox.
     2.  The presence of the [anchor](/TA_Help/Topics/prop_anchor.example_01.html) and/or [anchor pos](/TA_Help/Topics/Interface_def_anchor_pos_concept.html) properties in test procedures.
 
 ## Notes

@@ -45,6 +45,8 @@ There may be times when you'll want to augment the set of fields that TestArchit
 
 **Restriction:** When naming a user-defined field, avoid any of the following special characters:
 
+|||
+|------|------|
 |Apostrophe|'|
 |Quotation mark|"|
 |At sign|@|

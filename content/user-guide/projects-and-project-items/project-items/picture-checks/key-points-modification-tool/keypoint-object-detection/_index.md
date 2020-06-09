@@ -28,7 +28,7 @@ You can think of baseline definition as being a three-step process when it comes
 
 ## Step 1: Capturing a baseline picture
 
-Use the [Picture Capturing tool](/TA_Help/Topics/Additional_features_image_capturing_tool.html) or the [check picture](bia_check_picture.html) action to capture a baseline picture. You may also simply work with an existing baseline picture in a shared or regular picture check.
+Use the [Picture Capturing tool](/TA_Help/Topics/Additional_features_image_capturing_tool.html) or the [check picture](check_picture.html) action to capture a baseline picture. You may also simply work with an existing baseline picture in a shared or regular picture check.
 
 **Tip:** For purposes of keypoint detection, best practice is to limit the size of your baseline picture to just the immediate area containing the baseline object you intend to define. Note that the area of a baseline image can be specified during baseline creation, but once the baseline is added to a picture check, its size can no longer be modified.
 

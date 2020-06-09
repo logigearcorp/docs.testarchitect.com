@@ -32,7 +32,7 @@ This action may be used within the following project items:test modules
 ## Notes
 
 -   Note that the value assigned to the name argument must be unique within the test module.
--   In general, a given test case should be associated with one or more [test objectives](bia_test_objective.html).
+-   In general, a given test case should be associated with one or more [test objectives](test_objective.html).
 -   The associations between test objectives and test cases are made not within the actions themselves, but in the TestArchitect GUI environment.
 -   The action lines associated with a given test case are those which appear directly under the test case action, continuing until the next test case action, `FINAL` section, or end of file.
 -   Upon checkin of a test module, newly-declared test cases are made into actual TestArchitect entities, appearing as subnodes of the test module.

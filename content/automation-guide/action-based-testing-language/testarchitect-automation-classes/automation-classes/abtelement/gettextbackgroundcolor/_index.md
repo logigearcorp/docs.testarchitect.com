@@ -58,9 +58,9 @@ A hexadecimal value indicating color code of the text background.
     -   [GetTextCount](abt_AbtGetTextCount_AbtElement.html)
     to reconstruct a table from the recognized texts. Note that, off-screen columns/rows will not be counted. This circumstance is quite useful when you'd like to retrieve a number of columns/rows in a table by using GDI technique.
 
-    Technically, the GDI methods reconstruct columns based on the vertical bar's max height in the given control. By default, when a detected vertical bar is equivalent to or above 80% of the max vertical bar, this detected vertical bar is a separator of a column. If the reconstructed number of column is not what you expect, adjusting the value of the [gdi column identifier percentage](bis_gdi_column_identifier_percentage.html) built-in setting might help.
+    Technically, the GDI methods reconstruct columns based on the vertical bar's max height in the given control. By default, when a detected vertical bar is equivalent to or above 80% of the max vertical bar, this detected vertical bar is a separator of a column. If the reconstructed number of column is not what you expect, adjusting the value of the [gdi column identifier percentage](gdi_column_identifier_percentage.html) built-in setting might help.
 
-    Similarly, rows are reconstructed based on the horizontal bar's max height. By default, when a detected horizontal bar is equivalent to or above 80% of the max horizontal bar, the detected horizontal bar is a separator of a row. [gdi row identifier percentage](bis_gdi_row_identifier_percentage.html) is the built-in setting to define the threshold value for reconstructing rows.
+    Similarly, rows are reconstructed based on the horizontal bar's max height. By default, when a detected horizontal bar is equivalent to or above 80% of the max horizontal bar, the detected horizontal bar is a separator of a row. [gdi row identifier percentage](gdi_row_identifier_percentage.html) is the built-in setting to define the threshold value for reconstructing rows.
 
 
 **Parent topic:**[AbtElement](/TA_Automation/Topics/abt_AbtElement.html)

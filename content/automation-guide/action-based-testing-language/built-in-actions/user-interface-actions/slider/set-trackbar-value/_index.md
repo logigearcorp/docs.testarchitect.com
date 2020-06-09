@@ -35,12 +35,12 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   This action does not support setting the value of a slider control on iOS. In its place, use the [set](bia_set.html) action in iOS.
+-   This action does not support setting the value of a slider control on iOS. In its place, use the [set](set.html) action in iOS.
 -   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[case sensitive](bis_case_sensitive.html), [remove double quotes from cells](bis_remove_double_quotes_from_cells.html), [standard ASCII only](bis_standard_ASCII_only.html), [object wait](bis_object_wait.html), [window wait](bis_window_wait.html).
+The following settings are applicable to this action:[case sensitive](case_sensitive.html), [remove double quotes from cells](remove_double_quotes_from_cells.html), [standard ASCII only](standard_ASCII_only.html), [object wait](object_wait.html), [window wait](window_wait.html).
 
 ## Applicable Controls
 

@@ -12,7 +12,7 @@ keyword: [assign a physical mobile device, name a physical mobile device]
 
 ## Description
 
-Assign a logical name to a physical mobile device or an emulator. This name may then be used in the action [use device](bia_use_device.html).
+Assign a logical name to a physical mobile device or an emulator. This name may then be used in the action [use device](use_device.html).
 
 ## Arguments
 
@@ -49,7 +49,7 @@ Use of this action is supported on the following systems/platforms: Mobile opera
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](bis_remove_double_quotes_from_cells.html).
+The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html).
 
 ## Example
 

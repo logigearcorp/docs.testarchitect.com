@@ -34,8 +34,7 @@ In all cases, your default browser displays the main API reference of the TAUtil
     |Technology|Allowable Boolean values|
     |----------|------------------------|
     |Java|false: Gets project items at the top level only.|
-    |true: Gets project items recursively at all levels.|
-    |Microsoft Component Object Model \(COM\)|0: Gets project items at the top level only. **Note:** If an invalid value is specified, the value of 0 is used by default.
+    |true: Gets project items recursively at all levels.|    |Microsoft Component Object Model \(COM\)|0: Gets project items at the top level only. **Note:** If an invalid value is specified, the value of 0 is used by default.
 
 |
     |1: Gets project items recursively at all levels.|

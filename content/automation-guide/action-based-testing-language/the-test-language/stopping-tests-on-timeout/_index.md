@@ -28,7 +28,7 @@ A test case timeout occurs during runtime when run duration, accumulated from th
 
 ## Specifying a test case timeout period
 
-The [test case timeout](bis_test_case_timeout.html) built-in setting is used to set timeout period for individual test cases.
+The [test case timeout](test_case_timeout.html) built-in setting is used to set timeout period for individual test cases.
 
 **Note:**
 
@@ -42,11 +42,11 @@ This built-in setting can be configured
 
 ## Scope of the test case timeout's built-in setting
 
-The [test case timeout](bis_test_case_timeout.html) setting, just like other built-in settings, once declared within a single test run, remains present throughout the execution of master test modules and subtest modules within the test run. If test case timeout is called twice in the master test module or the subtest modules, the second invocation merely assigns a new value to the existing timeout period.
+The [test case timeout](test_case_timeout.html) setting, just like other built-in settings, once declared within a single test run, remains present throughout the execution of master test modules and subtest modules within the test run. If test case timeout is called twice in the master test module or the subtest modules, the second invocation merely assigns a new value to the existing timeout period.
 
 ## How a test case timeout configured in a master test module affects subtest modules
 
-A test run might include subtest modules or test suites, which are called by the [run test](bia_run_test.html) built-in action. When a subtest module is defined in a master test module, it will be assigned a finite amount of timeout. We can express this as a formula that uses these terms:
+A test run might include subtest modules or test suites, which are called by the [run test](run_test.html) built-in action. When a subtest module is defined in a master test module, it will be assigned a finite amount of timeout. We can express this as a formula that uses these terms:
 
 -   **D\[m\]**
 
@@ -120,15 +120,15 @@ If you do not handle the event when the test case timeout occurs, TestArchitect 
 
 Well-written test procedures include timeout handling that allows them to recover gracefully from unexpected timeout. In many cases when a test case timeout occurs, it is necessary not to interrupt the normal flow of processing, but to take a specific action or set of actions. The following built-in action and built-in setting serve this purpose:
 
--   **[on timeout action](bia_on_timeout_action.html) action**
+-   **[on timeout action](on_timeout_action.html) action**
 
-    Allows you to specify an action to be executed in the event of a test case timeout, which occurs in the [INITIAL](bia_initial.html) section, individual test cases, and the [FINAL](bia_final.html) section.
+    Allows you to specify an action to be executed in the event of a test case timeout, which occurs in the [INITIAL](initial.html) section, individual test cases, and the [FINAL](final.html) section.
 
     For instance, when an unexpected test case timeout occurs, you might want to close the application-under-test and clean up the environment back to a blank slate in order to prepare for subsequent test case.
 
     **Note:** After TestArchitect finishes running the action invoked by on timeout action, the renaming actions lines of the test case is skipped. The test run continues with the subsequent test case. In addition, TestArchitect test result is [Not Finished](/TA_Help/Topics/ug_test_results_status.html#row.NF).
 
--   **[cleanup timeout](bis_cleanup_timeout.html) setting**
+-   **[cleanup timeout](cleanup_timeout.html) setting**
 
     Specifies the timeout value, in seconds, for the cleanup process when a test case timeout occurs.
 

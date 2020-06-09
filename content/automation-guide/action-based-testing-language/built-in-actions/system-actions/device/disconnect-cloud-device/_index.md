@@ -24,12 +24,12 @@ Logically disconnect the target cloud device.
 ## Notes
 
 -   This built-in action applies only to WebDriver based cloud services. \([Learn more](aut_app_cloud_testing.html).\)
--   The primary value of this action lies in allowing your test to terminate the connection with the current cloud device, and then switch to another cloud device via calling the next [assign cloud device](bia_assign_cloud_device.html) action.
+-   The primary value of this action lies in allowing your test to terminate the connection with the current cloud device, and then switch to another cloud device via calling the next [assign cloud device](assign_cloud_device.html) action.
 -   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](bis_remove_double_quotes_from_cells.html).
+The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html).
 
 ## Example
 

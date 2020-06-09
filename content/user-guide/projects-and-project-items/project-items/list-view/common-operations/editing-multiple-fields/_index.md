@@ -14,57 +14,15 @@ Ensure that the fields you want to edit are in editable states \(see the table b
 
 |List View|Editable fields|
 |---------|---------------|
-|Test module|-   Status
--   Assigned user
--   Priority
--   Notes
--   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)
-
-|
-|Test case
-
-|-   Notes
--   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)
-
-|
-|Test objective
-
-|-   Notes
--   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)
-
-|
-|Data set
-
-|-   Status
--   Assigned user
--   Notes
--   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)
-
-|
-|Action|-   Status
--   Assigned user
--   Notes
--   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)
-
-|
-|Interface|-   Notes
--   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)
-
-|
-|Interface Entity|-   Status
--   Assigned user
--   Notes
--   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)
-
-|
-|Pictures|-   Notes
--   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)
-
-|
-|Repository Results|-   Notes
--   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)
-
-|
+|Test module|-   Status-   Assigned user-   Priority-   Notes-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)|
+|Test case|-   Notes-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)|
+|Test objective|-   Notes-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)|
+|Data set|-   Status-   Assigned user-   Notes-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)|
+|Action|-   Status-   Assigned user-   Notes-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)|
+|Interface|-   Notes-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)|
+|Interface Entity|-   Status-   Assigned user-   Notes-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)|
+|Pictures|-   Notes-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)|
+|Repository Results|-   Notes-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)|
 |Local Results|N/A|
 |Test suites|N/A|
 |Favorite|N/A|

@@ -29,12 +29,12 @@ Logically connect to a cloud-based device and make that device the target for th
 
 -   This built-in action applies only to WebDriver based cloud services. \([Learn more](aut_app_cloud_testing.html).\)
 -   name argument:
-    -   The name is established in advance by the [assign cloud device](bia_assign_cloud_device.html) action, which assigns a logical name to a mobile cloud device.
+    -   The name is established in advance by the [assign cloud device](assign_cloud_device.html) action, which assigns a logical name to a mobile cloud device.
 -   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](bis_remove_double_quotes_from_cells.html).
+The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html).
 
 ## Example
 

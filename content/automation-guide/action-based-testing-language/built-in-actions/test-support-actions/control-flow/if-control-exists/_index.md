@@ -31,12 +31,12 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   If the specified control is found, the succeeding block of action lines up until the first occurrence of an [else](bia_else.html), [else if](bia_else_if.html), or [end if](bia_end_if.html), is executed. Otherwise, that block is skipped.
--   The if control exists action, in effect, combines the [does control exist](bia_does_control_exist.html) and [if](bia_if.html) built-in actions.
+-   If the specified control is found, the succeeding block of action lines up until the first occurrence of an [else](else.html), [else if](else_if.html), or [end if](end_if.html), is executed. Otherwise, that block is skipped.
+-   The if control exists action, in effect, combines the [does control exist](does_control_exist.html) and [if](if.html) built-in actions.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[case sensitive](bis_case_sensitive.html), [remove double quotes from cells](bis_remove_double_quotes_from_cells.html), [standard ASCII only](bis_standard_ASCII_only.html), [page wait](bis_page_wait.html), [object wait probe](bis_object_wait_probe.html), [window wait](bis_window_wait.html), [load invisible controls](bis_load_invisible_controls.html).
+The following settings are applicable to this action:[case sensitive](case_sensitive.html), [remove double quotes from cells](remove_double_quotes_from_cells.html), [standard ASCII only](standard_ASCII_only.html), [page wait](page_wait.html), [object wait probe](object_wait_probe.html), [window wait](window_wait.html), [load invisible controls](load_invisible_controls.html).
 
 ## Applicable Controls
 

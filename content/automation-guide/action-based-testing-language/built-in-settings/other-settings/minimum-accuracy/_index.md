@@ -24,7 +24,7 @@ Percentage value in the range of 0-100.
 
 ## Notes
 
--   minimum accuracy can also be set through the dedicated [set picture min accuracy](bia_set_picture_min_accuracy.html) action, as well as through the [setting](bia_setting.html) action.
+-   minimum accuracy can also be set through the dedicated [set picture min accuracy](set_picture_min_accuracy.html) action, as well as through the [setting](setting.html) action.
 
 **Parent topic:**[Other settings](/TA_Automation/Topics/bis_other.html)
 

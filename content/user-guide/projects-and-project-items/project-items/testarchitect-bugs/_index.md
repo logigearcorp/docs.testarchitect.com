@@ -47,20 +47,10 @@ The fields of the **Information** tab are:
 |Field|Description|
 |-----|-----------|
 |**Bug ID**|\(Automatically generated\) The ID of the TA bug. This bug ID is combination of [a prefix key](Projects_and_project_items_create_project.html) followed by an ID number, separated by a hyphen.|
-|**Summary**|A brief one-line summary of the TA bug. **Note:** The **Summary** field cannot be empty.
-
-|
+|**Summary**|A brief one-line summary of the TA bug. **Note:** The **Summary** field cannot be empty.|
 |**Description**|A detailed description of the TA bug.|
 |**URL**|\(Automatically generated\) The [TestArchitect URL address](Additional_features_TA_URL.html) of this bug.|
-|**Source**|The bug ID of an external bug tracking system associated with the TA bug.
-
- **Note:**
-
--   If this is an unregistered bug, this field is empty.
--   You may change the **Source** value to drop the current link and association this bug with another external bug.
--   You can also clear the **Source** content to decouple this bug from its associated external bug, rendering this an unregistered bug.
-
-|
+|**Source**|The bug ID of an external bug tracking system associated with the TA bug. **Note:**-   If this is an unregistered bug, this field is empty.-   You may change the **Source** value to drop the current link and association this bug with another external bug.-   You can also clear the **Source** content to decouple this bug from its associated external bug, rendering this an unregistered bug.|
 |**Current status**|The current life cycle stage of this TA bug \(refer to [Workflow](Bugs.html#ksec_tabugs_workflow)\)|
 |**Last update date**|The date on which this TA bug was last updated from an external bug tracking system.|
 |**Last update by**|The person who last edited this TA bug.|
@@ -77,9 +67,7 @@ The fields shown in the above screenshot are:
 |**Field**|**Description**|
 |---------|---------------|
 |**Test Module**|Name of a test module which exposes the bug.|
-|**Test Case**|The particular section in the test module in which the bug is exposed. The section can be `Initial`, `Final` or a specific test case.
-
-|
+|**Test Case**|The particular section in the test module in which the bug is exposed. The section can be `Initial`, `Final` or a specific test case.|
 |**Test Line**|The line number where the bug is marked as a known bug.|
 |**Marked By**|The person who marked the bug.|
 

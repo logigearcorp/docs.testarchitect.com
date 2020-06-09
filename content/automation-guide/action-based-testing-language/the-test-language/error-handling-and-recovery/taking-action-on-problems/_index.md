@@ -17,11 +17,11 @@ In many cases when an error or test failure occurs, it is necessary not just to 
 
 Two actions serve this purpose:
 
--   **[on error action](bia_on_error_action.html)**
+-   **[on error action](on_error_action.html)**
 
     Allows you to specify an action to be executed in the event of an error
 
--   **[on failure action](bia_on_failure_action.html)**
+-   **[on failure action](on_failure_action.html)**
 
     Let you specify the action to be executed in the event of a check failure.
 
@@ -36,7 +36,7 @@ A test module that uses this handler is shown below:
 
 ![](/images//Images/abtErrorHandling_Simple_error_handler_test01.png)
 
-The [on error action](bia_on_error_action.html) action specifies the error handler. \(Note that [on error action](bia_on_error_action.html) need not necessarily be limited to the INITIAL section of the test module, and you are not limited to specifying a single error handler within the test module. Indeed, it is possible to have [on error action](bia_on_error_action.html) calls scattered throughout your action lines, so that the appropriate handler is invoked for each given place in which an error is possible.\)
+The [on error action](on_error_action.html) action specifies the error handler. \(Note that [on error action](on_error_action.html) need not necessarily be limited to the INITIAL section of the test module, and you are not limited to specifying a single error handler within the test module. Indeed, it is possible to have [on error action](on_error_action.html) calls scattered throughout your action lines, so that the appropriate handler is invoked for each given place in which an error is possible.\)
 
 **Parent topic:**[Error handling and recovery](/TA_Automation/Topics/The_test_language_error_handling_and_recovery.html)
 

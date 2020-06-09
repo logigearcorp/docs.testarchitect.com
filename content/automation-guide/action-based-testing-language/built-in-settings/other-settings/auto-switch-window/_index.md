@@ -16,7 +16,7 @@ Determine whether TestArchitect automatically switches among window instances.
 
 When you open a new window instance and the auto switch window mode is on, the focus will be shifted to the newly opened window instance.
 
-However, when the auto switch window mode is off, the focus will stay in the current window instance. In the event that you want to interact with the newly opened window instance, you are required to explicitly use the [switch window](bia_switch_window.html) built-in action.
+However, when the auto switch window mode is off, the focus will stay in the current window instance. In the event that you want to interact with the newly opened window instance, you are required to explicitly use the [switch window](switch_window.html) built-in action.
 
 ## Allowable values
 

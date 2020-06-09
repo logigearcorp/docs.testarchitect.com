@@ -61,7 +61,7 @@ This action may be used within the following project items:test modules and user
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[case sensitive](bis_case_sensitive.html), [remove double quotes from cells](bis_remove_double_quotes_from_cells.html), [standard ASCII only](bis_standard_ASCII_only.html), [page wait](bis_page_wait.html), [object wait](bis_object_wait.html), [window wait](bis_window_wait.html), [load invisible controls](bis_load_invisible_controls.html).
+The following settings are applicable to this action:[case sensitive](case_sensitive.html), [remove double quotes from cells](remove_double_quotes_from_cells.html), [standard ASCII only](standard_ASCII_only.html), [page wait](page_wait.html), [object wait](object_wait.html), [window wait](window_wait.html), [load invisible controls](load_invisible_controls.html).
 
 ## Applicable Controls
 
@@ -76,7 +76,7 @@ This action is applicable to the following controls:Calender, check box, DatePic
     -   For controls that hold a binary state, value must hold a Boolean value \(e.g., on or off\)
     -   For a slider control on iOS, value must hold a numeric value.
     -   Due to idiosyncrasies specific to the desktop web browsers \(Internet Explorer, Google Chrome, and Mozilla Firefox\) and Safari on iOS, the set action is used to modify several HTML controls that would otherwise normally be handled by other actions. They include the following:
-        -   **input-date** control: value follows the format specified by the current state of the [date format](bis_date_format.html) built-in setting. Example: Given a date format setting of yyyy-mm-dd, the correct value for Christmas 2014 is 2014-12-25.
+        -   **input-date** control: value follows the format specified by the current state of the [date format](date_format.html) built-in setting. Example: Given a date format setting of yyyy-mm-dd, the correct value for Christmas 2014 is 2014-12-25.
         -   **input-datetime** control: The contents of the value argument consist of a date portion followed by an optional time portion. Formatting rules of the date portion are identical to those of the **date** control \(above\). If an optional time portion is included, the following format is used:
 
             ```
@@ -257,7 +257,7 @@ This action is applicable to the following controls:Calender, check box, DatePic
 
             Examples: 2020-12-25,2020-12-30
 
--   The set action can serve as a suitable alternative to [enter](bia_enter.html) in some special cases on web platforms, in which enter may trigger an unexpected or undesired event \(examples of which are the Safari data and time controls, discussed above\). Unlike enter, set avoids the triggering of events.
+-   The set action can serve as a suitable alternative to [enter](enter.html) in some special cases on web platforms, in which enter may trigger an unexpected or undesired event \(examples of which are the Safari data and time controls, discussed above\). Unlike enter, set avoids the triggering of events.
 -   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Example - Case 1: Selecting check box

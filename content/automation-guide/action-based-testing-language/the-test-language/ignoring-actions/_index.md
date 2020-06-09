@@ -21,18 +21,18 @@ The ignore modifier is supported in the following actions:
 The ignore modifier is not supported in the following built-in actions:
 
 -   Built-in actions without arguments.
--   All [Control flow](bia_Control_flow.html) built-in actions, such as [if](bia_if.html)...[end if](bia_end_if.html).
+-   All [Control flow](Control_flow.html) built-in actions, such as [if](if.html)...[end if](end_if.html).
 -   Data set-related built-in actions:
-    -   [use data set](bia_use_data_set.html)...[repeat for data set](bia_repeat_for_data_set.html).
-    -   [create data set](bia_create_data_set.html)...[end create data set](bia_end_create_data_set.html).
--   [Action definition](bia_Action_definition.html) built-in actions, such as [argument](bia_argument.html).
+    -   [use data set](use_data_set.html)...[repeat for data set](repeat_for_data_set.html).
+    -   [create data set](create_data_set.html)...[end create data set](end_create_data_set.html).
+-   [Action definition](Action_definition.html) built-in actions, such as [argument](argument.html).
 -   Value Handling built-in actions:
-    -   [set variable](bia_set_variable.html).
-    -   [global variable](bia_global_variable.html).
-    -   [local variable](bia_local_variable.html).
-    -   [set global variable](bia_set_global_variable.html).
--   All [documentary and delimiting](bia_Documentary.html) built-in actions, such as [test case](bia_test_case.html) and [final](bia_final.html).
--   The [setting](bia_setting.html) action.
+    -   [set variable](set_variable.html).
+    -   [global variable](global_variable.html).
+    -   [local variable](local_variable.html).
+    -   [set global variable](set_global_variable.html).
+-   All [documentary and delimiting](Documentary.html) built-in actions, such as [test case](test_case.html) and [final](final.html).
+-   The [setting](setting.html) action.
 
 **Example**
 

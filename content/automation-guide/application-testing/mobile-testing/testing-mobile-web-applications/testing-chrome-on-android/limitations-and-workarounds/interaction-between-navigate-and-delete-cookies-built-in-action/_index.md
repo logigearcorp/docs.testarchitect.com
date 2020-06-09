@@ -8,9 +8,9 @@ aliases:
 
 This topic describes a possible issue that may arise when you use the navigate built-in action in combination with the delete cookies action.
 
-A common test scenario is to navigate to a given URL in either a newly launched instance ofChrome, or within an existing Chrome window.In both of these cases, if your test calls the [delete cookies](bia_delete_cookies.html) built-in action right after the [navigate](bia_navigate.html) action, the deletion may be inadvertently applied to the previous page session \(hence that website\), instead of the target URL page session.
+A common test scenario is to navigate to a given URL in either a newly launched instance ofChrome, or within an existing Chrome window.In both of these cases, if your test calls the [delete cookies](delete_cookies.html) built-in action right after the [navigate](navigate.html) action, the deletion may be inadvertently applied to the previous page session \(hence that website\), instead of the target URL page session.
 
-To avoid this problem, it is highly recommended that your test procedure [wait for the control](bia_wait_for_control.html) until it is available before invoking the delete cookies action. In this manner, you are assured that the action, and all subsequent ones, are applied to the target URL page session.
+To avoid this problem, it is highly recommended that your test procedure [wait for the control](wait_for_control.html) until it is available before invoking the delete cookies action. In this manner, you are assured that the action, and all subsequent ones, are applied to the target URL page session.
 
 ## Scenario
 

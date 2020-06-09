@@ -24,7 +24,7 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   This built-in action resets any OCR settings whose values have been modified by any prior invocations of action [set ocr setting](bia_set_ocr_setting.html).
+-   This built-in action resets any OCR settings whose values have been modified by any prior invocations of action [set ocr setting](set_ocr_setting.html).
 -   On an iOS device, the default logical coordinate space is measured using points. Therefore, all values are specified in points instead of pixels.
 -   clear ocr setting sets the following values:
     -   min edge length: 50pixels[1](#fn.iOS_screen_units).

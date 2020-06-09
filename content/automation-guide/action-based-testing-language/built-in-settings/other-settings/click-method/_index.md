@@ -26,7 +26,7 @@ Technically, in TestArchitect, when a mouse click is specified by an action or m
 
 -   **separate sendinput messages**
 
-    MouseMove, MouseDown, and MouseUp events are submitted as three separate [sendInput\(\)](https://msdn.microsoft.com/en-us/library/windows/desktop/ms647591(v=vs.85).aspx) messages. The delay between MouseDown and MouseUp messages, in this case, is determined by the value of the built-in setting [click delay](bis_click_delay.html).
+    MouseMove, MouseDown, and MouseUp events are submitted as three separate [sendInput\(\)](https://msdn.microsoft.com/en-us/library/windows/desktop/ms647591(v=vs.85).aspx) messages. The delay between MouseDown and MouseUp messages, in this case, is determined by the value of the built-in setting [click delay](click_delay.html).
 
 -   **single sendinput message**
 
@@ -47,22 +47,22 @@ This built-in setting is supported on the following systems/platforms:
 
 Use of this built-in setting is applicable to the following built-in actions:
 
--   [click](bia_click.html)
--   [click list item](bia_click_list_item.html)
--   [click picture](bia_click_picture.html)
--   [click select menu](bia_click_select_menu.html)
--   [click table cell](bia_click_table_cell.html)
--   [click text](bia_click_text.html)
--   [click toolbar button](bia_click_toolbar_button.html)
--   [click tree node](bia_click_tree_node.html)
--   [click window](bia_click_window.html)
--   [select](bia_select.html)
--   [select button menu](bia_select_button_menu.html)
--   [select context menu item](bia_select_context_menu_item.html)
--   [select list item menu](bia_select_list_item_menu.html)
--   [select menu item](bia_select_menu_item.html)
--   [select tab](bia_select_tab.html)
--   [select toolbar menu](bia_select_toolbar_menu.html)
+-   [click](click.html)
+-   [click list item](click_list_item.html)
+-   [click picture](click_picture.html)
+-   [click select menu](click_select_menu.html)
+-   [click table cell](click_table_cell.html)
+-   [click text](click_text.html)
+-   [click toolbar button](click_toolbar_button.html)
+-   [click tree node](click_tree_node.html)
+-   [click window](click_window.html)
+-   [select](select.html)
+-   [select button menu](select_button_menu.html)
+-   [select context menu item](select_context_menu_item.html)
+-   [select list item menu](select_list_item_menu.html)
+-   [select menu item](select_menu_item.html)
+-   [select tab](select_tab.html)
+-   [select toolbar menu](select_toolbar_menu.html)
 
 ## Notes
 
@@ -74,7 +74,7 @@ By default, the click method setting holds a value of single sendinput message. 
 
 ![](/images//Images/bis_click_method_pgm.png)
 
-Note that use of the value separate sendinput messages ensures that a certain delay exists between submissions of the MoveMouse, MouseDown and MouseUp. You can further control the delay between the MouseDown and MouseUp messages by means of the built-in setting [click delay](bis_click_delay.html).
+Note that use of the value separate sendinput messages ensures that a certain delay exists between submissions of the MoveMouse, MouseDown and MouseUp. You can further control the delay between the MouseDown and MouseUp messages by means of the built-in setting [click delay](click_delay.html).
 
 **Parent topic:**[Other settings](/TA_Automation/Topics/bis_other.html)
 

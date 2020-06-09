@@ -65,7 +65,7 @@ Use of this action is supported on the following systems/platforms:Chrome DevToo
 
 ## Applicable Built-In Settings
 
-The following setting is applicable to this action: [window wait](bis_window_wait.html).
+The following setting is applicable to this action: [window wait](window_wait.html).
 
 ## Notes
 
@@ -97,7 +97,7 @@ The following setting is applicable to this action: [window wait](bis_window_wai
 
             ![](/images//Images/accelerometer.png)
 
--   Since this command is used to invoke a new emulator or change the emulator behavior on-the-fly, follow up by refreshing the current webpage by means of the [refresh](bia_refresh.html) built-in action, to ensure all new behaviors take effect. \(See example below.\)
+-   Since this command is used to invoke a new emulator or change the emulator behavior on-the-fly, follow up by refreshing the current webpage by means of the [refresh](refresh.html) built-in action, to ensure all new behaviors take effect. \(See example below.\)
 -   It should be noted that, upon conclusion of an automated run on the emulator, the Chrome browser automatically switches out of Device Mode and returns to Desktop Mode.
 -   variable argument:
     -   If the variable in argumentvariablehas not been declared, the action creates it as a global.

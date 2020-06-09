@@ -12,7 +12,7 @@ keyword: [get clock count, get timer value, get time counter value, retrieve tim
 
 ## Description
 
-Retrieve the elapsed time since the most recent execution of a [start clock count](bia_start_clock_count.html) action.
+Retrieve the elapsed time since the most recent execution of a [start clock count](start_clock_count.html) action.
 
 ## Arguments
 
@@ -28,7 +28,7 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   Use this action, paired with start clock count to ascertain the performance of your test, or a segment of it.
--   The TestArchitect timer runs continuously across action calls and test modules of the same test run \(whether in serial runs or [run test](bia_run_test.html) invocations\), with its value globally available to the get clock count action.
+-   The TestArchitect timer runs continuously across action calls and test modules of the same test run \(whether in serial runs or [run test](run_test.html) invocations\), with its value globally available to the get clock count action.
 -   Execution of get clock count only samples the TestArchitect performance timer, it does not stop or reset it. Hence, multiple invocations of get clock count following a single start clock count may be used as multiple timing “checkpoints”.
 -   variable argument:
     -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
@@ -37,7 +37,7 @@ This action may be used within the following project items:test modules and user
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](bis_remove_double_quotes_from_cells.html)none.
+The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html)none.
 
 ## Example
 

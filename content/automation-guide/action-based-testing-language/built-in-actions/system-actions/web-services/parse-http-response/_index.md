@@ -42,12 +42,12 @@ This action may be used within the following project items:test modules and user
 -   If the variables in arguments status, header, or body are left empty, TestArchitect supplies global variables with the names \_status, \_header, or \_body, respectively.
 -   For a full list of returned HTTP status code, refer to [Status Code Definitions](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html).
 -   The returned contents of the HTTP header are automatically converted into JSON view. Whereas, the contents of the HTTP body are preserved as they are originally returned by the web service, such as XML, or JSON response, etc.
--   In order to see full result returned from this built-in action, set [max show length](bis_max_show_length.html) to a higher value.
+-   In order to see full result returned from this built-in action, set [max show length](max_show_length.html) to a higher value.
 -   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](bis_remove_double_quotes_from_cells.html).
+The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html).
 
 ## Example
 
@@ -61,9 +61,7 @@ Suppose that you'd like to test a given Google API to send a message to a recipi
 
     |Property name|Value|Description|
     |-------------|-----|-----------|
-    |raw|bytes|The entire email message in base64url encoded string.**Tip:** To encode a plain text string into a base64url encoded string, you can use the [Online Base64URL encoder](http://kjur.github.io/jsjws/tool_b64uenc.html) tool.
-
-|
+    |raw|bytes|The entire email message in base64url encoded string.**Tip:** To encode a plain text string into a base64url encoded string, you can use the [Online Base64URL encoder](http://kjur.github.io/jsjws/tool_b64uenc.html) tool.|
 
     -   Raw body content:
 

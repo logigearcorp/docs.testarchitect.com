@@ -24,12 +24,12 @@ Use a cloud device, as specified by its session ID, to run automated tests.
 ## Notes
 
 -   This built-in action applies only to WebDriver based cloud services. \([Learn more](aut_app_cloud_testing.html).\)
--   The session ID specified in the session id argument is retrieved via the [connect cloud device](bia_connect_cloud_device.html) action.
+-   The session ID specified in the session id argument is retrieved via the [connect cloud device](connect_cloud_device.html) action.
 -   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](bis_remove_double_quotes_from_cells.html).
+The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html).
 
 ## Example
 

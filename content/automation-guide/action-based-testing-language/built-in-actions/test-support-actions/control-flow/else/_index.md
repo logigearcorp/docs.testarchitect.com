@@ -12,7 +12,7 @@ keyword: [else, else statement, else condition]
 
 ## Description
 
-Execute the associated action lines if all corresponding [if](bia_if.html) and [else if](bia_else_if.html) conditions are False.
+Execute the associated action lines if all corresponding [if](if.html) and [else if](else_if.html) conditions are False.
 
 ## Arguments
 

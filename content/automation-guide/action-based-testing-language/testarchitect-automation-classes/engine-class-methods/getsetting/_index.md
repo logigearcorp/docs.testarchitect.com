@@ -12,7 +12,7 @@ aliases:
 
 ## Description
 
-Retrieve the current value of a [user-defined](aut_defining_user_defined_settings.html) setting or a [built-in](bis_Built_in_settings.html) setting.
+Retrieve the current value of a [user-defined](aut_defining_user_defined_settings.html) setting or a [built-in](Built_in_settings.html) setting.
 
 ## Parameters
 

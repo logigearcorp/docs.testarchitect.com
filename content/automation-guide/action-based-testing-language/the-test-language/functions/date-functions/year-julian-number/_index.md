@@ -25,7 +25,7 @@ Returns the corresponding Gregorian year.
 
 ## Applicable Built-In Settings
 
-The following built-in setting\(s\) are supported: [date order](bis_date_order.html).
+The following built-in setting\(s\) are supported: [date order](date_order.html).
 
 ## Example
 

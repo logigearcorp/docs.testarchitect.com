@@ -43,12 +43,12 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   Whenever possible, it is recommended that you use the built-in [property wait](bis_property_wait.html) setting, along with the appropriate built-in action, in lieu of wait for property. The property wait setting applies to three built-in actions: [check control property](bia_check_control_property.html), [check window property](bia_check_window_property.html), and [check](bia_check.html).
+-   Whenever possible, it is recommended that you use the built-in [property wait](property_wait.html) setting, along with the appropriate built-in action, in lieu of wait for property. The property wait setting applies to three built-in actions: [check control property](check_control_property.html), [check window property](check_window_property.html), and [check](check.html).
 -   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[case sensitive](bis_case_sensitive.html), [remove double quotes from cells](bis_remove_double_quotes_from_cells.html), [standard ASCII only](bis_standard_ASCII_only.html), [page wait](bis_page_wait.html), [object wait](bis_object_wait.html), [window wait](bis_window_wait.html).
+The following settings are applicable to this action:[case sensitive](case_sensitive.html), [remove double quotes from cells](remove_double_quotes_from_cells.html), [standard ASCII only](standard_ASCII_only.html), [page wait](page_wait.html), [object wait](object_wait.html), [window wait](window_wait.html).
 
 ## Example
 

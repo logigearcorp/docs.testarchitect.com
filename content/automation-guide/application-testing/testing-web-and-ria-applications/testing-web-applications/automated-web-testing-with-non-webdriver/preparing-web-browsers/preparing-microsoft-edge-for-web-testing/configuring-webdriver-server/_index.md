@@ -36,7 +36,7 @@ WebDriver allows you to create automated tests that simulate user interaction. F
 
     4.  Click **Save** to save changes and close the dialog box.
 
-5.  In your test procedure, use the [navigate](bia_navigate.html) built-in action to launch the Edge browser, and navigate to a specified web site.
+5.  In your test procedure, use the [navigate](navigate.html) built-in action to launch the Edge browser, and navigate to a specified web site.
 
 
 **Parent topic:**[Preparing Microsoft Edge for web testing](/TA_Help/Topics/ug_preparing_Edge.html)

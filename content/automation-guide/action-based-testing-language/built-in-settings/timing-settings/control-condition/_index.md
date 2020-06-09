@@ -28,7 +28,7 @@ Use of this built-in setting is supported on all systems/platforms.
 
 ## Notes
 
--   This built-in setting only takes effect on UI-interactive actions, such as, [enter](bia_enter.html), [select](bia_select.html), [click](bia_click.html), and [type](bia_type.html).
+-   This built-in setting only takes effect on UI-interactive actions, such as, [enter](enter.html), [select](select.html), [click](click.html), and [type](type.html).
 -   The definition of readiness of a TA property is based on your preferences. Particularly, a TA property is ready when it satisfies all conditions, defined in the control condition setting, before UI-interactive actions are executed.
 -   To define lists of conditionals to be met for each type of control, use dynamic identifier format. \([Learn more](/TA_Help/Topics/The_test_language_dynamic_identifiers.html).\)
 -   To wait for all types of controls, you have either of two options:
@@ -63,7 +63,7 @@ Use of this built-in setting is supported on all systems/platforms.
 
 -   When one of the defined TA properties is invalid or does not exist, the control condition setting is ignored.
 -   You can quickly obtain the [dynamic identifier](/TA_Help/Topics/The_test_language_dynamic_identifiers.html#note_g5t_bjt_rw) of given UI controls by using **Copy Definition** from the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html) or the [point-to-identify tool](/TA_Help/Topics/Interface_def_Viewer_identify.html).
--   The timeout value waiting for TA properties until all defined conditions are met is specified in the [control conditional wait](bis_control_condition_wait.html) built-in setting.
+-   The timeout value waiting for TA properties until all defined conditions are met is specified in the [control conditional wait](control_condition_wait.html) built-in setting.
 
 ## Example
 

@@ -38,7 +38,7 @@ The value of the setting specified in name.
 ## Notes
 
 -   default parameter: If the specified setting already has a value, this parameter has no effect. While a value is optional, you must at least specify an empty string. For example: \#getsetting\("language", "user defined", ""\)
--   Alternatively, you can use [get setting](bia_get_setting.html) built-in action to achieve the same functionality.
+-   Alternatively, you can use [get setting](get_setting.html) built-in action to achieve the same functionality.
 
 ## Example
 

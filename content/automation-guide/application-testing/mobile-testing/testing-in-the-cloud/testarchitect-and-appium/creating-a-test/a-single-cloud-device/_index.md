@@ -12,7 +12,7 @@ From within your action lines, you can control which cloud device your test is t
 
 To start automated mobile web testing on a cloud device in a given WebDriver based cloud service, declare the following action lines in your test:
 
-1.  Use the [assign cloud device](bia_assign_cloud_device.html) built-in action to define a list of [desired capabilities](aut_appium.html#section_p5f_qp3_gy), which are sets of keys and values sent to the Appium server in [JSON](http://www.w3schools.com/js/js_json_syntax.asp) format.
+1.  Use the [assign cloud device](assign_cloud_device.html) built-in action to define a list of [desired capabilities](aut_appium.html#section_p5f_qp3_gy), which are sets of keys and values sent to the Appium server in [JSON](http://www.w3schools.com/js/js_json_syntax.asp) format.
 
     **Note:**
 
@@ -47,7 +47,7 @@ To start automated mobile web testing on a cloud device in a given WebDriver bas
             ```
 
     -   Specify URL Appium server of the given WebDriver based cloud service. For example: Testdroid, the URL Appium server is http://appium.testdroid.com/wd/hub
-    -   [assign device](bia_assign_cloud_device.html) should resemble the following.
+    -   [assign device](assign_cloud_device.html) should resemble the following.
 
         ```
                               url                                   capability                                        name   
@@ -62,18 +62,18 @@ To start automated mobile web testing on a cloud device in a given WebDriver bas
                                                                      "testdroid_device": "Sony Xperia Z C6603"}    
         ```
 
-2.  Make a connection to the target cloud device via the [connect cloud device](bia_connect_cloud_device.html) built-in action, as specified by its logical name.
+2.  Make a connection to the target cloud device via the [connect cloud device](connect_cloud_device.html) built-in action, as specified by its logical name.
 
-    **Note:** The name is established in advance by the [assign cloud device](bia_assign_cloud_device.html) action, which assigns a logical name to a mobile cloud device.
+    **Note:** The name is established in advance by the [assign cloud device](assign_cloud_device.html) action, which assigns a logical name to a mobile cloud device.
 
     ```
                            name         session id
     connect cloud device   Xperia Z     >>Xperia_Z_sessionID
     ```
 
-3.  Employ the [use cloud device](bia_use_cloud_device.html) built-in action to use the cloud device to initiate automated tests. The invoked cloud device is specified by its session ID.
+3.  Employ the [use cloud device](use_cloud_device.html) built-in action to use the cloud device to initiate automated tests. The invoked cloud device is specified by its session ID.
 
-    **Note:** The session ID specified in the session id argument is retrieved via the [connect cloud device](bia_connect_cloud_device.html) action.
+    **Note:** The session ID specified in the session id argument is retrieved via the [connect cloud device](connect_cloud_device.html) action.
 
     ```
                          session id
@@ -81,14 +81,14 @@ To start automated mobile web testing on a cloud device in a given WebDriver bas
     ```
 
 4.  Now, you're ready to begin performing your automated web-based tests on the target cloud device.
-5.  When you no longer need to continue the tests on the target cloud device, it is highly recommended that you terminate the connection with the target device by using the [disconnect cloud device](bia_disconnect_cloud_device.html) built-in action.
+5.  When you no longer need to continue the tests on the target cloud device, it is highly recommended that you terminate the connection with the target device by using the [disconnect cloud device](disconnect_cloud_device.html) built-in action.
 
     ```
                                session id
     disconnect cloud device    #Xperia_Z_sessionID
     ```
 
-6.  When you'd like to switch back to the host machine to continue the remaining tests, use the [use host machine](bia_use_host_machine.html) built-in action.
+6.  When you'd like to switch back to the host machine to continue the remaining tests, use the [use host machine](use_host_machine.html) built-in action.
 7.  Overall, your snippet of test should resemble the following.
 
     ```

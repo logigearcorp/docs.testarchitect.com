@@ -18,7 +18,7 @@ Specify a database against which the ensuing SQL action lines are to be applied.
 
 -   **name**
 
-    Name of the database connection \(previously established via the [connect database](bia_connect_database.html) action\).
+    Name of the database connection \(previously established via the [connect database](connect_database.html) action\).
 
 
 ## Notes
@@ -28,7 +28,7 @@ Specify a database against which the ensuing SQL action lines are to be applied.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cell](bis_remove_double_quotes_from_cells.html).
+The following settings are applicable to this action:[remove double quotes from cell](remove_double_quotes_from_cells.html).
 
 ## Applicable Controls
 

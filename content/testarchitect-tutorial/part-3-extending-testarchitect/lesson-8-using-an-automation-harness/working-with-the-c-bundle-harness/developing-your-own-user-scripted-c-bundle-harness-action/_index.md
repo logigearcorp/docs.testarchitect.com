@@ -27,15 +27,9 @@ The following list provides an introductory overview of C\# bundle harness folde
 
             |Custom attribute|Description|
             |----------------|-----------|
-            |ActionClassDefinitionAttribute|            -   Announce that a given class contains user-scripted action’s code implementation
-|
-            |ActionDefinitionAttribute|            -   Mark that the method is mapped to a specific user-scripted action
-            -   Define a user-scripted action name and its arguments
-|
-            |AssemblyHarnessBundleAttribute|            -   Specify that this module \(assembly\) is a C\# bundle harness
-            -   Provide bundle information including bundle name, bundle version, etc.
-            -   Defined under the /Properties/AssemblyInfo.cs
-|
+            |ActionClassDefinitionAttribute|            -   Announce that a given class contains user-scripted action’s code implementation|
+            |ActionDefinitionAttribute|            -   Mark that the method is mapped to a specific user-scripted action            -   Define a user-scripted action name and its arguments|
+            |AssemblyHarnessBundleAttribute|            -   Specify that this module \(assembly\) is a C\# bundle harness            -   Provide bundle information including bundle name, bundle version, etc.            -   Defined under the /Properties/AssemblyInfo.cs|
 
         -   Also, this DLL exposes additional custom attributes to trigger test run, action, test case, and test module events.
             -   **Test case event**:

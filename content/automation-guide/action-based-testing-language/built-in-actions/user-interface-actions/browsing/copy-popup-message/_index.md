@@ -23,7 +23,7 @@ This action may be used within the following project items:test modules and user
 
 ## Note
 
-copy popup message does not include the [click popup](bia_click_popup.html) action. Hence you ought to explicitly call the click popup action following copy popup message.
+copy popup message does not include the [click popup](click_popup.html) action. Hence you ought to explicitly call the click popup action following copy popup message.
 
 ## Example
 

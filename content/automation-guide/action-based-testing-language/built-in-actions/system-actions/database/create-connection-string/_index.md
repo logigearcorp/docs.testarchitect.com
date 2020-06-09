@@ -54,7 +54,7 @@ Generate a connection string to a specified database.
 -   This action is generally invoked as part of a sequence of actions to allow the test to access a data source. \(See [Testing with databases](aut_app_testing_Database_apps.html) for more information.\)
 -   The nature of a connection string – that is, the parameters that apply to it – is specific to the type of data source that it targets. More information on connection strings is available from the website [www.connectionstrings.com/](http://www.connectionstrings.com/).
 -   If connecting to a MySQL database:
-    -   If any of the associated [execute sql](bia_execute_sql.html) calls are to contain multiple queries in their command arguments, the others argument must include the setting `Option=67108864;`.
+    -   If any of the associated [execute sql](execute_sql.html) calls are to contain multiple queries in their command arguments, the others argument must include the setting `Option=67108864;`.
     -   If creating a Unicode-supported connection with the FreeTDS ODBC driver, others must contain `ClientCharset=UTF-8;`.
 -   Use of a data source name \(DSN\) is supported. DSNs may be specified in the others argument with the following formats:
 
@@ -68,7 +68,7 @@ Generate a connection string to a specified database.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cell](bis_remove_double_quotes_from_cells.html).
+The following settings are applicable to this action:[remove double quotes from cell](remove_double_quotes_from_cells.html).
 
 ## Applicable Controls
 

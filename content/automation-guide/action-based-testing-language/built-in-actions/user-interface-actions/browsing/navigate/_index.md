@@ -40,7 +40,7 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   window argument:
-    -   If the window argument is omitted, the specified web page is opened in a new instance of a web browser. The web browser to be invoked is determined by the current value of TestArchitect's built-in [use browser](bis_use_browser.html) setting.
+    -   If the window argument is omitted, the specified web page is opened in a new instance of a web browser. The web browser to be invoked is determined by the current value of TestArchitect's built-in [use browser](use_browser.html) setting.
     -   If window is specified, it defines the browser window upon which the action is to operate. The setting of use browser in that case does not apply.
 -   In order to open an HTML file on a local or network drive, specify the file protocol for the location argument as follows: `file:///sDrives/sFile`, where:
 
@@ -52,12 +52,12 @@ This action may be used within the following project items:test modules and user
     **Warning:** In instances where the window argument has a value, your URL cannot contain white spaces. Replace any white space with %20.
 
 -   When Chrome on Android has multiple tabs open, navigate needs to traverse through those tabs to check for the already-navigated site. Activating each tab can typically take around two seconds. Consequently, the time consumed by navigate when many tabs are open can be significant.
--   You can have this action open the specified URL within a specific mobile device emulator, allowing you to test webpages and applications in emulation mode for the given device. Do this by means of the [send command to browser](bia_send_command_to_browser.html) built-in action, which must be set after execution of the navigate. \([Learn more](aut_app_testing_responsive_web_Chrome_DevTools_launching_emulator.html).\)
+-   You can have this action open the specified URL within a specific mobile device emulator, allowing you to test webpages and applications in emulation mode for the given device. Do this by means of the [send command to browser](send_command_to_browser.html) built-in action, which must be set after execution of the navigate. \([Learn more](aut_app_testing_responsive_web_Chrome_DevTools_launching_emulator.html).\)
 -   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[case sensitive](bis_case_sensitive.html), [use browser](bis_use_browser.html), [remove double quotes from cells](bis_remove_double_quotes_from_cells.html), [standard ASCII only](bis_standard_ASCII_only.html), [window wait](bis_window_wait.html).
+The following settings are applicable to this action:[case sensitive](case_sensitive.html), [use browser](use_browser.html), [remove double quotes from cells](remove_double_quotes_from_cells.html), [standard ASCII only](standard_ASCII_only.html), [window wait](window_wait.html).
 
 ## Example - Case 1: Navigate to a web site
 

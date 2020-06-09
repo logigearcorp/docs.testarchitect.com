@@ -28,11 +28,11 @@ Use of this action is supported on the following systems/platforms: Windows, Lin
 
 ## Notes
 
--   This action must be paired with a create data set action. See [create data set](bia_create_data_set.html) for more information.
+-   This action must be paired with a create data set action. See [create data set](create_data_set.html) for more information.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](bis_remove_double_quotes_from_cells.html)none.
+The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html)none.
 
 ## Example
 

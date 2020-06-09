@@ -12,7 +12,7 @@ keyword: [skip over manual check, determine whether to skip manual check, skip m
 
 ## Description
 
-If set to yes, causes automation execution to skip over all [manual check actions](bia_manual_check.html).
+If set to yes, causes automation execution to skip over all [manual check actions](manual_check.html).
 
 ## Allowable values
 

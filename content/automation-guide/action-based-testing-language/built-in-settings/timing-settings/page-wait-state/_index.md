@@ -12,7 +12,7 @@ keyword: [page wait state, page]
 
 ## Description
 
-Specifies whether the [page wait](bis_page_wait.html) built-in setting applies to the complete loading of a web page, or to the loading of a page only up to the point where it is in an interactive state.
+Specifies whether the [page wait](page_wait.html) built-in setting applies to the complete loading of a web page, or to the loading of a page only up to the point where it is in an interactive state.
 
 ## Allowable Values
 

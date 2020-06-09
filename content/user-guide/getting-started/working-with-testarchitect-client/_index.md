@@ -73,6 +73,8 @@ An icon on the tab to the left of the title indicates the type of item it is. Ad
 
 Basic item icons are as follows.
 
+|||
+|------|------|
 |![](/images//Images/Repo_icon.png)|Repository|
 |![](/images//Images/Project_icon.png)|Project|
 |![](/images//Images/TM_icon.png)|Test module|

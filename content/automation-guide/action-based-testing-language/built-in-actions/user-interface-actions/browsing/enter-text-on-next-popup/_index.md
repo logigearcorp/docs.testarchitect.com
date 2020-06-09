@@ -46,13 +46,13 @@ This action may be used within the following project items:test modules and user
         -   on macOS, refer to [Handling one or a series of popups](aut_app_testing_web_apps_getting_started.html#sectiondiv_o5w_nkd_4s) for details.
     -   For Google Chrome on Android, refer to [Handling one or a series of popups](aut_app_testing_Android_apps_popups.html#section_iv1_x5x_vp) for details.
 -   If the text argument is empty, TestArchitect clears the popup's existing default text, if any, leaving the input field blank.
--   Note that this action does not support the case of writing text to the user-entry field of a prompt popup, followed by clicking **Cancel**. To cancel a prompt, use [click on next popup](bia_click_on_next_popup.html).
+-   Note that this action does not support the case of writing text to the user-entry field of a prompt popup, followed by clicking **Cancel**. To cancel a prompt, use [click on next popup](click_on_next_popup.html).
 -   If this action is applied \(inadvertently or otherwise\) to an alert or a confirmation popup, TestArchitect ignores the text argument and clicks **OK** on the popup.
 -   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](bis_remove_double_quotes_from_cells.html).
+The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html).
 
 ## Applicable Controls
 

@@ -8,7 +8,7 @@ aliases:
 
 ## Description
 
-Determine if the [navigate](bia_navigate.html) built-in action opens a new tab, a new window instance, or overwrites the currently active instance with a new URL.
+Determine if the [navigate](navigate.html) built-in action opens a new tab, a new window instance, or overwrites the currently active instance with a new URL.
 
 **Important:** This setting is dedicated to Generic WebDriver.
 

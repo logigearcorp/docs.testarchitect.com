@@ -25,13 +25,13 @@ seconds
 ## Notes
 
 -   The window wait setting is applicable to nearly every built-in action that contains the window argument. This built-in setting is used when it is expected that the specified window must exist.
--   However, the window wait setting is not applicable to does/if built-in actions, that is, [if window exists](bia_if_window_exists.html), [if window not exists](bia_if_window_not_exists.html), and [does window exist](bia_does_window_exist.html). Instead, the [window wait probe](bis_window_wait_probe.html) setting is used for those three built-in actions.
+-   However, the window wait setting is not applicable to does/if built-in actions, that is, [if window exists](if_window_exists.html), [if window not exists](if_window_not_exists.html), and [does window exist](does_window_exist.html). Instead, the [window wait probe](window_wait_probe.html) setting is used for those three built-in actions.
 -   Setting a high wait time value may negatively impact test performance.
--   For web automation, window wait goes into effect first, and then [page wait](bis_page_wait.html) does. In other words, TestArchitect first looks for the presence of the specified window; once that condition is satisfied, TestArchitect waits the allotted page wait time for the web page to be rendered and available.
+-   For web automation, window wait goes into effect first, and then [page wait](page_wait.html) does. In other words, TestArchitect first looks for the presence of the specified window; once that condition is satisfied, TestArchitect waits the allotted page wait time for the web page to be rendered and available.
 
 ## Result timeout
 
-Suppose you are using [check window exists](bia_check_window_exists.html) and [check window not exists](bia_check_window_not_exists.html) built-in actions. The execution mechanism is as follows:
+Suppose you are using [check window exists](check_window_exists.html) and [check window not exists](check_window_not_exists.html) built-in actions. The execution mechanism is as follows:
 
 1.  TestArchitect starts looking for the specified window.
 2.  With the check window exists action:

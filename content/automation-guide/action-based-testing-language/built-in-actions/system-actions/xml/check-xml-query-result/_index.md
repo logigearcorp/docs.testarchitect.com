@@ -20,7 +20,7 @@ Check an XPath query result against an expected string.Result is Passed ifthe st
 
     XML target string that the query runs against.
 
-    **Tip:** To access content from an XML file, use the [get text file](bia_get_text_file.html) action to load the XML document into a variable, then reference the variable in this argument.
+    **Tip:** To access content from an XML file, use the [get text file](get_text_file.html) action to load the XML document into a variable, then reference the variable in this argument.
 
 -   **xpath**
 
@@ -40,7 +40,7 @@ Check an XPath query result against an expected string.Result is Passed ifthe st
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](bis_remove_double_quotes_from_cells.html).
+The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html).
 
 ## Applicable Controls
 

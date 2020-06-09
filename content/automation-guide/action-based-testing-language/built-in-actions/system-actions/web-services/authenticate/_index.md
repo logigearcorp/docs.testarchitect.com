@@ -36,7 +36,7 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   You are required to declare this built-in action before the authentication is started. Additionally, this built-in action can also be declared after or before the declaration of [create http request](bia_create_http_request.html).
+-   You are required to declare this built-in action before the authentication is started. Additionally, this built-in action can also be declared after or before the declaration of [create http request](create_http_request.html).
 -   value argument: Depends on which authentication scheme is selected, there are different ways to provide HTTP authentication information.
     1.  For Basic HTTP authentication scheme: Specify username and password to authenticate with the service you are using. Follow this format `userid:password`.
 
@@ -52,7 +52,7 @@ This action may be used within the following project items:test modules and user
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](bis_remove_double_quotes_from_cells.html).
+The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html).
 
 ## Example 1 - Basic authentication scheme
 

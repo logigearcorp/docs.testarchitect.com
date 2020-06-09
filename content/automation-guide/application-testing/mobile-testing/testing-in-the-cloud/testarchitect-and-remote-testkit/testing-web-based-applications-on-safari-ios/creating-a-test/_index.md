@@ -8,7 +8,7 @@ aliases:
 
 Explains general workflow to test mobile web applications on iOS cloud devices in the Remote TestKit cloud service.
 
-In TestArchitect, desired capabilities are defined through the [assign cloud device](bia_assign_cloud_device.html) built-in action \([learn more](aut_app_cloud_testing_Appium_RTK_iOS_workflow.html)\), or in a JSON file \([learn more](aut_app_cloud_testing_Appium_RTK_multiple_iOS_cloud_devices.html)\).
+In TestArchitect, desired capabilities are defined through the [assign cloud device](assign_cloud_device.html) built-in action \([learn more](aut_app_cloud_testing_Appium_RTK_iOS_workflow.html)\), or in a JSON file \([learn more](aut_app_cloud_testing_Appium_RTK_multiple_iOS_cloud_devices.html)\).
 
 1.  [Selecting a single cloud device during execution](/TA_Automation/Topics/aut_app_cloud_testing_Appium_RTK_iOS_workflow.html)  
 From within your action lines, you can control which cloud device your test is to execute on. The built-in assign cloud device action is used to specify a target cloud device upon which the subsequent action lines are to be run.

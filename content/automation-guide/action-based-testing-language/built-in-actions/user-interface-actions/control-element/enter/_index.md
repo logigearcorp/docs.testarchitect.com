@@ -36,12 +36,12 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   The effect of the enter built-in action depends on the class of the control. For example, for a combo box control, the enter action selects an item from the list.
--   In some special cases on a web platform, the enter action may trigger an unexpected or undesired event. To address such cases, it is suggested that you use the [set](bia_set.html) built-in action to assign a value to text box controls. Unlike enter, set avoids the triggering of events.
+-   In some special cases on a web platform, the enter action may trigger an unexpected or undesired event. To address such cases, it is suggested that you use the [set](set.html) built-in action to assign a value to text box controls. Unlike enter, set avoids the triggering of events.
 -   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[case sensitive](bis_case_sensitive.html), [remove double quotes from cells](bis_remove_double_quotes_from_cells.html), [standard ASCII only](bis_standard_ASCII_only.html), [page wait](bis_page_wait.html), [object wait](bis_object_wait.html), [window wait](bis_window_wait.html).
+The following settings are applicable to this action:[case sensitive](case_sensitive.html), [remove double quotes from cells](remove_double_quotes_from_cells.html), [standard ASCII only](standard_ASCII_only.html), [page wait](page_wait.html), [object wait](object_wait.html), [window wait](window_wait.html).
 
 ## Applicable Controls
 

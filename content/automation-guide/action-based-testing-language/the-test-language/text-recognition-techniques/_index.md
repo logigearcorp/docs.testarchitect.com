@@ -27,7 +27,7 @@ TestArchitect includes GDI that uses other principles for text recognition. Tech
 **Note:**
 
 -   If your AUT is a Windows application, that is Win32 or WinForms, before using OCR, we recommend that you try working with your text controls by using GDI. If GDI does not help, then use OCR.
--   To switch between the OCR and GDI technology, use the [character recognition technique](bis_character_recognition_technique.html) built-in setting.
+-   To switch between the OCR and GDI technology, use the [character recognition technique](character_recognition_technique.html) built-in setting.
 -   However, there are situations when the GDI might not be helpful:
     -   An AUT displays text with surrounding noise. Since, this text is part of the image, GDI is not able to detect the text accurately. If you need to retrieve text shown in an image, use OCR instead.
     -   The way the AUT draws text is not typical for Windows applications, that is, the AUT does not calls the drawing Windows APIs. Therefore, GDI is unable to determine the drawn text and will not create. To recognize such text, use OCR instead.

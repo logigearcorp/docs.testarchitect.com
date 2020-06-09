@@ -16,19 +16,19 @@ This topic categorizes some limitations you might encounter in testing web appli
 
     **Solution**: While the popup cannot be prevented from appearing, it can be handled by clicking whichever of its buttons causes it to be dismissed. However, due to the difficulty of identifying a button on a JavaScript popup, an indirect method of clicking the button must be implemented. One of two approaches can be taken:
 
-    -   *Solution 1*: Using the [click picture](bia_click_picture.html) built-in action
+    -   *Solution 1*: Using the [click picture](click_picture.html) built-in action
         1.  Use the [picture capturing tool](/TA_Help/Topics/Additional_features_image_capturing_tool.html) to capture a picture of the popup button you want to click on.
         2.  Save it as a [shared picture check](/TA_Help/Topics/Projects_and_tests_picture_check.html).
         3.  In your test procedure, in order to implement the click, call the click picture action, with its picture argument specifying the name of the saved picture check.
-    -   *Solution 2*: Using the [click text](bia_click_text.html) built-in action
+    -   *Solution 2*: Using the [click text](click_text.html) built-in action
         1.  Within the application window, determine the range of locations in which the popup button you want to click may appear. Establish, in units of pixels, the location and dimensions of that area. \(Ensure that the same text displayed by the button to be clicked does not appear elsewhere within this area. If it does, narrow the area.\)
         2.  In your test procedure, call the click text action with the value of its rect argument specifying the area established in step 1 and its text argument holding the text of the button to be clicked.
 
 ## Event-fired action model
 
 -   **Problem**: Due to the nature of the [Event fired action](aut_app_testing_mobile_web_Safari.html#li_b5n_gll_yq) model, under some unusual circumstances, it is possible for a predefined event of a built-in action to not properly register with the device. This leads to a failure of the action to have its intended effect. To address this issue, you need to know the exact sequence of events required by the control to achieve the intended effect of the action, and then do one of the following:
-    -   Use the [fire event](bia_fire_event.html) built-in action to apply an event to the control. To apply multiple events, use multiple fire event actions and then group them into a user-defined action for your convenience.
-    -   Alternatively, program a separate JavaScript file to apply events. During testing, execute the JavaScript file by using the [exec script](bia_exec_script.html) built-in action.
+    -   Use the [fire event](fire_event.html) built-in action to apply an event to the control. To apply multiple events, use multiple fire event actions and then group them into a user-defined action for your convenience.
+    -   Alternatively, program a separate JavaScript file to apply events. During testing, execute the JavaScript file by using the [exec script](exec_script.html) built-in action.
 
         **Note:** In order to specify events and to program the JavaScript code, you must be familiar with event specification and JavaScript syntax, respectively. Tutorials on these subjects are beyond the scope of this help system. For more information, the following resources are helpful:
 

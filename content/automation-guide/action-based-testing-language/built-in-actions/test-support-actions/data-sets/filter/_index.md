@@ -35,8 +35,8 @@ Use of this action is supported on the following systems/platforms: Windows, Lin
 
 ## Notes
 
--   This action may be employed within either a [dedicated data set](/TA_Glossary/Topics/glossaryDedicatedDataSet.html) or an [inline data set](/TA_Glossary/Topics/glossaryInlineDataSet.html) \(within the confines of a [create data set](bia_create_data_set.html)/[end create data set](bia_end_create_data_set.html) construct, in a test module or user-defined action\).
--   The filter action associates a set of filter criteria with a name. It does not, in and of itself, have the effect of filtering data. The actual filtering of data occurs when the established filter is invoked, either by a [use data set](bia_use_data_set.html), [use filter](bia_use_filter.html), or [set data set value](bia_set_data_set_value.html) action.
+-   This action may be employed within either a [dedicated data set](/TA_Glossary/Topics/glossaryDedicatedDataSet.html) or an [inline data set](/TA_Glossary/Topics/glossaryInlineDataSet.html) \(within the confines of a [create data set](create_data_set.html)/[end create data set](end_create_data_set.html) construct, in a test module or user-defined action\).
+-   The filter action associates a set of filter criteria with a name. It does not, in and of itself, have the effect of filtering data. The actual filtering of data occurs when the established filter is invoked, either by a [use data set](use_data_set.html), [use filter](use_filter.html), or [set data set value](set_data_set_value.html) action.
 -   When the filter is applied, those rows of the data set whose values do not produce a True when applied to the expression in criterion are filtered out. For example, if criterion is set to `region = 2 and period >= 2002`, the filter excludes those rows in which region is not 2, as well as those rows for which period is earlier than 2002.
 -   The following operators may be used within an expression in thecriterion argument:
 
@@ -61,7 +61,7 @@ Use of this action is supported on the following systems/platforms: Windows, Lin
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](bis_remove_double_quotes_from_cells.html)none.
+The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html)none.
 
 ## Example
 

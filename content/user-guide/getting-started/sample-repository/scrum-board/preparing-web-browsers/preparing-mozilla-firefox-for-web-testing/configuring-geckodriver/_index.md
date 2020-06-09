@@ -30,7 +30,7 @@ On Windows machines only, automating tests on Mozilla Firefox requires GeckoDriv
 
     4.  Click **Save** to save changes and close the dialog box.
 
-4.  In your test procedure, use the [navigate](bia_navigate.html) built-in action to launch the Mozilla Firefox browser, and navigate to a specified web site.
+4.  In your test procedure, use the [navigate](navigate.html) built-in action to launch the Mozilla Firefox browser, and navigate to a specified web site.
 
 
 **Parent topic:**[Preparing Mozilla Firefox for web testing](/TA_Tutorials_Sample_App/Topics/SR_Enabling_TA_agent_firefox.html)

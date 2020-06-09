@@ -45,13 +45,13 @@ Use of this action is supported on the following systems/platforms: Windows, Lin
 
     -   the data set is currently checked out by another user; or
     -   the current user does not have sufficient permission to modify data sets.
-    Following execution of this action, it is highly recommended that you use a [check in data set](bia_check_in_data_set.html) action to ensure that all changes to the data set are available before it is actually used.
+    Following execution of this action, it is highly recommended that you use a [check in data set](check_in_data_set.html) action to ensure that all changes to the data set are available before it is actually used.
 
 -   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](bis_remove_double_quotes_from_cells.html)none.
+The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html)none.
 
 ## Example
 

@@ -12,7 +12,7 @@ keyword: [repeat, repeat statement, repeat loop]
 
 ## Description
 
-Denotes the beginning of a repeat/[until](bia_until.html) loop.
+Denotes the beginning of a repeat/[until](until.html) loop.
 
 ## Arguments
 
@@ -24,7 +24,7 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   The built-in action [exit loop](bia_exit_loop.html) may be used to escape from a repeat/until loop before its normal termination.
+-   The built-in action [exit loop](exit_loop.html) may be used to escape from a repeat/until loop before its normal termination.
 
 ## Applicable Built-In Settings
 

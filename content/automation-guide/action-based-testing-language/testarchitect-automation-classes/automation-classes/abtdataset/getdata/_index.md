@@ -22,7 +22,7 @@ Retrieve from the data set object the list of data rows that satisfy the specifi
 
 -   **filterCriteria**
 
-    String value specifying the filter criteria. \(For format, see the criterion argument of [filter](bia_filter.html) built-in action\).
+    String value specifying the filter criteria. \(For format, see the criterion argument of [filter](filter.html) built-in action\).
 
 
 ## Return Value

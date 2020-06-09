@@ -14,17 +14,17 @@ Successful testing requires that the automation correctly handle the varying res
 
 |No|Built-in settings|
 |--|-----------------|
-|1|[window wait](bis_window_wait.html)|
-|2|[item wait](bis_item_wait.html)|
-|3|[object wait](bis_object_wait.html)|
-|4|[value changed wait](bis_value_changed_wait.html)|
-|5|[property wait](bis_property_wait.html)|
-|6|[object wait probe](bis_object_wait_probe.html)|
-|7|[window wait probe](bis_window_wait_probe.html)|
-|8|[click delay](bis_click_delay.html)|
-|9|[control condition wait](bis_control_condition_wait.html)|
-|10|[double click time](bis_double_click_time.html)|
-|11|[control condition](bis_control_condition.html)|
+|1|[window wait](window_wait.html)|
+|2|[item wait](item_wait.html)|
+|3|[object wait](object_wait.html)|
+|4|[value changed wait](value_changed_wait.html)|
+|5|[property wait](property_wait.html)|
+|6|[object wait probe](object_wait_probe.html)|
+|7|[window wait probe](window_wait_probe.html)|
+|8|[click delay](click_delay.html)|
+|9|[control condition wait](control_condition_wait.html)|
+|10|[double click time](double_click_time.html)|
+|11|[control condition](control_condition.html)|
 
 **Parent topic:**[Testing Oracle Forms](/TA_Automation/Topics/aut_app_testing_Oracle_Forms.html)
 

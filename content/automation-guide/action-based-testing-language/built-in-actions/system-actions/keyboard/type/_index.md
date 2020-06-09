@@ -32,7 +32,7 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   This action does not support iOS devices.
--   Note that this action does not include a control argument. In effect, type emulates typing keys with the character entry being directed to whichever control has focus at that point. To direct entry to a particular control, type is typically preceded by a [focus control](bia_focus_control.html) action.
+-   Note that this action does not include a control argument. In effect, type emulates typing keys with the character entry being directed to whichever control has focus at that point. To direct entry to a particular control, type is typically preceded by a [focus control](focus_control.html) action.
 -   For special keys, the following notations are used:
     -   Function keys: \{F1\} to \{F12\}
     -   Named keys: \{enter\}, \{esc\}, \{capslock\}, \{numlock\}, \{scrolllock\} \{spacebar\}, \{backspace\}, \{home\}, \{end\}, \{pause\}, \{delete\}, \{page down\}, \{page up\}
@@ -60,7 +60,7 @@ This action may be used within the following project items:test modules and user
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[case sensitive](bis_case_sensitive.html), [remove double quotes from cells](bis_remove_double_quotes_from_cells.html), [window wait](bis_window_wait.html).
+The following settings are applicable to this action:[case sensitive](case_sensitive.html), [remove double quotes from cells](remove_double_quotes_from_cells.html), [window wait](window_wait.html).
 
 ## Example
 

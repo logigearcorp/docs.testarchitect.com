@@ -27,13 +27,13 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   If the specified window is found, the succeeding block of action lines up until the first occurrence of an [else](bia_else.html), [else if](bia_else_if.html), or [end if](bia_end_if.html), is executed. Otherwise, that block is skipped.
--   The if window exists action, in effect, combines the [does window exist](bia_does_window_exist.html) and [if](bia_if.html) built-in actions.
+-   If the specified window is found, the succeeding block of action lines up until the first occurrence of an [else](else.html), [else if](else_if.html), or [end if](end_if.html), is executed. Otherwise, that block is skipped.
+-   The if window exists action, in effect, combines the [does window exist](does_window_exist.html) and [if](if.html) built-in actions.
 -   This built-in action can typically be used in recovery actions to detect unwanted open windows.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[case sensitive](bis_case_sensitive.html), [remove double quotes from cells](bis_remove_double_quotes_from_cells.html), [standard ASCII only](bis_standard_ASCII_only.html), [window wait probe](bis_window_wait_probe.html).
+The following settings are applicable to this action:[case sensitive](case_sensitive.html), [remove double quotes from cells](remove_double_quotes_from_cells.html), [standard ASCII only](standard_ASCII_only.html), [window wait probe](window_wait_probe.html).
 
 ## Applicable Controls
 

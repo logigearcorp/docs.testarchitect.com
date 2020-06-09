@@ -14,7 +14,7 @@ Typically, you are not required to carry out any additional actions before start
 -   [OAuth 2.0](https://oauth.net/2/)
 -   [Digest authentication](https://tools.ietf.org/html/rfc2617#section-3)
 
-For this purpose, TestArchitect provides you a built-in action, [authenticate](bia_authenticate.html), which assists you in specifying the desired authentication information.
+For this purpose, TestArchitect provides you a built-in action, [authenticate](authenticate.html), which assists you in specifying the desired authentication information.
 
 For example: The following action lines specify OAuth 2.0 authentication scheme and its access token for a sample web service.
 

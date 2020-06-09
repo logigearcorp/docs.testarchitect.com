@@ -28,7 +28,7 @@ seconds
 
 ## Notes
 
--   The property wait setting applies to three built-in actions: [check control property](bia_check_control_property.html), [check window property](bia_check_window_property.html), and [check](bia_check.html).
+-   The property wait setting applies to three built-in actions: [check control property](check_control_property.html), [check window property](check_window_property.html), and [check](check.html).
 
 **Parent topic:**[Timing settings](/TA_Automation/Topics/bis_timing.html)
 

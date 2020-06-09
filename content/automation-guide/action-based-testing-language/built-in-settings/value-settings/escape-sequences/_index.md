@@ -36,9 +36,7 @@ no/false
 
     |Escape Sequence|Represents|
     |---------------|----------|
-    |\\b|Backspace
-
-|
+    |\\b|Backspace|
     |\\f|Formfeed|
     |\\n|Newline|
     |\\r|Carriage Return|

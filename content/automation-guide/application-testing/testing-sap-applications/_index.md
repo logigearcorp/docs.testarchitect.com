@@ -40,12 +40,12 @@ Now, TestArchitect has complete support for 21 SAP BW controls.
 
 SAP BW has specific controls such as tree lists and tree tables. We've added new Built-In Actions for interacting with these controls.
 
-1.  [Click tree table cell](bia_click_tree_table_cell.html#)
-2.  [Check tree table cell value](bia_check_tree_table_cell_value.html#)
-3.  [Get tree table cell value](bia_get_tree_table_cell_value.html#)
-4.  [Get tree table cell containing](bia_get_tree_table_cell_containing.html#)
-5.  [Is tree table cell selected](bia_is_tree_table_cell_selected.html#)
-6.  [Set tree table cell value](bia_set_tree_table_cell_value.html#)
+1.  [Click tree table cell](click_tree_table_cell.html#)
+2.  [Check tree table cell value](check_tree_table_cell_value.html#)
+3.  [Get tree table cell value](get_tree_table_cell_value.html#)
+4.  [Get tree table cell containing](get_tree_table_cell_containing.html#)
+5.  [Is tree table cell selected](is_tree_table_cell_selected.html#)
+6.  [Set tree table cell value](set_tree_table_cell_value.html#)
 
 -   **[Troubleshooting SAP](/TA_Automation/Topics/aut_SAP.html)**  
 This section describes possible errors that you might encounter during SAP automation, their common causes and possible solutions.

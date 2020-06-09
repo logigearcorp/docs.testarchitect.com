@@ -31,12 +31,12 @@ Use of this action is supported on the following systems/platforms: Windows, Lin
 
 ## Notes
 
--   create data set allows your test to generate a data set from within the action lines, offering an alternative to the [dedicated data set](/TA_Glossary/Topics/glossaryDedicatedDataSet.html). To create an inline data set, you must pair this action with a matching [end create data set](bia_end_create_data_set.html) action, and insert one or more row actions between the two. The row actions supply the data for the data set, just as they do for dedicated data sets, and must be accompanied by a row of headers to identify the data elements.
--   Once an inline data set is created, its scope is global, and it may be reused any number of times throughout the test with the [use data set](bia_use_data_set.html) action.
+-   create data set allows your test to generate a data set from within the action lines, offering an alternative to the [dedicated data set](/TA_Glossary/Topics/glossaryDedicatedDataSet.html). To create an inline data set, you must pair this action with a matching [end create data set](end_create_data_set.html) action, and insert one or more row actions between the two. The row actions supply the data for the data set, just as they do for dedicated data sets, and must be accompanied by a row of headers to identify the data elements.
+-   Once an inline data set is created, its scope is global, and it may be reused any number of times throughout the test with the [use data set](use_data_set.html) action.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](bis_remove_double_quotes_from_cells.html)none.
+The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html)none.
 
 ## Example
 

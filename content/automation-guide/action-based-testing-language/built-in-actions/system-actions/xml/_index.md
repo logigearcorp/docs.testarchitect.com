@@ -22,8 +22,8 @@ Specifically, TestArchitect provides this support with built-in actions that all
 
 TestArchitect provide the following actions:
 
--   [check xml query result](bia_check_xml_query_result.html): Compare an XPath query result against an expected string and return a Passed or Failed result accordingly.
--   [get xml query result](bia_get_xml_query_result.html): Query an XML string by XPath and store the result.
+-   [check xml query result](check_xml_query_result.html): Compare an XPath query result against an expected string and return a Passed or Failed result accordingly.
+-   [get xml query result](get_xml_query_result.html): Query an XML string by XPath and store the result.
 
 ## Supported versions
 
@@ -34,9 +34,9 @@ TestArchitect provide the following actions:
 
 ## Prerequisites
 
-Each of the XML-based built-in actions operates on XML text that is present in an argument. \(That is, the actions do not operate directly on XML files.\) In most scenarios, the target XML content originates from a file, and hence you will want to load that content into a variable. The most direct means of doing this is to use the built-in action [get text file](bia_get_text_file.html), prior to calling the XML-based action.
+Each of the XML-based built-in actions operates on XML text that is present in an argument. \(That is, the actions do not operate directly on XML files.\) In most scenarios, the target XML content originates from a file, and hence you will want to load that content into a variable. The most direct means of doing this is to use the built-in action [get text file](get_text_file.html), prior to calling the XML-based action.
 
-For instance: the following test procedure initially loads an XML document's content using the [get text file](bia_get_text_file.html) action. Afterwards, get xml query result is used by passing the variable holding the XML content to the xml argument. In this scenario, get xml query result selects the root element inventory.
+For instance: the following test procedure initially loads an XML document's content using the [get text file](get_text_file.html) action. Afterwards, get xml query result is used by passing the variable holding the XML content to the xml argument. In this scenario, get xml query result selects the root element inventory.
 
 ```
                        file                 variable

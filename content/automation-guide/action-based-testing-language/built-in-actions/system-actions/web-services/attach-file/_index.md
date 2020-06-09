@@ -69,7 +69,7 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   It is required that this built-in action must be declared before using the [send http request](bia_send_http_request.html) action. When this built-in action is called, the multipart form data technique, provided by [Rest Assured](http://static.javadoc.io/io.rest-assured/rest-assured/3.0.1/io/restassured/builder/MultiPartSpecBuilder.html), is applied.
+-   It is required that this built-in action must be declared before using the [send http request](send_http_request.html) action. When this built-in action is called, the multipart form data technique, provided by [Rest Assured](http://static.javadoc.io/io.rest-assured/rest-assured/3.0.1/io/restassured/builder/MultiPartSpecBuilder.html), is applied.
 -   To attach multiple files, in test procedures, call multiple attach file in sequence.
 -   control name:
     -   When a single file is attached, the value is optional. When this argument is empty, by default, the attach file action will assume a control name called file \([learn more](http://static.javadoc.io/io.rest-assured/rest-assured/3.0.1/io/restassured/builder/MultiPartSpecBuilder.html#controlName-java.lang.String-)\). Specifically, in HTML the control name is the attribute name of the input tag.
@@ -88,7 +88,7 @@ This action may be used within the following project items:test modules and user
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](bis_remove_double_quotes_from_cells.html).
+The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html).
 
 ## Uploading Files With Real World Examples
 

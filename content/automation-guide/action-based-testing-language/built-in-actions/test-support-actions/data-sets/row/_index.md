@@ -26,7 +26,7 @@ Use of this action is supported on the following systems/platforms: Windows, Lin
 
 -   This action appends a row to the current data set, populating it with data.
 -   This action may be used in either a dedicated data set or an inline data set of a test module or action.
--   In an inline data set, use this action only within the boundaries of the [create data set](bia_create_data_set.html) /[end create data set](bia_end_create_data_set.html) matching actions.
+-   In an inline data set, use this action only within the boundaries of the [create data set](create_data_set.html) /[end create data set](end_create_data_set.html) matching actions.
 -   Multiple row definitions may be placed in consecutive rows of the worksheet, allowing a single row of headers to be used. Note that the argument headers establish the names of the associated variables when the data set is used.
 
 ## Applicable Built-In Settings

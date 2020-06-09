@@ -36,7 +36,7 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   value argument:
-    -   While it is possible to use literal text content in the value argument, in most practical cases you will want to use a variable here \(preceded by **\#**\) which has been pre-loaded with multi-line text. Possible sources of such text: a multi-line text control \(see [get](bia_get.html)\), or a text file \(see [get text file](bia_get_text_file.html) action\).
+    -   While it is possible to use literal text content in the value argument, in most practical cases you will want to use a variable here \(preceded by **\#**\) which has been pre-loaded with multi-line text. Possible sources of such text: a multi-line text control \(see [get](get.html)\), or a text file \(see [get text file](get_text_file.html) action\).
 -   number argument:
     -   Note that line numbering begins with 1.
     -   TestArchitect issues a warning if the value in number is larger than the total number of lines in the multi-line text.
@@ -47,7 +47,7 @@ This action may be used within the following project items:test modules and user
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](bis_remove_double_quotes_from_cells.html), [standard ASCII only](bis_standard_ASCII_only.html) none.
+The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html), [standard ASCII only](standard_ASCII_only.html) none.
 
 ## Example
 

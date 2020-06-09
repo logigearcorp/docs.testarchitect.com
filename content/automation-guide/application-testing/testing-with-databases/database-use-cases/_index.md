@@ -14,11 +14,11 @@ TestArchitect offers a number of built-in actions and automation methods that al
 
 TestArchitect provides the following built-in actions for working with SQL-compliant databases. They are listed in the typical order of their workflow:
 
-1.  [create connection string](bia_create_connection_string.html): Generate a connection string for a specified database on a given host.
-2.  [connect database](bia_connect_database.html): Open a database connection using a connection string.
-3.  [use database](bia_use_database.html): Specify a database against which the ensuing SQL action lines are to be applied.
-4.  [execute sql](bia_execute_sql.html): Execute an SQL command against the currently in-use database; optionally, store returned data into one or more data sets.
-5.  [disconnect database](bia_disconnect_database.html): Close the database connection.
+1.  [create connection string](create_connection_string.html): Generate a connection string for a specified database on a given host.
+2.  [connect database](connect_database.html): Open a database connection using a connection string.
+3.  [use database](use_database.html): Specify a database against which the ensuing SQL action lines are to be applied.
+4.  [execute sql](execute_sql.html): Execute an SQL command against the currently in-use database; optionally, store returned data into one or more data sets.
+5.  [disconnect database](disconnect_database.html): Close the database connection.
 
 ## Use cases
 

@@ -62,28 +62,10 @@ In additional, you can also use wildcards, boolean operators and nested expressi
 
 |Operator|Description|
 |--------|-----------|
-|AND|The AND operator is applied to two terms, the one preceding it and the one following it. Its effect is to return topics in which both terms appear..
-
- For example, testANDautomation returns topics containing both the words test and automation.
-
- **Note:** By default, if your search expression contains multiple words not separated by operators, the search engine applies the AND operator. For example, testANDautomation and test automation return the same results.
-
-|
-|OR|As with AND, OR is a binary operator, and returns topics in which *either* or both of the search terms appears.
-
- For instance, the search for test OR execution will return topics containing the words test or execution, or both.
-
-|
-|NOT|NOR is applied only to the search term that follows it, but also requires that it be preceded by at least one other term. It excludes from the search results all topics that contain the term that follows it.
-
- Hence, a search for "test module" NOT "test suite" will return topics that contain the term test module but do not contain the term test suite.
-
-|
-|NEAR|NEAR is applied to the search terms before and after it, returning topics in which the two terms appear physically close to each other.
-
- For instance, the search for "test module" NEAR project will return topics where the phrase test module is within eight words of the word project.
-
-|
+|AND|The AND operator is applied to two terms, the one preceding it and the one following it. Its effect is to return topics in which both terms appear.. For example, testANDautomation returns topics containing both the words test and automation. **Note:** By default, if your search expression contains multiple words not separated by operators, the search engine applies the AND operator. For example, testANDautomation and test automation return the same results.|
+|OR|As with AND, OR is a binary operator, and returns topics in which *either* or both of the search terms appears. For instance, the search for test OR execution will return topics containing the words test or execution, or both.|
+|NOT|NOR is applied only to the search term that follows it, but also requires that it be preceded by at least one other term. It excludes from the search results all topics that contain the term that follows it. Hence, a search for "test module" NOT "test suite" will return topics that contain the term test module but do not contain the term test suite.|
+|NEAR|NEAR is applied to the search terms before and after it, returning topics in which the two terms appear physically close to each other. For instance, the search for "test module" NEAR project will return topics where the phrase test module is within eight words of the word project.|
 
 **Note:** Boolean operators’ names are case-insensitive.
 

@@ -36,7 +36,7 @@ Current double-click time of the host system minus 50 milliseconds.
 
 ## Notes
 
--   The double click time built-in setting affects only the interval between clicks that TestArchitect applies when a built-in action is required to supply a double click to an AUT. An example is the [click](bia_click.html) action when its click type argument has a value of double. Using this built-in setting does not alter the double-click time of the host system.
+-   The double click time built-in setting affects only the interval between clicks that TestArchitect applies when a built-in action is required to supply a double click to an AUT. An example is the [click](click.html) action when its click type argument has a value of double. Using this built-in setting does not alter the double-click time of the host system.
 
 ## Example
 

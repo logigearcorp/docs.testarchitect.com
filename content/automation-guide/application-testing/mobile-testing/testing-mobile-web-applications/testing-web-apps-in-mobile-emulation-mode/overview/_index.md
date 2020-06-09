@@ -27,7 +27,7 @@ Although Chrome's Device Mode offers many powerful emulation tools, it does have
 
 **Important:**
 
--   Test procedures developed for testing web applications on desktop browsers and/or real devices can be applied to testing on mobile emulators. Note that this requires that the UI controls of the applications be captured with their [XPath](/TA_Help/Topics/prop_xpath.html) properties. An additional built-in action \([send command to browser](bia_send_command_to_browser.html)\) must also be used and configured within tests to invoke the desired emulator\(s\).\([Learn more](aut_app_testing_responsive_web_Chrome_DevTools_launching_emulator.html).\)
+-   Test procedures developed for testing web applications on desktop browsers and/or real devices can be applied to testing on mobile emulators. Note that this requires that the UI controls of the applications be captured with their [XPath](/TA_Help/Topics/prop_xpath.html) properties. An additional built-in action \([send command to browser](send_command_to_browser.html)\) must also be used and configured within tests to invoke the desired emulator\(s\).\([Learn more](aut_app_testing_responsive_web_Chrome_DevTools_launching_emulator.html).\)
 -   It should be noted that, upon conclusion of an automated run on the emulator, the Chrome browser automatically switches out of Device Mode and returns to Desktop Mode.
 
 **Restriction:** TestArchitect's [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html) and [point-to-identify mode](/TA_Help/Topics/Interface_def_client_interface_tool_identify.html) are not supported for UI object identification and capture on mobile emulators.
@@ -44,22 +44,9 @@ Although Chrome's Device Mode offers many powerful emulation tools, it does have
 
     |Built-in actions|Applicable controls|Sequence of events triggered|
     |----------------|-------------------|----------------------------|
-    |[click](bia_click.html), [tap](bia_tap.html)|all controls|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
-    |[click table cell](bia_click_table_cell.html)|table|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
-    |[set list check](bia_set_list_check.html)|ul, ol|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
-    |[select](bia_select.html), [click list item](bia_click_list_item.html)|select-one, select-multiple|**click** \> **change**|
-    |[set](bia_set.html)|input-checkbox, input-radio|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
-    |[enter](bia_enter.html), [set](bia_set.html)|input-text, input-password, input-search, input-tel, input-url, input-email, input-number|**keydown** \> **keypress** \> **input** \> **keyup** \> **change**|
-    |textarea|**keydown** \> **keypress** \> **input** \> **keyup**|
-
-
-## General workflow to test a web app in mobile emulation mode
-
-1.  Prepare mobile browser profiles \([Learn more](aut_app_testing_responsive_web_Chrome_DevTools_creating_profiles.html).\)
-2.  Launch mobile browser emulator in Device Mode on Chrome DevTools. \([Learn more](aut_app_testing_responsive_web_Chrome_DevTools_launching_emulator.html).\)
-3.  Change environment to customize emulator behaviors during the test run, if warranted. \([Learn more](aut_app_testing_responsive_web_Chrome_DevTools_launching_emulator.html#step_d2w_t3d_1w).\)
-
-**Parent topic:**[Testing web apps in mobile emulation mode](/TA_Automation/Topics/aut_app_testing_responsive_web.html)
-
-**Next topic:**[Creating mobile browser profiles](/TA_Automation/Topics/aut_app_testing_responsive_web_Chrome_DevTools_creating_profiles.html)
-
+    |[click](click.html), [tap](tap.html)|all controls|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
+    |[click table cell](click_table_cell.html)|table|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
+    |[set list check](set_list_check.html)|ul, ol|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
+    |[select](select.html), [click list item](click_list_item.html)|select-one, select-multiple|**click** \> **change**|
+    |[set](set.html)|input-checkbox, input-radio|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
+    |[enter](enter.html), [set](set.html)|input-text, input-password, input-search, input-tel, input-url, input-email, input-number|**keydown** \> **keypress** \> **input** \> **keyup** \> **change**|

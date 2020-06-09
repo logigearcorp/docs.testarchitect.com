@@ -27,7 +27,7 @@ Auto-generated action lines can subsequently be modified and enhanced by hand in
 
 ## Actions supported for Java controls
 
-TestArchitect provides many built-in actions for automating various user interactions on Java applications. When you record a test, TestArchitect records the performed GUI actions using these built-in actions. A full reference guide to these actions may be found in the [User Interface actions](bia_User_Interface.html) section of the Automation Guide.
+TestArchitect provides many built-in actions for automating various user interactions on Java applications. When you record a test, TestArchitect records the performed GUI actions using these built-in actions. A full reference guide to these actions may be found in the [User Interface actions](User_Interface.html) section of the Automation Guide.
 
 ## Java control identification
 

@@ -18,6 +18,8 @@ The tree resides under TA\_INSTALL\_DIR/harness samples/ \(Windows\), or /usr/lo
 
 ![](/images//Images/tut.Java_tree_structure_files.png)
 
+||||
+|------|------|------|
 |**java**|directory|Root directory of the sample Java harness.|
 |**java/executables**|directory|Executable files of Java harness programs.|
 |**java/executables/java\_harnress.bat**|file|A simple startup script. Its objective is to run the executable Java program file, java\_harness.jar.|

@@ -29,7 +29,7 @@ Returns a Julian date number computed by adding a number of days to a Julian num
 
 ## Applicable Built-In Settings
 
-The following built-in setting\(s\) are supported: [date order](bis_date_order.html).
+The following built-in setting\(s\) are supported: [date order](date_order.html).
 
 ## Example
 

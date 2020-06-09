@@ -23,6 +23,8 @@ The user-defined field is updated based on your changes.
 
 **Restriction:** When naming a user-defined field, avoid any of the following special characters:
 
+|||
+|------|------|
 |Apostrophe|'|
 |Quotation mark|"|
 |At sign|@|

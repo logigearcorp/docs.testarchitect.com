@@ -12,7 +12,7 @@ keyword: [release key, key released, key up, key is released]
 
 ## Description
 
-Release the specified key\(s\) that were previously held down using the [hold key](bia_hold_key.html) built-in action.
+Release the specified key\(s\) that were previously held down using the [hold key](hold_key.html) built-in action.
 
 ## Arguments
 
@@ -27,7 +27,7 @@ Use of this action is supported on the following systems/platforms: Windows and 
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](bis_remove_double_quotes_from_cells.html).
+The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html).
 
 ## Notes
 
@@ -66,7 +66,7 @@ The following settings are applicable to this action:[remove double quotes from 
         TestArchitect releases the lowercase **a** letter.
 
     -   Multiple keys to be released simultaneously supported.
--   Generally, the [release key](bia_release_key.html) built-in action is used in conjunction with the [hold key](bia_hold_key.html) built-in action to release keys that were previously held down spanning multiple steps. For example, if the AUT requires that the ALT key be held down while mouse left-clicks are taking place, that task could begin with a hold key action to hold down the ALT key, followed by the mouse left-click steps, finally ending with this release key built-in action.
+-   Generally, the [release key](release_key.html) built-in action is used in conjunction with the [hold key](hold_key.html) built-in action to release keys that were previously held down spanning multiple steps. For example, if the AUT requires that the ALT key be held down while mouse left-clicks are taking place, that task could begin with a hold key action to hold down the ALT key, followed by the mouse left-click steps, finally ending with this release key built-in action.
     -   To release all keys that are being held down, apply the value of \{all\} for release key. For example:
 
         ```
@@ -88,7 +88,7 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ## Example
 
-The following sample of test procedures selecting multiple cells in a given table by holding down the **left-CTRL** key, then applying [click table cell](bia_click_table_cell.html) built-in action several times, finally releasing the **left-CTRL** key.
+The following sample of test procedures selecting multiple cells in a given table by holding down the **left-CTRL** key, then applying [click table cell](click_table_cell.html) built-in action several times, finally releasing the **left-CTRL** key.
 
 ## Action Lines
 

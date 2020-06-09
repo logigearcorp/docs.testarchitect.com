@@ -53,7 +53,7 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   It is required that you declare configure web service settings with its configurations, before using the [create http request](bia_create_http_request.html) built-in action.
+-   It is required that you declare configure web service settings with its configurations, before using the [create http request](create_http_request.html) built-in action.
 -   For a full list of web service's configurations, supported by TestArchitect, see "Supported web service's configurations" below.
 -   You may either declare various web service's configurations in a single configure web service settings action, or in multiple configure web service settings actions. Note that, when identical configurations are declared simultaneously, the latter configuration overrides the former one.
 
@@ -71,24 +71,11 @@ This action may be used within the following project items:test modules and user
 
         |Key|Description|
         |---|-----------|
-        |hostname|        -   \(Required\) The proxy host to use.
-|
-        |port|        -   \(Required\) The proxy port to use.
-|
-        |scheme|        -   \(Optional\) The scheme of the proxy.
-         -   When this key's value is empty, by default, the value of HTTP is used.
-        -   Supported scheme\(s\):
-            -   HTTP
-
-**Restriction:** [REST Assured](https://github.com/rest-assured/rest-assured), a Java framework for simplifying testing of REST based services built on top of HTTP Builder, and currently employed in TestArchitect, does not fully support HTTPS connection over proxy servers.
-
-|
-        |username|        -   \(Optional\) The username sent for proxy authentications.
-        -   When this argument's key is empty, this key is ignored during automation.
-|
-        |password|        -   \(Optional\) The password sent for proxy authentications.
-        -   When this argument's key is empty, this key is ignored during automation.
-|
+        |hostname|        -   \(Required\) The proxy host to use.|
+        |port|        -   \(Required\) The proxy port to use.|
+        |scheme|        -   \(Optional\) The scheme of the proxy.         -   When this key's value is empty, by default, the value of HTTP is used.        -   Supported scheme\(s\):            -   HTTP**Restriction:** [REST Assured](https://github.com/rest-assured/rest-assured), a Java framework for simplifying testing of REST based services built on top of HTTP Builder, and currently employed in TestArchitect, does not fully support HTTPS connection over proxy servers.|
+        |username|        -   \(Optional\) The username sent for proxy authentications.        -   When this argument's key is empty, this key is ignored during automation.|
+        |password|        -   \(Optional\) The password sent for proxy authentications.        -   When this argument's key is empty, this key is ignored during automation.|
 
     -   A sample JSON string might look like the following.
 
@@ -130,40 +117,11 @@ This action may be used within the following project items:test modules and user
 
             |Option|Description|
             |------|-----------|
-            |pathToKeyStore|            -   \(Required\) The path to the keystore to use when locating client certificates
-
-**Remember:** Please ensure that you have the keystore file beforehand. Otherwise, please follow this [link](http://docs.oracle.com/javase/1.5.0/docs/tooldocs/solaris/keytool.html), and read "Keystore Creation".
-
-            -   Supported keystore types \([learn more](http://docs.oracle.com/javase/6/docs/technotes/guides/security/StandardNames.html#KeyStore)\):
-                -   **jceks**
-
-The proprietary keystore implementation provided by the SunJCE provider.
-
-                -   **jks**
-
-The proprietary keystore implementation provided by the SUN provider.
-
-                -   **pkcs12**
-
-The transfer syntax for personal identity information as defined in PKCS12.
-
-             -   To separate directories in JSON, use four consecutive backslashes \(\\\), or alternatively, use a single forward slash \(/\).
-|
-            |keyStorePassword|            -   \(Optional\) The password for the keystore.
-|
-            |pathToTrustStore|            -   \(Optional\) The path to trust store file.
-            -   When this argument's key is empty, REST Assured automatically searches for a certificate file named cecarts, which resides in the security properties directory, java.home/lib/security, where java.home is the runtime environment's directory. \([Learn more](http://docs.oracle.com/javase/1.5.0/docs/tooldocs/solaris/keytool.html#cacerts).\)
-             -   To separate directories in JSON, use four consecutive backslashes \(\\\), or alternatively, use a single forward slash \(/\).
-|
-            |trustStorePassword|            -   \(Optional\) The password for the trust store.
-            -   When this argument's key is empty, this key is ignored during automation.
-|
-            |port|            -   \(Optional\) The port for SSL connections.
-
-**Note:** Most of the time you do not need to specify a port, since REST Assured will apply the configuration to the HTTPS port, defined in the URI.
-
-            -   When this argument's key is empty, this key is ignored during automation.
-|
+            |pathToKeyStore|            -   \(Required\) The path to the keystore to use when locating client certificates**Remember:** Please ensure that you have the keystore file beforehand. Otherwise, please follow this [link](http://docs.oracle.com/javase/1.5.0/docs/tooldocs/solaris/keytool.html), and read "Keystore Creation".            -   Supported keystore types \([learn more](http://docs.oracle.com/javase/6/docs/technotes/guides/security/StandardNames.html#KeyStore)\):                -   **jceks**The proprietary keystore implementation provided by the SunJCE provider.                -   **jks**The proprietary keystore implementation provided by the SUN provider.                -   **pkcs12**The transfer syntax for personal identity information as defined in PKCS12.             -   To separate directories in JSON, use four consecutive backslashes \(\\\), or alternatively, use a single forward slash \(/\).|
+            |keyStorePassword|            -   \(Optional\) The password for the keystore.|
+            |pathToTrustStore|            -   \(Optional\) The path to trust store file.            -   When this argument's key is empty, REST Assured automatically searches for a certificate file named cecarts, which resides in the security properties directory, java.home/lib/security, where java.home is the runtime environment's directory. \([Learn more](http://docs.oracle.com/javase/1.5.0/docs/tooldocs/solaris/keytool.html#cacerts).\)             -   To separate directories in JSON, use four consecutive backslashes \(\\\), or alternatively, use a single forward slash \(/\).|
+            |trustStorePassword|            -   \(Optional\) The password for the trust store.            -   When this argument's key is empty, this key is ignored during automation.|
+            |port|            -   \(Optional\) The port for SSL connections.**Note:** Most of the time you do not need to specify a port, since REST Assured will apply the configuration to the HTTPS port, defined in the URI.            -   When this argument's key is empty, this key is ignored during automation.|
 
         -   A sample JSON string might look like the following.
 
@@ -193,26 +151,11 @@ The transfer syntax for personal identity information as defined in PKCS12.
 
         |Option|Description|
         |------|-----------|
-        |contentTypeToDefaultCharset|        -   \(Optional\) Specify the default charset to use for the specific content-type.
-        -   A list of pairs of the default charset to use for each specific content-type in the form of `"<content-type>":"<charset>"`. Pairs in the list are separated by a comma.
-        -   For a list of available content types, see [here.](http://static.javadoc.io/io.rest-assured/rest-assured/3.0.3/io/restassured/http/ContentType.html)
-        -   For a list of available charsets, see [here](http://docs.oracle.com/javase/1.5.0/docs/api/java/nio/charset/Charset.html?is-external=true)
-        -   When this argument's key is empty, this key is ignored during automation.
-|
-        |defaultQueryParameterCharset|        -   \(Optional\) Specify the default charset for [query parameters](http://static.javadoc.io/io.rest-assured/rest-assured/3.0.1/io/restassured/specification/RequestSpecification.html#queryParam-java.lang.String-java.util.Collection-).
-        -   When this argument's key is empty, by default, the value of UTF-8 is used.
-        -   If you don't want the query parameters to be encoded in the URL, it's highly recommended that you set urlEncodingEnabled to false.
-|
-        |defaultContentCharset|        -   \(Optional\) Specify the default charset for the body/content in the request specification.
-        -   When this argument's key is empty, by default, the value of ISO-8859-1 is used.
-        -   When contentTypeToDefaultCharset and defaultContentCharset are defined simultaneously, contentTypeToDefaultCharset has precedence.
-|
-        |urlEncodingEnabled|        -   \(Optional\) \(Boolean value\) Specify if URL is encoded automatically. Usually this is a recommended but in some cases, e.g. the query parameters are already be encoded before you provide them to REST Assured then it's useful to disable URL encoding. Specifically, the query is already URL encoded so you need to disable REST Assured's URL encoding to prevent double encoding.
-        -   When this argument's key is empty, by default, the value of true is used.
-|
-        |addDefaultContentCharsetToContentType|        -   \(Optional\) \(Boolean value\) Tells whether REST Assured should automatically append the content charset to the content-type header if content charset is not defined explicitly.
-        -   When this argument's key is empty, by default, the value of true is used.
-|
+        |contentTypeToDefaultCharset|        -   \(Optional\) Specify the default charset to use for the specific content-type.        -   A list of pairs of the default charset to use for each specific content-type in the form of `"<content-type>":"<charset>"`. Pairs in the list are separated by a comma.        -   For a list of available content types, see [here.](http://static.javadoc.io/io.rest-assured/rest-assured/3.0.3/io/restassured/http/ContentType.html)        -   For a list of available charsets, see [here](http://docs.oracle.com/javase/1.5.0/docs/api/java/nio/charset/Charset.html?is-external=true)        -   When this argument's key is empty, this key is ignored during automation.|
+        |defaultQueryParameterCharset|        -   \(Optional\) Specify the default charset for [query parameters](http://static.javadoc.io/io.rest-assured/rest-assured/3.0.1/io/restassured/specification/RequestSpecification.html#queryParam-java.lang.String-java.util.Collection-).        -   When this argument's key is empty, by default, the value of UTF-8 is used.        -   If you don't want the query parameters to be encoded in the URL, it's highly recommended that you set urlEncodingEnabled to false.|
+        |defaultContentCharset|        -   \(Optional\) Specify the default charset for the body/content in the request specification.        -   When this argument's key is empty, by default, the value of ISO-8859-1 is used.        -   When contentTypeToDefaultCharset and defaultContentCharset are defined simultaneously, contentTypeToDefaultCharset has precedence.|
+        |urlEncodingEnabled|        -   \(Optional\) \(Boolean value\) Specify if URL is encoded automatically. Usually this is a recommended but in some cases, e.g. the query parameters are already be encoded before you provide them to REST Assured then it's useful to disable URL encoding. Specifically, the query is already URL encoded so you need to disable REST Assured's URL encoding to prevent double encoding.        -   When this argument's key is empty, by default, the value of true is used.|
+        |addDefaultContentCharsetToContentType|        -   \(Optional\) \(Boolean value\) Tells whether REST Assured should automatically append the content charset to the content-type header if content charset is not defined explicitly.        -   When this argument's key is empty, by default, the value of true is used.|
 
     -   A sample JSON string might look like the following.
 
@@ -227,19 +170,8 @@ The transfer syntax for personal identity information as defined in PKCS12.
 
         |Option|Description|
         |------|-----------|
-        |contentDecoders|        -   \(Optional\) Specify the content decoders that will be presented to the server when making a request \(using the Accept-Encoding header\). If the server supports any of these encodings then REST Assured will automatically perform decoding of the response accordingly.
-        -   Supported modes:
-            1.  default: \(Default\) In REST Assured, gzip and deflate are used.
-                -   [DecoderConfig.ContentDecoder.GZIP](http://static.javadoc.io/io.rest-assured/rest-assured/3.0.3/io/restassured/config/DecoderConfig.ContentDecoder.html#GZIP)
-                -   [DecoderConfig.ContentDecoder.DEFLATE](http://static.javadoc.io/io.rest-assured/rest-assured/3.0.3/io/restassured/config/DecoderConfig.ContentDecoder.html#DEFLATE)
-            2.  identity: No compression \([learn more](https://developer.mozilla.org/vi/docs/Web/HTTP/Headers/Accept-Encoding)\)
-|
-        |contentTypeToDefaultCharset|        -   \(Optional\) Specify the default charset to use for the specific content-type.
-        -   A list of pairs of the default charset to use for each specific content-type in the form of `"<content-type>":"<charset>"`. Pairs in the list are separated by a comma.
-        -   For a list of available content types, see [here.](http://static.javadoc.io/io.rest-assured/rest-assured/3.0.3/io/restassured/http/ContentType.html)
-        -   For a list of available charsets, see [here](http://docs.oracle.com/javase/1.5.0/docs/api/java/nio/charset/Charset.html?is-external=true)
-        -   When this argument's key is empty, this key is ignored during automation.
-|
+        |contentDecoders|        -   \(Optional\) Specify the content decoders that will be presented to the server when making a request \(using the Accept-Encoding header\). If the server supports any of these encodings then REST Assured will automatically perform decoding of the response accordingly.        -   Supported modes:            1.  default: \(Default\) In REST Assured, gzip and deflate are used.                -   [DecoderConfig.ContentDecoder.GZIP](http://static.javadoc.io/io.rest-assured/rest-assured/3.0.3/io/restassured/config/DecoderConfig.ContentDecoder.html#GZIP)                -   [DecoderConfig.ContentDecoder.DEFLATE](http://static.javadoc.io/io.rest-assured/rest-assured/3.0.3/io/restassured/config/DecoderConfig.ContentDecoder.html#DEFLATE)            2.  identity: No compression \([learn more](https://developer.mozilla.org/vi/docs/Web/HTTP/Headers/Accept-Encoding)\)|
+        |contentTypeToDefaultCharset|        -   \(Optional\) Specify the default charset to use for the specific content-type.        -   A list of pairs of the default charset to use for each specific content-type in the form of `"<content-type>":"<charset>"`. Pairs in the list are separated by a comma.        -   For a list of available content types, see [here.](http://static.javadoc.io/io.rest-assured/rest-assured/3.0.3/io/restassured/http/ContentType.html)        -   For a list of available charsets, see [here](http://docs.oracle.com/javase/1.5.0/docs/api/java/nio/charset/Charset.html?is-external=true)        -   When this argument's key is empty, this key is ignored during automation.|
 
     -   A sample JSON string might look like the following.
 
@@ -254,18 +186,10 @@ The transfer syntax for personal identity information as defined in PKCS12.
 
         |Option|Description|
         |------|-----------|
-        |followRedirects|        -   \(Optional\) \(Boolean value\) Defines whether redirects should be handled automatically.
-        -   When this argument's key is empty, by default, the value of true is used.
-|
-        |allowCircularRedirects|        -   \(Optional\) \(Boolean value\) Defines whether circular redirects \(redirects to the same location\) should be allowed
-        -   When this argument's key is empty, by default, the value of false is used.
-|
-        |rejectRelativeRedirect|        -   \(Optional\) \(Boolean value\) Defines whether relative redirects should be rejected. HTTP specification requires the location value be an absolute URI.
-        -   When this argument's key is empty, by default, the value of false is used.
-|
-        |maxRedirects|        -   \(Optional\) \(Boolean value\) Defines the maximum number of redirects to be followed. The limit on number of redirects is intended to prevent infinite loops caused by broken server side scripts.
-        -   When this argument's key is empty, by default, the value of 100 is used.
-|
+        |followRedirects|        -   \(Optional\) \(Boolean value\) Defines whether redirects should be handled automatically.        -   When this argument's key is empty, by default, the value of true is used.|
+        |allowCircularRedirects|        -   \(Optional\) \(Boolean value\) Defines whether circular redirects \(redirects to the same location\) should be allowed        -   When this argument's key is empty, by default, the value of false is used.|
+        |rejectRelativeRedirect|        -   \(Optional\) \(Boolean value\) Defines whether relative redirects should be rejected. HTTP specification requires the location value be an absolute URI.        -   When this argument's key is empty, by default, the value of false is used.|
+        |maxRedirects|        -   \(Optional\) \(Boolean value\) Defines the maximum number of redirects to be followed. The limit on number of redirects is intended to prevent infinite loops caused by broken server side scripts.        -   When this argument's key is empty, by default, the value of 100 is used.|
 
     -   A sample JSON string might look like the following.
 
@@ -274,7 +198,7 @@ The transfer syntax for personal identity information as defined in PKCS12.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](bis_remove_double_quotes_from_cells.html).
+The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html).
 
 ## Example: Proxy configurations
 

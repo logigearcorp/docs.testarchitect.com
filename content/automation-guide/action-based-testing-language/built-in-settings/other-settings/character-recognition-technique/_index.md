@@ -37,11 +37,11 @@ This built-in setting is supported on the following systems/platforms:
 
 ## Notes
 
--   The OCR value for this built-in setting applies to nearly every [OCR built-in action](bia_OCR.html). The sole exception are the following actions, since they always employ a GDI technique.
-    -   [get text content](bia_get_text_content.html)
-    -   [get text color](bia_get_text_color.html)
-    -   [get text background color](bia_get_text_background_color.html)
-    -   [get text count](bia_get_text_count.html)
+-   The OCR value for this built-in setting applies to nearly every [OCR built-in action](OCR.html). The sole exception are the following actions, since they always employ a GDI technique.
+    -   [get text content](get_text_content.html)
+    -   [get text color](get_text_color.html)
+    -   [get text background color](get_text_background_color.html)
+    -   [get text count](get_text_count.html)
 
 ## Example
 

@@ -31,12 +31,12 @@ Use of this action is supported on the following systems/platforms: Windows, Lin
 
 ## Notes
 
--   Use the [filter](bia_filter.html) action to create a named filter.
+-   Use the [filter](filter.html) action to create a named filter.
 -   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](bis_remove_double_quotes_from_cells.html)none.
+The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html)none.
 
 ## Example
 
