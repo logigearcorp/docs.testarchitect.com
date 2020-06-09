@@ -4,11 +4,8 @@ linktitle: "row"
 weight: 8
 aliases: 
     - /TA_Automation/Topics/bia_row.html
+keywords: "row, data set row, data set record"
 ---
-keyword: [row, data set row, data set record]
----
-
-# row
 
 ## Description
 

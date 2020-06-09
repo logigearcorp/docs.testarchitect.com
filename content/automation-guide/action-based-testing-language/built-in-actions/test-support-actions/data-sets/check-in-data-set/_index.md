@@ -4,11 +4,8 @@ linktitle: "check in data set"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/bia_check_in_data_set.html
+keywords: "check in data set, dataset checkin"
 ---
-keyword: [check in data set, dataset checkin]
----
-
-# check in data set
 
 ## Description
 
@@ -56,7 +53,7 @@ Use of this action is supported on the following systems/platforms: Windows, Lin
     -   the data set is currently checked out to another user;
     -   the data set is already in a checked in state; or
     -   the current user lacks permission to modify the data set.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 **Restriction:** This action does not support [multiple device execution](/TA_Help/Topics/Test_exec_multiple_device_execution.html).
 

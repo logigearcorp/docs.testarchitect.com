@@ -4,11 +4,8 @@ linktitle: "GetTextCoordinates"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/abt_AbtGetTextCoordinates_AbtImageProcessor.html
+keywords: "gettextcoordinates, abtimageprocessor gettextcoordinates, coordinates and dimensions of text fragment in bitmap, location and size of text fragment in bitmap"
 ---
-keyword: [gettextcoordinates, abtimageprocessor gettextcoordinates, coordinates and dimensions of text fragment in bitmap, location and size of text fragment in bitmap]
----
-
-# GetTextCoordinates
 
 ## Syntax
 

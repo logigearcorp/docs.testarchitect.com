@@ -41,9 +41,9 @@ During test execution, TestArchitect captures screenshots in accordance with its
 **Note:**
 
 -   If you choose to generate a batch file \(see [Executing tests from the command line interface](Test_exec_cmd.html)\) for test automation, two parameters provide the specifications for screen recording: -capturecond specifies the screenshot-logging events, while -capturelimit indicates the number of screenshot sets to be logged per event:
--   **Android:** This feature, when applied to a connected Android device, requires that the [TestArchitect Agent service](/images//Images/Android/Topics/Android_TA_agent.html) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
+-   **Android:** This feature, when applied to a connected Android device, requires that the [TestArchitect Agent service](/reuse/../Android/Topics/Android_TA_agent.html) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
     1.  Connect the Android device to the test controller through a USB cable \(not Wi-Fi\), if not already so connected.
-    2.  Open the [Android Instrumentation Tool](/images//Images/Android/Topics/Android_Instrumentation_tool.html) dialog box.
+    2.  Open the [Android Instrumentation Tool](/reuse/../Android/Topics/Android_Instrumentation_tool.html) dialog box.
     3.  Click the **Refresh devices list** ![](/images//Images/Android/Images/Refresh_device_list_btn.png) button.
 
 **Parent topic:**[Screenshot recording](/TA_Help/Topics/ug_Screenshot_recording.html)

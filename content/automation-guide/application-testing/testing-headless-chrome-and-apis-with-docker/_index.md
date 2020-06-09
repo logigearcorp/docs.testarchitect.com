@@ -4,11 +4,8 @@ linktitle: "Testing headless Chrome and APIs with Docker"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/aut_docker.html
+keywords: "Docker and TestArchitect, Dockerize with TestArchitect"
 ---
-keyword: [Docker and TestArchitect, Dockerize with TestArchitect]
----
-
-# Testing headless Chrome and APIs with Docker
 
 Docker is a platform designed to assist developers, testers, sysadmins, etc. with development, testing, deployment and running of applications through containerization
 

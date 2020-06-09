@@ -4,11 +4,8 @@ linktitle: "multi touch slide"
 weight: 18
 aliases: 
     - /TA_Automation/Topics/bia_multi_touch_slide.html
+keywords: "multi touch slide, Swipe between pages, Open Notification Center, Three finger drag, Swipe between full-screen apps"
 ---
-keyword: [multi touch slide, Swipe between pages, Open Notification Center, Three finger drag, Swipe between full-screen apps]
----
-
-# multi touch slide
 
 ## Description
 
@@ -43,11 +40,11 @@ Use of this action is supported on the following systems/platforms: iOS.
 
 ## Notes
 
--   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/images//Images/TA_Automation/Topics/bia_get_screen_resolution.html#li.ios.get_screen_resolution).\)
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/reuse/../TA_Automation/Topics/bia_get_screen_resolution.html#li.ios.get_screen_resolution).\)
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 -   The format for specifying positional values for the destination point and touchN arguments is `x, y`. For example: to simulate initial touch locations at \(20,35\) and \(45, 80\), set touch1 to 20, 35 and touch2 to 45, 80.
 -   Note that the touch1 and destination point arguments specify the endpoints of the trajectory of the primary finger. Other fingers \(if specified by the optional touch2, touch3, etc., arguments\) move in a parallel and equidistant trajectory with the primary.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

@@ -4,11 +4,8 @@ linktitle: "identify windows"
 weight: 10
 aliases: 
     - /TA_Automation/Topics/bia_identify_windows.html
+keywords: Identify windows
 ---
-keyword: Identify windows
----
-
-# identify windows
 
 ## Description
 
@@ -37,7 +34,7 @@ This action may be used within the following project items:test modules and user
 -   variable arguments:
     -   Create as many variable arguments as are required to handle the expected number of instances of the window specified in definition. Note that the headers should be removed from any unused variable arguments.
     -   If the variables in argumentsvariable1, variable2, etc.have not been declared, the action creates them as globals.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

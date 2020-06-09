@@ -4,11 +4,8 @@ linktitle: "Clear"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/abt_Clear.html
+keywords: "clear, abtdataset clear, clear dataset, empty dataset, remove all records from dataset"
 ---
-keyword: [clear, abtdataset clear, clear dataset, empty dataset, remove all records from dataset]
----
-
-# Clear
 
 ## Syntax
 

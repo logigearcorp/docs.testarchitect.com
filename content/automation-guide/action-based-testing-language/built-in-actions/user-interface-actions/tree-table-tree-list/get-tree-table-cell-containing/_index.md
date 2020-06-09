@@ -4,11 +4,8 @@ linktitle: "get tree table cell containing"
 weight: 6
 aliases: 
     - /TA_Automation/Topics/bia_get_tree_table_cell_containing.html
+keywords: "get tree table cell containing, get position of cell containing specified value, retrieve position of cell containing specified value, get position of cell with specified value, retrieve position of cell with specified value"
 ---
-keyword: [get tree table cell containing, get position of cell containing specified value, retrieve position of cell containing specified value, get position of cell with specified value, retrieve position of cell with specified value]
----
-
-# get tree table cell containing
 
 ## Description
 
@@ -60,7 +57,7 @@ This action may be used within the following project items:test modules and user
 -   If either the variable or column argument is left empty, a variable named var or col, respectively, is created to hold the return value.
 -   If either the node path or recursive argument is left empty, TestArchitect will only search the tables in level 1 of the root node.
 -   With **recursive** mode **on**TestArchitect will search in all the sub nodes. This will decrease test performance, especially with large tree tables.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

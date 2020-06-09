@@ -4,11 +4,8 @@ linktitle: "scroll to view"
 weight: 22
 aliases: 
     - /TA_Automation/Topics/bia_iOS_scroll_to_view.html
+keywords: "scroll into view, scroll view, scroll"
 ---
-keyword: [scroll into view, scroll view, scroll]
----
-
-# scroll to view
 
 ## Description
 
@@ -35,7 +32,7 @@ Use of this action is supported on the following systems/platforms: Mobile opera
 
 ## Notes
 
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

@@ -4,11 +4,8 @@ linktitle: "if"
 weight: 10
 aliases: 
     - /TA_Automation/Topics/bia_if.html
+keywords: "if, if statement, if condition, if control flow, if action, action if"
 ---
-keyword: [if, if statement, if condition, if control flow, if action, action if]
----
-
-# if
 
 ## Description
 

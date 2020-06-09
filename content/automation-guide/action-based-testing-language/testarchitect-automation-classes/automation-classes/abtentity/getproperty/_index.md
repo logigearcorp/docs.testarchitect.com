@@ -4,11 +4,8 @@ linktitle: "GetProperty"
 weight: 16
 aliases: 
     - /TA_Automation/Topics/abt_GetProperty.html
+keywords: "getproperty, abtentity getproperty, value of property of window, get value of given window property"
 ---
-keyword: [getproperty, abtentity getproperty, value of property of window, get value of given window property]
----
-
-# GetProperty
 
 ## Syntax
 

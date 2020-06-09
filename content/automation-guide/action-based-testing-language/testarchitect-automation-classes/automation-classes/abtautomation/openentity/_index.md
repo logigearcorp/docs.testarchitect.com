@@ -4,11 +4,8 @@ linktitle: "OpenEntity"
 weight: 6
 aliases: 
     - /TA_Automation/Topics/abt_OpenEntity.html
+keywords: abtentity
 ---
-keyword: abtentity
----
-
-# OpenEntity
 
 ## Syntax
 

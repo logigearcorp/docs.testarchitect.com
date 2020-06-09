@@ -4,11 +4,8 @@ linktitle: "check context menu item state"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/bia_check_context_menu_item_state.html
+keywords: "check content menu item state, check states of given item on context menu, verify states of given item on context menu"
 ---
-keyword: [check content menu item state, check states of given item on context menu, verify states of given item on context menu]
----
-
-# check context menu item state
 
 ## Description
 
@@ -69,7 +66,7 @@ This action may be used within the following project items:test modules and user
     -   Enclose a numerical text string in quotation marks to differentiate it from a numerical index value. For example, if a text value of an item in a control has a value of 12, you should reference that item by passing 12 surrounded by quotation marks \(that is, "12"\) instead of the numerical 12. Passing the numerical 12 is treated as a reference to an item with an index of **12**, rather than an item holding a text string value of 12.
 -   In order for TestArchitect to access the items of a context menu, it must activate the menu by simulating a mouse click on the host control. In some cases, the default click location at the center of the control will not bring up the menu. Hence it is sometimes necessary to supply the click location via the x and y arguments.
 -   This action only checks the state\(s\) that you specify, and ignores those not specified. Hence, if the state of the tested menu item is enabled and visible, a check will pass for any of the expected values of enabled, visible, and enabled, visible. It fails if any one of the specified expected states is not true.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

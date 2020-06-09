@@ -4,11 +4,8 @@ linktitle: "submit form"
 weight: 22
 aliases: 
     - /TA_Automation/Topics/bia_submit_form.html
+keywords: "submit form, auto submit form, automate form submission"
 ---
-keyword: [submit form, auto submit form, automate form submission]
----
-
-# submit form
 
 ## Description
 

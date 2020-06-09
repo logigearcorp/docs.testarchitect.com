@@ -4,11 +4,8 @@ linktitle: "test case timeout"
 weight: 13
 aliases: 
     - /TA_Automation/Topics/bis_test_case_timeout.html
+keywords: "test case timeout, specify timeout for individual test cases, set timeout for individual test cases, time limit for running test case, maximum time limit for test case execution"
 ---
-keyword: [test case timeout, specify timeout for individual test cases, set timeout for individual test cases, time limit for running test case, maximum time limit for test case execution]
----
-
-# test case timeout
 
 ## Description
 

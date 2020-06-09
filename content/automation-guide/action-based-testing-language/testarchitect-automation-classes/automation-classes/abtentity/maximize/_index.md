@@ -4,11 +4,8 @@ linktitle: "Maximize"
 weight: 22
 aliases: 
     - /TA_Automation/Topics/abt_Maximize.html
+keywords: "maximize, abtentity maximize, maximize window"
 ---
-keyword: [maximize, abtentity maximize, maximize window]
----
-
-# Maximize
 
 ## Syntax
 

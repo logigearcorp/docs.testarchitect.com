@@ -4,11 +4,8 @@ linktitle: "GetHeaderName"
 weight: 6
 aliases: 
     - /TA_Automation/Topics/abt_GetHeaderName_3.html
+keywords: "getheadername, abtlist getheadername, column header based on index, column name by index, get column name in list"
 ---
-keyword: [getheadername, abtlist getheadername, column header based on index, column name by index, get column name in list]
----
-
-# GetHeaderName
 
 ## Syntax
 

@@ -4,11 +4,8 @@ linktitle: "ExecuteJS"
 weight: 8
 aliases: 
     - /TA_Automation/Topics/abt_ExecuteJS.html
+keywords: "executejs, abtentity executejs, value returned from javascript execution, result from executed snippets of javascript"
 ---
-keyword: [executejs, abtentity executejs, value returned from javascript execution, result from executed snippets of javascript]
----
-
-# ExecuteJS
 
 ## Syntax
 

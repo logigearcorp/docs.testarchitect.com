@@ -4,11 +4,8 @@ linktitle: "if window not exists"
 weight: 14
 aliases: 
     - /TA_Automation/Topics/bia_if_window_not_exists.html
+keywords: "if window does not exist, check if window does not exist, check nonexistence of window, verify nonexistance of window"
 ---
-keyword: [if window does not exist, check if window does not exist, check nonexistence of window, verify nonexistance of window]
----
-
-# if window not exists
 
 ## Description
 

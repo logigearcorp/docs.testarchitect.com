@@ -4,11 +4,8 @@ linktitle: "tap stepper button"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/bia_tap_stepper_button.html
+keywords: "tap stepper button, increase value of stepper button, decrease value stepper button, increase or decrease value of stepper button"
 ---
-keyword: [tap stepper button, increase value of stepper button, decrease value stepper button, increase or decrease value of stepper button]
----
-
-# tap stepper button
 
 ## Description
 

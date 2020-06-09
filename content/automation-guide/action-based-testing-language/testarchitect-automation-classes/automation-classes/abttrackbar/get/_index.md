@@ -4,11 +4,8 @@ linktitle: "Get"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/abt_Get_16.html
+keywords: "abtrackbar get, current value of trackbar, obtain trackbar value, current value of slider control"
 ---
-keyword: [abtrackbar get, current value of trackbar, obtain trackbar value, current value of slider control]
----
-
-# Get
 
 ## Syntax
 

@@ -4,11 +4,8 @@ linktitle: "MoveWindow"
 weight: 25
 aliases: 
     - /TA_Automation/Topics/abt_MoveWindow.html
+keywords: "movewindow, abtentity movewindow, move window, move window to new position, move window to new position"
 ---
-keyword: [movewindow, abtentity movewindow, move window, move window to new position, move window to new position]
----
-
-# MoveWindow
 
 ## Syntax
 

@@ -4,11 +4,8 @@ linktitle: "ScrollIntoView"
 weight: 13
 aliases: 
     - /TA_Automation/Topics/abt_ScrollIntoView_17.html
+keywords: "scrollintoview, abt scrollintoview, scroll tree node into view, scroll tree node into visible area"
 ---
-keyword: [scrollintoview, abt scrollintoview, scroll tree node into view, scroll tree node into visible area]
----
-
-# ScrollIntoView
 
 ## Syntax
 

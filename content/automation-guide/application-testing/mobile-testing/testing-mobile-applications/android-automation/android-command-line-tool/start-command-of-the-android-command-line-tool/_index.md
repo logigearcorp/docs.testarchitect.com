@@ -29,7 +29,7 @@ The meaning of the parameters is as follows:
 
     To obtain the package name of an Android application:
 
-    1.  Open the [Android Instrumentation Tool](/images//Images/Android/Topics/Android_Instrumentation_tool.html) dialog box.
+    1.  Open the [Android Instrumentation Tool](/reuse/../Android/Topics/Android_Instrumentation_tool.html) dialog box.
     2.  In the Application Under Test panel, right-click the appropriate application, and then select **Copy package name**.
 
         ![](/images//Images/Android/Images/Android_copy_package_name.png)
@@ -41,7 +41,7 @@ The meaning of the parameters is as follows:
 
     To obtain the unique ID of an Android device:
 
-    1.  Open the [Android Instrumentation Tool](/images//Images/Android/Topics/Android_Instrumentation_tool.html) dialog box.
+    1.  Open the [Android Instrumentation Tool](/reuse/../Android/Topics/Android_Instrumentation_tool.html) dialog box.
     2.  Select the device whose unique ID you wish to obtain.
     3.  Click ![](/images//Images/Android/Images/android_copy_ID.png) on the Android Instrumentation Tool's toolbar to copy the unique ID to the clipboard.
     4.  Paste the copied content into the unique ID parameter in the Start command.

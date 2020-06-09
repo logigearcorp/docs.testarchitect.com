@@ -4,11 +4,8 @@ linktitle: "GetSelectedText"
 weight: 6
 aliases: 
     - /TA_Automation/Topics/abt_GetSelectedText_15.html
+keywords: "getselectedtext, abttoolbar getselectedtext, text of selected item on toolbar, retrieve content of selected toolbar item"
 ---
-keyword: [getselectedtext, abttoolbar getselectedtext, text of selected item on toolbar, retrieve content of selected toolbar item]
----
-
-# GetSelectedText
 
 ## Syntax
 

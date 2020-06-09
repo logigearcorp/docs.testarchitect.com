@@ -4,11 +4,8 @@ linktitle: "min edge length"
 weight: 15
 aliases: 
     - /TA_Automation/Topics/bis_min_edge_length.html
+keywords: "min edge length, specify minimum edge length to be ignored as text in OCR, set minimum edge length to be ignored as text in OCR"
 ---
-keyword: [min edge length, specify minimum edge length to be ignored as text in OCR, set minimum edge length to be ignored as text in OCR]
----
-
-# min edge length
 
 ## Description
 

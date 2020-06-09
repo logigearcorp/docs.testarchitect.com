@@ -4,11 +4,8 @@ linktitle: "GetChildNodeCount"
 weight: 7
 aliases: 
     - /TA_Automation/Topics/abt_GetChildNodeCount_17.html
+keywords: "getchildnodecount, abttree getchildnodecount, number of children of node, how many children of specified node, count children of node"
 ---
-keyword: [getchildnodecount, abttree getchildnodecount, number of children of node, how many children of specified node, count children of node]
----
-
-# GetChildNodeCount
 
 ## Syntax
 

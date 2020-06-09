@@ -4,11 +4,8 @@ linktitle: "Type"
 weight: 28
 aliases: 
     - /TA_Automation/Topics/abt_Type.html
+keywords: "type, abtentity type, type into window, type text in focused control in window"
 ---
-keyword: [type, abtentity type, type into window, type text in focused control in window]
----
-
-# Type
 
 ## Syntax
 

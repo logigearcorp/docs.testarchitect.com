@@ -4,11 +4,8 @@ linktitle: "GetItemCount"
 weight: 9
 aliases: 
     - /TA_Automation/Topics/abt_GetItemCount_3.html
+keywords: "getitemcount, abtlist getitemcount, get number of items in list, obtain count of items in list, how many items in list"
 ---
-keyword: [getitemcount, abtlist getitemcount, get number of items in list, obtain count of items in list, how many items in list]
----
-
-# GetItemCount
 
 ## Syntax
 

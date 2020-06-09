@@ -4,11 +4,8 @@ linktitle: "MoveToNextPage"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/abt_MoveToNextPage_8.html
+keywords: "movetonextpage, abtscrollbar movetonextpage, move scroll bar down by number of pages, move scroll bar to right by number of pages"
 ---
-keyword: [movetonextpage, abtscrollbar movetonextpage, move scroll bar down by number of pages, move scroll bar to right by number of pages]
----
-
-# MoveToNextPage
 
 ## Syntax
 

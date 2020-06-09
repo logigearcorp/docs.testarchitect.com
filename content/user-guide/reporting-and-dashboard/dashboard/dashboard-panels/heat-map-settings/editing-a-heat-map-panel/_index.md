@@ -10,7 +10,7 @@ Modifying a heat map's appearance and/or the data used to generate it.
 
 To edit the properties of a heat map panel on the Dashboard page:
 
-1.  [Launch an instance of the Dashboard](/images//Images/TA_Help/Topics/Dashboard_starting.html) and log in to the session as a user with [permission](/images//Images/TA_Help/Topics/Dashboard_authentication_permissions.html) sufficient to edit a heat map panel.
+1.  [Launch an instance of the Dashboard](/reuse/../TA_Help/Topics/Dashboard_starting.html) and log in to the session as a user with [permission](/reuse/../TA_Help/Topics/Dashboard_authentication_permissions.html) sufficient to edit a heat map panel.
 
 2.  On the Dashboard, go to the Dashboard page containing the heat map panel you want to edit and click **Edit Panel** ![](/images//Images/Dashboard_edit_panel_icon.png).
 

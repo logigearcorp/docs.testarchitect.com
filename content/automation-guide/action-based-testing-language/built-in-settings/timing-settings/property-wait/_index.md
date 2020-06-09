@@ -4,11 +4,8 @@ linktitle: "property wait"
 weight: 12
 aliases: 
     - /TA_Automation/Topics/bis_property_wait.html
+keywords: "property wait, maximum wait time for property value of control to be available, maximum wait time for window value of window to be available"
 ---
-keyword: [property wait, maximum wait time for property value of control to be available, maximum wait time for window value of window to be available]
----
-
-# property wait
 
 ## Description
 

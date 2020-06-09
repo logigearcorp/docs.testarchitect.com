@@ -4,11 +4,8 @@ linktitle: "create data set"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/bia_create_data_set.html
+keywords: "create data set, create dataset"
 ---
-keyword: [create data set, create dataset]
----
-
-# create data set
 
 ## Description
 

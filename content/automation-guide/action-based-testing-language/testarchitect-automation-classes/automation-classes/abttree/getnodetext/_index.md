@@ -4,11 +4,8 @@ linktitle: "GetNodeText"
 weight: 10
 aliases: 
     - /TA_Automation/Topics/abt_GetNodeText_17.html
+keywords: "getnodetext, abttree getnodetext, content of tree node, text of tree node, get value of given node in tree"
 ---
-keyword: [getnodetext, abttree getnodetext, content of tree node, text of tree node, get value of given node in tree]
----
-
-# GetNodeText
 
 ## Syntax
 

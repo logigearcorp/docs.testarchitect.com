@@ -4,11 +4,8 @@ linktitle: "exit test module"
 weight: 9
 aliases: 
     - /TA_Automation/Topics/bia_exit_test_module.html
+keywords: "exit test module, terminate test module, test module termination, stop test module"
 ---
-keyword: [exit test module, terminate test module, test module termination, stop test module]
----
-
-# exit test module
 
 ## Description
 

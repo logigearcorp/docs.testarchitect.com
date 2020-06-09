@@ -4,11 +4,8 @@ linktitle: "get setting"
 weight: 6
 aliases: 
     - /TA_Automation/Topics/bia_get_setting.html
+keywords: "get setting, get current value of setting, retrieve current value of setting, get current value setting, retrieve current setting value"
 ---
-keyword: [get setting, get current value of setting, retrieve current value of setting, get current value setting, retrieve current setting value]
----
-
-# get setting
 
 ## Description
 

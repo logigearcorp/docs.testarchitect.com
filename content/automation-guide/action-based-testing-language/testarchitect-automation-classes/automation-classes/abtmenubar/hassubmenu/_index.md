@@ -4,11 +4,8 @@ linktitle: "HasSubMenu"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/abt_HasSubMenu_6.html
+keywords: "hassubmenu, abt hassubmenu, menu item contains sub menu items, menu item has sub menu items, has sub menu items"
 ---
-keyword: [hassubmenu, abt hassubmenu, menu item contains sub menu items, menu item has sub menu items, has sub menu items]
----
-
-# HasSubMenu
 
 ## Syntax
 

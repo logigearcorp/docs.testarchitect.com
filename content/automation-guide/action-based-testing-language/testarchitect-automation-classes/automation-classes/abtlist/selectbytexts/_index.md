@@ -4,11 +4,8 @@ linktitle: "SelectByTexts"
 weight: 19
 aliases: 
     - /TA_Automation/Topics/abt_Select_5.html
+keywords: "selectbytexts, abtlist selectbytexts, select multiple items in list by contents, select more than one items in list based on values"
 ---
-keyword: [selectbytexts, abtlist selectbytexts, select multiple items in list by contents, select more than one items in list based on values]
----
-
-# SelectByTexts
 
 ## Syntax
 

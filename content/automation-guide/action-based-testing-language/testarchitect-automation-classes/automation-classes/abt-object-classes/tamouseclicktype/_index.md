@@ -4,11 +4,8 @@ linktitle: "TAMouseClickType"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/abt_TAMouseClickType.html
+keywords: "TAmouseclicktype, type of mouse click, mouse-clicked event"
 ---
-keyword: [TAmouseclicktype, type of mouse click, mouse-clicked event]
----
-
-# TAMouseClickType
 
 ## Description
 

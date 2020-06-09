@@ -4,11 +4,8 @@ linktitle: "until"
 weight: 18
 aliases: 
     - /TA_Automation/Topics/bia_until.html
+keywords: "until, until loop, until statement"
 ---
-keyword: [until, until loop, until statement]
----
-
-# until
 
 ## Description
 

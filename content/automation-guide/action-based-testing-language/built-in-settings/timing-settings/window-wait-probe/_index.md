@@ -4,11 +4,8 @@ linktitle: "window wait probe"
 weight: 16
 aliases: 
     - /TA_Automation/Topics/bis_window_wait_probe.html
+keywords: "window wait probe, maximum wait time for window to become available"
 ---
-keyword: [window wait probe, maximum wait time for window to become available]
----
-
-# window wait probe
 
 ## Description
 

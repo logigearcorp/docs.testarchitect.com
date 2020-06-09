@@ -4,11 +4,8 @@ linktitle: "GetItemCount"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/abt_GetItemCount.html
+keywords: "getitemcount, abtcombobox getitemcount, count items in combox box, number of items in combox box, how many items in combo box"
 ---
-keyword: [getitemcount, abtcombobox getitemcount, count items in combox box, number of items in combox box, how many items in combo box]
----
-
-# GetItemCount
 
 ## Syntax
 

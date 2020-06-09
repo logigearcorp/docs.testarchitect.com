@@ -4,11 +4,8 @@ linktitle: "GetItemText"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/abt_GetItemText_11.html
+keywords: "getitemtext, abttab getitemtext, get content of tab item, retrieve content of tab item at specified index, content of tab item"
 ---
-keyword: [getitemtext, abttab getitemtext, get content of tab item, retrieve content of tab item at specified index, content of tab item]
----
-
-# GetItemText
 
 ## Syntax
 

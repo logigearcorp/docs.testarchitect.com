@@ -4,11 +4,8 @@ linktitle: "execute sql"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/bia_execute_sql.html
+keywords: "execute SQL operations, perform SQL operations, run SQL operations"
 ---
-keyword: [execute SQL operations, perform SQL operations, run SQL operations]
----
-
-# execute sql
 
 ## Description
 
@@ -35,7 +32,7 @@ Execute an SQL command against the database currently in use.
 -   Within the returned data sets, the column header names are derived from the column names of the corresponding result tables. \(Refer to [Data sets](Data_set.html) for more information on working with data sets and data set values.\)
 -   In general, the creation of a data sets requires that column headers be specified for each column of data. It is possible, however, for an SQL query to return a result table that lacks column names. In such a case, TestArchitect automatically assigns the column headers column 1 , column 2, etc., to the receiving data set.
 -   In order to gain access to a value from an output parameter of a stored procedure, select it in the command string. The value may then be obtained from the data set specified by the corresponding result argument.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

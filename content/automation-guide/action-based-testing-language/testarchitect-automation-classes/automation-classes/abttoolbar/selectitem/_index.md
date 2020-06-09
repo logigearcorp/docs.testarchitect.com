@@ -4,11 +4,8 @@ linktitle: "SelectItem"
 weight: 7
 aliases: 
     - /TA_Automation/Topics/abt_SelectItem_15.html
+keywords: "selectitem, abttoolbar selectitem, select item on toolbar, select toolbar item by path"
 ---
-keyword: [selectitem, abttoolbar selectitem, select item on toolbar, select toolbar item by path]
----
-
-# SelectItem
 
 ## Syntax
 

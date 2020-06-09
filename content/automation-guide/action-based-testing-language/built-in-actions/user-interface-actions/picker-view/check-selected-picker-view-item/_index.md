@@ -4,11 +4,8 @@ linktitle: "check selected picker view item"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/bia_check_selected_picker_view_item.html
+keywords: "check selected picker view item, check if value of selected item in component of picker view matches expected value, check value of selected item in component of picker view against expected value, verify whether selected item in component of picker view matches expected value"
 ---
-keyword: [check selected picker view item, check if value of selected item in component of picker view matches expected value, check value of selected item in component of picker view against expected value, verify whether selected item in component of picker view matches expected value]
----
-
-# check selected picker view item
 
 ## Description
 
@@ -40,7 +37,7 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   This built-in action applies only to the iOS operating system.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

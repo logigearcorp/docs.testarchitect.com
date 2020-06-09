@@ -4,11 +4,8 @@ linktitle: "ClickCell"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/abt_ClickCell_13.html
+keywords: "clickcell, abttable clickcell, click cell in table, mouse click table cell"
 ---
-keyword: [clickcell, abttable clickcell, click cell in table, mouse click table cell]
----
-
-# ClickCell
 
 ## Syntax
 

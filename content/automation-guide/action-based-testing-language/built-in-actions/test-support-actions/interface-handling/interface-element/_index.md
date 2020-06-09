@@ -4,11 +4,8 @@ linktitle: "interface element"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/bia_interface_element.html
+keywords: "interface element, map specified control or HTML element to logical name in TA"
 ---
-keyword: [interface element, map specified control or HTML element to logical name in TA]
----
-
-# interface element
 
 ## Description
 

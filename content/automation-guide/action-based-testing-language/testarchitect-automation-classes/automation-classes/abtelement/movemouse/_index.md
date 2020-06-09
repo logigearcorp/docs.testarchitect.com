@@ -4,11 +4,8 @@ linktitle: "MoveMouse"
 weight: 26
 aliases: 
     - /TA_Automation/Topics/abt_MoveMouse_1.html
+keywords: "movemouse, abtelement movemouse, move mouse pointer in element, move mouse pointer to new position inside control, move mouse to new point within HTML element"
 ---
-keyword: [movemouse, abtelement movemouse, move mouse pointer in element, move mouse pointer to new position inside control, move mouse to new point within HTML element]
----
-
-# MoveMouse
 
 ## Syntax
 

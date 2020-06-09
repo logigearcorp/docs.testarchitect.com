@@ -35,7 +35,7 @@ The editor is designed to facilitate the creation of action-based tests, though 
 |Ctrl+Home|Move the cell pointer to the upper left of the worksheet.|
 |Ctrl+End|Move the cell pointer to the bottom of the editor \(three rows below the last line\) to continue adding action lines.|
 |Ctrl+End|Move the cell pointer to the lower right of the worksheet.|
-|Enter|Enter or edit action lines.**Note:** The Enter key uses intelligent navigation to anticipate the next cell you intend to edit.|
+|Enter|Enter or edit action lines.**Note:** The Enter key uses intelligent navigation to anticipate the next cell you intend to edit.<br>|
 |Shift+Enter|Move the cell pointer up to the previous cell.|
 
 ## Editing cell content
@@ -54,7 +54,7 @@ When you begin typing an action keyword into column **A**, TestArchitect uses au
 
 Press Enter to complete your selection of an action.
 
-Once you have entered or selected an action, the test editor automatically populates the argument names in the row above, as shown in the image below for the [enter](/images//Images/TA_Automation/Topics/bia_enter.html) action.
+Once you have entered or selected an action, the test editor automatically populates the argument names in the row above, as shown in the image below for the [enter](/reuse/../TA_Automation/Topics/bia_enter.html) action.
 
 ## Line continuation
 
@@ -93,7 +93,7 @@ Alternatively, you can save *all* opened files in the editor two ways:
 
 **Note:**
 
-**Ambiguous entities:**TestArchitect checks for ambiguous entities \(described in [Ambiguous entities](/images//Images/TA_Administration/Topics/Repo_mapping_ambiguous_entities.html)\) before saving the files. If there are ambiguous entities that need mapping, a Select Interface dialog box appears for you to specify which ambiguous entity to map to which interface.
+**Ambiguous entities:**TestArchitect checks for ambiguous entities \(described in [Ambiguous entities](/reuse/../TA_Administration/Topics/Repo_mapping_ambiguous_entities.html)\) before saving the files. If there are ambiguous entities that need mapping, a Select Interface dialog box appears for you to specify which ambiguous entity to map to which interface.
 
 ## Commenting
 
@@ -130,17 +130,17 @@ The TestArchitect test editor does a bit of context-based formatting as you type
 
 The TestArchitect test editor provides for the automatic insertion of closing actions for paired built-in actions as follows:
 
--   [if](/images//Images/TA_Automation/Topics/bia_if.html)/[end if](/images//Images/TA_Automation/Topics/bia_end_if.html)
--   [while](/images//Images/TA_Automation/Topics/bia_while.html)/[end while](/images//Images/TA_Automation/Topics/bia_end_while.html)
--   [create data set](/images//Images/TA_Automation/Topics/bia_create_data_set.html)/[end create data set](/images//Images/TA_Automation/Topics/bia_end_create_data_set.html)
--   [if control exists](/images//Images/TA_Automation/Topics/bia_if_control_exists.html)/[end if](/images//Images/TA_Automation/Topics/bia_end_if.html)
--   [if control not exists](/images//Images/TA_Automation/Topics/bia_if_control_not_exists.html)/[end if](/images//Images/TA_Automation/Topics/bia_end_if.html)
--   [if window exists](/images//Images/TA_Automation/Topics/bia_if_window_exists.html)/[end if](/images//Images/TA_Automation/Topics/bia_end_if.html)
--   [if window not exists](/images//Images/TA_Automation/Topics/bia_if_window_not_exists.html)/[end if](/images//Images/TA_Automation/Topics/bia_end_if.html)
--   [repeat](/images//Images/TA_Automation/Topics/bia_repeat.html)/[until](/images//Images/TA_Automation/Topics/bia_until.html)
--   [use data set](/images//Images/TA_Automation/Topics/bia_use_data_set.html)/[repeat for data set](/images//Images/TA_Automation/Topics/bia_repeat_for_data_set.html)
+-   [if](/reuse/../TA_Automation/Topics/bia_if.html)/[end if](/reuse/../TA_Automation/Topics/bia_end_if.html)
+-   [while](/reuse/../TA_Automation/Topics/bia_while.html)/[end while](/reuse/../TA_Automation/Topics/bia_end_while.html)
+-   [create data set](/reuse/../TA_Automation/Topics/bia_create_data_set.html)/[end create data set](/reuse/../TA_Automation/Topics/bia_end_create_data_set.html)
+-   [if control exists](/reuse/../TA_Automation/Topics/bia_if_control_exists.html)/[end if](/reuse/../TA_Automation/Topics/bia_end_if.html)
+-   [if control not exists](/reuse/../TA_Automation/Topics/bia_if_control_not_exists.html)/[end if](/reuse/../TA_Automation/Topics/bia_end_if.html)
+-   [if window exists](/reuse/../TA_Automation/Topics/bia_if_window_exists.html)/[end if](/reuse/../TA_Automation/Topics/bia_end_if.html)
+-   [if window not exists](/reuse/../TA_Automation/Topics/bia_if_window_not_exists.html)/[end if](/reuse/../TA_Automation/Topics/bia_end_if.html)
+-   [repeat](/reuse/../TA_Automation/Topics/bia_repeat.html)/[until](/reuse/../TA_Automation/Topics/bia_until.html)
+-   [use data set](/reuse/../TA_Automation/Topics/bia_use_data_set.html)/[repeat for data set](/reuse/../TA_Automation/Topics/bia_repeat_for_data_set.html)
 
-For example, when you type [if](/images//Images/TA_Automation/Topics/bia_if.html) into a test, and then hit Tab or Enter, the [end if](/images//Images/TA_Automation/Topics/bia_end_if.html) action is automatically inserted several lines below the [if](/images//Images/TA_Automation/Topics/bia_if.html) action.
+For example, when you type [if](/reuse/../TA_Automation/Topics/bia_if.html) into a test, and then hit Tab or Enter, the [end if](/reuse/../TA_Automation/Topics/bia_end_if.html) action is automatically inserted several lines below the [if](/reuse/../TA_Automation/Topics/bia_if.html) action.
 
 ## Adjusting the row height or column width
 
@@ -151,7 +151,7 @@ The height of rows and the width of columns may be adjusted by dragging the sepa
 -   Ctrl + I: Insert a single new line into the editor worksheet, at the current location of the cell pointer.
 -   Ctrl + Enter: Insert several empty lines into the editor worksheet, below the current location of the cell pointer, and move the cell pointer three lines down to allow you to continue adding action lines.
 
-    **Note:** By default, TestArchitect automatically inserts four empty lines. You can set the number of inserted empty lines in the [Preferences](/images//Images/TA_Help/Topics/Additional_features_preferences.html) dialog box.
+    **Note:** By default, TestArchitect automatically inserts four empty lines. You can set the number of inserted empty lines in the [Preferences](/reuse/../TA_Help/Topics/Additional_features_preferences.html) dialog box.
 
 
 1.  [Content Assist](/TA_Help/Topics/ug_content_assist.html)  

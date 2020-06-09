@@ -4,11 +4,8 @@ linktitle: "use filter"
 weight: 11
 aliases: 
     - /TA_Automation/Topics/bia_use_filter.html
+keywords: "filter data set, use filter, apply filter to data set"
 ---
-keyword: [filter data set, use filter, apply filter to data set]
----
-
-# use filter
 
 ## Description
 
@@ -32,7 +29,7 @@ Use of this action is supported on the following systems/platforms: Windows, Lin
 ## Notes
 
 -   Use the [filter](filter.html) action to create a named filter.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

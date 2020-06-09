@@ -4,11 +4,8 @@ linktitle: "get clipboard"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/bia_get_clipboard.html
+keywords: "get clipboard contents, get clipboard, retrieve clipboard contents, retrieve clipboard"
 ---
-keyword: [get clipboard contents, get clipboard, retrieve clipboard contents, retrieve clipboard]
----
-
-# get clipboard
 
 ## Description
 
@@ -31,7 +28,7 @@ This action may be used within the following project items:test modules and user
 -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
 -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
 -   For multi-line clipboard contents, after using get clipboard, the actions get text line and check text line can be useful for processing or verifying the contents of individual lines.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

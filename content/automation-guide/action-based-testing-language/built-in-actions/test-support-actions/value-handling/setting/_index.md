@@ -4,11 +4,8 @@ linktitle: "setting"
 weight: 11
 aliases: 
     - /TA_Automation/Topics/bia_setting.html
+keywords: "setting, change default settings, adjust settings, alter settings"
 ---
-keyword: [setting, change default settings, adjust settings, alter settings]
----
-
-# setting
 
 ## Description
 

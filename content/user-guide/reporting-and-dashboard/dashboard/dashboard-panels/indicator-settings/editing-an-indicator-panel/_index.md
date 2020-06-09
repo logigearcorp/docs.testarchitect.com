@@ -10,7 +10,7 @@ The indicator's appearance and data used to render the indicator can be modified
 
 To edit the properties of an indicator panel on a Dashboard page:
 
-1.  [Launch an instance of the Dashboard](/images//Images/TA_Help/Topics/Dashboard_starting.html) and log in to the session as a user with [permission](/images//Images/TA_Help/Topics/Dashboard_authentication_permissions.html) sufficient to edit an indicator panel.
+1.  [Launch an instance of the Dashboard](/reuse/../TA_Help/Topics/Dashboard_starting.html) and log in to the session as a user with [permission](/reuse/../TA_Help/Topics/Dashboard_authentication_permissions.html) sufficient to edit an indicator panel.
 
 2.  In the Dashboard, go to the Dashboard page containing the indicator panel you want to edit and click **Edit Panel** ![](/images//Images/Dashboard_edit_panel_icon.png).
 

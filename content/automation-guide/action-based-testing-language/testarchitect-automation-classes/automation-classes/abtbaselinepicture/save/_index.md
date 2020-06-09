@@ -4,11 +4,8 @@ linktitle: "Save"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/abt_Save.html
+keywords: "save, abtbaselinepicture save, save baseline image to file, export current baseline image to file, save as current baseline image"
 ---
-keyword: [save, abtbaselinepicture save, save baseline image to file, export current baseline image to file, save as current baseline image]
----
-
-# Save
 
 ## Syntax
 

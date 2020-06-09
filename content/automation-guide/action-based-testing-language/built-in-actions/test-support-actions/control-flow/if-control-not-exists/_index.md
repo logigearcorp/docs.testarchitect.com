@@ -4,11 +4,8 @@ linktitle: "if control not exists"
 weight: 12
 aliases: 
     - /TA_Automation/Topics/bia_if_control_not_exists.html
+keywords: "if control does not exist, check if control does not exist, check nonexistence of control, verify nonexistence of control"
 ---
-keyword: [if control does not exist, check if control does not exist, check nonexistence of control, verify nonexistence of control]
----
-
-# if control not exists
 
 ## Description
 

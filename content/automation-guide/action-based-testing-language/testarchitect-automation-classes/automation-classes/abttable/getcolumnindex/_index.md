@@ -4,11 +4,8 @@ linktitle: "GetColumnIndex"
 weight: 9
 aliases: 
     - /TA_Automation/Topics/abt_GetColumnIndex.html
+keywords: "getcolumnindex, abttable getcolumnindex, index of column, get index of column with name, column index"
 ---
-keyword: [getcolumnindex, abttable getcolumnindex, index of column, get index of column with name, column index]
----
-
-# GetColumnIndex
 
 ## Syntax
 

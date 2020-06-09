@@ -4,11 +4,8 @@ linktitle: "character recognition technique"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/bis_character_recognition_technique.html
+keywords: "character recognition technique, specify which character recognition technique is applied, choose technique for character recognition, apply optical character recognition technique, apply graphic device interface"
 ---
-keyword: [character recognition technique, specify which character recognition technique is applied, choose technique for character recognition, apply optical character recognition technique, apply graphic device interface]
----
-
-# character recognition technique
 
 ## Description
 

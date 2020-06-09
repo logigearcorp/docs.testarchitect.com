@@ -4,11 +4,8 @@ linktitle: "GetTextColor"
 weight: 21
 aliases: 
     - /TA_Automation/Topics/abt_AbtGetTextColor_AbtElement.html
+keywords: "gettextcolor, abtelement gettextcolor, color code of text in control, get forecolor of text in HTML element, hexadecimal color code of text fragment in element"
 ---
-keyword: [gettextcolor, abtelement gettextcolor, color code of text in control, get forecolor of text in HTML element, hexadecimal color code of text fragment in element]
----
-
-# GetTextColor
 
 ## Syntax
 

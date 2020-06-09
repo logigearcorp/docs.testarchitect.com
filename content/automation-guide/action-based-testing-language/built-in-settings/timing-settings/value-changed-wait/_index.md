@@ -4,11 +4,8 @@ linktitle: "value changed wait"
 weight: 14
 aliases: 
     - /TA_Automation/Topics/bis_value_changed_wait.html
+keywords: "value changed wait, maximum wait time for value in UI element to change, maximum wait time for value in UI element to change in response to actions"
 ---
-keyword: [value changed wait, maximum wait time for value in UI element to change, maximum wait time for value in UI element to change in response to actions]
----
-
-# value changed wait
 
 ## Description
 

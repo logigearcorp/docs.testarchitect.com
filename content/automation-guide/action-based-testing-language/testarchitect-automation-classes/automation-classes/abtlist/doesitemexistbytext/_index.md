@@ -4,11 +4,8 @@ linktitle: "DoesItemExistByText"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/abt_DoesItemExist_3.html
+keywords: "doesitemexistbytext, abtlist doesitemexistbytext, item with specific value in list, item in list has specified value, item with specific value exists in list"
 ---
-keyword: [doesitemexistbytext, abtlist doesitemexistbytext, item with specific value in list, item in list has specified value, item with specific value exists in list]
----
-
-# DoesItemExistByText
 
 ## Syntax
 

@@ -4,11 +4,8 @@ linktitle: "clear popup queue"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/bia_clear_popup_queue.html
+keywords: "clear popup queue, stop popup queue"
 ---
-keyword: [clear popup queue, stop popup queue]
----
-
-# clear popup queue
 
 ## Description
 

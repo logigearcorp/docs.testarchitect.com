@@ -4,11 +4,8 @@ linktitle: "set text file"
 weight: 21
 aliases: 
     - /TA_Automation/Topics/bia_set_text_file.html
+keywords: "write text to file, write to file"
 ---
-keyword: [write text to file, write to file]
----
-
-# set text file
 
 ## Description
 
@@ -53,7 +50,7 @@ This action may be used within the following project items:test modules and user
 -   type argument:
     -   If the specified value is new, but the file already exists, TestArchitect automatically overwrites the existing file with the new file.
     -   If the specified value is append, but the file does not exist, TestArchitect automatically creates a new file and writes the text to the newly created file.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

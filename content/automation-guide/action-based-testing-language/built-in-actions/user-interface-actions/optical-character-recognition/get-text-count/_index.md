@@ -4,11 +4,8 @@ linktitle: "get text count"
 weight: 10
 aliases: 
     - /TA_Automation/Topics/bia_get_text_count.html
+keywords: "get text count, count occurrences of particular text in window, count how many times specfied text occurs in control, count number of occurrences of specific text string in window or control"
 ---
-keyword: [get text count, count occurrences of particular text in window, count how many times specfied text occurs in control, count number of occurrences of specific text string in window or control]
----
-
-# get text count
 
 ## Description
 
@@ -42,11 +39,11 @@ Retrieve a count of the total number of text fragments residing in a given windo
     -   To use multiple values at a time, use semi-colon \( ; \) as delimiters between values.
 -   **text**
 
-    String representing the [bitmap text fragment](/images//Images/TA_Glossary/Topics/glossaryTextFragment.html) to be searched for.
+    String representing the [bitmap text fragment](/reuse/../TA_Glossary/Topics/glossaryTextFragment.html) to be searched for.
 
 -   **index**
 
-    \(Optional\) Specifies a minimum number of instances of the search text that must be discovered within the active area for the target [bitmap text fragment](/images//Images/TA_Glossary/Topics/glossaryTextFragment.html) to be considered as found \(default = 1\).
+    \(Optional\) Specifies a minimum number of instances of the search text that must be discovered within the active area for the target [bitmap text fragment](/reuse/../TA_Glossary/Topics/glossaryTextFragment.html) to be considered as found \(default = 1\).
 
 -   **variable**
 
@@ -79,7 +76,7 @@ The following settings are applicable to this action:[case sensitive](case_sensi
 -   variable argument:
     -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
     -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Example
 

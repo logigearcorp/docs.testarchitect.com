@@ -4,11 +4,8 @@ linktitle: "GetChildCount"
 weight: 11
 aliases: 
     - /TA_Automation/Topics/abt_GetChildCount_1.html
+keywords: "getchildcount, abtlement getchildcount, number of child objects of element, count child objects of element, how many child objects of element"
 ---
-keyword: [getchildcount, abtlement getchildcount, number of child objects of element, count child objects of element, how many child objects of element]
----
-
-# GetChildCount
 
 ## Syntax
 

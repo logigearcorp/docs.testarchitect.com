@@ -4,11 +4,8 @@ linktitle: "GetName"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/abt_GetName.html
+keywords: "getname, abtpicturecheck getname, name of current picture check, get name of current picture check"
 ---
-keyword: [getname, abtpicturecheck getname, name of current picture check, get name of current picture check]
----
-
-# GetName
 
 ## Syntax
 

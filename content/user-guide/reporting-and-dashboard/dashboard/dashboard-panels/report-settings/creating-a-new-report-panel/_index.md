@@ -10,7 +10,7 @@ A report panel displays detailed data generated from test results after applying
 
 To create a new report panel on a Dashboard page:
 
-1.  [Launch an instance of the Dashboard](/images//Images/TA_Help/Topics/Dashboard_starting.html) and log in to the session as a user with [permission](/images//Images/TA_Help/Topics/Dashboard_authentication_permissions.html) sufficient to create a panel.
+1.  [Launch an instance of the Dashboard](/reuse/../TA_Help/Topics/Dashboard_starting.html) and log in to the session as a user with [permission](/reuse/../TA_Help/Topics/Dashboard_authentication_permissions.html) sufficient to create a panel.
 
 2.  On the Dashboard's page selection tool bar, point to **Global Setting** and select **Create Panel**.
 

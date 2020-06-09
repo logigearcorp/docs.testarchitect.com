@@ -4,11 +4,8 @@ linktitle: "control condition wait"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/bis_control_condition_wait.html
+keywords: "control condition wait, maximum wait time for control's properties to satisfy conditions"
 ---
-keyword: [control condition wait, maximum wait time for control's properties to satisfy conditions]
----
-
-# control condition wait
 
 ## Description
 

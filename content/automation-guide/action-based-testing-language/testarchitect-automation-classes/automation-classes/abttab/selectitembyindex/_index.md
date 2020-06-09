@@ -4,11 +4,8 @@ linktitle: "SelectItemByIndex"
 weight: 12
 aliases: 
     - /TA_Automation/Topics/abt_SelectItem_12.html
+keywords: "selectitembyindex, abttab selectitembyindex, select tab item by index"
 ---
-keyword: [selectitembyindex, abttab selectitembyindex, select tab item by index]
----
-
-# SelectItemByIndex
 
 ## Syntax
 

@@ -4,11 +4,8 @@ linktitle: "date format"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/bis_date_format.html
+keywords: "format date, date format"
 ---
-keyword: [format date, date format]
----
-
-# date format
 
 ## Description
 

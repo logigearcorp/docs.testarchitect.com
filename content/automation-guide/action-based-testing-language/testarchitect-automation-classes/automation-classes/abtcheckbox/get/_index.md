@@ -4,11 +4,8 @@ linktitle: "Get"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/abt_Get.html
+keywords: "abtcheckbox get, get, state of check box, get check box state"
 ---
-keyword: [abtcheckbox get, get, state of check box, get check box state]
----
-
-# Get
 
 ## Syntax
 

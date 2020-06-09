@@ -4,11 +4,8 @@ linktitle: "TACheckState"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/abt_TACheckState.html
+keywords: "TAcheckstate, checkbox is checked or unchecked, radio button is checked or unchecked"
 ---
-keyword: [TAcheckstate, checkbox is checked or unchecked, radio button is checked or unchecked]
----
-
-# TACheckState
 
 ## Description
 

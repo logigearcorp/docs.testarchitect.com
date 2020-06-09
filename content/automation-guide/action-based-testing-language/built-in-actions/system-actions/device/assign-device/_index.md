@@ -4,11 +4,8 @@ linktitle: "assign device"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/bia_assign_device.html
+keywords: "assign a physical mobile device, name a physical mobile device"
 ---
-keyword: [assign a physical mobile device, name a physical mobile device]
----
-
-# assign device
 
 ## Description
 
@@ -36,7 +33,7 @@ Use of this action is supported on the following systems/platforms: Mobile opera
 ## Notes
 
 -   It is good practice to apply this action to all mobile devices, if any, at the beginning of a test module. You can use assign device to assign logical names to any number of mobile devices. This is especially helpful if use device is invoked in several places in a test module, allowing the automation to switch between devices during execution.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 -   The value for theunique id argument is obtained from the [Android Instrumentation Tool](/Android/Topics/Android_Instrumentation_tool.html) dialog box \(for Android devices\), or from the [Select device](/iOS/Topics/iOS_capturing_interface.html) dialog box \(for iOS devices\).
     -   **For Android devices**: In the Devices panel of the Android Instrumentation Tool dialog box, right-click the Android device that you intend to use, and select **Copy unique ID to clipboard**. This value can then be pasted into the unique id argument of the assign device action.
 

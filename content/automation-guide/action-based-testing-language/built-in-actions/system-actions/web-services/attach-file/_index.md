@@ -4,11 +4,8 @@ linktitle: "attach file"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/bia_attach_file.html
+keywords: "attach file, attach file to web service, upload attachment to web service, add attachment to web service"
 ---
-keyword: [attach file, attach file to web service, upload attachment to web service, add attachment to web service]
----
-
-# attach file
 
 ## Description
 

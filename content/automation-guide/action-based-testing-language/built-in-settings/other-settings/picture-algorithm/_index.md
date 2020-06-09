@@ -4,11 +4,8 @@ linktitle: "picture algorithm"
 weight: 19
 aliases: 
     - /TA_Automation/Topics/bis_picture_algorithm.html
+keywords: "picture algorithm, specify which algorithm is used to compare between baseline image and image under test, choose algorithm to compare baseline image with image under test"
 ---
-keyword: [picture algorithm, specify which algorithm is used to compare between baseline image and image under test, choose algorithm to compare baseline image with image under test]
----
-
-# picture algorithm
 
 ## Description
 

@@ -4,11 +4,8 @@ linktitle: "GetItemRectByText"
 weight: 12
 aliases: 
     - /TA_Automation/Topics/abt_GetItemRect_4.html
+keywords: "getitemrectbytext, abtlist getitemrectbytext, get bounding rectangle of item list by value, get rectangle surrounding item with specified content"
 ---
-keyword: [getitemrectbytext, abtlist getitemrectbytext, get bounding rectangle of item list by value, get rectangle surrounding item with specified content]
----
-
-# GetItemRectByText
 
 ## Syntax
 
@@ -27,7 +24,7 @@ Retrieve the bounding rectangle of a list item by its text content.
 
 ## Return Value
 
-[TARect](/images//Images/TA_Automation/Topics/abt_TARect.html) object representing the bounding rectangle ofthe item. The object contains the following elements:
+[TARect](/reuse/../TA_Automation/Topics/abt_TARect.html) object representing the bounding rectangle ofthe item. The object contains the following elements:
 
 -   left: Horizontal coordinate of left border of the bounding rectangle relative to the left side of the calling object.
 -   top: Vertical coordinate of top of the bounding rectangle relative to the top of the calling object.

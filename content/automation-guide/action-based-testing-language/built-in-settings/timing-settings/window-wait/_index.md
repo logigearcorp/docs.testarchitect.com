@@ -4,11 +4,8 @@ linktitle: "window wait"
 weight: 15
 aliases: 
     - /TA_Automation/Topics/bis_window_wait.html
+keywords: "window wait, maximum wait time for window to become available, maximum wait time for window to become unavailable, maximum wait time for window to appear, maximum wait time for window to disappear"
 ---
-keyword: [window wait, maximum wait time for window to become available, maximum wait time for window to become unavailable, maximum wait time for window to appear, maximum wait time for window to disappear]
----
-
-# window wait
 
 ## Description
 

@@ -4,11 +4,8 @@ linktitle: "get system double click time"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/bia_get_system_double_click_time.html
+keywords: "get double click time, retrieve double click time"
 ---
-keyword: [get double click time, retrieve double click time]
----
-
-# get system double click time
 
 ## Description
 
@@ -37,7 +34,7 @@ Use of this action is supported on the following system\(s\)/platform\(s\): Wind
 
 -   This built-in action returns an integer value specifying, in milliseconds, the upper limit of time between mouse clicks that the system still registers as a double-click \(as opposed to two single clicks\).
 -   If the variable argument is left empty, TestArchitect supplies a global variable with the name resultdoubleclicktime.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Example
 

@@ -4,11 +4,8 @@ linktitle: "GetStates"
 weight: 18
 aliases: 
     - /TA_Automation/Topics/abt_GetStates_1.html
+keywords: "getstates, abtelement getstates, get all current states of element, current states of control, current states of HTML element"
 ---
-keyword: [getstates, abtelement getstates, get all current states of element, current states of control, current states of HTML element]
----
-
-# GetStates
 
 ## Syntax
 

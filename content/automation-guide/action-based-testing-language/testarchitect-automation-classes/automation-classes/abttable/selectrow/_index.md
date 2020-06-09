@@ -4,11 +4,8 @@ linktitle: "SelectRow"
 weight: 15
 aliases: 
     - /TA_Automation/Topics/abt_SelectRow_13.html
+keywords: "selectrow, abttable selectrow, select row, select particular row in table"
 ---
-keyword: [selectrow, abttable selectrow, select row, select particular row in table]
----
-
-# SelectRow
 
 ## Syntax
 

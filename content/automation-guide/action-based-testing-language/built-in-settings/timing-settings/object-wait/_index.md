@@ -4,11 +4,8 @@ linktitle: "object wait"
 weight: 8
 aliases: 
     - /TA_Automation/Topics/bis_object_wait.html
+keywords: "object wait, maximum waiting time for control or HTML element to become available, maximum wait time for availability of control or HTML element"
 ---
-keyword: [object wait, maximum waiting time for control or HTML element to become available, maximum wait time for availability of control or HTML element]
----
-
-# object wait
 
 ## Description
 

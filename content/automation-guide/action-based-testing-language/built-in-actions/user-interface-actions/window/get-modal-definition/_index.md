@@ -4,11 +4,8 @@ linktitle: "get modal definition"
 weight: 8
 aliases: 
     - /TA_Automation/Topics/bia_get_modal_definition.html
+keywords: "get modal definition, get definition of current modal dialog box, retrieve information about current modal dialog box"
 ---
-keyword: [get modal definition, get definition of current modal dialog box, retrieve information about current modal dialog box]
----
-
-# get modal definition
 
 ## Description
 
@@ -32,7 +29,7 @@ This action may be used within the following project items:test modules and user
     -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
     -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
 -   Use the get modal definition built-in action in combination with the [on modal action](on_modal_action.html) built-in action to handle the unexpected modal dialog box properly.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Systems/Platforms
 

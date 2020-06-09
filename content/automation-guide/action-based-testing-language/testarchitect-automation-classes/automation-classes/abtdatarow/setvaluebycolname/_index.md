@@ -4,11 +4,8 @@ linktitle: "SetValueByColName"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/abt_SetValueByColName.html
+keywords: "setvaluebycolname, abtdatarow setvaluebycolname, set value for cell in selected row by column name, assign value to cell in selected row by column name"
 ---
-keyword: [setvaluebycolname, abtdatarow setvaluebycolname, set value for cell in selected row by column name, assign value to cell in selected row by column name]
----
-
-# SetValueByColName
 
 ## Syntax
 

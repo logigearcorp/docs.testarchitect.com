@@ -4,11 +4,8 @@ linktitle: "get window property"
 weight: 9
 aliases: 
     - /TA_Automation/Topics/bia_get_window_property.html
+keywords: "get window property, get value of specified property of window, retrieve value of specified property of window"
 ---
-keyword: [get window property, get value of specified property of window, retrieve value of specified property of window]
----
-
-# get window property
 
 ## Description
 
@@ -36,7 +33,7 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

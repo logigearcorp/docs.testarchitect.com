@@ -4,11 +4,8 @@ linktitle: "if window exists"
 weight: 13
 aliases: 
     - /TA_Automation/Topics/bia_if_window_exists.html
+keywords: "if window exists, check if window exists, check whether window exists, check existence of window, verify existence of window"
 ---
-keyword: [if window exists, check if window exists, check whether window exists, check existence of window, verify existence of window]
----
-
-# if window exists
 
 ## Description
 

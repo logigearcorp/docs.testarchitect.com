@@ -4,11 +4,8 @@ linktitle: "use host machine"
 weight: 28
 aliases: 
     - /TA_Automation/Topics/bia_use_host_machine.html
+keywords: "use host machine, switch to host machine, change to host machine"
 ---
-keyword: [use host machine, switch to host machine, change to host machine]
----
-
-# use host machine
 
 ## Description
 

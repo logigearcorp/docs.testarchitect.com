@@ -4,11 +4,8 @@ linktitle: "MoveToNextLine"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/abt_MoveToNextLine_8.html
+keywords: "movetonextline, abtscrollbar movetonextline, move scroll bar down by number of lines, move scroll bar to right by number of lines"
 ---
-keyword: [movetonextline, abtscrollbar movetonextline, move scroll bar down by number of lines, move scroll bar to right by number of lines]
----
-
-# MoveToNextLine
 
 ## Syntax
 

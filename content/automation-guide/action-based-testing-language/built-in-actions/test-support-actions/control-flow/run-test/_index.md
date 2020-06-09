@@ -4,11 +4,8 @@ linktitle: "run test"
 weight: 16
 aliases: 
     - /TA_Automation/Topics/bia_run_test.html
+keywords: "run test, run another test module from current test module, "
 ---
-keyword: [run test, run another test module from current test module, ]
----
-
-# run test
 
 ## Description
 

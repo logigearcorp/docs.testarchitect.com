@@ -4,11 +4,8 @@ linktitle: "CreateDataRow"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/abt_CreateDataRow.html
+keywords: "createdatarow, abtdatasetmanagement createdatarow, create data row with specified content"
 ---
-keyword: [createdatarow, abtdatasetmanagement createdatarow, create data row with specified content]
----
-
-# CreateDataRow
 
 ## Syntax
 

@@ -4,11 +4,8 @@ linktitle: "IsItemSelectedByIndex"
 weight: 9
 aliases: 
     - /TA_Automation/Topics/abt_IsItemSelected_11.html
+keywords: "isitemselectedbyindex, abttab isitemselectedbyindex, tab item is selected, check tab item at specified index is selected"
 ---
-keyword: [isitemselectedbyindex, abttab isitemselectedbyindex, tab item is selected, check tab item at specified index is selected]
----
-
-# IsItemSelectedByIndex
 
 ## Syntax
 

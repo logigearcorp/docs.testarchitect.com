@@ -29,7 +29,7 @@ Ensure that TestArchitect Client is installed on your system.
     A status bar indicating the stages of the test is visible in the bottom-right corner of the TestArchitect window. During the initial compilation stage, all information required for execution is collected and made available for automation. Following compilation, TestArchitect invokes the playback tool for the execution stage of the test.
 
 
-At the end of the test run, TestArchitect displays a summary and detailed results of the run. See [Working with test results](/images//Images/TA_Help/Topics/Test_result.html) for details regarding interpreting test results.
+At the end of the test run, TestArchitect displays a summary and detailed results of the run. See [Working with test results](/reuse/../TA_Help/Topics/Test_result.html) for details regarding interpreting test results.
 
 **Parent topic:**[Sample Repository](/TA_Tutorials_Sample_App/Topics/SR_Sample_Repository_def.html)
 

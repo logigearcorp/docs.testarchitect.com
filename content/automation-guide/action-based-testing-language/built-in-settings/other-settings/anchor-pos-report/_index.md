@@ -4,11 +4,8 @@ linktitle: "anchor pos report"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/bis_anchor_pos_report.html
+keywords: "anchor pos report, replace anchor and anchor pos with xpath, convert anchor and anchor post into xpath, generate report to replace anchor and anchor pos with xpath, generate report for conversion of anchor and anchor pos into xpath"
 ---
-keyword: [anchor pos report, replace anchor and anchor pos with xpath, convert anchor and anchor post into xpath, generate report to replace anchor and anchor pos with xpath, generate report for conversion of anchor and anchor pos into xpath]
----
-
-# anchor pos report
 
 ## Description
 

@@ -4,11 +4,8 @@ linktitle: "step"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/bia_step.html
+keywords: "step, test step"
 ---
-keyword: [step, test step]
----
-
-# step
 
 ## Description
 

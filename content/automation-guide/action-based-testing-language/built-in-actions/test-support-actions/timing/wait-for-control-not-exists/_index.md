@@ -4,11 +4,8 @@ linktitle: "wait for control not exists"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/bia_wait_for_control_not_exists.html
+keywords: "wait for control not exists, continue test after control no longer exists, continue test after control disappears, delay test until control disappears, suspend test until control disappears"
 ---
-keyword: [wait for control not exists, continue test after control no longer exists, continue test after control disappears, delay test until control disappears, suspend test until control disappears]
----
-
-# wait for control not exists
 
 ## Description
 
@@ -42,7 +39,7 @@ This action may be used within the following project items:test modules and user
     1.  no control exists that matches the definition specified by the value of the **control** argument, or
     2.  any matching control has its visibility attribute set to false, *and* the built-in setting [load invisible controls](load_invisible_controls.html) is set to no.
 -   Note that, if the built-in setting [load invisible controls](load_invisible_controls.html) is set to yes, only the nonexistence of a matching control \(as opposed to a matching control simply being invisible\) satisfies the "not exists" condition of this action.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

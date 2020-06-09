@@ -4,11 +4,8 @@ linktitle: "SetNodeStates"
 weight: 15
 aliases: 
     - /TA_Automation/Topics/abt_SetNodeStates_17.html
+keywords: "setnodestates, abttree setnodestates, set states of specified node in tree, set states of tree node"
 ---
-keyword: [setnodestates, abttree setnodestates, set states of specified node in tree, set states of tree node]
----
-
-# SetNodeStates
 
 ## Syntax
 
@@ -30,7 +27,7 @@ Set the state of a check box icon of the specified node in a tree view control.
     -   A string containing all node indexes separated by forward slashes \( / \).
 -   **status**
 
-    [TAItemState](/images//Images/TA_Automation/Topics/abt_TAItemState.html) value specifying the item state to set.
+    [TAItemState](/reuse/../TA_Automation/Topics/abt_TAItemState.html) value specifying the item state to set.
 
     Allowable values are:
 

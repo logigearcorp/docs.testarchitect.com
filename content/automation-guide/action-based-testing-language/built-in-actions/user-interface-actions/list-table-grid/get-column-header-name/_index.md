@@ -4,11 +4,8 @@ linktitle: "get column header name"
 weight: 18
 aliases: 
     - /TA_Automation/Topics/bia_get_column_header_name.html
+keywords: "get column header name, retrieve column header name, get column name, retrieve column name"
 ---
-keyword: [get column header name, retrieve column header name, get column name, retrieve column name]
----
-
-# get column header name
 
 ## Description
 
@@ -42,7 +39,7 @@ This action may be used within the following project items:test modules and user
 -   variable argument:
     -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
     -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 -   For `oracle.apps.jtf.table.AccessibleTableGrid`: The [get column header name](get_column_header_name.html) and [check column header name](check_column_header_name.html) built-in actions return an empty value.
 
 ## Applicable Built-In Settings

@@ -4,11 +4,8 @@ linktitle: "GetTextBackgroundColor"
 weight: 17
 aliases: 
     - /TA_Automation/Topics/abt_AbtGetTextBackgroundColor_AbtEntity.html
+keywords: "gettextbackgroundcolor, abtentity gettextbackgroundcolor, color code of text background in window, get backcolor of text in window, hexadecimal color code of text background in window"
 ---
-keyword: [gettextbackgroundcolor, abtentity gettextbackgroundcolor, color code of text background in window, get backcolor of text in window, hexadecimal color code of text background in window]
----
-
-# GetTextBackgroundColor
 
 ## Syntax
 

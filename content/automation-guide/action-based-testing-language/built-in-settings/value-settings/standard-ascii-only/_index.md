@@ -4,11 +4,8 @@ linktitle: "standard ASCII only"
 weight: 8
 aliases: 
     - /TA_Automation/Topics/bis_standard_ASCII_only.html
+keywords: "standard ASCII only, discard characters whose ASCII codes are out of range of 32-217, remove characters that are not standard ASCII characters, accept standard ASCII characters only"
 ---
-keyword: [standard ASCII only, discard characters whose ASCII codes are out of range of 32-217, remove characters that are not standard ASCII characters, accept standard ASCII characters only]
----
-
-# standard ASCII only
 
 ## Description
 

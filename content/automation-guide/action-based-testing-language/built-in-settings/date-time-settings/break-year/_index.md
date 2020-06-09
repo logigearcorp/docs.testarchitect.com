@@ -4,11 +4,8 @@ linktitle: "break year"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/bis_break_year.html
+keywords: "break year, change year from 2 digits to 4 digits, convert year from 2 digits to 4 digits, conversion of 2-digit year to 4-digit"
 ---
-keyword: [break year, change year from 2 digits to 4 digits, convert year from 2 digits to 4 digits, conversion of 2-digit year to 4-digit]
----
-
-# break year
 
 ## Description
 

@@ -4,11 +4,8 @@ linktitle: "color format"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/bis_color_format.html
+keywords: "color format, specify whether RGB color codes are express in decimal or hexadecimal, specify color formatting code"
 ---
-keyword: [color format, specify whether RGB color codes are express in decimal or hexadecimal, specify color formatting code]
----
-
-# color format
 
 ## Description
 

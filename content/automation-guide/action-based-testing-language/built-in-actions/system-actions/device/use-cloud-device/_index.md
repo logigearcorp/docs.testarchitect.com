@@ -4,11 +4,8 @@ linktitle: "use cloud device"
 weight: 26
 aliases: 
     - /TA_Automation/Topics/bia_use_cloud_device.html
+keywords: 
 ---
-keyword: 
----
-
-# use cloud device
 
 ## Description
 
@@ -25,7 +22,7 @@ Use a cloud device, as specified by its session ID, to run automated tests.
 
 -   This built-in action applies only to WebDriver based cloud services. \([Learn more](aut_app_cloud_testing.html).\)
 -   The session ID specified in the session id argument is retrieved via the [connect cloud device](connect_cloud_device.html) action.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

@@ -4,11 +4,8 @@ linktitle: "GetName"
 weight: 14
 aliases: 
     - /TA_Automation/Topics/abt_GetName_1.html
+keywords: "getname, abtlelement getname, name of control, name of HTML element, get name of element"
 ---
-keyword: [getname, abtlelement getname, name of control, name of HTML element, get name of element]
----
-
-# GetName
 
 ## Syntax
 

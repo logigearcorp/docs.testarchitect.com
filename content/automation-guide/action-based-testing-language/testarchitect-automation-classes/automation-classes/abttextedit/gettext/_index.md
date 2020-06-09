@@ -4,11 +4,8 @@ linktitle: "GetText"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/abt_GetText_14.html
+keywords: "gettext, abttextedit gettext, content of text control, get content of text box"
 ---
-keyword: [gettext, abttextedit gettext, content of text control, get content of text box]
----
-
-# GetText
 
 ## Syntax
 

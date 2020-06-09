@@ -4,11 +4,8 @@ linktitle: "does button menu exist"
 weight: 16
 aliases: 
     - /TA_Automation/Topics/bia_does_button_menu_exist.html
+keywords: "does button menu exist, check for existence of specified menu item of drop-down button, check if specified menu item of drop-down button exists, verify whether specified menu item of drop-down button is found, verify existence of specified menu item of drop-down button"
 ---
-keyword: [does button menu exist, check for existence of specified menu item of drop-down button, check if specified menu item of drop-down button exists, verify whether specified menu item of drop-down button is found, verify existence of specified menu item of drop-down button]
----
-
-# does button menu exist
 
 ## Description
 
@@ -53,7 +50,7 @@ This action may be used within the following project items:test modules and user
 -   output argument:
     -   If the variable in argumentoutputhas not been declared, the action creates it as a global.
     -   If the outputargument is left empty, TestArchitect supplies a global variable with the name \_result.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

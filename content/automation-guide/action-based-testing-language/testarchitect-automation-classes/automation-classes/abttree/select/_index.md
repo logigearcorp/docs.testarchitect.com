@@ -4,11 +4,8 @@ linktitle: "Select"
 weight: 14
 aliases: 
     - /TA_Automation/Topics/abt_Select_17.html
+keywords: "abttree select, select node from tree, select tree node"
 ---
-keyword: [abttree select, select node from tree, select tree node]
----
-
-# Select
 
 ## Syntax
 

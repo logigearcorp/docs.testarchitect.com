@@ -4,11 +4,8 @@ linktitle: "IsItemSelectedByText"
 weight: 10
 aliases: 
     - /TA_Automation/Topics/abt_IsItemSelected_12.html
+keywords: "isitemselectedbytext, abttab isitemselectedbytext, tab item with specified content is selected, check for selection of tab item with specified content"
 ---
-keyword: [isitemselectedbytext, abttab isitemselectedbytext, tab item with specified content is selected, check for selection of tab item with specified content]
----
-
-# IsItemSelectedByText
 
 ## Syntax
 

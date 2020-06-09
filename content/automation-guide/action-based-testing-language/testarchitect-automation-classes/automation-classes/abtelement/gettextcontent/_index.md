@@ -4,11 +4,8 @@ linktitle: "GetTextContent"
 weight: 22
 aliases: 
     - /TA_Automation/Topics/abt_AbtGetTextContent_AbtElement.html
+keywords: "gettextcontent, abtelement gettextcontent, content of text fragment, content of bitmap text in control"
 ---
-keyword: [gettextcontent, abtelement gettextcontent, content of text fragment, content of bitmap text in control]
----
-
-# GetTextContent
 
 ## Syntax
 

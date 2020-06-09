@@ -4,11 +4,8 @@ linktitle: "Close"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/abt_Close.html
+keywords: "close, abtentity close, close window"
 ---
-keyword: [close, abtentity close, close window]
----
-
-# Close
 
 ## Syntax
 

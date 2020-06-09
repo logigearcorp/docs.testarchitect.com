@@ -4,11 +4,8 @@ linktitle: "GetSelectedText"
 weight: 6
 aliases: 
     - /TA_Automation/Topics/abt_GetSelectedText.html
+keywords: "getselectedtext, abtcombobox getselectedtext, content of selected item in combo box, get value of selected item in combo box"
 ---
-keyword: [getselectedtext, abtcombobox getselectedtext, content of selected item in combo box, get value of selected item in combo box]
----
-
-# GetSelectedText
 
 ## Syntax
 

@@ -4,11 +4,8 @@ linktitle: "check menu item exists"
 weight: 6
 aliases: 
     - /TA_Automation/Topics/bia_check_menu_item_exists.html
+keywords: "check menu item exists, check for existence of specific menu item, verify existence of specific menu item, check if specified menu item is found, check whether specified menu item exists"
 ---
-keyword: [check menu item exists, check for existence of specific menu item, verify existence of specific menu item, check if specified menu item is found, check whether specified menu item exists]
----
-
-# check menu item exists
 
 ## Description
 
@@ -42,7 +39,7 @@ This action may be used within the following project items:test modules and user
     -   Menu items are identified by their caption properties.
     -   If a menu path of more than one item must be specified, use arrow symbols \( -\> \) as delimiters between menu items. For example, `Vehicles->Cars->Four-door sedans`.
 -   Since submenu items are not available on Android mobile devices, checking for the existence of a subitem is not supported on Android.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

@@ -4,11 +4,8 @@ linktitle: "ResizeWindow"
 weight: 26
 aliases: 
     - /TA_Automation/Topics/abt_ResizeWindow.html
+keywords: "resizewindow, abtentity resizewindow, resize window, change window dimensions, adjust window size"
 ---
-keyword: [resizewindow, abtentity resizewindow, resize window, change window dimensions, adjust window size]
----
-
-# ResizeWindow
 
 ## Syntax
 

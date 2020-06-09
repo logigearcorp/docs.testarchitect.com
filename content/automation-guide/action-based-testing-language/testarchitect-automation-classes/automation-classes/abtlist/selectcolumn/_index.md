@@ -4,11 +4,8 @@ linktitle: "SelectColumn"
 weight: 20
 aliases: 
     - /TA_Automation/Topics/abt_SelectColumn_3.html
+keywords: "selectcolumn, abt selectcolumn, select column by index, select column"
 ---
-keyword: [selectcolumn, abt selectcolumn, select column by index, select column]
----
-
-# SelectColumn
 
 ## Syntax
 

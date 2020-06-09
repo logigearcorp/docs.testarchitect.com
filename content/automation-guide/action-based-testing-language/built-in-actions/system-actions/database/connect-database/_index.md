@@ -4,11 +4,8 @@ linktitle: "connect database"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/bia_connect_database.html
+keywords: "connect a database, attach a database"
 ---
-keyword: [connect a database, attach a database]
----
-
-# connect database
 
 ## Description
 
@@ -34,7 +31,7 @@ Open a database connection.
     -   If any of the associated [execute sql](execute_sql.html) calls are to contain multiple queries in their command arguments, the setting `Option=67108864;` must be included in connection string.
     -   If creating a Unicode-supported connection with the FreeTDS ODBC driver, the setting `ClientCharset=UTF-8;` must be present in connection string.
 -   The name that you specify in argument name is assigned to the database connection and is available globally throughout your test run set, to be used by the built-in actions [use database](use_database.html) and [disconnect database](disconnect_database.html).
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

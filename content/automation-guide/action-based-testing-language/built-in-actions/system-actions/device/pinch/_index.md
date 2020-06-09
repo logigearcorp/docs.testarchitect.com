@@ -4,11 +4,8 @@ linktitle: "pinch"
 weight: 20
 aliases: 
     - /TA_Automation/Topics/bia_iOS_pinch.html
+keywords: "pinch in, pinch out, zoom content, Scale"
 ---
-keyword: [pinch in, pinch out, zoom content, Scale]
----
-
-# pinch
 
 ## Description
 
@@ -67,9 +64,9 @@ Use of this action is supported on the following systems/platforms: Mobile opera
 
 -   **Pinch-in gesture**: Finger 1 starts at \(x1, y1\), finger 2 at \(x2, y2\). Both fingers are drawn toward each other at equal speed \(as determined by duration\), and converge at the midpoint.
 -   **Pinch-out gesture**: Fingers 1 and 2 both start at point \(x1, y1\). With finger 1 remaining stationary, finger 2 slides over to finish at point \(x2, y2\), at a speed determined by duration.
--   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/images//Images/TA_Automation/Topics/bia_get_screen_resolution.html#li.ios.get_screen_resolution).\)
+-   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/reuse/../TA_Automation/Topics/bia_get_screen_resolution.html#li.ios.get_screen_resolution).\)
 -   For Android versions 4.0 and later, it is essential that you turn off the Pointer Location setting to prevent your device from restarting. Pointer Location is available at: **Settings** \> **Developer options** \> **Pointer location**.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

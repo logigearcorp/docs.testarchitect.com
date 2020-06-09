@@ -4,11 +4,8 @@ linktitle: "GetSelectedItems"
 weight: 14
 aliases: 
     - /TA_Automation/Topics/abt_GetSelectedItems_3.html
+keywords: "getselecteditems, abtlist getselecteditems, contents of selected items in list, obtain values of selected items in list"
 ---
-keyword: [getselecteditems, abtlist getselecteditems, contents of selected items in list, obtain values of selected items in list]
----
-
-# GetSelectedItems
 
 ## Syntax
 

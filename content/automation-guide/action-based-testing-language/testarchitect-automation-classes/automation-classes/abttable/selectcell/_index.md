@@ -4,11 +4,8 @@ linktitle: "SelectCell"
 weight: 13
 aliases: 
     - /TA_Automation/Topics/abt_SelectCell_13.html
+keywords: "selectcell, abttable selectcell, select cell"
 ---
-keyword: [selectcell, abttable selectcell, select cell]
----
-
-# SelectCell
 
 ## Syntax
 

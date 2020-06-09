@@ -10,7 +10,7 @@ As an administrator, you can delete a TestArchitect user if that user is no long
 
 To delete an existing TestArchitect user, do the following:
 
-1.  Invoke the [Manage Users](/images//Images/TA_Administration/Topics/adm_users_invoking_Manage_Users.html) Manager Users dialog box for a given repository. \(You can do this by right-clicking the **Administration** node and then selecting **Manage Users**.\)
+1.  Invoke the [Manage Users](/reuse/../TA_Administration/Topics/adm_users_invoking_Manage_Users.html) Manager Users dialog box for a given repository. \(You can do this by right-clicking the **Administration** node and then selecting **Manage Users**.\)
 
 2.  In the Users panel, select a user to be deleted.
 

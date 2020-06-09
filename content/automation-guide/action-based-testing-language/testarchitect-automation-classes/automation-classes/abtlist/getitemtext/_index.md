@@ -4,11 +4,8 @@ linktitle: "GetItemText"
 weight: 8
 aliases: 
     - /TA_Automation/Topics/abt_GetItemText_3.html
+keywords: "getitemtext, abtlist getitemlist, value of item, obtain value of item from list, content of item at specified index in list"
 ---
-keyword: [getitemtext, abtlist getitemlist, value of item, obtain value of item from list, content of item at specified index in list]
----
-
-# GetItemText
 
 ## Syntax
 

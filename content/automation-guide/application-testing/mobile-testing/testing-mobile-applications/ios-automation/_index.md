@@ -15,7 +15,7 @@ TestArchitect supports the following:
 |||
 |------|------|
 |**Desktop operating systems**|Mojave \(10.14\), High Sierra \(10.13\), Sierra \(10.12\), El Capitan \(10.11\), Yosemite \(10.10\).|
-|**Mobile operating systems**|-   iOS 7.x.-   iOS 8.4, iOS 8.1.x, iOS 8.0.x,-   iOS 9.3.x, iOS 9.2.x, iOS 9.1, iOS 9.0-   iOS 10.3.x|
+|**Mobile operating systems**|-   iOS 7.x.-   iOS 8.4, iOS 8.1.x, iOS 8.0.x,<br>-   iOS 9.3.x, iOS 9.2.x, iOS 9.1, iOS 9.0<br>-   iOS 10.3.x<br><br>|
 |**Devices**|All types of iPhone and iPad.|
 
 **Note:**

@@ -4,11 +4,8 @@ linktitle: "copy file"
 weight: 7
 aliases: 
     - /TA_Automation/Topics/bia_copy_file.html
+keywords: copy file
 ---
-keyword: copy file
----
-
-# copy file
 
 ## Description
 
@@ -37,7 +34,7 @@ This action may be used within the following project items:test modules and user
 -   Note that this built-in action is not currently supported on the macOS or iOS platforms.
 -   An existing file, if any, in the destination folder having the same name as the file being copied is automatically overwritten, with no notice or warning.
 -   Full paths both to the source file and the destination folder must be specified.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

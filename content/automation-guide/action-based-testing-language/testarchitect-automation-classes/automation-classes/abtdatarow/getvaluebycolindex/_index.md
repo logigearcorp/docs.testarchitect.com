@@ -4,11 +4,8 @@ linktitle: "GetValueByColIndex"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/abt_GetValueByColIndex.html
+keywords: "getvaluebycolindex, abtdatarow getvaluebycolindex, value of cell in selected row by column index, value of cell at intersection of selected row and column at given index"
 ---
-keyword: [getvaluebycolindex, abtdatarow getvaluebycolindex, value of cell in selected row by column index, value of cell at intersection of selected row and column at given index]
----
-
-# GetValueByColIndex
 
 ## Syntax
 

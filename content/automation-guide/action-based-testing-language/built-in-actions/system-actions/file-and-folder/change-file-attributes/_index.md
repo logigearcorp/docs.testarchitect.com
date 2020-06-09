@@ -4,11 +4,8 @@ linktitle: "change file attributes"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/bia_change_file_attributes.html
+keywords: "change file attributes, set file attributes, change file properties, modify file attributes"
 ---
-keyword: [change file attributes, set file attributes, change file properties, modify file attributes]
----
-
-# change file attributes
 
 ## Description
 
@@ -69,7 +66,7 @@ This action may be used within the following project items:test modules and user
 -   Note that this built-in action is not currently supported on macOS or mobile platforms.
 -   The attributes argument may include any combination of attributes allowed for the given platform, separated by commas.
 -   \(Windows only\) If the attributes argument's value is set to normal, the action clears all existing attributes of the specified file.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

@@ -4,11 +4,8 @@ linktitle: "Set"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/abt_Set_16.html
+keywords: "abttrackbar set, set value to trackbar, set trackbar value, set value to slider control"
 ---
-keyword: [abttrackbar set, set value to trackbar, set trackbar value, set value to slider control]
----
-
-# Set
 
 ## Syntax
 

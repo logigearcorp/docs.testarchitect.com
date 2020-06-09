@@ -4,11 +4,8 @@ linktitle: "drag mouse"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/bia_drag_mouse.html
+keywords: "drag, mouse drag, drage mouse"
 ---
-keyword: [drag, mouse drag, drage mouse]
----
-
-# drag mouse
 
 ## Description
 
@@ -57,7 +54,7 @@ This action may be used within the following project items:test modules and user
 
     **Restriction:** This rule should not be taken to imply that any control or window arguments are optional if their associated actions don't explicitly state that.
 
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 -   Mouse drag across frames is not supported.
 
 ## Applicable Built-In Settings

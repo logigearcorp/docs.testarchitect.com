@@ -4,11 +4,8 @@ linktitle: "number digits after decimal"
 weight: 9
 aliases: 
     - /TA_Automation/Topics/bis_number_digits_after_decimal.html
+keywords: "number of digits after decimal point, number of decimal places, specify number of digits after decimal point, set decimal precision, specify decimal precision"
 ---
-keyword: [number of digits after decimal point, number of decimal places, specify number of digits after decimal point, set decimal precision, specify decimal precision]
----
-
-# number digits after decimal
 
 ## Description
 

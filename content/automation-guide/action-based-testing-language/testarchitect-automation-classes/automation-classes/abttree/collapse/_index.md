@@ -4,11 +4,8 @@ linktitle: "Collapse"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/abt_Collapse_17.html
+keywords: "collapse, abttree collapse, collapse tree node"
 ---
-keyword: [collapse, abttree collapse, collapse tree node]
----
-
-# Collapse
 
 ## Syntax
 

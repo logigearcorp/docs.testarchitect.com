@@ -4,11 +4,8 @@ linktitle: "check list item order"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/bia_check_list_item_order.html
+keywords: "check list item order, check if items in list box or combo box are arranged in specific order, check whetheritems in list box or combo box are arranged in specific sequence, verify if items in list box or combo box are arranged in specific order, "
 ---
-keyword: [check list item order, check if items in list box or combo box are arranged in specific order, check whetheritems in list box or combo box are arranged in specific sequence, verify if items in list box or combo box are arranged in specific order, ]
----
-
-# check list item order
 
 ## Description
 
@@ -50,7 +47,7 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   There is no practical limit to the number ofargumentarguments that may be specified. In the action line, you may continue listing them in consecutive columns beyond those that have column headers.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

@@ -4,11 +4,8 @@ linktitle: "GetLocation"
 weight: 12
 aliases: 
     - /TA_Automation/Topics/abt_GetLocation_1.html
+keywords: "getlocation, abtelement getlocation, get coordinates and dimensions of control, retrieve coordinates and dimensions of HTML element, obtain coordinates and size of element object"
 ---
-keyword: [getlocation, abtelement getlocation, get coordinates and dimensions of control, retrieve coordinates and dimensions of HTML element, obtain coordinates and size of element object]
----
-
-# GetLocation
 
 ## Syntax
 
@@ -20,7 +17,7 @@ Retrieve the bounding rectangle of the element object.
 
 ## Return Value
 
-[TARect](/images//Images/TA_Automation/Topics/abt_TARect.html) object representing the bounding rectangle ofthe element.
+[TARect](/reuse/../TA_Automation/Topics/abt_TARect.html) object representing the bounding rectangle ofthe element.
 
 **Parent topic:**[AbtElement](/TA_Automation/Topics/abt_AbtElement.html)
 

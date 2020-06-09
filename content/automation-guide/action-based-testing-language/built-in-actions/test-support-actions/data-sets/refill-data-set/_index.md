@@ -4,11 +4,8 @@ linktitle: "refill data set"
 weight: 6
 aliases: 
     - /TA_Automation/Topics/bia_refill_data_set.html
+keywords: "refill dataset, refill data set, refill data set from external file, load text file into data set"
 ---
-keyword: [refill dataset, refill data set, refill data set from external file, load text file into data set]
----
-
-# refill data set
 
 ## Description
 
@@ -40,7 +37,7 @@ Use of this action is supported on the following systems/platforms: Windows, Lin
 -   The external text file and the specified data set must both exist.
 -   The external text file must have one record \(data set row\) per line, with tab-delimited fields in each line. The number of fields \(that is, total columns separated by tab characters\) per line must match the number of columns in the data set.
 -   Each line of the text file represents one data record, which populates the variables upon each iteration of the [use data set](use_data_set.html) / [repeat for data set](repeat_for_data_set.html) loop.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

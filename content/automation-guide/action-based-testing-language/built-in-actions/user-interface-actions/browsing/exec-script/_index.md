@@ -4,11 +4,8 @@ linktitle: "exec script"
 weight: 11
 aliases: 
     - /TA_Automation/Topics/bia_exec_script.html
+keywords: "exect script, execute Javascript, execute Javascript code, run Javascript, run Javascript code"
 ---
-keyword: [exect script, execute Javascript, execute Javascript code, run Javascript, run Javascript code]
----
-
-# exec script
 
 ## Description
 
@@ -60,7 +57,7 @@ This action may be used within the following project items:test modules and user
     -   If the value in argument exception has not been declared, the action creates it as a global.
     -   If the exception argument's value is left empty, TestArchitect supplies a global variable with the name \_exception.
 -   To specify a string, please enclose it in single quotes \(the character '\).
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

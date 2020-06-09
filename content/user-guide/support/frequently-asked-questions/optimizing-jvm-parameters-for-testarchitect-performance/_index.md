@@ -4,11 +4,8 @@ linktitle: "Optimizing JVM parameters for TestArchitect performance"
 weight: 32
 aliases: 
     - /TA_FAQ/Topics/faq.optimizing_TA_performance.html
+keywords: "optimize performance, set Java heap size, increase JVM heap size, increase Java metaspace, save memory"
 ---
-keyword: [optimize performance, set Java heap size, increase JVM heap size, increase Java metaspace, save memory]
----
-
-# Optimizing JVM parameters for TestArchitect performance
 
 Java Virtual Machine \(JVM\) heap memory size can be expanded and shrink, according to your requirements for TestArchitect's performance optimization. MaxHeapFreeRatio and MinHeapFreeRatio are the command line options available for this purpose in Oracle Java.
 

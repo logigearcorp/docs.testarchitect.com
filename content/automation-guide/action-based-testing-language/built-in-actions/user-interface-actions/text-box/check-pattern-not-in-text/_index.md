@@ -4,11 +4,8 @@ linktitle: "check pattern not in text"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/bia_check_pattern_not_in_text.html
+keywords: "check pattern not in text, check if text does not contain specified substring, verify whether text does not contain specified substring, check whether text does not match regular expression, verify if text does not match regular expression pattern"
 ---
-keyword: [check pattern not in text, check if text does not contain specified substring, verify whether text does not contain specified substring, check whether text does not match regular expression, verify if text does not match regular expression pattern]
----
-
-# check pattern not in text
 
 ## Description
 
@@ -37,7 +34,7 @@ This action may be used within the following project items:test modules and user
 
 -   The pattern argument can accept regular expressions. Note that argument values that include regular expressions must be entirely enclosed in curly braces \{\}. As an example, `{[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}}` specifies the pattern for an acceptable email address. More simply, `.*` represents the general wildcard for regular expressions, so that `{.*arch.*}` matches starch, marching, testarchitect, etc.
 -   On macOS, curly brackets \{\} are treated as special characters. To include a curly bracket in regular expressions you must enclose it in a pair of square brackets \[\]. For example: \{ →\[\{\]; \}→ \[\}\].
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

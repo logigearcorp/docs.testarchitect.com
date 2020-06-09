@@ -4,11 +4,8 @@ linktitle: "move folder"
 weight: 18
 aliases: 
     - /TA_Automation/Topics/bia_move_folder.html
+keywords: move folder
 ---
-keyword: move folder
----
-
-# move folder
 
 ## Description
 
@@ -37,7 +34,7 @@ This action may be used within the following project items:test modules and user
 -   Note that this built-in action is not currently supported on macOS or mobile platforms.
 -   An existing folder in the destination with the same name as the one being moved is automatically overwritten, with no notice or warning.
 -   Full paths both to the source and destination folders must be specified.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

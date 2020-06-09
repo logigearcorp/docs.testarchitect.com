@@ -4,11 +4,8 @@ linktitle: "Click"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/abt_Click_1.html
+keywords: "click, abtelement click, mouse click, click control"
 ---
-keyword: [click, abtelement click, mouse click, click control]
----
-
-# Click
 
 ## Syntax
 

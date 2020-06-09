@@ -4,11 +4,8 @@ linktitle: "GetNodeStates"
 weight: 9
 aliases: 
     - /TA_Automation/Topics/abt_GetNodeStates_17.html
+keywords: "getnodestates, abttree getnodestates, states of tree node, get states of specified node in tree"
 ---
-keyword: [getnodestates, abttree getnodestates, states of tree node, get states of specified node in tree]
----
-
-# GetNodeStates
 
 ## Syntax
 

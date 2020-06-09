@@ -4,11 +4,8 @@ linktitle: "GetValue"
 weight: 25
 aliases: 
     - /TA_Automation/Topics/abt_GetValue_1.html
+keywords: "getvalue, abtelement getvalue, current value of element, get value of control, obtain value of HTML element"
 ---
-keyword: [getvalue, abtelement getvalue, current value of element, get value of control, obtain value of HTML element]
----
-
-# GetValue
 
 ## Syntax
 

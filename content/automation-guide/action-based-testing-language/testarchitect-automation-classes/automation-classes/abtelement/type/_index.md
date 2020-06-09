@@ -4,11 +4,8 @@ linktitle: "Type"
 weight: 27
 aliases: 
     - /TA_Automation/Topics/abt_Type_1.html
+keywords: "type, abtelement type, type string into control, text entry into HTML element, type into element"
 ---
-keyword: [type, abtelement type, type string into control, text entry into HTML element, type into element]
----
-
-# Type
 
 ## Syntax
 

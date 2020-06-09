@@ -4,11 +4,8 @@ linktitle: "check control tooltip"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/bia_check_control_tooltip.html
+keywords: "check control tooltip, check control tooltip against expected string, check if control tooltip matches expected string, check whether control tooltip matches expected string"
 ---
-keyword: [check control tooltip, check control tooltip against expected string, check if control tooltip matches expected string, check whether control tooltip matches expected string]
----
-
-# check control tooltip
 
 ## Description
 
@@ -70,7 +67,7 @@ This action may be used within the following project items:test modules and user
     **Restriction:** This rule should not be taken to imply that any control or window arguments are optional if their associated actions don't explicitly state that.
 
 -   The expectedargument can accept regular expressions. Note that argument values that include regular expressions must be entirely enclosed in curly braces \{\}. As an example, `{[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}}` specifies the pattern for an acceptable email address. More simply, `.*` represents the general wildcard for regular expressions, so that `{.*arch.*}` matches starch, marching, testarchitect, etc.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

@@ -4,11 +4,8 @@ linktitle: "AddRow"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/abt_AddRow.html
+keywords: "addrow, abtdataset addrow, add row to data set, append row to data set, new row"
 ---
-keyword: [addrow, abtdataset addrow, add row to data set, append row to data set, new row]
----
-
-# AddRow
 
 ## Syntax
 

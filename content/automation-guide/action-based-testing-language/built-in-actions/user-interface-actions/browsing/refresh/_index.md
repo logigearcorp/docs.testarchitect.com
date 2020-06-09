@@ -4,11 +4,8 @@ linktitle: "refresh"
 weight: 20
 aliases: 
     - /TA_Automation/Topics/bia_refresh.html
+keywords: "refresh, refesh web page"
 ---
-keyword: [refresh, refesh web page]
----
-
-# refresh
 
 ## Description
 
@@ -28,7 +25,7 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   This action is functionally equivalent to clicking the browser's **Refresh** button, or \(in most cases\) pressing the F5 key.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

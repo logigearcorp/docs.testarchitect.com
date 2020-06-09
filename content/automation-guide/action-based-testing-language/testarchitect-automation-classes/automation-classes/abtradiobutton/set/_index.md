@@ -4,11 +4,8 @@ linktitle: "Set"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/abt_Set_7.html
+keywords: "abtradiobutton set, select checkbox, set checked state of checkbox"
 ---
-keyword: [abtradiobutton set, select checkbox, set checked state of checkbox]
----
-
-# Set
 
 ## Syntax
 

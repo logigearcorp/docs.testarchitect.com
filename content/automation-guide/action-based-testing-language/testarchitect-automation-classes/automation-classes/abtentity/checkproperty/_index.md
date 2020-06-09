@@ -4,11 +4,8 @@ linktitle: "CheckProperty"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/abt_CheckProperty.html
+keywords: "checkproperty, abtentity checkproperty, window's property matches expected value, check window's property against expected value"
 ---
-keyword: [checkproperty, abtentity checkproperty, window's property matches expected value, check window's property against expected value]
----
-
-# CheckProperty
 
 ## Syntax
 

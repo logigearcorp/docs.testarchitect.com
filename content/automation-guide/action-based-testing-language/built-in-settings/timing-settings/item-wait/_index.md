@@ -4,11 +4,8 @@ linktitle: "item wait"
 weight: 6
 aliases: 
     - /TA_Automation/Topics/bis_item_wait.html
+keywords: "item wait, maximum wait time for specified item to become available, maximum time to wait for specified item to become available"
 ---
-keyword: [item wait, maximum wait time for specified item to become available, maximum time to wait for specified item to become available]
----
-
-# item wait
 
 ## Description
 

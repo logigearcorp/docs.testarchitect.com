@@ -4,11 +4,8 @@ linktitle: "continue"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/bia_continue.html
+keywords: "continue, continue statement, next iteration, skip remaining lines"
 ---
-keyword: [continue, continue statement, next iteration, skip remaining lines]
----
-
-# continue
 
 ## Description
 

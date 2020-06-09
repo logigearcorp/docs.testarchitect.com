@@ -4,11 +4,8 @@ linktitle: "GetChildAt"
 weight: 9
 aliases: 
     - /TA_Automation/Topics/abt_GetChildAt_1.html
+keywords: "getchildat, abtelement getchildat, child element of control, child element of control by index"
 ---
-keyword: [getchildat, abtelement getchildat, child element of control, child element of control by index]
----
-
-# GetChildAt
 
 ## Syntax
 

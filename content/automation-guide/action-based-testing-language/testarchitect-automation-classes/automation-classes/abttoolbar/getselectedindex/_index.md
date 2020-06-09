@@ -4,11 +4,8 @@ linktitle: "GetSelectedIndex"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/abt_GetSelectedIndex_15.html
+keywords: "getselectedindex, abttoolbar getselectedindex, index of selected toolbar item, get index of selected item on toolbar"
 ---
-keyword: [getselectedindex, abttoolbar getselectedindex, index of selected toolbar item, get index of selected item on toolbar]
----
-
-# GetSelectedIndex
 
 ## Syntax
 

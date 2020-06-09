@@ -4,11 +4,8 @@ linktitle: "click text"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/bia_click_text.html
+keywords: "click text, find and click given bitmapped text, click specified text in area, find given bittmapped text and click"
 ---
-keyword: [click text, find and click given bitmapped text, click specified text in area, find given bittmapped text and click]
----
-
-# click text
 
 ## Description
 
@@ -42,21 +39,21 @@ Find a given bitmapped text string in a specified area of a bitmap, and then sim
 
 -   **text**
 
-    String representing the target [bitmap text fragment](/images//Images/TA_Glossary/Topics/glossaryTextFragment.html).
+    String representing the target [bitmap text fragment](/reuse/../TA_Glossary/Topics/glossaryTextFragment.html).
 
 -   **index**
 
-    \(Optional\) Specifies a particular instance of the target [bitmap text fragment](/images//Images/TA_Glossary/Topics/glossaryTextFragment.html), in case more than one match is expected.
+    \(Optional\) Specifies a particular instance of the target [bitmap text fragment](/reuse/../TA_Glossary/Topics/glossaryTextFragment.html), in case more than one match is expected.
 
     The index of a given matching bitmap text fragment is determined by its position, relative to other matching fragments in the active area, in a left-to-right, top-to-bottom ordering, as in the manner of reading a page. \(Indexing starts at 1; default = 1.\)
 
 -   **x**
 
-    \(Optional\) Horizontal position of effective click, specified as distance in pixels from left edge of the discovered [bitmap text fragment](/images//Images/TA_Glossary/Topics/glossaryTextFragment.html). \(Defaults to horizontal center of the text fragment, which is also the case when x is set to 0.\)
+    \(Optional\) Horizontal position of effective click, specified as distance in pixels from left edge of the discovered [bitmap text fragment](/reuse/../TA_Glossary/Topics/glossaryTextFragment.html). \(Defaults to horizontal center of the text fragment, which is also the case when x is set to 0.\)
 
 -   **y**
 
-    \(Optional\) Vertical position of effective click, specified as distance in pixels from top edge of the discovered [bitmap text fragment](/images//Images/TA_Glossary/Topics/glossaryTextFragment.html). \(Defaults to vertical center of the text fragment, which is also the case when y is set to 0.\)
+    \(Optional\) Vertical position of effective click, specified as distance in pixels from top edge of the discovered [bitmap text fragment](/reuse/../TA_Glossary/Topics/glossaryTextFragment.html). \(Defaults to vertical center of the text fragment, which is also the case when y is set to 0.\)
 
 -   **click type**
 
@@ -80,7 +77,7 @@ Find a given bitmapped text string in a specified area of a bitmap, and then sim
 
     \(Optional\) Color code of the text, in hexadecimal. \(See Notes below.\)
 
-    This value is obtained from the [OCR Detector Tool](/images//Images/TA_Help/Topics/ug_OCR_detector_tool_retrieving_color_code.html#note_e3p_3yg_g4) dialog box.
+    This value is obtained from the [OCR Detector Tool](/reuse/../TA_Help/Topics/ug_OCR_detector_tool_retrieving_color_code.html#note_e3p_3yg_g4) dialog box.
 
 
 ## Valid contexts
@@ -124,15 +121,15 @@ This action may be used within the following project items:test modules and user
         -   The action's GDI text identification functionality is case sensitive, and is affected by the value of the [case sensitive](case_sensitive.html) setting.
         -   It is highly recommended that you apply wildcards for this argument's value, since the text re-drawn by given drawing functions might contain surrounding noise. For example: given a value of \{Administration.\*\}, TestArchitect searches for texts whose string beginnings match Administration. In more general terms, this argument accepts regular expressions.
 -   text color argument:
-    -   No value is required if your test procedure does not make use of the built-in [set ocr setting](/images//Images/TA_Automation/Topics/bia_set_ocr_setting.html) action and [OCR Detector Tool](/images//Images/TA_Help/Topics/ug_OCR_detector_tool.html).
+    -   No value is required if your test procedure does not make use of the built-in [set ocr setting](/reuse/../TA_Automation/Topics/bia_set_ocr_setting.html) action and [OCR Detector Tool](/reuse/../TA_Help/Topics/ug_OCR_detector_tool.html).
     -   Otherwise, a value is required for text color, and is generally obtained through the OCR Detector Tool. This ensures that OCR-related built-in actions are able to detect the given text properly, in the same way that you would identify it manually with the OCR Detector Tool.
 -   For testing mobile applications:
-    -   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/images//Images/TA_Automation/Topics/bia_get_screen_resolution.html#li.ios.get_screen_resolution).\)
-    -   **Android:** This built-in action, when applied to a connected Android device, requires that the [TestArchitect Agent service](/images//Images/Android/Topics/Android_TA_agent.html) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
+    -   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/reuse/../TA_Automation/Topics/bia_get_screen_resolution.html#li.ios.get_screen_resolution).\)
+    -   **Android:** This built-in action, when applied to a connected Android device, requires that the [TestArchitect Agent service](/reuse/../Android/Topics/Android_TA_agent.html) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
         1.  Connect the Android device to the test controller through a USB cable \(not Wi-Fi\), if not already so connected.
-        2.  Open the [Android Instrumentation Tool](/images//Images/Android/Topics/Android_Instrumentation_tool.html) dialog box.
+        2.  Open the [Android Instrumentation Tool](/reuse/../Android/Topics/Android_Instrumentation_tool.html) dialog box.
         3.  Click the **Refresh devices list** ![](/images//Images/Android/Images/Refresh_device_list_btn.png) button.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

@@ -37,22 +37,22 @@ The following table applies to test module and test case list views. It indicate
 
 |Entity|Editable If Checked Out|Always Editable|
 |------|-----------------------|---------------|
-|Test module|Name|-   Description-   Assigned user-   Priority-   Status-   Recent result-   Source-   Notes-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)|
-|Test case|ID Title|-   Recent result-   Source-   Notes-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)|
+|Test module|Name|-   Description-   Assigned user<br>-   Priority<br>-   Status<br>-   Recent result<br>-   Source<br>-   Notes<br>-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)<br><br>|
+|Test case<br>|ID<br> Title<br><br>|-   Recent result-   Source<br>-   Notes<br>-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)<br><br>|
 
 This table describes which fields are available for [mass editing](Listview_edit_fields.html) using the Edit Multiple Fields dialog box:
 
 |List View|Editable fields|
 |---------|---------------|
-|Test module|-   Status-   Assigned user-   Priority-   Notes-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)|
-|Test case|-   Notes-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)|
-|Test objective|-   Notes-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)|
-|Data set|-   Status-   Assigned user-   Notes-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)|
-|Action|-   Status-   Assigned user-   Notes-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)|
-|Interface|-   Notes-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)|
-|Interface Entity|-   Status-   Assigned user-   Notes-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)|
-|Pictures|-   Notes-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)|
-|Repository Results|-   Notes-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)|
+|Test module|-   Status-   Assigned user<br>-   Priority<br>-   Notes<br>-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)<br><br>|
+|Test case<br>|-   Notes-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)<br><br>|
+|Test objective<br>|-   Notes-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)<br><br>|
+|Data set<br>|-   Status-   Assigned user<br>-   Notes<br>-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)<br><br>|
+|Action|-   Status-   Assigned user<br>-   Notes<br>-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)<br><br>|
+|Interface|-   Notes-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)<br><br>|
+|Interface Entity|-   Status-   Assigned user<br>-   Notes<br>-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)<br><br>|
+|Pictures|-   Notes-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)<br><br>|
+|Repository Results|-   Notes-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)<br><br>|
 |Local Results|N/A|
 |Test suites|N/A|
 |Favorite|N/A|

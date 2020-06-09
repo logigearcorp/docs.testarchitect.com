@@ -4,11 +4,8 @@ linktitle: "GetRole"
 weight: 17
 aliases: 
     - /TA_Automation/Topics/abt_GetRole_1.html
+keywords: "getrole, abtelement getrole, role of control, role of HTML element"
 ---
-keyword: [getrole, abtelement getrole, role of control, role of HTML element]
----
-
-# GetRole
 
 ## Syntax
 

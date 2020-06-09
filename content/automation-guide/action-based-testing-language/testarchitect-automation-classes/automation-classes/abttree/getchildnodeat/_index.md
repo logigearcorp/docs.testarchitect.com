@@ -4,11 +4,8 @@ linktitle: "GetChildNodeAt"
 weight: 6
 aliases: 
     - /TA_Automation/Topics/abt_GetChildNodeAt_17.html
+keywords: "getchildnodeat, abttree getchildnodeat, tree node, tree node path, path from root to given tree node"
 ---
-keyword: [getchildnodeat, abttree getchildnodeat, tree node, tree node path, path from root to given tree node]
----
-
-# GetChildNodeAt
 
 ## Syntax
 

@@ -4,11 +4,8 @@ linktitle: "GetSelectedIndex"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/abt_GetSelectedIndex.html
+keywords: "getselectedindex, abtcombobox getselectedindex, index of selected item in combo box, index of currently selected item in combo box"
 ---
-keyword: [getselectedindex, abtcombobox getselectedindex, index of selected item in combo box, index of currently selected item in combo box]
----
-
-# GetSelectedIndex
 
 ## Syntax
 

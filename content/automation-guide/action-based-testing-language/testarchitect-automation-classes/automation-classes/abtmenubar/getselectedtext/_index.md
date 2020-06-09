@@ -4,11 +4,8 @@ linktitle: "GetSelectedText"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/abt_GetSelectedText_6.html
+keywords: "getselectedtext, abtmenubar getselectedtext, content of selected menu item, value of selected menu item"
 ---
-keyword: [getselectedtext, abtmenubar getselectedtext, content of selected menu item, value of selected menu item]
----
-
-# GetSelectedText
 
 ## Syntax
 

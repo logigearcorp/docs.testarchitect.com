@@ -4,11 +4,8 @@ linktitle: "get system performance information"
 weight: 7
 aliases: 
     - /TA_Automation/Topics/bia_get_system_performance_information.html
+keywords: "get system performance information, get system performance info, get system performance status, get system resource usage, get"
 ---
-keyword: [get system performance information, get system performance info, get system performance status, get system resource usage, get]
----
-
-# get system performance information
 
 ## Description
 
@@ -44,7 +41,7 @@ This action may be used within the following project items:test modules and user
 -   For mobile operating systems:
     -   All four values \(cpu usage, memory usage, running apps and battery capacity\) are returned.
 -   If the variables in argumentscpu usage, memory usage, running apps or battery capacityhave not been declared, the action creates them as globals.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

@@ -4,11 +4,8 @@ linktitle: "check"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/bia_check.html
+keywords: "check text, check text in control against expected string, check if text in control matches expected string, check whether text in control matches expected string"
 ---
-keyword: [check text, check text in control against expected string, check if text in control matches expected string, check whether text in control matches expected string]
----
-
-# check
 
 ## Description
 
@@ -40,7 +37,7 @@ This action may be used within the following project items:test modules and user
     -   An empty value argument results in Pass if the control's value is indeed empty; otherwise Fail.
     -   In the case of Boolean-state controls, such as check boxes and radio buttons, the values 1, on, true and yes are all equivalent to the selected state, while 0, off, false and no are equivalent to the cleared state.
 -   Note that the TA property of the control checked by this action varies by control class. In all cases, it is the property whose value is on display.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

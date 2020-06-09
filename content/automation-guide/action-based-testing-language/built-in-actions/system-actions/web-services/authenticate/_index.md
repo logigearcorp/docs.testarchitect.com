@@ -4,11 +4,8 @@ linktitle: "authenticate"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/bia_authenticate.html
+keywords: "authenticate web service, web service authentication, authenticaion for web service"
 ---
-keyword: [authenticate web service, web service authentication, authenticaion for web service]
----
-
-# authenticate
 
 ## Description
 
@@ -48,7 +45,7 @@ This action may be used within the following project items:test modules and user
         -   Base64url encoded string: Sm9objpEb2U
     2.  For OAuth 2.0 scheme: Specifying an access token which is required to access OAuth protected resources. For example: ya29.Ci-fA76X0cjJXa2Lx0RM-fRyAQ6-6pboEX-iuT7PR-yYV6D-Rfbos7bs151wiL-O7w
     3.  For Digest authentication scheme: Specify two fields including username and password to authenticate with the service you are using. Follow this format **username:password**.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

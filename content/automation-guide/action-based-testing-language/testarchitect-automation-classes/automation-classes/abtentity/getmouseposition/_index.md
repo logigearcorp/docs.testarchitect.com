@@ -4,11 +4,8 @@ linktitle: "GetMousePosition"
 weight: 14
 aliases: 
     - /TA_Automation/Topics/abt_GetMousePosition.html
+keywords: "getmouseposition, abtentity getmouseposition, get mouse location, coordinates of mouse pointer, position of mouse pointer"
 ---
-keyword: [getmouseposition, abtentity getmouseposition, get mouse location, coordinates of mouse pointer, position of mouse pointer]
----
-
-# GetMousePosition
 
 ## Syntax
 

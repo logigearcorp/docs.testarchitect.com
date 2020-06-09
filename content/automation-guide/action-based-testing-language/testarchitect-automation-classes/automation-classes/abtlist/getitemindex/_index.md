@@ -4,11 +4,8 @@ linktitle: "GetItemIndex"
 weight: 10
 aliases: 
     - /TA_Automation/Topics/abt_GetItemIndex_3.html
+keywords: "getitemindex, abtlist getindexitem, index of item in list, index of item with specified value in list"
 ---
-keyword: [getitemindex, abtlist getindexitem, index of item in list, index of item with specified value in list]
----
-
-# GetItemIndex
 
 ## Syntax
 

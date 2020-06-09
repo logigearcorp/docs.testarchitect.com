@@ -4,11 +4,8 @@ linktitle: "OpenElement"
 weight: 7
 aliases: 
     - /TA_Automation/Topics/abt_OpenElement.html
+keywords: "abtelement openelement, open control"
 ---
-keyword: [abtelement openelement, open control]
----
-
-# OpenElement
 
 ## Syntax
 

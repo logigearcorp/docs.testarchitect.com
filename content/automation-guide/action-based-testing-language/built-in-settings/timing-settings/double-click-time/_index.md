@@ -4,11 +4,8 @@ linktitle: "double click time"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/bis_double_click_time.html
+keywords: "minimum length for double click time, double click speed, slowest speed of double click, set interval between clicks in double-click"
 ---
-keyword: [minimum length for double click time, double click speed, slowest speed of double click, set interval between clicks in double-click]
----
-
-# double click time
 
 ## Description
 

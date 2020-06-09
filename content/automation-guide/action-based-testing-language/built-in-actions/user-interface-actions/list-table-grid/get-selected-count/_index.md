@@ -4,11 +4,8 @@ linktitle: "get selected count"
 weight: 23
 aliases: 
     - /TA_Automation/Topics/bia_get_selected_count.html
+keywords: "get selected count, get number of selected items in multiselect control, count selected items in multiselect control, count selected items in list box, count selected items in list view"
 ---
-keyword: [get selected count, get number of selected items in multiselect control, count selected items in multiselect control, count selected items in list box, count selected items in list view]
----
-
-# get selected count
 
 ## Description
 
@@ -39,7 +36,7 @@ This action may be used within the following project items:test modules and user
     -   A returned value of `0` indicates that no items in the specified control are selected.
     -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
     -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

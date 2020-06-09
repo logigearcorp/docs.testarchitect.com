@@ -10,7 +10,7 @@ Deleting a data profile removes that data profile from the repository, Dashboard
 
 Ensure that the data profile you want to delete is not used by any panel in Dashboard, or by reporting in TestArchitect. To delete a data profile on a Dashboard page:
 
-1.  [Launch an instance of the Dashboard](/images//Images/TA_Help/Topics/Dashboard_starting.html) and log in to the session as a user with [permission](/images//Images/TA_Help/Topics/Dashboard_authentication_permissions.html) sufficient to delete a data profile.
+1.  [Launch an instance of the Dashboard](/reuse/../TA_Help/Topics/Dashboard_starting.html) and log in to the session as a user with [permission](/reuse/../TA_Help/Topics/Dashboard_authentication_permissions.html) sufficient to delete a data profile.
 
 2.  On the Dashboard's administrative bar, point to **Administer** and select **Data Profiles**.
 

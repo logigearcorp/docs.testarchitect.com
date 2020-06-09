@@ -4,11 +4,8 @@ linktitle: "end create data set"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/bia_end_create_data_set.html
+keywords: "end create data set, end dataset creation"
 ---
-keyword: [end create data set, end dataset creation]
----
-
-# end create data set
 
 ## Description
 

@@ -4,11 +4,8 @@ linktitle: "GetItemIndex"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/abt_GetItemIndex.html
+keywords: "getitemindex, abtcombobox getitemindex, index of item in combo box based on text content, index of item with given content in combo box"
 ---
-keyword: [getitemindex, abtcombobox getitemindex, index of item in combo box based on text content, index of item with given content in combo box]
----
-
-# GetItemIndex
 
 ## Syntax
 

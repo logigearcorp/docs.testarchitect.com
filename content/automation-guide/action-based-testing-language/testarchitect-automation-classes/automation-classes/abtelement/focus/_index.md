@@ -4,11 +4,8 @@ linktitle: "Focus"
 weight: 8
 aliases: 
     - /TA_Automation/Topics/abt_Focus_1.html
+keywords: "focus, abtelement focus, bring focus to element, focus on control, focus on HTML element"
 ---
-keyword: [focus, abtelement focus, bring focus to element, focus on control, focus on HTML element]
----
-
-# Focus
 
 ## Syntax
 

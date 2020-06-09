@@ -16,8 +16,8 @@ The type of available license scheme to you depends upon your license of TestArc
 
 |License|License scheme available|
 |-------|------------------------|
-|[Universal](TA_Editions.html#note_Universal.license)|Floating Node-locked Host-based|
-|[Agent](TA_Editions.html#p.ta_editions.agent)|Floating Host-based|
+|[Universal](TA_Editions.html#note_Universal.license)|Floating<br> Node-locked<br><br> Host-based<br><br>|
+|[Agent](TA_Editions.html#p.ta_editions.agent)|Floating<br> Host-based<br><br>|
 
 **Note:**
 

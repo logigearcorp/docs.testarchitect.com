@@ -4,11 +4,8 @@ linktitle: "winforms raw class"
 weight: 26
 aliases: 
     - /TA_Automation/Topics/bis_winforms_raw_class.html
+keywords: "winforms raw class, convert winforms raw class, winforms raw class conversion"
 ---
-keyword: [winforms raw class, convert winforms raw class, winforms raw class conversion]
----
-
-# winforms raw class
 
 ## Description
 

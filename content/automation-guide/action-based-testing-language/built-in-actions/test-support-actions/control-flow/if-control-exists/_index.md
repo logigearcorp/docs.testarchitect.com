@@ -4,11 +4,8 @@ linktitle: "if control exists"
 weight: 11
 aliases: 
     - /TA_Automation/Topics/bia_if_control_exists.html
+keywords: "if control exists, check if control exists, check whether control exists, check existence of control, verify existence of control"
 ---
-keyword: [if control exists, check if control exists, check whether control exists, check existence of control, verify existence of control]
----
-
-# if control exists
 
 ## Description
 

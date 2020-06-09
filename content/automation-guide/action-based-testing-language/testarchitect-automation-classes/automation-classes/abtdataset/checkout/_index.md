@@ -4,11 +4,8 @@ linktitle: "CheckOut"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/abt_CheckOut.html
+keywords: "checkout, abtdataset checkout, check out data set from repository, check out data set"
 ---
-keyword: [checkout, abtdataset checkout, check out data set from repository, check out data set]
----
-
-# CheckOut
 
 ## Syntax
 

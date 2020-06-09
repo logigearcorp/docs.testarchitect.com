@@ -4,11 +4,8 @@ linktitle: "GetName"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/abt_GetName_BaselinePicture.html
+keywords: "getname, abtbaselinepicture getname, name of current baseline image, current baseline image name"
 ---
-keyword: [getname, abtbaselinepicture getname, name of current baseline image, current baseline image name]
----
-
-# GetName
 
 ## Syntax
 

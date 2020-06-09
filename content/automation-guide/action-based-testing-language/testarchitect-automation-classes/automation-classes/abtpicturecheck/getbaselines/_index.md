@@ -4,11 +4,8 @@ linktitle: "GetBaselines"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/abt_GetBaselines.html
+keywords: "getbaselines, abtpicturecheck getbaselines, list of baseline images, obtain list of baseline images"
 ---
-keyword: [getbaselines, abtpicturecheck getbaselines, list of baseline images, obtain list of baseline images]
----
-
-# GetBaselines
 
 ## Syntax
 

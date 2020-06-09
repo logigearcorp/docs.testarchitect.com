@@ -4,11 +4,8 @@ linktitle: "GetRowCount"
 weight: 10
 aliases: 
     - /TA_Automation/Topics/abt_GetRowCount_13.html
+keywords: "getrowcount, abttable getrowcount, number of rows in table, row count, how many rows in table"
 ---
-keyword: [getrowcount, abttable getrowcount, number of rows in table, row count, how many rows in table]
----
-
-# GetRowCount
 
 ## Syntax
 

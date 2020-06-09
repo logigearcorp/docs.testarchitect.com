@@ -4,11 +4,8 @@ linktitle: "GetChildAt"
 weight: 11
 aliases: 
     - /TA_Automation/Topics/abt_GetChildAt.html
+keywords: "getchildat, abtentity getchildat, child of entity, child element of entity based on index"
 ---
-keyword: [getchildat, abtentity getchildat, child of entity, child element of entity based on index]
----
-
-# GetChildAt
 
 ## Syntax
 

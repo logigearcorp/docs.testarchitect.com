@@ -4,11 +4,8 @@ linktitle: "enable click hook"
 weight: 6
 aliases: 
     - /TA_Automation/Topics/bis_enable_click_hook.html
+keywords: "enable click hook, try again when click action fails to register, determine whether, after click action fails to register, second attempt with made"
 ---
-keyword: [enable click hook, try again when click action fails to register, determine whether, after click action fails to register, second attempt with made]
----
-
-# enable click hook
 
 ## Description
 

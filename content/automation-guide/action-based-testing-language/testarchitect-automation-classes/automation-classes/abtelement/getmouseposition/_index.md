@@ -4,11 +4,8 @@ linktitle: "GetMousePosition"
 weight: 13
 aliases: 
     - /TA_Automation/Topics/abt_GetMousePosition_1.html
+keywords: "getmouseposition, abtelement getmouseposition, relative position of mouse, coordinates of mouse pointer relative to control, position of mouse pointer relative to HTML element"
 ---
-keyword: [getmouseposition, abtelement getmouseposition, relative position of mouse, coordinates of mouse pointer relative to control, position of mouse pointer relative to HTML element]
----
-
-# GetMousePosition
 
 ## Syntax
 

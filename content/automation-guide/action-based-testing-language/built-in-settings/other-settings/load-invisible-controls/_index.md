@@ -4,11 +4,8 @@ linktitle: "load invisible controls"
 weight: 13
 aliases: 
     - /TA_Automation/Topics/bis_load_invisible_controls.html
+keywords: "load invisible controls, determine whether to load invisible controls during test execution, ignore invisible controls during test run, load invisible controls while executing test"
 ---
-keyword: [load invisible controls, determine whether to load invisible controls during test execution, ignore invisible controls during test run, load invisible controls while executing test]
----
-
-# load invisible controls
 
 ## Description
 

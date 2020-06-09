@@ -4,11 +4,8 @@ linktitle: "get system time"
 weight: 6
 aliases: 
     - /TA_Automation/Topics/bia_get_system_time.html
+keywords: "get system time, get current time, get current local time"
 ---
-keyword: [get system time, get current time, get current local time]
----
-
-# get system time
 
 ## Description
 
@@ -59,7 +56,7 @@ This action may be used within the following project items:test modules and user
 
 -   If the variables in argumentshour, minute, second or AM/PMhave not been declared, the action creates them as globals.
 -   For each of hour, minute, second and AM/PM, if the argument is left empty, a variable with the same name as the argument header is created to hold the return value.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

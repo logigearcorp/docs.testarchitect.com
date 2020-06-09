@@ -4,11 +4,8 @@ linktitle: "exit loop"
 weight: 6
 aliases: 
     - /TA_Automation/Topics/bia_exit_loop.html
+keywords: "exit loop, exit loop statement, break loop, terminate loop, loop break"
 ---
-keyword: [exit loop, exit loop statement, break loop, terminate loop, loop break]
----
-
-# exit loop
 
 ## Description
 

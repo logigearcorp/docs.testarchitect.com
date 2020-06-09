@@ -4,11 +4,8 @@ linktitle: "local variable"
 weight: 8
 aliases: 
     - /TA_Automation/Topics/bia_local_variable.html
+keywords: "local variable, define local variable, declare local variable, local variable declaration and assignment"
 ---
-keyword: [local variable, define local variable, declare local variable, local variable declaration and assignment]
----
-
-# local variable
 
 ## Description
 

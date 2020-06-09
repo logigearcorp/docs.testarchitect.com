@@ -21,7 +21,7 @@ Upon creation, TestArchitect populates the test module with headings for a recom
 1.  The **TEST MODULE** heading: As a documentary line, this heading is fixed at row 1, and is the only non-optional, non-deletable heading in a test module.
 2.  The **OBJECTIVES** heading: The OBJECTIVES section holds every objective that is associated with the test cases. The objectives listed in it define the scope of the test module. They allow readers to understand why test cases are designed the way they are, and give an auditor a quick insight into the correctness and, more importantly, completeness of a test.
 
-    **Note:** Only the [test objective](/images//Images/TA_Automation/Topics/bia_test_objective.html) built-in action is allowed to appear in the OBJECTIVE section. Otherwise, the following error dialog box appears.
+    **Note:** Only the [test objective](/reuse/../TA_Automation/Topics/bia_test_objective.html) built-in action is allowed to appear in the OBJECTIVE section. Otherwise, the following error dialog box appears.
 
     ![](/images//Images/TA_Tutorials/Images/tut_TM_template_error_1.png)
 
@@ -38,10 +38,10 @@ A typical test module should resemble the following:
 
 ![](/images//Images/TA_Tutorials/Images/tut_TM_template_warning_1.png)
 
-Of the above, [INITIAL](/images//Images/TA_Automation/Topics/bia_initial.html), [FINAL](/images//Images/TA_Automation/Topics/bia_final.html), [TEST CASE](/images//Images/TA_Automation/Topics/bia_test_case.html), and [TEST OBJECTIVE](/images//Images/TA_Automation/Topics/bia_test_objective.html) are all built-in actions. They are not, however, executed at run time. Instead, they serve two purposes:
+Of the above, [INITIAL](/reuse/../TA_Automation/Topics/bia_initial.html), [FINAL](/reuse/../TA_Automation/Topics/bia_final.html), [TEST CASE](/reuse/../TA_Automation/Topics/bia_test_case.html), and [TEST OBJECTIVE](/reuse/../TA_Automation/Topics/bia_test_objective.html) are all built-in actions. They are not, however, executed at run time. Instead, they serve two purposes:
 
-1.  First, they serve a documentary and organizational function. This is especially true of [TEST CASE](/images//Images/TA_Automation/Topics/bia_test_case.html) and [TEST OBJECTIVE](/images//Images/TA_Automation/Topics/bia_test_objective.html), which specify the roles of sections of your action lines in the context of an overall test plan.
-2.  Second, the [INITIAL](/images//Images/TA_Automation/Topics/bia_initial.html), [FINAL](/images//Images/TA_Automation/Topics/bia_final.html), and [TEST CASE](/images//Images/TA_Automation/Topics/bia_test_case.html) actions serve as entry points for execution. At the start of your execution run, you may specify exactly which of these sections of action lines are to be included in the run.
+1.  First, they serve a documentary and organizational function. This is especially true of [TEST CASE](/reuse/../TA_Automation/Topics/bia_test_case.html) and [TEST OBJECTIVE](/reuse/../TA_Automation/Topics/bia_test_objective.html), which specify the roles of sections of your action lines in the context of an overall test plan.
+2.  Second, the [INITIAL](/reuse/../TA_Automation/Topics/bia_initial.html), [FINAL](/reuse/../TA_Automation/Topics/bia_final.html), and [TEST CASE](/reuse/../TA_Automation/Topics/bia_test_case.html) actions serve as entry points for execution. At the start of your execution run, you may specify exactly which of these sections of action lines are to be included in the run.
 
 If you do not follow the recommended test module template, as discussed above, a warning dialog box appears when you save your test module. You may ignore the warning dialog box by clicking the **Continue Anyway** button.
 

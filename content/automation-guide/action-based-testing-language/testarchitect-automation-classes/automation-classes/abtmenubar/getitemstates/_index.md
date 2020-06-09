@@ -4,11 +4,8 @@ linktitle: "GetItemStates"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/abt_GetItemState_6.html
+keywords: "getitemstates, abtmenubar getitemstates, current states of menu item, menu item states"
 ---
-keyword: [getitemstates, abtmenubar getitemstates, current states of menu item, menu item states]
----
-
-# GetItemStates
 
 ## Syntax
 

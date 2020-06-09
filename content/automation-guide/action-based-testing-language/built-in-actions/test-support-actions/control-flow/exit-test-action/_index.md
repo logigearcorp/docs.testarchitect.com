@@ -4,11 +4,8 @@ linktitle: "exit test action"
 weight: 7
 aliases: 
     - /TA_Automation/Topics/bia_exit_test_action.html
+keywords: "exit test action, terminate test action, test action termination, stop test action"
 ---
-keyword: [exit test action, terminate test action, test action termination, stop test action]
----
-
-# exit test action
 
 ## Description
 

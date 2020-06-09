@@ -4,11 +4,8 @@ linktitle: "SetCellText"
 weight: 16
 aliases: 
     - /TA_Automation/Topics/abt_SetCellText_13.html
+keywords: "setcelltext, set content of cell, assign value to cell, "
 ---
-keyword: [setcelltext, set content of cell, assign value to cell, ]
----
-
-# SetCellText
 
 ## Syntax
 

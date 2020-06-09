@@ -4,11 +4,8 @@ linktitle: "GetBaselineByName"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/abt_GetBaselineByName.html
+keywords: "getbaselinebyname, abtpicturecheck getbaselinebyname, baseline image with specified name in current picture check, obtain baseline image with specified name"
 ---
-keyword: [getbaselinebyname, abtpicturecheck getbaselinebyname, baseline image with specified name in current picture check, obtain baseline image with specified name]
----
-
-# GetBaselineByName
 
 ## Syntax
 

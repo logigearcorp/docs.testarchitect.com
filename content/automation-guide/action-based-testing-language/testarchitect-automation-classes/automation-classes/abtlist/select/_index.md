@@ -4,11 +4,8 @@ linktitle: "Select"
 weight: 18
 aliases: 
     - /TA_Automation/Topics/abt_Select_4.html
+keywords: "select item in list based on index, select item at specific index in list"
 ---
-keyword: [select item in list based on index, select item at specific index in list]
----
-
-# Select
 
 ## Syntax
 

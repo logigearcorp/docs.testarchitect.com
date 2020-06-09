@@ -4,11 +4,8 @@ linktitle: "GetPictureCheck"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/abt_GetPictureCheck.html
+keywords: "getpicturecheck, abtpicturecheckmanagement getpicturecheck, retrieve picture check, get picture check"
 ---
-keyword: [getpicturecheck, abtpicturecheckmanagement getpicturecheck, retrieve picture check, get picture check]
----
-
-# GetPictureCheck
 
 ## Syntax
 

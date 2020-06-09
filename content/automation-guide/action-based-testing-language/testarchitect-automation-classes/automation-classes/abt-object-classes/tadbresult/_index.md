@@ -4,11 +4,8 @@ linktitle: "TADBResult"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/abt_TADBResult.html
+keywords: "tadbresult, get result returned from execsqlcommand, retrieve query result"
 ---
-keyword: [tadbresult, get result returned from execsqlcommand, retrieve query result]
----
-
-# TADBResult
 
 ## Description
 

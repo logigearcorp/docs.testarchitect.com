@@ -4,11 +4,8 @@ linktitle: "does toolbar menu item exist"
 weight: 20
 aliases: 
     - /TA_Automation/Topics/bia_does_toolbar_menu_item_exist.html
+keywords: "does toolbar menu item exist, check if specified item on drop-down menu on toolbar button exists, check whether given item on drop-down menu on toolbar button is found, check for existence of specified item on drop-down menu on toolbar button, verify existence of specified item on drop-down menu on toolbar button"
 ---
-keyword: [does toolbar menu item exist, check if specified item on drop-down menu on toolbar button exists, check whether given item on drop-down menu on toolbar button is found, check for existence of specified item on drop-down menu on toolbar button, verify existence of specified item on drop-down menu on toolbar button]
----
-
-# does toolbar menu item exist
 
 ## Description
 
@@ -56,7 +53,7 @@ This action may be used within the following project items:test modules and user
 -   item argument:
     -   Menu items are identified by their caption properties.
     -   If a menu path of more than one item must be specified, use arrow symbols \( -\> \) as delimiters between menu items. For example, `Vehicles->Cars->Four-door sedans`.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 -   variable argument:
     -   If the variable in argumentvariablehas not been declared, the action creates it as a global.

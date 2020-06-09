@@ -4,11 +4,8 @@ linktitle: "hold key"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/bia_hold_key.html
+keywords: "hold key, hold key down"
 ---
-keyword: [hold key, hold key down]
----
-
-# hold key
 
 ## Description
 
@@ -99,7 +96,7 @@ The following settings are applicable to this action:[case sensitive](case_sensi
         in the test procedures. Note that, this approach does not take effect on the value of \{all\} for release key.
 
 -   For simple key combinations, such as ALT-F, hold key is not really needed. You can simulate this key combination by using the [type](type.html) built-in action. hold key is only needed when one or more keys need to be held down across multiple steps.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Example
 

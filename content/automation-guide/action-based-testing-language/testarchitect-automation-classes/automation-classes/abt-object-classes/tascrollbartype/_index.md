@@ -4,11 +4,8 @@ linktitle: "TAScrollBarType"
 weight: 7
 aliases: 
     - /TA_Automation/Topics/abt_TAScrollBarType.html
+keywords: "TAscrollbartype, scroll bar type, scroll bar orientation, vertical or horizontal scroll bar"
 ---
-keyword: [TAscrollbartype, scroll bar type, scroll bar orientation, vertical or horizontal scroll bar]
----
-
-# TAScrollBarType
 
 ## Description
 

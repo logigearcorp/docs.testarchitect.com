@@ -4,11 +4,8 @@ linktitle: "get picker view item by index"
 weight: 7
 aliases: 
     - /TA_Automation/Topics/bia_get_picker_view_item_by_index.html
+keywords: "get picker view item by index, get item from component of picker view by index, retrieve item from component of picker view by index, get retrieve item from"
 ---
-keyword: [get picker view item by index, get item from component of picker view by index, retrieve item from component of picker view by index, get retrieve item from]
----
-
-# get picker view item by index
 
 ## Description
 
@@ -47,7 +44,7 @@ This action may be used within the following project items:test modules and user
 -   variable argument:
     -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
     -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

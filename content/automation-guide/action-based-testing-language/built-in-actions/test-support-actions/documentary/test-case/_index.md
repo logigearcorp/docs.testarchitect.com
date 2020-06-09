@@ -4,11 +4,8 @@ linktitle: "test case"
 weight: 6
 aliases: 
     - /TA_Automation/Topics/bia_test_case.html
+keywords: "test case, testcase"
 ---
-keyword: [test case, testcase]
----
-
-# test case
 
 ## Description
 

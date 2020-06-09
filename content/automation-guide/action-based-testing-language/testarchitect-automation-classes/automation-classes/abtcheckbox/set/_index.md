@@ -4,11 +4,8 @@ linktitle: "Set"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/abt_Set.html
+keywords: "set, abtcheckbox set, select check box, clear check box, set state of check box"
 ---
-keyword: [set, abtcheckbox set, select check box, clear check box, set state of check box]
----
-
-# Set
 
 ## Syntax
 

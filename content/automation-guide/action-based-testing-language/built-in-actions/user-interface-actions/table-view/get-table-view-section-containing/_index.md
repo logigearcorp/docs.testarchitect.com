@@ -4,11 +4,8 @@ linktitle: "get table view section containing"
 weight: 9
 aliases: 
     - /TA_Automation/Topics/bia_get_table_view_section_containing.html
+keywords: "get table view section containing, retrieve index of table view section, get position of specified table view section, obtain index of table view section"
 ---
-keyword: [get table view section containing, retrieve index of table view section, get position of specified table view section, obtain index of table view section]
----
-
-# get table view section containing
 
 ## Description
 
@@ -44,7 +41,7 @@ This action may be used within the following project items:test modules and user
     -   Note that index numbering begins with 1.
     -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
     -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

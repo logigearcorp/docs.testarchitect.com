@@ -4,11 +4,8 @@ linktitle: "release key"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/bia_release_key.html
+keywords: "release key, key released, key up, key is released"
 ---
-keyword: [release key, key released, key up, key is released]
----
-
-# release key
 
 ## Description
 
@@ -84,7 +81,7 @@ The following settings are applicable to this action:[remove double quotes from 
 
         in the test procedures. Note that, this approach does not take effect on the value of \{all\} for release key.
 
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Example
 

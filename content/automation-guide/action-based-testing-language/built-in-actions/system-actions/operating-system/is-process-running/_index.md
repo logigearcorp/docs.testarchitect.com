@@ -4,11 +4,8 @@ linktitle: "is process running"
 weight: 8
 aliases: 
     - /TA_Automation/Topics/bia_is_process_running.html
+keywords: "check if process is running or not, check whether process is running or not"
 ---
-keyword: [check if process is running or not, check whether process is running or not]
----
-
-# is process running
 
 ## Description
 
@@ -34,7 +31,7 @@ This action may be used within the following project items:test modules and user
 -   This built-in action applies only to the Android operating system.
 -   process argument:
     -   On an Android device, process is the package name of the running application. To retrieve the package name for an Android application:
-        1.  Open the [Android Instrumentation Tool](/images//Images/Android/Topics/Android_Instrumentation_tool.html) dialog box.
+        1.  Open the [Android Instrumentation Tool](/reuse/../Android/Topics/Android_Instrumentation_tool.html) dialog box.
         2.  In the Application Under Test panel, right-click the appropriate application, and then select **Copy package name**.
 
             ![](/images//Images/Android/Images/Android_copy_package_name.png)
@@ -43,7 +40,7 @@ This action may be used within the following project items:test modules and user
 -   variable argument:
     -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
     -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

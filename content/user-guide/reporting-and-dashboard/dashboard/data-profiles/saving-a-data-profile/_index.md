@@ -10,7 +10,7 @@ A non-guest user can save any existing data profile regardless of the owner, and
 
 To save a data profile on the Dashboard page:
 
-1.  [Launch an instance of the Dashboard](/images//Images/TA_Help/Topics/Dashboard_starting.html) and log in to the session as a user with [permission](/images//Images/TA_Help/Topics/Dashboard_authentication_permissions.html) higher than the that of the guest user.
+1.  [Launch an instance of the Dashboard](/reuse/../TA_Help/Topics/Dashboard_starting.html) and log in to the session as a user with [permission](/reuse/../TA_Help/Topics/Dashboard_authentication_permissions.html) higher than the that of the guest user.
 
 2.  On the Dashboard's administrative bar, point to **Administer** and select **Data Profiles**.
 

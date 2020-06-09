@@ -4,11 +4,8 @@ linktitle: "connect deputy"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/bia_connect_deputy.html
+keywords: "connect deputy, connect lead to deputy, establish connection to deputy, estabish connection from lead to deputy"
 ---
-keyword: [connect deputy, connect lead to deputy, establish connection to deputy, estabish connection from lead to deputy]
----
-
-# connect deputy
 
 ## Description
 
@@ -42,7 +39,7 @@ This action may be used within the following project items:test modules and user
 -   This action is intended for execution only on lead controllers.
 -   Before running a remote test, this action must be invoked to initialize/check the connection.
 -   The name defined by the name argument is used by the built-in [use deputy](use_deputy.html) and [disconnect deputy](disconnect_deputy.html) actions.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

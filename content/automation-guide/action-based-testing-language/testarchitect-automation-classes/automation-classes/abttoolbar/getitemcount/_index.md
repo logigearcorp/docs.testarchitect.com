@@ -4,11 +4,8 @@ linktitle: "GetItemCount"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/abt_GetItemCount_15.html
+keywords: "getitemcount, abttoolbar getitemcount, number of items on toolbar, count items on toolbar, how many items on toolbar"
 ---
-keyword: [getitemcount, abttoolbar getitemcount, number of items on toolbar, count items on toolbar, how many items on toolbar]
----
-
-# GetItemCount
 
 ## Syntax
 

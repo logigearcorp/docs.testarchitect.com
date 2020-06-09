@@ -4,11 +4,8 @@ linktitle: "disconnect all cloud devices"
 weight: 6
 aliases: 
     - /TA_Automation/Topics/bia_disconnect_all_cloud_devices.html
+keywords: "disconnect all mobile cloud devices, mobile cloud device disconnection, detach all mobile cloud devices"
 ---
-keyword: [disconnect all mobile cloud devices, mobile cloud device disconnection, detach all mobile cloud devices]
----
-
-# disconnect all cloud devices
 
 ## Description
 
@@ -21,7 +18,7 @@ There are no arguments for this action.
 ## Notes
 
 -   This built-in action applies only to WebDriver based cloud services. \([Learn more](aut_app_cloud_testing.html).\)
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

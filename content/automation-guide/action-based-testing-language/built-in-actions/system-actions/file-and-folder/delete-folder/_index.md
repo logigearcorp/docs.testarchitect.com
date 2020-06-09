@@ -4,11 +4,8 @@ linktitle: "delete folder"
 weight: 11
 aliases: 
     - /TA_Automation/Topics/bia_delete_folder.html
+keywords: "delete folder, remove folder, get rid of folder"
 ---
-keyword: [delete folder, remove folder, get rid of folder]
----
-
-# delete folder
 
 ## Description
 
@@ -48,7 +45,7 @@ This action may be used within the following project items:test modules and user
 -   The delete folder action does not distinguish between folders that are empty and those that are not. The specified folder is deleted regardless of whether or not it has contents.
 -   The force argument applies only to the Linux platform. Forced deletion is automatic with Windows \(that is, the forced argument is ignored.\) Forced deletion is performed on hidden or read-only folders and subfolders. However, forced deletion will not take place if the folder has been locked by another process.
 -   A warning is issued if the folder specified in folder is not found to exist.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

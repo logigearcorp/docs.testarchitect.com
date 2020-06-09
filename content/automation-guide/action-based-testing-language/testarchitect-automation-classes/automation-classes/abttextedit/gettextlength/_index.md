@@ -4,11 +4,8 @@ linktitle: "GetTextLength"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/abt_GetTextLength_14.html
+keywords: "gettextlength, abttextedit gettextlength, get text length of text control, retrieve text length of text control"
 ---
-keyword: [gettextlength, abttextedit gettextlength, get text length of text control, retrieve text length of text control]
----
-
-# GetTextLength
 
 ## Syntax
 

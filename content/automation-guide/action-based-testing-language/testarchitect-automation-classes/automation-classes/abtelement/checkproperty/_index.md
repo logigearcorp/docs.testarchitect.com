@@ -4,11 +4,8 @@ linktitle: "CheckProperty"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/abt_CheckProperty_1.html
+keywords: "checkproperty, abtelement checkproperty, if control's property matches expected value, control's property against expected value"
 ---
-keyword: [checkproperty, abtelement checkproperty, if control's property matches expected value, control's property against expected value]
----
-
-# CheckProperty
 
 ## Syntax
 

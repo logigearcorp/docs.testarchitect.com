@@ -46,7 +46,7 @@ The following new features and improvements are introduced in TestArchitect vers
         |-----------|------------------|
         |Status bar|oracle.ewt.statusBar.StatusBar|
         |Scrollbar|oracle.ewt.scrolling.scrollBox.EwtLWScrollbar|
-        |Table|oracle.ewt.grid.Gridoracle.apps.jtf.table.AccessibleTableGridoracle.apps.jtf.table.AccessibleSpreadTable|
+        |Table|oracle.ewt.grid.Gridoracle.apps.jtf.table.AccessibleTableGrid<br>oracle.apps.jtf.table.AccessibleSpreadTable<br><br>|
 
     -   Additional support for Oracle Forms [built-in actions](/TA_Automation/Topics/aut_app_testing_Oracle_Forms_supported_actions.html).
 

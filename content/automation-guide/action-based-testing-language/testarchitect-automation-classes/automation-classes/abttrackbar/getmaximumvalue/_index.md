@@ -4,11 +4,8 @@ linktitle: "GetMaximumValue"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/abt_GetMaximumValue_16.html
+keywords: "getmaximumvalue, abttrackbar getmaximumvalue, maximum value of trackbar, retrieve maximum value of slider control, obtain maximum limit of trackbar"
 ---
-keyword: [getmaximumvalue, abttrackbar getmaximumvalue, maximum value of trackbar, retrieve maximum value of slider control, obtain maximum limit of trackbar]
----
-
-# GetMaximumValue
 
 ## Syntax
 

@@ -111,8 +111,8 @@ Some further examples of value set modifiers:
 |----|---------|-----------|
 |country|`US, Canada, Mexico`|Example of a simple value set. Only US, Canada and Mexico are acceptable. All other values are displayed in red in the editor.|
 |country|`US, Canada, Mexico, *`|US, Canada, and Mexico appears in the drop-down list, but any other input is accepted \(that is, not displayed in red\).|
-|city|`country=US: Los Angeles, Chicago; country=Canada: Montreal, Vancouver; country=Mexico:*`|-   2 cities, each are displayed in the list if country is US or Canada.-   No option is displayed for Mexico, but any value is accepted.-   For any other country, any city value is regarded as invalid \(displayed in red\).|
-|zip code|`country=US and city=Los Angeles: 90001, 90002, 90003; country=US and city=Chicago: 60601, 60602, 60603; country=Canada: *, country=*: n/a`|-   3 zip codes, each are displayed if country is US and city is either Los Angeles or Chicago.-   No other zip code is allowed for Los Angeles or Chicago.-   If country is Canada, any zip code is valid.-   If country is anything else, n/a is the only option.|
+|city|`country=US: Los Angeles, Chicago; country=Canada: Montreal, Vancouver; country=Mexico:*`|-   2 cities, each are displayed in the list if country is US or Canada.-   No option is displayed for Mexico, but any value is accepted.<br>-   For any other country, any city value is regarded as invalid \(displayed in red\).<br><br>|
+|zip code|`country=US and city=Los Angeles: 90001, 90002, 90003; country=US and city=Chicago: 60601, 60602, 60603; country=Canada: *, country=*: n/a`|-   3 zip codes, each are displayed if country is US and city is either Los Angeles or Chicago.-   No other zip code is allowed for Los Angeles or Chicago.<br>-   If country is Canada, any zip code is valid.<br>-   If country is anything else, n/a is the only option.<br><br>|
 
 Example of value set modifiers:
 

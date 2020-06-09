@@ -4,11 +4,8 @@ linktitle: "GetItemRect"
 weight: 6
 aliases: 
     - /TA_Automation/Topics/abt_GetItemRect_11.html
+keywords: "getitemrect, abttab getitemrect, bounding rectangle of tab item, rectangle cover tab item"
 ---
-keyword: [getitemrect, abttab getitemrect, bounding rectangle of tab item, rectangle cover tab item]
----
-
-# GetItemRect
 
 ## Syntax
 

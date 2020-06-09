@@ -10,7 +10,7 @@ A panel template serves as a generic panel in which users can quickly instantiat
 
 To create a panel template on the Dashboard page:
 
-1.  [Launch an instance of the Dashboard](/images//Images/TA_Help/Topics/Dashboard_starting.html) and log in to the session as a user with [permission](/images//Images/TA_Help/Topics/Dashboard_authentication_permissions.html) sufficient to create a panel.
+1.  [Launch an instance of the Dashboard](/reuse/../TA_Help/Topics/Dashboard_starting.html) and log in to the session as a user with [permission](/reuse/../TA_Help/Topics/Dashboard_authentication_permissions.html) sufficient to create a panel.
 
 2.  On the Dashboard's administrative bar, point to **Administer** and select **Panels**, and then select **Add New** \(upper-left hand side of the panel name table\).
 

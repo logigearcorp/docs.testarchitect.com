@@ -4,11 +4,8 @@ linktitle: "set data set value"
 weight: 9
 aliases: 
     - /TA_Automation/Topics/bia_set_data_set_value.html
+keywords: "set data set value, assign value to data set, set value to data set"
 ---
-keyword: [set data set value, assign value to data set, set value to data set]
----
-
-# set data set value
 
 ## Description
 
@@ -83,7 +80,7 @@ Use of this action is supported on the following systems/platforms: Windows, Lin
     -   the current user does not have sufficient permission to modify data sets.
     Following execution of this action, it is highly recommended that you use a [check in data set](check_in_data_set.html) action to ensure that all changes to the data set are available before it is actually used.
 
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

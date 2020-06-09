@@ -4,11 +4,8 @@ linktitle: "enter text on next popup"
 weight: 9
 aliases: 
     - /TA_Automation/Topics/bia_enter_text_on_next_popup.html
+keywords: "enter text on next popup, input text on next popup, assign text on next popup"
 ---
-keyword: [enter text on next popup, input text on next popup, assign text on next popup]
----
-
-# enter text on next popup
 
 ## Description
 
@@ -48,7 +45,7 @@ This action may be used within the following project items:test modules and user
 -   If the text argument is empty, TestArchitect clears the popup's existing default text, if any, leaving the input field blank.
 -   Note that this action does not support the case of writing text to the user-entry field of a prompt popup, followed by clicking **Cancel**. To cancel a prompt, use [click on next popup](click_on_next_popup.html).
 -   If this action is applied \(inadvertently or otherwise\) to an alert or a confirmation popup, TestArchitect ignores the text argument and clicks **OK** on the popup.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

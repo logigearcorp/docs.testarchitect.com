@@ -4,11 +4,8 @@ linktitle: "Destroy"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/abt_Destroy.html
+keywords: "destroy abtautomation, destroy class instance of abtautomation, kill class instance of abtautomation, get rid of automation class"
 ---
-keyword: [destroy abtautomation, destroy class instance of abtautomation, kill class instance of abtautomation, get rid of automation class]
----
-
-# Destroy
 
 ## Syntax
 

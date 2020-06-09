@@ -4,11 +4,8 @@ linktitle: "SpinUp"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/abt_SpinUp_9.html
+keywords: "spinup, abtspin spinup, spin up, set spin button to next lower value"
 ---
-keyword: [spinup, abtspin spinup, spin up, set spin button to next lower value]
----
-
-# SpinUp
 
 ## Syntax
 

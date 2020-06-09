@@ -4,11 +4,8 @@ linktitle: "GetItemCount"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/abt_GetItemCount_10.html
+keywords: "getitemcout, abtstatusbar getitemcount, number of items in status bar, how many items in status bar, count items in status bar"
 ---
-keyword: [getitemcout, abtstatusbar getitemcount, number of items in status bar, how many items in status bar, count items in status bar]
----
-
-# GetItemCount
 
 ## Syntax
 

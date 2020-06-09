@@ -4,11 +4,8 @@ linktitle: "ReFillData"
 weight: 11
 aliases: 
     - /TA_Automation/Topics/abt_ReFillData.html
+keywords: "refilldata, abtdataset refilldata, refill dataset with external file"
 ---
-keyword: [refilldata, abtdataset refilldata, refill dataset with external file]
----
-
-# ReFillData
 
 ## Syntax
 

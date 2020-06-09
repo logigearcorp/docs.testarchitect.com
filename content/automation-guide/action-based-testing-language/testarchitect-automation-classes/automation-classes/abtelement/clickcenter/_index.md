@@ -4,11 +4,8 @@ linktitle: "clickCenter"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/abt_ClickCenter_2.html
+keywords: "clickcenter, abtelement clickcenter, click center of control, click middle of control, click center of HTML element"
 ---
-keyword: [clickcenter, abtelement clickcenter, click center of control, click middle of control, click center of HTML element]
----
-
-# clickCenter
 
 ## Syntax
 

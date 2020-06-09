@@ -4,11 +4,8 @@ linktitle: "notice level"
 weight: 18
 aliases: 
     - /TA_Automation/Topics/bis_notice_level.html
+keywords: "notice level, specify level of problem that request user's intervention, set level problem that test run should be interrupted, set level problem when users are asked to make choice"
 ---
-keyword: [notice level, specify level of problem that request user's intervention, set level problem that test run should be interrupted, set level problem when users are asked to make choice]
----
-
-# notice level
 
 ## Description
 

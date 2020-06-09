@@ -4,11 +4,8 @@ linktitle: "DoesItemExistByText"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/abt_DoesItemExist_11.html
+keywords: "doesitemexistbytext, abttab doesitemexistbytext, tab item with specific content exists, existence of tab item with specified content, check tab item with specified content is found"
 ---
-keyword: [doesitemexistbytext, abttab doesitemexistbytext, tab item with specific content exists, existence of tab item with specified content, check tab item with specified content is found]
----
-
-# DoesItemExistByText
 
 ## Syntax
 

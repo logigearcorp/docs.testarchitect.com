@@ -4,11 +4,8 @@ linktitle: "DragMouse"
 weight: 6
 aliases: 
     - /TA_Automation/Topics/abt_DragMouse_1.html
+keywords: "dragmouse, abtentity dragmouse, mouse drage inside control, drag and drop within control, drag and drop HTML element"
 ---
-keyword: [dragmouse, abtentity dragmouse, mouse drage inside control, drag and drop within control, drag and drop HTML element]
----
-
-# DragMouse
 
 ## Syntax
 

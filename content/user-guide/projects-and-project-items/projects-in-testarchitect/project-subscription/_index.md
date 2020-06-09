@@ -6,7 +6,7 @@ aliases:
     - /TA_Help/Topics/Project_subscription.html
 ---
 
-Project subscription aids in large-scale, complex test development. Tests distributed over multiple projects are allowed to share actions, interface definitions, data sets, and picture checks. \(Note that, in the case of picture checks, only [*shared* picture checks](/images//Images/TA_Glossary/Topics/glossarySharedPictureCheck.html) can be subscribed to.\)
+Project subscription aids in large-scale, complex test development. Tests distributed over multiple projects are allowed to share actions, interface definitions, data sets, and picture checks. \(Note that, in the case of picture checks, only [*shared* picture checks](/reuse/../TA_Glossary/Topics/glossarySharedPictureCheck.html) can be subscribed to.\)
 
 1.  [Introduction to project subscription](/TA_Help/Topics/Project_subscription_intro.html)  
 By subscribing to other projects, you can avoid duplication of effort and allow your project to avail itself of the actions, data sets, interface definitions and picture checks that already reside in those projects.

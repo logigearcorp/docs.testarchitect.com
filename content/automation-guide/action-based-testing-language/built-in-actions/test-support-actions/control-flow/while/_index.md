@@ -4,11 +4,8 @@ linktitle: "while"
 weight: 19
 aliases: 
     - /TA_Automation/Topics/bia_while.html
+keywords: "while, while loop, whie statement"
 ---
-keyword: [while, while loop, whie statement]
----
-
-# while
 
 ## Description
 

@@ -4,11 +4,8 @@ linktitle: "GetSelectedIndex"
 weight: 7
 aliases: 
     - /TA_Automation/Topics/abt_GetSelectedIndex_11.html
+keywords: "getselectedindex, abttab getselectedindex, get index of selected tab, retrieve numeric index of selected tab"
 ---
-keyword: [getselectedindex, abttab getselectedindex, get index of selected tab, retrieve numeric index of selected tab]
----
-
-# GetSelectedIndex
 
 ## Syntax
 

@@ -4,11 +4,8 @@ linktitle: "Exists"
 weight: 7
 aliases: 
     - /TA_Automation/Topics/abt_Exists_1.html
+keywords: "exists, abtelment exists, existence of control in window, control currently exists in window, HTML element currently exists web page"
 ---
-keyword: [exists, abtelment exists, existence of control in window, control currently exists in window, HTML element currently exists web page]
----
-
-# Exists
 
 ## Syntax
 

@@ -4,11 +4,8 @@ linktitle: "check table view cell not exists"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/bia_check_table_view_cell_not_exists.html
+keywords: "check table view cell not exists, check if specified table view cell does not exist, check for nonexistence of specified table view cell, verify nonexistence of specified table view cell, verify if specified table view cell is not found"
 ---
-keyword: [check table view cell not exists, check if specified table view cell does not exist, check for nonexistence of specified table view cell, verify nonexistence of specified table view cell, verify if specified table view cell is not found]
----
-
-# check table view cell not exists
 
 ## Description
 
@@ -43,7 +40,7 @@ This action may be used within the following project items:test modules and user
 
 -   This built-in action applies only to the iOS operating system.
 -   index argument: Note that index numbering begins with 1.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

@@ -4,11 +4,8 @@ linktitle: "configure webdriver"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/bia_configure_webdriver.html
+keywords: configure webdriver
 ---
-keyword: configure webdriver
----
-
-# configure webdriver
 
 ## Description
 

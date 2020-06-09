@@ -4,11 +4,8 @@ linktitle: "SelectByIndices"
 weight: 17
 aliases: 
     - /TA_Automation/Topics/abt_Select_3.html
+keywords: "selectbyindices, abtlist selectbyindices, select multiple items in list by indices, pick up more than one items in list by indexes"
 ---
-keyword: [selectbyindices, abtlist selectbyindices, select multiple items in list by indices, pick up more than one items in list by indexes]
----
-
-# SelectByIndices
 
 ## Syntax
 

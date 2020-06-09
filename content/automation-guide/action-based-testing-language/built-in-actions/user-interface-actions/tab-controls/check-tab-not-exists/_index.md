@@ -4,11 +4,8 @@ linktitle: "check tab not exists"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/bia_check_tab_not_exists.html
+keywords: "check tab not exists, check if specified tab does not exist, check whether specified tab does not exist, check for nonexistence of specified tab, verify nonexistence of specified tab"
 ---
-keyword: [check tab not exists, check if specified tab does not exist, check whether specified tab does not exist, check for nonexistence of specified tab, verify nonexistence of specified tab]
----
-
-# check tab not exists
 
 ## Description
 
@@ -36,7 +33,7 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

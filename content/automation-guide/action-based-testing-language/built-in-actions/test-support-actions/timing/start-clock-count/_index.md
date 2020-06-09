@@ -4,11 +4,8 @@ linktitle: "start clock count"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/bia_start_clock_count.html
+keywords: "start clock count, start count up timer, start time counter"
 ---
-keyword: [start clock count, start count up timer, start time counter]
----
-
-# start clock count
 
 ## Description
 

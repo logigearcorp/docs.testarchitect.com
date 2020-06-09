@@ -4,11 +4,8 @@ linktitle: "wait for all deputies"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/bia_wait_for_all_deputies.html
+keywords: "wait for all deputies, wait for all deputies to complete, wait for completion of all deputies, wait until all deputies finish, wait until all deputies compete"
 ---
-keyword: [wait for all deputies, wait for all deputies to complete, wait for completion of all deputies, wait until all deputies finish, wait until all deputies compete]
----
-
-# wait for all deputies
 
 ## Description
 

@@ -4,11 +4,8 @@ linktitle: "execute command"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/bia_execute_command.html
+keywords: "execute a command, run a command"
 ---
-keyword: [execute a command, run a command]
----
-
-# execute command
 
 ## Description
 
@@ -63,7 +60,7 @@ This action may be used within the following project items:test modules and user
 
     \(Note that the output is fully directed to the file, and that the variable, while still a required argument, remains empty, or at its previous value.\)
 
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Example - Case 1
 

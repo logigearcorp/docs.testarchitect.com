@@ -4,11 +4,8 @@ linktitle: "RestoreWindow"
 weight: 27
 aliases: 
     - /TA_Automation/Topics/abt_RestoreWindow.html
+keywords: "restorewindow, abtentity restorewindow, restore window"
 ---
-keyword: [restorewindow, abtentity restorewindow, restore window]
----
-
-# RestoreWindow
 
 ## Syntax
 

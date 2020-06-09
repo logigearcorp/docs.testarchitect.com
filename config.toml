@@ -75,7 +75,11 @@ enableMissingTranslationPlaceholders = false
   [markup.tableOfContents]
     startLevel = 2
     endLevel = 8
-    ordered = false
+    ordered = true
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 
 [output]
   home = [ "HTML", "RSS", "JSON" ]

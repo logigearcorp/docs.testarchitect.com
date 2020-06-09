@@ -4,11 +4,8 @@ linktitle: "Set"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/abt_Set_8.html
+keywords: "abtscrollbar set, set position of scroll bar, move scroll bar to specific position"
 ---
-keyword: [abtscrollbar set, set position of scroll bar, move scroll bar to specific position]
----
-
-# Set
 
 ## Syntax
 

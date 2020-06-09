@@ -4,11 +4,8 @@ linktitle: "start program"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/bia_start_program.html
+keywords: "start a program, launch program"
 ---
-keyword: [start a program, launch program]
----
-
-# start program
 
 ## Description
 
@@ -40,12 +37,12 @@ This action may be used within the following project items:test modules and user
 -   **iOS:** To ensure that start program can successfully launch an application on an iOS device, refer to [Launching an AUT](/iOS/Topics/iOS_launching_an_AUT.html#section_pdh_mzj_m4).
 -   program argument:
     -   For an iOS device, theprogramargument should hold the name of the running application itself, e.g. Car Rental. If needed, you can obtain the application's name through the Interface Viewer:
-        1.  Launch the [Interface Viewer](/images//Images/TA_Help/Topics/Interface_def_Viewer_Starting.html) and then switch to your connected iOS device.
+        1.  Launch the [Interface Viewer](/reuse/../TA_Help/Topics/Interface_def_Viewer_Starting.html) and then switch to your connected iOS device.
         2.  In the Properties panel of the **TA Properties** tab, search for the name property containing the application's name. Note that you will find the string Normal Z1 appended to the application name, e.g. Car Rental Normal Z1.
         3.  Right-click the property and then select **Copy Value**.
         4.  In the test editor, paste the copied value into theprogramargument of the built-in action, then manually delete the appended Normal Z1 string from the name.
     -   On an Android device, program is the package name of the running application. To obtain the package name of an Android application::
-        1.  Open the [Android Instrumentation Tool](/images//Images/Android/Topics/Android_Instrumentation_tool.html) dialog box.
+        1.  Open the [Android Instrumentation Tool](/reuse/../Android/Topics/Android_Instrumentation_tool.html) dialog box.
         2.  In the Application Under Test panel, right-click the appropriate application, and then select **Copy package name**.
 
             ![](/images//Images/Android/Images/Android_copy_package_name.png)
@@ -57,7 +54,7 @@ This action may be used within the following project items:test modules and user
 -   For the execution path, you may use the standard execution file path format of the operating system \(e.g., in Windows: C:\\Program Files\\Acme\\foo.exe\). The execution file path may also use the forward slash delimiter \(C:/Program Files/Acme/foo.exe\), regardless of operating system.
 -   A full path is not required if the directory in which the program resides is listed in the execution search path environment variable of the operating system \(%PATH% in Windows, $PATH in Linux\). For example, full paths need not be specified for such applications as Windows’ Notepad, Calc, and cmd, because the directory in which their executables reside is always included in the system %PATH% variable.
 -   On iOS devices, a full path is not required even if your app is grouped under an app folder; only the app's name is required.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

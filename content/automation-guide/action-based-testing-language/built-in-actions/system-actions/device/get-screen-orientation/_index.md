@@ -4,11 +4,8 @@ linktitle: "get screen orientation"
 weight: 16
 aliases: 
     - /TA_Automation/Topics/bia_get_screen_orientation.html
+keywords: "get screen orientation, get device orientation, detect screen orientation, detect mobile orientation, detect device orientation"
 ---
-keyword: [get screen orientation, get device orientation, detect screen orientation, detect mobile orientation, detect device orientation]
----
-
-# get screen orientation
 
 ## Description
 
@@ -37,7 +34,7 @@ Use of this action is supported on the following systems/platforms: iOS.
 
 -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
 -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

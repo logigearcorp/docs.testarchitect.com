@@ -4,11 +4,8 @@ linktitle: "RemoveColumnByIndex"
 weight: 12
 aliases: 
     - /TA_Automation/Topics/abt_RemoveColumnByIndex.html
+keywords: "removecolumnbyindex, abtdataset removecolumnbyindex, remove column at specific index, delete column from data set by index"
 ---
-keyword: [removecolumnbyindex, abtdataset removecolumnbyindex, remove column at specific index, delete column from data set by index]
----
-
-# RemoveColumnByIndex
 
 ## Syntax
 

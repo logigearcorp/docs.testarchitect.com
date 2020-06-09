@@ -4,11 +4,8 @@ linktitle: "GetColumnCount"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/abt_GetColumnCount_3.html
+keywords: "getcolumncount, abtlist getcolumncount, number of columns in list, count number of columns in list, how many columns in list"
 ---
-keyword: [getcolumncount, abtlist getcolumncount, number of columns in list, count number of columns in list, how many columns in list]
----
-
-# GetColumnCount
 
 ## Syntax
 

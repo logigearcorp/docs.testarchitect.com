@@ -24,10 +24,10 @@ Ensure that the controllers for the hosts that you want to execute the test on a
 
     ![](/TA_Help/Images/Select_iOS_mobile_devices.png)
 
-6.  Click **OK** in the Select Controller/Device dialog box, and select **Execute** in theExecute Test dialog box to begin executing tests on your selected mobile devices, or click [**Generate Batch File**](/images//Images/TA_Help/Topics/Test_exec_cmd_creating_batch_file.html) to launch your tests at a later point.
+6.  Click **OK** in the Select Controller/Device dialog box, and select **Execute** in theExecute Test dialog box to begin executing tests on your selected mobile devices, or click [**Generate Batch File**](/reuse/../TA_Help/Topics/Test_exec_cmd_creating_batch_file.html) to launch your tests at a later point.
 
 
-TestArchitect saves the settings on the Select Controller/Device dialog box and executes the test on the selected mobile devices. TestArchitect automatically adds devices executing tests to the device list in [Lab Manager](/images//Images/TA_Help/Topics/Lab_manager.html), and you can monitor the test progress there.
+TestArchitect saves the settings on the Select Controller/Device dialog box and executes the test on the selected mobile devices. TestArchitect automatically adds devices executing tests to the device list in [Lab Manager](/reuse/../TA_Help/Topics/Lab_manager.html), and you can monitor the test progress there.
 
 In order to run entire automated tests on multiple mobile devices concurrently, see [Running automated tests on multiple mobile devices](/TA_Automation/Topics/aut_app_testing_mobile_running_tests_multiple_devices.html).
 

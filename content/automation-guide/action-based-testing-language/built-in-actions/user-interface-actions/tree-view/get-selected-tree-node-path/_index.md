@@ -4,11 +4,8 @@ linktitle: "get selected tree node path"
 weight: 10
 aliases: 
     - /TA_Automation/Topics/bia_get_selected_tree_node_path.html
+keywords: "get selected tree node path, get path to the selected tree node, get path from root to selected tree node, retrieve path to selected tree node, retrieve path from root to select tree node"
 ---
-keyword: [get selected tree node path, get path to the selected tree node, get path from root to selected tree node, retrieve path to selected tree node, retrieve path from root to select tree node]
----
-
-# get selected tree node path
 
 ## Description
 
@@ -40,7 +37,7 @@ This action may be used within the following project items:test modules and user
     -   variable argument:
         -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
         -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

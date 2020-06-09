@@ -4,11 +4,8 @@ linktitle: "test objective"
 weight: 7
 aliases: 
     - /TA_Automation/Topics/bia_test_objective.html
+keywords: test objective
 ---
-keyword: test objective
----
-
-# test objective
 
 ## Description
 

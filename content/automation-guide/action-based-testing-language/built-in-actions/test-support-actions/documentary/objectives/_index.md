@@ -4,11 +4,8 @@ linktitle: "OBJECTIVES"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/bia_objectives.html
+keywords: "Objectives section, beginning of objectives section of test module, beginning of objectives block of test module, start objectives section of test module"
 ---
-keyword: [Objectives section, beginning of objectives section of test module, beginning of objectives block of test module, start objectives section of test module]
----
-
-# OBJECTIVES
 
 ## Description
 

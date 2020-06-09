@@ -4,11 +4,8 @@ linktitle: "use device"
 weight: 27
 aliases: 
     - /TA_Automation/Topics/bia_use_device.html
+keywords: "use device, utilize device, utilize iOS mobile, utilize Android mobile"
 ---
-keyword: [use device, utilize device, utilize iOS mobile, utilize Android mobile]
----
-
-# use device
 
 ## Description
 
@@ -35,7 +32,7 @@ Use of this action is supported on the following systems/platforms: Mobile opera
 -   It is good practice to specify logical names for all test devices at the beginning of a test module, using assign device for each device that is to be targeted by the test. This is especially helpful if use device is invoked in several places in a test module, allowing the automation to switch between multiple mobile devices during testing.
 -   Only one device may serve as the target device at a given time. If another target device is connected at the time use device executes, that device is logically disconnected before the device specified by the name argument is connected.
 -   After a device has been targeted for automation, TestArchitect automatically adds it to the devices list in [Lab Manager](/TA_Help/Topics/Lab_manager.html), and you can monitor the test progress there.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

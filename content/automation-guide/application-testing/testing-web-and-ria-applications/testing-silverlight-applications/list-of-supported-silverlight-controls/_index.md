@@ -15,7 +15,7 @@ Below is the full list of Silverlight controls for which TestArchitect provides 
 |Control|Class\(es\)|
 |-------|-----------|
 |AutoCompleteBox|System.Windows.Controls.AutoCompleteBox|
-|Button|System.Windows.Controls.Button System.Windows.Controls.HyperlinkButton|
+|Button|System.Windows.Controls.Button<br> System.Windows.Controls.HyperlinkButton<br><br>|
 |Calendar|System.Windows.Controls.Calendar|
 |CheckBox|System.Windows.Controls.CheckBox|
 |ComboBox|System.Windows.Controls.ComboBox|
@@ -27,7 +27,7 @@ Below is the full list of Silverlight controls for which TestArchitect provides 
 |Grid|System.Windows.Controls.Grid|
 |GridSplitter|System.Windows.Controls.GridSplitter|
 |Image|System.Windows.Controls.Image|
-|Label|System.Windows.Controls.Label System.Windows.Controls.DescriptionViewer|
+|Label|System.Windows.Controls.Label<br> System.Windows.Controls.DescriptionViewer<br><br>|
 |ListBox|System.Windows.Controls.ListBox|
 |ListBoxItem|System.Windows.Controls.ListBoxItem|
 |PasswordBox|System.Windows.Controls.PasswordBox|

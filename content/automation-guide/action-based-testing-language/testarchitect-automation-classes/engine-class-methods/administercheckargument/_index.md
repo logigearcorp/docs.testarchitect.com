@@ -35,7 +35,7 @@ The function returns the value of the result parameter.
 
 ## Notes
 
--   The functions [AdministerCheck](/images//Images/TA_Automation/Topics/abtf_AdministerCheck.html), [AdministerCheckArgument](/images//Images/TA_Automation/Topics/abtf_AdministerCheckArgument.html) and [AdministerCheckNamedArgument](/images//Images/TA_Automation/Topics/abtf_AdministerCheckNamedArgument.html) can be used to administer the result of a check already done in a script. They are typically used when the check is not a comparison between an expected and a recorded string \(like "check if the response time is below 8 seconds"\).
+-   The functions [AdministerCheck](/reuse/../TA_Automation/Topics/abtf_AdministerCheck.html), [AdministerCheckArgument](/reuse/../TA_Automation/Topics/abtf_AdministerCheckArgument.html) and [AdministerCheckNamedArgument](/reuse/../TA_Automation/Topics/abtf_AdministerCheckNamedArgument.html) can be used to administer the result of a check already done in a script. They are typically used when the check is not a comparison between an expected and a recorded string \(like "check if the response time is below 8 seconds"\).
 
 **Parent topic:**[Engine class methods](/TA_Automation/Topics/abtf_Engine_classes.html)
 

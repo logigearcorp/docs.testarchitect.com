@@ -4,11 +4,8 @@ linktitle: "get displayed text"
 weight: 15
 aliases: 
     - /TA_Automation/Topics/bia_get_displayed_text.html
+keywords: "get displayed text, retrieve displayed text, get onscreen text, retrieve onscreen text"
 ---
-keyword: [get displayed text, retrieve displayed text, get onscreen text, retrieve onscreen text]
----
-
-# get displayed text
 
 ## Description
 
@@ -41,7 +38,7 @@ Use of this action is supported on the following systems/platforms: iOS.
 
 -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
 -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

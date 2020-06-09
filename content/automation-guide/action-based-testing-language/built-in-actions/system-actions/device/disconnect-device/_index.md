@@ -4,11 +4,8 @@ linktitle: "disconnect device"
 weight: 8
 aliases: 
     - /TA_Automation/Topics/bia_disconnect_device.html
+keywords: "disconnect a physical mobile device, physical mobile device disconnection, detach a physical mobile device"
 ---
-keyword: [disconnect a physical mobile device, physical mobile device disconnection, detach a physical mobile device]
----
-
-# disconnect device
 
 ## Description
 

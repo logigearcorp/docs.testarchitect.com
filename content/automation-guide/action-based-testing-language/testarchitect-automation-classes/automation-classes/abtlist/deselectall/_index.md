@@ -4,11 +4,8 @@ linktitle: "DeselectAll"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/abt_DeselectAll_3.html
+keywords: "deselectall, abtlist deselectall, deselect all items in list, deselect all list items, deselect entire list, "
 ---
-keyword: [deselectall, abtlist deselectall, deselect all items in list, deselect all list items, deselect entire list, ]
----
-
-# DeselectAll
 
 ## Syntax
 

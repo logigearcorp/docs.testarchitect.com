@@ -10,7 +10,7 @@ A chart's appearance, and data used to render the chart, can be modified at any 
 
 To edit the properties of a chart panel on a Dashboard page:
 
-1.  [Launch an instance of the Dashboard](/images//Images/TA_Help/Topics/Dashboard_starting.html) and log in to the session as a user with [permission](/images//Images/TA_Help/Topics/Dashboard_authentication_permissions.html) sufficient to edit a chart panel.
+1.  [Launch an instance of the Dashboard](/reuse/../TA_Help/Topics/Dashboard_starting.html) and log in to the session as a user with [permission](/reuse/../TA_Help/Topics/Dashboard_authentication_permissions.html) sufficient to edit a chart panel.
 
 2.  In the Dashboard, go to the Dashboard page containing the chart panel you want to edit and click **Edit Panel** ![](/images//Images/Dashboard_edit_panel_icon.png).
 

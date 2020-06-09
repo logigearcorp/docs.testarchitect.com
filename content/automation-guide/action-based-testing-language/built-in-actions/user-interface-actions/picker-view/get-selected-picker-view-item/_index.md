@@ -4,11 +4,8 @@ linktitle: "get selected picker view item"
 weight: 8
 aliases: 
     - /TA_Automation/Topics/bia_get_selected_picker_view_item.html
+keywords: "get index and value of selected item in component of picker view, retrieve index and value of selected item in component of picker view"
 ---
-keyword: [get index and value of selected item in component of picker view, retrieve index and value of selected item in component of picker view]
----
-
-# get selected picker view item
 
 ## Description
 
@@ -45,7 +42,7 @@ This action may be used within the following project items:test modules and user
 
 -   This built-in action applies only to the iOS operating system.
 -   If the variables in argumentstext variable and index variablehave not been declared, the action creates them as globals.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

@@ -4,11 +4,8 @@ linktitle: "clear ocr setting"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/bia_clear_ocr_setting.html
+keywords: "clear OCR setting, Reset OCR settings, Reset optimal character recognition settings"
 ---
-keyword: [clear OCR setting, Reset OCR settings, Reset optimal character recognition settings]
----
-
-# clear ocr setting
 
 ## Description
 
@@ -33,9 +30,9 @@ This action may be used within the following project items:test modules and user
 
         In addition, the fill color setting is cleared of any points \(x,y coordinates\) it may contain.
 
--   **Android:** This built-in action, when applied to a connected Android device, requires that the [TestArchitect Agent service](/images//Images/Android/Topics/Android_TA_agent.html) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
+-   **Android:** This built-in action, when applied to a connected Android device, requires that the [TestArchitect Agent service](/reuse/../Android/Topics/Android_TA_agent.html) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
     1.  Connect the Android device to the test controller through a USB cable \(not Wi-Fi\), if not already so connected.
-    2.  Open the [Android Instrumentation Tool](/images//Images/Android/Topics/Android_Instrumentation_tool.html) dialog box.
+    2.  Open the [Android Instrumentation Tool](/reuse/../Android/Topics/Android_Instrumentation_tool.html) dialog box.
     3.  Click the **Refresh devices list** ![](/images//Images/Android/Images/Refresh_device_list_btn.png) button.
 
 ## Applicable Built-In Settings

@@ -4,11 +4,8 @@ linktitle: "GetColumnCount"
 weight: 7
 aliases: 
     - /TA_Automation/Topics/abt_GetColumnCount_13.html
+keywords: "getcolumncount, abttable getcolumncount, number of columns in table, how many columns in table, count columns in table"
 ---
-keyword: [getcolumncount, abttable getcolumncount, number of columns in table, how many columns in table, count columns in table]
----
-
-# GetColumnCount
 
 ## Syntax
 

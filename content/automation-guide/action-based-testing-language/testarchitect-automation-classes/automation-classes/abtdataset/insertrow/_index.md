@@ -4,11 +4,8 @@ linktitle: "InsertRow"
 weight: 10
 aliases: 
     - /TA_Automation/Topics/abt_InsertRow.html
+keywords: "insertrow, abtdataset insertrow, insert row into dataset, add row at given index"
 ---
-keyword: [insertrow, abtdataset insertrow, insert row into dataset, add row at given index]
----
-
-# InsertRow
 
 ## Syntax
 

@@ -4,11 +4,8 @@ linktitle: "GetChildOfClassAt"
 weight: 12
 aliases: 
     - /TA_Automation/Topics/abt_getChildOfClassAt.html
+keywords: "getchildofclassat, abtentity getchildofclassat, child element of class, obtain child element of class"
 ---
-keyword: [getchildofclassat, abtentity getchildofclassat, child element of class, obtain child element of class]
----
-
-# GetChildOfClassAt
 
 ## Syntax
 

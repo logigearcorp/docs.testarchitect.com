@@ -4,11 +4,8 @@ linktitle: "interface entity setting"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/bia_interface_entity_setting.html
+keywords: "interface entity setting, map property and value of window or HTML page to logical name in TA"
 ---
-keyword: [interface entity setting, map property and value of window or HTML page to logical name in TA]
----
-
-# interface entity setting
 
 ## Description
 

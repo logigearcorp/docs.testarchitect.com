@@ -4,11 +4,8 @@ linktitle: "GetLastError"
 weight: 8
 aliases: 
     - /TA_Automation/Topics/abt_GetLast_Error.html
+keywords: "getlasterror, get the last automation error, retrieve the last automation error"
 ---
-keyword: [getlasterror, get the last automation error, retrieve the last automation error]
----
-
-# GetLastError
 
 ## Syntax
 

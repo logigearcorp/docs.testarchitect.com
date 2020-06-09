@@ -4,11 +4,8 @@ linktitle: "get device log file"
 weight: 13
 aliases: 
     - /TA_Automation/Topics/bia_get_device_log_file.html
+keywords: "Android log file, Android logcat, logcat command, get device log file, Mobile log file"
 ---
-keyword: [Android log file, Android logcat, logcat command, get device log file, Mobile log file]
----
-
-# get device log file
 
 ## Description
 
@@ -38,7 +35,7 @@ Use of this action is supported on the following systems/platforms: Android.
     -   If no file name is specified, the file is given a unique name derived from its device name and device ID.
     -   For a Windows-based test controller, use backward slashes as separators for the path location.
 -   If the log file already exists at the specified location on the test controller, it is overwritten.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

@@ -4,11 +4,8 @@ linktitle: "set variable"
 weight: 10
 aliases: 
     - /TA_Automation/Topics/bia_set_variable.html
+keywords: "set variable, assign value to variable, assign variable value, variable assignment, variable declaration and assignment"
 ---
-keyword: [set variable, assign value to variable, assign variable value, variable assignment, variable declaration and assignment]
----
-
-# set variable
 
 ## Description
 

@@ -4,11 +4,8 @@ linktitle: "control condition"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/bis_control_condition.html
+keywords: wait for control property to satisfy conditions
 ---
-keyword: wait for control property to satisfy conditions
----
-
-# control condition
 
 ## Description
 

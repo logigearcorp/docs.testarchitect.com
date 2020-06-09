@@ -4,11 +4,8 @@ linktitle: "GetNodeRect"
 weight: 8
 aliases: 
     - /TA_Automation/Topics/abt_GetNodeRect_17.html
+keywords: "getnoderect, abttree getnoderect, bounding rectangle of tree node, rectangle encircles tree node"
 ---
-keyword: [getnoderect, abttree getnoderect, bounding rectangle of tree node, rectangle encircles tree node]
----
-
-# GetNodeRect
 
 ## Syntax
 

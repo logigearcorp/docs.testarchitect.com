@@ -8,7 +8,7 @@ aliases:
 
 On Linux machines only, enabling the TestArchitect Automation Agent in Mozilla Firefox is required for testing web-based applications with TestArchitect in that browser.
 
-TestArchitect Automation Agent is automatically added as an add-on/extension to any installed browsers during TestArchitect installation. If you find that the TestArchitect Automation Agent is not present in your browser \(as would be the case if you installed the browser after installing TestArchitect\), you can use the [Automation Agent Manager](/images//Images/TA_Help/Topics/Test_exec_automation_agent_manager.html) to add the agent to your browser.
+TestArchitect Automation Agent is automatically added as an add-on/extension to any installed browsers during TestArchitect installation. If you find that the TestArchitect Automation Agent is not present in your browser \(as would be the case if you installed the browser after installing TestArchitect\), you can use the [Automation Agent Manager](/reuse/../TA_Help/Topics/Test_exec_automation_agent_manager.html) to add the agent to your browser.
 
 To enable the TestArchitect Automation Agent in Mozilla Firefox:
 

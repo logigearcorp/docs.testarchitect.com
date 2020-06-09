@@ -4,11 +4,8 @@ linktitle: "create http request"
 weight: 7
 aliases: 
     - /TA_Automation/Topics/bia_create_http_request.html
+keywords: "create http request, create http get request, create http post request"
 ---
-keyword: [create http request, create http get request, create http post request]
----
-
-# create http request
 
 ## Description
 

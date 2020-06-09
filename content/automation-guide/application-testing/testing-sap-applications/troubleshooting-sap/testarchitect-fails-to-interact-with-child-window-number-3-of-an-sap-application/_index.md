@@ -4,11 +4,8 @@ linktitle: "TestArchitect fails to interact with child window number 3 of an SAP
 weight: 3
 aliases: 
     - /TA_Automation/Topics/aut_SAP_unable_interact_3_window.html
+keywords: TestArchitect fails to interact with child window number 3 of an SAP application.
 ---
-keyword: TestArchitect fails to interact with child window number 3 of an SAP application.
----
-
-# TestArchitect fails to interact with child window number 3 of an SAP application.
 
 Describes the workaround solution for user work through the child window number 3 of an SAP application.
 

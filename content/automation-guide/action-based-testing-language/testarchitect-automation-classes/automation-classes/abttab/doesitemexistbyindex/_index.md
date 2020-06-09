@@ -4,11 +4,8 @@ linktitle: "DoesItemExistByIndex"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/abt_DoesItemExist_12.html
+keywords: "doesitemexistbyindex, abttab doesitemexistbyindex, tab item at given index exists, existence of tab item at given index, check tab item at given index is found"
 ---
-keyword: [doesitemexistbyindex, abttab doesitemexistbyindex, tab item at given index exists, existence of tab item at given index, check tab item at given index is found]
----
-
-# DoesItemExistByIndex
 
 ## Syntax
 

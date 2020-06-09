@@ -4,11 +4,8 @@ linktitle: "check picker view item exists"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/bia_check_picker_view_item_exists.html
+keywords: "check picker view item exists, check if item is found in specific component of picker view, check for existence of item in component of picker view, verify whether item is found in specific component of picker view"
 ---
-keyword: [check picker view item exists, check if item is found in specific component of picker view, check for existence of item in component of picker view, verify whether item is found in specific component of picker view]
----
-
-# check picker view item exists
 
 ## Description
 
@@ -40,7 +37,7 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   This built-in action applies only to the iOS operating system.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

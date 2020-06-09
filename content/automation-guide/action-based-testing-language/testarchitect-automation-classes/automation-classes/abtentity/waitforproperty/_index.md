@@ -4,11 +4,8 @@ linktitle: "WaitForProperty"
 weight: 29
 aliases: 
     - /TA_Automation/Topics/abt_WaitForProperty.html
+keywords: "waitforproperty, abtentity waitforproperty, wait until window property reaches expected value, wait until window property exceed timeout"
 ---
-keyword: [waitforproperty, abtentity waitforproperty, wait until window property reaches expected value, wait until window property exceed timeout]
----
-
-# WaitForProperty
 
 ## Syntax
 

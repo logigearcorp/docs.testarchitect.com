@@ -4,11 +4,8 @@ linktitle: "check button menu not exists"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/bia_check_button_menu_not_exists.html
+keywords: "check button menu not exists, check for nonexistence of specified item in drop-down button, check if specific menu item is not found in drop-down button, check if particular menu item in drop-down button does not exist, verify whether specific menu item is not found in drop-down button, verify nonexistence of specified menu item in drop-down button"
 ---
-keyword: [check button menu not exists, check for nonexistence of specified item in drop-down button, check if specific menu item is not found in drop-down button, check if particular menu item in drop-down button does not exist, verify whether specific menu item is not found in drop-down button, verify nonexistence of specified menu item in drop-down button]
----
-
-# check button menu not exists
 
 ## Description
 
@@ -40,7 +37,7 @@ This action may be used within the following project items:test modules and user
 -   item argument:
     -   Menu items are identified by their caption properties.
     -   If a menu path of more than one item must be specified, use arrow symbols \( -\> \) as delimiters between menu items. For example, `Vehicles->Cars->Four-door sedans`.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

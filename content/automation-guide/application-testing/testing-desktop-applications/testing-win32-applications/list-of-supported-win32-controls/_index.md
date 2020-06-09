@@ -26,7 +26,7 @@ Below is the full list of standard Windows controls for which TestArchitect prov
 |Picture|STATIC|
 |Progress Bar|PROGRESS\_CLASS \(msctls\_progress\)|
 |Radio Button|BUTTON|
-|Rich Edit|RICHEDIT RichEdit20A RichEdit20W|
+|Rich Edit|RICHEDIT<br> RichEdit20A<br><br> RichEdit20W<br><br>|
 |Scroll Bar|SCROLLBAR|
 |Slider|TRACKBAR\_CLASS \(msctls\_trackbar\)|
 |Spin Control|msctls\_updown32|

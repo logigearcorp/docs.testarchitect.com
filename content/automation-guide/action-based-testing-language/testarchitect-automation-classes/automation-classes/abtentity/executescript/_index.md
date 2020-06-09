@@ -4,11 +4,8 @@ linktitle: "ExecuteScript"
 weight: 7
 aliases: 
     - /TA_Automation/Topics/abt_Entity_executeScript.html
+keywords: "executescript, abtentity executescript, execute javascript, execute inline javascript, run javascript"
 ---
-keyword: [executescript, abtentity executescript, execute javascript, execute inline javascript, run javascript]
----
-
-# ExecuteScript
 
 ## Syntax
 

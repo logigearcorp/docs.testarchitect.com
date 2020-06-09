@@ -4,11 +4,8 @@ linktitle: "click tree table cell"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/bia_click_tree_table_cell.html
+keywords: "click tree table cell, click specified cell in tree table, mouse click on cell in tree table"
 ---
-keyword: [click tree table cell, click specified cell in tree table, mouse click on cell in tree table]
----
-
-# click tree table cell
 
 ## Description
 
@@ -56,7 +53,7 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   x and yare unsupported arguments and hence invisible. To use them, you must specify both their values and the headers x and y, respectively, in the cells to the right of the last visible argument.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

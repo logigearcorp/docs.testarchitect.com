@@ -4,11 +4,8 @@ linktitle: "Connect"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/abt_Connect.html
+keywords: "connect, abtdatabase connect, connect to database, database connection, establish database connection"
 ---
-keyword: [connect, abtdatabase connect, connect to database, database connection, establish database connection]
----
-
-# Connect
 
 ## Syntax
 

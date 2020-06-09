@@ -10,7 +10,7 @@ TestArchitect has a wide range of predefined panels that you can choose from to 
 
 To add a predefined panel to a Dashboard page:
 
-1.  [Launch an instance of the Dashboard](/images//Images/TA_Help/Topics/Dashboard_starting.html) and log in to the session as a user with [permission](/images//Images/TA_Help/Topics/Dashboard_authentication_permissions.html) higher than that of the guest user.
+1.  [Launch an instance of the Dashboard](/reuse/../TA_Help/Topics/Dashboard_starting.html) and log in to the session as a user with [permission](/reuse/../TA_Help/Topics/Dashboard_authentication_permissions.html) higher than that of the guest user.
 
 2.  On the page selection tool bar, click **Choose Panels**.
 

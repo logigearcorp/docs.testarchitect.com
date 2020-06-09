@@ -20,9 +20,9 @@ Every UI element of an AUT has both a class and a set of properties. Property se
 -   one or more of its properties and their values \(property-value pairs\) and,
 -   in the case of a control, the window in which it resides.
 
-**Note:** TestArchitect maps the native classes and properties of every UI element to its own sets of TA classes and TA properties, to allow for consistency across platforms. For more discussion on classes in TestArchitect, see [Class mapping](/images//Images/TA_Help/Topics/Class_mapping.html).
+**Note:** TestArchitect maps the native classes and properties of every UI element to its own sets of TA classes and TA properties, to allow for consistency across platforms. For more discussion on classes in TestArchitect, see [Class mapping](/reuse/../TA_Help/Topics/Class_mapping.html).
 
-**Note:** During creation of interfaces, you have the option of determining which properties to use to identify controls and windows. [However, as described in a later topic](/images//Images/TA_Tutorials/Topics/Interface_Viewer.html), TestArchitect has built-in intelligence to select the minimum number of properties necessary to identify controls and windows during playback, thus relieving you of that burden.
+**Note:** During creation of interfaces, you have the option of determining which properties to use to identify controls and windows. [However, as described in a later topic](/reuse/../TA_Tutorials/Topics/Interface_Viewer.html), TestArchitect has built-in intelligence to select the minimum number of properties necessary to identify controls and windows during playback, thus relieving you of that burden.
 
 ## Interface entities
 

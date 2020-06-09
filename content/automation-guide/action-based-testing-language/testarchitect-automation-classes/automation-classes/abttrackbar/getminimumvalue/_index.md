@@ -4,11 +4,8 @@ linktitle: "GetMinimumValue"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/abt_GetMinimumValue_16.html
+keywords: "getminiumvalue, gettrackbar getminimumvalue, minimum value of trackbar, retrieve minimum value of slider control, minimum limit of trackbar"
 ---
-keyword: [getminiumvalue, gettrackbar getminimumvalue, minimum value of trackbar, retrieve minimum value of slider control, minimum limit of trackbar]
----
-
-# GetMinimumValue
 
 ## Syntax
 

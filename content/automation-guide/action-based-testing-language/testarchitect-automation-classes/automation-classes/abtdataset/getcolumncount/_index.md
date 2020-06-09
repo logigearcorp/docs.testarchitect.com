@@ -4,11 +4,8 @@ linktitle: "GetColumnCount"
 weight: 6
 aliases: 
     - /TA_Automation/Topics/abt_GetColumnCount.html
+keywords: "getcolumncount, abtdataset getcolumncount, number of columns in data set, count of columns in data set, how many columns in data set"
 ---
-keyword: [getcolumncount, abtdataset getcolumncount, number of columns in data set, count of columns in data set, how many columns in data set]
----
-
-# GetColumnCount
 
 ## Syntax
 

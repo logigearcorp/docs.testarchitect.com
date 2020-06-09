@@ -4,11 +4,8 @@ linktitle: "play"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/bia_html5_audio_video_play.html
+keywords: "start video at certain time, start audio at certain time, play audio at specified starting point, play video at specified starting point"
 ---
-keyword: [start video at certain time, start audio at certain time, play audio at specified starting point, play video at specified starting point]
----
-
-# play
 
 ## Description
 
@@ -36,7 +33,7 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   This built-in action applies to HTML5 audio/video controls only.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

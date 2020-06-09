@@ -4,11 +4,8 @@ linktitle: "get status bar section value"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/bia_get_status_bar_section_value.html
+keywords: "get status bar section value, get value of status bar section, retrieve value of status bar section, get value of specified part of status bar"
 ---
-keyword: [get status bar section value, get value of status bar section, retrieve value of status bar section, get value of specified part of status bar]
----
-
-# get status bar section value
 
 ## Description
 
@@ -42,7 +39,7 @@ This action may be used within the following project items:test modules and user
 -   This action supports .NET \(not including WPF\), Win32 tested applications.
 -   In the case of the section argument, note that index numbering begins with 1, and proceeds from left to right.
 -   If the variable in argumentoutputhas not been declared, the action creates it as a global.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Systems/Platforms
 

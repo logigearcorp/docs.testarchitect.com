@@ -4,11 +4,8 @@ linktitle: "get screen resolution"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/bia_get_screen_resolution.html
+keywords: "get screen resolution, retrieve screen resolution, get display resolution, retrieve display resolution"
 ---
-keyword: [get screen resolution, retrieve screen resolution, get display resolution, retrieve display resolution]
----
-
-# get screen resolution
 
 ## Description
 
@@ -43,7 +40,7 @@ This action may be used within the following project items:test modules and user
 
 -   If the variables in argumentswidth or heighthave not been declared, the action creates them as globals.
 -   For each of width and height, if the argument is left empty, a variable with the same name as the argument header is created to hold the return value.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

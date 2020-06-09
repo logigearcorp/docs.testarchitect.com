@@ -4,11 +4,8 @@ linktitle: "ScrollItemIntoViewByText"
 weight: 16
 aliases: 
     - /TA_Automation/Topics/abt_ScrollItemIntoView_4.html
+keywords: "scrollitemintoviewbytext, abtlist scrollitemintoviewbytext, scroll item with specific content in list into view, scroll list item with particular value into view"
 ---
-keyword: [scrollitemintoviewbytext, abtlist scrollitemintoviewbytext, scroll item with specific content in list into view, scroll list item with particular value into view]
----
-
-# ScrollItemIntoViewByText
 
 ## Syntax
 

@@ -4,11 +4,8 @@ linktitle: "wait for property"
 weight: 6
 aliases: 
     - /TA_Automation/Topics/bia_wait_for_property.html
+keywords: "wait for property to get expected value, waiting time for property to contain desired value, timeout for property to get expect value"
 ---
-keyword: [wait for property to get expected value, waiting time for property to contain desired value, timeout for property to get expect value]
----
-
-# wait for property
 
 ## Description
 
@@ -44,7 +41,7 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   Whenever possible, it is recommended that you use the built-in [property wait](property_wait.html) setting, along with the appropriate built-in action, in lieu of wait for property. The property wait setting applies to three built-in actions: [check control property](check_control_property.html), [check window property](check_window_property.html), and [check](check.html).
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

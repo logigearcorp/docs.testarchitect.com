@@ -4,11 +4,8 @@ linktitle: "ignore tabs and newlines"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/bis_ignore_tabs_and_newlines.html
+keywords: "ignore tabs and newlines, determine whether to ignore tabs and newlines in strings, determine whether to remove tabs and newlines from strings, determine whether to strip tabs and newlines from strings"
 ---
-keyword: [ignore tabs and newlines, determine whether to ignore tabs and newlines in strings, determine whether to remove tabs and newlines from strings, determine whether to strip tabs and newlines from strings]
----
-
-# ignore tabs and newlines
 
 ## Description
 

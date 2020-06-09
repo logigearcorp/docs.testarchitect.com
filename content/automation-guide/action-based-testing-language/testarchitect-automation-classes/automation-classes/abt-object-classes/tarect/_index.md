@@ -4,11 +4,8 @@ linktitle: "TARect"
 weight: 6
 aliases: 
     - /TA_Automation/Topics/abt_TARect.html
+keywords: "TArect, draw rectangle, define area enclosed by rectangle, establish rectangular area"
 ---
-keyword: [TArect, draw rectangle, define area enclosed by rectangle, establish rectangular area]
----
-
-# TARect
 
 ## Description
 

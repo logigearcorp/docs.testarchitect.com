@@ -4,11 +4,8 @@ linktitle: "get table cell containing"
 weight: 25
 aliases: 
     - /TA_Automation/Topics/bia_get_table_cell_containing.html
+keywords: "get table cell containing, get position of cell containing specified value, retrieve position of cell containing specified value, get position of cell with specified value, retrieve position of cell with specified value"
 ---
-keyword: [get table cell containing, get position of cell containing specified value, retrieve position of cell containing specified value, get position of cell with specified value, retrieve position of cell with specified value]
----
-
-# get table cell containing
 
 ## Description
 
@@ -50,7 +47,7 @@ This action may be used within the following project items:test modules and user
 -   Search proceeds row by row from top to bottom; within each row, cells are searched from left to right. If multiple cells satisfy the search, TestArchitect returns the position of the first matching cell encountered.
 -   If the variables in argumentsrow and columnhave not been declared, the action creates them as globals.
 -   If either the row or column argument is left empty, a variable named row or col, respectively, is created to hold the return value.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

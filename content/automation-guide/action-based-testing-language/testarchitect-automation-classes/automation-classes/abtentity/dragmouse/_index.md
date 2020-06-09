@@ -4,11 +4,8 @@ linktitle: "DragMouse"
 weight: 6
 aliases: 
     - /TA_Automation/Topics/abt_DragMouse.html
+keywords: "dragmouse, abtentity dragmouse, mouse drag, drag and drop in the same window"
 ---
-keyword: [dragmouse, abtentity dragmouse, mouse drag, drag and drop in the same window]
----
-
-# DragMouse
 
 ## Syntax
 

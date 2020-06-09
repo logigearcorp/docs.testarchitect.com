@@ -4,11 +4,8 @@ linktitle: "Minimize"
 weight: 23
 aliases: 
     - /TA_Automation/Topics/abt_Minimize.html
+keywords: "minimize, abtentity minimize, minimize window"
 ---
-keyword: [minimize, abtentity minimize, minimize window]
----
-
-# Minimize
 
 ## Syntax
 

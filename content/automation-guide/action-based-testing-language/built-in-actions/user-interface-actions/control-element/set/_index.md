@@ -4,11 +4,8 @@ linktitle: "set"
 weight: 16
 aliases: 
     - /TA_Automation/Topics/bia_set.html
+keywords: "set value or state for control, set checked or unchecked status for checkbox or radio button, set value for textbox, assign value to textbox"
 ---
-keyword: [set value or state for control, set checked or unchecked status for checkbox or radio button, set value for textbox, assign value to textbox]
----
-
-# set
 
 ## Description
 
@@ -258,7 +255,7 @@ This action is applicable to the following controls:Calender, check box, DatePic
             Examples: 2020-12-25,2020-12-30
 
 -   The set action can serve as a suitable alternative to [enter](enter.html) in some special cases on web platforms, in which enter may trigger an unexpected or undesired event \(examples of which are the Safari data and time controls, discussed above\). Unlike enter, set avoids the triggering of events.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Example - Case 1: Selecting check box
 

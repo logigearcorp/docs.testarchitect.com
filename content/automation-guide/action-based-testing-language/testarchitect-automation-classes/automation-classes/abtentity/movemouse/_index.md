@@ -4,11 +4,8 @@ linktitle: "MoveMouse"
 weight: 24
 aliases: 
     - /TA_Automation/Topics/abt_MoveMouse.html
+keywords: "movemouse, abtentity movemouse, move mouse pointer, move mouse pointer to position, move mouse to position within window"
 ---
-keyword: [movemouse, abtentity movemouse, move mouse pointer, move mouse pointer to position, move mouse to position within window]
----
-
-# MoveMouse
 
 ## Syntax
 

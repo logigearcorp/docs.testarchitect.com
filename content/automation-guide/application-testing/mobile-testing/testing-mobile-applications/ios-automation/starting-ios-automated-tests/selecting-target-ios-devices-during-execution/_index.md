@@ -22,13 +22,13 @@ Finally, when testing on the new target device completes, it can be logically di
 
 ## Running tests on multiple devices
 
-The use device action allows automated tests to be run on different mobile devices. The devices must all be connected to the host controller on which the test is running, and execution across devices takes place in serial fashion. \(This is essentially the equivalent of [serial synchronous remote execution](/images//Images/TA_Help/Topics/Test_exec_remote_synchronous_serial.html) for desktop application testing.\)
+The use device action allows automated tests to be run on different mobile devices. The devices must all be connected to the host controller on which the test is running, and execution across devices takes place in serial fashion. \(This is essentially the equivalent of [serial synchronous remote execution](/reuse/../TA_Help/Topics/Test_exec_remote_synchronous_serial.html) for desktop application testing.\)
 
 ![](/images//Images/Android/Images/mobile_sync_serial.png)
 
 The above procedure begins with unique identifiers for two devices being assigned to friendly names. The use device action \(line 47\) commands a chunk of action lines to be executed on device 1. The second use device line \(line 52\) switches the current connection from device 1 to device 2, which also switches the execution domain, so that the subsequent chunk of action lines is run on device 2.
 
-When test execution on all mobile devices is complete – or it is simply necessary to switch execution to the host controller for an interim task – a [disconnect device](/images//Images/TA_Automation/Topics/bia_disconnect_device.html) is issued, which logically disconnects device 2 and allows for subsequent action lines to run on the host.
+When test execution on all mobile devices is complete – or it is simply necessary to switch execution to the host controller for an interim task – a [disconnect device](/reuse/../TA_Automation/Topics/bia_disconnect_device.html) is issued, which logically disconnects device 2 and allows for subsequent action lines to run on the host.
 
 ## Running 'use device' tests on devices connected to multiple controllers
 

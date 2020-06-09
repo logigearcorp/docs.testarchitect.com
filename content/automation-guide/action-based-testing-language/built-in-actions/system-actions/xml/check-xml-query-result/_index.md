@@ -4,11 +4,8 @@ linktitle: "check xml query result"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/bia_check_xml_query_result.html
+keywords: check XML query
 ---
-keyword: check XML query
----
-
-# check xml query result
 
 ## Description
 
@@ -36,7 +33,7 @@ Check an XPath query result against an expected string.Result is Passed ifthe st
 -   An empty expected argument results in Pass if the returned XML is indeed empty; otherwise Fail.
 -   It is possible to insert an entire XML file's content into the xml argument; however, all whitespace and line breaks between XML nodes must be removed manually to avoid automation failure \(see example \#4 below\).
 -   If your XML target string has a [namespace](http://www.w3schools.com/xml/xml_namespaces.asp) \(defined by the xmlns attribute in the start tag of an element\), yet no namespace is configured in the XPath expression, your query strings will not return any result. To resolve this namespace problem, you may use the [local-name\(\)](http://www.w3.org/TR/xpath-functions-30/#func-local-name) function. This function returns the query results as if no namespace is declared in the target string \(see example \#5 below\).
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

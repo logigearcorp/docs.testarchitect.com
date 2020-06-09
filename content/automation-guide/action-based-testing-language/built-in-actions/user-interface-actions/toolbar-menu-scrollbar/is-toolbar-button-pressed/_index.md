@@ -4,11 +4,8 @@ linktitle: "is toolbar button pressed"
 weight: 23
 aliases: 
     - /TA_Automation/Topics/bia_is_toolbar_button_pressed.html
+keywords: "is toolbar button pressed, check if specific button on toolbar is pressed, check whether particular button on toolbar is pressed, verify if specified button on toolbar is pressed"
 ---
-keyword: [is toolbar button pressed, check if specific button on toolbar is pressed, check whether particular button on toolbar is pressed, verify if specified button on toolbar is pressed]
----
-
-# is toolbar button pressed
 
 ## Description
 
@@ -55,7 +52,7 @@ This action may be used within the following project items:test modules and user
 -   variable argument:
     -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
     -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

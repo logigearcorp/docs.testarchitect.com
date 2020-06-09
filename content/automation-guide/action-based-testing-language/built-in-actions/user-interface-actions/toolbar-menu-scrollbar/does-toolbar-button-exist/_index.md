@@ -4,11 +4,8 @@ linktitle: "does toolbar button exist"
 weight: 19
 aliases: 
     - /TA_Automation/Topics/bia_does_toolbar_button_exist.html
+keywords: "does toolbar button exist, check specified button on toolbar exists, check whether particular button is found on toolbar, verify if specified button on toolbar exists, verify existence of specified button on toolbar"
 ---
-keyword: [does toolbar button exist, check specified button on toolbar exists, check whether particular button is found on toolbar, verify if specified button on toolbar exists, verify existence of specified button on toolbar]
----
-
-# does toolbar button exist
 
 ## Description
 
@@ -58,7 +55,7 @@ This action may be used within the following project items:test modules and user
 -   variable argument:
     -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
     -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

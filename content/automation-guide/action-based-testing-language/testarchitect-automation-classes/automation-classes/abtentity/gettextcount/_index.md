@@ -4,11 +4,8 @@ linktitle: "GetTextCount"
 weight: 21
 aliases: 
     - /TA_Automation/Topics/abt_AbtGetTextCount_AbtEntity.html
+keywords: "gettextcount, abtentity gettextcount, number of text fragments in window, count of text fragments in window, how many text fragments in window"
 ---
-keyword: [gettextcount, abtentity gettextcount, number of text fragments in window, count of text fragments in window, how many text fragments in window]
----
-
-# GetTextCount
 
 ## Syntax
 

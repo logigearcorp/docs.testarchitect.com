@@ -4,11 +4,8 @@ linktitle: "Focus"
 weight: 10
 aliases: 
     - /TA_Automation/Topics/abt_Focus.html
+keywords: "focus, abtentity focus, set focus to window, focus on window"
 ---
-keyword: [focus, abtentity focus, set focus to window, focus on window]
----
-
-# Focus
 
 ## Syntax
 

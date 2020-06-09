@@ -4,11 +4,8 @@ linktitle: "send command to browser"
 weight: 21
 aliases: 
     - /TA_Automation/Topics/bia_send_command_to_browser.html
+keywords: "send command to browser, browser emulator, mobile browser emulator, simulate mobile browser"
 ---
-keyword: [send command to browser, browser emulator, mobile browser emulator, simulate mobile browser]
----
-
-# send command to browser
 
 ## Description
 
@@ -102,7 +99,7 @@ The following setting is applicable to this action: [window wait](window_wait.ht
 -   variable argument:
     -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
     -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Example
 

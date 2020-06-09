@@ -4,11 +4,8 @@ linktitle: "check tab order"
 weight: 7
 aliases: 
     - /TA_Automation/Topics/bia_check_tab_order.html
+keywords: "check tab order, verify tab order, check tab sequence, verify tab order"
 ---
-keyword: [check tab order, verify tab order, check tab sequence, verify tab order]
----
-
-# check tab order
 
 ## Description
 
@@ -43,7 +40,7 @@ This action may be used within the following project items:test modules and user
 
 -   \*The tab order of the controls in a window or dialog box determines the sequence in which the focus changes when the user strikes the Tab key. It only applies to controls that are capable of receiving focus.
 -   For a Passed result, the contents of the controls argument need not be inclusive of every control in the window; however, the listed controls must be consecutive in the tab order \(that is, no gaps\).
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

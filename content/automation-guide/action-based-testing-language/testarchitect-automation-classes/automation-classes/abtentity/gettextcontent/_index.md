@@ -4,11 +4,8 @@ linktitle: "GetTextContent"
 weight: 19
 aliases: 
     - /TA_Automation/Topics/abt_AbtGetTextContent_AbtEntity.html
+keywords: "gettextcontent, abtentity gettextcontent, get content of text in window, obtain text"
 ---
-keyword: [gettextcontent, abtentity gettextcontent, get content of text in window, obtain text]
----
-
-# GetTextContent
 
 ## Syntax
 

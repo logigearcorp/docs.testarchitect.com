@@ -4,11 +4,8 @@ linktitle: "SelectItemByText"
 weight: 10
 aliases: 
     - /TA_Automation/Topics/abt_SelectItemByText.html
+keywords: "selectitembytext, abtcombox selectitembytext, select item with specific content from combo box, select item from combo box based on content"
 ---
-keyword: [selectitembytext, abtcombox selectitembytext, select item with specific content from combo box, select item from combo box based on content]
----
-
-# SelectItemByText
 
 ## Syntax
 

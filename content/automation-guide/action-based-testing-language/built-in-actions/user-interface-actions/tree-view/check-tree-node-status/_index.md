@@ -4,11 +4,8 @@ linktitle: "check tree node status"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/bia_check_tree_node_status.html
+keywords: "check tree node status, check if status of specified tree node matches expected value, check status of specified tree node against expected value, verify whether given tree node matches expected value"
 ---
-keyword: [check tree node status, check if status of specified tree node matches expected value, check status of specified tree node against expected value, verify whether given tree node matches expected value]
----
-
-# check tree node status
 
 ## Description
 
@@ -57,7 +54,7 @@ This action may be used within the following project items:test modules and user
     -   The node path may be specified by its display textor by a numerical index representing its cardinal placement in its branch, with index values starting at 1.
     -   If a node path of more than one item must be specified, use forward slashes \( / \) as delimiters between node levels.
     -   Enclose a numerical text string in quotation marks to differentiate it from a numerical index value. For example, if a text value of an item in a control has a value of 12, you should reference that item by passing 12 surrounded by quotation marks \(that is, "12"\) instead of the numerical 12. Passing the numerical 12 is treated as a reference to an item with an index of **12**, rather than an item holding a text string value of 12.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

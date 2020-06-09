@@ -4,11 +4,8 @@ linktitle: "navigate"
 weight: 19
 aliases: 
     - /TA_Automation/Topics/bia_navigate.html
+keywords: "navigate to a page, visit web page, launch browser and visit a page, open page from browser"
 ---
-keyword: [navigate to a page, visit web page, launch browser and visit a page, open page from browser]
----
-
-# navigate
 
 ## Description
 
@@ -53,7 +50,7 @@ This action may be used within the following project items:test modules and user
 
 -   When Chrome on Android has multiple tabs open, navigate needs to traverse through those tabs to check for the already-navigated site. Activating each tab can typically take around two seconds. Consequently, the time consumed by navigate when many tabs are open can be significant.
 -   You can have this action open the specified URL within a specific mobile device emulator, allowing you to test webpages and applications in emulation mode for the given device. Do this by means of the [send command to browser](send_command_to_browser.html) built-in action, which must be set after execution of the navigate. \([Learn more](aut_app_testing_responsive_web_Chrome_DevTools_launching_emulator.html).\)
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

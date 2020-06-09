@@ -31,12 +31,12 @@ Example:
 |TA field|Direction of flow1|QC field2|QC entity|Notes / Conditions|
 |--------|------------------|---------|---------|------------------|
 |**Name**|![](/images//Images/TA-QC.flow.bidirectional.png)|\(folder label\)|folder containing tests5|This is the label applied to a QC folder. Folders have no **Details** tabs, hence the related field or property name is not available.|
-|**Name**|![](/images//Images/TA-QC.flow.upload.png)'\#' prepended to **Name**|**Test Name**|\#test4| |
+|**Name**|![](/images//Images/TA-QC.flow.upload.png)<br>'\#' prepended to **Name**|**Test Name**|\#test4| |
 |**Description**|![](/images//Images/TA-QC.flow.bidirectional.png)|**Description**|\#test4| |
 |**Source** \(value auto-gen'd on upload\*\)|![](/images//Images/TA-QC.flow.upload.png)|**Test ID**|\#test4|\*Values for **Source** are auto-generated on upload \(regardless of whether a value already exists in the field – thus ensuring mappings with Quality Center remain unique\).|
 |**Source**|![](/images//Images/TA-QC.flow.import.png)|**Test ID**|\#test4|Note that on import, uniqueness is enforced by clearing the **Source** values of any test modules in the project that conflict with the uploaded one.|
 |**Test Objectives** tab: **ID**, **Title** fields|![](/images//Images/TA-QC.flow.upload.png)\*|**test objective**6|\#test4|\*Fields are concatenated, separated with ':'. Multiple objectives separated by newlines.|
-|**Editor** tab: line\(s\) in OBJECTIVES section|![](/images//Images/TA-QC.flow.import.png)content parsed\*|**test objective**6|\#test|\*Content is parsed into **ID** and **Title** columns of the action line, with 'test objective' in the action column, prepended with '//' to form comment. Note that the actual test objective fields \(on the test module's **Test Objectives** tab\) are not populated.|
+|**Editor** tab: line\(s\) in OBJECTIVES section|![](/images//Images/TA-QC.flow.import.png)<br>content parsed\*|**test objective**6|\#test|\*Content is parsed into **ID** and **Title** columns of the action line, with 'test objective' in the action column, prepended with '//' to form comment. Note that the actual test objective fields \(on the test module's **Test Objectives** tab\) are not populated.|
 |action line|![](/images//Images/TA-QC.flow.upload.png)|single step within **Design Steps** tab|\#test4|See below for processing and distribution of action line information on upload|
 
 ![](/images//Images/QC_test_module.mapping.01.png "Handling of test module fields on import and upload")
@@ -48,8 +48,8 @@ Example:
 |TA field|Direction of flow1|QC field2|QC entity|Notes / Conditions|
 |--------|------------------|---------|---------|------------------|
 |**ID**|![](/images//Images/TA-QC.flow.bidirectional.png)\*|**Test Name**|test|\*Upload only applies when [`title in comment=yes`](Integration_QC_connecting_repo_to_QC_server_step_1.html#li.title_in_comment) \(see next entry\)|
-|**ID**, **Title**|![](/images//Images/TA-QC.flow.upload.png)**ID** + ', ' + **Title**\*|**Test Name**|test|\*Conditioned on [`title in comment=no`](Integration_QC_connecting_repo_to_QC_server_step_1.html#li.title_in_comment) \(default\)|
-|**Title**|![](/images//Images/TA-QC.flow.upload.png)'Title: ' + **Title**|**Comments**|test|Conditioned on [`title in comment=yes`](Integration_QC_connecting_repo_to_QC_server_step_1.html#li.title_in_comment)|
+|**ID**, **Title**|![](/images//Images/TA-QC.flow.upload.png)<br>**ID** + ', ' + **Title**\*|**Test Name**|test|\*Conditioned on [`title in comment=no`](Integration_QC_connecting_repo_to_QC_server_step_1.html#li.title_in_comment) \(default\)|
+|**Title**|![](/images//Images/TA-QC.flow.upload.png)<br>'Title: ' + **Title**|**Comments**|test|Conditioned on [`title in comment=yes`](Integration_QC_connecting_repo_to_QC_server_step_1.html#li.title_in_comment)|
 |**Description**|![](/images//Images/TA-QC.flow.bidirectional.png)|**Description**|test| |
 |**Source** \(value auto-gen'd on upload\*\)|![](/images//Images/TA-QC.flow.upload.png)\*|**Test ID**|test|\*Values for **Source** are auto-generated on upload \(regardless of whether a value already exists in the field – thus ensuring mappings with Quality Center remain unique\).|
 |**Source**|![](/images//Images/TA-QC.flow.import.png)|**Test ID**|test|Note that on import, uniqueness is enforced by clearing the **Source** values of any test cases in the project that conflict with the uploaded one.|

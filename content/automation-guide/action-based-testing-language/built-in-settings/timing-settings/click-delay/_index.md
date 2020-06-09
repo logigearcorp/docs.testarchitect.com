@@ -4,11 +4,8 @@ linktitle: "click delay"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/bis_click_delay.html
+keywords: "click delay, delay between mousedown and mouseup, between mousepress and mouserelease, mouse click sensitivity"
 ---
-keyword: [click delay, delay between mousedown and mouseup, between mousepress and mouserelease, mouse click sensitivity]
----
-
-# click delay
 
 ## Description
 

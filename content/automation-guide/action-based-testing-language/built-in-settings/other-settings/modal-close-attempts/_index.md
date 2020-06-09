@@ -4,11 +4,8 @@ linktitle: "modal close attempts"
 weight: 17
 aliases: 
     - /TA_Automation/Topics/bis_modal_close_attempts.html
+keywords: "modal close attempts, specify maximum number of retries for invoked action handler, retry number of times to handle modal action, set number of times to handle modal action"
 ---
-keyword: [modal close attempts, specify maximum number of retries for invoked action handler, retry number of times to handle modal action, set number of times to handle modal action]
----
-
-# modal close attempts
 
 ## Description
 

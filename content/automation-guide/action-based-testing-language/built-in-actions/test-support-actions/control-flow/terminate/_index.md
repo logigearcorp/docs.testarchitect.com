@@ -4,11 +4,8 @@ linktitle: "terminate"
 weight: 17
 aliases: 
     - /TA_Automation/Topics/bia_terminate.html
+keywords: "terminate current test, stop current test, stop running current test, stop execution of current test"
 ---
-keyword: [terminate current test, stop current test, stop running current test, stop execution of current test]
----
-
-# terminate
 
 ## Description
 

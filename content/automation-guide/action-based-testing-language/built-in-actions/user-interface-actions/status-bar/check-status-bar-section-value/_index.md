@@ -4,11 +4,8 @@ linktitle: "check status bar section value"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/bia_check_status_bar_section_value.html
+keywords: "check status bar section value, check value of status bar section against expected value, check if value of status bar section matches expected value, check whether value of status bar section matches expected value, verify if value of specific part of status bar matches expected value"
 ---
-keyword: [check status bar section value, check value of status bar section against expected value, check if value of status bar section matches expected value, check whether value of status bar section matches expected value, verify if value of specific part of status bar matches expected value]
----
-
-# check status bar section value
 
 ## Description
 
@@ -41,7 +38,7 @@ This action may be used within the following project items:test modules and user
 
 -   This action supports .NET \(not including WPF\), Win32 tested applications.
 -   In the case of the section argument, note that index numbering begins with 1, and proceeds from left to right.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

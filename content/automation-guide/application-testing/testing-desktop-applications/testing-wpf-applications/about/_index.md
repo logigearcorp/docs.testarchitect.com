@@ -10,15 +10,15 @@ Some basics of creating and recording tests for WPF applications, WPF control id
 
 ## Creating and recording tests for WPF applications
 
-TestArchitect's test editor allows you to manually author tests consisting of action lines, based on the Action-Based Testing methodology. However, TestArchitect also provides you with a powerful tool to automate the process of authoring action-based tests, saving you time and eliminating the risk of accidental coding errors. The [Action Recorder](/images//Images/TA_Help/Topics/Creating_and_using_actions_AR.html) does this by monitoring and recording your manual interactions with theWPFapplication. It automatically generates the equivalent action lines and writes them to your test file, inserting whatever checks you specify to verify the responses of the application. \(See [Using the Action Recorder](/images//Images/TA_Tutorials/Topics/Tutorial_Using_the_Action_Recorder.html) for further information.\)
+TestArchitect's test editor allows you to manually author tests consisting of action lines, based on the Action-Based Testing methodology. However, TestArchitect also provides you with a powerful tool to automate the process of authoring action-based tests, saving you time and eliminating the risk of accidental coding errors. The [Action Recorder](/reuse/../TA_Help/Topics/Creating_and_using_actions_AR.html) does this by monitoring and recording your manual interactions with theWPFapplication. It automatically generates the equivalent action lines and writes them to your test file, inserting whatever checks you specify to verify the responses of the application. \(See [Using the Action Recorder](/reuse/../TA_Tutorials/Topics/Tutorial_Using_the_Action_Recorder.html) for further information.\)
 
 Auto-generated action lines can subsequently be modified and enhanced by hand in a number of ways to address specific test requirements. For example, you can:
 
 -   Add new actions, reorder actions and modify their arguments.
 -   Remove superfluous recorded actions.
 -   Insert validity checks to confirm that recorded values are output correctly.
--   Combine multiple recorded actions into a single user-defined action. \(Refer to [Smart creation of new actions](/images//Images/TA_Help/Topics/High_level_actions_smart_creating.html) for details\)
--   Create [data-driven tests](/images//Images/TA_Help/Topics/Projects_and_tests_dataset.html) that run multiple test iterations using different sets of data.
+-   Combine multiple recorded actions into a single user-defined action. \(Refer to [Smart creation of new actions](/reuse/../TA_Help/Topics/High_level_actions_smart_creating.html) for details\)
+-   Create [data-driven tests](/reuse/../TA_Help/Topics/Projects_and_tests_dataset.html) that run multiple test iterations using different sets of data.
 
 ## Actions supported for WPF controls
 
@@ -32,13 +32,13 @@ Generally, only a small subset of a control's properties are useful for identifi
 
 **Note:** TestArchitect discovers information about WPF controls at runtime using Reflection technology.
 
-The [Interface Viewer](/images//Images/TA_Help/Topics/Interface_def_Viewer.html) is a powerful support tool that allows you to view all of a control's available properties, to capture and save all or parts of an interface definition, and to explore the controls of an application's interface. The following image depicts the Interface Viewer examining the controls of aWPF application.
+The [Interface Viewer](/reuse/../TA_Help/Topics/Interface_def_Viewer.html) is a powerful support tool that allows you to view all of a control's available properties, to capture and save all or parts of an interface definition, and to explore the controls of an application's interface. The following image depicts the Interface Viewer examining the controls of aWPF application.
 
 ![](/images//Images/TA_Automation/Images/aut_interface_definition_UI_WPF_identification.png)
 
 ## Native WPF properties
 
-TestArchitect defines its own set of properties, named [TA properties](/images//Images/TA_Help/Topics/Interface_def_Viewer_reading.html), which it applies toWPF controls. The Interface Viewer displays not only the TA properties of aWPF application's controls, but also exposes all of the controls' [native properties](/images//Images/TA_Help/Topics/Interface_def_Viewer_reading.html). These are the same properties that are available in the application’s source code and used by the application developers. You may use these native properties to capture controls or automate tests.
+TestArchitect defines its own set of properties, named [TA properties](/reuse/../TA_Help/Topics/Interface_def_Viewer_reading.html), which it applies toWPF controls. The Interface Viewer displays not only the TA properties of aWPF application's controls, but also exposes all of the controls' [native properties](/reuse/../TA_Help/Topics/Interface_def_Viewer_reading.html). These are the same properties that are available in the application’s source code and used by the application developers. You may use these native properties to capture controls or automate tests.
 
 ![](/images//Images/TA_Automation/Images/aut_interface_definition_WPF_Native_properties.png)
 
@@ -58,7 +58,7 @@ To illustrate the problem, consider the table-like control known, in WPF, as a `
 
 TestArchitect's solution, TA classes, is a standardized set of control types, each of which TestArchitect recognizes and knows how to interact with.
 
-Refer to [Class mapping](/images//Images/TA_Help/Topics/Class_mapping.html) for details.
+Refer to [Class mapping](/reuse/../TA_Help/Topics/Class_mapping.html) for details.
 
 **Important:** Class mapping is currently supported on WPF, Win32, iOS, Android, and Silverlight applications.
 

@@ -4,11 +4,8 @@ linktitle: "use browser"
 weight: 22
 aliases: 
     - /TA_Automation/Topics/bis_use_browser.html
+keywords: "use browser, set default web browser, choose which browser will be used"
 ---
-keyword: [use browser, set default web browser, choose which browser will be used]
----
-
-# use browser
 
 ## Description
 

@@ -4,11 +4,8 @@ linktitle: "add http header"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/bia_add_http_header.html
+keywords: "add http header to URL, set http header for URL"
 ---
-keyword: [add http header to URL, set http header for URL]
----
-
-# add http header
 
 ## Description
 
@@ -33,7 +30,7 @@ This action may be used within the following project items:test modules and user
 
 -   An HTTP request must be instantiated via [create http request](create_http_request.html) before calling this built-in action.
 -   Refer to [here](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) for syntax and semantics of all standard HTTP header fields. In general, each header field consists of a name followed by a colon \(":"\) and the field value.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

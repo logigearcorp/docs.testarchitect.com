@@ -4,11 +4,8 @@ linktitle: "get table view section"
 weight: 8
 aliases: 
     - /TA_Automation/Topics/bia_get_table_view_section.html
+keywords: "get table view section, get header and footer of table view section, retrieve header, footer of section of table view, obtain header and footer of table view section"
 ---
-keyword: [get table view section, get header and footer of table view section, retrieve header, footer of section of table view, obtain header and footer of table view section]
----
-
-# get table view section
 
 ## Description
 
@@ -46,7 +43,7 @@ This action may be used within the following project items:test modules and user
 -   This built-in action applies only to the iOS operating system.
 -   index argument: Note that index numbering begins with 1.
 -   If the variables in argumentssection header and section footerhave not been declared, the action creates them as globals.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

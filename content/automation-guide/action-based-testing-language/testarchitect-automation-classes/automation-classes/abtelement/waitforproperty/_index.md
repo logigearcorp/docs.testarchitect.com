@@ -4,11 +4,8 @@ linktitle: "WaitForProperty"
 weight: 28
 aliases: 
     - /TA_Automation/Topics/abt_WaitForProperty_1.html
+keywords: "waitforproperty, abtelement waitforproperty, wait until given property of control achieves expected value, wait until given property of control exceed specified timeout"
 ---
-keyword: [waitforproperty, abtelement waitforproperty, wait until given property of control achieves expected value, wait until given property of control exceed specified timeout]
----
-
-# WaitForProperty
 
 ## Syntax
 

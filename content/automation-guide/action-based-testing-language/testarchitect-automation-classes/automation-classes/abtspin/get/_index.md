@@ -4,11 +4,8 @@ linktitle: "Get"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/abt_Get_9.html
+keywords: "abtspin get, value of spin button, current value of spin button, obtain value of spin button"
 ---
-keyword: [abtspin get, value of spin button, current value of spin button, obtain value of spin button]
----
-
-# Get
 
 ## Syntax
 

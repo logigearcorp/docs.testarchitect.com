@@ -4,11 +4,8 @@ linktitle: "GetColumnName"
 weight: 8
 aliases: 
     - /TA_Automation/Topics/abt_GetColumnName_13.html
+keywords: "getcolumnname, abttable getcolumnname, column name, column header, get column name at given index"
 ---
-keyword: [getcolumnname, abttable getcolumnname, column name, column header, get column name at given index]
----
-
-# GetColumnName
 
 ## Syntax
 

@@ -4,11 +4,8 @@ linktitle: "check picture"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/bia_check_picture.html
+keywords: "check picture, check bitmap area against basedline image, check bitmap region against baseline image, check if any pictures in area match baseline one"
 ---
-keyword: [check picture, check bitmap area against basedline image, check bitmap region against baseline image, check if any pictures in area match baseline one]
----
-
-# check picture
 
 ## Description
 
@@ -26,7 +23,7 @@ Check a bitmap area of the AUT's current display against one or more stored base
 
 -   **name**
 
-    Identifying name of a regular or shared[picture check](/images//Images/TA_Help/Topics/Projects_and_tests_picture_check.html), a collection of one or more baseline images to be used for comparison with the AUT display.
+    Identifying name of a regular or shared[picture check](/reuse/../TA_Help/Topics/Projects_and_tests_picture_check.html), a collection of one or more baseline images to be used for comparison with the AUT display.
 
 -   **question**
 
@@ -55,7 +52,7 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/images//Images/TA_Automation/Topics/bia_get_screen_resolution.html#li.ios.get_screen_resolution).\)
+-   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/reuse/../TA_Automation/Topics/bia_get_screen_resolution.html#li.ios.get_screen_resolution).\)
 -   This built-in action always applies a [pixel-by-pixel image comparison](aut_image_comparison_techniques.html) technique.Keypoint detection is not available to check picture.
 -   check picture looks for an exact match between a stored baseline image and the designated active area of the AUT display. To search for the presence of a baseline image *within* the active area, use the action [check picture exists](check_picture_exists.html).
 -   Note that if the referenced picture check holds multiple baseline images, each one is tested against the AUT bitmap until \(and if\) a match is found. Only a single “hit” is required for a match to be considered found.
@@ -104,11 +101,11 @@ This action may be used within the following project items:test modules and user
     |overlaps the active UI element|the rect area|
     |no overlap with active UI element|the rect area|
 
--   **Android:** This built-in action, when applied to a connected Android device, requires that the [TestArchitect Agent service](/images//Images/Android/Topics/Android_TA_agent.html) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
+-   **Android:** This built-in action, when applied to a connected Android device, requires that the [TestArchitect Agent service](/reuse/../Android/Topics/Android_TA_agent.html) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
     1.  Connect the Android device to the test controller through a USB cable \(not Wi-Fi\), if not already so connected.
-    2.  Open the [Android Instrumentation Tool](/images//Images/Android/Topics/Android_Instrumentation_tool.html) dialog box.
+    2.  Open the [Android Instrumentation Tool](/reuse/../Android/Topics/Android_Instrumentation_tool.html) dialog box.
     3.  Click the **Refresh devices list** ![](/images//Images/Android/Images/Refresh_device_list_btn.png) button.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

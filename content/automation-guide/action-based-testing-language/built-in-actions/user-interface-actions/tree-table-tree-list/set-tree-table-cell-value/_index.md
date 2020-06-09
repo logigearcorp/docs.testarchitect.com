@@ -4,11 +4,8 @@ linktitle: "set tree table cell value"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/bia_set_tree_table_cell_value.html
+keywords: "set tree table cell value, set contents of tree table cell, assign tree table cell value, assign value to tree table cell, assign value to cell in tree table"
 ---
-keyword: [set tree table cell value, set contents of tree table cell, assign tree table cell value, assign value to tree table cell, assign value to cell in tree table]
----
-
-# set tree table cell value
 
 ## Description
 
@@ -43,7 +40,7 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

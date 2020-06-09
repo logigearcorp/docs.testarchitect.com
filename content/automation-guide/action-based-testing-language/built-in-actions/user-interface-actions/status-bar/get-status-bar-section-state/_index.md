@@ -4,11 +4,8 @@ linktitle: "get status bar section state"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/bia_get_status_bar_section_state.html
+keywords: "get status bar section state, get state of status bar section, retrieve state of status bar section, get state of status bar part"
 ---
-keyword: [get status bar section state, get state of status bar section, retrieve state of status bar section, get state of status bar part]
----
-
-# get status bar section state
 
 ## Description
 
@@ -49,7 +46,7 @@ This action may be used within the following project items:test modules and user
 -   In the case of the section argument, note that index numbering begins with 1, and proceeds from left to right.
 -   A status bar section may have more than a single state. Multiple states are returned to the variable as a single, comma-delimited string.
 -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

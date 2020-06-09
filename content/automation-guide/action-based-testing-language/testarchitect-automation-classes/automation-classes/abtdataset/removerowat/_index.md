@@ -4,11 +4,8 @@ linktitle: "RemoveRowAt"
 weight: 14
 aliases: 
     - /TA_Automation/Topics/abt_RemoveRowAt.html
+keywords: "removerowat, remove row from data set, delete row at index"
 ---
-keyword: [removerowat, remove row from data set, delete row at index]
----
-
-# RemoveRowAt
 
 ## Syntax
 

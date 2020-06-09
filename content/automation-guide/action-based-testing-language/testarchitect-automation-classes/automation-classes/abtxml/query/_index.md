@@ -4,11 +4,8 @@ linktitle: "Query"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/abt_Query.html
+keywords: "query, abtxml query, run xpath query, execute xpath query"
 ---
-keyword: [query, abtxml query, run xpath query, execute xpath query]
----
-
-# Query
 
 ## Syntax
 

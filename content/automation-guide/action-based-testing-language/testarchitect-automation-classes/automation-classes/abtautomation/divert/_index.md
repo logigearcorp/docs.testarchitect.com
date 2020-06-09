@@ -4,11 +4,8 @@ linktitle: "Divert"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/abt_Divert.html
+keywords: "divert, abtautomation divert, direct harness action to implementation class"
 ---
-keyword: [divert, abtautomation divert, direct harness action to implementation class]
----
-
-# Divert
 
 ## Syntax
 

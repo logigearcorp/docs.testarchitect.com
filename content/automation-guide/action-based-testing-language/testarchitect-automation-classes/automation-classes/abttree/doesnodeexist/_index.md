@@ -4,11 +4,8 @@ linktitle: "DoesNodeExist"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/abt_DoesNodeExist_17.html
+keywords: "doesnodeexist, abttree doesnodeexist, node exists, existence of node in tree, tree node is found"
 ---
-keyword: [doesnodeexist, abttree doesnodeexist, node exists, existence of node in tree, tree node is found]
----
-
-# DoesNodeExist
 
 ## Syntax
 

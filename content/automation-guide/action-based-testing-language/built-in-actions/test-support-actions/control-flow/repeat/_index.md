@@ -4,11 +4,8 @@ linktitle: "repeat"
 weight: 15
 aliases: 
     - /TA_Automation/Topics/bia_repeat.html
+keywords: "repeat, repeat statement, repeat loop"
 ---
-keyword: [repeat, repeat statement, repeat loop]
----
-
-# repeat
 
 ## Description
 

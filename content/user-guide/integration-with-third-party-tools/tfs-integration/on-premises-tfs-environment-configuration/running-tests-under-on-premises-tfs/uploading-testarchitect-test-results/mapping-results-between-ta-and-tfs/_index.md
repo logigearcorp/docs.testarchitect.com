@@ -10,12 +10,12 @@ This section describes possible test results mappings between TestArchitect and 
 
 |No|TA test status|TFS test status|
 |--|--------------|---------------|
-|1|Passed|Passed \(default\)FailedInconclusive|
-|2|Failed|PassedFailed \(default\)Inconclusive|
-|3|Passed with Warning/Error|Passed Failed \(default\) Inconclusive|
-|4|Passed with Known Bug|Passed Failed \(default\) Inconclusive|
-|5|Not Finished 1|Passed Failed Inconclusive \(default\)|
-|6|Not Run 2|Passed Failed Inconclusive \(default\)|
+|1|Passed|Passed \(default\)Failed<br>Inconclusive<br><br>|
+|2|Failed|PassedFailed \(default\)<br>Inconclusive<br><br>|
+|3|Passed with Warning/Error|Passed<br> Failed \(default\)<br><br> Inconclusive<br><br>|
+|4|Passed with Known Bug|Passed<br> Failed \(default\)<br><br> Inconclusive<br><br>|
+|5|Not Finished 1|Passed<br> Failed<br><br> Inconclusive \(default\)<br><br>|
+|6|Not Run 2|Passed<br> Failed<br><br> Inconclusive \(default\)<br><br>|
 
 **Important:**
 

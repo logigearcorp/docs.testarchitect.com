@@ -10,15 +10,15 @@ Some basics of creating and recording tests for Win32 applications, Win32 contro
 
 ## Creating and recording tests for Win32 applications
 
-TestArchitect's test editor allows you to manually author tests consisting of action lines, based on the Action-Based Testing methodology. However, TestArchitect also provides you with a powerful tool to automate the process of authoring action-based tests, saving you time and eliminating the risk of accidental coding errors. The [Action Recorder](/images//Images/TA_Help/Topics/Creating_and_using_actions_AR.html) does this by monitoring and recording your manual interactions with theWin32application. It automatically generates the equivalent action lines and writes them to your test file, inserting whatever checks you specify to verify the responses of the application. \(See [Using the Action Recorder](/images//Images/TA_Tutorials/Topics/Tutorial_Using_the_Action_Recorder.html) for further information.\)
+TestArchitect's test editor allows you to manually author tests consisting of action lines, based on the Action-Based Testing methodology. However, TestArchitect also provides you with a powerful tool to automate the process of authoring action-based tests, saving you time and eliminating the risk of accidental coding errors. The [Action Recorder](/reuse/../TA_Help/Topics/Creating_and_using_actions_AR.html) does this by monitoring and recording your manual interactions with theWin32application. It automatically generates the equivalent action lines and writes them to your test file, inserting whatever checks you specify to verify the responses of the application. \(See [Using the Action Recorder](/reuse/../TA_Tutorials/Topics/Tutorial_Using_the_Action_Recorder.html) for further information.\)
 
 Auto-generated action lines can subsequently be modified and enhanced by hand in a number of ways to address specific test requirements. For example, you can:
 
 -   Add new actions, reorder actions and modify their arguments.
 -   Remove superfluous recorded actions.
 -   Insert validity checks to confirm that recorded values are output correctly.
--   Combine multiple recorded actions into a single user-defined action. \(Refer to [Smart creation of new actions](/images//Images/TA_Help/Topics/High_level_actions_smart_creating.html) for details\)
--   Create [data-driven tests](/images//Images/TA_Help/Topics/Projects_and_tests_dataset.html) that run multiple test iterations using different sets of data.
+-   Combine multiple recorded actions into a single user-defined action. \(Refer to [Smart creation of new actions](/reuse/../TA_Help/Topics/High_level_actions_smart_creating.html) for details\)
+-   Create [data-driven tests](/reuse/../TA_Help/Topics/Projects_and_tests_dataset.html) that run multiple test iterations using different sets of data.
 
 ## Actions supported for Win32 controls
 
@@ -30,7 +30,7 @@ Every user interface control of aWin32application has both a class and a set of 
 
 Generally, only a small subset of a control's properties are useful for identification. Some properties of a given control may have highly volatile values, and therefore cannot be used for reliable identification. Other properties may be quite constant \(e.g., enabled=true\), but other controls of the same class might well have the exact same value for that property. Ideally, you need to find property values that are both persistent for a given control and unique. If necessary, a combination of two or more property-value pairs may be used for identification.
 
-The [Interface Viewer](/images//Images/TA_Help/Topics/Interface_def_Viewer.html) is a powerful support tool that allows you to view all of a control's available properties, to capture and save all or parts of an interface definition, and to explore the controls of an application's interface. The following image depicts the Interface Viewer examining the controls of aWin32 application.
+The [Interface Viewer](/reuse/../TA_Help/Topics/Interface_def_Viewer.html) is a powerful support tool that allows you to view all of a control's available properties, to capture and save all or parts of an interface definition, and to explore the controls of an application's interface. The following image depicts the Interface Viewer examining the controls of aWin32 application.
 
 ![](/images//Images/TA_Automation/Images/aut_interface_definition_UI_Win32_identification.png)
 
@@ -50,7 +50,7 @@ To illustrate the problem, consider the table-like control known, in WPF, as a `
 
 TestArchitect's solution, TA classes, is a standardized set of control types, each of which TestArchitect recognizes and knows how to interact with.
 
-Refer to [Class mapping](/images//Images/TA_Help/Topics/Class_mapping.html) for details.
+Refer to [Class mapping](/reuse/../TA_Help/Topics/Class_mapping.html) for details.
 
 **Important:** Class mapping is currently supported on WPF, Win32, iOS, Android, and Silverlight applications.
 

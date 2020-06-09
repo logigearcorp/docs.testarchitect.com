@@ -4,11 +4,8 @@ linktitle: "go back"
 weight: 16
 aliases: 
     - /TA_Automation/Topics/bia_go_back.html
+keywords: "go back, history back in browser, go back to previous page, navigate back in browser history, return to previous page"
 ---
-keyword: [go back, history back in browser, go back to previous page, navigate back in browser history, return to previous page]
----
-
-# go back
 
 ## Description
 
@@ -28,7 +25,7 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   This action is functionally equivalent to clicking the browser's **Back** button.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

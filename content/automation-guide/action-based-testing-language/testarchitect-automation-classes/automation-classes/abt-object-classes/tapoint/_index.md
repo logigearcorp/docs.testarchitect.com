@@ -4,11 +4,8 @@ linktitle: "TAPoint"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/abt_TAPoint.html
+keywords: "TApoint, location of point, coordinates of point, find coordinates of point"
 ---
-keyword: [TApoint, location of point, coordinates of point, find coordinates of point]
----
-
-# TAPoint
 
 ## Description
 

@@ -4,11 +4,8 @@ linktitle: "page wait"
 weight: 10
 aliases: 
     - /TA_Automation/Topics/bis_page_wait.html
+keywords: "page wait, maximum webpage loading time, maximum wait time for webpage to load, maximum wait time for loading webpage"
 ---
-keyword: [page wait, maximum webpage loading time, maximum wait time for webpage to load, maximum wait time for loading webpage]
----
-
-# page wait
 
 ## Description
 

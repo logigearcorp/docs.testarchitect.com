@@ -4,11 +4,8 @@ linktitle: "multi touch tap"
 weight: 19
 aliases: 
     - /TA_Automation/Topics/bia_multi_touch_tap.html
+keywords: "multi touch tap, 2 finger tap, tap with 2 fingers., tap with 3 fingers"
 ---
-keyword: [multi touch tap, 2 finger tap, tap with 2 fingers., tap with 3 fingers]
----
-
-# multi touch tap
 
 ## Description
 
@@ -43,9 +40,9 @@ Use of this action is supported on the following systems/platforms: iOS.
 
 ## Notes
 
--   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/images//Images/TA_Automation/Topics/bia_get_screen_resolution.html#li.ios.get_screen_resolution).\)
+-   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/reuse/../TA_Automation/Topics/bia_get_screen_resolution.html#li.ios.get_screen_resolution).\)
 -   If a value is provided for the control argument, coordinates of the touch arguments relate to the top left corner of the control. If control is blank, the touch arguments relate to the window. For example: to simulate two touches at locations \(20,35\) and \(45, 80\) relative to the window, omit the control argument and set touch1 to 20, 35 and touch2 to 45, 80.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

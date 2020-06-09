@@ -4,11 +4,8 @@ linktitle: "check text contains"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/bia_check_text_contains.html
+keywords: "check if text contains specific string, check if string contains substring, check whether string contains specific words, verify if text contains specific characters, verify whether string contains substring"
 ---
-keyword: [check if text contains specific string, check if string contains substring, check whether string contains specific words, verify if text contains specific characters, verify whether string contains substring]
----
-
-# check text contains
 
 ## Description
 
@@ -32,7 +29,7 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   This action is useful for determining whether a string captured at runtime contains the target string of interest.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

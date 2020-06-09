@@ -10,7 +10,7 @@ The properties of the panel template can be changed at any time.
 
 To edit a panel template on the Dashboard page:
 
-1.  [Launch an instance of the Dashboard](/images//Images/TA_Help/Topics/Dashboard_starting.html) and log in to the session as a user with [permission](/images//Images/TA_Help/Topics/Dashboard_authentication_permissions.html) sufficient to edit a panel template.
+1.  [Launch an instance of the Dashboard](/reuse/../TA_Help/Topics/Dashboard_starting.html) and log in to the session as a user with [permission](/reuse/../TA_Help/Topics/Dashboard_authentication_permissions.html) sufficient to edit a panel template.
 
 2.  On the Dashboard's administrative bar, point to **Administer** and select **Panels**.
 

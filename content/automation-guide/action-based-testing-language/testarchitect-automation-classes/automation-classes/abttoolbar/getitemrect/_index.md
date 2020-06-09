@@ -4,11 +4,8 @@ linktitle: "GetItemRect"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/abt_GetItemRect_15.html
+keywords: "getitemrect, abttoolbar getitemrect, bounding rectangle of toolbar item, bounding rectangle of item on toolbar, rectangle encircles toolbar item"
 ---
-keyword: [getitemrect, abttoolbar getitemrect, bounding rectangle of toolbar item, bounding rectangle of item on toolbar, rectangle encircles toolbar item]
----
-
-# GetItemRect
 
 ## Syntax
 

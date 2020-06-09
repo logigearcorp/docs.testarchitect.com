@@ -4,11 +4,8 @@ linktitle: "set global variable"
 weight: 9
 aliases: 
     - /TA_Automation/Topics/bia_set_global_variable.html
+keywords: "set global variable, assign global variable value, assign value to global variable, global variable assignment"
 ---
-keyword: [set global variable, assign global variable value, assign value to global variable, global variable assignment]
----
-
-# set global variable
 
 ## Description
 

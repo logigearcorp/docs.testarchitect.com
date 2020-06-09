@@ -4,11 +4,8 @@ linktitle: "web element matching"
 weight: 24
 aliases: 
     - /TA_Automation/Topics/bis_web_element_matching.html
+keywords: "web element matching, specify which technique to match web UI elements, select which technique to perform web UI element matching, select technique to match web elements, choose technique to match web elements"
 ---
-keyword: [web element matching, specify which technique to match web UI elements, select which technique to perform web UI element matching, select technique to match web elements, choose technique to match web elements]
----
-
-# web element matching
 
 ## Description
 

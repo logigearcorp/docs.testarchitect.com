@@ -4,11 +4,8 @@ linktitle: "Create"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/abt_Create.html
+keywords: "create abtautomation, create new class instance of abtautomation, create abtautomatin class instance"
 ---
-keyword: [create abtautomation, create new class instance of abtautomation, create abtautomatin class instance]
----
-
-# Create
 
 ## Syntax
 

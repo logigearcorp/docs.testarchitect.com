@@ -4,11 +4,8 @@ linktitle: "GetItemText"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/abt_GetItemText.html
+keywords: "getitemtext, abtcombobox getitemtext, content of item in combo box, get value of item from combo box, content of item in combox box"
 ---
-keyword: [getitemtext, abtcombobox getitemtext, content of item in combo box, get value of item from combo box, content of item in combox box]
----
-
-# GetItemText
 
 ## Syntax
 

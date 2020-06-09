@@ -4,11 +4,8 @@ linktitle: "GetCellText"
 weight: 6
 aliases: 
     - /TA_Automation/Topics/abt_GetCellText_13.html
+keywords: "getcelltext, abttable getcelltext, content of cell, obtain text value of cell"
 ---
-keyword: [getcelltext, abttable getcelltext, content of cell, obtain text value of cell]
----
-
-# GetCellText
 
 ## Syntax
 

@@ -15,7 +15,7 @@ After implementing the scripted code that interacts with the target application,
 
     Note that "Interface Entity" and "Interface Element" have been specified as the data types for the window and table arguments. This allows anyone entering thecheck row countaction in a test to have access to these arguments' respective drop-down autocomplete lists.
 
-3.  Assuming you performed the last exercise, you should have a test module named My scripted tests. If not, go ahead and[create it.](/images//Images/TA_Tutorials/Topics/Creating_the_test_case_and_stub_action.html#stepsection.harness.python.create_tm)
+3.  Assuming you performed the last exercise, you should have a test module named My scripted tests. If not, go ahead and[create it.](/reuse/../TA_Tutorials/Topics/Creating_the_test_case_and_stub_action.html#stepsection.harness.python.create_tm)
 4.  Add a new test case to test module My scripted tests. Title this new test case `Test user-scripted action interacting with aut`. Optionally, add a test objective action beneath it, referencing objective `TO 01`, since we're still testing thePython harness \(see below\). 
 
 5.  You will be testing your new action against the Car Rental application, so go up to the `INITIAL` section and add a line to ensure that your test uses the correct interface:

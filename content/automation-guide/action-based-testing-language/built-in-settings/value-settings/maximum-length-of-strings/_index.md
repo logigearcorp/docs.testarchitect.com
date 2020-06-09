@@ -4,11 +4,8 @@ linktitle: "maximum length of strings"
 weight: 6
 aliases: 
     - /TA_Automation/Topics/bis_maximum_length_of_strings.html
+keywords: "maximum length of strings, limit length of strings"
 ---
-keyword: [maximum length of strings, limit length of strings]
----
-
-# maximum length of strings
 
 ## Description
 

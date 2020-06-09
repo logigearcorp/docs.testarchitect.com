@@ -4,11 +4,8 @@ linktitle: "select column"
 weight: 29
 aliases: 
     - /TA_Automation/Topics/bia_select_column.html
+keywords: "select column, select column in table, select a range of columns from table"
 ---
-keyword: [select column, select column in table, select a range of columns from table]
----
-
-# select column
 
 ## Description
 
@@ -38,7 +35,7 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   There is no practical limit to the number ofcolumnarguments that may be specified. In the action line, you may continue listing them in consecutive columns beyond those that have column headers.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

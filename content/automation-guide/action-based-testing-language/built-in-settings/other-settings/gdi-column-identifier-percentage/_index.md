@@ -4,11 +4,8 @@ linktitle: "gdi column identifier percentage"
 weight: 9
 aliases: 
     - /TA_Automation/Topics/bis_gdi_column_identifier_percentage.html
+keywords: "gdi column identifier percentage, identify column in GDI, set maximum height of vertical bar to be treated as separator for table column, column identification in GDI using GDI technique"
 ---
-keyword: [gdi column identifier percentage, identify column in GDI, set maximum height of vertical bar to be treated as separator for table column, column identification in GDI using GDI technique]
----
-
-# gdi column identifier percentage
 
 ## Description
 

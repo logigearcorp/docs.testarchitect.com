@@ -4,11 +4,8 @@ linktitle: "select menu item"
 weight: 31
 aliases: 
     - /TA_Automation/Topics/bia_select_menu_item.html
+keywords: "select menu item, select specified menu item, select given item on menu, select specified item from menu"
 ---
-keyword: [select menu item, select specified menu item, select given item on menu, select specified item from menu]
----
-
-# select menu item
 
 ## Description
 
@@ -41,7 +38,7 @@ This action may be used within the following project items:test modules and user
 -   item argument:
     -   Menu items are identified by their caption properties.
     -   If a menu path of more than one item must be specified, use arrow symbols \( -\> \) as delimiters between menu items. For example, `Vehicles->Cars->Four-door sedans`.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

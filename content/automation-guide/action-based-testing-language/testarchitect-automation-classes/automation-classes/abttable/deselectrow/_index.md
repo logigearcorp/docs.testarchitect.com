@@ -4,11 +4,8 @@ linktitle: "DeselectRow"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/abt_DeselectRow_13.html
+keywords: "deselectrow, abttable deselectrow, deselect specified row"
 ---
-keyword: [deselectrow, abttable deselectrow, deselect specified row]
----
-
-# DeselectRow
 
 ## Syntax
 

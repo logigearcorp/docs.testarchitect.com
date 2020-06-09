@@ -4,11 +4,8 @@ linktitle: "skip manual check"
 weight: 20
 aliases: 
     - /TA_Automation/Topics/bis_skip_manual_check.html
+keywords: "skip over manual check, determine whether to skip manual check, skip manual check"
 ---
-keyword: [skip over manual check, determine whether to skip manual check, skip manual check]
----
-
-# skip manual check
 
 ## Description
 

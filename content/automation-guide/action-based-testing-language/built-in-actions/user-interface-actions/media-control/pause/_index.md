@@ -4,11 +4,8 @@ linktitle: "pause"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/bia_html5_audio_video_pause.html
+keywords: "pause audio at certain time, pause video at specified point, pause audio at specified point, pause audio at certain time"
 ---
-keyword: [pause audio at certain time, pause video at specified point, pause audio at specified point, pause audio at certain time]
----
-
-# pause
 
 ## Description
 
@@ -37,7 +34,7 @@ This action may be used within the following project items:test modules and user
 
 -   This built-in action applies to HTML5 audio/video controls only.
 -   The pause action works independently of the state of the audio or video control when invoked. That is, whether the player is in play mode beforehand, or where the pointer is, are of no consequence. The effect is that the player is paused, with the audio/video pointer placed at the point specified by pause time.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

@@ -4,11 +4,8 @@ linktitle: "go home"
 weight: 18
 aliases: 
     - /TA_Automation/Topics/bia_go_home.html
+keywords: "go to homepage of browser, go to browswer homepage"
 ---
-keyword: [go to homepage of browser, go to browswer homepage]
----
-
-# go home
 
 ## Description
 
@@ -29,7 +26,7 @@ This action may be used within the following project items:test modules and user
 
 -   This action is functionally equivalent to clicking the browser's **Home** button.
 -   This action is not supported in the [WebDriver](Generic_WebDriver.html) mode
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

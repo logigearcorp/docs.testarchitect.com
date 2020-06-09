@@ -4,11 +4,8 @@ linktitle: "set screen orientation"
 weight: 23
 aliases: 
     - /TA_Automation/Topics/bia_set_screen_orientation.html
+keywords: "set screen orientation, portrait, landscape"
 ---
-keyword: [set screen orientation, portrait, landscape]
----
-
-# set screen orientation
 
 ## Description
 
@@ -36,7 +33,7 @@ Use of this action is supported on the following systems/platforms: Mobile opera
 ## Notes
 
 -   The values of the orientation argument are non-case sensitive.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

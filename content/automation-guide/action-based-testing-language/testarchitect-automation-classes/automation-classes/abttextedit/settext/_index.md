@@ -4,11 +4,8 @@ linktitle: "SetText"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/abt_SetText_14.html
+keywords: "settext, abttextedit settext, type in text box, assign text control a value, set content of text control"
 ---
-keyword: [settext, abttextedit settext, type in text box, assign text control a value, set content of text control]
----
-
-# SetText
 
 ## Syntax
 

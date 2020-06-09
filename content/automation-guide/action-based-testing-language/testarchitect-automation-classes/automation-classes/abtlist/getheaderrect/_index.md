@@ -4,11 +4,8 @@ linktitle: "GetHeaderRect"
 weight: 7
 aliases: 
     - /TA_Automation/Topics/abt_GetHeaderRect_3.html
+keywords: "getheaderrect, abtlist getheaderrect, bounding rectangle of column header at index, rectangle covering column title based on index"
 ---
-keyword: [getheaderrect, abtlist getheaderrect, bounding rectangle of column header at index, rectangle covering column title based on index]
----
-
-# GetHeaderRect
 
 ## Syntax
 

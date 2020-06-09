@@ -4,11 +4,8 @@ linktitle: "GetItemCount"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/abt_GetItemCount_11.html
+keywords: "getitemcout, abttab getitemcount, number of tab items in tab control, how many tab items in tab control, count tab items in tab control"
 ---
-keyword: [getitemcout, abttab getitemcount, number of tab items in tab control, how many tab items in tab control, count tab items in tab control]
----
-
-# GetItemCount
 
 ## Syntax
 

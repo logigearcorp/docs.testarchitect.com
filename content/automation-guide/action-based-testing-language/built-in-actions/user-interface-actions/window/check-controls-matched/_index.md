@@ -4,11 +4,8 @@ linktitle: "check controls matched"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/bia_check_controls_matched.html
+keywords: "check controls matched, check if all defined controls in interface entity match those in window, verify whether all defined controls in interface entity match those in window"
 ---
-keyword: [check controls matched, check if all defined controls in interface entity match those in window, verify whether all defined controls in interface entity match those in window]
----
-
-# check controls matched
 
 ## Description
 
@@ -34,7 +31,7 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   This built-in action is typically used if the application under test has been updated to a newer version, and you need to verify that the controls defined in the interface entity for the previous version are still mappable to this one.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

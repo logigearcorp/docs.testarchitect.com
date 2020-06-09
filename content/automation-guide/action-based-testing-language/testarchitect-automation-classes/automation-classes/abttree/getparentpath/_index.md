@@ -4,11 +4,8 @@ linktitle: "GetParentPath"
 weight: 11
 aliases: 
     - /TA_Automation/Topics/abt_GetParentPath_17.html
+keywords: "getparentpath, abttree getparentpath, path of tree node's parent, path of parent of given node in tree"
 ---
-keyword: [getparentpath, abttree getparentpath, path of tree node's parent, path of parent of given node in tree]
----
-
-# GetParentPath
 
 ## Syntax
 

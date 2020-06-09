@@ -4,11 +4,8 @@ linktitle: "click"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/bia_click.html
+keywords: "click, mouse click, left click, single left click"
 ---
-keyword: [click, mouse click, left click, single left click]
----
-
-# click
 
 ## Description
 
@@ -60,7 +57,7 @@ This action may be used within the following project items:test modules and user
 -   click type argument:
     -   The following applies to the use of this action on an iOS device:
         -   A value of right causes a long-press gesture to be simulated.
-        -   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/images//Images/TA_Automation/Topics/bia_get_screen_resolution.html#li.ios.get_screen_resolution).\)
+        -   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/reuse/../TA_Automation/Topics/bia_get_screen_resolution.html#li.ios.get_screen_resolution).\)
         -   For the Safari web browser on iOS, only the value left is supported. The value left indicates a tap with your finger.
     -   For Safari running on macOS, only a value of left \(the default\) is supported.
 -   The [click window](click_window.html) built-in action is functionally identical to click with control omitted.
@@ -74,7 +71,7 @@ This action may be used within the following project items:test modules and user
 
     **Restriction:** This rule should not be taken to imply that any control or window arguments are optional if their associated actions don't explicitly state that.
 
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 -   You cannot interact with the control located outside the working document.
 
 ## Applicable Built-In Settings

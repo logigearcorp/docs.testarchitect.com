@@ -14,29 +14,29 @@ The following table lists constant values of the TAExecutionConstant.cs class. T
 
 |Function|Constant name|Description|
 |--------|-------------|-----------|
-|Specifying TestArchitect's general information.This function corresponds to the [TestArchitect Information](ug_TestArchitect_execution_dialog.html#li_TA.Information.panel) panel in the TestArchitect Execution dialog box.|LicenseServer|License server hostname or IP address|
+|Specifying TestArchitect's general information.This function corresponds to the [TestArchitect Information](ug_TestArchitect_execution_dialog.html#li_TA.Information.panel) panel in the TestArchitect Execution dialog box.<br>|LicenseServer|License server hostname or IP address|
 |LicensePort|License server port||TrialKey|License trial key|
 |RepositoryServer|Repository server hostname or IP address||RepositoryName|Repository name|
 |RepositoryPort|Repository port||UserName|Repository user name to log in with|
 |Password|Password to log in with||ProjectName|Project name|
-|Specifying remote controllers and physical/cloud mobile devices.This function corresponds to the [Controllers/Devices](ug_TestArchitect_execution_dialog.html#li.Controller_Devices_panel) panel in the TestArchitect Execution dialog box.|RemoteHost|Remote hostname or IP address|
+|Specifying remote controllers and physical/cloud mobile devices.This function corresponds to the [Controllers/Devices](ug_TestArchitect_execution_dialog.html#li.Controller_Devices_panel) panel in the TestArchitect Execution dialog box.<br>|RemoteHost|Remote hostname or IP address|
 |RemoteHostPort|Remote host port||Device|Physical mobile devices to run the tests|
 |DesiredCapabilitiesFile|The JSON file containing desired capabilities to specify the target cloud providers.||Specifying the variations to be executedThis function corresponds to the [Variation Specification](ug_TestArchitect_execution_dialog.html#li_Variation.panel) panel in the TestArchitect Execution dialog box.
 
 |Keyword|Keyword variation\(s\)|
 |Version|AUT version\(s\)|
-|TimeTravellingMode|-   Determine whether time traveling execution is selected? \([Learn more](ug_time_traveling.html).\)-   Possible values:    -   Yes/True or    -   No/False|
+|TimeTravellingMode|-   Determine whether time traveling execution is selected? \([Learn more](ug_time_traveling.html).\)-   Possible values:<br>    -   Yes/True or<br>    -   No/False<br><br>|
 |TimeTravelling|The specified historical snapshot of the test's project items for execution|
-|Configuring the capturing of screenshots of [UI-Interacting actions](/TA_Automation/Topics/timing_classifying_actions.html) \([learn more](ug_Screenshot_recording.html).\) This function corresponds to the [Screenshot recording](ug_TestArchitect_execution_dialog.html#li_Screenshot.recording) panel in the TestArchitect Execution dialog box.|ScreenRecordingMode|Determine whether screenshots of UI-Interacting actions are captured during test execution?-   Possible values:
+|Configuring the capturing of screenshots of [UI-Interacting actions](/TA_Automation/Topics/timing_classifying_actions.html) \([learn more](ug_Screenshot_recording.html).\)<br> This function corresponds to the [Screenshot recording](ug_TestArchitect_execution_dialog.html#li_Screenshot.recording) panel in the TestArchitect Execution dialog box.<br><br>|ScreenRecordingMode|Determine whether screenshots of UI-Interacting actions are captured during test execution?-   Possible values:
     -   Yes/True or
     -   No/False
 
 |
 |ScreenRecordingNumberOfKeptInteraction|The number of preceding screenshot sets that are to be retained for each qualified event.|
-|ScreenRecordingPassed|-   Specify the **Passed** event of the test for which associated screenshots are to be retained.-   Possible values:    -   Yes/True or    -   No/False|
-|ScreenRecordingWarning|-   Specify the Warning/Error events of the test for which associated screenshots are to be retained.-   Possible values:    -   Yes/True or    -   No/False|
-|ScreenRecordingFailed|-   Specify the Failed events of the test for which associated screenshots are to be retained.-   Possible values:    -   Yes/True or    -   No/False|
-|Exporting test results to .TARESULTThis function corresponds to the [Export Result\(s\) to TARESULT](ug_TestArchitect_execution_dialog.html#li_Export.results.TARESULT) panel in the TestArchitect Execution dialog box.|ExportResultToTAResult|-   Determine whether test results are exported as .TARESULT files to a specified location?
+|ScreenRecordingPassed|-   Specify the **Passed** event of the test for which associated screenshots are to be retained.-   Possible values:<br>    -   Yes/True or<br>    -   No/False<br><br>|
+|ScreenRecordingWarning|-   Specify the Warning/Error events of the test for which associated screenshots are to be retained.-   Possible values:<br>    -   Yes/True or<br>    -   No/False<br><br>|
+|ScreenRecordingFailed|-   Specify the Failed events of the test for which associated screenshots are to be retained.-   Possible values:<br>    -   Yes/True or<br>    -   No/False<br><br>|
+|Exporting test results to .TARESULTThis function corresponds to the [Export Result\(s\) to TARESULT](ug_TestArchitect_execution_dialog.html#li_Export.results.TARESULT) panel in the TestArchitect Execution dialog box.<br>|ExportResultToTAResult|-   Determine whether test results are exported as .TARESULT files to a specified location?
 -   Possible values:
     -   Yes/True or
     -   No/False
@@ -52,7 +52,7 @@ The following table lists constant values of the TAExecutionConstant.cs class. T
 
 |
 |IncludeScreenshotsForTAResult|Include all captured [screenshots](ug_Screenshot_recording.html) in the exported .TARESULT files.|
-|Exporting test results to .HTML This function corresponds to the [Export Result\(s\) to HTML](ug_TestArchitect_execution_dialog.html#li_Export.results.HTML) panel in the TestArchitect Execution dialog box.|ExportResultToHtml|-   Export test results to .HTML files to a specified location?
+|Exporting test results to .HTML This function corresponds to the [Export Result\(s\) to HTML](ug_TestArchitect_execution_dialog.html#li_Export.results.HTML) panel in the TestArchitect Execution dialog box.<br>|ExportResultToHtml|-   Export test results to .HTML files to a specified location?
 -   Possible values:
     -   Yes/True or
     -   No/False
@@ -149,16 +149,16 @@ The following table lists constant values of the TAExecutionConstant.cs class. T
 |
 |UploadResultToTfsAutoZipSize|Minimum size of test results to be compressed as ZIP automatically. \([Learn more](ug_MTM_upload_result_automatic.html#step.Max_size).\)|
 |ApplyCustomizedXsltForTfs| |
-|XslTForTfsPath|**Remember:** A path must start with an @ character.|
-|UseTestIDForUploadedResults|-   Decide whether TFS test ID is used to name the TA test results uploaded to TFS?-   Possible values:    -   Yes/True or    -   No/False|
-|Storing local test results in the repository automatically.This function corresponds to the [Automatically add result\(s\) to repository](ug_TestArchitect_execution_dialog.html#li_auto.add_repo) panel in the TestArchitect Execution dialog box.|AddResultMode|-   Automatically add test results to repository? \([Learn more](Test_result_storing_automatically.html).\)
+|XslTForTfsPath|**Remember:** A path must start with an @ character.<br>|
+|UseTestIDForUploadedResults|-   Decide whether TFS test ID is used to name the TA test results uploaded to TFS?-   Possible values:<br>    -   Yes/True or<br>    -   No/False<br><br>|
+|Storing local test results in the repository automatically.This function corresponds to the [Automatically add result\(s\) to repository](ug_TestArchitect_execution_dialog.html#li_auto.add_repo) panel in the TestArchitect Execution dialog box.<br>|AddResultMode|-   Automatically add test results to repository? \([Learn more](Test_result_storing_automatically.html).\)
 -   Possible values:
     -   Yes/True or
     -   No/False
 
 |
 |ResultRepository|Destination on repository to store test results to. \([Learn more](Test_result_storing_automatically.html#step.Repo_location).\)|
-|ByResult|-   List of result types to add to the repository. \([Learn more](Test_result_storing_automatically.html#step.Result_types).\)-   Possible values:    -   Passed,    -   Passed with Warnings/Errors,    -   Failed, or    -   Passed with known bug **Tip:** Use commas \(,\) as delimiters between possible values.|
+|ByResult|-   List of result types to add to the repository. \([Learn more](Test_result_storing_automatically.html#step.Result_types).\)-   Possible values:<br>    -   Passed,<br>    -   Passed with Warnings/Errors,<br>    -   Failed, or<br>    -   Passed with known bug<br><br> **Tip:** Use commas \(,\) as delimiters between possible values.<br><br>|
 |Startup settings|StartupSettingsMode|-   Enable startup setting? \([Learn more](/TA_Automation/Topics/aut_startup_settings.html).\)
 -   Possible values:
     -   Yes/True or
@@ -167,7 +167,7 @@ The following table lists constant values of the TAExecutionConstant.cs class. T
 |
 |StartupSettings|List of startup setting\(s\). \([Learn more](/TA_Automation/Topics/aut_startup_settings.html).\)|
 |TestTool|Name of the test playback tool.|
-|Configuring automation tools.This function corresponds to the [Automation Tools](ug_TestArchitect_execution_dialog.html#li_Automation.tools) panel in the TestArchitect Execution dialog box.|TestScript|Path to a script for the test playback tool. For example: \{INSTALL\_DIR\}\\BinClient\\taplayback.exe
+|Configuring automation tools.This function corresponds to the [Automation Tools](ug_TestArchitect_execution_dialog.html#li_Automation.tools) panel in the TestArchitect Execution dialog box.<br>|TestScript|Path to a script for the test playback tool. For example: \{INSTALL\_DIR\}\\BinClient\\taplayback.exe
 
 **Remember:** A path must start with an @ character.
 

@@ -4,11 +4,8 @@ linktitle: "lexical scoping"
 weight: 11
 aliases: 
     - /TA_Automation/Topics/bis_lexical_scoping.html
+keywords: "lexical scoping, determine whether to employ lexical scoping or dynamic scoping, specify which scope binding to use, choose which scope binding is used, select scope binding to be applied to local variables and user-define action arguments"
 ---
-keyword: [lexical scoping, determine whether to employ lexical scoping or dynamic scoping, specify which scope binding to use, choose which scope binding is used, select scope binding to be applied to local variables and user-define action arguments]
----
-
-# lexical scoping
 
 ## Description
 

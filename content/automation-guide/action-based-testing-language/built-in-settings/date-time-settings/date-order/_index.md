@@ -4,11 +4,8 @@ linktitle: "date order"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/bis_date_order.html
+keywords: "date order, set date order"
 ---
-keyword: [date order, set date order]
----
-
-# date order
 
 ## Description
 

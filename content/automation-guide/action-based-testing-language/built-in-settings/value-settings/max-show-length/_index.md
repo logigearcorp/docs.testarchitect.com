@@ -4,11 +4,8 @@ linktitle: "max show length"
 weight: 7
 aliases: 
     - /TA_Automation/Topics/bis_max_show_length.html
+keywords: "limit characters displayed, maximum number of characters can be shown, maximum displayed length of characters"
 ---
-keyword: [limit characters displayed, maximum number of characters can be shown, maximum displayed length of characters]
----
-
-# max show length
 
 ## Description
 

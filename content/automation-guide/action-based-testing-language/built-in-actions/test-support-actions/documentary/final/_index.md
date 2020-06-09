@@ -4,11 +4,8 @@ linktitle: "FINAL"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/bia_final.html
+keywords: "final, beginning of final block of test module, beginning of final section of test module, start final section of test module"
 ---
-keyword: [final, beginning of final block of test module, beginning of final section of test module, start final section of test module]
----
-
-# FINAL
 
 ## Description
 

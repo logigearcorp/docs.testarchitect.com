@@ -10,7 +10,7 @@ Actions, which are at the heart of the Action Based Testing™ methodology, form
 
 Actions are the building blocks of your test cases, telling the system which operations to perform. Actions typically interface with the application under test, but may have other functions as well. These include documentary actions, actions that interact with the host file system, and various support actions.
 
-An action may be something elementary, such as [report](/images//Images/TA_Automation/Topics/bia_report.html) or [click](/images//Images/TA_Automation/Topics/bia_click.html), two actions which are built into TestArchitect. Such actions are referred to as built-in actions. Alternatively, an action might be your own creation. Custom actions are generally specific to your application, and are known as user actions. User actions take two forms:
+An action may be something elementary, such as [report](/reuse/../TA_Automation/Topics/bia_report.html) or [click](/reuse/../TA_Automation/Topics/bia_click.html), two actions which are built into TestArchitect. Such actions are referred to as built-in actions. Alternatively, an action might be your own creation. Custom actions are generally specific to your application, and are known as user actions. User actions take two forms:
 
 -   User-defined actions, which are composed of other actions, both built-in and user;
 -   User-scripted actions, which are written in a general-purpose language like Python or Java.

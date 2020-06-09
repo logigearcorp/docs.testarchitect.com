@@ -4,11 +4,8 @@ linktitle: "SpinDown"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/abt_SpinDown_9.html
+keywords: "spindown, abtspin spindown, spin down, set spin button to next higher value"
 ---
-keyword: [spindown, abtspin spindown, spin down, set spin button to next higher value]
----
-
-# SpinDown
 
 ## Syntax
 

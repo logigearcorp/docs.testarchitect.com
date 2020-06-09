@@ -4,11 +4,8 @@ linktitle: "Disconnect"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/abt_Disconnect.html
+keywords: "disconnect, abtdatabase disconnect, disconnect from database, close database connection, terminate database connection"
 ---
-keyword: [disconnect, abtdatabase disconnect, disconnect from database, close database connection, terminate database connection]
----
-
-# Disconnect
 
 ## Syntax
 

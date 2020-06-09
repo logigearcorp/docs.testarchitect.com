@@ -4,11 +4,8 @@ linktitle: "does tree node exist"
 weight: 8
 aliases: 
     - /TA_Automation/Topics/bia_does_tree_node_exist.html
+keywords: "check if specific tree node exists, check for existence of specified tree node, check whether tree node exists, verify if tree node exists, verify existence of specified tree node"
 ---
-keyword: [check if specific tree node exists, check for existence of specified tree node, check whether tree node exists, verify if tree node exists, verify existence of specified tree node]
----
-
-# does tree node exist
 
 ## Description
 
@@ -56,7 +53,7 @@ This action may be used within the following project items:test modules and user
 -   variable argument:
     -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
     -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

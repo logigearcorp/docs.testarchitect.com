@@ -4,11 +4,8 @@ linktitle: "GetItemStates"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/abt_GetItemStates_15.html
+keywords: "getitemstates, abttoolbar getitemstates, get current states of specified item on toolbar, obtain current states of given toolbar item"
 ---
-keyword: [getitemstates, abttoolbar getitemstates, get current states of specified item on toolbar, obtain current states of given toolbar item]
----
-
-# GetItemStates
 
 ## Syntax
 

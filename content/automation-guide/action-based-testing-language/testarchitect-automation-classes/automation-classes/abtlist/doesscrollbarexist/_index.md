@@ -4,11 +4,8 @@ linktitle: "DoesScrollBarExist"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/abt_DoesScrollBarExist_3.html
+keywords: "doesscrollbarexist, abtlist doesscrollbarexist, scroll bar exists in list, scroll bar exists in list, list has scroll bar"
 ---
-keyword: [doesscrollbarexist, abtlist doesscrollbarexist, scroll bar exists in list, scroll bar exists in list, list has scroll bar]
----
-
-# DoesScrollBarExist
 
 ## Syntax
 

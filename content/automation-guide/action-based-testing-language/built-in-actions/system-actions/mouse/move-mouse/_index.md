@@ -4,11 +4,8 @@ linktitle: "move mouse"
 weight: 6
 aliases: 
     - /TA_Automation/Topics/bia_move_mouse.html
+keywords: "move mouse, move mouse to position, move mouse to position within control"
 ---
-keyword: [move mouse, move mouse to position, move mouse to position within control]
----
-
-# move mouse
 
 ## Description
 
@@ -48,7 +45,7 @@ This action may be used within the following project items:test modules and user
 
     **Restriction:** This rule should not be taken to imply that any control or window arguments are optional if their associated actions don't explicitly state that.
 
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 -   You cannot interact with the control located outside the working document.
 
 ## Applicable Built-In Settings

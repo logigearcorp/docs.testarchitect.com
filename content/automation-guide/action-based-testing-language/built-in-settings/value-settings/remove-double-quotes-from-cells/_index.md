@@ -4,11 +4,8 @@ linktitle: "remove double quotes from cells"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/bis_remove_double_quotes_from_cells.html
+keywords: "remove double quotes from cells, strip off leading and trailing double quotes from texts, remove double quotation marks that encloses text strings, remove double quotes surrounding strings, strip off double quotes that surround texts"
 ---
-keyword: [remove double quotes from cells, strip off leading and trailing double quotes from texts, remove double quotation marks that encloses text strings, remove double quotes surrounding strings, strip off double quotes that surround texts]
----
-
-# remove double quotes from cells
 
 ## Description
 

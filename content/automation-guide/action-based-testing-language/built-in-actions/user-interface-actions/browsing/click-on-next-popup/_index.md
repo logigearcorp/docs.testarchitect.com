@@ -4,11 +4,8 @@ linktitle: "click on next popup"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/bia_click_on_next_popup.html
+keywords: "click on next popup, click on specified button in next popup"
 ---
-keyword: [click on next popup, click on specified button in next popup]
----
-
-# click on next popup
 
 ## Description
 
@@ -45,7 +42,7 @@ This action may be used within the following project items:test modules and user
         -   on iOS, refer to [Handling one or a series of popups](aut_app_testing_safari_apps_popups.html#section_iv1_x5x_vp) for details.
         -   on macOS, refer to [Handling one or a series of popups](aut_app_testing_web_apps_getting_started.html#sectiondiv_o5w_nkd_4s) for details.
     -   For Google Chrome on Android, refer to [Handling one or a series of popups](aut_app_testing_Android_apps_popups.html#section_iv1_x5x_vp) for details.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

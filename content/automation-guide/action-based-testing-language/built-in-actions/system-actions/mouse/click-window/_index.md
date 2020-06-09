@@ -4,11 +4,8 @@ linktitle: "click window"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/bia_click_window.html
+keywords: "click window, click within window, click inside window"
 ---
-keyword: [click window, click within window, click inside window]
----
-
-# click window
 
 ## Description
 
@@ -53,7 +50,7 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/images//Images/TA_Automation/Topics/bia_get_screen_resolution.html#li.ios.get_screen_resolution).\)
+-   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/reuse/../TA_Automation/Topics/bia_get_screen_resolution.html#li.ios.get_screen_resolution).\)
 -   As a general rule for all actions involving x,y coordinate arguments, the coordinates are specified in pixels relative to the top-left corner of the:
 
     -   control, if the action has window and control arguments, and values are specified for both of them;
@@ -63,7 +60,7 @@ This action may be used within the following project items:test modules and user
 
     **Restriction:** This rule should not be taken to imply that any control or window arguments are optional if their associated actions don't explicitly state that.
 
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 -   You cannot interact with the control located outside the working document.
 
 ## Applicable Built-In Settings

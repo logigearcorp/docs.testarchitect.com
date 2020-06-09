@@ -4,11 +4,8 @@ linktitle: "get selected items"
 weight: 24
 aliases: 
     - /TA_Automation/Topics/bia_get_selected_items.html
+keywords: "get selected items, get values of selected items in multiselect control, retrieve values of selected items in multiselect control, get values of selected items in multiselect list box, get values of selected items in multiselect combo box"
 ---
-keyword: [get selected items, get values of selected items in multiselect control, retrieve values of selected items in multiselect control, get values of selected items in multiselect list box, get values of selected items in multiselect combo box]
----
-
-# get selected items
 
 ## Description
 
@@ -38,7 +35,7 @@ This action may be used within the following project items:test modules and user
 -   item arguments:
     -   For the list view control, the content returned to each returned item variable is the concatenation of all cell values of the selected row, separated by vertical bars \( \| \).
     -   If the variables in argumentsitem1, item2, etc.have not been declared, the action creates them as globals.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

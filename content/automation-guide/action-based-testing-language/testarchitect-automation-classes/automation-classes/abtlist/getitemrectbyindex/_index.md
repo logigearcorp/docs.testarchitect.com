@@ -4,11 +4,8 @@ linktitle: "GetItemRectByIndex"
 weight: 11
 aliases: 
     - /TA_Automation/Topics/abt_GetItemRect_3.html
+keywords: "getitemrectbyindex, abtlist getitemrectbyindex, get bounding rectangle of item list by index, rectangle covering item using index"
 ---
-keyword: [getitemrectbyindex, abtlist getitemrectbyindex, get bounding rectangle of item list by index, rectangle covering item using index]
----
-
-# GetItemRectByIndex
 
 ## Syntax
 
@@ -27,7 +24,7 @@ Retrieve the bounding rectangle of a list item by its index.
 
 ## Return Value
 
-[TARect](/images//Images/TA_Automation/Topics/abt_TARect.html) object representing the bounding rectangle ofthe item. The object contains the following elements:
+[TARect](/reuse/../TA_Automation/Topics/abt_TARect.html) object representing the bounding rectangle ofthe item. The object contains the following elements:
 
 -   left: Horizontal coordinate of left border of the bounding rectangle relative to the left side of the calling object.
 -   top: Vertical coordinate of top of the bounding rectangle relative to the top of the calling object.

@@ -4,11 +4,8 @@ linktitle: "GetBaselineCount"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/abt_GetBaselineCount.html
+keywords: "getbaselinecount, abtpicturecheck getbaselinecount, count baseline images in picture check, number of baseline images in picture check, how many baseline images in picture check"
 ---
-keyword: [getbaselinecount, abtpicturecheck getbaselinecount, count baseline images in picture check, number of baseline images in picture check, how many baseline images in picture check]
----
-
-# GetBaselineCount
 
 ## Syntax
 

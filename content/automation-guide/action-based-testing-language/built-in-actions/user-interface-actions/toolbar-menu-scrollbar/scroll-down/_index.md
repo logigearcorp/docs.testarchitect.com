@@ -4,11 +4,8 @@ linktitle: "scroll down"
 weight: 24
 aliases: 
     - /TA_Automation/Topics/bia_scroll_down.html
+keywords: "scroll down, move slider of vertical scroll bar down, move scroll bar slider down by specified number of sticks, move scroll box down"
 ---
-keyword: [scroll down, move slider of vertical scroll bar down, move scroll bar slider down by specified number of sticks, move scroll box down]
----
-
-# scroll down
 
 ## Description
 
@@ -35,7 +32,7 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

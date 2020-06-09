@@ -4,11 +4,8 @@ linktitle: "DoesDataSetExist"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/abt_DoesDataSetExist.html
+keywords: "doesdatasetexist, abtdatasetmanagement doesdatasetexist, data set exist, existence of data set, check if data set exists"
 ---
-keyword: [doesdatasetexist, abtdatasetmanagement doesdatasetexist, data set exist, existence of data set, check if data set exists]
----
-
-# DoesDataSetExist
 
 ## Syntax
 

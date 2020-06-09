@@ -4,11 +4,8 @@ linktitle: "INITIAL"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/bia_initial.html
+keywords: "initial, beginning of inital block of test module, start initial block of test module, beginning of initial section of test module"
 ---
-keyword: [initial, beginning of inital block of test module, start initial block of test module, beginning of initial section of test module]
----
-
-# INITIAL
 
 ## Description
 

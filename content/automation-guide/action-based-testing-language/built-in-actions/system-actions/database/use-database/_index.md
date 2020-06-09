@@ -4,11 +4,8 @@ linktitle: "use database"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/bia_use_database.html
+keywords: "use a database, select a database"
 ---
-keyword: [use a database, select a database]
----
-
-# use database
 
 ## Description
 
@@ -24,7 +21,7 @@ Specify a database against which the ensuing SQL action lines are to be applied.
 ## Notes
 
 -   This action is generally invoked as part of a sequence of actions to allow the test to access a data source. \(See [Testing with databases](aut_app_testing_Database_apps.html) for more information.\)
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

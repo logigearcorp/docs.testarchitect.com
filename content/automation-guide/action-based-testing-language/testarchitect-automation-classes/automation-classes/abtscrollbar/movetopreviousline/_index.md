@@ -4,11 +4,8 @@ linktitle: "MoveToPreviousLine"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/abt_MoveToPreviousLine_8.html
+keywords: "movetopreviousline, abtscrollbar movetopreviousline, move scroll bar up by number of lines, move scroll bar to left by number of lines"
 ---
-keyword: [movetopreviousline, abtscrollbar movetopreviousline, move scroll bar up by number of lines, move scroll bar to left by number of lines]
----
-
-# MoveToPreviousLine
 
 ## Syntax
 

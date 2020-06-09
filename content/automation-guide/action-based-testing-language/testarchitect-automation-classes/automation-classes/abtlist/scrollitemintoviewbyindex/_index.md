@@ -4,11 +4,8 @@ linktitle: "ScrollItemIntoViewByIndex"
 weight: 15
 aliases: 
     - /TA_Automation/Topics/abt_ScrollItemIntoView_3.html
+keywords: "scrollitemintoviewbyindex, abtlist scrollitemintoviewbyindex, scroll item at given index in list into view, scroll list item into view by index"
 ---
-keyword: [scrollitemintoviewbyindex, abtlist scrollitemintoviewbyindex, scroll item at given index in list into view, scroll list item into view by index]
----
-
-# ScrollItemIntoViewByIndex
 
 ## Syntax
 

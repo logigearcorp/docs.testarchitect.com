@@ -4,11 +4,8 @@ linktitle: "does picker view item exist"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/bia_does_picker_view_item_exist.html
+keywords: "does picker view item exist, check whether specified item in component of picker view exist or not, verify whether or not specified item is found in component of picker view, check for existence of specific item in component of picker view"
 ---
-keyword: [does picker view item exist, check whether specified item in component of picker view exist or not, verify whether or not specified item is found in component of picker view, check for existence of specific item in component of picker view]
----
-
-# does picker view item exist
 
 ## Description
 
@@ -57,7 +54,7 @@ This action may be used within the following project items:test modules and user
 -   variable argument:
     -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
     -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

@@ -4,11 +4,8 @@ linktitle: "GetSelectedNodes"
 weight: 12
 aliases: 
     - /TA_Automation/Topics/abt_GetSelectedNodes_17.html
+keywords: "getselectednodes, contents of selected nodes in tree, obtain text of selected tree nodes"
 ---
-keyword: [getselectednodes, contents of selected nodes in tree, obtain text of selected tree nodes]
----
-
-# GetSelectedNodes
 
 ## Syntax
 

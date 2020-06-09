@@ -4,11 +4,8 @@ linktitle: "check window exists"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/bia_check_window_exists.html
+keywords: "check window exist, check for existence of specified window, check if specified window exist, verify whether specified window exist, verify existence of specified window"
 ---
-keyword: [check window exist, check for existence of specified window, check if specified window exist, verify whether specified window exist, verify existence of specified window]
----
-
-# check window exists
 
 ## Description
 
@@ -27,7 +24,7 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

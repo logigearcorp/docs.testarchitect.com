@@ -4,11 +4,8 @@ linktitle: "FindCellWithText"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/abt_FindCellWithText_13.html
+keywords: "findcellwithtext, abttable findcellwithtext, find cell with specified value, locate cell containing particular content"
 ---
-keyword: [findcellwithtext, abttable findcellwithtext, find cell with specified value, locate cell containing particular content]
----
-
-# FindCellWithText
 
 ## Syntax
 

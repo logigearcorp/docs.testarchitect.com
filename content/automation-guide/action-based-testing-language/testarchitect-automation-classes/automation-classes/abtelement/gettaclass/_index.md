@@ -4,11 +4,8 @@ linktitle: "GetTAClass"
 weight: 19
 aliases: 
     - /TA_Automation/Topics/abt_GetTAClass_1.html
+keywords: "gettaclass, abtelement gettaclass, ta class of control, ta class of HTML element"
 ---
-keyword: [gettaclass, abtelement gettaclass, ta class of control, ta class of HTML element]
----
-
-# GetTAClass
 
 ## Syntax
 

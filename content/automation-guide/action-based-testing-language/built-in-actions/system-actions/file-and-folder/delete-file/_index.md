@@ -4,11 +4,8 @@ linktitle: "delete file"
 weight: 10
 aliases: 
     - /TA_Automation/Topics/bia_delete_file.html
+keywords: "delete file, remove file, get rid of file"
 ---
-keyword: [delete file, remove file, get rid of file]
----
-
-# delete file
 
 ## Description
 
@@ -47,7 +44,7 @@ This action may be used within the following project items:test modules and user
 -   Note that this built-in action is not currently supported on the macOS or iOS platforms.
 -   Forced deletion is only successful under certain circumstances in which the program would otherwise have insufficient permission for deletion \(e.g., a read-only file\). However, delete file does not force deletion of a file that has been locked by another process.
 -   A warning is issued if the file specified in file is not found to exist.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

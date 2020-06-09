@@ -4,11 +4,8 @@ linktitle: "linking distance"
 weight: 12
 aliases: 
     - /TA_Automation/Topics/bis_linking_distance.html
+keywords: "linking distance, specify maximum horizontal distance between adjacent characters to be treated as single text fragment, set mamximum spacing between two characters to be treated as single text fragment"
 ---
-keyword: [linking distance, specify maximum horizontal distance between adjacent characters to be treated as single text fragment, set mamximum spacing between two characters to be treated as single text fragment]
----
-
-# linking distance
 
 ## Description
 

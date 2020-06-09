@@ -4,11 +4,8 @@ linktitle: "get tree table cell value"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/bia_get_tree_table_cell_value.html
+keywords: "get tree table cell value, get cell contents, retrieve cell contents"
 ---
-keyword: [get tree table cell value, get cell contents, retrieve cell contents]
----
-
-# get tree table cell value
 
 ## Description
 
@@ -46,7 +43,7 @@ This action may be used within the following project items:test modules and user
 -   variable argument:
     -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
     -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

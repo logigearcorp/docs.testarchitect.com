@@ -4,11 +4,8 @@ linktitle: "SelectItem"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/abt_SelectItem_6.html
+keywords: "selectitem, abtmenubar selectitem, select menu item, select menu"
 ---
-keyword: [selectitem, abtmenubar selectitem, select menu item, select menu]
----
-
-# SelectItem
 
 ## Syntax
 

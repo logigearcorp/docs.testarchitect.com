@@ -4,11 +4,8 @@ linktitle: "SetValueByColIndex"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/abt_SetValueByColIndex.html
+keywords: "setvaluebycolindex, abtdatarow setvaluebycolindex, set value for cell in selected row by column index, assign value to cell in selected row by column index"
 ---
-keyword: [setvaluebycolindex, abtdatarow setvaluebycolindex, set value for cell in selected row by column index, assign value to cell in selected row by column index]
----
-
-# SetValueByColIndex
 
 ## Syntax
 

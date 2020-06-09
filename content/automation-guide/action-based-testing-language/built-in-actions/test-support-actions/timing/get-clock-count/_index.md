@@ -4,11 +4,8 @@ linktitle: "get clock count"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/bia_get_clock_count.html
+keywords: "get clock count, get timer value, get time counter value, retrieve timer value, get elapsed time"
 ---
-keyword: [get clock count, get timer value, get time counter value, retrieve timer value, get elapsed time]
----
-
-# get clock count
 
 ## Description
 
@@ -33,7 +30,7 @@ This action may be used within the following project items:test modules and user
 -   variable argument:
     -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
     -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

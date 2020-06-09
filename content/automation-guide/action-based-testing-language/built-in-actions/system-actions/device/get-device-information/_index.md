@@ -4,11 +4,8 @@ linktitle: "get device information"
 weight: 12
 aliases: 
     - /TA_Automation/Topics/bia_get_device_information.html
+keywords: "get device OS, get device model, get device serial number, get device MAC address, get device unique ID, get device Unique Identifier, obtain device OS, obtain device model, obtain device serial number, obtain device MAC address, obtain device unique ID, obtain device Unique Identifier, retrieve device OS, retrieve device model, retrieve device serial number, retrieve device MAC address, retrieve device unique ID, retrieve device Unique Identifier"
 ---
-keyword: [get device OS, get device model, get device serial number, get device MAC address, get device unique ID, get device Unique Identifier, obtain device OS, obtain device model, obtain device serial number, obtain device MAC address, obtain device unique ID, obtain device Unique Identifier, retrieve device OS, retrieve device model, retrieve device serial number, retrieve device MAC address, retrieve device unique ID, retrieve device Unique Identifier]
----
-
-# get device information
 
 ## Description
 
@@ -52,7 +49,7 @@ Use of this action is supported on the following systems/platforms: Mobile opera
     -   Android devices: The returned value is the MAC address of your device, minus the colons separating the octets comprising the address. For example: if your device's MAC address is 48:5a:3f:36:55:66, the returned value of unique id is 485a3f365566.
 -   If the variables in argumentsos version, model, serial number, mac address, and unique id have not been declared, the action creates them as globals.
 -   For each of os version, model, serial number, mac address, and unique id, if the argument is left empty, a variable with the same name as the argument header is created to hold the return value.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

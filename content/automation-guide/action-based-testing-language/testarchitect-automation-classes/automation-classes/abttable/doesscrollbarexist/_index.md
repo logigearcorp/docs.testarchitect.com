@@ -4,11 +4,8 @@ linktitle: "DoesScrollBarExist"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/abt_DoesScrollBarExist_13.html
+keywords: "scrollbar is found in table, scrollbar exists in table, table has scrollbar"
 ---
-keyword: [scrollbar is found in table, scrollbar exists in table, table has scrollbar]
----
-
-# DoesScrollBarExist
 
 ## Syntax
 

@@ -4,11 +4,8 @@ linktitle: "Exists"
 weight: 9
 aliases: 
     - /TA_Automation/Topics/abt_Exists.html
+keywords: "exists, abtentity exists, window existence, window exists, check existence of window"
 ---
-keyword: [exists, abtentity exists, window existence, window exists, check existence of window]
----
-
-# Exists
 
 ## Syntax
 

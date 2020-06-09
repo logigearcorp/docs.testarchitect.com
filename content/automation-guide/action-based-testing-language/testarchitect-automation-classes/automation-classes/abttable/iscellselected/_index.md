@@ -4,11 +4,8 @@ linktitle: "IsCellSelected"
 weight: 12
 aliases: 
     - /TA_Automation/Topics/abt_IsCellSelected_13.html
+keywords: "iscellselected, abttable iscellselected, given cell is selected, check if specified cell is selected"
 ---
-keyword: [iscellselected, abttable iscellselected, given cell is selected, check if specified cell is selected]
----
-
-# IsCellSelected
 
 ## Syntax
 

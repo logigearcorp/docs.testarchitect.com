@@ -4,11 +4,8 @@ linktitle: "case sensitive"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/bis_case_sensitive.html
+keywords: "case sensitive, enable case sensitivity, enable case insensitivity, distinguish between lower case and upper case texts, do not distinguish between lower case and upper case texts"
 ---
-keyword: [case sensitive, enable case sensitivity, enable case insensitivity, distinguish between lower case and upper case texts, do not distinguish between lower case and upper case texts]
----
-
-# case sensitive
 
 ## Description
 

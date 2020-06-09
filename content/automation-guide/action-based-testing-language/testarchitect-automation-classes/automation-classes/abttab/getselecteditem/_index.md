@@ -4,11 +4,8 @@ linktitle: "GetSelectedItem"
 weight: 8
 aliases: 
     - /TA_Automation/Topics/abt_GetSelectedItem_11.html
+keywords: "getselecteditem, abttab getselecteditem, content of selected tab item, retrieve content of selected tab"
 ---
-keyword: [getselecteditem, abttab getselecteditem, content of selected tab item, retrieve content of selected tab]
----
-
-# GetSelectedItem
 
 ## Syntax
 

@@ -4,11 +4,8 @@ linktitle: "get device screen size"
 weight: 14
 aliases: 
     - /TA_Automation/Topics/bia_get_device_screen_size.html
+keywords: "screen size, get device screen size, get mobile screen size, device screen size, "
 ---
-keyword: [screen size, get device screen size, get mobile screen size, device screen size, ]
----
-
-# get device screen size
 
 ## Description
 
@@ -33,7 +30,7 @@ Use of this action is supported on the following systems/platforms: Mobile opera
 
 -   If the variable in argumentdevice screen sizehas not been declared, the action creates it as a global.
 -   If the device screen sizeargument is left empty, TestArchitect supplies a global variable with the name \_result.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

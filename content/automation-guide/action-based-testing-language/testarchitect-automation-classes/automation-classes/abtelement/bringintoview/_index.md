@@ -4,11 +4,8 @@ linktitle: "BringIntoView"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/abt_BringIntoView_1.html
+keywords: "bringintoview, abtelement bringintoview, bring control into view, bring HTML emlement into view"
 ---
-keyword: [bringintoview, abtelement bringintoview, bring control into view, bring HTML emlement into view]
----
-
-# BringIntoView
 
 ## Syntax
 

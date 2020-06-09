@@ -4,11 +4,8 @@ linktitle: "gdi row identifier percentage"
 weight: 10
 aliases: 
     - /TA_Automation/Topics/bis_gdi_row_identifier_percentage.html
+keywords: "gdi row identifier percentage, identify row in GDI, specify maximum height of horizontal bar to be treated as row separator, set maximum height of horizontal bar to be treated as separator for table row"
 ---
-keyword: [gdi row identifier percentage, identify row in GDI, specify maximum height of horizontal bar to be treated as row separator, set maximum height of horizontal bar to be treated as separator for table row]
----
-
-# gdi row identifier percentage
 
 ## Description
 

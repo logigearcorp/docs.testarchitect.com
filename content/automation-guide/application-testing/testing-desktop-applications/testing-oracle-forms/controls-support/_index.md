@@ -26,7 +26,7 @@ Below is the full list of the Oracle Forms controls for which TestArchitect prov
 |10|Checkbox|`oracle.forms.ui.VCheckbox`|
 |11|Radio button|`oracle.forms.ui.VRadioButton`|
 |12|Combo box|`oracle.forms.ui.VComboBox`|
-|13|Table|1.  `oracle.ewt.grid.Grid`2.  `oracle.apps.jtf.table.AccessibleTableGrid`    -   For `oracle.apps.jtf.table.AccessibleTableGrid`: The [get column header name](get_column_header_name.html) and [check column header name](check_column_header_name.html) built-in actions return an empty value.3.  `oracle.apps.jtf.table.AccessibleSpreadTable`|
+|13|Table|1.  `oracle.ewt.grid.Grid`2.  `oracle.apps.jtf.table.AccessibleTableGrid`<br>    -   For `oracle.apps.jtf.table.AccessibleTableGrid`: The [get column header name](get_column_header_name.html) and [check column header name](check_column_header_name.html) built-in actions return an empty value.<br>3.  `oracle.apps.jtf.table.AccessibleSpreadTable`<br><br>|
 |14|Status bar|`oracle.ewt.statusBar.StatusBar`|
 |15|Scrollbar|`oracle.ewt.scrolling.scrollBox.EwtLWScrollbar`|
 

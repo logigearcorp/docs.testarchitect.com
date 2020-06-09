@@ -4,11 +4,8 @@ linktitle: "end if"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/bia_end_if.html
+keywords: "endif, end if, endif condition, end if condition, end if statement, endif statement"
 ---
-keyword: [endif, end if, endif condition, end if condition, end if statement, endif statement]
----
-
-# end if
 
 ## Description
 

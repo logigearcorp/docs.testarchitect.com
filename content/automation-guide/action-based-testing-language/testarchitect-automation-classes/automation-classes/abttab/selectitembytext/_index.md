@@ -4,11 +4,8 @@ linktitle: "SelectItemByText"
 weight: 11
 aliases: 
     - /TA_Automation/Topics/abt_SelectItem_11.html
+keywords: "selectitembytext, abttab selectitembytext, select tab item based on content"
 ---
-keyword: [selectitembytext, abttab selectitembytext, select tab item based on content]
----
-
-# SelectItemByText
 
 ## Syntax
 

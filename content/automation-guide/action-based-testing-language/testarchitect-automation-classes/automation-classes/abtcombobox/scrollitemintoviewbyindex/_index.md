@@ -4,11 +4,8 @@ linktitle: "ScrollItemIntoViewByIndex"
 weight: 7
 aliases: 
     - /TA_Automation/Topics/abt_ScrollItemIntoView_1.html
+keywords: "scrollitemintoviewbyindex, abtcombobox scrollitemintoviewbyindex, scroll combo box item at index into view, bring combo box item at index into view"
 ---
-keyword: [scrollitemintoviewbyindex, abtcombobox scrollitemintoviewbyindex, scroll combo box item at index into view, bring combo box item at index into view]
----
-
-# ScrollItemIntoViewByIndex
 
 ## Syntax
 

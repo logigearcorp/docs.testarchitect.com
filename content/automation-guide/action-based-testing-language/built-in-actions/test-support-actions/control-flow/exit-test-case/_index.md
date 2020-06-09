@@ -4,11 +4,8 @@ linktitle: "exit test case"
 weight: 8
 aliases: 
     - /TA_Automation/Topics/bia_exit_test_case.html
+keywords: "exit test case, stop test case, terminate test case, test case termination"
 ---
-keyword: [exit test case, stop test case, terminate test case, test case termination]
----
-
-# exit test case
 
 ## Description
 

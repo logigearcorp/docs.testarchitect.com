@@ -4,11 +4,8 @@ linktitle: "TAItemState"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/abt_TAItemState.html
+keywords: "determine state of controls, state of listbox or listview, state of menu or toolbar, state of treeview"
 ---
-keyword: [determine state of controls, state of listbox or listview, state of menu or toolbar, state of treeview]
----
-
-# TAItemState
 
 ## Description
 

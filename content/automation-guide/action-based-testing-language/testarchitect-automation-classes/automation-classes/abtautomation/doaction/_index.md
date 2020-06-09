@@ -4,11 +4,8 @@ linktitle: "DoAction"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/abt_DoAction.html
+keywords: "doaction, abtautomation doaction, execute TA built-in action"
 ---
-keyword: [doaction, abtautomation doaction, execute TA built-in action]
----
-
-# DoAction
 
 ## Syntax
 

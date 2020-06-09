@@ -4,11 +4,8 @@ linktitle: "delete cookies"
 weight: 8
 aliases: 
     - /TA_Automation/Topics/bia_delete_cookies.html
+keywords: "delete cookies, delete cookies in browser, delete file cookes in browser, clear cookies in browser, clear browser cookies"
 ---
-keyword: [delete cookies, delete cookies in browser, delete file cookes in browser, clear cookies in browser, clear browser cookies]
----
-
-# delete cookies
 
 ## Description
 

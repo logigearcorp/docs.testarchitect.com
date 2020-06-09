@@ -4,11 +4,8 @@ linktitle: "minimum accuracy"
 weight: 16
 aliases: 
     - /TA_Automation/Topics/bis_minimum_accuracy.html
+keywords: "minimum accuracy, minimum accuracy in matching objects in baseline image with objects in captured test image, minimum degree of accuracy in image matching"
 ---
-keyword: [minimum accuracy, minimum accuracy in matching objects in baseline image with objects in captured test image, minimum degree of accuracy in image matching]
----
-
-# minimum accuracy
 
 ## Description
 

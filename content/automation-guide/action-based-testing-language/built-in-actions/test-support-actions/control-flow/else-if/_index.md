@@ -4,11 +4,8 @@ linktitle: "else if"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/bia_else_if.html
+keywords: "else if, else if statement, elseif statement, elseif condition, elseif"
 ---
-keyword: [else if, else if statement, elseif statement, elseif condition, elseif]
----
-
-# else if
 
 ## Description
 

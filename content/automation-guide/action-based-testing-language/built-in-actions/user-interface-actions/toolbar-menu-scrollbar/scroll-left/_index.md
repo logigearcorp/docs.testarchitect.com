@@ -4,11 +4,8 @@ linktitle: "scroll left"
 weight: 25
 aliases: 
     - /TA_Automation/Topics/bia_scroll_left.html
+keywords: "scroll left, scroll left a specified number of ticks, move scroll bar slider left, move scroll box left, move slider of horizontal scroll bar left a specified number of ticks"
 ---
-keyword: [scroll left, scroll left a specified number of ticks, move scroll bar slider left, move scroll box left, move slider of horizontal scroll bar left a specified number of ticks]
----
-
-# scroll left
 
 ## Description
 
@@ -35,7 +32,7 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

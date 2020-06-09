@@ -4,11 +4,8 @@ linktitle: "escape sequences"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/bis_escape_sequences.html
+keywords: "escape sequences, escape sequences are supported, escape sequences are allowable, escape sequences are not supported"
 ---
-keyword: [escape sequences, escape sequences are supported, escape sequences are allowable, escape sequences are not supported]
----
-
-# escape sequences
 
 ## Description
 
@@ -36,7 +33,7 @@ no/false
 
     |Escape Sequence|Represents|
     |---------------|----------|
-    |\\b|Backspace|
+    |\\b|Backspace<br>|
     |\\f|Formfeed|
     |\\n|Newline|
     |\\r|Carriage Return|

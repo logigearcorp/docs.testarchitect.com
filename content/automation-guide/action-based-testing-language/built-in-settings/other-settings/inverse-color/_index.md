@@ -4,11 +4,8 @@ linktitle: "inverse color"
 weight: 8
 aliases: 
     - /TA_Automation/Topics/bis_inverse_color.html
+keywords: "inverse color, specify threshold for inverting color in image, set threshold for color inversion in image"
 ---
-keyword: [inverse color, specify threshold for inverting color in image, set threshold for color inversion in image]
----
-
-# inverse color
 
 ## Description
 

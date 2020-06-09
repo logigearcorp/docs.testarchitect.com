@@ -4,11 +4,8 @@ linktitle: "SetItemState"
 weight: 21
 aliases: 
     - /TA_Automation/Topics/abt_SetItemState_3.html
+keywords: "setitemstate, abtlist setitemstate, set state of item in list, assign property value to list item"
 ---
-keyword: [setitemstate, abtlist setitemstate, set state of item in list, assign property value to list item]
----
-
-# SetItemState
 
 ## Syntax
 
@@ -26,7 +23,7 @@ Set the state of a specified item or its check box control, if any, in a list co
 
 -   **status**
 
-    [TAItemState](/images//Images/TA_Automation/Topics/abt_TAItemState.html) value specifying the item state to set.
+    [TAItemState](/reuse/../TA_Automation/Topics/abt_TAItemState.html) value specifying the item state to set.
 
     Allowable values are:
 

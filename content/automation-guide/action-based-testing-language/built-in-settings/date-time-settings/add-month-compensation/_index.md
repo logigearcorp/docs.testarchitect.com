@@ -4,11 +4,8 @@ linktitle: "add month compensation"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/bis_add_month_compensation.html
+keywords: month compensation
 ---
-keyword: month compensation
----
-
-# add month compensation
 
 ## Description
 

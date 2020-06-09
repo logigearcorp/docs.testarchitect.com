@@ -4,11 +4,8 @@ linktitle: "GetDataSet"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/abt_GetDataSet.html
+keywords: "getdataset, abtdatasetmanagement getdataset, data set content, obtain content of data set"
 ---
-keyword: [getdataset, abtdatasetmanagement getdataset, data set content, obtain content of data set]
----
-
-# GetDataSet
 
 ## Syntax
 

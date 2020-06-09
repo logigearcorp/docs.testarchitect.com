@@ -4,11 +4,8 @@ linktitle: "GetTextCoordinates"
 weight: 20
 aliases: 
     - /TA_Automation/Topics/abt_AbtGetTextCoordinates_AbtEntity.html
+keywords: "gettextcoordinates, abtentity gettextcoordinates, position and dimensions of bitmap text, coordinates and size of bitmap text"
 ---
-keyword: [gettextcoordinates, abtentity gettextcoordinates, position and dimensions of bitmap text, coordinates and size of bitmap text]
----
-
-# GetTextCoordinates
 
 ## Syntax
 

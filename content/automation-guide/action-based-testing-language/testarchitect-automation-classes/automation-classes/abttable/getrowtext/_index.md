@@ -4,11 +4,8 @@ linktitle: "GetRowText"
 weight: 11
 aliases: 
     - /TA_Automation/Topics/abt_GetRowText_13.html
+keywords: "getrowtext, abttable getrowtext, content of all cells of row, row content, obtain content of entire row in table"
 ---
-keyword: [getrowtext, abttable getrowtext, content of all cells of row, row content, obtain content of entire row in table]
----
-
-# GetRowText
 
 ## Syntax
 

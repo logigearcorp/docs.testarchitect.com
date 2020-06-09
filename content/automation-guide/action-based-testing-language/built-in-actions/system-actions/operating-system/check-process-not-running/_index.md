@@ -4,11 +4,8 @@ linktitle: "check process not running"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/bia_check_process_not_running.html
+keywords: "check if process is not running, check that process is not running"
 ---
-keyword: [check if process is not running, check that process is not running]
----
-
-# check process not running
 
 ## Description
 
@@ -30,13 +27,13 @@ This action may be used within the following project items:test modules and user
 -   This built-in action applies only to the Android operating system.
 -   process argument:
     -   On an Android device, the process is the package name of the running application. To retrieve the package name for an Android application:
-        1.  Open the [Android Instrumentation Tool](/images//Images/Android/Topics/Android_Instrumentation_tool.html) dialog box.
+        1.  Open the [Android Instrumentation Tool](/reuse/../Android/Topics/Android_Instrumentation_tool.html) dialog box.
         2.  In the Application Under Test panel, right-click the appropriate application, and then select **Copy package name**.
 
             ![](/images//Images/Android/Images/Android_copy_package_name.png)
 
         3.  In the test editor, paste the copied value into the process argument of the built-in action.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

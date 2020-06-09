@@ -4,11 +4,8 @@ linktitle: "create folder"
 weight: 9
 aliases: 
     - /TA_Automation/Topics/bia_create_folder.html
+keywords: "create folder, create new folder"
 ---
-keyword: [create folder, create new folder]
----
-
-# create folder
 
 ## Description
 
@@ -32,7 +29,7 @@ This action may be used within the following project items:test modules and user
     -   **Linux platform**: Use forward slashes as separators for the path. \(Note that network paths are not supported.\)
 -   Note that this built-in action is not currently supported on the macOS platform.
 -   If a folder specified by the folder argument already exists, the execution of this action is skipped.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

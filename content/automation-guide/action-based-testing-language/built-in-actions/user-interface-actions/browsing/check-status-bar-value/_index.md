@@ -4,11 +4,8 @@ linktitle: "check status bar value"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/bia_check_status_bar_value.html
+keywords: "check status bar value, check status bar contents against expected values, check if status bar contents match expected values, verify if status bar contents match expected values"
 ---
-keyword: [check status bar value, check status bar contents against expected values, check if status bar contents match expected values, verify if status bar contents match expected values]
----
-
-# check status bar value
 
 ## Description
 
@@ -31,7 +28,7 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

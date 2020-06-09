@@ -4,11 +4,8 @@ linktitle: "Expand"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/abt_Expand_17.html
+keywords: "expand, abttree expand, expand tree node"
 ---
-keyword: [expand, abttree expand, expand tree node]
----
-
-# Expand
 
 ## Syntax
 

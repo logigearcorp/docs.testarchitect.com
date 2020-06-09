@@ -4,11 +4,8 @@ linktitle: "GetProperty"
 weight: 16
 aliases: 
     - /TA_Automation/Topics/abt_GetProperty_1.html
+keywords: "get property, value of control property, value of HTML element property"
 ---
-keyword: [get property, value of control property, value of HTML element property]
----
-
-# GetProperty
 
 ## Syntax
 

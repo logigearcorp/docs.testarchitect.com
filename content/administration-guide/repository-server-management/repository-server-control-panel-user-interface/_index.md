@@ -38,8 +38,8 @@ Buttons on the toolbar, as well as menu items in the menus, are enabled or disab
 |[Export repository](Repo_server_management_exporting.html)|Export a specified repository to a file|
 |[Set primary repository](adm_Setting_up_primary_replication_repository.html)|Specify another host as the primary repository for a given imported repository. This action establishes imported repository as a replication repository.|
 |[Disconnect from primary repository](adm_Setting_up_primary_replication_repository_2.html)|Dis-establish a specified repository as replication|
-|[Back-up schedule](Repo_server_management_bk.html)|-   Enable/Disable automatic backup-   Specify an auto-backup schedule-   Designate repositories to be auto-backup up-   Specify location of backup archives|
-|[TestArchitect Utility Server](TA_Utility_Server.html) Information|-   Display URL, IP address and port for associated web server-   Start/Stop web server|
+|[Back-up schedule](Repo_server_management_bk.html)|-   Enable/Disable automatic backup-   Specify an auto-backup schedule<br>-   Designate repositories to be auto-backup up<br>-   Specify location of backup archives<br><br>|
+|[TestArchitect Utility Server](TA_Utility_Server.html) Information|-   Display URL, IP address and port for associated web server-   Start/Stop web server<br><br>|
 |[Require password](Repo_server_management_setting_pw.html)|Specify a password which will be required for all future creation of new repositories on this host|
 |[Options](Repo_setting_heap_size.html)|Set the amount of memory for Java Virtual Machine|
 |[Upgrade repositories](adm_database_upgrade_time_traveling.html)|Upgrade the specified repositories for compatibility with [Time-traveling execution](/TA_Help/Topics/ug_time_traveling.html).|

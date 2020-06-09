@@ -4,11 +4,8 @@ linktitle: "GetTextCount"
 weight: 24
 aliases: 
     - /TA_Automation/Topics/abt_AbtGetTextCount_AbtElement.html
+keywords: "gettextcount, abtelement gettextcount, number of texts in control, get number of text fragments in control, count text fragments in control"
 ---
-keyword: [gettextcount, abtelement gettextcount, number of texts in control, get number of text fragments in control, count text fragments in control]
----
-
-# GetTextCount
 
 ## Syntax
 

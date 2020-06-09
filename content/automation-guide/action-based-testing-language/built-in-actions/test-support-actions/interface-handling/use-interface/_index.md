@@ -4,11 +4,8 @@ linktitle: "use interface"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/bia_use_interface.html
+keywords: "use interface, specify interface to be used by test"
 ---
-keyword: [use interface, specify interface to be used by test]
----
-
-# use interface
 
 ## Description
 
@@ -28,7 +25,7 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   This action is optional if the required interface is currently specified as the [default interface](/TA_Help/Topics/Interface_def_set_default_interface.html).
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

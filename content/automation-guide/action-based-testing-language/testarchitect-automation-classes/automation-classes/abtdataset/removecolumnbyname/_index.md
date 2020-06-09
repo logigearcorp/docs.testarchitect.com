@@ -4,11 +4,8 @@ linktitle: "RemoveColumnByName"
 weight: 13
 aliases: 
     - /TA_Automation/Topics/abt_RemoveColumnByName.html
+keywords: "removecolumnbyname, abtdataset removecolumnbyname, remove column from data set by name, delete column by name"
 ---
-keyword: [removecolumnbyname, abtdataset removecolumnbyname, remove column from data set by name, delete column by name]
----
-
-# RemoveColumnByName
 
 ## Syntax
 

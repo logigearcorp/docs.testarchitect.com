@@ -4,11 +4,8 @@ linktitle: "end while"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/bia_end_while.html
+keywords: "end while, end while loop, exit while loop, end while statement"
 ---
-keyword: [end while, end while loop, exit while loop, end while statement]
----
-
-# end while
 
 ## Description
 

@@ -4,11 +4,8 @@ linktitle: "cleanup timeout"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/bis_cleanup_timeout.html
+keywords: "cleanup timeout, set timeout, timeout"
 ---
-keyword: [cleanup timeout, set timeout, timeout]
----
-
-# cleanup timeout
 
 ## Description
 

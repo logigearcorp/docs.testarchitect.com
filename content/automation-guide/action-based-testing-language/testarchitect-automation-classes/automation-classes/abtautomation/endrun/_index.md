@@ -4,11 +4,8 @@ linktitle: "EndRun"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/abt_EndRun.html
+keywords: "endrun, endrun abtautomation, end test run, end test execution"
 ---
-keyword: [endrun, endrun abtautomation, end test run, end test execution]
----
-
-# EndRun
 
 ## Syntax
 

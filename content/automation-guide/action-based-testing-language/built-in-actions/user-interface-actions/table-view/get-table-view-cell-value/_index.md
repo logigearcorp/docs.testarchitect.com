@@ -4,11 +4,8 @@ linktitle: "get table view cell value"
 weight: 7
 aliases: 
     - /TA_Automation/Topics/bia_get_table_view_cell_value.html
+keywords: "get table view cell value, retrieve value of specific table view cell, obtain value of specified table view cell"
 ---
-keyword: [get table view cell value, retrieve value of specific table view cell, obtain value of specified table view cell]
----
-
-# get table view cell value
 
 ## Description
 
@@ -47,7 +44,7 @@ This action may be used within the following project items:test modules and user
 
 -   This built-in action applies only to the iOS operating system.
 -   index argument: Note that index numbering begins with 1.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 -   variable argument:
     -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
     -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.

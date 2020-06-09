@@ -4,11 +4,8 @@ linktitle: "resize window"
 weight: 14
 aliases: 
     - /TA_Automation/Topics/bia_resize_window.html
+keywords: "resize window, change size of window"
 ---
-keyword: [resize window, change size of window]
----
-
-# resize window
 
 ## Description
 
@@ -36,7 +33,7 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   Resizing of the window is performed with the top-left corner remaining stationary.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

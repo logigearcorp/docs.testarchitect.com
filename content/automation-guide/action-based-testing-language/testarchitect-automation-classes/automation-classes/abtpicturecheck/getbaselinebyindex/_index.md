@@ -4,11 +4,8 @@ linktitle: "GetBaselineByIndex"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/abt_GetBaselineByIndex.html
+keywords: "getbaselinebyindex, abtpicturecheck getbaselinebyindex, baseline image by index, get baseline image in current picture check"
 ---
-keyword: [getbaselinebyindex, abtpicturecheck getbaselinebyindex, baseline image by index, get baseline image in current picture check]
----
-
-# GetBaselineByIndex
 
 ## Syntax
 

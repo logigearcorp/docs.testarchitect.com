@@ -4,11 +4,8 @@ linktitle: "get column header coordinates"
 weight: 17
 aliases: 
     - /TA_Automation/Topics/bia_get_column_header_coordinates.html
+keywords: "get column header coordinates, retrieve column header coordinates, get position of column header, retrieve position of column header"
 ---
-keyword: [get column header coordinates, retrieve column header coordinates, get position of column header, retrieve position of column header]
----
-
-# get column header coordinates
 
 ## Description
 
@@ -62,7 +59,7 @@ This action may be used within the following project items:test modules and user
     **Restriction:** This rule should not be taken to imply that any control or window arguments are optional if their associated actions don't explicitly state that.
 
 -   If the variables in argumentsleft, top, width and heighthave not been declared, the action creates them as globals.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

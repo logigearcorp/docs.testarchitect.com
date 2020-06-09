@@ -4,11 +4,8 @@ linktitle: "use lead"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/bia_use_lead.html
+keywords: "use lead, execute action lines on lead, execute test lines on lead machine, run action lines on lead machine, run test lines on lead"
 ---
-keyword: [use lead, execute action lines on lead, execute test lines on lead machine, run action lines on lead machine, run test lines on lead]
----
-
-# use lead
 
 ## Description
 

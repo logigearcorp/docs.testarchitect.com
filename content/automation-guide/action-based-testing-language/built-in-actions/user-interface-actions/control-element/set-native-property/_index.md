@@ -4,11 +4,8 @@ linktitle: "set native property"
 weight: 17
 aliases: 
     - /TA_Automation/Topics/bia_set_native_property.html
+keywords: "set native property, set value for native property of control, assign value to native property of control"
 ---
-keyword: [set native property, set value for native property of control, assign value to native property of control]
----
-
-# set native property
 
 ## Description
 
@@ -73,7 +70,7 @@ This built-in action is supported on the following systems/platforms:
 
         **Remember:** If you use the Hex color formatting code for the value argument, insert a back slash \( \\ \) before the value entered. For example: \\\#FFFFFF.
 
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

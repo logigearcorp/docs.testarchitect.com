@@ -4,11 +4,8 @@ linktitle: "GetItemStates"
 weight: 13
 aliases: 
     - /TA_Automation/Topics/abt_GetItemStates_4.html
+keywords: "getitemstates, abtlist getitemstates, get states of item in list, obtain property values of item in list"
 ---
-keyword: [getitemstates, abtlist getitemstates, get states of item in list, obtain property values of item in list]
----
-
-# GetItemStates
 
 ## Syntax
 

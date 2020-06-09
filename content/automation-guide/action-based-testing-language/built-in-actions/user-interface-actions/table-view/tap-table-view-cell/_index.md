@@ -4,11 +4,8 @@ linktitle: "tap table view cell"
 weight: 10
 aliases: 
     - /TA_Automation/Topics/bia_tap_table_view_cell.html
+keywords: "tap table view cell, tap specified cell in table view"
 ---
-keyword: [tap table view cell, tap specified cell in table view]
----
-
-# tap table view cell
 
 ## Description
 
@@ -54,9 +51,9 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   This built-in action applies only to the iOS operating system.
--   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/images//Images/TA_Automation/Topics/bia_get_screen_resolution.html#li.ios.get_screen_resolution).\)
+-   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/reuse/../TA_Automation/Topics/bia_get_screen_resolution.html#li.ios.get_screen_resolution).\)
 -   index argument: Note that index numbering begins with 1.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

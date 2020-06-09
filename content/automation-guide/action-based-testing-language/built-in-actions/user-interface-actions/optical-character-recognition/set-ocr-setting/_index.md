@@ -4,11 +4,8 @@ linktitle: "set ocr setting"
 weight: 13
 aliases: 
     - /TA_Automation/Topics/bia_set_ocr_setting.html
+keywords: "set ocr, optimal character recognition setting, threshold to detect bitmapped text, OCR detection thresholds"
 ---
-keyword: [set ocr, optimal character recognition setting, threshold to detect bitmapped text, OCR detection thresholds]
----
-
-# set ocr setting
 
 ## Description
 
@@ -44,16 +41,16 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/images//Images/TA_Automation/Topics/bia_get_screen_resolution.html#li.ios.get_screen_resolution).\)
+-   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/reuse/../TA_Automation/Topics/bia_get_screen_resolution.html#li.ios.get_screen_resolution).\)
 -   In most cases of text detection, the default OCR detection thresholds are acceptable. Use this action in difficult cases, such as images with noisy backgrounds, or ones whose text color is very similar to the background.
 -   For ease of use, values of the arguments to this action can be derived with the [OCR Detector Tool](/TA_Help/Topics/ug_OCR_detector_tool_advanced_settings.html#note_b2f_pwg_g4), which allows you to establish the optimum settings for the detection of text under difficult circumstances. Values may be copied from the tool and pasted into the test editor.
 -   If no set ocr setting action\(s\) are declared in action lines, default values of its arguments' values are used.
 -   It is recommended that whenever you no longer need the current advanced OCR settings' values, clear them by using the built-in action [clear ocr setting](clear_ocr_setting.html).
--   **Android:** This built-in action, when applied to a connected Android device, requires that the [TestArchitect Agent service](/images//Images/Android/Topics/Android_TA_agent.html) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
+-   **Android:** This built-in action, when applied to a connected Android device, requires that the [TestArchitect Agent service](/reuse/../Android/Topics/Android_TA_agent.html) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
     1.  Connect the Android device to the test controller through a USB cable \(not Wi-Fi\), if not already so connected.
-    2.  Open the [Android Instrumentation Tool](/images//Images/Android/Topics/Android_Instrumentation_tool.html) dialog box.
+    2.  Open the [Android Instrumentation Tool](/reuse/../Android/Topics/Android_Instrumentation_tool.html) dialog box.
     3.  Click the **Refresh devices list** ![](/images//Images/Android/Images/Refresh_device_list_btn.png) button.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

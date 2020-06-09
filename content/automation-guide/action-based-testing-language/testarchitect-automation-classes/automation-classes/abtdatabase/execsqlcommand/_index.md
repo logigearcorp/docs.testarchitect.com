@@ -4,11 +4,8 @@ linktitle: "ExecSqlCommand"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/abt_Execute_Sql_Command.html
+keywords: "execsqlcommand, abtdatabase execsqlcommand, execute sql commands, sql statement execution, run sql query"
 ---
-keyword: [execsqlcommand, abtdatabase execsqlcommand, execute sql commands, sql statement execution, run sql query]
----
-
-# ExecSqlCommand
 
 ## Syntax
 

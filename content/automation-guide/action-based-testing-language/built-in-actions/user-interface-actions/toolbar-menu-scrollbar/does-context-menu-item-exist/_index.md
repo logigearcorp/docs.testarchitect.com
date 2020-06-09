@@ -4,11 +4,8 @@ linktitle: "does context menu item exist"
 weight: 17
 aliases: 
     - /TA_Automation/Topics/bia_does_context_menu_item_exist.html
+keywords: "does context menu item exist, check for existence of specified item on context menu, check if specified item is found on context menu, verify whether specified item on context menu exists, verify existence of specified item on context menu"
 ---
-keyword: [does context menu item exist, check for existence of specified item on context menu, check if specified item is found on context menu, verify whether specified item on context menu exists, verify existence of specified item on context menu]
----
-
-# does context menu item exist
 
 ## Description
 
@@ -57,7 +54,7 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/images//Images/TA_Automation/Topics/bia_get_screen_resolution.html#li.ios.get_screen_resolution).\)
+-   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/reuse/../TA_Automation/Topics/bia_get_screen_resolution.html#li.ios.get_screen_resolution).\)
 -   item argument:
     -   The menu item may be specified by its caption propertyor numerical index representing its cardinal placement in the menu, with index values starting at 1.
 
@@ -69,7 +66,7 @@ This action may be used within the following project items:test modules and user
 -   variable argument:
     -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
     -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

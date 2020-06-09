@@ -4,11 +4,8 @@ linktitle: "GetSubCount"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/abt_GetSubCount_6.html
+keywords: "getsubcount, abtmenubar getsubcount, number of sub menu items, count sub menu items, how many sub menu items in menu item"
 ---
-keyword: [getsubcount, abtmenubar getsubcount, number of sub menu items, count sub menu items, how many sub menu items in menu item]
----
-
-# GetSubCount
 
 ## Syntax
 

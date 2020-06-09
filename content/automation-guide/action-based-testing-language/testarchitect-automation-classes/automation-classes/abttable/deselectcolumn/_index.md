@@ -4,11 +4,8 @@ linktitle: "DeselectColumn"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/abt_DeselectColumn_13.html
+keywords: "deselectcolumn, abttable deselectcolumn, deselect column, deselect column in table"
 ---
-keyword: [deselectcolumn, abttable deselectcolumn, deselect column, deselect column in table]
----
-
-# DeselectColumn
 
 ## Syntax
 

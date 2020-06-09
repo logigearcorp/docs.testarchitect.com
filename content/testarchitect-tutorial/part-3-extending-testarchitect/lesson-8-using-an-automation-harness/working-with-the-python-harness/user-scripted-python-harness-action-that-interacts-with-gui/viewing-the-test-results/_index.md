@@ -10,8 +10,8 @@ Run a test using yourPython-coded action, and ensure that it properly interacts 
 
 **Before proceeding, ensure that you have:**
 
--   [Created a test case](/images//Images/TA_Tutorials/Topics/Creating_the_test_case_and_stub_action_1.html) in TestArchitect which calls check row count, an action for counting selected rows of a table in an application,
--   [Created the Python method](/images//Images/TA_Tutorials/Topics/Scripting_a_GUI-interfacing_action.html) action\_CheckRowCount\(\) to implement the check row count action, and [written the essential code](/images//Images/TA_Tutorials/Topics/Creating_a_new_code_script_module.html) to ensure that the execution of check row count results in control being directed to that method.
+-   [Created a test case](/reuse/../TA_Tutorials/Topics/Creating_the_test_case_and_stub_action_1.html) in TestArchitect which calls check row count, an action for counting selected rows of a table in an application,
+-   [Created the Python method](/reuse/../TA_Tutorials/Topics/Scripting_a_GUI-interfacing_action.html) action\_CheckRowCount\(\) to implement the check row count action, and [written the essential code](/reuse/../TA_Tutorials/Topics/Creating_a_new_code_script_module.html) to ensure that the execution of check row count results in control being directed to that method.
 -   
 
 You will run a test which executes the check row count action, which you have implemented in the TestArchitect harness as aPython script. Your action, as invoked, examines the **View Orders** table of the Car Rental application \(below\), counts the number of rows in which the contents of the **Car Type** column is "Ford Mustang Coupe", and compares that number to the expected count of 2.![](/images//Images/TA_Tutorials/Images/app.Car_Rental.View_Orders.unmodified.png)

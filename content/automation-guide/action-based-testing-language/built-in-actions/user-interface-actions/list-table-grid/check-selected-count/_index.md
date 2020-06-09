@@ -4,11 +4,8 @@ linktitle: "check selected count"
 weight: 10
 aliases: 
     - /TA_Automation/Topics/bia_check_selected_count.html
+keywords: "check selected count, check selected count in multiselect list box against expected number, check selected count in multiselect tree view against expected number, check number of selected items in multiselect list box against expected number, check if number of selected items in multiselect list view matches expected number"
 ---
-keyword: [check selected count, check selected count in multiselect list box against expected number, check selected count in multiselect tree view against expected number, check number of selected items in multiselect list box against expected number, check if number of selected items in multiselect list view matches expected number]
----
-
-# check selected count
 
 ## Description
 
@@ -36,7 +33,7 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   Set the expected argument to 0 to verify that no items are selected.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

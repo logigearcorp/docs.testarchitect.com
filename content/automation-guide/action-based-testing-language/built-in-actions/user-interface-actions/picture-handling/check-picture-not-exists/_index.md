@@ -4,11 +4,8 @@ linktitle: "check picture not exists"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/bia_check_picture_not_exists.html
+keywords: "check picture not exists, check if picture does not exist, check if any image in area matches one or multiple baseline images, verify whether one or multiple specified images are found in area, check whether one or multiple specified images appears in area"
 ---
-keyword: [check picture not exists, check if picture does not exist, check if any image in area matches one or multiple baseline images, verify whether one or multiple specified images are found in area, check whether one or multiple specified images appears in area]
----
-
-# check picture not exists
 
 ## Description
 
@@ -18,7 +15,7 @@ Check a bitmap area of the AUT's current display for the presence of a given ins
 
 -   **picture**
 
-    Identifying name of a regular or shared[picture check](/images//Images/TA_Help/Topics/Projects_and_tests_picture_check.html), a collection of one or more baseline images to be used for comparison with the AUT display.
+    Identifying name of a regular or shared[picture check](/reuse/../TA_Help/Topics/Projects_and_tests_picture_check.html), a collection of one or more baseline images to be used for comparison with the AUT display.
 
 -   **window**
 
@@ -55,9 +52,9 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/images//Images/TA_Automation/Topics/bia_get_screen_resolution.html#li.ios.get_screen_resolution).\)
+-   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/reuse/../TA_Automation/Topics/bia_get_screen_resolution.html#li.ios.get_screen_resolution).\)
 -   As a convenience when editing, you may drag the appropriate picture check node from the **Picture Checks** folder \(in the TestArchitect explorer tree\) into this action'spicture argument.
--   By default this built-in action applies a [pixel-by-pixel](/images//Images/TA_Automation/Topics/aut_image_comparison_techniques.html) image comparison technique. To switch to a keypoint detection image comparison, refer to [picture algorithm](/images//Images/TA_Automation/Topics/bis_picture_algorithm.html) and [Key Points Modification tool](/images//Images/TA_Help/Topics/ug_Key_point_modify_tool.html) for details.
+-   By default this built-in action applies a [pixel-by-pixel](/reuse/../TA_Automation/Topics/aut_image_comparison_techniques.html) image comparison technique. To switch to a keypoint detection image comparison, refer to [picture algorithm](/reuse/../TA_Automation/Topics/bis_picture_algorithm.html) and [Key Points Modification tool](/reuse/../TA_Help/Topics/ug_Key_point_modify_tool.html) for details.
 -   Note that if the referenced picture check holds multiple baseline images, each one is tested against the AUT bitmap until \(and if\) a match is found. Only a single “hit” is required for a match to be considered found.
 -   This action is applied to that part of the captured bitmap identified as the active area, with the remainder of the image ignored. The active area is determined by the combination of the window, control and rect arguments. To begin with, window and control determine the active UI element, which can be a control, window, or the full screen, as follows:
 
@@ -81,11 +78,11 @@ This action may be used within the following project items:test modules and user
     |overlaps the active UI element|the intersection space \(Cases 1 & 2 above\)|
     |no overlap with active UI element|the active UI element \(Case 3 above\)|
 
--   **Android:** This built-in action, when applied to a connected Android device, requires that the [TestArchitect Agent service](/images//Images/Android/Topics/Android_TA_agent.html) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
+-   **Android:** This built-in action, when applied to a connected Android device, requires that the [TestArchitect Agent service](/reuse/../Android/Topics/Android_TA_agent.html) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
     1.  Connect the Android device to the test controller through a USB cable \(not Wi-Fi\), if not already so connected.
-    2.  Open the [Android Instrumentation Tool](/images//Images/Android/Topics/Android_Instrumentation_tool.html) dialog box.
+    2.  Open the [Android Instrumentation Tool](/reuse/../Android/Topics/Android_Instrumentation_tool.html) dialog box.
     3.  Click the **Refresh devices list** ![](/images//Images/Android/Images/Refresh_device_list_btn.png) button.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

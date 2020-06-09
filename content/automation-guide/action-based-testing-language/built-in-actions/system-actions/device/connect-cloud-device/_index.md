@@ -4,11 +4,8 @@ linktitle: "connect cloud device"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/bia_connect_cloud_device.html
+keywords: "connect a mobile cloud device, mobile cloud device connection, attach a mobile cloud device"
 ---
-keyword: [connect a mobile cloud device, mobile cloud device connection, attach a mobile cloud device]
----
-
-# connect cloud device
 
 ## Description
 
@@ -30,7 +27,7 @@ Logically connect to a cloud-based device and make that device the target for th
 -   This built-in action applies only to WebDriver based cloud services. \([Learn more](aut_app_cloud_testing.html).\)
 -   name argument:
     -   The name is established in advance by the [assign cloud device](assign_cloud_device.html) action, which assigns a logical name to a mobile cloud device.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

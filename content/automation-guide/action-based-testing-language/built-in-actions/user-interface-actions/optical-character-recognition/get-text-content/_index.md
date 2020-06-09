@@ -4,11 +4,8 @@ linktitle: "get text content"
 weight: 8
 aliases: 
     - /TA_Automation/Topics/bia_get_text_content.html
+keywords: "get text content, retrieve text from control, get value returned from control, retrieve value returned from control"
 ---
-keyword: [get text content, retrieve text from control, get value returned from control, retrieve value returned from control]
----
-
-# get text content
 
 ## Description
 
@@ -68,7 +65,7 @@ The following settings are applicable to this action:[case sensitive](case_sensi
 -   variable argument:
     -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
     -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Example
 

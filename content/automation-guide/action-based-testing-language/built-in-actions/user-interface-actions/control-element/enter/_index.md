@@ -4,11 +4,8 @@ linktitle: "enter"
 weight: 9
 aliases: 
     - /TA_Automation/Topics/bia_enter.html
+keywords: "enter value in control, input value in control, fill in control"
 ---
-keyword: [enter value in control, input value in control, fill in control]
----
-
-# enter
 
 ## Description
 
@@ -37,7 +34,7 @@ This action may be used within the following project items:test modules and user
 
 -   The effect of the enter built-in action depends on the class of the control. For example, for a combo box control, the enter action selects an item from the list.
 -   In some special cases on a web platform, the enter action may trigger an unexpected or undesired event. To address such cases, it is suggested that you use the [set](set.html) built-in action to assign a value to text box controls. Unlike enter, set avoids the triggering of events.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

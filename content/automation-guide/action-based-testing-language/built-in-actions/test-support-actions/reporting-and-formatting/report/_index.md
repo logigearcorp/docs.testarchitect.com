@@ -4,11 +4,8 @@ linktitle: "report"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/bia_report.html
+keywords: "report, write text description to test results, define text for test results, define message for test results, assign text to test results"
 ---
-keyword: [report, write text description to test results, define text for test results, define message for test results, assign text to test results]
----
-
-# report
 
 ## Description
 
@@ -30,7 +27,7 @@ This action may be used within the following project items:test modules and user
 -   Output of the report action is displayed in the [**Log Information**](/TA_Help/Topics/ug_results_log_information.html) tab of the test results.
 -   This action nay be used to add clarifying text to a result report.
 -   The contents of the text argument may contain an expression, and hence report may be used to view the values of variables at any point in the test.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

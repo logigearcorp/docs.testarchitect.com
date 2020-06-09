@@ -4,11 +4,8 @@ linktitle: "global variable"
 weight: 7
 aliases: 
     - /TA_Automation/Topics/bia_global_variable.html
+keywords: "global variable, define global variable, declare global variable, global variable declaration and assignment"
 ---
-keyword: [global variable, define global variable, declare global variable, global variable declaration and assignment]
----
-
-# global variable
 
 ## Description
 

@@ -4,11 +4,8 @@ linktitle: "GetValueByColName"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/abt_GetValueByColName.html
+keywords: "getvaluebycolname, abtdatarow getvaluebycolname, value of cell in selected row by column name, content of cell at intersection of selected row and column with specified name"
 ---
-keyword: [getvaluebycolname, abtdatarow getvaluebycolname, value of cell in selected row by column name, content of cell at intersection of selected row and column with specified name]
----
-
-# GetValueByColName
 
 ## Syntax
 

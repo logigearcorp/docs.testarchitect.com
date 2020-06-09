@@ -4,11 +4,8 @@ linktitle: "GetChildCount"
 weight: 13
 aliases: 
     - /TA_Automation/Topics/abt_GetChildCount.html
+keywords: "number of child objects of window, how many child objects of window, count of child objects in window"
 ---
-keyword: [number of child objects of window, how many child objects of window, count of child objects in window]
----
-
-# GetChildCount
 
 ## Syntax
 

@@ -4,11 +4,8 @@ linktitle: "Set"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/abt_Set_9.html
+keywords: "abtspin set, set value of spin button"
 ---
-keyword: [abtspin set, set value of spin button]
----
-
-# Set
 
 ## Syntax
 

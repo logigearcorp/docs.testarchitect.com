@@ -4,11 +4,8 @@ linktitle: "AddColumn"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/abt_AddColumn.html
+keywords: "addcolumn, abtdataset addcolumn, new column, add new column, append column"
 ---
-keyword: [addcolumn, abtdataset addcolumn, new column, add new column, append column]
----
-
-# AddColumn
 
 ## Syntax
 

@@ -4,11 +4,8 @@ linktitle: "InsertColumn"
 weight: 9
 aliases: 
     - /TA_Automation/Topics/abt_InsertColumn.html
+keywords: "insertcolumn, abtdataset insertcolumn, insert column into data set, add column at given index"
 ---
-keyword: [insertcolumn, abtdataset insertcolumn, insert column into data set, add column at given index]
----
-
-# InsertColumn
 
 ## Syntax
 

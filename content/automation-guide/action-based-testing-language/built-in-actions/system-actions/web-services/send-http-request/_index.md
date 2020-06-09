@@ -4,11 +4,8 @@ linktitle: "send http request"
 weight: 8
 aliases: 
     - /TA_Automation/Topics/bia_send_http_request.html
+keywords: "send http request, send http get request, send http post request"
 ---
-keyword: [send http request, send http get request, send http post request]
----
-
-# send http request
 
 ## Description
 
@@ -73,7 +70,7 @@ This action may be used within the following project items:test modules and user
     -   Network resources and mapping network drives are also supported.
     -   On Windows: In order to specify [mapping network drives](http://www.dummies.com/computers/operating-systems/windows-7/how-to-map-a-network-folder-in-windows-7/), please disable User Account Control \(UAC\).
 -   In order to see full result returned from this built-in action, set [max show length](max_show_length.html) to a higher value.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 
@@ -91,7 +88,7 @@ Suppose that you'd like to test a given Google API to send a message to a recipi
 
     |Property name|Value|Description|
     |-------------|-----|-----------|
-    |raw|bytes|The entire email message in base64url encoded string.**Tip:** To encode a plain text string into a base64url encoded string, you can use the [Online Base64URL encoder](http://kjur.github.io/jsjws/tool_b64uenc.html) tool.|
+    |raw|bytes|The entire email message in base64url encoded string.**Tip:** To encode a plain text string into a base64url encoded string, you can use the [Online Base64URL encoder](http://kjur.github.io/jsjws/tool_b64uenc.html) tool.<br>|
 
     -   Raw body content:
 

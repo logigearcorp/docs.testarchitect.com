@@ -4,11 +4,8 @@ linktitle: "CheckIn"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/abt_CheckIn.html
+keywords: "checkin, abtdataset checkin, check in data set, check in data set to repository"
 ---
-keyword: [checkin, abtdataset checkin, check in data set, check in data set to repository]
----
-
-# CheckIn
 
 ## Syntax
 

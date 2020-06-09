@@ -4,11 +4,8 @@ linktitle: "ignore blank space"
 weight: 3
 aliases: 
     - /TA_Automation/Topics/bis_ignore_blank_space.html
+keywords: "ignore blank space, ignore spaces at the beginning or end of strings, remove both leading and trailing whitespace from strings, trim spaces from beginning and end of strings, strip all spaces at both beginning and ending of string"
 ---
-keyword: [ignore blank space, ignore spaces at the beginning or end of strings, remove both leading and trailing whitespace from strings, trim spaces from beginning and end of strings, strip all spaces at both beginning and ending of string]
----
-
-# ignore blank space
 
 ## Description
 

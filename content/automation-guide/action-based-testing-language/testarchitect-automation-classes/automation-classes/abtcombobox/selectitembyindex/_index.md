@@ -4,11 +4,8 @@ linktitle: "SelectItemByIndex"
 weight: 9
 aliases: 
     - /TA_Automation/Topics/abt_SelectItemByIndex.html
+keywords: "selectitembyindex, abtcombobox selectitembyindex, select item by index, select item at given index from combo box"
 ---
-keyword: [selectitembyindex, abtcombobox selectitembyindex, select item by index, select item at given index from combo box]
----
-
-# SelectItemByIndex
 
 ## Syntax
 

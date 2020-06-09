@@ -4,11 +4,8 @@ linktitle: "repeat for data set"
 weight: 7
 aliases: 
     - /TA_Automation/Topics/bia_repeat_for_data_set.html
+keywords: "repeat for data set, end data set loop"
 ---
-keyword: [repeat for data set, end data set loop]
----
-
-# repeat for data set
 
 ## Description
 

@@ -4,11 +4,8 @@ linktitle: "filter"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/bia_filter.html
+keywords: "filter, filter dataset"
 ---
-keyword: [filter, filter dataset]
----
-
-# filter
 
 ## Description
 
@@ -57,7 +54,7 @@ Use of this action is supported on the following systems/platforms: Windows, Lin
 
     **Note:** For the full list of operator precedence, see [here](aut_operator_precedence.html).
 
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

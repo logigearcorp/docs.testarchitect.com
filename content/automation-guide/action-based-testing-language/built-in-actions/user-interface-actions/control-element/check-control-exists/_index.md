@@ -4,11 +4,8 @@ linktitle: "check control exists"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/bia_check_control_exists.html
+keywords: "check control exists, check if control exists, check whether control exists, check existence of control, verify existence of control"
 ---
-keyword: [check control exists, check if control exists, check whether control exists, check existence of control, verify existence of control]
----
-
-# check control exists
 
 ## Description
 
@@ -31,7 +28,7 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

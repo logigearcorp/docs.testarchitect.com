@@ -4,11 +4,8 @@ linktitle: "Get"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/abt_Get_7.html
+keywords: "abtradiobutton get, state of radio button, retrieve state of radio button"
 ---
-keyword: [abtradiobutton get, state of radio button, retrieve state of radio button]
----
-
-# Get
 
 ## Syntax
 

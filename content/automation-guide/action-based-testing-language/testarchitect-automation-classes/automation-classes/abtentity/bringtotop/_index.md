@@ -4,11 +4,8 @@ linktitle: "BringToTop"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/abt_BringToTop.html
+keywords: "bringtotop, abtentity bringtotop, bring window to front, focus window"
 ---
-keyword: [bringtotop, abtentity bringtotop, bring window to front, focus window]
----
-
-# BringToTop
 
 ## Syntax
 

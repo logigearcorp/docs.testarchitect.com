@@ -4,11 +4,8 @@ linktitle: "get cloud device session id"
 weight: 11
 aliases: 
     - /TA_Automation/Topics/bia_get_cloud_device_session_id.html
+keywords: "session ID, get session ID, retrieve session ID, obtain session ID, session ID mobile cloud device"
 ---
-keyword: [session ID, get session ID, retrieve session ID, obtain session ID, session ID mobile cloud device]
----
-
-# get cloud device session id
 
 ## Description
 
@@ -24,7 +21,7 @@ Retrieve session ID of the connected cloud device.
 ## Notes
 
 -   This built-in action applies only to WebDriver based cloud services. \([Learn more](aut_app_cloud_testing.html).\)
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

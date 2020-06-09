@@ -4,11 +4,8 @@ linktitle: "sleep"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/bia_sleep.html
+keywords: "sleep, suspend execution, suspend execution for specified period, pause exection, pause execution for specified period, "
 ---
-keyword: [sleep, suspend execution, suspend execution for specified period, pause exection, pause execution for specified period, ]
----
-
-# sleep
 
 ## Description
 
@@ -29,7 +26,7 @@ This action may be used within the following project items:test modules and user
 
 -   During the sleep period, the processor is released to other processes running on the system.
 -   This action is particularly useful in allowing the application under test time to perform any necessary actions.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

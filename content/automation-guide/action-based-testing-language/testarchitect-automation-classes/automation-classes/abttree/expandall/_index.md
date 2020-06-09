@@ -4,11 +4,8 @@ linktitle: "ExpandAll"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/abt_ExpandAll_17.html
+keywords: "expandall, abttree expandall, expand tree, expand all tree nodes, expand entire tree"
 ---
-keyword: [expandall, abttree expandall, expand tree, expand all tree nodes, expand entire tree]
----
-
-# ExpandAll
 
 ## Syntax
 

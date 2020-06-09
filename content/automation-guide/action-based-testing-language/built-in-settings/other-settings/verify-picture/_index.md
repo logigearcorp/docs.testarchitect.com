@@ -4,11 +4,8 @@ linktitle: "verify picture"
 weight: 23
 aliases: 
     - /TA_Automation/Topics/bis_verify_picture.html
+keywords: "verify picture, specify whether to verify picture in automated mode or semi-automated mode, determine which mode is used to check picture"
 ---
-keyword: [verify picture, specify whether to verify picture in automated mode or semi-automated mode, determine which mode is used to check picture]
----
-
-# verify picture
 
 ## Description
 

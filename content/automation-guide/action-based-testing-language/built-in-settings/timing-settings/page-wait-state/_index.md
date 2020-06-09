@@ -4,11 +4,8 @@ linktitle: "page wait state"
 weight: 11
 aliases: 
     - /TA_Automation/Topics/bis_page_wait_state.html
+keywords: "page wait state, page"
 ---
-keyword: [page wait state, page]
----
-
-# page wait state
 
 ## Description
 

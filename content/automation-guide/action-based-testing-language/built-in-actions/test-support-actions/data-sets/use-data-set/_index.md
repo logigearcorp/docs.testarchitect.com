@@ -4,11 +4,8 @@ linktitle: "use data set"
 weight: 10
 aliases: 
     - /TA_Automation/Topics/bia_use_data_set.html
+keywords: "use data set, start data set loop, end data set loop"
 ---
-keyword: [use data set, start data set loop, end data set loop]
----
-
-# use data set
 
 ## Description
 

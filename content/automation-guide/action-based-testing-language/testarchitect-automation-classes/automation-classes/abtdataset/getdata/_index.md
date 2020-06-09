@@ -4,11 +4,8 @@ linktitle: "GetData"
 weight: 8
 aliases: 
     - /TA_Automation/Topics/abt_GetData.html
+keywords: "get data rows based on criteria, filter data"
 ---
-keyword: [get data rows based on criteria, filter data]
----
-
-# GetData
 
 ## Syntax
 

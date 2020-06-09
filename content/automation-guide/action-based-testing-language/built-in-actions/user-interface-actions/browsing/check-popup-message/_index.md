@@ -4,11 +4,8 @@ linktitle: "check popup message"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/bia_check_popup_message.html
+keywords: "check popup message, check message displayed in popup, check message in popup against expected value"
 ---
-keyword: [check popup message, check message displayed in popup, check message in popup against expected value]
----
-
-# check popup message
 
 ## Description
 
@@ -37,7 +34,7 @@ This action may be used within the following project items:test modules and user
     -   If no value is provided in any given expected argument, TestArchitect considers it an empty string and considers an empty popup message to be a match.
     -   Each expectedargument is numbered in accordance with the order of handled popups in the current popup session, in reverse chronological order. Specifically,expectedspecifies the most recently handled popup,expected2the second most recent, and so on.
     -   A single call to this action may be used to check any or all of the handled popup messages of the current popup session. Specify as manyexpected arguments as there are messages you wish to verify, taking care to number them in correspondence with the popups of interest. \(See [Example \#2](check_popup_message.html#section.ex02).\) Note that this check action reports a PASSED result only if *every one* of the specified expected arguments matches its corresponding popup's message.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

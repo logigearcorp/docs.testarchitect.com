@@ -17,7 +17,7 @@ The following project items can be shared via subscription:
 -   actions
 -   interface entities
 -   data sets
--   [shared picture checks](/images//Images/TA_Glossary/Topics/glossarySharedPictureCheck.html): that is, those stored within the **Picture Checks** node of a project.
+-   [shared picture checks](/reuse/../TA_Glossary/Topics/glossarySharedPictureCheck.html): that is, those stored within the **Picture Checks** node of a project.
 
 **Parent topic:**[Project subscription](/TA_Help/Topics/Project_subscription.html)
 

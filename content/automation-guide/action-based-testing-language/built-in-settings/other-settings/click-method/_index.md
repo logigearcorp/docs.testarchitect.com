@@ -4,11 +4,8 @@ linktitle: "click method"
 weight: 4
 aliases: 
     - /TA_Automation/Topics/bis_click_method.html
+keywords: "click method, specify whether mousemove, mousedown, mouseup events are treated as single sendinput message or separate sendinput messages, treat mousemove, mousedown and mouseup events as single message, treat mousemove, mousedown, mouseup events as separate messages"
 ---
-keyword: [click method, specify whether mousemove, mousedown, mouseup events are treated as single sendinput message or separate sendinput messages, treat mousemove, mousedown and mouseup events as single message, treat mousemove, mousedown, mouseup events as separate messages]
----
-
-# click method
 
 ## Description
 

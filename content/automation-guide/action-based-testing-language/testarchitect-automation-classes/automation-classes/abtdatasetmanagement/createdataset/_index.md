@@ -4,11 +4,8 @@ linktitle: "CreateDataSet"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/abt_CreateDataSet.html
+keywords: "createdataset, abtdatasetmanagement createdataset, create data set"
 ---
-keyword: [createdataset, abtdatasetmanagement createdataset, create data set]
----
-
-# CreateDataSet
 
 ## Syntax
 

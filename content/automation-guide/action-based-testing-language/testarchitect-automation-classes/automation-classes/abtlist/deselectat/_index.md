@@ -4,11 +4,8 @@ linktitle: "DeselectAt"
 weight: 2
 aliases: 
     - /TA_Automation/Topics/abt_DeselectAt_3.html
+keywords: "deselectat, abtlist deselectat, deselect list item, deselect item at given index in list"
 ---
-keyword: [deselectat, abtlist deselectat, deselect list item, deselect item at given index in list]
----
-
-# DeselectAt
 
 ## Syntax
 

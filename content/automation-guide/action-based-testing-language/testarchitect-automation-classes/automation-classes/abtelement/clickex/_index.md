@@ -4,11 +4,8 @@ linktitle: "ClickEx"
 weight: 5
 aliases: 
     - /TA_Automation/Topics/abt_ClickEx_1.html
+keywords: "press button, "
 ---
-keyword: [press button, ]
----
-
-# ClickEx
 
 ## Syntax
 

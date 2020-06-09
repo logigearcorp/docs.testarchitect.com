@@ -4,11 +4,8 @@ linktitle: "DoesItemExist"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/abt_DoesItemExist.html
+keywords: "doesitemexist, abtcombobox doesitemexist, check item is found in combo box's list, item exists in combox box's list, existence of item in combox box's list"
 ---
-keyword: [doesitemexist, abtcombobox doesitemexist, check item is found in combo box's list, item exists in combox box's list, existence of item in combox box's list]
----
-
-# DoesItemExist
 
 ## Syntax
 

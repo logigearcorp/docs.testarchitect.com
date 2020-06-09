@@ -4,11 +4,8 @@ linktitle: "GetItemText"
 weight: 1
 aliases: 
     - /TA_Automation/Topics/abt_GetItemText_15.html
+keywords: "getitemtext, abttoolbar getitemtext, content of item on toolbar, text of item at index on toolbar"
 ---
-keyword: [getitemtext, abttoolbar getitemtext, content of item on toolbar, text of item at index on toolbar]
----
-
-# GetItemText
 
 ## Syntax
 

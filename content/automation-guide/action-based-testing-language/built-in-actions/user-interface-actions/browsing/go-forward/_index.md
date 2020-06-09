@@ -4,11 +4,8 @@ linktitle: "go forward"
 weight: 17
 aliases: 
     - /TA_Automation/Topics/bia_go_forward.html
+keywords: "go forward in browser, go to next page, move forward in browser, navigate forward in browser, history forward in browser"
 ---
-keyword: [go forward in browser, go to next page, move forward in browser, navigate forward in browser, history forward in browser]
----
-
-# go forward
 
 ## Description
 
@@ -28,7 +25,7 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   This action is functionally equivalent to clicking the browser's **Forward** button.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 

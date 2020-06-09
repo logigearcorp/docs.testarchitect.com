@@ -4,11 +4,8 @@ linktitle: "set notice level"
 weight: 6
 aliases: 
     - /TA_Automation/Topics/bia_set_notice_level.html
+keywords: "set notice level, notice level settings, set error notice level, "
 ---
-keyword: [set notice level, notice level settings, set error notice level, ]
----
-
-# set notice level
 
 ## Description
 
@@ -48,7 +45,7 @@ This action may be used within the following project items:test modules and user
 -   This action sets the value of the [notice level](notice_level.html) built-in setting. Note that the same effect can be achieved by using the [setting](setting.html) action with notice level.
 -   When a problem with a high enough severity causes the test to pause, the user is presented with a message box indicating the nature of the problem, and is offered the choices of stopping the test, continuing with the remainder of the test, or debugging the problem.
 -   All problem events, whether or not of sufficient severity to trigger a pause in the test run, are logged to the test results.
--   This action supports the [<ignore\>](/images//Images/TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+-   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 
