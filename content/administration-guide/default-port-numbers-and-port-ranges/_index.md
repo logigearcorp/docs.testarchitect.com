@@ -24,13 +24,7 @@ Many TestArchitect components use TCP/IP port numbers. In general, when establis
 |TestArchitect Java Agent|14205|14205-unlimited|
 |TestArchitect Register Server|23508|No range - port number is fixed at 23508.|
 |Team Foundation Server-Microsoft Test Manager integration|54000|54000-54099|
-|Lab Manager|Lab Manager has two different types of ports. 1.  Port 80 is the default port of the web server which launches Lab Manager from a web browser.
-2.  Port 53100 is the default TCP/IP listening port of the Lab Manager for communication with other TestArchitect components.
-
-|1.  If port 80 is unavailable, the next port is 54000, followed by 54001, 54002, etc.
-2.  If port 53100 is unavailable, the next port is 53100-53199.
-
-|
+|Lab Manager|Lab Manager has two different types of ports. 1.  Port 80 is the default port of the web server which launches Lab Manager from a web browser.2.  Port 53100 is the default TCP/IP listening port of the Lab Manager for communication with other TestArchitect components.<br><br>|1.  If port 80 is unavailable, the next port is 54000, followed by 54001, 54002, etc.2.  If port 53100 is unavailable, the next port is 53100-53199.<br><br>|
 |TestArchitect command Line|53800|53800-53899|
 |Firefox extension/plug-in|1000|1000-unlimited|
 |Chrome extension/plug-in|1000|1000-unlimited|

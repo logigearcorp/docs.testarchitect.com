@@ -9,7 +9,7 @@ aliases:
 Upgrading of legacy databases is required to enable time-traveling execution to function correctly.
 
 -   Note that this upgrade is required only for legacy repository databases created prior to TestArchitect version 8.2, and only if you expect to have a need to invoke time travelling for those databases.
--   Note also that if you attempt to use time travelling with a database that has not yet been upgraded, once you select the [**Time Traveling**](/TA_Help/Topics/ug_time_traveling_execution.md#cmd_ihj_gjf_5s) check box in the Execute Test dialog box,TestArchitect prompts you to run the upgrade with the message: This repository has not yet been upgraded for time travel functionality. Please contact your administrator to upgrade it before using it with time traveling.
+-   Note also that if you attempt to use time travelling with a database that has not yet been upgraded, once you select the [**Time Traveling**](/TA_Help/Topics/ug_time_traveling_execution.html#cmd_ihj_gjf_5s) check box in the Execute Test dialog box,TestArchitect prompts you to run the upgrade with the message: This repository has not yet been upgraded for time travel functionality. Please contact your administrator to upgrade it before using it with time traveling.
 
 The database upgrade process can be initiated by doing the following:
 

@@ -59,8 +59,8 @@ License keys may be requested from your TestArchitect or LogiGear sales represen
 
 7.  Select the type of license and the number of licenses that you want to request or upgrade for the TestArchitect Enterprise edition.
 
-    -   Number of Floating Licenses: \([Universal](TA_Editions.md#note_Universal.license) licenses\) A floating license is one that can be reused among members of an organization and is not tied to any one particular person or machine.
-    -   Number of Node-Locked Licenses: \([Universal](TA_Editions.md#note_Universal.license) licenses\) A node-locked license is granted to a specific machine, and when that machine is not using the node-locked license, the license generally goes unused.
+    -   Number of Floating Licenses: \([Universal](TA_Editions.html#note_Universal.license) licenses\) A floating license is one that can be reused among members of an organization and is not tied to any one particular person or machine.
+    -   Number of Node-Locked Licenses: \([Universal](TA_Editions.html#note_Universal.license) licenses\) A node-locked license is granted to a specific machine, and when that machine is not using the node-locked license, the license generally goes unused.
     -   Number of Agent Licenses: Only allows users to execute tests.
 8.  To receive your TestArchitect licenses, the host certificate must be sent to TestArchitect Sales or to your LogiGear representative. You may choose to have the host certificate sent automatically, or you can email the information yourself to the TestArchitect sales team at [mailto:sales@logigear.com](mailto:sales@logigear.com). Use one of the two options presented to you at the bottom of the dialog box.
 

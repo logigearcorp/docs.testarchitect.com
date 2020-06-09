@@ -10,7 +10,7 @@ As an administrator, you can change the password of a user. This is especially h
 
 To change a user's password, do the following:
 
-1.  Invoke the [Manage Users](/images//Images/TA_Administration/Topics/adm_users_invoking_Manage_Users.html) Manager Users dialog box for a given repository. \(You can do this by right-clicking the **Administration** node and then selecting **Manage Users**.\)
+1.  Invoke the [Manage Users](/reuse/../TA_Administration/Topics/adm_users_invoking_Manage_Users.html) Manager Users dialog box for a given repository. \(You can do this by right-clicking the **Administration** node and then selecting **Manage Users**.\)
 
 2.  In the Users panel, select the user.
 
