@@ -14,15 +14,15 @@ Ensure that the fields you want to edit are in editable states \(see the table b
 
 |List View|Editable fields|
 |---------|---------------|
-|Test module|-   Status-   Assigned user<br>-   Priority<br>-   Notes<br>-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)<br><br>|
-|Test case<br>|-   Notes-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)<br><br>|
-|Test objective<br>|-   Notes-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)<br><br>|
-|Data set<br>|-   Status-   Assigned user<br>-   Notes<br>-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)<br><br>|
-|Action|-   Status-   Assigned user<br>-   Notes<br>-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)<br><br>|
-|Interface|-   Notes-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)<br><br>|
-|Interface Entity|-   Status-   Assigned user<br>-   Notes<br>-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)<br><br>|
-|Pictures|-   Notes-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)<br><br>|
-|Repository Results|-   Notes-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)<br><br>|
+|Test module|-   Status<br>-   Assigned user<br>-   Priority<br>-   Notes<br>-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)<br><br>|<br>
+|Test case<br><br>|-   Notes<br>-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)<br><br>|<br>
+|Test objective<br><br>|-   Notes<br>-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)<br><br>|<br>
+|Data set<br><br>|-   Status<br>-   Assigned user<br>-   Notes<br>-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)<br><br>|<br>
+|Action|-   Status<br>-   Assigned user<br>-   Notes<br>-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)<br><br>|<br>
+|Interface|-   Notes<br>-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)<br><br>|<br>
+|Interface Entity|-   Status<br>-   Assigned user<br>-   Notes<br>-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)<br><br>|<br>
+|Pictures|-   Notes<br>-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)<br><br>|<br>
+|Repository Results|-   Notes<br>-   [User-defined fields](/TA_Administration/Topics/User_defined_fields.html)<br><br>|<br>
 |Local Results|N/A|
 |Test suites|N/A|
 |Favorite|N/A|

@@ -21,9 +21,9 @@ To create matching user-defined fields in TestArchitect and Quality Center:
 1.  [Create a user-defined field](/TA_Administration/Topics/User_defined_fields_create.html) in TestArchitect . Ensure that you correctly define the properties for the field, as described below, so that it can be mapped to the user field in Quality Center.
 
     -   **Name**: The name of the TestArchitect user-defined field must be identical to that of its corresponding user-defined field in Quality Center.
-    -   **Apply To**: Only **Test case**, **Test module**, and **Result** are mappable to Quality Center user fields. See [TestArchitect and Quality Center Entities table](Integration_QC_creating_custom_field_rules.html#tbl_e83j_3k48) for details.
-    -   **Value Type**: Data types must match between TestArchitect and Quality Center. See [TestArchitect and Quality Center Data Types table](Integration_QC_creating_custom_field_rules.html#tbl_d38u_d78h) for details.
-    -   **Default Value**: Assign a default value to a user-defined field. Note that it is essential that this field be defined when mapping to a required field \(see **Required** check box in step [2.d](Integration_QC_creating_mapping_custom_field.html#step_jf38_d83u) in Quality Center\).
+    -   **Apply To**: Only **Test case**, **Test module**, and **Result** are mappable to Quality Center user fields. See [TestArchitect and Quality Center Entities table](/TA_Help/Topics/Integration_QC_creating_custom_field_rules.html#tbl_e83j_3k48) for details.
+    -   **Value Type**: Data types must match between TestArchitect and Quality Center. See [TestArchitect and Quality Center Data Types table](/TA_Help/Topics/Integration_QC_creating_custom_field_rules.html#tbl_d38u_d78h) for details.
+    -   **Default Value**: Assign a default value to a user-defined field. Note that it is essential that this field be defined when mapping to a required field \(see **Required** check box in step [2.d](/TA_Help/Topics/Integration_QC_creating_mapping_custom_field.html#step_jf38_d83u) in Quality Center\).
     **Important:** For a TestArchitect field that is mapped to a Quality Center field marked as **Required**, it is essential that a value must be provided in the **Default Value** field.
 
 2.  Create a user-defined field in Quality Center that matches a user-defined field in TestArchitect:
@@ -34,7 +34,7 @@ To create matching user-defined fields in TestArchitect and Quality Center:
 
         ![](/images//Images/QC_custom_field.rev_1.png)
 
-    2.  In the Project Customization screen, select **Project Entities**, and then select either the **Test** \> **User Fields** or **Run** \> **User Fields** node, depending on the **Apply To** entity selected for the corresponding user-defined field in TestArchitect. If you chose **Test case** or **Test Module** in step [1](Integration_QC_creating_mapping_custom_field.html#step_dju3_d8hj), select the **Test** \> **User Fields** node on the Quality Center **Project Entities** tree. If you chose **Result** in step [1](Integration_QC_creating_mapping_custom_field.html#step_dju3_d8hj), select the **Run** \> **User Fields** node.
+    2.  In the Project Customization screen, select **Project Entities**, and then select either the **Test** \> **User Fields** or **Run** \> **User Fields** node, depending on the **Apply To** entity selected for the corresponding user-defined field in TestArchitect. If you chose **Test case** or **Test Module** in step [1](/TA_Help/Topics/Integration_QC_creating_mapping_custom_field.html#step_dju3_d8hj), select the **Test** \> **User Fields** node on the Quality Center **Project Entities** tree. If you chose **Result** in step [1](/TA_Help/Topics/Integration_QC_creating_mapping_custom_field.html#step_dju3_d8hj), select the **Run** \> **User Fields** node.
 
         ![](/images//Images/QC_Project_entity.png)
 
@@ -42,13 +42,13 @@ To create matching user-defined fields in TestArchitect and Quality Center:
 
     4.  On the **Settings** tab, enter the information for the user field as required. Be sure to choose the correct values for the fields described below as they will affect how user fields are mapped between TestArchitect and Quality Center, and when an error message is displayed.
 
-        -   **Label**: The name of this Quality Center label must be identical to the name \(defined by the **Name** field\) of the user-defined field created in step [1](Integration_QC_creating_mapping_custom_field.html#step_dju3_d8hj).
-        -   **Type**: This Quality Centerdata type must match the corresponding TestArchitect data type \(defined by the **Value Type** field\) when creating the user field in step [1](Integration_QC_creating_mapping_custom_field.html#step_dju3_d8hj). Mapped fields must have compatible data types, as specified in the [TestArchitect and Quality Center Data Types](Integration_QC_creating_custom_field_rules.html#tbl_d38u_d78h) table.
+        -   **Label**: The name of this Quality Center label must be identical to the name \(defined by the **Name** field\) of the user-defined field created in step [1](/TA_Help/Topics/Integration_QC_creating_mapping_custom_field.html#step_dju3_d8hj).
+        -   **Type**: This Quality Centerdata type must match the corresponding TestArchitect data type \(defined by the **Value Type** field\) when creating the user field in step [1](/TA_Help/Topics/Integration_QC_creating_mapping_custom_field.html#step_dju3_d8hj). Mapped fields must have compatible data types, as specified in the [TestArchitect and Quality Center Data Types](/TA_Help/Topics/Integration_QC_creating_custom_field_rules.html#tbl_d38u_d78h) table.
         -   **Required**: Select this check box to indicate that a value for the field is mandatory. When user field-mapping cannot be achieved between TestArchitect and Quality Center, such as when the corresponding TestArchitect defined field's value is empty, TestArchitect displays error messages and terminates the uploading process.
     5.  Click **Save** ![](/images//Images/QC_save_button.png) on the toolbar.
 
 
-In order for Quality Center to receive and display user-defined fields from TestArchitect, the test module or test case containing the user-defined fields must be [uploaded to Quality Center](Integration_QC_test_development_step_2.html). An additional step is required for viewing TestArchitect **Result** entities in Quality Center: the test module or test case containing the user field **Result** entities must be executed. \(Note that this additional step is *not* required for viewing **Test module** or **Test case** entities.\)
+In order for Quality Center to receive and display user-defined fields from TestArchitect, the test module or test case containing the user-defined fields must be [uploaded to Quality Center](/TA_Help/Topics/Integration_QC_test_development_step_2.html). An additional step is required for viewing TestArchitect **Result** entities in Quality Center: the test module or test case containing the user field **Result** entities must be executed. \(Note that this additional step is *not* required for viewing **Test module** or **Test case** entities.\)
 
 To view **Test module** or **Test case** user-defined fields in Quality Center:
 

@@ -10,17 +10,17 @@ You have the option of supplying a specific timestamp to determine which revisio
 
 **Remember:** To use time-traveling execution on any test module belonging to a legacy repository created prior to TestArchitect version [8.2](/TA_ReleaseNotes/DITA_source/Whats_New_8.2.html), you must first upgrade the repository database. \([Learn more](/TA_Administration/Topics/adm_database_upgrade_time_traveling.html).\)
 
-**Note:** The rules of time-traveling execution are independent from the [rules for selecting variations for execution](Variations_rules_executing.html).
+**Note:** The rules of time-traveling execution are independent from the [rules for selecting variations for execution](/TA_Help/Topics/Variations_rules_executing.html).
 
 ## Executing backward a revision
 
-At runtime, you directly specify a timestamp in the Variation Specification panel, located under **Advanced Settings** tab of the Execute Test dialog box. \([Learn more](ug_time_traveling_execution.html).\)
+At runtime, you directly specify a timestamp in the Variation Specification panel, located under **Advanced Settings** tab of the Execute Test dialog box. \([Learn more](/TA_Help/Topics/ug_time_traveling_execution.html).\)
 
 ![](/images//Images/time_traveling_rules_1.png)
 
 When a specific timestamp is selected, and it is not tagged to an AUT version\(s\), TestArchitect takes the following approach for each test module, action, interface entity, or data set, it encounters in the test.
 
-**Note:** This rule is applied to [keyword variations](Variations_create_keyword.html) and [default variations](Variations_default.html). But not including [linked variations](Variations_linking.html).
+**Note:** This rule is applied to [keyword variations](/TA_Help/Topics/Variations_create_keyword.html) and [default variations](/TA_Help/Topics/Variations_default.html). But not including [linked variations](/TA_Help/Topics/Variations_linking.html).
 
 ```
 TestArchitect asks: Is there a revision existing at the specified timestamp?
@@ -35,7 +35,7 @@ TestArchitect asks: Is there a revision existing at the specified timestamp?
 
 ## Executing backward a revision tag
 
-At runtime, you specify a [revision tag](ug_revision_tag.html), that is, a timestamp tagged to an AUT version\(s\) in the Variation Specification panel, located under **Advanced Settings** tab of the Execute Test dialog box. \([Learn more](ug_time_traveling_execution.html)\).
+At runtime, you specify a [revision tag](/TA_Help/Topics/ug_revision_tag.html), that is, a timestamp tagged to an AUT version\(s\) in the Variation Specification panel, located under **Advanced Settings** tab of the Execute Test dialog box. \([Learn more](/TA_Help/Topics/ug_time_traveling_execution.html)\).
 
 ![](/images//Images/time_traveling_rules_2.png)
 

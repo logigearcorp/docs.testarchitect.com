@@ -15,7 +15,7 @@ Once you have connected to a repository, it is added to the TestArchitect explor
 -   TestArchitect Authentication mode: Users log in with their repository user names and passwords. Authentication is performed directly by TestArchitect.
 -   LDAP Authentication mode: Requires the availability of an LDAP-based directory service. Users are authenticated with their system \(e.g., Windows\) logins, thus eliminating the need for a separate login for TestArchitect. \(This is known as single sign-on.\)
 
-By default, repositories are configured for TestArchitect authentication mode. If you are an administrator of your repository, you may set it up for LDAP authentication, provided that your organization has already set up an LDAP-based directory server with the necessary user account\(s\). For more on setting up a repository for LDAP authentication, see [LDAP overview](ug_LDAP_overview.html).
+By default, repositories are configured for TestArchitect authentication mode. If you are an administrator of your repository, you may set it up for LDAP authentication, provided that your organization has already set up an LDAP-based directory server with the necessary user account\(s\). For more on setting up a repository for LDAP authentication, see [LDAP overview](/TA_Help/Topics/ug_LDAP_overview.html).
 
 1.  In the TestArchitect explorer tree, double-click a repository node.
 

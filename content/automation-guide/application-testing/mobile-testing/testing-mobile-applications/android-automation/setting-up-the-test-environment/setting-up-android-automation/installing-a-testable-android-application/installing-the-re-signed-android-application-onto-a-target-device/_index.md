@@ -10,7 +10,7 @@ After successfully re-signing the application, you can install it to a device.
 
 **Important:** Android automation is only supported on Windows.
 
-1.  Open the [Manage Application Under Test](Installing_applications_resigning.html) dialog box
+1.  Open the [Manage Application Under Test](/Android/Topics/Installing_applications_resigning.html) dialog box
 
     **Tip:** From the Manage Application Under Test dialog box, you can install one or more re-signed applications into any number of physical Android mobile devices that are currently connected \(by USB cable or Wi-Fi\) and visible to TestArchitect, as well as any Android emulators that are running on the host PC.
 

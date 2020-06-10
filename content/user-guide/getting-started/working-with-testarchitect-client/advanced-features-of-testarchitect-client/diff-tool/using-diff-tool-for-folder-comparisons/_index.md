@@ -101,7 +101,7 @@ Important folder comparison/synchronizing features are indicated in this figure.
     -   **Deselect All**: Deselect all rows that were previously selected in the Target and Source panels.
 11. **Copy Selected**:
 
-    Enable folder synchronization. \([Learn more](ug_diff_tool_copying_items_folders.html).\)
+    Enable folder synchronization. \([Learn more](/TA_Help/Topics/ug_diff_tool_copying_items_folders.html).\)
 
     -   **Copy from Source to Target Panel**: Copy selected project items and folders from the Source panel into the Target panel.
     -   **Copy from Target to Source Panel**: Copy selected project items and folders from the Target panel into the Source panel.

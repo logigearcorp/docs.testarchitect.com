@@ -37,7 +37,7 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   This action is applicable to both TA properties and native properties that are viewable in the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer_reading.html).
--   In the event that a TA property and a native property have identical names, the TA property takes precedence. If you want to get the value of the native property instead, use the action [get native property](get_native_property.html).
+-   In the event that a TA property and a native property have identical names, the TA property takes precedence. If you want to get the value of the native property instead, use the action [get native property](/TA_Automation/Topics/bia_get_native_property.html).
 -   This action is applicable only to properties that are viewable in TestArchitect's Interface Viewer.
 -   variable argument:
     -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
@@ -46,7 +46,7 @@ This action may be used within the following project items:test modules and user
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[case sensitive](case_sensitive.html), [ignore blank space](ignore_blank_space.html), [remove double quotes from cells](remove_double_quotes_from_cells.html), [standard ASCII only](standard_ASCII_only.html), [page wait](page_wait.html), [object wait](object_wait.html), [value changed wait](value_changed_wait.html), [window wait](window_wait.html), [load invisible controls](load_invisible_controls.html).
+The following settings are applicable to this action:[case sensitive](/TA_Automation/Topics/bis_case_sensitive.html), [ignore blank space](/TA_Automation/Topics/bis_ignore_blank_space.html), [remove double quotes from cells](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html), [standard ASCII only](/TA_Automation/Topics/bis_standard_ASCII_only.html), [page wait](/TA_Automation/Topics/bis_page_wait.html), [object wait](/TA_Automation/Topics/bis_object_wait.html), [value changed wait](/TA_Automation/Topics/bis_value_changed_wait.html), [window wait](/TA_Automation/Topics/bis_window_wait.html), [load invisible controls](/TA_Automation/Topics/bis_load_invisible_controls.html).
 
 ## Applicable Controls
 

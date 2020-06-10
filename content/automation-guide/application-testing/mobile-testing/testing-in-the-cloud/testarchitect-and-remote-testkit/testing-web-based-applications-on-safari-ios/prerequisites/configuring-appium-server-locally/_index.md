@@ -10,9 +10,9 @@ Describes detailed steps to configure Appium server locally on macOS machines.
 
 Ensure that the following requirements are met:
 
--   Rent an iOS device in the Remote TestKit service, and enable Xcode Connector. \([Learn more](aut_app_cloud_testing_iOS_Xcode_connector.html).\)
+-   Rent an iOS device in the Remote TestKit service, and enable Xcode Connector. \([Learn more](/TA_Automation/Topics/aut_app_cloud_testing_iOS_Xcode_connector.html).\)
 -   Xcode detected the iOS device.
--   [Obtain](aut_obtaining_UDID.html) UDID of the iOS device.
+-   [Obtain](/TA_Automation/Topics/aut_obtaining_UDID.html) UDID of the iOS device.
 
 1.  Launch the Appium application.
 
@@ -26,8 +26,8 @@ Ensure that the following requirements are met:
 
 4.  Under Device Settings panel, specify the following information.
 
-    -   **Platform Version**: From the drop-down list, select the correct iOS version of the [rented device](aut_app_cloud_testing_iOS_Xcode_connector.html) in Remote TestKit.
-    -   **UDID**: Type in the device identifier. \([Learn more.](aut_obtaining_UDID.html)\)
+    -   **Platform Version**: From the drop-down list, select the correct iOS version of the [rented device](/TA_Automation/Topics/aut_app_cloud_testing_iOS_Xcode_connector.html) in Remote TestKit.
+    -   **UDID**: Type in the device identifier. \([Learn more.](/TA_Automation/Topics/aut_obtaining_UDID.html)\)
     ![](/images//Images/appium_macOS.png)
 
 5.  In the Appium dialog box, click the **Developer Setting** ![](/images//Images/devopler_setting_btn.png) button.

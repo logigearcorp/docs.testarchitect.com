@@ -12,7 +12,7 @@ Explains how to create a stub action for a user-scripted scripted action in Test
 
     The **Create User-Scripted Actions** dialog box appears.
 
-    ![](/TA_Tutorials/Images/Create_user_scripted_action_dlg.png)
+    ![](/images/TA_Automation/Images/Create_user_scripted_action_dlg.png)
 
 2.  Next to the **Bundle location** box, click the **Browse** button to specify a DLL.
 
@@ -24,7 +24,7 @@ Explains how to create a stub action for a user-scripted scripted action in Test
     -   **Function**: Function name
     -   **Class**: Class name
     -   **Assembly**: Path of the class library.
-    ![](/TA_Tutorials/Images/Create_user_scripted_action_dlg.png)
+    ![](/images/TA_Automation/Images/Create_user_scripted_action_dlg.png)
 
 3.  Select action\(s\), and then click **Create**.
 
@@ -34,7 +34,7 @@ Explains how to create a stub action for a user-scripted scripted action in Test
     -   Also, the selected user-scripted actions cannot have the same name as an existing built-in action
     If the creation is successful, a dialog box appears.
 
-    ![](/TA_Tutorials/Images/action_created_successfully.png)
+    ![](/images/TA_Automation/Images/action_created_successfully.png)
 
 4.  Click **OK** to dismiss the dialog box.
 
@@ -44,7 +44,7 @@ Explains how to create a stub action for a user-scripted scripted action in Test
 
     In the TestArchitect explorer tree, under the **Actions** node, new stub actions of the user-scripted actions are created successfully.
 
-    ![](/TA_Tutorials/Images/user_defined_action.png)
+    ![](/images/TA_Automation/Images/user_defined_action.png)
 
 6.  Open a newly-created stub action.
 

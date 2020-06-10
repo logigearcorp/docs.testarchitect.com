@@ -21,11 +21,11 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   Premature termination of an iterative loop is usually only desired if, during the course of execution, some condition has changed. Hence exit loop is usually associated with one or more [if](if.html) conditions.
+-   Premature termination of an iterative loop is usually only desired if, during the course of execution, some condition has changed. Hence exit loop is usually associated with one or more [if](/TA_Automation/Topics/bia_if.html) conditions.
 -   exit loop supports the following types of loops:
-    -   [while](while.html)-[end while](end_while.html)
-    -   [repeat](repeat.html)-[until](until.html)
-    -   [use data set](use_data_set.html)-[repeat for data set](repeat_for_data_set.html)
+    -   [while](/TA_Automation/Topics/bia_while.html)-[end while](/TA_Automation/Topics/bia_end_while.html)
+    -   [repeat](/TA_Automation/Topics/bia_repeat.html)-[until](/TA_Automation/Topics/bia_until.html)
+    -   [use data set](/TA_Automation/Topics/bia_use_data_set.html)-[repeat for data set](/TA_Automation/Topics/bia_repeat_for_data_set.html)
 
         **Note:** The support for data set loops applies to TestArchitect [8.3 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.html) and higher.
 

@@ -9,7 +9,7 @@ keywords: "get data rows based on criteria, filter data"
 
 ## Syntax
 
-`List <[AbtDataRow](abt_AbtDataRow.html)> GetData(string filterCriteria)`
+`List <[AbtDataRow](/TA_Automation/Topics/abt_AbtDataRow.html)> GetData(string filterCriteria)`
 
 ## Description
 
@@ -19,7 +19,7 @@ Retrieve from the data set object the list of data rows that satisfy the specifi
 
 -   **filterCriteria**
 
-    String value specifying the filter criteria. \(For format, see the criterion argument of [filter](filter.html) built-in action\).
+    String value specifying the filter criteria. \(For format, see the criterion argument of [filter](/TA_Automation/Topics/bia_filter.html) built-in action\).
 
 
 ## Return Value

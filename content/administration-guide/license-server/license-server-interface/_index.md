@@ -23,10 +23,10 @@ The primary functions available from the control panel are:
 To launch the License Server Control Panel:
 
 -   **Windows platform**: do one of the following:
-    -   Double-click the **TestArchitect - License Server** ![](/images//Images/TA_Administration/Images/LS_icon.png) icon in your Windows notification area.
+    -   Double-click the **TestArchitect - License Server** ![](/images/TA_Administration/Images/LS_icon.png) icon in your Windows notification area.
     -   Select **Start Menu** \> **All Programs** \> **TestArchitect** \> **License Server**.
 -   **Linux platform**: do one of the following:
-    -   Double-click the **TestArchitect - License Server** ![](/images//Images/TA_Administration/Images/LS_icon.png) icon in your notification area.
+    -   Double-click the **TestArchitect - License Server** ![](/images/TA_Administration/Images/LS_icon.png) icon in your notification area.
     -   From a terminal window, navigate to /usr/local/logigear/licenseserver/licenseserver and run the TestArchitect License Server executable.
 -   **macOS**: Note that the TestArchitect License Server is not currently supported on macOS.
 
@@ -88,19 +88,19 @@ The information is presented in the form of a tree structure, with nodes grouped
 
 ![](/images//Images/licenseserver_8_1.png)
 
-1.  [Start license server](LS_TA_managing_start_stop.html): Starts up the license server on the existing computer. Disabled if the service is already running.
-2.  [Stop license server](LS_TA_managing_start_stop.html): Shuts down the license server. Disabled if the server is already down.
-3.  [Add license](LS_TA_adding_new_license.html): Use this button to add a license, or a package of licenses, after receiving a license key or credential information from LogiGear.
-4.  [Request license](LS_TA_requesting_key.html): Click to submit a request to LogiGear for one or more licenses.
-5.  **Convert license**: Click to convert a floating license into a host-based license and vice-versa. \(Refer to [Converting a floating license into a host-based license](LS_TA_converting_floating_to_host_based.html) and [Converting a host-based license into a floating license](LS_TA_converting_host_based_to_floating.html) for details.\)
-6.  [Remove license](LS_TA_revoking.html): Click this button after selecting a license package node, to remove the licenses from the license server.
+1.  [Start license server](/TA_Administration/Topics/LS_TA_managing_start_stop.html): Starts up the license server on the existing computer. Disabled if the service is already running.
+2.  [Stop license server](/TA_Administration/Topics/LS_TA_managing_start_stop.html): Shuts down the license server. Disabled if the server is already down.
+3.  [Add license](/TA_Administration/Topics/LS_TA_adding_new_license.html): Use this button to add a license, or a package of licenses, after receiving a license key or credential information from LogiGear.
+4.  [Request license](/TA_Administration/Topics/LS_TA_requesting_key.html): Click to submit a request to LogiGear for one or more licenses.
+5.  **Convert license**: Click to convert a floating license into a host-based license and vice-versa. \(Refer to [Converting a floating license into a host-based license](/TA_Administration/Topics/LS_TA_converting_floating_to_host_based.html) and [Converting a host-based license into a floating license](/TA_Administration/Topics/LS_TA_converting_host_based_to_floating.html) for details.\)
+6.  [Remove license](/TA_Administration/Topics/LS_TA_revoking.html): Click this button after selecting a license package node, to remove the licenses from the license server.
 
     **Note:** Use **Remove license** to remove expired license packages.
 
-7.  [Serve as Redundant License Server](LS_TA_managing_creating_redundant_license.html): Allows this license server to be designated as a redundant license server for a specified primary license server.
+7.  [Serve as Redundant License Server](/TA_Administration/Topics/LS_TA_managing_creating_redundant_license.html): Allows this license server to be designated as a redundant license server for a specified primary license server.
 8.  Refresh display: Updates the display to reflect any changes in status, such as license requests and grants, since the last display.
 9.  View log: View a log of pertinent license server-related events.
-10. [Open license log folder](adm_License_server_log_file.html): Open the folder containing log files that track license requests submitted to the license server.
+10. [Open license log folder](/TA_Administration/Topics/adm_License_server_log_file.html): Open the folder containing log files that track license requests submitted to the license server.
 11. View license server help: View help topics related to the TestArchitect license server.
 
 ## Status bar

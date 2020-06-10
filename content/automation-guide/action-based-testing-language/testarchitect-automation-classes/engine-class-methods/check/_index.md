@@ -36,8 +36,8 @@ Return 1 if the check passed; otherwise, 0.
 ## Notes
 
 -   The expected and recorded strings are compared. If they are equal the check is administered as passed, otherwise it is treated as failed.
--   See also the chapter on [checks](Automation_model_working_with_checks.html) earlier in this guide.
--   If possible use [CheckArgument](abtf_CheckArgument.html) or [CheckNamedArgument](abtf_CheckNamedArgument.html), since these functions allow for better reporting \(in particular when used in action definitions\).
+-   See also the chapter on [checks](/TA_Automation/Topics/Automation_model_working_with_checks.html) earlier in this guide.
+-   If possible use [CheckArgument](/TA_Automation/Topics/abtf_CheckArgument.html) or [CheckNamedArgument](/TA_Automation/Topics/abtf_CheckNamedArgument.html), since these functions allow for better reporting \(in particular when used in action definitions\).
 
 **Parent topic:**[Engine class methods](/TA_Automation/Topics/abtf_Engine_classes.html)
 

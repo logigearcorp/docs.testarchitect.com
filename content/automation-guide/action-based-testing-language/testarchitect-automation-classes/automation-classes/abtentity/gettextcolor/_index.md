@@ -49,18 +49,18 @@ A hexadecimal value indicating color code of the text.
 ## Notes
 
 -   This method is currently supported only by the C\# harness.
--   This method always employs the [Graphics Device Interface](aut_text_recognition_techniques.html) \(GDI\) technique to recognize text produced by an AUT.
+-   This method always employs the [Graphics Device Interface](/TA_Automation/Topics/aut_text_recognition_techniques.html) \(GDI\) technique to recognize text produced by an AUT.
 -   You can also apply GDI methods including:
 
-    -   [GetTextBackgroundColor](abt_AbtGetTextBackgroundColor_AbtEntity.html)
-    -   [GetTextColor](abt_AbtGetTextColor_AbtEntity.html)
-    -   [GetTextContent](abt_AbtGetTextContent_AbtEntity.html)
-    -   [GetTextCount](abt_AbtGetTextCount_AbtEntity.html)
+    -   [GetTextBackgroundColor](/TA_Automation/Topics/abt_AbtGetTextBackgroundColor_AbtEntity.html)
+    -   [GetTextColor](/TA_Automation/Topics/abt_AbtGetTextColor_AbtEntity.html)
+    -   [GetTextContent](/TA_Automation/Topics/abt_AbtGetTextContent_AbtEntity.html)
+    -   [GetTextCount](/TA_Automation/Topics/abt_AbtGetTextCount_AbtEntity.html)
     to reconstruct a table from the recognized texts. Note that, off-screen columns/rows will not be counted. This circumstance is quite useful when you'd like to retrieve a number of columns/rows in a table by using GDI technique.
 
-    Technically, the GDI methods reconstruct columns based on the vertical bar's max height in the given control. By default, when a detected vertical bar is equivalent to or above 80% of the max vertical bar, this detected vertical bar is a separator of a column. If the reconstructed number of column is not what you expect, adjusting the value of the [gdi column identifier percentage](gdi_column_identifier_percentage.html) built-in setting might help.
+    Technically, the GDI methods reconstruct columns based on the vertical bar's max height in the given control. By default, when a detected vertical bar is equivalent to or above 80% of the max vertical bar, this detected vertical bar is a separator of a column. If the reconstructed number of column is not what you expect, adjusting the value of the [gdi column identifier percentage](/TA_Automation/Topics/bis_gdi_column_identifier_percentage.html) built-in setting might help.
 
-    Similarly, rows are reconstructed based on the horizontal bar's max height. By default, when a detected horizontal bar is equivalent to or above 80% of the max horizontal bar, the detected horizontal bar is a separator of a row. [gdi row identifier percentage](gdi_row_identifier_percentage.html) is the built-in setting to define the threshold value for reconstructing rows.
+    Similarly, rows are reconstructed based on the horizontal bar's max height. By default, when a detected horizontal bar is equivalent to or above 80% of the max horizontal bar, the detected horizontal bar is a separator of a row. [gdi row identifier percentage](/TA_Automation/Topics/bis_gdi_row_identifier_percentage.html) is the built-in setting to define the threshold value for reconstructing rows.
 
 
 **Parent topic:**[AbtEntity](/TA_Automation/Topics/abt_AbtEntity.html)

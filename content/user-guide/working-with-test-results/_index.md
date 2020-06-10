@@ -10,7 +10,7 @@ TestArchitect automatically generates a report containing the results of an auto
 
 ## Viewing test results in a web browser
 
-Since TestArchitect version [8.3](/TA_ReleaseNotes/DITA_source/Whats_New_8.3.html), [XML result model](Test_result.html) has been introduced to view test results in a web browser.
+Since TestArchitect version [8.3](/TA_ReleaseNotes/DITA_source/Whats_New_8.3.html), [XML result model](/TA_Help/Topics/Test_result.html) has been introduced to view test results in a web browser.
 
 **Important:** XML result model provides the following advantages when compared to the previous result model.
 
@@ -24,7 +24,7 @@ Since TestArchitect version [8.3](/TA_ReleaseNotes/DITA_source/Whats_New_8.3.htm
 
 Colossal test results, which contain hundreds of thousands of action lines, might consume a huge amount of memory when they are open in a web browser. TestArchitect optimizes these test results by trimming a specific given number of [iterations](/TA_Glossary/Topics/glossaryIteration.html), and also removing the pagination page.
 
-The number of truncated iterations is determined based on several predefined settings. Note that, these settings are adjustable. \([Learn more](ug_modifying_truncated_iterations.html).\)
+The number of truncated iterations is determined based on several predefined settings. Note that, these settings are adjustable. \([Learn more](/TA_Help/Topics/ug_modifying_truncated_iterations.html).\)
 
 ## User-defined fields
 

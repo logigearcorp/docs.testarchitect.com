@@ -12,8 +12,8 @@ Ensure that the machine hosting the TestArchitect repository server has the **HP
 
 Ensure that you have already taken the following steps:
 
--   [Registered the Quality Center server with TestArchitect](Integration_QC_connecting_repo_to_QC_server_step_1.html).
--   [Mapped the TestArchitect project](Integration_QC_connecting_repo_to_QC_server_step_2.html) containing the test cases of interest to the Quality Center project.
+-   [Registered the Quality Center server with TestArchitect](/TA_Help/Topics/Integration_QC_connecting_repo_to_QC_server_step_1.html).
+-   [Mapped the TestArchitect project](/TA_Help/Topics/Integration_QC_connecting_repo_to_QC_server_step_2.html) containing the test cases of interest to the Quality Center project.
 
 **Note:**
 
@@ -22,7 +22,7 @@ TestArchitect relies on test modules that are typically developed and executed a
 |TestArchitect|Quality Center|
 |-------------|--------------|
 |Test folder|Folder \(with subfolders representing TA test modules\)|
-|Test module|FolderOptionally, a '\#' test \(QC test with '\#' prepended to the name\) may also be created to hold essential test module metadata.<br>|
+|Test module|FolderOptionally, a '\#' test \(QC test with '\#' prepended to the name\) may also be created to hold essential test module metadata.<br><br>|<br>
 |Test case|Test|
 
 To upload TestArchitect test modules/test cases to Quality Center, carry out the following steps:
@@ -37,12 +37,16 @@ To upload TestArchitect test modules/test cases to Quality Center, carry out the
 
         -   For TestArchitect test folders:
 
+            |||
+            |------|------|
             |Asterisk|\*|
             |Caret|^|
             |Backslash|\\|
 
         -   For TestArchitect test modules/test cases:
 
+            |||
+            |------|------|
             |Apostrophe|'|
             |Quotation mark|"|
             |Percent|%|
@@ -55,7 +59,7 @@ To upload TestArchitect test modules/test cases to Quality Center, carry out the
             |Slash mark|/|
             |Pipe|\||
 
-    -   Should you upload a [test module variation](ug_TM_create_variation.html) whose name is in the form of `<default definition name>{<System>:<node1>, <node2>} {<keyword1>, <keyword2>}`, TestArchitect automatically replaces the colon character \(:\) with an equal sign \(=\).
+    -   Should you upload a [test module variation](/TA_Help/Topics/ug_TM_create_variation.html) whose name is in the form of `<default definition name>{<System>:<node1>, <node2>} {<keyword1>, <keyword2>}`, TestArchitect automatically replaces the colon character \(:\) with an equal sign \(=\).
 
         For example, uploading test module variation
 
@@ -78,7 +82,7 @@ To upload TestArchitect test modules/test cases to Quality Center, carry out the
     **Tip:**
 
     -   It is recommended that you upload TestArchitect tests into a Quality Center test node with similar node structure.
-    -   You can change the setting that governs whether TestArchitect uploads the same test automatically to Quality Center next time you request an upload by disabling the Upload Test Module dialog box. Refer to [Turning on/off automatic uploading](Integration_QC_Turning_on_off_autoupload.html).
+    -   You can change the setting that governs whether TestArchitect uploads the same test automatically to Quality Center next time you request an upload by disabling the Upload Test Module dialog box. Refer to [Turning on/off automatic uploading](/TA_Help/Topics/Integration_QC_Turning_on_off_autoupload.html).
     ![](/images//Images/QC_UploadTestModule.png)
 
 3.  Select the **Map Test Module \(\#\)** and/or **Map Test Folder** check boxes, which determine exactly what items are created on the Quality Center side:

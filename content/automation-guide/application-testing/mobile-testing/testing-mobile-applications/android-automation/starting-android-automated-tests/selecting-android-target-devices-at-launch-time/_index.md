@@ -14,7 +14,7 @@ Ensure that the controllers for the hosts that you want to execute the test on a
 
 To run your automated tests from the Execute Test dialog box, carry out the following:
 
-1.  Select the test module you want to run, and then click **Execute** ![](/images//Images/TA_Help/Images/btn.TAC_toolbar.Execute.png) on the TestArchitect toolbar.
+1.  Select the test module you want to run, and then click **Execute** ![](/images/TA_Help/Images/btn.TAC_toolbar.Execute.png) on the TestArchitect toolbar.
 
 2.  In the **Test Modules** panel of the Execute Test dialog box, verify that the check boxes for the modules you want to execute are selected.
 
@@ -24,7 +24,7 @@ To run your automated tests from the Execute Test dialog box, carry out the foll
 
 5.  In the Controllers/Devices panel, expand the root node, if needed, and select the devices on which you want to perform the automated tests. If the controllers and/or devices you want to test on are not listed in the panel, and those controllers are visible to the local host machine, click **Add controller** and enter the host addresses of the controllers you want to add to the list.
 
-    ![](/images//Images/TA_Help/Images/Select_Android_mobile_devices.png)
+    ![](/images/TA_Help/Images/Select_Android_mobile_devices.png)
 
     **Tip:** You can also monitor your connected mobile devices from the [Lab Manager Server](/reuse/../TA_Help/Topics/Lab_manager.html).
 

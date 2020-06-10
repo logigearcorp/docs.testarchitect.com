@@ -9,7 +9,7 @@ keywords: "verify picture, specify whether to verify picture in automated mode o
 
 ## Description
 
-Specifies whether the current test is to run in automated or semi-automated mode with respect to [picture checks](check_picture.html).
+Specifies whether the current test is to run in automated or semi-automated mode with respect to [picture checks](/TA_Automation/Topics/bia_check_picture.html).
 
 ## Allowable values
 
@@ -17,7 +17,7 @@ Specifies whether the current test is to run in automated or semi-automated mode
 
     Run in semi-automated mode.
 
-    The [Picture Check](check_picture.html#image_s2w_3zj_vq) dialog box appears at the end a test run if any unmatched pictures were detected during the run. An unmatched picture is one that is captured from the AUT during execution of a check picture action, and where either of the following occurred:
+    The [Picture Check](/TA_Automation/Topics/bia_check_picture.html#image_s2w_3zj_vq) dialog box appears at the end a test run if any unmatched pictures were detected during the run. An unmatched picture is one that is captured from the AUT during execution of a check picture action, and where either of the following occurred:
 
     -   no associated baseline picture was found to exist, or
     -   the bitmap captured from the AUT matched no associated baseline.
@@ -25,10 +25,10 @@ Specifies whether the current test is to run in automated or semi-automated mode
 
     Run in automated mode.
 
-    The test runs without any need for manual intervention prior to completion. Resolution of unmatched pictures is deferred until a time determined by the user. Specifically, [check picture](check_picture.html) executions failing to produce an automatic Pass result are registered as unverified picture checks, with:
+    The test runs without any need for manual intervention prior to completion. Resolution of unmatched pictures is deferred until a time determined by the user. Specifically, [check picture](/TA_Automation/Topics/bia_check_picture.html) executions failing to produce an automatic Pass result are registered as unverified picture checks, with:
 
-    -   [check picture](check_picture.html) actions failing to find a match being tentatively registered as Failed checks;
-    -   [check picture](check_picture.html) actions referencing nonexistent picture checks being tentatively registered as Warnings.
+    -   [check picture](/TA_Automation/Topics/bia_check_picture.html) actions failing to find a match being tentatively registered as Failed checks;
+    -   [check picture](/TA_Automation/Topics/bia_check_picture.html) actions referencing nonexistent picture checks being tentatively registered as Warnings.
 
 ## Default value
 

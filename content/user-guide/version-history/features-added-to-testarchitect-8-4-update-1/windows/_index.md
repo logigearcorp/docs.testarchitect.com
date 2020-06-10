@@ -28,7 +28,7 @@ The following new features and improvements are introduced in TestArchitect vers
     -   **Keep folder structure** option allows you to organize the tests in TFS in a similar way to those in TestArchitect or vice versa.
     -   **Scan the project for existing tests**: option allows you to avoid creating duplicated tests on TFS by not only scanning for previously-created tests on the selected test suite but also the whole TFS project. Whenever the test to be uploaded already exists, you’ll be prompted to keep or skip it on the**Confirm Overwriting** dialog box. This works for importing tests from TFS to TA also.
 -   The length limit of a **[test step](/TA_Help/Topics/Projects_and_tests_steps_creating.html)**’s title has been increased from 70 characters up to 30,000 characters. This improvement allows you to create more meaningful and descriptive titles.
--   **Support for [Windows Server 2016](Supported_platforms.html)**: TestArchitect has been verified as fully functional on Windows Server 2016.
+-   **Support for [Windows Server 2016](/TA_ReleaseNotes/DITA_source/Supported_platforms.html)**: TestArchitect has been verified as fully functional on Windows Server 2016.
 
 ## TestArchitect Automation
 

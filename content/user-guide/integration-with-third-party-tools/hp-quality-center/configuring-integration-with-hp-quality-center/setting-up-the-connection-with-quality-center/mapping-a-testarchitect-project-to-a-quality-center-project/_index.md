@@ -8,7 +8,7 @@ aliases:
 
 Integration between projects in TestArchitect and Quality Center requires that a mapping first be established between the two projects. Mapping a TestArchitect project to a project in Quality Center allows tests be transferred bidirectionally, test results to be posted from TestArchitect to Quality Center, and tests to be run from Quality Center.
 
-Ensure that the TestArchitect repository hosting your project has [been configured to connect with the Quality Center server](Integration_QC_connecting_repo_to_QC_server_step_1.html).
+Ensure that the TestArchitect repository hosting your project has [been configured to connect with the Quality Center server](/TA_Help/Topics/Integration_QC_connecting_repo_to_QC_server_step_1.html).
 
 To map a TestArchitect project to a Quality Center project:
 

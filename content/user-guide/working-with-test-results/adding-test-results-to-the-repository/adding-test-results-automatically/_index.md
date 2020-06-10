@@ -14,7 +14,7 @@ Perform the following steps:
 
 1.  Select the test module you want to execute.
 
-    **Note:** The test module can be executed [normally](Test_result.html), in a [serial run](Test_result.html), or from another test module using the [run test](/TA_Automation/Topics/bia_run_test.html) built-in action.
+    **Note:** The test module can be executed [normally](/TA_Help/Topics/Test_result.html), in a [serial run](/TA_Help/Topics/Test_result.html), or from another test module using the [run test](/TA_Automation/Topics/bia_run_test.html) built-in action.
 
 2.  Click **Execute** ![](/images//Images/btn.TAC_toolbar.Execute.png) on the toolbar.
 
@@ -27,11 +27,11 @@ Perform the following steps:
 5.  Specify which types of test results are to be automatically stored to the repository after execution completes.
 
     -   **By result**: Limit the results stored to the repository in accordance with the following check box selections:
-        -   [**Passed**](ug_test_results_status.html): Passed test results are stored.
-        -   [**Passed with Warnings/Errors**](ug_test_results_status.html): Passed test results with warnings/errors status are stored.
-        -   [**Failed**](ug_test_results_status.html): Failed test results are stored.
-        -   [**Passed with known bug**](ug_test_results_status.html): Test results that passed, but are marked [known bugs](Bugs_working_known_bug.html) whose outcomes have been ignored, are stored.
-        -   [**Not Finished**](ug_test_results_status.html): Incomplete test results.
+        -   [**Passed**](/TA_Help/Topics/ug_test_results_status.html): Passed test results are stored.
+        -   [**Passed with Warnings/Errors**](/TA_Help/Topics/ug_test_results_status.html): Passed test results with warnings/errors status are stored.
+        -   [**Failed**](/TA_Help/Topics/ug_test_results_status.html): Failed test results are stored.
+        -   [**Passed with known bug**](/TA_Help/Topics/ug_test_results_status.html): Test results that passed, but are marked [known bugs](/TA_Help/Topics/Bugs_working_known_bug.html) whose outcomes have been ignored, are stored.
+        -   [**Not Finished**](/TA_Help/Topics/ug_test_results_status.html): Incomplete test results.
     **Tip:** If you select more than one check box, the conditions will be OR'd together. For example, by selecting the **Passed** and **Passed with Warnings/Errors** check boxes, the repository receives all the results with Passed and Passed with Warnings/Errors outcomes, and no others.
 
     ![](/images//Images/Execute_test_auto_add_result_to_repo_1.png)
@@ -58,8 +58,8 @@ Perform the following steps:
     The selected test modules are executed. Once execution completes, the test results that match the specified conditions are automatically stored to the specified repository location.
 
 
--   When generating a batch file, the above selected conditions are written as new parameters \(see [Executing tests from the command line](Test_exec_cmd.html) for details\).
--   The two parameters, -upc and -up, are written to the batch file. \([Learn more](Test_exec_cmd.html#plentry.paramters_up).\)
+-   When generating a batch file, the above selected conditions are written as new parameters \(see [Executing tests from the command line](/TA_Help/Topics/Test_exec_cmd.html) for details\).
+-   The two parameters, -upc and -up, are written to the batch file. \([Learn more](/TA_Help/Topics/Test_exec_cmd.html#plentry.paramters_up).\)
 -   In the batch file, the selected conditions are specified as a comma-delimited list, e.g. /upc "Passed, WE".
 
 **Important:** Note that, if you add test results to the repository automatically, all [unverified picture checks](/TA_Glossary/Topics/glossaryUnverifiedPictureCheck.html) will be totally discarded. Whereas, adding test results to the repository manually preserves all picture checks.

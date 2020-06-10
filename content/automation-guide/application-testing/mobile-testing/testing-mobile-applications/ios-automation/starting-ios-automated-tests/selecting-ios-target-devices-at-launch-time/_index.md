@@ -12,7 +12,7 @@ Ensure that the controllers for the hosts that you want to execute the test on a
 
 **Important:** iOS automation is only supported on Windows or macOS hosts.
 
-1.  Select the test module you want to run, and then click **Execute** ![](/images//Images/TA_Help/Images/btn.TAC_toolbar.Execute.png) on the TestArchitect toolbar.
+1.  Select the test module you want to run, and then click **Execute** ![](/images/TA_Help/Images/btn.TAC_toolbar.Execute.png) on the TestArchitect toolbar.
 
 2.  In the **Test Modules** panel of the Execute Test dialog box, verify that the check boxes for the modules you want to execute are selected.
 
@@ -22,7 +22,7 @@ Ensure that the controllers for the hosts that you want to execute the test on a
 
 5.  In the Controllers/Devices panel, expand the root node, if needed, and select the devices on which you want to perform the automated tests. If the controllers and/or devices you want to test on are not listed in the panel, and those controllers are visible to the local host machine, click **Add controller** and enter the host addresses of the controllers you want to add to the list.
 
-    ![](/TA_Help/Images/Select_iOS_mobile_devices.png)
+    ![](/images/TA_Automation/Images/Select_iOS_mobile_devices.png)
 
 6.  Click **OK** in the Select Controller/Device dialog box, and select **Execute** in theExecute Test dialog box to begin executing tests on your selected mobile devices, or click [**Generate Batch File**](/reuse/../TA_Help/Topics/Test_exec_cmd_creating_batch_file.html) to launch your tests at a later point.
 

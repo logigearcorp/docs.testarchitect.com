@@ -20,7 +20,7 @@ In this exercise you will write a simple test case that uses your interface defi
     -   The text to be entered into the **User name** field.
 -   Another enter action to supply the password. In a similar manner as before, you will specify TA names for the window \(same window\) and the **Password** field, as well as text \(the password\).
 
-1.  In the TestArchitect explorer tree, select any item within the current project, then click **Create new test module** ![](/images//Images/TA_Tutorials/Images/btn.TAC_toolbar.CreateTestModule.png) in the toolbar.
+1.  In the TestArchitect explorer tree, select any item within the current project, then click **Create new test module** ![](/images/TA_Tutorials/Images/btn.TAC_toolbar.CreateTestModule.png) in the toolbar.
 
     The New Test Module dialog box appears.
 
@@ -41,13 +41,13 @@ In this exercise you will write a simple test case that uses your interface defi
 
     The login window appears.
 
-    ![](/images//Images/TA_Tutorials/Images/app.Car_Rental.Login.unmodified.png)
+    ![](/images/TA_Tutorials/Images/app.Car_Rental.Login.unmodified.png)
 
 7.  Click **Clear**.
 
     This clears the text fields so that you can better see the effect of your test's actions.
 
-8.  With your test module displayed in the TestArchitect editor, click **Execute** ![](/images//Images/TA_Tutorials/Images/btn.TAC_toolbar.Execute.png) on the toolbar.
+8.  With your test module displayed in the TestArchitect editor, click **Execute** ![](/images/TA_Tutorials/Images/btn.TAC_toolbar.Execute.png) on the toolbar.
 
     The Execute Test dialog box appears.
 

@@ -12,7 +12,7 @@ Time-traveling execution provides the support for "retroactive" execution; that 
 
 ## The need for retroactive execution
 
-Under some circumstances you may need to run automated tests against a specific release version of an AUT, say, version 1, when that is no longer the current version. Now, in a perfect world, you might have used [linked variations](Variations_linking.html) to associate all the right versions of project items to the version 1 system. In practice, though, we don't always do things that way. So what do you do when you need to “go back in time” to execute existing tests on an older AUT version? Fortunately, you still have all the necessary versions of project items preserved through TestArchitect's [revision control system](Project_items_history.html). And time-traveling execution helps grant your test run access to the specific revisions that you require for all the project items invoked by your test.
+Under some circumstances you may need to run automated tests against a specific release version of an AUT, say, version 1, when that is no longer the current version. Now, in a perfect world, you might have used [linked variations](/TA_Help/Topics/Variations_linking.html) to associate all the right versions of project items to the version 1 system. In practice, though, we don't always do things that way. So what do you do when you need to “go back in time” to execute existing tests on an older AUT version? Fortunately, you still have all the necessary versions of project items preserved through TestArchitect's [revision control system](/TA_Help/Topics/Project_items_history.html). And time-traveling execution helps grant your test run access to the specific revisions that you require for all the project items invoked by your test.
 
 ## Use case
 
@@ -28,8 +28,8 @@ Given that the new, patched version of AUT version 1 is expected to be able to p
 
 ## Best practices for time-traveling execution
 
-1.  Create a new [version](Variations_create_linked_create_new_version_node.html) node when you begin test automation development on a new version of your AUT. Do this regardless of whether or you expect to have a need to create [linked variations](Variations_linking.html) for this node.
-2.  Tag that version to a particular revision when that automation development cycle is finished. \([Learn more](ug_revision_tag.html).\)
+1.  Create a new [version](/TA_Help/Topics/Variations_create_linked_create_new_version_node.html) node when you begin test automation development on a new version of your AUT. Do this regardless of whether or you expect to have a need to create [linked variations](/TA_Help/Topics/Variations_linking.html) for this node.
+2.  Tag that version to a particular revision when that automation development cycle is finished. \([Learn more](/TA_Help/Topics/ug_revision_tag.html).\)
     -   For example: Tag revision 04/09/2015 22:04:27.446 to AUT version 2.0.
 3.  At runtime, specify the AUT version to be executed. Time-traveling execution is then invoked.
 

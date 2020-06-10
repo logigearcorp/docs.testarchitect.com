@@ -23,7 +23,7 @@ Perform one of the following procedures to create a dynamic test suite:
         -   **Name**: Specify a unique name.
         -   **Description**: \(Optional\) The short description for the test suite.
         -   **Data Profile**: Select a data profile from the drop-down list.
-        **Tip:** If you want to create your own data profile, see [Creating a report](Report_producing.html) for details.
+        **Tip:** If you want to create your own data profile, see [Creating a report](/TA_Help/Topics/Report_producing.html) for details.
 
         ![](/images//Images/create_dynamic_test_suite.png)
 
@@ -39,9 +39,9 @@ Perform one of the following procedures to create a dynamic test suite:
 
         For example: select the **Test modules** report type.
 
-        The Edit Profile tab appears in the main window, offering you options for defining the properties of the report \(see [customizing a report](Report_customizing.html)\).
+        The Edit Profile tab appears in the main window, offering you options for defining the properties of the report \(see [customizing a report](/TA_Help/Topics/Report_customizing.html)\).
 
-        **Tip:** You can include all related items as subreports in your report. Refer to [Subreports](Report_customizing.html#section_uvw_3jp_cl) for further information.
+        **Tip:** You can include all related items as subreports in your report. Refer to [Subreports](/TA_Help/Topics/Report_customizing.html#section_uvw_3jp_cl) for further information.
 
     3.  Click the **Save as test suite** ![](/images//Images/test_suite_item_add_icon.png) button.
 

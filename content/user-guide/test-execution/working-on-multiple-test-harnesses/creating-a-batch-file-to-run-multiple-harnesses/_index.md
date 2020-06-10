@@ -19,7 +19,7 @@ You can create a batch file that calls batch files to execute TestArchitect test
 
 One of the main features of TestArchitect is the ability to run multiple harnesses in parallel. Rather than waiting for each harness to execute in sequence or individually, you can run multiple harnesses in parallel across various browsers. Using this process, more tests can be run at a time, thereby decreasing overall time spent on testing. In order to achieve this goal to run multiple harnesses in batch files, carry out the following steps:
 
-1.  In TestArchitect Client, generate a batch file for each test module/suite you want to execute. \([Learn more](Test_exec_cmd_creating_batch_file.html)\)
+1.  In TestArchitect Client, generate a batch file for each test module/suite you want to execute. \([Learn more](/TA_Help/Topics/Test_exec_cmd_creating_batch_file.html)\)
 
 2.  Create a master batch file in a text editor, so as to call the batch files generated in the step \#1. The content of the master batch file might look like the following:
 

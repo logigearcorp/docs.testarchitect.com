@@ -6,7 +6,7 @@ aliases:
     - /TA_Glossary/Topics/glossaryWildcard.html
 ---
 
-A specific [regular expression](glossaryRegularExpression.html) pattern that can be used to substitute for any other character or characters in a string, allowing for flexibility in pattern matching. The following wildcards are commonly used:
+A specific [regular expression](/TA_Glossary/Topics/glossaryRegularExpression.html) pattern that can be used to substitute for any other character or characters in a string, allowing for flexibility in pattern matching. The following wildcards are commonly used:
 
 -   “.” \(period, or “dot”\), representing a single character of any type.
 -   “.\*” \(“dot star”\), representing any continuous string of zero or more characters of any type.

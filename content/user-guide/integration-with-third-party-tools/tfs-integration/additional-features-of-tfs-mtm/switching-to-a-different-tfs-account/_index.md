@@ -10,7 +10,7 @@ When making queries to a TFS server from a TestArchitect repository, you need a 
 
 Ensure that the following requirements are met:
 
--   Your TestArchitect repository is configured for a connection with Team Foundation Server. \([Learn more](Integration_MTM_connecting_TFS.html).\)
+-   Your TestArchitect repository is configured for a connection with Team Foundation Server. \([Learn more](/TA_Help/Topics/Integration_MTM_connecting_TFS.html).\)
 
 To switch to a different account, carry out the following steps:
 

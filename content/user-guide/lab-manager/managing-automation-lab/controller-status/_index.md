@@ -16,7 +16,7 @@ Controller status is displayed on the **Controllers** tab in Lab Manager. The st
 
 The fields, from left to right, in the **Controller** table are:
 
--   **Check box**: Check boxes are used to specify which controller\(s\) you wish to apply a given action to. Prior to clicking on the **Remove** or **Terminate** button \(see [Lab Manager toolbar](Lab_manager_toolbar.html) for more actions\), check the boxes to the left of those controllers you wish the operation to apply to. The uppermost check box may be used to select or clear all controllers' check boxes.
+-   **Check box**: Check boxes are used to specify which controller\(s\) you wish to apply a given action to. Prior to clicking on the **Remove** or **Terminate** button \(see [Lab Manager toolbar](/TA_Help/Topics/Lab_manager_toolbar.html) for more actions\), check the boxes to the left of those controllers you wish the operation to apply to. The uppermost check box may be used to select or clear all controllers' check boxes.
 -   **Plus/Minus** \(**+**/**-**\) signs: The plus sign is used for expanding the controller to display the harnesses run by the controller. The minus sign, on the contrary, is used for collapsing the controller to hide the harnesses.
 -   **Machine Name**: Name of the controller machine as it is known on the network. \(Note that this may specify a virtual machine.\) The value within this field is a hyperlink, and clicking on it invokes a dialog box with detailed information on the given controller and its environment. Below is an example of a controller information dialog box:
 
@@ -29,7 +29,7 @@ The fields, from left to right, in the **Controller** table are:
     -   Running: Indicates that the controller is running at least one harness.
     -   Automation Error: Indicates that at least one harness running the controller has encountered an automation problem.
     -   Failed to Connect: Indicates that the Lab Manager is no longer able to communicate with the controller. All of its running harnesses get the **Failed to Connect** status also.
--   **Label**: Alias, if any, that has been assigned to the controller. \([Learn more](Lab_manager_self_registering.html#choice.label).\)
+-   **Label**: Alias, if any, that has been assigned to the controller. \([Learn more](/TA_Help/Topics/Lab_manager_self_registering.html#choice.label).\)
 
 ## The **Harness** sub-table
 

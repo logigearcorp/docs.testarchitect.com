@@ -12,12 +12,12 @@ Ensure that the machine hosting the TestArchitect repository server has the **HP
 
 Ensure that you have already taken the following steps:
 
--   [Registered the Quality Center server with TestArchitect](Integration_QC_connecting_repo_to_QC_server_step_1.html).
--   [Mapped the TestArchitect project](Integration_QC_connecting_repo_to_QC_server_step_2.html) containing the test cases of interest to the Quality Center project.
+-   [Registered the Quality Center server with TestArchitect](/TA_Help/Topics/Integration_QC_connecting_repo_to_QC_server_step_1.html).
+-   [Mapped the TestArchitect project](/TA_Help/Topics/Integration_QC_connecting_repo_to_QC_server_step_2.html) containing the test cases of interest to the Quality Center project.
 
 To map TestArchitect test cases to Quality Center tests:
 
-1.  In the TestArchitect explorer tree, right-click the node of a test module \(either [default](Variations_default.html) or non-default [variation](ug_TM_create_variation.html)\) containing the test cases to be mapped, or a test folder, or the **Tests** node itself, and then click **External Tool** \> **HP ALM** \> **Map Test Cases**.
+1.  In the TestArchitect explorer tree, right-click the node of a test module \(either [default](/TA_Help/Topics/Variations_default.html) or non-default [variation](/TA_Help/Topics/ug_TM_create_variation.html)\) containing the test cases to be mapped, or a test folder, or the **Tests** node itself, and then click **External Tool** \> **HP ALM** \> **Map Test Cases**.
 
     As you may guess, the higher the level of the node you click, the "wider the net" you cast for eligible test cases.
 

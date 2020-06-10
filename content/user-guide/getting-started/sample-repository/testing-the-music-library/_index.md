@@ -12,7 +12,7 @@ To execute the Music Library automated test samples:
 
 1.  With TestArchitect running, double-click the **SampleRepository** node on the TestArchitect explorer tree.
 
-    ![](/images//Images/TA_Tutorials/Images/tut.Login_Repository.png)
+    ![](/images/TA_Tutorials/Images/tut.Login_Repository.png)
 
 2.  In the Log In Repository dialog box, type administrator in the **User Name** box, leave the **Password** box blank, and click **OK**.
 

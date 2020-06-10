@@ -18,7 +18,7 @@ The main elements of the interface are:
     -   **Test Objectives**: A list of the objectives for this test module and its test cases.
     -   **Picture Checks**: Baseline picture files for the check picture function.
     -   **Results**: A line-by-line summary of test results for each test run of the module. When the test module is executed, and the result stored in the repository, a line summarizing the result appears here. \(Note that locally stored results do not appear in this list.\) Double-clicking the line displays the complete result.
-    -   **Related bugs**: A list of the marked known bugs contained in the test module \(See [TestArchitect bugs](Bugs.html)\).
+    -   **Related bugs**: A list of the marked known bugs contained in the test module \(See [TestArchitect bugs](/TA_Help/Topics/Bugs.html)\).
 -   A toolbar with buttons to perform common functions, such as running a test, debugging a test, or launching the Interface Viewer.
 -   The menu bar, with menus and submenus for all of the main functions in TestArchitect. Items in the menus are enabled or disabled based upon what you have selected in the tree, or what is currently displayed in the main panel.
 
@@ -38,7 +38,7 @@ Directly under the TestArchitect node are its child nodes, each representing a r
 
 ![](/images//Images/TestArchitect_items_hierarchy.png "TestArchitect Items Hierarchy")
 
-From one TestArchitect Clientsession, you can be connected to multiple TestArchitect repositories at the same time. Each connected repository is represented by a node under the TestArchitect node. If you are logged in to a repository, the node representing that repository can be further expanded to display the projects in it, plus the **Built-in Actions** node, which provides access to all of the built-in actions of TestArchitect, and the **Systems & Platforms** node, described in [Variations](Variations.html).
+From one TestArchitect Clientsession, you can be connected to multiple TestArchitect repositories at the same time. Each connected repository is represented by a node under the TestArchitect node. If you are logged in to a repository, the node representing that repository can be further expanded to display the projects in it, plus the **Built-in Actions** node, which provides access to all of the built-in actions of TestArchitect, and the **Systems & Platforms** node, described in [Variations](/TA_Help/Topics/Variations.html).
 
 Additionally, if you are logged in as an administrator, an **Administration** node is visible. This is used for repository-level tasks like user administration.
 
@@ -65,7 +65,7 @@ Items within this hierarchical folder structure are added via the context menu o
 
 ## Definition tab
 
-When you open or check out an item in the TestArchitect explorer tree, it shows up as a tab in the main panel. \(Note that checking out items is part of the process of [revision control](Project_items_history.html), and is detailed in [Projects and project items](Projects_and_project_items.html).\) The item's name appears as the tab's title.
+When you open or check out an item in the TestArchitect explorer tree, it shows up as a tab in the main panel. \(Note that checking out items is part of the process of [revision control](/TA_Help/Topics/Project_items_history.html), and is detailed in [Projects and project items](/TA_Help/Topics/Projects_and_project_items.html).\) The item's name appears as the tab's title.
 
 An icon on the tab to the left of the title indicates the type of item it is. Additionally, an icon overlay indicates item’s repository status: checked in \(closed, black padlock\), or checked out \(open, green padlock\).
 
@@ -141,11 +141,11 @@ An example of a list view of actions:
 
 The list view can be used to efficiently perform operations like cut, copy or delete. The list may be sorted by clicking on the header of the column you wish to sort on. By selecting a row and pressing Ctrl + C to copy, the row may be pasted into another program, such as a spreadsheet, for further analysis. \(Please note that, while you can also right-click an item in the list and select Copy from the context menu, this is intended for copying items *within* TestArchitect, and does not allow for pasting the text into external programs.\)
 
-**Note:** Refer to [list view](Projects_and_tests_list_view.html) for further information.
+**Note:** Refer to [list view](/TA_Help/Topics/Projects_and_tests_list_view.html) for further information.
 
 ## Project item displays
 
-Each project item – test module, action, data set, etc. – when opened in TestArchitect, has a display unique to its type. Most include subtabs for various screens, such as information fields and editors. See [Project item screens in TestArchitect client](Getting_started_project_item_screens.html) for descriptions of each project item type's display screens.
+Each project item – test module, action, data set, etc. – when opened in TestArchitect, has a display unique to its type. Most include subtabs for various screens, such as information fields and editors. See [Project item screens in TestArchitect client](/TA_Help/Topics/Getting_started_project_item_screens.html) for descriptions of each project item type's display screens.
 
 ## Toolbar
 

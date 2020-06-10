@@ -12,11 +12,11 @@ Implement an action in Java, using the TestArchitect Java harness.
 
 **Important:** It is generally recommended that you do not modify the files in harness samples/java. Your next upgrade of TestArchitect will cause these files to be overwritten. It is not good practice \(and in many organizations not even permitted\) to modify files in your **Programs** folder. So create a new folder on your hard drive \(for this example, we’ll assume it is D:/harness/java\) and copy to it the files from harness samples/java. From here on, all work will be performed on these files, and in this folder.
 
-You are going to implement an action named hello in theJavaharness. It will accept one argument, who, and write out the word hello, followed by the value specified for who: ![](/images//Images/TA_Tutorials/Images/Python_hello_demo.png)
+You are going to implement an action named hello in theJavaharness. It will accept one argument, who, and write out the word hello, followed by the value specified for who: ![](/images/TA_Tutorials/Images/Python_hello_demo.png)
 
 
 
-As outlined in the three-step procedure described earlier, \(in[Developing your own User-scripted Java harness action](Developing_your_own_harness_action_Java.html)\) \), this entails making the following modifications to moduleMod\_Example.java:
+As outlined in the three-step procedure described earlier, \(in[Developing your own User-scripted Java harness action](/TA_Tutorials/Topics/Developing_your_own_harness_action_Java.html)\) \), this entails making the following modifications to moduleMod\_Example.java:
 
 -   adding a line to the list of SetActions\(\) function calls, declaring the hello action to have its implementation in the example module;
 -   adding an `else-if` clause to the Divert\(\) function, specifying the handling function action\_hello\(\) for the hello action;

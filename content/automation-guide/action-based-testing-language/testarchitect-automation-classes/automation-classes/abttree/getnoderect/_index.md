@@ -27,7 +27,7 @@ Retrieve the bounding rectangle of a specified node in the tree control.
     -   A string containing all node indexes separated by forward slashes \( / \).
 -   ***rect***
 
-    Returned [TARect](abt_TARect.html) object specifying the bounding rectangle of the node.
+    Returned [TARect](/TA_Automation/Topics/abt_TARect.html) object specifying the bounding rectangle of the node.
 
 
 ## Return Value

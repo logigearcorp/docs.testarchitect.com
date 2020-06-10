@@ -30,9 +30,9 @@ This action may be used within the following project items:test modules and user
 
 -   Prior to using this built-in action, it is recommended that you become familiar with the different kinds of modal JavaScript popups and how to handle them properly.
     -   For Safari
-        -   on iOS, refer to [Handling JavaScript popups on Safari iOS](aut_app_testing_safari_apps_popups.html) for details.
-        -   on macOS, refer to [Handling JavaScript popups on Safari macOS](aut_app_testing_web_apps_getting_started.html#section_f1f_hgd_4s) for details.
-    -   For Google Chrome on Android, refer to [Handling JavaScript popups on Chrome Android](aut_app_testing_Android_apps_popups.html) for details.
+        -   on iOS, refer to [Handling JavaScript popups on Safari iOS](/TA_Automation/Topics/aut_app_testing_safari_apps_popups.html) for details.
+        -   on macOS, refer to [Handling JavaScript popups on Safari macOS](/TA_Automation/Topics/aut_app_testing_web_apps_getting_started.html#section_f1f_hgd_4s) for details.
+    -   For Google Chrome on Android, refer to [Handling JavaScript popups on Chrome Android](/TA_Automation/Topics/aut_app_testing_Android_apps_popups.html) for details.
 -   message argument:
     -   If no value is provided in this argument, any prompt without a message is considered a match.
     -   For added flexibility, wildcards may be used in this argument. For example: given a message argument with value of \{Please reenter your.\*\}, TestArchitect searches for prompt popups whose message beginnings match the string Please reenter your. \(See example below.\)
@@ -42,13 +42,13 @@ This action may be used within the following project items:test modules and user
 -   expected argument:
     -   For convenience, the argument headersexpected, expected0 and expected1are all used to reference the same item \(that is, the default text of the most recent matching prompt popup\).
     -   Numbers appended to theexpectedarguments reference only prompts in the recent popup history that have messages matching the contents of the message argument. Any other prompts, for the purposes of the current action, are ignored. The numbers correspond to the reverse order in which those popups were handled. Hence,expectedreferences the most recently handled prompt popup satisfying the message text,expected2the second most recent, and so on.
-    -   In cases where multiple prompts satisfy the contents of message, a single call to this action can be used to check any or all of the respective default text strings. Specify as many expected arguments as there are texts you wish to verify, taking care to number them in correspondence with the specific matching prompts of interest. \(See [Example \#2](get_popup_default_text.html#section.ex02).\) Note that this check action reports a PASSED result only if *every one* of the specified expected arguments matches the default text of its corresponding prompt.
+    -   In cases where multiple prompts satisfy the contents of message, a single call to this action can be used to check any or all of the respective default text strings. Specify as many expected arguments as there are texts you wish to verify, taking care to number them in correspondence with the specific matching prompts of interest. \(See [Example \#2](/TA_Automation/Topics/bia_get_popup_default_text.html#section.ex02).\) Note that this check action reports a PASSED result only if *every one* of the specified expected arguments matches the default text of its corresponding prompt.
     -   If you want to verify a default text of a single specific prompt popup, replace expected with your desire expectedN, for example, expected2. \(See example \#2.\)
 -   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html), [standard ASCII only](standard_ASCII_only.html).
+The following settings are applicable to this action:[remove double quotes from cells](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html), [standard ASCII only](/TA_Automation/Topics/bis_standard_ASCII_only.html).
 
 ## Applicable Controls
 

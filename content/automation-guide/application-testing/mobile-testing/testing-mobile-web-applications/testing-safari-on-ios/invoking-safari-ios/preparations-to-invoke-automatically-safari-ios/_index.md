@@ -10,8 +10,8 @@ This section describes the steps required to ensure that the navigate built-in a
 
 Ensure that the following requirements are met:
 
--   [Safari Web Inspector](aut_app_testing_mobile_web_Safari_configurations.html#step_p3z_42j_vp) is enabled on your iOS test device.
--   [TestArchitect Browser Agent](aut_app_testing_mobile_web_Safari_installing_TA_Browser_Agent.html) is installed on your iOS test device.
+-   [Safari Web Inspector](/TA_Automation/Topics/aut_app_testing_mobile_web_Safari_configurations.html#step_p3z_42j_vp) is enabled on your iOS test device.
+-   [TestArchitect Browser Agent](/TA_Automation/Topics/aut_app_testing_mobile_web_Safari_installing_TA_Browser_Agent.html) is installed on your iOS test device.
 -   iTunes 11.1 or later is installed on the machine to be used as the test controller \(this may be a Windows or macOS machine\).
 
 **Important:** iTunes 12.7 no longer has an App store, which means you no longer can install .ipa iOS apps within iTunes \([learn more](https://www.macworld.com/article/3230135/software-entertainment/how-to-install-itunes-1263-and-replace-itunes-127.html)\). If you want to keep your ways, you can either install iTunes 12.6.3 and get back access to the App store, or use the special version of iTunes at [here](https://support.apple.com/en-gb/HT208079).
@@ -37,7 +37,7 @@ Carry out the following procedures:
     **Important:** The USB cable connection must always be maintained during automation.
 
 
-Now you are free to use the [navigate](navigate.html) action in your test procedures to invoke Safari on iOS.
+Now you are free to use the [navigate](/TA_Automation/Topics/bia_navigate.html) action in your test procedures to invoke Safari on iOS.
 
 **Parent topic:**[Invoking Safari on iOS during automation](/TA_Automation/Topics/aut_app_testing_mobile_web_invoking_Safari.html)
 

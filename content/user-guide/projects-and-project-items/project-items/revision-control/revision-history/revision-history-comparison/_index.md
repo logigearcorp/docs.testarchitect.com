@@ -6,9 +6,9 @@ aliases:
     - /TA_Help/Topics/ug_Project_items_comparing_revisions.html
 ---
 
-TestArchitect includes a [Diff Tool](ug_item_comparison.html#section.Diff_tool_GUI), used for performing line-by-line comparisons between two similar project items. How to view the differences between two historical revisions of a project item.
+TestArchitect includes a [Diff Tool](/TA_Help/Topics/ug_item_comparison.html#section.Diff_tool_GUI), used for performing line-by-line comparisons between two similar project items. How to view the differences between two historical revisions of a project item.
 
-When a project item is continuously modified over time, there is often a need to understand the changes that have been applied since some given point in the past. Fortunately, all editions of TestArchitect include a [revision control system](Revision_control.html), which maintains a “snapshot” of each project item every time it is checked in. This allows you to access any of the historical copies of a project item for viewing. The Diff Tool takes that one step further, allowing the differences between two revisions of the item to be readily visualized.
+When a project item is continuously modified over time, there is often a need to understand the changes that have been applied since some given point in the past. Fortunately, all editions of TestArchitect include a [revision control system](/TA_Help/Topics/Revision_control.html), which maintains a “snapshot” of each project item every time it is checked in. This allows you to access any of the historical copies of a project item for viewing. The Diff Tool takes that one step further, allowing the differences between two revisions of the item to be readily visualized.
 
 You can choose between either of the two following methods to compare two historical revisions of a given project item:
 
@@ -45,7 +45,7 @@ You can choose between either of the two following methods to compare two histor
 
 The Diff Tool window appears, with the two items displayed in side-by-side panels, the reference \(marked\) item on the left and the comparison item on the right. The toolbar provides functions for viewing and navigating among the detected differences.
 
-The screenshot below shows a comparison of two revisions of a project item. The UI elements of the window are described in more detail in [Diff Tool dialog box](ug_item_comparison.html#section.Diff_tool_GUI).
+The screenshot below shows a comparison of two revisions of a project item. The UI elements of the window are described in more detail in [Diff Tool dialog box](/TA_Help/Topics/ug_item_comparison.html#section.Diff_tool_GUI).
 
 ![](/images//Images/diff_tool_1.png)
 

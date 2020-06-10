@@ -8,7 +8,7 @@ aliases:
 
 To use Team Foundation Build \(TFBuild\) with an on-premise TFS, you must deploy at least one build server. Each build server serves a single team project collection. Although you configure, modify, and manage a build server on the computer where Team Foundation Build Service is running, the configuration data is stored in the team project collection.
 
-Ensure that you have installed the supported components on your computer. \([Learn more](ug_MTM_VS_components.html).\)
+Ensure that you have installed the supported components on your computer. \([Learn more](/TA_Help/Topics/ug_MTM_VS_components.html).\)
 
 Please refer to Microsoft's instructions on configuring a build server:
 

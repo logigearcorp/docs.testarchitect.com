@@ -22,7 +22,7 @@ After creating different types of browsers, you need to link your interfaces/act
 
 6.  Select **Chrome** to link this variation to Google Chrome.
 
-    ![](/TA_Automation/Images/web_automation_link_variation.png)
+    ![](/images/TA_Automation/Images/web_automation_link_variation.png)
 
 7.  Click **OK**.
 
@@ -33,11 +33,11 @@ After creating different types of browsers, you need to link your interfaces/act
 
 The variations for Internet Explorer, Chrome, and Firefox now appear as nodes in the Explorer tree.
 
-![](/TA_Automation/Images/web_automation_linked_variations.png)
+![](/images/TA_Automation/Images/web_automation_linked_variations.png)
 
 **Important:** You must modify the user-defined action or interface entity of the respective variations to have TestArchitect execute web automated tests using the respective browsers. For example:
 
-![](/TA_Automation/Images/web_automation_linked_variations_details.png)
+![](/images/TA_Automation/Images/web_automation_linked_variations_details.png)
 
 **Parent topic:**[How do I execute cross-browser automated tests?](/TA_FAQ/Topics/faq.howto.web_automation_variations.html)
 

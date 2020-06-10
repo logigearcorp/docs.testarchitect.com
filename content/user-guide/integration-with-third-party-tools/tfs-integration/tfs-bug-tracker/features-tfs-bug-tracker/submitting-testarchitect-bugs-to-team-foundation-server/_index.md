@@ -10,8 +10,8 @@ Submitting a bug from TestArchitect directly to a TFS server creates a new TFS b
 
 Ensure that the following requirements are met:
 
--   Your TestArchitect test machine has [registered the TFS server](Integration_MTM_connecting_TFS.html#).
--   Your TestArchitect test machine has [actived the TFS bug tracker](ug_TFS_BugTracker_Registering_bugtracker.html#).
+-   Your TestArchitect test machine has [registered the TFS server](/TA_Help/Topics/Integration_MTM_connecting_TFS.html#).
+-   Your TestArchitect test machine has [actived the TFS bug tracker](/TA_Help/Topics/ug_TFS_BugTracker_Registering_bugtracker.html#).
 -   You are granted permission to submit bugs to a TFS project.
 
 To submit a bug from a TestArchitect test result to a TFS project, do the following steps:

@@ -26,12 +26,12 @@ This action may be used within the following project items:test modules and user
 
 -   This action has no effect if the specified window is already in its restored state.
 -   For testing in Safari on macOS machines, this action is only able to restore a window currently in the minimized state. It does not currently support restoring a window that is maximized.
--   This action is not supported in the [WebDriver](Generic_WebDriver.html) mode.
+-   This action is not supported in the [WebDriver](/TA_Automation/Topics/Generic_WebDriver.html) mode.
 -   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[case sensitive](case_sensitive.html), [remove double quotes from cells](remove_double_quotes_from_cells.html), [standard ASCII only](standard_ASCII_only.html), [window wait](window_wait.html).
+The following settings are applicable to this action:[case sensitive](/TA_Automation/Topics/bis_case_sensitive.html), [remove double quotes from cells](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html), [standard ASCII only](/TA_Automation/Topics/bis_standard_ASCII_only.html), [window wait](/TA_Automation/Topics/bis_window_wait.html).
 
 ## Applicable Controls
 

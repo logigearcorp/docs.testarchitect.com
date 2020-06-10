@@ -8,7 +8,7 @@ aliases:
 
 A new repository can be added from the Repository Server Control Panel or from within TestArchitect Client.
 
-Ensure that the repository service is [running](Starting_repository_server.html).
+Ensure that the repository service is [running](/TA_Administration/Topics/Starting_repository_server.html).
 
 **Note:**
 
@@ -17,7 +17,7 @@ Ensure that the repository service is [running](Starting_repository_server.html)
 
 To add a new repository from the Repository Server Control Panel:
 
-1.  If not already running, start the [Repository Server Control Panel](Repo_server_management_launching.html).
+1.  If not already running, start the [Repository Server Control Panel](/TA_Administration/Topics/Repo_server_management_launching.html).
 
 2.  Click **Add Repository** ![](/images//Images/btn.RS_add_repo.png) on the toolbar.
 

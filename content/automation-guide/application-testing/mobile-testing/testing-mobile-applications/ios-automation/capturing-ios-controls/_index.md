@@ -13,7 +13,7 @@ The Interface Viewer looks for the presence, and displays the graphical user int
 Ensure that the following requirements are met:
 
 -   You are familiar with the Interface Viewer and the concepts involved in creating an interface \(see [The Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html) for details\).
--   A [connection](iOS_connecting_to_host_machine.html) between your iOS device and the host machine has been established.
+-   A [connection](/iOS/Topics/iOS_connecting_to_host_machine.html) between your iOS device and the host machine has been established.
 -   The re-signed application is active on your iOS device.
 
 Do the following to capture interface entities/elements of the re-signed application running on your iOS device:

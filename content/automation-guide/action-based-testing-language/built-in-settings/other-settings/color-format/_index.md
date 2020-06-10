@@ -13,9 +13,9 @@ Specifies whether RGB color codes are expressed in decimal or hexadecimal format
 
 **Tip:** The specified color formatting code can be used in combination with the following built-in actions:
 
--   [get native property](get_native_property.html)
--   [set native property](set_native_property.html)
--   [check native property](check_native_property.html)
+-   [get native property](/TA_Automation/Topics/bia_get_native_property.html)
+-   [set native property](/TA_Automation/Topics/bia_set_native_property.html)
+-   [check native property](/TA_Automation/Topics/bia_check_native_property.html)
 
 ## Allowable values
 

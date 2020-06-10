@@ -8,7 +8,7 @@ aliases:
 
 Node locked license keys by convention are not convertible into floating license keys. However, it is possible to upgrade node-locked into floating license keys, when you request a new upgrade key from LogiGear sales representative.
 
-When you'd like to upgrade your node-locked license into floating license, you are at first required to contact LogiGear sales representative using the Request TestArchitect Licenses dialog box to obtain an upgrade key. \([Learn more](LS_TA_requesting_key.html#choice.upgrade_license).\)
+When you'd like to upgrade your node-locked license into floating license, you are at first required to contact LogiGear sales representative using the Request TestArchitect Licenses dialog box to obtain an upgrade key. \([Learn more](/TA_Administration/Topics/LS_TA_requesting_key.html#choice.upgrade_license).\)
 
 An upgrade key received from the LogiGear sales team is added to your license server from the License Server Control Panel.
 
@@ -45,7 +45,7 @@ An upgrade key received from the LogiGear sales team is added to your license se
     -   If the license server is stopped, click **Start** ![](/images//Images/licenseserver_12.png) on the toolbar to restart it.
     -   Repeat the procedures above when you change the current license server machine to another one. Ensure that your server's fully qualified domain name or IP address is static.
     -   With **license key** you can add multiple key. But with **credential information** you can only use one account for one License Server.
-    **Remember:** If you are using license keys of [TestArchitect Team](TA_Editions.html#entry_ta.editions.universal), but now you'd like to add new license keys of [TestArchitect Enterprise](TA_Editions.html#entry_ta.editions.universal). Please first remove license keys of TestArchitect Team. \([Learn more](LS_TA_revoking.html).\)
+    **Remember:** If you are using license keys of [TestArchitect Team](/TA_Administration/Topics/TA_Editions.html#entry_ta.editions.universal), but now you'd like to add new license keys of [TestArchitect Enterprise](/TA_Administration/Topics/TA_Editions.html#entry_ta.editions.universal). Please first remove license keys of TestArchitect Team. \([Learn more](/TA_Administration/Topics/LS_TA_revoking.html).\)
 
 4.  ![](/images//Images/licenseserver_11.png)
 

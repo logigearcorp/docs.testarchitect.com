@@ -35,7 +35,7 @@ Set the value of one or more cells of a column in a data set.
 
     \(optional; see Notes\)
 
-    Boolean expression establishing the filter criteria \(see Notes\), or a named filter as defined by the [filter](filter.html) action.
+    Boolean expression establishing the filter criteria \(see Notes\), or a named filter as defined by the [filter](/TA_Automation/Topics/bia_filter.html) action.
 
 
 ## Valid contexts
@@ -70,7 +70,7 @@ Use of this action is supported on the following systems/platforms: Windows, Lin
         |6|and|Value is TRUE if and only if both sides of the and operator are TRUE.|
         |7|or|Value is TRUE if either side of the or operator is TRUE.|
 
-        **Note:** For the full list of operator precedence, see [here](aut_operator_precedence.html).
+        **Note:** For the full list of operator precedence, see [here](/TA_Automation/Topics/aut_operator_precedence.html).
 
 -   If the value in row exceeds the current number of rows in the data set, empty rows are appended until the data set has row rows, after which the value in the designated cell is set.
 -   If the data set is inline, all added data are stored in memory.
@@ -78,13 +78,13 @@ Use of this action is supported on the following systems/platforms: Windows, Lin
 
     -   the data set is currently checked out by another user; or
     -   the current user does not have sufficient permission to modify data sets.
-    Following execution of this action, it is highly recommended that you use a [check in data set](check_in_data_set.html) action to ensure that all changes to the data set are available before it is actually used.
+    Following execution of this action, it is highly recommended that you use a [check in data set](/TA_Automation/Topics/bia_check_in_data_set.html) action to ensure that all changes to the data set are available before it is actually used.
 
 -   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html)none.
+The following settings are applicable to this action:[remove double quotes from cells](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html)none.
 
 ## Example - Case 1: using the row argument
 

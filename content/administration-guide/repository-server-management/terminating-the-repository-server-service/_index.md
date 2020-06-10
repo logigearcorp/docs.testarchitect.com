@@ -17,7 +17,7 @@ The **Terminate** command of the Repository Server Control Panel is used to shut
 **Note:**
 
 -   This action not only stops the OS-level service, but also shuts down the Repository Server Control Panel \(if open\) and removes the **Repository Server** icon from the Windows Notification area, Linux Notification area, or macOS Status menu..
--   To restart the TA Repository Server service in Windows, Linux, or macOS, refer to [Launching the Repository Server Control Panel](Repo_server_management_launching.html).
+-   To restart the TA Repository Server service in Windows, Linux, or macOS, refer to [Launching the Repository Server Control Panel](/TA_Administration/Topics/Repo_server_management_launching.html).
 
 **Parent topic:**[Repository Server Management](/TA_Administration/Topics/Repo_server_management.html)
 

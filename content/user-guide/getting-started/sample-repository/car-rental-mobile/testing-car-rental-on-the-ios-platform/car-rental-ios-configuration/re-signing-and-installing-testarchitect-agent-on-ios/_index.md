@@ -8,7 +8,7 @@ aliases:
 
 TestArchitect Agent is an essential component in allowing TestArchitect to communicate with iOS devices during automated testing.TestArchitect Agent is installed onto an iOS device in a two-step process involving re-signing of the Agent, followed by its installation.
 
-Ensure that basic requirements are met before installing TestArchitect Agent onto an iOS device \(see the section [Prerequisites](SR_iOS_prerequisite.html) for details\).
+Ensure that basic requirements are met before installing TestArchitect Agent onto an iOS device \(see the section [Prerequisites](/TA_Tutorials_Sample_App/Topics/SR_iOS_prerequisite.html) for details\).
 
 The following procedures for re-signing the TestArchitect Agent app can only be performed from an macOS machine:
 

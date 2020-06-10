@@ -10,7 +10,7 @@ The Manage Users dialog box can be used to add or delete users to or from a repo
 
 To invoke the Manage Users dialog box, do the following:
 
-1.  Log in to a repository as a member of the TestArchitect [administrator](User_administration.html) group.
+1.  Log in to a repository as a member of the TestArchitect [administrator](/TA_Administration/Topics/User_administration.html) group.
 
     **Note:** Only TestArchitect users belonging to the administrator group have rights to invoke the Manage Users dialog
 

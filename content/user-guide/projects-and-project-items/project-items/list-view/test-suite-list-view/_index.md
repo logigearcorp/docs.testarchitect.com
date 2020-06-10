@@ -8,7 +8,7 @@ aliases:
 
 The test suite list view displays a list of all test suite items contained in a **Test Suites** node and its subfolders.
 
-When you double-click the **Test Suites** node in the TestArchitect explorer tree, and then select the **Test suites** tab, TestArchitect opens a list view of test suite items for the selected node in the main panel. \([Learn more](Test_suite.html).\)
+When you double-click the **Test Suites** node in the TestArchitect explorer tree, and then select the **Test suites** tab, TestArchitect opens a list view of test suite items for the selected node in the main panel. \([Learn more](/TA_Help/Topics/Test_suite.html).\)
 
 **Note:** Test suite list views are also available for subfolders of the**Test Suites** node.
 
@@ -18,7 +18,7 @@ The following operations can be performed on a test suite list view:
 
 ## Common operations
 
-You can find various common operations that can be performed on a test suite list view in [Common operations](Listview_common_operations.html).
+You can find various common operations that can be performed on a test suite list view in [Common operations](/TA_Help/Topics/Listview_common_operations.html).
 
 **Restriction:** Editing multiple fields is not applicable to a test suite list view.
 
@@ -30,11 +30,11 @@ Test suites are containers for sets of test modules that reside in the same repo
 
 ## Executing test suites
 
-You can execute a desired test suite by clicking **Execute Test** on the context menu, which launches the Execute Test dialog. For further information regarding how to execute tests, see [Test execution](Test_exec_test_execution.html).
+You can execute a desired test suite by clicking **Execute Test** on the context menu, which launches the Execute Test dialog. For further information regarding how to execute tests, see [Test execution](/TA_Help/Topics/Test_exec_test_execution.html).
 
 ## Generating a batch file
 
-You can create a [batch file](Test_exec_batch_file.html) from a test suite by clicking **Generate batch file** on the context menu.
+You can create a [batch file](/TA_Help/Topics/Test_exec_batch_file.html) from a test suite by clicking **Generate batch file** on the context menu.
 
 ## Cut-Copy-Paste operations, and Delete command
 
@@ -50,15 +50,15 @@ You can create a [batch file](Test_exec_batch_file.html) from a test suite by cl
 
 ## Name change propagation
 
-The process of renaming a given entity so that the change propagates to all references to that item is known as [name change propagation](/TA_Glossary/Topics/glossaryNameChangePropagation.html). Renaming an entity automatically updates all applicable action lines, test modules, and action definitions where the entity name appears. \([Learn more](Project_and_project_items_rename_refactoring.html).\)
+The process of renaming a given entity so that the change propagates to all references to that item is known as [name change propagation](/TA_Glossary/Topics/glossaryNameChangePropagation.html). Renaming an entity automatically updates all applicable action lines, test modules, and action definitions where the entity name appears. \([Learn more](/TA_Help/Topics/Project_and_project_items_rename_refactoring.html).\)
 
 ## Editing data profiles
 
-Dynamic test suites are created based on specific data profiles. You can edit a data profile by clicking **Edit data profile** on the context menu. \([Learn more](Test_suite_dynamic_add_new_test_module.html).\)
+Dynamic test suites are created based on specific data profiles. You can edit a data profile by clicking **Edit data profile** on the context menu. \([Learn more](/TA_Help/Topics/Test_suite_dynamic_add_new_test_module.html).\)
 
 ## Rearranging test modules in a static test suite
 
-You are able to specify a custom execution order of test module invocations. Specifically, you might change the test execution order in a given static test suite. \([Learn more](Test_suite_static_rearrange_test_modules.html).\)
+You are able to specify a custom execution order of test module invocations. Specifically, you might change the test execution order in a given static test suite. \([Learn more](/TA_Help/Topics/Test_suite_static_rearrange_test_modules.html).\)
 
 **Parent topic:**[List view](/TA_Help/Topics/Projects_and_tests_list_view.html)
 

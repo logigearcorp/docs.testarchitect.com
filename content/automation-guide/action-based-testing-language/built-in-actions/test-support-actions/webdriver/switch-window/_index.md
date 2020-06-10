@@ -15,7 +15,7 @@ Switch to another window instance.
 ## Arguments
 
 -   window: TestArchitect name of the window.
--   handle: \(Optional\) The window handle of the desired window instance, which is obtained by the [identify windows](identify_windows.html) built-in action.
+-   handle: \(Optional\) The window handle of the desired window instance, which is obtained by the [identify windows](/TA_Automation/Topics/bia_identify_windows.html) built-in action.
 
 ## Valid contexts
 

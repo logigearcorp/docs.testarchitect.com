@@ -52,7 +52,7 @@ The following new features and improvements are introduced in TestArchitect vers
 
 ## TestArchitect Automation
 
-All new TestArchitect Automation features since the previous release of TestArchitect 8 are documented in the interim updates previously published. Please refer to the Release Notes for TestArchitect 8 [update 1](Whats_New_8_update_1.html), [update 2](Whats_New_8_update_2.html), [update 3](Whats_New_8_update_3.html) and [update 4](Whats_New_8_update_4_Windows.html).
+All new TestArchitect Automation features since the previous release of TestArchitect 8 are documented in the interim updates previously published. Please refer to the Release Notes for TestArchitect 8 [update 1](/TA_ReleaseNotes/DITA_source/Whats_New_8_update_1.html), [update 2](/TA_ReleaseNotes/DITA_source/Whats_New_8_update_2.html), [update 3](/TA_ReleaseNotes/DITA_source/Whats_New_8_update_3.html) and [update 4](/TA_ReleaseNotes/DITA_source/Whats_New_8_update_4_Windows.html).
 
 **Parent topic:**[Features added to TestArchitect 8.1](/TA_ReleaseNotes/DITA_source/Whats_New_8.1.html)
 

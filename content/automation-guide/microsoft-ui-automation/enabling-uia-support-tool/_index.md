@@ -16,7 +16,7 @@ To enable the UIA Support tool, perform the following:
 
 1.  Start the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer_Starting.html).
 
-    **Note:** Refer to [list of UIA supported controls](aut_UIA_controls.html). Note that, for a control that is not mentioned in this list, the UI Automation properties are not available.
+    **Note:** Refer to [list of UIA supported controls](/TA_Automation/Topics/aut_UIA_controls.html). Note that, for a control that is not mentioned in this list, the UI Automation properties are not available.
 
 2.  On the Interface Viewer's toolbar, click the **UIA technology** ![](/images//Images/btn_UIA_technology.png) button.
 
@@ -25,7 +25,7 @@ To enable the UIA Support tool, perform the following:
     **Note:**
 
     -   With UIA technology enabled, the **Native Properties** tab of the Properties panel is unavailable.
-    -   Which control's properties are retrieved by TestArchitect depends on the [UIA supported controls](aut_UIA_controls.html). All retrieved properties are displayed in the **TA Properties** tab. You can use these properties for capturing UI controls.
+    -   Which control's properties are retrieved by TestArchitect depends on the [UIA supported controls](/TA_Automation/Topics/aut_UIA_controls.html). All retrieved properties are displayed in the **TA Properties** tab. You can use these properties for capturing UI controls.
 
 3.  The processes for mapping windows and UI controls to interface entities and interface elements, naming items using TA names, and saving interface definitions, are essentially the same as those described in [Capturing interface definitions](/TA_Help/Topics/Interface_def_capturing.html) and [Naming interface elements](/TA_Help/Topics/Interface_def_naming.html).
 

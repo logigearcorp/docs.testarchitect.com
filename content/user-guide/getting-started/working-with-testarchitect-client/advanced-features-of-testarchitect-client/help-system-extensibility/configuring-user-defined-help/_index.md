@@ -14,7 +14,7 @@ By default, the file user\_defined\_help.ini is installed to the following direc
 -   Linux:/usr/local/logigear/testarchitect/data
 -   macOS: /Applications/TestArchitect/data
 
-**Tip:** During installation, the location of user\_defined\_help.ini can be modified in the TestArchitect Installation dialog box. Following installation, the location can also be modified using [TestArchitect Preferences](Additional_features_preferences.html).
+**Tip:** During installation, the location of user\_defined\_help.ini can be modified in the TestArchitect Installation dialog box. Following installation, the location can also be modified using [TestArchitect Preferences](/TA_Help/Topics/Additional_features_preferences.html).
 
 ![](/images//Images/installer_1.png)
 

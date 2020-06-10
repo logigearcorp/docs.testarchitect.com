@@ -11,7 +11,7 @@ In some cases, you may need to uninstall the current version of TestArchitect in
 ## Silent uninstallation performed via InstallShield on Windows
 
 -   The uninstallation runs in the background. It does not show any dialog boxes or messages.
--   An uninstallation [response file](uninst_TA_silent_mode_creating_response_file.html) is required. This file contains all the data needed during silent uninstallation.
+-   An uninstallation [response file](/TA_InstallationGuide/DITA_source/Topics/uninst_TA_silent_mode_creating_response_file.html) is required. This file contains all the data needed during silent uninstallation.
 
 -   **[Creating an uninstallation response file](/../TA_InstallationGuide/DITA_source/Topics/uninst_TA_silent_mode_creating_response_file.html)**  
 To remove previously installed TestArchitect in silent mode by using InstallShield, create an uninstallation response file to store the needed uninstallation settings.

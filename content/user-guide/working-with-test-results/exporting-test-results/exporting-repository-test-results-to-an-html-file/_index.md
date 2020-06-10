@@ -8,11 +8,11 @@ aliases:
 
 In addition to .ZIP format, repository test results may be exported to .HTML files.
 
-Ensure that the test results you want to export are [stored in the repository](Test_result_storing.html).
+Ensure that the test results you want to export are [stored in the repository](/TA_Help/Topics/Test_result_storing.html).
 
 1.  Select the repository test results that you want to export to the HTML file.
 
-    **Tip:** You can select repository results in the TestArchitect explorer tree, or in the [repository result list view](Listview_results_repository.html).
+    **Tip:** You can select repository results in the TestArchitect explorer tree, or in the [repository result list view](/TA_Help/Topics/Listview_results_repository.html).
 
 2.  Right-click the selection and click **Export** \> **to HTML file**.
 
@@ -28,11 +28,11 @@ Ensure that the test results you want to export are [stored in the repository](T
 
     -   Flat structure \(the **Create folder structure** check box is cleared\): TestArchitect does not create subdirectories. There is only a single top-level directory that contains all HTML results.
     -   Folder structure \(the **Create folder structure** check box is enabled\): TestArchitect creates a hierarchical tree structure, or subdirectories to store HTML results.
-5.  If the exported test result is a master result, that is, it is a [test suite result](ug_test_results_introduction.html#section.TS_results) or it contains [subresults](ug_test_results_introduction.html#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into HTML files.
+5.  If the exported test result is a master result, that is, it is a [test suite result](/TA_Help/Topics/ug_test_results_introduction.html#section.TS_results) or it contains [subresults](/TA_Help/Topics/ug_test_results_introduction.html#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into HTML files.
 
 6.  To export HTML results with your own view layout, select the **Apply customized XSLT template** check box, and then choose a location of your customized XSLT template.
 
-    You are first required to customize the default XSLT template, which means you need to modify [a set of XSL files](ug_customizing_XML_report.html) to suit your desired view layout. \(See more examples [here](ug_customizing_XML_report.html).\)
+    You are first required to customize the default XSLT template, which means you need to modify [a set of XSL files](/TA_Help/Topics/ug_customizing_XML_report.html) to suit your desired view layout. \(See more examples [here](/TA_Help/Topics/ug_customizing_XML_report.html).\)
 
     **Attention:** When your customized XSLT is invalid, the default XSLT template, located at the following places, is automatically applied.
 

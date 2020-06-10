@@ -51,7 +51,7 @@ SELECT \*
 
     **Tip:** You can find test plan ID in the following:
 
-    -   in the [Select Location](ug_MTM_upload_result_manual.html) dialog box:
+    -   in the [Select Location](/TA_Help/Topics/ug_MTM_upload_result_manual.html) dialog box:
 
         ![](/images//Images/test_plan_ID.png)
 

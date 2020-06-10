@@ -14,7 +14,7 @@ To add new test modules to an existing dynamic test suite, do the following:
 
     **Note:** If you right-click a static test suite node, the **Edit data profile** option is unavailable.
 
-2.  In the Edit Profile panel, [customize](Report_customizing.html) the data profile so that its specified set of criteria are inclusive of the test modules you wish to add.
+2.  In the Edit Profile panel, [customize](/TA_Help/Topics/Report_customizing.html) the data profile so that its specified set of criteria are inclusive of the test modules you wish to add.
 
     ![](/images//Images/Edit_profile_panel.png)
 

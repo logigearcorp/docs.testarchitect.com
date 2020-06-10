@@ -9,7 +9,7 @@ keywords: "insertrow, abtdataset insertrow, insert row into dataset, add row at 
 
 ## Syntax
 
-`int InsertRow([AbtDataRow](abt_AbtDataRow.html) row, int index)`
+`int InsertRow([AbtDataRow](/TA_Automation/Topics/abt_AbtDataRow.html) row, int index)`
 
 ## Description
 

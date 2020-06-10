@@ -27,7 +27,7 @@ The general view on record and playback is that it has both positive and negativ
 -   Changes in the application under test, in particular the detailed behavior of dialogs, can render previous recording invalid, making it necessary to either edit the recorded code or repeat the recording. It is difficult to predict in a project the effects each system cycle will have on the recorded code, thus creating a liability for the management of the project.
 -   The technique can only be applied to an already correctly working version of the application under test, which limits the use to regression testing only.
 
-**Note:** Note that TestArchitect does support record and playback. TestArchitect Client includes the [Action Recorder](Creating_and_using_actions_AR.html), which is similar to other recorders, but is designed to work as part of a keyword-based approach.
+**Note:** Note that TestArchitect does support record and playback. TestArchitect Client includes the [Action Recorder](/TA_Help/Topics/Creating_and_using_actions_AR.html), which is similar to other recorders, but is designed to work as part of a keyword-based approach.
 
 **Parent topic:**[Introduction](/TA_Help/Topics/ABT_Intro.html)
 

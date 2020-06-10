@@ -6,9 +6,9 @@ aliases:
     - /TA_Help/Topics/ug_revision_tag.html
 ---
 
-A “revision tag”, or **Revision Timestamp**, can be assigned to any version node of a repository's [**Systems and Platforms tree**](Variations_create_linked_system_tree.html). It is useful for [Time Traveling](ug_time_traveling.html) execution, in that it allows that version node to be associated with a specific timestamp. Hence you can create version nodes specifically for the purpose of time travel execution, and assign meaningful names to those versions. In general, the timestamps assigned to revision tags are taken directly from revisions of existing project items, although it is possible to supply arbitrary timestamps. In TestArchitect, an AUT version node is used to tag a specific revision, since a version commonly identifies a specific release of the AUT, such as version 1.2.
+A “revision tag”, or **Revision Timestamp**, can be assigned to any version node of a repository's [**Systems and Platforms tree**](/TA_Help/Topics/Variations_create_linked_system_tree.html). It is useful for [Time Traveling](/TA_Help/Topics/ug_time_traveling.html) execution, in that it allows that version node to be associated with a specific timestamp. Hence you can create version nodes specifically for the purpose of time travel execution, and assign meaningful names to those versions. In general, the timestamps assigned to revision tags are taken directly from revisions of existing project items, although it is possible to supply arbitrary timestamps. In TestArchitect, an AUT version node is used to tag a specific revision, since a version commonly identifies a specific release of the AUT, such as version 1.2.
 
--   Ensure that you have already created a [system node](Variations_create_linked_create_new_system.html) and the associated [AUT version](Variations_create_linked_create_new_version_node.html) nodes that you require.
+-   Ensure that you have already created a [system node](/TA_Help/Topics/Variations_create_linked_create_new_system.html) and the associated [AUT version](/TA_Help/Topics/Variations_create_linked_create_new_version_node.html) nodes that you require.
 -   To access revision history, you must be a member of a group other than [guest](/TA_Administration/Topics/User_administration.html#li_xxn_z22_ms) for the repository in which the project item is stored. In addition, you must be granted access to the desired projects and project items.
 
 To associate an AUT version with a specific revision, do the following:
@@ -46,11 +46,11 @@ To associate an AUT version with a specific revision, do the following:
         **Note:** Only the following project items have revision control:
 
         -   [User-defined action](/reuse/reuse.High_level_actions.html)
-        -   [Test module](Create_test_module.html)
-        -   [Interface entity](Interface_entities_and_elements.html)
-        -   [$ Class Map](Interface_def_Viewer_class_mapping.html)
-        -   [Data set](Projects_and_tests_dataset.html)
-        -   [Variation](Variations.html)
+        -   [Test module](/TA_Help/Topics/Create_test_module.html)
+        -   [Interface entity](/TA_Help/Topics/Interface_entities_and_elements.html)
+        -   [$ Class Map](/TA_Help/Topics/Interface_def_Viewer_class_mapping.html)
+        -   [Data set](/TA_Help/Topics/Projects_and_tests_dataset.html)
+        -   [Variation](/TA_Help/Topics/Variations.html)
     2.  In the Revision History dialog box, select a revision whose timestamp you wish to associate with a given version node \(or nodes\).
 
         -   Click the **Assign to Version** button.

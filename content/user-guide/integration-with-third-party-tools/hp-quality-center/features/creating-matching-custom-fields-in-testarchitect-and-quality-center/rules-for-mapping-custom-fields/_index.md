@@ -33,6 +33,8 @@ Mutually mapped fields must have compatible data types, as specified in the foll
 
 In addition to choosing the correct data type for each user-defined field, you also must match the TestArchitect **Apply To** entity in the [New Field](/TA_Administration/Topics/User_defined_fields_create.html#stepresult_q44_hls_mq) dialog box with the project entity in Quality Center. The following table displays the mapping relationships between TestArchitect **Apply To** entities and Quality Center Project entities.
 
+|||
+|------|------|
 |**TestArchitect Apply To Entities**|**Quality Center Project Entities**|
 |Project|\(Not supported\)|
 |Test module|Test|

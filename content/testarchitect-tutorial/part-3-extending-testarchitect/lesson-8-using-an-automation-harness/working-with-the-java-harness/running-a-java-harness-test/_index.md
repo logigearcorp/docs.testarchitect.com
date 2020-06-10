@@ -10,7 +10,7 @@ Execute the test that calls the hello action you implemented in the Java harness
 
 You have created a test case that calls the action hello, passing it an argument \(Earth, in this example\). Prior to that you implemented the action inJava , and created the necessary harness code to direct execution of action hello to your implemented definition of it.
 
-1.  With your test module displayed in the TestArchitect editor, click **Execute** ![](/images//Images/TA_Tutorials/Images/btn.TAC_toolbar.Execute.png) on the toolbar.
+1.  With your test module displayed in the TestArchitect editor, click **Execute** ![](/images/TA_Tutorials/Images/btn.TAC_toolbar.Execute.png) on the toolbar.
 
     The Execute Test dialog box appears.
 
@@ -20,7 +20,7 @@ You have created a test case that calls the action hello, passing it an argument
 
 3.  Select **TestArchitect Java Harness** from **Playback Tool** option.
 
-4.  Click ![](/images//Images/TA_Help/Images/btn.browse-ellipsis.02.png) next to the **Script\(s\)** field to browse to the filejava\_harness.jar which, if you followed the instructions to create it \(that is, used Eclipse\), should be in your Eclipse workspace directory.
+4.  Click ![](/images/TA_Help/Images/btn.browse-ellipsis.02.png) next to the **Script\(s\)** field to browse to the filejava\_harness.jar which, if you followed the instructions to create it \(that is, used Eclipse\), should be in your Eclipse workspace directory.
 
     ![](/images//Images/dlg.Automation_Tools.Java_settings_java_harness.png)
 

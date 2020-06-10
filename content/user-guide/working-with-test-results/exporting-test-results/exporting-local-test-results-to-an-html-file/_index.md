@@ -14,7 +14,7 @@ You have two options for exporting your test results to HTML:
 
     1.  Select the local test results that you want to export to an HTML file.
 
-        **Tip:** You can select local test results in the TestArchitect explorer tree, or on the [local test result list view](Listview_results_local.html).
+        **Tip:** You can select local test results in the TestArchitect explorer tree, or on the [local test result list view](/TA_Help/Topics/Listview_results_local.html).
 
     2.  Invoke the Save Result\(s\) To File dialog box by doing one of the following:
 
@@ -32,11 +32,11 @@ You have two options for exporting your test results to HTML:
 
         -   Folder structure \(the **Create folder structure** check box is enabled\): TestArchitect creates a hierarchical tree structure, or subdirectories to store HTML results.
         -   Flat structure \(the **Create folder structure** check box is cleared\): TestArchitect does not create subdirectories. There is only a single top-level directory that contains all HTML results.
-    5.  If the exported test result is a master result, that is, it is a [test suite result](ug_test_results_introduction.html#section.TS_results) or it contains [subresults](ug_test_results_introduction.html#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into HTML files.
+    5.  If the exported test result is a master result, that is, it is a [test suite result](/TA_Help/Topics/ug_test_results_introduction.html#section.TS_results) or it contains [subresults](/TA_Help/Topics/ug_test_results_introduction.html#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into HTML files.
 
     6.  To export HTML results with your own view layout, select the **Apply customized XSLT template** check box, and then choose a location of your customized XSLT template.
 
-        You are first required to customize the default XSLT template, which means you need to modify [a set of XSL files](ug_customizing_XML_report.html) to suit your desired view layout. \(See more examples [here](ug_customizing_XML_report.html).\)
+        You are first required to customize the default XSLT template, which means you need to modify [a set of XSL files](/TA_Help/Topics/ug_customizing_XML_report.html) to suit your desired view layout. \(See more examples [here](/TA_Help/Topics/ug_customizing_XML_report.html).\)
 
         **Attention:** When your customized XSLT is invalid, the default XSLT template, located at the following places, is automatically applied.
 
@@ -79,13 +79,13 @@ You have two options for exporting your test results to HTML:
 
         -   Folder structure \(the **Create folder structure** check box is enabled\): TestArchitect creates a hierarchical tree structure, or subdirectories to store HTML results.
         -   Flat structure \(the **Create folder structure** check box is cleared\): TestArchitect does not create subdirectories. There is only a single top-level directory that contains all HTML results.
-    7.  If the exported test result is a master result, that is, it is a [test suite result](ug_test_results_introduction.html#section.TS_results) or it contains [subresults](ug_test_results_introduction.html#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into HTML files.
+    7.  If the exported test result is a master result, that is, it is a [test suite result](/TA_Help/Topics/ug_test_results_introduction.html#section.TS_results) or it contains [subresults](/TA_Help/Topics/ug_test_results_introduction.html#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into HTML files.
 
     8.  To export HTML results with your own view layout, select the **Apply customized XSLT template** check box, and then choose a location of your customized XSLT template.
 
         ![](/images//Images/export_repo_result_HTML_customized_XSLT_automatic.png)
 
-        You are first required to customize the default XSLT template, which means you need to modify [a set of XSL files](ug_customizing_XML_report.html) to suit your desired view layout. \(See more examples [here](ug_customizing_XML_report.html).\)
+        You are first required to customize the default XSLT template, which means you need to modify [a set of XSL files](/TA_Help/Topics/ug_customizing_XML_report.html) to suit your desired view layout. \(See more examples [here](/TA_Help/Topics/ug_customizing_XML_report.html).\)
 
         **Attention:** When your customized XSLT is invalid, the default XSLT template, located at the following places, is automatically applied.
 
@@ -102,7 +102,7 @@ You have two options for exporting your test results to HTML:
 
     TestArchitect saves the settings in the Advanced Setting tab and executes the test\(s\). Once execution is complete, the test results are automatically exported to an HTML file at the specified location.
 
-    **Note:** If you opt to generate a batch file \(rather than execute the test immediately\), the following parameters are written to the generated file. \([Learn more](Test_exec_cmd.html#plentry.paramters_html)\).
+    **Note:** If you opt to generate a batch file \(rather than execute the test immediately\), the following parameters are written to the generated file. \([Learn more](/TA_Help/Topics/Test_exec_cmd.html#plentry.paramters_html)\).
 
     -   **-html**
 

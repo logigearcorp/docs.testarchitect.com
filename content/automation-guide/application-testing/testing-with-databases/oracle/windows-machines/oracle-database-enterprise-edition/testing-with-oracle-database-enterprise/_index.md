@@ -8,7 +8,7 @@ aliases:
 
 This topic describes the steps required for testing with Oracle Database Enterprise in TestArchitect.
 
-Ensure that you installed and configured Oracle Database. \([Learn more](aut_app_testing_Oracle_Windows_Enterprise_installing_configuring_clients.html).\)
+Ensure that you installed and configured Oracle Database. \([Learn more](/TA_Automation/Topics/aut_app_testing_Oracle_Windows_Enterprise_installing_configuring_clients.html).\)
 
 To test with Oracle Database XE in TestArchitect, do the following steps:
 

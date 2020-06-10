@@ -32,7 +32,7 @@ The [test case](/TA_Automation/Topics/bia_test_case.html) header line has two ar
 -   test case id. This must be unique within the test module, \(but not necessarily unique outside of the test module\).
 -   A descriptive title of the test case.
 
-Newly-created test cases are not immediately visible in the TestArchitect explorer tree, and are similarly not visible to all users. They only appear on the tree, for you and for all users of the repository, when you [check in](Project_items_checkin.html) the test module.
+Newly-created test cases are not immediately visible in the TestArchitect explorer tree, and are similarly not visible to all users. They only appear on the tree, for you and for all users of the repository, when you [check in](/TA_Help/Topics/Project_items_checkin.html) the test module.
 
 **Important:**
 

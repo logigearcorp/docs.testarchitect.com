@@ -11,7 +11,7 @@ aliases:
 TestArchitect supports testing WPF applications that use the following technologies:
 
 -   .NET Framework 4.5.1, 4.5, 4.0, 3.5. \(both 32-bit and 64-bit versions\).
--   Standard WPF controls. \(See [Support for WPF Applications' Controls](aut_app_testing_WPF_apps_supported_controls.html).\)
+-   Standard WPF controls. \(See [Support for WPF Applications' Controls](/TA_Automation/Topics/aut_app_testing_WPF_apps_supported_controls.html).\)
 
 **Parent topic:**[Testing WPF applications](/TA_Automation/Topics/aut_app_testing_WPF_apps.html)
 

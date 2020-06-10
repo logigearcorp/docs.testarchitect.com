@@ -25,7 +25,7 @@ As a rule, processing data queries between your application program and TestArch
 
 1.  Register TAUtilities.dll in COM application programs.
 
-    **Remember:** In Java application programs, instead of registering TAUtilities.dll into the registry, you must reference the following .JARs from within your Java project \([learn more](TAUtilities_register_library.html)\):
+    **Remember:** In Java application programs, instead of registering TAUtilities.dll into the registry, you must reference the following .JARs from within your Java project \([learn more](/TA_Tutorials/Topics/TAUtilities_register_library.html)\):
 
     -   TAUtilities
     -   SLF4J API module

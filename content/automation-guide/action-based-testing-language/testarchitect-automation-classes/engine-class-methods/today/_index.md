@@ -24,7 +24,7 @@ The return value is a number representing the date \(Julian standard\).
 
 ## Notes
 
--   This function is equivalent to the [today](Expressions_functions_today.html) function as it can be used by the tester in a "\#" expression.
+-   This function is equivalent to the [today](/TA_Automation/Topics/Expressions_functions_today.html) function as it can be used by the tester in a "\#" expression.
 
 **Parent topic:**[Engine class methods](/TA_Automation/Topics/abtf_Engine_classes.html)
 

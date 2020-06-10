@@ -33,11 +33,11 @@ Returns the equivalent Julian day number.
 
 ## Notes
 
--   The difference between the [d](Expressions_functions_d.html)\(\) and [fj](Expressions_functions_fj.html)\(\) functions is that d\(\) requires a date to be supplied as three separate parameters, in a very specific format: yyyy,mm,dd, \(such as `d( 2015, 12, 25)`\). fj\(\), by contrast, accepts a single date parameter whose format is flexible.
+-   The difference between the [d](/TA_Automation/Topics/Expressions_functions_d.html)\(\) and [fj](/TA_Automation/Topics/Expressions_functions_fj.html)\(\) functions is that d\(\) requires a date to be supplied as three separate parameters, in a very specific format: yyyy,mm,dd, \(such as `d( 2015, 12, 25)`\). fj\(\), by contrast, accepts a single date parameter whose format is flexible.
 
 ## Applicable Built-In Settings
 
-The following built-in setting\(s\) are supported: [date order](date_order.html).
+The following built-in setting\(s\) are supported: [date order](/TA_Automation/Topics/bis_date_order.html).
 
 ## Example
 

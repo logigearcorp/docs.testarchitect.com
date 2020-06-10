@@ -26,14 +26,14 @@ Use the TestArchitect external tool to set up a repository for integration with 
 
 6.  Select **Uploading Method**, TestArchitect supports two types of uploading methods:
 
-    -   TFS Helper - All version of Team Foundation Server \(Default\) \([Learn more](ug_MTM_upload_result_automatic.html#)\)
-    -   Rest API - Team Foundation Server 2015 Update 4 \([Learn more](ug_MTM_upload_result_automatic.html#)\)
+    -   TFS Helper - All version of Team Foundation Server \(Default\) \([Learn more](/TA_Help/Topics/ug_MTM_upload_result_automatic.html#)\)
+    -   Rest API - Team Foundation Server 2015 Update 4 \([Learn more](/TA_Help/Topics/ug_MTM_upload_result_automatic.html#)\)
 
         **Note:** Rest API - Team Foundation Server 2015 Update 4 option only support for Automatically uploading results to TFS.
 
         ![](/images//Images/TFS_upload_method.png)
 
-7.  Next to **Test Result Status Mapping**, define the special mapping status between TestArchitect test results and TFS outcomes. \([Learn more](ug_MTM_mapping_result_table.html).\)
+7.  Next to **Test Result Status Mapping**, define the special mapping status between TestArchitect test results and TFS outcomes. \([Learn more](/TA_Help/Topics/ug_MTM_mapping_result_table.html).\)
 
     ![](/images//Images/ug_MTM_mapping_results.png)
 

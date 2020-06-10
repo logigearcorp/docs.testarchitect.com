@@ -38,7 +38,7 @@ Perform the following procedure on the Android device:
     -   For HTC smart phones running Android 2.3 or later, when you plug in the USB cable, a pop-up window appears offering two options: **HTC synchronize** and **Charge only**. Select the **Charge only** option.
 -   Grant permissions at run time: Beginning with Android 6.0 \(API level 23\), users are no longer asked to grant permissions to apps during installation. Instead, by default, users are asked to grant permissions to an app while it is running \([learn more](http://developer.android.com/intl/vi/training/permissions/requesting.html)\). This entails a system dialog box that appears at runtime and prompts the user to grant or deny permissions. This dialog box can potentially cause ongoing automated tests to hang unexpectedly.
 
-    ![](/TA_Automation/Topics/../../Android/Images/Run_time_permission_Android.png)
+    ![](/TA_Automation/Topics//images/TA_Automation/Images/Run_time_permission_Android.png)
 
     An alternative to granting or denying permissions of a given app is to establish such permissions in Android settings. Hence, to avoid the appearance of this system dialog box, do the following:
 

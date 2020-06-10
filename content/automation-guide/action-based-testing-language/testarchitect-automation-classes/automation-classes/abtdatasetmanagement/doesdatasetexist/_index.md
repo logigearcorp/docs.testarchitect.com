@@ -19,7 +19,7 @@ Check whether a data set exists.
 
 -   **path**
 
-    String specifying a data set path \(see the name argument of the [use data set](use_data_set.html) built-in action\).
+    String specifying a data set path \(see the name argument of the [use data set](/TA_Automation/Topics/bia_use_data_set.html) built-in action\).
 
 
 ## Return Value

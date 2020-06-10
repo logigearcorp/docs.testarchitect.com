@@ -10,7 +10,7 @@ Execute your cross-browser web automated test.
 
 1.  Decide which test modules you want to execute across multiple browsers.
 
-2.  Click the **Execute** ![](/TA_Automation/Images/Toolbar_Button_Execute.png) button on the toolbar.
+2.  Click the **Execute** ![](/images/TA_Automation/Images/Toolbar_Button_Execute.png) button on the toolbar.
 
 3.  Execute the test modules.
 

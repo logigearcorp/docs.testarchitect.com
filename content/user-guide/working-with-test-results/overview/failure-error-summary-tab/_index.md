@@ -18,12 +18,12 @@ Exploring this tab exhibits a list of the failures with the following fields:
 
 |Field|Description|
 |-----|-----------|
-|**Line**|The line number in the test where the failure occurred. Clicking on the line number text opens the [**Result Details**](Test_result_details.html) tab, displaying the corresponding line in its execution context.|
+|**Line**|The line number in the test where the failure occurred. Clicking on the line number text opens the [**Result Details**](/TA_Help/Topics/Test_result_details.html) tab, displaying the corresponding line in its execution context.|
 |**Type**|The type of failure \(Error, Warning, or Failed\).|
 |**Details**|Displays the action line that caused the failure, the proximate cause of the failure, and the system message, if any, associated with the failure.|
-|**Screenshot**|Click the captured screenshots to launch the [screenshot viewer](ug_Screenshot_recording.html#section_o4c_qj5_34) to view the screenshots of [UI-interacting actions](/TA_Automation/Topics/timing_classifying_actions.html).|
-|**Action**|The action responsible for the failure. Click the action name to view the corresponding action line in the [**Result Details**](Test_result_details.html) tab.|
-|**Test case**|Displays the ID and title of the test case where the failure occurred. Click the test case number to view the corresponding test case in the [**Result Details**](Test_result_details.html) tab.|
+|**Screenshot**|Click the captured screenshots to launch the [screenshot viewer](/TA_Help/Topics/ug_Screenshot_recording.html#section_o4c_qj5_34) to view the screenshots of [UI-interacting actions](/TA_Automation/Topics/timing_classifying_actions.html).|
+|**Action**|The action responsible for the failure. Click the action name to view the corresponding action line in the [**Result Details**](/TA_Help/Topics/Test_result_details.html) tab.|
+|**Test case**|Displays the ID and title of the test case where the failure occurred. Click the test case number to view the corresponding test case in the [**Result Details**](/TA_Help/Topics/Test_result_details.html) tab.|
 
 **Parent topic:**[Overview of test results](/TA_Help/Topics/ug_test_results_introduction.html)
 

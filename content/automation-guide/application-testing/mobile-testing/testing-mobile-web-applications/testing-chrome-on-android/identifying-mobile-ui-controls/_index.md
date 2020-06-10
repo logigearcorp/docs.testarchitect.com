@@ -16,7 +16,7 @@ To identify mobile app UI controls from the [Interface Viewer](/TA_Help/Topics/I
 
 2.  Launch the Interface Viewer. \([Learn more.](/TA_Help/Topics/Interface_def_Viewer_Starting.html)\)
 
-3.  From the Interface Viewer's toolbar, click the **Device mode** ![](/TA_Help/Images/btn_device_mode_Viewer.png) button. This activates [Device Mode](/TA_Help/Topics/ug_Interface_UI_explorer_panel.html#section.device_desktop_mode), to display the GUI environment of the AUT running on a given mobile device.
+3.  From the Interface Viewer's toolbar, click the **Device mode** ![](/images/TA_Automation/Images/btn_device_mode_Viewer.png) button. This activates [Device Mode](/TA_Help/Topics/ug_Interface_UI_explorer_panel.html#section.device_desktop_mode), to display the GUI environment of the AUT running on a given mobile device.
 
     ![](/images//Images/Viewer_toolbar_device_mode_btn.png)
 
@@ -32,7 +32,7 @@ To identify mobile app UI controls from the [Interface Viewer](/TA_Help/Topics/I
 
     **Tip:**
 
-    -   The **Device mode** ![](/TA_Help/Images/btn_device_mode_Viewer.png) button can also be used to switch between multiple connected mobile devices.
+    -   The **Device mode** ![](/images/TA_Automation/Images/btn_device_mode_Viewer.png) button can also be used to switch between multiple connected mobile devices.
     -   The **View** \> **Switch device** menu is not only used to switch across multiple mobile devices, but also to toggle between [device mode](/TA_Help/Topics/ug_Interface_UI_explorer_panel.html#section.device_desktop_mode) and [desktop mode](/TA_Help/Topics/ug_Interface_UI_explorer_panel.html#section.device_desktop_mode).
 4.  From the Interface Viewer's toolbar, click the **Identify** ![](/images//Images/identify_btn.png) button.
 
@@ -42,14 +42,14 @@ To identify mobile app UI controls from the [Interface Viewer](/TA_Help/Topics/I
 
     As you move your pointer around the screen, an orange, rectangular frame highlights whichever control lies under it. At the same time, the control's TA class is displayed, to assist you in deciding where to click.
 
-    ![](/Android/Images/chrome_Android_Identify_effect.png)
+    ![](/images/TA_Automation/Images/chrome_Android_Identify_effect.png)
 
 6.  Select a desired control by clicking on it.
 
 
 In the UI Explorer panel, the tree containing the just-selected control is expanded to expose that node, and the node is highlighted.
 
-![](/Android/Images/chrome_Android_Identify_Viewer.png)
+![](/images/TA_Automation/Images/chrome_Android_Identify_Viewer.png)
 
 **Parent topic:**[Testing Google Chrome on Android](/TA_Automation/Topics/aut_app_testing_mobile_web_Android.html)
 

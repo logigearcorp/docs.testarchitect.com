@@ -8,7 +8,7 @@ aliases:
 
 Test module variation enhances modularity by limiting test changes to applicable sections, while allowing your test to otherwise remain intact from one version to the next.
 
-It is highly recommended that you become familiar with the [concepts of variations](Variations.html), rules for [creating variations](Variations_rules.html) and [executing variations](Variations_rules_executing.html).
+It is highly recommended that you become familiar with the [concepts of variations](/TA_Help/Topics/Variations.html), rules for [creating variations](/TA_Help/Topics/Variations_rules.html) and [executing variations](/TA_Help/Topics/Variations_rules_executing.html).
 
 To create a test module variation, do the following:
 
@@ -22,7 +22,7 @@ To create a test module variation, do the following:
 
     ![](/images//Images/TM_var_1.png)
 
-3.  In the Create Variation dialog box that appears, you can define this test module variation as a [keyword variation](Variations_create_keyword.html), a [linked variation](Variations_linking.html), or a combination of the two.
+3.  In the Create Variation dialog box that appears, you can define this test module variation as a [keyword variation](/TA_Help/Topics/Variations_create_keyword.html), a [linked variation](/TA_Help/Topics/Variations_linking.html), or a combination of the two.
 
     ![](/images//Images/ug_TM_variation.png)
 

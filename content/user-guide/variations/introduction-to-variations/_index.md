@@ -20,7 +20,7 @@ In the testing world, you cannot simply evolve your tests to adapt to changing A
 
 Take for instance, a commercial application that has gone through several upgrades \(each of which remains on the market\), has been localized for four different language environments, and has been designed to operate with the last four generations of the Windows operating system. A graphical representation of all the resultant possible testing scenarios might look like the following, in which each intersection of lines represents a different configuration.
 
-![](/images//Images/TA_Help/Images/ug_systemtree1a.png)
+![](/images/TA_Help/Images/ug_systemtree1a.png)
 
 Granted, not each of this matrix's 80 points is necessarily a valid test configuration. Nonetheless, there is commonly a need to validate an application's functionality under a multitude of independent variable factors.
 
@@ -38,7 +38,7 @@ The implementation of variations of test modules, actions, interfaces, and data 
 
 In general, linked variations are the preferred method for addressing what might be termed progressive variability. This is the kind of variability that comes from continuous development or improvement of some aspect of the system/platform mix, such as progressive versions of the AUT itself, or progressive versions of an operating system in which the AUT runs. Linked variations are appropriate when the various versions of a system or platform can be depicted graphically in either a linear form or tree structure. For example, imagine a Car Rental application that has gone through several cycles of development, so that the version history takes this tree form, as is typical in software development:
 
-![](/images//Images/TA_Help/Images/ug_systemtree2.png)
+![](/images/TA_Help/Images/ug_systemtree2.png)
 
 Keyword variations, by contrast, are perhaps most appropriate when you can define certain categories of distinctions between different system/platform mixes, where the differences are not due to any progressive development or refinement of any aspect of the mix. Different "flavors" of an application, such as different language versions, are a good candidate for keyword variations, as are other localization-based differences, such as differences in date formats, currencies, physical units, etc. Another possible keyword group might involve different market editions of the application, such as a student edition, personal edition, small business edition, or enterprise edition.
 

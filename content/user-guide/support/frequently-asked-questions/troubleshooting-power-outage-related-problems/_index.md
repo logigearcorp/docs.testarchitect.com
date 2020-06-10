@@ -24,27 +24,27 @@ A discussion of typical issues you may experience after a power outage, and thei
 
     **Solution**: The repository is corrupted and should be deleted:
 
-    1.  [Stop](Stopping_repository_server.html) the repository server.
+    1.  [Stop](/TA_Administration/Topics/Stopping_repository_server.html) the repository server.
     2.  Go to the following location:
         -   Windows: C:\\Users\\Public\\LogiGear\\TestArchitect\\RS\\database\\
         -   Linux: /usr/local/logigear/testarchitect/data/rs/database/
         -   macOS: /Application/TestArchitect/data/rs/database/
     3.  Delete the folder containing the corrupted repository.
-    4.  [Start](Starting_repository_server.html) the repository server.
+    4.  [Start](/TA_Administration/Topics/Starting_repository_server.html) the repository server.
 -   **Data synchronization no longer works**
 
     **Problem**: Data synchronization between a primary and replication repository server no longer functions after recovery from a power outage.
 
     **Solution**: To remedy this problem, do the following:
 
-    1.  [Re-setup](adm_Setting_up_primary_replication_repository.html) the primary/replication repositories.
+    1.  [Re-setup](/TA_Administration/Topics/adm_Setting_up_primary_replication_repository.html) the primary/replication repositories.
     2.  Restart the primary and replication repository server machines.
 
 ## License Server
 
 **Unable to start TestArchitect License Server**
 
-**Problem**: After a power outage, TestArchitect License Server cannot be started, even though the [**Start**](LS_TA_managing_start_stop.html) button ![](/images//Images/btn.RS_start_repo.png) is enabled on the License Server Control Panel.
+**Problem**: After a power outage, TestArchitect License Server cannot be started, even though the [**Start**](/TA_Administration/Topics/LS_TA_managing_start_stop.html) button ![](/images//Images/btn.RS_start_repo.png) is enabled on the License Server Control Panel.
 
 **Solution**: Perform a clean installation of the license server:
 

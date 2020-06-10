@@ -10,13 +10,13 @@ TestArchitect test results from projects or test cases which are mapped to Quali
 
 Ensure that you have already taken the following steps:
 
--   [Registered the Quality Center server with TestArchitect](Integration_QC_connecting_repo_to_QC_server_step_1.html).
+-   [Registered the Quality Center server with TestArchitect](/TA_Help/Topics/Integration_QC_connecting_repo_to_QC_server_step_1.html).
 -   Mapped the TestArchitect project or test case of interest to a Quality Center project or test.
 -   All required fields are specified.
 
 To manually upload TestArchitect test results to Quality Center
 
-1.  In the TestArchitect explorer tree or [a result list view](Listview_results.html), right-click a test result, and then select **External Tool** \> **HP ALM** \> **Upload to Quality Center**.
+1.  In the TestArchitect explorer tree or [a result list view](/TA_Help/Topics/Listview_results.html), right-click a test result, and then select **External Tool** \> **HP ALM** \> **Upload to Quality Center**.
 
     **Important:** The context menu **Upload to Quality Center** is enabled only for test results produced from mapped projects or test cases.
 

@@ -20,7 +20,7 @@ TestArchitect items are uploaded to Quality Center as follows:
 
     ![](/images//Images/Integration_QC_test_objective.png)
 
--   If you declare the option `title in comment=yes` in the [Registering the Quality Center server](Integration_QC_connecting_repo_to_QC_server_step_1.html#cmd_qjl_z23_tm) step, each TestArchitect test case's title is transferred to the corresponding Quality Center test case. This textual title is located in Quality Center's **Comments** tab within the test plan's **Detail** tab.![](/images//Images/Integration_QC_TC_title.png)
+-   If you declare the option `title in comment=yes` in the [Registering the Quality Center server](/TA_Help/Topics/Integration_QC_connecting_repo_to_QC_server_step_1.html#cmd_qjl_z23_tm) step, each TestArchitect test case's title is transferred to the corresponding Quality Center test case. This textual title is located in Quality Center's **Comments** tab within the test plan's **Detail** tab.![](/images//Images/Integration_QC_TC_title.png)
 
 
 -   Detailed step levels for both test module and test cases are uploaded to Quality Center. You can view the detailed step-by-step execution results in Quality Center from its Test Lab's **Execution Grid** tab. Select a test module or test case on the **Execution Grid** tab to view its step-by-step results in the **Last Run Report** tab as illustrated below:

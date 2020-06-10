@@ -25,7 +25,7 @@ You can create three new version nodes for the **Browser** system and platform, 
 
 The three new versions, **Internet Explorer**, **Chrome**, and **Firefox**, are added as nodes beneath the **Browser** platform node.
 
-![](/TA_Automation/Images/web_automation_create_new_version.png)
+![](/images/TA_Automation/Images/web_automation_create_new_version.png)
 
 **Parent topic:**[How do I execute cross-browser automated tests?](/TA_FAQ/Topics/faq.howto.web_automation_variations.html)
 

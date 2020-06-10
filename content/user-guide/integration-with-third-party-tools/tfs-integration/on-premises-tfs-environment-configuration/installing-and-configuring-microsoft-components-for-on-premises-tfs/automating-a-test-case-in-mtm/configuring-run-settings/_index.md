@@ -8,7 +8,7 @@ aliases:
 
 To specify which build definition, environment, etc., is to be used for running tests on Microsoft Test Manager \(MTM\), run settings must be configured.
 
-After you create a team build \([learn more](MTM_create_build_definition.html)\), you can add it to your test plan in Microsoft Test Manager.
+After you create a team build \([learn more](/TA_Help/Topics/MTM_create_build_definition.html)\), you can add it to your test plan in Microsoft Test Manager.
 
 To configure run settings, do the following:
 
@@ -18,15 +18,15 @@ To configure run settings, do the following:
     -   Visual Studio [2013](https://msdn.microsoft.com/en-us/library/dd380739(v=vs.120).aspx).
 2.  In MTM's Testing Center, click **Plan** on the ribbon, then switch to the **Properties** tabbed page of your test plan.
 
-3.  In the **Test environment** list of the **Automated runs** group of the plan properties, select a [lab environment](ug_MTM_create_lab_environment.html) in which you want to run your tests.
+3.  In the **Test environment** list of the **Automated runs** group of the plan properties, select a [lab environment](/TA_Help/Topics/ug_MTM_create_lab_environment.html) in which you want to run your tests.
 
     ![](/images//Images/MTM_select_environment.png)
 
 4.  Associate a build containing your tests with the test plan:
 
-    1.  Click the drop-down button of the **Filter for builds** list box and in the ensuing dialog box select the build you created for your tests. \([Learn more](MTM_create_build_definition.html).\)
+    1.  Click the drop-down button of the **Filter for builds** list box and in the ensuing dialog box select the build you created for your tests. \([Learn more](/TA_Help/Topics/MTM_create_build_definition.html).\)
 
-    2.  Click **Modify** to the right of the **Build in use** box and select the build you want to use for testing. \([Learn more](MTM_queue_XAML_build.html).\)
+    2.  Click **Modify** to the right of the **Build in use** box and select the build you want to use for testing. \([Learn more](/TA_Help/Topics/MTM_queue_XAML_build.html).\)
 
     ![](/images//Images/MTM_assign_build_definition.png)
 

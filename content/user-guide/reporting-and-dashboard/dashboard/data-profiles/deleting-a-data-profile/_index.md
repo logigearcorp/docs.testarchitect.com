@@ -20,10 +20,10 @@ Ensure that the data profile you want to delete is not used by any panel in Dash
 
     ![](/images//Images/Dashboard_data_profile_table.png)
 
-    **Tip:** **Delete** links and row check boxes are enabled only for those data profiles for which the logged-in user has delete [permission](Dashboard_authentication_permissions.html).
+    **Tip:** **Delete** links and row check boxes are enabled only for those data profiles for which the logged-in user has delete [permission](/TA_Help/Topics/Dashboard_authentication_permissions.html).
 
 
-The deleted data profile is removed from the repository, Dashboard, and TestArchitect. Any Dashboard panel using the deleted data profile will cease to function after refreshing the Dashboard browser page \(pressing F5 on the browser\), updating the affected panel \(see [Updating panel](Dashboard_update_panel.html)\), or terminating the Dashboard session and then signing back in to it.
+The deleted data profile is removed from the repository, Dashboard, and TestArchitect. Any Dashboard panel using the deleted data profile will cease to function after refreshing the Dashboard browser page \(pressing F5 on the browser\), updating the affected panel \(see [Updating panel](/TA_Help/Topics/Dashboard_update_panel.html)\), or terminating the Dashboard session and then signing back in to it.
 
 **Parent topic:**[Data profiles](/TA_Help/Topics/Dashboard_data_profiles.html)
 

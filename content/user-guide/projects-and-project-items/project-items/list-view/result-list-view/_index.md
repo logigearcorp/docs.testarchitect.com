@@ -8,7 +8,7 @@ aliases:
 
 A results list view displays a list of all results contained within the **Results** node, one of its subfolders, or the **LOCAL RESULTS** node.
 
-There are two different types of test result list views: local test result list views, and repository result list views, discussed in the following pages. \([Learn more](Test_result.html).\)
+There are two different types of test result list views: local test result list views, and repository result list views, discussed in the following pages. \([Learn more](/TA_Help/Topics/Test_result.html).\)
 
 ![](/images//Images/Listview_result.png)
 

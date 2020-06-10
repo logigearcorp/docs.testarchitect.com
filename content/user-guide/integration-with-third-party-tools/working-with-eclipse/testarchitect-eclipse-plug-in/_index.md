@@ -12,32 +12,32 @@ The Eclipse plug-in for TestArchitect creates an information window as an Eclips
 
 **Note:**
 
--   The descriptions presented here assume that you are familiar with the TestArchitect debugger, as explained in [Using the debugger](Debugging_the_debugger.html).
+-   The descriptions presented here assume that you are familiar with the TestArchitect debugger, as explained in [Using the debugger](/TA_Help/Topics/Debugging_the_debugger.html).
 -   Since TestArchitect version [8.3](/TA_ReleaseNotes/DITA_source/Whats_New_Windows_8.3.html), the TestArchitect Eclipse plug-in works with JDK versions from 1.8.0 to [1.8.0\_91](http://www.oracle.com/technetwork/java/javase/8u91-relnotes-2949462.html).
 
-The TestArchitect perspective, installed via the [TA plug-in for Eclipse](Integration_install_eclipse_plugin.html), enables you to view test information directly in the Eclipse IDE, aiding in testing and the debugging of [user-scripted actions](/TA_Glossary/Topics/glossaryScriptedAction.html). Most of the TestArchitect execution information, including automation tools, settings, variables, results, and warnings/errors, is conveniently displayed directly in Eclipse’s workbench window. The perspective, also known as the *TestArchitect information window*, contains a set of views displayed as tabs:
+The TestArchitect perspective, installed via the [TA plug-in for Eclipse](/TA_Help/Topics/Integration_install_eclipse_plugin.html), enables you to view test information directly in the Eclipse IDE, aiding in testing and the debugging of [user-scripted actions](/TA_Glossary/Topics/glossaryScriptedAction.html). Most of the TestArchitect execution information, including automation tools, settings, variables, results, and warnings/errors, is conveniently displayed directly in Eclipse’s workbench window. The perspective, also known as the *TestArchitect information window*, contains a set of views displayed as tabs:
 
 ![](/images//Images/Eclipse_plugin_execution_info_tab.png)
 
 -   **Result**
 
-    Contains the same information as the TestArchitect **Debug Information** \> **Result** tab \(see [The debugger](Debugging_the_debugger.html#section_fzj_jjk_dl)\).
+    Contains the same information as the TestArchitect **Debug Information** \> **Result** tab \(see [The debugger](/TA_Help/Topics/Debugging_the_debugger.html#section_fzj_jjk_dl)\).
 
 -   **Settings**
 
-    Contains the same information as the TestArchitect **Debug Information** \> **Settings** tab \(see [The debugger](Debugging_the_debugger.html#section_fzj_jjk_dl)\).
+    Contains the same information as the TestArchitect **Debug Information** \> **Settings** tab \(see [The debugger](/TA_Help/Topics/Debugging_the_debugger.html#section_fzj_jjk_dl)\).
 
 -   **Local**
 
-    Contains the same information as the TestArchitect **Debug Information** \> **Local** tab \(see [The debugger](Debugging_the_debugger.html#section_fzj_jjk_dl)\).
+    Contains the same information as the TestArchitect **Debug Information** \> **Local** tab \(see [The debugger](/TA_Help/Topics/Debugging_the_debugger.html#section_fzj_jjk_dl)\).
 
 -   **Global**
 
-    Contains the same information as the TestArchitect **Debug Information** \> **Global** tab \(see [The debugger](Debugging_the_debugger.html#section_fzj_jjk_dl)\).
+    Contains the same information as the TestArchitect **Debug Information** \> **Global** tab \(see [The debugger](/TA_Help/Topics/Debugging_the_debugger.html#section_fzj_jjk_dl)\).
 
 -   **Execution Information**
 
-    This tab displays all of the information in the TestArchitect Execute dialog box \(see [Working with test results](Test_result.html)\). Each information node can be expanded or collapsed.
+    This tab displays all of the information in the TestArchitect Execute dialog box \(see [Working with test results](/TA_Help/Topics/Test_result.html)\). Each information node can be expanded or collapsed.
 
     -   **Test modules**: Full path view for all executed test modules.
     -   **Result name**: Name of the test result.

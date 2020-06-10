@@ -25,14 +25,14 @@ TestArchitect supports the testing of web applications running within the Safari
 
 -   Remote debugging is a remote web inspector for debugging web applications on the iOS Simulator. The following configuration must be set up to allow remote debugging to be performed:
 
-    -   Enable **Web Inspector** of Safari on iOS Simulator \([Learn more](aut_app_testing_mobile_web_simulator_config.html).\)
--   Event-fired action model: TestArchitect attempts to effectuate built-in actions in a manner that is as close as possible to real user actions. In most cases, for each given UI action, TestArchitect calls a sequence of events as follows. \(Refer to [supported built-in actions](aut_app_testing_mobile_web_Safari_actions.html).\)
+    -   Enable **Web Inspector** of Safari on iOS Simulator \([Learn more](/TA_Automation/Topics/aut_app_testing_mobile_web_simulator_config.html).\)
+-   Event-fired action model: TestArchitect attempts to effectuate built-in actions in a manner that is as close as possible to real user actions. In most cases, for each given UI action, TestArchitect calls a sequence of events as follows. \(Refer to [supported built-in actions](/TA_Automation/Topics/aut_app_testing_mobile_web_Safari_actions.html).\)
 
     |Built-in actions|Applicable controls|Sequence of events triggered|
     |----------------|-------------------|----------------------------|
-    |[click](click.html), [tap](tap.html)|all controls|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
-    |[click table cell](click_table_cell.html)|table|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
-    |[set list check](set_list_check.html)|ul, ol|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
-    |[select](select.html), [click list item](click_list_item.html)|select-one, select-multiple|**click** \> **change**|
-    |[set](set.html)|input-checkbox, input-radio|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
-    |[enter](enter.html), [set](set.html)|input-text, input-password, input-search, input-tel, input-url, input-email, input-number|**keydown** \> **keypress** \> **input** \> **keyup** \> **change**|
+    |[click](/TA_Automation/Topics/bia_click.html), [tap](/TA_Automation/Topics/bia_tap.html)|all controls|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
+    |[click table cell](/TA_Automation/Topics/bia_click_table_cell.html)|table|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
+    |[set list check](/TA_Automation/Topics/bia_set_list_check.html)|ul, ol|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
+    |[select](/TA_Automation/Topics/bia_select.html), [click list item](/TA_Automation/Topics/bia_click_list_item.html)|select-one, select-multiple|**click** \> **change**|
+    |[set](/TA_Automation/Topics/bia_set.html)|input-checkbox, input-radio|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
+    |[enter](/TA_Automation/Topics/bia_enter.html), [set](/TA_Automation/Topics/bia_set.html)|input-text, input-password, input-search, input-tel, input-url, input-email, input-number|**keydown** \> **keypress** \> **input** \> **keyup** \> **change**|

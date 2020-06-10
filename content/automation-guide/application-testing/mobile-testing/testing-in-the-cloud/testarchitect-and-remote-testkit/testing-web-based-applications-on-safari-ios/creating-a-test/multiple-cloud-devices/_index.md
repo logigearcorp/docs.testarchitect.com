@@ -9,9 +9,9 @@ aliases:
 It is important to test mobile web applications on different cloud devices \(smartphones, tablets, phablets, etc.\) to ensure that it behaves in a consistent and correct manner on all of them. TestArchitect allows an automated test to run on multiple cloud mobile devices concurrently.
 
 1.  Ensure that the following requirements are met before implementing automated mobile web testing on multiple cloud devices in the Remote TestKit cloud service.
-    -   In the Remote TestKit cloud service, rent iOS devices, and enable Xcode Connector. \([Learn more](aut_app_cloud_testing_iOS_Xcode_connector.html).\)
-    -   [Run Appium](aut_app_cloud_testing_Appium_RTK_iOS.html) server on your local host.
-    -   [Install](aut_app_cloud_testing_safarilauncher.html) the SafariLauncher application.
+    -   In the Remote TestKit cloud service, rent iOS devices, and enable Xcode Connector. \([Learn more](/TA_Automation/Topics/aut_app_cloud_testing_iOS_Xcode_connector.html).\)
+    -   [Run Appium](/TA_Automation/Topics/aut_app_cloud_testing_Appium_RTK_iOS.html) server on your local host.
+    -   [Install](/TA_Automation/Topics/aut_app_cloud_testing_safarilauncher.html) the SafariLauncher application.
 2.  In order to select multiple cloud devices at launch time concurrently, you must specify necessary desired capabilities in a file, which conforms to JSON format.
 
     **Note:**

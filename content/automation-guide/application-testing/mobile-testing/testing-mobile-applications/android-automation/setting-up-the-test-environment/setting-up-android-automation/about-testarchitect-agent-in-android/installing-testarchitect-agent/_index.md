@@ -10,11 +10,11 @@ How to install TestArchitect Agent onto Android devices.
 
 **Important:** Android automation is only supported on Windows.
 
-At the present time, installation to a physical device requires a USB cable connection to the host PC. \(Hence, if working with a physical device that has not yet been set up for communication with the host PC, refer to the instructions given in [Setting up a physical Android device via USB cable](Setting_up_physical_device_usb.html).\)
+At the present time, installation to a physical device requires a USB cable connection to the host PC. \(Hence, if working with a physical device that has not yet been set up for communication with the host PC, refer to the instructions given in [Setting up a physical Android device via USB cable](/Android/Topics/Setting_up_physical_device_usb.html).\)
 
 Do the following to install the TestArchitect Agent onto your Android device:
 
-1.  With your physical Android device connected via USB cable, or emulator up and running, launch the [Android Instrumentation Applications](Android_Instrumentation_tool.html) dialog box.
+1.  With your physical Android device connected via USB cable, or emulator up and running, launch the [Android Instrumentation Applications](/Android/Topics/Android_Instrumentation_tool.html) dialog box.
 
     You should see a grey icon representing your device in the Devices panel on the Android Instrumentation Applications dialog box. A grey icon indicates that the device is visible to TestArchitect, but that the TestArchitect Agent is not yet installed.
 

@@ -8,7 +8,7 @@ aliases:
 
 Create a stub action in TestArchitect as a placeholder for theC\#-coded hello actionyou defined previously, then write a test to invoke the action.
 
-Note that, while it is necessary that you [implement the “hello” action in C\#](tut_CSharp_bundle_scripting_action.html) before you can actually use it in your test, it is not a prerequisite for the following steps, which involve setting up the test that calls hello, and making the editor aware of the action.
+Note that, while it is necessary that you [implement the “hello” action in C\#](/TA_Tutorials/Topics/tut_CSharp_bundle_scripting_action.html) before you can actually use it in your test, it is not a prerequisite for the following steps, which involve setting up the test that calls hello, and making the editor aware of the action.
 
 Begin by opening TestArchitect Client, then expand a specific project of the TestArchitect explorer tree.
 
@@ -41,7 +41,7 @@ Begin by opening TestArchitect Client, then expand a specific project of the Tes
     ![](/images//Images/user_defined_action.png)
 
 7.  Now, create a test module, which you will use to call your action.
-8.  In the TestArchitect explorer tree, select any item within the current project, then click **Create new test module** ![](/images//Images/TA_Tutorials/Images/btn.TAC_toolbar.CreateTestModule.png) in the toolbar.
+8.  In the TestArchitect explorer tree, select any item within the current project, then click **Create new test module** ![](/images/TA_Tutorials/Images/btn.TAC_toolbar.CreateTestModule.png) in the toolbar.
 
     The New Test Module dialog box appears.
 
@@ -67,7 +67,7 @@ Begin by opening TestArchitect Client, then expand a specific project of the Tes
 
     ![](/images//Images/tut.Harness.Test02.csharp.png)
 
-12. Click **Save** ![](/images//Images/TA_Tutorials/Images/btn.TAC_toolbar.SaveFile.png) on the toolbar.
+12. Click **Save** ![](/images/TA_Tutorials/Images/btn.TAC_toolbar.SaveFile.png) on the toolbar.
 
 
 You now have the test module needed to call your user-scripted action hello.

@@ -20,7 +20,7 @@ To delete an existing TestArchitect user, do the following:
 
     A confirmation dialog box appears.
 
-    ![](/TA_Help/Images/Delete_user_dlg.png)
+    ![](/images/TA_Automation/Images/Delete_user_dlg.png)
 
 4.  In the dialog box, click **Yes** to confirm the deletion.
 

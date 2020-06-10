@@ -16,9 +16,9 @@ As you begin creating an action line by typing an action's name into the first c
 
 Use the Up and Down arrow keys to scroll through the available choices. Note that, as each action is selected, its description is displayed, along with its argument list.
 
-![](/images//Images/TA_Help/Images/Autocomplete_actions.png)
+![](/images/TA_Help/Images/Autocomplete_actions.png)
 
-![](/images//Images/TA4VS_Help/Images/Autocomplete_actions.png)
+![](/images/TA4VS_Help/Images/Autocomplete_actions.png)
 
 **Tip:** When you first enter a new cell, and before typing any characters, you may also press Ctrl + Space or Space to invoke Content Assist. If editing an existing action line, pressing Ctrl + Space also brings up Content Assist with appropriate selections.
 
@@ -36,9 +36,9 @@ When you begin typing into the cell of an action line argument whose type is INT
 -   Once a window or dialog is specified, [INTERFACE ELEMENT](/reuse/reuse.Creating_and_using_actions_Arg_type.html#sectiondiv.arg_type.int_elt)-type arguments \(typically named control\), have their domains limited to the elements \(controls\) of the given interface entity.
 -   [VALUE SET](/reuse/reuse.Creating_and_using_actions_Arg_type.html#sectiondiv.arg_type.value_set)-based arguments are those for which a domain of allowable values has been explicitly specified; this set of values serves as the pre-filtered source of the Content Assist list.
 
-![](/images//Images/TA_Help/Images/Autocomplete_arguments.png)
+![](/images/TA_Help/Images/Autocomplete_arguments.png)
 
-![](/images//Images/TA4VS_Help/Images/aucomplete_arguments.png)
+![](/images/TA4VS_Help/Images/aucomplete_arguments.png)
 
 **Note:** As with action assistance, you can also press Ctrl + Space or Space to access Content Assist for argument lists at any time.
 
@@ -48,7 +48,7 @@ After selecting an item, you insert in into your test editor by pressing Enter.
 
 For those arguments which accept expressions \(which include variables and functions\), Content Assist attempts to compile a list of all known variables based on those that have been declared and appear to be within scope at that given point, along with a list of valid built-in expression functions. For these arguments, entering the expression indicator \(\#\) triggers the list. As you continue typing characters, the list is filtered to include only the variables and the expression functions that begin with those characters.
 
-![](/images//Images/TA_Help/Images/content_assist_variable_function.png)
+![](/images/TA_Help/Images/content_assist_variable_function.png)
 
 After selecting an item with the Up/Down keys, insert it into the editor by pressing Enter.
 
@@ -56,13 +56,13 @@ After selecting an item with the Up/Down keys, insert it into the editor by pres
 
 -   As you enter an expression function, a screentip appears displaying the function's syntax.
 
-    ![](/images//Images/TA_Help/Images/content_assist_function_screentip.png)
+    ![](/images/TA_Help/Images/content_assist_function_screentip.png)
 
 -   If more than one variable or expression function is needed in an expression, press Ctrl + Space to trigger the autocomplete for each variable/function.
 
 ## Applicable actions assistance
 
-It may often be the case that you need to write one or a series of test cases related to a given control, but you are not certain which actions can be used on that control. In general, the determination of whether a given control can be handled by a certain action is based on the TA class of the control. To allow you to avoid constantly referring to the Built-in Action reference pages to determine which actions can be used for a control, a Content Assist window is available for any mapped control, presenting a list of those actions that may be used with it. For details, see [Applicable action suggestions for a window or control](ug_applicable_actions.html).
+It may often be the case that you need to write one or a series of test cases related to a given control, but you are not certain which actions can be used on that control. In general, the determination of whether a given control can be handled by a certain action is based on the TA class of the control. To allow you to avoid constantly referring to the Built-in Action reference pages to determine which actions can be used for a control, a Content Assist window is available for any mapped control, presenting a list of those actions that may be used with it. For details, see [Applicable action suggestions for a window or control](/TA_Help/Topics/ug_applicable_actions.html).
 
 -   **[Applicable action suggestions for a window or control](/TA_Help/Topics/ug_applicable_actions.html)**  
 As you edit your tests, you often find yourself needing to know which actions can be used for a given control or window. Content Assist's **applicable actions** list provides you with a convenient means of viewing and selecting from the list of actions available for a given UI element.

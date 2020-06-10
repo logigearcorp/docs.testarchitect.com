@@ -16,8 +16,8 @@ TestArchitect test cases and test modules can be uploaded to the Zephyr server, 
 
 Ensure that you have already taken the following steps:
 
--   [Registered the Zephyr server with TestArchitect](ug_Zephyr_registering_server.html).
--   [Mapped the TestArchitect project containing the test cases of interest to a Zephyr project](ug_Zephyr_mapping_projects.html).
+-   [Registered the Zephyr server with TestArchitect](/TA_Help/Topics/ug_Zephyr_registering_server.html).
+-   [Mapped the TestArchitect project containing the test cases of interest to a Zephyr project](/TA_Help/Topics/ug_Zephyr_mapping_projects.html).
 
 **Attention:** From TestArchitect 8.4 Update 3 onwards, only test steps of TestArchitect test cases/ modules are uploaded to Zephyr.
 

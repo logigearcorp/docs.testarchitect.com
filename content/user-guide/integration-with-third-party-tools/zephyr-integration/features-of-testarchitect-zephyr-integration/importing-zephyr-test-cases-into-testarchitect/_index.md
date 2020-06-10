@@ -16,8 +16,8 @@ Test cases residing on Zephyr can be imported into TestArchitect, which also est
 
 Ensure that you have already taken the following steps:
 
--   [Registered the Zephyr server with TestArchitect](ug_Zephyr_registering_server.html).
--   [Mapped the TestArchitect project containing the test cases of interest to a Zephyr project](ug_Zephyr_mapping_projects.html).
+-   [Registered the Zephyr server with TestArchitect](/TA_Help/Topics/ug_Zephyr_registering_server.html).
+-   [Mapped the TestArchitect project containing the test cases of interest to a Zephyr project](/TA_Help/Topics/ug_Zephyr_mapping_projects.html).
 
 **Important:** The following rules apply:
 
@@ -27,7 +27,7 @@ Ensure that you have already taken the following steps:
 
 Importing of Zephyr test cases into TestArchitect can be done on a one-by-one basis or, alternatively, by importing a Zephyr folder into a TestArchitect test folder. Both methods are discussed.
 
-1.  [Check out](Project_items_checkout.html) the target TestArchitect test folder/test module into which you want to import the Zephyr folder/test case.
+1.  [Check out](/TA_Help/Topics/Project_items_checkout.html) the target TestArchitect test folder/test module into which you want to import the Zephyr folder/test case.
 
 2.  In the TestArchitect explorer tree, right-click the target test folder / test module. Next, on the context menu, select **External Tool** \> **Zephyr** \> **Import from Zephyr**.
 

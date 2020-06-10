@@ -12,7 +12,7 @@ Silverlight-based applications, as well as your test machine, must be configured
 
 To test out-of-browser Silverlight applications, carry out the following procedure:
 
-1.  [Configure your test machine](aut_app_testing_Silverlight_apps_preparation.html) for Silverlight testing.
+1.  [Configure your test machine](/TA_Automation/Topics/aut_app_testing_Silverlight_apps_preparation.html) for Silverlight testing.
 
 2.  Open a Silverlight application within its host web page in an Internet Explorer browser window.
 

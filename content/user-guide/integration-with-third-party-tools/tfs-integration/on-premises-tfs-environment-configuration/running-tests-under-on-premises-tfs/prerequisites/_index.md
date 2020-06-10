@@ -17,7 +17,7 @@ This topic describes the requirements that must be met by the systems involved i
 ## TestArchitect Client computer on which you create and configure tests
 
 -   TestArchitect Client.
--   The TA-TFS plug-in. \([Learn more](ug_MTM_installing_TA_plugin.html).\)
+-   The TA-TFS plug-in. \([Learn more](/TA_Help/Topics/ug_MTM_installing_TA_plugin.html).\)
 -   Microsoft Visual Studio, including Microsoft Test Manager:
     -   Microsoft Visual Studio [2017 Update 2](https://www.visualstudio.com/en-us/news/releasenotes/tfs2017-update2), [2017 Update 1](https://www.visualstudio.com/en-us/news/releasenotes/tfs2017-update1) \(Enterprise and Professional editions\)
     -   Microsoft Visual Studio [2015](https://msdn.microsoft.com/en-us/library/dd831853(v=vs.140).aspx), 2015 Update 1 \(Enterprise, Professional and Test Professional editions\).
@@ -41,19 +41,19 @@ This topic describes the requirements that must be met by the systems involved i
 **Remember:**
 
 
-Additionally, it is required that you be familiar with how to automate test cases in MTM \([learn more](ug_MTM_automating_TC.html)\), and that you have:
+Additionally, it is required that you be familiar with how to automate test cases in MTM \([learn more](/TA_Help/Topics/ug_MTM_automating_TC.html)\), and that you have:
 
 -   Deployed and configured:
-    -   [build server](ug_MTM_config_build_server.html),
-    -   [build controller](ug_MTM_config_build_controller.html), and
-    -   [build agent](ug_MTM_build_agent.html)
+    -   [build server](/TA_Help/Topics/ug_MTM_config_build_server.html),
+    -   [build controller](/TA_Help/Topics/ug_MTM_config_build_controller.html), and
+    -   [build agent](/TA_Help/Topics/ug_MTM_build_agent.html)
 -   Configured and registered:
-    -   [test controller](Integrate_MTM_Config_TestController.html) and
-    -   [test agent](Integrate_MTM_Config_TestAgent.html).
--   Created and configured a TFS build definition. \([Learn more](MTM_create_build_definition.html).\)
--   Queued the new build. \([Learn more](MTM_queue_XAML_build.html).\)
--   Created a new environment in MTM Lab Center. \([Learn more](ug_MTM_create_lab_environment.html).\)
--   Configured run settings. \([Learn more](MTM_create_run_settings.html).\)
+    -   [test controller](/TA_Help/Topics/Integrate_MTM_Config_TestController.html) and
+    -   [test agent](/TA_Help/Topics/Integrate_MTM_Config_TestAgent.html).
+-   Created and configured a TFS build definition. \([Learn more](/TA_Help/Topics/MTM_create_build_definition.html).\)
+-   Queued the new build. \([Learn more](/TA_Help/Topics/MTM_queue_XAML_build.html).\)
+-   Created a new environment in MTM Lab Center. \([Learn more](/TA_Help/Topics/ug_MTM_create_lab_environment.html).\)
+-   Configured run settings. \([Learn more](/TA_Help/Topics/MTM_create_run_settings.html).\)
 
 **Parent topic:**[Running automated tests under on-premises Team Foundation Server](/TA_Help/Topics/ug_MTM_test_execution.html)
 

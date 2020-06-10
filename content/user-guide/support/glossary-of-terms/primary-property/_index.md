@@ -6,5 +6,5 @@ aliases:
     - /TA_Glossary/Topics/glossaryPrimaryProperty.html
 ---
 
-A [TA property](glossaryTAProperty.html) whose assigned value is derived more or less directly from a given native control property.
+A [TA property](/TA_Glossary/Topics/glossaryTAProperty.html) whose assigned value is derived more or less directly from a given native control property.
 

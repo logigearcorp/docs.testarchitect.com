@@ -8,7 +8,7 @@ aliases:
 
 After creating a build definition, the new build must be queued.
 
-After creating and configuring a build definition \([learn more](ug_MTM_build_definition.html)\), run it to create a build instance to be associated with a test plan:
+After creating and configuring a build definition \([learn more](/TA_Help/Topics/ug_MTM_build_definition.html)\), run it to create a build instance to be associated with a test plan:
 
 -   **[Queueing a new XAML build](/TA_Help/Topics/MTM_queue_XAML_build.html)**  
 After creating an XML build definition, the new build must be queued.

@@ -45,7 +45,7 @@ To install a ZBot agent and deploy a custom TestArchitect ZIP project, carry out
 
 **Note:**
 
--   Prior to [running automated tests from Zephyr](ug_Zephyr_executing_tests.html), it is required that you repeat step [5](ug_Zephyr_ZBot.html#step_start_zbot) to start the ZBot service manually.
+-   Prior to [running automated tests from Zephyr](/TA_Help/Topics/ug_Zephyr_executing_tests.html), it is required that you repeat step [5](/TA_Help/Topics/ug_Zephyr_ZBot.html#step_start_zbot) to start the ZBot service manually.
 -   It is also recommended that on Windows you do not start ZBot through the standard Windows Services application. Otherwise, ZBot may not be launched properly.
 
 **Parent topic:**[Setting up the connection with Zephyr](/TA_Help/Topics/ug_Zephyr_setting_up_connection.html)

@@ -8,7 +8,7 @@ aliases:
 
 This topic describes how to install and configure a test controller. You must install and configure at least one test controller for your team project collection, before you create a lab environment in that team project collection. When you configure a test controller for a lab environment, you have to register it with your team project collection.
 
-Ensure that you have installed the supported components on your computer. \([Learn more](ug_MTM_VS_components.html).\)
+Ensure that you have installed the supported components on your computer. \([Learn more](/TA_Help/Topics/ug_MTM_VS_components.html).\)
 
 1.  Please refer to Microsoft's instructions on configuring and registering a test controller:
 

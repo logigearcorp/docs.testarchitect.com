@@ -24,8 +24,8 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   If condition evaluates to True, the succeeding block of action lines up until the first occurrence of an [else](else.html), [else if](else_if.html), or [end if](end_if.html), is executed. If False, that block is skipped.
--   This action ignores letter case for values of True and False, and is unaffected by the current state of the [case sensitive](case_sensitive.html) built-in setting.
+-   If condition evaluates to True, the succeeding block of action lines up until the first occurrence of an [else](/TA_Automation/Topics/bia_else.html), [else if](/TA_Automation/Topics/bia_else_if.html), or [end if](/TA_Automation/Topics/bia_end_if.html), is executed. If False, that block is skipped.
+-   This action ignores letter case for values of True and False, and is unaffected by the current state of the [case sensitive](/TA_Automation/Topics/bis_case_sensitive.html) built-in setting.
 -   It is acceptable to use numeric expressions in the conditionargument. TestArchitect treats the value 0 as False, and 1 as True. Note that an error is generated for any other numeric value.
 -   The following operators may be used within an expression in thecondition argument:
 
@@ -44,12 +44,12 @@ This action may be used within the following project items:test modules and user
     |6|and|Value is TRUE if and only if both sides of the and operator are TRUE.|
     |7|or|Value is TRUE if either side of the or operator is TRUE.|
 
-    **Note:** For the full list of operator precedence, see [here](aut_operator_precedence.html).
+    **Note:** For the full list of operator precedence, see [here](/TA_Automation/Topics/aut_operator_precedence.html).
 
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html)none.
+The following settings are applicable to this action:[remove double quotes from cells](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html)none.
 
 ## Example
 

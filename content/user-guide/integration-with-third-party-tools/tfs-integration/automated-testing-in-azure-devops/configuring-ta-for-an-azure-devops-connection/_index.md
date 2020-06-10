@@ -22,7 +22,7 @@ To configure TA for an integration with an Azure DevOps account, do the followin
 
 5.  In the **Available options** box, type server=https://dev.visualstudio.com/<organization\> or server=https://<organization\>.visualstudio.com
 
-6.  Next to **Test Result Status Mapping**, define the special mapping status between TestArchitect test results and TFS outcomes. \([Learn more](ug_MTM_mapping_result_table.html).\)
+6.  Next to **Test Result Status Mapping**, define the special mapping status between TestArchitect test results and TFS outcomes. \([Learn more](/TA_Help/Topics/ug_MTM_mapping_result_table.html).\)
 
     ![](/images//Images/ug_MTM_mapping_results.png)
 

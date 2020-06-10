@@ -50,7 +50,7 @@ Following are the fields of the Execute Test dialog box:
             -   Option \#2: In the Test Modules panel, select a desired test module and then click the **Move Up** button or the **Move Down** button, until the test module reaches the desired position. Repeat for other desired test modules.
             **Restriction:** Moving multiple test modules at once is not allowed.
 
-    -   **Save as Test Suite**: Use this button to create a static test suite containing the group of test modules listed in the Test Module panel. \([Learn more](Test_suite_item_static.html).\)
+    -   **Save as Test Suite**: Use this button to create a static test suite containing the group of test modules listed in the Test Module panel. \([Learn more](/TA_Help/Topics/Test_suite_item_static.html).\)
 2.  **General** tab:
     1.  Settings panel:
 
@@ -90,52 +90,52 @@ Following are the fields of the Execute Test dialog box:
             3.  Controller Port Configuration: Use this panel to specify to TestArchitect the port number that the remote machine is using for its TestArchitect Controller, if not using the default.
                 -   **IP/Server Name**: \(Display only\) IP address of remote machine currently selected in the Controllers/Devices panel.
                 -   **Port**: Port number through which TestArchitect will attempt to communicate with the controller on the host specified in the **IP/Server Name** field. If this is not the port on which the controller is known to be listening, change this value and then click **Save** ![](/images//Images/btn.TAC_toolbar.SaveFile.png).
-        **Note:** To run tests on multiple controllers or devices simultaneously, see [Multiple device execution](Test_exec_multiple_device_execution.html#step_exk_bfm_gk) for details.
+        **Note:** To run tests on multiple controllers or devices simultaneously, see [Multiple device execution](/TA_Help/Topics/Test_exec_multiple_device_execution.html#step_exk_bfm_gk) for details.
 
     3.  Variation Specification panel:
-        1.  **Keyword**: Keyword, or comma-delimited list of keywords, specifying the test variation to be executed, if any. \(See [Creating keyword variations](Variations_create_keyword.html).\)
+        1.  **Keyword**: Keyword, or comma-delimited list of keywords, specifying the test variation to be executed, if any. \(See [Creating keyword variations](/TA_Help/Topics/Variations_create_keyword.html).\)
 
-            **Attention:** If the test module selected for execution is a [variation](ug_TM_create_variation.html), this field is automatically filled in. If multiple test module variations are selected for execution and they do not all feature identical keyword sets, this field is not auto-filled.
-
-            ![](/images//Images/TM_var_execution.png)
-
-        2.  **AUT Version**: Enter a value or click the **Select Version** button to specify a variation tailored to an AUT version or platform \(See [Creating linked variations](Variations_create_linked.html).\)
-
-            **Attention:** If the test module selected for execution is a [variation](ug_TM_create_variation.html), this field is automatically filled in. If multiple test module variations are selected for execution and they do not all feature identical keyword sets, this field is not auto-filled.
+            **Attention:** If the test module selected for execution is a [variation](/TA_Help/Topics/ug_TM_create_variation.html), this field is automatically filled in. If multiple test module variations are selected for execution and they do not all feature identical keyword sets, this field is not auto-filled.
 
             ![](/images//Images/TM_var_execution.png)
 
-        3.  **Time Traveling**: To opt for time traveling execution, which selects a historical “snapshot” of the test's project items for execution during the test run, select the check box and provide an appropriate timestamp. \(See [Time Traveling](ug_time_traveling.html) for details.\)
-    4.  Screenshot recording panel: Use this panel to enable and configure the capturing of screenshots of [UI-Interacting actions](/TA_Automation/Topics/timing_classifying_actions.html). For details, see [Capturing screenshots during test execution](ug_Screenshot_recording.html#li.screenshot.exec_test_dlg.settings)
+        2.  **AUT Version**: Enter a value or click the **Select Version** button to specify a variation tailored to an AUT version or platform \(See [Creating linked variations](/TA_Help/Topics/Variations_create_linked.html).\)
+
+            **Attention:** If the test module selected for execution is a [variation](/TA_Help/Topics/ug_TM_create_variation.html), this field is automatically filled in. If multiple test module variations are selected for execution and they do not all feature identical keyword sets, this field is not auto-filled.
+
+            ![](/images//Images/TM_var_execution.png)
+
+        3.  **Time Traveling**: To opt for time traveling execution, which selects a historical “snapshot” of the test's project items for execution during the test run, select the check box and provide an appropriate timestamp. \(See [Time Traveling](/TA_Help/Topics/ug_time_traveling.html) for details.\)
+    4.  Screenshot recording panel: Use this panel to enable and configure the capturing of screenshots of [UI-Interacting actions](/TA_Automation/Topics/timing_classifying_actions.html). For details, see [Capturing screenshots during test execution](/TA_Help/Topics/ug_Screenshot_recording.html#li.screenshot.exec_test_dlg.settings)
 3.  **Advanced** tab:
-    1.  **Export Result\(s\) to TARESULT**: Export test results to .TARESULT files automatically once the text execution is complete. \([Learn more](ug_test_results_export_TARESULT.html)\).
+    1.  **Export Result\(s\) to TARESULT**: Export test results to .TARESULT files automatically once the text execution is complete. \([Learn more](/TA_Help/Topics/ug_test_results_export_TARESULT.html)\).
 
         ![](/images//Images/Advaned_tab_Export_TARESULT.png)
 
-        -   **Include screenshots**: Retain all [captured screenshots](ug_Screenshot_recording.html) in the exported .TARESULT test result.
-        -   Include all sub test results: If the exported test result is a master result, meaning, it is a [test suite result](ug_test_results_introduction.html#section.TS_results), or it contains [subresults](ug_test_results_introduction.html#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into .TARESULT format.
-    2.  **Export Result\(s\) to HTML**: Export test results to HTML file automatically once the text execution is complete \([learn more](Test_result_export_HTML.html)\).
+        -   **Include screenshots**: Retain all [captured screenshots](/TA_Help/Topics/ug_Screenshot_recording.html) in the exported .TARESULT test result.
+        -   Include all sub test results: If the exported test result is a master result, meaning, it is a [test suite result](/TA_Help/Topics/ug_test_results_introduction.html#section.TS_results), or it contains [subresults](/TA_Help/Topics/ug_test_results_introduction.html#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into .TARESULT format.
+    2.  **Export Result\(s\) to HTML**: Export test results to HTML file automatically once the text execution is complete \([learn more](/TA_Help/Topics/Test_result_export_HTML.html)\).
 
         ![](/images//Images/Advanced_tab_Export_HMTL.png)
 
         -   Create folder structure: Select whether the folder structure or flat structure directory is created to store HTML results.
             -   Folder structure \(the **Create folder structure** check box is enabled\): TestArchitect creates a hierarchical tree structure, or subdirectories to store HTML results.
             -   Flat structure \(the **Create folder structure** check box is cleared\): TestArchitect does not create subdirectories. There is only a single top-level directory that contains all HTML results.
-        -   Include all sub test results: If the exported test result is a master result, that is, it is a [test suite result](ug_test_results_introduction.html#section.TS_results) or it contains [subresults](ug_test_results_introduction.html#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into HTML files.
+        -   Include all sub test results: If the exported test result is a master result, that is, it is a [test suite result](/TA_Help/Topics/ug_test_results_introduction.html#section.TS_results) or it contains [subresults](/TA_Help/Topics/ug_test_results_introduction.html#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into HTML files.
         -   Apply customized XSLT template: Export HTML results with your own view layout.
-        -   **Include screenshots**: Retain all [captured screenshots](ug_Screenshot_recording.html) in the exported HTML test result.
+        -   **Include screenshots**: Retain all [captured screenshots](/TA_Help/Topics/ug_Screenshot_recording.html) in the exported HTML test result.
             -   Optimized resolution: Included screenshot's dimensions are optimized to save space in the exported HTML test results. Specifically, the screenshots are saved as thumbnail images.
             -   Regular resolution: Original resolution of included screenshots is retained. Specifically, the screenshots are saved as full size images.
-    3.  **Export result\(s\) to xUnit**: Export test results to a XML file automatically in xUnit-format for integrating into the [continuous integration tools](Integration_xUnit.html) once the text execution is complete.
+    3.  **Export result\(s\) to xUnit**: Export test results to a XML file automatically in xUnit-format for integrating into the [continuous integration tools](/TA_Help/Topics/Integration_xUnit.html) once the text execution is complete.
 
         ![](/images//Images/Advanced_tab_Export_xUnit.png)
 
-    4.  **Export result\(s\) to XML detail**: Export test results to XML file automatically once the text execution is complete \(see [Exporting test results to XML](Test_result_export_XML.html) for more details\).
+    4.  **Export result\(s\) to XML detail**: Export test results to XML file automatically once the text execution is complete \(see [Exporting test results to XML](/TA_Help/Topics/Test_result_export_XML.html) for more details\).
 
         ![](/images//Images/Advanced_tab_Export_XML.png)
 
-    5.  **Upload result to <externalTool\>**: Automatically upload test results to an external test tool, such as, Team Foundation Server-Microsoft Team Manger \([TFS-MTM](ug_MTM_def.html)\) or [HP Quality Center](Integration_QC_intro.html), after the test is terminated.
-    6.  **Automatically add result\(s\) to repository**: TestArchitect automatically stores the test results, based on predefined conditions, to a specific location on a repository once the text execution is complete. \([Learn more](Test_result_storing_automatically.html).\)
+    5.  **Upload result to <externalTool\>**: Automatically upload test results to an external test tool, such as, Team Foundation Server-Microsoft Team Manger \([TFS-MTM](/TA_Help/Topics/ug_MTM_def.html)\) or [HP Quality Center](/TA_Help/Topics/Integration_QC_intro.html), after the test is terminated.
+    6.  **Automatically add result\(s\) to repository**: TestArchitect automatically stores the test results, based on predefined conditions, to a specific location on a repository once the text execution is complete. \([Learn more](/TA_Help/Topics/Test_result_storing_automatically.html).\)
 
         ![](/images//Images/Advanced_tab_Add_res_to_repo.png)
 

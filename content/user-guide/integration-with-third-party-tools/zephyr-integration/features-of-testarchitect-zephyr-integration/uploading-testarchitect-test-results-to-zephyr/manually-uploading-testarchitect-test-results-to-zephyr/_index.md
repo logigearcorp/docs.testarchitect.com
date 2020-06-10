@@ -16,8 +16,8 @@ TestArchitect test results from projects or test cases which are mapped to Zephy
 
 Ensure that you have already taken the following steps:
 
--   [Registered the Zephyr server with TestArchitect](ug_Zephyr_registering_server.html).
--   [Mapped the TestArchitect project containing the test cases of interest to a Zephyr project](ug_Zephyr_mapping_projects.html).
+-   [Registered the Zephyr server with TestArchitect](/TA_Help/Topics/ug_Zephyr_registering_server.html).
+-   [Mapped the TestArchitect project containing the test cases of interest to a Zephyr project](/TA_Help/Topics/ug_Zephyr_mapping_projects.html).
 -   In Zephyr, added the tests to a test cycle and assigned them to a user.
 
     **Note:** Test cycles, and the test phases which comprise them, are Zephyr entities and are beyond the scope of this help system. Further information on them is available at [https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/263554868/Test+Planning](https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/263554868/Test+Planning).
@@ -29,7 +29,7 @@ Ensure that you have already taken the following steps:
 
 To manually upload TestArchitect test results to Zephyr:
 
-1.  In the TestArchitect explorer tree or [a result list view](Listview_results.html), right-click the preferred test result or test result folder, and then select **External Tool** \> **Zephyr** \> **Upload to Zephyr**.
+1.  In the TestArchitect explorer tree or [a result list view](/TA_Help/Topics/Listview_results.html), right-click the preferred test result or test result folder, and then select **External Tool** \> **Zephyr** \> **Upload to Zephyr**.
 
 2.  In the Select Test Case To Upload dialog box,
 
@@ -50,7 +50,7 @@ To manually upload TestArchitect test results to Zephyr:
 
 TestArchitect test results are uploaded to Zephyr in ZIP format.
 
-To view the uploaded results on Zephyr, see the [next topic](ug_Zephyr_viewing_uploaded_results.html).
+To view the uploaded results on Zephyr, see the [next topic](/TA_Help/Topics/ug_Zephyr_viewing_uploaded_results.html).
 
 **Parent topic:**[Uploading TestArchitect test results to Zephyr](/TA_Help/Topics/ug_Zephyr_uploading_results.html)
 

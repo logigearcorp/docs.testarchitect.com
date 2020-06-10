@@ -10,8 +10,8 @@ In practice, there are occasions where you might need to write and schedule a ba
 
 Ensure that the following requirements are met:
 
--   Be familiar with silent [installation](inst_TA_silent_mode.html) and [uninstallation](uninst_TA_silent_mode.html).
--   Create [installation](inst_TA_silent_mode_creating_response_file.html) and [uninstallation](uninst_TA_silent_mode_creating_response_file.html) response files.
+-   Be familiar with silent [installation](/TA_InstallationGuide/DITA_source/Topics/inst_TA_silent_mode.html) and [uninstallation](/TA_InstallationGuide/DITA_source/Topics/uninst_TA_silent_mode.html).
+-   Create [installation](/TA_InstallationGuide/DITA_source/Topics/inst_TA_silent_mode_creating_response_file.html) and [uninstallation](/TA_InstallationGuide/DITA_source/Topics/uninst_TA_silent_mode_creating_response_file.html) response files.
 -   Back up abt.ini and automation.ini from the computer creating the response files.
 
     **Note:**
@@ -46,7 +46,7 @@ Ensure that the following requirements are met:
     taskkill /IM TestArchitectHelp.exe /F /T
     ```
 
-3.  Uninstall previously installed TestArchitect by entering the following command. `<UninstallString value> /s /f1<path_to_response_file>\<respone_file>.iss /f2<path_to_log_file>\<log_file>.log` \([Learn more](uninst_TA_silent_mode_running_response_file.html).\)
+3.  Uninstall previously installed TestArchitect by entering the following command. `<UninstallString value> /s /f1<path_to_response_file>\<respone_file>.iss /f2<path_to_log_file>\<log_file>.log` \([Learn more](/TA_InstallationGuide/DITA_source/Topics/uninst_TA_silent_mode_running_response_file.html).\)
 
     **Note:** If you do not installTestArchitect yet, proceed to step \#6.
 
@@ -82,7 +82,7 @@ Ensure that the following requirements are met:
     ping 127.0.0.1 -n 31 > nul
     ```
 
-6.  Begin to install a newer version of TestArchitect by entering the following command. `<path_to_installation_file>\<TestArchitect_installation_file.exe> /s /f1<path_to_response_file>\<respone_file>.iss /f2<path_to_log_file>\<log_file>.log` \([Learn more](inst_TA_silent_mode_running_response_file.html).\)
+6.  Begin to install a newer version of TestArchitect by entering the following command. `<path_to_installation_file>\<TestArchitect_installation_file.exe> /s /f1<path_to_response_file>\<respone_file>.iss /f2<path_to_log_file>\<log_file>.log` \([Learn more](/TA_InstallationGuide/DITA_source/Topics/inst_TA_silent_mode_running_response_file.html).\)
 
     For example, enter the code line below.
 

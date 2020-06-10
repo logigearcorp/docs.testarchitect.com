@@ -21,7 +21,7 @@ To have user-defined fields in TA bugs that can accept values from JIRA, repeat 
     -   **Name**: Be sure to enter a name which is identical to the existing JIRA field, for example Affects Build.
     -   **Applied To**: Select Bug entity.
     -   **Value Type**: Select Single line text or Multi line text.
-2.  Create a [registered bug](JIRA_creating_registered_bugs.html). Note that the new field appears in it.
+2.  Create a [registered bug](/TA_Help/Topics/JIRA_creating_registered_bugs.html). Note that the new field appears in it.
 
 
 The TestArchitect user-defined field loads additional value from JIRA field, as depicted below:

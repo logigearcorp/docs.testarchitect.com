@@ -12,5 +12,5 @@ Also referred to as: **TA Agent**.
 
 **Note:**
 
--   Do not confuse with [TestArchitect Automation Agent](glossaryTAAutomationAgent.html), which is used for web testing, nor with [TestArchitect agent license](glossaryTAAgentLicense.html), which grants rights to the TestArchitect Controller service.
+-   Do not confuse with [TestArchitect Automation Agent](/TA_Glossary/Topics/glossaryTAAutomationAgent.html), which is used for web testing, nor with [TestArchitect agent license](/TA_Glossary/Topics/glossaryTAAgentLicense.html), which grants rights to the TestArchitect Controller service.
 

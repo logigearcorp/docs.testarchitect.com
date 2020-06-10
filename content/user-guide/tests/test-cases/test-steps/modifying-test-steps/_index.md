@@ -10,7 +10,7 @@ After creating test steps, you can modify them.
 
 To modify a test step, follow these steps:
 
-1.  [Check out](Project_items_checkout.html) a test module.
+1.  [Check out](/TA_Help/Topics/Project_items_checkout.html) a test module.
 
 2.  In the TestArchitect explorer tree, double-click the test case containing test steps that you want to edit.
 

@@ -12,7 +12,7 @@ Test modules included in a dynamic test suite are executed in the order in which
 
 Note, however, that there are limitations to what you can do with the sort order of items in a dynamic test suite. If you want to order the test modules in some arbitrary way, you have two options:
 
-1.  Use a [static test suite](Test_suite_item_static.html);
+1.  Use a [static test suite](/TA_Help/Topics/Test_suite_item_static.html);
 2.  Add a [user-defined field](/TA_Administration/Topics/User_defined_fields_create.html) to the test module item definition in your repository. Assign values to that field for all the test modules of your dynamic test suite, so that sorting by that field causes the modules to be ordered as you prefer. Then modify the data profile of the test suite to sort by that field.
 
 The following offers a simple example of rearranging the test modules in a dynamic test suite:
@@ -21,7 +21,7 @@ The following offers a simple example of rearranging the test modules in a dynam
 
     **Note:** If you right-click a static test suite node, the **Edit data profile** option is unavailable.
 
-2.  In the Edit Profile panel, [customize](Report_customizing.html) the data profile so that the order of the test modules reflect your preferred sequence of execution.
+2.  In the Edit Profile panel, [customize](/TA_Help/Topics/Report_customizing.html) the data profile so that the order of the test modules reflect your preferred sequence of execution.
 
     For example, you have created a customized data profile named Functional Tests, a list of test modules whose parent test folder's locations contain the string Functional. This list is currently sorted in the ascending order as illustrated in the screenshot below.
 
@@ -31,7 +31,7 @@ The following offers a simple example of rearranging the test modules in a dynam
 
     1.  In the **Name** attribute, select the **Sort** check box.
 
-        The **Sort** check box in the Test module attributes panel enables the sorting of records in the generated report by their attributes. \(See [Sorting attributes](Report_customizing.html#section_dr2_htp_14) for details.\)
+        The **Sort** check box in the Test module attributes panel enables the sorting of records in the generated report by their attributes. \(See [Sorting attributes](/TA_Help/Topics/Report_customizing.html#section_dr2_htp_14) for details.\)
 
         ![](/images//Images/Edit_profile_panel_example_Sort.png)
 

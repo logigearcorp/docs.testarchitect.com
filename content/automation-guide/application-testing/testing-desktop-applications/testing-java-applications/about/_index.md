@@ -27,7 +27,7 @@ Auto-generated action lines can subsequently be modified and enhanced by hand in
 
 ## Actions supported for Java controls
 
-TestArchitect provides many built-in actions for automating various user interactions on Java applications. When you record a test, TestArchitect records the performed GUI actions using these built-in actions. A full reference guide to these actions may be found in the [User Interface actions](User_Interface.html) section of the Automation Guide.
+TestArchitect provides many built-in actions for automating various user interactions on Java applications. When you record a test, TestArchitect records the performed GUI actions using these built-in actions. A full reference guide to these actions may be found in the [User Interface actions](/TA_Automation/Topics/bia_User_Interface.html) section of the Automation Guide.
 
 ## Java control identification
 
@@ -37,13 +37,13 @@ Generally, only a small subset of a control's properties are useful for identifi
 
 The [Interface Viewer](/reuse/../TA_Help/Topics/Interface_def_Viewer.html) is a powerful support tool that allows you to view all of a control's available properties, to capture and save all or parts of an interface definition, and to explore the controls of an application's interface. The following image depicts the Interface Viewer examining the controls of aJava application.
 
-![](/images//Images/TA_Automation/Images/aut_interface_definition_UI_Java_identification.png)
+![](/images/TA_Automation/Images/aut_interface_definition_UI_Java_identification.png)
 
 ## Native Java properties
 
 TestArchitect defines its own set of properties, named [TA properties](/reuse/../TA_Help/Topics/Interface_def_Viewer_reading.html), which it applies toJava controls. The Interface Viewer displays not only the TA properties of aJava application's controls, but also exposes all of the controls' [native properties](/reuse/../TA_Help/Topics/Interface_def_Viewer_reading.html). These are the same properties that are available in the application’s source code and used by the application developers. You may use these native properties to capture controls or automate tests.
 
-![](/images//Images/TA_Automation/Images/aut_interface_definition_Java_Native_properties.png)
+![](/images/TA_Automation/Images/aut_interface_definition_Java_Native_properties.png)
 
 **Parent topic:**[Testing Java applications](/TA_Automation/Topics/aut_app_testing_Java_apps.html)
 

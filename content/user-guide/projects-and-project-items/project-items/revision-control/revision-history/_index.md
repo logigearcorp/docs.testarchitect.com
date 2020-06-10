@@ -11,15 +11,15 @@ The TestArchitect repository saves pertinent information on a project item every
 The repository stores the file history of all revisions of checked in files. For each checked in file, the repository keeps:
 
 1.  Checked-in date and time, called timestamp, in the format of mm/dd/yyyy hh:mm:ss.mmm
-2.  Assigned version: that is, the [AUT version\(s\)](Variations_create_linked.html) assigned to a specific revision.
+2.  Assigned version: that is, the [AUT version\(s\)](/TA_Help/Topics/Variations_create_linked.html) assigned to a specific revision.
 3.  Project name
 4.  Project item type, of which the possible values are:
     -   [User-defined action](/reuse/reuse.High_level_actions.html)
-    -   [Test module](Create_test_module.html)
-    -   [Interface entity](Interface_entities_and_elements.html)
-    -   [$ Class Map](Interface_def_Viewer_class_mapping.html)
-    -   [Data set](Projects_and_tests_dataset.html)
-    -   [Variation](Variations.html)
+    -   [Test module](/TA_Help/Topics/Create_test_module.html)
+    -   [Interface entity](/TA_Help/Topics/Interface_entities_and_elements.html)
+    -   [$ Class Map](/TA_Help/Topics/Interface_def_Viewer_class_mapping.html)
+    -   [Data set](/TA_Help/Topics/Projects_and_tests_dataset.html)
+    -   [Variation](/TA_Help/Topics/Variations.html)
 5.  Project item name
 6.  User who checked in the file
 7.  Check-in comments

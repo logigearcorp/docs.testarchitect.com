@@ -16,7 +16,7 @@ Ensure that the following requirements are met:
 
 To open a TestArchitect test result within a browser, do the following:
 
-1.  Retrieve and copy the web link address of the TestArchitect [repository test results](Test_result_storing.html) from one of the following:
+1.  Retrieve and copy the web link address of the TestArchitect [repository test results](/TA_Help/Topics/Test_result_storing.html) from one of the following:
 
     -   In TestArchitect, from the **Web Link** field on the **Information** tab of the result, or
 

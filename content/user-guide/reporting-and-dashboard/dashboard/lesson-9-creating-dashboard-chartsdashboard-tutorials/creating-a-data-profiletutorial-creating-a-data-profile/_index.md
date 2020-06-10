@@ -12,13 +12,13 @@ In this activity, you will create a data profile.Data profiles are required by a
 **Before proceeding:**
 
 -   Ensure that you have a basic understanding of the TestArchitect Dashboard and its purpose.
--   [A Dashboard portal, connected to the Sample Repository, should be open](tutDashboard_launching_Dashboard.html) in your browser.
+-   [A Dashboard portal, connected to the Sample Repository, should be open](/TA_Tutorials/Topics/tutDashboard_launching_Dashboard.html) in your browser.
 
 A Dashboard panel, be it a chart, heat map, indicator or report, is driven by a data profile. A data profile specifies the source\(s\) of the data \(one or two item of the connected repository\), restrictions \(in the form of filters\) on how much of that data is used, and other settings that determine how the data is displayed in various contexts.
 
 1.  On the Dashboard tool bar, point to **Global Setting** and select **Create Profile**
 
-    ![](/TA_Help/Images/Dashboard_create_profile.png)
+    ![](/images/TA_Automation/Images/Dashboard_create_profile.png)
 
 2.  On the General Settings page, enter the following information then click **Next**:
 

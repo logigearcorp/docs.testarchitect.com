@@ -22,7 +22,7 @@ TestArchitect, in support of the Action Based Testing model, is built around tes
 
 3.  Expand the **Car Rental** project node in the TestArchitect explorer tree by clicking the **+** symbol next to the node.
 
-4.  In the TestArchitect explorer tree, select any item within the current project, then click **Create new test module** ![](/images//Images/TA_Tutorials/Images/btn.TAC_toolbar.CreateTestModule.png) in the toolbar.
+4.  In the TestArchitect explorer tree, select any item within the current project, then click **Create new test module** ![](/images/TA_Tutorials/Images/btn.TAC_toolbar.CreateTestModule.png) in the toolbar.
 
     The New Test Module dialog box appears.
 
@@ -34,7 +34,7 @@ TestArchitect, in support of the Action Based Testing model, is built around tes
 
     ![](/images//Images/tut.Simple_Tests.creating01.PNG)
 
-    Also note that the test module template, as described in the topic [The test module and template](The_test_module_template.html) has been inserted into the editor. The template contains various *test support* actions \(test case, test objective, `INITIAL`, etc.\) which are not executed at run time. These actions are both documentary, and serve as a means of partitioning the test module into parts that can be executed separately.
+    Also note that the test module template, as described in the topic [The test module and template](/TA_Tutorials/Topics/The_test_module_template.html) has been inserted into the editor. The template contains various *test support* actions \(test case, test objective, `INITIAL`, etc.\) which are not executed at run time. These actions are both documentary, and serve as a means of partitioning the test module into parts that can be executed separately.
 
 7.  A test module template is displayed in the editor. test case is on cell **A14** \(column A, row A14\).
 

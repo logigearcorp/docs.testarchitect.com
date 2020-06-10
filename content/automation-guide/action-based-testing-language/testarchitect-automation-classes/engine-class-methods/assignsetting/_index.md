@@ -32,8 +32,8 @@ Return 1 if the call is successful; otherwise, 0.If unsuccessful, the diagnostic
 ## Notes
 
 -   Settings have a wide variety of uses to tune the behavior of the engine or any other part of the automation.
--   Settings can be saved in a file with [SaveProfile](abtf_SaveProfile.html).
--   When this file is specified as parameter in [Start](abtf_Start.html) or is read with [Intake](abtf_Intake.html), the saved settings are made available again.
+-   Settings can be saved in a file with [SaveProfile](/TA_Automation/Topics/abtf_SaveProfile.html).
+-   When this file is specified as parameter in [Start](/TA_Automation/Topics/abtf_Start.html) or is read with [Intake](/TA_Automation/Topics/abtf_Intake.html), the saved settings are made available again.
 
 **Parent topic:**[Engine class methods](/TA_Automation/Topics/abtf_Engine_classes.html)
 

@@ -8,13 +8,13 @@ aliases:
 
 TestArchitect provides sample test modules that demonstrate automated testing of the Scrum Board web application.
 
-Ensure that the TestArchitect Automation Agent is installed and enabled in whichever browser \(Google Chrome, Mozilla Firefox, or Internet Explorer\) you plan to host the Scrum Board sample application. See [Automation Agent Manager](/TA_Help/Topics/Test_exec_automation_agent_manager.html) and [Preparing web browsers](SR_Enabling_TA_automation_agent_def.html) for details on how to install the TestArchitect Automation Agent and enable the agent in a browser.
+Ensure that the TestArchitect Automation Agent is installed and enabled in whichever browser \(Google Chrome, Mozilla Firefox, or Internet Explorer\) you plan to host the Scrum Board sample application. See [Automation Agent Manager](/TA_Help/Topics/Test_exec_automation_agent_manager.html) and [Preparing web browsers](/TA_Tutorials_Sample_App/Topics/SR_Enabling_TA_automation_agent_def.html) for details on how to install the TestArchitect Automation Agent and enable the agent in a browser.
 
 To execute the Scrum Board sample:
 
 1.  With TestArchitect running, double-click the **SampleRepository** node on the TestArchitect explorer tree.
 
-    ![](/images//Images/TA_Tutorials/Images/tut.Login_Repository.png)
+    ![](/images/TA_Tutorials/Images/tut.Login_Repository.png)
 
 2.  In the Log In Repository dialog box, type administrator in the **User Name** box, leave the **Password** box blank, and click **OK**.
 

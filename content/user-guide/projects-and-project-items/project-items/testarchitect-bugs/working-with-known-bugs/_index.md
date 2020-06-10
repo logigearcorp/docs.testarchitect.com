@@ -20,7 +20,7 @@ With the aid of **Mark As Known Bug**, the 20 fails from the first test run can 
 
 It should be understood that marked bugs do not affect the flow of execution of a test. The action lines associated with a marked bug are still executed as before. The only effect a marked bug has is that the particular result associated with it is omitted from the standard test results display.
 
-That said, the reality is that TestArchitect does, in fact, take note of the outcomes of tests that are marked as known bugs. These are reported in the [Known bug summary](Bugs_working_known_bug_reviewing_test_results.html) section of the test results, separate from the main body. This reporting aids you in deciding whether, and how, the status of each given bug should be changed.
+That said, the reality is that TestArchitect does, in fact, take note of the outcomes of tests that are marked as known bugs. These are reported in the [Known bug summary](/TA_Help/Topics/Bugs_working_known_bug_reviewing_test_results.html) section of the test results, separate from the main body. This reporting aids you in deciding whether, and how, the status of each given bug should be changed.
 
 1.  [Tracking known bugs](/TA_Help/Topics/Bugs_working_known_bug_marking.html)  
 Known bugs in a test may be flagged, or marked. Marking known bugs allows the fails associated with the bugs to be ignored, so that they are not counted in test results.

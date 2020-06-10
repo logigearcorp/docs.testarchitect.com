@@ -20,7 +20,7 @@ To configure the browser settings, carry out the following steps:
 
     2.  Select the **Allow active content to run in files on My computer** check box.
 
-        ![](/TA_Tutorials_Sample_App/Images/ug_taextension_ie_1.png)
+        ![](/images/TA_Automation/Images/ug_taextension_ie_1.png)
 
 4.  With Internet Explorer version 10 or 11 running on the Windows Server 2008, Windows Server 2012, Windows 8, or Windows 8.1 platform, the following additional configurations must be set:
 
@@ -34,14 +34,14 @@ To configure the browser settings, carry out the following steps:
         1.  On the same tab \(**Advanced**\), scroll to the **Browsing** section.
         2.  Select the **Enable third-party browser extensions** check box.
 
-            ![](/TA_Tutorials_Sample_App/Images/ug_taextension_ie_2.png)
+            ![](/images/TA_Automation/Images/ug_taextension_ie_2.png)
 
     2.  Disable Enhanced Protected Mode:
 
         1.  In the same Settings panel, scroll to the **Security** section.
         2.  Clear the **Enable Enhanced Protected Mode** check box.
 
-            ![](/TA_Tutorials_Sample_App/Images/ug_taextension_ie_3.png)
+            ![](/images/TA_Automation/Images/ug_taextension_ie_3.png)
 
 5.  Click **OK** to save your changes.
 

@@ -12,7 +12,7 @@ This second example explores the steps involved in mapping to custom fields in t
 
 2.  Create a custom field in the Quality Center RUN table \(for example, **label = OSRun, Type = String**, **Required** check box unselected\).
 
-3.  In TestArchitect, upload a test module \(for example, Calculation result\) to Quality Center \(see [Uploading TestArchitect test modules/test cases to Quality Center](Integration_QC_test_development_step_2.html)\) and run a test in Quality Center.
+3.  In TestArchitect, upload a test module \(for example, Calculation result\) to Quality Center \(see [Uploading TestArchitect test modules/test cases to Quality Center](/TA_Help/Topics/Integration_QC_test_development_step_2.html)\) and run a test in Quality Center.
 
 4.  In Quality Center, confirm that the custom field **OSRun** contains the value xp.
 

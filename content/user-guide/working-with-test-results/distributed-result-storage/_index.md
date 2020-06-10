@@ -62,7 +62,7 @@ In the TestArchitect explorer tree, right-click the preferred result\(s\) or sub
     -   The \*.taresult file contains a result \(marked with the ![](/images//Images/result_icon_01.png) icon\) which is removable.
     -   The \*.taresult file is a folder and the results inside \(marked with the ![](/images//Images/result_icon_02.png)icon\) which is irremovable.
 
-**Note:** Support **[Verify Picture Checks...](Projects_and_tests_picture_check.html#)**
+**Note:** Support **[Verify Picture Checks...](/TA_Help/Topics/Projects_and_tests_picture_check.html#)**
 
 **Parent topic:**[Working with test results](/TA_Help/Topics/Test_result.html)
 

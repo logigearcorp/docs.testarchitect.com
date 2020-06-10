@@ -11,22 +11,22 @@ After creating a TA-TFS integration project in Visual Studio that contains test 
 Ensure that you have already taken the following steps:
 
 -   Deployed and configured:
-    -   [build server](ug_MTM_config_build_server.html),
-    -   [build controller](ug_MTM_config_build_controller.html), and
-    -   [build agent](ug_MTM_build_agent.html)
+    -   [build server](/TA_Help/Topics/ug_MTM_config_build_server.html),
+    -   [build controller](/TA_Help/Topics/ug_MTM_config_build_controller.html), and
+    -   [build agent](/TA_Help/Topics/ug_MTM_build_agent.html)
 -   Configured and registered:
-    -   [test controller](Integrate_MTM_Config_TestController.html) and
-    -   [test agent](Integrate_MTM_Config_TestAgent.html).
--   Established a connection between TA and TFS. \([Learn more](Integration_MTM_connecting_TFS_COPY.html).\)
--   Mapped the TA project containing the test cases of interest to a TFS project. \([Learn more](Integration_MTM_map_proj_COPY.html).\)
+    -   [test controller](/TA_Help/Topics/Integrate_MTM_Config_TestController.html) and
+    -   [test agent](/TA_Help/Topics/Integrate_MTM_Config_TestAgent.html).
+-   Established a connection between TA and TFS. \([Learn more](/TA_Help/Topics/Integration_MTM_connecting_TFS_COPY.html).\)
+-   Mapped the TA project containing the test cases of interest to a TFS project. \([Learn more](/TA_Help/Topics/Integration_MTM_map_proj_COPY.html).\)
 -   Mapped TA test cases to TFS test cases. This can be achieved by any of the following means:
-    -   importing TFS [test suites](ug_MTM_import_TS.html) or [test cases](ug_MTM_import_TC.html) into TA,
-    -   uploading TA [test modules/tests cases](ug_upload_TAtest_MTM.html) to TFS,
-    -   performing [manual mapping](Integration_MTM_mapping_TA_MTM_IDs.html) between TA test cases and TFS test cases.
--   Created a TA/MTM integration project. \([Learn more](Integration_MTM_creating_vs_project.html).\)
--   Associated TA test cases with TFS test cases. \([Learn more](ug_MTM_associate.html).\)
--   Created and queued TFS team builds. \([Learn more](ug_MTM_test_execution_creating_team_builds.html).\)
--   Created and configured test plans. [\(Learn more](ug_MTM_test_execution_configuring_test_plans.html).\)
+    -   importing TFS [test suites](/TA_Help/Topics/ug_MTM_import_TS.html) or [test cases](/TA_Help/Topics/ug_MTM_import_TC.html) into TA,
+    -   uploading TA [test modules/tests cases](/TA_Help/Topics/ug_upload_TAtest_MTM.html) to TFS,
+    -   performing [manual mapping](/TA_Help/Topics/Integration_MTM_mapping_TA_MTM_IDs.html) between TA test cases and TFS test cases.
+-   Created a TA/MTM integration project. \([Learn more](/TA_Help/Topics/Integration_MTM_creating_vs_project.html).\)
+-   Associated TA test cases with TFS test cases. \([Learn more](/TA_Help/Topics/ug_MTM_associate.html).\)
+-   Created and queued TFS team builds. \([Learn more](/TA_Help/Topics/ug_MTM_test_execution_creating_team_builds.html).\)
+-   Created and configured test plans. [\(Learn more](/TA_Help/Topics/ug_MTM_test_execution_configuring_test_plans.html).\)
 
 **Important:** When running an automated test, the execution of every single TFS test case entails the execution of both the [INITIAL](/TA_Automation/Topics/bia_initial.html) and [FINAL](/TA_Automation/Topics/bia_final.html) sections, if any. For example, the execution of test case \#01 is preceded by the execution of the INITIAL section, and followed by the FINAL section; the same is true for test case \#02, and each subsequent test case.
 
@@ -50,7 +50,7 @@ Ensure that you have already taken the following steps:
 
     ![](/images//Images/TA_Execution_dlg_TFS.png)
 
-4.  In the dialog box, enter the requested information, as described [here](ug_TestArchitect_execution_dialog.html).
+4.  In the dialog box, enter the requested information, as described [here](/TA_Help/Topics/ug_TestArchitect_execution_dialog.html).
 
     **Remember:**
 

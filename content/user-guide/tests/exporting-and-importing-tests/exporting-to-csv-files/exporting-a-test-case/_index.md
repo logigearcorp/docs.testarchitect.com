@@ -13,7 +13,7 @@ To export a test case, do the following:
 1.  Invoke the Export Test Case dialog box by doing one of the following:
 
     -   In the TestArchitect explorer tree, right-click a test case node, then select **Export to CSV file**.
-    -   Open the [test case list view](Listview_test_case.html). From the list view, right-click a test case, and then select **Export to CSV file**.
+    -   Open the [test case list view](/TA_Help/Topics/Listview_test_case.html). From the list view, right-click a test case, and then select **Export to CSV file**.
 2.  In the Export Test Case dialog box, specify a location \(or click ![](/images//Images/btn.browse-ellipsis.01.png) to browse to a location\), specify a file name \(or accept the default\) to export to, then click **OK**.
 
 3.  In the notification message dialog box, click **OK** to dismiss the dialog box.

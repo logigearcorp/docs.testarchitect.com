@@ -12,7 +12,7 @@ You have customized the built-in action get list item count to work with Telerik
 
     ![](/images//Images/WPF_extensiblity_AUT.png)
 
-2.  Reuse the following action line, which was created in the [earlier step](WPF_Extensibility_mapping_unknown_class.html#step_mrr_cg3_jm).
+2.  Reuse the following action line, which was created in the [earlier step](/TA_Tutorials/Topics/WPF_Extensibility_mapping_unknown_class.html#step_mrr_cg3_jm).
 
     ![](/images//Images/WPF_extensiblity_line_editor.png)
 

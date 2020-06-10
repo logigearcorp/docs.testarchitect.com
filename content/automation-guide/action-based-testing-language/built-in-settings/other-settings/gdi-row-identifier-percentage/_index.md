@@ -9,7 +9,7 @@ keywords: "gdi row identifier percentage, identify row in GDI, specify maximum h
 
 ## Description
 
-For [GDI technique](aut_text_recognition_techniques.html), specify a percentage value proportional to the horizontal bar's max height of a UI control. Technically, when a detected horizontal bar's value is equivalent to or higher than the specified percentage value compared to the max horizontal bar, the detected horizontal bar is treated as a separator for a row in a table.
+For [GDI technique](/TA_Automation/Topics/aut_text_recognition_techniques.html), specify a percentage value proportional to the horizontal bar's max height of a UI control. Technically, when a detected horizontal bar's value is equivalent to or higher than the specified percentage value compared to the max horizontal bar, the detected horizontal bar is treated as a separator for a row in a table.
 
 This is a technical method to reconstruct rows belonging to a table by using GDI technique.
 

@@ -10,7 +10,7 @@ Interface definitions in TestArchitect perform the function of interface mapping
 
 Interfaces are assigned to projects just as test modules and actions are, and reside on a branch of the TestArchitect explorer tree:
 
-![](/images//Images/TA_Help/Images/Tree_with_interfaces02.png)
+![](/images/TA_Help/Images/Tree_with_interfaces02.png)
 
 A TestArchitect interface consists of a set of modules known as interface entities that include information on windows and controls and how to identify them. These definitions allow you to assign logical names, or TA names, to both the windows and the controls within them. \(Note that, for the purposes of this discussion, references to windows and controls apply equally to web pages and HTML elements, respectively.\)
 

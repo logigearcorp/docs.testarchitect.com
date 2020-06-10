@@ -20,7 +20,7 @@ To delete a panel template on the Dashboard page:
 
     ![](/images//Images/Dashboard_delete_panel_name_table.png)
 
-    **Tip:** Only the panel names in which the logon user has [permission](Dashboard_authentication_permissions.html) to delete have the **Delete** buttons and the panel's name check boxes enabled.
+    **Tip:** Only the panel names in which the logon user has [permission](/TA_Help/Topics/Dashboard_authentication_permissions.html) to delete have the **Delete** buttons and the panel's name check boxes enabled.
 
 
 All panels instantiated from the deleted panel template are unaffected by the removal of the template panel.

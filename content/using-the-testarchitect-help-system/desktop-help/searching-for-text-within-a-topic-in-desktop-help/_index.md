@@ -12,7 +12,7 @@ To search for a text string within a topic, carry out the following steps:
 
 1.  Open the desired topic.
 
-    You can do this by navigating the [table of contents](hs_CHM_search.html), by searching for the topic in the [**Index**](hs_CHM_search.html) tab, or by using the [full-text search](hs_CHM_full_text_search.html).
+    You can do this by navigating the [table of contents](/TA_UsingHelpSystem/Topics/hs_CHM_search.html), by searching for the topic in the [**Index**](/TA_UsingHelpSystem/Topics/hs_CHM_search.html) tab, or by using the [full-text search](/TA_UsingHelpSystem/Topics/hs_CHM_full_text_search.html).
 
 2.  Click somewhere within the topic and press Ctrl- F.
 

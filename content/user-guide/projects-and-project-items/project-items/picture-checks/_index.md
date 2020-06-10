@@ -42,7 +42,7 @@ As a tester, you would use regular picture checks for pictures like charts \(his
 
     ![](/images//Images/bia_check_picture_aut_10.png)
 
--   Instead of capturing regular picture checks through the [check picture](/TA_Automation/Topics/bia_check_picture.html) action, you can also use the [Picture Capturing](Additional_features_image_capturing_tool.html) tool. Or you can even import regular picture checks from external image files \([learn more](ug_picture_checks_importing_images.html).\)
+-   Instead of capturing regular picture checks through the [check picture](/TA_Automation/Topics/bia_check_picture.html) action, you can also use the [Picture Capturing](/TA_Help/Topics/Additional_features_image_capturing_tool.html) tool. Or you can even import regular picture checks from external image files \([learn more](/TA_Help/Topics/ug_picture_checks_importing_images.html).\)
 
 ## Definition of shared picture checks
 
@@ -50,7 +50,7 @@ Shared picture checks are useful for standard pictures, like symbols and icons, 
 
 **Note:**
 
--   To capture shared picture checks, use the [Picture Capturing Tool](Additional_features_image_capturing_tool.html).
+-   To capture shared picture checks, use the [Picture Capturing Tool](/TA_Help/Topics/Additional_features_image_capturing_tool.html).
 -   You may view the baseline pictures there, and if necessary delete them, or even delete the entire picture check.
 -   When writing a test with a picture check, indicate a shared picture check by preceding the picture's name \(the name or picture argument of [Picture Handling](/TA_Automation/Topics/bia_picture_handling.html) built-in actions\) with a forward slash \(/\).
 
@@ -63,8 +63,8 @@ Suppose that we use a [check picture](/TA_Automation/Topics/bia_check_picture.ht
 There are essentially three ways to accomplish this:
 
 -   One is within the context of a test itself. During testing, when a [check picture](/TA_Automation/Topics/bia_check_picture.html) built-in action executes, if the captured test image does not match any baseline\(s\) belonging to the referenced picture check \(or no baseline yet exists for the picture check\) you are given the opportunity to designate the newly-captured image as a new baseline.
--   Alternatively, you can import picture checks or baseline images from external files. \([Learn more](ug_picture_checks_importing_images.html).\)
--   Finally, you can create new picture checks or baseline images in a fully manual mode, outside of the context of a test. You accomplish this with TestArchitect's Picture Capturing tool. \([Learn more](Additional_features_image_capturing_tool_capturing_saving.html).\)
+-   Alternatively, you can import picture checks or baseline images from external files. \([Learn more](/TA_Help/Topics/ug_picture_checks_importing_images.html).\)
+-   Finally, you can create new picture checks or baseline images in a fully manual mode, outside of the context of a test. You accomplish this with TestArchitect's Picture Capturing tool. \([Learn more](/TA_Help/Topics/Additional_features_image_capturing_tool_capturing_saving.html).\)
 
 -   **[Picture Capturing tool](/TA_Help/Topics/Additional_features_image_capturing_tool.html)**  
 The Picture Capturing tool lets you instantly capture the screen images of your test machines.

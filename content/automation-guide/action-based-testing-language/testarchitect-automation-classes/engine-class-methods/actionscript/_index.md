@@ -24,8 +24,8 @@ The function returns the script if there is one defined for the action argument 
 
 ## Notes
 
--   The action itself can be retrieved with [Argument\(0\)](abtf_Argument.html).
--   This function can only be meaningfully called after a successful call to [NextAction](abtf_NextAction.html).
+-   The action itself can be retrieved with [Argument\(0\)](/TA_Automation/Topics/abtf_Argument.html).
+-   This function can only be meaningfully called after a successful call to [NextAction](/TA_Automation/Topics/abtf_NextAction.html).
 -   This function is meant for use with a scripting language, like in most playback test tools, and for user-scripted actions \(in contrast with actions that are defined with an ABT action definition\).
 
 **Parent topic:**[Engine class methods](/TA_Automation/Topics/abtf_Engine_classes.html)

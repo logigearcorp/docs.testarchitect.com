@@ -21,7 +21,7 @@ Sometimes, the protection mode of Internet Explorer 11 causes the TestArchitect 
 3.  In the Settings panel, scroll to the **Security** section.
 4.  Clear the **Enable Enhanced Protected Mode** check box.
 
-    ![](/TA_Tutorials_Sample_App/Images/ug_taextension_ie_3.png)
+    ![](/images/TA_Automation/Images/ug_taextension_ie_3.png)
 
 5.  Click **OK** to save your changes.
 6.  Restart your computer to ensure that the changes take effect.

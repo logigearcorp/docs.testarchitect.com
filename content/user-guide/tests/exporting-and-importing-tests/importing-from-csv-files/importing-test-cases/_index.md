@@ -12,14 +12,14 @@ Describes how you can import test cases from CSV files.
 
 -   Only a CSV files containing a test case \(not test module\) may be imported into a test module.
 -   The ID of the test case in the CSV file must not already exist in the destination test module prior to importing.
--   The test module must be [checked out](Project_items_checkout.html) prior to importing a test case to it.
+-   The test module must be [checked out](/TA_Help/Topics/Project_items_checkout.html) prior to importing a test case to it.
 
 To import test cases into an existing checked out test module, do the following:
 
 1.  Invoke the Select dialog box by doing one of the following:
 
     -   In the TestArchitect explorer tree, right-click the test module node to which the test case is to be added, and then select **Import**.
-    -   Open the [test module list view](Listview_TM.html). From the list view, right-click a test module, and then select **Import**.
+    -   Open the [test module list view](/TA_Help/Topics/Listview_TM.html). From the list view, right-click a test module, and then select **Import**.
 2.  In the Select dialog box, browse to the location where the CSV files are stored, and then select one or more of them.
 
 3.  Click the **Select** button.

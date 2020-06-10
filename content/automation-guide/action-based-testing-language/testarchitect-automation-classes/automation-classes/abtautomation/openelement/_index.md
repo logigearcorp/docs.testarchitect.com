@@ -28,7 +28,7 @@ Opens a control.
 
 ## Return Value
 
-Returns an object of the class [AbtElement](abt_AbtElement.html), referencing the specified control, if the call is successful.
+Returns an object of the class [AbtElement](/TA_Automation/Topics/abt_AbtElement.html), referencing the specified control, if the call is successful.
 
 **Parent topic:**[AbtAutomation](/TA_Automation/Topics/abt_AbtAutomation.html)
 

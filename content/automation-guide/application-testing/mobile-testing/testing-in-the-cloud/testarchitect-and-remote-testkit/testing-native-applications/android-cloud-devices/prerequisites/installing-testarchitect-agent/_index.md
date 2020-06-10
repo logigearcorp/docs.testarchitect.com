@@ -10,7 +10,7 @@ TestArchitect Agent is an essential component in allowing TestArchitect to commu
 
 Perform the following steps to install TestArchitect Agent onto your cloud device before testing web applications on Chrome, WebView, or native applications:
 
-1.  Activate a device from the Remote TestKit Client application. \([Learn more](aut_app_cloud_testing_Android_adb.html).\)
+1.  Activate a device from the Remote TestKit Client application. \([Learn more](/TA_Automation/Topics/aut_app_cloud_testing_Android_adb.html).\)
 
 2.  In TestArchitect, launch the Android Instrumentation Tool dialog box. \([Learn more](/Android/Topics/Android_Instrumentation_tool.html).\)
 
@@ -22,7 +22,7 @@ Perform the following steps to install TestArchitect Agent onto your cloud devic
 
 3.  Right-click the icon, and then select **Install TestArchitect Automation Agent**.
 
-    **Fastpath:** Alternatively, click the button **Install TestArchitect Automation Agent on selected device** ![](/Android/Images/android_installing_TA_agent_btn.png) on the toolbar.
+    **Fastpath:** Alternatively, click the button **Install TestArchitect Automation Agent on selected device** ![](/images/TA_Automation/Images/android_installing_TA_agent_btn.png) on the toolbar.
 
 
 Upon successful installation, the cloud device icon, formerly grey, becomes green. This indicates that the functioning TestArchitect Agent application now resides on your cloud device.

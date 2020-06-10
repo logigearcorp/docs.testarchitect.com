@@ -10,11 +10,11 @@ To import additional baseline images into an existing picture check, do the foll
 
 1.  In the TestArchitect explorer tree, select a picture check to which you'd like to import additional baseline images:
 
-    -   For a [regular picture check](Projects_and_tests_picture_check.html#li_Regular_picture_check), go to **Local Pictures**, residing under the **Picture Checks** tab of a specific test module.
+    -   For a [regular picture check](/TA_Help/Topics/Projects_and_tests_picture_check.html#li_Regular_picture_check), go to **Local Pictures**, residing under the **Picture Checks** tab of a specific test module.
 
         ![](/images//Images/import_regular_baseline_image.png)
 
-    -   For a [shared picture check](Projects_and_tests_picture_check.html#li_Regular_picture_check), go to the **Picture Checks** node, or its subfolder node.
+    -   For a [shared picture check](/TA_Help/Topics/Projects_and_tests_picture_check.html#li_Regular_picture_check), go to the **Picture Checks** node, or its subfolder node.
 
         ![](/images//Images/import_shared_baseline_image.png)
 

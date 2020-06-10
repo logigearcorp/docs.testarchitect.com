@@ -12,7 +12,7 @@ We will create a test script to dynamically click the three **Detail** texts res
 
 ![](/images//Images/unlock_container_classes_sample_app_dynamically.png)
 
-1.  In a similar manner to how we captured the **Detail** text control in [Unlocking container classes](Interface_def_container_class_unlock.html), we will now capture the **tree node** and **tree view** controls which contain the **Detail** control, using the Interface Viewer.
+1.  In a similar manner to how we captured the **Detail** text control in [Unlocking container classes](/TA_Help/Topics/Interface_def_container_class_unlock.html), we will now capture the **tree node** and **tree view** controls which contain the **Detail** control, using the Interface Viewer.
 
     Your interface entity, if you followed the example of the previous topic, should resemble the following:
 
@@ -25,7 +25,7 @@ We will create a test script to dynamically click the three **Detail** texts res
     -   The [while](/TA_Automation/Topics/bia_while.html)/[end while](/TA_Automation/Topics/bia_end_while.html) loop executes three times based on the specified condition to run argument.
     -   The node path variable specifies the path to the tree node which contains each **Detail** text control. For example, Car/Car1/Car1.1Detail.
     -   The [click](/TA_Automation/Topics/bia_click.html) action clicks the three **Detail** text controls residing under the three tree nodes, **Car1.1**, **Car2.1** and **Car3.1**.
-    -   Because TestArchitect supports [multiple level dynamic identifiers](The_test_language_dynamic_identifiers.html#section_u3g_wb2_wq), the control argument of the click action contains the **tree node** control which is anchored to the **tree view** control, and the **Detail** text is anchored to the **tree node** control sequentially. \([Learn more.](The_test_language_dynamic_identifiers.html#section_u3g_wb2_wq)\)
+    -   Because TestArchitect supports [multiple level dynamic identifiers](/TA_Help/Topics/The_test_language_dynamic_identifiers.html#section_u3g_wb2_wq), the control argument of the click action contains the **tree node** control which is anchored to the **tree view** control, and the **Detail** text is anchored to the **tree node** control sequentially. \([Learn more.](/TA_Help/Topics/The_test_language_dynamic_identifiers.html#section_u3g_wb2_wq)\)
 3.  Click the **Execute Test** ![](/images//Images/Toolbar_Button_Execute.png) toolbar icon.
 
 4.  In the Execute Test dialog box, click the **Execute** button to begin execution.

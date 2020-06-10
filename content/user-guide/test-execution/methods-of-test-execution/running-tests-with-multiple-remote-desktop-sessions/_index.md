@@ -36,7 +36,7 @@ TestArchitect provides you the capability to execute tests with multiple remote 
 
     There are three approaches to port number assignment.
 
-    -   **From a command line interface**: Utilize the -port argument in the [command](Controller_starting_from_CLI.html) that starts TestArchitect Controller.
+    -   **From a command line interface**: Utilize the -port argument in the [command](/TA_Help/Topics/Controller_starting_from_CLI.html) that starts TestArchitect Controller.
     -   **Using the environment variable**: Create the CONTROLLER\_PORT environment variable which holds a port number. When you start TestArchitect Controller on a session without assigning a specific port, TestArchitect automatically assigns CONTROLLER\_PORT to the port of the controller.
 
         In case the port number stored in CONTROLLER\_PORT is occupied, the port number assigned to the controller will automatically be increased by 1 each time until an available port is detected.
@@ -48,7 +48,7 @@ TestArchitect provides you the capability to execute tests with multiple remote 
 
 4.  In the TestArchitect tree explorer, select the preferred test module/suite and press Ctrl + F9 to invoke the Execute Test dialog box.
 
-5.  Launch the Select Controller/Device dialog box and add the controllers of the remote sessions. Next, select the checkboxes for these controllers. \([Learn more](Test_exec_remote_asynchronous.html)\)
+5.  Launch the Select Controller/Device dialog box and add the controllers of the remote sessions. Next, select the checkboxes for these controllers. \([Learn more](/TA_Help/Topics/Test_exec_remote_asynchronous.html)\)
 
 6.  Execute the test.
 
@@ -56,7 +56,7 @@ TestArchitect provides you the capability to execute tests with multiple remote 
 
     -   Keep the remote computer unlocked as long as you perform GUI testing on any sessions.
     -   Do not minimize any remote session window from the local computer.
-    -   You are unable to run in the debugging mode on more than one remote desktop sessions. \([Learn more](Debugging_remote_desktop_session.html)\)
+    -   You are unable to run in the debugging mode on more than one remote desktop sessions. \([Learn more](/TA_Help/Topics/Debugging_remote_desktop_session.html)\)
 7.  Repeat steps 4 through 6 if you want to execute more tests on other remote sessions.
 
 

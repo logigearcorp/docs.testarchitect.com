@@ -29,7 +29,7 @@ no
 ## Notes
 
 -   This setting affects all built-in actions that interact with an application's user interface, and is applied to the property values that are used for identification of the windows and controls. Unless otherwise noted, it is also applied in all text comparison functions of the built-in actions, as seen in the example below.
--   Note that, this setting does not support testing [cloud services](aut_app_cloud_testing.html). In this case, you are required to perform an exact match.
+-   Note that, this setting does not support testing [cloud services](/TA_Automation/Topics/aut_app_cloud_testing.html). In this case, you are required to perform an exact match.
 
 ## Example
 

@@ -10,9 +10,9 @@ Any application to be tested on a target device must be launched in a manner tha
 
 **Important:** Android automation is only supported on Windows.
 
-Starting an application in the normal, real world fashion \(that is, by clicking or tapping its icon on the menu screen of the target device\) does cause the application to run properly, but does not allow for communication with TestArchitect. Instead, TestArchitect itself must issue the directive to start the AUT, either through the [Android Instrumentation Tool](Android_Instrumentation_tool.html) dialog box, or via the [start program](/TA_Automation/Topics/bia_start_program.html) action of a test procedure. This initiates the control path involving the TestArchitect Agent service and the AUT’s companion [AndroidAgentInstrumentation](Installing_applications_to_a_target_device.html#p_hl4_pjn_5n) instance.
+Starting an application in the normal, real world fashion \(that is, by clicking or tapping its icon on the menu screen of the target device\) does cause the application to run properly, but does not allow for communication with TestArchitect. Instead, TestArchitect itself must issue the directive to start the AUT, either through the [Android Instrumentation Tool](/Android/Topics/Android_Instrumentation_tool.html) dialog box, or via the [start program](/TA_Automation/Topics/bia_start_program.html) action of a test procedure. This initiates the control path involving the TestArchitect Agent service and the AUT’s companion [AndroidAgentInstrumentation](/Android/Topics/Installing_applications_to_a_target_device.html#p_hl4_pjn_5n) instance.
 
-To launch an application from the [Android Instrumentation Tool](Android_Instrumentation_tool.html) dialog box, do the following:
+To launch an application from the [Android Instrumentation Tool](/Android/Topics/Android_Instrumentation_tool.html) dialog box, do the following:
 
 1.  Select the correct device.
 2.  Double-click the application to be tested. The application is then launched on the target device.

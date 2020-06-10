@@ -14,8 +14,8 @@ How to capture new images and save them for use as reference images for future p
 
     **Important:**
 
-    -   If the **Picture Checks** node or its subfolder is selected at the time of capture, the captured image is saved to the **Picture Checks** node. This captured image is shared across various test modules in a project \(see [Picture checks](Projects_and_tests_picture_check.html) for more details\).
-    -   If a test module is selected at the time of capture, the captured image is saved as a regular picture check and this regular picture check is only available within the selected test module. You can view the captured image in the **Picture Checks** tab \(see [Picture checks](Projects_and_tests_picture_check.html) for more details\).
+    -   If the **Picture Checks** node or its subfolder is selected at the time of capture, the captured image is saved to the **Picture Checks** node. This captured image is shared across various test modules in a project \(see [Picture checks](/TA_Help/Topics/Projects_and_tests_picture_check.html) for more details\).
+    -   If a test module is selected at the time of capture, the captured image is saved as a regular picture check and this regular picture check is only available within the selected test module. You can view the captured image in the **Picture Checks** tab \(see [Picture checks](/TA_Help/Topics/Projects_and_tests_picture_check.html) for more details\).
 3.  Click the **Picture Capturing Tool** ![](/images//Images/Image_capturing_tool_1.png) button on the toolbar, or select **Tools** \> **Capture Picture**.
 
     TestArchitect is minimized and your cursor changes into a crosshair icon, indicating that capture mode is now active.

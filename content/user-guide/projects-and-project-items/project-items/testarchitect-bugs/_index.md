@@ -8,7 +8,7 @@ aliases:
 
 A bug in TestArchitect is a failure in an automation run which impairs or prevents the proper functioning of the automated test, and which can generally be attributed either to a bug in the application under test, or to a problem with the test itself. From hereon, any such bug is referred to as a TestArchitect bug, or TA bug.
 
-**Tip:** For more details on how to work with TA bugs and integrate them with the JIRA bug tracking system, see [JIRA integration](JIRA_Integration.html)
+**Tip:** For more details on how to work with TA bugs and integrate them with the JIRA bug tracking system, see [JIRA integration](/TA_Help/Topics/JIRA_Integration.html)
 
 ## Workflow
 
@@ -30,9 +30,9 @@ Each TA bug has a status indicating where the bug currently is in its life cycle
 
 TA bugs are categorized into two types: registered bugs and unregistered bugs.
 
-Registered bugs are bug records created in TestArchitect and associated with a bug on an external bug tracking system. You may refer to [Creating registered TA bugs](JIRA_creating_registered_bugs.html) to see how to create a bug associated with a JIRA bug.
+Registered bugs are bug records created in TestArchitect and associated with a bug on an external bug tracking system. You may refer to [Creating registered TA bugs](/TA_Help/Topics/JIRA_creating_registered_bugs.html) to see how to create a bug associated with a JIRA bug.
 
-On the other hand, unregistered bugs are created in TestArchitect but not associated with a bug on any external bug tracking system. Refer to [Creating unregistered TA bugs](JIRA_creating_unregistered_bugs.html).
+On the other hand, unregistered bugs are created in TestArchitect but not associated with a bug on any external bug tracking system. Refer to [Creating unregistered TA bugs](/TA_Help/Topics/JIRA_creating_unregistered_bugs.html).
 
 ## Bug information
 
@@ -46,12 +46,12 @@ The fields of the **Information** tab are:
 
 |Field|Description|
 |-----|-----------|
-|**Bug ID**|\(Automatically generated\) The ID of the TA bug. This bug ID is combination of [a prefix key](Projects_and_project_items_create_project.html) followed by an ID number, separated by a hyphen.|
-|**Summary**|A brief one-line summary of the TA bug. **Note:** The **Summary** field cannot be empty.<br>|
+|**Bug ID**|\(Automatically generated\) The ID of the TA bug. This bug ID is combination of [a prefix key](/TA_Help/Topics/Projects_and_project_items_create_project.html) followed by an ID number, separated by a hyphen.|
+|**Summary**|A brief one-line summary of the TA bug. **Note:** The **Summary** field cannot be empty.<br><br>|<br>
 |**Description**|A detailed description of the TA bug.|
-|**URL**|\(Automatically generated\) The [TestArchitect URL address](Additional_features_TA_URL.html) of this bug.|
-|**Source**|The bug ID of an external bug tracking system associated with the TA bug.<br> **Note:**<br><br>-   If this is an unregistered bug, this field is empty.<br>-   You may change the **Source** value to drop the current link and association this bug with another external bug.<br>-   You can also clear the **Source** content to decouple this bug from its associated external bug, rendering this an unregistered bug.<br><br>|
-|**Current status**|The current life cycle stage of this TA bug \(refer to [Workflow](Bugs.html#ksec_tabugs_workflow)\)|
+|**URL**|\(Automatically generated\) The [TestArchitect URL address](/TA_Help/Topics/Additional_features_TA_URL.html) of this bug.|
+|**Source**|The bug ID of an external bug tracking system associated with the TA bug.<br><br> **Note:**<br><br>-   If this is an unregistered bug, this field is empty.<br>-   You may change the **Source** value to drop the current link and association this bug with another external bug.<br>-   You can also clear the **Source** content to decouple this bug from its associated external bug, rendering this an unregistered bug.<br><br>|<br>
+|**Current status**|The current life cycle stage of this TA bug \(refer to [Workflow](/TA_Help/Topics/Bugs.html#ksec_tabugs_workflow)\)|
 |**Last update date**|The date on which this TA bug was last updated from an external bug tracking system.|
 |**Last update by**|The person who last edited this TA bug.|
 |**Creation date**|The date on which this TA bug was created in TestArchitect.|
@@ -67,7 +67,7 @@ The fields shown in the above screenshot are:
 |**Field**|**Description**|
 |---------|---------------|
 |**Test Module**|Name of a test module which exposes the bug.|
-|**Test Case**|The particular section in the test module in which the bug is exposed. The section can be `Initial`, `Final` or a specific test case.<br>|
+|**Test Case**|The particular section in the test module in which the bug is exposed. The section can be `Initial`, `Final` or a specific test case.<br><br>|<br>
 |**Test Line**|The line number where the bug is marked as a known bug.|
 |**Marked By**|The person who marked the bug.|
 

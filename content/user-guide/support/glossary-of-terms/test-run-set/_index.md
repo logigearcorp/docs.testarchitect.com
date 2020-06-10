@@ -6,5 +6,5 @@ aliases:
     - /TA_Glossary/Topics/glossaryTestRunSet.html
 ---
 
-The set of test modules selected for a given single, [serial](glossarySerialTestRun.html) or test suite-based test run.
+The set of test modules selected for a given single, [serial](/TA_Glossary/Topics/glossarySerialTestRun.html) or test suite-based test run.
 

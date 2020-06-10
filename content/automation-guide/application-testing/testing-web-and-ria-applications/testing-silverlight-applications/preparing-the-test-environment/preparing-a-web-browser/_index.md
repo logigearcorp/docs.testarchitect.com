@@ -26,7 +26,7 @@ To clear caches in Internet Explorer, do the following:
 
 ## Setting the zoom ratio to 100%
 
-When testing Silverlight applications, TestArchitect requires that the zoom ratio in the browser be set to 100% for all tested pages. Otherwise the locations of GUI elements on the page will not match their stored coordinates. For information on how you can change the zoom ratio of a web page in your web browser, see [Setting 100% zoom](aut_app_testing_setting_zoom_IE.html).
+When testing Silverlight applications, TestArchitect requires that the zoom ratio in the browser be set to 100% for all tested pages. Otherwise the locations of GUI elements on the page will not match their stored coordinates. For information on how you can change the zoom ratio of a web page in your web browser, see [Setting 100% zoom](/TA_Automation/Topics/aut_app_testing_setting_zoom_IE.html).
 
 **Parent topic:**[Preparing the test environment](/TA_Automation/Topics/aut_app_testing_Silverlight_preparing_environment.html)
 

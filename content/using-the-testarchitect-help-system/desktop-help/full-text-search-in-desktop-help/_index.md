@@ -15,7 +15,7 @@ The full-text search is performed within the **Search** tab of the desktop CHM h
 1.  Select the **Search** tab of the help viewer.
 2.  Type the word or phrase you want to find.
 
-    **Tip:** Use the right-arrow ![](/TA_Help/Images/btn.right_arrow.png)button to add boolean operators to your search \(see [Refining a full-text search](hs_CHM_full_text_search.html#section_ffh_4nh_cp) for details\).
+    **Tip:** Use the right-arrow ![](/images/TA_Automation/Images/btn.right_arrow.png)button to add boolean operators to your search \(see [Refining a full-text search](/TA_UsingHelpSystem/Topics/hs_CHM_full_text_search.html#section_ffh_4nh_cp) for details\).
 
 3.  Press Enter or click the **List Topics** button. The viewer searches for topics that match the specified criteria and displays the found topics in the Search results panel.
 4.  To view a topic, select it in the list of search results and then click **Display**, or simply double-click the topic in the list.
@@ -28,11 +28,11 @@ Rules applied during search:
 
     -   Quotation marks \( " \), which are used to specify exact phrases \(see below\).
     -   The words and, or, not, and near, which serve as Boolean operators \(see
-    [Refining a full-text search](hs_CHM_full_text_search.html#section_ffh_4nh_cp)\). Note however that these words can be searched for when included in quotation marks as part of a specific phrase \(see below\).
+    [Refining a full-text search](/TA_UsingHelpSystem/Topics/hs_CHM_full_text_search.html#section_ffh_4nh_cp)\). Note however that these words can be searched for when included in quotation marks as part of a specific phrase \(see below\).
 
 -   Punctuation marks such as the period \( . \), colon \( : \), semicolon \( ; \), comma \( , \) and hyphen \( - \) are ignored.
 -   To search for a phrase, enclose it in quotation marks \( " \). For instance, if you specify "stop test" in the search expression, the search will only return those topics that contain this phrase. If you omit the quotes, for instance, stop test, the search will return topics containing both words stop and test.
--   You can also group the words and phrases with parentheses. Grouping is typically used with boolean operators \(see [Refining a full-text search](hs_CHM_full_text_search.html#section_ffh_4nh_cp)\).
+-   You can also group the words and phrases with parentheses. Grouping is typically used with boolean operators \(see [Refining a full-text search](/TA_UsingHelpSystem/Topics/hs_CHM_full_text_search.html#section_ffh_4nh_cp)\).
 
 ## Highlighting words in searched topics
 
@@ -62,10 +62,10 @@ In additional, you can also use wildcards, boolean operators and nested expressi
 
 |Operator|Description|
 |--------|-----------|
-|AND|The AND operator is applied to two terms, the one preceding it and the one following it. Its effect is to return topics in which both terms appear..<br> For example, testANDautomation returns topics containing both the words test and automation.<br><br> **Note:** By default, if your search expression contains multiple words not separated by operators, the search engine applies the AND operator. For example, testANDautomation and test automation return the same results.<br><br>|
-|OR|As with AND, OR is a binary operator, and returns topics in which *either* or both of the search terms appears.<br> For instance, the search for test OR execution will return topics containing the words test or execution, or both.<br><br>|
-|NOT|NOR is applied only to the search term that follows it, but also requires that it be preceded by at least one other term. It excludes from the search results all topics that contain the term that follows it.<br> Hence, a search for "test module" NOT "test suite" will return topics that contain the term test module but do not contain the term test suite.<br><br>|
-|NEAR|NEAR is applied to the search terms before and after it, returning topics in which the two terms appear physically close to each other.<br> For instance, the search for "test module" NEAR project will return topics where the phrase test module is within eight words of the word project.<br><br>|
+|AND|The AND operator is applied to two terms, the one preceding it and the one following it. Its effect is to return topics in which both terms appear..<br><br> For example, testANDautomation returns topics containing both the words test and automation.<br><br> **Note:** By default, if your search expression contains multiple words not separated by operators, the search engine applies the AND operator. For example, testANDautomation and test automation return the same results.<br><br>|<br>
+|OR|As with AND, OR is a binary operator, and returns topics in which *either* or both of the search terms appears.<br><br> For instance, the search for test OR execution will return topics containing the words test or execution, or both.<br><br>|<br>
+|NOT|NOR is applied only to the search term that follows it, but also requires that it be preceded by at least one other term. It excludes from the search results all topics that contain the term that follows it.<br><br> Hence, a search for "test module" NOT "test suite" will return topics that contain the term test module but do not contain the term test suite.<br><br>|<br>
+|NEAR|NEAR is applied to the search terms before and after it, returning topics in which the two terms appear physically close to each other.<br><br> For instance, the search for "test module" NEAR project will return topics where the phrase test module is within eight words of the word project.<br><br>|<br>
 
 **Note:** Boolean operators’ names are case-insensitive.
 

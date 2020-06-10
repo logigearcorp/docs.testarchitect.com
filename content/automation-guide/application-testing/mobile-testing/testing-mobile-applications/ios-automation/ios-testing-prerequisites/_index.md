@@ -34,7 +34,7 @@ Before installing TestArchitect Agent on an iOS device, ensure the host macOS ma
 
 In addition, you will need:
 
--   An approved [iOS development device](iOS_prerequisite_enable_development_mode.html).
+-   An approved [iOS development device](/iOS/Topics/iOS_prerequisite_enable_development_mode.html).
 -   An Apple USB cable.
 
 **Tip:** If you are unsure as to how to install or use the above development tools, please seek assistance from your development team.

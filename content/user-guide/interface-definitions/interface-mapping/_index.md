@@ -14,7 +14,7 @@ To avoid the errors and maintenance headaches that such changes can bring, TestA
 
 Interfaces are assigned to projects just as test modules and actions are, and reside on a branch of the TestArchitect explorer tree:
 
-![](/images//Images/TA_Help/Images/Tree_with_interfaces02.png)
+![](/images/TA_Help/Images/Tree_with_interfaces02.png)
 
 A TestArchitect interface consists of a set of modules known as interface entities that include information on windows and controls and how to identify them. These definitions allow you to assign logical names, or TA names, to both the windows and the controls within them. \(Note that, for the purposes of this discussion, references to windows and controls apply equally to web pages and HTML elements, respectively.\)
 
@@ -29,7 +29,7 @@ The following figure illustrates the role of interface definitions in a test, on
 
 The Car Rental interface contains several interface entities. \(Three are displayed in the figure, though only one is used by the test\). Each maps a TA name to a window of the AUT. The enter action of the second action line calls up the interface entity with TA name of **login** which, as depicted, is assigned to the window Car Rental-Login. This interface entity contains a number of interface elements, each of which represents a control – such as a label, textbox, or button – on the AUT's login window. The control which the enter action must access is the one with TA name = **user name**. As shown, this TA name is mapped to the upper textbox control in the Car Rental-Login window.
 
-![](/images//Images/TA_Tutorials/Images/tut.Interface_Defs.Mapping_Concept.simplified.numbered.png)
+![](/images/TA_Tutorials/Images/tut.Interface_Defs.Mapping_Concept.simplified.numbered.png)
 
 Hence the entire process of identifying the target control that the enter action must write to involves these steps:
 

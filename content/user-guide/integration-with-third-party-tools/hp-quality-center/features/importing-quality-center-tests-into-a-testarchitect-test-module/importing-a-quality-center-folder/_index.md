@@ -12,8 +12,8 @@ Ensure that the machine hosting the TestArchitect repository server has the **HP
 
 Ensure that you have already taken the following steps:
 
--   [Registered the Quality Center server with TestArchitect](Integration_QC_connecting_repo_to_QC_server_step_1.html).
--   [Mapped the TestArchitect project](Integration_QC_connecting_repo_to_QC_server_step_2.html) containing the test cases of interest to the Quality Center project.
+-   [Registered the Quality Center server with TestArchitect](/TA_Help/Topics/Integration_QC_connecting_repo_to_QC_server_step_1.html).
+-   [Mapped the TestArchitect project](/TA_Help/Topics/Integration_QC_connecting_repo_to_QC_server_step_2.html) containing the test cases of interest to the Quality Center project.
 
 A Quality Center folder may only be imported to a TestArchitect test folder. It may contain either tests or subfolders, but not a combination of both:
 

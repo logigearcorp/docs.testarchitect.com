@@ -18,7 +18,7 @@ Reports can be produced for entire projects or for specified project items.
 
         ![](/images//Images/TA_main_menu_reporting.png)
 
-    -   On a [list view](Projects_and_tests_list_view.html), right-click an item, and then select **Reporting** \> **Create reports**.
+    -   On a [list view](/TA_Help/Topics/Projects_and_tests_list_view.html), right-click an item, and then select **Reporting** \> **Create reports**.
 
         ![](/images//Images/list_view_reporting.png)
 
@@ -36,10 +36,10 @@ Reports can be produced for entire projects or for specified project items.
     |****Data****|Data sets|
     |****Interfaces****|Interface entities|
     |****Test suites****|Test suites|
-    |****Results****|Test results and test case results. **Note:** The report can only include test results residing in the repository \(not local results\).<br>|
+    |****Results****|Test results and test case results. **Note:** The report can only include test results residing in the repository \(not local results\).<br><br>|<br>
     |****Bugs****|Bugs|
 
-3.  After selecting a report type to create, an **Edit Profile** panel appears in the main window, listing the options for defining the properties of the report \(see [customizing a report](Report_customizing.html)\).
+3.  After selecting a report type to create, an **Edit Profile** panel appears in the main window, listing the options for defining the properties of the report \(see [customizing a report](/TA_Help/Topics/Report_customizing.html)\).
 
     ![](/images//Images/Edit_profile_panel.png)
 

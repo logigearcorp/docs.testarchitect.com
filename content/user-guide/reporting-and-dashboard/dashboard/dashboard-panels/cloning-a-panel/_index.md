@@ -21,7 +21,7 @@ To clone a Dashboard panel from an existing panel:
     **Restriction:** An administrator can clone panels onto any Dashboard page. A non-administrator can clone panels only onto a Dashboard page belonging to him or herself.
 
 
-A newly cloned panel is added to the Dashboard page specified by the **Select page** drop down list box \(step \#[2](Dashboard_clone_panel.html#step_odeu_38gm)\) in the Clone Panel dialog box.
+A newly cloned panel is added to the Dashboard page specified by the **Select page** drop down list box \(step \#[2](/TA_Help/Topics/Dashboard_clone_panel.html#step_odeu_38gm)\) in the Clone Panel dialog box.
 
 **Parent topic:**[Dashboard panels](/TA_Help/Topics/Dashboard_panels.html)
 

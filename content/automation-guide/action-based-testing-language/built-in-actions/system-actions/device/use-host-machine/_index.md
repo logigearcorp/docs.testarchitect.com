@@ -17,7 +17,7 @@ There are no arguments for this built-in action.
 
 ## Notes
 
--   This built-in action applies only to WebDriver based cloud services. \([Learn more](aut_app_cloud_testing.html).\)
+-   This built-in action applies only to WebDriver based cloud services. \([Learn more](/TA_Automation/Topics/aut_app_cloud_testing.html).\)
 
 ## Applicable Built-In Settings
 

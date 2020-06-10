@@ -9,7 +9,7 @@ keywords: "end while, end while loop, exit while loop, end while statement"
 
 ## Description
 
-Denote the end of a [while/end while](while.html) block, and return control to the beginning of the block.
+Denote the end of a [while/end while](/TA_Automation/Topics/bia_while.html) block, and return control to the beginning of the block.
 
 ## Arguments
 

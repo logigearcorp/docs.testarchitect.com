@@ -25,7 +25,7 @@ Under synchronous remote execution, control is passed to a deputy in one of two 
 
 **Attention:**
 
--   TestArchitect automatically adds controllers executing tests to the controller list in [Lab Manager](Lab_manager.html), and you can monitor the test progress there.
+-   TestArchitect automatically adds controllers executing tests to the controller list in [Lab Manager](/TA_Help/Topics/Lab_manager.html), and you can monitor the test progress there.
 -   Note that, while synchronous \(lead/deputy\) remote execution applies specifically to execution on TestArchitect controller hosts, it can be used in mobile testing when those hosts are controlling mobile devices.
 -   Note that [database actions](/TA_Automation/Topics/bia_Database.html) are not supported on machines operating as deputies.
 -   While Machine A is utilizing Machine B as a deputy, it is impossible for Machine B to utilize Machine A as a deputy.

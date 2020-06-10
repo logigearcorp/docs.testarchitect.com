@@ -35,7 +35,7 @@ This action may be used within the following project items:test modules and user
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html)none.
+The following settings are applicable to this action:[remove double quotes from cells](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html)none.
 
 ## Example - Case 1: The error handler action has no arguments
 

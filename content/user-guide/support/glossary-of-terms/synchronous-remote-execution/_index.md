@@ -10,8 +10,8 @@ Execution mode in which, under program control, the tests on multiple controller
 
 There are two types of synchronous remote execution:
 
--   [serial synchronous remote execution](glossarySerialSynchronousRemoteXqt.html)
--   [parallel synchronous remote execution](glossaryParallelSynchronousRemoteXqt.html)
+-   [serial synchronous remote execution](/TA_Glossary/Topics/glossarySerialSynchronousRemoteXqt.html)
+-   [parallel synchronous remote execution](/TA_Glossary/Topics/glossaryParallelSynchronousRemoteXqt.html)
 
 Also referred to as: **lead-deputy execution**
 

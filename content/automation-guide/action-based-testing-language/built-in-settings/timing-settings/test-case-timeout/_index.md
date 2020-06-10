@@ -26,8 +26,8 @@ seconds
 
 -   Applies to TestArchitect [8.3 Update 4](/TA_ReleaseNotes/DITA_source/Whats_New_Windows_8.3_update_4.html) and higher.
 -   When this setting is not declared or its value is omitted, the value of 0 is used.
--   The specified timeout value affects all test cases, as well as the [INITIAL](initial.html) and [FINAL](final.html) sections, as long as they are declared underneath the test case timeout setting. The test procedures which are declared above the built-in setting is unaffected by the timeout value.
--   The [test case timeout](test_case_timeout.html) setting, just like other built-in settings, once declared within a single test run, remains present throughout the execution of master test modules and subtest modules within the test run. If test case timeout is called twice in the master test module or the subtest modules, the second invocation merely assigns a new value to the existing timeout period.
+-   The specified timeout value affects all test cases, as well as the [INITIAL](/TA_Automation/Topics/bia_initial.html) and [FINAL](/TA_Automation/Topics/bia_final.html) sections, as long as they are declared underneath the test case timeout setting. The test procedures which are declared above the built-in setting is unaffected by the timeout value.
+-   The [test case timeout](/TA_Automation/Topics/bis_test_case_timeout.html) setting, just like other built-in settings, once declared within a single test run, remains present throughout the execution of master test modules and subtest modules within the test run. If test case timeout is called twice in the master test module or the subtest modules, the second invocation merely assigns a new value to the existing timeout period.
 
 ## Example
 

@@ -8,7 +8,7 @@ aliases:
 
 Reviewing test results can assist you in determining if and when JIRA bug issues on a JIRA server should be closed.
 
-**Note:** It is assumed that you are familiar with test results \(see [Test results](Test_result.html) for details\). Only sections related to known bugs are discussed.
+**Note:** It is assumed that you are familiar with test results \(see [Test results](/TA_Help/Topics/Test_result.html) for details\). Only sections related to known bugs are discussed.
 
 ## Summary tab
 
@@ -22,12 +22,12 @@ Reviewing test results can assist you in determining if and when JIRA bug issues
 |-----|-----------|
 |**Total test casts selected**|The number of test cases selected to be executed.|
 |**Total test cases executed**|The number of test cases that were actually executed.|
-|[**Passed**](ug_test_results_status.html)|The number of passed test cases.|
-|[**Failed**](ug_test_results_status.html)|The number of failed test cases.|
-|[**Passed with Warning/Error**](ug_test_results_status.html)|The number of test cases that passed, but at least one warning or error was detected.|
-|[**Passed with known bug**](ug_test_results_status.html)|The number of test cases that failed, but for which each failed check was already marked as a known bug.|
-|[**Not Run**](ug_test_results_status.html)|The number of test cases that were skipped during execution, because the automated test was halted. Note that, when a test case is skipped, its detailed information has the N/a text.|
-|[**Not Finished**](ug_test_results_status.html)|The number of test cases that were unable to reach the end of an automated run.|
+|[**Passed**](/TA_Help/Topics/ug_test_results_status.html)|The number of passed test cases.|
+|[**Failed**](/TA_Help/Topics/ug_test_results_status.html)|The number of failed test cases.|
+|[**Passed with Warning/Error**](/TA_Help/Topics/ug_test_results_status.html)|The number of test cases that passed, but at least one warning or error was detected.|
+|[**Passed with known bug**](/TA_Help/Topics/ug_test_results_status.html)|The number of test cases that failed, but for which each failed check was already marked as a known bug.|
+|[**Not Run**](/TA_Help/Topics/ug_test_results_status.html)|The number of test cases that were skipped during execution, because the automated test was halted. Note that, when a test case is skipped, its detailed information has the N/a text.|
+|[**Not Finished**](/TA_Help/Topics/ug_test_results_status.html)|The number of test cases that were unable to reach the end of an automated run.|
 |**Test Case**|A list of all executed test cases. Note that each test case name listed in the leftmost column of this list is hyperlinked, so that clicking on it displays the result details on a web browser.|
 |**Checks**|The number of checkpoints \(check actions\) in each test case.|
 |**Passed**|The number of checkpoints with passed results in each test case.|
@@ -47,12 +47,12 @@ This tab displays the information about TA bugs marked in the action lines.
 
 |Field|Description|
 |-----|-----------|
-|**Bug**|ID of the TA bug. Click the Bug ID to view [Bug Information](Bug_information.html) in TestArchitect Client.|
+|**Bug**|ID of the TA bug. Click the Bug ID to view [Bug Information](/TA_Help/Topics/Bug_information.html) in TestArchitect Client.|
 |**Summary**|A brief one-line summary of the TA bug.|
-|**Test Case**|The particular section in the test module in which the TA bug is exposed. The section can be `Initial`, `Final` or a specific test case. Click the test case number to view the corresponding test case in the [**Result Details**](Test_result_details.html) tab.|
-|**Status**|The current status, or life cycle stage, of the marked known bug, as defined in the bug's [Current status](Bug_information.html#row_current_status) field.|
-|**This Run**|The suggested status of the TA bug for this automation run. \([Learn more](Bugs_working_known_bug_reviewing_test_results.html#section_m3b_t2l_wn).\)|
-|**Line**|The line number in the test where the action is marked as a known bug. \(Note that any number of action lines may be marked with a given bug ID.\) Clicking on the line number allows you to view the corresponding line in the [**Result Details**](Test_result_details.html) tab.|
+|**Test Case**|The particular section in the test module in which the TA bug is exposed. The section can be `Initial`, `Final` or a specific test case. Click the test case number to view the corresponding test case in the [**Result Details**](/TA_Help/Topics/Test_result_details.html) tab.|
+|**Status**|The current status, or life cycle stage, of the marked known bug, as defined in the bug's [Current status](/TA_Help/Topics/Bug_information.html#row_current_status) field.|
+|**This Run**|The suggested status of the TA bug for this automation run. \([Learn more](/TA_Help/Topics/Bugs_working_known_bug_reviewing_test_results.html#section_m3b_t2l_wn).\)|
+|**Line**|The line number in the test where the action is marked as a known bug. \(Note that any number of action lines may be marked with a given bug ID.\) Clicking on the line number allows you to view the corresponding line in the [**Result Details**](/TA_Help/Topics/Test_result_details.html) tab.|
 |**Ignored Fails**|The number of executions of the marked action line that failed during the run.|
 
 ## Suggested TA bug status
@@ -61,6 +61,8 @@ The suggested status, or life cycle stage, of a TA bug is determined based on th
 
 The following table describes the matrix to determine the suggested bug status for each check action marked with a TA bug.
 
+|||
+|------|------|
 |**Current status**|**Suggested status**|
 |Passed results|Failed results|Passed with Warning/Error results|Passed with known bug results|Not executed results|
 |Open|Resolved|Open|Warning/Error|Open|Not Executed|

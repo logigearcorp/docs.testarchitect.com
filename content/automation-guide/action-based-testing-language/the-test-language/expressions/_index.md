@@ -6,7 +6,7 @@ aliases:
     - /TA_Automation/Topics/The_test_language_expressions.html
 ---
 
-Expressions, like variables, may appear in action line arguments in TestArchitect test modules and actions. An expression is any combination of literal values, variables, operators, and functions that follows a set of rules, and which needs to be evaluated before it can be used.Operators are symbols which specify operations to be performed, such as addition \(a numeric operation\) or concatenation \(a string operation\). \(Functions are discussed in [Functions](The_test_language_functions.html).\) Evaluating an expression means performing all the specified operations on the operands \(the values, variables, and functions\) until a value is produced. An action is invoked only after all the expressions in its arguments have been evaluated.
+Expressions, like variables, may appear in action line arguments in TestArchitect test modules and actions. An expression is any combination of literal values, variables, operators, and functions that follows a set of rules, and which needs to be evaluated before it can be used.Operators are symbols which specify operations to be performed, such as addition \(a numeric operation\) or concatenation \(a string operation\). \(Functions are discussed in [Functions](/TA_Automation/Topics/The_test_language_functions.html).\) Evaluating an expression means performing all the specified operations on the operands \(the values, variables, and functions\) until a value is produced. An action is invoked only after all the expressions in its arguments have been evaluated.
 
 ## The expression indicator
 
@@ -69,7 +69,7 @@ Upon execution of the above, the results reported are as follows:
 
 A cell expression consists of two classes of items: operands, which are things that are operated on \(such as numbers, strings and variables\), and operators, which specify what operations are to be performed. TestArchitect offers seven operators: six that operate on numbers and one that operates on strings.
 
-**Note:** While the set of expression operators in TestArchitect is relatively small, they are effectively supplemented by the many [functions](The_test_language_functions.html) available. Moreover, user-defined actions can be written to provide additional functionality, with operands assigned to arguments, and the [result \(or results\) returned](/TA_Tutorials/Topics/Return_values.html) to variables in other argument\(s\).
+**Note:** While the set of expression operators in TestArchitect is relatively small, they are effectively supplemented by the many [functions](/TA_Automation/Topics/The_test_language_functions.html) available. Moreover, user-defined actions can be written to provide additional functionality, with operands assigned to arguments, and the [result \(or results\) returned](/TA_Tutorials/Topics/Return_values.html) to variables in other argument\(s\).
 
 The following expression operators are available in TestArchitect.
 
@@ -91,7 +91,7 @@ The priority assigned to operators tells us which operations are performed befor
 
 **Parentheses** can be used to modify the order of operations in an expression. For instance, if we want the expression above to have its addition operation performed first, we need only surround the term with parentheses: `(4 + 3) * 2`.
 
-**Note:** For the full list of operator precedence, see [here](aut_operator_precedence.html).
+**Note:** For the full list of operator precedence, see [here](/TA_Automation/Topics/aut_operator_precedence.html).
 
 ## Automatic conversion of data types
 

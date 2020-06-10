@@ -9,7 +9,7 @@ keywords: "getbaselines, abtpicturecheck getbaselines, list of baseline images, 
 
 ## Syntax
 
-`List [<AbtBaselinePicture\>](abt_AbtBaselinePicture.html) GetBaselines`
+`List [<AbtBaselinePicture\>](/TA_Automation/Topics/abt_AbtBaselinePicture.html) GetBaselines`
 
 ## Description
 
@@ -17,7 +17,7 @@ Retrieve a full list of baseline images in the current picture check.
 
 ## Return Value
 
-Array of [AbtBaselinePicture](abt_AbtBaselinePicture.html) objects. If the call is unsuccessful, returnnull.
+Array of [AbtBaselinePicture](/TA_Automation/Topics/abt_AbtBaselinePicture.html) objects. If the call is unsuccessful, returnnull.
 
 ## Notes
 

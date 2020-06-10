@@ -12,7 +12,7 @@ TestArchitect employs a depth-first search \(DFS\) algorithm to locate, among su
 
 When searching for a definition, TestArchitect performs a depth-first search \(DFS\), starting from the [host project](/reuse/../TA_Glossary/Topics/glossaryHostProject.html). DFS is an algorithm for searching for a given node by traversing the data tree starting from the root. Each branch is explored as far as possible, before backtracking. The process continues until the target node is found. The following picture illustrates the DFS algorithm.
 
-![](/images//Images/TA_Help/Images/Test_results_DFS_2.png "Order in which the nodes are visited")
+![](/images/TA_Help/Images/Test_results_DFS_2.png "Order in which the nodes are visited")
 
 **Note:** An arrow from node **x** to node **y** means **x** subscribes to **y**. In the above diagram, node 1 subscribes to nodes 2, 7, and 8 which, conversely, are the suppliers for node 1.
 
@@ -20,13 +20,13 @@ Each node in the above figure represents a TestArchitect project. The number on 
 
 Because a project may act as a supplier for any number of other projects, a given subscription tree may have one or more cross edges, in which more than one subscription path may exist between a subscriber and a non-immediate supplier. When that is the case, TestArchitect still follows the DFS algorithm, traversing all suppliers of each node it encounters in its search, *as long as they have not already been traversed*. That is, during the search, any node that has already been traversed is skipped. The following figure indicates the changes in the traversing order when there is a cross edge from node 2 to node 9 in the above diagram.
 
-![](/images//Images/TA_Help/Images/Test_results_DFS_2.cross_link.png "Order in which the nodes are visited in case of cross edges")
+![](/images/TA_Help/Images/Test_results_DFS_2.cross_link.png "Order in which the nodes are visited in case of cross edges")
 
 **Note:** The orange nodes highlight the changes in the traversing order due to cross edging.
 
 **Important:** Circularly linked subscriptions are not allowed. For example, if project A subscribes to project B and project B in turn subscribes to project A.
 
-![](/images//Images/TA_Help/Images/Circularly_linked_subscription.png)
+![](/images/TA_Help/Images/Circularly_linked_subscription.png)
 
 ## Search rules by definition type
 
@@ -55,9 +55,9 @@ TestArchitect applies the depth-first search algorithm when searching for a data
 
 The figure below depicts the situation in which data sets of the same name are defined in both the subscriber's and supplier's projects.
 
-![](/images//Images/TA_Help/Images/Test_results_rules_dataset.png)
+![](/images/TA_Help/Images/Test_results_rules_dataset.png)
 
-![](/images//Images/TA_Help/Images/Test_results_rules_dataset.png)
+![](/images/TA_Help/Images/Test_results_rules_dataset.png)
 
 Project TEST1 subscribes to project TEST2. Test1 contains the definitions for data set ds1 and test module tm1, the latter of which calls action act1. Project TEST2 contains an action act1 \(which TEST1 does not\) and a definition for data set ds1. Hence both projects have definitions for data set ds1, while only TEST2 has a definition for action act1.
 
@@ -65,7 +65,7 @@ When tm1 calls action act1 \(which uses the data set ds1\), the action is suppli
 
 The results below, for execution of TEST1's tm1 test module, do indeed indicate that it is TEST1's copy of ds1 that supplied the data.
 
-![](/images//Images/TA_Help/Images/Test_results_rules_dataset_run_results.png)
+![](/images/TA_Help/Images/Test_results_rules_dataset_run_results.png)
 
 **Variations**
 
@@ -73,7 +73,7 @@ TestArchitect also applies a similar depth-first search algorithm when searching
 
 The figure below depicts the situation in which a specified keyword variation is not defined in the subscriber's project; only the default variation exists within it.
 
-![](/images//Images/TA_Help/Images/Test_results_rules_variations.png)
+![](/images/TA_Help/Images/Test_results_rules_variations.png)
 
 If test module tm1 is executed with keyword variation `win`, and tm1 calls action act1, TestArchitect uses the default definition \(act1 in project 1\) because, as shown, there is no variation of act1 defined in Project 1 for keyword `win`. However, if there were also no act1 \(default\) in project 1, TestArchitect would then use `act1 {win}`, as defined in the project Project 2.
 

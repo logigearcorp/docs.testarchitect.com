@@ -35,7 +35,7 @@ A network connection to the web service-under-test is required. Otherwise, TestA
 
 ## Web service testing
 
-A web service test basically involves \([learn more](aut_testing_web_service_creating_test.html#section_l5x_qrm_1y)\):
+A web service test basically involves \([learn more](/TA_Automation/Topics/aut_testing_web_service_creating_test.html#section_l5x_qrm_1y)\):
 
 1.  Specify authentication information for service clients
 2.  Send an HTTP request to the web service-under-test

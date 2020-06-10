@@ -8,7 +8,7 @@ aliases:
 
 You can automatically replace a word or phrase with another in a field of a test case list view.
 
-The contents of fields belonging to test cases can be replaced if they are [editable fields](Listview_editable_fields.html).
+The contents of fields belonging to test cases can be replaced if they are [editable fields](/TA_Help/Topics/Listview_editable_fields.html).
 
 1.  Open the test case list view.
 

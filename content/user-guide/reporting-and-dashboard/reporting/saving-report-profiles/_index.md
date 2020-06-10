@@ -8,7 +8,7 @@ aliases:
 
 After setting up a customized report, you may want to save the settings you have created so that future reports with those same settings can be readily generated. TestArchitect makes this possible with report profiles.
 
-After [creating a report profile](Report_producing.html) in the **Edit Profile** panel, you can save it for future use.
+After [creating a report profile](/TA_Help/Topics/Report_producing.html) in the **Edit Profile** panel, you can save it for future use.
 
 1.  On the **Edit Profile** panel in the main window, click the **Keep as** button.
 

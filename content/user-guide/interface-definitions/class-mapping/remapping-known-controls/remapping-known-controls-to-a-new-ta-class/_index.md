@@ -20,7 +20,7 @@ The last topic discussed remapping known controls of an AUT to an existing TA cl
 
 1.  Launch the application to be tested and navigate to the window containing the control\(s\) to be interfaced with.
 
-2.  Launch the [Interface Viewer](Interface_def_Viewer_Starting.html) or the [Element Definition](Interface_def_client_interface_tool_identify.html) dialog box.
+2.  Launch the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer_Starting.html) or the [Element Definition](/TA_Help/Topics/Interface_def_client_interface_tool_identify.html) dialog box.
 
     **Restriction:** The Element Definitions dialog box is unavailable with iOS and Android applications.
 
@@ -62,7 +62,7 @@ The last topic discussed remapping known controls of an AUT to an existing TA cl
 5.  Click **OK**.
 
 
-The known controls are remapped to the new, user-defined TA class, with the mapping recorded in the [$ Class Maps](Interface_def_Viewer_class_mapping.html) entity.
+The known controls are remapped to the new, user-defined TA class, with the mapping recorded in the [$ Class Maps](/TA_Help/Topics/Interface_def_Viewer_class_mapping.html) entity.
 
 **Parent topic:**[Remapping known controls](/TA_Help/Topics/Mapping_known_controls.html)
 

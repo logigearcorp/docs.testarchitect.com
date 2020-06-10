@@ -8,7 +8,7 @@ aliases:
 
 Using anchor and anchor pos properties within variable-based dynamic identifiers.
 
-In the [previous example](prop_anchor.example_01.html) demonstrating the use of the anchor pos property, we had dedicated action lines accessing several link elements in a web page with a repetitive pattern of elements. And the test used “hard-coded” references to each element. If the next day's newspaper had more than three **National News** articles, the test case would fail to capture any headlines past the third one. And were it to have only two, the get action would error out when it attempted to access the \(nonexistent\) third headline.
+In the [previous example](/TA_Help/Topics/prop_anchor.example_01.html) demonstrating the use of the anchor pos property, we had dedicated action lines accessing several link elements in a web page with a repetitive pattern of elements. And the test used “hard-coded” references to each element. If the next day's newspaper had more than three **National News** articles, the test case would fail to capture any headlines past the third one. And were it to have only two, the get action would error out when it attempted to access the \(nonexistent\) third headline.
 
 Ideally, we need a test procedure that can retrieve all of the **National News** headlines regardless of their number. And because of the repetitive nature of the pattern of elements surrounding each headline, it would be preferable to be able to iterate through them, especially in an AUT window or web page containing a large number of these repetitions.
 
@@ -63,9 +63,9 @@ Also recall that we are interested in retrieving the text of the headlines of th
 
 ![](/images//Images/interface.anchor_pos.06.png)
 
-As before, we can use the **div** element with `id="national_section"` as an anchor for the headline elements. In that example, we also used mappings from the interface entity to identify the link containing each headline. Because these interface elements are hard-coded and unchangeable during runtime, we refer to them as static identifiers. What we need instead in this case is a [dynamic identifier](The_test_language_dynamic_identifiers.html), one which can be varied during the run to identify each headline-containing link element in sequence.
+As before, we can use the **div** element with `id="national_section"` as an anchor for the headline elements. In that example, we also used mappings from the interface entity to identify the link containing each headline. Because these interface elements are hard-coded and unchangeable during runtime, we refer to them as static identifiers. What we need instead in this case is a [dynamic identifier](/TA_Help/Topics/The_test_language_dynamic_identifiers.html), one which can be varied during the run to identify each headline-containing link element in sequence.
 
-**Warning:** The last example included a warning that we are assuming that the only link \(<a\>\) elements in the articles are those that contain the headlines. That assumption still holds for this example. It is addressed in a [later example](prop_anchor.example_03.html).
+**Warning:** The last example included a warning that we are assuming that the only link \(<a\>\) elements in the articles are those that contain the headlines. That assumption still holds for this example. It is addressed in a [later example](/TA_Help/Topics/prop_anchor.example_03.html).
 
 1.  **Note:** If you already saved the HTML code from the previous example, you can skip the following substeps. \(But remember to open the web page in a browser.\)
 
@@ -83,7 +83,7 @@ As before, we can use the **div** element with `id="national_section"` as an anc
 
 2.  **Note:** You can skip this step if you already created the front\_page interface entity from the previous example, as we will continue to work with it. Note that, if you do not yet have it, in this case it only requires a single interface element, that for the anchor.
 
-    In a TestArchitect project, create a [new interface entity](Interface_def_Adding.html), name it front\_page, and enter the following two mappings:
+    In a TestArchitect project, create a [new interface entity](/TA_Help/Topics/Interface_def_Adding.html), name it front\_page, and enter the following two mappings:
 
     ![](/images//Images/IV_tree_for_anchor_pos.11b.png)
 
@@ -102,7 +102,7 @@ As before, we can use the **div** element with `id="national_section"` as an anc
 
     1.  we now have a loop that invokes the get and set text file actions iteratively, and
     2.  the get action uses a dynamic identifier to reference each of the article headlines.
-    As described in the [Dynamic identifiers](The_test_language_dynamic_identifiers.html) topic, a dynamic identifier consists of square brackets surrounding the identification of a TA class, followed by one or more property-value pairs, all comma-delimited. The above dynamic identifier involves two such property-value pairs, as we need to identify both an anchor and an anchor pos. The anchor portion \(**div\_national-news**\) of the dynamic identifier remains constant throughout the loop, but the anchor pos portion must vary with each iteration. Hence, a concatenation expression is used in order to insert an incrementing variable, var\_headline\_no, into the dynamic identifier, so that, with each iteration, the get action's control argument takes on the values:
+    As described in the [Dynamic identifiers](/TA_Help/Topics/The_test_language_dynamic_identifiers.html) topic, a dynamic identifier consists of square brackets surrounding the identification of a TA class, followed by one or more property-value pairs, all comma-delimited. The above dynamic identifier involves two such property-value pairs, as we need to identify both an anchor and an anchor pos. The anchor portion \(**div\_national-news**\) of the dynamic identifier remains constant throughout the loop, but the anchor pos portion must vary with each iteration. Hence, a concatenation expression is used in order to insert an incrementing variable, var\_headline\_no, into the dynamic identifier, so that, with each iteration, the get action's control argument takes on the values:
 
     ```
     ta class=link, anchor=div_national-news, anchor pos=link 1]
@@ -111,7 +111,7 @@ As before, we can use the **div** element with `id="national_section"` as an anc
                               etc.
     ```
 
-7.  Now [execute](Test_exec_test_execution.html) your test case. \(If your test module now holds two test cases, you might want to restrict execution to just this test case.\)
+7.  Now [execute](/TA_Help/Topics/Test_exec_test_execution.html) your test case. \(If your test module now holds two test cases, you might want to restrict execution to just this test case.\)
 
 
 Upon completion of execution, your headlines02.txt file holds the three retrieved headlines:

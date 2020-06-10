@@ -42,7 +42,7 @@ Object class representing a SQL-compliant database.
         -   **On macOS:** Microsoft does not provide a SQL Server ODBC driver for the macOS machine. However, a good open source alternative, [FreeTDS](http://www.freetds.org/), is available. Note that, additional configurations are also required \([learn more](aut_testing_database_Mac_setup_MSSQL.html)\).
     -   MySQL Server: [Read here](http://dev.mysql.com/downloads/connector/odbc/).
 
-        **Note:** On macOS, additional configurations are required \([learn more](aut_testing_database_Mac_setup_MySQL.html)\).
+        **Note:** On macOS, additional configurations are required \([learn more](/TA_Automation/Topics/aut_testing_database_Mac_setup_MySQL.html)\).
 
     -   Excel: The ODBC driver for Microsoft Excel is automatically installed with Microsoft Office. If Microsoft Office is not currently installed on your test machine, you can download and install the correct driver from the appropriate link below:
         -   **ODBC driver for Excel 2007 \(32-bit\):** [http://www.microsoft.com/en-us/download/details.aspx?id=23734](http://www.microsoft.com/en-us/download/details.aspx?id=23734)

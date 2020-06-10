@@ -10,9 +10,9 @@ Picture handling actions interact with captured and stored images.
 
 **Note:**
 
--   Picture Handling built-in actions works based on either a pixel-by-pixel technique or a keypoint detection technique comparison. To switch between techniques, use the [picture algorithm](picture_algorithm.html) setting.
--   The exact value for the picture algorithm built-in setting \(specifying the pixel-by-pixel comparison technique\) applies to nearly every [picture handling](picture_handling.html) built-in action. The sole exception is [set picture min accuracy](set_picture_min_accuracy.html), which does not interact with the AUT.
--   The key points value for the picture algorithm built-in setting \(specifying the keypoint detection technique\) applies to every [picture handling](picture_handling.html) built-in action but two: [check picture](check_picture.html) is exempt, since it always applies a pixel-by-pixel comparison, and set picture min accuracy, as mentioned, has no interaction with the AUT.
+-   Picture Handling built-in actions works based on either a pixel-by-pixel technique or a keypoint detection technique comparison. To switch between techniques, use the [picture algorithm](/TA_Automation/Topics/bis_picture_algorithm.html) setting.
+-   The exact value for the picture algorithm built-in setting \(specifying the pixel-by-pixel comparison technique\) applies to nearly every [picture handling](/TA_Automation/Topics/bia_picture_handling.html) built-in action. The sole exception is [set picture min accuracy](/TA_Automation/Topics/bia_set_picture_min_accuracy.html), which does not interact with the AUT.
+-   The key points value for the picture algorithm built-in setting \(specifying the keypoint detection technique\) applies to every [picture handling](/TA_Automation/Topics/bia_picture_handling.html) built-in action but two: [check picture](/TA_Automation/Topics/bia_check_picture.html) is exempt, since it always applies a pixel-by-pixel comparison, and set picture min accuracy, as mentioned, has no interaction with the AUT.
 
 1.  [capture screen](/TA_Automation/Topics/bia_capture_screen.html)  
 

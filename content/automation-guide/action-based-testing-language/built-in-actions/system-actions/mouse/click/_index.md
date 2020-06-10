@@ -60,8 +60,8 @@ This action may be used within the following project items:test modules and user
         -   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/reuse/../TA_Automation/Topics/bia_get_screen_resolution.html#li.ios.get_screen_resolution).\)
         -   For the Safari web browser on iOS, only the value left is supported. The value left indicates a tap with your finger.
     -   For Safari running on macOS, only a value of left \(the default\) is supported.
--   The [click window](click_window.html) built-in action is functionally identical to click with control omitted.
--   For controls that require an extra argument to be identified \(e.g., a button on a toolbar\), use actions which are specific to those kinds of controls \(e.g., [click toolbar button](click_toolbar_button.html)\).
+-   The [click window](/TA_Automation/Topics/bia_click_window.html) built-in action is functionally identical to click with control omitted.
+-   For controls that require an extra argument to be identified \(e.g., a button on a toolbar\), use actions which are specific to those kinds of controls \(e.g., [click toolbar button](/TA_Automation/Topics/bia_click_toolbar_button.html)\).
 -   As a general rule for all actions involving x,y coordinate arguments, the coordinates are specified in pixels relative to the top-left corner of the:
 
     -   control, if the action has window and control arguments, and values are specified for both of them;
@@ -76,7 +76,7 @@ This action may be used within the following project items:test modules and user
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[case sensitive](case_sensitive.html), [remove double quotes from cells](remove_double_quotes_from_cells.html), [standard ASCII only](standard_ASCII_only.html), [object wait](object_wait.html), [window wait](window_wait.html).
+The following settings are applicable to this action:[case sensitive](/TA_Automation/Topics/bis_case_sensitive.html), [remove double quotes from cells](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html), [standard ASCII only](/TA_Automation/Topics/bis_standard_ASCII_only.html), [object wait](/TA_Automation/Topics/bis_object_wait.html), [window wait](/TA_Automation/Topics/bis_window_wait.html).
 
 ## Applicable Controls
 

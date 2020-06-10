@@ -11,7 +11,7 @@ The following topics discuss the tasks required to set up a TFS-MTM integrated e
 The installation process is comprised of two parts:
 
 -   installing the required Microsoft Application Lifecycle Management \(ALM\) components, and
--   configuring TestArchitect clients based on their roles – specifically, [test development](ug_MTM_set_up_TA.html) or [test execution](ug_MTM_test_execution.html).
+-   configuring TestArchitect clients based on their roles – specifically, [test development](/TA_Help/Topics/ug_MTM_set_up_TA.html) or [test execution](/TA_Help/Topics/ug_MTM_test_execution.html).
 
 1.  [Installing and configuring Microsoft components for on-premises Team Foundation Server](/TA_Help/Topics/ug_MTM_configuration.html)  
 This section and its subtopics list out a number of components of Microsoft's Application Lifecycle Management \(ALM\) environment that need to be installed and configured for on-premises TFS.

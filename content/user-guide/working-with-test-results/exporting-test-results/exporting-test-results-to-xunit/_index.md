@@ -14,7 +14,7 @@ Choose one of the following two methods to export test results to xUnit:
 
     1.  Select the test results that you want to export to xUnit.
 
-        **Tip:** You can select test results in the TestArchitect explorer tree, or in the [result list view](Listview_results.html).
+        **Tip:** You can select test results in the TestArchitect explorer tree, or in the [result list view](/TA_Help/Topics/Listview_results.html).
 
     2.  Right-click the selection, and click **Export** \> **to xUnit** .
 

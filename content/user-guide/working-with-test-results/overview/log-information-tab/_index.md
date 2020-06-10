@@ -14,10 +14,10 @@ aliases:
 
 |Field|Description|
 |-----|-----------|
-|**Line**|The line number in the action line where the report action appears. The line number is color-coded to indicate the type of reporting action and/or result. Clicking on the line number text opens the [**Result Details**](Test_result_details.html) tab, displaying the corresponding line in its execution context.-   [report](/TA_Automation/Topics/bia_report.html): black.-   [report check](/TA_Automation/Topics/bia_report_check.html): red if Failed is returned for the result argument, otherwise, green.<br>-   [report error](/TA_Automation/Topics/bia_report_error.html): red.<br>-   [report warning](/TA_Automation/Topics/bia_report_warning.html): orange.<br><br>|
+|**Line**|The line number in the action line where the report action appears. The line number is color-coded to indicate the type of reporting action and/or result. Clicking on the line number text opens the [**Result Details**](/TA_Help/Topics/Test_result_details.html) tab, displaying the corresponding line in its execution context.-   [report](/TA_Automation/Topics/bia_report.html): black.<br>-   [report check](/TA_Automation/Topics/bia_report_check.html): red if Failed is returned for the result argument, otherwise, green.<br>-   [report error](/TA_Automation/Topics/bia_report_error.html): red.<br>-   [report warning](/TA_Automation/Topics/bia_report_warning.html): orange.<br><br>|<br>
 |**Message**|The textual description as specified by the text argument of the given report action.|
-|**Action**|The particular report action. Click the action name to view the corresponding action line in the [**Result Details**](Test_result_details.html) tab.|
-|**Test case**|ID and the title of the test case where the log information is reported. Click the test case number to view the corresponding test case in the [**Result Details**](Test_result_details.html) tab.|
+|**Action**|The particular report action. Click the action name to view the corresponding action line in the [**Result Details**](/TA_Help/Topics/Test_result_details.html) tab.|
+|**Test case**|ID and the title of the test case where the log information is reported. Click the test case number to view the corresponding test case in the [**Result Details**](/TA_Help/Topics/Test_result_details.html) tab.|
 
 **Parent topic:**[Overview of test results](/TA_Help/Topics/ug_test_results_introduction.html)
 

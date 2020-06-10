@@ -9,7 +9,7 @@ keywords: "lexical scoping, determine whether to employ lexical scoping or dynam
 
 ## Description
 
-Specify which scope binding, [dynamic scoping](The_test_language_variables.html) or [lexical scoping](The_test_language_variables.html), is used for TestArchitect local variables and user-defined action arguments.
+Specify which scope binding, [dynamic scoping](/TA_Automation/Topics/The_test_language_variables.html) or [lexical scoping](/TA_Automation/Topics/The_test_language_variables.html), is used for TestArchitect local variables and user-defined action arguments.
 
 ## Allowable values
 

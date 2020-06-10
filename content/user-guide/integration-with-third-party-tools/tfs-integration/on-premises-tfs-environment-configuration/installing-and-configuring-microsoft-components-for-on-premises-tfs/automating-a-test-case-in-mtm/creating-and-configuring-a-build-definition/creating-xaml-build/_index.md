@@ -34,7 +34,7 @@ To create and configure an XAML build, carry out the following steps:
 
 6.  Keep in mind the following specific settings:
 
-    -   On the **Build Defaults** tab, in the **Build controller** list, specify the [build controller](ug_MTM_config_build_controller.html) that will be used to process the team build.
+    -   On the **Build Defaults** tab, in the **Build controller** list, specify the [build controller](/TA_Help/Topics/ug_MTM_config_build_controller.html) that will be used to process the team build.
     -   Also in the Staging location section of the tab, specify the way the build process should store the output files and logs:
         -   Copy build output to the following drop folder: Choose this option to copy output files to a drop folder on a file share server. In the box, type the Universal Naming Convention \(UNC\) file path of the folder into which you want the build system to write the output files. Note that you must specify a folder that has been prepared for use as a drop folder.
 
@@ -47,7 +47,7 @@ To create and configure an XAML build, carry out the following steps:
 
 The XAML build you created appears on the Builds page in **Team Explorer**.
 
-After you create an XAML build, start it to create a team build instance to be associated with your test plan. \([Learn more](MTM_queue_XAML_build.html).\)
+After you create an XAML build, start it to create a team build instance to be associated with your test plan. \([Learn more](/TA_Help/Topics/MTM_queue_XAML_build.html).\)
 
 **Parent topic:**[Creating and configuring a build definition](/TA_Help/Topics/ug_MTM_build_definition.html)
 

@@ -10,7 +10,7 @@ TestArchitect searches the entire project and returns all tokens matching the se
 
 -   Ensure that your TestArchitect Client is running and connected to the repository where the project resides.
 
-See [search](Additional_features_search.html) for instructions on how to search for an item in the TestArchitect explorer tree.
+See [search](/TA_Help/Topics/Additional_features_search.html) for instructions on how to search for an item in the TestArchitect explorer tree.
 
 **Parent topic:**[Projects in TestArchitect](/TA_Help/Topics/Projects_def.html)
 

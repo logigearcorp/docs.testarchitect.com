@@ -18,14 +18,14 @@ Integration between TestArchitect and Zephyr involves establishing a connection 
 
 Data and control integration between Zephyr and TestArchitect includes the following:
 
--   [Connection of a TestArchitect repository to a Zephyr server](ug_Zephyr_setting_up_connection.html).
--   [Mapping of a TestArchitect project to a Zephyr project](ug_Zephyr_mapping_projects.html).
--   [Importing Zephyr test cases to TestArchitect test modules](ug_Zephyr_importing_Zephyr_test_cases.html).
--   [Configuring Zephyr Bot \(ZBot\) agent and ZIPs](ug_Zephyr_ZBot.html).
--   [Uploading of TestArchitect test modules/test cases to a Zephyr server](ug_Zephyr_upload_TA_TM_TC.html).
--   [Automatic uploading of TestArchitect test results to Zephyr](ug_Zephyr_auto_uploading_results.html).
--   [Manual uploading of TestArchitect test results to Zephyr](ug_Zephyr_manual_uploading_results.html).
--   [Execution of tests from Zephyr](ug_Zephyr_executing_tests.html).
+-   [Connection of a TestArchitect repository to a Zephyr server](/TA_Help/Topics/ug_Zephyr_setting_up_connection.html).
+-   [Mapping of a TestArchitect project to a Zephyr project](/TA_Help/Topics/ug_Zephyr_mapping_projects.html).
+-   [Importing Zephyr test cases to TestArchitect test modules](/TA_Help/Topics/ug_Zephyr_importing_Zephyr_test_cases.html).
+-   [Configuring Zephyr Bot \(ZBot\) agent and ZIPs](/TA_Help/Topics/ug_Zephyr_ZBot.html).
+-   [Uploading of TestArchitect test modules/test cases to a Zephyr server](/TA_Help/Topics/ug_Zephyr_upload_TA_TM_TC.html).
+-   [Automatic uploading of TestArchitect test results to Zephyr](/TA_Help/Topics/ug_Zephyr_auto_uploading_results.html).
+-   [Manual uploading of TestArchitect test results to Zephyr](/TA_Help/Topics/ug_Zephyr_manual_uploading_results.html).
+-   [Execution of tests from Zephyr](/TA_Help/Topics/ug_Zephyr_executing_tests.html).
 
 1.  [Configuring integration with Zephyr](/TA_Help/Topics/ug_Zephyr_configuring.html)  
 Establishing and terminating communications between TestArchitect and Zephyr.

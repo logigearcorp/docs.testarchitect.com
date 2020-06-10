@@ -12,8 +12,8 @@ Ensure that the machine hosting the TestArchitect repository server has the **HP
 
 Ensure that you have already taken the following steps:
 
--   [Registered the Quality Center server with TestArchitect](Integration_QC_connecting_repo_to_QC_server_step_1.html).
--   [Mapped the TestArchitect project](Integration_QC_connecting_repo_to_QC_server_step_2.html) containing the test cases of interest to the Quality Center project.
+-   [Registered the Quality Center server with TestArchitect](/TA_Help/Topics/Integration_QC_connecting_repo_to_QC_server_step_1.html).
+-   [Mapped the TestArchitect project](/TA_Help/Topics/Integration_QC_connecting_repo_to_QC_server_step_2.html) containing the test cases of interest to the Quality Center project.
 
 **Note:**
 
@@ -22,7 +22,7 @@ TestArchitect relies on test modules that are typically developed and executed a
 |TestArchitect|Quality Center|
 |-------------|--------------|
 |Test folder|Folder \(with subfolders representing TA test modules\)|
-|Test module|FolderOptionally, a '\#' test \(QC test with '\#' prepended to the name\) may also be created to hold essential test module metadata.<br>|
+|Test module|FolderOptionally, a '\#' test \(QC test with '\#' prepended to the name\) may also be created to hold essential test module metadata.<br><br>|<br>
 |Test case|Test|
 
 You have two options when importing tests from Quality Center to TestArchitect:

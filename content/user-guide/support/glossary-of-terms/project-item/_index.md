@@ -8,12 +8,12 @@ aliases:
 
 A basic user-created \(or, in the case of results, test-generated\) component of a TestArchitect project. Project items include:
 
--   [test modules](glossaryTestModule.html)
+-   [test modules](/TA_Glossary/Topics/glossaryTestModule.html)
 -   test suites
 -   user-defined actions
--   interfaces and[interface entities](glossaryInterfaceEntity.html)
--   [dedicated data sets](glossaryDedicatedDataSet.html)
+-   interfaces and[interface entities](/TA_Glossary/Topics/glossaryInterfaceEntity.html)
+-   [dedicated data sets](/TA_Glossary/Topics/glossaryDedicatedDataSet.html)
 -   results
 -   bugs
--   [picture checks](glossaryPictureCheck.html)
+-   [picture checks](/TA_Glossary/Topics/glossaryPictureCheck.html)
 

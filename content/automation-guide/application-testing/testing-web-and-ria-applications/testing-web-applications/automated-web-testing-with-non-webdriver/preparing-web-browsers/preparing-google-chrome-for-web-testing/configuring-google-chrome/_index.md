@@ -22,7 +22,7 @@ Carry out the following procedure:
     "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --no-first-run --disable-web-security --allow-file-access-from-file --enable-views-textfield --force-renderer-accessibility
     ```
 
-    ![](/TA_Tutorials_Sample_App/Images/ug_taextension_chrome_1.png)
+    ![](/images/TA_Automation/Images/ug_taextension_chrome_1.png)
 
     **Note:** These flags have the following functions:
 

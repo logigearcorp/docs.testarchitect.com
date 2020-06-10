@@ -22,7 +22,7 @@ To execute tests for a particular project:
 
     ![](/images//Images/Projects_execute_test.png)
 
-    See [Test execution](Test_exec_test_execution.html) for an explanation of settings in the Execute Test dialog box.
+    See [Test execution](/TA_Help/Topics/Test_exec_test_execution.html) for an explanation of settings in the Execute Test dialog box.
 
 3.  Click **Execute** on the Execute Test dialog box to start the test.
 

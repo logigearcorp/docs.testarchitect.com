@@ -10,7 +10,7 @@ In order for an application to run as AUT on an iOS device, that application mus
 
 **Important:** iOS automation is only supported on Windows or macOS hosts.
 
-Ensure that the basic requirements are met before re-signing and installing your applications \(see [Prerequisites](iOS_prerequisite.html) for details\).
+Ensure that the basic requirements are met before re-signing and installing your applications \(see [Prerequisites](/iOS/Topics/iOS_prerequisite.html) for details\).
 
 The following procedures for re-signing the TestArchitect Agent app must be performed on an macOS machine:
 
@@ -59,7 +59,7 @@ The following procedures for re-signing the TestArchitect Agent app must be perf
 
         The re-signed application is installed onto the device.
 
-    **Tip:** You can perform step [6](iOS_installing_applications.html#step_u4p_xyq_kn) on either an macOS or Windows machine.
+    **Tip:** You can perform step [6](/iOS/Topics/iOS_installing_applications.html#step_u4p_xyq_kn) on either an macOS or Windows machine.
 
 
 After installing the re-signed application onto the iOS device, the application icon is available on the device's desktop.

@@ -22,13 +22,13 @@ You may ask: *Do I need different interface definitions for each of Internet Exp
 
     1.  Open the interface definition of this webpage.
     2.  Focus on the row interface element setting and change `Google - Windows Internet Explorer` to \{Google.\*\}.
-    3.  Click **Save** ![](/TA_Automation/Images/save_toolbar_btn.png) on the toolbar.
+    3.  Click **Save** ![](/images/TA_Automation/Images/save_toolbar_btn.png) on the toolbar.
     If you did not yet capture the interface for the webpage, and you want to make your interface definition generic enough to use across browsers, here's another approach:
 
     1.  Open the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer_Starting.html) and, in the UI explorer, select the node for the browser displaying `www.google.com`.
     2.  In the **Properties** tab, observe the title property.
     3.  Double-click title's **Value** field, and then change the **Value** into, for this example, \{Google .\*\} to match any HTML page \(window\) whose string starts with Google.
-    4.  Click **Save** ![](/TA_Automation/Images/btn_Interface_Viewer-Save.png) on the Interface Viewer.
+    4.  Click **Save** ![](/images/TA_Automation/Images/btn_Interface_Viewer-Save.png) on the Interface Viewer.
 2.  Capturing controls:
 
     We recommend that you capture interface elements with stable and unique properties across browsers, such as name, id, etc.

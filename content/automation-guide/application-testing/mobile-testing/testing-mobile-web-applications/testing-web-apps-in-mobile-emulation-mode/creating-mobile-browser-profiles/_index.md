@@ -8,7 +8,7 @@ aliases:
 
 How to create mobile browser profiles with different user agents and screen sizes.
 
-The built-in action [send command to browser](send_command_to_browser.html) is used within your TestArchitect test to specify a mobile browser profile to be invoked during testing, or even to change the environment for the currently invoked emulator to customize its behaviors. Naturally, within a test, you can call this built-in action any number of times to repeat testing with a variety of profiles for different mobile devices. The profiles are coded in JavaScript Object Notation \([JSON](http://www.w3schools.com/js/js_json_intro.asp)\), and with [Chrome debugging protocol](https://chromedevtools.github.io/debugger-protocol-viewer/).
+The built-in action [send command to browser](/TA_Automation/Topics/bia_send_command_to_browser.html) is used within your TestArchitect test to specify a mobile browser profile to be invoked during testing, or even to change the environment for the currently invoked emulator to customize its behaviors. Naturally, within a test, you can call this built-in action any number of times to repeat testing with a variety of profiles for different mobile devices. The profiles are coded in JavaScript Object Notation \([JSON](http://www.w3schools.com/js/js_json_intro.asp)\), and with [Chrome debugging protocol](https://chromedevtools.github.io/debugger-protocol-viewer/).
 
 **Important:** Basic JSON syntax as required for creating profiles is as follows:
 
@@ -112,7 +112,7 @@ In summary, the below JSON string defines the following parameters for a given m
 
 **Tip:** You may want to validate your JSON string with the free resource [jsoneditoronline.org/](http://www.jsoneditoronline.org/), to ensure that its syntax and format are accurate.
 
-Copy the JSON string into the command argument of the [send command to browser](send_command_to_browser.html) built-in action.
+Copy the JSON string into the command argument of the [send command to browser](/TA_Automation/Topics/bia_send_command_to_browser.html) built-in action.
 
 ```
                             window            command                                                                                                                                                                                                             variable                        

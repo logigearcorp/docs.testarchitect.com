@@ -13,7 +13,7 @@ To successfully automate a test case in Microsoft Test Manager \(MTM\), numerous
 -   XAML Build has been deprecated. Furthermore, Microsoft Test Manager \(MTM\) no longer supports XAML builds
 -   Using Test Center/Lab Center in MTM for automated testing is no longer supported by TFS, starting with TFS 2018.
 
-Accordingly Build vNext and the Test Hub in the [TFS web portal](TFS_web_automated_testing.html) are ideal replacements for respective XAML Build and MTM.\(See also: [Team Foundation Server 2018 Release Notes](https://docs.microsoft.com/en-us/visualstudio/releasenotes/tfs2018-relnotes)\)
+Accordingly Build vNext and the Test Hub in the [TFS web portal](/TA_Help/Topics/TFS_web_automated_testing.html) are ideal replacements for respective XAML Build and MTM.\(See also: [Team Foundation Server 2018 Release Notes](https://docs.microsoft.com/en-us/visualstudio/releasenotes/tfs2018-relnotes)\)
 
 1.  [Creating TFS test suites and test cases](/TA_Help/Topics/Integration_MTM_creating_MTM_test_suite.html)  
 Create test suites MTM and assign test cases to them.

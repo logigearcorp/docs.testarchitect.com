@@ -31,12 +31,12 @@ Also, Automation Agent Manager is used to specify WebDriver or GeckoDriver's loc
     -   Microsoft Edge :
         -   **Configure**: In the Edge WebDriver Configuration dialog box, where WebDriver is installed, and then click **Save**.
 
-            ![](/TA_Automation/Images/configure_web_driver.png)
+            ![](/images/TA_Automation/Images/configure_web_driver.png)
 
     -   Mozilla Firefox:
         -   **Configure**: In the Firefox WebDriver Configuration dialog box, where the GeckoDriver executable file is located, and then click **Save**.
 
-            ![](/TA_Automation/Images/configure_web_driver_FF.png)
+            ![](/images/TA_Automation/Images/configure_web_driver_FF.png)
 
 
 **Parent topic:**[Preparing web browsers](/TA_Help/Topics/Test_exec_extension.html)

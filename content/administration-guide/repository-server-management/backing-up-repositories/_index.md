@@ -14,7 +14,7 @@ Automatic backup can be set up or reconfigured at any time, with the repository 
 
 To set up or modify the auto-backup schedule, do the following:
 
-1.  [Open the Repository Server Control Panel](Repo_server_management_launching.html) dialog box.
+1.  [Open the Repository Server Control Panel](/TA_Administration/Topics/Repo_server_management_launching.html) dialog box.
 
 2.  Click the **Backup Schedule** ![](/images//Images/admin_RS_btn_BackupSched.png) button on the toolbar, or select **Tools** \> **Backup Schedule**.
 

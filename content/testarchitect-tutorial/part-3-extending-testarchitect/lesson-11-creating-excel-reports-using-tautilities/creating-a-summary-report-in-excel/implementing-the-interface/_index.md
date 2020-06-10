@@ -8,11 +8,11 @@ aliases:
 
 In this topic, the procedure generateMethod\(\), which interfaces with the TAUtilities APIs, is implemented.
 
-**Before proceeding:**At this point, your Excel spreadsheet should be created, with a **Generate** button and a macro attached to it. The macro code is defined in the [Creating the macro in Microsoft Excel](TAUtilities_implentation.html) topic.
+**Before proceeding:**At this point, your Excel spreadsheet should be created, with a **Generate** button and a macro attached to it. The macro code is defined in the [Creating the macro in Microsoft Excel](/TA_Tutorials/Topics/TAUtilities_implentation.html) topic.
 
 You will now create the code for the generateMethod\(\) procedure, which implements the interface to TAUtilities.
 
-1.  In the generateMethod\(\) procedure, store the input parameters in cells **$B$1** thru **$B$7** into their respective variables, declared previously in step [4](TAUtilities_implentation.html#step_wvd_nx2_lm):
+1.  In the generateMethod\(\) procedure, store the input parameters in cells **$B$1** thru **$B$7** into their respective variables, declared previously in step [4](/TA_Tutorials/Topics/TAUtilities_implentation.html#step_wvd_nx2_lm):
 
     ```
     'Get server information
@@ -31,7 +31,7 @@ You will now create the code for the generateMethod\(\) procedure, which impleme
 
     The Val\(\) method returns the repository server’s port number as a numeric value.
 
-2.  Returned information is to be reported starting at row **18** of the worksheet. Hence, the row variable, also declared in step [4](TAUtilities_implentation.html#step_wvd_nx2_lm), is assigned a value of 18.
+2.  Returned information is to be reported starting at row **18** of the worksheet. Hence, the row variable, also declared in step [4](/TA_Tutorials/Topics/TAUtilities_implentation.html#step_wvd_nx2_lm), is assigned a value of 18.
 
     ```
     row = 18
@@ -111,7 +111,7 @@ If the connection is successful, the Connect\(\) method returns a value of 1.
 
     The method getTestFolders\(1\) and GetTestModules\(1\) returns recursively a collection of the test module folder TestFolderList object, and the test module testModuleCollection object.
 
-    **Important:** The isRecursive parameter belonging to getTestFolders\(\) and GetTestModules\(\) only accepts the following boolean values \([learn more](tut_TAUtilities_API.html#ul_uyv_ffz_tv)\):
+    **Important:** The isRecursive parameter belonging to getTestFolders\(\) and GetTestModules\(\) only accepts the following boolean values \([learn more](/TA_Tutorials/Topics/tut_TAUtilities_API.html#ul_uyv_ffz_tv)\):
 
     -   Microsoft Component Object Model \(COM\):
         -   0: Gets project items at the top level only.

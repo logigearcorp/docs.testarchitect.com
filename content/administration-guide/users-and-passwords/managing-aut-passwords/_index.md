@@ -10,7 +10,7 @@ TestArchitect can save and encrypt passwords which are used for access to an app
 
 Typically, the built-in [enter](/TA_Automation/Topics/bia_enter.html) action is used to automate the process of supplying login credentials when so prompted by the AUT. TestArchitect recognizes the security risk posed by this aspect of the test process, and so allows for encryption of passwords within both the test editor and test results. For example, if you create an automated test procedure that logs into an e-banking system and retrieves the current balance, you would not want unauthorized users to be able to read the login information from the test editor or generated test results.
 
-Password encryption is implemented in such a way that only authorized users \(for example, [administrators](User_administration.html) or [test managers](User_administration.html)\) can read, modify, and manage passwords. Passwords are managed using the Manage Passwords dialog box.
+Password encryption is implemented in such a way that only authorized users \(for example, [administrators](/TA_Administration/Topics/User_administration.html) or [test managers](/TA_Administration/Topics/User_administration.html)\) can read, modify, and manage passwords. Passwords are managed using the Manage Passwords dialog box.
 
 **Tip:** You can copy data from an external application, such as Microsoft Excel™ or Notepad, and then paste the copied data into the Mange Passwords dialog box, or vice-versa.
 

@@ -11,8 +11,8 @@ In this activity, you will create a chart that displays the relative amounts of 
 **Before proceeding:**
 
 -   Ensure that you have a basic understanding of the TestArchitect Dashboard before creating a chart panel.
--   [A Dashboard portal, connected to the Sample Repository, should be open](tutDashboard_launching_Dashboard.html) in your browser.
--   Ensure that you have created a Test Results \(unfiltered\) data profile as specified in the section [Creating a data profileTutorial: Creating a data profile](tutDashboard_creating_a_data_profile.html).
+-   [A Dashboard portal, connected to the Sample Repository, should be open](/TA_Tutorials/Topics/tutDashboard_launching_Dashboard.html) in your browser.
+-   Ensure that you have created a Test Results \(unfiltered\) data profile as specified in the section [Creating a data profileTutorial: Creating a data profile](/TA_Tutorials/Topics/tutDashboard_creating_a_data_profile.html).
 
 Dashboard offers five types of charts: pie charts, line charts, bar charts, stacked bar charts, and grouped bar charts. You are going to perform a simple comparison of the relative numbers of result outcomes \(passed, failed, and passed with errors/warnings\) for without any further groupings of the data. Given this requirement, the best choice of chart is a pie chart.
 
@@ -22,7 +22,7 @@ Dashboard offers five types of charts: pie charts, line charts, bar charts, stac
 
     1.  On the Dashboard tool bar, point to **Global Setting** and select **Add Page**.
 
-        ![](/TA_Help/Images/Dashboard_add_page.png)
+        ![](/images/TA_Automation/Images/Dashboard_add_page.png)
 
     2.  On the New Page dialog box, enter the information as requested and click **OK**:
 
@@ -42,7 +42,7 @@ Dashboard offers five types of charts: pie charts, line charts, bar charts, stac
 3.  In the **Add New Panel** dialog, enter the information needed to define the panel, then click **OK**:
 
     -   **Type**: Chart
-    -   **Data Profile**: Test Results \(unfiltered\). This is the data profile you [created earlier](tutDashboard_creating_a_data_profile.html).
+    -   **Data Profile**: Test Results \(unfiltered\). This is the data profile you [created earlier](/TA_Tutorials/Topics/tutDashboard_creating_a_data_profile.html).
     -   **Display Name**: Car Rental Test Results Overview
     -   **Chart Title**: Summarized test results across test modules and dates
     -   **Show Title**: Selected
@@ -84,7 +84,7 @@ Let's suppose you want to know which operating systems were hosting the AUT for 
 
     2.  Select **Data Profiles** from the **Administer** menu.
 
-        ![](/TA_Help/Images/Dashboard_administer_add_new_data_profiles.png)
+        ![](/images/TA_Automation/Images/Dashboard_administer_add_new_data_profiles.png)
 
     3.  From the list of existing data profiles, click on **Test Results \(unfiltered\)**.
 

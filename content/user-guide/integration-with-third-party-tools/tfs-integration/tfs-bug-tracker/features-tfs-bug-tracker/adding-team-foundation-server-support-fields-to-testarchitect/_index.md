@@ -17,7 +17,7 @@ To have user-defined fields in TA bugs that can accept values from TFS, repeat t
     -   **Name**: Be sure to enter a name which is identical to the existing TFS field, for example Activity.
     -   **Applied To**: Select Bug entity.
     -   **Value Type**: Select Single line text or Multi line text.
-2.  Create a [registered bug](ug_TFS_BugTracker_creatingTAbugs.html#). Note that the new field appears in it.
+2.  Create a [registered bug](/TA_Help/Topics/ug_TFS_BugTracker_creatingTAbugs.html#). Note that the new field appears in it.
 
 
 The TestArchitect user-defined field loads additional value from TFS field, as depicted below:

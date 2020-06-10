@@ -10,7 +10,7 @@ Deploying TestArchitect uninstallation file on other computers and running the u
 
 1.  Deploy the TestArchitect uninstallation response file, uninstall.iss, to the target computer.
 
-2.  Get the **UninstallString** value of TestArchitect in Registry Editor. \([Learn more.](uninst_TA_silent_mode_creating_response_file.html#UninstallString)\)
+2.  Get the **UninstallString** value of TestArchitect in Registry Editor. \([Learn more.](/TA_InstallationGuide/DITA_source/Topics/uninst_TA_silent_mode_creating_response_file.html#UninstallString)\)
 
 3.  Bring up a command window with administrator right.
 

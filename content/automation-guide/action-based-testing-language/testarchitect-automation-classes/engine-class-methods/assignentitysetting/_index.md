@@ -40,7 +40,7 @@ The value is returned for the setting as it is defined in the Interface Definiti
 ## Notes
 
 -   Typical examples of entity settings are "title" for a window or "frame" for part of a web page.
--   This function is analogous to the built-in action [interface entity setting](interface_entity_setting.html).
+-   This function is analogous to the built-in action [interface entity setting](/TA_Automation/Topics/bia_interface_entity_setting.html).
 
 **Parent topic:**[Engine class methods](/TA_Automation/Topics/abtf_Engine_classes.html)
 

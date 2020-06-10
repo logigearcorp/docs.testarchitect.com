@@ -10,8 +10,8 @@ The Car Rental automated test scripts are part of the TestArchitect test suites 
 
 Ensure that the following requirements are met before you execute Car Rental automated tests on the iOS device.
 
--   [TestArchitect Agent](SR_iOS_installing_TA_Agent.html) and the [Car Rental](SR_iOS_installing_Car_Rental.html) application are installed onto the iOS device.
--   The iOS device is [configured](SR_iOS_configuring_device.html) for automated testing.
+-   [TestArchitect Agent](/TA_Tutorials_Sample_App/Topics/SR_iOS_installing_TA_Agent.html) and the [Car Rental](/TA_Tutorials_Sample_App/Topics/SR_iOS_installing_Car_Rental.html) application are installed onto the iOS device.
+-   The iOS device is [configured](/TA_Tutorials_Sample_App/Topics/SR_iOS_configuring_device.html) for automated testing.
 
 **Note:**
 
@@ -24,7 +24,7 @@ Ensure that the following requirements are met before you execute Car Rental aut
 
 2.  With TestArchitect running, double-click the **SampleRepository** node on the TestArchitect explorer tree.
 
-    ![](/images//Images/TA_Tutorials/Images/tut.Login_Repository.png)
+    ![](/images/TA_Tutorials/Images/tut.Login_Repository.png)
 
 3.  In the Log In Repository dialog box, type administrator in the **User Name** box, leave the **Password** box blank, and click **OK**.
 

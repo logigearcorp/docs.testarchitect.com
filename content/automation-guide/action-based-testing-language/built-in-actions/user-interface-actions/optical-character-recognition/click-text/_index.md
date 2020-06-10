@@ -31,7 +31,7 @@ Find a given bitmapped text string in a specified area of a bitmap, and then sim
     -   top: Specifies the top border of the rect area relative to the top edge of the active UI element. \(Units: pixels; default=0\)
     -   width: Specifies the width of the rect area. \(Units: pixels; the default is that value which causes the right border of the active area to coincide with the right edge of the active UI element.\)
     -   height: Specifies the height of the rect area. \(Units: pixels; the default is that value which causes the lower border of the active area to coincide with the lower edge of the active UI element.\)
-    ![](/images//Images/TA_Automation/Images/ocr_area_specs_01.png)
+    ![](/images/TA_Automation/Images/ocr_area_specs_01.png)
 
     The above figure illustrates the active area that applies when both the window and control arguments have been specified \(establishing a picture control as the active UI element\), and rect = 80, 30. \(That is, left=80, top=30, and width and height are allowed to assume their default values.\) Note that, in this case, the active area and the rect area are the same, but that is not always the case. \(See Notes below.\)
 
@@ -86,7 +86,7 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   This built-in action employs both [Optional Character Recognition](aut_text_recognition_techniques.html) \(OCR\) and [Graphics Device Interface](aut_text_recognition_techniques.html) \(GDI\) techniques. By default, the action employs OCR technique. To switch to GDI technique, refer to the [character recognition technique](character_recognition_technique.html) built-in setting for details.
+-   This built-in action employs both [Optional Character Recognition](/TA_Automation/Topics/aut_text_recognition_techniques.html) \(OCR\) and [Graphics Device Interface](/TA_Automation/Topics/aut_text_recognition_techniques.html) \(GDI\) techniques. By default, the action employs OCR technique. To switch to GDI technique, refer to the [character recognition technique](/TA_Automation/Topics/bis_character_recognition_technique.html) built-in setting for details.
 
     **Important:**
 
@@ -104,7 +104,7 @@ This action may be used within the following project items:test modules and user
 
 -   In most cases, the rect area, if specified, defines a sectional area whose borders reside within the active UI element, so that the rect area itself is the active area. But that is not necessarily the case. The following three images illustrate the general case for how the active area is determined when the rect area is specified.
 
-    ![](/images//Images/TA_Automation/Images/ocr_area_specs_02.png)
+    ![](/images/TA_Automation/Images/ocr_area_specs_02.png)
 
     The general rule for determining the active area is as follows:
 
@@ -116,9 +116,9 @@ This action may be used within the following project items:test modules and user
 
 -   If the action fails to find the specified bitmap text fragment, an error is generated.
 -   text argument:
-    -   For OCR technique: While the [case sensitive](case_sensitive.html) setting applies to the property values used to identify the correct window or control for this action, the action's OCR text identification functionality is non-case sensitive, and remains unaffected by the value of this setting.
+    -   For OCR technique: While the [case sensitive](/TA_Automation/Topics/bis_case_sensitive.html) setting applies to the property values used to identify the correct window or control for this action, the action's OCR text identification functionality is non-case sensitive, and remains unaffected by the value of this setting.
     -   For GDI technique:
-        -   The action's GDI text identification functionality is case sensitive, and is affected by the value of the [case sensitive](case_sensitive.html) setting.
+        -   The action's GDI text identification functionality is case sensitive, and is affected by the value of the [case sensitive](/TA_Automation/Topics/bis_case_sensitive.html) setting.
         -   It is highly recommended that you apply wildcards for this argument's value, since the text re-drawn by given drawing functions might contain surrounding noise. For example: given a value of \{Administration.\*\}, TestArchitect searches for texts whose string beginnings match Administration. In more general terms, this argument accepts regular expressions.
 -   text color argument:
     -   No value is required if your test procedure does not make use of the built-in [set ocr setting](/reuse/../TA_Automation/Topics/bia_set_ocr_setting.html) action and [OCR Detector Tool](/reuse/../TA_Help/Topics/ug_OCR_detector_tool.html).
@@ -128,12 +128,12 @@ This action may be used within the following project items:test modules and user
     -   **Android:** This built-in action, when applied to a connected Android device, requires that the [TestArchitect Agent service](/reuse/../Android/Topics/Android_TA_agent.html) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
         1.  Connect the Android device to the test controller through a USB cable \(not Wi-Fi\), if not already so connected.
         2.  Open the [Android Instrumentation Tool](/reuse/../Android/Topics/Android_Instrumentation_tool.html) dialog box.
-        3.  Click the **Refresh devices list** ![](/images//Images/Android/Images/Refresh_device_list_btn.png) button.
+        3.  Click the **Refresh devices list** ![](/images/Android/Images/Refresh_device_list_btn.png) button.
 -   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[case sensitive](case_sensitive.html) \(see Notes\), [remove double quotes from cells](remove_double_quotes_from_cells.html), [standard ASCII only](standard_ASCII_only.html), [object wait](object_wait.html), [window wait](window_wait.html).
+The following settings are applicable to this action:[case sensitive](/TA_Automation/Topics/bis_case_sensitive.html) \(see Notes\), [remove double quotes from cells](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html), [standard ASCII only](/TA_Automation/Topics/bis_standard_ASCII_only.html), [object wait](/TA_Automation/Topics/bis_object_wait.html), [window wait](/TA_Automation/Topics/bis_window_wait.html).
 
 ## Example - Case 1: With window and control arguments specified
 

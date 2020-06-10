@@ -15,7 +15,7 @@ Close a database connection.
 
 -   **name**
 
-    Name of the database connection \(previously established with the [connect database](create_connection_string.html) action.\)
+    Name of the database connection \(previously established with the [connect database](/TA_Automation/Topics/bia_create_connection_string.html) action.\)
 
 
 ## Notes
@@ -25,7 +25,7 @@ Close a database connection.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cell](remove_double_quotes_from_cells.html).
+The following settings are applicable to this action:[remove double quotes from cell](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html).
 
 ## Applicable Controls
 

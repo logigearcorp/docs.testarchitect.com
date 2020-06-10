@@ -10,7 +10,7 @@ Establishing a connection between your TestArchitect repository and the Team Fou
 
 Ensure that the following requirements are met:
 
--   Your TestArchitect test machine has registered the [Team Foundation Server.](Integration_MTM_connecting_TFS.html#)
+-   Your TestArchitect test machine has registered the [Team Foundation Server.](/TA_Help/Topics/Integration_MTM_connecting_TFS.html#)
 -   TFS login credentials.
 
     **Note:** TFS Bug Tracker will use the TFS server information user use for **Active** TFS server.
@@ -18,7 +18,7 @@ Ensure that the following requirements are met:
 
 To register a TFS Bug Tracker with your TestArchitect reposiotry, do the following:
 
-1.  [Active TFS server connection](Integration_MTM_connecting_TFS.html#)
+1.  [Active TFS server connection](/TA_Help/Topics/Integration_MTM_connecting_TFS.html#)
 
 2.  In the TEST MANAGEMENT window, select the **Active** TFS Bug Tracker check box to enable.
 
@@ -28,7 +28,7 @@ To register a TFS Bug Tracker with your TestArchitect reposiotry, do the followi
 
     **Note:** Auto fetch data required user input credential information by click **Authenticate**.
 
-4.  **Optional**: **Linking bug by status**: You could choose which **This Run status** of the bug would attach with the result when uploading to TFS. Click [here](Bugs_working_known_bug_reviewing_test_results_JIRA.html#) for more information about **This Run status**
+4.  **Optional**: **Linking bug by status**: You could choose which **This Run status** of the bug would attach with the result when uploading to TFS. Click [here](/TA_Help/Topics/Bugs_working_known_bug_reviewing_test_results_JIRA.html#) for more information about **This Run status**
 
     Example:![](/images//Images/tfs_register2.png)
 

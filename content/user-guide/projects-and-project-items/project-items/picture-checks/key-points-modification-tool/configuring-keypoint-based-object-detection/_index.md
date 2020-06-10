@@ -15,8 +15,8 @@ Ensure that you have done the following:
 
     **Note:**
 
-    -   To capture screenshots of desktop applications, use the [Picture Capturing](Additional_features_image_capturing_tool.html) tool.
-    -   To capture screenshots of mobile applications, use the [Device Live Screen](ug_capturing_mobile_screenshot.html) tool together with the [Picture Capturing](Additional_features_image_capturing_tool.html) tool.
+    -   To capture screenshots of desktop applications, use the [Picture Capturing](/TA_Help/Topics/Additional_features_image_capturing_tool.html) tool.
+    -   To capture screenshots of mobile applications, use the [Device Live Screen](/TA_Help/Topics/ug_capturing_mobile_screenshot.html) tool together with the [Picture Capturing](/TA_Help/Topics/Additional_features_image_capturing_tool.html) tool.
 
 Keypoint image detection, as opposed to pixel-by-pixel detection, is a useful picture handling technique when you are dealing with test images that may vary somewhat from the baseline, or the need to find multiple instances of an “object” within a test image. For more on TestArchitect's keypoint detection process, refer to [Keypoint object detection](/TA_Automation/Topics/aut_keypoint_detection_method.html).
 
@@ -105,7 +105,7 @@ In the following example, we wish to find the presence of a given object \(a Rub
 
 You may now use the newly established keypoint-based baseline object within your [picture handling](/TA_Automation/Topics/bia_picture_handling.html) built-in actions to detect objects in tested images during automated testing. However your test must first set the built-in setting [picture algorithm](/TA_Automation/Topics/bis_picture_algorithm.html) to the value key points to activate keypoint detection as the active picture handling technique.
 
-![](/TA_Automation/Images/bis_picture_algorithm_pgm.png)
+![](/images/TA_Automation/Images/bis_picture_algorithm_pgm.png)
 
 **Parent topic:**[Key Points Modification tool](/TA_Help/Topics/ug_Key_point_modify_tool.html)
 

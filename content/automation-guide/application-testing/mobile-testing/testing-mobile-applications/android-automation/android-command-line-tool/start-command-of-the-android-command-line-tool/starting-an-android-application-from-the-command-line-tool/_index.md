@@ -16,7 +16,7 @@ This example demonstrates the steps involved in launching an Android application
 
 Ensure that the following requirements are met:
 
--   TestArchitect Agent is installed on the targeted Android device \(refer to [Installing TestArchitect Agent](Installing_TA_agent.html) \).
+-   TestArchitect Agent is installed on the targeted Android device \(refer to [Installing TestArchitect Agent](/Android/Topics/Installing_TA_agent.html) \).
 -   The Android command line tool \(ast.exe in Windows can be found at the following location when TestArchitect is installed:
 
     -   Windows: TA\_INSTALL\_DIR/LogiGear/TestArchitect/device/android.
@@ -25,7 +25,7 @@ Ensure that the following requirements are met:
 
 2.  Type ast.exe start "com.logigear" -s "2c4401c15d52" to start the Car Rental application installed on the targeted Android device whose unique ID is 2c4401c15d52.
 
-    Review [Start command](Android_command_line_tool_start.html#p_n3t_vr2_5l) to understand the Start command's syntax.
+    Review [Start command](/Android/Topics/Android_command_line_tool_start.html#p_n3t_vr2_5l) to understand the Start command's syntax.
 
     **Tip:**
 
@@ -35,14 +35,14 @@ Ensure that the following requirements are met:
         1.  Open the [Android Instrumentation Tool](/reuse/../Android/Topics/Android_Instrumentation_tool.html) dialog box.
         2.  In the Application Under Test panel, right-click the appropriate application, and then select **Copy package name**.
 
-            ![](/images//Images/Android/Images/Android_copy_package_name.png)
+            ![](/images/Android/Images/Android_copy_package_name.png)
 
         3.  Paste the copied value into the Package Name parameter in the Start command.
     -   To obtain the unique ID of an Android device:
 
         1.  Open the [Android Instrumentation Tool](/reuse/../Android/Topics/Android_Instrumentation_tool.html) dialog box.
         2.  Select the device whose unique ID you wish to obtain.
-        3.  Click ![](/images//Images/Android/Images/android_copy_ID.png) on the Android Instrumentation Tool's toolbar to copy the unique ID to the clipboard.
+        3.  Click ![](/images/Android/Images/android_copy_ID.png) on the Android Instrumentation Tool's toolbar to copy the unique ID to the clipboard.
         4.  Paste the copied content into the unique ID parameter in the Start command.
 3.  Press Enter on your keyboard to execute the Start command.
 

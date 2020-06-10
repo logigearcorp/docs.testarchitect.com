@@ -14,15 +14,15 @@ TestArchitect allows you to import and export repositories and individual projec
 
 The Import/Export tool allows for the following operations to be performed:
 
--   Export or import of [repositories](Getting_started_overview_working_with_repositories.html).
+-   Export or import of [repositories](/TA_Help/Topics/Getting_started_overview_working_with_repositories.html).
 -   Export or import of the following TestArchitect items:
-    -   [test modules](ABT_Test_module.html)
-    -   [test cases](Projects_and_tests_TC.html)
-    -   [data sets](Projects_and_tests_dataset.html)
+    -   [test modules](/TA_Help/Topics/ABT_Test_module.html)
+    -   [test cases](/TA_Help/Topics/Projects_and_tests_TC.html)
+    -   [data sets](/TA_Help/Topics/Projects_and_tests_dataset.html)
     -   [actions](/reuse/reuse.High_level_actions.html)
-    -   [interface entities](Interface_def_Adding.html)
-    -   [test results](Test_result.html)
-    -   [picture checks](Projects_and_tests_picture_check.html), including shared and regular picture checks
+    -   [interface entities](/TA_Help/Topics/Interface_def_Adding.html)
+    -   [test results](/TA_Help/Topics/Test_result.html)
+    -   [picture checks](/TA_Help/Topics/Projects_and_tests_picture_check.html), including shared and regular picture checks
 
 The following command line commands are available:
 

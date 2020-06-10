@@ -16,7 +16,7 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   Only needed when an [action definition](action_definition_1.html) is done within a test module \(not common practice\).
+-   Only needed when an [action definition](/TA_Automation/Topics/bia_action_definition_1.html) is done within a test module \(not common practice\).
 -   This action has been deprecated in TestArchitect 7.2.
 
 ## Example

@@ -21,7 +21,7 @@ A red dot appears next to the action line you have designated, indicating a brea
 
 ![](/images//Images/debugger_guide_1.png)
 
-After defining breakpoints, you can run your test procedure through the debugger. See [Starting the debugger](Debugging_starting_debugger.html) for further information.
+After defining breakpoints, you can run your test procedure through the debugger. See [Starting the debugger](/TA_Help/Topics/Debugging_starting_debugger.html) for further information.
 
 **Parent topic:**[Debugging with TestArchitect](/TA_Help/Topics/Debugging.html)
 

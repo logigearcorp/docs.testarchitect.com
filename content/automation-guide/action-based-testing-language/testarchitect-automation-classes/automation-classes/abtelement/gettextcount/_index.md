@@ -44,7 +44,7 @@ An integer value indicating the total number of text fragments found.
 
 ## Notes
 
--   This method always employs the [Graphics Device Interface](aut_text_recognition_techniques.html) \(GDI\) technique to recognize text produced by an AUT.
+-   This method always employs the [Graphics Device Interface](/TA_Automation/Topics/aut_text_recognition_techniques.html) \(GDI\) technique to recognize text produced by an AUT.
 
 **Parent topic:**[AbtElement](/TA_Automation/Topics/abt_AbtElement.html)
 

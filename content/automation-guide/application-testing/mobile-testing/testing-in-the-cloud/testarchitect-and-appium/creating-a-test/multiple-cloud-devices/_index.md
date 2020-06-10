@@ -33,7 +33,7 @@ Carry out the following steps:
         {"<device_Name>": {"<desired_Capabilities>":"<value>"}}
         ```
 
-    -   list of [desired capabilities](aut_appium.html#section_p5f_qp3_gy) desired capabilities that would fit your organization's needs.
+    -   list of [desired capabilities](/TA_Automation/Topics/aut_appium.html#section_p5f_qp3_gy) desired capabilities that would fit your organization's needs.
 
         **Tip:** Each set of desired capabilities represents a single cloud device.
 

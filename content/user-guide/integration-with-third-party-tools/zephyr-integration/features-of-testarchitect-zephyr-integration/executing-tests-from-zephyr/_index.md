@@ -16,13 +16,13 @@ As an alternative to executing tests from TestArchitect, TestArchitect test case
 
 Ensure that you have already taken the following steps:
 
--   [Registered the Zephyr server with TestArchitect](ug_Zephyr_registering_server.html).
--   [Mapped the TestArchitect project containing the test cases of interest to a Zephyr project](ug_Zephyr_mapping_projects.html).
--   [Installed the ZBot agent and launched it](ug_Zephyr_ZBot.html).
+-   [Registered the Zephyr server with TestArchitect](/TA_Help/Topics/ug_Zephyr_registering_server.html).
+-   [Mapped the TestArchitect project containing the test cases of interest to a Zephyr project](/TA_Help/Topics/ug_Zephyr_mapping_projects.html).
+-   [Installed the ZBot agent and launched it](/TA_Help/Topics/ug_Zephyr_ZBot.html).
 
 To run automated tests from Zephyr, do as follows:
 
-1.  Start [Zbot](ug_Zephyr_ZBot.html).
+1.  Start [Zbot](/TA_Help/Topics/ug_Zephyr_ZBot.html).
 
 2.  In Zephyr's left tool dock, click **Test Execution**.
 
@@ -95,9 +95,9 @@ To run automated tests from Zephyr, do as follows:
 
             ![](/images//Images/TA_Execution_dlg_variation_specification_panel.png)
 
-            1.  **Keyword**: Keyword, or comma-delimited list of keywords, specifying the test variation to be executed, if any. \(See [Creating keyword variations](Variations_create_keyword.html).\)
-            2.  **AUT Version**: Enter a value or click the **Select Version** button to specify a variation tailored to an AUT version or platform \(See [Creating linked variations](Variations_create_linked.html).\)
-            3.  **Time Traveling**: To opt for time traveling execution, which selects a historical “snapshot” of the test's project items for execution during the test run, select the check box and provide an appropriate timestamp. \(See [Time Traveling](ug_time_traveling.html) for details.\)
+            1.  **Keyword**: Keyword, or comma-delimited list of keywords, specifying the test variation to be executed, if any. \(See [Creating keyword variations](/TA_Help/Topics/Variations_create_keyword.html).\)
+            2.  **AUT Version**: Enter a value or click the **Select Version** button to specify a variation tailored to an AUT version or platform \(See [Creating linked variations](/TA_Help/Topics/Variations_create_linked.html).\)
+            3.  **Time Traveling**: To opt for time traveling execution, which selects a historical “snapshot” of the test's project items for execution during the test run, select the check box and provide an appropriate timestamp. \(See [Time Traveling](/TA_Help/Topics/ug_time_traveling.html) for details.\)
     3.  **Advanced** tab:
 
         ![](/images//Images/Scheduler_Zephyr_advanced.png)
@@ -108,25 +108,25 @@ To run automated tests from Zephyr, do as follows:
 
             ![](/images//Images/MTM_export_TARESULT_file.png)
 
-            -   **Include screenshots**: Include all captured [screenshots](ug_Screenshot_recording.html) in the exported test result.
-            -   **Include all sub test results**: If the exported test result is a master result, meaning it is a [test suite result](ug_test_results_introduction.html#section.TS_results), or it contains [subresults](ug_test_results_introduction.html#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into .TARESULT format.
-        2.  **Export Result\(s\) to HTML**: Export test results to HTML file automatically once the text execution is complete \([learn more](Test_result_export_HTML.html)\).
+            -   **Include screenshots**: Include all captured [screenshots](/TA_Help/Topics/ug_Screenshot_recording.html) in the exported test result.
+            -   **Include all sub test results**: If the exported test result is a master result, meaning it is a [test suite result](/TA_Help/Topics/ug_test_results_introduction.html#section.TS_results), or it contains [subresults](/TA_Help/Topics/ug_test_results_introduction.html#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into .TARESULT format.
+        2.  **Export Result\(s\) to HTML**: Export test results to HTML file automatically once the text execution is complete \([learn more](/TA_Help/Topics/Test_result_export_HTML.html)\).
 
             ![](/images//Images/Advanced_tab_Export_HMTL.png)
 
             -   Create folder structure: Select whether the folder structure or flat structure directory is created to store HTML results.
                 -   Folder structure \(the **Create folder structure** check box is enabled\): TestArchitect creates a hierarchical tree structure, or subdirectories to store HTML results.
                 -   Flat structure \(the **Create folder structure** check box is cleared\): TestArchitect does not create subdirectories. There is only a single top-level directory that contains all HTML results.
-            -   Include all sub test results: If the exported test result is a master result, that is, it is a [test suite result](ug_test_results_introduction.html#section.TS_results) or it contains [subresults](ug_test_results_introduction.html#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into HTML files.
+            -   Include all sub test results: If the exported test result is a master result, that is, it is a [test suite result](/TA_Help/Topics/ug_test_results_introduction.html#section.TS_results) or it contains [subresults](/TA_Help/Topics/ug_test_results_introduction.html#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into HTML files.
             -   Apply customized XSLT template: Export HTML results with your own view layout.
-            -   **Include screenshots**: Retain all [captured screenshots](ug_Screenshot_recording.html) in the exported HTML test result.
+            -   **Include screenshots**: Retain all [captured screenshots](/TA_Help/Topics/ug_Screenshot_recording.html) in the exported HTML test result.
                 -   Optimized resolution: Included screenshot's dimensions are optimized to save space in the exported HTML test results. Specifically, the screenshots are saved as thumbnail images.
                 -   Regular resolution: Original resolution of included screenshots is retained. Specifically, the screenshots are saved as full size images.
-        3.  **Export result\(s\) to xUnit**: Export test results to a XML file automatically in xUnit-format for integrating into the [continuous integration tools](Integration_xUnit.html) once the text execution is complete.
+        3.  **Export result\(s\) to xUnit**: Export test results to a XML file automatically in xUnit-format for integrating into the [continuous integration tools](/TA_Help/Topics/Integration_xUnit.html) once the text execution is complete.
 
             ![](/images//Images/Advanced_tab_Export_xUnit.png)
 
-        4.  **Export result\(s\) to XML detail**: Export test results to XML file automatically once the text execution is complete \(see [Exporting test results to XML](Test_result_export_XML.html) for more details\).
+        4.  **Export result\(s\) to XML detail**: Export test results to XML file automatically once the text execution is complete \(see [Exporting test results to XML](/TA_Help/Topics/Test_result_export_XML.html) for more details\).
 
             ![](/images//Images/Advanced_tab_Export_XML.png)
 
@@ -136,11 +136,11 @@ To run automated tests from Zephyr, do as follows:
 
             -   Repository destination: Add test results to the repository at the specified location.
             -   **By result**: Limit the results stored to the repository in accordance with the following check box selections:
-                -   [**Passed**](ug_test_results_status.html): Passed test results are stored.
-                -   [**Passed with Warnings/Errors**](ug_test_results_status.html): Passed test results with warnings/errors status are stored.
-                -   [**Passed with known bug**](ug_test_results_status.html): Test results that passed, but are marked [known bugs](Bugs_working_known_bug.html) whose outcomes have been ignored, are stored.
-                -   [**Failed**](ug_test_results_status.html): Failed test results are stored.
-                -   [**Not Finished**](ug_test_results_status.html): Incomplete test results.
+                -   [**Passed**](/TA_Help/Topics/ug_test_results_status.html): Passed test results are stored.
+                -   [**Passed with Warnings/Errors**](/TA_Help/Topics/ug_test_results_status.html): Passed test results with warnings/errors status are stored.
+                -   [**Passed with known bug**](/TA_Help/Topics/ug_test_results_status.html): Test results that passed, but are marked [known bugs](/TA_Help/Topics/Bugs_working_known_bug.html) whose outcomes have been ignored, are stored.
+                -   [**Failed**](/TA_Help/Topics/ug_test_results_status.html): Failed test results are stored.
+                -   [**Not Finished**](/TA_Help/Topics/ug_test_results_status.html): Incomplete test results.
     4.  **Startup Settings** tab:
 
         ![](/images//Images/Scheduler_Zephyr_startup_settings.png)

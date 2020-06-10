@@ -8,9 +8,9 @@ aliases:
 
 This topic describes a possible issue that may arise when you use the navigate built-in action in combination with popup-handling actions
 
-It is very common that you'd like to navigate to a specified URL either within an existing Chrome window, or from a newly launched instance of Chrome. In both of these cases, if your test calls popup-handling action\(s\) right after the [navigate](navigate.html) built-in action, the popup-handler queue may apply the previous page session, instead of the target URL page session. Consequently, the popup-handler queue will not be handled properly on the target URL.
+It is very common that you'd like to navigate to a specified URL either within an existing Chrome window, or from a newly launched instance of Chrome. In both of these cases, if your test calls popup-handling action\(s\) right after the [navigate](/TA_Automation/Topics/bia_navigate.html) built-in action, the popup-handler queue may apply the previous page session, instead of the target URL page session. Consequently, the popup-handler queue will not be handled properly on the target URL.
 
-Because you are already aware of the control triggering a popup window on the target URL, to avoid this problem, it is highly recommended that your test procedure [waits for the control](wait_for_control.html) until it is available before invoking its popup-handling action. In this manner, you are assured that the popup-handling action, and all subsequent ones, apply to the target URL page session.
+Because you are already aware of the control triggering a popup window on the target URL, to avoid this problem, it is highly recommended that your test procedure [waits for the control](/TA_Automation/Topics/bia_wait_for_control.html) until it is available before invoking its popup-handling action. In this manner, you are assured that the popup-handling action, and all subsequent ones, apply to the target URL page session.
 
 ## Scenario
 
@@ -35,7 +35,7 @@ click on next popup     OK
 click                   home                      delete this item 
 ```
 
-wait for control is used to ensure that the control triggering a confirmation popup is available within 20 seconds before [click on next popup](click_on_next_popup.html) is placed into the current popup-handler queue of the shopping cart page
+wait for control is used to ensure that the control triggering a confirmation popup is available within 20 seconds before [click on next popup](/TA_Automation/Topics/bia_click_on_next_popup.html) is placed into the current popup-handler queue of the shopping cart page
 
 **Parent topic:**[Limitations and workarounds of testing Chrome on Android](/TA_Automation/Topics/aut_app_testing_mobile_web_Android_limitations.html)
 

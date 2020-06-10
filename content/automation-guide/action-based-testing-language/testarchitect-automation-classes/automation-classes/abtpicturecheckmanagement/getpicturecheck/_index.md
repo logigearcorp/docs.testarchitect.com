@@ -9,7 +9,7 @@ keywords: "getpicturecheck, abtpicturecheckmanagement getpicturecheck, retrieve 
 
 ## Syntax
 
-`[AbtPictureCheck](abt_AbtPictureCheck.html) GetPictureCheck(string path)`
+`[AbtPictureCheck](/TA_Automation/Topics/abt_AbtPictureCheck.html) GetPictureCheck(string path)`
 
 ## Description
 
@@ -26,7 +26,7 @@ Retrieve a picture check in the current project or the supplier project.
 
 ## Return Value
 
-Return an [AbtPictureCheck](abt_AbtPictureCheck.html) object. If the call is unsuccessful, returnnull.
+Return an [AbtPictureCheck](/TA_Automation/Topics/abt_AbtPictureCheck.html) object. If the call is unsuccessful, returnnull.
 
 ## Notes
 

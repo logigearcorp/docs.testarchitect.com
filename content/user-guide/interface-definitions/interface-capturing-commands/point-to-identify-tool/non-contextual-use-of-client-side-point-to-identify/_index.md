@@ -16,7 +16,7 @@ You can use client-side **point-to-identify** in a non-contextual mode, meaning 
 
 3.  Click the control of interest.
 
-    **Tip:** To capture UI child elements belonging to a container class, see [Container Class](Interface_def_container_class.html).
+    **Tip:** To capture UI child elements belonging to a container class, see [Container Class](/TA_Help/Topics/Interface_def_container_class.html).
 
     The Element definition dialog box appears, displaying the control, with its ancestor nodes, in the UI Explorer panel.
 
@@ -35,7 +35,7 @@ You can use client-side **point-to-identify** in a non-contextual mode, meaning 
 
     ![](/images//Images/ug_interface_definition39.png)
 
-    **Note:** If you want to save your interface element to an existing interface entity, proceed to step [5](Interface_def_client_interface_tool_identify_non_contextual.html#step.select_int_ent), or proceed to step [8](Interface_def_client_interface_tool_identify_non_contextual.html#step.create_int_ent) to create a new interface entity to house this new element.
+    **Note:** If you want to save your interface element to an existing interface entity, proceed to step [5](/TA_Help/Topics/Interface_def_client_interface_tool_identify_non_contextual.html#step.select_int_ent), or proceed to step [8](/TA_Help/Topics/Interface_def_client_interface_tool_identify_non_contextual.html#step.create_int_ent) to create a new interface entity to house this new element.
 
 5.  In order to save to an existing interface entity, select an interface entity from the list in the Interface Entity Selection dialog box.
 

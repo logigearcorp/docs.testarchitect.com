@@ -14,7 +14,7 @@ Before testing web applications on a supported browser, ensure that necessary se
 
 ## Specifying the browser
 
-To select the type of web browser to run the test in, you may specify the browser in the [use browser](use_browser.html) built-in setting. For example, you can choose Mozilla Firefox to be invoked.
+To select the type of web browser to run the test in, you may specify the browser in the [use browser](/TA_Automation/Topics/bis_use_browser.html) built-in setting. For example, you can choose Mozilla Firefox to be invoked.
 
 ```
              setting          value
@@ -23,7 +23,7 @@ setting      use browser      Firefox
 
 ## Launching the browser and navigating to web pages
 
-You normally launch a browser and open the web page to be tested at the beginning of a web test. You may also need to navigate to web pages in an already-running browser. You can perform these operations with the [navigate](navigate.html) action.
+You normally launch a browser and open the web page to be tested at the beginning of a web test. You may also need to navigate to web pages in an already-running browser. You can perform these operations with the [navigate](/TA_Automation/Topics/bia_navigate.html) action.
 
 To navigate to a URL in a running browser, specify the window argument. For example:
 
@@ -66,7 +66,7 @@ check control exists       #home1        [ta class=div, text={Car No .*}]
 
 ## Waiting for web pages
 
-Complex dynamic web pages may take a few seconds to load, and the web page scripts can also load additional content after the page has been loaded. As a result, the web page load time may vary. Successful testing requires that the automation correctly handle the varying response times of the web page, and not to attempt to continue with interactions before the web page is finished with the previous function. Therefore, TestArchitect waits for a web page to load completely before attempting the next action. That said, there is always a risk of a connection problem, a web application error, or any issue that might cause the web page not to load completely. To allow your test to handle such problems, rather than wait indefinitely, you can specify a maximum wait time with the [page wait](page_wait.html) built-in setting. \(For further information regarding how to handle timing issues, please refer to [Timing](Automation_practices_Timing.html).\)
+Complex dynamic web pages may take a few seconds to load, and the web page scripts can also load additional content after the page has been loaded. As a result, the web page load time may vary. Successful testing requires that the automation correctly handle the varying response times of the web page, and not to attempt to continue with interactions before the web page is finished with the previous function. Therefore, TestArchitect waits for a web page to load completely before attempting the next action. That said, there is always a risk of a connection problem, a web application error, or any issue that might cause the web page not to load completely. To allow your test to handle such problems, rather than wait indefinitely, you can specify a maximum wait time with the [page wait](/TA_Automation/Topics/bis_page_wait.html) built-in setting. \(For further information regarding how to handle timing issues, please refer to [Timing](/TA_Automation/Topics/Automation_practices_Timing.html).\)
 
 ## Handling JavaScript popups on Safari macOS
 
@@ -80,13 +80,13 @@ The following TestArchitect built-in actions are provided to both scan and handl
 
 |Action|Description|
 |------|-----------|
-|[click on next popup](click_on_next_popup.html)|Click a specified button in a prompt, alert, or confirmation popup.|
-|[enter text on next popup](enter_text_on_next_popup.html)|Write text to the user-entry field of a prompt popup, then click OK.|
-|[get popup message](get_popup_message.html)|Retrieve the messages of one or more of the last sequence of confirmation, prompt, or alert popups.|
-|[get popup default text](get_popup_default_text.html)|Retrieve the default text of the user-entry field of one or more prompt popups.|
-|[check popup message](check_popup_message.html)|Check the messages displayed by one or more confirmation, prompt, or alert popups against their respective expected text strings.|
-|[check popup default text](check_popup_default_text.html)|Check the default text of the user-entry fields of one or more prompt popups against their respective expected values.|
-|[clear popup queue](clear_popup_queue.html)|Clear remaining and unhandled popups in the current queue.|
+|[click on next popup](/TA_Automation/Topics/bia_click_on_next_popup.html)|Click a specified button in a prompt, alert, or confirmation popup.|
+|[enter text on next popup](/TA_Automation/Topics/bia_enter_text_on_next_popup.html)|Write text to the user-entry field of a prompt popup, then click OK.|
+|[get popup message](/TA_Automation/Topics/bia_get_popup_message.html)|Retrieve the messages of one or more of the last sequence of confirmation, prompt, or alert popups.|
+|[get popup default text](/TA_Automation/Topics/bia_get_popup_default_text.html)|Retrieve the default text of the user-entry field of one or more prompt popups.|
+|[check popup message](/TA_Automation/Topics/bia_check_popup_message.html)|Check the messages displayed by one or more confirmation, prompt, or alert popups against their respective expected text strings.|
+|[check popup default text](/TA_Automation/Topics/bia_check_popup_default_text.html)|Check the default text of the user-entry fields of one or more prompt popups against their respective expected values.|
+|[clear popup queue](/TA_Automation/Topics/bia_clear_popup_queue.html)|Clear remaining and unhandled popups in the current queue.|
 
 **Note:** Of the above actions, click on next popup and enter text on next popup are the most critical to proper management of popups, and hence to the successful automation of your test. These are the two actions that actually have a direct impact on popups. If your test uses either or both of these popup-handling actions, but popups are nevertheless displayed on the target device during automation, the test cannot proceed. The cause is most likely due to one of the following:
 
@@ -174,9 +174,9 @@ check popup message \(line 36\) verifies the message of the alert popup, that is
 
 ## Testing a web app in mobile emulation mode
 
-TestArchitect allows you to create and run automated tests of web applications and websites on mobile devices without the necessity of having each such device available. By interfacing with [Google Chrome DevTools](aut_app_testing_responsive_web_Chrome_DevTools.html), TestArchitect uses DevTools' Device Mode to emulate mobile browsers within Chrome and allow your automated tests to run on them.
+TestArchitect allows you to create and run automated tests of web applications and websites on mobile devices without the necessity of having each such device available. By interfacing with [Google Chrome DevTools](/TA_Automation/Topics/aut_app_testing_responsive_web_Chrome_DevTools.html), TestArchitect uses DevTools' Device Mode to emulate mobile browsers within Chrome and allow your automated tests to run on them.
 
-To invoke a mobile browser emulator in Device Mode, you first need to set up the correct mobile browser profile with the [send command to browser](send_command_to_browser.html) built-in action. \(See [Creating mobile browser profiles](aut_app_testing_responsive_web_Chrome_DevTools_creating_profiles.html) to learn more about JSON-based device profiles.\) The JSON string in the listing below includes the following parameters for a given mobile browser profile:
+To invoke a mobile browser emulator in Device Mode, you first need to set up the correct mobile browser profile with the [send command to browser](/TA_Automation/Topics/bia_send_command_to_browser.html) built-in action. \(See [Creating mobile browser profiles](/TA_Automation/Topics/aut_app_testing_responsive_web_Chrome_DevTools_creating_profiles.html) to learn more about JSON-based device profiles.\) The JSON string in the listing below includes the following parameters for a given mobile browser profile:
 
 -   Use agent \(userAgent parameter\)
 -   Whether to emulate a mobile device \(mobile parameter\)
@@ -188,12 +188,12 @@ To invoke a mobile browser emulator in Device Mode, you first need to set up the
 
     ![](/images//Images/JSON_Chrome.png)
 
-    With your JSON profile for a given device browser established, copy the JSON string into the command argument of [send command to browser](send_command_to_browser.html) in your test.
+    With your JSON profile for a given device browser established, copy the JSON string into the command argument of [send command to browser](/TA_Automation/Topics/bia_send_command_to_browser.html) in your test.
 
 
-**Remember:** When invoking an emulator, you are required to refresh its current page by means of the [refresh](refresh.html) built-in action before proceeding with further testing. This helps ensure that the invoked emulator takes effect properly.
+**Remember:** When invoking an emulator, you are required to refresh its current page by means of the [refresh](/TA_Automation/Topics/bia_refresh.html) built-in action before proceeding with further testing. This helps ensure that the invoked emulator takes effect properly.
 
-As an example, the following snippet of test opens the google.com page \(with [navigate](navigate.html)\), invokes a mobile browser profile \(using the [send command to browser](send_command_to_browser.html) built-in action\).
+As an example, the following snippet of test opens the google.com page \(with [navigate](/TA_Automation/Topics/bia_navigate.html)\), invokes a mobile browser profile \(using the [send command to browser](/TA_Automation/Topics/bia_send_command_to_browser.html) built-in action\).
 
 ```
 //Launch Google Chrome   
@@ -221,7 +221,7 @@ refresh                     google
 //Develop web automation here      
 ```
 
-You may wish to change the environment for the emulator to customize its behaviors, after it has been launched. Again you can use the [send command to browser](send_command_to_browser.html) built-in action \([learn more](aut_app_testing_responsive_web_Chrome_DevTools_launching_emulator.html#step_d2w_t3d_1w)\). For instance, you may choose to change the following behaviors:
+You may wish to change the environment for the emulator to customize its behaviors, after it has been launched. Again you can use the [send command to browser](/TA_Automation/Topics/bia_send_command_to_browser.html) built-in action \([learn more](/TA_Automation/Topics/aut_app_testing_responsive_web_Chrome_DevTools_launching_emulator.html#step_d2w_t3d_1w)\). For instance, you may choose to change the following behaviors:
 
 -   Configure network:
     -   User agent \(UA\): Allows you to set a specific UA string override by using the [setUserAgentOverride](https://chromedevtools.github.io/debugger-protocol-viewer/tot/Network/#method-setUserAgentOverride) method. The following JSON string overrides the current UA.
@@ -292,7 +292,7 @@ refresh                     google
 
 **Remember:**
 
--   Whenever you invoke an emulator, or change an emulator's behaviors on-the-fly, you are required to refresh its current page by means of the [refresh](refresh.html) built-in action before proceeding with further testing. This helps ensure that the invoked emulator and all new behaviors take effect properly.
+-   Whenever you invoke an emulator, or change an emulator's behaviors on-the-fly, you are required to refresh its current page by means of the [refresh](/TA_Automation/Topics/bia_refresh.html) built-in action before proceeding with further testing. This helps ensure that the invoked emulator and all new behaviors take effect properly.
 -   It should be noted that, upon conclusion of an automated run on the emulator, the Chrome browser automatically switches out of Device Mode and returns to Desktop Mode.
 
 **Parent topic:**[Automated web testing with non-WebDriver](/TA_Automation/Topics/WebKit.html)

@@ -12,8 +12,8 @@ How to access the TestArchitect Help system, and how to activate context-specifi
 
 Since TestArchitect version [8.3 Update 2](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_2.html), the TestArchitect Help package has been totally removed from TestArchitect installer. Therefore, if you'd like to continue to open local help documentation in [offline mode](/TA_Help/Topics/Additional_features_preferences.html#li.Use_online_help), follow the below options.
 
--   For Windows: [Learn more](hs_local_help_Windows.html).
--   For Linux and macOS: [Learn more](hs_local_help_linux_macOS.html).
+-   For Windows: [Learn more](/TA_UsingHelpSystem/Topics/hs_local_help_Windows.html).
+-   For Linux and macOS: [Learn more](/TA_UsingHelpSystem/Topics/hs_local_help_linux_macOS.html).
 
 ## Displaying TestArchitect Help
 

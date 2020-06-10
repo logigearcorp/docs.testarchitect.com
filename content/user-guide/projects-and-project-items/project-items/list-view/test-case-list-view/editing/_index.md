@@ -8,7 +8,7 @@ aliases:
 
 You can directly edit the value of a field in a test case list view.
 
-[Editable fields](Listview_editable_fields.html) fields of test cases listed in test case list views can be edited directly.
+[Editable fields](/TA_Help/Topics/Listview_editable_fields.html) fields of test cases listed in test case list views can be edited directly.
 
 1.  Open the test case list view.
 
@@ -18,7 +18,7 @@ You can directly edit the value of a field in a test case list view.
 
 2.  Select a test case in the test case list view \(for example, One customer can order many reservations successfully\).
 
-3.  Double-click an [editable field](Listview_editable_fields.html) of the selected test case \(for example, the Name field\), or press F2 on the keyboard.
+3.  Double-click an [editable field](/TA_Help/Topics/Listview_editable_fields.html) of the selected test case \(for example, the Name field\), or press F2 on the keyboard.
 
     The selected field becomes the active cell.
 

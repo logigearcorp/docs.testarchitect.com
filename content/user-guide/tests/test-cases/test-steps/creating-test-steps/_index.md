@@ -10,7 +10,7 @@ Create test steps with the steps list view.
 
 To create test steps, follow the steps below:
 
-1.  [Check out](Project_items_checkout.html) a test module.
+1.  [Check out](/TA_Help/Topics/Project_items_checkout.html) a test module.
 
 2.  In the TestArchitect explorer tree, double-click a test case for which you would like to create new steps.
 
@@ -35,7 +35,7 @@ To create test steps, follow the steps below:
 
         **Note:**
 
-        -   The **Recent result** field is automatically filled in with the results of the most recent test execution [added to the repository](Test_result_storing.html).
+        -   The **Recent result** field is automatically filled in with the results of the most recent test execution [added to the repository](/TA_Help/Topics/Test_result_storing.html).
         -   Possible returned values are:
             -   Not tested\(default\)
             -   Passed
@@ -51,11 +51,11 @@ A new step is added to the test case for each pass of the above instructions. . 
 
 **Tip:** If you do not want TestArchitect to insert test steps to action lines automatically, follow these steps:
 
-1.  Invoke the [Preferences](Additional_features_preferences.html) dialog box.
+1.  Invoke the [Preferences](/TA_Help/Topics/Additional_features_preferences.html) dialog box.
 2.  Clear the **Automatically insert step to test case** check box.
 3.  Click **Save**.
 
-After you [execute](Projects_execute_test.html) an automated test, the **Step Summary** table appears in [test results](Test_result.html) on both TestArchitect Client and a web browser. With the support of this table, you might take a quick glance at which test steps have automation problems. Also you might grab the test flow thoroughly when you can identify the exact test steps in which the failures, errors, or warnings occur.
+After you [execute](/TA_Help/Topics/Projects_execute_test.html) an automated test, the **Step Summary** table appears in [test results](/TA_Help/Topics/Test_result.html) on both TestArchitect Client and a web browser. With the support of this table, you might take a quick glance at which test steps have automation problems. Also you might grab the test flow thoroughly when you can identify the exact test steps in which the failures, errors, or warnings occur.
 
 **Note:** Click ![](/images//Images/Test_results_expand_detail.png), next to the test case's title, to expand and view **Step Summary** table for each test case.
 

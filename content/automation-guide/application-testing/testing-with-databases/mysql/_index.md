@@ -26,18 +26,18 @@ MySQL is a freely available open source Relational Database Management System \(
 -   Should you need to obtain the ODBC driver installer for your particular data source, following the appropriate link below:
     -   MySQL Server: [Read here](http://dev.mysql.com/downloads/connector/odbc/).
 
-        **Note:** On macOS, additional configurations are required \([learn more](aut_testing_database_Mac_setup_MySQL.html)\).
+        **Note:** On macOS, additional configurations are required \([learn more](/TA_Automation/Topics/aut_testing_database_Mac_setup_MySQL.html)\).
 
 
 ## Actions
 
 TestArchitect provides the following built-in actions for working with SQL-compliant databases. They are listed in the typical order of their workflow:
 
-1.  [create connection string](create_connection_string.html): Generate a connection string for a specified database on a given host.
-2.  [connect database](connect_database.html): Open a database connection using a connection string.
-3.  [use database](use_database.html): Specify a database against which the ensuing SQL action lines are to be applied.
-4.  [execute sql](execute_sql.html): Execute an SQL command against the currently in-use database; optionally, store returned data into one or more data sets.
-5.  [disconnect database](disconnect_database.html): Close the database connection.
+1.  [create connection string](/TA_Automation/Topics/bia_create_connection_string.html): Generate a connection string for a specified database on a given host.
+2.  [connect database](/TA_Automation/Topics/bia_connect_database.html): Open a database connection using a connection string.
+3.  [use database](/TA_Automation/Topics/bia_use_database.html): Specify a database against which the ensuing SQL action lines are to be applied.
+4.  [execute sql](/TA_Automation/Topics/bia_execute_sql.html): Execute an SQL command against the currently in-use database; optionally, store returned data into one or more data sets.
+5.  [disconnect database](/TA_Automation/Topics/bia_disconnect_database.html): Close the database connection.
 
 ## Example
 

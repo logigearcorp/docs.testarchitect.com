@@ -18,7 +18,7 @@ For every new interface created in TestArchitect, a default $ Class Maps entity 
 -   Windows Forms \(WinForms\)
 -   SAP
 
-In the $Class Maps entity, you can manually add new mappings, and edit or remove existing ones. It is suggested, however, that you create your mappings through the Interface Viewer \(or [Element Definition](Interface_def_client_interface_tool_identify.html) window\), from which you may launch dialog boxes, such as [Map to Known Class](Mapping_unknown_controls_to_known_class.html), or [Map to New Class](Mapping_unknown_controls_to_new_class.html) to accomplish these tasks.
+In the $Class Maps entity, you can manually add new mappings, and edit or remove existing ones. It is suggested, however, that you create your mappings through the Interface Viewer \(or [Element Definition](/TA_Help/Topics/Interface_def_client_interface_tool_identify.html) window\), from which you may launch dialog boxes, such as [Map to Known Class](/TA_Help/Topics/Mapping_unknown_controls_to_known_class.html), or [Map to New Class](/TA_Help/Topics/Mapping_unknown_controls_to_new_class.html) to accomplish these tasks.
 
 ![](/images//Images/Class_maps_entity.png)
 
@@ -48,7 +48,7 @@ For example, the mapping entry below can be interpreted as “every control whos
 
 **Restriction:** No class mappings may be placed above the `PLATFORM WIN32` section. Doing so results in an error message.
 
-**Important:** As of version [7.2](/TA_ReleaseNotes/DITA_source/Whats_New_7.2.html) of TestArchitect Client, a new format of the $ Class Maps entity is in effect. A pre-7.2 $ Class Maps is, upon creation, populated with TA's default mappings of native controls to built-in TA classes. With 7.2, a new $ Class Maps is empty - default TestArchitect mappings are relegated to a hidden system file. In TestArchitect [7.2](/TA_ReleaseNotes/DITA_source/Whats_New_7.2.html) and beyond, older $ Class Map's are automatically converted to the new format when you connect and log in to the repository \(see [Working with repositories](Getting_started_overview_working_with_repositories.html)\).
+**Important:** As of version [7.2](/TA_ReleaseNotes/DITA_source/Whats_New_7.2.html) of TestArchitect Client, a new format of the $ Class Maps entity is in effect. A pre-7.2 $ Class Maps is, upon creation, populated with TA's default mappings of native controls to built-in TA classes. With 7.2, a new $ Class Maps is empty - default TestArchitect mappings are relegated to a hidden system file. In TestArchitect [7.2](/TA_ReleaseNotes/DITA_source/Whats_New_7.2.html) and beyond, older $ Class Map's are automatically converted to the new format when you connect and log in to the repository \(see [Working with repositories](/TA_Help/Topics/Getting_started_overview_working_with_repositories.html)\).
 
 **Parent topic:**[Class mapping](/TA_Help/Topics/Class_mapping.html)
 

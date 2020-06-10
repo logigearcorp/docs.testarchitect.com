@@ -8,7 +8,7 @@ aliases:
 
 In Action Based Testing, action-based tests can be applied to data sets.
 
-A data set is a worksheet-like file containing rows of data values, to be provided sequentially to the test procedure. During test execution, a sequence of actions is repeated for each row in the data set. This way of testing is commonly referred to as [data-driven testing](Projects_and_tests_dataset.html). Each data row generally specifies input values, and can also specify expected outcomes.
+A data set is a worksheet-like file containing rows of data values, to be provided sequentially to the test procedure. During test execution, a sequence of actions is repeated for each row in the data set. This way of testing is commonly referred to as [data-driven testing](/TA_Help/Topics/Projects_and_tests_dataset.html). Each data row generally specifies input values, and can also specify expected outcomes.
 
 To allow the test to loop through the sequential rows of data, the pair of actions [use data set](/TA_Automation/Topics/bia_use_data_set.html) and [repeat for data set](/TA_Automation/Topics/bia_repeat_for_data_set.html) is used. The block of action lines bookended by these two actions is repeated for each data row. The column headers in the data set can be used as variables in the test to obtain each column value in the currently processed row.
 

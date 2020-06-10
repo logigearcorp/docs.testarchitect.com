@@ -12,7 +12,7 @@ The primary value of the Help System Extensibility feature is in allowing you to
 
     **Tip:** You can save the HTML files in any folder that is easy to remember.
 
-2.  For each documented custom action, add an action entry to user\_defined\_help.ini along with the corresponding command, and the absolute path to the appropriate HTML page. \([Learn more](Additional_features_Help_extensibility_configuration.html#section_r2d_nlh_cl)\).
+2.  For each documented custom action, add an action entry to user\_defined\_help.ini along with the corresponding command, and the absolute path to the appropriate HTML page. \([Learn more](/TA_Help/Topics/Additional_features_Help_extensibility_configuration.html#section_r2d_nlh_cl)\).
 
 3.  Save user\_defined\_help.ini.
 

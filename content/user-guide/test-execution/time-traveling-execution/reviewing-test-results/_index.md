@@ -10,7 +10,7 @@ Reviewing test results can assist you in verifying which revision of each relate
 
 **Remember:** To use time-traveling execution on any test module belonging to a legacy repository created prior to TestArchitect version [8.2](/TA_ReleaseNotes/DITA_source/Whats_New_8.2.html), you must first upgrade the repository database. \([Learn more](/TA_Administration/Topics/adm_database_upgrade_time_traveling.html).\)
 
-**Note:** It is assumed that you are familiar with test results \(see [Test results](Test_result.html) for details\). Only sections related to time-traveling execution are discussed.
+**Note:** It is assumed that you are familiar with test results \(see [Test results](/TA_Help/Topics/Test_result.html) for details\). Only sections related to time-traveling execution are discussed.
 
 ## Test result summary
 
@@ -24,7 +24,7 @@ The **Summary** tab display two additional fields when Time-traveling execution 
 **Note:**
 
 -   The values of **Revision timestamp** and **Time traveling** are identical, if there is a revision at the specified timestamp.
--   The values of **Revision timestamp** and **Time traveling** are different, if there is no revision existing at the specified timestamp. Therefore, TestArchitect automatically runs the most revision preceding the specified timestamp. \([Learn more](ug_time_traveling_execution_rules.html).\)
+-   The values of **Revision timestamp** and **Time traveling** are different, if there is no revision existing at the specified timestamp. Therefore, TestArchitect automatically runs the most revision preceding the specified timestamp. \([Learn more](/TA_Help/Topics/ug_time_traveling_execution_rules.html).\)
 
 ## Test result details
 

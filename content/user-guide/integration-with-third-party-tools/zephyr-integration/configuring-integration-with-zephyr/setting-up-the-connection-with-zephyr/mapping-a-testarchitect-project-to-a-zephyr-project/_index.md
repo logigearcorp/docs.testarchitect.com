@@ -14,7 +14,7 @@ Mapping a TestArchitect project to a project in Zephyr allows for tests to be tr
     -   [Zephyr Cloud](https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/263521484/Zephyr+Enterprise+Cloud+Requirements)
     -   TestArchitect 8.4 Update 4 & 5
 
-Before proceeding, ensure that your TestArchitect test machine has [registered the Zephyr server](ug_Zephyr_registering_server.html), as described above.
+Before proceeding, ensure that your TestArchitect test machine has [registered the Zephyr server](/TA_Help/Topics/ug_Zephyr_registering_server.html), as described above.
 
 To map a TestArchitect project to a Zephyr project:
 

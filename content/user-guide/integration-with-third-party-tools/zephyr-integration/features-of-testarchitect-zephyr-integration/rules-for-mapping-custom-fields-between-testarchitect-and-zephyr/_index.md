@@ -19,11 +19,11 @@ Mapped fields must have compatible data types, as specified in the following tab
 |Zephyr Value Type|TestArchitect Value Type|
 |-----------------|------------------------|
 |Text \(1024\)|Single Line Text|
-|Long Text \(32000\)|Single Line Text<br> Multi Line Text<br><br> Label<br><br> Hyperlink<br><br> Build Number<br><br>|
+|Long Text \(32000\)|Single Line Text<br><br> Multi Line Text<br><br> Label<br><br> Hyperlink<br><br> Build Number<br><br>|<br>
 |Pick List|List Item|
 |Check Box|Boolean|
 |Date|Date|
-|Number|Number<br> Single Line Text<br><br>|
+|Number|Number<br><br> Single Line Text<br><br>|<br>
 
 All mandatory custom fields in the Zephyr test cases must have values before a Zephyr to TestArchitect import can take place. Similarly, uploading from TestArchitect to Zephyr requires that those user-defined TestArchitect fields which map to mandatory Zephyr fields be populated with values. Values for user-defined TestArchitect fields may be set when the field is created, using the **Default value** field in the New Field dialog box, or by explicitly setting the given field for the particular project item on the item’s **Information** tab.
 

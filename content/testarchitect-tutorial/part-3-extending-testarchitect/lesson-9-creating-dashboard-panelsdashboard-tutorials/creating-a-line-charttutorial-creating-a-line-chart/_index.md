@@ -11,8 +11,8 @@ In this activity, you will create a line chart to highlight changes in test outc
 **Before proceeding:**
 
 -   Ensure that you have a basic understanding of the TestArchitect Dashboard before creating a chart panel.
--   [A Dashboard portal, connected to the Sample Repository, should be open](tutDashboard_launching_Dashboard.html) in your browser.
--   Ensure that you have created a Test Results \(unfiltered\) data profile as specified in the section [Creating a data profileTutorial: Creating a data profile](tutDashboard_creating_a_data_profile.html).
+-   [A Dashboard portal, connected to the Sample Repository, should be open](/TA_Tutorials/Topics/tutDashboard_launching_Dashboard.html) in your browser.
+-   Ensure that you have created a Test Results \(unfiltered\) data profile as specified in the section [Creating a data profileTutorial: Creating a data profile](/TA_Tutorials/Topics/tutDashboard_creating_a_data_profile.html).
 
 Line charts are one of the best ways to visualize trends relating to quantitative data - that is, changes in numeric values over time. Hence, you will create a line chart that displays how the Passed, Failed, and Passed with Warnings/Errors results for the test modules of the Car Rental project have changed over time.
 

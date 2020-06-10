@@ -8,11 +8,11 @@ aliases:
 
 In this topic, we will write C\# code which implements the simple hello user-scripted action.
 
-You are going to implement an action named hello in theC\#harness. It will accept one argument, who, and write out the word hello, followed by the value specified for who: ![](/images//Images/TA_Tutorials/Images/Python_hello_demo.png)
+You are going to implement an action named hello in theC\#harness. It will accept one argument, who, and write out the word hello, followed by the value specified for who: ![](/images/TA_Tutorials/Images/Python_hello_demo.png)
 
 
 
-As outlined in the procedure described earlier, [Developing your own user-scripted C\# harness action](tut_Harness_CSharp_bundle_developing_your_own_harness_action.html), this entails making the following modifications to the existing Sample.cs class:
+As outlined in the procedure described earlier, [Developing your own user-scripted C\# harness action](/TA_Tutorials/Topics/tut_Harness_CSharp_bundle_developing_your_own_harness_action.html), this entails making the following modifications to the existing Sample.cs class:
 
 1.  Create a function definition that provides the actual action-specific logic.
 2.  Add the ActionDefinition attribute to mark the to-be-implemented function to map to a given user-scripted action.

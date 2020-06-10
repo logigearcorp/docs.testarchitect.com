@@ -103,7 +103,7 @@ Each conditional statement may have multiple conditions. These are combined with
 
 Parentheses may be used in statements with multiple conditionals, in order to override the default order of precedence.
 
-The asterisk \( \* \) may be used as a wildcard to represent any value. This applies to conditionals as well as value set lists. In the latter case, it indicates an open value domain. In the case of conditionals, it is useful at the end of a list of conditional value set expressions, to indicate the default value set \(see the [table](reuse.Creating_and_using_actions_Arg_type.html#table_z4c_tfh_xn) below\).
+The asterisk \( \* \) may be used as a wildcard to represent any value. This applies to conditionals as well as value set lists. In the latter case, it indicates an open value domain. In the case of conditionals, it is useful at the end of a list of conditional value set expressions, to indicate the default value set \(see the [table](/reuse/reuse.Creating_and_using_actions_Arg_type.html#table_z4c_tfh_xn) below\).
 
 Some further examples of value set modifiers:
 
@@ -111,8 +111,8 @@ Some further examples of value set modifiers:
 |----|---------|-----------|
 |country|`US, Canada, Mexico`|Example of a simple value set. Only US, Canada and Mexico are acceptable. All other values are displayed in red in the editor.|
 |country|`US, Canada, Mexico, *`|US, Canada, and Mexico appears in the drop-down list, but any other input is accepted \(that is, not displayed in red\).|
-|city|`country=US: Los Angeles, Chicago; country=Canada: Montreal, Vancouver; country=Mexico:*`|-   2 cities, each are displayed in the list if country is US or Canada.-   No option is displayed for Mexico, but any value is accepted.<br>-   For any other country, any city value is regarded as invalid \(displayed in red\).<br><br>|
-|zip code|`country=US and city=Los Angeles: 90001, 90002, 90003; country=US and city=Chicago: 60601, 60602, 60603; country=Canada: *, country=*: n/a`|-   3 zip codes, each are displayed if country is US and city is either Los Angeles or Chicago.-   No other zip code is allowed for Los Angeles or Chicago.<br>-   If country is Canada, any zip code is valid.<br>-   If country is anything else, n/a is the only option.<br><br>|
+|city|`country=US: Los Angeles, Chicago; country=Canada: Montreal, Vancouver; country=Mexico:*`|-   2 cities, each are displayed in the list if country is US or Canada.<br>-   No option is displayed for Mexico, but any value is accepted.<br>-   For any other country, any city value is regarded as invalid \(displayed in red\).<br><br>|<br>
+|zip code|`country=US and city=Los Angeles: 90001, 90002, 90003; country=US and city=Chicago: 60601, 60602, 60603; country=Canada: *, country=*: n/a`|-   3 zip codes, each are displayed if country is US and city is either Los Angeles or Chicago.<br>-   No other zip code is allowed for Los Angeles or Chicago.<br>-   If country is Canada, any zip code is valid.<br>-   If country is anything else, n/a is the only option.<br><br>|<br>
 
 Example of value set modifiers:
 

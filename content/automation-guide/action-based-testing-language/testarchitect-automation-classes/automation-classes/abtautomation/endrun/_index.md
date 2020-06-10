@@ -21,12 +21,12 @@ There are no parameters for this function.
 
 ## Return Value
 
-An integer value is returned that identifies the result information for the test run. It is to be used as parameter for the [ReportFinish](abtf_ReportFinish.html) or the [PrintReport](abtf_PrintReport.html) function.
+An integer value is returned that identifies the result information for the test run. It is to be used as parameter for the [ReportFinish](/TA_Automation/Topics/abtf_ReportFinish.html) or the [PrintReport](/TA_Automation/Topics/abtf_PrintReport.html) function.
 
 ## Notes
 
--   This function produces the summary and needs to be called before [ReportFinish](abtf_ReportFinish.html) or [PrintReport](abtf_PrintReport.html) can be used.
--   After using EndRun, a new call to [StartRun](abtf_StartRun.html) is needed before [NextAction](abtf_NextAction.html) can be called.
+-   This function produces the summary and needs to be called before [ReportFinish](/TA_Automation/Topics/abtf_ReportFinish.html) or [PrintReport](/TA_Automation/Topics/abtf_PrintReport.html) can be used.
+-   After using EndRun, a new call to [StartRun](/TA_Automation/Topics/abtf_StartRun.html) is needed before [NextAction](/TA_Automation/Topics/abtf_NextAction.html) can be called.
 
 **Parent topic:**[AbtAutomation](/TA_Automation/Topics/abt_AbtAutomation.html)
 

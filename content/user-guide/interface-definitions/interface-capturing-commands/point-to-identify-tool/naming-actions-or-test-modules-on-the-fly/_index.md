@@ -18,7 +18,7 @@ You can use **point-to-identify** to simply verify that the control you have spe
 
 3.  Click the **Identify** ![](/images//Images/identify_btn.png) button in the toolbar.
 
-    **Tip:** To capture UI child elements belonging to a container class, see [Container Class](Interface_def_container_class.html).
+    **Tip:** To capture UI child elements belonging to a container class, see [Container Class](/TA_Help/Topics/Interface_def_container_class.html).
 
     -   **If your specified window and control are known and are identified and matched**: That is, if the window identifies an existing interface entity and the control references an existing interface element in it, and mapping to the AUT is successful, instead of point-to-identify mode, highlight mode is invoked. The application window comes to the foreground and the referenced control is flashed;
     -   **If the specified window is known and exists, but the referenced control is unknown**: That is, the interface entity exists but it has no interface element corresponding to the control you've named, point-to-identify mode is invoked. Select the control in which you are interested by clicking on it:

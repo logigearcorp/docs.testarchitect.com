@@ -9,7 +9,7 @@ keywords: "local variable, define local variable, declare local variable, local 
 
 ## Description
 
-Define a [local variable](The_test_language_variables.html) and \(optionally\) assign a value to it, or assign a value to an existing local variable.
+Define a [local variable](/TA_Automation/Topics/The_test_language_variables.html) and \(optionally\) assign a value to it, or assign a value to an existing local variable.
 
 ## Arguments
 
@@ -30,7 +30,7 @@ This action may be used within the following project items:test modules and user
 
 -   For a given execution of local variable, if name specifies a variable that already exists, and whose scope is identical to the variable that would be created, the action merely assigns a new value \(in the value argument\) to the existing variable, without creating a new variable.
 -   Restrictions on usage:
-    -   A variable may not be declared within a [use data set](use_data_set.html) block if it has the same name as any of the data set headers.
+    -   A variable may not be declared within a [use data set](/TA_Automation/Topics/bia_use_data_set.html) block if it has the same name as any of the data set headers.
     -   Same-named local and global variables may not be declared within the same local variable scope level.
 -   Use variables within pound sign \(\#\) expressions to access their contained values.
 
@@ -38,20 +38,20 @@ This action may be used within the following project items:test modules and user
 
 Unlike global variables, a local variable has limited scope, depending on where it is declared:
 
--   All local variables declared prior to the first test case \(regardless of whether an [`INITIAL`](initial.html) section exists\), have scope throughout the entire test module, including in the `FINAL` section. \(It is recommended that such variables be declared in the `INITIAL` section.\)
--   If a local variable is declared inside a [`TEST CASE`](test_case.html) section, the scope of that local variable is limited to the test case.
--   If a local variable is declared inside a [`FINAL`](final.html) section, that local variable's scope lasts from the point of its declaration to the end of the test module.
+-   All local variables declared prior to the first test case \(regardless of whether an [`INITIAL`](/TA_Automation/Topics/bia_initial.html) section exists\), have scope throughout the entire test module, including in the `FINAL` section. \(It is recommended that such variables be declared in the `INITIAL` section.\)
+-   If a local variable is declared inside a [`TEST CASE`](/TA_Automation/Topics/bia_test_case.html) section, the scope of that local variable is limited to the test case.
+-   If a local variable is declared inside a [`FINAL`](/TA_Automation/Topics/bia_final.html) section, that local variable's scope lasts from the point of its declaration to the end of the test module.
 -   If a local variable is declared inside an action, that local variable has scope within the entire action following its declaration, but not to any actions or test module higher up in the calling chain. Note that, from the standpoint of scope, an action argument is identical to a local variable declared at the beginning of the action.
 
 It should be noted that in all the above cases, a local variable having scope at a given point continues to have scope throughout the call chain of actions originating at that point. That is, for example, if a local variable is declared within a test case, its scope extends to all actions called within the test case, as well as all actions called by them, on down the line.
 
-In the [use data set](use_data_set.html) block:
+In the [use data set](/TA_Automation/Topics/bia_use_data_set.html) block:
 
--   TestArchitect supports block scoping for the [use data set](use_data_set.html) block. Therefore, local variables declared between a [use data set](use_data_set.html) action and its associated [repeat for data set](repeat_for_data_set.html) cannot be accessed from outside of that block.
+-   TestArchitect supports block scoping for the [use data set](/TA_Automation/Topics/bia_use_data_set.html) block. Therefore, local variables declared between a [use data set](/TA_Automation/Topics/bia_use_data_set.html) action and its associated [repeat for data set](/TA_Automation/Topics/bia_repeat_for_data_set.html) cannot be accessed from outside of that block.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html)none.
+The following settings are applicable to this action:[remove double quotes from cells](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html)none.
 
 ## Example \#1: Demonstrating test case scope
 

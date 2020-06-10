@@ -33,18 +33,18 @@ The following new features and improvements are introduced in TestArchitect vers
 
         |Description|Shortcut Keys|
         |-----------|-------------|
-        |Insert several empty lines, then move the cell pointer three lines down|![](/TA_Help/Images/Mac_control_key.png) + Enter|
-        |Insert a new test case at the current position \(test modules only\)|![](/TA_Help/Images/Mac_control_key.png) + T|
+        |Insert several empty lines, then move the cell pointer three lines down|![](/images/TA_Automation/Images/Mac_control_key.png) + Enter|
+        |Insert a new test case at the current position \(test modules only\)|![](/images/TA_Automation/Images/Mac_control_key.png) + T|
 
     -   [Working with item tabs](/TA_Help/Topics/Support_Hotkey.html):
 
         |Description|Shortcut Keys|
         |-----------|-------------|
-        |Close the active item tab|![](/TA_Help/Images/Mac_control_key.png) + W or ![](/TA_Help/Images/Mac_control_key.png) + F4|
-        |Select \(make active\) item tab \#1 to \#8|![](/TA_Help/Images/Mac_control_key.png) + 1 through ![](/TA_Help/Images/Mac_control_key.png) + 8|
-        |Select last item tab|![](/TA_Help/Images/Mac_control_key.png) + 9|
-        |Select item tab to right of active tab|![](/TA_Help/Images/Mac_control_key.png) + Tab|
-        |Select item tab to left of active tab|![](/TA_Help/Images/Mac_control_key.png) + ![](/TA_Help/Images/Mac_shift_key.png) + Tab|
+        |Close the active item tab|![](/images/TA_Automation/Images/Mac_control_key.png) + W or ![](/images/TA_Automation/Images/Mac_control_key.png) + F4|
+        |Select \(make active\) item tab \#1 to \#8|![](/images/TA_Automation/Images/Mac_control_key.png) + 1 through ![](/images/TA_Automation/Images/Mac_control_key.png) + 8|
+        |Select last item tab|![](/images/TA_Automation/Images/Mac_control_key.png) + 9|
+        |Select item tab to right of active tab|![](/images/TA_Automation/Images/Mac_control_key.png) + Tab|
+        |Select item tab to left of active tab|![](/images/TA_Automation/Images/Mac_control_key.png) + ![](/images/TA_Automation/Images/Mac_shift_key.png) + Tab|
 
     -   **Preserving pointer position**: The last established position of the cell pointer is now preserved under the following scenarios:
         -   Check in an item with the **Keep Checked Out** option selected.
@@ -52,7 +52,7 @@ The following new features and improvements are introduced in TestArchitect vers
 
 ## TestArchitect Automation
 
-All new TestArchitect Automation features since the previous release of TestArchitect 8 are documented in the interim updates previously published. Please refer to the Release Notes for TestArchitect 8 [update 1](Whats_New_8_update_1.html), [update 2](Whats_New_8_update_2.html), [update 3](Whats_New_8_update_3.html) and [update 4](Whats_New_8_update_4_Mac.html).
+All new TestArchitect Automation features since the previous release of TestArchitect 8 are documented in the interim updates previously published. Please refer to the Release Notes for TestArchitect 8 [update 1](/TA_ReleaseNotes/DITA_source/Whats_New_8_update_1.html), [update 2](/TA_ReleaseNotes/DITA_source/Whats_New_8_update_2.html), [update 3](/TA_ReleaseNotes/DITA_source/Whats_New_8_update_3.html) and [update 4](/TA_ReleaseNotes/DITA_source/Whats_New_8_update_4_Mac.html).
 
 **Parent topic:**[Features added to TestArchitect 8.1](/TA_ReleaseNotes/DITA_source/Whats_New_8.1.html)
 

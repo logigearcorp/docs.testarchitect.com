@@ -8,7 +8,7 @@ aliases:
 
 This section describes procedures for starting the repository server.
 
-1.  [Launch](Repo_server_management_launching.html) the Repository Server Control Panel.
+1.  [Launch](/TA_Administration/Topics/Repo_server_management_launching.html) the Repository Server Control Panel.
 
     A successful launching of the Repository Server Control Panel ensures that the TA Repository Server service is running.
 

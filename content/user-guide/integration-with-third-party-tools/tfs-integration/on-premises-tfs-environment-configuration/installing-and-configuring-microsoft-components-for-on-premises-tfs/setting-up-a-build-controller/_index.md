@@ -10,8 +10,8 @@ To use Team Foundation Build \(TFBuild\), you must have at least one build contr
 
 Ensure that the following requirements are met:
 
--   Installed the supported components on your computer. \([Learn more](ug_MTM_VS_components.html).\)
--   Configured and deployed [a build server](ug_MTM_config_build_server.html).
+-   Installed the supported components on your computer. \([Learn more](/TA_Help/Topics/ug_MTM_VS_components.html).\)
+-   Configured and deployed [a build server](/TA_Help/Topics/ug_MTM_config_build_server.html).
 
 Please refer to Microsoft's instructions on creating a build controller:
 

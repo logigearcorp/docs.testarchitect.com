@@ -23,7 +23,7 @@ Allow for execution to proceed only when it is determined that a specified contr
 
 -   **time out**
 
-    \(Optional\) Maximum time to wait \(units: seconds; default = current value of the [object wait](object_wait.html) built-in setting – see note below\).
+    \(Optional\) Maximum time to wait \(units: seconds; default = current value of the [object wait](/TA_Automation/Topics/bis_object_wait.html) built-in setting – see note below\).
 
 
 ## Valid contexts
@@ -32,18 +32,18 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   If the given control fails to disappear before the specified timeout, an [automation error](Error_handling.html) is generated.
--   If no value is specified for the time out argument, the current value of the built-in setting [object wait](object_wait.html) is used. [object wait](object_wait.html), if not otherwise set in a [setting](setting.html) action line, defaults to a value of 20 seconds.
+-   If the given control fails to disappear before the specified timeout, an [automation error](/TA_Automation/Topics/bia_Error_handling.html) is generated.
+-   If no value is specified for the time out argument, the current value of the built-in setting [object wait](/TA_Automation/Topics/bis_object_wait.html) is used. [object wait](/TA_Automation/Topics/bis_object_wait.html), if not otherwise set in a [setting](/TA_Automation/Topics/bia_setting.html) action line, defaults to a value of 20 seconds.
 -   If more than one control exist that match the definition specified by the value of the control argument, the action waits only for the disappearance of the first matching control that it encountered.
 -   "nonexistence" of the specified control, in the context of this action, is satisfied by one of two criteria:
     1.  no control exists that matches the definition specified by the value of the **control** argument, or
-    2.  any matching control has its visibility attribute set to false, *and* the built-in setting [load invisible controls](load_invisible_controls.html) is set to no.
--   Note that, if the built-in setting [load invisible controls](load_invisible_controls.html) is set to yes, only the nonexistence of a matching control \(as opposed to a matching control simply being invisible\) satisfies the "not exists" condition of this action.
+    2.  any matching control has its visibility attribute set to false, *and* the built-in setting [load invisible controls](/TA_Automation/Topics/bis_load_invisible_controls.html) is set to no.
+-   Note that, if the built-in setting [load invisible controls](/TA_Automation/Topics/bis_load_invisible_controls.html) is set to yes, only the nonexistence of a matching control \(as opposed to a matching control simply being invisible\) satisfies the "not exists" condition of this action.
 -   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[case sensitive](case_sensitive.html), [load invisible controls](load_invisible_controls.html), [object wait](object_wait.html), [remove double quotes from cells](remove_double_quotes_from_cells.html), [standard ASCII only](standard_ASCII_only.html), [page wait](page_wait.html), [window wait](window_wait.html).
+The following settings are applicable to this action:[case sensitive](/TA_Automation/Topics/bis_case_sensitive.html), [load invisible controls](/TA_Automation/Topics/bis_load_invisible_controls.html), [object wait](/TA_Automation/Topics/bis_object_wait.html), [remove double quotes from cells](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html), [standard ASCII only](/TA_Automation/Topics/bis_standard_ASCII_only.html), [page wait](/TA_Automation/Topics/bis_page_wait.html), [window wait](/TA_Automation/Topics/bis_window_wait.html).
 
 ## Example
 

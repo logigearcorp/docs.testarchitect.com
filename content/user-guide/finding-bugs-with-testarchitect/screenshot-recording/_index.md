@@ -23,13 +23,13 @@ With screenshot recording enabled, TestArchitect captures screenshots during tes
 
 -   First, you have the option to limit the number of images retained upon conclusion of a test run. You configure these settings at the start of execution in the Execute Test dialog box, which is also where screenshot recording is enabled.
 -   Second, snapshots that TestArchitect deems redundant and unnecessary are discarded.
--   Third, captured screenshots are discarded when the local test result is added to the repository. This removal takes place regardless of whether the [automatic](Test_result_storing_automatically.html) or [manual](Test_result_viewing_storing.html) method is used to transfer the results to the repository.
+-   Third, captured screenshots are discarded when the local test result is added to the repository. This removal takes place regardless of whether the [automatic](/TA_Help/Topics/Test_result_storing_automatically.html) or [manual](/TA_Help/Topics/Test_result_viewing_storing.html) method is used to transfer the results to the repository.
 
 See [below](#section.screenshot_rules) for a full discussion of the rules regarding screenshot retention.
 
 ## Results display
 
-Screenshots captured during testing are displayed in the [**Result Details**](Test_result_details.html#li_jkx_zqp_5x) and [**Failure/Error Summary**](ug_results_failure_error_summary.html) tabs of local test results.
+Screenshots captured during testing are displayed in the [**Result Details**](/TA_Help/Topics/Test_result_details.html#li_jkx_zqp_5x) and [**Failure/Error Summary**](/TA_Help/Topics/ug_results_failure_error_summary.html) tabs of local test results.
 
 **Remember:** The **Result Details** tab is only available when local test results are viewed on a web browser.
 
@@ -37,7 +37,7 @@ Screenshots captured during testing are displayed in the [**Result Details**](Te
 
 ## Screenshot viewer display
 
-On the web browser, when you click a captured screenshot in the [**Result Details**](Test_result_details.html#li_jkx_zqp_5x) tab, the screenshot viewer, appears.
+On the web browser, when you click a captured screenshot in the [**Result Details**](/TA_Help/Topics/Test_result_details.html#li_jkx_zqp_5x) tab, the screenshot viewer, appears.
 
 ![](/images//Images/Recorded_screenshot_dlg_XML.png)
 
@@ -114,7 +114,7 @@ The rules are as follows:
 -   **Android:** Screenshot recording, when applied to a connected Android device, requires that the [TestArchitect Agent service](/reuse/../Android/Topics/Android_TA_agent.html) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
     1.  Connect the Android device to the test controller through a USB cable \(not Wi-Fi\), if not already so connected.
     2.  Open the [Android Instrumentation Tool](/reuse/../Android/Topics/Android_Instrumentation_tool.html) dialog box.
-    3.  Click the **Refresh devices list** ![](/images//Images/Android/Images/Refresh_device_list_btn.png) button.
+    3.  Click the **Refresh devices list** ![](/images/Android/Images/Refresh_device_list_btn.png) button.
 
 -   **[Capturing screenshots during test execution](/TA_Help/Topics/ug_Screenshot_recording_capturing.html)**  
 With screenshot recording active,TestArchitect captures screenshots during test execution for each UI-interactive action. Depending on your settings, it retains some of these screenshots and logs them to the generated test result.

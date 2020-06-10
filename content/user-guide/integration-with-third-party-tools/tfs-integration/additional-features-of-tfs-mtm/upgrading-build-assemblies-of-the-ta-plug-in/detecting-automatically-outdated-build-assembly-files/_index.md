@@ -11,7 +11,7 @@ Steps to automatically detect outdated build assembly files.
 **Remember:**
 
 -   Upgrading of outdated build assembly files is supported with TA-TFS plug-in versions \#3.0.14 or later. \(To check the current version of your TA-TFS plug-in: in Visual Studio, select the **Tools** \> **Extensions and Updates** menu, browse, and then click **TA-TFS Integration Plugin**\).
--   If your TA-TFS plug-in version is \#3.0.19 or earlier, an additional step is required after upgrading the build assembly files. TA-TFS integration projects created after \#3.0.19 have replaced Coded UI with Unit Tests; that is, they are no longer dependent on the Coded UI libraries. Therefore, you must reassociate your existing TFS tests cases \([Learn more](ug_MTM_associate.html)\).
+-   If your TA-TFS plug-in version is \#3.0.19 or earlier, an additional step is required after upgrading the build assembly files. TA-TFS integration projects created after \#3.0.19 have replaced Coded UI with Unit Tests; that is, they are no longer dependent on the Coded UI libraries. Therefore, you must reassociate your existing TFS tests cases \([Learn more](/TA_Help/Topics/ug_MTM_associate.html)\).
 
 To turn on the automatic detection of obsolete TA-TFS projects, do the following:
 
@@ -33,7 +33,7 @@ Automatic detection is now turned on.
 
     ![](/images//Images/ug_MTM_outdated_files.png)
 
-    -   Click the **Update** button to upgrade the current projects. The Update TA-TFS Integration Project dialog box appears. \([Learn more](ug_MTM_upgrading_assemblies_single_project.html).\)
+    -   Click the **Update** button to upgrade the current projects. The Update TA-TFS Integration Project dialog box appears. \([Learn more](/TA_Help/Topics/ug_MTM_upgrading_assemblies_single_project.html).\)
 
         ![](/images//Images/TA_TFS_projects_updating.png)
 

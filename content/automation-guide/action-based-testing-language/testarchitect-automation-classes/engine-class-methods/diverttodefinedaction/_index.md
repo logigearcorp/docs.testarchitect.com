@@ -27,11 +27,11 @@ Return 1 if the call is successful; otherwise, 0.If unsuccessful, the diagnostic
 
 ## Notes
 
--   This function is normally part of Interpret. However, it can be used to explicitly run an action that is implemented with an Action Definition. Obtain the filename parameter by using [ActionScriptFind](abtf_ActionScriptFind.html).
+-   This function is normally part of Interpret. However, it can be used to explicitly run an action that is implemented with an Action Definition. Obtain the filename parameter by using [ActionScriptFind](/TA_Automation/Topics/abtf_ActionScriptFind.html).
 
 ## Example
 
-Execute the enter customer action \(the parameters should be in the current action line, use [NewActionLine](abtf_NewActionLine.html) and [AddArgument](abtf_AddArgument.html) to synthesize one if necessary\):
+Execute the enter customer action \(the parameters should be in the current action line, use [NewActionLine](/TA_Automation/Topics/abtf_NewActionLine.html) and [AddArgument](/TA_Automation/Topics/abtf_AddArgument.html) to synthesize one if necessary\):
 
 ```
 DivertToDefinedAction(ActionScriptFind("enter customer"))

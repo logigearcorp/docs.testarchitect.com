@@ -12,7 +12,7 @@ Only members of the administrators and test managers groups have privileges for 
 
 -   **Option 1**: To delete a single password:
 
-    1.  Log into a project as a user with an administrator or test manager role. \(See [User administration](User_administration.html) for details\).
+    1.  Log into a project as a user with an administrator or test manager role. \(See [User administration](/TA_Administration/Topics/User_administration.html) for details\).
 
     2.  Right-click the project node and select **Manage Passwords**.
 
@@ -28,7 +28,7 @@ Only members of the administrators and test managers groups have privileges for 
 
 -   **Option 2**: To delete multiple passwords:
 
-    1.  Log into a project as a user with an administrator or test manager role. \(See [User administration](User_administration.html) for details\).
+    1.  Log into a project as a user with an administrator or test manager role. \(See [User administration](/TA_Administration/Topics/User_administration.html) for details\).
 
     2.  Right-click the project node and select **Manage Passwords**.
 

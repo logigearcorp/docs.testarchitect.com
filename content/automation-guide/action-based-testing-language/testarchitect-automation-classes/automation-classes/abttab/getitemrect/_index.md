@@ -23,7 +23,7 @@ Retrieve the bounding rectangle of a specified tab item.
 
 -   ***rect***
 
-    Returned [TARect](abt_TARect.html) object indicating the bounding rectangle of the item.
+    Returned [TARect](/TA_Automation/Topics/abt_TARect.html) object indicating the bounding rectangle of the item.
 
 
 ## Return Value

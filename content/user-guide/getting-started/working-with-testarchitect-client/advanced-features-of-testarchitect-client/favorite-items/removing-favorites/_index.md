@@ -10,7 +10,7 @@ Use the **Favorite** list view if you need to remove a favorite item or multiple
 
 To remove favorite items, follow these steps.
 
-1.  Open the [favorites list view](Listview_favorites_opening.html).
+1.  Open the [favorites list view](/TA_Help/Topics/Listview_favorites_opening.html).
 
 2.  You can select a single favorite item or multiple favorite items by using the Shift or Control keys:
 

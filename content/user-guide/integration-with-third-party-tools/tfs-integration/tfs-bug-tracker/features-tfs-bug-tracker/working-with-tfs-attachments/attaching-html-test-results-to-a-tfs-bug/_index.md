@@ -10,7 +10,7 @@ TestArchitect allows you to attach both local results and repository results, in
 
 Ensure that the following requirements are met before adding a single attachment to a TFS bug:
 
--   Your TestArchitect test machine has [registered the TFS server](Integration_MTM_connecting_TFS.html#) and [actived TFS Bug Tracker.](ug_TFS_BugTracker_Registering_bugtracker.html#)
+-   Your TestArchitect test machine has [registered the TFS server](/TA_Help/Topics/Integration_MTM_connecting_TFS.html#) and [actived TFS Bug Tracker.](/TA_Help/Topics/ug_TFS_BugTracker_Registering_bugtracker.html#)
 -   You are granted permission to attach files to a TFS bug.
 -   The size of the attachment does not exceed the maximum size specified on the TFS server. \(If necessary, contact your system administrator to determine this limit.\)
 
@@ -36,7 +36,7 @@ To attach a test result in HTML format to a TFS bug, complete the following step
 
     If the test result is successfully attached to the bug, a message to that effect is displayed.
 
-    **Note:** TestArchitect will use the default user name and password configured in[Registering TFS server](Integration_MTM_connecting_TFS.html#) or [TFS Bug Tracker](ug_TFS_BugTracker_Registering_bugtracker.html#).
+    **Note:** TestArchitect will use the default user name and password configured in[Registering TFS server](/TA_Help/Topics/Integration_MTM_connecting_TFS.html#) or [TFS Bug Tracker](/TA_Help/Topics/ug_TFS_BugTracker_Registering_bugtracker.html#).
 
 5.  Click **OK**.
 

@@ -31,12 +31,12 @@ no/false
 -   This built-in setting is supported on the following systems/platforms:
     -   Windows: Mozilla Firefox.
 -   This built-in setting is able to successfully output a report file, when all of the below conditions are met. Otherwise, no report file is generated.
-    1.  The [use browser](use_browser.html) built-in setting is set to Firefox.
+    1.  The [use browser](/TA_Automation/Topics/bis_use_browser.html) built-in setting is set to Firefox.
     2.  The presence of the [anchor](/TA_Help/Topics/prop_anchor.example_01.html) and/or [anchor pos](/TA_Help/Topics/Interface_def_anchor_pos_concept.html) properties in test procedures.
 
 ## Notes
 
--   It is highly recommended that you declare this built-in setting in [startup settings](aut_startup_settings.html), before launching a test run. This minimizes the modifications to your test procedures.
+-   It is highly recommended that you declare this built-in setting in [startup settings](/TA_Automation/Topics/aut_startup_settings.html), before launching a test run. This minimizes the modifications to your test procedures.
 -   After the given automation tests are done, a report file is automatically exported to the following location C:\\Users\\Public\\LogiGear\\TestArchitect\\log \(Windows\).
 -   Syntax of the filename is as follows: anchors\_report\_<resultName\>.txt, such as, anchors\_report\_ActionBasedTesting \(2017-10-19 13.40.36\) - 7292.txt
 -   A report file has three columns including:
@@ -53,7 +53,7 @@ no/false
 
 ## Steps to replace anchor and/or anchor pos by XPath
 
-1.  In [startup settings](aut_startup_settings.html), declare the anchor pos built-in setting with the value of yes. \([Learn more](aut_configuring_built_in_settings.html).\)
+1.  In [startup settings](/TA_Automation/Topics/aut_startup_settings.html), declare the anchor pos built-in setting with the value of yes. \([Learn more](/TA_Automation/Topics/aut_configuring_built_in_settings.html).\)
 2.  Execute your tests.
 3.  After the tests are finished, find the report file located at C:\\Users\\Public\\LogiGear\\TestArchitect\\log. Filename of the report is anchors\_report\_<resultName\>.txt, such as, anchors\_report\_ActionBasedTesting \(2017-10-19 13.40.36\) - 7292.txt
 4.  Open the report file by using MS Excel spreadsheet.

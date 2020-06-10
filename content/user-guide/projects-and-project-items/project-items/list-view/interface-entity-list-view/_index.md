@@ -8,7 +8,7 @@ aliases:
 
 An interface entity list view displays a list of all interface entities contained within either a selected interface node or one of its subfolders.
 
-On the TestArchitect explorer tree, when you double-click an interface node, and then select the **Interface Entities** tab. TestArchitect displays in the main panel a list view of the interface entities belonging to that interface. \([Learn more](Interface_entities_and_elements.html#section.Interface_entity).\)
+On the TestArchitect explorer tree, when you double-click an interface node, and then select the **Interface Entities** tab. TestArchitect displays in the main panel a list view of the interface entities belonging to that interface. \([Learn more](/TA_Help/Topics/Interface_entities_and_elements.html#section.Interface_entity).\)
 
 **Note:** Interface entity list views are also available for subfolders of each interface node.
 
@@ -18,7 +18,7 @@ The following operations can be performed on an interface entity list view:
 
 ## Common operations
 
-You can find various common operations that can be performed on interface entity list views at [Common operations](Listview_common_operations.html).
+You can find various common operations that can be performed on interface entity list views at [Common operations](/TA_Help/Topics/Listview_common_operations.html).
 
 ## Opening an interface entity
 
@@ -28,20 +28,20 @@ From an interface entity list view, you can open an interface entity in the edit
 
 ## Revision control
 
--   Check-out is the process of creating a local working copy from the repository. When a project item is checked out, a lock is placed on that item preventing other users from modifying it. \([Learn more](Project_items_checkout.html).\)
--   Check-in is the process of writing the changes made to a local working copy back to the repository. Checking in a project item releases the lock on it, allowing other authorized users to check out the item and modify it as needed. \([Learn more](Project_items_checkin.html).\)
--   Undoing a checkout allows you to cancel a checkout and discard any changes you have made to the local copy. \([Learn more](Project_items_undo_checkout.html).\)
+-   Check-out is the process of creating a local working copy from the repository. When a project item is checked out, a lock is placed on that item preventing other users from modifying it. \([Learn more](/TA_Help/Topics/Project_items_checkout.html).\)
+-   Check-in is the process of writing the changes made to a local working copy back to the repository. Checking in a project item releases the lock on it, allowing other authorized users to check out the item and modify it as needed. \([Learn more](/TA_Help/Topics/Project_items_checkin.html).\)
+-   Undoing a checkout allows you to cancel a checkout and discard any changes you have made to the local copy. \([Learn more](/TA_Help/Topics/Project_items_undo_checkout.html).\)
 
 ## Project item comparisons
 
 TestArchitect's Diff Tool can be invoked from the list view, allowing you to compare the differences between two project items in the list, or two revisions of the same item.
 
--   For comparing two project items, see [Comparing project items with Diff Tool](ug_diff_tool_comparing_items.html).
--   For comparing two revisions of a project item, see [Comparing a project item's revisions with Diff Tool](ug_diff_tool_comparing_revisions.html).
+-   For comparing two project items, see [Comparing project items with Diff Tool](/TA_Help/Topics/ug_diff_tool_comparing_items.html).
+-   For comparing two revisions of a project item, see [Comparing a project item's revisions with Diff Tool](/TA_Help/Topics/ug_diff_tool_comparing_revisions.html).
 
 ## Revision history
 
-Repository saves pertinent information on a project item at every check-in. This includes timestamp, assigned version, project name, item type, item name, user who checked in the item, and included comments. \([Learn more](Project_items_history.html).\)
+Repository saves pertinent information on a project item at every check-in. This includes timestamp, assigned version, project name, item type, item name, user who checked in the item, and included comments. \([Learn more](/TA_Help/Topics/Project_items_history.html).\)
 
 ## Cut-Copy-Paste operations, and Delete command
 
@@ -57,7 +57,7 @@ Repository saves pertinent information on a project item at every check-in. This
 
 ## Name change propagation
 
-The process of renaming a given entity so that the change propagates to all references to that item is known as [name change propagation](/TA_Glossary/Topics/glossaryNameChangePropagation.html). Renaming an entity automatically updates all applicable action lines, test modules, and action definitions where the entity name appears. \([Learn more](Project_and_project_items_rename_refactoring.html).\)
+The process of renaming a given entity so that the change propagates to all references to that item is known as [name change propagation](/TA_Glossary/Topics/glossaryNameChangePropagation.html). Renaming an entity automatically updates all applicable action lines, test modules, and action definitions where the entity name appears. \([Learn more](/TA_Help/Topics/Project_and_project_items_rename_refactoring.html).\)
 
 ## Searching
 
@@ -65,15 +65,15 @@ By selecting **Search** from the context menu, you can search all test modules a
 
 **Fastpath:** Ctrl + H
 
-**Tip:** You can include [supplier project\(s](Project_subscription.html)\) in your search for the given interface entity by selecting the **Including supplier project\(s\)** check box in the Search dialog box.
+**Tip:** You can include [supplier project\(s](/TA_Help/Topics/Project_subscription.html)\) in your search for the given interface entity by selecting the **Including supplier project\(s\)** check box in the Search dialog box.
 
 ## Exporting an interface entity
 
-Interface entities can be exported to archive files \(.ZIP format\), which can be used as a backup or for re-importing \([Learn more](Interface_entity_exporting.html#step_vft_h3f_fw).\)
+Interface entities can be exported to archive files \(.ZIP format\), which can be used as a backup or for re-importing \([Learn more](/TA_Help/Topics/Interface_entity_exporting.html#step_vft_h3f_fw).\)
 
 ## Reporting
 
-TestArchitect can generate reports to show the progress of the test or automation development, as well as test run performance and results. \([Learn more](Report_producing.html#choice_oj2_cwb_cw).\)
+TestArchitect can generate reports to show the progress of the test or automation development, as well as test run performance and results. \([Learn more](/TA_Help/Topics/Report_producing.html#choice_oj2_cwb_cw).\)
 
 -   **[Editing interface entity variations](/TA_Help/Topics/Listview_interface_entity_edit_variation.html)**  
 You can re-link an interface entity variation to other versions nodes or keywords via the Edit Variation dialog box.

@@ -10,7 +10,7 @@ Rules that must be observed when naming variables.
 
 Variable names in TestArchitect must comply with the following rules:
 
--   Allowable characters: alphabetic characters \(upper and lowercase\), numeric digits, underscore \(\_\), and space. Also keep in mind that the name you choose must not be a TestArchitect [function](The_test_language_functions.html), or a TestArchitect reserved word. Here is the list of TestArchitect reserved words.
+-   Allowable characters: alphabetic characters \(upper and lowercase\), numeric digits, underscore \(\_\), and space. Also keep in mind that the name you choose must not be a TestArchitect [function](/TA_Automation/Topics/The_test_language_functions.html), or a TestArchitect reserved word. Here is the list of TestArchitect reserved words.
     -   and
     -   or
     -   xor

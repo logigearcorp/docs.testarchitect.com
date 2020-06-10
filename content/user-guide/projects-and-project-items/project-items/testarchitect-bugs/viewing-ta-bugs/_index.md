@@ -8,7 +8,7 @@ aliases:
 
 How to access existing TA bugs.
 
-1.  In the TestArchitect explorer tree, open the [bug list view](Listview_bug.html) by double-clicking the **Bugs** node.
+1.  In the TestArchitect explorer tree, open the [bug list view](/TA_Help/Topics/Listview_bug.html) by double-clicking the **Bugs** node.
 
 2.  Select a single TA bug or multiple TA bugs by using keyboard's Shift or Control .
 
@@ -20,7 +20,7 @@ How to access existing TA bugs.
 
 The selected TA bugs are opened as new and active tabs.
 
-**Note:** The fields of the TA bugs are explained [here](Bug_information.html).
+**Note:** The fields of the TA bugs are explained [here](/TA_Help/Topics/Bug_information.html).
 
 **Parent topic:**[TestArchitect bugs](/TA_Help/Topics/Bugs.html)
 

@@ -53,8 +53,8 @@ TestArchitect interacts with web applications through UI controls displayed in b
 
 TestArchitect recognizes and provides support for various web controls including:
 
--   [Standard HTML controls](aut_app_testing_web_apps_supported_controls.html)
--   [HTML 5 controls](HTML5_automation_new_tags.html)
+-   [Standard HTML controls](/TA_Automation/Topics/aut_app_testing_web_apps_supported_controls.html)
+-   [HTML 5 controls](/TA_Automation/Topics/HTML5_automation_new_tags.html)
 -   All third-party ASP.NET controls
 
 ## Test machine and web browser configuration

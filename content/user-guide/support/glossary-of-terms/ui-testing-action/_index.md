@@ -6,7 +6,7 @@ aliases:
     - /TA_Glossary/Topics/glossaryUITestingAction.html
 ---
 
-Type of [UI-interactive action](glossaryUIInteractiveAction.html) built-in action that imposes a condition on the AUT and produces a Boolean outcome. From a programmatic standpoint, the outcome results in one of the following, depending on the type of action:
+Type of [UI-interactive action](/TA_Glossary/Topics/glossaryUIInteractiveAction.html) built-in action that imposes a condition on the AUT and produces a Boolean outcome. From a programmatic standpoint, the outcome results in one of the following, depending on the type of action:
 
 |||
 |------|------|

@@ -28,7 +28,7 @@ Example syntax of an enter action:
 TestArchitect supports a number of special features to provide the test developer with more control over test values and the flow of the test execution. The most important ones are:
 
 -   Expressions and variables, which allow for calculating values and storing them for later use.
--   Control flow actions, like [if](if.html) and [while](while.html).
+-   Control flow actions, like [if](/TA_Automation/Topics/bia_if.html) and [while](/TA_Automation/Topics/bia_while.html).
 -   [Data sets](/TA_Help/Topics/Projects_and_tests_dataset.html).
 -   [Data sets](/TA_Tutorials/Topics/Data_driven_testing_overview.html).
 

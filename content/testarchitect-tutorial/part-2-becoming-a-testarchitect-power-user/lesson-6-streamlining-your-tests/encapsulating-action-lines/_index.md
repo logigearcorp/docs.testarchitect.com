@@ -12,11 +12,11 @@ In this exercise you will refactor your last test case by encapsulating its repo
 
     1.  Place your cell pointer on a line somewhere below the existing set of action lines \(but before the `FINAL` section, if any\).
 
-    2.  Click **Create New Test Case** ![](/images//Images/TA_Tutorials/Images/btn.TAC_toolbar.CreateTestCase.png) on the toolbar.
+    2.  Click **Create New Test Case** ![](/images/TA_Tutorials/Images/btn.TAC_toolbar.CreateTestCase.png) on the toolbar.
 
         A test case line similar to the following is inserted.
 
-        ![](/images//Images/TA_Tutorials/Images/misc.TAC.Test_case_03_line.png)
+        ![](/images/TA_Tutorials/Images/misc.TAC.Test_case_03_line.png)
 
     3.  In the second column of the new line, assign the test case an ID ofTC 03\(if not already set to that value\).
 
@@ -29,7 +29,7 @@ In this exercise you will refactor your last test case by encapsulating its repo
 
     The login window appears.
 
-    ![](/images//Images/TA_Tutorials/Images/app.Car_Rental.Login.unmodified.png)
+    ![](/images/TA_Tutorials/Images/app.Car_Rental.Login.unmodified.png)
 
 5.  Navigate to the application window Car Rental-Select Date and Location by clicking **Login**,then **New Order**.
 
@@ -38,7 +38,7 @@ In this exercise you will refactor your last test case by encapsulating its repo
 
     With your test displayed in the editor, do the following:
 
-    1.  Click **Execute** ![](/images//Images/TA_Tutorials/Images/btn.TAC_toolbar.Execute.png) on the toolbar.
+    1.  Click **Execute** ![](/images/TA_Tutorials/Images/btn.TAC_toolbar.Execute.png) on the toolbar.
 
         The Execute Test dialog box appears.
 
@@ -101,11 +101,11 @@ In this exercise you will refactor your last test case by encapsulating its repo
 
     1.  Place your cell pointer on a line somewhere below the existing set of action lines \(but before the `FINAL` section, if any\).
 
-    2.  Click **Create New Test Case** ![](/images//Images/TA_Tutorials/Images/btn.TAC_toolbar.CreateTestCase.png) on the toolbar.
+    2.  Click **Create New Test Case** ![](/images/TA_Tutorials/Images/btn.TAC_toolbar.CreateTestCase.png) on the toolbar.
 
         A test case line similar to the following is inserted.
 
-        ![](/images//Images/TA_Tutorials/Images/misc.TAC.Test_case_04_line.png)
+        ![](/images/TA_Tutorials/Images/misc.TAC.Test_case_04_line.png)
 
     3.  In the second column of the new line, assign the test case an ID ofTC 04\(if not already set to that value\).
 
@@ -127,7 +127,7 @@ In this exercise you will refactor your last test case by encapsulating its repo
 
     With your test displayed in the editor, do the following:
 
-    1.  Click **Execute** ![](/images//Images/TA_Tutorials/Images/btn.TAC_toolbar.Execute.png) on the toolbar.
+    1.  Click **Execute** ![](/images/TA_Tutorials/Images/btn.TAC_toolbar.Execute.png) on the toolbar.
 
         The Execute Test dialog box appears.
 

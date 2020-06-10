@@ -8,7 +8,7 @@ aliases:
 
 Establishing a connection between the Android device and the host machine allows TestArchitect to communicate with mobile applications.
 
-Ensure that you have installed the [TestArchitect Agent on the Android device](SR_Android_installing_TA_agent.html), and that you know the IP address of the host machine.
+Ensure that you have installed the [TestArchitect Agent on the Android device](/TA_Tutorials_Sample_App/Topics/SR_Android_installing_TA_agent.html), and that you know the IP address of the host machine.
 
 Perform the following procedure on the Android device to connect the device to the host machine via Wi-Fi:
 

@@ -28,8 +28,8 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   Settings are used by the TestArchitect engine to steer the automation process. A list of available built-in settings may be found in [Built-in settings](Built_in_settings.html).
--   The setting action allows you to change the value of a built-in setting “on-the-fly” \(that is, during [run time](/TA_Glossary/Topics/glossaryRunTime.html)\). It should be noted that you can also set built-in setting values prior to the test run, through the [**Startup Settings**](aut_configuring_built_in_settings.html) panel of the [Execute Test](/TA_Help/Topics/Test_exec_test_execution.html) dialog box.
+-   Settings are used by the TestArchitect engine to steer the automation process. A list of available built-in settings may be found in [Built-in settings](/TA_Automation/Topics/bis_Built_in_settings.html).
+-   The setting action allows you to change the value of a built-in setting “on-the-fly” \(that is, during [run time](/TA_Glossary/Topics/glossaryRunTime.html)\). It should be noted that you can also set built-in setting values prior to the test run, through the [**Startup Settings**](/TA_Automation/Topics/aut_configuring_built_in_settings.html) panel of the [Execute Test](/TA_Help/Topics/Test_exec_test_execution.html) dialog box.
 
 ## Applicable Built-In Settings
 

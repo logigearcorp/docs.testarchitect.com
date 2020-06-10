@@ -25,7 +25,7 @@ Lists the extensibility methods exposed by the TAIntegrationExtensibility.cs cla
 |13|AssemblyCleaning\(\)|When applied, this method is invoked before execution of the [AssemblyCleanup\(\)](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.testtools.unittesting.assemblycleanupattribute.aspx) method.\*|
 |14|AssemblyCleaned\(\)|When applied, this method is invoked after execution of the [AssemblyCleanup\(\)](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.testtools.unittesting.assemblycleanupattribute.aspx) method.\*|
 
-**Note:** \* ClassInitialize\(\), ClassCleanup\(\), TestInitialize\(\), TestCleanup\(\), RunTestCase\(\), AssemblyInitialize\(\), and AssemblyCleanup\(\) are all built-in methods, and are generated once you successfully associate TestArchitect test cases with TFS test cases \([Learn more](ug_MTM_associate.html).\)
+**Note:** \* ClassInitialize\(\), ClassCleanup\(\), TestInitialize\(\), TestCleanup\(\), RunTestCase\(\), AssemblyInitialize\(\), and AssemblyCleanup\(\) are all built-in methods, and are generated once you successfully associate TestArchitect test cases with TFS test cases \([Learn more](/TA_Help/Topics/ug_MTM_associate.html).\)
 
 ![](/images//Images/ug_MTM_TAIntegrationExtensibility_3.png)
 

@@ -10,7 +10,7 @@ The first step in creating test objectives is to declare them in the `Objectives
 
 To declare new test objectives, follow these steps:
 
-1.  [Check out](Project_items_checkout.html) a test module.
+1.  [Check out](/TA_Help/Topics/Project_items_checkout.html) a test module.
 
 2.  Select a cell in the `Objectives` section \(column A\).
 
@@ -24,7 +24,7 @@ To declare new test objectives, follow these steps:
 
     **Note:** The title must be unique within the test module.
 
-5.  [Check in](Project_items_checkin.html) the test module.
+5.  [Check in](/TA_Help/Topics/Project_items_checkin.html) the test module.
 
     The new test objective is stored in the database.
 

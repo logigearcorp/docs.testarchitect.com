@@ -31,7 +31,7 @@ To compare a folder against the reference folder, do the following:
 
 The Diff Tool window appears, with the two folders displayed in side-by-side panels, the reference \(marked\) folder on the left.
 
-The screenshot below shows a typical comparison of two folders, in this case the **Tests** nodes. \(See [Using Diff Tool for folder comparisons](ug_diff_tool_directory.html) for descriptions of the UI elements in the dialog box.\)
+The screenshot below shows a typical comparison of two folders, in this case the **Tests** nodes. \(See [Using Diff Tool for folder comparisons](/TA_Help/Topics/ug_diff_tool_directory.html) for descriptions of the UI elements in the dialog box.\)
 
 ![](/images//Images/diff_tool_dlg_dir.png)
 

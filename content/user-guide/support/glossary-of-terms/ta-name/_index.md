@@ -6,7 +6,7 @@ aliases:
     - /TA_Glossary/Topics/glossaryTAName.html
 ---
 
-User-determined name of a given GUI element \(window, dialog box, control, HTML element, etc.\), assigned in TestArchitect by means of interface mapping with [interface elements](glossaryInterfaceElement.html) and [entities](glossaryInterfaceEntity.html).
+User-determined name of a given GUI element \(window, dialog box, control, HTML element, etc.\), assigned in TestArchitect by means of interface mapping with [interface elements](/TA_Glossary/Topics/glossaryInterfaceElement.html) and [entities](/TA_Glossary/Topics/glossaryInterfaceEntity.html).
 
 Also referred to as: **logical name**.
 

@@ -29,7 +29,7 @@ User-defined actions are kept in the **Actions** sub-tree of the project, to whi
 3.  Click **Create**.
 
 
-A new worksheet appears, headed by the name of the action, which is followed by a list of its arguments. This worksheet is known as the action definition for the new action. Any lines you add to this sheet are executed whenever the new action is invoked from a test module or from another action definition. \(See also [automating actions](Creating_and_using_actions_Arg_type_auto_action.html).\)
+A new worksheet appears, headed by the name of the action, which is followed by a list of its arguments. This worksheet is known as the action definition for the new action. Any lines you add to this sheet are executed whenever the new action is invoked from a test module or from another action definition. \(See also [automating actions](/TA_Help/Topics/Creating_and_using_actions_Arg_type_auto_action.html).\)
 
 **Note:**
 

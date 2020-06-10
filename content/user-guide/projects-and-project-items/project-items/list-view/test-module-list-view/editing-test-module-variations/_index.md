@@ -8,7 +8,7 @@ aliases:
 
 You can re-link a test module variation to other version nodes or keywords via the Edit Variations dialog box.
 
-Ensure that the [test module variation](Variations.html) that you want to re-link to other version nodes or keywords is [checked-out](Project_items_checkout.html).
+Ensure that the [test module variation](/TA_Help/Topics/Variations.html) that you want to re-link to other version nodes or keywords is [checked-out](/TA_Help/Topics/Project_items_checkout.html).
 
 1.  Open the test module list view.
 
@@ -26,7 +26,7 @@ Ensure that the [test module variation](Variations.html) that you want to re-lin
 
 4.  Re-link the selected test module variation to other versions or keywords.
 
-    For more information, see [Creating keyword variations](Variations_create_keyword.html) and [Creating a variation](Variations_linking.html).
+    For more information, see [Creating keyword variations](/TA_Help/Topics/Variations_create_keyword.html) and [Creating a variation](/TA_Help/Topics/Variations_linking.html).
 
 5.  Click **OK**.
 

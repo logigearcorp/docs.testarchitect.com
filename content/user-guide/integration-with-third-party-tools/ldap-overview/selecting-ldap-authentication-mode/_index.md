@@ -15,7 +15,7 @@ There are two means by which TestArchitect users may log in to a repository. In 
 
 **Important:** Only one authentication mode may be in effect for a repository at any given time. The chosen mode, established by an administrator of the repository, applies to all users of the repository.
 
-**Note:** Before any user can take advantage of LDAP authentication, he/she must first have an LDAP user name. That name must in turn be [mapped to the user's TestArchitect user name](ug_LDAP_matching_user_name.html) for the working repository.
+**Note:** Before any user can take advantage of LDAP authentication, he/she must first have an LDAP user name. That name must in turn be [mapped to the user's TestArchitect user name](/TA_Help/Topics/ug_LDAP_matching_user_name.html) for the working repository.
 
 To select LDAP authentication mode, do the following:
 
@@ -32,7 +32,7 @@ To select LDAP authentication mode, do the following:
 
 The repository is now configured to authenticate all users in LDAP authentication mode.
 
-**Note:** The process of logging in to TestArchitect with LDAP is somewhat different from logging in with TestArchitect authentication, and is discussed in [Logging in to a repository](Getting_started_overview_working_with_TestArchitect_client_logging.html).
+**Note:** The process of logging in to TestArchitect with LDAP is somewhat different from logging in with TestArchitect authentication, and is discussed in [Logging in to a repository](/TA_Help/Topics/Getting_started_overview_working_with_TestArchitect_client_logging.html).
 
 **Parent topic:**[LDAP overview](/TA_Help/Topics/ug_LDAP_overview.html)
 

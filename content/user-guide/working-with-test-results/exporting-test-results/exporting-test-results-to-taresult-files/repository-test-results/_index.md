@@ -8,11 +8,11 @@ aliases:
 
 How to export your repository test results to .TARESULT files.
 
-Ensure that the test results you want to export are [stored in the repository](Test_result_storing.html).
+Ensure that the test results you want to export are [stored in the repository](/TA_Help/Topics/Test_result_storing.html).
 
 1.  Select the **Results** node or repository test results that you want to export to the .TARESULT file.
 
-    **Tip:** You can select repository test results in the TestArchitect explorer tree, or in the [repository result list view](Listview_results_repository.html).
+    **Tip:** You can select repository test results in the TestArchitect explorer tree, or in the [repository result list view](/TA_Help/Topics/Listview_results_repository.html).
 
 2.  Invoke the Export Result\(s\) To File dialog box by doing one of the following:
 
@@ -34,7 +34,7 @@ Ensure that the test results you want to export are [stored in the repository](T
 
 5.  To open the parent folder containing the exported test result, select the **Open folder after saving** check box.
 
-6.  If the exported test result is a master result, meaning, it is a [test suite result](ug_test_results_introduction.html#section.TS_results), or it contains [subresults](ug_test_results_introduction.html#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into .TARESULT format.
+6.  If the exported test result is a master result, meaning, it is a [test suite result](/TA_Help/Topics/ug_test_results_introduction.html#section.TS_results), or it contains [subresults](/TA_Help/Topics/ug_test_results_introduction.html#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into .TARESULT format.
 
 7.  In the Export Result\(s\) To File, click **OK**.
 
@@ -45,7 +45,7 @@ Ensure that the test results you want to export are [stored in the repository](T
 8.  In the dialog box, click **OK** to proceed.
 
 
--   After exporting the repository test results, you can import them into TestArchitect on any machine. \([Learn more](ug_importing_test_results.html).\)
+-   After exporting the repository test results, you can import them into TestArchitect on any machine. \([Learn more](/TA_Help/Topics/ug_importing_test_results.html).\)
 -   Repository result \(.TARESULT\) files can be imported as either local or repository test results into TestArchitect.
 
 .

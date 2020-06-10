@@ -11,18 +11,18 @@ This topic describes the details of running automated tests in a lab environment
 Ensure that you have already taken the following steps:
 
 -   Deployed and configured:
-    -   [build server](ug_MTM_config_build_server.html),
-    -   [build controller](ug_MTM_config_build_controller.html), and
-    -   [build agent](ug_MTM_build_agent.html)
+    -   [build server](/TA_Help/Topics/ug_MTM_config_build_server.html),
+    -   [build controller](/TA_Help/Topics/ug_MTM_config_build_controller.html), and
+    -   [build agent](/TA_Help/Topics/ug_MTM_build_agent.html)
 -   Configured and registered:
-    -   [test controller](Integrate_MTM_Config_TestController.html) and
-    -   [test agent](Integrate_MTM_Config_TestAgent.html).
--   Created test suites and added test cases in MTM Testing Center. \([Learn more](Integration_MTM_creating_MTM_test_suite.html).\)
--   [Created](ug_MTM_test_methods.html) test methods and [associated](ug_MTM_codedUI_association.html) them to TFS test cases.
--   Created and configured a TFS build definition. \([Learn more](MTM_create_build_definition.html).\)
--   Queued the new build. \([Learn more](MTM_queue_XAML_build.html).\)
--   Created a new environment in MTM Lab Center. \([Learn more](ug_MTM_create_lab_environment.html).\)
--   Configured run settings. \([Learn more](MTM_create_run_settings.html).\)
+    -   [test controller](/TA_Help/Topics/Integrate_MTM_Config_TestController.html) and
+    -   [test agent](/TA_Help/Topics/Integrate_MTM_Config_TestAgent.html).
+-   Created test suites and added test cases in MTM Testing Center. \([Learn more](/TA_Help/Topics/Integration_MTM_creating_MTM_test_suite.html).\)
+-   [Created](/TA_Help/Topics/ug_MTM_test_methods.html) test methods and [associated](/TA_Help/Topics/ug_MTM_codedUI_association.html) them to TFS test cases.
+-   Created and configured a TFS build definition. \([Learn more](/TA_Help/Topics/MTM_create_build_definition.html).\)
+-   Queued the new build. \([Learn more](/TA_Help/Topics/MTM_queue_XAML_build.html).\)
+-   Created a new environment in MTM Lab Center. \([Learn more](/TA_Help/Topics/ug_MTM_create_lab_environment.html).\)
+-   Configured run settings. \([Learn more](/TA_Help/Topics/MTM_create_run_settings.html).\)
 
 To run automated tests in MTM, do the following:
 

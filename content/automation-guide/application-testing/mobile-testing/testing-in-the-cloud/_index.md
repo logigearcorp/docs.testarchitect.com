@@ -16,8 +16,8 @@ In addition, all of the hardware and software are located in the providers’ da
 
 ## Supported cloud computing services
 
--   [Remote TestKit](aut_app_cloud_testing_RTK.html)
--   [WebDriver based cloud services](aut_appium.html) \([Appium](http://appium.io/slate/en/master/?ruby#about-appium) enabled\)
+-   [Remote TestKit](/TA_Automation/Topics/aut_app_cloud_testing_RTK.html)
+-   [WebDriver based cloud services](/TA_Automation/Topics/aut_appium.html) \([Appium](http://appium.io/slate/en/master/?ruby#about-appium) enabled\)
 
 **Restriction:** [Screenshot Recording](/TA_Help/Topics/ug_Screenshot_recording.html) is currently not supported on automated tests in mobile cloud environment. \(See [here](/TA_FAQ/Topics/faq.howto.screenshot_recording_mobile_cloud.html) for a detour solution.\)
 

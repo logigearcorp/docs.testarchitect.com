@@ -23,7 +23,7 @@ Return the location and dimensions of an instance of a specified image within th
 
 -   **rect**
 
-    [TARect](abt_TARect.html) object specifying a rectangular active area in the object's bitmap. Scanning for matching images is limited to this active area.
+    [TARect](/TA_Automation/Topics/abt_TARect.html) object specifying a rectangular active area in the object's bitmap. Scanning for matching images is limited to this active area.
 
 -   **index**
 

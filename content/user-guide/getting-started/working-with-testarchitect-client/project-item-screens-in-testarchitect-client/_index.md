@@ -18,7 +18,7 @@ A test module is displayed in TestArchitect Client with these subtabs:
 -   **Test Objectives**: List of test objectives for the test module.
 -   **Picture Checks**: Image baselines for picture handling actions.
 -   **Results**: Repository-based results of test runs performed with the test module.
--   **Related bugs**: List of marked known bugs contained in the test module \(See [TestArchitect bugs](Bugs.html)\).
+-   **Related bugs**: List of marked known bugs contained in the test module \(See [TestArchitect bugs](/TA_Help/Topics/Bugs.html)\).
 
 ## Test Case display
 
@@ -29,7 +29,7 @@ A test case is displayed in TestArchitect Client with the following subtabs:
 -   **Steps**: A step-by-step guide to the test case's execution plan.
 -   **Information**: Information fields for the test case.
 -   **Test Objectives**: List of test objectives addressed by the selected test case.
--   **Related bugs**: List of the marked known bugs contained in the test case \(See [TestArchitect bugs](Bugs.html)\).
+-   **Related bugs**: List of the marked known bugs contained in the test case \(See [TestArchitect bugs](/TA_Help/Topics/Bugs.html)\).
 
 ## Test Objective display
 
@@ -40,7 +40,7 @@ A test case is displayed in TestArchitect Client with the following subtabs:
 -   **Steps**: A step-by-step guide to the test case's execution plan.
 -   **Information**: Information fields for the test case.
 -   **Test Objectives**: List of test objectives addressed by the selected test case.
--   **Related bugs**: List of the marked known bugs contained in the test case \(See [TestArchitect bugs](Bugs.html)\).
+-   **Related bugs**: List of the marked known bugs contained in the test case \(See [TestArchitect bugs](/TA_Help/Topics/Bugs.html)\).
 
 ## Data Set display
 
@@ -65,7 +65,7 @@ An interface is displayed in TestArchitect Client with two subtabs:
 
 ## Interface Entity display
 
-**Note:** Initial generation of an interface entity is generally performed with the [Interface Viewer](Interface_def_Viewer.html).
+**Note:** Initial generation of an interface entity is generally performed with the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html).
 
 An interface entity is displayed in TestArchitect Client with two subtabs:
 
@@ -74,7 +74,7 @@ An interface entity is displayed in TestArchitect Client with two subtabs:
 
 ## Interface Element display
 
-**Note:** Direct editing of interface elements is generally performed in the **Interface Lines** tab of the parent interface entity. Initial generation of interface elements is generally performed with the [Interface Viewer](Interface_def_Viewer.html) or [Identify tool](Interface_def_client_interface_tool_identify.html).
+**Note:** Direct editing of interface elements is generally performed in the **Interface Lines** tab of the parent interface entity. Initial generation of interface elements is generally performed with the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html) or [Identify tool](/TA_Help/Topics/Interface_def_client_interface_tool_identify.html).
 
 An interface element is displayed in TestArchitect Client with a single screen \(no tabs\) containing both information fields and the element definition fields.
 

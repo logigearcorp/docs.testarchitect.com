@@ -26,7 +26,7 @@ Finally, when testing on the new target device completes, it can be logically di
 
 The use device action allows automated tests to be run on different mobile devices. The devices must all be connected to the host controller on which the test is running, and execution across devices takes place in serial fashion. \(This is essentially the equivalent of [serial synchronous remote execution](/reuse/../TA_Help/Topics/Test_exec_remote_synchronous_serial.html) for desktop application testing.\)
 
-![](/images//Images/Android/Images/mobile_sync_serial.png)
+![](/images/Android/Images/mobile_sync_serial.png)
 
 The above procedure begins with unique identifiers for two devices being assigned to friendly names. The use device action \(line 47\) commands a chunk of action lines to be executed on device 1. The second use device line \(line 52\) switches the current connection from device 1 to device 2, which also switches the execution domain, so that the subsequent chunk of action lines is run on device 2.
 
@@ -38,7 +38,7 @@ Because each device has a unique ID, and those IDs are used to create the logica
 
 The following action lines can be employed for running a single test on multiple clusters. The test begins by querying the host machine to determine which controller the test is currently running on. By knowing the controller, it knows which devices are connected to it, and can assign those device IDs to logical names accordingly.
 
-![](/images//Images/Android/Images/mobile_sync_serial_on_multiple_clusters.png)
+![](/images/Android/Images/mobile_sync_serial_on_multiple_clusters.png)
 
 **Parent topic:**[Starting Android automated tests](/Android/Topics/Android_execution.html)
 

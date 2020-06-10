@@ -37,7 +37,7 @@ To set up the TestArchitect repository for integration with an HP Quality Center
 
             \)
 
-        -   `title in comment=yes` \(Optional; default = no. Upload TestArchitect test case titles to Quality Center as comments. The values of TestArchitect test case titles are loaded into Quality Center **Comment** fields. See [Mapped items between TestArchitect and Quality Center](ug_QC_mapped_items.html#ph_zhz_cg3_tm) for further information\).
+        -   `title in comment=yes` \(Optional; default = no. Upload TestArchitect test case titles to Quality Center as comments. The values of TestArchitect test case titles are loaded into Quality Center **Comment** fields. See [Mapped items between TestArchitect and Quality Center](/TA_Help/Topics/ug_QC_mapped_items.html#ph_zhz_cg3_tm) for further information\).
     -   **Notes**: \(optional\) Enter any notes.
     Example: server=http://lgvn12989:4040/qcbin; machines= 192.168.167.68,192.168.167.69; title in comment=yes
 

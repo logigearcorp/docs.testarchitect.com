@@ -9,7 +9,7 @@ keywords: "tadbresult, get result returned from execsqlcommand, retrieve query r
 
 ## Description
 
-Object that may contain a single string value or a dataset. Typically created by the [ExecSqlCommand](abt_Execute_Sql_Command.html) method.
+Object that may contain a single string value or a dataset. Typically created by the [ExecSqlCommand](/TA_Automation/Topics/abt_Execute_Sql_Command.html) method.
 
 ## Methods
 
@@ -21,9 +21,9 @@ Object that may contain a single string value or a dataset. Typically created by
 
     Return result as string. If any error happens, return null.
 
--   **[AbtDataset](abt_AbtDataSet.html) GetDataSetResult\(\)**
+-   **[AbtDataset](/TA_Automation/Topics/abt_AbtDataSet.html) GetDataSetResult\(\)**
 
-    Return result as [TADataset](abt_AbtDataSet.html). If any error happens, return null
+    Return result as [TADataset](/TA_Automation/Topics/abt_AbtDataSet.html). If any error happens, return null
 
 
 ## Notes

@@ -23,9 +23,9 @@ To update your legacy WinForms project's class mappings:
 
     ![](/images//Images/winforms_class_mapping_file.png)
 
-3.  For the given interface of your active TestArchitect project\(s\), update its [$Class Maps](Interface_def_Viewer_class_mapping.html) interface entity.
+3.  For the given interface of your active TestArchitect project\(s\), update its [$Class Maps](/TA_Help/Topics/Interface_def_Viewer_class_mapping.html) interface entity.
 
-    1.  Open the $Class Maps interface entity, and [check it out](Project_items_checkout.html).
+    1.  Open the $Class Maps interface entity, and [check it out](/TA_Help/Topics/Project_items_checkout.html).
 
     2.  Place the cell pointer at the first column of an empty row below the last line.
 

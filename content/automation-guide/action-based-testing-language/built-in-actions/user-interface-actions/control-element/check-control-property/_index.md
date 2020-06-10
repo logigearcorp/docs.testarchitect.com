@@ -37,14 +37,14 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   This action is applicable to both TA properties and native properties that are viewable in the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer_reading.html).
--   In the event that a TA property and native property have identical names, the TA property takes precedence. Therefore, if you want to explicitly check the native property, use the [check native property](check_native_property.html) action.
+-   In the event that a TA property and native property have identical names, the TA property takes precedence. Therefore, if you want to explicitly check the native property, use the [check native property](/TA_Automation/Topics/bia_check_native_property.html) action.
 -   This action is applicable only to properties that are viewable in TestArchitect's Interface Viewer.
 -   The expectedargument can accept regular expressions. Note that argument values that include regular expressions must be entirely enclosed in curly braces \{\}. As an example, `{[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}}` specifies the pattern for an acceptable email address. More simply, `.*` represents the general wildcard for regular expressions, so that `{.*arch.*}` matches starch, marching, testarchitect, etc.
 -   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[case sensitive](case_sensitive.html), [remove double quotes from cells](remove_double_quotes_from_cells.html), [standard ASCII only](standard_ASCII_only.html), [property wait](property_wait.html), [page wait](page_wait.html), [object wait](object_wait.html), [value changed wait](value_changed_wait.html), [window wait](window_wait.html), [load invisible controls](load_invisible_controls.html).
+The following settings are applicable to this action:[case sensitive](/TA_Automation/Topics/bis_case_sensitive.html), [remove double quotes from cells](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html), [standard ASCII only](/TA_Automation/Topics/bis_standard_ASCII_only.html), [property wait](/TA_Automation/Topics/bis_property_wait.html), [page wait](/TA_Automation/Topics/bis_page_wait.html), [object wait](/TA_Automation/Topics/bis_object_wait.html), [value changed wait](/TA_Automation/Topics/bis_value_changed_wait.html), [window wait](/TA_Automation/Topics/bis_window_wait.html), [load invisible controls](/TA_Automation/Topics/bis_load_invisible_controls.html).
 
 ## Applicable Controls
 

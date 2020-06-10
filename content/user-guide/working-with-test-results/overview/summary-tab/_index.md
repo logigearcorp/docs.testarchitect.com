@@ -25,11 +25,11 @@ The top of the **Summary** tab lists such items as follows:
 |**Revision timestamp**|Timestamp of the executed revision of the test module|
 |**Start time**|Start time of the test execution|
 |**Duration**|Duration of the test execution|
-|**Time traveling**|Selected timestamp when [time traveling](ug_time_traveling_execution.html) is implemented for the run, and the executed test module is [checked in](Project_items_checkin.html). \([Learn more](ug_time_traveling.html).\)|
+|**Time traveling**|Selected timestamp when [time traveling](/TA_Help/Topics/ug_time_traveling_execution.html) is implemented for the run, and the executed test module is [checked in](/TA_Help/Topics/Project_items_checkin.html). \([Learn more](/TA_Help/Topics/ug_time_traveling.html).\)|
 |**Run by**|User who runs the test|
 |**Run machine**|TestArchitect controller executing the test|
 |**OS**|OS name of the TestArchitect controller executing the test|
-|**Video snapshots directory**|The location at which [screen-recording videos](ug_Screenshot_recording.html#section.Video_playback) \(taken during the automated test runs\) are stored.|
+|**Video snapshots directory**|The location at which [screen-recording videos](/TA_Help/Topics/ug_Screenshot_recording.html#section.Video_playback) \(taken during the automated test runs\) are stored.|
 |**Device Name**|Name of the target physical mobile device|
 |**Device OS**|OS name of the target physical mobile device|
 |**Desired capabilities name**|Name of the target cloud mobile device and full path to the JSON file, which defines target cloud devices \([learn more](/TA_Automation/Topics/aut_app_cloud_testing_Appium_automation_json.html)\)|
@@ -56,12 +56,12 @@ This section displays the executed test cases, skipped test cases \(if any\) and
 |-----|-----------|
 |**Total test casts selected**|The number of test cases selected to be executed.|
 |**Total test cases executed**|The number of test cases that were actually executed.|
-|[**Passed**](ug_test_results_status.html)|The number of passed test cases.|
-|[**Failed**](ug_test_results_status.html)|The number of failed test cases.|
-|[**Passed with Warning/Error**](ug_test_results_status.html)|The number of test cases that passed, but at least one warning or error was detected.|
-|[**Passed with known bug**](ug_test_results_status.html)|The number of test cases that failed, but for which each failed check was already marked as a known bug.|
-|[**Not Run**](ug_test_results_status.html)|The number of test cases that were skipped during execution, because the automated test was halted. Note that, when a test case is skipped, its detailed information has the N/a text.|
-|[**Not Finished**](ug_test_results_status.html)|The number of test cases that were unable to reach the end of an automated run.|
+|[**Passed**](/TA_Help/Topics/ug_test_results_status.html)|The number of passed test cases.|
+|[**Failed**](/TA_Help/Topics/ug_test_results_status.html)|The number of failed test cases.|
+|[**Passed with Warning/Error**](/TA_Help/Topics/ug_test_results_status.html)|The number of test cases that passed, but at least one warning or error was detected.|
+|[**Passed with known bug**](/TA_Help/Topics/ug_test_results_status.html)|The number of test cases that failed, but for which each failed check was already marked as a known bug.|
+|[**Not Run**](/TA_Help/Topics/ug_test_results_status.html)|The number of test cases that were skipped during execution, because the automated test was halted. Note that, when a test case is skipped, its detailed information has the N/a text.|
+|[**Not Finished**](/TA_Help/Topics/ug_test_results_status.html)|The number of test cases that were unable to reach the end of an automated run.|
 |**Test Case**|A list of all executed test cases. Note that each test case name listed in the leftmost column of this list is hyperlinked, so that clicking on it displays the result details on a web browser.|
 |**Checks**|The number of checkpoints \(check actions\) in each test case.|
 |**Passed**|The number of checkpoints with passed results in each test case.|
@@ -79,14 +79,14 @@ This section displays the executed test cases, skipped test cases \(if any\) and
 
 **Note:**
 
--   This table is only available when you [create test steps](Projects_and_tests_steps_creating.html).
+-   This table is only available when you [create test steps](/TA_Help/Topics/Projects_and_tests_steps_creating.html).
 -   Click ![](/images//Images/Test_results_expand_detail.png), next to the test case's title, to expand and view **Step Summary** table for each test case.
 
 ## Failure/Error Summary section
 
 **Note:** Applies to TestArchitect [8.3 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.html) and higher.
 
-The section exhibits a list of the failures occurring during the test run. For more details, please refer to [Failure/Error Summary tab](ug_results_failure_error_summary.html).
+The section exhibits a list of the failures occurring during the test run. For more details, please refer to [Failure/Error Summary tab](/TA_Help/Topics/ug_results_failure_error_summary.html).
 
 ![](/images//Images/Test_results_summary_failure_error_summary.png)
 
@@ -94,7 +94,7 @@ The section exhibits a list of the failures occurring during the test run. For m
 
 **Note:** Applies to TestArchitect [8.3 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.html) and higher.
 
-This section displays details about known bugs marked on action lines. For more details, please refer to [Known Bug Summary tab](ug_results_known_bug_summary.html).
+This section displays details about known bugs marked on action lines. For more details, please refer to [Known Bug Summary tab](/TA_Help/Topics/ug_results_known_bug_summary.html).
 
 ![](/images//Images/Test_results_summary_known_bug_summary.png)
 
@@ -104,7 +104,7 @@ This section displays details about known bugs marked on action lines. For more 
 
 This section displays the logging information from the report actions, that is, [report](/TA_Automation/Topics/bia_report.html), [report check](/TA_Automation/Topics/bia_report_check.html), [report warning](/TA_Automation/Topics/bia_report_warning.html), and [report error](/TA_Automation/Topics/bia_report_error.html) in the test procedure.
 
-For more details, please refer to [Log Information tab](ug_results_log_information.html).
+For more details, please refer to [Log Information tab](/TA_Help/Topics/ug_results_log_information.html).
 
 ![](/images//Images/Test_results_summary_log_info.png)
 
@@ -119,25 +119,25 @@ Based on types of test result, that is, **local** or **repository**, available o
     ![](/images//Images/Result_details_tab_main_panel_local_result_XML.png)
 
     1.  Locate the test result in the result tree node.
-    2.  [Submit bug to an external bug tracking system](JIRA_submitting_bug.html), such as JIRA.
-    3.  [Attach the test results to a JIRA bug.](Bug_working_attachments_test_results.html)
+    2.  [Submit bug to an external bug tracking system](/TA_Help/Topics/JIRA_submitting_bug.html), such as JIRA.
+    3.  [Attach the test results to a JIRA bug.](/TA_Help/Topics/Bug_working_attachments_test_results.html)
     4.  Delete test result
-    5.  [Add local test result to repository.](Test_result_viewing_storing.html#step_bvq_cjp_h4)
-    6.  [Resolve unverified picture checks.](ug_Resolving_unverfied_picture_checks.html)
-    7.  [Export test result to an HTML file.](Test_result_export_HTML.html#step_qld_qkp_h4)
-    8.  [Compare to baseline.](Test_result_compare_to_baseline_results.html#step_e3l_3jp_h4)
+    5.  [Add local test result to repository.](/TA_Help/Topics/Test_result_viewing_storing.html#step_bvq_cjp_h4)
+    6.  [Resolve unverified picture checks.](/TA_Help/Topics/ug_Resolving_unverfied_picture_checks.html)
+    7.  [Export test result to an HTML file.](/TA_Help/Topics/Test_result_export_HTML.html#step_qld_qkp_h4)
+    8.  [Compare to baseline.](/TA_Help/Topics/Test_result_compare_to_baseline_results.html#step_e3l_3jp_h4)
 -   Available options for a **repository result**:
 
     ![](/images//Images/Result_details_tab_main_panel_repo_result_XML.png)
 
     1.  Locate the test result in the result tree node.
-    2.  [Submit bug to an external bug tracking system](JIRA_submitting_bug.html), such as JIRA.
-    3.  [Attach the test results to a JIRA bug.](Bug_working_attachments_test_results.html)
+    2.  [Submit bug to an external bug tracking system](/TA_Help/Topics/JIRA_submitting_bug.html), such as JIRA.
+    3.  [Attach the test results to a JIRA bug.](/TA_Help/Topics/Bug_working_attachments_test_results.html)
     4.  Delete test result
-    5.  [Export test result to a ZIP file](Test_result_export_ZIP.html)
-    6.  [Export test result to an HTML file](ug_test_results_export_repository_results_HTML.html).
-    7.  [Set as baseline](Test_result_settting_baseline.html#step_an5_ljp_h4)
-    8.  [Compare to baseline.](Test_result_compare_to_baseline_results.html#step_e3l_3jp_h4)
+    5.  [Export test result to a ZIP file](/TA_Help/Topics/Test_result_export_ZIP.html)
+    6.  [Export test result to an HTML file](/TA_Help/Topics/ug_test_results_export_repository_results_HTML.html).
+    7.  [Set as baseline](/TA_Help/Topics/Test_result_settting_baseline.html#step_an5_ljp_h4)
+    8.  [Compare to baseline.](/TA_Help/Topics/Test_result_compare_to_baseline_results.html#step_e3l_3jp_h4)
 
 **Parent topic:**[Overview of test results](/TA_Help/Topics/ug_test_results_introduction.html)
 

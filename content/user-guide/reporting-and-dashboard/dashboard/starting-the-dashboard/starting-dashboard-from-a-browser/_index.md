@@ -16,13 +16,13 @@ To start the TestArchitect Dashboard, follow these steps:
 
     2.  On the TestArchitect Repository Server - Control Panel main menu, select **Tools** \> **TestArchitect Utility Server Information**.
 
-        ![](/images//Images/TA_Help/Images/DB_1.png)
+        ![](/images/TA_Help/Images/DB_1.png)
 
         **Note:** The TestArchitect Utility Server Information command is enabled only after the Repository Server has been started.
 
         The server information window opens:
 
-        ![](/images//Images/TA_Help/Images/TA_utility_server_start.png)
+        ![](/images/TA_Help/Images/TA_utility_server_start.png)
 
     3.  If the **Start** button in the TestArchitect Utility Server Information dialog box is enabled, click it.
 

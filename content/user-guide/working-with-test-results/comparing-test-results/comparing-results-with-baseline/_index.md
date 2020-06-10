@@ -11,9 +11,9 @@ Side-by-side comparison can be made between a test result and a baseline result.
 Ensure that you meet the following requirements before comparing test results to a baseline:
 
 -   TestArchitect is running and connected to the repository that contains the baseline results.
--   You have [set the baseline results](Test_result_settting_baseline.html), and the baseline results are stored in the repository.
+-   You have [set the baseline results](/TA_Help/Topics/Test_result_settting_baseline.html), and the baseline results are stored in the repository.
 
-    **Tip:** The results can be stored in the repository either [manually](Test_result_viewing_storing.html) or [automatically](Test_result_storing_automatically.html).
+    **Tip:** The results can be stored in the repository either [manually](/TA_Help/Topics/Test_result_viewing_storing.html) or [automatically](/TA_Help/Topics/Test_result_storing_automatically.html).
 
 -   The test results you want to compare and the baseline results are generated from the same test module or the same test module variation.
 
@@ -44,9 +44,9 @@ Choose one of the following two methods to compare the test results against the 
     **Note:** Baseline comparison is available for any test results within the same test module or test module variation.
 
 
-The Result Comparison dialog box appears to show the differences at checkpoints in the test results. See [Results Comparison dialog boxes](Test_result_comparison_dialog_box.html#sect_e383h_k3e8) for an explanation of the Results Comparison dialog box.
+The Result Comparison dialog box appears to show the differences at checkpoints in the test results. See [Results Comparison dialog boxes](/TA_Help/Topics/Test_result_comparison_dialog_box.html#sect_e383h_k3e8) for an explanation of the Results Comparison dialog box.
 
-**Note:** If the test result is from a set of serial test results, the Comparing Multiple Pairs of Results dialog box appears. See [Comparing serial run results](Test_result_comparison_dialog_box.html#sect_nd6h_kd83) for an explanation of the Comparing Multiple Pairs of Results dialog box.
+**Note:** If the test result is from a set of serial test results, the Comparing Multiple Pairs of Results dialog box appears. See [Comparing serial run results](/TA_Help/Topics/Test_result_comparison_dialog_box.html#sect_nd6h_kd83) for an explanation of the Comparing Multiple Pairs of Results dialog box.
 
 **Parent topic:**[Comparing test results](/TA_Help/Topics/Test_result_baselining.html)
 

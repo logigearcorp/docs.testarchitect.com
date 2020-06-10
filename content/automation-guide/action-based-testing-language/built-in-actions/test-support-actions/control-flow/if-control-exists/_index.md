@@ -28,12 +28,12 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   If the specified control is found, the succeeding block of action lines up until the first occurrence of an [else](else.html), [else if](else_if.html), or [end if](end_if.html), is executed. Otherwise, that block is skipped.
--   The if control exists action, in effect, combines the [does control exist](does_control_exist.html) and [if](if.html) built-in actions.
+-   If the specified control is found, the succeeding block of action lines up until the first occurrence of an [else](/TA_Automation/Topics/bia_else.html), [else if](/TA_Automation/Topics/bia_else_if.html), or [end if](/TA_Automation/Topics/bia_end_if.html), is executed. Otherwise, that block is skipped.
+-   The if control exists action, in effect, combines the [does control exist](/TA_Automation/Topics/bia_does_control_exist.html) and [if](/TA_Automation/Topics/bia_if.html) built-in actions.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[case sensitive](case_sensitive.html), [remove double quotes from cells](remove_double_quotes_from_cells.html), [standard ASCII only](standard_ASCII_only.html), [page wait](page_wait.html), [object wait probe](object_wait_probe.html), [window wait](window_wait.html), [load invisible controls](load_invisible_controls.html).
+The following settings are applicable to this action:[case sensitive](/TA_Automation/Topics/bis_case_sensitive.html), [remove double quotes from cells](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html), [standard ASCII only](/TA_Automation/Topics/bis_standard_ASCII_only.html), [page wait](/TA_Automation/Topics/bis_page_wait.html), [object wait probe](/TA_Automation/Topics/bis_object_wait_probe.html), [window wait](/TA_Automation/Topics/bis_window_wait.html), [load invisible controls](/TA_Automation/Topics/bis_load_invisible_controls.html).
 
 ## Applicable Controls
 

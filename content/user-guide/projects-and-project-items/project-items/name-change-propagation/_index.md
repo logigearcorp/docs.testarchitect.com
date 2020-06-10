@@ -34,11 +34,11 @@ Name change propagation is not supported in the TestArchitect test editor. Chang
 
 ## Subscription renaming
 
-Name change propagation applies to eligible entities that are subscribed to from other modules and projects. In large-scale test development environments, entities such as actions and data sets may be shared among different projects using [Project subscription](Project_subscription.html). Renaming an eligible subscribed entity results in all associated entity name definitions being automatically renamed in all subscribing modules and projects.
+Name change propagation applies to eligible entities that are subscribed to from other modules and projects. In large-scale test development environments, entities such as actions and data sets may be shared among different projects using [Project subscription](/TA_Help/Topics/Project_subscription.html). Renaming an eligible subscribed entity results in all associated entity name definitions being automatically renamed in all subscribing modules and projects.
 
 ## Variation renaming
 
-Name change propagation also applies to eligible entities that are created by copying an entity and pasting using the **Paste as Variation** command \(see [Variations](Variations.html)\). Well-designed tests incorporate variations to maximize test code reusability. TestArchitect allows different versions of any given entity to coexist with each other to handle small variations in test cases. Renaming eligible system or version nodes results in all corresponding entity name definitions being automatically renamed across all associated variations.
+Name change propagation also applies to eligible entities that are created by copying an entity and pasting using the **Paste as Variation** command \(see [Variations](/TA_Help/Topics/Variations.html)\). Well-designed tests incorporate variations to maximize test code reusability. TestArchitect allows different versions of any given entity to coexist with each other to handle small variations in test cases. Renaming eligible system or version nodes results in all corresponding entity name definitions being automatically renamed across all associated variations.
 
 -   **[Renaming an entity for automatic propagation](/TA_Help/Topics/Projects_and_project_items_renaming_entity.html)**  
 Arguments, actions, test modules, interfaces, interface entities, interface elements, data sets, test suites, system nodes, and version nodes of a given variation can be renamed using the context menu's **Rename** command in TestArchitect explorer tree.

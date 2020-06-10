@@ -19,7 +19,7 @@ The following new features and improvements are introduced in TestArchitect vers
 
 -   Ability to configure the [number of retries for a failed connection](/TA_Administration/Topics/Connection_retry_configuration.html) which the TestArchitect Controller establishes to a repository server. This helps users deal with an unstable network efficiently.
 -   **[Users are prevented from changing the values of user-defined fields used in test results](/TA_Help/Topics/Test_result.html)**. If you adjust the value of a user-defined field on the **Information** tab of a test module, it will not take effect on the test result of this module. The test result will still adopt the default value.
--   **Support for [macOS 10.12](Supported_platforms.html) and [10.13](Supported_platforms.html)**: TestArchitect has been verified as fully functional on macOS 10.12 and 10.13.
+-   **Support for [macOS 10.12](/TA_ReleaseNotes/DITA_source/Supported_platforms.html) and [10.13](/TA_ReleaseNotes/DITA_source/Supported_platforms.html)**: TestArchitect has been verified as fully functional on macOS 10.12 and 10.13.
 
 ## TestArchitect Automation
 

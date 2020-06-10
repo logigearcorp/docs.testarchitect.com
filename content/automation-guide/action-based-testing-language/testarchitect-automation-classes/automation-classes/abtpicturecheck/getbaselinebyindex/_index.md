@@ -9,7 +9,7 @@ keywords: "getbaselinebyindex, abtpicturecheck getbaselinebyindex, baseline imag
 
 ## Syntax
 
-`[<AbtBaselinePicture\>](abt_AbtBaselinePicture.html) GetBaselineByIndex (int index)`
+`[<AbtBaselinePicture\>](/TA_Automation/Topics/abt_AbtBaselinePicture.html) GetBaselineByIndex (int index)`
 
 ## Description
 
@@ -24,7 +24,7 @@ Retrieve the baseline image, as specified by its index, in the current picture c
 
 ## Return Value
 
-Return an [AbtBaselinePicture](abt_AbtBaselinePicture.html) object. If the call is unsuccessful, returnnull.
+Return an [AbtBaselinePicture](/TA_Automation/Topics/abt_AbtBaselinePicture.html) object. If the call is unsuccessful, returnnull.
 
 **Parent topic:**[AbtPictureCheck](/TA_Automation/Topics/abt_AbtPictureCheck.html)
 

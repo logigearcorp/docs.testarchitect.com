@@ -20,7 +20,7 @@ Suppose that you've created a working CUIT project. Your project contains test m
 
 ![](/images//Images/MTM_test_methods.png)
 
-In the [following topic](ug_MTM_codedUI_association.html), these test methods are associated with TFS test cases.
+In the [following topic](/TA_Help/Topics/ug_MTM_codedUI_association.html), these test methods are associated with TFS test cases.
 
 **Parent topic:**[Automating a test case in Microsoft Test Manager](/TA_Help/Topics/ug_MTM_automating_TC.html)
 

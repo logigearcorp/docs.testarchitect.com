@@ -14,8 +14,8 @@ Apart from TestArchitect test cases, you can map TestArchitect test modules to Z
 
 Ensure that you have already taken the following steps:
 
--   [Registered the Zephyr server with TestArchitect](ug_Zephyr_registering_server.html).
--   [Mapped the TestArchitect project containing the test cases of interest to a Zephyr project](ug_Zephyr_mapping_projects.html).
+-   [Registered the Zephyr server with TestArchitect](/TA_Help/Topics/ug_Zephyr_registering_server.html).
+-   [Mapped the TestArchitect project containing the test cases of interest to a Zephyr project](/TA_Help/Topics/ug_Zephyr_mapping_projects.html).
 
 ## Via Test module list view
 

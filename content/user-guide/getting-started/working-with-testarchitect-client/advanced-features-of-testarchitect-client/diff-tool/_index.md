@@ -12,8 +12,8 @@ As a test author, you may at times find yourself in the position of needing to i
 
 See the following topics for further information on using the TestArchitect Diff Tool:
 
--   [Comparing two project items of the same type](ug_item_comparison.html) .
--   [Comparing the contents of nodes and folders](ug_diff_tool_directory.html).
+-   [Comparing two project items of the same type](/TA_Help/Topics/ug_item_comparison.html) .
+-   [Comparing the contents of nodes and folders](/TA_Help/Topics/ug_diff_tool_directory.html).
 
 1.  [Using Diff Tool for project item comparisons](/TA_Help/Topics/ug_item_comparison.html)  
 This topic describes the use of the Diff Tool to compare two project items, such as test modules or data sets, or revisions of a given project item.

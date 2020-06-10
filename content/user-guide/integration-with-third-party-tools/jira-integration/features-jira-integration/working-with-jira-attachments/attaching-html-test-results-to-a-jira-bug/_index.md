@@ -10,7 +10,7 @@ TestArchitect allows you to attach both local results and repository results, in
 
 Ensure that the following requirements are met before adding a single attachment to a JIRA bug:
 
--   Your TestArchitect test machine has [registered the JIRA server](JIRA_registering.html).
+-   Your TestArchitect test machine has [registered the JIRA server](/TA_Help/Topics/JIRA_registering.html).
 -   You are granted permission to attach files to a JIRA bug.
 -   The size of the attachment does not exceed the maximum size specified on the JIRA server. \(If necessary, contact your system administrator to determine this limit.\)
 -   The current JIRA bug's status is not Closed.
@@ -27,7 +27,7 @@ To attach a test result in HTML format to a JIRA bug, complete the following ste
 
 2.  Click the paperclip icon ![](/images//Images/btn_paperclip.png) on the main panel's toolbar.
 
-    The Attachment Result dialog box appears with the default user name and password configured in [Registering the JIRA server](JIRA_registering.html#step_wxv_tc5_2m).
+    The Attachment Result dialog box appears with the default user name and password configured in [Registering the JIRA server](/TA_Help/Topics/JIRA_registering.html#step_wxv_tc5_2m).
 
     ![](/images//Images/Attach_result_dlg.png)
 

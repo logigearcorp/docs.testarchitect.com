@@ -32,7 +32,7 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   This action does not support retrieving the current value of a slider control in iOS. In its place, use the [get](get.html) action in iOS.
+-   This action does not support retrieving the current value of a slider control in iOS. In its place, use the [get](/TA_Automation/Topics/bia_get.html) action in iOS.
 -   variable argument:
     -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
     -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
@@ -40,7 +40,7 @@ This action may be used within the following project items:test modules and user
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[case sensitive](case_sensitive.html), [remove double quotes from cells](remove_double_quotes_from_cells.html), [standard ASCII only](standard_ASCII_only.html), [object wait](object_wait.html), [value changed wait](value_changed_wait.html), [window wait](window_wait.html), [load invisible controls](load_invisible_controls.html).
+The following settings are applicable to this action:[case sensitive](/TA_Automation/Topics/bis_case_sensitive.html), [remove double quotes from cells](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html), [standard ASCII only](/TA_Automation/Topics/bis_standard_ASCII_only.html), [object wait](/TA_Automation/Topics/bis_object_wait.html), [value changed wait](/TA_Automation/Topics/bis_value_changed_wait.html), [window wait](/TA_Automation/Topics/bis_window_wait.html), [load invisible controls](/TA_Automation/Topics/bis_load_invisible_controls.html).
 
 ## Applicable Controls
 

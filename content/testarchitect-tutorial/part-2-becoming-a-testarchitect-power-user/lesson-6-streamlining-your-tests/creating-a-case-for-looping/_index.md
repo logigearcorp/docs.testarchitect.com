@@ -8,7 +8,7 @@ aliases:
 
 Create a test module / test case that reports the sales tax for cars across a range of prices.
 
-1.  In the TestArchitect explorer tree, select any item within the Car Rental project, then click **Create new test module** ![](/images//Images/TA_Tutorials/Images/btn.TAC_toolbar.CreateTestModule.png) in the toolbar.
+1.  In the TestArchitect explorer tree, select any item within the Car Rental project, then click **Create new test module** ![](/images/TA_Tutorials/Images/btn.TAC_toolbar.CreateTestModule.png) in the toolbar.
 
     The New Test Module dialog box appears.
 
@@ -58,7 +58,7 @@ Create a test module / test case that reports the sales tax for cars across a ra
 
     You now have three sets of local variable / report action lines in which the value of car price varies, but where each report action line is identical.
 
-10. With your test module displayed in the TestArchitect editor, click **Execute** ![](/images//Images/TA_Tutorials/Images/btn.TAC_toolbar.Execute.png) on the toolbar.
+10. With your test module displayed in the TestArchitect editor, click **Execute** ![](/images/TA_Tutorials/Images/btn.TAC_toolbar.Execute.png) on the toolbar.
 
     The Execute Test dialog box appears.
 

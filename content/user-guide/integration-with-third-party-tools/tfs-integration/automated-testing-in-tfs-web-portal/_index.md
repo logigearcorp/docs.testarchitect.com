@@ -19,7 +19,7 @@ http://ServerName:8080/tfs/CollectionName/ProjectName
 -   XAML Build has been deprecated. Furthermore, Microsoft Test Manager \(MTM\) no longer supports XAML builds
 -   Using Test Center/Lab Center in MTM for automated testing is no longer supported by TFS, starting with TFS 2018.
 
-Accordingly Build vNext and the Test Hub in the [TFS web portal](TFS_web_automated_testing.html) are ideal replacements for respective XAML Build and MTM.\(See also: [Team Foundation Server 2018 Release Notes](https://docs.microsoft.com/en-us/visualstudio/releasenotes/tfs2018-relnotes)\)
+Accordingly Build vNext and the Test Hub in the [TFS web portal](/TA_Help/Topics/TFS_web_automated_testing.html) are ideal replacements for respective XAML Build and MTM.\(See also: [Team Foundation Server 2018 Release Notes](https://docs.microsoft.com/en-us/visualstudio/releasenotes/tfs2018-relnotes)\)
 
 1.  [Creating a build definition and queuing a build](/TA_Help/Topics/TFS_web_creating_and_queuing_build.html)  
 This topic gives you a basic guide on creating a build definition and queuing it in the TFS web portal.

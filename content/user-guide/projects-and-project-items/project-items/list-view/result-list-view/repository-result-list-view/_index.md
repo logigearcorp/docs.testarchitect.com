@@ -18,7 +18,7 @@ The following operations can be performed on a repository test result list view:
 
 ## Common operations
 
-You can find various common operations that can be performed on a repository test result list view at [Common operations](Listview_common_operations.html).
+You can find various common operations that can be performed on a repository test result list view at [Common operations](/TA_Help/Topics/Listview_common_operations.html).
 
 ## Opening a result
 
@@ -32,17 +32,17 @@ You can have the editor open the test module responsible for a given test result
 
 ## Re-executing the tests
 
-You can re-execute the test\(s\) responsible for selected test result\(s\) by selecting **Execute related test** on the context menu. \([Learn more](Test_exec_test_execution.html).\)
+You can re-execute the test\(s\) responsible for selected test result\(s\) by selecting **Execute related test** on the context menu. \([Learn more](/TA_Help/Topics/Test_exec_test_execution.html).\)
 
 ## Setting/unsetting a baseline result
 
-Any repository-based test result can be set as the baseline for the test module with which it is associated. Alternatively, if a given baseline result no longer needs to be designated as a baseline, you can unset it. Use the **Set as baseline result** and **Unset baseline** commands of the context menu for these purposes. \(See [Setting baseline result](Test_result_settting_baseline.html), and [Unsetting baseline results](Test_result_unsettting_baseline.html) for further information.\)
+Any repository-based test result can be set as the baseline for the test module with which it is associated. Alternatively, if a given baseline result no longer needs to be designated as a baseline, you can unset it. Use the **Set as baseline result** and **Unset baseline** commands of the context menu for these purposes. \(See [Setting baseline result](/TA_Help/Topics/Test_result_settting_baseline.html), and [Unsetting baseline results](/TA_Help/Topics/Test_result_unsettting_baseline.html) for further information.\)
 
 ## Comparing test results
 
 Side-by-side comparison of test results, or side-by-side comparison between a test result and a baseline result from the same test module, enable you to track your progress over time. To compare a repository test result to its corresponding baseline, use the **Compare to baseline result** command of the context menu.
 
-The **Mark to compare**, **Compare results**, and **Go to marked result** commands may be used to compare any two "peer" results, where neither is required to be a baseline. \(More information is available at [Comparing results with baseline](Test_result_compare_to_baseline_results.html) and [Comparing results without baseline](Test_result_compare_results.html).\)
+The **Mark to compare**, **Compare results**, and **Go to marked result** commands may be used to compare any two "peer" results, where neither is required to be a baseline. \(More information is available at [Comparing results with baseline](/TA_Help/Topics/Test_result_compare_to_baseline_results.html) and [Comparing results without baseline](/TA_Help/Topics/Test_result_compare_results.html).\)
 
 ## Cut-Paste operations, and Delete command
 
@@ -63,19 +63,19 @@ Repository test results can be renamed using **Rename** on the context menu.
 
 From the context menu, a local test result can be converted and exported to the following:
 
--   HTML files \([learn more](ug_test_results_export_repository_results_HTML.html).\)
--   ZIP format, for backup or re-importing. \([learn more](Test_result_export_ZIP.html).\)
--   XML files in xUnit format \([learn more](Test_result_export_xUnit.html).\)
--   XML Detail files for backup or purpose \([learn more](Test_result_export_XML.html).\)
+-   HTML files \([learn more](/TA_Help/Topics/ug_test_results_export_repository_results_HTML.html).\)
+-   ZIP format, for backup or re-importing. \([learn more](/TA_Help/Topics/Test_result_export_ZIP.html).\)
+-   XML files in xUnit format \([learn more](/TA_Help/Topics/Test_result_export_xUnit.html).\)
+-   XML Detail files for backup or purpose \([learn more](/TA_Help/Topics/Test_result_export_XML.html).\)
 
 ## Integration with third-party tools
 
-TestArchitect seamlessly integrates with several powerful third-party tools, to assist in application development, continuous integration, and test management. Interfaces with [HP Quality Center](Integration_QC_intro.html) \(QC\), and [Team Foundation Server/Microsoft Test Manager](ug_MTM_def.html) \(TFS-MTM\) are all available to extend TestArchitect's functionality and empower your and your team.
+TestArchitect seamlessly integrates with several powerful third-party tools, to assist in application development, continuous integration, and test management. Interfaces with [HP Quality Center](/TA_Help/Topics/Integration_QC_intro.html) \(QC\), and [Team Foundation Server/Microsoft Test Manager](/TA_Help/Topics/ug_MTM_def.html) \(TFS-MTM\) are all available to extend TestArchitect's functionality and empower your and your team.
 
 -   HP Quality Center:
-    -   Upload TA test results to QC \([learn more](Integration_QC_Manually_uploading_test_results_to_QC.html)\)
+    -   Upload TA test results to QC \([learn more](/TA_Help/Topics/Integration_QC_Manually_uploading_test_results_to_QC.html)\)
 -   Team Foundation Server-Microsoft Test Manager:
-    -   Upload TA test results to TFS \([learn more](ug_MTM_upload_result_manual.html)\)
+    -   Upload TA test results to TFS \([learn more](/TA_Help/Topics/ug_MTM_upload_result_manual.html)\)
 
 ## Previewing summary of a checkpoint failure or an automation warning/error
 
@@ -83,7 +83,7 @@ TestArchitect seamlessly integrates with several powerful third-party tools, to 
 
 You can preview a checkpoint by selecting the desired checkpoint in the result list view and clicking its corresponding number of failures, warnings or errors. The first failure, warning or error of the checkpoint will be displayed in a tooltip.
 
-**Restriction:** Previewing checkpoints of a master result, meaning, it is a [test suite result](ug_test_results_introduction.html#section.TS_results), or it contains [subresults](ug_test_results_introduction.html#section.Subresults), is currently unsupported.
+**Restriction:** Previewing checkpoints of a master result, meaning, it is a [test suite result](/TA_Help/Topics/ug_test_results_introduction.html#section.TS_results), or it contains [subresults](/TA_Help/Topics/ug_test_results_introduction.html#section.Subresults), is currently unsupported.
 
 ![](/images//Images/Preview_checkpoint.png)
 

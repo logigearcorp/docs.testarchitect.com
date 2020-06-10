@@ -35,7 +35,7 @@ The editor is designed to facilitate the creation of action-based tests, though 
 |Ctrl+Home|Move the cell pointer to the upper left of the worksheet.|
 |Ctrl+End|Move the cell pointer to the bottom of the editor \(three rows below the last line\) to continue adding action lines.|
 |Ctrl+End|Move the cell pointer to the lower right of the worksheet.|
-|Enter|Enter or edit action lines.**Note:** The Enter key uses intelligent navigation to anticipate the next cell you intend to edit.<br>|
+|Enter|Enter or edit action lines.**Note:** The Enter key uses intelligent navigation to anticipate the next cell you intend to edit.<br><br>|<br>
 |Shift+Enter|Move the cell pointer up to the previous cell.|
 
 ## Editing cell content
@@ -50,7 +50,7 @@ To modify, rather than replace existing cell content, double-click the cell. Tha
 
 When you begin typing an action keyword into column **A**, TestArchitect uses autocomplete to create a drop-down list of possible actions whose names match the letters you have typed. Use the Up and Down arrow keys to navigate through the list. Additionally, as each action in the list is highlighted, a screentip appears, presenting both a description of the action and descriptions of the arguments it accepts.
 
-![](/images//Images/TA_Help/Images/ug_thetesteditor1.png)
+![](/images/TA_Help/Images/ug_thetesteditor1.png)
 
 Press Enter to complete your selection of an action.
 
@@ -60,13 +60,13 @@ Once you have entered or selected an action, the test editor automatically popul
 
 Sometimes your action lines can be long, expanding past the edge of the editor window. Functionally, there is nothing wrong with that, but if you want to make your test procedures more easily readable, you can break an action line into two or more lines with the help of the line continuation symbol, `>>>`. The symbol must be placed in column A of each added line of the action. Be careful to place it at the level of the argument values, not the headers:
 
-![](/images//Images/TA_Help/Images/editor_line_continuation.png)
+![](/images/TA_Help/Images/editor_line_continuation.png)
 
 ## Entering argument values
 
 For arguments of actions related to an interface entity or element, when the cell pointer is on a cell and you press Ctrl+Spacebar, a context-based list of available values appears. Select a value using the Up or Down arrow keys and press Enter.
 
-![](/images//Images/TA_Help/Images/ug_thetesteditor1.png)
+![](/images/TA_Help/Images/ug_thetesteditor1.png)
 
 ## Intelligent navigation
 
@@ -78,7 +78,7 @@ With intelligent navigation, TestArchitect anticipates what your next entry will
 
 When content in the editor is changed, a star \( \* \) appears next to the item's name in the tab, as shown below in the **\*Action Based Testing** tab. When content in the editor is changed, a star \( \* \) appears next to the name of the file in the tab, as shown below in the \*Calculation tab. This is an indication that the editor's copy of the file contains unsaved changes.
 
-![](/images//Images/TA_Help/Images/ug_thetesteditor2.png)
+![](/images/TA_Help/Images/ug_thetesteditor2.png)
 
 You can save the currently opened file in the active editor in several ways:
 
@@ -105,11 +105,11 @@ A comment must occupy its own row in the editor, and be entered into column A. E
 
 Comments can be used to explain a step in a test, as shown here:
 
-![](/images//Images/TA_Help/Images/Test_Editor_comment_note.png)
+![](/images/TA_Help/Images/Test_Editor_comment_note.png)
 
 Commenting is also used to temporarily *turn off* an action line:
 
-![](/images//Images/TA_Help/Images/Test_Editor_comment.png)
+![](/images/TA_Help/Images/Test_Editor_comment.png)
 
 The comment indicator can be entered or removed by hand, but the editor also provides some functions to perform this automatically for a selected set of editor lines, a selected test case \(of a test module\),or all lines in the editor.
 

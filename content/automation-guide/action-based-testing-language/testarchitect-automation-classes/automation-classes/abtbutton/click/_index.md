@@ -19,7 +19,7 @@ Apply a mouse click to thebutton control.
 
 -   **mouseType**
 
-    [TAMouseClickType](abt_TAMouseClickType.html) value indicating type of mouse click.
+    [TAMouseClickType](/TA_Automation/Topics/abt_TAMouseClickType.html) value indicating type of mouse click.
 
     Allowable values are:
 

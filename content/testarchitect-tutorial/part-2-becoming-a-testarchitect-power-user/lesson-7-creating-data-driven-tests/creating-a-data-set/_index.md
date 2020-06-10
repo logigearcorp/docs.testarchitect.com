@@ -20,7 +20,7 @@ Data-driven tests require simulated user input in the form of multi-column data 
 
     A new data set opens in the test editor, ready for your input.
 
-3.  In the editor, beginning with cell **B4**, type the header values rental month, model rented, pickup state and quantity rented, as shown in the [table](Creating_a_data_set.html#tut7_data_set01) below.
+3.  In the editor, beginning with cell **B4**, type the header values rental month, model rented, pickup state and quantity rented, as shown in the [table](/TA_Tutorials/Topics/Creating_a_data_set.html#tut7_data_set01) below.
 
     Within the test, these headers are used as the variable names for the values coming from their respective columns.
 
@@ -53,7 +53,7 @@ Data-driven tests require simulated user input in the form of multi-column data 
     |filter|Colorado only|pickup state = "Colorado"|
     |filter|Nevada only|pickup state = "Nevada"|
 
-6.  Click **Save** ![](/images//Images/TA_Tutorials/Images/btn.TAC_toolbar.SaveFile.png) on the toolbar.
+6.  Click **Save** ![](/images/TA_Tutorials/Images/btn.TAC_toolbar.SaveFile.png) on the toolbar.
 
 
 Your data set is now complete and should resemble the following:

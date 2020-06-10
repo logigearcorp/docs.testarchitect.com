@@ -14,11 +14,11 @@ TestArchitect enables you to do this by providing for named filters to be create
 
 The [filter](/reuse/../TA_Automation/Topics/bia_filter.html) action accepts two arguments, both required: name and criterion. Use the name argument to provide an appropriate name for the filter, one by which the test will reference it; use criterion for the filtering expression. \(Note that, despite the name, it is possible to specify multiple criteria within a criterion field, as in the case of the last filter below\):
 
-![](/images//Images/TA_Tutorials/Images/TA7tut.data_set.Rented_Cars.with_named_filters.png)
+![](/images/TA_Tutorials/Images/TA7tut.data_set.Rented_Cars.with_named_filters.png)
 
 In your test, you employ a named filter with the [use filter](/reuse/../TA_Automation/Topics/bia_use_filter.html) action:
 
-![](/images//Images/TA_Tutorials/Images/TA7tut.Data_Sets.Test01_named_filter01.png)
+![](/images/TA_Tutorials/Images/TA7tut.Data_Sets.Test01_named_filter01.png)
 
 The results of the above action lines are identical to those of the previous example, in which the same filter was applied, but was created within the test itself.
 

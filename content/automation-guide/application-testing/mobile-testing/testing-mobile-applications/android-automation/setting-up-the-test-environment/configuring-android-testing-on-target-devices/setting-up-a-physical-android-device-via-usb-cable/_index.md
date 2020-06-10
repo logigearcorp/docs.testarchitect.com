@@ -10,7 +10,7 @@ The process of setting up a physical device via USB cable connection.
 
 **Important:** Android automation is only supported on Windows.
 
-Ensure that you have configured your Android device to accept installation of applications from TestArchitect \(see [Enabling Unknown source](Android_configuring_device.html)\).
+Ensure that you have configured your Android device to accept installation of applications from TestArchitect \(see [Enabling Unknown source](/Android/Topics/Android_configuring_device.html)\).
 
 To set up an Android device via USB cable, perform the following steps:
 

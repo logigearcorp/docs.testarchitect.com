@@ -25,11 +25,11 @@ This action may be used within the following project items:test modules and user
 
 -   This action increments the error count for the test run.
 -   The contents of the text argument are displayed in the [**Log Information**](/TA_Help/Topics/ug_results_log_information.html) tab of the test results.
--   If the [notice level](notice_level.html) built-in setting is set to allow runtime errors to pause testing, the standard error message box is triggered by this action, and also displays the contents of the text argument.
+-   If the [notice level](/TA_Automation/Topics/bis_notice_level.html) built-in setting is set to allow runtime errors to pause testing, the standard error message box is triggered by this action, and also displays the contents of the text argument.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html)none.
+The following settings are applicable to this action:[remove double quotes from cells](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html)none.
 
 ## Example
 

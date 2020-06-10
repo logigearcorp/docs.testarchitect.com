@@ -39,7 +39,7 @@ TestArchitect items are uploaded to Zephyr as follows:
 
 -   Each TestArchitect test objective is copied to the corresponding Zephyr test case, provided that you have created a custom field in Zephyr to accept it.
 
-    **Remember:** The custom field in Zephyr must be named **Test Objective**, and have the attribute Long Text \(32000\). \(See [Creating matching custom fields in TestArchitect and Zephyr](ug_Zephyr_creating_custom_fields.html) for details.\)
+    **Remember:** The custom field in Zephyr must be named **Test Objective**, and have the attribute Long Text \(32000\). \(See [Creating matching custom fields in TestArchitect and Zephyr](/TA_Help/Topics/ug_Zephyr_creating_custom_fields.html) for details.\)
 
     ![](/images//Images/Zephyr_mapped_TO_6.1.png)
 

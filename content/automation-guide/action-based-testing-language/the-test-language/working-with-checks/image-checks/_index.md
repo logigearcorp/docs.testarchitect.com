@@ -10,9 +10,9 @@ How to create test procedures that compare images.
 
 One of the most common testing tasks is to verify that an application window or control is displayed correctly. This can be done by comparing the actual image of the window or control against a previously captured baseline image saved from [regular picture checks](/TA_Help/Topics/Projects_and_tests_picture_check.html) or [shared picture checks](/TA_Help/Topics/Projects_and_tests_picture_check.html).
 
-TestArchitect includes various built-in actions that let you compare images and check for the existence of images. See [Picture Handling](picture_handling.html) for full details.
+TestArchitect includes various built-in actions that let you compare images and check for the existence of images. See [Picture Handling](/TA_Automation/Topics/bia_picture_handling.html) for full details.
 
--   For example, suppose you want to verify a displayed image against a stored baseline image. You can use the [check picture](check_picture.html) built-in action.
+-   For example, suppose you want to verify a displayed image against a stored baseline image. You can use the [check picture](/TA_Automation/Topics/bia_check_picture.html) built-in action.
 -   You can make the test procedure as follows:
 
     ![](/images//Images/bia_check_picture_pgm.png)

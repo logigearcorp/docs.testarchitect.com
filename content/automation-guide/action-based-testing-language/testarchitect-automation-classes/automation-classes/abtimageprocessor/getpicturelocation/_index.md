@@ -23,7 +23,7 @@ Return the location and dimensions of an instance of a specified image within th
 
 -   **rect**
 
-    [TARect](abt_TARect.html) object specifying a rectangular active area in the object's bitmap. Scanning for matching images is limited to this active area.
+    [TARect](/TA_Automation/Topics/abt_TARect.html) object specifying a rectangular active area in the object's bitmap. Scanning for matching images is limited to this active area.
 
 -   **index**
 
@@ -46,7 +46,7 @@ Return the location and dimensions of an instance of a specified image within th
 
 ## Notes
 
--   As an [AbtImageProcessor](abt_ImageProcessor.html) object represents the entire display; the returned left and top coordinates are relative to the left and top of screen, respectively.
+-   As an [AbtImageProcessor](/TA_Automation/Topics/abt_ImageProcessor.html) object represents the entire display; the returned left and top coordinates are relative to the left and top of screen, respectively.
 -   This method is currently supported only by the C\# harness.
 
 **Parent topic:**[AbtImageProcessor](/TA_Automation/Topics/abt_ImageProcessor.html)

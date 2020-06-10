@@ -22,7 +22,7 @@ As discussed, it is at the start of execution that you inform TestArchitect of t
 
         ![](/images//Images/Linked_variations.png)
 
-        **Important:** Note that, during execution setup, only one version node may be selected per system. \([Learn more](Variations_rules_executing.html).\)
+        **Important:** Note that, during execution setup, only one version node may be selected per system. \([Learn more](/TA_Help/Topics/Variations_rules_executing.html).\)
 
 
 The test is executed with the selected keyword or/and the linked variations.

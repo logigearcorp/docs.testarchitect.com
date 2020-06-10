@@ -30,7 +30,7 @@ To view a previously checked in revision:
 
 The content of the specific revision of the selected project item is displayed as read-only in a new window.
 
-**Tip:** If your test module contains marked [known bugs](Bugs_working_known_bug.html), hover your mouse over the yellow dot next to a given marked bug to see a screentip with information relating to that **Bug ID**.
+**Tip:** If your test module contains marked [known bugs](/TA_Help/Topics/Bugs_working_known_bug.html), hover your mouse over the yellow dot next to a given marked bug to see a screentip with information relating to that **Bug ID**.
 
 ![](/images//Images/History_dialog_box_view.png)
 

@@ -15,7 +15,7 @@ Below is the full list of WPF controls for which TestArchitect provides support:
 |Button|System.Windows.Controls.Button|
 |Calendar|System.Windows.Controls.Calendar|
 |CheckBox|System.Windows.Controls.CheckBox|
-|ComboBox|System.Windows.Controls.ComboBox<br> System.Windows.Controls.ComboBoxItem<br><br>|
+|ComboBox|System.Windows.Controls.ComboBox<br><br> System.Windows.Controls.ComboBoxItem<br><br>|<br>
 |DatePicker|System.Windows.Controls.DatePicker|
 |DocumentViewer|System.Windows.Controls.DocumentViewer|
 |Frame|System.Windows.Controls.Frame|
@@ -23,7 +23,7 @@ Below is the full list of WPF controls for which TestArchitect provides support:
 |Label|System.Windows.Controls.Label|
 |ListBox|System.Windows.Controls.ListBox|
 |ListView|System.Windows.Controls.ListView|
-|Menu|System.Windows.Controls.Menu<br> System.Windows.Controls.MenuItem<br><br>|
+|Menu|System.Windows.Controls.Menu<br><br> System.Windows.Controls.MenuItem<br><br>|<br>
 |PasswordBox|System.Windows.Controls.PasswordBox|
 |ProgressBar|System.Windows.Controls.ProgressBar|
 |RadioButton|System.Windows.Controls.RadioButton|
@@ -43,7 +43,7 @@ Below is the full list of WPF controls for which TestArchitect provides support:
 |Container|System.windows.controls.stackpanel|
 |Expander|System.Windows.Controls.Expander|
 |GroupBox|System.Windows.Controls.GroupBox|
-|RibbonControl|System.Windows.Controls.Ribbon.Ribbon<br> System.Windows.Controls.Ribbon.RibbonApplicationMenu<br><br> System.Windows.Controls.Ribbon.RibbonButton<br><br> System.Windows.Controls.Ribbon.RibbonContextualTabGroupItemsControl<br><br> System.Windows.Controls.Ribbon.RibbonControl<br><br> System.Windows.Controls.Ribbon.RibbonGroup<br><br> System.Windows.Controls.Ribbon.RibbonMenuButton<br><br> System.Windows.Controls.Ribbon.RibbonQuickAccessToolBar<br><br> System.Windows.Controls.Ribbon.RibbonSplitButton<br><br> System.Windows.Controls.Ribbon.RibbonTab<br><br> System.Windows.Controls.Ribbon.RibbonTabHeader<br><br> System.Windows.Controls.Ribbon.RibbonTabHeaderItemsControl<br><br> System.Windows.Controls.Ribbon.RibbonTwoLineText<br><br>|
+|RibbonControl|System.Windows.Controls.Ribbon.Ribbon<br><br> System.Windows.Controls.Ribbon.RibbonApplicationMenu<br><br> System.Windows.Controls.Ribbon.RibbonButton<br><br> System.Windows.Controls.Ribbon.RibbonContextualTabGroupItemsControl<br><br> System.Windows.Controls.Ribbon.RibbonControl<br><br> System.Windows.Controls.Ribbon.RibbonGroup<br><br> System.Windows.Controls.Ribbon.RibbonMenuButton<br><br> System.Windows.Controls.Ribbon.RibbonQuickAccessToolBar<br><br> System.Windows.Controls.Ribbon.RibbonSplitButton<br><br> System.Windows.Controls.Ribbon.RibbonTab<br><br> System.Windows.Controls.Ribbon.RibbonTabHeader<br><br> System.Windows.Controls.Ribbon.RibbonTabHeaderItemsControl<br><br> System.Windows.Controls.Ribbon.RibbonTwoLineText<br><br>|<br>
 
 **Parent topic:**[List of supported .NET controls](/TA_Automation/Topics/aut_app_testing_NET_apps_supported_controls.html)
 

@@ -26,7 +26,7 @@ The simplest way to add items to favorites is to click the ![](/images//Images/f
 
 -   Option \#3: Add all open all tabs at once from the favorite list view.
 
-    1.  Open the [favorite list view](Listview_favorites_opening.html).
+    1.  Open the [favorite list view](/TA_Help/Topics/Listview_favorites_opening.html).
 
     2.  Click the **Add all open tabs to favorites** button.
 

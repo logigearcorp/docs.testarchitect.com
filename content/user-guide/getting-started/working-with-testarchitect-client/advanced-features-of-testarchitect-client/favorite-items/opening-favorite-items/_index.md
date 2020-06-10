@@ -20,7 +20,7 @@ You can open one or more favorite items in several ways.
 
 -   Option \#2: Open multiple favorite items from the favorite list view.
 
-    1.  Open the [favorite list view](Listview_favorites_opening.html).
+    1.  Open the [favorite list view](/TA_Help/Topics/Listview_favorites_opening.html).
 
     2.  You can select a single favorite item or multiple favorite items by using the Shift or Control keys:
 

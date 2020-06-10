@@ -12,23 +12,23 @@ At times, it can be helpful to compare the contents of two similar text-based pr
 
 The Diff Tool makes the job of difference viewing more systematic, reliable, and efficient. It can be used to perform comparisons between the following types of project items:
 
--   [Test modules](Create_test_module.html).
--   [Data sets](Projects_and_tests_dataset.html).
+-   [Test modules](/TA_Help/Topics/Create_test_module.html).
+-   [Data sets](/TA_Help/Topics/Projects_and_tests_dataset.html).
 -   [User-defined actions](/reuse/reuse.High_level_actions.html).
--   [Interface entities](Interface_entities_and_elements.html).
--   [$ Class Maps entities](Interface_def_Viewer_class_mapping.html).
+-   [Interface entities](/TA_Help/Topics/Interface_entities_and_elements.html).
+-   [$ Class Maps entities](/TA_Help/Topics/Interface_def_Viewer_class_mapping.html).
 
 **Note:**
 
 -   The Diff Tool supports the comparing of project items not just within a project, but across projects and across repositories as well.
--   For comparing pairs of test results, TestArchitect offers a different tool. See [Comparing test results](Test_result_baselining.html).
+-   For comparing pairs of test results, TestArchitect offers a different tool. See [Comparing test results](/TA_Help/Topics/Test_result_baselining.html).
 
 ## The user interface
 
 The Diff Tool dialog box consists of two main components:
 
--   [The diff toolbar](ug_item_comparison.html#section_Toolbar), to allow you to control the nature of the comparison, navigate between found differences, and interface external tools; and
--   [Item panels](ug_item_comparison.html#section_Items_panel), which provide side-by-side comparisons of the two compared items.
+-   [The diff toolbar](/TA_Help/Topics/ug_item_comparison.html#section_Toolbar), to allow you to control the nature of the comparison, navigate between found differences, and interface external tools; and
+-   [Item panels](/TA_Help/Topics/ug_item_comparison.html#section_Items_panel), which provide side-by-side comparisons of the two compared items.
 
 This screenshot displays a comparison of two test modules in the Diff Tool:
 
@@ -36,8 +36,8 @@ This screenshot displays a comparison of two test modules in the Diff Tool:
 
 The Diff Tool dialog box consists of the following parts:
 
--   [Toolbar](ug_item_comparison.html#section_Toolbar).
--   [Item panels](ug_item_comparison.html#section_Items_panel).
+-   [Toolbar](/TA_Help/Topics/ug_item_comparison.html#section_Toolbar).
+-   [Item panels](/TA_Help/Topics/ug_item_comparison.html#section_Items_panel).
     -   Headers.
     -   Current location panels.
     -   Display panels.
@@ -90,7 +90,7 @@ The Diff Tool's tool bar contains six buttons:
 5.  **Character Level**:
     -   Disabled: \(Default\) Highlights differences at the word level.
     -   **Enabled**: Highlights character-by-character differences.
-6.  **Open External Merge Tool**: The Diff Tool integrates with other applications that allow a third-party file comparison \(diff\) or file merging tool to be specified. \([Learn more.](ug_diff_tool_using_other_products.html)\)
+6.  **Open External Merge Tool**: The Diff Tool integrates with other applications that allow a third-party file comparison \(diff\) or file merging tool to be specified. \([Learn more.](/TA_Help/Topics/ug_diff_tool_using_other_products.html)\)
 
 ## The Item panels
 
@@ -123,7 +123,7 @@ TestArchitect highlights differences between two items with colors. This section
 
         ![](/images//Images/diff_tool_difference_blocks_header.png)
 
-    -   Within highlighted lines, exact differences are further highlighted by rendering the text in red. At this level of difference highlighting, you can exercise one of two options, as determined by the state of the toolbar's [**Character Level**](ug_item_comparison.html#li_a4r_12w_cq) pushbutton:
+    -   Within highlighted lines, exact differences are further highlighted by rendering the text in red. At this level of difference highlighting, you can exercise one of two options, as determined by the state of the toolbar's [**Character Level**](/TA_Help/Topics/ug_item_comparison.html#li_a4r_12w_cq) pushbutton:
         -   *With button inactive \(Default state\)*: Differences are displayed at the word level.
 
             ![](/images//Images/diff_tool_word_level.01.png)

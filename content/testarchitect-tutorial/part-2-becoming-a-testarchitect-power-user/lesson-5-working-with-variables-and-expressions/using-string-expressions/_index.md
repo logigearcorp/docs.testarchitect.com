@@ -10,7 +10,7 @@ How to use concatenation to manipulate text in action arguments.
 
 **Before proceeding:** Ensure that you are logged in to the SampleRepository. In the TestArchitect explorer tree, expand the Car Rental project.
 
-1.  In the TestArchitect explorer tree, select any item within the current project, then click **Create new test module** ![](/images//Images/TA_Tutorials/Images/btn.TAC_toolbar.CreateTestModule.png) in the toolbar.
+1.  In the TestArchitect explorer tree, select any item within the current project, then click **Create new test module** ![](/images/TA_Tutorials/Images/btn.TAC_toolbar.CreateTestModule.png) in the toolbar.
 
     The New Test Module dialog box appears.
 
@@ -37,7 +37,7 @@ How to use concatenation to manipulate text in action arguments.
 
     ![](/images//Images/tut.Vars_and_Exps.Strings.Test.02.png)
 
-6.  With your test module displayed in the TestArchitect editor, click **Execute** ![](/images//Images/TA_Tutorials/Images/btn.TAC_toolbar.Execute.png) on the toolbar.
+6.  With your test module displayed in the TestArchitect editor, click **Execute** ![](/images/TA_Tutorials/Images/btn.TAC_toolbar.Execute.png) on the toolbar.
 
     The Execute Test dialog box appears.
 

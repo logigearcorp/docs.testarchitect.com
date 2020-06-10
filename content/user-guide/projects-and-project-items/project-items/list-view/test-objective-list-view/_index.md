@@ -8,7 +8,7 @@ aliases:
 
 A test objective list view displays a list of all test objective items contained in a test module node.
 
-On the TestArchitect explorer tree, when you double-click a test module node, and then select the **Test Objectives** tab. TestArchitect opens in the main panel a list view of test objective items for the selected test module. \(For details about test objectives, see [Test objectives](Projects_and_tests_TO.html).\)
+On the TestArchitect explorer tree, when you double-click a test module node, and then select the **Test Objectives** tab. TestArchitect opens in the main panel a list view of test objective items for the selected test module. \(For details about test objectives, see [Test objectives](/TA_Help/Topics/Projects_and_tests_TO.html).\)
 
 ![](/images//Images/Listview_test_objective.png)
 
@@ -16,7 +16,7 @@ The following operations can be performed on a test objective list view:
 
 ## Common operations
 
-You can find various common operations that can be performed on test objective list views at [Common operations](Listview_common_operations.html).
+You can find various common operations that can be performed on test objective list views at [Common operations](/TA_Help/Topics/Listview_common_operations.html).
 
 ## Opening test objective
 

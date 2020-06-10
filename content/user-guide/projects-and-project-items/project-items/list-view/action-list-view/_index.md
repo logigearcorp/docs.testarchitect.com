@@ -18,7 +18,7 @@ The following operations can be performed on an action list view:
 
 ## Common operations
 
-You can find various common operations that can be performed on action list views at [Common operations](Listview_common_operations.html).
+You can find various common operations that can be performed on action list views at [Common operations](/TA_Help/Topics/Listview_common_operations.html).
 
 ## Opening an action
 
@@ -28,20 +28,20 @@ From a list view, you can open a user-defined action in the editor by right-clic
 
 ## Revision control
 
--   Check-out is the process of creating a local working copy from the repository. When a project item is checked out, a lock is placed on that item preventing other users from modifying it. \([Learn more](Project_items_checkout.html).\)
--   Check-in is the process of writing the changes made to a local working copy back to the repository. Checking in a project item releases the lock on it, allowing other authorized users to check out the item and modify it as needed. \([Learn more](Project_items_checkin.html).\)
--   Undoing a checkout allows you to cancel a checkout and discard any changes you have made to the local copy. \([Learn more](Project_items_undo_checkout.html).\)
+-   Check-out is the process of creating a local working copy from the repository. When a project item is checked out, a lock is placed on that item preventing other users from modifying it. \([Learn more](/TA_Help/Topics/Project_items_checkout.html).\)
+-   Check-in is the process of writing the changes made to a local working copy back to the repository. Checking in a project item releases the lock on it, allowing other authorized users to check out the item and modify it as needed. \([Learn more](/TA_Help/Topics/Project_items_checkin.html).\)
+-   Undoing a checkout allows you to cancel a checkout and discard any changes you have made to the local copy. \([Learn more](/TA_Help/Topics/Project_items_undo_checkout.html).\)
 
 ## Project item comparisons
 
 TestArchitect's Diff Tool can be invoked from the list view, allowing you to compare the differences between two project items in the list, or two revisions of the same item.
 
--   For comparing two project items, see [Comparing project items with Diff Tool](ug_diff_tool_comparing_items.html).
--   For comparing two revisions of a project item, see [Comparing a project item's revisions with Diff Tool](ug_diff_tool_comparing_revisions.html).
+-   For comparing two project items, see [Comparing project items with Diff Tool](/TA_Help/Topics/ug_diff_tool_comparing_items.html).
+-   For comparing two revisions of a project item, see [Comparing a project item's revisions with Diff Tool](/TA_Help/Topics/ug_diff_tool_comparing_revisions.html).
 
 ## Revision history
 
-Repository saves pertinent information on a project item at every check-in. This includes timestamp, assigned version, project name, item type, item name, user who checked in the item, and included comments. \([Learn more](Project_items_history.html).\)
+Repository saves pertinent information on a project item at every check-in. This includes timestamp, assigned version, project name, item type, item name, user who checked in the item, and included comments. \([Learn more](/TA_Help/Topics/Project_items_history.html).\)
 
 ## Cut-Copy-Paste operations, and Delete command
 
@@ -57,7 +57,7 @@ Repository saves pertinent information on a project item at every check-in. This
 
 ## Name change propagation
 
-The process of renaming a given entity so that the change propagates to all references to that item is known as [name change propagation](/TA_Glossary/Topics/glossaryNameChangePropagation.html). Renaming an entity automatically updates all applicable action lines, test modules, and action definitions where the entity name appears. \([Learn more](Project_and_project_items_rename_refactoring.html).\)
+The process of renaming a given entity so that the change propagates to all references to that item is known as [name change propagation](/TA_Glossary/Topics/glossaryNameChangePropagation.html). Renaming an entity automatically updates all applicable action lines, test modules, and action definitions where the entity name appears. \([Learn more](/TA_Help/Topics/Project_and_project_items_rename_refactoring.html).\)
 
 ## Searching
 
@@ -65,15 +65,15 @@ By selecting **Search** from the context menu, you can search all test modules a
 
 **Fastpath:** Ctrl + H
 
-**Tip:** You can include [supplier project\(s](Project_subscription.html)\) in your search for the given action by selecting the **Including supplier project\(s\)** check box in the Search dialog box.
+**Tip:** You can include [supplier project\(s](/TA_Help/Topics/Project_subscription.html)\) in your search for the given action by selecting the **Including supplier project\(s\)** check box in the Search dialog box.
 
 ## Exporting user-defined actions
 
-User-defined actions can be exported to archive files \(.ZIP format\), which can be used as a backup, or for re-importing \(see [Exporting actions](High_level_actions_exporting.html), option \#2, for details\).
+User-defined actions can be exported to archive files \(.ZIP format\), which can be used as a backup, or for re-importing \(see [Exporting actions](/TA_Help/Topics/High_level_actions_exporting.html), option \#2, for details\).
 
 ## Reporting
 
-TestArchitect can generate reports to show the progress of the test or automation development, as well as test run performance and results. \([Learn more](Report_producing.html#choice_oj2_cwb_cw).\)
+TestArchitect can generate reports to show the progress of the test or automation development, as well as test run performance and results. \([Learn more](/TA_Help/Topics/Report_producing.html#choice_oj2_cwb_cw).\)
 
 -   **[Editing action variations](/TA_Help/Topics/Listview_action_edit_variation.html)**  
 You can re-link a user-defined action variation to other version nodes or keywords via the Edit Variations dialog box.

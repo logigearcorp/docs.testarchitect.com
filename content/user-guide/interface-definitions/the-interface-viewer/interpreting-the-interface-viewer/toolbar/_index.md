@@ -12,17 +12,17 @@ The functionalities are described in the following sections.
 
 ![](/images//Images/ug_interface_definition15_UIA.png)
 
-1.  [Save](Interface_def_Viewer_save.html)
-2.  [Refresh](Interface_def_Viewer_refresh.html)
-3.  [Identify](Interface_def_Viewer_identify.html)
-4.  [Highlight](Interface_def_Viewer_highlight.html)
-5.  [Auto-highlight](Interface_def_Viewer_highlight.html)
-6.  [HTML tags filter](Interface_def_Viewer_HTML_tag_filter.html)
-7.  [Copy value](Interface_def_Viewer_Copy_value.html)
-8.  [Capture all controls](ug_Interface_def_Viewer_capture_all_controls.html)
-9.  [UIA support](ug_Interface_def_Viewer_UIA.html)
+1.  [Save](/TA_Help/Topics/Interface_def_Viewer_save.html)
+2.  [Refresh](/TA_Help/Topics/Interface_def_Viewer_refresh.html)
+3.  [Identify](/TA_Help/Topics/Interface_def_Viewer_identify.html)
+4.  [Highlight](/TA_Help/Topics/Interface_def_Viewer_highlight.html)
+5.  [Auto-highlight](/TA_Help/Topics/Interface_def_Viewer_highlight.html)
+6.  [HTML tags filter](/TA_Help/Topics/Interface_def_Viewer_HTML_tag_filter.html)
+7.  [Copy value](/TA_Help/Topics/Interface_def_Viewer_Copy_value.html)
+8.  [Capture all controls](/TA_Help/Topics/ug_Interface_def_Viewer_capture_all_controls.html)
+9.  [UIA support](/TA_Help/Topics/ug_Interface_def_Viewer_UIA.html)
 10. [Activate device mode](/TA_Automation/Topics/aut_app_testing_mobile_web_Chrome_identifying_controls.html)
-11. [Map to unmatched element](Interface_def_Viewer_maintaining_mapping_controls.html)
+11. [Map to unmatched element](/TA_Help/Topics/Interface_def_Viewer_maintaining_mapping_controls.html)
 
 **Parent topic:**[Interpreting the Interface Viewer](/TA_Help/Topics/Interface_def_Viewer_reading.html)
 

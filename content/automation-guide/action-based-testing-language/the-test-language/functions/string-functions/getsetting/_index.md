@@ -38,11 +38,11 @@ The value of the setting specified in name.
 ## Notes
 
 -   default parameter: If the specified setting already has a value, this parameter has no effect. While a value is optional, you must at least specify an empty string. For example: \#getsetting\("language", "user defined", ""\)
--   Alternatively, you can use [get setting](get_setting.html) built-in action to achieve the same functionality.
+-   Alternatively, you can use [get setting](/TA_Automation/Topics/bia_get_setting.html) built-in action to achieve the same functionality.
 
 ## Example
 
-Suppose that you have a user-defined setting named language defined in the Execute Test dialog box \([learn more](aut_defining_user_defined_settings.html)\). The language setting is used to navigate to the appropriate web site. And its default value is English.
+Suppose that you have a user-defined setting named language defined in the Execute Test dialog box \([learn more](/TA_Automation/Topics/aut_defining_user_defined_settings.html)\). The language setting is used to navigate to the appropriate web site. And its default value is English.
 
 ![](/images//Images/language_user_defined_setting.png)
 

@@ -12,12 +12,12 @@ The playback toolbar appears at the bottom right corner of the screen during tes
 
 The playback controller contains of the following items:
 
--   **The Harness drop-down list box**: presents the list of running harnesses. You can view the running status of a specific harness by selecting it from this drop-down list box. See below for the [harness naming convention](Test_exec_playback_toolbar.html#harness_name).
+-   **The Harness drop-down list box**: presents the list of running harnesses. You can view the running status of a specific harness by selecting it from this drop-down list box. See below for the [harness naming convention](/TA_Help/Topics/Test_exec_playback_toolbar.html#harness_name).
 
     **Note:** Applies to TestArchitect [8.4](/TA_ReleaseNotes/DITA_source/Whats_New_8.4.html) and higher.
 
 -   **Running harnesses**: Number of harnesses that are currently running.
--   **Pending harnesses**: Number of harnesses that are pending. \([Learn more](Multiple_harnesses_pool_size.html)\)
+-   **Pending harnesses**: Number of harnesses that are pending. \([Learn more](/TA_Help/Topics/Multiple_harnesses_pool_size.html)\)
 -   **Pause/Resume**: Pause or resume the selected harness.
 
     **Fastpath:** Press a key combination of Ctrl + Alt + P.
@@ -49,7 +49,7 @@ The playback controller contains of the following items:
     **Fastpath:** Press a key combination of Ctrl + Alt + S.
 
 
-**Restriction:** Keyboard shortcuts for the playback toolbar are not supported on the Linux platform. For the full list of TestArchitect-supported keyboard shortcuts, refer to the [Table of keyboard shortcuts](Support_Hotkey.html).
+**Restriction:** Keyboard shortcuts for the playback toolbar are not supported on the Linux platform. For the full list of TestArchitect-supported keyboard shortcuts, refer to the [Table of keyboard shortcuts](/TA_Help/Topics/Support_Hotkey.html).
 
 ## Naming convention for harnesses
 
@@ -59,7 +59,7 @@ The name of a harness is formed by combining the result name with the timestamp 
 <Result name> (<timestamp>)- <request ID>
 ```
 
--   Result name: Name of a test when it is executed on the TestArchitect Controller. Conventionally, the test name is given to the result name. You can set the [**Result Name**](Test_exec_test_execution.html#result_name) on the **General** tab in the Execute Test dialog box.
+-   Result name: Name of a test when it is executed on the TestArchitect Controller. Conventionally, the test name is given to the result name. You can set the [**Result Name**](/TA_Help/Topics/Test_exec_test_execution.html#result_name) on the **General** tab in the Execute Test dialog box.
 -   Timestamp: Date and time when the test is executed. The date is written in yyyy-mm-dd format and the time in hh.nn.ss format.
 -   Request ID: A string generated when the TestArchitect Controller prepares data for test run\(s\).
 

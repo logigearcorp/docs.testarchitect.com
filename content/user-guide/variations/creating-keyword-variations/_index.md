@@ -29,7 +29,7 @@ In TestArchitect, you create a new variation of a given definition by copying th
 
     ![](/images//Images/ug_systemtree5.png)
 
-    This is the [keyword signature](/TA_Glossary/Topics/glossaryKeywordSignature.html) of the variation. It should consist of one or more [keyterms](/TA_Glossary/Topics/glossaryKeyterm.html) delimited by commas. A keyterm can be a single keyword, or a group of keywords delimited by vertical bars \( \| \). \([Learn more](Variations_rules_3.html).\)
+    This is the [keyword signature](/TA_Glossary/Topics/glossaryKeywordSignature.html) of the variation. It should consist of one or more [keyterms](/TA_Glossary/Topics/glossaryKeyterm.html) delimited by commas. A keyterm can be a single keyword, or a group of keywords delimited by vertical bars \( \| \). \([Learn more](/TA_Help/Topics/Variations_rules_3.html).\)
 
 4.  Click **OK**.
 

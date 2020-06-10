@@ -21,18 +21,18 @@ The ignore modifier is supported in the following actions:
 The ignore modifier is not supported in the following built-in actions:
 
 -   Built-in actions without arguments.
--   All [Control flow](Control_flow.html) built-in actions, such as [if](if.html)...[end if](end_if.html).
+-   All [Control flow](/TA_Automation/Topics/bia_Control_flow.html) built-in actions, such as [if](/TA_Automation/Topics/bia_if.html)...[end if](/TA_Automation/Topics/bia_end_if.html).
 -   Data set-related built-in actions:
-    -   [use data set](use_data_set.html)...[repeat for data set](repeat_for_data_set.html).
-    -   [create data set](create_data_set.html)...[end create data set](end_create_data_set.html).
--   [Action definition](Action_definition.html) built-in actions, such as [argument](argument.html).
+    -   [use data set](/TA_Automation/Topics/bia_use_data_set.html)...[repeat for data set](/TA_Automation/Topics/bia_repeat_for_data_set.html).
+    -   [create data set](/TA_Automation/Topics/bia_create_data_set.html)...[end create data set](/TA_Automation/Topics/bia_end_create_data_set.html).
+-   [Action definition](/TA_Automation/Topics/bia_Action_definition.html) built-in actions, such as [argument](/TA_Automation/Topics/bia_argument.html).
 -   Value Handling built-in actions:
-    -   [set variable](set_variable.html).
-    -   [global variable](global_variable.html).
-    -   [local variable](local_variable.html).
-    -   [set global variable](set_global_variable.html).
--   All [documentary and delimiting](Documentary.html) built-in actions, such as [test case](test_case.html) and [final](final.html).
--   The [setting](setting.html) action.
+    -   [set variable](/TA_Automation/Topics/bia_set_variable.html).
+    -   [global variable](/TA_Automation/Topics/bia_global_variable.html).
+    -   [local variable](/TA_Automation/Topics/bia_local_variable.html).
+    -   [set global variable](/TA_Automation/Topics/bia_set_global_variable.html).
+-   All [documentary and delimiting](/TA_Automation/Topics/bia_Documentary.html) built-in actions, such as [test case](/TA_Automation/Topics/bia_test_case.html) and [final](/TA_Automation/Topics/bia_final.html).
+-   The [setting](/TA_Automation/Topics/bia_setting.html) action.
 
 **Example**
 

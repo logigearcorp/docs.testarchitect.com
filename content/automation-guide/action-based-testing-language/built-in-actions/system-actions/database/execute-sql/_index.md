@@ -29,14 +29,14 @@ Execute an SQL command against the database currently in use.
 -   Execution of this action may result in the return of multiple tables, due either to the presence of multiple queries in the command string, or to the invoking of stored procedures, or both.
 -   In the case of multiple queries, each result table is numbered according to the order of execution, and returned to the corresponding result argument, beginning with result, followed by result2, result3, and so on. For example, the first query in the command string, a select query returning two tables, returns its results to the datasets in result and result2, while the next query, an insert query, returns its results to the dataset in result3.
 -   In addition to the result, result2, result3, etc., arguments listed above, you can opt to use argument names result0 and result1 to specify data sets. However, data sets specified under these headers, like that of result, receive the first returned table of the query string. \(Hence, if your action line happens to use all three of the argument headers result, result0 and result1, each specifying a different data set name, execution of the action produces three data sets with identical contents.\)
--   Within the returned data sets, the column header names are derived from the column names of the corresponding result tables. \(Refer to [Data sets](Data_set.html) for more information on working with data sets and data set values.\)
+-   Within the returned data sets, the column header names are derived from the column names of the corresponding result tables. \(Refer to [Data sets](/TA_Automation/Topics/bia_Data_set.html) for more information on working with data sets and data set values.\)
 -   In general, the creation of a data sets requires that column headers be specified for each column of data. It is possible, however, for an SQL query to return a result table that lacks column names. In such a case, TestArchitect automatically assigns the column headers column 1 , column 2, etc., to the receiving data set.
 -   In order to gain access to a value from an output parameter of a stored procedure, select it in the command string. The value may then be obtained from the data set specified by the corresponding result argument.
 -   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cell](remove_double_quotes_from_cells.html), [standard ASCII only](standard_ASCII_only.html).
+The following settings are applicable to this action:[remove double quotes from cell](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html), [standard ASCII only](/TA_Automation/Topics/bis_standard_ASCII_only.html).
 
 ## Applicable Controls
 

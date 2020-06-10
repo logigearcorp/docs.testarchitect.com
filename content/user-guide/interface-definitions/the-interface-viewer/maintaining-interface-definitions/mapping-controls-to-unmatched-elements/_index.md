@@ -10,7 +10,7 @@ Interface elements identify controls in an application window. It is possible, o
 
 The Interface Viewer offers a convenient way to remap unmatched controls:
 
-1.  Launch the [Interface Viewer](Interface_def_Viewer_Starting.html).
+1.  Launch the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer_Starting.html).
 
 2.  Map an unmatched control by performing the following steps:
 

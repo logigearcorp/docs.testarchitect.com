@@ -8,13 +8,13 @@ aliases:
 
 Asynchronous testing allows you to run a test on multiple remote controllers.
 
-Ensure that the controllers for the hosts that you want to execute the test on are visible to the local host machine and/or registered with the [Lab Manager Server](Lab_manager.html).
+Ensure that the controllers for the hosts that you want to execute the test on are visible to the local host machine and/or registered with the [Lab Manager Server](/TA_Help/Topics/Lab_manager.html).
 
 Remote execution is initiated by the operator at runtime and requires no special action lines. Any test which can run on a single machine can be designated to run on multiple hosts under asynchronous execution. All remote test executions are independent of each other.
 
 To execute a test on one or more remote machines:
 
-1.  Select the test module you want to run, and then click **Execute** ![](/images//Images/TA_Help/Images/btn.TAC_toolbar.Execute.png) on the TestArchitect toolbar.
+1.  Select the test module you want to run, and then click **Execute** ![](/images/TA_Help/Images/btn.TAC_toolbar.Execute.png) on the TestArchitect toolbar.
 
 2.  In the **Test Modules** panel of the Execute Test dialog box, verify that the check boxes for the modules you want to execute are selected.
 
@@ -26,7 +26,7 @@ To execute a test on one or more remote machines:
 
     -   Local controller: `<name of controller> {<IP address>:<port number>} (localhost)`
     -   Remote controller: `<name of controller> {<IP address>:<port number>}`
-    ![](/images//Images/TA_Help/Images/Select_remote_controllers.png)
+    ![](/images/TA_Help/Images/Select_remote_controllers.png)
 
 5.  On the Controllers/Devices panel, select the remote controllers where you want to execute the test.
 
@@ -36,14 +36,14 @@ To execute a test on one or more remote machines:
 
     ![](/images//Images/Add_controller.png)
 
-    **Note:** If the remote controller's port number is [changed](Controller_changing_port.html) to a different value, you must reconfigure that controller port number in the Controllers/Devices panel. Enter the correct port number into the **Port** box in the Controller Port Configuration panel, then clicking **Save** ![](/images//Images/Save_btn_port_configuration.png).
+    **Note:** If the remote controller's port number is [changed](/TA_Help/Topics/Controller_changing_port.html) to a different value, you must reconfigure that controller port number in the Controllers/Devices panel. Enter the correct port number into the **Port** box in the Controller Port Configuration panel, then clicking **Save** ![](/images//Images/Save_btn_port_configuration.png).
 
 6.  Click **OK** in the Select Controller/Device dialog box, and select **Execute** in theExecute Test dialog box, to begin executing the remote tests.
 
 
 TestArchitect saves the settings in the Select Controller/Device dialog box and executes the test on designated remote hosts. The same settings are used as the default for subsequent test executions.
 
-TestArchitect automatically adds controllers executing tests to the controller list in [Lab Manager](Lab_manager.html), and you can monitor the test progress there.
+TestArchitect automatically adds controllers executing tests to the controller list in [Lab Manager](/TA_Help/Topics/Lab_manager.html), and you can monitor the test progress there.
 
 **Parent topic:**[Remote test execution](/TA_Help/Topics/Test_exec_remote.html)
 

@@ -10,7 +10,7 @@ With TestArchitect's command line tool, tests can be launched from a command she
 
 You are probably already familiar with the typical means by which automated tests are invoked, a method we call online execution. You create a test, or set of tests, open the Execute Test dialog box to configure any options, then run the tests from there.
 
-The command line tool - ta execute - allows you to execute tests from your host operating system's command line interface. By itself, this capability may not be very useful. But TestArchitect also exploits this feature by enabling you to generate batch files that run the command line tool, configured to execute your tests. These batch files may in turn be launched automatically from other programs, for example as part of a nightly build process. \([Learn more](TA_command_line_execute.html)\)
+The command line tool - ta execute - allows you to execute tests from your host operating system's command line interface. By itself, this capability may not be very useful. But TestArchitect also exploits this feature by enabling you to generate batch files that run the command line tool, configured to execute your tests. These batch files may in turn be launched automatically from other programs, for example as part of a nightly build process. \([Learn more](/TA_Help/Topics/TA_command_line_execute.html)\)
 
 A typical ta execute to invoke the execution of a single TestArchitect test module might appear as follows:
 

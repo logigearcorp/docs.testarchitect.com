@@ -54,7 +54,7 @@ Use of this action is supported on the following systems/platforms:iOS native ap
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html).
+The following settings are applicable to this action:[remove double quotes from cells](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html).
 
 ## Example - Case 1: On Windows
 

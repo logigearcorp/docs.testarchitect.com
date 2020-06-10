@@ -10,13 +10,13 @@ The Car Rental automated test modules are part of the TestArchitect test suites 
 
 Ensure that the following requirements are met before the executing the Car Rental automated tests on the Android device:
 
--   You have [installed TestArchitect Agent](SR_Android_installing_TA_agent.html) on the Android device.
--   You have [re-signed the Car Rental application](SR_Car_Rental_re-signing_application.html).
--   The [re-signed Car Rental application has been installed](SR_Car_Rental_installing_re-signed_application.html) on the Android device.
+-   You have [installed TestArchitect Agent](/TA_Tutorials_Sample_App/Topics/SR_Android_installing_TA_agent.html) on the Android device.
+-   You have [re-signed the Car Rental application](/TA_Tutorials_Sample_App/Topics/SR_Car_Rental_re-signing_application.html).
+-   The [re-signed Car Rental application has been installed](/TA_Tutorials_Sample_App/Topics/SR_Car_Rental_installing_re-signed_application.html) on the Android device.
 
 1.  With TestArchitect running, double-click the **SampleRepository** node on the TestArchitect explorer tree.
 
-    ![](/images//Images/TA_Tutorials/Images/tut.Login_Repository.png)
+    ![](/images/TA_Tutorials/Images/tut.Login_Repository.png)
 
 2.  In the Log In Repository dialog box, type administrator in the **User Name** box, leave the **Password** box blank, and click **OK**.
 

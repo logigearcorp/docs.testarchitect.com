@@ -16,15 +16,15 @@ Mappings between TestArchitect and Zephyr test cases are generated automatically
 
 Ensure that you have already taken the following steps:
 
--   [Registered the Zephyr server with TestArchitect](ug_Zephyr_registering_server.html).
--   [Mapped the TestArchitect project containing the test cases of interest to a Zephyr project](ug_Zephyr_mapping_projects.html).
+-   [Registered the Zephyr server with TestArchitect](/TA_Help/Topics/ug_Zephyr_registering_server.html).
+-   [Mapped the TestArchitect project containing the test cases of interest to a Zephyr project](/TA_Help/Topics/ug_Zephyr_mapping_projects.html).
 -   Created a Zephyr test case to map to the TestArchitect test case.
 
 **Important:** A Zephyr test case can be mapped to no more than one TestArchitect test case, and vice-versa.
 
 To map TestArchitect test cases to Zephyr test cases, do the following steps:
 
-1.  In the TestArchitect explorer tree, right-click the node of a test module \(either [default](Variations_default.html) or non-default [variation](ug_TM_create_variation.html)\) containing the test cases to be mapped.
+1.  In the TestArchitect explorer tree, right-click the node of a test module \(either [default](/TA_Help/Topics/Variations_default.html) or non-default [variation](/TA_Help/Topics/ug_TM_create_variation.html)\) containing the test cases to be mapped.
 
 2.  Select **External Tool** \> **Zephyr** \> **Map Test Cases**.
 

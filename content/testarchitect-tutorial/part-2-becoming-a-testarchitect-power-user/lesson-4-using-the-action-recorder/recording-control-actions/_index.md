@@ -20,7 +20,7 @@ How to use the Action Recorder to record interactions with UI controls in the sa
     **Note:** The **Generate "navigate" action for web browser**, Highlight element on hover, and Ignore formatting tags settings only apply to browser-based recording \([learn more](/TA_Help/Topics/ug_AR_settings.html#li_e2h_yrc_vs)\), and may be ignored for purposes of this tutorial.
 
 
-1.  In the TestArchitect explorer tree, select any item within the Car Rental project, then click **Create new test module** ![](/images//Images/TA_Tutorials/Images/btn.TAC_toolbar.CreateTestModule.png) in the toolbar.
+1.  In the TestArchitect explorer tree, select any item within the Car Rental project, then click **Create new test module** ![](/images/TA_Tutorials/Images/btn.TAC_toolbar.CreateTestModule.png) in the toolbar.
 
     The New Test Module dialog box appears.
 
@@ -72,7 +72,7 @@ How to use the Action Recorder to record interactions with UI controls in the sa
 
         You are now returned to the application's Login window
 
-12. With your test module displayed in the TestArchitect editor, click **Execute** ![](/images//Images/TA_Tutorials/Images/btn.TAC_toolbar.Execute.png) on the toolbar.
+12. With your test module displayed in the TestArchitect editor, click **Execute** ![](/images/TA_Tutorials/Images/btn.TAC_toolbar.Execute.png) on the toolbar.
 
     The Execute Test dialog box appears.
 

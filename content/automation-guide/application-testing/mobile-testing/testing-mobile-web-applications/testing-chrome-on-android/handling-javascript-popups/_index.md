@@ -18,13 +18,13 @@ The following TestArchitect built-in actions are provided to both scan and handl
 
 |Action|Description|
 |------|-----------|
-|[click on next popup](click_on_next_popup.html)|Click a specified button in a prompt, alert, or confirmation popup.|
-|[enter text on next popup](enter_text_on_next_popup.html)|Write text to the user-entry field of a prompt popup, then click OK.|
-|[get popup message](get_popup_message.html)|Retrieve the messages of one or more of the last sequence of confirmation, prompt, or alert popups.|
-|[get popup default text](get_popup_default_text.html)|Retrieve the default text of the user-entry field of one or more prompt popups.|
-|[check popup message](check_popup_message.html)|Check the messages displayed by one or more confirmation, prompt, or alert popups against their respective expected text strings.|
-|[check popup default text](check_popup_default_text.html)|Check the default text of the user-entry fields of one or more prompt popups against their respective expected values.|
-|[clear popup queue](clear_popup_queue.html)|Clear any remaining unhandled popups in the current queue.|
+|[click on next popup](/TA_Automation/Topics/bia_click_on_next_popup.html)|Click a specified button in a prompt, alert, or confirmation popup.|
+|[enter text on next popup](/TA_Automation/Topics/bia_enter_text_on_next_popup.html)|Write text to the user-entry field of a prompt popup, then click OK.|
+|[get popup message](/TA_Automation/Topics/bia_get_popup_message.html)|Retrieve the messages of one or more of the last sequence of confirmation, prompt, or alert popups.|
+|[get popup default text](/TA_Automation/Topics/bia_get_popup_default_text.html)|Retrieve the default text of the user-entry field of one or more prompt popups.|
+|[check popup message](/TA_Automation/Topics/bia_check_popup_message.html)|Check the messages displayed by one or more confirmation, prompt, or alert popups against their respective expected text strings.|
+|[check popup default text](/TA_Automation/Topics/bia_check_popup_default_text.html)|Check the default text of the user-entry fields of one or more prompt popups against their respective expected values.|
+|[clear popup queue](/TA_Automation/Topics/bia_clear_popup_queue.html)|Clear any remaining unhandled popups in the current queue.|
 
 **Note:** Of the above actions, click on next popup and enter text on next popup are the most critical to proper management of popups, and hence to the successful automation of your test. These are the two actions that actually have a direct impact on popups. If your test uses either or both of these popup-handling actions, but popups are nevertheless displayed on the target device during automation, the test cannot proceed. The cause is most likely due to one of the following:
 

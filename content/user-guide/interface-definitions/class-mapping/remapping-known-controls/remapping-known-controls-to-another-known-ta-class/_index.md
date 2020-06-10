@@ -20,7 +20,7 @@ A step-by-step guide to remapping known, mapped controls to a known \(built-in T
 
 1.  Launch the application to be tested and navigate to the window containing the control\(s\) to be interfaced with.
 
-2.  Launch the [Interface Viewer](Interface_def_Viewer_Starting.html) or the [Element Definition](Interface_def_client_interface_tool_identify.html) dialog box.
+2.  Launch the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer_Starting.html) or the [Element Definition](/TA_Help/Topics/Interface_def_client_interface_tool_identify.html) dialog box.
 
     **Restriction:** The Element Definitions dialog box is unavailable with iOS and Android applications.
 
@@ -56,12 +56,12 @@ A step-by-step guide to remapping known, mapped controls to a known \(built-in T
     -   Current Class: \(Uneditable field\) The name of the TA class that the selected control is currently mapped to.
     -   Map to Class: Specify which TA class you want to map the selected control \(and its related controls\) to.
 
-        **Tip:** In the drop-down list, you can choose either a built-in TA class, or a known user-defined TA class. \(The user-defined TA classes, if any, are loaded from the [$ Class Maps entity](Interface_def_Viewer_class_mapping.html).\)
+        **Tip:** In the drop-down list, you can choose either a built-in TA class, or a known user-defined TA class. \(The user-defined TA classes, if any, are loaded from the [$ Class Maps entity](/TA_Help/Topics/Interface_def_Viewer_class_mapping.html).\)
 
 5.  Click **OK**.
 
 
-The control\(s\) are now remapped to an existing built-in or user-defined TA class, with the mapping recorded in the [$ Class Maps](Interface_def_Viewer_class_mapping.html) entity.
+The control\(s\) are now remapped to an existing built-in or user-defined TA class, with the mapping recorded in the [$ Class Maps](/TA_Help/Topics/Interface_def_Viewer_class_mapping.html) entity.
 
 **Parent topic:**[Remapping known controls](/TA_Help/Topics/Mapping_known_controls.html)
 

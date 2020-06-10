@@ -8,7 +8,7 @@ aliases:
 
 A test agent must be installed on each machine on which you intend to deploy your automated test, and on each machine to be used to collect test data. This section describes how to install a test agent and register it with a test controller.
 
-Ensure that you have installed the supported components on your computer. \([Learn more](ug_MTM_VS_components.html).\)
+Ensure that you have installed the supported components on your computer. \([Learn more](/TA_Help/Topics/ug_MTM_VS_components.html).\)
 
 1.  Please refer to Microsoft's instructions on configuring and registering a test agent:
 

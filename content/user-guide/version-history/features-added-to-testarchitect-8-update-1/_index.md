@@ -19,8 +19,8 @@ This topic describes the changes made in TestArchitect version 8 update 1.
 
     |Control|Built-in actions supporting the control|
     |-------|---------------------------------------|
-    |DevExpress.XtraGrid.GridControl|[check column header name](/TA_Automation/Topics/bia_check_column_header_name.html)<br> [get column header name](/TA_Automation/Topics/bia_get_column_header_name.html)<br><br> [get column header coordinates](/TA_Automation/Topics/bia_get_column_header_coordinates.html)<br><br> [get column number](/TA_Automation/Topics/bia_get_column_number.html)<br><br> [get table cell containing](/TA_Automation/Topics/bia_get_table_cell_containing.html)<br><br> [get table cell value](/TA_Automation/Topics/bia_get_table_cell_value.html)<br><br>|
-    |DevExpress.XtraTab.XtraTabControl|[check tab exists](/TA_Automation/Topics/bia_check_tab_exists.html)<br> [check tab not exists](/TA_Automation/Topics/bia_check_tab_not_exists.html)<br><br> [does tab exist](/TA_Automation/Topics/bia_does_tab_exist.html)<br><br> [select tab](/TA_Automation/Topics/bia_select_tab.html)<br><br>|
+    |DevExpress.XtraGrid.GridControl|[check column header name](/TA_Automation/Topics/bia_check_column_header_name.html)<br><br> [get column header name](/TA_Automation/Topics/bia_get_column_header_name.html)<br><br> [get column header coordinates](/TA_Automation/Topics/bia_get_column_header_coordinates.html)<br><br> [get column number](/TA_Automation/Topics/bia_get_column_number.html)<br><br> [get table cell containing](/TA_Automation/Topics/bia_get_table_cell_containing.html)<br><br> [get table cell value](/TA_Automation/Topics/bia_get_table_cell_value.html)<br><br>|<br>
+    |DevExpress.XtraTab.XtraTabControl|[check tab exists](/TA_Automation/Topics/bia_check_tab_exists.html)<br><br> [check tab not exists](/TA_Automation/Topics/bia_check_tab_not_exists.html)<br><br> [does tab exist](/TA_Automation/Topics/bia_does_tab_exist.html)<br><br> [select tab](/TA_Automation/Topics/bia_select_tab.html)<br><br>|<br>
 
 
 **Parent topic:**[Version history](/TA_ReleaseNotes/DITA_source/Version_History.html)

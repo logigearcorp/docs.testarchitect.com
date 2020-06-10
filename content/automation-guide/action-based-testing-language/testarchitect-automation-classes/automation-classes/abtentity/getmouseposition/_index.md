@@ -9,7 +9,7 @@ keywords: "getmouseposition, abtentity getmouseposition, get mouse location, coo
 
 ## Syntax
 
-`[TAPoint](abt_TAPoint.html) GetMousePosition()`
+`[TAPoint](/TA_Automation/Topics/abt_TAPoint.html) GetMousePosition()`
 
 ## Description
 
@@ -17,7 +17,7 @@ Retrieve the coordinates of the current mouse pointer position.
 
 ## Return Value
 
-[TAPoint](abt_TAPoint.html) object containing the following coordinates:
+[TAPoint](/TA_Automation/Topics/abt_TAPoint.html) object containing the following coordinates:
 
 -   **x**
 

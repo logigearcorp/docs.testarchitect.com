@@ -10,9 +10,9 @@ Describes detailed steps to configure Appium server locally on Windows machines.
 
 Ensure that the following requirements are met:
 
--   [Set up](aut_app_cloud_testing_Android_configuration.html) Android development environment.
+-   [Set up](/TA_Automation/Topics/aut_app_cloud_testing_Android_configuration.html) Android development environment.
 -   [Download](https://appkitbox.com/en/testkit/download) and [install](https://appkitbox.com/en/testkit/support/signin/signin14) the Remote TestKit Client application. Note that you must also have an account to access and use the Remote TestKit Client service.
--   [Rent](aut_app_cloud_testing_RTK_renting.html) an Android cloud device in Remote TestKit.
+-   [Rent](/TA_Automation/Topics/aut_app_cloud_testing_RTK_renting.html) an Android cloud device in Remote TestKit.
 -   [Download](https://appium.io/downloads.html) and install the Appium desktop application for Windows machine.
 
 1.  Launch the Appium application.
@@ -29,7 +29,7 @@ Ensure that the following requirements are met:
 
     -   **Platform Name**: Android
     -   **Automation Name**: Appium
-    -   **PlatformVersion**: Android version of the cloud device rented on Remote TestKit. Note that, the SDK package of this Android version must also be available. \([Learn more](aut_app_cloud_testing_Android_configuration.html).\)
+    -   **PlatformVersion**: Android version of the cloud device rented on Remote TestKit. Note that, the SDK package of this Android version must also be available. \([Learn more](/TA_Automation/Topics/aut_app_cloud_testing_Android_configuration.html).\)
     ![](/images//Images/Android_settings_2_dlg.png)
 
 5.  In the Appium dialog box, click the **Developer Setting** ![](/images//Images/user_settings_btn.png) button.

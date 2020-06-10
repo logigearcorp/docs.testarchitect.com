@@ -13,8 +13,8 @@ Preparing your test machine to ensure the testability of your Silverlight applic
 Ensure the following requirements are met:
 
 -   Silverlight 5 installed on your test machine. You can download Silverlight from [http://www.microsoft.com/silverlight/](http://www.microsoft.com/silverlight/) web page.
--   Your browser's cache has been cleared and the zoom ratio is set to 100%. Refer to [Preparing a web browser](aut_app_testing_Silverlight_apps_prepraring_browser.html) for more information.
--   A TestArchitect Certificate Authority installed on your test machine. See [Installing a Certificate Authority](aut_app_testing_Silverlight_apps_installing_CA.html) for details.
+-   Your browser's cache has been cleared and the zoom ratio is set to 100%. Refer to [Preparing a web browser](/TA_Automation/Topics/aut_app_testing_Silverlight_apps_prepraring_browser.html) for more information.
+-   A TestArchitect Certificate Authority installed on your test machine. See [Installing a Certificate Authority](/TA_Automation/Topics/aut_app_testing_Silverlight_apps_installing_CA.html) for details.
 -   When installing TestArchitect, make sure that both the components TestArchitect Client and Repository Server are selected; this is essential to ensuring that the Interface Viewer can detect Silverlight controls.
 -   CAUTION:
 
@@ -35,7 +35,7 @@ Carry out the following procedures:
 
     -   TAPr0xy changes your current proxy setting, which is essential for testing Silverlight applications.
 
-        **Note:** This change affects every web browser on the machine including Internet Explorer, Mozilla Firefox and Google Chrome. If you no longer need to test Silverlight applications, it is highly recommended that you [reset the proxy server settings](aut_app_testing_Silverlight_reset_proxy_settings.html).
+        **Note:** This change affects every web browser on the machine including Internet Explorer, Mozilla Firefox and Google Chrome. If you no longer need to test Silverlight applications, it is highly recommended that you [reset the proxy server settings](/TA_Automation/Topics/aut_app_testing_Silverlight_reset_proxy_settings.html).
 
     -   TASilverlightAgentServer injects some essential libraries into the application to make it testable. \(Note, however, that it does not change the Silverlight application's source code.\)
     -   These two files can be found at the following locations:

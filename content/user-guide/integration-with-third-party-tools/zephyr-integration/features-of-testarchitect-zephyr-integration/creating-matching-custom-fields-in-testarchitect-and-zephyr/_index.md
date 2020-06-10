@@ -22,7 +22,7 @@ To create matching user-defined fields in TestArchitect and Zephyr:
 
     -   Name: The name of the TestArchitect user-defined field must be identical to that of its corresponding custom field in Zephyr .
     -   Apply to: Only Test module and Test case are mappable to Zephyr custom fields.
-    -   Value Type: Field data types must match between TestArchitect and Zephyr \(See the [TestArchitect and Zephyr Data Types table](ug_Zephyr_matching_custom_fields.html) for details\).
+    -   Value Type: Field data types must match between TestArchitect and Zephyr \(See the [TestArchitect and Zephyr Data Types table](/TA_Help/Topics/ug_Zephyr_matching_custom_fields.html) for details\).
     -   Default value: Assign a default value to a user-defined field.
 
         **Important:** For a TestArchitect field that maps to a Zephyr field designated as Mandatory, it is essential that a value exist in the TestArchitect field when its corresponding test module or test case is uploaded to Zephyr. You can ensure that such fields will have values by utilizing the **Default Value** field in the New Field dialog box. \(For existing user-defined fields, defaults can also be set in the Edit Field dialog box.\) A given user-defined field for a particular test module or test case may also be set to a specific value via the **Information** tab of the project item.

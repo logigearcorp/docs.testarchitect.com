@@ -16,7 +16,7 @@ This example demonstrates the steps involved in using the Uninstall command with
 
 Ensure that the following requirements are met:
 
--   TestArchitect Agent is installed on the targeted Android device \(refer to [Installing TestArchitect Agent](Installing_TA_agent.html)\).
+-   TestArchitect Agent is installed on the targeted Android device \(refer to [Installing TestArchitect Agent](/Android/Topics/Installing_TA_agent.html)\).
 -   The Android command line tool does not have sufficient privileges to remove a device admin application. It is recommended that you deactivate the device admin rights of the application to allow the tool to remove it. To deactivate device admin rights, carry out the following procedure:
 
     1.  On the Android device, select **Settings** \> **Security**.
@@ -30,7 +30,7 @@ Ensure that the following requirements are met:
 
 2.  Type ast.exe uninstall "com.logigear" -s "2c4401c15d52" -k to uninstall the Car Rental application on the targeted Android device whose unique ID is 2c4401c15d52, but to keep the data and cache directories after uninstalling the package.
 
-    Review [Uninstall command](Android_command_line_tool_uninstall.html#p_sxr_4t2_5l) to understand the Uninstall command's syntax.
+    Review [Uninstall command](/Android/Topics/Android_command_line_tool_uninstall.html#p_sxr_4t2_5l) to understand the Uninstall command's syntax.
 
     **Tip:**
 
@@ -39,13 +39,13 @@ Ensure that the following requirements are met:
         1.  Open the [Android Instrumentation Tool](/reuse/../Android/Topics/Android_Instrumentation_tool.html) dialog box.
         2.  In the Application Under Test panel, right-click the appropriate application, and then select **Copy package name**.
 
-            ![](/images//Images/Android/Images/Android_copy_package_name.png)
+            ![](/images/Android/Images/Android_copy_package_name.png)
 
         3.  Paste the copied value into the Package Name parameter in the Uninstall command.
     -   To obtain the unique ID of an Android device:
         1.  Open the [Android Instrumentation Tool](/reuse/../Android/Topics/Android_Instrumentation_tool.html) dialog box.
         2.  Select the device whose unique ID you wish to obtain.
-        3.  Click ![](/images//Images/Android/Images/android_copy_ID.png) on the Android Instrumentation Tool's toolbar to copy the unique ID to the clipboard.
+        3.  Click ![](/images/Android/Images/android_copy_ID.png) on the Android Instrumentation Tool's toolbar to copy the unique ID to the clipboard.
         4.  Paste the copied content into the unique ID parameter in the Uninstall command.
 3.  Press Enter on your keyboard to execute the Uninstall command.
 

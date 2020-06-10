@@ -27,7 +27,7 @@ To compare an item against the reference item, do the following:
 
 The Diff Tool window appears, with the two items displayed in side-by-side panels, the reference \(marked\) item on the left and the comparison item on the right. The toolbar provides functions for viewing and navigating among the detected differences.
 
-The screenshot below shows a typical comparison of two project items. The elements are described in more detail in [Diff Tool dialog box](ug_diff_tool_comparing_items.html).
+The screenshot below shows a typical comparison of two project items. The elements are described in more detail in [Diff Tool dialog box](/TA_Help/Topics/ug_diff_tool_comparing_items.html).
 
 ![](/images//Images/diff_tool_dlg_2.png)
 

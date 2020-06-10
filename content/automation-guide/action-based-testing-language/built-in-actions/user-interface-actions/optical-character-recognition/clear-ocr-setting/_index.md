@@ -21,7 +21,7 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   This built-in action resets any OCR settings whose values have been modified by any prior invocations of action [set ocr setting](set_ocr_setting.html).
+-   This built-in action resets any OCR settings whose values have been modified by any prior invocations of action [set ocr setting](/TA_Automation/Topics/bia_set_ocr_setting.html).
 -   On an iOS device, the default logical coordinate space is measured using points. Therefore, all values are specified in points instead of pixels.
 -   clear ocr setting sets the following values:
     -   min edge length: 50pixels[1](#fn.iOS_screen_units).
@@ -33,7 +33,7 @@ This action may be used within the following project items:test modules and user
 -   **Android:** This built-in action, when applied to a connected Android device, requires that the [TestArchitect Agent service](/reuse/../Android/Topics/Android_TA_agent.html) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
     1.  Connect the Android device to the test controller through a USB cable \(not Wi-Fi\), if not already so connected.
     2.  Open the [Android Instrumentation Tool](/reuse/../Android/Topics/Android_Instrumentation_tool.html) dialog box.
-    3.  Click the **Refresh devices list** ![](/images//Images/Android/Images/Refresh_device_list_btn.png) button.
+    3.  Click the **Refresh devices list** ![](/images/Android/Images/Refresh_device_list_btn.png) button.
 
 ## Applicable Built-In Settings
 

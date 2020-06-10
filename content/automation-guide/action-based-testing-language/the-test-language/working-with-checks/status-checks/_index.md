@@ -10,7 +10,7 @@ How to implement test scripts that verify the status of a control.
 
 TestArchitect offers various built-in actions that check the status of a control.
 
-1.  During a test, you may want to check the status of a control against an expected value. One of the most common built-in action used for this scenario is [check control property](check_control_property.html), which captures the value of a specified property from a control then compares the value against an expected value. For this built-in action, you usually need to pass the state property into the property argument.
+1.  During a test, you may want to check the status of a control against an expected value. One of the most common built-in action used for this scenario is [check control property](/TA_Automation/Topics/bia_check_control_property.html), which captures the value of a specified property from a control then compares the value against an expected value. For this built-in action, you usually need to pass the state property into the property argument.
     -   For example, suppose you want to verify if the status value of the Radio2 radio button is checked.
 
         ![](/images//Images/bia_check_control_property_aut_2.png)
@@ -19,11 +19,11 @@ TestArchitect offers various built-in actions that check the status of a control
 
         ![](/images//Images/bia_check_control_property_pgm_2.png)
 
-    -   If the verification succeeds, [check control property](check_control_property.html) reports a Passed message; otherwise, it reports a Failed message.
+    -   If the verification succeeds, [check control property](/TA_Automation/Topics/bia_check_control_property.html) reports a Passed message; otherwise, it reports a Failed message.
 
         ![](/images//Images/bia_check_control_property_res_2.png)
 
-2.  Other built-in actions that can be used to check the status of controls are [check listbox checked](check_listbox_checked.html), which checks the state of a check box item in a list box, and [check status bar section state](check_status_bar_section_state.html), which checks the state of a status bar against an expected value.
+2.  Other built-in actions that can be used to check the status of controls are [check listbox checked](/TA_Automation/Topics/bia_check_listbox_checked.html), which checks the state of a check box item in a list box, and [check status bar section state](/TA_Automation/Topics/bia_check_status_bar_section_state.html), which checks the state of a status bar against an expected value.
     -   For example, suppose you want to verify if the status value of the Infant Seat \($10.0/day\)check box is checked.
 
         ![](/images//Images/bia_check_listbox_checked_aut.png)
@@ -32,12 +32,12 @@ TestArchitect offers various built-in actions that check the status of a control
 
         ![](/images//Images/bia_check_listbox_checked_pgm.png)
 
-    -   If the verification succeeds, [check listbox checked](check_listbox_checked.html) reports a Passed message; otherwise, it reports a Failed message.
+    -   If the verification succeeds, [check listbox checked](/TA_Automation/Topics/bia_check_listbox_checked.html) reports a Passed message; otherwise, it reports a Failed message.
 
         ![](/images//Images/bia_check_listbox_checked_res.png)
 
 
-TestArchitect provides several built-in actions to check the status of items such as [check tree node status](check_tree_node_status.html), which checks the current status of a tree node and [check context menu item state](check_context_menu_item_state.html), which validates the current state of a given menu item on a context menu.
+TestArchitect provides several built-in actions to check the status of items such as [check tree node status](/TA_Automation/Topics/bia_check_tree_node_status.html), which checks the current status of a tree node and [check context menu item state](/TA_Automation/Topics/bia_check_context_menu_item_state.html), which validates the current state of a given menu item on a context menu.
 
 -   For example, suppose you want to verify the status of the **Standard**, **Compact** and **Toyota Prius** tree nodes.
 
@@ -47,7 +47,7 @@ TestArchitect provides several built-in actions to check the status of items suc
 
     ![](/images//Images/bia_check_tree_node_status_pgm.png)
 
--   If the verification succeeds, [check tree node status](check_tree_node_status.html) reports a Passed message; otherwise, it reports a Failed message.
+-   If the verification succeeds, [check tree node status](/TA_Automation/Topics/bia_check_tree_node_status.html) reports a Passed message; otherwise, it reports a Failed message.
 
     ![](/images//Images/bia_check_tree_node_status_res.png)
 

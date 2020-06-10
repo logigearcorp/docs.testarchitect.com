@@ -19,8 +19,8 @@ After a test run, or any number of test runs, it is possible to have either loca
 
 **Remember:**
 
--   It is highly recommended that you avoid adding local test results, which contain numerous unverified picture checks, to the repository \([learn more](Test_result_storing.html)\), since this might increase your repository's size dramatically.
--   Note that, if you add test results to the repository by an [automatic mean](Test_result_storing_automatically.html), all unverified picture checks will be discarded totally.
+-   It is highly recommended that you avoid adding local test results, which contain numerous unverified picture checks, to the repository \([learn more](/TA_Help/Topics/Test_result_storing.html)\), since this might increase your repository's size dramatically.
+-   Note that, if you add test results to the repository by an [automatic mean](/TA_Help/Topics/Test_result_storing_automatically.html), all unverified picture checks will be discarded totally.
 
 Of course, these can result when the test has been run in [automated](/TA_Automation/Topics/bis_verify_picture.html) mode, given that Picture Check dialog boxes are suppressed from automatically popping up. But they can also result from tests run under [semi-automated](/TA_Automation/Topics/bis_verify_picture.html) mode, given that the user can choose to defer making a Pass/Fail decision for each unverified picture check.
 
@@ -34,11 +34,11 @@ To resolve unverified picture checks, perform the following steps:
 
     -   From the **Tools** menu, select **Verify picture checks**.
     -   Right-click the selection, and then select **Verify Picture Checks**.
-    -   Double-click the selection, and then click the **Verify picture checks** ![](/TA_Automation/Images/btn_verify_picture_check_result_panel.png) button in the result panel.
+    -   Double-click the selection, and then click the **Verify picture checks** ![](/images/TA_Automation/Images/btn_verify_picture_check_result_panel.png) button in the result panel.
 
         ![](/images//Images/bia_check_picture_aut_7.png)
 
-    **Tip:** If there are unverified picture checks in your [serial test results](ug_test_results_introduction.html#section.Serial_results), you can quickly verify them by selecting the master result node in TestArchitect explorer tree, and then repeating one of the above options. For example:
+    **Tip:** If there are unverified picture checks in your [serial test results](/TA_Help/Topics/ug_test_results_introduction.html#section.Serial_results), you can quickly verify them by selecting the master result node in TestArchitect explorer tree, and then repeating one of the above options. For example:
 
     ![](/images//Images/verify_PC_master_results.png)
 

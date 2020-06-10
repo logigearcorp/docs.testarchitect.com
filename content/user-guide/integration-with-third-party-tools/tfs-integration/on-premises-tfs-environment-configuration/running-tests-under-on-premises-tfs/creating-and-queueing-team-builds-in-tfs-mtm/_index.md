@@ -8,18 +8,18 @@ aliases:
 
 To run automated tests in MTM, create a team build that includes your test project, and add the build to your test plan.
 
-1.  Create and configure a [TFS build definition](ug_MTM_build_definition.html).
+1.  Create and configure a [TFS build definition](/TA_Help/Topics/ug_MTM_build_definition.html).
 
-2.  After creating and configuring a TFS build definition, [run](MTM_queue_XAML_build.html) it to create a build instance to be associated with a test plan.
+2.  After creating and configuring a TFS build definition, [run](/TA_Help/Topics/MTM_queue_XAML_build.html) it to create a build instance to be associated with a test plan.
 
 
 When integrated with TestArchitect, keep in mind the following:
 
 **Important:** This task is one that must often be repeated, especially when you have modified mapped TFS test cases. \(For example, you remove or add test cases, or change the order of a test case run.\) When you do so, the association between TFS test cases and Visual Studio test methods/TestArchitect test cases is compromised. Hence, it is necessary that you perform the following steps again:
 
-1.  Re-[associate](ug_MTM_associate.html) TestArchitect test cases with TFS test cases.
+1.  Re-[associate](/TA_Help/Topics/ug_MTM_associate.html) TestArchitect test cases with TFS test cases.
 2.  Check in your project.
-3.  [Queue](ug_MTM_queue_build.html) the build.
+3.  [Queue](/TA_Help/Topics/ug_MTM_queue_build.html) the build.
 
 **Parent topic:**[Running automated tests under on-premises Team Foundation Server](/TA_Help/Topics/ug_MTM_test_execution.html)
 

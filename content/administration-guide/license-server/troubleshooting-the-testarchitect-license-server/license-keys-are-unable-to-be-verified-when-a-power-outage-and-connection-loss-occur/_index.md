@@ -20,7 +20,7 @@ This issue might cause the license keys, which have been previously inputted, to
 
     ![](/images//Images/LS_terminate_service.png)
 
-3.  [Start](LS_TA_managing_start_stop.html) the TestArchitect License Server.
+3.  [Start](/TA_Administration/Topics/LS_TA_managing_start_stop.html) the TestArchitect License Server.
 
 
 The license keys are now verified successfully on the License Server.

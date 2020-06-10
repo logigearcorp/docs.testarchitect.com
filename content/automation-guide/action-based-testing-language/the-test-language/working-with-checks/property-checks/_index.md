@@ -8,7 +8,7 @@ aliases:
 
 How to make property checks of specified windows or controls.
 
-Each window and control has a set of properties along with values for those properties. Property sets vary depending on the class of object involved. A button, for example, has a different set of properties than a window. The most common built-in actions used for property checks are [check window property](check_window_property.html), which checks the value of a specified property of a window against an expected value, and [check control property](check_control_property.html), which captures the value of a specified property from a control and then compares it against an expected value.
+Each window and control has a set of properties along with values for those properties. Property sets vary depending on the class of object involved. A button, for example, has a different set of properties than a window. The most common built-in actions used for property checks are [check window property](/TA_Automation/Topics/bia_check_window_property.html), which checks the value of a specified property of a window against an expected value, and [check control property](/TA_Automation/Topics/bia_check_control_property.html), which captures the value of a specified property from a control and then compares it against an expected value.
 
 -   For example, suppose you want to verify the title, maximized or visible properties of the Login window.
 
@@ -18,7 +18,7 @@ Each window and control has a set of properties along with values for those prop
 
     ![](/images//Images/bia_check_window_property_pgm.png)
 
--   If the verification succeeds, [check window property](check_window_property.html) reports a Passed message; otherwise, it reports a Failed message.
+-   If the verification succeeds, [check window property](/TA_Automation/Topics/bia_check_window_property.html) reports a Passed message; otherwise, it reports a Failed message.
 
     ![](/images//Images/bia_check_window_property_res.png)
 
@@ -30,7 +30,7 @@ Each window and control has a set of properties along with values for those prop
 
     ![](/images//Images/bia_check_control_property_pgm.png)
 
--   If the verification succeeds, the [check control property](check_control_property.html) reports a Passed message; otherwise, it reports a Failed message.
+-   If the verification succeeds, the [check control property](/TA_Automation/Topics/bia_check_control_property.html) reports a Passed message; otherwise, it reports a Failed message.
 
     ![](/images//Images/bia_check_control_property_res.png)
 

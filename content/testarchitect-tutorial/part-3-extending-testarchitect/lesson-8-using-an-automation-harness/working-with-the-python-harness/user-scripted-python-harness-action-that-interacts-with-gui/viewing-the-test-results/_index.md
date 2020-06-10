@@ -14,7 +14,7 @@ Run a test using yourPython-coded action, and ensure that it properly interacts 
 -   [Created the Python method](/reuse/../TA_Tutorials/Topics/Scripting_a_GUI-interfacing_action.html) action\_CheckRowCount\(\) to implement the check row count action, and [written the essential code](/reuse/../TA_Tutorials/Topics/Creating_a_new_code_script_module.html) to ensure that the execution of check row count results in control being directed to that method.
 -   
 
-You will run a test which executes the check row count action, which you have implemented in the TestArchitect harness as aPython script. Your action, as invoked, examines the **View Orders** table of the Car Rental application \(below\), counts the number of rows in which the contents of the **Car Type** column is "Ford Mustang Coupe", and compares that number to the expected count of 2.![](/images//Images/TA_Tutorials/Images/app.Car_Rental.View_Orders.unmodified.png)
+You will run a test which executes the check row count action, which you have implemented in the TestArchitect harness as aPython script. Your action, as invoked, examines the **View Orders** table of the Car Rental application \(below\), counts the number of rows in which the contents of the **Car Type** column is "Ford Mustang Coupe", and compares that number to the expected count of 2.![](/images/TA_Tutorials/Images/app.Car_Rental.View_Orders.unmodified.png)
 
 
 
@@ -22,11 +22,11 @@ You will run a test which executes the check row count action, which you have im
 
     The login window appears.
 
-    ![](/images//Images/TA_Tutorials/Images/app.Car_Rental.Login.unmodified.png)
+    ![](/images/TA_Tutorials/Images/app.Car_Rental.Login.unmodified.png)
 
 2.  Log in to the application, and navigate to the View Orders window.
 
-3.  With your test module displayed in the TestArchitect editor, click **Execute** ![](/images//Images/TA_Tutorials/Images/btn.TAC_toolbar.Execute.png) on the toolbar.
+3.  With your test module displayed in the TestArchitect editor, click **Execute** ![](/images/TA_Tutorials/Images/btn.TAC_toolbar.Execute.png) on the toolbar.
 
     The Execute Test dialog box appears.
 
@@ -36,15 +36,15 @@ You will run a test which executes the check row count action, which you have im
 
 5.  Select **TestArchitect Python Harness** from **Playback Tool** option.
 
-6.  Click ![](/images//Images/TA_Help/Images/btn.browse-ellipsis.02.png) next to the **Script\(s\)** field to browse to the fileta\_main.py.
+6.  Click ![](/images/TA_Help/Images/btn.browse-ellipsis.02.png) next to the **Script\(s\)** field to browse to the fileta\_main.py.
 
-    ![](/images//Images/TA_Tutorials/Images/dlg.Automation_Tools.Python_settings02.png)
+    ![](/images/TA_Tutorials/Images/dlg.Automation_Tools.Python_settings02.png)
 
     **Note:** The default location for the python executable\(s\) is c:\\Python\\python.exe. If you install Python in a different location, you'll need to set the location, then move to the next step.
 
     **Tip:** To save time, install Python to the default location C:\\Python\\.
 
-    Additionally, from TestArchitect 8.5 onward, in the python\_harness.bat file located in the folder C:\\Program Files\\LogiGear\\TestArchitect\\harness samples\\python, the default value will be Python 3. If a user wants to use Python 2, they will need to modify the path in this file like below:![](/images//Images/TA_Tutorials/Images/python_path.PNG)
+    Additionally, from TestArchitect 8.5 onward, in the python\_harness.bat file located in the folder C:\\Program Files\\LogiGear\\TestArchitect\\harness samples\\python, the default value will be Python 3. If a user wants to use Python 2, they will need to modify the path in this file like below:![](/images/TA_Tutorials/Images/python_path.PNG)
 
 7.  Click **OK** to return to the Execute Test dialog box.
 
@@ -55,7 +55,7 @@ You will run a test which executes the check row count action, which you have im
 
 Upon completion of the test, the results are displayed:
 
-![](/images//Images/TA_Tutorials/Images/tut.Data_Sets.Test03_Results.png)
+![](/images/TA_Tutorials/Images/tut.Data_Sets.Test03_Results.png)
 
 **Parent topic:**[User-scripted Python harness action that interacts with GUI](/TA_Tutorials/Topics/Creating_a_harness_action_that_interacts_with_a_GUI.html)
 

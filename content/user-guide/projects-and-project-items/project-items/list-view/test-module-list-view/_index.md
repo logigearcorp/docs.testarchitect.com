@@ -8,7 +8,7 @@ aliases:
 
 A test module list view displays a list of all test module contained within either the **Tests** node or one of its subfolders.
 
-On the TestArchitect explorer tree, when you double-click the [**Tests**](Project_items_tests.html) node, and then select the **Test Modules** tab. TestArchitect displays a list view of test modules for the project.
+On the TestArchitect explorer tree, when you double-click the [**Tests**](/TA_Help/Topics/Project_items_tests.html) node, and then select the **Test Modules** tab. TestArchitect displays a list view of test modules for the project.
 
 **Note:** Test module list views are also available for subfolders of the**Tests** node.
 
@@ -18,7 +18,7 @@ The following operations can be performed on a test module list view:
 
 ## Common operations
 
-You can find various common operations that can be performed on test module list views [here](Listview_common_operations.html).
+You can find various common operations that can be performed on test module list views [here](/TA_Help/Topics/Listview_common_operations.html).
 
 ## Opening a test module
 
@@ -28,7 +28,7 @@ From a list view, you can open a test module in the editor by right-clicking its
 
 ## Creating test suites
 
-Test suites are used to organize and execute test modules based on certain criteria. They provide flexibility in managing execution plans. For example, you can create a test suite based on an existing set of test modules and then execute all of the test modules as a set with a single action. \([Learn more](Test_suite_item_static.html#step.Option_4).\)
+Test suites are used to organize and execute test modules based on certain criteria. They provide flexibility in managing execution plans. For example, you can create a test suite based on an existing set of test modules and then execute all of the test modules as a set with a single action. \([Learn more](/TA_Help/Topics/Test_suite_item_static.html#step.Option_4).\)
 
 ## Test execution
 
@@ -51,25 +51,25 @@ Test suites are used to organize and execute test modules based on certain crite
 
 ## Test results
 
--   **Opening latest test result**: If you run a test multiple times, you can conveniently open the most recent test result. \([Learn more](Test_result_open_latest_test_result.html).\)
--   **Opening baseline result**: If your test module currently has a [baseline test result](Test_result_comparison_dialog_box.html) associated with it, you can easily access it. \([Learn more](Test_result_open_baseline_result.html).\)
+-   **Opening latest test result**: If you run a test multiple times, you can conveniently open the most recent test result. \([Learn more](/TA_Help/Topics/Test_result_open_latest_test_result.html).\)
+-   **Opening baseline result**: If your test module currently has a [baseline test result](/TA_Help/Topics/Test_result_comparison_dialog_box.html) associated with it, you can easily access it. \([Learn more](/TA_Help/Topics/Test_result_open_baseline_result.html).\)
 
 ## Revision control
 
--   Check-out is the process of creating a local working copy from the repository. When a project item is checked out, a lock is placed on that item preventing other users from modifying it. \([Learn more](Project_items_checkout.html).\)
--   Check-in is the process of writing the changes made to a local working copy back to the repository. Checking in a project item releases the lock on it, allowing other authorized users to check out the item and modify it as needed. \([Learn more](Project_items_checkin.html).\)
--   Undoing a checkout allows you to cancel a checkout and discard any changes you have made to the local copy. \([Learn more](Project_items_undo_checkout.html).\)
+-   Check-out is the process of creating a local working copy from the repository. When a project item is checked out, a lock is placed on that item preventing other users from modifying it. \([Learn more](/TA_Help/Topics/Project_items_checkout.html).\)
+-   Check-in is the process of writing the changes made to a local working copy back to the repository. Checking in a project item releases the lock on it, allowing other authorized users to check out the item and modify it as needed. \([Learn more](/TA_Help/Topics/Project_items_checkin.html).\)
+-   Undoing a checkout allows you to cancel a checkout and discard any changes you have made to the local copy. \([Learn more](/TA_Help/Topics/Project_items_undo_checkout.html).\)
 
 ## Revision history
 
-Repository saves pertinent information on a project item at every check-in. This includes timestamp, assigned version, project name, item type, item name, user who checked in the item, and included comments. \([Learn more](Project_items_history.html).\)
+Repository saves pertinent information on a project item at every check-in. This includes timestamp, assigned version, project name, item type, item name, user who checked in the item, and included comments. \([Learn more](/TA_Help/Topics/Project_items_history.html).\)
 
 ## Project item comparisons
 
 TestArchitect's Diff Tool can be invoked from the list view, allowing you to compare the differences between two project items in the list, or two revisions of the same item.
 
--   For comparing two project items, see [Comparing project items with Diff Tool](ug_diff_tool_comparing_items.html).
--   For comparing two revisions of a project item, see [Comparing a project item's revisions with Diff Tool](ug_diff_tool_comparing_revisions.html).
+-   For comparing two project items, see [Comparing project items with Diff Tool](/TA_Help/Topics/ug_diff_tool_comparing_items.html).
+-   For comparing two revisions of a project item, see [Comparing a project item's revisions with Diff Tool](/TA_Help/Topics/ug_diff_tool_comparing_revisions.html).
 
 ## Cut-Copy-Paste operations, and Delete command
 
@@ -85,32 +85,32 @@ TestArchitect's Diff Tool can be invoked from the list view, allowing you to com
 
 ## Name change propagation
 
-The process of renaming a given entity so that the change propagates to all references to that item is known as [name change propagation](/TA_Glossary/Topics/glossaryNameChangePropagation.html). Renaming an entity automatically updates all applicable action lines, test modules, and action definitions where the entity name appears. \([Learn more](Project_and_project_items_rename_refactoring.html).\)
+The process of renaming a given entity so that the change propagates to all references to that item is known as [name change propagation](/TA_Glossary/Topics/glossaryNameChangePropagation.html). Renaming an entity automatically updates all applicable action lines, test modules, and action definitions where the entity name appears. \([Learn more](/TA_Help/Topics/Project_and_project_items_rename_refactoring.html).\)
 
 ## Exporting test module to external files
 
-Test modules can be exported as [.ZIP](Test_module_exporting_to_zip.html) or [.CSV](Exporing_to_CSV_single_test_module.html) files, which can be used as a backup or for re-importing.
+Test modules can be exported as [.ZIP](/TA_Help/Topics/Test_module_exporting_to_zip.html) or [.CSV](/TA_Help/Topics/Exporing_to_CSV_single_test_module.html) files, which can be used as a backup or for re-importing.
 
 ## Importing test cases from CSV files
 
-Test cases can be imported from [.CSV](Importing_from_CSV_test_cases.html) files into a test module.
+Test cases can be imported from [.CSV](/TA_Help/Topics/Importing_from_CSV_test_cases.html) files into a test module.
 
 ## Reporting
 
-TestArchitect can generate reports to show the progress of the test or automation development, as well as test run performance and results. \([Learn more](Report_producing.html#choice_oj2_cwb_cw).\)
+TestArchitect can generate reports to show the progress of the test or automation development, as well as test run performance and results. \([Learn more](/TA_Help/Topics/Report_producing.html#choice_oj2_cwb_cw).\)
 
 ## Integration with third-party tools
 
-TestArchitect seamlessly integrates with several powerful third-party tools, to assist in application development, continuous integration, and test management. Interfaces with [HP Quality Center](Integration_QC_intro.html) \(QC\), and [Team Foundation Server/Microsoft Test Manager](ug_MTM_def.html) \(TFS-MTM\) are all available to extend TestArchitect's functionality and empower your and your team.
+TestArchitect seamlessly integrates with several powerful third-party tools, to assist in application development, continuous integration, and test management. Interfaces with [HP Quality Center](/TA_Help/Topics/Integration_QC_intro.html) \(QC\), and [Team Foundation Server/Microsoft Test Manager](/TA_Help/Topics/ug_MTM_def.html) \(TFS-MTM\) are all available to extend TestArchitect's functionality and empower your and your team.
 
 -   HP Quality Center:
-    -   Importing QC tests into a TA test module \([learn more](Integration_QC_test_development_step_1.html)\)
-    -   Uploading TA test modules/test cases to QC \([learn more](Integration_QC_test_development_step_2.html)\)
-    -   Mapping TA test cases to QC tests \([learn more](Integration_QC_connecting_repo_to_QC_server_step_3.html)\)
+    -   Importing QC tests into a TA test module \([learn more](/TA_Help/Topics/Integration_QC_test_development_step_1.html)\)
+    -   Uploading TA test modules/test cases to QC \([learn more](/TA_Help/Topics/Integration_QC_test_development_step_2.html)\)
+    -   Mapping TA test cases to QC tests \([learn more](/TA_Help/Topics/Integration_QC_connecting_repo_to_QC_server_step_3.html)\)
 -   Team Foundation Server-Microsoft Test Manager:
-    -   Import TFS test cases to TA \([learn more](ug_MTM_import_TC.html)\)
-    -   Uploading TA test modules/test cases to TFS \([learn more](ug_upload_TAtest_MTM.html)\)
-    -   Mapping TA test cases to TFS test cases \([learn more](Integration_MTM_mapping_TA_MTM_IDs.html)\)
+    -   Import TFS test cases to TA \([learn more](/TA_Help/Topics/ug_MTM_import_TC.html)\)
+    -   Uploading TA test modules/test cases to TFS \([learn more](/TA_Help/Topics/ug_upload_TAtest_MTM.html)\)
+    -   Mapping TA test cases to TFS test cases \([learn more](/TA_Help/Topics/Integration_MTM_mapping_TA_MTM_IDs.html)\)
 
 -   **[Replacing](/TA_Help/Topics/Listview_test_module_replacing.html)**  
 You can automatically replace a word or phrase with another in a field of a test module list view - for example, you can replace Log in with Sign in as the name of a test module.

@@ -6,5 +6,5 @@ aliases:
     - /TA_Glossary/Topics/glossaryUISampling.html
 ---
 
-Type of [UI-interactive action](glossaryUIInteractiveAction.html) built-in action, such as get, get displayed text, or get selected items, that retrieves values from the AUT.
+Type of [UI-interactive action](/TA_Glossary/Topics/glossaryUIInteractiveAction.html) built-in action, such as get, get displayed text, or get selected items, that retrieves values from the AUT.
 

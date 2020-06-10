@@ -39,7 +39,7 @@ There are four possible settings:
 ## Notes
 
 -   When a problem with a high enough severity causes the test to pause, the user is presented with a message box indicating the nature of the problem, and is offered the choices of stopping the test, continuing with the remainder of the test, or debugging the problem.
--   notice level can be set with the dedicated [set notice level](set_notice_level.html) action, as well as through the [setting](setting.html) action.
+-   notice level can be set with the dedicated [set notice level](/TA_Automation/Topics/bia_set_notice_level.html) action, as well as through the [setting](/TA_Automation/Topics/bia_setting.html) action.
 
 **Parent topic:**[Other settings](/TA_Automation/Topics/bis_other.html)
 

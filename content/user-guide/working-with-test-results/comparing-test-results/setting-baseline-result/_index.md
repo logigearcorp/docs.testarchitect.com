@@ -8,7 +8,7 @@ aliases:
 
 Methods for defining a test result as the baseline.
 
-Ensure that TestArchitect is running and connected to the repository that contains the test results you want to set as a baseline \(see [Adding test results manually](Test_result_viewing_storing.html)\).
+Ensure that TestArchitect is running and connected to the repository that contains the test results you want to set as a baseline \(see [Adding test results manually](/TA_Help/Topics/Test_result_viewing_storing.html)\).
 
 Choose one of the following three methods to designate a test result as the baseline:
 
@@ -39,7 +39,7 @@ Choose one of the following three methods to designate a test result as the base
     3.  Click **Set as Baseline Result** from the context menu.
 
 
-The icon for the test result that has been set as the baseline now has a **B** overlaid on it, indicating that it is indeed now the baseline. If there was a previous baseline for the test module/test module variation, it now loses its designation. You can proceed to compare other test results in the same test module or the same test module variation, against the new baseline results \(see [Comparing results with baseline](Test_result_compare_to_baseline_results.html)\).
+The icon for the test result that has been set as the baseline now has a **B** overlaid on it, indicating that it is indeed now the baseline. If there was a previous baseline for the test module/test module variation, it now loses its designation. You can proceed to compare other test results in the same test module or the same test module variation, against the new baseline results \(see [Comparing results with baseline](/TA_Help/Topics/Test_result_compare_to_baseline_results.html)\).
 
 ![](/images//Images/baseline_result.png)
 

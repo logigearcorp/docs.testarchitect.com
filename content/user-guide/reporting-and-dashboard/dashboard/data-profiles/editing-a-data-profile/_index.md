@@ -20,14 +20,14 @@ To edit a data profile on the Dashboard page:
 
     ![](/images//Images/Dashboard__edit_data_profile_table.png)
 
-    **Tip:** Only the data profiles in which the logged-in user has [permission](Dashboard_authentication_permissions.html) to edit have the **Edit** links enabled.
+    **Tip:** Only the data profiles in which the logged-in user has [permission](/TA_Help/Topics/Dashboard_authentication_permissions.html) to edit have the **Edit** links enabled.
 
     The **General Settings** page appears for you to begin editing the properties of the data profile.
 
-4.  Follow steps \#[4](Dashboard_create_data_profile.html#step_783j_da01) through \#[12](Dashboard_create_data_profile.html#step_783j_da09) in [Create data profile](Dashboard_create_data_profile.html) to edit the data profile properties.
+4.  Follow steps \#[4](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da01) through \#[12](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da09) in [Create data profile](/TA_Help/Topics/Dashboard_create_data_profile.html) to edit the data profile properties.
 
 
-The edited data profile is saved to the repository. Note that changes made to the data profile do not appear on affected Dashboard panels until you refresh \(press F5 on the browser\) the Dashboard browser page, update the affected panel \(see [Updating panel](Dashboard_update_panel.html)\), or terminate the Dashboard session and then sign back in to it.
+The edited data profile is saved to the repository. Note that changes made to the data profile do not appear on affected Dashboard panels until you refresh \(press F5 on the browser\) the Dashboard browser page, update the affected panel \(see [Updating panel](/TA_Help/Topics/Dashboard_update_panel.html)\), or terminate the Dashboard session and then sign back in to it.
 
 **Parent topic:**[Data profiles](/TA_Help/Topics/Dashboard_data_profiles.html)
 

@@ -12,8 +12,8 @@ Within TFS, for each test run that is recorded, a run build number must be suppl
 
 A build number can be specified to TFS by one of several means:
 
--   **Option 1 - When kicking off a test from TestArchitect**: Through TestArchitect's Execute Test dialog box. \([Learn more](ug_MTM_upload_result_automatic.html#step.Enter_build_number).\)
--   **Option 2 - When manually uploading a TestArchitect test result to TFS**: Through the Select Location dialog box that appears. \([Learn more](ug_MTM_upload_result_manual.html#step.Enter_build_number).\)
+-   **Option 1 - When kicking off a test from TestArchitect**: Through TestArchitect's Execute Test dialog box. \([Learn more](/TA_Help/Topics/ug_MTM_upload_result_automatic.html#step.Enter_build_number).\)
+-   **Option 2 - When manually uploading a TestArchitect test result to TFS**: Through the Select Location dialog box that appears. \([Learn more](/TA_Help/Topics/ug_MTM_upload_result_manual.html#step.Enter_build_number).\)
 -   **Option 3 - During execution**: Within the TestArchitect test procedure code, by means of the assign result field built-in action. \([Learn more](/TA_Automation/Topics/bia_assign_result_field.html).\)
 
 **Parent topic:**[Additional features of TFS-MTM](/TA_Help/Topics/ug_MTM_features.html)

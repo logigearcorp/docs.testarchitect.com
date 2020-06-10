@@ -21,7 +21,7 @@ To execute your tests across multiple browsers types you must create a new platf
 
 The **Browser** platform is added as a node beneath the **Systems & Platforms** node.
 
-![](/TA_Automation/Images/web_automation_new_system.png)
+![](/images/TA_Automation/Images/web_automation_new_system.png)
 
 **Parent topic:**[How do I execute cross-browser automated tests?](/TA_FAQ/Topics/faq.howto.web_automation_variations.html)
 

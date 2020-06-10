@@ -13,12 +13,12 @@ Mapped fields must have compatible data types, as specified in the following tab
 |TFS field type|TestArchitect field type|
 |--------------|------------------------|
 |DateTime|Date|
-|Integer|Number \(9 digits only\)<br> Single Line Text<br><br> List item<br><br>|
-|Double|Single Line Text<br>List Item<br><br>|
+|Integer|Number \(9 digits only\)<br><br> Single Line Text<br><br> List item<br><br>|<br>
+|Double|Single Line Text<br><br>List Item<br><br>|<br>
 |History|Multi Line Text|
 |HTML|Multi Line Text|
-|PlainText|Single Line Text<br> Multi Line Text<br><br> Label<br><br> Hyperlink<br><br>|
-|String|Single Line Text<br>List item<br><br>Boolean<br><br>|
+|PlainText|Single Line Text<br><br> Multi Line Text<br><br> Label<br><br> Hyperlink<br><br>|<br>
+|String|Single Line Text<br><br>List item<br><br>Boolean<br><br>|<br>
 |TreePath|Single Line Text|
 
 All required custom fields in the TFS test suites or test cases must have values before a TFS to TestArchitect import can take place. Similarly, uploading from TestArchitect to TFS requires that those user-defined TestArchitect fields which map to required TFS fields be populated with values. A value for a user-defined TestArchitect field may be set when the field is created, using the **Default value** field in the New Field dialog box, or by explicitly setting the given field for the particular project item on the item’s **Information** tab.

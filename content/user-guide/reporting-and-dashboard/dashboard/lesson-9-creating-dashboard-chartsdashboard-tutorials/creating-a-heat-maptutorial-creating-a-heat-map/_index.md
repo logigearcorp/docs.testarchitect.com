@@ -12,13 +12,13 @@ In this activity, you will create a heat map, which is a matrix in which the col
 **Before proceeding:**
 
 -   Ensure that you have a basic understanding of the TestArchitect Dashboard before creating a chart panel.
--   [A Dashboard portal, connected to the Sample Repository, should be open](tutDashboard_launching_Dashboard.html) in your browser.
+-   [A Dashboard portal, connected to the Sample Repository, should be open](/TA_Tutorials/Topics/tutDashboard_launching_Dashboard.html) in your browser.
 
 A heat map uses color and shading to help visualize an extra dimension on a chart or other graphic. In this exercise you will create a heat map that can be useful in alerting a test manager of a potential problem - the continuous failure of a given test module.
 
 The heat map consists of a matrix with each unique test module placed along the vertical \(y\) axis, and with time along the horizontal \(x\) axis. The heat map tracks various test modules for a given AUT over the y-axis, with time ascending along the x-axis. Hence each cell represents a test performed at a given time, and is color-coded to indicate one of the three possible result outcomes. But a cell can be more than just red, yellow or green: contiguous Failed cells along a given row are colored in darker shades of red as they go from left to right. Hence, with a quick glance at the chart, the presence of any dark red cells alerts a test manager to the fact that one of more test modules have been failing continuously.
 
-1.  [Create a new data profile](tutDashboard_creating_a_data_profile.html) with the folowing settings:
+1.  [Create a new data profile](/TA_Tutorials/Topics/tutDashboard_creating_a_data_profile.html) with the folowing settings:
 
     -   General Settings screen
         -   **Name**: Test Modules with Results

@@ -10,7 +10,7 @@ Allowing TestArchitect to test your Android application requires that it be re-s
 
 To configure a custom certificate, observe the following steps:
 
-1.  Open the [Android Instrumentation Tool](Android_Instrumentation_tool.html) dialog box.
+1.  Open the [Android Instrumentation Tool](/Android/Topics/Android_Instrumentation_tool.html) dialog box.
 
 2.  In the dialog box, click the **Settings** ![](/images//Images/Settings_btn.png) button.
 
@@ -39,7 +39,7 @@ To configure a custom certificate, observe the following steps:
 
 Your custom signature is now configured successfully. If you encounter issues while configuring, refer to [Troubleshooting custom signatures](/TA_FAQ/Topics/faq.tshoot.Android_custom_signature.html).
 
-You are now ready to [re-sign your application](Installing_applications_resigning.html) with your custom certificate.
+You are now ready to [re-sign your application](/Android/Topics/Installing_applications_resigning.html) with your custom certificate.
 
 -   **[Troubleshooting custom signatures \(Android\)](/TA_FAQ/Topics/faq.tshoot.Android_custom_signature.html)**  
 Typical issues you may encounter when working with your custom Android certificate.

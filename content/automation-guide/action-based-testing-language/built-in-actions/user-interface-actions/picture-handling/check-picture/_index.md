@@ -53,8 +53,8 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/reuse/../TA_Automation/Topics/bia_get_screen_resolution.html#li.ios.get_screen_resolution).\)
--   This built-in action always applies a [pixel-by-pixel image comparison](aut_image_comparison_techniques.html) technique.Keypoint detection is not available to check picture.
--   check picture looks for an exact match between a stored baseline image and the designated active area of the AUT display. To search for the presence of a baseline image *within* the active area, use the action [check picture exists](check_picture_exists.html).
+-   This built-in action always applies a [pixel-by-pixel image comparison](/TA_Automation/Topics/aut_image_comparison_techniques.html) technique.Keypoint detection is not available to check picture.
+-   check picture looks for an exact match between a stored baseline image and the designated active area of the AUT display. To search for the presence of a baseline image *within* the active area, use the action [check picture exists](/TA_Automation/Topics/bia_check_picture_exists.html).
 -   Note that if the referenced picture check holds multiple baseline images, each one is tested against the AUT bitmap until \(and if\) a match is found. Only a single “hit” is required for a match to be considered found.
 -   As a convenience when editing, you may drag the appropriate picture check node from the **Picture Checks** folder \(in the TestArchitect explorer tree\) into this action'sname argument.
 -   A normative outcome of check picture execution is one of the following:
@@ -71,7 +71,7 @@ This action may be used within the following project items:test modules and user
     -   Failed results with unverified picture checks can be resolved through the [Picture Check - Changed Picture](#section_lbw_3zj_vq) dialog box, which allows for the possibility of adding the captured test image to the associated picture check as a new baseline picture.
     -   Warning results with unverified picture checks are resolvable through the [Picture Check - New Picture](#section_z53_zwj_vq) dialog box, which allows for adding a new picture check \(with its name taken from the name argument\), with the captured test image as its baseline picture.
 -   It should be noted that the suggested method for adding picture checks and baseline pictures is to do it “offline”, by means of the [Picture Capturing Tool](/TA_Help/Topics/Additional_features_image_capturing_tool.html)**Add** \> **Picture Check** option available on the Picture Checks folder in Solution Explorer. Adding baseline pictures as a consequence of unverified picture checks during testing is primarily intended for cases of unexpected check picture failures occurring during testing.
--   The means by which the Picture Check dialog boxes are presented upon test completion is determined by the built-in setting [verify picture](verify_picture.html). With verify picture set to yes, \(verify mode\) any unverified picture checks occurring during the test automatically prompt a series of Picture Check dialog boxes to appear upon completion of the test run session. With the setting set to no \(non-verify mode\), the dialog boxes do not automatically appear, but can be summoned by manual means subsequent to the test session. Non-verify mode \(setting verify picture to no\) is recommended for unattended [serial test runs](/TA_Glossary/Topics/glossarySerialTestRun.html) under batch file control; this avoids the possibility of some tests inhibiting subsequent ones from running due to the need for manual intervention.
+-   The means by which the Picture Check dialog boxes are presented upon test completion is determined by the built-in setting [verify picture](/TA_Automation/Topics/bis_verify_picture.html). With verify picture set to yes, \(verify mode\) any unverified picture checks occurring during the test automatically prompt a series of Picture Check dialog boxes to appear upon completion of the test run session. With the setting set to no \(non-verify mode\), the dialog boxes do not automatically appear, but can be summoned by manual means subsequent to the test session. Non-verify mode \(setting verify picture to no\) is recommended for unattended [serial test runs](/TA_Glossary/Topics/glossarySerialTestRun.html) under batch file control; this avoids the possibility of some tests inhibiting subsequent ones from running due to the need for manual intervention.
 -   An unverified picture check remains unverified until one of two things occurs: its status is resolved via a Picture Check dialog box \(discussed above\), or the associated local **Results** item is moved to the repository. Once a **Results** item is moved to the repository, tentative Failed and Warning results associated with unverified picture checks are locked in as Failed and Warning, respectively, and any unverified picture checks are discarded.
 -   This action is applied to that part of the captured bitmap identified as the active area, with the remainder of the image ignored. The active area is determined by the four arguments \(left, top, width and height\) that define the rect area. To begin with, window and control determine the active UI element, which can be a control, window, or the full screen, as follows:
 
@@ -87,7 +87,7 @@ This action may be used within the following project items:test modules and user
 
     The above figure illustrates the active area that applies when both the window and control arguments have been specified, establishing the picture control \(with the 12 cars\) as the active UI element. The rect area itself, specified by left, top, width and height, is the active area.
 
-    **Important:** The rule to determine the active area of the picture check built-in action is different from the one of other [Picture Handling](picture_handling.html) built-in actions, such as, [check picture exists](check_picture_exists.html), [click picture](click_picture.html).
+    **Important:** The rule to determine the active area of the picture check built-in action is different from the one of other [Picture Handling](/TA_Automation/Topics/bia_picture_handling.html) built-in actions, such as, [check picture exists](/TA_Automation/Topics/bia_check_picture_exists.html), [click picture](/TA_Automation/Topics/bia_click_picture.html).
 
 -   In all cases, the rect area itself, if specified, is the active area. The following three images illustrate the cases for how the active area is determined when the four values \(left, top, width, height\) of the rect area are specified.
 
@@ -104,12 +104,12 @@ This action may be used within the following project items:test modules and user
 -   **Android:** This built-in action, when applied to a connected Android device, requires that the [TestArchitect Agent service](/reuse/../Android/Topics/Android_TA_agent.html) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
     1.  Connect the Android device to the test controller through a USB cable \(not Wi-Fi\), if not already so connected.
     2.  Open the [Android Instrumentation Tool](/reuse/../Android/Topics/Android_Instrumentation_tool.html) dialog box.
-    3.  Click the **Refresh devices list** ![](/images//Images/Android/Images/Refresh_device_list_btn.png) button.
+    3.  Click the **Refresh devices list** ![](/images/Android/Images/Refresh_device_list_btn.png) button.
 -   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[case sensitive](case_sensitive.html),[verify picture](verify_picture.html), [remove double quotes from cells](remove_double_quotes_from_cells.html), [standard ASCII only](standard_ASCII_only.html), [object wait](object_wait.html), [window wait](window_wait.html), [load invisible controls](load_invisible_controls.html).
+The following settings are applicable to this action:[case sensitive](/TA_Automation/Topics/bis_case_sensitive.html),[verify picture](/TA_Automation/Topics/bis_verify_picture.html), [remove double quotes from cells](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html), [standard ASCII only](/TA_Automation/Topics/bis_standard_ASCII_only.html), [object wait](/TA_Automation/Topics/bis_object_wait.html), [window wait](/TA_Automation/Topics/bis_window_wait.html), [load invisible controls](/TA_Automation/Topics/bis_load_invisible_controls.html).
 
 ## Example
 
@@ -196,7 +196,7 @@ It has been mentioned that test runs with picture checks may be run in either an
 
 In a production test environment, it is frequently necessary to run serial tests under batch control, without stopping for human input. Under batch file control, however, each test module in a serial batch run is invoked as a separate test run session. The upshot is that, when in semi-automated mode, any single test module with unverified picture checks results in a requirement for human intervention when that test module completes its execution, regardless of whether it is part of a serial test run. To avoid this interruption, ensure that such batch runs are performed in automated mode, thus allowing you to determine if and when manual picture check verifications take place.
 
-**Tip:** To set up test runs in automation mode, refer to the [verify picture](verify_picture.html) built-in setting.
+**Tip:** To set up test runs in automation mode, refer to the [verify picture](/TA_Automation/Topics/bis_verify_picture.html) built-in setting.
 
 ## Accessing the Picture Check dialog box
 
@@ -208,7 +208,7 @@ The obvious question here is *"What happens when a new image – a baseline cand
 -   As with automated runs:
     -   For each results report for a test containing picture checks, TestArchitect maintains records, including images captured from the AUT of every unverified picture check that was conducted during the test run. The icon for the test result that has unverified picture checks has a **U** overlaid on it. Once you resolve the unverified picture checks. the test result loses its designation.
 
-        ![](/TA_Help/Images/test_result_unverified_node.png)
+        ![](/images/TA_Automation/Images/test_result_unverified_node.png)
 
         **Tip:** In order to resolve unverified picture checks, refer to this [topic](/TA_Help/Topics/ug_Resolving_unverfied_picture_checks.html).
 
@@ -234,6 +234,8 @@ At the first run if there is no retained image for this check \(that is, no base
 
 -   In the Picture Check dialog box, there are three possible icons representing picture checks and their current status:
 
+    |||
+    |------|------|
     |![](/images//Images/check_picture_pass_icon.png)|Passed picture check|
     |![](/images//Images/check_picture_fail_icon.png)|Failed picture check|
     |![](/images//Images/check_picture_unverified_icon.png)|Unverified picture check|
@@ -291,7 +293,7 @@ It has been mentioned that test runs with picture checks may be run in either se
 
 In a production test environment, it is frequently necessary to run tests, often in series, without stopping for human input.
 
-To set up test runs in automated mode, refer to the [verify picture](verify_picture.html) built-in setting.
+To set up test runs in automated mode, refer to the [verify picture](/TA_Automation/Topics/bis_verify_picture.html) built-in setting.
 
 ## Accessing the Picture Check dialog box
 

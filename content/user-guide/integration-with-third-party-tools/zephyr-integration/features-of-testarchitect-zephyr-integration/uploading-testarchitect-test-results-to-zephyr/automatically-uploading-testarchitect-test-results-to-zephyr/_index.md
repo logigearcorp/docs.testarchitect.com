@@ -16,8 +16,8 @@ You can configure TestArchitect to automatically upload test results to Zephyr u
 
 Ensure that you have already taken the following steps:
 
--   [Registered the Zephyr server with TestArchitect](ug_Zephyr_registering_server.html).
--   [Mapped the TestArchitect project containing the test cases of interest to a Zephyr project](ug_Zephyr_mapping_projects.html).
+-   [Registered the Zephyr server with TestArchitect](/TA_Help/Topics/ug_Zephyr_registering_server.html).
+-   [Mapped the TestArchitect project containing the test cases of interest to a Zephyr project](/TA_Help/Topics/ug_Zephyr_mapping_projects.html).
 -   In Zephyr, added the tests to a test cycle and assigned them to a user.
 
     **Note:** Test cycles, and the test phases which comprise them, are Zephyr entities and are beyond the scope of this help system. Further information on them is available at [https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/263554868/Test+Planning](https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/263554868/Test+Planning).
@@ -50,7 +50,7 @@ To automatically upload TestArchitect test results to Zephyr after execution:
     As soon as the test run finishes or is terminated, TestArchitect will upload the corresponding test results to the specified location in Zephyr.
 
 
-To view the uploaded results on Zephyr, see [Viewing uploaded test results on Zephyr](ug_Zephyr_viewing_uploaded_results.html).
+To view the uploaded results on Zephyr, see [Viewing uploaded test results on Zephyr](/TA_Help/Topics/ug_Zephyr_viewing_uploaded_results.html).
 
 **Parent topic:**[Uploading TestArchitect test results to Zephyr](/TA_Help/Topics/ug_Zephyr_uploading_results.html)
 

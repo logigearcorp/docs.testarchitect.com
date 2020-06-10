@@ -8,7 +8,7 @@ aliases:
 
 We will now create a C\# class to direct program flow to a function which handles the get list view row value action.
 
-As outlined in the procedure described earlier, [Developing your own user-scripted C\# harness action](tut_Harness_CSharp_bundle_developing_your_own_harness_action.html), this entails making the following steps:
+As outlined in the procedure described earlier, [Developing your own user-scripted C\# harness action](/TA_Tutorials/Topics/tut_Harness_CSharp_bundle_developing_your_own_harness_action.html), this entails making the following steps:
 
 1.  Create a new C\# class to store the function definition for action.
 2.  Add the ActionClassDefinition attribute to inform that this class contains action implementation.

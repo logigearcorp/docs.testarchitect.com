@@ -81,7 +81,7 @@ java -Dfile.encoding=UTF-8 -jar TAImportExportTool.jar --ImportToID [--server<va
 
     ID of the project item root node \(**Tests**, **Data**, etc.\) or folder into which the item is to be imported. In the case of importing test cases, ID must be that of a test module.
 
-    To obtain the ID of any TestArchitect entity, find the [**URL**](Additional_features_TA_URL.html) field under its **Information** tab. The ID is found at the end of the URL address, prefixed with a hyphen \( - \), such as, `1z23htgfc2`, below:
+    To obtain the ID of any TestArchitect entity, find the [**URL**](/TA_Help/Topics/Additional_features_TA_URL.html) field under its **Information** tab. The ID is found at the end of the URL address, prefixed with a hyphen \( - \), such as, `1z23htgfc2`, below:
 
     ![](/images//Images/obtain_ID_folder.png)
 

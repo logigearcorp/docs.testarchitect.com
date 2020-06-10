@@ -8,7 +8,7 @@ aliases:
 
 You can automatically replace a word or phrase with another in a field of a test module list view - for example, you can replace Log in with Sign in as the name of a test module.
 
-The contents of fields in test modules can be replaced if they are [editable fields](Listview_editable_fields.html). Note that this includes the **Name** field \(that is, the name of the test module\), and that, when the Replace function is used to change a test module name, name change propagation is applied \(see [Name change propagation](Project_and_project_items_rename_refactoring.html)\).
+The contents of fields in test modules can be replaced if they are [editable fields](/TA_Help/Topics/Listview_editable_fields.html). Note that this includes the **Name** field \(that is, the name of the test module\), and that, when the Replace function is used to change a test module name, name change propagation is applied \(see [Name change propagation](/TA_Help/Topics/Project_and_project_items_rename_refactoring.html)\).
 
 1.  Open the test module list view.
 

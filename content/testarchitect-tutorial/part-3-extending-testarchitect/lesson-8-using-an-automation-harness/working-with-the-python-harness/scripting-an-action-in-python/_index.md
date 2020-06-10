@@ -12,7 +12,7 @@ Implement an action in Python, using the TestArchitect Python harness.
 
 **Important:** It is generally recommended that you do not modify the files in harness samples/python.  For one thing, your next upgrade of TestArchitect will cause these files to be overwritten, which may not be to your liking. Secondly, it is just not good practice \(and in many organizations not even permitted\) to modify files in your **Programs** folder. So create a new folder on your hard drive \(for this example, we’ll assume it is D:/harness/python\) and copy to it the files from harness samples/python. From here on, all work will be performed on these files, and in this folder.
 
-You are going to implement an action named hello in thePythonharness. It will accept one argument, who, and write out the word hello, followed by the value specified for who: ![](/images//Images/TA_Tutorials/Images/Python_hello_demo.png)
+You are going to implement an action named hello in thePythonharness. It will accept one argument, who, and write out the word hello, followed by the value specified for who: ![](/images/TA_Tutorials/Images/Python_hello_demo.png)
 
 
 

@@ -10,7 +10,7 @@ How to debug a harness in a remote desktop session.
 
 **Note:** Applies to TestArchitect 8.4 Update 3
 
-You are knowledgeable about [test runs in multiple remote desktop sessions](Test_exec_multiple_remote_desktop_sessions.html)
+You are knowledgeable about [test runs in multiple remote desktop sessions](/TA_Help/Topics/Test_exec_multiple_remote_desktop_sessions.html)
 
 **Restriction:** You are unable run in the debugging mode on more than one remote desktop session.
 

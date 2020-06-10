@@ -8,7 +8,7 @@ aliases:
 
 Capturing interface definitions means writing out interface entities with a\) mappings of controls to TA names, and b\) mapping of windows to interface entities.
 
-1.  Create a [new interface entity](Interface_def_Adding.html) in TestArchitect, and keep it open and in the active tab of the main panel.
+1.  Create a [new interface entity](/TA_Help/Topics/Interface_def_Adding.html) in TestArchitect, and keep it open and in the active tab of the main panel.
 
 2.  Open the application of interest and navigate to the window whose interface you want to capture.
 
@@ -20,7 +20,7 @@ Capturing interface definitions means writing out interface entities with a\) ma
 
 5.  In the UI explorer panel, locate the node representing the application window you will capture. Click that node. Observe that the Properties panel now displays the properties for this window.
 
-    **Tip:** To capture UI child elements belonging to a container class, see [Container Class](Interface_def_container_class.html).
+    **Tip:** To capture UI child elements belonging to a container class, see [Container Class](/TA_Help/Topics/Interface_def_container_class.html).
 
     **Note:** Typically, in the Properties panel, the check box of the title property is selected. Because it is selected, this is the property that will be used by the interface entity to uniquely identify this window and map it to the interface entity. You have the option at this point of deselecting this property and choosing some other property, or multiple properties, as the identifier. The important thing is that you ensure that the property or combination of properties you use is unique. This uniqueness must be not just amongst all the windows that are currently open, but all the ones that may be open during testing. If TestArchitect cannot uniquely identify a single window from an interface entity, you will receive an error message to the effect that there is more than one open window matching the interface entity.
 
@@ -32,7 +32,7 @@ Capturing interface definitions means writing out interface entities with a\) ma
 
 7.  At this point, you will select the controls that you wish to capture and map. Note that not all items need to be mapped: you need only map the items you plan to have your actions and test modules directly interact with. \(Some objects, such as panels, etc., are non-interactive; hence, they may play no role in your tests\). Expand the class node\(s\) that you're interested in.
 
-    **Fastpath:** To capture all controls at a time, see [here](ug_Interface_def_Viewer_capture_all_controls.html).
+    **Fastpath:** To capture all controls at a time, see [here](/TA_Help/Topics/ug_Interface_def_Viewer_capture_all_controls.html).
 
 8.  Within each class node, the Interface Viewer displays the control nodes, and labels each one with whichever property makes identification easiest. \(For instance, a button is identified by the value of its Caption property; a textbox by its Label property, etc.\) For each control you wish to map, perform the following:
 
@@ -54,7 +54,7 @@ Capturing interface definitions means writing out interface entities with a\) ma
 
         **Auto-mapping & unmapping:** As a speedy alternative to using the **Rename** option, you may simply double-click any unmapped control node. This causes the control to be mapped with a logical name that the Viewer assigns for you. This is called a suggested name and can be used in your definition.
 
-        Suggested names are generally taken by the Viewer from such properties of controls as caption, label, or name – properties whose values are generally user-friendly, and would thus qualify as good TA names. In some cases, however, such a property, or a value for the property, is not available. When that happens, the Viewer uses the value of the global pos property as a suggested name. [global pos](Interface_def_global_pos.html) is a TestArchitect-generated property-value pair that is assigned to every control, and which is unique for each control in a window.
+        Suggested names are generally taken by the Viewer from such properties of controls as caption, label, or name – properties whose values are generally user-friendly, and would thus qualify as good TA names. In some cases, however, such a property, or a value for the property, is not available. When that happens, the Viewer uses the value of the global pos property as a suggested name. [global pos](/TA_Help/Topics/Interface_def_global_pos.html) is a TestArchitect-generated property-value pair that is assigned to every control, and which is unique for each control in a window.
 
         Double-clicking a node acts like a toggle. That is, double-clicking a mapped node causes that node to become unmapped.
 

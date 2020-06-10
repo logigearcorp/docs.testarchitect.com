@@ -23,8 +23,8 @@ To create a data profile on a Dashboard page:
     ![](/images//Images/DB_14.png)
 
     -   **Name**: Name to be assigned to the data profile.
-    -   **Item Type**: Select a project item from which to create the data profile. This item type determines which fields are selectable on the Statistic Field page \(step \#[8](Dashboard_create_data_profile.html#step_783j_da05)\).
-    -   **Related Data**: Optionally select a sub-field related to the project item. If you select an entity for this field, you will be asked to specify additional sub-fields from steps \#[9](Dashboard_create_data_profile.html#step_783j_da06) through \#[12](Dashboard_create_data_profile.html#step_783j_da09).
+    -   **Item Type**: Select a project item from which to create the data profile. This item type determines which fields are selectable on the Statistic Field page \(step \#[8](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da05)\).
+    -   **Related Data**: Optionally select a sub-field related to the project item. If you select an entity for this field, you will be asked to specify additional sub-fields from steps \#[9](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da06) through \#[12](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da09).
     **Tip:** Click **Finish** if you do not want to proceed with selecting additional filtering criteria.
 
 5.  On the Display Fields page, select those fields you want displayed by whatever panel uses the data profile, then click **Next**.
@@ -55,19 +55,19 @@ To create a data profile on a Dashboard page:
 
     ![](/images//Images/DB_18.png)
 
-    **Note:** The list of selectable statistic fields varies depending on the **Item Type** specified on the **General Settings** page \(step \#[4](Dashboard_create_data_profile.html#step_783j_da01)\).
+    **Note:** The list of selectable statistic fields varies depending on the **Item Type** specified on the **General Settings** page \(step \#[4](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da01)\).
 
-9.  **Note:** If an entity is specified for the **Related Data** field in Step \#[4](Dashboard_create_data_profile.html#step_783j_da01), the next 4 steps \(step \#[9](Dashboard_create_data_profile.html#step_783j_da06) through \#[12](Dashboard_create_data_profile.html#step_783j_da09)\) will be available to you.
+9.  **Note:** If an entity is specified for the **Related Data** field in Step \#[4](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da01), the next 4 steps \(step \#[9](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da06) through \#[12](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da09)\) will be available to you.
 
 10. On the Display Sub-Fields page, select the fields that you want to assign as display sub-fields. Click **Next** when you are done selecting the display sub-fields.
 
     ![](/images//Images/DB_19.png)
 
-11. On the Sort Sub-Fields page, select the **Subfield** to sort on, if any, and click **Add Level**. To add additional subfields to sort on, select the sort field then click **Add Level**. Repeat as necessary. For more details on sorting fields, see step \#[6](Dashboard_create_data_profile.html#step_783j_da03). Click **Next** when you are done with selecting the sort subfields.
+11. On the Sort Sub-Fields page, select the **Subfield** to sort on, if any, and click **Add Level**. To add additional subfields to sort on, select the sort field then click **Add Level**. Repeat as necessary. For more details on sorting fields, see step \#[6](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da03). Click **Next** when you are done with selecting the sort subfields.
 
     ![](/images//Images/DB_20.png)
 
-12. On the Filter Sub-Fields page, you can create logical expressions to filter data on, using the subfields. More than one expression can be created as necessary. For more details on creating filtering expressions, see step \#[7](Dashboard_create_data_profile.html#step_783j_da04). Click **Next** when you are done with creating the subfields filters.
+12. On the Filter Sub-Fields page, you can create logical expressions to filter data on, using the subfields. More than one expression can be created as necessary. For more details on creating filtering expressions, see step \#[7](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da04). Click **Next** when you are done with creating the subfields filters.
 
     ![](/images//Images/DB_21.png)
 

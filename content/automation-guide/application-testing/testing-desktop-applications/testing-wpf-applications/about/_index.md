@@ -22,7 +22,7 @@ Auto-generated action lines can subsequently be modified and enhanced by hand in
 
 ## Actions supported for WPF controls
 
-TestArchitect provides many built-in actions for automating various user interactions on WPF applications. When you record a test, TestArchitect records the performed GUI actions using these built-in actions. A full reference guide to these actions may be found in the [User Interface actions](User_Interface.html) section of the Automation Guide.
+TestArchitect provides many built-in actions for automating various user interactions on WPF applications. When you record a test, TestArchitect records the performed GUI actions using these built-in actions. A full reference guide to these actions may be found in the [User Interface actions](/TA_Automation/Topics/bia_User_Interface.html) section of the Automation Guide.
 
 ## WPF control identification
 
@@ -34,17 +34,17 @@ Generally, only a small subset of a control's properties are useful for identifi
 
 The [Interface Viewer](/reuse/../TA_Help/Topics/Interface_def_Viewer.html) is a powerful support tool that allows you to view all of a control's available properties, to capture and save all or parts of an interface definition, and to explore the controls of an application's interface. The following image depicts the Interface Viewer examining the controls of aWPF application.
 
-![](/images//Images/TA_Automation/Images/aut_interface_definition_UI_WPF_identification.png)
+![](/images/TA_Automation/Images/aut_interface_definition_UI_WPF_identification.png)
 
 ## Native WPF properties
 
 TestArchitect defines its own set of properties, named [TA properties](/reuse/../TA_Help/Topics/Interface_def_Viewer_reading.html), which it applies toWPF controls. The Interface Viewer displays not only the TA properties of aWPF application's controls, but also exposes all of the controls' [native properties](/reuse/../TA_Help/Topics/Interface_def_Viewer_reading.html). These are the same properties that are available in the application’s source code and used by the application developers. You may use these native properties to capture controls or automate tests.
 
-![](/images//Images/TA_Automation/Images/aut_interface_definition_WPF_Native_properties.png)
+![](/images/TA_Automation/Images/aut_interface_definition_WPF_Native_properties.png)
 
 ## The UIA Support tool
 
-TestArchitect can work with UI controls that are exposed by Microsoft's UI Automation \(UIA\) technology. TestArchitect includes a special tool, UIA Support, that provides support for Microsoft UIA. This tool is used to obtain the properties of a WPF application’s UI controls. \(See [Microsoft UI Automation](aut_Using_UIA.html) for further information.\)
+TestArchitect can work with UI controls that are exposed by Microsoft's UI Automation \(UIA\) technology. TestArchitect includes a special tool, UIA Support, that provides support for Microsoft UIA. This tool is used to obtain the properties of a WPF application’s UI controls. \(See [Microsoft UI Automation](/TA_Automation/Topics/aut_Using_UIA.html) for further information.\)
 
 When the UIA Support tool is activated, TestArchitect is able to obtain extra and useful properties on a UI element of the AUT. One of the properties is automation id which can be used to uniquely locate a UI control from its siblings.
 

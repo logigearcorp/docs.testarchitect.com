@@ -9,7 +9,7 @@ keywords: "gdi column identifier percentage, identify column in GDI, set maximum
 
 ## Description
 
-For [GDI technique](aut_text_recognition_techniques.html), specify a percentage value proportional to the vertical bar's max height of a UI control. Technically, when a detected vertical bar's value is equivalent to or higher than the specified percentage value compared to the max vertical bar, the detected vertical bar is treated as a separator for a column in a table.
+For [GDI technique](/TA_Automation/Topics/aut_text_recognition_techniques.html), specify a percentage value proportional to the vertical bar's max height of a UI control. Technically, when a detected vertical bar's value is equivalent to or higher than the specified percentage value compared to the max vertical bar, the detected vertical bar is treated as a separator for a column in a table.
 
 This is a technical method to reconstruct columns belonging to a table by using GDI technique.
 

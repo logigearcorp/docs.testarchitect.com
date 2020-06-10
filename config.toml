@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://ta-docs.gondolatest.com"
 disablePathToLower = true
 uglyurls = true
 

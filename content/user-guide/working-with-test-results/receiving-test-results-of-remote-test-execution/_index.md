@@ -8,7 +8,7 @@ aliases:
 
 TestArchitect allows you to execute a test remotely and receive the test results from the remote machine, although TestArchitect Client is closed on the local machine, even before the remote execution is complete.
 
-To retrieve test results returned from the [remote machine](Test_exec_remote_asynchronous.html) the next time you start TestArchitect Client, do the following:
+To retrieve test results returned from the [remote machine](/TA_Help/Topics/Test_exec_remote_asynchronous.html) the next time you start TestArchitect Client, do the following:
 
 1.  Start TestArchitect Client.
 

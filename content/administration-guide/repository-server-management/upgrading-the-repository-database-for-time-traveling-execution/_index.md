@@ -13,7 +13,7 @@ Upgrading of legacy databases is required to enable time-traveling execution to 
 
 The database upgrade process can be initiated by doing the following:
 
-1.  [Open the Repository Server Control Panel](Repo_server_management_launching.html).
+1.  [Open the Repository Server Control Panel](/TA_Administration/Topics/Repo_server_management_launching.html).
 
 2.  In the TestArchitect Repository Server - Control Panel dialog box, click the **Upgrade Repository** ![](/images//Images/upgrade_database_btn.png) button on the toolbar.
 

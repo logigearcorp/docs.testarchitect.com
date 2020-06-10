@@ -12,7 +12,7 @@ The Diff Tool enables you to synchronize the contents of two folder hierarchies 
 
 To merge differences from one panel to the other \(either source to target, or target to source\), do the following:
 
-1.  Invoke the Diff Tool dialog box. \([Learn more](ug_diff_tool_comparing_directories.html).\)
+1.  Invoke the Diff Tool dialog box. \([Learn more](/TA_Help/Topics/ug_diff_tool_comparing_directories.html).\)
 
     ![](/images//Images/Diff_tool_merge_item_dlg.png)
 

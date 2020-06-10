@@ -43,7 +43,7 @@ The meaning of the parameters is explained below.
     1.  Open the [Android Instrumentation Tool](/reuse/../Android/Topics/Android_Instrumentation_tool.html) dialog box.
     2.  In the Application Under Test panel, right-click the appropriate application, and then select **Copy package name**.
 
-        ![](/images//Images/Android/Images/Android_copy_package_name.png)
+        ![](/images/Android/Images/Android_copy_package_name.png)
 
     3.  Paste the copied value into the Package Name parameter in the Start command.
 -   **\[-s "Unique ID of Target Device"\]**
@@ -54,7 +54,7 @@ The meaning of the parameters is explained below.
 
     1.  Open the [Android Instrumentation Tool](/reuse/../Android/Topics/Android_Instrumentation_tool.html) dialog box.
     2.  Select the device whose unique ID you wish to obtain.
-    3.  Click ![](/images//Images/Android/Images/android_copy_ID.png) on the Android Instrumentation Tool's toolbar to copy the unique ID to the clipboard.
+    3.  Click ![](/images/Android/Images/android_copy_ID.png) on the Android Instrumentation Tool's toolbar to copy the unique ID to the clipboard.
     4.  Paste the copied content into the unique ID parameter in the Start command.
 -   **\[Options\]**
 

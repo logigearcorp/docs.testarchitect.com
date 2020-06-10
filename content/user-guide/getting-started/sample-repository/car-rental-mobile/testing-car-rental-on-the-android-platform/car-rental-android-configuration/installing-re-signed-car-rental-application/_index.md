@@ -10,8 +10,8 @@ After re-signing the Car Rental Android application, you can proceed to install 
 
 Ensure that the following basic requirements are met before the installing the Android application on the device:
 
--   The Car Rental Android application file has been [re-signed](SR_Car_Rental_re-signing_application.html) by TestArchitect.
--   You can establish a valid connection between the host machine and the Android device, either via USB cable or [Wi-Fi connection](SR_Car_Rental_connecting_to_Android_TA_Agent.html) with TestArchitect Agent. If you choose to establish the connection via USB cable, ensure that you have installed the required USB driver for your Android device on the host machine.
+-   The Car Rental Android application file has been [re-signed](/TA_Tutorials_Sample_App/Topics/SR_Car_Rental_re-signing_application.html) by TestArchitect.
+-   You can establish a valid connection between the host machine and the Android device, either via USB cable or [Wi-Fi connection](/TA_Tutorials_Sample_App/Topics/SR_Car_Rental_connecting_to_Android_TA_Agent.html) with TestArchitect Agent. If you choose to establish the connection via USB cable, ensure that you have installed the required USB driver for your Android device on the host machine.
 
 Perform the following procedures on the host machine.
 
@@ -19,7 +19,7 @@ Perform the following procedures on the host machine.
 
     **Option 1**: Connect the USB cable between the host machine and the device. \(On a device with Android 4.0 or higher, enable the **USB debugging** option in **Settings** \> **Developer options**. On one with an Android version lower than 4.0, enable **USB debugging** in **Settings** \> **Applications** \> **Development**\)
 
-    **Option 2**: [Connect via Wi-Fi](SR_Car_Rental_connecting_to_Android_TA_Agent.html)
+    **Option 2**: [Connect via Wi-Fi](/TA_Tutorials_Sample_App/Topics/SR_Car_Rental_connecting_to_Android_TA_Agent.html)
 
 2.  Start TestArchitect Client.
 

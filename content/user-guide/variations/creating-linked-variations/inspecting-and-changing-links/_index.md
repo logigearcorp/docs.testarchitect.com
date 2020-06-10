@@ -8,7 +8,7 @@ aliases:
 
 This section illustrates how to inspect and re-link variations of items.
 
-Ensure that the variation you want to re-link to a new version node or keywords is [checked-out](Project_items_checkout.html).
+Ensure that the variation you want to re-link to a new version node or keywords is [checked-out](/TA_Help/Topics/Project_items_checkout.html).
 
 1.  Double-click a version node.
 
@@ -28,7 +28,7 @@ Ensure that the variation you want to re-link to a new version node or keywords 
 
     ![](/images//Images/Edit_variation_dlg.png)
 
-4.  In the dialog box, link the selected variation to other [versions](Variations_linking.html) or [keywords](Variations_create_keyword.html).
+4.  In the dialog box, link the selected variation to other [versions](/TA_Help/Topics/Variations_linking.html) or [keywords](/TA_Help/Topics/Variations_create_keyword.html).
 
 5.  Click **OK**.
 

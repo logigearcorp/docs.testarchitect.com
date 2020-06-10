@@ -17,8 +17,8 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   This action is paired along with [get clock count](get_clock_count.html) for ascertaining the execution performance of a test or segment of a test. Bookend these two actions at whichever segments of your tests that you wish to time.
--   The TestArchitect timer runs continuously across action calls and test modules of the same test run \(whether in serial runs or [run test](run_test.html) invocations\), with its value globally available to the get clock count action.
+-   This action is paired along with [get clock count](/TA_Automation/Topics/bia_get_clock_count.html) for ascertaining the execution performance of a test or segment of a test. Bookend these two actions at whichever segments of your tests that you wish to time.
+-   The TestArchitect timer runs continuously across action calls and test modules of the same test run \(whether in serial runs or [run test](/TA_Automation/Topics/bia_run_test.html) invocations\), with its value globally available to the get clock count action.
 -   The TestArchitect timer runs continuously across action calls and test modules of the same test run with its value globally available to the get clock count action.
 
 ## Applicable Built-In Settings

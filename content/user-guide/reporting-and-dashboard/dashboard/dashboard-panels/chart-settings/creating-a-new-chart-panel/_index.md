@@ -34,8 +34,8 @@ To create a new chart panel on a Dashboard page:
     -   **Chart Type**: Type of chart to be presented on the panel.
     -   **2D**: Display a two-dimensional version of the chart.
     -   **3D**: Display a three-dimensional version of the chart.
-    -   **Category**: Select the type of data from the data profile for the horizontal axis \(abscissa\) of the chart. See [Category and series](Dashboard_category_series.html) for details.
-    -   **Series**: Select the type of data from the data profile for the vertical axis \(ordinate\) of the chart. See [Category and series](Dashboard_category_series.html) for details.
+    -   **Category**: Select the type of data from the data profile for the horizontal axis \(abscissa\) of the chart. See [Category and series](/TA_Help/Topics/Dashboard_category_series.html) for details.
+    -   **Series**: Select the type of data from the data profile for the vertical axis \(ordinate\) of the chart. See [Category and series](/TA_Help/Topics/Dashboard_category_series.html) for details.
     -   **Caption** fields: Enter a caption for each axis.
     -   **Legends**: Select the position on the panel at which the chart’s legends are to be displayed.
     -   **Data Labels**: Select the caption for each group of data on the chart:

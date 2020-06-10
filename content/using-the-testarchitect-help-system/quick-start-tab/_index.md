@@ -10,7 +10,7 @@ The **Quick Start** tab, which appears when you open TestArchitect Client, and r
 
 Among other things, **Quick Start** lets you conveniently connect to a repository, create a new project, record actions, and open step-by-step tutorials.
 
-**Note:** The **Quick Start** tab appears, by default, every time TestArchitect is launched. The option to suppress or permit this appearance may be set in the Preferences dialog box. \([Learn more](Additional_features_preferences.html).\)
+**Note:** The **Quick Start** tab appears, by default, every time TestArchitect is launched. The option to suppress or permit this appearance may be set in the Preferences dialog box. \([Learn more](/TA_Help/Topics/Additional_features_preferences.html).\)
 
 ![](/images//Images/welcome_pane.png)
 
@@ -19,25 +19,25 @@ This tab consists of three separate sections:
 1.  Basic functions: Primarily intended to allow new users to become acquainted with TestArchitect's most essential tools.
     -   **Connect to a repository**
 
-        Brings up the Add Repository Connection dialog box, which allows you to connect to a repository, an essential first step in creating a project or working on one. \([Learn more](Getting_started_overview_working_with_repositories.html).\)
+        Brings up the Add Repository Connection dialog box, which allows you to connect to a repository, an essential first step in creating a project or working on one. \([Learn more](/TA_Help/Topics/Getting_started_overview_working_with_repositories.html).\)
 
         ![](/images//Images/ug69.png)
 
     -   **Create a new project**
 
-        Assists you in creating a new project in the currently selected repository. \([Learn more](Projects_and_project_items_create_project.html).\)
+        Assists you in creating a new project in the currently selected repository. \([Learn more](/TA_Help/Topics/Projects_and_project_items_create_project.html).\)
 
     -   **Record a new test module**
 
-        Deploys the Action Recorder, a means by which you can write a new action by having TestArchitect record your interactions with the AUT, with little or no typing required. \([Learn more](Creating_and_using_actions_AR.html).\)
+        Deploys the Action Recorder, a means by which you can write a new action by having TestArchitect record your interactions with the AUT, with little or no typing required. \([Learn more](/TA_Help/Topics/Creating_and_using_actions_AR.html).\)
 
     -   **Identify an element**
 
-        Allows you to rapidly identify a UI object of an application of interest, similar to clicking the **Identify** button on toolbar menu. \([Learn more](Interface_def_client_interface_tool_identify.html).\)
+        Allows you to rapidly identify a UI object of an application of interest, similar to clicking the **Identify** button on toolbar menu. \([Learn more](/TA_Help/Topics/Interface_def_client_interface_tool_identify.html).\)
 
     -   **Show Dashboard**
 
-        Launches the TestArchitect Dashboard, a web–based application that connects directly to a TestArchitect repository server and displays project results from the current repository. \([Learn more](Dashboard_intro.html).\)
+        Launches the TestArchitect Dashboard, a web–based application that connects directly to a TestArchitect repository server and displays project results from the current repository. \([Learn more](/TA_Help/Topics/Dashboard_intro.html).\)
 
 2.  Support Resources:
     -   **TestArchitect Forum**

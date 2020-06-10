@@ -10,36 +10,36 @@ This topic contains information about various tabs and panels, and on viewing te
 
 ## Local results
 
-In TestArchitect Client, **local test results**, which are not stored in the repository, only consist of the [**Summary**](Test_result_summaries.html) tab.
+In TestArchitect Client, **local test results**, which are not stored in the repository, only consist of the [**Summary**](/TA_Help/Topics/Test_result_summaries.html) tab.
 
 The **Summary** tab reports basic test run information, which summarizes various aspects of the test. Additionally, **local test results** show the following tabs when they are viewed in a web browser.
 
 |Tab name|Description|
 |--------|-----------|
-|[**Result Details**](Test_result_details.html)|Displays a detailed \(line-by-line\) log of the test execution, which can be essential for test run analysis and debugging.|
-|[**Known Bug Summary**](ug_results_known_bug_summary.html)|Displays details about known bugs marked on action lines.|
-|[**Failure/Error Summary**](ug_results_failure_error_summary.html)|Exhibits a list of the failures occurring during the test run.|
-|[**Log Information**](ug_results_log_information.html)|Displays the logging information from the report actions, that is, [report](/TA_Automation/Topics/bia_report.html), [report check](/TA_Automation/Topics/bia_report_check.html), [report warning](/TA_Automation/Topics/bia_report_warning.html), and [report error](/TA_Automation/Topics/bia_report_error.html) in the test procedure.|
+|[**Result Details**](/TA_Help/Topics/Test_result_details.html)|Displays a detailed \(line-by-line\) log of the test execution, which can be essential for test run analysis and debugging.|
+|[**Known Bug Summary**](/TA_Help/Topics/ug_results_known_bug_summary.html)|Displays details about known bugs marked on action lines.|
+|[**Failure/Error Summary**](/TA_Help/Topics/ug_results_failure_error_summary.html)|Exhibits a list of the failures occurring during the test run.|
+|[**Log Information**](/TA_Help/Topics/ug_results_log_information.html)|Displays the logging information from the report actions, that is, [report](/TA_Automation/Topics/bia_report.html), [report check](/TA_Automation/Topics/bia_report_check.html), [report warning](/TA_Automation/Topics/bia_report_warning.html), and [report error](/TA_Automation/Topics/bia_report_error.html) in the test procedure.|
 
 ## Repository results
 
-Repository test results are saved in the repository and have the same tabs as the local test results, but include an additional [**Information**](Test_result_information.html) tab.
+Repository test results are saved in the repository and have the same tabs as the local test results, but include an additional [**Information**](/TA_Help/Topics/Test_result_information.html) tab.
 
 ## Non-serial test results
 
-A non-serial test result is a typical test result generated when TestArchitect executes only a single test module via the [Execute Test](Test_exec_test_execution.html) dialog box \(or by pressing F9\). A non-serial test result does not contain execution information from other test modules.
+A non-serial test result is a typical test result generated when TestArchitect executes only a single test module via the [Execute Test](/TA_Help/Topics/Test_exec_test_execution.html) dialog box \(or by pressing F9\). A non-serial test result does not contain execution information from other test modules.
 
 ![](/images//Images/ug_test_result_non_serial.png)
 
 ## Serial results
 
-A serial result is generated after a serial test run, which is implemented when you drag several test modules into the [Execute Test](Test_exec_test_execution.html) dialog box, or apply the Execute Test command to a test folder. Unlike non-serial test results, serial test results contain execution information from multiple test modules. The main **Summary** tab of the serial result shows the test module summaries and hyperlinks to test result summaries on web browser for each of the executed test modules.
+A serial result is generated after a serial test run, which is implemented when you drag several test modules into the [Execute Test](/TA_Help/Topics/Test_exec_test_execution.html) dialog box, or apply the Execute Test command to a test folder. Unlike non-serial test results, serial test results contain execution information from multiple test modules. The main **Summary** tab of the serial result shows the test module summaries and hyperlinks to test result summaries on web browser for each of the executed test modules.
 
 ![](/images//Images/ug_test_result_serial_run.png)
 
 ## Test suite results
 
-A [test suite](Test_suite.html) is a container for sets of test modules. Therefore, a test suite result is as same as a serial result containing execution information from multiple test modules. The main **Summary** tab of the test suite result shows the test module summaries and hyperlinks to test result summaries for each of the executed test modules.
+A [test suite](/TA_Help/Topics/Test_suite.html) is a container for sets of test modules. Therefore, a test suite result is as same as a serial result containing execution information from multiple test modules. The main **Summary** tab of the test suite result shows the test module summaries and hyperlinks to test result summaries for each of the executed test modules.
 
 ![](/images//Images/ug_test_result_TS.png)
 

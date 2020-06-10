@@ -10,8 +10,8 @@ Mappings, or links, between TFS test cases and their counterparts in TA allow fo
 
 You must have taken the following steps before you can map TestArchitect test cases with TFS test cases:
 
--   Registered the TFS server with TestArchitect. \([Learn more](Integration_MTM_connecting_TFS.html).\)
--   Mapped the TestArchitect project containing the test cases of interest to a TFS project. \([Learn more](Integration_MTM_map_proj.html).\)
+-   Registered the TFS server with TestArchitect. \([Learn more](/TA_Help/Topics/Integration_MTM_connecting_TFS.html).\)
+-   Mapped the TestArchitect project containing the test cases of interest to a TFS project. \([Learn more](/TA_Help/Topics/Integration_MTM_map_proj.html).\)
 -   Created TFS test cases to be mapped with their TestArchitect counterparts.
 -   Created a TestArchitect test module that you want to map with TFS.
 

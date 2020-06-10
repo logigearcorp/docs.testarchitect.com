@@ -10,7 +10,7 @@ A registered bug is a TestArchitect bug \(TA bug\) associated with a Team Founda
 
 Ensure that the following requirements are met:
 
--   Your TestArchitect test machine has [registered](Integration_MTM_connecting_TFS.html#) and [actived bug tracker](ug_TFS_BugTracker_Registering_bugtracker.html#) of Team Foundation Server.
+-   Your TestArchitect test machine has [registered](/TA_Help/Topics/Integration_MTM_connecting_TFS.html#) and [actived bug tracker](/TA_Help/Topics/ug_TFS_BugTracker_Registering_bugtracker.html#) of Team Foundation Server.
 -   A TFS Bug to be associated with a TA bug has already been created, and is of type Bug.
 
     **Note:** In TFS server, TestArchitect only support process template include **Bug** type in Work Item Type list.
@@ -40,7 +40,7 @@ To create a registered TA bug, complete the following steps:
 
     **Note:**
 
-    -   Generally, a registered TA bug loads values from four TFS built-in fields: **Key**, **Summary**, **Status**, and **Description**. However, you can have TestArchitect load additional TFS fields, such as **Priority** or **Severity**, by creating associated TestArchitect user-defined fields. See [Adding a custom field in TestArchitect](Bugs_defined_field_TA.html) for further information.
+    -   Generally, a registered TA bug loads values from four TFS built-in fields: **Key**, **Summary**, **Status**, and **Description**. However, you can have TestArchitect load additional TFS fields, such as **Priority** or **Severity**, by creating associated TestArchitect user-defined fields. See [Adding a custom field in TestArchitect](/TA_Help/Topics/Bugs_defined_field_TA.html) for further information.
     -   Making changes to the **Summary** or **Description** field in the New Bug dialog box is possible.
 5.  Click the **Create** button.
 
@@ -54,13 +54,13 @@ To create a registered TA bug, complete the following steps:
 
         ![](/images//Images/Associated_bug_error_message.png)
 
-    A registered bug is created and appears in the main panel. The fields of the Information tab below are explained in [TA bug information](Bug_information.html).
+    A registered bug is created and appears in the main panel. The fields of the Information tab below are explained in [TA bug information](/TA_Help/Topics/Bug_information.html).
 
     ![](/images//Images/ug_TFS_bug_information_external_bug.PNG)
 
     **Note:**
 
-    -   The TestArchitect **Bug ID** field is a combination of [a prefix key](Projects_and_project_items_create_project.html) followed by an ID number, separated by a hyphen.
+    -   The TestArchitect **Bug ID** field is a combination of [a prefix key](/TA_Help/Topics/Projects_and_project_items_create_project.html) followed by an ID number, separated by a hyphen.
     -   The ID number is automatically generated to avoid duplicate bugs in case of [replication repositories](/TA_Administration/Topics/Repo_server_management_replication_repo_intro.html).
 
 **Parent topic:**[Configuring TFS Bug Tracker integration](/TA_Help/Topics/ug_TFS_BugTracker_configuration.html)

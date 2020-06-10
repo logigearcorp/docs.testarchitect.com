@@ -34,7 +34,7 @@ This action may be used within the following project items:test modules and user
         1.  Open the [Android Instrumentation Tool](/reuse/../Android/Topics/Android_Instrumentation_tool.html) dialog box.
         2.  In the Application Under Test panel, right-click the appropriate application, and then select **Copy package name**.
 
-            ![](/images//Images/Android/Images/Android_copy_package_name.png)
+            ![](/images/Android/Images/Android_copy_package_name.png)
 
         3.  In the test editor, paste the copied value into the process argument of the built-in action.
 -   variable argument:
@@ -44,7 +44,7 @@ This action may be used within the following project items:test modules and user
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html).
+The following settings are applicable to this action:[remove double quotes from cells](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html).
 
 ## Example
 

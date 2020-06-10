@@ -8,7 +8,7 @@ aliases:
 
 Obviously, if execution of a test run is specified with the **Keyword** Spanish and the **AUT Version** Car Rental: 1.2, and the test module calls, say, the user-defined login action, then the \{Car Rental: 1.2\} \{Spanish\} variation of login is invoked – if that variation exists!But it would defeat the purpose of variations \(that is, to make life easier for the tester or automation engineer\) if TestArchitect required that a variation exactly matching all allowable sets of execution parameters exist for every test module, action, interface and data set invoked in a test run.
 
-Instead, TestArchitect follows a set of rules for determining which variation of each test module, action, interface, and data set gets invoked when called. These rules are described narratively in the following sections. A comprehensive description of the entire algorithm for variation selection is then presented in flowchart form, in [Graphical summary of variation selection.](Variations_graphical_summary.html).
+Instead, TestArchitect follows a set of rules for determining which variation of each test module, action, interface, and data set gets invoked when called. These rules are described narratively in the following sections. A comprehensive description of the entire algorithm for variation selection is then presented in flowchart form, in [Graphical summary of variation selection.](/TA_Help/Topics/Variations_graphical_summary.html).
 
 **Note:** Although we talk about variation selection taking place at the time of execution, these rules are actually applied at compile time, which takes place just prior to the actual execution of the test.
 

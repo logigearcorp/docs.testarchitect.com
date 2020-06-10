@@ -8,7 +8,7 @@ aliases:
 
 In this exercise you expand the functionality of your new action by having it derive some values and return them to the calling entity.
 
-If you haven't done so already, please complete the exercise [Encapsulating action lines](Refactoring_test_lines.html). You will be expanding upon the work you did there.
+If you haven't done so already, please complete the exercise [Encapsulating action lines](/TA_Tutorials/Topics/Refactoring_test_lines.html). You will be expanding upon the work you did there.
 
 We will extend the action choose rental location and dates by having it return two values to the calling entity: the duration, in days, of the rental period, and the total price for the rental. In order to allow it to calculate the total price, we will also add an argument so that we can supply it with the daily rental rate.
 
@@ -74,7 +74,7 @@ We will extend the action choose rental location and dates by having it return t
 
     The login window appears.
 
-    ![](/images//Images/TA_Tutorials/Images/app.Car_Rental.Login.unmodified.png)
+    ![](/images/TA_Tutorials/Images/app.Car_Rental.Login.unmodified.png)
 
 13. Navigate to the application window Car Rental-Select Date and Location by clicking **Login**,then **New Order**.
 
@@ -82,7 +82,7 @@ We will extend the action choose rental location and dates by having it return t
 
     With your test displayed in the editor, do the following:
 
-    1.  Click **Execute** ![](/images//Images/TA_Tutorials/Images/btn.TAC_toolbar.Execute.png) on the toolbar.
+    1.  Click **Execute** ![](/images/TA_Tutorials/Images/btn.TAC_toolbar.Execute.png) on the toolbar.
 
         The Execute Test dialog box appears.
 

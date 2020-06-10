@@ -11,7 +11,7 @@ Removed known bug marks from action lines when they are no longer needed.
 Ensure that the following requirements are met:
 
 -   You have sufficient privilege to remove known bug mark. \(Note that members of all administration groups except [guest group](/TA_Administration/Topics/User_administration.html) do have this privilege.\)
--   Test modules to be edited or removed known bug mark are [checked out](Project_items_checkout.html).
+-   Test modules to be edited or removed known bug mark are [checked out](/TA_Help/Topics/Project_items_checkout.html).
 
 To remove the known bug designation from a given action line:
 

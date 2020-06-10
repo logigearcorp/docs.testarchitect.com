@@ -30,7 +30,7 @@ How to import your local test result files \(.TARESULT\) into TestArchitect as e
 
 -   Option \#2: Import local test result files \(.TARESULT\) as repository results.
 
-    **Warning:** When your local result files \(.TARESULT\) contain [captured screenshots](ug_Screenshot_recording.html), but they are imported as repository test results, the screenshots are totally discarded.
+    **Warning:** When your local result files \(.TARESULT\) contain [captured screenshots](/TA_Help/Topics/ug_Screenshot_recording.html), but they are imported as repository test results, the screenshots are totally discarded.
 
     1.  In the TestArchitect explorer tree, right-click the **Results** node or a test result folder, and then select **Import Test Result\(s\)** \> **from TARESULT file**.
 

@@ -12,7 +12,7 @@ Creating your own test playback tool to allow scripts to be written in a languag
 
 To configure your custom harness test tool, do the following:
 
-1.  Log in to a TestArchitect repository as a member of the [administrator](User_administration.html) group.
+1.  Log in to a TestArchitect repository as a member of the [administrator](/TA_Administration/Topics/User_administration.html) group.
 
 2.  In the TestArchitect explorer tree, expand the **Administration** \> **Tool Profiles** \> **Test Tool** node.
 
@@ -56,7 +56,7 @@ To configure your custom harness test tool, do the following:
 
             |Component|Description|
             |---------|-----------|
-            |Option\_name|Label for the check box option. At run setup time, this check box is displayed in the Options panel of the Automation Tools dialog box.![](/images//Images/Available_options_test_tool_option_name.png)<br>**Note:** Note that the value of Option\_name is also used to name a variable representing the given option in the Test Tool **Command line** field, as described below.<br><br>|
+            |Option\_name|Label for the check box option. At run setup time, this check box is displayed in the Options panel of the Automation Tools dialog box.![](/images//Images/Available_options_test_tool_option_name.png)<br><br>**Note:** Note that the value of Option\_name is also used to name a variable representing the given option in the Test Tool **Command line** field, as described below.<br><br>|<br>
             |Value\_if\_checked|The value written to the command line if this option is selected. \(Visible in the **Command Line** field of the Automation Tools dialog box.\)|
             |Value\_if\_cleared|The value written to the command line if this option is cleared. \(Visible in the **Command Line** field of the Automation Tools dialog box.\)|
             |Default\_value|Can be true or false. If true, this option's check box is selected when the Automation Tools dialog box is first opened; if false, it is cleared.|

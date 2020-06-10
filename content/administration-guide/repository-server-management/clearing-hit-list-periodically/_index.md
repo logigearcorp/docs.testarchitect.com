@@ -14,7 +14,7 @@ Scheduled hit list clearance is configurable for each given repository server. \
 
 **Tip:**
 
--   It is recommended that you do not plan the hit list clearance at the same time as other scheduling, such as: [backing up the repository](Repo_server_management_bk.html) or [synchronizing data](adm_Synchronizing_data.html).
+-   It is recommended that you do not plan the hit list clearance at the same time as other scheduling, such as: [backing up the repository](/TA_Administration/Topics/Repo_server_management_bk.html) or [synchronizing data](/TA_Administration/Topics/adm_Synchronizing_data.html).
 -   Hit list clearance should be scheduled when your teams are idle.
 
 To create a hit list clearance schedule, perform the steps below:

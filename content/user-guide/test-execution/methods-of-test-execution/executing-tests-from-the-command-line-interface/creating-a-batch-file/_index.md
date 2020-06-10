@@ -8,7 +8,7 @@ aliases:
 
 How to have TestArchitect generate a test execution batch file for you, with all the arguments set in accordance with your preferences.
 
-1.  After creating your test, launch the [Execute Test](Test_exec_test_execution.html) dialog box.
+1.  After creating your test, launch the [Execute Test](/TA_Help/Topics/Test_exec_test_execution.html) dialog box.
 
 2.  Configure all the options in the Execute Test dialog box in accordance with your preferences.
 

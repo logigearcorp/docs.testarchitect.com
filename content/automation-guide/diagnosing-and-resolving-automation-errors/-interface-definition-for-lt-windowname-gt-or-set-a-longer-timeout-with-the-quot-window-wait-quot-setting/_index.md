@@ -21,7 +21,7 @@ You can apply the following ways to troubleshoot why the window could not be fou
 -   If the AUT is open, check whether the title of the window is changed.
     -   In the Viewer, if the window is unmatched, see the [Property Comparison](/TA_Help/Topics/ug_Inteface_properties_comparison_panel.html) panel to understand why the window is no longer matched. You might need to recapture the interface definition of the window.
 
-        ![](/TA_Help/Images/Properties_comparison_panel_interface_entity.png)
+        ![](/images/TA_Automation/Images/Properties_comparison_panel_interface_entity.png)
 
     -   In the Viewer, if the window is matched, it might be timing or scripting issue. You might need to modify your test procedures.
         -   Use [**Screenshot Recording**](/TA_Help/Topics/ug_Screenshot_recording.html): You have an instant view of the state of the system at each critical juncture, and instantly know if that state was as expected.

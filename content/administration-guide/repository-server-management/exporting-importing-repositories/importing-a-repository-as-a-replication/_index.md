@@ -13,9 +13,9 @@ Ensure that the following requirements are met:
 -   The file to be imported into the replication server\(s\) must be one that was exported from a primary server. Additionally, there must not have been any changes to the primary repository during primary-replication setup.
 -   The repository server on the remote host \(primary server\) is currently running, and is indeed currently hosting an instance of the repository you are now importing.
 
-To import a repository as a [replication repository](Repo_server_management_replication_repo_intro.html):
+To import a repository as a [replication repository](/TA_Administration/Topics/Repo_server_management_replication_repo_intro.html):
 
-1.  If not already running, [open](Repo_server_management_launching.html) the Repository Server Control Panel dialog box.
+1.  If not already running, [open](/TA_Administration/Topics/Repo_server_management_launching.html) the Repository Server Control Panel dialog box.
 
 2.  Click **Import Repository** ![](/images//Images/btn.RS_import_repo.png) on the toolbar, or select **Tools** \> **Import Repository**.
 
@@ -39,7 +39,7 @@ To import a repository as a [replication repository](Repo_server_management_repl
 
     A status bar indicating the progress of the import is visible in the bottom left corner of the Import Repository dialog box.
 
-    **Note:** If the status of the imported repository files is Error, please refer to [Troubleshooting repository import](adm_Importing_repository_troubleshooting.html).
+    **Note:** If the status of the imported repository files is Error, please refer to [Troubleshooting repository import](/TA_Administration/Topics/adm_Importing_repository_troubleshooting.html).
 
     When the import process finishes, a successful notification message replaces the progress bar in the status area. The successfully imported repositories display a status of Done.
 

@@ -12,7 +12,7 @@ Rapidly create a new user-defined action from a contiguous set of actions in the
 
 2.  Right-click the selection, then select **Create Action** from the context menu \(or press Ctrl + Alt + C on the keyboard\).
 
-    **Remember:** It is OK if one or more of the actions is marked with a bug, as long as all the bugs are of the same type. However, if the set of actions contains bugs of more than a single type, the following message is displayed. \(See [Marking TA bugs as known bugs](Bugs_working_known_bug_marking.html) for further information\).
+    **Remember:** It is OK if one or more of the actions is marked with a bug, as long as all the bugs are of the same type. However, if the set of actions contains bugs of more than a single type, the following message is displayed. \(See [Marking TA bugs as known bugs](/TA_Help/Topics/Bugs_working_known_bug_marking.html) for further information\).
 
     ![](/images//Images/Bugs_smart_create_new_action.png)
 
@@ -29,7 +29,7 @@ Rapidly create a new user-defined action from a contiguous set of actions in the
 4.  Click **Create**.
 
 
-A new worksheet appears, headed by the name of the action, which is followed by a list of its arguments. This worksheet is known as the action definition for the new action. Any lines you add to this sheet are executed whenever the new action is called from a test module or another action definition. \(See also [automating actions](Creating_and_using_actions_Arg_type_auto_action.html).\)
+A new worksheet appears, headed by the name of the action, which is followed by a list of its arguments. This worksheet is known as the action definition for the new action. Any lines you add to this sheet are executed whenever the new action is called from a test module or another action definition. \(See also [automating actions](/TA_Help/Topics/Creating_and_using_actions_Arg_type_auto_action.html).\)
 
 **Parent topic:**[User-defined actions](/reuse/reuse.High_level_actions.html)
 

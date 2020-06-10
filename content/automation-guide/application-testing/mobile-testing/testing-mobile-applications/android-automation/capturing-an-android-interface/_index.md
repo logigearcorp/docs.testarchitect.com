@@ -13,8 +13,8 @@ The Interface Viewer looks for the presence of an available Android device. If f
 Ensure that the following requirements are met:
 
 -   You are familiar with the Interface Viewer and the concepts involved in creating an interface. \([Learn more](/TA_Help/Topics/Interface_def_Viewer.html).\)
--   A connection between your Android device and the host machine has been established. \([Lear more](Setting_up_installation_target_devices.html).
--   The re-signed application is active on your Android device. \([Learn more](Launching_an_AUT.html).\)
+-   A connection between your Android device and the host machine has been established. \([Lear more](/Android/Topics/Setting_up_installation_target_devices.html).
+-   The re-signed application is active on your Android device. \([Learn more](/Android/Topics/Launching_an_AUT.html).\)
 
 Do the following to capture interface entities/elements of the re-signed application running on your Android device:
 

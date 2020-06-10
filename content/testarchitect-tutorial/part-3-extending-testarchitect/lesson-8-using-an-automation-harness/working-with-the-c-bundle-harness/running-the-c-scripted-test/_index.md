@@ -10,7 +10,7 @@ Execute the test that calls the hello action you implemented in the C\# bundle h
 
 You have created a test case that calls the action hello, passing it an argument \(TestArchitect\). You have also implemented the user-scripted action in C\# to handle the execution of the hello action.
 
-1.  With your test module displayed in the TestArchitect editor, click **Execute** ![](/images//Images/TA_Tutorials/Images/btn.TAC_toolbar.Execute.png) on the toolbar.
+1.  With your test module displayed in the TestArchitect editor, click **Execute** ![](/images/TA_Tutorials/Images/btn.TAC_toolbar.Execute.png) on the toolbar.
 
     The Execute Test dialog box appears.
 
@@ -20,7 +20,7 @@ You have created a test case that calls the action hello, passing it an argument
 
 3.  Select **CSharp\_Harness** from the **Playback Tool** options.
 
-4.  In the **Executable\(s\)** text box, browse to \(![](/TA_Help/Images/btn.browse-ellipsis.02.png)\) the TestArchitect.Harness.Executor.exe file.
+4.  In the **Executable\(s\)** text box, browse to \(![](/images/TA_Automation/Images/btn.browse-ellipsis.02.png)\) the TestArchitect.Harness.Executor.exe file.
 
     By default, this file is located at <INSTALL\_DIR\>\\harness samples\\csharp\\executables, once TestArchitect is installed.
 

@@ -10,7 +10,7 @@ Setting a password requirement limits the ability of users, remote or local, to 
 
 On repository servers that are shared among multiple users, it is recommended that you require authentication. To require a password, or to remove a password requirement, for the creation of new repositories, perform the following steps:
 
-1.  If not already running, start the [Repository Server Control Panel](Repo_server_management_launching.html).
+1.  If not already running, start the [Repository Server Control Panel](/TA_Administration/Topics/Repo_server_management_launching.html).
 
 2.  Click **Require Password** ![](/images//Images/btn.RS_require_pw.png) on the toolbar.
 

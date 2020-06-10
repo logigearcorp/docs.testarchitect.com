@@ -22,15 +22,15 @@ seconds
 ## Notes
 
 -   The object wait setting is applicable to every built-in action that contains the control argument *and* expects the specified control to exist.
--   The object wait setting *does not* apply to does/if built-in actions: specifically, [if control exists](if_control_exists.html), [if control not exists](if_control_not_exists.html), and [does control exist](does_control_exist.html). For these three actions, use the [window wait probe](object_wait_probe.html) setting.
+-   The object wait setting *does not* apply to does/if built-in actions: specifically, [if control exists](/TA_Automation/Topics/bia_if_control_exists.html), [if control not exists](/TA_Automation/Topics/bia_if_control_not_exists.html), and [does control exist](/TA_Automation/Topics/bia_does_control_exist.html). For these three actions, use the [window wait probe](/TA_Automation/Topics/bis_object_wait_probe.html) setting.
 -   Setting a high wait time value may negatively impact test performance.
 
 ## Result timeout
 
-Suppose you are using [check control exists](check_control_exists.html) and [check control not exists](check_control_not_exists.html) built-in actions, the execution mechanism is as follows:
+Suppose you are using [check control exists](/TA_Automation/Topics/bia_check_control_exists.html) and [check control not exists](/TA_Automation/Topics/bia_check_control_not_exists.html) built-in actions, the execution mechanism is as follows:
 
 1.  TestArchitect starts looking for the specified window.
-2.  If the specified window is not yet available, TestArchitect waits until the window is available within the default timeout 20 seconds, specified by the [window wait](window_wait.html) built-in setting.
+2.  If the specified window is not yet available, TestArchitect waits until the window is available within the default timeout 20 seconds, specified by the [window wait](/TA_Automation/Topics/bis_window_wait.html) built-in setting.
 3.  When the timeout is reached but the window is still unavailable, TestArchitect reports a warning informing that the window could not be found. \(No pass or fail is recorded\).
 4.  If the window is found, TestArchitect starts looking for the specified control.
 5.  With the check control exists action:

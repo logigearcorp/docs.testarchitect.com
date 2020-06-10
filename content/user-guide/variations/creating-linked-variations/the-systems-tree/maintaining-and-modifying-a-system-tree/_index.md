@@ -8,9 +8,9 @@ aliases:
 
 As is evident from the context menu for any node in the **Systems and Platforms** tree, nodes may be renamed, and can be added or deleted from the tree. What is not directly evident is that, to a limited degree, a tree's structure may also be modified by rearranging its nodes and subtrees.
 
-Nodes cannot be made to ascend or descend to a different level – or, to put it more generally, once a node is created, the node can never change its parent. However, the order of the sibling nodes – nodes that are subnodes of the same parent node – can be changed. This is important because the order of sibling nodes can determine which variations of test modules, actions, interface entities, and data sets are invoked for a given test run. This is called the version compilation order and its implications are discussed in [Rules for executing with variations](Variations_rules_executing.html). For now though, let's just see how to modify this version compilation order.
+Nodes cannot be made to ascend or descend to a different level – or, to put it more generally, once a node is created, the node can never change its parent. However, the order of the sibling nodes – nodes that are subnodes of the same parent node – can be changed. This is important because the order of sibling nodes can determine which variations of test modules, actions, interface entities, and data sets are invoked for a given test run. This is called the version compilation order and its implications are discussed in [Rules for executing with variations](/TA_Help/Topics/Variations_rules_executing.html). For now though, let's just see how to modify this version compilation order.
 
-To demonstrate, first of all, let's create several additional nodes, residing under the **Car Rental** system tree as follows: \(See [Creating new system tree](Variations_create_linked_create_system_tree.html) for details.\)
+To demonstrate, first of all, let's create several additional nodes, residing under the **Car Rental** system tree as follows: \(See [Creating new system tree](/TA_Help/Topics/Variations_create_linked_create_system_tree.html) for details.\)
 
 ![](/images//Images/ug_systemtree11.png)
 

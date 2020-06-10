@@ -24,7 +24,7 @@ Create a new data row with the specified contents.
 
 ## Return Value
 
-A new [AbtDataRow](abt_AbtDataRow.html) object, representing a data set row, with the specified contents.
+A new [AbtDataRow](/TA_Automation/Topics/abt_AbtDataRow.html) object, representing a data set row, with the specified contents.
 
 ## Notes
 

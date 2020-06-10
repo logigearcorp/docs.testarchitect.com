@@ -40,7 +40,7 @@ Begin by opening TestArchitect Client, then expand a specific project of the Tes
 
     ![](/images//Images/user_defined_action_get_list_view_row_value.png)
 
-7.  Assuming you performed the last exercise, you should have a test module named My scripted tests. If not, go ahead and[create it](tut_Harness_CSharp_bundle_creating_test_case_and_stub_action.html).
+7.  Assuming you performed the last exercise, you should have a test module named My scripted tests. If not, go ahead and[create it](/TA_Tutorials/Topics/tut_Harness_CSharp_bundle_creating_test_case_and_stub_action.html).
 8.  Add a new test case to test module My scripted tests. Title this new test case Test user-scripted action interacting with aut. Optionally, add a test objective action beneath it, referencing objective TO 01, since we're still testing the C\# bundle harness.
 
 9.  You will be testing the songs list control of the Music Player application. You will select an item based on a given row index number, get the combined values of the selected item \(separated by vertical bars as delimiters\), and assign the retrieved value to a specified returned variable.

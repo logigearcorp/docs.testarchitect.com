@@ -8,7 +8,7 @@ aliases:
 
 The linked variations solution is based upon a user-generated model of the various systems which affect the behavior of the application under test.The model for each such system usually reflects its incremental refinement over time, with either a linear form, or a tree structure sprouting various nodes, each representing a different version or sub-version. Variations of definitions can then be linked to version nodes in this tree.
 
-Any number of systems trees may be created for a repository, each modeling some aspect of an application \(or applications\) addressed by a project, or an aspect of the environment \(that is, a system or platform, as discussed in the [introduction](Variations_intro.html)\). The most common system to model is an AUT itself, as it undergoes development.
+Any number of systems trees may be created for a repository, each modeling some aspect of an application \(or applications\) addressed by a project, or an aspect of the environment \(that is, a system or platform, as discussed in the [introduction](/TA_Help/Topics/Variations_intro.html)\). The most common system to model is an AUT itself, as it undergoes development.
 
 -   **[Creating a new system \(application under test\)](/TA_Help/Topics/Variations_create_linked_create_new_system.html)**  
 Create a new system tree to represent a given dimension of variability of an application under test, or of its environment.

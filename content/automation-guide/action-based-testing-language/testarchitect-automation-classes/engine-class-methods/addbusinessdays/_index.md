@@ -33,7 +33,7 @@ The resultant date.
 
 -   Business days are defined as Monday thru Friday. Weekend days are excluded.
 -   To subtract business days, use a negative value for the days parameter.
--   This function is equivalent to the [plusbd](Expressions_functions_plusbd.html) function, as it can be used by the tester in a "\#" expression.
+-   This function is equivalent to the [plusbd](/TA_Automation/Topics/Expressions_functions_plusbd.html) function, as it can be used by the tester in a "\#" expression.
 
 **Parent topic:**[Engine class methods](/TA_Automation/Topics/abtf_Engine_classes.html)
 

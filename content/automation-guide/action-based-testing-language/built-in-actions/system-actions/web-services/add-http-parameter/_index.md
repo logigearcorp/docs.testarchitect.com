@@ -28,14 +28,14 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   An HTTP request must be instantiated via [create http request](create_http_request.html) before calling this built-in action.
+-   An HTTP request must be instantiated via [create http request](/TA_Automation/Topics/bia_create_http_request.html) before calling this built-in action.
 -   To add multiple value parameters into the URI of the GET request, in your test procedures declare several add http parameter. These name/value pairs are joined with equal signs and different pairs are separated by the ampersand. For example: /test/demo\_form.asp?name1=value1&name2=value2.
--   Alternatively, when you do not want to use this built-in action to add a name/value pair into the GET request, append the name/value pair directly into the URI and then send the entire GET request to the server by using the [send http request](send_http_request.html) built-in action. \(See Examples.\)
+-   Alternatively, when you do not want to use this built-in action to add a name/value pair into the GET request, append the name/value pair directly into the URI and then send the entire GET request to the server by using the [send http request](/TA_Automation/Topics/bia_send_http_request.html) built-in action. \(See Examples.\)
 -   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html).
+The following settings are applicable to this action:[remove double quotes from cells](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html).
 
 ## Example
 
@@ -45,7 +45,7 @@ The following settings are applicable to this action:[remove double quotes from 
 
     ![](/images//Images/bia_add_http_parameter_pgm.png)
 
--   Option \#2: Use [send http request](send_http_request.html) to append pairs of name/value into the URI of the GET request.
+-   Option \#2: Use [send http request](/TA_Automation/Topics/bia_send_http_request.html) to append pairs of name/value into the URI of the GET request.
 
     ![](/images//Images/bia_add_http_parameter_pgm_2.png)
 

@@ -11,7 +11,7 @@ Steps to upgrade TA-TFS integration projects.
 **Remember:**
 
 -   Upgrading of outdated build assembly files is supported with TA-TFS plug-in versions \#3.0.14 or later. \(To check the current version of your TA-TFS plug-in: in Visual Studio, select the **Tools** \> **Extensions and Updates** menu, browse, and then click **TA-TFS Integration Plugin**\).
--   If your TA-TFS plug-in version is \#3.0.19 or earlier, an additional step is required after upgrading the build assembly files. TA-TFS integration projects created after \#3.0.19 have replaced Coded UI with Unit Tests; that is, they are no longer dependent on the Coded UI libraries. Therefore, you must reassociate your existing TFS tests cases \([Learn more](ug_MTM_associate.html)\).
+-   If your TA-TFS plug-in version is \#3.0.19 or earlier, an additional step is required after upgrading the build assembly files. TA-TFS integration projects created after \#3.0.19 have replaced Coded UI with Unit Tests; that is, they are no longer dependent on the Coded UI libraries. Therefore, you must reassociate your existing TFS tests cases \([Learn more](/TA_Help/Topics/ug_MTM_associate.html)\).
 
 To upgrade TA-TFS projects, do the following:
 
@@ -29,8 +29,8 @@ To upgrade TA-TFS projects, do the following:
 
     1.  Update the TestArchitect BuildAssemblies files, which store information of the TA-TFS plug-in when it is installed.
     2.  Structure folder in your projects as follows:
-        -   Create a new class file called TAIntegrationExtensibility.cs, which is used to develop [TFS-MTM Extensibility](ug_MTM_Extensibility.html)
-        -   Move C\# test method files, generated during [test association](ug_MTM_associate.html), into a new subfolder called TestArchitect\_Generated.
+        -   Create a new class file called TAIntegrationExtensibility.cs, which is used to develop [TFS-MTM Extensibility](/TA_Help/Topics/ug_MTM_Extensibility.html)
+        -   Move C\# test method files, generated during [test association](/TA_Help/Topics/ug_MTM_associate.html), into a new subfolder called TestArchitect\_Generated.
         -   Move assembly methods into the TAIntegrationAssembly.cs file.
 4.  If you want Visual Studio to back up your projects before upgrading them, select the **Auto back-up updating project\(s\)** check box.
 

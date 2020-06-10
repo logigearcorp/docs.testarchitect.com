@@ -10,7 +10,7 @@ Various fields of a test objective can be edited by you.
 
 To modify a test objective, follow these steps:
 
-1.  [Check out](Project_items_checkout.html) and open a test module.
+1.  [Check out](/TA_Help/Topics/Project_items_checkout.html) and open a test module.
 
 2.  In the `Objectives` section in the editor worksheet, right-click the cell containing the test objective, then click **Test objective** \> **Edit Test Objective**.
 
@@ -26,7 +26,7 @@ To modify a test objective, follow these steps:
 
         **Note:**
 
-        -   The **Recent result** field is automatically filled in from the results of parent test cases [added to the repository](Test_result_storing.html).
+        -   The **Recent result** field is automatically filled in from the results of parent test cases [added to the repository](/TA_Help/Topics/Test_result_storing.html).
         -   This field may also be manually edited, allowing you to override the value that the system supplies.
         -   Possible returned values are:
             -   Not tested \(default\)

@@ -8,7 +8,7 @@ aliases:
 
 TestArchitectoffers a wealth of features to allow you to create reports on your projects and tests, and customize those reports to meet your unique needs.
 
-The Edit Profile panel \(accessed via the [context menu in the TestArchitect explorer tree](Report_producing.html#step.access_edit_profile_panel)\) enables you to specify which records are to appear in a report, how they are sorted, and which are included in the statistics. Once you have changed report settings, you can generate an updated report.
+The Edit Profile panel \(accessed via the [context menu in the TestArchitect explorer tree](/TA_Help/Topics/Report_producing.html#step.access_edit_profile_panel)\) enables you to specify which records are to appear in a report, how they are sorted, and which are included in the statistics. Once you have changed report settings, you can generate an updated report.
 
 ![](/images//Images/Edit_profile_panel.png)
 
@@ -57,7 +57,7 @@ Each term of a filter expression applies a comparison against an attribute of th
     |and|Value is TRUE if and only if both sides of the and operator are TRUE.|
     |or|Value is TRUE if either side of the or operator is TRUE.|
 
--   The asterisk \(\*\) character is used as a wildcard to represent any arbitrary string of characters \(including the empty string\). When using wildcards, the tilde \(~\) operator must be used in place of the equal-to \(=\) operator, to ensure that the asterisk is treated as a wildcard. Multiple wildcards may be used within a single comparison term. See the [example](Report_customizing.html#li_g44_3g1_xn) below.
+-   The asterisk \(\*\) character is used as a wildcard to represent any arbitrary string of characters \(including the empty string\). When using wildcards, the tilde \(~\) operator must be used in place of the equal-to \(=\) operator, to ensure that the asterisk is treated as a wildcard. Multiple wildcards may be used within a single comparison term. See the [example](/TA_Help/Topics/Report_customizing.html#li_g44_3g1_xn) below.
 
 **Note:** Values must be surrounded by double quotation marks \("\). For date values, use the format `"yyyy-mm-dd`" . \(For example, "`2010-09-01"` for September 1st, 2010\).
 
@@ -142,9 +142,9 @@ The toolbar of the Edit Profile panel offers the following buttons:
 3.  **Print** button: Print the report.
 4.  **Select all** button: Select all check boxes.
 5.  **Clear all** button: Clear all check boxes.
-6.  **Save as test suite** button: Create a dynamic test suite based on the current report. See also [Creating a dynamic test suite](Test_suite_item_dynamic.html).
+6.  **Save as test suite** button: Create a dynamic test suite based on the current report. See also [Creating a dynamic test suite](/TA_Help/Topics/Test_suite_item_dynamic.html).
 
-    **Note:** Initially, when a report is created, the **Save as test suite** button is disabled. To enable that button, you must [save the report profile](Report_profiles.html) in advance.
+    **Note:** Initially, when a report is created, the **Save as test suite** button is disabled. To enable that button, you must [save the report profile](/TA_Help/Topics/Report_profiles.html) in advance.
 
 
 **Parent topic:**[Reporting](/TA_Help/Topics/Reporting_def.html)

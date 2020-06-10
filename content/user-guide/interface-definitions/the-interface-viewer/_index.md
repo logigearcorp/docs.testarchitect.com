@@ -12,7 +12,7 @@ In order to write test modules and implement actions that interact with the GUI 
 
 The Interface Viewer is a support tool to capture and save all or parts of the interface definition. \(See also the [tutorial section on using the Interface Viewer](/TA_Tutorials/Topics/Tutorial_Working_with_interface_definitions.html) for examples on how to use it\). It does this by examining an AUT's user interface and then generating the contents of interface entities.
 
-Capturing and identifying elements of an interface can be performed, to a certain extent, via the TestArchitect client's own [interface](Interface_def_client_interface_tool.html). In that regard, it should be noted that the Interface Viewer offers two primary advantages:
+Capturing and identifying elements of an interface can be performed, to a certain extent, via the TestArchitect client's own [interface](/TA_Help/Topics/Interface_def_client_interface_tool.html). In that regard, it should be noted that the Interface Viewer offers two primary advantages:
 
 -   the ability to capture and map all the elements of a given window at once; and
 -   the ability to view information on the interface: windows, controls, element, interface entities, interface elements, and all their various properties and property values.

@@ -12,7 +12,7 @@ How to export your local test results to .TARESULT files.
 
     1.  Select a local test result that you want to export to the .TARESULT file.
 
-        **Tip:** You can select a local test result in the TestArchitect explorer tree, or in the [local result list view](Listview_results_local.html).
+        **Tip:** You can select a local test result in the TestArchitect explorer tree, or in the [local result list view](/TA_Help/Topics/Listview_results_local.html).
 
     2.  Invoke the Export Result\(s\) To File dialog box by doing one of the following:
 
@@ -30,11 +30,11 @@ How to export your local test results to .TARESULT files.
 
         -   On Windows: Network paths are also supported.
         -   On Linux, macOS: Mounted paths are also supported.
-    4.  To include all captured [screenshots](ug_Screenshot_recording.html) in the exported test result, select the **Include screenshots** check box.
+    4.  To include all captured [screenshots](/TA_Help/Topics/ug_Screenshot_recording.html) in the exported test result, select the **Include screenshots** check box.
 
     5.  To open the parent folder containing the exported test result, select the **Open folder after saving** check box.
 
-    6.  If the exported test result is a master result, meaning, it is a [test suite result](ug_test_results_introduction.html#section.TS_results), or it contains [subresults](ug_test_results_introduction.html#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into .TARESULT format.
+    6.  If the exported test result is a master result, meaning, it is a [test suite result](/TA_Help/Topics/ug_test_results_introduction.html#section.TS_results), or it contains [subresults](/TA_Help/Topics/ug_test_results_introduction.html#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into .TARESULT format.
 
     7.  In the Export Result\(s\) To File, click **OK**.
 
@@ -44,10 +44,10 @@ How to export your local test results to .TARESULT files.
 
     8.  In the dialog box, click **OK** to proceed.
 
-    -   After exporting the local test results, you can import them into TestArchitect on any machine. \([Learn more](ug_importing_test_results.html).\)
+    -   After exporting the local test results, you can import them into TestArchitect on any machine. \([Learn more](/TA_Help/Topics/ug_importing_test_results.html).\)
     -   Local result \(.TARESULT\) files can be imported as either local or repository test results into TestArchitect.
 
-        **Warning:** When your local result files \(.TARESULT\) contain [captured screenshots](ug_Screenshot_recording.html), but they are imported as repository test results, the screenshots are totally discarded.
+        **Warning:** When your local result files \(.TARESULT\) contain [captured screenshots](/TA_Help/Topics/ug_Screenshot_recording.html), but they are imported as repository test results, the screenshots are totally discarded.
 
 -   **Option \#2**: Directing TestArchitect to automatically export test results to .TARESULT upon test completion.
 
@@ -71,18 +71,18 @@ How to export your local test results to .TARESULT files.
 
         -   On Windows: Network paths are also supported.
         -   On Linux, macOS: Mounted paths are also supported.
-    6.  To include all captured [screenshots](ug_Screenshot_recording.html) in the exported test result, select the **Include screenshots** check box.
+    6.  To include all captured [screenshots](/TA_Help/Topics/ug_Screenshot_recording.html) in the exported test result, select the **Include screenshots** check box.
 
-    7.  If the exported test result is a master result, meaning, it is a [test suite result](ug_test_results_introduction.html#section.TS_results), or it contains [subresults](ug_test_results_introduction.html#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into .TARESULT format.
+    7.  If the exported test result is a master result, meaning, it is a [test suite result](/TA_Help/Topics/ug_test_results_introduction.html#section.TS_results), or it contains [subresults](/TA_Help/Topics/ug_test_results_introduction.html#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into .TARESULT format.
 
     8.  Click **Execute**.
 
         -   TestArchitect saves the settings in the Advanced tab and executes the test\(s\). Once execution is complete, the test results are automatically exported to a .TARESULT file at the specified location.
-        -   Local result \(.TARESULT\) files can be imported as either local or repository test results into TestArchitect. \([Learn more](ug_importing_test_results.html).\)
+        -   Local result \(.TARESULT\) files can be imported as either local or repository test results into TestArchitect. \([Learn more](/TA_Help/Topics/ug_importing_test_results.html).\)
 
-            **Warning:** When your local result files \(.TARESULT\) contain [captured screenshots](ug_Screenshot_recording.html), but they are imported as repository test results, the screenshots are totally discarded.
+            **Warning:** When your local result files \(.TARESULT\) contain [captured screenshots](/TA_Help/Topics/ug_Screenshot_recording.html), but they are imported as repository test results, the screenshots are totally discarded.
 
-        **Note:** If you opt to generate a batch file \(rather than execute the test immediately\), the following parameters are written to the generated file. \([Learn more](Test_exec_cmd.html#plentry.paramters_tares)\).
+        **Note:** If you opt to generate a batch file \(rather than execute the test immediately\), the following parameters are written to the generated file. \([Learn more](/TA_Help/Topics/Test_exec_cmd.html#plentry.paramters_tares)\).
 
         -   **-tares <TAresult\>**
 

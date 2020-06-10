@@ -8,7 +8,7 @@ aliases:
 
 User-defined settings are a useful way of passing information to your test modules prior to startup to get them to behave in a certain way. You can create these settings within TestArchitect Client for either a client-directed test run or to generate a test run batch file.
 
-**Note:** Within TestArchitect Client, user-defined settings are created and configured within the **Startup Settings** tab of the Execute Test dialog box. Although [built-in settings](Built_in_settings.html) may also be configured under this tab, TestArchitect does not allow for the creation of new ones.
+**Note:** Within TestArchitect Client, user-defined settings are created and configured within the **Startup Settings** tab of the Execute Test dialog box. Although [built-in settings](/TA_Automation/Topics/bis_Built_in_settings.html) may also be configured under this tab, TestArchitect does not allow for the creation of new ones.
 
 To create a user-defined setting from TestArchitect Client, do the following:
 
@@ -33,7 +33,7 @@ To create a user-defined setting from TestArchitect Client, do the following:
 
     -   **Value**: \(Optional\) Value for the specified setting.
 
-        **Note:** Although setting a value is optional at this point, you cannot change a user-defined setting's value from within your test procedure. On the other hand, there is a valid reason for leaving this field empty: it allows your program to *effectively* set a value for the setting when it finds that there is no value set. This is because your test's action lines cannot directly work with a user-defined setting, but *can* work with variables. The [get setting](get_setting.html) action is used to transfer a value from a user-defined setting to a variable, and when that setting has no value, the value specified in the action's default argument is applied to the variable.
+        **Note:** Although setting a value is optional at this point, you cannot change a user-defined setting's value from within your test procedure. On the other hand, there is a valid reason for leaving this field empty: it allows your program to *effectively* set a value for the setting when it finds that there is no value set. This is because your test's action lines cannot directly work with a user-defined setting, but *can* work with variables. The [get setting](/TA_Automation/Topics/bia_get_setting.html) action is used to transfer a value from a user-defined setting to a variable, and when that setting has no value, the value specified in the action's default argument is applied to the variable.
 
     -   **Description**: \(Optional\) Short description of the setting.
 5.  Click **OK**.

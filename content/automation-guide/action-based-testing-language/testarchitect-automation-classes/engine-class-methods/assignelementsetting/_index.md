@@ -44,7 +44,7 @@ Return 0 if the call is successful; otherwise, -1. If the interface, entity, or 
 ## Notes
 
 -   Typical examples of element settings are name, gui id, class, row, column, etc. Which settings are relevant fully depends on the interface and the specific properties of the given interface element.
--   This function is analogous to the built-in action [interface element setting](interface_element_setting.html) \(or a column in the definition line of an element\).
+-   This function is analogous to the built-in action [interface element setting](/TA_Automation/Topics/bia_interface_element_setting.html) \(or a column in the definition line of an element\).
 
 **Parent topic:**[Engine class methods](/TA_Automation/Topics/abtf_Engine_classes.html)
 

@@ -8,7 +8,7 @@ aliases:
 
 The fourth panel of the Interface Viewer, Properties Comparison, is of special value if and when you find that a defined interface element can no longer identify a control in your test application. This panel displays the differences between the defined property values in the interface element and the actual \(just-captured\) values of those properties in the corresponding control, allowing you to understand why that interface element is no longer able to identify the control.
 
-The contents of this panel are displayed only when an interface element from the Interface Elements panel is selected. Note that for an unmatched element, TestArchitect has no good way of figuring out which control it was intended to identify. Hence, to view a comparison of respective property values in Properties Comparison, it is also necessary that you determine, and then select, the correct control node in the [UI Explorer](ug_Interface_UI_explorer_panel.html) panel. This results in value\(s\) being displayed in the **Current Value** column.
+The contents of this panel are displayed only when an interface element from the Interface Elements panel is selected. Note that for an unmatched element, TestArchitect has no good way of figuring out which control it was intended to identify. Hence, to view a comparison of respective property values in Properties Comparison, it is also necessary that you determine, and then select, the correct control node in the [UI Explorer](/TA_Help/Topics/ug_Interface_UI_explorer_panel.html) panel. This results in value\(s\) being displayed in the **Current Value** column.
 
 ![](/images//Images/Properties_comparison_panel.png)
 
@@ -25,7 +25,7 @@ The Properties Comparison panel consists of three fields for each row:
 
 ## Comparing unmatched interface entities and windows
 
-Unlike the case for interface elements \(controls\), property comparisons for unmatched interface entities \(windows, dialogs, etc.\) are presented in the Viewer's [Properties panel](ug_Interface_properties_panel.html). When a window node is selected in UI Explorer and the active tab in TestArchitect Client holds an interface entity, *and* the two do not match, the Properties panel goes into Property Comparison mode. An additional column, **Defined value**, displays property values defined in the interface entity, while **Current Value** displays the actual \(just-captured\) values from the application window. Again, non-matching values are indicated with red text.
+Unlike the case for interface elements \(controls\), property comparisons for unmatched interface entities \(windows, dialogs, etc.\) are presented in the Viewer's [Properties panel](/TA_Help/Topics/ug_Interface_properties_panel.html). When a window node is selected in UI Explorer and the active tab in TestArchitect Client holds an interface entity, *and* the two do not match, the Properties panel goes into Property Comparison mode. An additional column, **Defined value**, displays property values defined in the interface entity, while **Current Value** displays the actual \(just-captured\) values from the application window. Again, non-matching values are indicated with red text.
 
 ![](/images//Images/Properties_comparison_panel_interface_entity.png)
 

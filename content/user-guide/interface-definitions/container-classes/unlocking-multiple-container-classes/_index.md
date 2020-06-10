@@ -8,7 +8,7 @@ aliases:
 
 How to unlock more than one container class at one time.
 
-[Unlocking container classes](Interface_def_container_class_unlock.html) discusses how to unlock the class of a container control whose children you may need to access for your test. In some cases, a window may contain controls of more than one container class that you wish to unlock. Rather than repeat the unlocking process for each such class, TestArchitect allows you to select multiple container classes for unlocking at one time.
+[Unlocking container classes](/TA_Help/Topics/Interface_def_container_class_unlock.html) discusses how to unlock the class of a container control whose children you may need to access for your test. In some cases, a window may contain controls of more than one container class that you wish to unlock. Rather than repeat the unlocking process for each such class, TestArchitect allows you to select multiple container classes for unlocking at one time.
 
 **Important:** TestArchitect supports unlocking container classes for the following applications:
 
@@ -20,7 +20,7 @@ How to unlock more than one container class at one time.
 
 -   **Option 1**: Unlocking container classes from Identify mode:
 
-    1.  Repeat steps \#[1](Interface_def_container_class_unlock.html#step_fwb_rb1_1l) through \#[5](Interface_def_container_class_unlock.html#step_qpb_sb1_1l) in [Unlocking container classes](Interface_def_container_class_unlock.html).
+    1.  Repeat steps \#[1](/TA_Help/Topics/Interface_def_container_class_unlock.html#step_fwb_rb1_1l) through \#[5](/TA_Help/Topics/Interface_def_container_class_unlock.html#step_qpb_sb1_1l) in [Unlocking container classes](/TA_Help/Topics/Interface_def_container_class_unlock.html).
 
         As discussed, a warning dialog box appears:
 
@@ -40,7 +40,7 @@ How to unlock more than one container class at one time.
 
     1.  Ensure that your target AUT is running, and navigate to the window with the container classes of interest.
 
-    2.  Launch the [Interface Viewer](Interface_def_Viewer_Starting.html).
+    2.  Launch the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer_Starting.html).
 
     3.  In the Viewer's UI explorer panel, click on the node of the AUT window.
 

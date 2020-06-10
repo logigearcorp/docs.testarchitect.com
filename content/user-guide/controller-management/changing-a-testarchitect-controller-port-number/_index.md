@@ -12,7 +12,7 @@ Ensure that the port number you want to switch to is available and that the Test
 
 To change the controller's port number:
 
-1.  If not already running, start the [TA Controller](Controller_starting.html).
+1.  If not already running, start the [TA Controller](/TA_Help/Topics/Controller_starting.html).
 
 2.  Ensure that TestArchitect is not executing any test. Terminate any running test or wait for the running test to finish.
 

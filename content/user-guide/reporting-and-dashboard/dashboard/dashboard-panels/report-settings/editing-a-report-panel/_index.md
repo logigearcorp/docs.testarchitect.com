@@ -16,7 +16,7 @@ To edit the properties of a report panel on the Dashboard page:
 
 3.  On the Edit Panel dialog box, change the panel settings on the **Display Settings** and **Filters** tabs as needed.
 
-    The panel settings on the Edit Panel dialog box are the same as the settings on the Add New Panel dialog box for reports \(see [Create new indicator panel](Dashboard_create_new_report_panel.html)\) steps \#[3](Dashboard_create_new_report_panel.html#step_pde7_cy3e) through \#[4](Dashboard_create_new_report_panel.html#step_dk38_8sdf) with the following additional setting options:
+    The panel settings on the Edit Panel dialog box are the same as the settings on the Add New Panel dialog box for reports \(see [Create new indicator panel](/TA_Help/Topics/Dashboard_create_new_report_panel.html)\) steps \#[3](/TA_Help/Topics/Dashboard_create_new_report_panel.html#step_pde7_cy3e) through \#[4](/TA_Help/Topics/Dashboard_create_new_report_panel.html#step_dk38_8sdf) with the following additional setting options:
 
     -   Height: Set the height \(in pixels\) of the panel. Taller panels have higher resolution, producing sharper charts.
     -   Folder: Select a TestArchitect repository folder containing the report data you want displayed in the new panel.

@@ -14,7 +14,7 @@ The device status is displayed on the **Devices** tab in Lab Manager. The status
 
 The fields, from left to right, are:
 
--   **Check box**: Check boxes are used to specify which device\(s\) you wish to apply a given action to. Prior to clicking on the **Remove** or **Terminate** button \(see [Lab Manager toolbar](Lab_manager_toolbar.html) for more actions\), check the boxes to the left of those devices you wish the operation to apply to. The uppermost check box may be used to select or clear all devices' check boxes.
+-   **Check box**: Check boxes are used to specify which device\(s\) you wish to apply a given action to. Prior to clicking on the **Remove** or **Terminate** button \(see [Lab Manager toolbar](/TA_Help/Topics/Lab_manager_toolbar.html) for more actions\), check the boxes to the left of those devices you wish the operation to apply to. The uppermost check box may be used to select or clear all devices' check boxes.
 -   **Device Name**: Name of the device as it is known on the network. The value within this field is a hyperlink, and clicking on it invokes a dialog box with detailed information on the given device and its environment. Below is an example of a device information dialog box:
 
     ![](/images//Images/LM_device_sample.png)

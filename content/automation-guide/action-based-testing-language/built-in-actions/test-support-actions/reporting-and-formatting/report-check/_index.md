@@ -38,7 +38,7 @@ This action may be used within the following project items:test modules and user
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html).
+The following settings are applicable to this action:[remove double quotes from cells](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html).
 
 ## Example
 
@@ -48,7 +48,7 @@ The following settings are applicable to this action:[remove double quotes from 
 
 **Result**
 
-If the verification succeeds, [report check](report_check.html) reports a Passed check, and displays the accompanying message in the [**Result Details**](/TA_Help/Topics/Test_result_details.html) tab of the test results:
+If the verification succeeds, [report check](/TA_Automation/Topics/bia_report_check.html) reports a Passed check, and displays the accompanying message in the [**Result Details**](/TA_Help/Topics/Test_result_details.html) tab of the test results:
 
 ![](/images//Images/check_opearting_system_res.png)
 

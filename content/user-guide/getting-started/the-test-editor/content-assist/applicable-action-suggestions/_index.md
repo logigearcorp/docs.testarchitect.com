@@ -10,8 +10,8 @@ As you edit your tests, you often find yourself needing to know which actions ca
 
 To have an **applicable actions** list available for a given UI element \(control or window\), the element must be represented by a node in TestArchitect explorer tree. In most cases, that is accomplished by:
 
-1.  capturing interface definitions of a window or a control by means of the [Interface Viewer](Interface_def_capturing.html) or the [Element definition](Interface_def_client_interface_tool_identify.html) dialog box;
-2.  [checking in](Project_items_checkin.html) the interface entity holding the captured definition\(s\), ensuring that they appear as nodes in the tree.
+1.  capturing interface definitions of a window or a control by means of the [Interface Viewer](/TA_Help/Topics/Interface_def_capturing.html) or the [Element definition](/TA_Help/Topics/Interface_def_client_interface_tool_identify.html) dialog box;
+2.  [checking in](/TA_Help/Topics/Project_items_checkin.html) the interface entity holding the captured definition\(s\), ensuring that they appear as nodes in the tree.
 
 Test editors in which Applicable action suggestion is available:
 
@@ -28,7 +28,7 @@ To trigger the **applicable actions** popup list for an already captured window/
 
     ![](/images//Images/applicable_BIA_column_A.png)
 
-    [Content Assist](ug_content_assist.html) pops up a small window displaying a list of all built-in actions that may be applied to the selected UI element. \(For controls, this applies to those whose TA class is built-in. For controls whose TA class is user-defined, see the [note below](#li.actions_list.user-defined).\) The most commonly-used built-in action is automatically highlighted, with its description displayed.
+    [Content Assist](/TA_Help/Topics/ug_content_assist.html) pops up a small window displaying a list of all built-in actions that may be applied to the selected UI element. \(For controls, this applies to those whose TA class is built-in. For controls whose TA class is user-defined, see the [note below](#li.actions_list.user-defined).\) The most commonly-used built-in action is automatically highlighted, with its description displayed.
 
     ![](/images//Images/applicable_BIA.png)
 
@@ -45,7 +45,7 @@ The action is automatically inserted into your test, along with appropriate inte
 
 **Note:**
 
--   For controls that have a user-defined TA class, TestArchitect makes no attempt to guess the applicable actions. However, it is indeed possible to have the **applicable actions** list pop up for such controls – you just have to supply the list of actions yourself \(in advance, of course\). For such controls, the list may include [built-in actions](/TA_Automation/Topics/bia_Built_in_actions.html), [user-defined actions](/reuse/reuse.High_level_actions.html) and [user-scripted actions](/TA_Tutorials/Topics/Tutorial_Scripting_actions_in_other_languages.html)[1](#fntarg_1). \(See [Specifying action suggestion for user-defined TA classes](ug_applicable_actions_user_defined_class.html) for details\).
+-   For controls that have a user-defined TA class, TestArchitect makes no attempt to guess the applicable actions. However, it is indeed possible to have the **applicable actions** list pop up for such controls – you just have to supply the list of actions yourself \(in advance, of course\). For such controls, the list may include [built-in actions](/TA_Automation/Topics/bia_Built_in_actions.html), [user-defined actions](/reuse/reuse.High_level_actions.html) and [user-scripted actions](/TA_Tutorials/Topics/Tutorial_Scripting_actions_in_other_languages.html)[1](/TA_Help/Topics/#fntarg_1). \(See [Specifying action suggestion for user-defined TA classes](ug_applicable_actions_user_defined_class.html) for details\).
 -   For any control belonging to a built-in TA class, the Content assist window's **applicable actions** list is limited to [built-in actions](/TA_Automation/Topics/bia_Built_in_actions.html). There is no way to customize that list by adding user-scripted or user-defined actions.
 -   Should you accidentally drop a UI element node into an empty cell that is not in column **A**, e.g. column **B**, the Content Assist window does not appear. Instead, only the TA name of the item is inserted into that cell.
 

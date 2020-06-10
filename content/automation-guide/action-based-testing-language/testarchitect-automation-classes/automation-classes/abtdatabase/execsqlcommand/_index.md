@@ -28,7 +28,7 @@ Execute one or more SQL commands against the AbtDatabase object.
 
 ## Return Value
 
-A [TADBResult](abt_TADBResult.html) object representing a table or scalar value; or null, if no result is returned or execution is unsuccessful.
+A [TADBResult](/TA_Automation/Topics/abt_TADBResult.html) object representing a table or scalar value; or null, if no result is returned or execution is unsuccessful.
 
 ## Notes
 

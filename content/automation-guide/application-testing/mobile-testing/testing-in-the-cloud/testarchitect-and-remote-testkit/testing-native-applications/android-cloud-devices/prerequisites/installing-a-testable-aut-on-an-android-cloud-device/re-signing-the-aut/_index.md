@@ -12,7 +12,7 @@ Every application that runs under the Android system has been digitally signed w
 
 To re-sign your application, follow these steps:
 
-1.  Launch a cloud Android device from the Remote TestKit Client application. \([Learn more](aut_app_cloud_testing_Android_adb.html).\)
+1.  Launch a cloud Android device from the Remote TestKit Client application. \([Learn more](/TA_Automation/Topics/aut_app_cloud_testing_Android_adb.html).\)
 
 2.  In TestArchitect, open the [Android Instrumentation Tool](/Android/Topics/Android_Instrumentation_tool.html) dialog box.
 

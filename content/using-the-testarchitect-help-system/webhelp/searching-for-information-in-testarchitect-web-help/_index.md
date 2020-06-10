@@ -10,7 +10,7 @@ How to search for topics within the browser version of TestArchitect Help.
 
 You can search for specific information using the following:
 
--   **Search** box: Used for full-text or phrase searches. \([Learn more](hs_WebHelp_full_text_search.html).\)
+-   **Search** box: Used for full-text or phrase searches. \([Learn more](/TA_UsingHelpSystem/Topics/hs_WebHelp_full_text_search.html).\)
 
     ![](/images//Images/search_box.png)
 

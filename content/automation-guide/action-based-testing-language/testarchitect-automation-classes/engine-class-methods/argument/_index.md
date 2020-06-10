@@ -27,7 +27,7 @@ String containing the argument value. This can be an empty string.
 
 ## Notes
 
--   See also [NamedArgument](abtf_NamedArgument.html).
+-   See also [NamedArgument](/TA_Automation/Topics/abtf_NamedArgument.html).
 
 **Parent topic:**[Engine class methods](/TA_Automation/Topics/abtf_Engine_classes.html)
 

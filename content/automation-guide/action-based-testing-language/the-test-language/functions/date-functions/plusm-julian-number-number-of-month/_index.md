@@ -29,7 +29,7 @@ Returns a Julian date number computed by adding a number of months to a Julian n
 
 ## Applicable Built-In Settings
 
-The following built-in setting\(s\) are supported: [add month compensation](add_month_compensation.html), [date order](date_order.html).
+The following built-in setting\(s\) are supported: [add month compensation](/TA_Automation/Topics/bis_add_month_compensation.html), [date order](/TA_Automation/Topics/bis_date_order.html).
 
 ## Example
 

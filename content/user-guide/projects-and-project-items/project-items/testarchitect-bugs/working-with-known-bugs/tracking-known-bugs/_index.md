@@ -16,8 +16,8 @@ Known bugs in a test may be flagged, or marked. Marking known bugs allows the fa
 Ensure that the following requirements are met:
 
 -   You have sufficient privilege to mark known bugs. \(Note that members of all administration groups except [guest group](/TA_Administration/Topics/User_administration.html) do have this privilege.\)
--   Test modules to be edited or marked with known bugs are [checked out](Project_items_checkout.html).
--   If the marked bug is to be associated with a JIRA bug or TFS bug, ensure that your TestArchitect test machine has [registered the JIRA server](JIRA_registering.html) or [actived TFS bug tracker.](ug_TFS_BugTracker_Registering_bugtracker.html#)
+-   Test modules to be edited or marked with known bugs are [checked out](/TA_Help/Topics/Project_items_checkout.html).
+-   If the marked bug is to be associated with a JIRA bug or TFS bug, ensure that your TestArchitect test machine has [registered the JIRA server](/TA_Help/Topics/JIRA_registering.html) or [actived TFS bug tracker.](/TA_Help/Topics/ug_TFS_BugTracker_Registering_bugtracker.html#)
 
 1.  In the TestArchitect explorer tree, double-click a test module node to open it.
 
@@ -65,7 +65,7 @@ Ensure that the following requirements are met:
     **Tip:** Hover your mouse over the yellow dot to see the screentip of the known bug. The displayed information includes **Bug ID**, **Source**, **Marked By**, **Summary** and **Status**.
 
 
-[Execute](Test_exec.html) your tests, then proceed to [Reviewing test result results with known bugs](Bugs_working_known_bug_reviewing_test_results.html) to verify your test results and keep track of progress on the known bugs.
+[Execute](/TA_Help/Topics/Test_exec.html) your tests, then proceed to [Reviewing test result results with known bugs](/TA_Help/Topics/Bugs_working_known_bug_reviewing_test_results.html) to verify your test results and keep track of progress on the known bugs.
 
 **Parent topic:**[Working with known bugs](/TA_Help/Topics/Bugs_working_known_bug.html)
 

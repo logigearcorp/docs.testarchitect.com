@@ -24,7 +24,7 @@ Opens a specified window.
 
 ## Return Value
 
-If the call is successful, returns an object of class [AbtEntity](abt_AbtEntity.html), referencing the given window.
+If the call is successful, returns an object of class [AbtEntity](/TA_Automation/Topics/abt_AbtEntity.html), referencing the given window.
 
 **Parent topic:**[AbtAutomation](/TA_Automation/Topics/abt_AbtAutomation.html)
 

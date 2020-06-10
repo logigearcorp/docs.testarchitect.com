@@ -29,12 +29,12 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   From the perspective of the test results, this action works just like any other check-type action, producing either a Passed or Failed result.
--   To have TestArchitect skip all the manual check actions within a test, set the built-in setting [skip manual check](skip_manual_check.html) to yes.
+-   To have TestArchitect skip all the manual check actions within a test, set the built-in setting [skip manual check](/TA_Automation/Topics/bis_skip_manual_check.html) to yes.
 -   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html), [standard ASCII only](standard_ASCII_only.html), [skip manual check](skip_manual_check.html)none.
+The following settings are applicable to this action:[remove double quotes from cells](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html), [standard ASCII only](/TA_Automation/Topics/bis_standard_ASCII_only.html), [skip manual check](/TA_Automation/Topics/bis_skip_manual_check.html)none.
 
 ## Example
 

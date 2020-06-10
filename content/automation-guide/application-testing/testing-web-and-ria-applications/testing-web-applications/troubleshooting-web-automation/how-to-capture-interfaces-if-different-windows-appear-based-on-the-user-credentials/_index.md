@@ -12,7 +12,7 @@ You may ask: *Do I need different interface definitions for each of the differen
 
 **Solution**: You do *not* need to capture various interface definitions for each of the different member home pages, such as administrator or non-administrator home page. Just observe the member home page to find the main menu control. For example:
 
-![](/TA_Automation/Images/ug_labmanager01.png)
+![](/images/TA_Automation/Images/ug_labmanager01.png)
 
 And then capture that main menu control:
 

@@ -8,7 +8,7 @@ aliases:
 
 This section describes how to set up a TestArchitect project to allow for tests to be managed and exchanged with TFS. With your TA project integrated with TFS-MTM, you can import TFS test cases and test suites into TA and, conversely, upload TA test cases, test modules and test folders into TFS.
 
-**Note:** To set up TestArchitect to allow for tests to be run from MTM, and/or have test results uploaded to TFS, see [Running automated tests under on-premises Team Foundation Server](ug_MTM_test_execution.html).
+**Note:** To set up TestArchitect to allow for tests to be run from MTM, and/or have test results uploaded to TFS, see [Running automated tests under on-premises Team Foundation Server](/TA_Help/Topics/ug_MTM_test_execution.html).
 
 1.  [Team Foundation Server-Microsoft Test Manager prerequisites for TestArchitect](/TA_Help/Topics/ug_MTM_test_development_prerequisites.html)  
 This section describes the requirements for setting up TestArchitect to develop tests in a TFS-MTM environment.

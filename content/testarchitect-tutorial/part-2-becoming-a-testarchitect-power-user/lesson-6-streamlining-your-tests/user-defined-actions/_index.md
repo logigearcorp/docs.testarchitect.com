@@ -8,7 +8,7 @@ aliases:
 
 User-defined actions consist of sequences of actions that typically relate to a single business logic function in the application under test.
 
-User-defined actions may be comprised of any type of action: [built-in actions](/TA_Automation/Topics/bia_Built_in_actions.html), [user-scripted actions](Tutorial_Scripting_actions_in_other_languages.html) created with a harness, other [user-defined actions](/reuse/reuse.High_level_actions.html), or any combination of the above.
+User-defined actions may be comprised of any type of action: [built-in actions](/TA_Automation/Topics/bia_Built_in_actions.html), [user-scripted actions](/TA_Tutorials/Topics/Tutorial_Scripting_actions_in_other_languages.html) created with a harness, other [user-defined actions](/reuse/reuse.High_level_actions.html), or any combination of the above.
 
 A user-defined action may be called, or invoked, by a test module or other user-defined action. In that sense, it is comparable to what programmers know as a function. It may accept arguments whose values control its behavior, and can also return values through arguments to the calling entity.
 

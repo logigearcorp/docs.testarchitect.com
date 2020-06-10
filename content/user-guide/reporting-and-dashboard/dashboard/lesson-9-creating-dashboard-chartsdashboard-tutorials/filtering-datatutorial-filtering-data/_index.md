@@ -12,9 +12,9 @@ In this activity, you will restrict the items of data being used for a panel to 
 **Before proceeding:**
 
 -   Ensure that you have a basic understanding of the TestArchitect Dashboard before creating a chart panel.
--   [A Dashboard portal, connected to the Sample Repository, should be open](tutDashboard_launching_Dashboard.html) in your browser.
--   Ensure that you have created a Test Results \(unfiltered\) data profile as specified in the section [Creating a data profileTutorial: Creating a data profile](tutDashboard_creating_a_data_profile.html).
--   You should also now have a Tutorial Page with the panel Car Rental Test Results Overview, as was created in the section [Creating a chartTutorial: Creating a chart](tutDashboard_creating_a_chart.html).
+-   [A Dashboard portal, connected to the Sample Repository, should be open](/TA_Tutorials/Topics/tutDashboard_launching_Dashboard.html) in your browser.
+-   Ensure that you have created a Test Results \(unfiltered\) data profile as specified in the section [Creating a data profileTutorial: Creating a data profile](/TA_Tutorials/Topics/tutDashboard_creating_a_data_profile.html).
+-   You should also now have a Tutorial Page with the panel Car Rental Test Results Overview, as was created in the section [Creating a chartTutorial: Creating a chart](/TA_Tutorials/Topics/tutDashboard_creating_a_chart.html).
 
 Our task now is to create a pie chart similar to the first, except that we limit it to reporting only on the test results of the latest build.
 
@@ -24,7 +24,7 @@ Our task now is to create a pie chart similar to the first, except that we limit
 
 1.  Create a clone of the Car Rental Test Results Overview panel.
 
-    1.  Click the **Clone Panel** icon ![](/TA_Help/Images/Dashboard_clone_panel_icon.png) at the top-right corner of the Car Rental Test Results Overview panel.
+    1.  Click the **Clone Panel** icon ![](/images/TA_Automation/Images/Dashboard_clone_panel_icon.png) at the top-right corner of the Car Rental Test Results Overview panel.
 
     2.  In the Clone Panel dialog, select **Tutorial Page** from the **Select page** drop-down menu, and set **Display Name** to Car Rental Test Results, Latest Build. Click OK.
 
@@ -32,7 +32,7 @@ Our task now is to create a pie chart similar to the first, except that we limit
 
 2.  Add a filter to the new panel.
 
-    1.  Click the **Edit Panel** icon ![](/TA_Help/Images/Dashboard_edit_panel_icon.png) at the top-right corner of the Car Rental Test Results, Latest Build panel.
+    1.  Click the **Edit Panel** icon ![](/images/TA_Automation/Images/Dashboard_edit_panel_icon.png) at the top-right corner of the Car Rental Test Results, Latest Build panel.
 
     2.  Click the **Filters** tab in the Edit Panel dialog.
 

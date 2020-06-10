@@ -19,7 +19,7 @@ To add new test modules to an existing static test suite, do the following:
     CAUTION:
 
     -   The test module and/or test folder must exist in the same project as the test suite.
-    -   The [variation signature](/TA_Glossary/Topics/glossaryVariationSignature.html) of a drag-and-dropped test module is ignored; only the [default variation](Variations_default.html) is displayed in the test suite list view.
+    -   The [variation signature](/TA_Glossary/Topics/glossaryVariationSignature.html) of a drag-and-dropped test module is ignored; only the [default variation](/TA_Help/Topics/Variations_default.html) is displayed in the test suite list view.
     ![](/images//Images/add_test_modules_to_static_test_suite.png)
 
 3.  Click the **Apply** button to save the changes to the static test suite.

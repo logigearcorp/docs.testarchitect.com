@@ -12,7 +12,7 @@ TestArchitect Agent is an essential component in allowing TestArchitect to commu
 
 TestArchitect Agent is both an application and a service on Android devices. As a service, it runs in the background, facilitating control of the AUT by TestArchitect, as well as reporting information back to TestArchitect. As an application, it is required only for Wi-Fi connections between TestArchitect and the device. If the target device is connected via USB cable, or the target device is an emulator, then the TestArchitect Agent icon on the Android desktop serves no function and may be ignored.
 
-At the present time, installation to a physical device requires a USB cable connection to the host PC. \(Hence, if working with a physical device that has not yet been set up for communication with the host PC, refer to the instructions given in [Setting up a physical Android device via USB cable](Setting_up_physical_device_usb.html).\)
+At the present time, installation to a physical device requires a USB cable connection to the host PC. \(Hence, if working with a physical device that has not yet been set up for communication with the host PC, refer to the instructions given in [Setting up a physical Android device via USB cable](/Android/Topics/Setting_up_physical_device_usb.html).\)
 
 1.  [Installing TestArchitect Agent onto Android devices](/Android/Topics/Installing_TA_agent.html)  
 How to install TestArchitect Agent onto Android devices.

@@ -14,7 +14,7 @@ Use the Interface Viewer to create mappings for user interface elements.
 
     The login window appears.
 
-    ![](/images//Images/TA_Tutorials/Images/app.Car_Rental.Login.unmodified.png)
+    ![](/images/TA_Tutorials/Images/app.Car_Rental.Login.unmodified.png)
 
 2.  **Important:** This window is the target of the interface entity you created in the last exercise. Recall that you created an interface element mapped to a **User name** control. To avoid any confusion, note that there are two controls on this window that relate to User name. One is of TA class label, and has its caption property set to User name. You have not mapped this control, so your interface entity knows nothing of its existence. To the right of this control is a **textbox** control, with a label property set to User name. This is the control you have mapped to:
 

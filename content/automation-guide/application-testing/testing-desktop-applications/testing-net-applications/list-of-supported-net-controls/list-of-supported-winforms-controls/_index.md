@@ -30,7 +30,7 @@ Below is the full list of WinForms controls for which TestArchitect provides sup
 |NumericUpDown|System.Windows.Forms.NumericUpDown|
 |Picturebox|System.Windows.Forms.PictureBox|
 |ProgressBar|System.Windows.Forms.ProgressBar|
-|PropertyGrid|System.Windows.Forms.PropertyGrid<br> System.Windows.Forms.PropertyGridInternal.PropertyGridView<br><br>|
+|PropertyGrid|System.Windows.Forms.PropertyGrid<br><br> System.Windows.Forms.PropertyGridInternal.PropertyGridView<br><br>|<br>
 |RadioButton|System.Windows.Forms.RadioButton|
 |RichTextBox|System.Windows.Forms.RichTextBox|
 |StatusStrip|System.Windows.Forms.StatusStrip|
@@ -46,7 +46,7 @@ Below is the full list of WinForms controls for which TestArchitect provides sup
 |WebBrowser|System.Windows.Forms.WebBrowser|
 |Groupbox|System.Windows.Forms.GroupBox|
 |Panel|System.Windows.Forms.Panel|
-|ToolStripContainer|System.Windows.Forms.ToolStripContainer<br> System.Windows.Forms.ToolStripContentPanel<br><br> System.Windows.Forms.ToolStripPanel<br><br>|
+|ToolStripContainer|System.Windows.Forms.ToolStripContainer<br><br> System.Windows.Forms.ToolStripContentPanel<br><br> System.Windows.Forms.ToolStripPanel<br><br>|<br>
 |PrintDialog|System.Windows.Forms.PrintDialog|
 |PrintPreViewControl|System.Windows.Forms.PrintPreviewControl|
 |PrintPreViewDialog|System.Windows.Forms.PrintPreviewControl|

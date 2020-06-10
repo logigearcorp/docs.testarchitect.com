@@ -9,7 +9,7 @@ aliases:
 ## Description
 
 -   Specific setting of an interface element
--   This action is an equivalent alternative to specifying settings as argument to the [interface element](interface_element.html) action. The action always refers to the most recently defined action
+-   This action is an equivalent alternative to specifying settings as argument to the [interface element](/TA_Automation/Topics/bia_interface_element.html) action. The action always refers to the most recently defined action
 
 ## Arguments
 

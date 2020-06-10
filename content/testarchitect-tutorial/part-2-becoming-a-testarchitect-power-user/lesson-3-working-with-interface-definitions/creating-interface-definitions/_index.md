@@ -28,7 +28,7 @@ Create interface definitions to enable a test to interact with an application wi
 
     **Note:** Typically, you will create an interface entity for each window or dialog box in the application under test — or at least for the windows and dialog boxes that you intend to test.
 
-4.  Now you will create interface definitions, each of which maps a GUI element \(window or control\) to a TA name. As seen in [Lesson \#2: Interfacing with a GUI](Tutorial_Interfacing_with_a_GUI.html), TA names are used by the tests you create to refer to the GUI elements of the AUT.
+4.  Now you will create interface definitions, each of which maps a GUI element \(window or control\) to a TA name. As seen in [Lesson \#2: Interfacing with a GUI](/TA_Tutorials/Topics/Tutorial_Interfacing_with_a_GUI.html), TA names are used by the tests you create to refer to the GUI elements of the AUT.
 
     Two types of interface definitions exist: interface entity setting, to map a TA name to a window, and interface element, to map a TA name to a control \(or HTML element\). These definitions are implemented as built-in actions, but ones which are valid only in the context of an interface entity \(not in a test module or action.\)
 
@@ -65,7 +65,7 @@ Create interface definitions to enable a test to interact with an application wi
 
     **Tip:** When a single property-value pair is insufficient to ensure that a control is uniquely identified, use additional property-value pairs in adjacent columns of the interface element action.
 
-12. Click **Save** ![](/images//Images/TA_Tutorials/Images/btn.TAC_toolbar.SaveFile.png) on the toolbar.
+12. Click **Save** ![](/images/TA_Tutorials/Images/btn.TAC_toolbar.SaveFile.png) on the toolbar.
 
 
 You have created a new interface entity that points to the Car Rental-Login window, along with a single interface element that points to a control.

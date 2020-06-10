@@ -16,7 +16,7 @@ Perform the following steps:
 
     1.  Select the local test results that you want stored to the repository.
 
-        You can select local test results in the TestArchitect explorer tree, or in the [local test result list view](Listview_results_local.html).
+        You can select local test results in the TestArchitect explorer tree, or in the [local test result list view](/TA_Help/Topics/Listview_results_local.html).
 
     2.  Right-click the selection, and select **Add to Repository**.
 

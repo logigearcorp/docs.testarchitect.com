@@ -28,7 +28,7 @@ javascript
 
 ## Applicable system/platforms
 
--   Testing mobile web applications on cloud devices \([learn more](aut_app_cloud_testing.html)\).
+-   Testing mobile web applications on cloud devices \([learn more](/TA_Automation/Topics/aut_app_cloud_testing.html)\).
 
 ## Notes
 

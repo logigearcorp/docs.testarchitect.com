@@ -29,7 +29,7 @@ A new branch is created.
 
 ![](/images//Images/New_branch_car_rental.png)
 
-Under this new branch, you may again create [new version](Variations_create_linked_create_new_version_node.html) nodes, as well as new branch nodes.
+Under this new branch, you may again create [new version](/TA_Help/Topics/Variations_create_linked_create_new_version_node.html) nodes, as well as new branch nodes.
 
 ![](/images//Images/New_branch_car_rental_subversion.png)
 

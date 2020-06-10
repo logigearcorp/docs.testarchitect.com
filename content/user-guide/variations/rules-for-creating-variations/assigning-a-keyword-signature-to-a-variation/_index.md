@@ -10,7 +10,7 @@ A given variation is identified by its variation signature: the combination of t
 
 A [keyword signature](/TA_Glossary/Topics/glossaryKeywordSignature.html) is the full set of keywords assigned to a given variation, along with two operators \( **,** and **\|** \) that specify relationships between those keywords. \(By contrast, the keywords that define an execution run, which are specified in the Execute Test dialog box just prior to execution, are referred to as the [keyword run set](/TA_Glossary/Topics/glossaryKeywordRunSet.html).\)
 
-You can specify a keyword signature when you [create a variation](Variations_create_keyword.html#step.dlg.create_var), in the Create Variation dialog box. \(You may also [modify an existing variation's signature](Variations_create_keyword.html#postreq.dlg.edit_var) through the **Edit Variation** dialog box.\) Note that the keywords specified for a test run during execution cause TestArchitect to search for a matching keyword signature. \(It should also be noted that the matching process is not always straightforward, and is fully discussed in [Rules for executing with variations](Variations_rules_executing.html).\)
+You can specify a keyword signature when you [create a variation](/TA_Help/Topics/Variations_create_keyword.html#step.dlg.create_var), in the Create Variation dialog box. \(You may also [modify an existing variation's signature](/TA_Help/Topics/Variations_create_keyword.html#postreq.dlg.edit_var) through the **Edit Variation** dialog box.\) Note that the keywords specified for a test run during execution cause TestArchitect to search for a matching keyword signature. \(It should also be noted that the matching process is not always straightforward, and is fully discussed in [Rules for executing with variations](/TA_Help/Topics/Variations_rules_executing.html).\)
 
 ![](/images//Images/Variations_set_of_keyword.02.png)
 
@@ -55,7 +55,7 @@ login {French}
 
 It was mentioned that the comma in a keyword signature is really an `AND` operator. Hence, to take the first variation in the list, its signature essentially says, "I am the login variation for the UK English version of the Home edition of the AUT".
 
-**Tip:** Although [executing with variations is discussed elsewhere](Variations_rules_executing_2.html), it's worth noting at this point that the login \{French\} variation works for both of the following cases:
+**Tip:** Although [executing with variations is discussed elsewhere](/TA_Help/Topics/Variations_rules_executing_2.html), it's worth noting at this point that the login \{French\} variation works for both of the following cases:
 
 -   *When there is only a single French edition of the application.* In this case, you would test it by launching a test run with the keyword French specified.
 -   *When the French version comes in both Home and Professional editions, but where the login interface definition is the same for both editions.* In this case, you would specify two keywords to launch the test – for example, French and Home. \(Keep in mind that, while the login interface entity may be the same for both editions, other French version project items may have separate variations, necessitating inclusion of the Home keyword at run time.\) When running a test with multiple keywords, if TestArchitect cannot find a variation of some project item that exactly matches the keyword run set, it settles for the variation whose keyword signature is the largest subset of the keyword run set. In this case, that would be login \{French\}.

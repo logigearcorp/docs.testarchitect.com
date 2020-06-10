@@ -10,7 +10,7 @@ Write a test that relies on an external data source \(a data set, in this case\)
 
 Create a test that uses multiple data records from a data set. A data set is a data source that resides within the repository, but outside of the test module.
 
-1.  In the TestArchitect explorer tree, select any item within the current project, then click **Create new test module** ![](/images//Images/TA_Tutorials/Images/btn.TAC_toolbar.CreateTestModule.png) in the toolbar.
+1.  In the TestArchitect explorer tree, select any item within the current project, then click **Create new test module** ![](/images/TA_Tutorials/Images/btn.TAC_toolbar.CreateTestModule.png) in the toolbar.
 
     The New Test Module dialog box appears.
 

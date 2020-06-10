@@ -8,7 +8,7 @@ aliases:
 
 The Picture Capturing tool lets you instantly capture the screen images of your test machines.
 
-**Note:** To capture screen images of a connected mobile device, refer to [Capturing screenshots of a mobile device](ug_capturing_mobile_screenshot.html), which details how to display the live screen of the mobile device on your test machine. This allows you to use the **Picture Capturing** tool to capture the screen image.
+**Note:** To capture screen images of a connected mobile device, refer to [Capturing screenshots of a mobile device](/TA_Help/Topics/ug_capturing_mobile_screenshot.html), which details how to display the live screen of the mobile device on your test machine. This allows you to use the **Picture Capturing** tool to capture the screen image.
 
 1.  [Capturing new images](/TA_Help/Topics/Additional_features_image_capturing_tool_capturing_saving.html)  
 How to capture new images and save them for use as reference images for future picture checks.

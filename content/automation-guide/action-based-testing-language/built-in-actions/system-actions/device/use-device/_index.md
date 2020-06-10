@@ -28,7 +28,7 @@ Use of this action is supported on the following systems/platforms: Mobile opera
 
 ## Notes
 
--   The name specified in the name argument is established in advance by the [assign device](assign_device.html) action, which assigns a logical name to a mobile device.
+-   The name specified in the name argument is established in advance by the [assign device](/TA_Automation/Topics/bia_assign_device.html) action, which assigns a logical name to a mobile device.
 -   It is good practice to specify logical names for all test devices at the beginning of a test module, using assign device for each device that is to be targeted by the test. This is especially helpful if use device is invoked in several places in a test module, allowing the automation to switch between multiple mobile devices during testing.
 -   Only one device may serve as the target device at a given time. If another target device is connected at the time use device executes, that device is logically disconnected before the device specified by the name argument is connected.
 -   After a device has been targeted for automation, TestArchitect automatically adds it to the devices list in [Lab Manager](/TA_Help/Topics/Lab_manager.html), and you can monitor the test progress there.
@@ -36,7 +36,7 @@ Use of this action is supported on the following systems/platforms: Mobile opera
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html).
+The following settings are applicable to this action:[remove double quotes from cells](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html).
 
 ## Example
 

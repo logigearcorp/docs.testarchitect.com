@@ -10,7 +10,7 @@ Mapping a TA project to TFS team project allows you to upload test results to TF
 
 Ensure that the following requirements are met:
 
--   Your TestArchitect repository is configured for a connection with Team Foundation Server. \([Learn more](Integration_MTM_connecting_TFS.html).\)
+-   Your TestArchitect repository is configured for a connection with Team Foundation Server. \([Learn more](/TA_Help/Topics/Integration_MTM_connecting_TFS.html).\)
 
 To map a TestArchitect project to a TFS project:
 
@@ -35,7 +35,7 @@ To map a TestArchitect project to a TFS project:
     **Note:**
 
     -   This dialog box is only displayed the first time you connect to the TFS server and map a project. It will not appear again unless there is a change in the TFS server or user account/password.
-    -   If necessary, you have the option of switching from the current credentials to different ones. \([Learn more](ug_MTM_switching_TFS_account.html).\)
+    -   If necessary, you have the option of switching from the current credentials to different ones. \([Learn more](/TA_Help/Topics/ug_MTM_switching_TFS_account.html).\)
 5.  Click **OK**.
 
     If authentication succeeds, a confirmation dialog box to that effect is displayed.

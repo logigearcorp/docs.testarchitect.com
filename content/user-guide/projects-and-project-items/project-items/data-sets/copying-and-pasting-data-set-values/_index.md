@@ -12,7 +12,7 @@ One means of contributing data values to a data set is by pasting them in, using
 
 2.  In the document, select, then copy, the area of data of interest.
 
-3.  If not already running, launch the [TestArchitect Client](Getting_started_launching_the_testArchitect_client.html).
+3.  If not already running, launch the [TestArchitect Client](/TA_Help/Topics/Getting_started_launching_the_testArchitect_client.html).
 
 4.  In the TestArchitect explorer tree, double-click a data set node.
 

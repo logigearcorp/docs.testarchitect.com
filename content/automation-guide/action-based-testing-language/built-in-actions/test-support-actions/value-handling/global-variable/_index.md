@@ -9,7 +9,7 @@ keywords: "global variable, define global variable, declare global variable, glo
 
 ## Description
 
-Define a [global variable](The_test_language_variables.html) and \(optionally\) assign a value to it, or assign a value to an existing global variable.
+Define a [global variable](/TA_Automation/Topics/The_test_language_variables.html) and \(optionally\) assign a value to it, or assign a value to an existing global variable.
 
 ## Arguments
 
@@ -31,13 +31,13 @@ This action may be used within the following project items:test modules and user
 -   A global variable, subsequent to its declaration, is visible throughout all test modules and invoked actions within one execution run.
 -   For a given execution of global variable, if name specifies a global variable that already exists, the action merely assigns a new value \(in the value argument\) to the existing variable.
 -   Restrictions on usage:
-    -   A variable may not be declared within a [use data set](use_data_set.html) block if it has the same name as any of the data set headers.
+    -   A variable may not be declared within a [use data set](/TA_Automation/Topics/bia_use_data_set.html) block if it has the same name as any of the data set headers.
     -   Same-named local and global variables may not be declared within the same local variable scope level.
 -   Use variables within pound sign \(\#\) expressions to access their contained values.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html)none.
+The following settings are applicable to this action:[remove double quotes from cells](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html)none.
 
 ## Example
 

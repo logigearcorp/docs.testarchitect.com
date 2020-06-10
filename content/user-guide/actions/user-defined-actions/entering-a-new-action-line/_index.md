@@ -46,7 +46,7 @@ Choose one of the following two methods to use an action in the test editor:
 
     The action, with argument headers \(if any selected\), is inserted into the test editor.
 
-    **Note:** \>\>\> represents the line continuation symbol. \([Learn more](Getting_started_overview_the_test_editor.html).\)
+    **Note:** \>\>\> represents the line continuation symbol. \([Learn more](/TA_Help/Topics/Getting_started_overview_the_test_editor.html).\)
 
     ![](/images//Images/Test_Lines_continuation.png)
 

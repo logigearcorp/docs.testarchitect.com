@@ -11,7 +11,7 @@ After implementing the scripted code that interacts with the target application,
 1.  Begin by opening TestArchitect Client, then expand the Car Rental project of the TestArchitect explorer tree.
 2.  As in the prior exercise, begin by creating a stub action in the TestArchitect client. Name itcheck row count, and supply it with the following arguments and data types:
 
-    ![](/images//Images/TA_Tutorials/Images/tut.Harness.mod_py_file.action_check_row_count.png)
+    ![](/images/TA_Tutorials/Images/tut.Harness.mod_py_file.action_check_row_count.png)
 
     Note that "Interface Entity" and "Interface Element" have been specified as the data types for the window and table arguments. This allows anyone entering thecheck row countaction in a test to have access to these arguments' respective drop-down autocomplete lists.
 
@@ -20,18 +20,18 @@ After implementing the scripted code that interacts with the target application,
 
 5.  You will be testing your new action against the Car Rental application, so go up to the `INITIAL` section and add a line to ensure that your test uses the correct interface:
 
-    ![](/images//Images/TA_Tutorials/Images/tm.use_interface.car_rental.png)
+    ![](/images/TA_Tutorials/Images/tm.use_interface.car_rental.png)
 
 6.  In your new test case, and an action line to invoke the action with some real data:
 
-    ![](/images//Images/TA_Tutorials/Images/tut.Harness.Test03.png)
+    ![](/images/TA_Tutorials/Images/tut.Harness.Test03.png)
 
 7.  Save your work.
 
 
 This is all you need to properly call your user-scripted action from the TestArchitect client. In this particular invocation of the check row count action, you are counting the number of rows of **orders table** that have the value Ford Mustang Coupe in their **Car Type** column, with the expectation that the total will be 2.  \(If the count is indeed 2, your action passes; if not, it fails.\) The action is to be performed on the View Orders window:
 
-![](/images//Images/TA_Tutorials/Images/app.Car_Rental.View_Orders.unmodified.png)
+![](/images/TA_Tutorials/Images/app.Car_Rental.View_Orders.unmodified.png)
 
 If, as above, there are indeed 2 rows of the **orders table** in which the **Car Type** column holds Ford Mustang Coupe, you can expect your test to pass.
 

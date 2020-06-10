@@ -38,7 +38,7 @@ Parameters are as follows:.
 
     1.  Open the [Android Instrumentation Tool](/reuse/../Android/Topics/Android_Instrumentation_tool.html) dialog box.
     2.  Select the device whose unique ID you wish to obtain.
-    3.  Click ![](/images//Images/Android/Images/android_copy_ID.png) on the Android Instrumentation Tool's toolbar to copy the unique ID to the clipboard.
+    3.  Click ![](/images/Android/Images/android_copy_ID.png) on the Android Instrumentation Tool's toolbar to copy the unique ID to the clipboard.
     4.  Paste the copied content into the unique ID parameter in the Install command.
 -   **-f**
 
@@ -60,7 +60,7 @@ The following table describes the output messages you may encounter while using 
 |-------|-----------|
 |The file at location <File Location\> cannot be found.|This error is commonly encountered when attempting to re-sign or install a specified .apk file, but the file cannot be found.|
 |<File Name\> is signed successfully.|The specified .apk file has been signed or re-signed successfully.|
-|<File Name\> cannot be signed.<br>|An attempt to sign or re-sign a specified .apk file could not be completed.<br>|
+|<File Name\> cannot be signed.<br><br>|An attempt to sign or re-sign a specified .apk file could not be completed.<br><br>|<br>
 |Cannot save the file after resigning.|Often caused when the directory in which you want to save the re-signed .apk file has the read-only attribute set.|
 |Cannot connect to the device.|This error occurs when the Android command line tool cannot connect to the targeted Android device.|
 |Cannot find the device.|This error occurs when the Android command line tool cannot find the targeted Android device.|

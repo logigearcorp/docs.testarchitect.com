@@ -10,7 +10,7 @@ Modifying the properties of an existing Dashboard page.
 
 To edit an existing Dashboard page:
 
-1.  [Start the Dashboard](Dashboard_starting.html) and log on to the session with a user account with sufficient [permission](Dashboard_authentication_permissions.html) to edit the page.
+1.  [Start the Dashboard](/TA_Help/Topics/Dashboard_starting.html) and log on to the session with a user account with sufficient [permission](/TA_Help/Topics/Dashboard_authentication_permissions.html) to edit the page.
 
 2.  Select the page you want to edit from the page selection tool bar.
 

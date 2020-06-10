@@ -23,7 +23,7 @@ This action may be used within the following project items:test modules and user
 
 ## Note
 
-The enter value in popup action includes the [click popup](click_popup.html) action. That means upon inputting a value in a popup, TestArchitect will automatically click **OK** in the popup to close it. You do not need to explicitly call the click popup action following the enter value in popup action.
+The enter value in popup action includes the [click popup](/TA_Automation/Topics/bia_click_popup.html) action. That means upon inputting a value in a popup, TestArchitect will automatically click **OK** in the popup to close it. You do not need to explicitly call the click popup action following the enter value in popup action.
 
 ## Example
 

@@ -15,7 +15,7 @@ Specify the date format for output.
 
 Date format: `year format–month format–day format`.
 
-**Tip:** Use this setting to specify the format of the individual elements \(year, month, day\) of the output date. To specify the actual order of these elements, use the built-in setting [date order](date_order.html).
+**Tip:** Use this setting to specify the format of the individual elements \(year, month, day\) of the output date. To specify the actual order of these elements, use the built-in setting [date order](/TA_Automation/Topics/bis_date_order.html).
 
 -   **yyyy**
 

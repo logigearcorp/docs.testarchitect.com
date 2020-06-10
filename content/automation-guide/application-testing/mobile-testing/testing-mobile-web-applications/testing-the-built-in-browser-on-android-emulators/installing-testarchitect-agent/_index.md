@@ -31,7 +31,7 @@ Perform the following steps to install TestArchitect Agent onto your Android emu
 
 3.  Right-click the icon, and then select **Install TestArchitect Automation Agent**.
 
-    **Fastpath:** Alternatively, click the button **Install TestArchitect Automation Agent on selected device** ![](/Android/Images/android_installing_TA_agent_btn.png), on the toolbar.
+    **Fastpath:** Alternatively, click the button **Install TestArchitect Automation Agent on selected device** ![](/images/TA_Automation/Images/android_installing_TA_agent_btn.png), on the toolbar.
 
 
 Upon successful installation, the emulator icon, formerly grey, becomes green.

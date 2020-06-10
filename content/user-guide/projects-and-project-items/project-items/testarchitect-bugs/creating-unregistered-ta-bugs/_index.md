@@ -25,16 +25,16 @@ To create an unregistered TestArchitect bug, complete the following steps:
 3.  Click the **Create** button.
 
 
-An unregistered bug is created and appears in the main Client panel. The fields in the **Bug Information** tab below are explained in [TA bug information](Bugs.html#sectiondiv_cln_skj_44).
+An unregistered bug is created and appears in the main Client panel. The fields in the **Bug Information** tab below are explained in [TA bug information](/TA_Help/Topics/Bugs.html#sectiondiv_cln_skj_44).
 
 ![](/images//Images/Unlinked_bug_information.png)
 
 **Note:**
 
--   The TestArchitect **Bug ID** field is a combination of [a prefix key](Projects_and_project_items_create_project.html) followed by an ID number, separated by a hyphen.
+-   The TestArchitect **Bug ID** field is a combination of [a prefix key](/TA_Help/Topics/Projects_and_project_items_create_project.html) followed by an ID number, separated by a hyphen.
 -   The ID number is automatically generated to avoid duplicate bugs in case of [replication repositories](/TA_Administration/Topics/Repo_server_management_replication_repo_intro.html).
 
-**Tip:** You may associate the newly created unregistered bug with a JIRA bug by entering the JIRA issue ID into the **Source** box, then clicking **Apply**. Data from the JIRA issue's fields are then imported to the TA bug. Ensure that your TestArchitect test machine has [registered the JIRA server](JIRA_registering.html).
+**Tip:** You may associate the newly created unregistered bug with a JIRA bug by entering the JIRA issue ID into the **Source** box, then clicking **Apply**. Data from the JIRA issue's fields are then imported to the TA bug. Ensure that your TestArchitect test machine has [registered the JIRA server](/TA_Help/Topics/JIRA_registering.html).
 
 **Restriction:**
 

@@ -8,7 +8,7 @@ aliases:
 
 In order for the Car Rental application to run as an AUT on an iOS device, the application must be re-signed, then installed.
 
-Ensure that basic requirements are met before re-signing and installing Car Rental onto an iOS device \(see [Prerequisites](SR_iOS_prerequisite.html) for details\).
+Ensure that basic requirements are met before re-signing and installing Car Rental onto an iOS device \(see [Prerequisites](/TA_Tutorials_Sample_App/Topics/SR_iOS_prerequisite.html) for details\).
 
 The following procedures for re-signing the TestArchitect Agent app must be performed on an macOS machine:
 
@@ -56,7 +56,7 @@ The following procedures for re-signing the TestArchitect Agent app must be perf
 
         The re-signed Car Rental application is installed onto the device.
 
-    **Tip:** You can perform step [6](SR_iOS_installing_Car_Rental.html#step_jbb_m1r_kn) on either an macOS or Windows machine.
+    **Tip:** You can perform step [6](/TA_Tutorials_Sample_App/Topics/SR_iOS_installing_Car_Rental.html#step_jbb_m1r_kn) on either an macOS or Windows machine.
 
 
 With the re-signed Car Rental application installed onto the iOS device, the Car Rental icon is available on the device's desktop.

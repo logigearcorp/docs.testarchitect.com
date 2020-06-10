@@ -10,9 +10,9 @@ This topic describes the steps required for testing with Oracle Database XE in T
 
 Ensure that the following requirements are met:
 
--   Installing and configuring Oracle Database XE. \([Learn more](aut_app_testing_Oracle_Windows_XE_installation_configurations.html).\)
--   Specifying system environment variables. \([Learn more](aut_app_testing_Oracle_Windows_XE_system_environment_variables.html).\)
--   Customizing Oracle configurations files. \([Learn more](aut_app_testing_Oracle_Windows_XE_configurations_files.html).\)
+-   Installing and configuring Oracle Database XE. \([Learn more](/TA_Automation/Topics/aut_app_testing_Oracle_Windows_XE_installation_configurations.html).\)
+-   Specifying system environment variables. \([Learn more](/TA_Automation/Topics/aut_app_testing_Oracle_Windows_XE_system_environment_variables.html).\)
+-   Customizing Oracle configurations files. \([Learn more](/TA_Automation/Topics/aut_app_testing_Oracle_Windows_XE_configurations_files.html).\)
 
 To test with Oracle Database XE in TestArchitect, do the following steps:
 
@@ -32,7 +32,7 @@ To test with Oracle Database XE in TestArchitect, do the following steps:
 
         ![](/images//Images/OracleXEdriver.png)
 
-    -   Dbq: Host and port information, and the value of ORACLE\_SID that you previously [defined](aut_app_testing_Oracle_Windows_XE_system_environment_variables.html).
+    -   Dbq: Host and port information, and the value of ORACLE\_SID that you previously [defined](/TA_Automation/Topics/aut_app_testing_Oracle_Windows_XE_system_environment_variables.html).
     -   Uid: SYSTEM administrative user account.
     -   Pwd: Password for database account specified by username.
 3.  In TestArchitect, your action line might resemble the following.

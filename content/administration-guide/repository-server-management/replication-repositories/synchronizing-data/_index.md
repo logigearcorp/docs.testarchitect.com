@@ -12,7 +12,7 @@ Data synchronization between the primary repository and the replication reposito
 
 To synchronize data, do the following:
 
-1.  On the host that acts as primary server, [start](Repo_server_management_launching.html) the Repository Server Control Panel dialog box.
+1.  On the host that acts as primary server, [start](/TA_Administration/Topics/Repo_server_management_launching.html) the Repository Server Control Panel dialog box.
 
 2.  In the dialog box, select the primary repository to be set up for synchronization.
 

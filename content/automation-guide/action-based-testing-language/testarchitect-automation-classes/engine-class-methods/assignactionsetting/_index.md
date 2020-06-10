@@ -35,7 +35,7 @@ Return 1 if the call is successful; otherwise, 0.If unsuccessful, the diagnostic
 
 ## Notes
 
--   See the notes at [ActionSetting](abtf_ActionSetting.html).
+-   See the notes at [ActionSetting](/TA_Automation/Topics/abtf_ActionSetting.html).
 
 **Parent topic:**[Engine class methods](/TA_Automation/Topics/abtf_Engine_classes.html)
 

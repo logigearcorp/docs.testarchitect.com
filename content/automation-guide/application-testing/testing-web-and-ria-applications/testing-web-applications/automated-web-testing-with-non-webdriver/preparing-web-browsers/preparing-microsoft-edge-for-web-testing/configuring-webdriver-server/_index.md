@@ -12,7 +12,7 @@ WebDriver allows you to create automated tests that simulate user interaction. F
 
 2.  Download and install WebDriver into the test machine.
 
-    **Note:** Ensure that you download the version supported by TestArchitect. \([Learn more](Web_automation.html#li.Edge).\)
+    **Note:** Ensure that you download the version supported by TestArchitect. \([Learn more](/TA_Automation/Topics/Web_automation.html#li.Edge).\)
 
     -   If you download the .msi file, proceed to step \#3.
     -   If you download the .exe file, proceed to step \#4.
@@ -26,7 +26,7 @@ WebDriver allows you to create automated tests that simulate user interaction. F
 
         The TestArchitect Automation Agent Manager dialog box appears.
 
-        ![](/TA_Help/Images/automation_extension_manager_dialog_2.png)
+        ![](/images/TA_Automation/Images/automation_extension_manager_dialog_2.png)
 
     2.  Click the **Configure** button.
 
@@ -36,7 +36,7 @@ WebDriver allows you to create automated tests that simulate user interaction. F
 
     4.  Click **Save** to save changes and close the dialog box.
 
-5.  In your test procedure, use the [navigate](navigate.html) built-in action to launch the Edge browser, and navigate to a specified web site.
+5.  In your test procedure, use the [navigate](/TA_Automation/Topics/bia_navigate.html) built-in action to launch the Edge browser, and navigate to a specified web site.
 
 
 **Parent topic:**[Preparing Microsoft Edge for web testing](/TA_Help/Topics/ug_preparing_Edge.html)

@@ -20,7 +20,7 @@ Test modularity, as well as readability, is further enhanced through the presenc
 
 [Picture checks](/reuse/../TA_Help/Topics/Projects_and_tests_picture_check.html) are reference images, also referred to as baseline pictures. They are used to verify the correctness of pictures and graphics displayed by the AUT during testing.
 
-Finally, for each test run, TestArchitect generates a [report](Test_result.html) containing the results of the automated test.
+Finally, for each test run, TestArchitect generates a [report](/TA_Help/Topics/Test_result.html) containing the results of the automated test.
 
 
 

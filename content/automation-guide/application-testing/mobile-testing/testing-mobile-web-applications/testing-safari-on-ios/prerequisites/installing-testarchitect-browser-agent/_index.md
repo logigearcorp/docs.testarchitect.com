@@ -61,7 +61,7 @@ Carry out the following procedures on an macOS machine:
 
         A re-signed TestArchitectBrowserAgent is installed onto the device.
 
-    **Note:** You can perform step [6](aut_app_testing_mobile_web_Safari_installing_TA_Browser_Agent.html#step_u4p_xyq_kn) on either an macOS or Windows machine.
+    **Note:** You can perform step [6](/TA_Automation/Topics/aut_app_testing_mobile_web_Safari_installing_TA_Browser_Agent.html#step_u4p_xyq_kn) on either an macOS or Windows machine.
 
 
 **Parent topic:**[Safari iOS testing prerequisites](/TA_Automation/Topics/aut_app_testing_mobile_web_Safari_prerequesites.html)

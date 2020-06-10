@@ -8,11 +8,11 @@ aliases:
 
 An automated test can be run on multiple devices attached to a local host, and/or on multiple controllers, and/or on multiple devices attached to the controllers.
 
-Ensure that the controllers for the hosts or devices that you want to execute the test on are visible to the local host machine and/or registered with the [Lab Manager Server](Lab_manager.html).
+Ensure that the controllers for the hosts or devices that you want to execute the test on are visible to the local host machine and/or registered with the [Lab Manager Server](/TA_Help/Topics/Lab_manager.html).
 
 To execute a test on one or more devices:
 
-1.  Select the test module you want to run, and then click **Execute** ![](/images//Images/TA_Help/Images/btn.TAC_toolbar.Execute.png) on the TestArchitect toolbar.
+1.  Select the test module you want to run, and then click **Execute** ![](/images/TA_Help/Images/btn.TAC_toolbar.Execute.png) on the TestArchitect toolbar.
 
 2.  In the **Test Modules** panel of the Execute Test dialog box, verify that the check boxes for the modules you want to execute are selected.
 
@@ -47,11 +47,11 @@ To execute a test on one or more devices:
 
 TestArchitect saves the settings on the Select Controller/Device dialog box and executes the test on designated remote hosts. The same settings are used as the default for the next test execution.
 
-TestArchitect automatically adds controllers/devices executing tests to the controller/device list on the [Controller status](Lab_manager_controller.html) and [Device status](Lab_manager_device.html), and you can monitor the test progress there.
+TestArchitect automatically adds controllers/devices executing tests to the controller/device list on the [Controller status](/TA_Help/Topics/Lab_manager_controller.html) and [Device status](/TA_Help/Topics/Lab_manager_device.html), and you can monitor the test progress there.
 
 **Warning:** If the controllers/devices executing tests have been already registered to another Lab Manager server, TestArchitect will not add those controllers/devices automatically to the controller/device list on your local Lab Manager server.
 
-**Note:** The selected devices are written as new parameters when you generate a batch file. The parameter `-devices` is written to the batch file. \([Learn more](Test_exec_cmd.html).\)
+**Note:** The selected devices are written as new parameters when you generate a batch file. The parameter `-devices` is written to the batch file. \([Learn more](/TA_Help/Topics/Test_exec_cmd.html).\)
 
 -   **[Troubleshooting multiple device execution](/TA_Help/Topics/Test_exec_multiple_device_execution_troubleshooting.html)**  
 Typical issues that you may encounter when executing tests on multiple devices, and possible solutions.

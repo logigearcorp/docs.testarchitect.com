@@ -32,7 +32,7 @@ Use of this action is supported on the following systems/platforms: Windows and 
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[case sensitive](case_sensitive.html), [remove double quotes from cells](remove_double_quotes_from_cells.html), [window wait](window_wait.html).
+The following settings are applicable to this action:[case sensitive](/TA_Automation/Topics/bis_case_sensitive.html), [remove double quotes from cells](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html), [window wait](/TA_Automation/Topics/bis_window_wait.html).
 
 ## Notes
 
@@ -77,7 +77,7 @@ The following settings are applicable to this action:[case sensitive](case_sensi
         hold key      home          ^%{delete}
         ```
 
--   Generally, the [release key](release_key.html) built-in action is used in conjunction with the [hold key](hold_key.html) built-in action to release keys that were previously held down spanning multiple steps. For example, if the AUT requires that the ALT key be held down while mouse left-clicks are taking place, that task could begin with a hold key action to hold down the ALT key, followed by the mouse left-click steps, finally ending with this release key built-in action.
+-   Generally, the [release key](/TA_Automation/Topics/bia_release_key.html) built-in action is used in conjunction with the [hold key](/TA_Automation/Topics/bia_hold_key.html) built-in action to release keys that were previously held down spanning multiple steps. For example, if the AUT requires that the ALT key be held down while mouse left-clicks are taking place, that task could begin with a hold key action to hold down the ALT key, followed by the mouse left-click steps, finally ending with this release key built-in action.
     -   To release all keys that are being held down, apply the value of \{all\} for release key. For example:
 
         ```
@@ -95,12 +95,12 @@ The following settings are applicable to this action:[case sensitive](case_sensi
 
         in the test procedures. Note that, this approach does not take effect on the value of \{all\} for release key.
 
--   For simple key combinations, such as ALT-F, hold key is not really needed. You can simulate this key combination by using the [type](type.html) built-in action. hold key is only needed when one or more keys need to be held down across multiple steps.
+-   For simple key combinations, such as ALT-F, hold key is not really needed. You can simulate this key combination by using the [type](/TA_Automation/Topics/bia_type.html) built-in action. hold key is only needed when one or more keys need to be held down across multiple steps.
 -   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Example
 
-The following sample of test procedures selecting multiple cells in a given table by holding down the **left-CTRL** key, then applying [click table cell](click_table_cell.html) built-in action several times, finally releasing the **left-CTRL** key.
+The following sample of test procedures selecting multiple cells in a given table by holding down the **left-CTRL** key, then applying [click table cell](/TA_Automation/Topics/bia_click_table_cell.html) built-in action several times, finally releasing the **left-CTRL** key.
 
 ## Action Lines
 

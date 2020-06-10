@@ -10,7 +10,7 @@ There are a series of possible errors that may surface when your test executes a
 
 **Note:**
 
-In general, in order to avoid all possible issues you may experience when running a test that invokes start program, you are strongly urged to read [Preparing for automated testing on iOS](iOS_launching_an_AUT.html#section_pdh_mzj_m4) before beginning testing.
+In general, in order to avoid all possible issues you may experience when running a test that invokes start program, you are strongly urged to read [Preparing for automated testing on iOS](/iOS/Topics/iOS_launching_an_AUT.html#section_pdh_mzj_m4) before beginning testing.
 
 -   **[iOS start program problem: no target application](/TA_FAQ/Topics/faq.tshoot.ios.start_program.aut_not_found_COPY.html)**  
 

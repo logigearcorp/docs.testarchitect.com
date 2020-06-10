@@ -24,7 +24,7 @@ Create a new data set object with the specified name.
 
 ## Return Value
 
-A new [AbtDataSet](abt_AbtDataSet.html) object with the specified name.
+A new [AbtDataSet](/TA_Automation/Topics/abt_AbtDataSet.html) object with the specified name.
 
 ## Notes
 

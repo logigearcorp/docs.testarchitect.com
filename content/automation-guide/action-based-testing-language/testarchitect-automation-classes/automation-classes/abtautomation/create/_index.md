@@ -27,7 +27,7 @@ There are no returned values for this function.
 
 -   This function is currently supported only by the Python and Java harnesses.
 -   You are required to call this method to instantiate an object of class AbtAutomation.
--   When you no longer need the instance, use [Destroy](abt_Destroy.html) to avoid memory leak.
+-   When you no longer need the instance, use [Destroy](/TA_Automation/Topics/abt_Destroy.html) to avoid memory leak.
 
 ## Example
 

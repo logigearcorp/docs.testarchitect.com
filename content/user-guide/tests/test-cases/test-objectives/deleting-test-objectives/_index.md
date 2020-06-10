@@ -10,7 +10,7 @@ Test objectives can be deleted from a test module when no longer needed.
 
 To delete test objectives, perform the following steps:
 
-1.  [Check out](Project_items_checkout.html) a test module and open it in the editor.
+1.  [Check out](/TA_Help/Topics/Project_items_checkout.html) a test module and open it in the editor.
 
 2.  Within the `Objectives` section of the test module, right-click any cell in the row containing the test objective, and click **Test objective** \> **Delete Test Objective**.
 

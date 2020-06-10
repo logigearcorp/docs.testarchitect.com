@@ -68,7 +68,7 @@ java -jar TAImportExportTool.jar --ExportFromID [--server<value>] [--port<value>
 
     TestArchitect ID of the item to be exported.
 
-    **Note:** To obtain the ID of the item, find the [**URL**](Additional_features_TA_URL.html) field under the item's **Information** tab. The ID is placed at the end of the item's URL address, prefixed with a hyphen \( - \). In the following example, the TestArchitect ID is `1z26kdr8h1`:
+    **Note:** To obtain the ID of the item, find the [**URL**](/TA_Help/Topics/Additional_features_TA_URL.html) field under the item's **Information** tab. The ID is placed at the end of the item's URL address, prefixed with a hyphen \( - \). In the following example, the TestArchitect ID is `1z26kdr8h1`:
 
     ![](/images//Images/obtain_ID_item.png)
 

@@ -12,7 +12,7 @@ On Windows machines only, automating tests on Mozilla Firefox requires GeckoDriv
 
 2.  Download the GeckoDriver executable file into the test machine.
 
-    **Remember:** Ensure that you download the right version supported by TestArchitect. \([Learn more](Web_automation.html#li.FF).\)
+    **Remember:** Ensure that you download the right version supported by TestArchitect. \([Learn more](/TA_Automation/Topics/Web_automation.html#li.FF).\)
 
 3.  Specify GeckoDriver's path, so that TestArchitect is able to detect it.
 
@@ -20,7 +20,7 @@ On Windows machines only, automating tests on Mozilla Firefox requires GeckoDriv
 
         The TestArchitect Automation Agent Manager dialog box appears.
 
-        ![](/TA_Help/Images/automation_extension_manager_dialog_2.png)
+        ![](/images/TA_Automation/Images/automation_extension_manager_dialog_2.png)
 
     2.  For Mozilla Firefox, click the **Configure** button.
 
@@ -30,7 +30,7 @@ On Windows machines only, automating tests on Mozilla Firefox requires GeckoDriv
 
     4.  Click **Save** to save changes and close the dialog box.
 
-4.  In your test procedure, use the [navigate](navigate.html) built-in action to launch the Mozilla Firefox browser, and navigate to a specified web site.
+4.  In your test procedure, use the [navigate](/TA_Automation/Topics/bia_navigate.html) built-in action to launch the Mozilla Firefox browser, and navigate to a specified web site.
 
 
 **Parent topic:**[Preparing Mozilla Firefox for web testing](/TA_Help/Topics/ug_preparing_Firefox.html)

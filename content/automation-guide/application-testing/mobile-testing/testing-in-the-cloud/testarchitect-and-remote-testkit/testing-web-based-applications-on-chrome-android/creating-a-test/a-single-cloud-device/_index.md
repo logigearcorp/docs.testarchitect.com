@@ -12,11 +12,11 @@ From within your action lines, you can control which cloud device your test is t
 
 Ensure that the following requirements are met before implementing automated mobile web testing on a cloud device in the Remote TestKit cloud service:
 
--   [Set up](aut_app_cloud_testing_Android_configuration.html) Android development environment.
--   In the Remote TestKit cloud service, [rent](aut_app_cloud_testing_RTK_renting.html) an Android device.
--   [Run](aut_app_cloud_testing_Appium_RTK.html#step_grn_3px_gy) Appium server locally.
+-   [Set up](/TA_Automation/Topics/aut_app_cloud_testing_Android_configuration.html) Android development environment.
+-   In the Remote TestKit cloud service, [rent](/TA_Automation/Topics/aut_app_cloud_testing_RTK_renting.html) an Android device.
+-   [Run](/TA_Automation/Topics/aut_app_cloud_testing_Appium_RTK.html#step_grn_3px_gy) Appium server locally.
 
-1.  Use the [assign cloud device](assign_cloud_device.html) built-in action to define a list of [desired capabilities](aut_appium.html#section_p5f_qp3_gy), which are sets of keys and values sent to the Appium server in [JSON](http://www.w3schools.com/js/js_json_syntax.asp) format. You can define as many capabilities as you need \([learn more](http://appium.io/slate/en/master/?ruby#appium-server-capabilities)\). However, it is recommended that your JSON string contain the following basic capabilities including.
+1.  Use the [assign cloud device](/TA_Automation/Topics/bia_assign_cloud_device.html) built-in action to define a list of [desired capabilities](/TA_Automation/Topics/aut_appium.html#section_p5f_qp3_gy), which are sets of keys and values sent to the Appium server in [JSON](http://www.w3schools.com/js/js_json_syntax.asp) format. You can define as many capabilities as you need \([learn more](http://appium.io/slate/en/master/?ruby#appium-server-capabilities)\). However, it is recommended that your JSON string contain the following basic capabilities including.
 
     -   deviceName,
     -   platformName, and
@@ -25,7 +25,7 @@ Ensure that the following requirements are met before implementing automated mob
 
     -   deviceName: Query for its value by using [`adb devices`](https://developer.android.com/studio/command-line/adb.html#howadbworks) command.
 
-        ![](/TA_Help/Images/adb_devices.png)
+        ![](/images/TA_Automation/Images/adb_devices.png)
 
     -   platformName: Android
     -   browserName: Chrome, which invokes Google Chrome browser during mobile web application testing.
@@ -42,7 +42,7 @@ Ensure that the following requirements are met before implementing automated mob
         -   For example: http://127.0.0.1:4723/wd/hub/
         ![](/images//Images/Appium_URL.png)
 
-    -   [assign device](assign_cloud_device.html) should resemble the following.
+    -   [assign device](/TA_Automation/Topics/bia_assign_cloud_device.html) should resemble the following.
 
         ```
                              url                             capability                                                            name   
@@ -51,18 +51,18 @@ Ensure that the following requirements are met before implementing automated mob
                                                              "browserName" : "Chrome"}]    
         ```
 
-2.  Make a connection to the target cloud device via the [connect cloud device](connect_cloud_device.html) built-in action, as specified by its logical name.
+2.  Make a connection to the target cloud device via the [connect cloud device](/TA_Automation/Topics/bia_connect_cloud_device.html) built-in action, as specified by its logical name.
 
-    **Note:** The name is established in advance by the [assign cloud device](assign_cloud_device.html) action, which assigns a logical name to a mobile cloud device.
+    **Note:** The name is established in advance by the [assign cloud device](/TA_Automation/Topics/bia_assign_cloud_device.html) action, which assigns a logical name to a mobile cloud device.
 
     ```
                            name       session id
     connect cloud device   S7 edge    >>s7_edge_sessionID
     ```
 
-3.  Employ the [use cloud device](use_cloud_device.html) built-in action to use the cloud device to initiate automated tests. The invoked cloud device is specified by its session ID.
+3.  Employ the [use cloud device](/TA_Automation/Topics/bia_use_cloud_device.html) built-in action to use the cloud device to initiate automated tests. The invoked cloud device is specified by its session ID.
 
-    **Note:** The session ID specified in the session id argument is retrieved via the [connect cloud device](connect_cloud_device.html) action.
+    **Note:** The session ID specified in the session id argument is retrieved via the [connect cloud device](/TA_Automation/Topics/bia_connect_cloud_device.html) action.
 
     ```
                          session id
@@ -70,14 +70,14 @@ Ensure that the following requirements are met before implementing automated mob
     ```
 
 4.  Now, you're ready to begin performing your automated web-based tests on the target cloud device.
-5.  When you no longer need to continue the tests on the target cloud device, it is highly recommended that you terminate the connection with the target device by using the [disconnect cloud device](disconnect_cloud_device.html) built-in action.
+5.  When you no longer need to continue the tests on the target cloud device, it is highly recommended that you terminate the connection with the target device by using the [disconnect cloud device](/TA_Automation/Topics/bia_disconnect_cloud_device.html) built-in action.
 
     ```
                                session id
     disconnect cloud device    #s7_edge_sessionID
     ```
 
-6.  When you'd like to switch back to the host machine to continue the remaining tests, use the [use host machine](use_host_machine.html) built-in action.
+6.  When you'd like to switch back to the host machine to continue the remaining tests, use the [use host machine](/TA_Automation/Topics/bia_use_host_machine.html) built-in action.
 7.  Overall, your snippet of test should resemble the following.
 
     ```

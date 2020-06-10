@@ -10,10 +10,10 @@ Variations are a means of adapting your existing project base to changes in an a
 
 Variations can be created for the following TestArchitect project items:
 
--   [test modules](Project_items_tests.html)
--   [interface entities](Interface_entities_and_elements.html)
+-   [test modules](/TA_Help/Topics/Project_items_tests.html)
+-   [interface entities](/TA_Help/Topics/Interface_entities_and_elements.html)
 -   [actions](/reuse/reuse.High_level_actions.html),
--   and [data sets](Projects_and_tests_dataset.html).
+-   and [data sets](/TA_Help/Topics/Projects_and_tests_dataset.html).
 
 1.  [Introduction to variations](/TA_Help/Topics/Variations_intro.html)  
 Ideally, a test should not be sensitive to changes to the AUT, except when such changes are the subject of the test. Variations help isolate the base test from AUT variability, and lend a great measure of flexibility to your test project.

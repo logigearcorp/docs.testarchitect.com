@@ -26,9 +26,9 @@ This action may be used within the following project items:test modules and user
 
 -   Prior to using this built-in action, it is recommended that you become familiar with the different kinds of modal JavaScript popups and how to handle them properly.
     -   For Safari
-        -   on iOS, refer to [Handling JavaScript popups on Safari iOS](aut_app_testing_safari_apps_popups.html) for details.
-        -   on macOS, refer to [Handling JavaScript popups on Safari macOS](aut_app_testing_web_apps_getting_started.html#section_f1f_hgd_4s) for details.
-    -   For Google Chrome on Android, refer to [Handling JavaScript popups on Chrome Android](aut_app_testing_Android_apps_popups.html) for details.
+        -   on iOS, refer to [Handling JavaScript popups on Safari iOS](/TA_Automation/Topics/aut_app_testing_safari_apps_popups.html) for details.
+        -   on macOS, refer to [Handling JavaScript popups on Safari macOS](/TA_Automation/Topics/aut_app_testing_web_apps_getting_started.html#section_f1f_hgd_4s) for details.
+    -   For Google Chrome on Android, refer to [Handling JavaScript popups on Chrome Android](/TA_Automation/Topics/aut_app_testing_Android_apps_popups.html) for details.
 -   Because it is not possible for TestArchitect to interface with JavaScript popups in a conventional manner, this action suppresses the display of the popup to which it is targeted.
 
     CAUTION:
@@ -39,17 +39,17 @@ This action may be used within the following project items:test modules and user
     -   your sequence of popup-handling action lines \(click on next popup and enter text on next popup\) did not properly account for the order in which the actual popups were invoked.
 -   To handle a sequence of multiple popups, use several popup-handling actions \(click on next popup and enter text on next popup\) in your test. These actions are stored to a FIFO \(First-In, First-Out\) queue and each is retrieved from the queue when required for the invocation of a new popup.
     -   For Safari
-        -   on iOS, refer to [Handling one or a series of popups](aut_app_testing_safari_apps_popups.html#section_iv1_x5x_vp) for details.
-        -   on macOS, refer to [Handling one or a series of popups](aut_app_testing_web_apps_getting_started.html#sectiondiv_o5w_nkd_4s) for details.
-    -   For Google Chrome on Android, refer to [Handling one or a series of popups](aut_app_testing_Android_apps_popups.html#section_iv1_x5x_vp) for details.
+        -   on iOS, refer to [Handling one or a series of popups](/TA_Automation/Topics/aut_app_testing_safari_apps_popups.html#section_iv1_x5x_vp) for details.
+        -   on macOS, refer to [Handling one or a series of popups](/TA_Automation/Topics/aut_app_testing_web_apps_getting_started.html#sectiondiv_o5w_nkd_4s) for details.
+    -   For Google Chrome on Android, refer to [Handling one or a series of popups](/TA_Automation/Topics/aut_app_testing_Android_apps_popups.html#section_iv1_x5x_vp) for details.
 -   If the text argument is empty, TestArchitect clears the popup's existing default text, if any, leaving the input field blank.
--   Note that this action does not support the case of writing text to the user-entry field of a prompt popup, followed by clicking **Cancel**. To cancel a prompt, use [click on next popup](click_on_next_popup.html).
+-   Note that this action does not support the case of writing text to the user-entry field of a prompt popup, followed by clicking **Cancel**. To cancel a prompt, use [click on next popup](/TA_Automation/Topics/bia_click_on_next_popup.html).
 -   If this action is applied \(inadvertently or otherwise\) to an alert or a confirmation popup, TestArchitect ignores the text argument and clicks **OK** on the popup.
 -   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html).
+The following settings are applicable to this action:[remove double quotes from cells](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html).
 
 ## Applicable Controls
 

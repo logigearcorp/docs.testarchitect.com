@@ -25,7 +25,7 @@ Returns a Gregorian date converted from a Julian date.
 
 ## Applicable Built-In Settings
 
-The following built-in setting\(s\) are supported: [break year](break_year.html), [date format](date_format.html).
+The following built-in setting\(s\) are supported: [break year](/TA_Automation/Topics/bis_break_year.html), [date format](/TA_Automation/Topics/bis_date_format.html).
 
 ## Example
 

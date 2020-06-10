@@ -12,7 +12,7 @@ The purpose of each system that you create under the **Systems & Platforms** nod
 
 1.  In the TestArchitect explorer tree, right-click a system node.
 
-    A system node is a top-level node under the **Systems & Platforms** node, like **Car Rental**, created in the [previous task](Variations_create_linked_create_new_system.html).
+    A system node is a top-level node under the **Systems & Platforms** node, like **Car Rental**, created in the [previous task](/TA_Help/Topics/Variations_create_linked_create_new_system.html).
 
 2.  From the context menu, select **Add Version**.
 

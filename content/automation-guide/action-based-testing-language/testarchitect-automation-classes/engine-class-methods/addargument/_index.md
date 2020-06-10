@@ -31,7 +31,7 @@ Return 1 if the call is successful; otherwise, 0.If unsuccessful, the diagnostic
 
 ## Notes
 
--   Use this function only in combination with [NewActionLine\(\)](abtf_NewActionLine.html).
+-   Use this function only in combination with [NewActionLine\(\)](/TA_Automation/Topics/abtf_NewActionLine.html).
 
 **Parent topic:**[Engine class methods](/TA_Automation/Topics/abtf_Engine_classes.html)
 

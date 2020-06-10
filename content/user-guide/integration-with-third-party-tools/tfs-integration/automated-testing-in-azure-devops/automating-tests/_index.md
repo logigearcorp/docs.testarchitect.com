@@ -19,16 +19,16 @@ The procedure for test management and test automation in Azure DevOps is almost 
 
 1.  In Azure DevOps, open the desired project.
 2.  Select **Pipelines** and then **Builds** in the Navigation bar.
-3.  The next steps are similar to those of [create a build definition and queue a build](TFS_web_creating_and_queuing_build.html) in the TFS web portal.
+3.  The next steps are similar to those of [create a build definition and queue a build](/TA_Help/Topics/TFS_web_creating_and_queuing_build.html) in the TFS web portal.
 
 ## Creating a release definition
 
 1.  Select **Pipelines** and then **Releases** in the Navigation bar.
-2.  The next steps are similar to those of [create a release definition](TFS_web_creating_release_def.html) in the TFS web portal.
+2.  The next steps are similar to those of [create a release definition](/TA_Help/Topics/TFS_web_creating_release_def.html) in the TFS web portal.
 
 ## Running automated tests
 
-Refer to [Running automated tests](TFS_web_runnning_automated_tests.html) in the TFS web portal.
+Refer to [Running automated tests](/TA_Help/Topics/TFS_web_runnning_automated_tests.html) in the TFS web portal.
 
 **Parent topic:**[Azure DevOps](/TA_Help/Topics/Azure_DevOps_running_automated_tests.html)
 

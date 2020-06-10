@@ -16,17 +16,17 @@ Perform the following steps to install TestArchitect Agent onto your Android dev
 
     You should see a grey icon representing your device in the Devices panel on the Android Instrumentation Tool dialog box.
 
-    ![](/Android/Images/android_9.png)
+    ![](/images/TA_Automation/Images/android_9.png)
 
     A grey icon indicates that the device is visible to TestArchitect, but that TestArchitect Agent is not yet installed.
 
 3.  Right-click the icon, and then select **Install TestArchitect Automation Agent**.
 
-    **Fastpath:** Alternatively, click the button **Install TestArchitect Automation Agent on selected device** ![](/Android/Images/android_installing_TA_agent_btn.png), on the toolbar.
+    **Fastpath:** Alternatively, click the button **Install TestArchitect Automation Agent on selected device** ![](/images/TA_Automation/Images/android_installing_TA_agent_btn.png), on the toolbar.
 
     Upon successful installation, the device icon, formerly grey, becomes green.
 
-    ![](/Android/Images/android_10.png)
+    ![](/images/TA_Automation/Images/android_10.png)
 
     This indicates that the functioning TestArchitect Agent application now resides on your device.
 

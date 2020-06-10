@@ -8,7 +8,7 @@ aliases:
 
 Specific test case\(s\) can be selected to execute within a test module.
 
-1.  Launch the [Execute Test](Test_exec_test_execution.html) dialog box.
+1.  Launch the [Execute Test](/TA_Help/Topics/Test_exec_test_execution.html) dialog box.
 
 2.  In the Test Module panel frame, select the check boxes for the test modules you wish to execute.
 

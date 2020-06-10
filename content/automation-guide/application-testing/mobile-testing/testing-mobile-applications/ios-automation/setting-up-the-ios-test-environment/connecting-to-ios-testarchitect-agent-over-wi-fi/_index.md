@@ -10,7 +10,7 @@ Establishing a connection between an iOS device and a host machine allows TestAr
 
 **Important:** iOS automation is only supported on Windows or macOS hosts.
 
-Ensure that you have installed [TestArchitect Agent on the iOS device](iOS_installing_TA_target_device.html) and that you know the IP address of the host machine.
+Ensure that you have installed [TestArchitect Agent on the iOS device](/iOS/Topics/iOS_installing_TA_target_device.html) and that you know the IP address of the host machine.
 
 Perform the following procedures to connect the iOS device to the host machine using a Wi-Fi connection:
 

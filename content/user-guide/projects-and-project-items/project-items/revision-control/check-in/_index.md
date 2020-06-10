@@ -30,7 +30,7 @@ To check in an item:
 
 3.  When test modules or actions are checked in, TestArchitect checks for references to ambiguous entities. Ambiguous entities are named references to interface entities that exist in more than one interface. If any such ambiguous entities are found to exist during check-in, the Select Interface dialog box appears, allowing you to specify the correct interface for each ambiguous interface entity reference \(see [ambiguous entities](/TA_Administration/Topics/Repo_mapping_ambiguous_entities.html) for more details\).
 
-    The purpose of this mapping is to ensure that each named interface entity in the action lines of a file references a unique, unambiguous interface. This, in turn, ensures that [name change propagation](Project_and_project_items_rename_refactoring.html) can take place unimpeded, if and when required.
+    The purpose of this mapping is to ensure that each named interface entity in the action lines of a file references a unique, unambiguous interface. This, in turn, ensures that [name change propagation](/TA_Help/Topics/Project_and_project_items_rename_refactoring.html) can take place unimpeded, if and when required.
 
     For example, your action line within a test module verifies the existence of an interface entity named welcome. But interface entities by that name exist in both of two interfaces: Car Rental and House Rental. When checking in, TestArchitect prompts you to create a one-to-one reference between welcome and one of the two interfaces.
 

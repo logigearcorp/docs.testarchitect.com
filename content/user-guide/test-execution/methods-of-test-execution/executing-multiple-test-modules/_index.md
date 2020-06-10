@@ -26,14 +26,14 @@ You can choose among the following methods to execute multiple test modules at o
 
         **Note:**
 
-        -   If the dragged-and-dropped test module is a [variation](ug_TM_create_variation.html), the **Keyword** and/or **AUT version** boxes are automatically filled in.
+        -   If the dragged-and-dropped test module is a [variation](/TA_Help/Topics/ug_TM_create_variation.html), the **Keyword** and/or **AUT version** boxes are automatically filled in.
 
             ![](/images//Images/ug_testexecution1_tm_var.png)
 
-        -   If the first-selected test module is a [variation](ug_TM_create_variation.html), the dragged-and-dropped is too. However, these two variations both belong to a same [default variation](Variations_default.html). The latter replaces the former in the Execute Test dialog box, and its **Keyword** and/or **AUT Version**'s information.
+        -   If the first-selected test module is a [variation](/TA_Help/Topics/ug_TM_create_variation.html), the dragged-and-dropped is too. However, these two variations both belong to a same [default variation](/TA_Help/Topics/Variations_default.html). The latter replaces the former in the Execute Test dialog box, and its **Keyword** and/or **AUT Version**'s information.
     4.  In the Execute Test dialog box, click the **Execute** button.
 
--   Option \#2: Execute a [test folder](ug_creating_test_folders.html).
+-   Option \#2: Execute a [test folder](/TA_Help/Topics/ug_creating_test_folders.html).
 
     This has the same effect as Option \#1, in that multiple test modules are loaded into the Execute Test dialog box. Hence this is just another means of initiating a serial test run.
 
@@ -43,7 +43,7 @@ You can choose among the following methods to execute multiple test modules at o
 
         -   Right-click the selection, and then select **Execute Test**.
         -   Alternatively, click the **Execute** ![](/images//Images/btn.TAC_toolbar.Execute.png) button on the toolbar.
-        **Note:** If the selected test folder contains a [default test module](Variations_default.html) and its respective [variations](ug_TM_create_variation.html). You will see the following warning message. Since at a time, only one variation of a given test module can be executed.
+        **Note:** If the selected test folder contains a [default test module](/TA_Help/Topics/Variations_default.html) and its respective [variations](/TA_Help/Topics/ug_TM_create_variation.html). You will see the following warning message. Since at a time, only one variation of a given test module can be executed.
 
         ![](/images//Images/execution_test_folder_variation.png)
 
@@ -53,7 +53,7 @@ You can choose among the following methods to execute multiple test modules at o
 
     3.  In the Execute Test dialog box, click the **Execute** button.
 
--   Option \#3: Executing a [test suite](Test_suite.html).
+-   Option \#3: Executing a [test suite](/TA_Help/Topics/Test_suite.html).
 
     This again is another means of achieving a serial test run.
 
@@ -85,7 +85,7 @@ You can choose among the following methods to execute multiple test modules at o
 
         ![](/images//Images/ug_testexecution2.png)
 
-        **Important:** If the dragged-and-dropped test module is a [variation](ug_TM_create_variation.html), the test module's name in the name argument of run test is just a default, not a variation.
+        **Important:** If the dragged-and-dropped test module is a [variation](/TA_Help/Topics/ug_TM_create_variation.html), the test module's name in the name argument of run test is just a default, not a variation.
 
     4.  In the TestArchitect explorer tree, select the test module node.
 

@@ -10,7 +10,7 @@ If you no longer have a need to have TestArchitect Agent present in a given devi
 
 To uninstall the TestArchitect Agent:
 
-1.  With your physical Android device connected via USB cable, or emulator up and running, launch the [Android Instrumentation Tool](Android_Instrumentation_tool.html)dialog box.
+1.  With your physical Android device connected via USB cable, or emulator up and running, launch the [Android Instrumentation Tool](/Android/Topics/Android_Instrumentation_tool.html)dialog box.
 
     You should see a green icon representing your device in the Devices panel in the Android Instrumentation Applications dialog box.
 

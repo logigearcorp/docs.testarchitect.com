@@ -35,7 +35,7 @@ Built-in actions cannot be modified by you. They can, however, be used as buildi
 
 From Solution Explorer, drag an interface entity or interface element into a cell in an empty row in the editor to view a drop-down list of applicable built-in actions. After selecting an action from the drop-down list, TestArchitect automatically completes the syntax and the argument cells of the interface entity or interface element.
 
-**Note:** This feature is only available in the test editor for test modules and [user-defined actions](reuse.High_level_actions.html).
+**Note:** This feature is only available in the test editor for test modules and [user-defined actions](/reuse/reuse.High_level_actions.html).
 
 **Parent topic:**[Actions](../reuse/reuse.Creating_and_using_actions.html)
 

@@ -21,7 +21,7 @@ This action may be used within the following project items:test modules
 
 ## Notes
 
--   Establishes the section in which the test requirements of the test module are specified, by means of one or more [test objective](test_objective.html) actions.
+-   Establishes the section in which the test requirements of the test module are specified, by means of one or more [test objective](/TA_Automation/Topics/bia_test_objective.html) actions.
 
 ## Applicable Built-In Settings
 

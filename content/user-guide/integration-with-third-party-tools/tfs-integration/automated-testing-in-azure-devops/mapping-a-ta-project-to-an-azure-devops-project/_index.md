@@ -10,7 +10,7 @@ Mapping a TestArchitect project to an Azure DevOps team project allows you to up
 
 Ensure that the following requirements are met:
 
--   Your TestArchitect repository is configured for connection with Azure DevOps. \([Learn more](Integration_MTM_connecting_TFS.html).\)
+-   Your TestArchitect repository is configured for connection with Azure DevOps. \([Learn more](/TA_Help/Topics/Integration_MTM_connecting_TFS.html).\)
 -   Your access to Azure DevOps has been authenticated. You can do this in one of two ways:
 
     **Restriction:** authentication access with **Personal access tokens** and **Alternate authentication credentials** is supported.
@@ -55,7 +55,7 @@ To map a TA project to an Azure DevOps project, perform as follows:
     **Note:**
 
     -   This dialog box is only displayed the first time you connect to the TFS server and map a project. It does not appear again unless there is a change in the TFS server or user account/password.
-    -   If necessary, you have the option of switching from the current credentials to different ones. \([Learn more](ug_MTM_switching_TFS_account.html).\)
+    -   If necessary, you have the option of switching from the current credentials to different ones. \([Learn more](/TA_Help/Topics/ug_MTM_switching_TFS_account.html).\)
 5.  Click **OK**.
 
     If authentication succeeds, a confirmation dialog box to that effect is displayed.

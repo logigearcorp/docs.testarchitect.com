@@ -10,7 +10,7 @@ iOS device ID, or UDID, of the rented iOS device is required to start Appium loc
 
 Ensure that the following requirements are met:
 
--   Rent an iOS device in the Remote TestKit service, and enable Xcode Connector. \([Learn more](aut_app_cloud_testing_iOS_Xcode_connector.html).\)
+-   Rent an iOS device in the Remote TestKit service, and enable Xcode Connector. \([Learn more](/TA_Automation/Topics/aut_app_cloud_testing_iOS_Xcode_connector.html).\)
 -   Xcode detected the iOS device.
 
 For the device identifier, perform the following steps:
@@ -21,7 +21,7 @@ For the device identifier, perform the following steps:
 
 3.  Under Device Information, you will get an identifier, or UDID, of the device.
 
-    **Remember:** This UDID is necessary when [configuring](aut_app_cloud_testing_Appium_RTK_iOS.html) Appium server locally, and defining desired capabilities for the [assign cloud device](assign_cloud_device.html) built-in action. \([Learn more](aut_app_cloud_testing_Appium_RTK_iOS_workflow.html).\)
+    **Remember:** This UDID is necessary when [configuring](/TA_Automation/Topics/aut_app_cloud_testing_Appium_RTK_iOS.html) Appium server locally, and defining desired capabilities for the [assign cloud device](/TA_Automation/Topics/bia_assign_cloud_device.html) built-in action. \([Learn more](/TA_Automation/Topics/aut_app_cloud_testing_Appium_RTK_iOS_workflow.html).\)
 
 
 **Parent topic:**[Prerequisites](/TA_Automation/Topics/aut_app_cloud_testing_iOS_prerequisites.html)

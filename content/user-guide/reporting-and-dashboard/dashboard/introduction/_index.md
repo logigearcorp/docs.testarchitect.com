@@ -22,11 +22,11 @@ The administrative bar displays the logon user and the repository in use. Hover 
 
 ![](/images//Images/Dashboard_page_selection_tool_bar.png)
 
-TestArchitect provides two default pages \(**Overview** and **Execution Dashboard**\) with sample charts displaying summaries of test executions relating to the [repository](/TA_Tutorials_Sample_App/Topics/SR_Sample_Repository_def.html) repository of the sample Car Rental project. The **Global Setting** menu provides options allowing you to [add a page](Dashboard_add_page.html), [create a data profile](Dashboard_create_data_profile.html), and [create a panel](Dashboard_create_new_chart_panel.html). As an alternative to creating a new panel from scratch, selecting the **Choose Panels** button reveals a drop-down page containing a list of predefined panels. You may choose one of these to add a new panel to a page.
+TestArchitect provides two default pages \(**Overview** and **Execution Dashboard**\) with sample charts displaying summaries of test executions relating to the [repository](/TA_Tutorials_Sample_App/Topics/SR_Sample_Repository_def.html) repository of the sample Car Rental project. The **Global Setting** menu provides options allowing you to [add a page](/TA_Help/Topics/Dashboard_add_page.html), [create a data profile](/TA_Help/Topics/Dashboard_create_data_profile.html), and [create a panel](/TA_Help/Topics/Dashboard_create_new_chart_panel.html). As an alternative to creating a new panel from scratch, selecting the **Choose Panels** button reveals a drop-down page containing a list of predefined panels. You may choose one of these to add a new panel to a page.
 
 ## Dashboard window
 
-A given Dashboard window is specific to a TestArchitect repository. It consists of one or more pages, each of which may contain multiple informational panels. Each panel displays user-selectable data as defined in the [data profile](Dashboard_create_data_profile.html) based on the test run results. Selected data are displayed on a panel as a [chart](Dashboard_chart.html), [indicator](Dashboard_indicator.html), [report](Dashboard_indicator.html), or [heat map](Dashboard_heatmap.html).
+A given Dashboard window is specific to a TestArchitect repository. It consists of one or more pages, each of which may contain multiple informational panels. Each panel displays user-selectable data as defined in the [data profile](/TA_Help/Topics/Dashboard_create_data_profile.html) based on the test run results. Selected data are displayed on a panel as a [chart](/TA_Help/Topics/Dashboard_chart.html), [indicator](/TA_Help/Topics/Dashboard_indicator.html), [report](/TA_Help/Topics/Dashboard_indicator.html), or [heat map](/TA_Help/Topics/Dashboard_heatmap.html).
 
 ## Pages
 
@@ -34,7 +34,7 @@ A Dashboard page acts as a container for one or more panels, each of which displ
 
 ## Panels
 
-Each panel in a Dashboard page presents the information stored in the connected repository. When data in the source changes, all dependent panels update their presentations to reflect the change. Depending on the type of data, the panel can present data in the form of a [chart](Dashboard_chart.html), a [report](Dashboard_indicator.html), a [heat map](Dashboard_heatmap.html), or an [indicator](Dashboard_indicator.html), in which you can specify colors to indicate certain value ranges \(for example, use the color red to indicate a failure count greater than zero\).
+Each panel in a Dashboard page presents the information stored in the connected repository. When data in the source changes, all dependent panels update their presentations to reflect the change. Depending on the type of data, the panel can present data in the form of a [chart](/TA_Help/Topics/Dashboard_chart.html), a [report](/TA_Help/Topics/Dashboard_indicator.html), a [heat map](/TA_Help/Topics/Dashboard_heatmap.html), or an [indicator](/TA_Help/Topics/Dashboard_indicator.html), in which you can specify colors to indicate certain value ranges \(for example, use the color red to indicate a failure count greater than zero\).
 
 Built-in predefined panels are provided to present the most commonly used TestArchitect test project information. But you can also define your own panels and add them to your pages.
 

@@ -10,8 +10,8 @@ Designating the **Assigned user** for a project item.
 
 Ensure the following requirements are met:
 
--   You are logged in to a repository as a member of the administrators, test managers, automation leads, or test leads group. \(See [User administration](User_administration.html) for details.\)
--   If your account belongs to the test managers, automation leads, or test leads group, you must have been assigned to the project you are working on. \(See [Assigning projects and permissions to a repository user](User_administration.html) for details.\)
+-   You are logged in to a repository as a member of the administrators, test managers, automation leads, or test leads group. \(See [User administration](/TA_Administration/Topics/User_administration.html) for details.\)
+-   If your account belongs to the test managers, automation leads, or test leads group, you must have been assigned to the project you are working on. \(See [Assigning projects and permissions to a repository user](/TA_Administration/Topics/User_administration.html) for details.\)
 
 Any project item may have up to one user assigned to it, or it may remain unassigned.
 

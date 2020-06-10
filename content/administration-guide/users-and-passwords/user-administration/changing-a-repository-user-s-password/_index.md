@@ -20,11 +20,11 @@ To change a user's password, do the following:
 
 4.  In the Change Password dialog box, enter and confirm the new password.
 
-    ![](/TA_Help/Images/Select_pwd_dlg.png)
+    ![](/images/TA_Automation/Images/Select_pwd_dlg.png)
 
     A message box appears indicating that the reset was successful.
 
-    ![](/TA_Help/Images/Select_pwd_confirmation.png)
+    ![](/images/TA_Automation/Images/Select_pwd_confirmation.png)
 
 5.  Click **OK** to close the dialog box.
 

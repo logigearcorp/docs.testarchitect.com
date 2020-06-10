@@ -17,7 +17,7 @@ There are two means by which TestArchitect users may log in to a repository. In 
 
 **Important:** Only one authentication mode may be in effect for a repository at any given time. The chosen mode, established by an administrator of the repository, applies to all users of the repository.
 
-1.  Log in to a repository with an account belonging to the TestArchitect [administrator](User_administration.html) group.
+1.  Log in to a repository with an account belonging to the TestArchitect [administrator](/TA_Administration/Topics/User_administration.html) group.
 
     **Important:** Only TestArchitect users belonging to the administrator group have the right to modify the repository's authentication mode.
 

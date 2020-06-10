@@ -37,7 +37,7 @@ In order to ensure that the start program built-in action can successfully launc
 
         **Note:** Once your iOS device is recognized in iTunes, TestArchitect is also able to detect it.
 
-4.  Connect your iOS device to [TestArchitect Agent](iOS_connecting_to_host_machine.html) over Wi-Fi so that TestArchitect is able to communicate with iOS applications.
+4.  Connect your iOS device to [TestArchitect Agent](/iOS/Topics/iOS_connecting_to_host_machine.html) over Wi-Fi so that TestArchitect is able to communicate with iOS applications.
 5.  During your first the automated run from a given test controller, execution of the start program action may again trigger a Trust This Computer? message, requiring manual intervention. You can inhibit this from happening by run the TrustActivator script prior to the run. The script is found at the following locations:
     -   Windows: TA\_INSTALL\_DIR\\device\\iOS\\tools\\, double-click the TrustActivator.bat file.
     -   macOS: Applications/TestArchitect/device/iOS/tools/, execute the TrustActivator.sh shell script via the terminal.
@@ -45,7 +45,7 @@ In order to ensure that the start program built-in action can successfully launc
 **Note:**
 
 -   TrustActivator need only be run prior to the first test run \(from each given controller\). It is not necessary at all if you are “babysitting” the machine and free to respond to the Trust message yourself.
--   After successfully launching an application on the mobile device, you may unplug the USB cable from the test controller machine, as long as the [Wi-Fi connection](iOS_connecting_to_host_machine.html) is maintained.
+-   After successfully launching an application on the mobile device, you may unplug the USB cable from the test controller machine, as long as the [Wi-Fi connection](/iOS/Topics/iOS_connecting_to_host_machine.html) is maintained.
 
 **Parent topic:**[iOS Automation](/iOS/Topics/iOS_automation_def.html)
 

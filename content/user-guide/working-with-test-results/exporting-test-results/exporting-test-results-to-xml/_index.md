@@ -14,7 +14,7 @@ Choose one of the following two methods to export test results to XML:
 
     1.  Select the test results that you want to export to an XML file.
 
-        **Tip:** You can select test results on the TestArchitect explorer tree, or on the [result list view](Listview_results.html).
+        **Tip:** You can select test results on the TestArchitect explorer tree, or on the [result list view](/TA_Help/Topics/Listview_results.html).
 
     2.  Right-click the selection, then select **Export** \> **to XML Detail** .
 

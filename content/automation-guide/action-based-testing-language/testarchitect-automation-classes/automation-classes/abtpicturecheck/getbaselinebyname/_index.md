@@ -9,7 +9,7 @@ keywords: "getbaselinebyname, abtpicturecheck getbaselinebyname, baseline image 
 
 ## Syntax
 
-`[<AbtBaselinePicture\>](abt_AbtBaselinePicture.html) GetBaselineByName (string name)`
+`[<AbtBaselinePicture\>](/TA_Automation/Topics/abt_AbtBaselinePicture.html) GetBaselineByName (string name)`
 
 ## Description
 
@@ -24,7 +24,7 @@ Retrieve the baseline image, as specified by its name, in the current picture ch
 
 ## Return Value
 
-Return an [AbtBaselinePicture](abt_AbtBaselinePicture.html) object. If the call is unsuccessful, returnnull.
+Return an [AbtBaselinePicture](/TA_Automation/Topics/abt_AbtBaselinePicture.html) object. If the call is unsuccessful, returnnull.
 
 **Parent topic:**[AbtPictureCheck](/TA_Automation/Topics/abt_AbtPictureCheck.html)
 

@@ -11,9 +11,9 @@ anchor pos is a secondary property that, like global pos, is used to identify a 
 In general, the following two scenarios are those for which the use of anchor pos is most often warranted:
 
 1.  When a given control or HTML element has no conventional TA property-value pairs that can be reliably used for its identification;
-2.  When your test involves iterating through multiple controls of the same class, repeated in a pattern. \(Made possible by the combined use of [dynamic identifiers](The_test_language_dynamic_identifiers.html), anchor pos and variables.\)
+2.  When your test involves iterating through multiple controls of the same class, repeated in a pattern. \(Made possible by the combined use of [dynamic identifiers](/TA_Help/Topics/The_test_language_dynamic_identifiers.html), anchor pos and variables.\)
 
-The format of an anchor pos value is identical to that of [global pos](Interface_def_global_pos.html), consisting of a TA class followed by an index, with a space separating the two:
+The format of an anchor pos value is identical to that of [global pos](/TA_Help/Topics/Interface_def_global_pos.html), consisting of a TA class followed by an index, with a space separating the two:
 
 ```
 <ta class> <index>
@@ -33,7 +33,7 @@ The following figure, depicting a dynamic AUT window at two different points in 
 
 As shown, use of global pos to identify the text block controls is unreliable if it is possible for other controls of the same class to be introduced or removed. Here, a second text block introduced under **tree node A** has the effect of changing the global pos value of the text block below it in the hierarchy \(as well as all other text blocks below it\). By contrast, the anchor pos value of the lower text box, based on the anchor being the parent tree node, remains constant.
 
-As a general rule, when using anchor / anchor pos to identify a control, it is best that your anchor be an ancestor which is as close as possible to the control of interest. The tradeoff is that you must also find an anchor control which is truly “anchorable” – that is, one that can itself be reliably and uniquely identified, either through a unique set of property-value pairs, or possibly even by being anchored to still another control \([multilevel anchoring](prop_anchor.example_03.html)\). The above example, for instance, assumes that we have some reliable means of uniquely identifying tree nodes **A** and **B**, allowing them to be used an anchors for their child text blocks.
+As a general rule, when using anchor / anchor pos to identify a control, it is best that your anchor be an ancestor which is as close as possible to the control of interest. The tradeoff is that you must also find an anchor control which is truly “anchorable” – that is, one that can itself be reliably and uniquely identified, either through a unique set of property-value pairs, or possibly even by being anchored to still another control \([multilevel anchoring](/TA_Help/Topics/prop_anchor.example_03.html)\). The above example, for instance, assumes that we have some reliable means of uniquely identifying tree nodes **A** and **B**, allowing them to be used an anchors for their child text blocks.
 
 1.  [Using anchor and anchor pos properties](/TA_Help/Topics/prop_anchor.example_01.html)  
 Using anchor and anchor pos properties to map a control.

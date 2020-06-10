@@ -10,8 +10,8 @@ Within a given project, TestArchitect users belonging to the administrators and 
 
 Ensure that the following requirements are met:
 
--   You are logged in to a repository as a member of the [administrators](User_administration.html) or [test managers](User_administration.html) group.
--   If your account belongs to the test managers group, you must have been assigned to the project you are working on. \(See [Assigning projects and permissions to a repository user](adm_users_assigning_repositories.html) for details.\)
+-   You are logged in to a repository as a member of the [administrators](/TA_Administration/Topics/User_administration.html) or [test managers](/TA_Administration/Topics/User_administration.html) group.
+-   If your account belongs to the test managers group, you must have been assigned to the project you are working on. \(See [Assigning projects and permissions to a repository user](/TA_Administration/Topics/adm_users_assigning_repositories.html) for details.\)
 
 To assign permissions on a specific project to one or more TestArchitect users, do the following:
 
@@ -39,7 +39,7 @@ To assign permissions on a specific project to one or more TestArchitect users, 
 
     **Remember:** The group designations you assign here only apply to the current project. They do not affect users' group memberships within other projects.
 
-    **Note:** Note that the administrators group is not available for assignment from this dialog box. That's because assignment to administrators applies to the entire repository, not just the project. To assign a user to the administrators group, see [Assigning projects and permissions to a repository user](adm_users_assigning_repositories.html).
+    **Note:** Note that the administrators group is not available for assignment from this dialog box. That's because assignment to administrators applies to the entire repository, not just the project. To assign a user to the administrators group, see [Assigning projects and permissions to a repository user](/TA_Administration/Topics/adm_users_assigning_repositories.html).
 
 6.  Click **Done**.
 

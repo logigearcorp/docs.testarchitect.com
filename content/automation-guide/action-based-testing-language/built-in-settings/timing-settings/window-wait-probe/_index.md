@@ -21,12 +21,12 @@ seconds
 
 ## Notes
 
--   The window wait probe setting applies to three built-in actions: [does window exist](does_window_exist.html), [if window exists](if_window_exists.html), and [if window not exists](if_window_not_exists.html).
+-   The window wait probe setting applies to three built-in actions: [does window exist](/TA_Automation/Topics/bia_does_window_exist.html), [if window exists](/TA_Automation/Topics/bia_if_window_exists.html), and [if window not exists](/TA_Automation/Topics/bia_if_window_not_exists.html).
 -   Setting a high wait time value may negatively impact test performance.
 
 ## Result timeout
 
-Unlike the usage of the [window wait](window_wait.html) built-in setting where a specified window is expected to exist, actions that use window wait probe, such as if window exists, if window not exists, and does window exist, only query for the existence of a given window, generally to determine how the test will proceed. \(See [Wait probe settings](timing_wait_probe_settings.html) for further details on the workings of this setting.\)
+Unlike the usage of the [window wait](/TA_Automation/Topics/bis_window_wait.html) built-in setting where a specified window is expected to exist, actions that use window wait probe, such as if window exists, if window not exists, and does window exist, only query for the existence of a given window, generally to determine how the test will proceed. \(See [Wait probe settings](/TA_Automation/Topics/timing_wait_probe_settings.html) for further details on the workings of this setting.\)
 
 **Parent topic:**[Timing settings](/TA_Automation/Topics/bis_timing.html)
 

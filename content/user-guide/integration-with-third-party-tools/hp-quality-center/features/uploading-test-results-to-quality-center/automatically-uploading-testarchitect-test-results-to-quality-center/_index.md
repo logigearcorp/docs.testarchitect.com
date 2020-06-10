@@ -10,7 +10,7 @@ You can configure TestArchitect to automatically upload test results to Quality 
 
 Ensure that you have already taken the following steps:
 
--   [Registered the Quality Center server with TestArchitect](Integration_QC_connecting_repo_to_QC_server_step_1.html).
+-   [Registered the Quality Center server with TestArchitect](/TA_Help/Topics/Integration_QC_connecting_repo_to_QC_server_step_1.html).
 -   Mapped the TestArchitect project or test module of interest to Quality Center.
 
 To automatically upload test results to Quality Center after test execution:

@@ -42,9 +42,9 @@ Choose one of the following two methods to compare test results. To avoid confus
 
 **Important:** Once you compare results, TestArchitect automatically unmarks the previously marked test result. That is, there is no longer any set of reference result. To perform another comparison, you must again go through the two-step process of **Mark to Compare** and **Compare Results**.
 
-The Result Comparison dialog box appears to show the differences at checkpoints in the test results. See [Results Comparison dialog boxes](Test_result_comparison_dialog_box.html#sect_e383h_k3e8) for an explanation of the Results Comparison dialog box.
+The Result Comparison dialog box appears to show the differences at checkpoints in the test results. See [Results Comparison dialog boxes](/TA_Help/Topics/Test_result_comparison_dialog_box.html#sect_e383h_k3e8) for an explanation of the Results Comparison dialog box.
 
-**Note:** If the test result is from a set of serial test results, the Comparing Multiple Pairs of Results dialog box appears. See [Comparing serial run results](Test_result_comparison_dialog_box.html#sect_nd6h_kd83) for an explanation of the Comparing Multiple Pairs of Results dialog box.
+**Note:** If the test result is from a set of serial test results, the Comparing Multiple Pairs of Results dialog box appears. See [Comparing serial run results](/TA_Help/Topics/Test_result_comparison_dialog_box.html#sect_nd6h_kd83) for an explanation of the Comparing Multiple Pairs of Results dialog box.
 
 **Parent topic:**[Comparing test results](/TA_Help/Topics/Test_result_baselining.html)
 

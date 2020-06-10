@@ -10,7 +10,7 @@ TestArchitect Agent is an essential component in allowing TestArchitect to commu
 
 **Important:** iOS automation is only supported on Windows or macOS hosts.
 
-Ensure that the basic requirements are met before installing TestArchitect Agent onto an iOS device \(see [Prerequisites](iOS_prerequisite.html)\).
+Ensure that the basic requirements are met before installing TestArchitect Agent onto an iOS device \(see [Prerequisites](/iOS/Topics/iOS_prerequisite.html)\).
 
 The following procedures for re-signing the TestArchitect Agent app can only be performed from an macOS machine:
 
@@ -69,7 +69,7 @@ The following procedures for re-signing the TestArchitect Agent app can only be 
 
         A re-signed TestArchitect Agent is installed onto the device.
 
-    **Tip:** Step [7](iOS_installing_TA_target_device.html#step_tww_zzq_kn) may be performed on either an macOS or Windows machine.
+    **Tip:** Step [7](/iOS/Topics/iOS_installing_TA_target_device.html#step_tww_zzq_kn) may be performed on either an macOS or Windows machine.
 
 8.  You must synchronize essential TestArchitect Agent development libraries with the iOS device before TestArchitect Agent can be launched on the device.
 
@@ -77,9 +77,9 @@ The following procedures for re-signing the TestArchitect Agent app can only be 
 
     2.  Start Xcode on the test machine and wait at least ten seconds before disconnecting the iOS device or closing Xcode.
 
-        **Note:** If the device is not a development device, [enable development mode](iOS_prerequisite_enable_development_mode.html) on it.
+        **Note:** If the device is not a development device, [enable development mode](/iOS/Topics/iOS_prerequisite_enable_development_mode.html) on it.
 
-    **Important:** TestArchitect Agent libraries are purged each time the iOS device restarts or reboots. Therefore, in order to run the Agent on a rebooted iOS device, you must resynchronize the TestArchitect Agent development libraries with the device by repeating step [8](iOS_installing_TA_target_device.html#step_bmh_5rd_3n).
+    **Important:** TestArchitect Agent libraries are purged each time the iOS device restarts or reboots. Therefore, in order to run the Agent on a rebooted iOS device, you must resynchronize the TestArchitect Agent development libraries with the device by repeating step [8](/iOS/Topics/iOS_installing_TA_target_device.html#step_bmh_5rd_3n).
 
 
 After installing a re-signed TestArchitect Agent onto an iOS device, the TestArchitect Agent icon is visible on the device's desktop.

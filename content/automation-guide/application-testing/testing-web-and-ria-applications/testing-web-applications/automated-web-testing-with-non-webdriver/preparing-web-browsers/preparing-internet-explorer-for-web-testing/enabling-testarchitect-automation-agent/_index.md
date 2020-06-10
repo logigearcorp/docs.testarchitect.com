@@ -18,7 +18,7 @@ To enable the TestArchitect Automation Agent in Internet Explorer:
 
 3.  On the main panel, look for the add-on named TestArchitect Automation Agent and verify that its status is Enabled. If the status is Disabled, click the **Enable** button to enable the add-on.
 
-    ![](/TA_Tutorials_Sample_App/Images/ug_taextension_ie.png)
+    ![](/images/TA_Automation/Images/ug_taextension_ie.png)
 
 4.  Restart the browser to ensure that the change takes effect.
 

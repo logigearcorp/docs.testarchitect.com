@@ -9,7 +9,7 @@ aliases:
 There are two methods by which Safari may be invoked in the iOS Simulator:
 
 1.  One, the “real-world” method, is to simply manually tap the **Safari** icon. However, this method requires manual intervention during automated test.
-2.  Use the [navigate](navigate.html) built-in action.
+2.  Use the [navigate](/TA_Automation/Topics/bia_navigate.html) built-in action.
 
 **Remember:**
 

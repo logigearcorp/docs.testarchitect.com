@@ -8,7 +8,7 @@ aliases:
 
 If an action line in a test module is marked with a TA bug, the parent test case and test module are also marked with that TA bug. You have option to view all the TA bugs which are exposed by the parent test modules/test cases.
 
-Ensure that your test modules are already [checked in](Project_items_checkin.html).
+Ensure that your test modules are already [checked in](/TA_Help/Topics/Project_items_checkin.html).
 
 To view associated bugs, perform the following steps:
 
@@ -28,7 +28,7 @@ To view associated bugs, perform the following steps:
         |-----|-----------|
         |**Bug ID**|ID of the TA bug.|
         |**Summary**|A brief one-line summary of the TA bug.|
-        |**Status**|The current life cycle stage of this TA bug. \(See [Workflow](Bugs.html#ksec_tabugs_workflow).\)|
+        |**Status**|The current life cycle stage of this TA bug. \(See [Workflow](/TA_Help/Topics/Bugs.html#ksec_tabugs_workflow).\)|
         |**Line**|The line number at which the TA bug is marked.|
         |**Test Case**|The particular section in the test module to which the TA bug belongs.|
 

@@ -12,9 +12,9 @@ Ensure that the port number you want to change to is available.
 
 To change the repository server port:
 
-1.  [Open the Repository Server Control Panel](Repo_server_management_launching.html).
+1.  [Open the Repository Server Control Panel](/TA_Administration/Topics/Repo_server_management_launching.html).
 
-2.  In the TestArchitect Repository Server - Control Panel dialog box, [stop the repository service](Stopping_repository_server.html) if it is running.
+2.  In the TestArchitect Repository Server - Control Panel dialog box, [stop the repository service](/TA_Administration/Topics/Stopping_repository_server.html) if it is running.
 
 3.  Click **Change port** to change the repository server port number.
 
@@ -25,7 +25,7 @@ To change the repository server port:
 
 After changing the repository server port number, all clients connected to the repository server must be updated accordingly.
 
-**Note:** This also includes replication networks \([learn more](adm_Setting_up_primary_replication_repository.html)\):
+**Note:** This also includes replication networks \([learn more](/TA_Administration/Topics/adm_Setting_up_primary_replication_repository.html)\):
 
 -   Primary replication repositories
 -   Secondary replication repositories

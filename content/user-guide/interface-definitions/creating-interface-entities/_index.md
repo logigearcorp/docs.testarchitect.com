@@ -41,7 +41,7 @@ Choose one of the two following methods to create an interface entity:
 
 A new interface entity is added to the project under the selected interface, and the editor opens with a blank worksheet view of the interface entity.
 
-**Note:** In the editor, you can add an [interface element](/TA_Automation/Topics/bia_interface_element.html) line for each item in your interface entity. However, manually entering interface elements is not an efficient way to develop your interface. Choosing TA names might be straightforward enough, but manually determining the identifying properties of each physical element and entering them in the editor can be tedious and prone to error. To address that problem, TestArchitect includes an [Interface Viewer](Interface_def_Viewer.html) tool and assorted [toolbar icons](Interface_def_client_interface_tool.html) to allow you to visually map the interface entity and its elements.
+**Note:** In the editor, you can add an [interface element](/TA_Automation/Topics/bia_interface_element.html) line for each item in your interface entity. However, manually entering interface elements is not an efficient way to develop your interface. Choosing TA names might be straightforward enough, but manually determining the identifying properties of each physical element and entering them in the editor can be tedious and prone to error. To address that problem, TestArchitect includes an [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html) tool and assorted [toolbar icons](/TA_Help/Topics/Interface_def_client_interface_tool.html) to allow you to visually map the interface entity and its elements.
 
 **Parent topic:**[Interface definitions](/TA_Help/Topics/Interface_def.html)
 

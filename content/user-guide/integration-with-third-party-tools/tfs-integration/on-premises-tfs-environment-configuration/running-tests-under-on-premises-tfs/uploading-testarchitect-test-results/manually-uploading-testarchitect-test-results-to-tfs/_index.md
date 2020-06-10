@@ -10,16 +10,16 @@ TestArchitect test results from projects or test cases which are mapped to TFS c
 
 Ensure that you have already taken the following steps:
 
--   Registered the TFS server with TestArchitect. \([Learn more](Integration_MTM_connecting_TFS.html).\)
--   Mapped the TestArchitect project containing the test cases of interest to a TFS project. \([Learn more](Integration_MTM_map_proj.html).\)
+-   Registered the TFS server with TestArchitect. \([Learn more](/TA_Help/Topics/Integration_MTM_connecting_TFS.html).\)
+-   Mapped the TestArchitect project containing the test cases of interest to a TFS project. \([Learn more](/TA_Help/Topics/Integration_MTM_map_proj.html).\)
 -   Mapped TA test cases to TFS test cases. This can be achieved by any of the following means:
-    -   importing TFS [test suites](ug_MTM_import_TS.html) or [test cases](ug_MTM_import_TC.html) into TA,
-    -   uploading TA [test modules/tests cases](ug_upload_TAtest_MTM.html) to TFS,
-    -   performing [manual mapping](Integration_MTM_mapping_TA_MTM_IDs.html) between TA test cases and TFS test cases.
+    -   importing TFS [test suites](/TA_Help/Topics/ug_MTM_import_TS.html) or [test cases](/TA_Help/Topics/ug_MTM_import_TC.html) into TA,
+    -   uploading TA [test modules/tests cases](/TA_Help/Topics/ug_upload_TAtest_MTM.html) to TFS,
+    -   performing [manual mapping](/TA_Help/Topics/Integration_MTM_mapping_TA_MTM_IDs.html) between TA test cases and TFS test cases.
 
 To manually upload TestArchitect test results to TFS:
 
-1.  In the TestArchitect explorer tree or [a result list view](Listview_results.html), right-click a test result, and then select **External Tool** \> **Visual Studio** \> **Upload to Team Foundation Server** .
+1.  In the TestArchitect explorer tree or [a result list view](/TA_Help/Topics/Listview_results.html), right-click a test result, and then select **External Tool** \> **Visual Studio** \> **Upload to Team Foundation Server** .
 
 2.  In the Select Location dialog box, specify a location on TFS that you want to upload the result to through either of the following:
 
@@ -63,7 +63,7 @@ To manually upload TestArchitect test results to TFS:
     -   Failed: Upload the TA test result as an attachment if the TFS result status is Failed.
     **Note:**
 
-    -   The mappings between TestArchitect and TFS test result statuses \(that is, how TFS interprets each TA result status\) are defined during initial configuration of the TA repository's connection to the Team Foundation Server. \([Learn more](Integration_MTM_connecting_TFS.html#choice_xrl_w5x_xs).\)
+    -   The mappings between TestArchitect and TFS test result statuses \(that is, how TFS interprets each TA result status\) are defined during initial configuration of the TA repository's connection to the Team Foundation Server. \([Learn more](/TA_Help/Topics/Integration_MTM_connecting_TFS.html#choice_xrl_w5x_xs).\)
     -   If more than one condition is selected, they are effectively OR'd together. For example: If both Passed and Failed check boxes are selected, any TA result that has an TFS status of *either* Passed or Failed is uploaded as an attachment.
 6.  Select the format of the uploaded test result:
 
@@ -85,13 +85,13 @@ TestArchitect test results are uploaded to TFS in the format specified in step \
 
 CAUTION:
 
-In case of test results generated from a [serial test run](Test_exec_multiple_TM.html), that is, running multiple test modules sequentially within a single test run, if the given **Build Number**'s values among test modules are not identical, the test results are unable to be uploaded to TFS. \([Learn more](/TA_FAQ/Topics/faq.shoot.TFS_mismatched_build_number_values.html).\)
+In case of test results generated from a [serial test run](/TA_Help/Topics/Test_exec_multiple_TM.html), that is, running multiple test modules sequentially within a single test run, if the given **Build Number**'s values among test modules are not identical, the test results are unable to be uploaded to TFS. \([Learn more](/TA_FAQ/Topics/faq.shoot.TFS_mismatched_build_number_values.html).\)
 
 **Important:**
 
 -   When name of the working directory of build agents in combination with name of TA tests have more than 260 characters, filename of TestArchitect results, uploaded to TFS, are automatically shortened based on the following format: T<"TfsTestID"\>.html. Otherwise, the uploaded test result's filename remains unchanged.
 -   Similarly, for subresults in case of serial test runs, when name of the working directory of build agents in combination with name of TestArchitect tests have more than 260 characters, filename of TestArchitect results, uploaded to TFS, are automatically shortened based on the following format: T<"TFSTestCaseID"\>\_<"indexNo"\>.html. Otherwise, the uploaded test result's name remains unchanged.
--   Alternatively, you might use TFS test ID to name the TestArchitect test results attached to TFS by using [TFS-MTM Extensibility](ug_MTM_Extensibility.html).
+-   Alternatively, you might use TFS test ID to name the TestArchitect test results attached to TFS by using [TFS-MTM Extensibility](/TA_Help/Topics/ug_MTM_Extensibility.html).
 
 **Parent topic:**[Uploading TestArchitect test results to Team Foundation Server](/TA_Help/Topics/ug_MTM_upload_result.html)
 

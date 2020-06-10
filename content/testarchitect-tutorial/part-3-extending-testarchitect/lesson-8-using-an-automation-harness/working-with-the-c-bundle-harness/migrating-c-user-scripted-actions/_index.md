@@ -92,7 +92,7 @@ To migrate your C\# user-scripted action into C\# bundle harness architecture, p
 
     ![](/images//Images/AssemblyInfo.png)
 
-5.  Follow step listed in [Creating a new user-scripted action in a new C\# class in the bundle harness](tut_Harness_CSharp_bundle_developing_your_own_harness_action.html#section_rules_create_from_new_class) to implement the C\# bundle harness action.
+5.  Follow step listed in [Creating a new user-scripted action in a new C\# class in the bundle harness](/TA_Tutorials/Topics/tut_Harness_CSharp_bundle_developing_your_own_harness_action.html#section_rules_create_from_new_class) to implement the C\# bundle harness action.
 
     1.  Create a new class, and then add the custom attribute ActionClassDefinition to announce that this class contains action implementation.
 

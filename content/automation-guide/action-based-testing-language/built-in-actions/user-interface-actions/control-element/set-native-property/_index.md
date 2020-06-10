@@ -65,8 +65,8 @@ This built-in action is supported on the following systems/platforms:
         -   boolean
         -   char
         -   string
-    2.  Datetime: Follows the date format, specified in the [date format](date_format.html) built-in setting.
-    3.  Color: Follows the color formatting code, specified in the [color format](color_format.html) built-in setting.
+    2.  Datetime: Follows the date format, specified in the [date format](/TA_Automation/Topics/bis_date_format.html) built-in setting.
+    3.  Color: Follows the color formatting code, specified in the [color format](/TA_Automation/Topics/bis_color_format.html) built-in setting.
 
         **Remember:** If you use the Hex color formatting code for the value argument, insert a back slash \( \\ \) before the value entered. For example: \\\#FFFFFF.
 
@@ -74,7 +74,7 @@ This built-in action is supported on the following systems/platforms:
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[case sensitive](case_sensitive.html), [remove double quotes from cells](remove_double_quotes_from_cells.html), [standard ASCII only](standard_ASCII_only.html), [page wait](page_wait.html), [object wait](object_wait.html), [window wait](window_wait.html), [load invisible controls](load_invisible_controls.html), [color format](color_format.html).
+The following settings are applicable to this action:[case sensitive](/TA_Automation/Topics/bis_case_sensitive.html), [remove double quotes from cells](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html), [standard ASCII only](/TA_Automation/Topics/bis_standard_ASCII_only.html), [page wait](/TA_Automation/Topics/bis_page_wait.html), [object wait](/TA_Automation/Topics/bis_object_wait.html), [window wait](/TA_Automation/Topics/bis_window_wait.html), [load invisible controls](/TA_Automation/Topics/bis_load_invisible_controls.html), [color format](/TA_Automation/Topics/bis_color_format.html).
 
 ## Applicable Controls
 

@@ -22,8 +22,8 @@ ta <command\> <arguments\>
 
 |Argument|Description|
 |--------|-----------|
-|-?,--help\(Optional\)<br>|Displays the help information for the command line tool.Example: ta -?<br>|
-|-ver\(Optional\)<br>|\(Optional\) Displays the version of the command line tool Example: ta -ver<br>|
+|-?,--help\(Optional\)<br><br>|Displays the help information for the command line tool.Example: ta -?<br><br>|<br>
+|-ver\(Optional\)<br><br>|\(Optional\) Displays the version of the command line tool Example: ta -ver<br><br>|<br>
 
 1.  [delete command](/TA_Help/Topics/TA_command_line_delete.html)  
 ta delete is used to remove local test results from the command-line interface.

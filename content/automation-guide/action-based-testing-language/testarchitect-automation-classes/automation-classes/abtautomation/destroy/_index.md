@@ -13,7 +13,7 @@ keywords: "destroy abtautomation, destroy class instance of abtautomation, kill 
 
 ## Description
 
-Explicitly destroys the class instance of AbtAutomation previously created by [Create](abt_Create.html).
+Explicitly destroys the class instance of AbtAutomation previously created by [Create](/TA_Automation/Topics/abt_Create.html).
 
 ## Parameters
 

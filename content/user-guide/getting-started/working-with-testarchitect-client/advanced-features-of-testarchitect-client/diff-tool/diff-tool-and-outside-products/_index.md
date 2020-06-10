@@ -10,7 +10,7 @@ Integrating TestArchitect with other differencing and merging tools.
 
 Follow these steps to set up the Diff Tool to work with a third-party product.
 
-1.  In the TestArchitect [Preferences](Additional_features_preferences.html) dialog box, enable the third-party tool to be used for comparing or merging project items by selecting the **Configure the program to be used for merging items** check box.
+1.  In the TestArchitect [Preferences](/TA_Help/Topics/Additional_features_preferences.html) dialog box, enable the third-party tool to be used for comparing or merging project items by selecting the **Configure the program to be used for merging items** check box.
 
 2.  Click the ellipsis \(…\) button to browse to the executable file of the external tool \(Windows: \*.exe; macOS: \*.app\), and use its corresponding command line to integrate Diff Tool with the external tool.
 

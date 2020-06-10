@@ -23,20 +23,20 @@ Upon creation, TestArchitect populates the test module with headings for a recom
 
     **Note:** Only the [test objective](/reuse/../TA_Automation/Topics/bia_test_objective.html) built-in action is allowed to appear in the OBJECTIVE section. Otherwise, the following error dialog box appears.
 
-    ![](/images//Images/TA_Tutorials/Images/tut_TM_template_error_1.png)
+    ![](/images/TA_Tutorials/Images/tut_TM_template_error_1.png)
 
 3.  The **INITIAL** heading: The `INITIAL` section of a test module is useful for holding action lines that are required for initialization of the test, especially when such initialization is required for all or most of the test cases in the module. For example, lines for launching the application under test, initializing it, etc., would typically appear here.
 4.  A **TEST CASE** heading. This is a representative heading, accompanied by a representative **test objective** line, both of which are presented as a reminder of their utility. Typically, your test might have multiple test cases, each of which may have one or more test objectives associated with it.
 
     **Note:** Before entering the test objectives of a test case under the **TEST CASE** heading, you must document all test objectives of your test under the **OBJECTIVES** heading. Otherwise, the below error dialog box appears.
 
-    ![](/images//Images/TA_Tutorials/Images/tut_TM_template_error_2.png)
+    ![](/images/TA_Tutorials/Images/tut_TM_template_error_2.png)
 
 5.  A **FINAL** heading. Any warranted cleanup operations upon test completion, such as closing the application under test, would typically appear here.
 
 A typical test module should resemble the following:
 
-![](/images//Images/TA_Tutorials/Images/tut_TM_template_warning_1.png)
+![](/images/TA_Tutorials/Images/tut_TM_template_warning_1.png)
 
 Of the above, [INITIAL](/reuse/../TA_Automation/Topics/bia_initial.html), [FINAL](/reuse/../TA_Automation/Topics/bia_final.html), [TEST CASE](/reuse/../TA_Automation/Topics/bia_test_case.html), and [TEST OBJECTIVE](/reuse/../TA_Automation/Topics/bia_test_objective.html) are all built-in actions. They are not, however, executed at run time. Instead, they serve two purposes:
 
@@ -45,7 +45,7 @@ Of the above, [INITIAL](/reuse/../TA_Automation/Topics/bia_initial.html), [FINAL
 
 If you do not follow the recommended test module template, as discussed above, a warning dialog box appears when you save your test module. You may ignore the warning dialog box by clicking the **Continue Anyway** button.
 
-![](/images//Images/TA_Tutorials/Images/tut_TM_template_warning_1.png)
+![](/images/TA_Tutorials/Images/tut_TM_template_warning_1.png)
 
 **Parent topic:**[Introducing TestArchitect](/TA_Tutorials/Topics/Tutorial_Introducing_TA.html)
 

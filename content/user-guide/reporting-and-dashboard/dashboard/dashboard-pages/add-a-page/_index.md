@@ -12,7 +12,7 @@ A Dashboard session can contain any number of pages, each of which can contain m
 
 To add a new page to a Dashboard session:
 
-1.  [Start the Dashboard](Dashboard_starting.html) and log in to the session with the user [permission](Dashboard_authentication_permissions.html) higher than that of the guest user.
+1.  [Start the Dashboard](/TA_Help/Topics/Dashboard_starting.html) and log in to the session with the user [permission](/TA_Help/Topics/Dashboard_authentication_permissions.html) higher than that of the guest user.
 
 2.  On the page selection tool bar, point to **Global Setting** and select **Add Page**.
 
@@ -26,7 +26,7 @@ To add a new page to a Dashboard session:
     -   Display After: Where to display the name of the page. The name will be displayed on the Dashboard's page menu immediately to the right of the page name you select.
     -   Public: Select this check box to allow all logged-in users to view items on this page.
 
-After adding a page to the Dashboard, you can [add predefined panels](Dashboard_add_predefined_panel.html) or create new [panels](Dashboard_panels.html) to the created page to display information about your project in the form you find most suitable.
+After adding a page to the Dashboard, you can [add predefined panels](/TA_Help/Topics/Dashboard_add_predefined_panel.html) or create new [panels](/TA_Help/Topics/Dashboard_panels.html) to the created page to display information about your project in the form you find most suitable.
 
 **Parent topic:**[Dashboard pages](/TA_Help/Topics/Dashboard_pages.html)
 

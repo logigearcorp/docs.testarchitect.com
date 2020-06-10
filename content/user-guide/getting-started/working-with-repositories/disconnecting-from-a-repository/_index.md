@@ -14,7 +14,7 @@ To disconnect from a repository, follow these steps:
 
 2.  In the Disconnect From Repository dialog box, choose one or both of the following options:
 
-    -   Check in all checked out items: Save to the repository all changes made to local working copies of your project items. \(Refer to the [Check in](Project_items_checkin.html) and [Check out](Project_items_checkout.html) processes for further information.\)
+    -   Check in all checked out items: Save to the repository all changes made to local working copies of your project items. \(Refer to the [Check in](/TA_Help/Topics/Project_items_checkin.html) and [Check out](/TA_Help/Topics/Project_items_checkout.html) processes for further information.\)
     -   Move all local test results to the repository: Store all local test results to the repository, removing them from the **LOCAL RESULTS** node of the explorer tree.
 
         **Warning:** Explicitly disconnecting from a repository can have a more drastic effect than simply shutting down TestArchitect. If you select no options, all changes made to checked out project items, and all local test results, are discarded.

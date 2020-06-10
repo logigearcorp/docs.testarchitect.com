@@ -56,7 +56,7 @@ This action may be used within the following project items:test modules and user
 -   Supported web services:
     -   [RESTful](http://docs.oracle.com/javaee/6/tutorial/doc/gijqy.html) \(Representational State Transfer architecture\)
     -   [SOAP](https://www.w3schools.com/xml/xml_soap.asp) \(Simple Object Access Protocol\) over HTTP-based web services
--   An HTTP request must be instantiated via [create http request](create_http_request.html) before calling this built-in action.
+-   An HTTP request must be instantiated via [create http request](/TA_Automation/Topics/bia_create_http_request.html) before calling this built-in action.
 -   variable argument:
     -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
     -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
@@ -69,12 +69,12 @@ This action may be used within the following project items:test modules and user
 
     -   Network resources and mapping network drives are also supported.
     -   On Windows: In order to specify [mapping network drives](http://www.dummies.com/computers/operating-systems/windows-7/how-to-map-a-network-folder-in-windows-7/), please disable User Account Control \(UAC\).
--   In order to see full result returned from this built-in action, set [max show length](max_show_length.html) to a higher value.
+-   In order to see full result returned from this built-in action, set [max show length](/TA_Automation/Topics/bis_max_show_length.html) to a higher value.
 -   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html).
+The following settings are applicable to this action:[remove double quotes from cells](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html).
 
 ## Example - Case 1: Testing a given Google API to send a message to a recipient
 
@@ -88,7 +88,7 @@ Suppose that you'd like to test a given Google API to send a message to a recipi
 
     |Property name|Value|Description|
     |-------------|-----|-----------|
-    |raw|bytes|The entire email message in base64url encoded string.**Tip:** To encode a plain text string into a base64url encoded string, you can use the [Online Base64URL encoder](http://kjur.github.io/jsjws/tool_b64uenc.html) tool.<br>|
+    |raw|bytes|The entire email message in base64url encoded string.**Tip:** To encode a plain text string into a base64url encoded string, you can use the [Online Base64URL encoder](http://kjur.github.io/jsjws/tool_b64uenc.html) tool.<br><br>|<br>
 
     -   Raw body content:
 

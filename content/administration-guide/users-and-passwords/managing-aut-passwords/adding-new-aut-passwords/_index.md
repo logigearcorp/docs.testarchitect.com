@@ -10,7 +10,7 @@ TestArchitect allows new encrypted passwords to be added to all types of control
 
 Only members of the administrators and test managers groups have privileges for accessing password management.
 
-1.  Log into a project as a user with an administrator or test manager role. \(See [User administration](User_administration.html) for details\).
+1.  Log into a project as a user with an administrator or test manager role. \(See [User administration](/TA_Administration/Topics/User_administration.html) for details\).
 
 2.  Right-click the project node and select **Manage Passwords**.
 

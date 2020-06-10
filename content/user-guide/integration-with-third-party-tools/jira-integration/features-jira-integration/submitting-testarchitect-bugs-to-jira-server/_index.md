@@ -10,7 +10,7 @@ Submitting a bug from TestArchitect directly to a JIRA server creates a new JIRA
 
 Ensure that the following requirements are met:
 
--   Your TestArchitect test machine has [registered the JIRA server](JIRA_registering.html).
+-   Your TestArchitect test machine has [registered the JIRA server](/TA_Help/Topics/JIRA_registering.html).
 -   You are granted permission to submit bugs to a JIRA project.
 
 **Note:**
@@ -25,7 +25,7 @@ To submit a bug from a TestArchitect test result to a JIRA project, do the follo
 
 3.  In the Submit Bug to JIRA dialog box, establish a connection to an appropriate project on the JIRA server by providing the following information within the JIRA System Information panel:
 
-    -   **Server**: \(read-only\) URL of the JIRA server. This URL is configured in [Registering the JIRA server](JIRA_registering.html#step_wxv_tc5_2m).
+    -   **Server**: \(read-only\) URL of the JIRA server. This URL is configured in [Registering the JIRA server](/TA_Help/Topics/JIRA_registering.html#step_wxv_tc5_2m).
     -   **Username**: Default JIRA user name to log on with.
     -   **Password**: JIRA password associated with the given user name.
     -   **Project Key**: JIRA project name to establish the connection with.

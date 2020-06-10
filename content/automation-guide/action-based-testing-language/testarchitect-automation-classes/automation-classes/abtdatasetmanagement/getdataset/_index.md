@@ -24,7 +24,7 @@ Retrieve data set content in the current project or supplier project. If variati
 
 ## Return Value
 
-If the specified data set is found, an [AbtDataSet](abt_AbtDataSet.html) object with the contents of the data set; otherwise, null.
+If the specified data set is found, an [AbtDataSet](/TA_Automation/Topics/abt_AbtDataSet.html) object with the contents of the data set; otherwise, null.
 
 ## Notes
 

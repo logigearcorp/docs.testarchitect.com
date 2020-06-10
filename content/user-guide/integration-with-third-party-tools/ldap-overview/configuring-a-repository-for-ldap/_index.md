@@ -80,7 +80,7 @@ To establish this configuration, do the following:
 
 Upon a successful test, your TestArchitect repository is properly configured to allow for authentication queries to be sent to the LDAP server.
 
-Before users can log in to a repository with LDAP authentication, LDAP Authentication mode must be in effect for that repository. If LDAP authentication has not yet been activated, see [Selecting LDAP authentication mode](ug_LDAP_authentication_modes.html).
+Before users can log in to a repository with LDAP authentication, LDAP Authentication mode must be in effect for that repository. If LDAP authentication has not yet been activated, see [Selecting LDAP authentication mode](/TA_Help/Topics/ug_LDAP_authentication_modes.html).
 
 **Parent topic:**[LDAP overview](/TA_Help/Topics/ug_LDAP_overview.html)
 

@@ -71,7 +71,7 @@ Since we have no such attributes for the headlines, our best bet for identifying
 
 The **div** element with `id="national_section"` is a good candidate as an anchor for the headline elements, because a\), it is an ancestor to all of them \(an essential requirement\), and b\), it is uniquely identifiable, thanks to its id attribute.
 
-**Warning:** Note that there is an assumption being made for this example, which is that the only <a\> elements in the articles are the headlines. That is a dangerous assumption, as <a\> is used for hyperlinks and it is certainly possible for hyperlinks to appear in an article's content. We will address this problem in a [later topic](prop_anchor.example_03.html).
+**Warning:** Note that there is an assumption being made for this example, which is that the only <a\> elements in the articles are the headlines. That is a dangerous assumption, as <a\> is used for hyperlinks and it is certainly possible for hyperlinks to appear in an article's content. We will address this problem in a [later topic](/TA_Help/Topics/prop_anchor.example_03.html).
 
 1.  If you wish to follow along with the steps in this example:
 
@@ -85,7 +85,7 @@ The **div** element with `id="national_section"` is a good candidate as an ancho
 
         **Remember:** During this exercise, ensure that the web page for this file is maintained as the active tab in its browser window.
 
-2.  In a TestArchitect project, create a [new interface entity](Interface_def_Adding.html), name it front\_page, and keep it open.
+2.  In a TestArchitect project, create a [new interface entity](/TA_Help/Topics/Interface_def_Adding.html), name it front\_page, and keep it open.
 
 3.  Launch the Interface Viewer from TestArchitect \(press F7 or select **Tools** \> **Interface Viewer**from the main menu; or click the **Interface Viewer** ![](/images//Images/Interface_viewer_btn.png) button on the toolbar\).
 
@@ -131,7 +131,7 @@ The **div** element with `id="national_section"` is a good candidate as an ancho
 
     ![](/images//Images/IV_tree_for_anchor_pos.09a.png)
 
-    **Note:** Note that the anchor property always specifies a TA name of a control, while the anchor pos value, as discussed in [anchor pos property](Interface_def_anchor_pos_concept.html), consists of a TA class followed by an index reflecting the control's position within the subtree beneath the anchor. In this case, the control we are interested in is the first link element under the **div\_national-news** element, hence the value link 1.
+    **Note:** Note that the anchor property always specifies a TA name of a control, while the anchor pos value, as discussed in [anchor pos property](/TA_Help/Topics/Interface_def_anchor_pos_concept.html), consists of a TA class followed by an index reflecting the control's position within the subtree beneath the anchor. In this case, the control we are interested in is the first link element under the **div\_national-news** element, hence the value link 1.
 
 12. In the UI explorer, give this node a TA name by right-clicking it, selecting **Rename**, and entering your name. We'll call it **link\_national\_article1\_headline**, since it holds the headline of the first article in the national news section. Press Enter.
 
@@ -160,14 +160,14 @@ The **div** element with `id="national_section"` is a good candidate as an ancho
 
     These lines consist of three pairs [get](/TA_Automation/Topics/bia_get.html) / [set text file](/TA_Automation/Topics/bia_set_text_file.html) actions. Each get action retrieves the headline text from a link element and stores it to a variable. The following set text file action writes the contents of the variable \(the headline text\) to the file headlines.txt.
 
-21. Now [execute](Test_exec_test_execution.html) your test.
+21. Now [execute](/TA_Help/Topics/Test_exec_test_execution.html) your test.
 
 
 Upon completion of execution, your headlines.txt file holds the three retrieved headlines:
 
 ![](/images//Images/IV_tree_for_anchor_pos.13a.png)
 
-It's probably clear from the repetitive lines in this test case that, for any kind of web page or AUT with a large repeating pattern of elements or controls, we could benefit from being able to iterate \(that is, loop\) through the essential action lines. You've probably already noted that the only differences in the identifying anchor pos values of the link elements in this example are the numeric indexes. This suggests that it should be possible to increment a variable in order to access each of these elements through their anchor pos properties. Indeed, it is possible, but it requires that we use the anchor pos properties not within the static environment of an interface entity, but within the context of dynamic identifiers. We explore this in the [next topic](prop_anchor.example_02.html).
+It's probably clear from the repetitive lines in this test case that, for any kind of web page or AUT with a large repeating pattern of elements or controls, we could benefit from being able to iterate \(that is, loop\) through the essential action lines. You've probably already noted that the only differences in the identifying anchor pos values of the link elements in this example are the numeric indexes. This suggests that it should be possible to increment a variable in order to access each of these elements through their anchor pos properties. Indeed, it is possible, but it requires that we use the anchor pos properties not within the static environment of an interface entity, but within the context of dynamic identifiers. We explore this in the [next topic](/TA_Help/Topics/prop_anchor.example_02.html).
 
 **Parent topic:**[anchor pos property](/TA_Help/Topics/Interface_def_anchor_pos_concept.html)
 

@@ -32,7 +32,7 @@ Use one of the following methods to execute a retroactive revision of a given te
 
             ![](/images//Images/execution_time_traveling_1.png)
 
-            1.  \(Optional\) You may apply [filtering](ug_revision_history_filtering.html) to narrow down the set of displayed revisions.
+            1.  \(Optional\) You may apply [filtering](/TA_Help/Topics/ug_revision_history_filtering.html) to narrow down the set of displayed revisions.
 
                 ![](/images//Images/execution_time_traveling_filtering.png)
 
@@ -46,7 +46,7 @@ Use one of the following methods to execute a retroactive revision of a given te
 
         **Attention:** If your current repository database is a legacy one created prior to TestArchitect version [8.2](/TA_ReleaseNotes/DITA_source/Whats_New_8.2.html), and has not been [upgraded for time traveling](/TA_Administration/Topics/adm_database_upgrade_time_traveling.html), you are presented with the following message: This repository has not yet been upgraded for time travel functionality. Please contact your administrator to upgrade it before using it with time traveling.
 
--   Option \#2: Execution based on a [revision tag](ug_revision_tag.html), that is, a revision is associated with a specific AUT version\(s\).
+-   Option \#2: Execution based on a [revision tag](/TA_Help/Topics/ug_revision_tag.html), that is, a revision is associated with a specific AUT version\(s\).
 
     1.  Select a test module that you would like to execute, and then click the **Execute** ![](/images//Images/btn.TAC_toolbar.Execute.png) button on the TestArchitect toolbar to invoke the Execute Test dialog box.
 
@@ -72,20 +72,20 @@ Use one of the following methods to execute a retroactive revision of a given te
 
         ![](/images//Images/execution_time_traveling_6.png)
 
-        **Important:** If you do not select the **Time Traveling** check box, TestArchitect ignores the Time Traveling feature, and executes the test with [linked variation\(s\)](Variations_rules_executing_2_3.html) as usual.
+        **Important:** If you do not select the **Time Traveling** check box, TestArchitect ignores the Time Traveling feature, and executes the test with [linked variation\(s\)](/TA_Help/Topics/Variations_rules_executing_2_3.html) as usual.
 
     6.  Click **OK** to run the test with the specified revision.
 
         **Attention:** If your current repository database is a legacy one created prior to TestArchitect version [8.2](/TA_ReleaseNotes/DITA_source/Whats_New_8.2.html), and has not been [upgraded for time traveling](/TA_Administration/Topics/adm_database_upgrade_time_traveling.html), you are presented with the following message: This repository has not yet been upgraded for time travel functionality. Please contact your administrator to upgrade it before using it with time traveling.
 
 
-When you generate a batch file \(by clicking the **Generate Batch File** button in the Execute Test dialog box\) with time traveling selected, the selected timestamp is written as a new parameter, /rev, to the batch file. \([Learn more](Test_exec_cmd.html)\).
+When you generate a batch file \(by clicking the **Generate Batch File** button in the Execute Test dialog box\) with time traveling selected, the selected timestamp is written as a new parameter, /rev, to the batch file. \([Learn more](/TA_Help/Topics/Test_exec_cmd.html)\).
 
 CAUTION:
 
 If your current database is legacy – that is, created prior to TestArchitect version 8.2 – and has not yet been [upgraded for time traveling](/TA_Administration/Topics/adm_database_upgrade_time_traveling.html) it, you are presented with the following message when you run the batch file: This repository has not yet been upgraded for time travel functionality. Please contact your administrator to upgrade it before using it with time traveling..
 
-To understand in detail the rules of time-traveling execution, refer to [Rules of time-traveling execution](ug_time_traveling_execution_rules.html).
+To understand in detail the rules of time-traveling execution, refer to [Rules of time-traveling execution](/TA_Help/Topics/ug_time_traveling_execution_rules.html).
 
 **Parent topic:**[Time-traveling execution](/TA_Help/Topics/ug_time_traveling.html)
 

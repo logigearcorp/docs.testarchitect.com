@@ -40,7 +40,7 @@ To change the number of truncated iterations in test results and define whether 
 
     -   `<xsl:param name="display_Failure_Rows_Number" select="5"/>`
 
-        **Note:** The number of rows that will be shown in the [**Failure Summary**](Test_result_details.html#li.Error_warning_failures_summary) table.
+        **Note:** The number of rows that will be shown in the [**Failure Summary**](/TA_Help/Topics/Test_result_details.html#li.Error_warning_failures_summary) table.
 
 3.  Clear the HTML cache by doing the following.
 

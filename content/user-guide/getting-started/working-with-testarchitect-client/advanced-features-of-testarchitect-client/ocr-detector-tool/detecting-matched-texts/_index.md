@@ -12,8 +12,8 @@ Ensure that you have captured and saved one or more training images. These are i
 
 **Note:**
 
--   To capture screenshots of desktop applications, use the [Picture Capturing](Additional_features_image_capturing_tool.html) tool.
--   To capture screenshots of mobile applications, use the [Device Live Screen](ug_capturing_mobile_screenshot.html) tool together with the [Picture Capturing](Additional_features_image_capturing_tool.html) tool.
+-   To capture screenshots of desktop applications, use the [Picture Capturing](/TA_Help/Topics/Additional_features_image_capturing_tool.html) tool.
+-   To capture screenshots of mobile applications, use the [Device Live Screen](/TA_Help/Topics/ug_capturing_mobile_screenshot.html) tool together with the [Picture Capturing](/TA_Help/Topics/Additional_features_image_capturing_tool.html) tool.
 
 **Note:** Note that the OCR Detector tool is not currently supported on Linux and macOS.
 
@@ -72,7 +72,7 @@ You will train the system by establishing optimal settings for detecting text du
     The selected text is highlighted in the training image with its bounding rectangle, with the \(x,y\) coordinates of the top-left corner of the bounding rectangle displayed.![](/images//Images/OCR_detector_tool_dlg_selected_text.png)
 
 
-If your text of interest is unrecognizable or improperly recognized, try using the [OCR advanced settings](ug_OCR_detector_tool_advanced_settings.html).
+If your text of interest is unrecognizable or improperly recognized, try using the [OCR advanced settings](/TA_Help/Topics/ug_OCR_detector_tool_advanced_settings.html).
 
 **Parent topic:**[OCR Detector tool](/TA_Help/Topics/ug_OCR_detector_tool.html)
 

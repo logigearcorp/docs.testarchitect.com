@@ -8,5 +8,5 @@ aliases:
 
 The period during which a test run is executing.
 
-\(See also [run setup time](glossaryRunSetupTime.html).\)
+\(See also [run setup time](/TA_Glossary/Topics/glossaryRunSetupTime.html).\)
 

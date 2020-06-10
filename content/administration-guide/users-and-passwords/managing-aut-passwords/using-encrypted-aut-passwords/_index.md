@@ -12,7 +12,7 @@ Suppose, for example, that your test needs to verify the login process of a live
 
 1.  In the test editor, at the appropriate spot in the test procedure, insert an [enter](/TA_Automation/Topics/bia_enter.html) action line for supplying the password to the AUT
 
-2.  Specify the value argument by wrapping the predefined **Logical Name** for the password \(defined in the Manage Passwords dialog box\) between double brackets \[\[ \]\]. \(Refer to [Rules for executing AUT passwords](Manage_password_graphical_summary.html).\)
+2.  Specify the value argument by wrapping the predefined **Logical Name** for the password \(defined in the Manage Passwords dialog box\) between double brackets \[\[ \]\]. \(Refer to [Rules for executing AUT passwords](/TA_Administration/Topics/Manage_password_graphical_summary.html).\)
 
     For example: `[[Car Rental password]]`
 

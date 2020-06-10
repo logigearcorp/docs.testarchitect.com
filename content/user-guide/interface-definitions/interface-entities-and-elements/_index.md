@@ -38,7 +38,7 @@ The interface entity setting actions contained within the interface entity handl
 
 The red arrows of the following figure illustrate how the TA name **login** is mapped to the Car Rental-Login window of the AUT.
 
-![](/images//Images/TA_Help/Images/ug_map_interface_entity.png)
+![](/images/TA_Help/Images/ug_map_interface_entity.png)
 
 The first line of the worksheet above establishes a TA name of **login** for this mapping. \(This line is automatically inserted upon creation of the interface entity, and is not editable.\) The interface entity setting action on row 2 establishes that the TA name is to be associated with the window whose title property has a value of Car Rental-Login.
 
@@ -56,7 +56,7 @@ An interface element action is similar in function to the interface entity setti
 
 The red arrows of the following figure illustrate how the TA name **clear-button** is mapped to the **Clear** button in the login window of the AUT.
 
-![](/images//Images/TA_Help/Images/ug_map_interface_element.png)
+![](/images/TA_Help/Images/ug_map_interface_element.png)
 
 First, the containing interface entity's mapping \(line 2\) establishes that the control in question is on the Car Rental-Login window. On line 11, the first argument of the interface element action specifies that the control is to be mapped to the TA name **clear-button**. The next two arguments establish that the target control is of TA class button, and has Clear as the value of its caption property.
 
@@ -68,7 +68,7 @@ It may sometimes be the case that some identifying property of a window or contr
 
 As an example, say the browser tab for a web-based email application displays text that consists of both a constant, known portion \(“Inbox”\), along with information that is variable, such as the number of currently unread emails:
 
-![](/images//Images/TA_Help/Images/interface_entity_regexp01.png)
+![](/images/TA_Help/Images/interface_entity_regexp01.png)
 
 As it happens, the contents that the browser uses for the tab display are taken from the doc title property of the HTML page, which is also the property most often used by tests to identify a window. Hence, in order to use this property in the interface entity, it is necessary to account for the variable portion of its contents. This can be done with a regular expression that uses a simple wildcard.
 

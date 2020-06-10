@@ -10,17 +10,17 @@ When launching a test run from TestArchitect Client, you can configure TestArchi
 
 Ensure that you have already taken the following steps:
 
--   Registered the TFS server with TestArchitect. \([Learn more](Integration_MTM_connecting_TFS.html).\)
--   Mapped the TestArchitect project containing the test cases of interest to a TFS project. \([Learn more](Integration_MTM_map_proj.html).\)
+-   Registered the TFS server with TestArchitect. \([Learn more](/TA_Help/Topics/Integration_MTM_connecting_TFS.html).\)
+-   Mapped the TestArchitect project containing the test cases of interest to a TFS project. \([Learn more](/TA_Help/Topics/Integration_MTM_map_proj.html).\)
 -   Mapped TA test cases to TFS test cases. This can be achieved by any of the following means:
-    -   importing TFS [test suites](ug_MTM_import_TS.html) or [test cases](ug_MTM_import_TC.html) into TA,
-    -   uploading TA [test modules/tests cases](ug_upload_TAtest_MTM.html) to TFS,
-    -   performing [manual mapping](Integration_MTM_mapping_TA_MTM_IDs.html) between TA test cases and TFS test cases.
--   When you specify the working directory, which the build agent uses to read from or write to files, please ensure the path to the working directory is not too long. Specifically, the specified working directory must not cause the build agent to produce any physical paths that are longer than 259 characters \([learn more](https://msdn.microsoft.com/en-us/library/bb399135(v=vs.120).aspx#work_dir)\). Otherwise, your builds might fail and log this error: TF10128: The path <PhysicalPath\> contains more than the allowed 259 characters. Type or select a shorter path. When you encounter this issue, names of TestArchitect test results which are [uploaded](ug_MTM_upload_result.html) to TFS are shortened \([learn more](ug_MTM_upload_result_automatic.html#note.truncated_uploaded_TA_results)\).
+    -   importing TFS [test suites](/TA_Help/Topics/ug_MTM_import_TS.html) or [test cases](/TA_Help/Topics/ug_MTM_import_TC.html) into TA,
+    -   uploading TA [test modules/tests cases](/TA_Help/Topics/ug_upload_TAtest_MTM.html) to TFS,
+    -   performing [manual mapping](/TA_Help/Topics/Integration_MTM_mapping_TA_MTM_IDs.html) between TA test cases and TFS test cases.
+-   When you specify the working directory, which the build agent uses to read from or write to files, please ensure the path to the working directory is not too long. Specifically, the specified working directory must not cause the build agent to produce any physical paths that are longer than 259 characters \([learn more](https://msdn.microsoft.com/en-us/library/bb399135(v=vs.120).aspx#work_dir)\). Otherwise, your builds might fail and log this error: TF10128: The path <PhysicalPath\> contains more than the allowed 259 characters. Type or select a shorter path. When you encounter this issue, names of TestArchitect test results which are [uploaded](ug_MTM_upload_result.html) to TFS are shortened \([learn more](/TA_Help/Topics/ug_MTM_upload_result_automatic.html#note.truncated_uploaded_TA_results)\).
 
 To automatically upload TestArchitect test results to TFS after execution:
 
-1.  Initiate TestArchitect test execution as you normally would. \([Learn more](Test_exec_test_execution.html).\)
+1.  Initiate TestArchitect test execution as you normally would. \([Learn more](/TA_Help/Topics/Test_exec_test_execution.html).\)
 
     The Execute Test dialog box appears.
 
@@ -69,13 +69,13 @@ To automatically upload TestArchitect test results to TFS after execution:
 
             ![](/images//Images/TFS_upload_rst.png)
 
-            You could also configure this setting by using arguments in [execute command](TA_command_line_execute.html#)
+            You could also configure this setting by using arguments in [execute command](/TA_Help/Topics/TA_command_line_execute.html#)
 
 6.  Select the **Upload attachment\(s\) to Team Foundation Server** check box to upload the TestArchitect test result to selected TFS test cases as an HTML file attachment. \(Selectivity is determined by the field as follows\).
 
     ![](/images//Images/ug_MTM_upload_results_automatic_attachment.png)
 
-7.  The By Team Foundation Server result list box allows you to specify which associated TFS test cases are to receive links to the attached test result. This determination is based, for each given test case, on its result in terms of its [TFS outcome](Integration_MTM_connecting_TFS.html#choice_xrl_w5x_xs).
+7.  The By Team Foundation Server result list box allows you to specify which associated TFS test cases are to receive links to the attached test result. This determination is based, for each given test case, on its result in terms of its [TFS outcome](/TA_Help/Topics/Integration_MTM_connecting_TFS.html#choice_xrl_w5x_xs).
 
     ![](/images//Images/ug_MTM_upload_results_automatic_MTM_result_types.png)
 
@@ -84,7 +84,7 @@ To automatically upload TestArchitect test results to TFS after execution:
     -   Failed: Attach the TA test result file if the test case's TFS outcome is Failed.
     **Note:**
 
-    -   The mappings between TestArchitect result statuses and TFS outcomes \(that is, how TFS interprets each TA result status\) are defined during initial configuration of the TA repository's connection to the Team Foundation Server. \([Learn more](Integration_MTM_connecting_TFS.html#choice_xrl_w5x_xs).\)
+    -   The mappings between TestArchitect result statuses and TFS outcomes \(that is, how TFS interprets each TA result status\) are defined during initial configuration of the TA repository's connection to the Team Foundation Server. \([Learn more](/TA_Help/Topics/Integration_MTM_connecting_TFS.html#choice_xrl_w5x_xs).\)
     -   If more than one condition is selected, they are effectively OR'd together. For example: If both Passed and Failed check boxes are selected, any TA result that has an TFS outcome of *either* Passed or Failed is uploaded as an attachment.
 8.  In the Upload attachment as panel, select the format of the uploaded test result.
 
@@ -97,7 +97,7 @@ To automatically upload TestArchitect test results to TFS after execution:
 
     ![](/images//Images/ug_MTM_upload_results_HTML_layout.png)
 
-    You are first required to customize the default XSLT template, which means you need to modify [a set of XSL files](ug_customizing_XML_report.html) to suit your desired view layout. \(See more examples [here](ug_customizing_XML_report.html).\)
+    You are first required to customize the default XSLT template, which means you need to modify [a set of XSL files](/TA_Help/Topics/ug_customizing_XML_report.html) to suit your desired view layout. \(See more examples [here](/TA_Help/Topics/ug_customizing_XML_report.html).\)
 
     **Attention:** When your customized XSLT is invalid, the default XSLT template, located at the \{TA\_INSTALL\_DIR\}\\templates\\xsl\\ directory, is automatically applied.
 
@@ -116,13 +116,13 @@ TestArchitect test results are uploaded to TFS in the format specified in step \
 
 CAUTION:
 
-In case of test results generated from a [serial test run](Test_exec_multiple_TM.html), that is, running multiple test modules sequentially within a single test run, if the given **Build Number**'s values among test modules are not identical, the test results are unable to be uploaded to TFS. \([Learn more](/TA_FAQ/Topics/faq.shoot.TFS_mismatched_build_number_values.html).\)
+In case of test results generated from a [serial test run](/TA_Help/Topics/Test_exec_multiple_TM.html), that is, running multiple test modules sequentially within a single test run, if the given **Build Number**'s values among test modules are not identical, the test results are unable to be uploaded to TFS. \([Learn more](/TA_FAQ/Topics/faq.shoot.TFS_mismatched_build_number_values.html).\)
 
 **Important:**
 
 -   When name of the working directory of build agents in combination with name of TA tests have more than 260 characters, filename of TestArchitect results, uploaded to TFS, are automatically shortened based on the following format: T<"TfsTestID"\>.html. Otherwise, the uploaded test result's filename remains unchanged.
 -   Similarly, for subresults in case of serial test runs, when name of the working directory of build agents in combination with name of TestArchitect tests have more than 260 characters, filename of TestArchitect results, uploaded to TFS, are automatically shortened based on the following format: T<"TFSTestCaseID"\>\_<"indexNo"\>.html. Otherwise, the uploaded test result's name remains unchanged.
--   Alternatively, you might use TFS test ID to name the TestArchitect test results attached to TFS by using [TFS-MTM Extensibility](ug_MTM_Extensibility.html).
+-   Alternatively, you might use TFS test ID to name the TestArchitect test results attached to TFS by using [TFS-MTM Extensibility](/TA_Help/Topics/ug_MTM_Extensibility.html).
 
 **Parent topic:**[Uploading TestArchitect test results to Team Foundation Server](/TA_Help/Topics/ug_MTM_upload_result.html)
 

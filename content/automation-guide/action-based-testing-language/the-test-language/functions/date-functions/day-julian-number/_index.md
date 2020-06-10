@@ -25,7 +25,7 @@ Returns the corresponding Gregorian day of month number.
 
 ## Applicable Built-In Settings
 
-The following built-in setting\(s\) are supported: [date order](date_order.html).
+The following built-in setting\(s\) are supported: [date order](/TA_Automation/Topics/bis_date_order.html).
 
 ## Example
 

@@ -6,16 +6,16 @@ aliases:
     - /TA_Help/Topics/ug_MTM_mapping_result_table.html
 ---
 
-This section describes possible test results mappings between TestArchitect and TFS when TestArchitect test results are uploaded into TFS.These are options that you set in the [TEST MANAGEMENT window](Integration_MTM_connecting_TFS.html) of TestArchitect's **Team Foundation Server** external tool.
+This section describes possible test results mappings between TestArchitect and TFS when TestArchitect test results are uploaded into TFS.These are options that you set in the [TEST MANAGEMENT window](/TA_Help/Topics/Integration_MTM_connecting_TFS.html) of TestArchitect's **Team Foundation Server** external tool.
 
 |No|TA test status|TFS test status|
 |--|--------------|---------------|
-|1|Passed|Passed \(default\)Failed<br>Inconclusive<br><br>|
-|2|Failed|PassedFailed \(default\)<br>Inconclusive<br><br>|
-|3|Passed with Warning/Error|Passed<br> Failed \(default\)<br><br> Inconclusive<br><br>|
-|4|Passed with Known Bug|Passed<br> Failed \(default\)<br><br> Inconclusive<br><br>|
-|5|Not Finished 1|Passed<br> Failed<br><br> Inconclusive \(default\)<br><br>|
-|6|Not Run 2|Passed<br> Failed<br><br> Inconclusive \(default\)<br><br>|
+|1|Passed|Passed \(default\)Failed<br><br>Inconclusive<br><br>|<br>
+|2|Failed|PassedFailed \(default\)<br><br>Inconclusive<br><br>|<br>
+|3|Passed with Warning/Error|Passed<br><br> Failed \(default\)<br><br> Inconclusive<br><br>|<br>
+|4|Passed with Known Bug|Passed<br><br> Failed \(default\)<br><br> Inconclusive<br><br>|<br>
+|5|Not Finished 1|Passed<br><br> Failed<br><br> Inconclusive \(default\)<br><br>|<br>
+|6|Not Run 2|Passed<br><br> Failed<br><br> Inconclusive \(default\)<br><br>|<br>
 
 **Important:**
 

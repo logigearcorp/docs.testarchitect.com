@@ -12,7 +12,7 @@ Any host-based license can be reconfigured to act as a floating license, thereby
 
 To convert a license from host-based to floating:
 
-1.  On the license server machine, start the License Server Control Panel. \([Learn more](LS_TA_managing_start_stop.html).\)
+1.  On the license server machine, start the License Server Control Panel. \([Learn more](/TA_Administration/Topics/LS_TA_managing_start_stop.html).\)
 
 2.  Select the node representing the host-based license you want to remove.
 

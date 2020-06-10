@@ -23,7 +23,7 @@ Return the location and dimensions of an instance of a specified [bitmap text fr
 
 -   **rect**
 
-    [TARect](abt_TARect.html) value specifying a rectangular active area in the object's bitmap. Scanning for the matching bitmap text fragment is limited to this active area.
+    [TARect](/TA_Automation/Topics/abt_TARect.html) value specifying a rectangular active area in the object's bitmap. Scanning for the matching bitmap text fragment is limited to this active area.
 
 -   **index**
 

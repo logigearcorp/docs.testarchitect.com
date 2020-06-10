@@ -17,7 +17,7 @@ Note that, while it is necessary that you[implement the hello action in Python](
 
 3.  Enter hello as the action name, and who as the name of its sole argument:
 
-    ![](/images//Images/TA_Tutorials/Images/tut.Harness.New_Action_dlg.who.png)
+    ![](/images/TA_Tutorials/Images/tut.Harness.New_Action_dlg.who.png)
 
     Click **Create**.
 
@@ -26,7 +26,7 @@ Note that, while it is necessary that you[implement the hello action in Python](
     **Note:** This action serves as your stub action. It will now appear in the action autocomplete list in the test editor, and its argument name will appear as a header for the action.
 
 4.  Now, create a test module, which you will use to call your action.
-5.  In the TestArchitect explorer tree, select any item within the current project, then click **Create new test module** ![](/images//Images/TA_Tutorials/Images/btn.TAC_toolbar.CreateTestModule.png) in the toolbar.
+5.  In the TestArchitect explorer tree, select any item within the current project, then click **Create new test module** ![](/images/TA_Tutorials/Images/btn.TAC_toolbar.CreateTestModule.png) in the toolbar.
 
     The New Test Module dialog box appears.
 
@@ -52,9 +52,9 @@ Note that, while it is necessary that you[implement the hello action in Python](
 
     Your test case should now look similar to this:
 
-    ![](/images//Images/TA_Tutorials/Images/tut.Harness.Test02.alt.png)
+    ![](/images/TA_Tutorials/Images/tut.Harness.Test02.alt.png)
 
-9.  Click **Save** ![](/images//Images/TA_Tutorials/Images/btn.TAC_toolbar.SaveFile.png) on the toolbar.
+9.  Click **Save** ![](/images/TA_Tutorials/Images/btn.TAC_toolbar.SaveFile.png) on the toolbar.
 
 
 You now have the test module needed to call your user-scripted action hello.

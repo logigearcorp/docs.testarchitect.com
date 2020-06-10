@@ -62,16 +62,16 @@ Use of this action is supported on the following systems/platforms:
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[case sensitive](case_sensitive.html), [remove double quotes from cells](remove_double_quotes_from_cells.html), [standard ASCII only](standard_ASCII_only.html), [object wait](object_wait.html), [window wait](window_wait.html).
+The following settings are applicable to this action:[case sensitive](/TA_Automation/Topics/bis_case_sensitive.html), [remove double quotes from cells](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html), [standard ASCII only](/TA_Automation/Topics/bis_standard_ASCII_only.html), [object wait](/TA_Automation/Topics/bis_object_wait.html), [window wait](/TA_Automation/Topics/bis_window_wait.html).
 
 ## Notes
 
--   This built-in action always employs the [Graphics Device Interface](aut_text_recognition_techniques.html) \(GDI\) technique. In other words, [Optical Character Recognition](aut_text_recognition_techniques.html) \(OCR\) technique is not available for this action.
+-   This built-in action always employs the [Graphics Device Interface](/TA_Automation/Topics/aut_text_recognition_techniques.html) \(GDI\) technique. In other words, [Optical Character Recognition](/TA_Automation/Topics/aut_text_recognition_techniques.html) \(OCR\) technique is not available for this action.
 -   drawing function argument:
     -   By default, when the argument's value is omitted, this built-in action automatically employs all available drawing functions. This might significantly cause a performance issue, since every drawing function will be in turn verified.
     -   To determine which exact drawing functions should be employed to enhance automation performance, use the **Text Recognition** feature available in the Interface Viewer. \([Learn more](/TA_Help/Topics/ug_Interface_viewer_text_recognition.html).\)
 -   text argument:
-    -   While the [case sensitive](case_sensitive.html) built-in setting applies to the property values used to identify the correct window or control for this action, the action's GDI text identification functionality is also case sensitive, and is affected by the value of this setting.
+    -   While the [case sensitive](/TA_Automation/Topics/bis_case_sensitive.html) built-in setting applies to the property values used to identify the correct window or control for this action, the action's GDI text identification functionality is also case sensitive, and is affected by the value of this setting.
     -   It is highly recommended that you apply [wildcards](/TA_Glossary/Topics/glossaryWildcard.html) for this argument's value, since the text re-drawn by given drawing functions might contain surrounding noise. For example: given a value of \{Administration.\*\}, TestArchitect searches for texts whose string beginnings match Administration. In more general terms, this argument accepts regular expressions.
 -   variable argument:
     -   If the variable in argumentvariablehas not been declared, the action creates it as a global.

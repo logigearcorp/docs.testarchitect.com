@@ -11,7 +11,7 @@ keywords: "date order, set date order"
 
 Specify the order of the elements \(year, month, day\) of dates on output.
 
-**Tip:** To specify the format of each individual element of the date, use the [date format](date_format.html) setting.
+**Tip:** To specify the format of each individual element of the date, use the [date format](/TA_Automation/Topics/bis_date_format.html) setting.
 
 ## Allowable values
 

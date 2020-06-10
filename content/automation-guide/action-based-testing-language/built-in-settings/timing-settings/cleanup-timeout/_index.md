@@ -9,7 +9,7 @@ keywords: "cleanup timeout, set timeout, timeout"
 
 ## Description
 
-Specify the timeout value, for action to be invoked by [on timeout action](on_timeout_action.html).
+Specify the timeout value, for action to be invoked by [on timeout action](/TA_Automation/Topics/bia_on_timeout_action.html).
 
 ## Value units
 
@@ -26,7 +26,7 @@ seconds
 
 -   Applies to TestArchitect [8.3 Update 4](/TA_ReleaseNotes/DITA_source/Whats_New_Windows_8.3_update_4.html) and higher.
 -   When this setting is not declared or its value is omitted, the value of 0 is used.
--   When the duration of test case timeout's action handler, invoked by [on timeout action](on_timeout_action.html), exceeds the timeout period, the remaining lines of the action handler will stop instantly.
+-   When the duration of test case timeout's action handler, invoked by [on timeout action](/TA_Automation/Topics/bia_on_timeout_action.html), exceeds the timeout period, the remaining lines of the action handler will stop instantly.
 
 ## Example
 

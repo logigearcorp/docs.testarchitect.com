@@ -8,7 +8,7 @@ aliases:
 
 A test case list view displays a list of all test cases contained in the **Tests** node or in one of its subfolders. Various commands can be executed within a test case list view.
 
-On the TestArchitect explorer tree, when you double-click the **Tests** node, and then select the **Test Cases** tab. TestArchitect opens a list view of test cases for all test modules in the project. \([Learn more](Projects_and_tests_TC.html).\)
+On the TestArchitect explorer tree, when you double-click the **Tests** node, and then select the **Test Cases** tab. TestArchitect opens a list view of test cases for all test modules in the project. \([Learn more](/TA_Help/Topics/Projects_and_tests_TC.html).\)
 
 **Note:** Similarly, test case list views are also available for subfolders of the**Tests** node.
 
@@ -18,11 +18,11 @@ The following operations can be performed on a test case list view:
 
 ## Common operations
 
-You can find various common operations that can be performed on a test case list view at [Common operations](Listview_common_operations.html).
+You can find various common operations that can be performed on a test case list view at [Common operations](/TA_Help/Topics/Listview_common_operations.html).
 
 ## Opening test steps
 
-Steps break up a test case into smaller sections which can be maintained in an easier way. You can display the steps of a test case in the main panel by selecting **Open** on the context menu \(see [Steps](Projects_and_tests_steps.html) for details\).
+Steps break up a test case into smaller sections which can be maintained in an easier way. You can display the steps of a test case in the main panel by selecting **Open** on the context menu \(see [Steps](/TA_Help/Topics/Projects_and_tests_steps.html) for details\).
 
 **Tip:** You can also open multiple test cases by using your keyboard's Shift key to select a contiguous range of test cases \(or Control to select multiple noncontiguous test cases\); then right-click the selection, and click Open.
 
@@ -42,7 +42,7 @@ Select **Rename** from the context menu to edit the name of a selected test case
 
 ## Exporting test cases to CSV files
 
-Test cases can be exported to [.CSV](Exporing_to_CSV_test_case.html) files, which can be used as a backup or for re-importing into a TestArchitect test module.
+Test cases can be exported to [.CSV](/TA_Help/Topics/Exporing_to_CSV_test_case.html) files, which can be used as a backup or for re-importing into a TestArchitect test module.
 
 -   **[Replacing](/TA_Help/Topics/Listview_test_case_replacing.html)**  
 You can automatically replace a word or phrase with another in a field of a test case list view.

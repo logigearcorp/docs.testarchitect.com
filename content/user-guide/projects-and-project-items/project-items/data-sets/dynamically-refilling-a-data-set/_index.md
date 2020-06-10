@@ -12,7 +12,7 @@ In some cases you may want to use values from an external data source to supply 
 
 1.  Create a data set with at least one row. The purpose of this is to establish the header names/variables for TestArchitect.
 
-2.  Create a dummy data set with at least one row to provide a link to the external file \(see [Creating a new data set](Projects_and_tests_dataset_creation.html) for details\).
+2.  Create a dummy data set with at least one row to provide a link to the external file \(see [Creating a new data set](/TA_Help/Topics/Projects_and_tests_dataset_creation.html) for details\).
 
     Your dummy data set may resemble the following.
 

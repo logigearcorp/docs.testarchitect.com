@@ -38,7 +38,7 @@ You can use variables to store text strings, which can be used in place of strin
 
     ![](/images//Images/tut.Vars_and_Exps.Strings.Test.full.png)
 
-3.  With your test module displayed in the TestArchitect editor, click **Execute** ![](/images//Images/TA_Tutorials/Images/btn.TAC_toolbar.Execute.png) on the toolbar.
+3.  With your test module displayed in the TestArchitect editor, click **Execute** ![](/images/TA_Tutorials/Images/btn.TAC_toolbar.Execute.png) on the toolbar.
 
     The Execute Test dialog box appears.
 

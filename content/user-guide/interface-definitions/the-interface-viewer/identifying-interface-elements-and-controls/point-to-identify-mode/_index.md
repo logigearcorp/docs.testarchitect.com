@@ -28,7 +28,7 @@ To identify a given control or window in the **UI explorer** tree:
 
 ## Working with point-to-identify mode
 
-Point-to-identify mode is available from both the Interface Viewer and [TA Client](Interface_def_client_interface_tool_identify.html). There are some differences, but the following commonalities exist:
+Point-to-identify mode is available from both the Interface Viewer and [TA Client](/TA_Help/Topics/Interface_def_client_interface_tool_identify.html). There are some differences, but the following commonalities exist:
 
 -   When you enter point-to-identify mode, your mouse cursor transforms into a pointing hand ![](/images//Images/ug_interface_definition43.png)
 -   As you move your pointer around the screen, an orange, rectangular frame highlights whichever window or control the pointer is hovering over, to assist you in deciding where to click.
@@ -39,7 +39,7 @@ Point-to-identify mode is available from both the Interface Viewer and [TA Clien
 -   Windows' Alt-Tab keys are still available within point-to-identify mode, to allow you to navigate between application windows. Right-clicking the mouse also behaves normally.
 -   Point-to-identify mode can be suspended by holding down the Control key. \(Suspension is necessary if you wish to use the left mouse button to do anything "normal" before identifying the target item.\) Release the Control key to resume point-to-identify mode.
 -   Use ESC to abort point-to-identify mode.
--   Point-to-identify mode is completed when you click your mouse on the target control or window. At this point, point-to-identify mode terminates and the Interface Viewer \(or, in the case of client-side [point-to-identify](Interface_def_client_interface_tool_identify.html), the Element definition dialog box\) is displayed with appropriate information.
+-   Point-to-identify mode is completed when you click your mouse on the target control or window. At this point, point-to-identify mode terminates and the Interface Viewer \(or, in the case of client-side [point-to-identify](/TA_Help/Topics/Interface_def_client_interface_tool_identify.html), the Element definition dialog box\) is displayed with appropriate information.
 
 **Parent topic:**[Identifying interface elements and controls](/TA_Help/Topics/Interface_def_Viewer_identifying.html)
 

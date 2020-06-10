@@ -50,9 +50,9 @@ To open a definition of a named project item from within a test module or action
 
 TestArchitect navigates to the definition of the selected project item, making it the active tab in the main client window.
 
-**Note:** For certain types of project items, [variations](Variations.html) may exist. When they do, **Go to definition** has the following behavior:
+**Note:** For certain types of project items, [variations](/TA_Help/Topics/Variations.html) may exist. When they do, **Go to definition** has the following behavior:
 
--   In most cases, the context menu displays the full list of variations, including the [default variation](Variations_default.html), allowing you to select the one of your choosing:
+-   In most cases, the context menu displays the full list of variations, including the [default variation](/TA_Help/Topics/Variations_default.html), allowing you to select the one of your choosing:
 
     ![](/images//Images/go_to_def_ex.02.png)
 

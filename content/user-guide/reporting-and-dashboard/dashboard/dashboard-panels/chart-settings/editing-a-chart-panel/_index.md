@@ -16,7 +16,7 @@ To edit the properties of a chart panel on a Dashboard page:
 
 3.  In the Edit Panel dialog box, change the panel settings on the **Display Settings** and **Filters** tabs as desired.
 
-    The panel settings in the Edit Panel dialog box are the same as the settings on the Add New Panel dialog box for charts \(see [Create new chart panel](Dashboard_create_new_chart_panel.html)\) steps \#[3](Dashboard_create_new_chart_panel.html#step_ei37_di3l) through \#[4](Dashboard_create_new_chart_panel.html#step_eofd_373u), with the following additional setting options:
+    The panel settings in the Edit Panel dialog box are the same as the settings on the Add New Panel dialog box for charts \(see [Create new chart panel](/TA_Help/Topics/Dashboard_create_new_chart_panel.html)\) steps \#[3](/TA_Help/Topics/Dashboard_create_new_chart_panel.html#step_ei37_di3l) through \#[4](/TA_Help/Topics/Dashboard_create_new_chart_panel.html#step_eofd_373u), with the following additional setting options:
 
     -   Height: Set the height \(in pixels\) of the panel. Taller panels have higher resolution, producing sharper charts.
     -   Folder: Select a TestArchitect repository folder containing the report data you want displayed in the new panel.

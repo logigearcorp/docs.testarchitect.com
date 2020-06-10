@@ -8,7 +8,7 @@ aliases:
 
 ## Description
 
-Determine if the [navigate](navigate.html) built-in action opens a new tab, a new window instance, or overwrites the currently active instance with a new URL.
+Determine if the [navigate](/TA_Automation/Topics/bia_navigate.html) built-in action opens a new tab, a new window instance, or overwrites the currently active instance with a new URL.
 
 **Important:** This setting is dedicated to Generic WebDriver.
 
@@ -22,7 +22,7 @@ Determine if the [navigate](navigate.html) built-in action opens a new tab, a ne
 
 -   This built-in setting only takes effect, if the window argument of the navigate built-in action is omitted.
 -   If the window argument of the navigate built-in action is specified, it will choose the exact browser window upon which the URL is navigated to.
--   To support backward compatibility for your project, if necessary, you might use this built-in setting as a [startup setting](aut_startup_settings.html) with a desired value.
+-   To support backward compatibility for your project, if necessary, you might use this built-in setting as a [startup setting](/TA_Automation/Topics/aut_startup_settings.html) with a desired value.
 
 ## Example
 

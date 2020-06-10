@@ -12,7 +12,7 @@ In this example, a coded UI test project \(CUIT\) is linked to a TFS test case b
 
 1.  Start Microsoft Visual Studio.
 
-2.  Open your project, created in the [previous topic](ug_MTM_test_methods.html), and then choose a test method.
+2.  Open your project, created in the [previous topic](/TA_Help/Topics/ug_MTM_test_methods.html), and then choose a test method.
 
 3.  [Check in](https://docs.microsoft.com/en-us/vsts/tfvc/check-your-work-team-codebase?view=vsts#choose-the-files-you-want-to-check-in) your test method on the TFS server.
 

@@ -14,7 +14,7 @@ To rearrange the test modules in a static test suite, do the following:
 
 1.  In the TestArchitect explorer tree, double-click an existing static test suite node.
 
-2.  In [test suite list view](Listview_test_suite.html), perform either of the following options:
+2.  In [test suite list view](/TA_Help/Topics/Listview_test_suite.html), perform either of the following options:
 
     ![](/images//Images/Rearrange_test_modules_in_test_suite.png)
 

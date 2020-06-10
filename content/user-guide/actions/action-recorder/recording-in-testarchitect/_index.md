@@ -12,7 +12,7 @@ With TestArchitect's Action Recorder, user interactions with the target applicat
 
 To start recording:
 
-1.  In TestArchitect, create a new test module or action definition, or open an existing one for editing. [Check it out](Project_items_checkout.html) if needed.
+1.  In TestArchitect, create a new test module or action definition, or open an existing one for editing. [Check it out](/TA_Help/Topics/Project_items_checkout.html) if needed.
 2.  Place the cell pointer on the line where the Action Recorder should insert the recorded action lines.
 3.  From the TestArchitect menu bar, select **Tools** \> **Action Recorder**.
 
@@ -30,12 +30,12 @@ Using the buttons of this toolbar, you can control the recording process and per
 **Note:**
 
 -   After you start the recording, TestArchitect is automatically minimized and cannot be restored until recording is stopped.
--   The recording session always needs an [interface](Interface_def_create_interface.html) to be selected, to allow the recorder to match the windows and controls it encounters during the session. The following rules are applied in selecting an interface:
+-   The recording session always needs an [interface](/TA_Help/Topics/Interface_def_create_interface.html) to be selected, to allow the recorder to match the windows and controls it encounters during the session. The following rules are applied in selecting an interface:
     -   If the current project has no interface available, you will be asked to create a new one.
     -   If the current project has only a single interface, that interface is selected automatically.
-    -   If the current project has multiple interfaces, the [default interface](Interface_def_set_default_interface.html) is selected.
+    -   If the current project has multiple interfaces, the [default interface](/TA_Help/Topics/Interface_def_set_default_interface.html) is selected.
     -   If the current project has multiple interfaces, and the current test module has a [use interface](/TA_Automation/Topics/bia_use_interface.html) action line, the interface it specifies is used, rather than the default interface.
-    -   If none of the above applies, you will be asked to select an interface in the [Action Recorder Setting](ug_AR_settings.html) dialog box.
+    -   If none of the above applies, you will be asked to select an interface in the [Action Recorder Setting](/TA_Help/Topics/ug_AR_settings.html) dialog box.
 
 To pause the recording, click the **Pause the recording** ![](/images//Images/Pause_recording.png) button on the **Recording** toolbar. This allows you to perform other actions on your computer without having action lines generated from them.
 
@@ -47,7 +47,7 @@ To stop recording, click the **Stop the recording** ![](/images//Images/Stop_rec
 
 The Action Recorder records your user interactions as [keyword-based action lines](/TA_Automation/Topics/bia_Built_in_actions.html). It can also insert checkpoints into the recorded test procedure as needed.
 
-To have the recorder record a check at a given point, drag the **Insert Check** ![](/images//Images/inserting_checkpoints_btn.png) button on the **Recording** toolbar to the control on which the check needs to be performed. By default, TestArchitect generates a [check](/TA_Automation/Topics/bia_check.html) action, but you can change that behavior in the [Action Recorder Settings](ug_AR_settings.html#li_jpf_j3p_js) dialog box.
+To have the recorder record a check at a given point, drag the **Insert Check** ![](/images//Images/inserting_checkpoints_btn.png) button on the **Recording** toolbar to the control on which the check needs to be performed. By default, TestArchitect generates a [check](/TA_Automation/Topics/bia_check.html) action, but you can change that behavior in the [Action Recorder Settings](/TA_Help/Topics/ug_AR_settings.html#li_jpf_j3p_js) dialog box.
 
 In the Action Recorder Settings dialog box, if you don't want basic [check](/TA_Automation/Topics/bia_check.html) actions automatically generated, clear the check box **Always use the default check action when I define a control check**. With the box cleared, all your Action Recorder **Insert Check** commands launch the **Check Action** dialog box, in which you may choose the type of check you need.
 

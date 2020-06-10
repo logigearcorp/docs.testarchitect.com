@@ -27,12 +27,12 @@ A string value containing JSON data. The returned string includes all possible v
 
 ## Notes
 
--   For a project item, you have the option of obtaining the item ID from within your [user-scripted action](/TA_Glossary/Topics/glossaryScriptedAction.html), using the TestArchitect Engine class method [getCurrentEntityID\(\)](abtf_getCurrentEntityID.html).
--   Since the returned string value is JSON-compliant, it is highly recommended that you parse this string to a JSON object. You may then use TestArchitect's [Assign](abtf_Assign.html) method to get the individual values of the returned JSON object. \(See example below.\)
+-   For a project item, you have the option of obtaining the item ID from within your [user-scripted action](/TA_Glossary/Topics/glossaryScriptedAction.html), using the TestArchitect Engine class method [getCurrentEntityID\(\)](/TA_Automation/Topics/abtf_getCurrentEntityID.html).
+-   Since the returned string value is JSON-compliant, it is highly recommended that you parse this string to a JSON object. You may then use TestArchitect's [Assign](/TA_Automation/Topics/abtf_Assign.html) method to get the individual values of the returned JSON object. \(See example below.\)
 
 ## Example
 
-Let's say you want your user-scripted action to retrieve the **Location** field of the current test module. The test module's ID may first be obtained from [getCurrentEntityID\(\)](abtf_getCurrentEntityID.html). Subsequently, you would pass the ID to the GetEntityInformation\(\) method, which returns a JSON-structured string. Parse this string and use TestArchitect's [Assign\(\)](abtf_Assign.html) method with a key value of “location” to obtain **Location** value.
+Let's say you want your user-scripted action to retrieve the **Location** field of the current test module. The test module's ID may first be obtained from [getCurrentEntityID\(\)](/TA_Automation/Topics/abtf_getCurrentEntityID.html). Subsequently, you would pass the ID to the GetEntityInformation\(\) method, which returns a JSON-structured string. Parse this string and use TestArchitect's [Assign\(\)](/TA_Automation/Topics/abtf_Assign.html) method with a key value of “location” to obtain **Location** value.
 
 The code for this example for each of the Python, and C\# harnesses is presented below. Note that, for the Python script, the location value is assigned to a variable named \_location; in the case of the C\# scripts, that variable has the name entLocation.
 

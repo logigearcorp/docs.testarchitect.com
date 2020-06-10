@@ -10,8 +10,8 @@ TestArchitect test cases and test modules can be uploaded to the TFS server, whi
 
 Ensure that you have already taken the following steps:
 
--   Registered the TFS server with TestArchitect. \([Learn more](Integration_MTM_connecting_TFS.html).\)
--   Mapped the TestArchitect project containing the test cases of interest to a TFS project. \([Learn more](Integration_MTM_map_proj.html).\)
+-   Registered the TFS server with TestArchitect. \([Learn more](/TA_Help/Topics/Integration_MTM_connecting_TFS.html).\)
+-   Mapped the TestArchitect project containing the test cases of interest to a TFS project. \([Learn more](/TA_Help/Topics/Integration_MTM_map_proj.html).\)
 
 To upload TestArchitect test cases/test modules to TFS:
 

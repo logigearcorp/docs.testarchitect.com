@@ -18,10 +18,10 @@ Currently, TFS integration supports the Microsoft technologies listed below:
 
         -   XAML Build has been deprecated. Furthermore, Microsoft Test Manager \(MTM\) no longer supports XAML builds
         -   Using Test Center/Lab Center in MTM for automated testing is no longer supported by TFS, starting with TFS 2018.
-        Accordingly Build vNext and the Test Hub in the [TFS web portal](TFS_web_automated_testing.html) are ideal replacements for respective XAML Build and MTM.\(See also: [Team Foundation Server 2018 Release Notes](https://docs.microsoft.com/en-us/visualstudio/releasenotes/tfs2018-relnotes)\)
+        Accordingly Build vNext and the Test Hub in the [TFS web portal](/TA_Help/Topics/TFS_web_automated_testing.html) are ideal replacements for respective XAML Build and MTM.\(See also: [Team Foundation Server 2018 Release Notes](https://docs.microsoft.com/en-us/visualstudio/releasenotes/tfs2018-relnotes)\)
 
     -   Visual Studio Team Foundation Server [2013](http://msdn.microsoft.com/en-us/library/dd631902(v=vs.120).aspx).
-    **Note:** Both [on-premises](ug_MTM_setting_up_environment.html) and [Azure DevOps](Azure_DevOps_running_automated_tests.html) \(the formerly known as Visual Studio Team Services\) are supported.
+    **Note:** Both [on-premises](/TA_Help/Topics/ug_MTM_setting_up_environment.html) and [Azure DevOps](/TA_Help/Topics/Azure_DevOps_running_automated_tests.html) \(the formerly known as Visual Studio Team Services\) are supported.
 
 -   Microsoft Visual Studio, including Microsoft Test Manager:
     -   Microsoft Visual Studio [2017 Update 2](https://www.visualstudio.com/en-us/news/releasenotes/tfs2017-update2), [2017 Update 1](https://www.visualstudio.com/en-us/news/releasenotes/tfs2017-update1) \(Enterprise and Professional editions\)

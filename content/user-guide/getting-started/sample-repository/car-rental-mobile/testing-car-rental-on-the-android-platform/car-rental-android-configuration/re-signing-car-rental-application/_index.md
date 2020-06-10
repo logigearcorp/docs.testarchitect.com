@@ -22,7 +22,7 @@ Perform the following procedures on the host machine.
 
     **Option 1**: Connect the USB cable between the host machine and Android device. \(On a device with Android 4.0 or higher, enable the **USB debugging** option in **Settings** \> **Developer options**. On one with an Android version lower than 4.0, enable **USB debugging** in **Settings** \> **Applications** \> **Development**\)
 
-    **Option 2**: [Connect via Wi-Fi](SR_Car_Rental_connecting_to_Android_TA_Agent.html)
+    **Option 2**: [Connect via Wi-Fi](/TA_Tutorials_Sample_App/Topics/SR_Car_Rental_connecting_to_Android_TA_Agent.html)
 
 2.  Start TestArchitect Client as an administrator by right-clicking on the TestArchitect Client executable and select **Run as administrator**.
 
@@ -41,7 +41,7 @@ Perform the following procedures on the host machine.
     TestArchitect checks whether the file selected for re-signing exists on the list and prompts you as to whether you want to replace the existing file. A dialog box appears to indicate if the re-signing is successful.
 
 
-The re-signed application is ready to be [installed on an Android device](SR_Car_Rental_installing_re-signed_application.html) as an AUT.
+The re-signed application is ready to be [installed on an Android device](/TA_Tutorials_Sample_App/Topics/SR_Car_Rental_installing_re-signed_application.html) as an AUT.
 
 **Parent topic:**[Car Rental Android configuration](/TA_Tutorials_Sample_App/Topics/SR_Android_configuration_def.html)
 

@@ -8,7 +8,7 @@ aliases:
 
 An automated test execution needs to interact with the application under test through one or more interfaces.
 
-In most cases the interaction is with user-oriented interfaces, like dialog boxes or web pages. In many cases, though, part of the test, or even the entire test, must interact with the AUT through other means, such as messages, API calls or SQL statements. In Action Based Testing, all interface interaction is be supported through the use of [interface definitions](Interface_def.html).
+In most cases the interaction is with user-oriented interfaces, like dialog boxes or web pages. In many cases, though, part of the test, or even the entire test, must interact with the AUT through other means, such as messages, API calls or SQL statements. In Action Based Testing, all interface interaction is be supported through the use of [interface definitions](/TA_Help/Topics/Interface_def.html).
 
 Interface definitions are organized as follows:
 

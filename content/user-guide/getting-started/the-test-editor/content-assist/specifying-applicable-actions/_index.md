@@ -12,9 +12,9 @@ You must already have defined one or more user-defined TA classes for the partic
 
 To specify an **applicable actions** list for all controls of a given user-defined TA class, observe the following steps:
 
-1.  Open the [$ Class Maps](Interface_def_Viewer_class_mapping.html) entity of your interface by double-clicking its node in the TestArchitect explorer tree.
+1.  Open the [$ Class Maps](/TA_Help/Topics/Interface_def_Viewer_class_mapping.html) entity of your interface by double-clicking its node in the TestArchitect explorer tree.
 
-2.  [Check it out](Project_items_checkout.html), if it is in the checked in state.
+2.  [Check it out](/TA_Help/Topics/Project_items_checkout.html), if it is in the checked in state.
 
 3.  In the editor window, locate the platform of interest, that is, one of the **WPF**, **WIN32**, **iOS**, **Android** or **Silverlight** sections.
 
@@ -50,7 +50,7 @@ To specify an **applicable actions** list for all controls of a given user-defin
 
 The list of applicable actions has now been successfully defined for your user-defined TA class or classes.
 
-You can now view the results of your work by dragging controls of your user-defined TA class or classes into the editor for your test module or action, as described in [Applicable action suggestions for a window or control](ug_applicable_actions.html).
+You can now view the results of your work by dragging controls of your user-defined TA class or classes into the editor for your test module or action, as described in [Applicable action suggestions for a window or control](/TA_Help/Topics/ug_applicable_actions.html).
 
 **Parent topic:**[Content Assist](/TA_Help/Topics/ug_content_assist.html)
 

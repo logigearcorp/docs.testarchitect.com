@@ -16,7 +16,7 @@ When interface entities and elements are not created for given windows or contro
 
     The login window appears.
 
-    ![](/images//Images/TA_Tutorials/Images/app.Car_Rental.Login.unmodified.png)
+    ![](/images/TA_Tutorials/Images/app.Car_Rental.Login.unmodified.png)
 
 2.  Click **Login**, to log in with the default user name and password.
 
@@ -34,11 +34,11 @@ When interface entities and elements are not created for given windows or contro
 
     1.  Place your cell pointer on a line somewhere below the existing set of action lines \(but before the `FINAL` section, if any\).
 
-    2.  Click **Create New Test Case** ![](/images//Images/TA_Tutorials/Images/btn.TAC_toolbar.CreateTestCase.png) on the toolbar.
+    2.  Click **Create New Test Case** ![](/images/TA_Tutorials/Images/btn.TAC_toolbar.CreateTestCase.png) on the toolbar.
 
         A test case line similar to the following is inserted.
 
-        ![](/images//Images/TA_Tutorials/Images/misc.TAC.Test_case_03_line.png)
+        ![](/images/TA_Tutorials/Images/misc.TAC.Test_case_03_line.png)
 
     3.  In the second column of the new line, assign the test case an ID ofTC 03\(if not already set to that value\).
 

@@ -16,11 +16,11 @@ The set of actions in this section allows you to connect to a database, run SQL 
 
 The following built-in actions are provided. They are listed here in the typical order of their workflow.
 
-1.  [create connection string](create_connection_string.html): Generate a connection string for a specified database on a given host.
-2.  [connect database](connect_database.html): Open a database connection using a connection string.
-3.  [use database](use_database.html): Specify a database against which the ensuing SQL action lines are to be applied.
-4.  [execute sql](execute_sql.html): Execute an SQL command against the currently in-use database; optionally, store returned data into one or more data sets.
-5.  [disconnect database](disconnect_database.html): Close the database connection.
+1.  [create connection string](/TA_Automation/Topics/bia_create_connection_string.html): Generate a connection string for a specified database on a given host.
+2.  [connect database](/TA_Automation/Topics/bia_connect_database.html): Open a database connection using a connection string.
+3.  [use database](/TA_Automation/Topics/bia_use_database.html): Specify a database against which the ensuing SQL action lines are to be applied.
+4.  [execute sql](/TA_Automation/Topics/bia_execute_sql.html): Execute an SQL command against the currently in-use database; optionally, store returned data into one or more data sets.
+5.  [disconnect database](/TA_Automation/Topics/bia_disconnect_database.html): Close the database connection.
 
 ## Prerequisites
 
@@ -55,7 +55,7 @@ The following built-in actions are provided. They are listed here in the typical
         -   **On macOS:** Microsoft does not provide a SQL Server ODBC driver for the macOS machine. However, a good open source alternative, [FreeTDS](http://www.freetds.org/), is available. Note that, additional configurations are also required \([learn more](aut_testing_database_Mac_setup_MSSQL.html)\).
     -   MySQL Server: [Read here](http://dev.mysql.com/downloads/connector/odbc/).
 
-        **Note:** On macOS, additional configurations are required \([learn more](aut_testing_database_Mac_setup_MySQL.html)\).
+        **Note:** On macOS, additional configurations are required \([learn more](/TA_Automation/Topics/aut_testing_database_Mac_setup_MySQL.html)\).
 
     -   Excel: The ODBC driver for Microsoft Excel is automatically installed with Microsoft Office. If Microsoft Office is not currently installed on your test machine, you can download and install the correct driver from the appropriate link below:
         -   **ODBC driver for Excel 2007 \(32-bit\):** [http://www.microsoft.com/en-us/download/details.aspx?id=23734](http://www.microsoft.com/en-us/download/details.aspx?id=23734)

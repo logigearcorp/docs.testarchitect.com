@@ -10,14 +10,14 @@ List view displays a list of all items contained in the selected node and its su
 
 In the TestArchitect explorer tree, when you double-click
 
--   [**Tests**](Project_items_tests.html),
--   [**Data**](Projects_and_tests_dataset.html),
+-   [**Tests**](/TA_Help/Topics/Project_items_tests.html),
+-   [**Data**](/TA_Help/Topics/Projects_and_tests_dataset.html),
 -   [**Actions**](/reuse/reuse.High_level_actions.html),
--   [**Interfaces**](Interface_def.html),
--   [**Test Suites**](Test_suite.html),
--   [**Picture Checks**](Projects_and_tests_picture_check.html),
--   [**Results**](Test_result.html), or
--   [**Bugs**](Bugs.html) node,
+-   [**Interfaces**](/TA_Help/Topics/Interface_def.html),
+-   [**Test Suites**](/TA_Help/Topics/Test_suite.html),
+-   [**Picture Checks**](/TA_Help/Topics/Projects_and_tests_picture_check.html),
+-   [**Results**](/TA_Help/Topics/Test_result.html), or
+-   [**Bugs**](/TA_Help/Topics/Bugs.html) node,
 
 a list view of items belonging to the selected node is opened in the main panel. List views are also available for subfolders of the **Tests**, **Data**, **Actions**, **Interfaces**, **Test Suites**, **Picture Checks**, **Results**, and **Bugs** nodes.
 

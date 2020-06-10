@@ -10,7 +10,7 @@ A test suite is a collection of test modules of a project. Test modules organize
 
 Unlike a test folder, which acts as a container for test modules, a test suite is more analogous to a song playlist in a music player application. Rather than acting as a container for the test modules themselves, a test suite essentially contains a set of *pointers* to test modules. One thing this means is that there is no limit to the number of test suites to which a given test module can belong. Note also that adding, deleting, or moving test modules amongst test suites has no effect on their arrangements within the project's test folders. Likewise, you can move a test module between test folders without worrying about "breaking" the pointers to it in the test suites.
 
-The contents of a test suite can be created either manually \([static test suites](Test_suite_static.html)\) or algorithmically \([dynamic test suites](Test_suite_dynamic.html)\). Manual creation is simply a matter of dragging and dropping. With dynamic test suites, criteria that you set up for a given test suite specify which test modules are to belong to it. Membership in such test suites can, accordingly, change on the fly.
+The contents of a test suite can be created either manually \([static test suites](/TA_Help/Topics/Test_suite_static.html)\) or algorithmically \([dynamic test suites](/TA_Help/Topics/Test_suite_dynamic.html)\). Manual creation is simply a matter of dragging and dropping. With dynamic test suites, criteria that you set up for a given test suite specify which test modules are to belong to it. Membership in such test suites can, accordingly, change on the fly.
 
 Test suites are especially useful for the following types of test:
 

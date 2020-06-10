@@ -10,7 +10,7 @@ It is required to convert test results created in versions prior to TestArchitec
 
 ## General information
 
-Since TestArchitect version [8.3](/TA_ReleaseNotes/DITA_source/Whats_New_8.3.html), [XML result model](Test_result.html) has been introduced to view test results in a web browser.
+Since TestArchitect version [8.3](/TA_ReleaseNotes/DITA_source/Whats_New_8.3.html), [XML result model](/TA_Help/Topics/Test_result.html) has been introduced to view test results in a web browser.
 
 **Important:** XML result model provides the following advantages when compared to the previous result model.
 
@@ -28,13 +28,13 @@ Test result conversion is a one-way process: the **converted test results cannot
 
 -   Before converting test results, remember to [back up your repository](/TA_Administration/Topics/Repo_server_management_bk.html),
 -   Conversion duration might take up to several hours for colossal test results' size. It is advised that:
-    -   reduce the size of your repository by [exporting old test results to archive files](Test_result_export_ZIP.html). Note that, also select the **Remove from repository** option to delete the source test results from the repository;
+    -   reduce the size of your repository by [exporting old test results to archive files](/TA_Help/Topics/Test_result_export_ZIP.html). Note that, also select the **Remove from repository** option to delete the source test results from the repository;
     -   schedule to convert test results when your teams are idle;
     -   do not interact with the repository while the result conversion is taking place;
     -   do not abort the ongoing conversion process to prevent data corruption.
 -   To save time, you can perform multiple result conversions simultaneously based on your machine configuration.
 -   For primary-replication repositories, data is [synchronized](/TA_Administration/Topics/adm_Synchronizing_data.html) between the primary repository and the replication repository when test result conversion happens. This synchronization might be slow in case of huge test results, long distance location, or network problems, etc. It is highly recommended that you do the following to convert test results:
-    1.  Convert test results on the primary repository as usual. \([Learn more](ug_XML_result_conversion.html#section.convert_results).\)
+    1.  Convert test results on the primary repository as usual. \([Learn more](/TA_Help/Topics/ug_XML_result_conversion.html#section.convert_results).\)
     2.  [Export the primary repository](/TA_Administration/Topics/Repo_server_management_exporting.html).
     3.  [Import the repository as a replication](/TA_Administration/Topics/Importing_repository_replication.html).
 -   Viewing new XML results in a web browser:
@@ -46,7 +46,7 @@ Test result conversion is a one-way process: the **converted test results cannot
 -   Converting results interactively: To upgrade your test results to the current XML format:
     1.  In TestArchitect Client, from the TestArchitect explorer tree, select and double-click a test result.
     2.  TestArchitect automatically converts the test result to the new XML format and open it.
--   Converting results from the command line: To perform a mass XML conversion for a given repository, use XML Result Conversion command line tool instead on the repository server machine. \([Learn more](ug_XML_result_conversion_tool.html).\)
+-   Converting results from the command line: To perform a mass XML conversion for a given repository, use XML Result Conversion command line tool instead on the repository server machine. \([Learn more](/TA_Help/Topics/ug_XML_result_conversion_tool.html).\)
 
 -   **[XML Result Conversion command line tool](/TA_Help/Topics/ug_XML_result_conversion_tool.html)**  
  Converts all test results belonging to a given repository into XML test result format. Note that, run this tool on the repository server machine.

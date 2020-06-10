@@ -9,7 +9,7 @@ keywords: "addrow, abtdataset addrow, add row to data set, append row to data se
 
 ## Syntax
 
-`int AddRow([AbtDataRow](abt_AbtDataRow.html) row)`
+`int AddRow([AbtDataRow](/TA_Automation/Topics/abt_AbtDataRow.html) row)`
 
 ## Description
 
@@ -19,7 +19,7 @@ Append a new row to the data set object.
 
 -   **row**
 
-    [AbtDataRow](abt_AbtDataRow.html) object specifying the row to add.
+    [AbtDataRow](/TA_Automation/Topics/abt_AbtDataRow.html) object specifying the row to add.
 
 
 ## Return Value

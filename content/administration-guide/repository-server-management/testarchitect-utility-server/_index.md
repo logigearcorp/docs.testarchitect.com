@@ -10,11 +10,11 @@ The TestArchitect Utility Server is used to manage both the Lab Manager and Dash
 
 TestArchitect's Utility Server runs in the background. It can be started, stopped, and managed from the TestArchitect Repository Server Control Panel.
 
-1.  If not already running, start the [Repository Server Control Panel](Repo_server_management_launching.html).
+1.  If not already running, start the [Repository Server Control Panel](/TA_Administration/Topics/Repo_server_management_launching.html).
 
 2.  In the dialog box, select **Tools** \> **TestArchitect Utility Server Information**.
 
-    **Note:** The **TestArchitect Utility Server Information** command is enabled only when the repository server is [started](Starting_repository_server.html).
+    **Note:** The **TestArchitect Utility Server Information** command is enabled only when the repository server is [started](/TA_Administration/Topics/Starting_repository_server.html).
 
     The TestArchitect Utility Server Information dialog box appears.
 

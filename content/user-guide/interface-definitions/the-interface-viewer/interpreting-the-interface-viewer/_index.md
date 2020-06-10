@@ -12,7 +12,7 @@ The primary function of the Interface Viewer is to allow you to view an applicat
 
 The Viewer consists of four main panels and a toolbar:
 
-![](/TA_Tutorials/Images/dlg.Interface_Viewer_UIA.png)
+![](/images/TA_Automation/Images/dlg.Interface_Viewer_UIA.png)
 
 1.  [UI Explorer panel](/TA_Help/Topics/ug_Interface_UI_explorer_panel.html)  
 Upon startup, the Interface Viewer takes inventory of every open window in the system on which it is pointed, and displays each one as a node in its **UI Explorer** tree.

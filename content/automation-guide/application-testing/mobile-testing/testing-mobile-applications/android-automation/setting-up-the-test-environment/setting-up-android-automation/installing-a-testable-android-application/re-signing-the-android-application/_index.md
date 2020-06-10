@@ -24,7 +24,7 @@ Every application that runs under the Android system has been digitally signed w
 
 To re-sign your application, follow these steps:
 
-1.  Open the [Android Instrumentation Tool](Android_Instrumentation_tool.html) dialog box.
+1.  Open the [Android Instrumentation Tool](/Android/Topics/Android_Instrumentation_tool.html) dialog box.
 
 2.  In the dialog box, click **Install more**.
 
@@ -36,7 +36,7 @@ To re-sign your application, follow these steps:
 
 3.  To re-sign a new .apk application file, click the **Re-sign more** button.
 
-    **Tip:** By default, TestArchitect re-signs an Android application with a LogiGear signature. You may alternatively select to re-sign the application with your self-signed signatures \(refer to [Configuring customized signatures](Android_configuring_customized_certificate.html) for details\). If you encounter issues while re-signing, refer to [Troubleshooting custom signatures](/TA_FAQ/Topics/faq.tshoot.Android_custom_signature.html).
+    **Tip:** By default, TestArchitect re-signs an Android application with a LogiGear signature. You may alternatively select to re-sign the application with your self-signed signatures \(refer to [Configuring customized signatures](/Android/Topics/Android_configuring_customized_certificate.html) for details\). If you encounter issues while re-signing, refer to [Troubleshooting custom signatures](/TA_FAQ/Topics/faq.tshoot.Android_custom_signature.html).
 
 4.  Navigate to and select the .apk application file, and then click **Open**.
 

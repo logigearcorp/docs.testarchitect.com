@@ -32,16 +32,16 @@ Use of this action is supported on the following systems/platforms: Windows, Lin
 
 ## Notes
 
--   This action does not modify any values in a dedicated or inline data set. Instead, the effect of this action is to cause the data for the subsequent [use data set](use_data_set.html) action to be sourced from the external file rather than the specified data set.
+-   This action does not modify any values in a dedicated or inline data set. Instead, the effect of this action is to cause the data for the subsequent [use data set](/TA_Automation/Topics/bia_use_data_set.html) action to be sourced from the external file rather than the specified data set.
 -   This action is applicable to both dedicated and inline data sets.
 -   The external text file and the specified data set must both exist.
 -   The external text file must have one record \(data set row\) per line, with tab-delimited fields in each line. The number of fields \(that is, total columns separated by tab characters\) per line must match the number of columns in the data set.
--   Each line of the text file represents one data record, which populates the variables upon each iteration of the [use data set](use_data_set.html) / [repeat for data set](repeat_for_data_set.html) loop.
+-   Each line of the text file represents one data record, which populates the variables upon each iteration of the [use data set](/TA_Automation/Topics/bia_use_data_set.html) / [repeat for data set](/TA_Automation/Topics/bia_repeat_for_data_set.html) loop.
 -   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
 
-The following settings are applicable to this action:[remove double quotes from cells](remove_double_quotes_from_cells.html)none.
+The following settings are applicable to this action:[remove double quotes from cells](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html)none.
 
 ## Example - Case 1: Dedicated data sets
 
