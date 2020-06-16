@@ -1,9 +1,11 @@
 --- 
 title: "Changing user account during installation process to start the Repository Server service"
 linktitle: "Changing user account during installation process"
+description: "During the installation process, rather than accept the default user account to the repository server, you may specify your desired account to perform that."
 weight: 1
 aliases: 
-    - TA_Administration/Topics/adm_changing_OS_account_installation.html
+    - /TA_Administration/Topics/adm_changing_OS_account_installation.html
+keywords: "user account, installation process, start repository sever, repositories, installation process, changing user accounts"
 ---
 
 During the installation process, rather than accept the default user account to the repository server, you may specify your desired account to perform that.
@@ -39,5 +41,4 @@ Do the following to change user account to start the repository server with diff
 
 TestArchitect is installed successfully, and the repository server is started with the specified user credentials.
 
-**Parent topic:**[Changing user account to start the repository server](../../TA_Administration/Topics/adm_changing_OS_account.md)
 

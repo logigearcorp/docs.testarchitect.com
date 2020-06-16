@@ -1,9 +1,11 @@
 --- 
 title: "Configuring license log file"
 linktitle: "Configuring license log file"
+description: "How to configure the number of retained license log files."
 weight: 1
 aliases: 
-    - TA_Administration/Topics/adm_License_server_log_file_configuration.html
+    - /TA_Administration/Topics/adm_License_server_log_file_configuration.html
+keywords: "licenses, log file entry, configuration, log file entry, licenses, configuration"
 ---
 
 How to configure the number of retained license log files.
@@ -27,5 +29,4 @@ TestArchitect starts a new license log file every month. It retains as many of t
     -   A value of 0 or less deactivates the logging mechanism. That is, it tells TestArchitect License Server not to log license-related transactions.
     -   A value greater than 12 is treated as a value of 12. TestArchitect License Server does not store log files for longer than 12 months.
 
-**Parent topic:**[License log file](../../TA_Administration/Topics/adm_License_server_log_file.md)
 

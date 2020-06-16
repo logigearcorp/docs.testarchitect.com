@@ -1,9 +1,11 @@
 --- 
 title: "System requirements for TestArchitect License Server"
 linktitle: "System requirements for TestArchitect License Server"
+description: "Minimum hardware and software requirements for installation of TestArchitect."
 weight: 1
 aliases: 
-    - TA_Administration/Topics/LS_system_requirements.html
+    - /TA_Administration/Topics/LS_system_requirements.html
+keywords: "for, system requirements, License Server"
 ---
 
 Minimum hardware and software requirements for installation of TestArchitect.
@@ -19,7 +21,6 @@ Minimum hardware and software requirements for installation of TestArchitect.
 
 **Hard disk**: 500 MB available space
 
-**Note:** To host License Server, you'll need either a valid FQDN \([fully-qualified domain name](https://en.wikipedia.org/wiki/Fully_qualified_domain_name)\) or a static IP address. Please ensure that you have this information at hand because you'll need it in order to [request license key](LS_TA_requesting_key.md#).
+**Note:** To host License Server, you'll need either a valid FQDN \([fully-qualified domain name](https://en.wikipedia.org/wiki/Fully_qualified_domain_name)\) to get a 99-year license key, or a static IP address to get one-year license key and annual renewal keys after that. Please ensure that you have this information at hand because you'll need it in order to [request license key](/TA_Administration/Topics/LS_TA_requesting_key.html#).
 
-**Parent topic:**[License Server installation guide](../../TA_InstallationGuide/DITA_source/Topics/inst_LS.md)
 

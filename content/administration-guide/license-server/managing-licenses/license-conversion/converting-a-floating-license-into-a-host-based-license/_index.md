@@ -1,9 +1,11 @@
 --- 
 title: "Converting a floating license into a host-based license"
 linktitle: "Converting a floating license into a host-based license"
+description: "Any floating license can be reconfigured to act as a host-based license, thereby restricting that license's availability to one specific machine."
 weight: 2
 aliases: 
-    - TA_Administration/Topics/LS_TA_converting_floating_to_host_based.html
+    - /TA_Administration/Topics/LS_TA_converting_floating_to_host_based.html
+keywords: "licenses, converting floating to host-based"
 ---
 
 Any floating license can be reconfigured to act as a host-based license, thereby restricting that license's availability to one specific machine. This process is completely reversible; any host-based license can be converted back into a floating license.
@@ -12,7 +14,7 @@ Any floating license can be reconfigured to act as a host-based license, thereby
 
 To convert a license from floating to host-based:
 
-1.  On the license server machine, start the License Server Control Panel. \([Learn more](LS_TA_managing_start_stop.md).\)
+1.  On the license server machine, start the License Server Control Panel. \([Learn more](/TA_Administration/Topics/LS_TA_managing_start_stop.html).\)
 
 2.  Select a floating license package node that you want to convert.
 
@@ -37,9 +39,6 @@ To convert a license from floating to host-based:
     -   A new node appears in the **Host-Based License** tree, directly beneath the appropriate subnode \(Universal License or Agent License\). This node represents the specific host-based license you created and displays the IP address and host name of the machine you specified.
     -   Additionally, both the **Issued** and Available statistics have been reduced by 1, because a license has been removed from the pool of floating licenses and converted into a host-based license.
 
-**Parent topic:**[License conversion](../../TA_Administration/Topics/LS_TA_license_conversion.md)
 
-**Previous topic:**[Acquiring a temporary Universal license](../../TA_Administration/Topics/LS_TA_acquiring_temporary_enterprise_license.md)
 
-**Next topic:**[Converting a host-based license into a floating license](../../TA_Administration/Topics/LS_TA_converting_host_based_to_floating.md)
 

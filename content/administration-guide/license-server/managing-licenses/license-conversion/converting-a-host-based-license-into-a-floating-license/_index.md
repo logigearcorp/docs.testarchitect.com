@@ -1,9 +1,11 @@
 --- 
 title: "Converting a host-based license into a floating license"
 linktitle: "Converting a host-based license into a floating license"
+description: "Any host-based license can be reconfigured to act as a floating license, thereby freeing that license from a specific machine."
 weight: 3
 aliases: 
-    - TA_Administration/Topics/LS_TA_converting_host_based_to_floating.html
+    - /TA_Administration/Topics/LS_TA_converting_host_based_to_floating.html
+keywords: "licenses, converting host-based to floating"
 ---
 
 Any host-based license can be reconfigured to act as a floating license, thereby freeing that license from a specific machine. This process is completely reversible; any floating license may be converted back into a host-based license.
@@ -12,7 +14,7 @@ Any host-based license can be reconfigured to act as a floating license, thereby
 
 To convert a license from host-based to floating:
 
-1.  On the license server machine, start the License Server Control Panel. \([Learn more](LS_TA_managing_start_stop.md).\)
+1.  On the license server machine, start the License Server Control Panel. \([Learn more](/TA_Administration/Topics/LS_TA_managing_start_stop.html).\)
 
 2.  Select the node representing the host-based license you want to remove.
 
@@ -37,7 +39,5 @@ To convert a license from host-based to floating:
     When the license type of the host machine is converted from host-based to floating, that machine must rely on the floating pool of licenses and will no longer be guaranteed a license when it requests one.
 
 
-**Parent topic:**[License conversion](../../TA_Administration/Topics/LS_TA_license_conversion.md)
 
-**Previous topic:**[Converting a floating license into a host-based license](../../TA_Administration/Topics/LS_TA_converting_floating_to_host_based.md)
 

@@ -1,14 +1,16 @@
 --- 
 title: "Starting the repository server"
 linktitle: "Starting the repository server"
+description: "This section describes procedures for starting the repository server."
 weight: 1
 aliases: 
-    - TA_Administration/Topics/Starting_repository_server.html
+    - /TA_Administration/Topics/Starting_repository_server.html
+keywords: "repository server, starting, repository"
 ---
 
 This section describes procedures for starting the repository server.
 
-1.  [Launch](Repo_server_management_launching.md) the Repository Server Control Panel.
+1.  [Launch](/TA_Administration/Topics/Repo_server_management_launching.html) the Repository Server Control Panel.
 
     A successful launching of the Repository Server Control Panel ensures that the TA Repository Server service is running.
 
@@ -21,5 +23,4 @@ This section describes procedures for starting the repository server.
 
 Once the server has successfully started, the control panel closes and the **Repository Server** icon ![](/images/TA_Administration/Images/admin_RS_icn_RSrunning.png) appears in your notification area \(Windows/Linux\), or in the **Status** menu \(macOS\) with a green arrow to indicate that the server is running.
 
-**Parent topic:**[Starting and stopping the repository server](../../TA_Administration/Topics/Repo_server_management_starting_stopping.md)
 

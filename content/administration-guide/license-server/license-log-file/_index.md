@@ -1,9 +1,11 @@
 --- 
 title: "License log file"
 linktitle: "License log file"
+description: "The license log file tracks license requests submitted to the license server. It can be helpful in interpreting events and problems."
 weight: 9
 aliases: 
-    - TA_Administration/Topics/adm_License_server_log_file.html
+    - /TA_Administration/Topics/adm_License_server_log_file.html
+keywords: "licenses, log file entry"
 ---
 
 The license log file tracks license requests submitted to the license server. It can be helpful in interpreting events and problems.
@@ -14,7 +16,7 @@ To open and view license log files, click the **Open License Log Folder** ![](/i
 -   Linux: /usr/local/logigear/testarchitect/data/ls/logging
 -   macOS: Note that the TestArchitect License Server is not currently supported on macOS.
 
-**Important:** The TestArchitect License Server stores a single log file for each month. You may configure the length of time for files to be retained. \([Learn more](adm_License_server_log_file_configuration.md).\)
+**Important:** The TestArchitect License Server stores a single log file for each month. You may configure the length of time for files to be retained. \([Learn more](/TA_Administration/Topics/adm_License_server_log_file_configuration.html).\)
 
 The license log file of a given TestArchitect license server consists of records containing information on license requests submitted by client machines, and the outcomes of those requests. This information is stored to a .CSV log file and formatted as below:
 
@@ -45,12 +47,9 @@ The contents of the log file records are as follows:
     |Request denied. No valid licenses available|The request is denied. TestArchitect has determined that there are no available unexpired licenses.|
 
 
--   **[Configuring license log file](../../TA_Administration/Topics/adm_License_server_log_file_configuration.md)**  
+-   **[Configuring license log file](/TA_Administration/Topics/adm_License_server_log_file_configuration.html)**  
 How to configure the number of retained license log files.
 
-**Parent topic:**[License server for TestArchitect](../../TA_Administration/Topics/LS_TA_License_server.md)
 
-**Previous topic:**[Managing licenses](../../TA_Administration/Topics/LS_TA_managing_licenses.md)
 
-**Next topic:**[Troubleshooting the TestArchitect License Server](../../TA_Administration/Topics/adm_LS_troubleshooting.md)
 

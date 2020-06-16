@@ -1,9 +1,11 @@
 --- 
 title: "Troubleshooting repository export"
 linktitle: "Troubleshooting repository export"
+description: "A discussion of typical issues you may experience when exporting repositories from the Export Repository dialog box, and solutions to these issues."
 weight: 4
 aliases: 
-    - TA_Administration/Topics/adm_Exporting_repository_troubleshooting.html
+    - /TA_Administration/Topics/adm_Exporting_repository_troubleshooting.html
+keywords: "exporting repositories, troubleshooting"
 ---
 
 A discussion of typical issues you may experience when exporting repositories from the Export Repository dialog box, and solutions to these issues.
@@ -14,14 +16,11 @@ If TestArchitect is unsuccessful in exporting repository files, the status of ea
 
 The following table describes the error message\(s\) that you may encounter while exporting repository files, and their detailed descriptions .
 
+|||
+|------|------|
 |**Message**|**Description**|
-|Unable to find the file at specified path. Make sure the destination folder is writeable.
+|Unable to find the file at specified path. Make sure the destination folder is writeable.<br><br>|This error is commonly encountered when you do not have write permission on the destination folder.|<br>
 
-|This error is commonly encountered when you do not have write permission on the destination folder.|
 
-**Parent topic:**[Exporting/Importing repositories](../../TA_Administration/Topics/adm_Exporting_import_repository.md)
 
-**Previous topic:**[Importing a repository as a replication](../../TA_Administration/Topics/Importing_repository_replication.md)
-
-**Next topic:**[Troubleshooting repository import](../../TA_Administration/Topics/adm_Importing_repository_troubleshooting.md)
 

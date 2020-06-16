@@ -1,9 +1,11 @@
 --- 
 title: "Transferring a node-locked machine license"
 linktitle: "Transferring a node-locked machine license"
+description: "Within certain limits, you are free to transfer a node-locked license from one machine to another, as you might wish to do when upgrading to a new test machine."
 weight: 2
 aliases: 
-    - TA_Administration/Topics/LS_TA_changing_node-locked_machine.html
+    - /TA_Administration/Topics/LS_TA_changing_node-locked_machine.html
+keywords: "licenses, node-locked, transferring to another machine, node-locked, changing machines"
 ---
 
 Within certain limits, you are free to transfer a node-locked license from one machine to another, as you might wish to do when upgrading to a new test machine.
@@ -38,7 +40,5 @@ To transfer a node-locked license to another machine:
 
 **Important:** Once you have successfully assigned or reassigned a node-locked license to a new machine, you are granted a 24-hour “grace” period, during which you are free to re-transfer the license to another machine. After the 24-hour grace period, a 72-hour lock-in period kicks in. For the duration of the lock-in period, you are restricted from transferring the node-locked license. Upon expiration of the lock-in period, you are once again free to transfer the license. This 24/72-hour policy applies on every subsequent occasion that the node-locked license is transferred.
 
-**Parent topic:**[Node-locked licenses](../../TA_Administration/Topics/LS_TA_node-locked_licenses.md)
 
-**Previous topic:**[Assigning a node-locked license](../../TA_Administration/Topics/LS_TA_assigning_node-locked_license.md)
 

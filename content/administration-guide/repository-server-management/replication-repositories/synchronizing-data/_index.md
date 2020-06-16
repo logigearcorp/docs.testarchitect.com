@@ -1,9 +1,11 @@
 --- 
 title: "Synchronizing data"
 linktitle: "Synchronizing data"
+description: "Data synchronization between the primary repository and the replication repository is a two-way process. Each modification to the primary repository is synchronized with the replication repository, and vice-versa."
 weight: 4
 aliases: 
-    - TA_Administration/Topics/adm_Synchronizing_data.html
+    - /TA_Administration/Topics/adm_Synchronizing_data.html
+keywords: "replication repositories, data synchronization, synchronizing data (primary/replication repositories), data synchronization (primary/replication repositories)"
 ---
 
 Data synchronization between the primary repository and the replication repository is a two-way process. Each modification to the primary repository is synchronized with the replication repository, and vice-versa.
@@ -12,7 +14,7 @@ Data synchronization between the primary repository and the replication reposito
 
 To synchronize data, do the following:
 
-1.  On the host that acts as primary server, [start](Repo_server_management_launching.md) the Repository Server Control Panel dialog box.
+1.  On the host that acts as primary server, [start](/TA_Administration/Topics/Repo_server_management_launching.html) the Repository Server Control Panel dialog box.
 
 2.  In the dialog box, select the primary repository to be set up for synchronization.
 
@@ -39,12 +41,10 @@ To synchronize data, do the following:
 5.  Click **OK**.
 
 
-**Parent topic:**[Replication repositories](../../TA_Administration/Topics/Repo_server_management_replication_repo.md)
 
-**Previous topic:**[Breaking primary-replication relationship](../../TA_Administration/Topics/adm_Removing_primary_repication_repository_main.md)
 
 **Related information**  
 
 
-[Troubleshooting power outage-related problems](../../TA_Administration/Topics/adm_troubleshooting_power_blackout.md)
+[Troubleshooting power outage-related problems](/TA_Administration/Topics/adm_troubleshooting_power_blackout.html)
 

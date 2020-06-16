@@ -1,9 +1,11 @@
 --- 
 title: "Stopping the repository server"
 linktitle: "Stopping the repository server"
+description: "This section describes procedures for stopping the repository server."
 weight: 2
 aliases: 
-    - TA_Administration/Topics/Stopping_repository_server.html
+    - /TA_Administration/Topics/Stopping_repository_server.html
+keywords: "repository server, stopping, repository"
 ---
 
 This section describes procedures for stopping the repository server.
@@ -15,5 +17,4 @@ This section describes procedures for stopping the repository server.
 2.  A progress bar appears in the status area with the message, Stopping server. After a few seconds, the progress bar disappears and the message The repository server is stopped appears.
 
 
-**Parent topic:**[Starting and stopping the repository server](../../TA_Administration/Topics/Repo_server_management_starting_stopping.md)
 

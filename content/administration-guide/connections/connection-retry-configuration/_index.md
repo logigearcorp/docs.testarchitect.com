@@ -1,16 +1,18 @@
 --- 
 title: "Connection retry configuration"
 linktitle: "Connection retry configuration"
+description: "TestArchitect allows you to set the number of attempts for a failed connection which a TA component establishes to another component. For example, the TestArchitect Controller connects to a TestArchitect repository."
 weight: 1
 aliases: 
-    - TA_Administration/Topics/Connection_retry_configuration.html
+    - /TA_Administration/Topics/Connection_retry_configuration.html
+keywords: "configuration, connection retry, connect retries"
 ---
 
 TestArchitect allows you to set the number of attempts for a failed connection which a TA component establishes to another component. For example, the TestArchitect Controller connects to a TestArchitect repository.
 
 **Note:** Applies to TestArchitect 8.4 Update 2 and higher
 
-## TestArchitect Controller {#section_q2s_jdb_yfb .section}
+## TestArchitect Controller
 
 The procedure below describes how to define the number of connection retries for the TestArchitect Controller.
 
@@ -25,5 +27,4 @@ The procedure below describes how to define the number of connection retries for
 
 4.  Save the file.
 
-**Parent topic:**[Connections](../../TA_Administration/Topics/Connections.md)
 

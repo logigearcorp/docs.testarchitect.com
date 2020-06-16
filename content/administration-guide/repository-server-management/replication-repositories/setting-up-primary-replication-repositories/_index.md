@@ -1,9 +1,11 @@
 --- 
 title: "Setting up primary/replication repositories"
 linktitle: "Setting up primary/replication repositories"
+description: "Replication repositories are created during a repository import. This process also establishes a relationship between the primary repository and replication repository."
 weight: 2
 aliases: 
-    - TA_Administration/Topics/adm_Setting_up_primary_replication_repository.html
+    - /TA_Administration/Topics/adm_Setting_up_primary_replication_repository.html
+keywords: "repositories, setting up primary and replication, setting up replication repositories, configuring replication repositories, replication repositories, configurations"
 ---
 
 Replication repositories are created during a repository import. This process also establishes a relationship between the primary repository and replication repository.
@@ -15,7 +17,7 @@ Ensure that the following requirements are met:
 
 To set up a repository as a replication repository, do the following:
 
-1.  If not already running, [open](Repo_server_management_launching.md) the Repository Server Control Panel dialog box.
+1.  If not already running, [open](/TA_Administration/Topics/Repo_server_management_launching.html) the Repository Server Control Panel dialog box.
 
 2.  Click **Import Repository** ![](/images/TA_Administration/Images/btn.RS_import_repo.png) on the toolbar, or select **Tools** \> **Import Repository**.
 
@@ -39,7 +41,7 @@ To set up a repository as a replication repository, do the following:
 
     A status bar indicating the progress of the import is visible in the bottom left corner of the Import Repository dialog box.
 
-    **Note:** If the status of the imported repository files is Error, please refer to [Troubleshooting repository import](adm_Importing_repository_troubleshooting.md).
+    **Note:** If the status of the imported repository files is Error, please refer to [Troubleshooting repository import](/TA_Administration/Topics/adm_Importing_repository_troubleshooting.html).
 
     When the import process finishes, a successful notification message replaces the progress bar in the status area. The successfully imported repositories display a status of Done.
 
@@ -76,14 +78,11 @@ To set up a repository as a replication repository, do the following:
 
 ![](/images/TA_Administration/Images/admin_RS_dlg_replication_5.png)
 
-**Parent topic:**[Replication repositories](../../TA_Administration/Topics/Repo_server_management_replication_repo.md)
 
-**Previous topic:**[Introduction to replication repositories](../../TA_Administration/Topics/Repo_server_management_replication_repo_intro.md)
 
-**Next topic:**[Breaking primary-replication relationship](../../TA_Administration/Topics/adm_Removing_primary_repication_repository_main.md)
 
 **Related information**  
 
 
-[Changing repository server port number](../../TA_Administration/Topics/Repo_changing_port.md)
+[Changing repository server port number](/TA_Administration/Topics/Repo_changing_port.html)
 

@@ -1,9 +1,11 @@
 --- 
 title: "Editing a user-defined field"
 linktitle: "Editing a user-defined field"
+description: "You can edit the Name, Short Name, or Default Value properties of all user-defined fields."
 weight: 2
 aliases: 
-    - TA_Administration/Topics/User_defined_fields_edit.html
+    - /TA_Administration/Topics/User_defined_fields_edit.html
+keywords: "user-defined fields, editing"
 ---
 
 You can edit the **Name**, **Short Name**, or **Default Value** properties of all user-defined fields.
@@ -23,6 +25,8 @@ The user-defined field is updated based on your changes.
 
 **Restriction:** When naming a user-defined field, avoid any of the following special characters:
 
+|||
+|------|------|
 |Apostrophe|'|
 |Quotation mark|"|
 |At sign|@|
@@ -54,9 +58,6 @@ Note also that:
 -   A period \(.\) is permitted anywhere in the name.
 -   Numeric digits are permitted anywhere in the name, except at the beginning.
 
-**Parent topic:**[User-defined fields](../../TA_Administration/Topics/User_defined_fields.md)
 
-**Previous topic:**[Creating a user-defined field](../../TA_Administration/Topics/User_defined_fields_create.md)
 
-**Next topic:**[Deleting a user-defined field](../../TA_Administration/Topics/User_defined_fields_delete.md)
 

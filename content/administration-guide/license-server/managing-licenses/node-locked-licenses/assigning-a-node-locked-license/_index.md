@@ -1,9 +1,11 @@
 --- 
 title: "Assigning a node-locked license"
 linktitle: "Assigning a node-locked license"
+description: "Assigning a node-locked license binds that license to a machine for a given period of time."
 weight: 1
 aliases: 
-    - TA_Administration/Topics/LS_TA_assigning_node-locked_license.html
+    - /TA_Administration/Topics/LS_TA_assigning_node-locked_license.html
+keywords: "licenses, node-locked, adding machines, adding, node-locked machines"
 ---
 
 Assigning a node-locked license binds that license to a machine for a given period of time.
@@ -44,7 +46,5 @@ To assign a node-locked license to a machine:
 
 If the machine that you are requesting the node-locked license for is not on any assigned-license list, the license server issues a node-locked license to it, and the number of available licenses decreases accordingly.
 
-**Parent topic:**[Node-locked licenses](../../TA_Administration/Topics/LS_TA_node-locked_licenses.md)
 
-**Next topic:**[Transferring a node-locked machine license](../../TA_Administration/Topics/LS_TA_changing_node-locked_machine.md)
 

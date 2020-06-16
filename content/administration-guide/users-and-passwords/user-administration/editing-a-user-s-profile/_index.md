@@ -1,16 +1,18 @@
 --- 
 title: "Editing a user's profile"
 linktitle: "Editing a user's profile"
+description: "As an administrator, you can edit the data in a repository user's profile."
 weight: 4
 aliases: 
-    - TA_Administration/Topics/adm_users_modifying_profile.html
+    - /TA_Administration/Topics/adm_users_modifying_profile.html
+keywords: "user administration, editing user profile"
 ---
 
 As an administrator, you can edit the data in a repository user's profile.
 
 To edit a repository user's profile, do the following:
 
-1.  Invoke the [Manage Users](../../reuse/../TA_Administration/Topics/adm_users_invoking_Manage_Users.md) Manager Users dialog box for a given repository. \(You can do this by right-clicking the **Administration** node and then selecting **Manage Users**.\)
+1.  Invoke the [Manage Users](/reuse/../TA_Administration/Topics/adm_users_invoking_Manage_Users.html) Manager Users dialog box for a given repository. \(You can do this by right-clicking the **Administration** node and then selecting **Manage Users**.\)
 
 2.  From the Users panel, select a user account which is to have its information modified.
 
@@ -24,7 +26,7 @@ To edit a repository user's profile, do the following:
 
         **Note:**
 
-        -   If the repository is already configured for [LDAP authentication](../../TA_Help/Topics/ug_LDAP_connection.md), the domain name is auto-filled in.
+        -   If the repository is already configured for [LDAP authentication](/TA_Help/Topics/ug_LDAP_connection.html), the domain name is auto-filled in.
         -   Within a repository, only one TestArchitect user name may be mapped to a given LDAP user name. \(Note, however, that this does not restrict you from concurrently allowing a different TestArchitect user name of a different repository to be mapped to the same LDAP user name.\)
     -   First Name, Last Name, Email, Phone: \(Optional\) Additional user information.
     ![](/images/TA_Administration/Images/editing_profile.png)
@@ -32,9 +34,6 @@ To edit a repository user's profile, do the following:
 5.  Click **Apply**.
 
 
-**Parent topic:**[User administration](../../TA_Administration/Topics/User_administration.md)
 
-**Previous topic:**[Deleting a repository user](../../TA_Administration/Topics/adm_users_deleting.md)
 
-**Next topic:**[Changing a repository user's password](../../TA_Administration/Topics/adm_users_changing_password.md)
 

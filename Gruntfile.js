@@ -53,9 +53,10 @@ module.exports = function(grunt) {
             var pageIndex;
             // First separate the Front Matter from the content and parse it
             content = content.split("---");
-            var frontMatter;
+            var frontMatter="";
             try {
                 //grunt.log.writeln(content);
+                if(content[1])
                 frontMatter = toml.parse(content[1].trim());
             } catch (e) {
                 grunt.log.writeln(abspath);

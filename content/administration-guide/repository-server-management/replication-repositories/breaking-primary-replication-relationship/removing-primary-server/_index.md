@@ -1,9 +1,11 @@
 --- 
 title: "Removing primary server"
 linktitle: "Removing primary server"
+description: "Procedures for removing the primary server from a primary-replication relationship."
 weight: 2
 aliases: 
-    - TA_Administration/Topics/adm_Setting_up_primary_replication_repository_2.html
+    - /TA_Administration/Topics/adm_Setting_up_primary_replication_repository_2.html
+keywords: "repositories, breaking primary replication relationship, removing primary server, breaking primary replication relationship, primary repository, removing"
 ---
 
 Procedures for removing the primary server from a primary-replication relationship.
@@ -12,7 +14,7 @@ Procedures for removing the primary server from a primary-replication relationsh
 
 To remove the primary server, follow these steps:
 
-1.  On the host that acts as replication server, [start](Repo_server_management_launching.md) the Repository Server Control Panel dialog box.
+1.  On the host that acts as replication server, [start](/TA_Administration/Topics/Repo_server_management_launching.html) the Repository Server Control Panel dialog box.
 
 2.  In the dialog box, select the primary repository which is to be removed from the primary-replication relationship.
 
@@ -33,5 +35,4 @@ The selected primary server is removed from the primary-replication relationship
 
 ![](/images/TA_Administration/Images/Replication_primary_relationship_4.png)
 
-**Parent topic:**[Breaking primary-replication relationship](../../TA_Administration/Topics/adm_Removing_primary_repication_repository_main.md)
 

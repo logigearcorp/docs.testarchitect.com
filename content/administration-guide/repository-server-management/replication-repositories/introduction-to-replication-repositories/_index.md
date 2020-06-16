@@ -1,9 +1,11 @@
 --- 
 title: "Introduction to replication repositories"
 linktitle: "Introduction to replication repositories"
+description: "A replication repository is a mirror copy of a primary repository. Data between a replication repository and its designated primary repository are automatically synchronized and maintained."
 weight: 1
 aliases: 
-    - TA_Administration/Topics/Repo_server_management_replication_repo_intro.html
+    - /TA_Administration/Topics/Repo_server_management_replication_repo_intro.html
+keywords: "replication repository, repositories, replication, synchronization, between repositories, primary-replication repository architecture, benefits of"
 ---
 
 A replication repository is a mirror copy of a primary repository. Data between a replication repository and its designated primary repository are automatically synchronized and maintained.
@@ -26,7 +28,5 @@ The significant functions related to primary/replication-repositories are:
     -   Removing a replication repository from a primary/replication-repository relationship
     -   Removing a primary repository from a primary/replication-repository relationship
 
-**Parent topic:**[Replication repositories](../../TA_Administration/Topics/Repo_server_management_replication_repo.md)
 
-**Next topic:**[Setting up primary/replication repositories](../../TA_Administration/Topics/adm_Setting_up_primary_replication_repository.md)
 

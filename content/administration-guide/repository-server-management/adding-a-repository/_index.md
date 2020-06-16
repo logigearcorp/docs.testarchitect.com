@@ -1,23 +1,25 @@
 --- 
 title: "Adding a repository"
 linktitle: "Adding a repository"
+description: "A new repository can be added from the Repository Server Control Panel or from within TestArchitect Client."
 weight: 6
 aliases: 
-    - TA_Administration/Topics/Repo_server_management_adding.html
+    - /TA_Administration/Topics/Repo_server_management_adding.html
+keywords: "Repository Server Control Panel, Add repository command, adding a repository, repositories, adding a"
 ---
 
 A new repository can be added from the Repository Server Control Panel or from within TestArchitect Client.
 
-Ensure that the repository service is [running](Starting_repository_server.md).
+Ensure that the repository service is [running](/TA_Administration/Topics/Starting_repository_server.html).
 
 **Note:**
 
 -   The Repository Server Control Panel can be used to add a new repository to the local host.
--   TestArchitect Client, on the other hand, can be used to add a new repository to any available host. To create a repository from TestArchitect Client, refer to [Creating a repository](../../TA_Help/Topics/Repository_creating.md).
+-   TestArchitect Client, on the other hand, can be used to add a new repository to any available host. To create a repository from TestArchitect Client, refer to [Creating a repository](/TA_Help/Topics/Repository_creating.html).
 
 To add a new repository from the Repository Server Control Panel:
 
-1.  If not already running, start the [Repository Server Control Panel](Repo_server_management_launching.md).
+1.  If not already running, start the [Repository Server Control Panel](/TA_Administration/Topics/Repo_server_management_launching.html).
 
 2.  Click **Add Repository** ![](/images/TA_Administration/Images/btn.RS_add_repo.png) on the toolbar.
 
@@ -38,9 +40,6 @@ To add a new repository from the Repository Server Control Panel:
 
 After a short time, the repository is created and appears in the Repository List panel.
 
-**Parent topic:**[Repository Server Management](../../TA_Administration/Topics/Repo_server_management.md)
 
-**Previous topic:**[Terminating the Repository Server service](../../TA_Administration/Topics/Repo_server_management_terminating.md)
 
-**Next topic:**[Setting a password requirement](../../TA_Administration/Topics/Repo_server_management_setting_pw.md)
 

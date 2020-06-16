@@ -1,19 +1,21 @@
 --- 
 title: "Upgrading the repository database for time-traveling execution"
 linktitle: "Upgrading the repository database for time-traveling execution"
+description: "Upgrading of legacy databases is required to enable time-traveling execution to function correctly."
 weight: 17
 aliases: 
-    - TA_Administration/Topics/adm_database_upgrade_time_traveling.html
+    - /TA_Administration/Topics/adm_database_upgrade_time_traveling.html
+keywords: "repositories, database upgrade, time traveling, upgrades, repository databases, time traveling, time traveling, database upgrade, test execution, backward, database upgrade, execution, backward, database upgrade, running, executing"
 ---
 
 Upgrading of legacy databases is required to enable time-traveling execution to function correctly.
 
 -   Note that this upgrade is required only for legacy repository databases created prior to TestArchitect version 8.2, and only if you expect to have a need to invoke time travelling for those databases.
--   Note also that if you attempt to use time travelling with a database that has not yet been upgraded, once you select the [**Time Traveling**](../../TA_Help/Topics/ug_time_traveling_execution.md#cmd_ihj_gjf_5s) check box in the Execute Test dialog box,TestArchitect prompts you to run the upgrade with the message: This repository has not yet been upgraded for time travel functionality. Please contact your administrator to upgrade it before using it with time traveling.
+-   Note also that if you attempt to use time travelling with a database that has not yet been upgraded, once you select the [**Time Traveling**](/TA_Help/Topics/ug_time_traveling_execution.html#cmd_ihj_gjf_5s) check box in the Execute Test dialog box,TestArchitect prompts you to run the upgrade with the message: This repository has not yet been upgraded for time travel functionality. Please contact your administrator to upgrade it before using it with time traveling.
 
 The database upgrade process can be initiated by doing the following:
 
-1.  [Open the Repository Server Control Panel](Repo_server_management_launching.md).
+1.  [Open the Repository Server Control Panel](/TA_Administration/Topics/Repo_server_management_launching.html).
 
 2.  In the TestArchitect Repository Server - Control Panel dialog box, click the **Upgrade Repository** ![](/images/TA_Administration/Images/upgrade_database_btn.png) button on the toolbar.
 
@@ -26,7 +28,7 @@ The database upgrade process can be initiated by doing the following:
     **Fastpath:** To select all repositories, click the **Repository Name** check box.
 
     -   The **Ready** text in the **Status** column indicates that a given repository is ready to be upgraded.
-    -   The **Warning...** text in the **Status** column indicates that the given repository is a supplier repository to subscribers that have not yet been upgraded \([learn more](../../TA_Help/Topics/Project_subscription.md)\). In order for a supplier repository to be upgraded, all its subscriber repositories must first be time travel-ready.
+    -   The **Warning...** text in the **Status** column indicates that the given repository is a supplier repository to subscribers that have not yet been upgraded \([learn more](/TA_Help/Topics/Project_subscription.html)\). In order for a supplier repository to be upgraded, all its subscriber repositories must first be time travel-ready.
 
         **Tip:** To see the full list of subscriber repositories, click the **Warning...** text.
 
@@ -46,11 +48,8 @@ The database upgrade process can be initiated by doing the following:
     -   If you click the Cancel button to abort an ongoing upgrade process, the status of the repository is displayed as Cancelled..., and the repository restored to its pre-converted state. Click the **Cancelled...** link to view details of the problem.
     -   When the upgrade process finishes, a notification to that effect replaces the progress bar in the status area. Successfully upgraded repositories display a status of Done.
 
-Those repositories that are successfully upgraded are now time travel-ready. [Time-traveling](../../TA_Help/Topics/ug_time_traveling.md) can now be invoked at runtime for any test modules belonging to these upgraded repositories.
+Those repositories that are successfully upgraded are now time travel-ready. [Time-traveling](/TA_Help/Topics/ug_time_traveling.html) can now be invoked at runtime for any test modules belonging to these upgraded repositories.
 
-**Parent topic:**[Repository Server Management](../../TA_Administration/Topics/Repo_server_management.md)
 
-**Previous topic:**[Upgrading the repository database for name change propagation](../../TA_Administration/Topics/Repo_database_upgrade.md)
 
-**Next topic:**[Clearing hit list periodically](../../TA_Administration/Topics/adm_clear_hitlist.md)
 

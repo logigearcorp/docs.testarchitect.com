@@ -1,9 +1,11 @@
 --- 
 title: "Exporting repositories"
 linktitle: "Exporting repositories"
+description: "How to export repositories."
 weight: 1
 aliases: 
-    - TA_Administration/Topics/Repo_server_management_exporting.html
+    - /TA_Administration/Topics/Repo_server_management_exporting.html
+keywords: "repositories, exporting, Repository Server Control Panel, exporting repositories"
 ---
 
 How to export repositories.
@@ -12,7 +14,7 @@ In your host file system, ensure that you have write permission on the folder to
 
 To export repositories, perform the following:
 
-1.  If not already running, [start](Repo_server_management_launching.md) the Repository Server Control Panel dialog box.
+1.  If not already running, [start](/TA_Administration/Topics/Repo_server_management_launching.html) the Repository Server Control Panel dialog box.
 
 2.  Select a repository from the Repository List panel.
 
@@ -35,7 +37,7 @@ To export repositories, perform the following:
 
     A status bar indicating the progress of the export is visible in the bottom left corner of the Export Repository dialog box.
 
-    **Note:** If the status of the exported repository files is Error, please refer to [Troubleshooting repository export](adm_Exporting_repository_troubleshooting.md).
+    **Note:** If the status of the exported repository files is Error, please refer to [Troubleshooting repository export](/TA_Administration/Topics/adm_Exporting_repository_troubleshooting.html).
 
     When the export process completes, a successful notification message replaces the progress bar in the status area. The successfully exported repositories display a status of Done.
 
@@ -44,7 +46,5 @@ To export repositories, perform the following:
 7.  Click **Close** to exit the Export Repository dialog box.
 
 
-**Parent topic:**[Exporting/Importing repositories](../../TA_Administration/Topics/adm_Exporting_import_repository.md)
 
-**Next topic:**[Importing repositories](../../TA_Administration/Topics/Repo_server_management_importing.md)
 

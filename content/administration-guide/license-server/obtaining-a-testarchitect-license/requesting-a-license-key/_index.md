@@ -1,9 +1,11 @@
 --- 
 title: "Requesting a license key"
 linktitle: "Requesting a license key"
+description: "License keys may be requested from your TestArchitect or LogiGear sales representative using the Request TestArchitect Licenses dialog box."
 weight: 1
 aliases: 
-    - TA_Administration/Topics/LS_TA_requesting_key.html
+    - /TA_Administration/Topics/LS_TA_requesting_key.html
+keywords: "licenses, requesting license keys"
 ---
 
 License keys may be requested from your TestArchitect or LogiGear sales representative using the Request TestArchitect Licenses dialog box.
@@ -25,7 +27,7 @@ License keys may be requested from your TestArchitect or LogiGear sales represen
     -   TestArchitect automatically generates a host certificate \(which appears as a string of text in the **Host Certificate** text box on the **License Request Information** panel\) based on your machine's fully qualified domain name \(FQDN\) or its IP address. This host certificate is used by LogiGear to provide you with a license key specific to your machine. Since the host certificate is now generated based on either the FQDN or IP address, you may change the current license server machine to another one as long as its FQDN or IP address remains unchanged.
     ![](/images/TA_Administration/Images/licenseserver_9-1.png)
 
-3.  In the **Edition** field, select a type of TestArchitect [edition](TA_Editions.md) that you want.
+3.  In the **Edition** field, select a type of TestArchitect [edition](/TA_Administration/Topics/TA_Editions.html) that you want.
 
     -   Enterprise: TestArchitect Enterprise, or Premium edition, is suitable for enterprise teams. It includes all TestArchitect features, and has no time and usage limits.
     -   Team: TestArchitect Team, or Free edition, is prefect for small teams. It basically includes all TestArchitect features \(no feature limit\). There is also no time limit, that is, you can use TestArchitect for free, forever. However, there are other usage limits - number of repository server that can be connected simultaneously, number of created test cases/test modules, etc. Therefore, when you select TestArchitect Team, the License Request Information panel will be automatically filled in the following information; however, note that theses fields are not editable.
@@ -59,8 +61,8 @@ License keys may be requested from your TestArchitect or LogiGear sales represen
 
 7.  Select the type of license and the number of licenses that you want to request or upgrade for the TestArchitect Enterprise edition.
 
-    -   Number of Floating Licenses: \([Universal](TA_Editions.md#note_Universal.license) licenses\) A floating license is one that can be reused among members of an organization and is not tied to any one particular person or machine.
-    -   Number of Node-Locked Licenses: \([Universal](TA_Editions.md#note_Universal.license) licenses\) A node-locked license is granted to a specific machine, and when that machine is not using the node-locked license, the license generally goes unused.
+    -   Number of Floating Licenses: \([Universal](/TA_Administration/Topics/TA_Editions.html#note_Universal.license) licenses\) A floating license is one that can be reused among members of an organization and is not tied to any one particular person or machine.
+    -   Number of Node-Locked Licenses: \([Universal](/TA_Administration/Topics/TA_Editions.html#note_Universal.license) licenses\) A node-locked license is granted to a specific machine, and when that machine is not using the node-locked license, the license generally goes unused.
     -   Number of Agent Licenses: Only allows users to execute tests.
 8.  To receive your TestArchitect licenses, the host certificate must be sent to TestArchitect Sales or to your LogiGear representative. You may choose to have the host certificate sent automatically, or you can email the information yourself to the TestArchitect sales team at [mailto:sales@logigear.com](mailto:sales@logigear.com). Use one of the two options presented to you at the bottom of the dialog box.
 
@@ -71,7 +73,5 @@ License keys may be requested from your TestArchitect or LogiGear sales represen
 
 A LogiGear representative will respond to your email with details regarding your personal license key.
 
-**Parent topic:**[Obtaining a TestArchitect license](../../TA_Administration/Topics/LS_TA_obtaining_license.md)
 
-**Next topic:**[Adding new licenses](../../TA_Administration/Topics/LS_TA_adding_new_license.md)
 

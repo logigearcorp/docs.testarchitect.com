@@ -1,0 +1,56 @@
+--- 
+title: "set variable"
+linktitle: "set variable"
+description: "Description Assign a value to an existing local or global variable . If the variable has not been declared, declare a new global variable and assign a value to it. Arguments variable Name of the ..."
+weight: 10
+aliases: 
+    - /TA_Automation/Topics/bia_set_variable.html
+keywords: "built-in actions, set variable, set variable (action), set variable, assign value to variable, assign variable value, variable assignment, variable declaration and assignment"
+---
+
+## Description
+
+Assign a value to an existing [local](/TA_Automation/Topics/The_test_language_variables.html) or [global variable](/TA_Automation/Topics/The_test_language_variables.html). If the variable has not been declared, declare a new [global variable](/TA_Automation/Topics/The_test_language_variables.html) and assign a value to it.
+
+## Arguments
+
+-   **variable**
+
+    Name of the variable
+
+-   **value**
+
+    Value to assign to the variable.
+
+
+## Valid contexts
+
+This action may be used within the following project items:test modules and user-defined actions.
+
+## Notes
+
+-   In the event that multiple instances of a given variable name exist at the time set variable executes, the action operates on the one that is currently visible. \(See [Variables](/TA_Automation/Topics/The_test_language_variables.html) for more on visibility and scope.\) To ensure that the global instance of a given variable name is accessed \(assuming it exists\), use the [set global variable](/TA_Automation/Topics/bia_set_global_variable.html) action.
+-   Use variables within pound sign \(\#\) expressions to access their contained values.
+
+## Applicable Built-In Settings
+
+The following settings are applicable to this action:[remove double quotes from cells](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html)none.
+
+## Example
+
+**Action Lines**
+
+![](/images/TA_Automation/Images/bia_set_variable_pgm.png)
+
+**Result**
+
+![](/images/TA_Automation/Images/bia_set_variable_res.png)
+
+
+
+
+**Related information**  
+
+
+[Variables](/TA_Automation/Topics/The_test_language_variables.html)
+

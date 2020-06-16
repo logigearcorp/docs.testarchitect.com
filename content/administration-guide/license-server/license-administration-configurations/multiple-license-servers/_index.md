@@ -1,9 +1,11 @@
 --- 
 title: "Multiple license servers"
 linktitle: "Multiple license servers"
+description: "Several license servers can be used to administer licenses to clients. For example, one license server may handle only agent licensing, while another dedicated license server may administer full client/controller licensing."
 weight: 3
 aliases: 
-    - TA_Administration/Topics/LS_TA_multiple_license.html
+    - /TA_Administration/Topics/LS_TA_multiple_license.html
+keywords: "multiple license servers, licenses, multiple servers"
 ---
 
 Several license servers can be used to administer licenses to clients. For example, one license server may handle only agent licensing, while another dedicated license server may administer full client/controller licensing.
@@ -16,9 +18,6 @@ In the figure below, the license server on the left acts as an Universal license
 
 Of course, in an organization with a limited number of client, it is always preferable to assign Agent licenses to dedicated TestArchitect controllers, reserving the client licenses for client machines.
 
-**Parent topic:**[License administration configurations](../../TA_Administration/Topics/LS_TA_admin_config.md)
 
-**Previous topic:**[Host-based licenses](../../TA_Administration/Topics/LS_TA_host_based_license.md)
 
-**Next topic:**[Redundant license servers](../../TA_Administration/Topics/LS_TA_Redundant_license.md)
 

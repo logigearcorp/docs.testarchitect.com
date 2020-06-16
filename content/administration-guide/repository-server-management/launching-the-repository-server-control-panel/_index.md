@@ -1,9 +1,11 @@
 --- 
 title: "Launching the Repository Server Control Panel"
 linktitle: "Launching the Repository Server Control Panel"
+description: "How to start the TestArchitect Repository Server Control Panel on different operating systems."
 weight: 1
 aliases: 
-    - TA_Administration/Topics/Repo_server_management_launching.html
+    - /TA_Administration/Topics/Repo_server_management_launching.html
+keywords: "repository server control panel, launching, control panel, repository server"
 ---
 
 How to start the TestArchitect Repository Server Control Panel on different operating systems.
@@ -22,7 +24,5 @@ How to start the TestArchitect Repository Server Control Panel on different oper
     -   Click the **TestArchitect - Repository Server** ![](/images/TA_Administration/Images/admin_RS_icn_RSrunning.png) icon in your **Status** menu, then select **Show Monitor**.
     -   In the terminal interface, go to location /Applications/TestArchitect/repository, then execute the TARepository.sh file.
 
-**Parent topic:**[Repository Server Management](../../TA_Administration/Topics/Repo_server_management.md)
 
-**Next topic:**[Repository Server Control Panel user interface](../../TA_Administration/Topics/Repo_server_management_control_panel.md)
 

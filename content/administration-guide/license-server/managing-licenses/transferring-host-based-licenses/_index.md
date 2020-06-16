@@ -1,9 +1,11 @@
 --- 
 title: "Transferring host-based licenses"
 linktitle: "Transferring host-based licenses"
+description: "A license dedicated to a particular host can be reassigned to a different host as needed."
 weight: 7
 aliases: 
-    - TA_Administration/Topics/LS_TA_redirecting.html
+    - /TA_Administration/Topics/LS_TA_redirecting.html
+keywords: "transferring host-based licenses, licenses, transferring host-based"
 ---
 
 A license dedicated to a particular host can be reassigned to a different host as needed.
@@ -36,9 +38,6 @@ To transfer a host-based license to another machine:
 
 The host-based license is rescinded from the original host and is now available for the new host to use.
 
-**Parent topic:**[Managing licenses](../../TA_Administration/Topics/LS_TA_managing_licenses.md)
 
-**Previous topic:**[Reclaiming a floating license from a host](../../TA_Administration/Topics/LS_TA_reclaiming.md)
 
-**Next topic:**[Removing licenses](../../TA_Administration/Topics/LS_TA_revoking.md)
 

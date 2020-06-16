@@ -2,10 +2,14 @@
 {{- define "main" -}}
 <style>
     
-
+.image-container {
+    position: relative;
+    width: 100px;
+    min-height: 200px;
+}
     main{
-        max-width: unset;
-        flex: unset;
+        max-width: 100%;
+        flex: inherit;
     }
 
     .sidebar{
@@ -17,7 +21,7 @@
         border-radius: 5px;
         padding: 20px;
         margin-bottom: 30px;
-        min-height: 210px;
+        height: 240px;
         -webkit-box-shadow: 0px 0px 14px 0px rgba(219,215,219,0.7);
         -moz-box-shadow: 0px 0px 14px 0px rgba(219,215,219,0.7);
         box-shadow: 0px 0px 14px 0px rgba(219,215,219,0.7);
@@ -37,7 +41,7 @@
         color: black;
     }
     .img-fluid{
-        position: relative;
+        position: absolute;
         top: 50%;
         margin-top: -45px;
     }
@@ -55,16 +59,55 @@
     @media screen and (max-width: 480px) {
         .card{
             padding-left: 0px;
-            padding-right: 0px;
+            padding-right: 5px;
+            
+        }
+        .using-test {
+            height: 400px;
+        }
+        .admin-guide {
+            height: 260px;
+        }
+        .test-tutorial {
+            height: 280px;
+        }
+
+        .user-guide {
+            height: 350px;
+        }
+
+        .auto-guide {
+            height: 300px;
+        }
+    }
+
+    @media screen and (max-width: 740px) {
+     
+        .using-test {
+            height: 300px;
+        }
+        .admin-guide {
+            height: 200px;
+        }
+        .test-tutorial {
+            height: 210px;
+        }
+
+        .user-guide {
+            height: 280px;
+        }
+
+        .auto-guide {
+            height: 250px;
         }
     }
 </style>
 <div class="container">
     <div class="row">
       <div class="col-lg-6">
-        <div class="card">
+        <div class="card using-test">
             <div class="row no-gutters">
-                <div class="col-auto">
+                <div class="col-auto image-container">
                     <img src="/images/home/estArchitect Help system.png" class="img-fluid" alt="">
                 </div>
                 <div class="col">
@@ -78,9 +121,9 @@
         </div>
       </div>
       <div class="col-lg-6">
-        <div class="card administrate-guide">
+        <div class="card admin-guide">
             <div class="row no-gutters">
-                <div class="col-auto">
+                <div class="col-auto image-container">
                     <img src="/images/home/Administration Guide.png" class="img-fluid" alt="">
                 </div>
                 <div class="col">
@@ -98,9 +141,9 @@
 
       <div class="row">
         <div class="col-lg-6">
-            <div class="card testarchitect-tuto">
+            <div class="card test-tutorial">
                 <div class="row no-gutters">
-                    <div class="col-auto">
+                    <div class="col-auto image-container">
                         <img src="/images/home/TestArchitect TutorialTA Tutorial.png" class="img-fluid" alt="">
                     </div>
                     <div class="col">
@@ -115,9 +158,9 @@
         </div>
 
         <div class="col-lg-6">
-            <div class="card">
+            <div class="card user-guide">
                 <div class="row no-gutters">
-                    <div class="col-auto">
+                    <div class="col-auto image-container">
                         <img src="/images/home/User Guide.png" class="img-fluid" alt="">
                     </div>
                     <div class="col">
@@ -140,10 +183,10 @@
       <div class="row">
         <div class="col-lg-6">
 
-            <div class="card automation">
+            <div class="card auto-guide">
                 
                 <div class="row no-gutters">
-                    <div class="col-auto">
+                    <div class="col-auto image-container">
                         <img src="/images/home/Automation Guide.png" class="img-fluid" alt="">
                     </div>
                     <div class="col">

@@ -1,9 +1,11 @@
 --- 
 title: "Reclaiming a floating license from a host"
 linktitle: "Reclaiming a floating license from a host"
+description: "It may sometimes be necessary to reclaim a floating license from a host and return the license to the license pool."
 weight: 6
 aliases: 
-    - TA_Administration/Topics/LS_TA_reclaiming.html
+    - /TA_Administration/Topics/LS_TA_reclaiming.html
+keywords: "reclaiming a floating license, licenses, reclaiming floating licenses"
 ---
 
 It may sometimes be necessary to reclaim a floating license from a host and return the license to the license pool.This situation can arise when a floating license is not available for request and a host holding a floating license is inactive.
@@ -32,9 +34,6 @@ To reclaim a license and return it to the license pool:
 
 The floating license is reclaimed and the corresponding **Issued** and **Available** license counts are increased by one.
 
-**Parent topic:**[Managing licenses](../../TA_Administration/Topics/LS_TA_managing_licenses.md)
 
-**Previous topic:**[Upgrading node-locked into floating license keys](../../TA_Administration/Topics/adm_upgrading_node_locked_to_floating_licenses.md)
 
-**Next topic:**[Transferring host-based licenses](../../TA_Administration/Topics/LS_TA_redirecting.md)
 

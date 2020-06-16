@@ -1,9 +1,11 @@
 --- 
 title: "Default port numbers and port ranges"
 linktitle: "Default port numbers and port ranges"
+description: "During installation, TestArchitect assigns port number to components from a set of default port numbers. This topic lists the default port numbers and port number ranges which can be used to change the assigned port after installation."
 weight: 7
 aliases: 
-    - TA_Administration/Topics/adm_port_number_port_ranges.html
+    - /TA_Administration/Topics/adm_port_number_port_ranges.html
+keywords: "port number, default, port number, range, default port number, port number range, components, port number range"
 ---
 
 During installation, TestArchitect assigns port number to components from a set of default port numbers. This topic lists the default port numbers and port number ranges which can be used to change the assigned port after installation.
@@ -24,13 +26,7 @@ Many TestArchitect components use TCP/IP port numbers. In general, when establis
 |TestArchitect Java Agent|14205|14205-unlimited|
 |TestArchitect Register Server|23508|No range - port number is fixed at 23508.|
 |Team Foundation Server-Microsoft Test Manager integration|54000|54000-54099|
-|Lab Manager|Lab Manager has two different types of ports. 1.  Port 80 is the default port of the web server which launches Lab Manager from a web browser.
-2.  Port 53100 is the default TCP/IP listening port of the Lab Manager for communication with other TestArchitect components.
-
-|1.  If port 80 is unavailable, the next port is 54000, followed by 54001, 54002, etc.
-2.  If port 53100 is unavailable, the next port is 53100-53199.
-
-|
+|Lab Manager|Lab Manager has two different types of ports. 1.  Port 80 is the default port of the web server which launches Lab Manager from a web browser.<br>2.  Port 53100 is the default TCP/IP listening port of the Lab Manager for communication with other TestArchitect components.<br><br>|1.  If port 80 is unavailable, the next port is 54000, followed by 54001, 54002, etc.<br>2.  If port 53100 is unavailable, the next port is 53100-53199.<br><br>|<br>
 |TestArchitect command Line|53800|53800-53899|
 |Firefox extension/plug-in|1000|1000-unlimited|
 |Chrome extension/plug-in|1000|1000-unlimited|
@@ -38,9 +34,6 @@ Many TestArchitect components use TCP/IP port numbers. In general, when establis
 |QT agent|1000|1000-unlimited|
 |Android port forwarder \(adb/cable mode\)|53301|53301-53391|
 
-**Parent topic:**[Administration Guide](../../TA_Administration/Topics/Administration_Guide_begin.md)
 
-**Previous topic:**[TestArchitect Register Server](../../TA_Administration/Topics/adm_taregserver.md)
 
-**Next topic:**[Connections](../../TA_Administration/Topics/Connections.md)
 

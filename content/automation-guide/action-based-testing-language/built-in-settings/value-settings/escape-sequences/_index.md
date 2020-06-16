@@ -1,0 +1,62 @@
+--- 
+title: "escape sequences"
+linktitle: "escape sequences"
+description: "Description Determines whether, during test execution, escape sequences should be supported during string processing. Allowable values yes/true Executes automated tests with support for escape ..."
+weight: 2
+aliases: 
+    - /TA_Automation/Topics/bis_escape_sequences.html
+keywords: "built-in settings, escape sequences, settings, escape sequences, escape sequences (settings), escape sequences, escape sequences are supported, escape sequences are allowable, escape sequences are not supported"
+---
+
+## Description
+
+Determines whether, during test execution, escape sequences should be supported during string processing.
+
+## Allowable values
+
+-   **yes/true**
+
+    Executes automated tests with support for escape sequences.
+
+-   **no/false**
+
+    Executes in the legacy mode. That is, character strings that would otherwise be treated as escape sequences are *not* given special treatment.
+
+
+## Default value
+
+no/false
+
+## Notes
+
+-   In order to maintain backward support for legacy test procedures \(those prior to TestArchitect version [8.2](/TA_ReleaseNotes/DITA_source/Whats_New_8.2.html)\), the default value of the escape sequences setting is No/False. However, for new tests, it is highly recommended that you set escape sequences to Yes/True, to allow for the added functionality.
+-   Escape sequences in TestArchitect are character combinations consisting of a backslash \(\\\) followed by a letter or sequence of digits. The full set of supported escape sequences is a subset of those used by [Microsoft Visual Studio](https://msdn.microsoft.com/en-us/library/h21280bw.aspx). The following table lists those that are supported in the current version of TestArchitect.
+
+    |Escape Sequence|Represents|
+    |---------------|----------|
+    |\\b|Backspace<br><br>|<br>
+    |\\f|Formfeed|
+    |\\n|Newline|
+    |\\r|Carriage Return|
+    |\\t|Horizontal Tab|
+    |\\v|Vertical Tab|
+    |\\\\|Backslash|
+    |\\'|Single quote mark|
+    |\\"|Double quote mark|
+    |\\?|Question mark|
+    |\\nnn|The character whose [ASCII](http://www.asciitable.com/) value is nnn, where nnn is an octal number. For example, \\042 represents a double quotation mark. Note that only codes in the range of \\0-\\377 \(0-255 decimal\) are supported.|
+    |\\xhh|The character whose [ASCII](http://www.asciitable.com/) value is hhh, where hhh is a hexadecimal number. For example, \\x22 represents a double quotation mark. Note that only codes in the range of \\x0-\\xFF \(0-255 decimal\) are supported.|
+
+-   Escape sequences in TestArchitect must be used within expressions, that is, in strings that begin with a number \(\#\) symbol.
+
+## Example
+
+The following test procedure illustrates the use of some escape sequences to produce desired characters.
+
+**Test Lines**
+
+![](/images/TA_Automation/Images/bis_escape_sequences_pgm.png)
+
+
+
+

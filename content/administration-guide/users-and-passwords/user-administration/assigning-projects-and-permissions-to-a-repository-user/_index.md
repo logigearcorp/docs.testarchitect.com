@@ -1,16 +1,18 @@
 --- 
 title: "Assigning projects and permissions to a repository user"
 linktitle: "Assigning projects and permissions to a repository user"
+description: "Repository users can be assigned to one or more projects in the repository, and granted the appropriate permissions in each case."
 weight: 7
 aliases: 
-    - TA_Administration/Topics/adm_users_assigning_repositories.html
+    - /TA_Administration/Topics/adm_users_assigning_repositories.html
+keywords: "user administration, assigning projects, permissions"
 ---
 
 Repository users can be assigned to one or more projects in the repository, and granted the appropriate permissions in each case.
 
 To assign projects and permissions to a TestArchitect user, do the following:
 
-1.  Invoke the [Manage Users](../../reuse/../TA_Administration/Topics/adm_users_invoking_Manage_Users.md) Manager Users dialog box for a given repository. \(You can do this by right-clicking the **Administration** node and then selecting **Manage Users**.\)
+1.  Invoke the [Manage Users](/reuse/../TA_Administration/Topics/adm_users_invoking_Manage_Users.html) Manager Users dialog box for a given repository. \(You can do this by right-clicking the **Administration** node and then selecting **Manage Users**.\)
 
 2.  In the Users panel, select a user.
 
@@ -26,9 +28,6 @@ To assign projects and permissions to a TestArchitect user, do the following:
     ![](/images/TA_Administration/Images/assigning_projects.png)
 
 
-**Parent topic:**[User administration](../../TA_Administration/Topics/User_administration.md)
 
-**Previous topic:**[Setting a repository's user authentication mode](../../TA_Administration/Topics/adm_users_setting_authentication_mode.md)
 
-**Next topic:**[Assigning user permissions for a specific project](../../TA_Administration/Topics/adm_users_assigning_permissions.md)
 

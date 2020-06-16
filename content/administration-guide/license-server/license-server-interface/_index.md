@@ -1,9 +1,11 @@
 --- 
 title: "License server interface"
 linktitle: "License server interface"
+description: "The License Server Control Panel allows you to add and edit licenses in the license pool, change license types, and display license information and status."
 weight: 5
 aliases: 
-    - TA_Administration/Topics/LS_TA_interface.html
+    - /TA_Administration/Topics/LS_TA_interface.html
+keywords: "license server interface, licenses, server interface"
 ---
 
 The License Server Control Panel allows you to add and edit licenses in the license pool, change license types, and display license information and status.
@@ -18,15 +20,15 @@ The primary functions available from the control panel are:
 -   Removing license connections from selected hosts.
 -   Viewing the license server events log.
 
-## Launching and viewing the License Server Control Panel { .section}
+## Launching and viewing the License Server Control Panel
 
 To launch the License Server Control Panel:
 
 -   **Windows platform**: do one of the following:
-    -   Double-click the **TestArchitect - License Server** ![](../../reuse/../TA_Administration/Images/LS_icon.png) icon in your Windows notification area.
+    -   Double-click the **TestArchitect - License Server** ![](/images/TA_Administration/Images/LS_icon.png) icon in your Windows notification area.
     -   Select **Start Menu** \> **All Programs** \> **TestArchitect** \> **License Server**.
 -   **Linux platform**: do one of the following:
-    -   Double-click the **TestArchitect - License Server** ![](../../reuse/../TA_Administration/Images/LS_icon.png) icon in your notification area.
+    -   Double-click the **TestArchitect - License Server** ![](/images/TA_Administration/Images/LS_icon.png) icon in your notification area.
     -   From a terminal window, navigate to /usr/local/logigear/licenseserver/licenseserver and run the TestArchitect License Server executable.
 -   **macOS**: Note that the TestArchitect License Server is not currently supported on macOS.
 
@@ -42,7 +44,7 @@ To launch the License Server Control Panel:
 
 ![](/images/TA_Administration/Images/licenseserver_7-1.png)
 
-## Main display { .section}
+## Main display
 
 The main display panel, titled License Information and Status, provides all pertinent information concerning the licenses that the server administers, including the current status of each license.
 
@@ -74,47 +76,44 @@ The information is presented in the form of a tree structure, with nodes grouped
 
     Where, `TACJFJMOHI395768` is the unique instance ID assigned to your machine.
 
--   Instance ID is currently supported on the License Server version [8.3.5](../../TA_ReleaseNotes/DITA_source/Whats_New_LS_8.3.5.md) or later. Specifically:
+-   Instance ID is currently supported on the License Server version [8.3.5](/TA_ReleaseNotes/DITA_source/Whats_New_LS_8.3.5.html) or later. Specifically:
 
     |TestArchitect|License Server|Instance ID|
     |-------------|--------------|-----------|
-    |[8.3 Update 5](../../TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.md) or later|[8.3.5](../../TA_ReleaseNotes/DITA_source/Whats_New_LS_8.3.5.md) or later|Supported|
-    |[8.3 Update 4](../../TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_4.md) or earlier|[8.3.5](../../TA_ReleaseNotes/DITA_source/Whats_New_LS_8.3.5.md) or later|Supported|
-    |[8.3 Update 5](../../TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.md) or later|[8.3.4](../../TA_ReleaseNotes/DITA_source/Whats_New_LS_8.3.4.md) or earlier|Unsupported|
-    |[8.3 Update 4](../../TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_4.md) or earlier|[8.3.4](../../TA_ReleaseNotes/DITA_source/Whats_New_LS_8.3.4.md) or earlier|Unsupported|
+    |[8.3 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.html) or later|[8.3.5](/TA_ReleaseNotes/DITA_source/Whats_New_LS_8.3.5.html) or later|Supported|
+    |[8.3 Update 4](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_4.html) or earlier|[8.3.5](/TA_ReleaseNotes/DITA_source/Whats_New_LS_8.3.5.html) or later|Supported|
+    |[8.3 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.html) or later|[8.3.4](/TA_ReleaseNotes/DITA_source/Whats_New_LS_8.3.4.html) or earlier|Unsupported|
+    |[8.3 Update 4](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_4.html) or earlier|[8.3.4](/TA_ReleaseNotes/DITA_source/Whats_New_LS_8.3.4.html) or earlier|Unsupported|
 
 
-## Toolbar {#section_ms4t_ue8i .section}
+## Toolbar
 
 ![](/images/TA_Administration/Images/licenseserver_8_1.png)
 
-1.  [Start license server](LS_TA_managing_start_stop.md): Starts up the license server on the existing computer. Disabled if the service is already running.
-2.  [Stop license server](LS_TA_managing_start_stop.md): Shuts down the license server. Disabled if the server is already down.
-3.  [Add license](LS_TA_adding_new_license.md): Use this button to add a license, or a package of licenses, after receiving a license key from LogiGear.
-4.  [Request license](LS_TA_requesting_key.md): Click to submit a request to LogiGear for one or more licenses.
-5.  **Convert license**: Click to convert a floating license into a host-based license and vice-versa. \(Refer to [Converting a floating license into a host-based license](LS_TA_converting_floating_to_host_based.md) and [Converting a host-based license into a floating license](LS_TA_converting_host_based_to_floating.md) for details.\)
-6.  [Remove license](LS_TA_revoking.md): Click this button after selecting a license package node, to remove the licenses from the license server.
+1.  [Start license server](/TA_Administration/Topics/LS_TA_managing_start_stop.html): Starts up the license server on the existing computer. Disabled if the service is already running.
+2.  [Stop license server](/TA_Administration/Topics/LS_TA_managing_start_stop.html): Shuts down the license server. Disabled if the server is already down.
+3.  [Add license](/TA_Administration/Topics/LS_TA_adding_new_license.html): Use this button to add a license, or a package of licenses, after receiving a license key or credential information from LogiGear.
+4.  [Request license](/TA_Administration/Topics/LS_TA_requesting_key.html): Click to submit a request to LogiGear for one or more licenses.
+5.  **Convert license**: Click to convert a floating license into a host-based license and vice-versa. \(Refer to [Converting a floating license into a host-based license](/TA_Administration/Topics/LS_TA_converting_floating_to_host_based.html) and [Converting a host-based license into a floating license](/TA_Administration/Topics/LS_TA_converting_host_based_to_floating.html) for details.\)
+6.  [Remove license](/TA_Administration/Topics/LS_TA_revoking.html): Click this button after selecting a license package node, to remove the licenses from the license server.
 
     **Note:** Use **Remove license** to remove expired license packages.
 
-7.  [Serve as Redundant License Server](LS_TA_managing_creating_redundant_license.md): Allows this license server to be designated as a redundant license server for a specified primary license server.
+7.  [Serve as Redundant License Server](/TA_Administration/Topics/LS_TA_managing_creating_redundant_license.html): Allows this license server to be designated as a redundant license server for a specified primary license server.
 8.  Refresh display: Updates the display to reflect any changes in status, such as license requests and grants, since the last display.
 9.  View log: View a log of pertinent license server-related events.
-10. [Open license log folder](adm_License_server_log_file.md): Open the folder containing log files that track license requests submitted to the license server.
+10. [Open license log folder](/TA_Administration/Topics/adm_License_server_log_file.html): Open the folder containing log files that track license requests submitted to the license server.
 11. View license server help: View help topics related to the TestArchitect license server.
 
-## Status bar {#section_h77q_oh8k .section}
+## Status bar
 
 The status bar consists of two lines of information. The lower line reports the current state of the license server \(started or stopped\), the name and IP Address of the machine hosting the server, and the port number on which the server listens for license requests. If this machine is part of a primary server / redundant server configuration, the upper line reports the IP address and port number of the related server, and indicates its role \(primary or redundant\).
 
-**Parent topic:**[License server for TestArchitect](../../TA_Administration/Topics/LS_TA_License_server.md)
 
-**Previous topic:**[License Server installation guide](../../TA_InstallationGuide/DITA_source/Topics/inst_LS.md)
 
-**Next topic:**[Obtaining a TestArchitect license](../../TA_Administration/Topics/LS_TA_obtaining_license.md)
 
 **Related information**  
 
 
-[Default port numbers and port ranges](../../TA_Administration/Topics/adm_port_number_port_ranges.md)
+[Default port numbers and port ranges](/TA_Administration/Topics/adm_port_number_port_ranges.html)
 

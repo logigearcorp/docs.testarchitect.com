@@ -1,9 +1,11 @@
 --- 
 title: "Backing up repositories"
 linktitle: "Backing up repositories"
+description: "A TestArchitect repository is the central storage location for all your work on test modules, actions, interfaces, data, and test results. It is essential that you back up repositories in case of data loss or corruption."
 weight: 9
 aliases: 
-    - TA_Administration/Topics/Repo_server_management_bk.html
+    - /TA_Administration/Topics/Repo_server_management_bk.html
+keywords: "repositories, backing up, Repository Server Control Panel, Backup Schedule command, Repository Auto-Backup Schedule"
 ---
 
 A TestArchitect repository is the central storage location for all your work on test modules, actions, interfaces, data, and test results. It is essential that you back up repositories in case of data loss or corruption.
@@ -14,7 +16,7 @@ Automatic backup can be set up or reconfigured at any time, with the repository 
 
 To set up or modify the auto-backup schedule, do the following:
 
-1.  [Open the Repository Server Control Panel](Repo_server_management_launching.md) dialog box.
+1.  [Open the Repository Server Control Panel](/TA_Administration/Topics/Repo_server_management_launching.html) dialog box.
 
 2.  Click the **Backup Schedule** ![](/images/TA_Administration/Images/admin_RS_btn_BackupSched.png) button on the toolbar, or select **Tools** \> **Backup Schedule**.
 
@@ -49,9 +51,6 @@ The general state of auto-backup, including on/off status, schedule, and which r
 
 ![](/images/TA_Administration/Images/admin_RSCP_backup_info.png)
 
-**Parent topic:**[Repository Server Management](../../TA_Administration/Topics/Repo_server_management.md)
 
-**Previous topic:**[Exporting/Importing repositories](../../TA_Administration/Topics/adm_Exporting_import_repository.md)
 
-**Next topic:**[Changing repository server port number](../../TA_Administration/Topics/Repo_changing_port.md)
 

@@ -1,9 +1,11 @@
 --- 
 title: "Unblocking a redundant license server"
 linktitle: "Unblocking a redundant license server"
+description: "After a 72-hour period of continuous operation following the failure or absence of a primary license server, a redundant license server blocks further requests for licenses. If your primary server remains unavailable, send an activation key request to LogiGear for an extension of the redundant server's operation."
 weight: 4
 aliases: 
-    - TA_Administration/Topics/adm_unblocking_redundant_license_server.html
+    - /TA_Administration/Topics/adm_unblocking_redundant_license_server.html
+keywords: "unblocking, redundant license servers, servers, unblocking redundant, licenses, unblocking redundant servers"
 ---
 
 After a 72-hour period of continuous operation following the failure or absence of a primary license server, a redundant license server blocks further requests for licenses. If your primary server remains unavailable, send an activation key request to LogiGear for an extension of the redundant server's operation.
@@ -12,7 +14,7 @@ A redundant license server acts as a fail-safe mechanism. It ensures that, shoul
 
 Once failover occurs, a redundant license server allows itself to operate normally for a continuous period of up to 72 hours. Following that, it is blocked. As a general rule, this should be more than enough time to allow for the primary license server to be brought back online. However, LogiGear does recognize that, under some extraordinary circumstances, your organization may find itself dependant on failover for a longer period. Should your redundant license server reach its 72-hour time limit, you can unblock it for an additional 72-hour period by requesting an activation key from LogiGear:
 
-1.  Start the License Server Control Panel. \([Learn more](LS_TA_managing_start_stop.md).\)
+1.  Start the License Server Control Panel. \([Learn more](/TA_Administration/Topics/LS_TA_managing_start_stop.html).\)
 
 2.  From the toolbar, select **Tools** \> **Request activation key for RLS**.
 
@@ -41,7 +43,5 @@ Once failover occurs, a redundant license server allows itself to operate normal
 
 Your redundant license sever is now unblocked for an additional 72-hour period.
 
-**Parent topic:**[Managing the license server](../../TA_Administration/Topics/LS_TA_managing_license_server.md)
 
-**Previous topic:**[Creating a redundant license server](../../TA_Administration/Topics/LS_TA_managing_creating_redundant_license.md)
 

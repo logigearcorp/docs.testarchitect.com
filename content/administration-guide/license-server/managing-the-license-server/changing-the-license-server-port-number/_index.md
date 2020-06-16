@@ -1,9 +1,11 @@
 --- 
 title: "Changing the license server port number"
 linktitle: "Changing the license server port number"
+description: "You can change the connection port on which a license server listens and grants license connection requests."
 weight: 2
 aliases: 
-    - TA_Administration/Topics/LS_TA_managing_changing_port.html
+    - /TA_Administration/Topics/LS_TA_managing_changing_port.html
+keywords: "license servers, changing ports, license server, changing port"
 ---
 
 You can change the connection port on which a license server listens and grants license connection requests.
@@ -30,14 +32,11 @@ You can change the connection port on which a license server listens and grants 
 4.  Click **OK**.
 
 
-**Parent topic:**[Managing the license server](../../TA_Administration/Topics/LS_TA_managing_license_server.md)
 
-**Previous topic:**[Starting and stopping the server](../../TA_Administration/Topics/LS_TA_managing_start_stop.md)
 
-**Next topic:**[Creating a redundant license server](../../TA_Administration/Topics/LS_TA_managing_creating_redundant_license.md)
 
 **Related information**  
 
 
-[Default port numbers and port ranges](../../TA_Administration/Topics/adm_port_number_port_ranges.md)
+[Default port numbers and port ranges](/TA_Administration/Topics/adm_port_number_port_ranges.html)
 

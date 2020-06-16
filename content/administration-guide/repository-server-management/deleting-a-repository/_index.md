@@ -1,9 +1,11 @@
 --- 
 title: "Deleting a repository"
 linktitle: "Deleting a repository"
+description: "You can delete a repository using the Repository Server Control Panel"
 weight: 19
 aliases: 
-    - TA_Administration/Topics/adm_delete_repo.html
+    - /TA_Administration/Topics/adm_delete_repo.html
+keywords: "Delete Repository, delete, repository, repositories, Deleting"
 ---
 
 You can delete a repository using the Repository Server Control Panel
@@ -24,12 +26,11 @@ To delete a repository from the **Repository Server Control Panel**:
 
     **Note:** You may only delete one repository at a time.
 
-5.  The deleted success message will appear, click **OK** to finish
+5.  The successful deletion message will appear, click **OK** to finish
 
     ![](/images/TA_Administration/Images/delete_repo_4.png)
 
 
-**Parent topic:**[Repository Server Management](../../TA_Administration/Topics/Repo_server_management.md)
 
-**Previous topic:**[Clearing hit list periodically](../../TA_Administration/Topics/adm_clear_hitlist.md)
+
 

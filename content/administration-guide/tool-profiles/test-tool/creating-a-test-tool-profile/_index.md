@@ -1,18 +1,20 @@
 --- 
 title: "Creating a test tool profile"
 linktitle: "Creating a test tool profile"
+description: "In order to run your test automation with a customized harness program, a test tool profile for that harness must be created."
 weight: 1
 aliases: 
-    - TA_Administration/Topics/Test_tool_profile_creating.html
+    - /TA_Administration/Topics/Test_tool_profile_creating.html
+keywords: "test tool profiles, creating, third-party playback tools, creating a tool profile"
 ---
 
 In order to run your test automation with a customized harness program, a test tool profile for that harness must be created.The profile specifies the executable file \(or the combination of executable and script\) that implements the harness tool, along with the options that are automatically passed to the tool on execution. It further identifies which options a user may set for a given test run.
 
-Creating your own test playback tool to allow scripts to be written in a language of your choice requires that you develop your own harness for that language. The [harness tutorial lessons](../../TA_Tutorials/Topics/tut_part3_extending_TA.md) provide some insight into creating a harness. If you already have TestArchitect installed, you can refer to the source code for the actual Java and Python harnesses, located at \{INSTALL\_DIR\}\\harness samples\\java\\source and \{INSTALL\_DIR\}\\harness samples\\python, respectively.
+Creating your own test playback tool to allow scripts to be written in a language of your choice requires that you develop your own harness for that language. The [harness tutorial lessons](/TA_Tutorials/Topics/tut_part3_extending_TA.html) provide some insight into creating a harness. If you already have TestArchitect installed, you can refer to the source code for the actual Java and Python harnesses, located at \{INSTALL\_DIR\}\\harness samples\\java\\source and \{INSTALL\_DIR\}\\harness samples\\python, respectively.
 
 To configure your custom harness test tool, do the following:
 
-1.  Log in to a TestArchitect repository as a member of the [administrator](User_administration.md) group.
+1.  Log in to a TestArchitect repository as a member of the [administrator](/TA_Administration/Topics/User_administration.html) group.
 
 2.  In the TestArchitect explorer tree, expand the **Administration** \> **Tool Profiles** \> **Test Tool** node.
 
@@ -30,7 +32,7 @@ To configure your custom harness test tool, do the following:
 
         **Note:** The harness may be implemented as a single executable file \(as is the case with the sample C\# harness\), or as an interpreted script file. An example of the latter is the sample Python harness, implemented as the script file ta\_main.py, which is executed by the Python interpreter.
 
-        **Note:** The specified executable program appears in the **Executable\(s\)** field of the [Automation Tools](../../TA_Help/Topics/Test_exec_test_execution.md#li_ux4_421_zp) dialog box, which you can access during test run setup from the Execute Test dialog box.
+        **Note:** The specified executable program appears in the **Executable\(s\)** field of the [Automation Tools](/TA_Help/Topics/Test_exec_test_execution.html#li_ux4_421_zp) dialog box, which you can access during test run setup from the Execute Test dialog box.
 
         ![](/images/TA_Administration/Images/Executable_test_tool.01.png)
 
@@ -43,7 +45,7 @@ To configure your custom harness test tool, do the following:
         **Note:** Unless you are an advanced user or have the assistance of TestArchitect support, your choice should simply be File.
 
     -   Available options: Here, you list those "yes/no" options that the user of the tool may specify at test run setup time, and which will be passed to the specified harness as command line arguments.
-        -   The arguments will appear to the tool user as check box options in the Options panel of the [Automation Tools](../../TA_Help/Topics/Test_exec_test_execution.md#li_ux4_421_zp) dialog box.
+        -   The arguments will appear to the tool user as check box options in the Options panel of the [Automation Tools](/TA_Help/Topics/Test_exec_test_execution.html#li_ux4_421_zp) dialog box.
         -   Syntax for specifying how each check box option is to appear on the command line, based on the user's selected options:
 
             ```
@@ -56,11 +58,7 @@ To configure your custom harness test tool, do the following:
 
             |Component|Description|
             |---------|-----------|
-            |Option\_name|Label for the check box option. At run setup time, this check box is displayed in the Options panel of the Automation Tools dialog box.![](/images/TA_Administration/Images/Available_options_test_tool_option_name.png)
-
-**Note:** Note that the value of Option\_name is also used to name a variable representing the given option in the Test Tool **Command line** field, as described below.
-
-|
+            |Option\_name|Label for the check box option. At run setup time, this check box is displayed in the Options panel of the Automation Tools dialog box.![](/images/TA_Administration/Images/Available_options_test_tool_option_name.png)<br><br>**Note:** Note that the value of Option\_name is also used to name a variable representing the given option in the Test Tool **Command line** field, as described below.<br><br>|<br>
             |Value\_if\_checked|The value written to the command line if this option is selected. \(Visible in the **Command Line** field of the Automation Tools dialog box.\)|
             |Value\_if\_cleared|The value written to the command line if this option is cleared. \(Visible in the **Command Line** field of the Automation Tools dialog box.\)|
             |Default\_value|Can be true or false. If true, this option's check box is selected when the Automation Tools dialog box is first opened; if false, it is cleared.|
@@ -129,5 +127,4 @@ To configure your custom harness test tool, do the following:
 
 A new test tool is created and added as a child node beneath the **Test Tool** node.
 
-**Parent topic:**[Test Tool](../../TA_Administration/Topics/Test_tool.md)
 

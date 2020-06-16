@@ -9,14 +9,14 @@
 
     $(document).on( 'keydown', function(e) {
       // prev links - left arrow key
-      if(e.which == '37') {
-        $('.nav-prev').click();
-      }
+      // if(e.which == '37') {
+      //   $('.nav-prev').click();
+      // }
 
       // next links - right arrow key
-      if(e.which == '39') {
-        $('.nav-next').click();
-      }
+      // if(e.which == '39') {
+      //   $('.nav-next').click();
+      // }
     });
   });
 })(jQuery);

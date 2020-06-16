@@ -1,9 +1,11 @@
 --- 
 title: "Single license server environment"
 linktitle: "Single license server environment"
+description: "A single license server handles and grants licensing requests from TestArchitect Clients or controllers on your network."
 weight: 1
 aliases: 
-    - TA_Administration/Topics/LS_TA_single_license.html
+    - /TA_Administration/Topics/LS_TA_single_license.html
+keywords: "servers, single license environment, licenses, single server environment"
 ---
 
 A single license server handles and grants licensing requests from TestArchitect Clients or controllers on your network.
@@ -18,7 +20,5 @@ Due to the nature of floating licenses, they must be administered over a network
 
 **Note:** The license server application is installed along with TestArchitect Client, so any machine running the TestArchitect Client can act as a license server. However, only license servers that have been issued licenses to administer are relevant. Therefore the term license server here refers to a machine that is both running the TestArchitect License Server software and has a set of licenses to allocate.
 
-**Parent topic:**[License administration configurations](../../TA_Administration/Topics/LS_TA_admin_config.md)
 
-**Next topic:**[Host-based licenses](../../TA_Administration/Topics/LS_TA_host_based_license.md)
 

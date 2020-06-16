@@ -1,9 +1,11 @@
 --- 
 title: "Starting and stopping the server"
 linktitle: "Starting and stopping the server"
+description: "The license server can be started and stopped from the License Server Control Panel."
 weight: 1
 aliases: 
-    - TA_Administration/Topics/LS_TA_managing_start_stop.html
+    - /TA_Administration/Topics/LS_TA_managing_start_stop.html
+keywords: "license servers, starting and stopping"
 ---
 
 The license server can be started and stopped from the License Server Control Panel.
@@ -24,12 +26,10 @@ The license server can be started and stopped from the License Server Control Pa
     **Tip:** The status bar of the License Server Control Panel displays the current state of the server, Started or Stopped.
 
 
-**Parent topic:**[Managing the license server](../../TA_Administration/Topics/LS_TA_managing_license_server.md)
 
-**Next topic:**[Changing the license server port number](../../TA_Administration/Topics/LS_TA_managing_changing_port.md)
 
 **Related information**  
 
 
-[Troubleshooting power outage-related problems](../../TA_Administration/Topics/adm_troubleshooting_power_blackout.md)
+[Troubleshooting power outage-related problems](/TA_Administration/Topics/adm_troubleshooting_power_blackout.html)
 
