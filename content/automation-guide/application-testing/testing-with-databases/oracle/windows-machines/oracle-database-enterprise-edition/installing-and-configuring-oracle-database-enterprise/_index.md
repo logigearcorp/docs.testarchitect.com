@@ -1,6 +1,6 @@
 --- 
-title: "Installing and configuring Oracle Database Enterprise on client machines"
-linktitle: "Installing and configuring Oracle Database Enterprise"
+title: "Installing and configuring Oracle Database Enterprise"
+linktitle: "Installing and configuring Oracle Database Enterprise on client machines"
 description: "This topic describes the steps required for installing and configuring Oracle Database Enterprise on client machines."
 weight: 1
 aliases: 

@@ -84,7 +84,7 @@ It is strongly recommended that you back up all repositories before upgrading to
 -   Modify the action [start program](/TA_Automation/Topics/bia_start_program.html) to start a new process with the current System Environment Variable \(without inheriting from the parent’s process\).
 -   Support the action [set](/TA_Automation/Topics/bia_set.html) to set text box values on all browsers.
 -   Support the action [get system performance information](/TA_Automation/Topics/bia_get_system_performance_information.html) to get the current system performance information from a mobile device or desktop test machine.
--   Not showing automation message box errors \(on any notice level\) when using the [on error](/TA_Automation/Topics/bia_on_error.html)or [on error action](/TA_Automation/Topics/bia_on_error_action.html).
+-   Not showing automation message box errors \(on any notice level\) when using the [on error](/TA_Automation/Topics/bia_on_error.html) or [on error action](/TA_Automation/Topics/bia_on_error_action.html).
 -   Not reporting warnings for the actions [on error action](/TA_Automation/Topics/bia_on_error_action.html) and [on failure action](/TA_Automation/Topics/bia_on_failure_action.html) when they execute.
 -   Report as error instead of warning when a tree/list item is not found.
 -   The action [report error](/TA_Automation/Topics/bia_report_error.html) will trigger error handler.

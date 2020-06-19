@@ -1,6 +1,6 @@
 --- 
-title: "Team Foundation Server overview"
-linktitle: "TFS overview"
+title: "TFS overview"
+linktitle: "Team Foundation Server overview"
 description: "Team Foundation Server (TFS) is a Microsoft product which provides source code management, reporting, requirements management, project management, automated builds, lab management, testing and release management capabilities."
 weight: 1
 aliases: 

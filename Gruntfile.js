@@ -7,12 +7,13 @@ module.exports = function(grunt) {
 
     grunt.registerTask("lunr-index", function() {
 
-        grunt.log.writeln("Build pages index");
+       
 
         var indexPages = function() {
             var pagesIndex = [];
+            
             grunt.file.recurse(CONTENT_PATH_PREFIX, function(abspath, rootdir, subdir, filename) {
-                grunt.verbose.writeln("Parse file:",abspath);
+               
                 var contentSearch = processFile(abspath, filename);
                 if(contentSearch) {
                     pagesIndex.push(contentSearch);
@@ -22,6 +23,8 @@ module.exports = function(grunt) {
 
             return pagesIndex;
         };
+
+        
 
         var processFile = function(abspath, filename) {
             var pageIndex;
@@ -43,8 +46,10 @@ module.exports = function(grunt) {
                 .chompLeft(CONTENT_PATH_PREFIX).s;
             return {
                 title: pageName,
+                keywords: frontMatter.keywords,
+                description: frontMatter.description,
                 href: href,
-                content: S(content).trim().stripTags().stripPunctuation().s
+                content: S(content).trim().stripTags().collapseWhitespace().s
             };
         };
 
@@ -73,9 +78,10 @@ module.exports = function(grunt) {
                 // Build Lunr index for this page
                 pageIndex = {
                     title: frontMatter.title,
-                    tags: frontMatter.tags,
+                    keywords: frontMatter.keywords,
+                    description: frontMatter.description,
                     href: href,
-                    content: S(content[2]).trim().stripTags().stripPunctuation().s
+                    content: S(content[2]).trim().stripTags().collapseWhitespace().s
                 };
             }
             
@@ -83,7 +89,7 @@ module.exports = function(grunt) {
             return pageIndex;
         };
 
-        grunt.file.write("content/PagesIndex.json", JSON.stringify(indexPages()));
+        grunt.file.write("PagesIndex.json", JSON.stringify(indexPages()));
         grunt.log.ok("Index built");
     });
 };

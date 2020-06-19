@@ -16,5 +16,4 @@ When testing on mobile devices, the [use device](/TA_Automation/Topics/bia_use_d
 
 
 
-under VMWare or MS Hyper-V, and/or remotely install the TA software and license? Can this be part of the INITIAL section for a test module?](/TA_FAQ/Topics/faq.can_ta_spin_up_virtual_machines.html)
 

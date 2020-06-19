@@ -1,6 +1,6 @@
 --- 
-title: "Testing Google Chrome on Android"
-linktitle: "Testing Chrome on Android"
+title: "Testing Chrome on Android"
+linktitle: "Testing Google Chrome on Android"
 description: "With TestArchitect, automated tests may be created and run on web applications running within Chrome for Android."
 weight: 2
 aliases: 

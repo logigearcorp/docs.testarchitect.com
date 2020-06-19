@@ -1,6 +1,6 @@
 --- 
-title: "Invalid interface element: *<controlName\\>*. An interface element cannot be identified by both its 'xpath' and other properties."
-linktitle: "Invalid interface element: <controlName\\>. An interface element cannot be identified by both its 'xpath' and other properties."
+title: "Invalid interface element: <controlName\\>. An interface element cannot be identified by both its 'xpath' and other properties."
+linktitle: "Invalid interface element: *<controlName\\>*. An interface element cannot be identified by both its 'xpath' and other properties."
 description: "Error code: 0x80020004L Problem This happens because you identify a web UI control by combination of XPath TA property, and other TA properties. Solution In identifying a control within an ..."
 weight: 23
 aliases: 

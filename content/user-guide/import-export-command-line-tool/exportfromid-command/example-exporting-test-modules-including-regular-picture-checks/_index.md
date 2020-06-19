@@ -71,5 +71,4 @@ In the exported .zip file:
 
 ![](/images/TA_Help/Images/TA_Export_Import_tool_ExportFromPath_regular_picture_checks_result.png)
 
-(/TA_Help/Topics/ug_export_import_tool_export_from_id.html)
 

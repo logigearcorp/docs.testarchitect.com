@@ -1,6 +1,6 @@
 --- 
-title: "What's new in TestArchitect for Linux"
-linktitle: "Linux"
+title: "Linux"
+linktitle: "What's new in TestArchitect for Linux"
 description: "The following new features and improvements are introduced in TestArchitect version 8.3 Update 4 running under Linux."
 weight: 2
 aliases: 
@@ -35,6 +35,6 @@ The following new features and improvements are introduced in TestArchitect vers
 
 **Enhancements to existing features**
 
--   [capture screen](/TA_Automation/Topics/bia_capture_screen.html) built-in action: Additional support for saving captured screenshots to .png format.
+-   [capture screen](/TA_Automation/Topics/bia_capture_screen.html) built-in action: Additional support for saving captured screenshots to .PNG format.
 
 

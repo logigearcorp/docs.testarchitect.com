@@ -27,7 +27,7 @@ With screenshot recording enabled, TestArchitect captures screenshots during tes
 -   Second, snapshots that TestArchitect deems redundant and unnecessary are discarded.
 -   Third, captured screenshots are discarded when the local test result is added to the repository. This removal takes place regardless of whether the [automatic](/TA_Help/Topics/Test_result_storing_automatically.html) or [manual](/TA_Help/Topics/Test_result_viewing_storing.html) method is used to transfer the results to the repository.
 
-See [below](#section.screenshot_rules) for a full discussion of the rules regarding screenshot retention.
+See [below](#screenshot-capture-and-retention-rules) for a full discussion of the rules regarding screenshot retention.
 
 ## Results display
 

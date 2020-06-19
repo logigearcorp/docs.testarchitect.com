@@ -1,6 +1,6 @@
 --- 
-title: "Constructing a video link to record all screenshots during automation in Sauce Labs"
-linktitle: "Sauce Labs"
+title: "Sauce Labs"
+linktitle: "Constructing a video link to record all screenshots during automation in Sauce Labs"
 description: "Note: The URL on Sauce Labs which stores the video recording is as follows. https://assets.saucelabs.com/jobs/&lt;session-id&gt;/video.flv Retrieve the session ID of the target cloud device by using the ..."
 weight: 1
 aliases: 

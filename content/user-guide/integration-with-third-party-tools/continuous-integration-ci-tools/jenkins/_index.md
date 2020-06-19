@@ -44,5 +44,4 @@ To establish a connection between TestArchitect and a Jenkins server, a batch fi
 2.  [Importing the batch file](/TA_Help/Topics/Integration_Jenkins_import.html)  
 You need to import the newly-generated batch file into the Jenkins master machine so that it is able to monitor and control its jobs related to executing test modules.
 
-tools](/TA_Help/Topics/Integration_xUnit.html)
 

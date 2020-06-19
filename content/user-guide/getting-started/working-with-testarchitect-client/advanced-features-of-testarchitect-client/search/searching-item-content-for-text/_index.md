@@ -14,7 +14,7 @@ In addition to item names, you can conduct searches of the text content of test 
 
     **Fastpath:** Ctrl + H
 
-    ![](/images/TA_Help/Images/ug_searchitem.png)
+    ![](/images/TA_Help/Images/ug_searchitem.PNG)
 
     The Search dialog box appears.
 

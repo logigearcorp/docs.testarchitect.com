@@ -24,9 +24,9 @@ TestArchitect provides the following built-in actions for working with SQL-compl
 
 ## Use cases
 
-1.  **Data-driven testing.** Connect your test to a database and use it in the same manner in which you typically would use a data set: to supply the test with records of input values for your AUT, along with expected outcomes for comparison with AUT outputs. \(See [Example - Case 1](#section_u4c_f5x_vp).\)
-2.  **Test the AUT's handling and storage of data.** For database driven applications, interact with the AUT and then query its database to ensure data is being written to it correctly. For example, test a database driven application by entering test records through the GUI, then have your test interface directly with the database to verify the records. \(See [Example - Case 2](#section_gzn_25x_vp).\)
-3.  **Test the AUT's response to database-sourced data.** Ensure that a database driven application responds properly to the contents of its database. \(For example: insert multiple records to the database, then query the AUT to verify that it properly handles the new content.\).\(See [Example - Case 3](#section_kbv_25x_vp).\)
+1.  **Data-driven testing.** Connect your test to a database and use it in the same manner in which you typically would use a data set: to supply the test with records of input values for your AUT, along with expected outcomes for comparison with AUT outputs. \(See [Example - Case 1](#example---case-1).\)
+2.  **Test the AUT's handling and storage of data.** For database driven applications, interact with the AUT and then query its database to ensure data is being written to it correctly. For example, test a database driven application by entering test records through the GUI, then have your test interface directly with the database to verify the records. \(See [Example - Case 2](#example---case-2).\)
+3.  **Test the AUT's response to database-sourced data.** Ensure that a database driven application responds properly to the contents of its database. \(For example: insert multiple records to the database, then query the AUT to verify that it properly handles the new content.\).\(See [Example - Case 3](#example---case-3).\)
 
 ## Example - Case 1
 
@@ -66,7 +66,7 @@ A simple entry form allows records to be added to this table:
 
 To keep this example simple, the use of any data repositories is limited to just the one belonging to the AUT. Records submitted by the test are generated on the fly, rather than stored in another database or data set. This is done through the use of a pseudo-random generator supplied as a user-defined action, generate values. On each invocation, generate values returns both a “random” 5-digit numeric value \(for the **key**\), and a 20-character ASCII string \(for **string\_store**\). These values are derived from a 5-digit *seed* supplied to the action.
 
-![](/images/TA_Automation/Images/db_use_case.02.uda.01.png)
+<div id="image_qgw_sqx_ft"></div>![](/images/TA_Automation/Images/db_use_case.02.uda.01.png)
 
 In the test case \(shown below\), generate values is called multiple times within a loop to produce multiple records. Each record is supplied to the AUT by means of the user-defined action write AUT record \(not shown\). The 5-digit output \(working seed\) of each execution of generate values is used not just to supply the key value for the AUT record, but also to provide the seed for generate values in the next iteration of the while loop.
 

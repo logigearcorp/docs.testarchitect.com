@@ -30,7 +30,7 @@ To launch a TestArchitect Dashboard, follow these steps:
 
 2.  In the TestArchitect explorer tree, right-click on the repository node that you want to manage with the Dashboard and click **Show Dashboard** from the context menu.
 
-    ![](/images/TA_Help/Images/DB_23.png)
+    ![](/images/TA_Help/Images/DB_23.PNG)
 
     Alternatively, from the **Repository** menu, click **Show Dashboard**.
 

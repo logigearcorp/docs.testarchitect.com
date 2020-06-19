@@ -26,7 +26,7 @@ Determine whether an item with the specified text exists in the control's list.
 ## Return Value
 
 -   [Python harness](/TA_Tutorials/Topics/Tutorial_Scripting_actions_in_other_languages_python.html): Return TRUE ifitem with specified text exists; otherwise, FALSE.
--   [Java](/TA_Tutorials/Topics/Tutorial_Scripting_actions_in_other_languages_java.html) and [C\# harness](/TA_Tutorials/Topics/Tutorial_Scripting_actions_in_other_languages_CSharp.html): Return 1 ifitem with specified text exists; otherwise, 0.
+-   [Java](/TA_Tutorials/Topics/Tutorial_Scripting_actions_in_other_languages_java.html) and [C\# harness](/TA_Tutorials/Topics/tut_Scripting_actions_in_other_languages_CSharp_bundle.html): Return 1 ifitem with specified text exists; otherwise, 0.
 
 
 

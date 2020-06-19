@@ -30,14 +30,18 @@ Report and record the result of a user check already performed.
 
     Recorded value that was compared against the expected value. \(For reporting purposes only.\)
 
--   ****
+-   **result**
+
+    The result value that is to be administered for this check: 1 means pass, 0 means fail.
+
 
 ## Return Value
-The function returns the value of the *result* parameter. 
 
+The function returns the value of the result parameter.
 
 ## Notes
 
--   -   Use AdministerCheckArgument or AdministerCheckNamedArgument if possible, since these functions allow for better reporting \(in particular when used in action definitions\).
+-   The functions [AdministerCheck](/reuse/../TA_Automation/Topics/abtf_AdministerCheck.html), [AdministerCheckArgument](/reuse/../TA_Automation/Topics/abtf_AdministerCheckArgument.html) and [AdministerCheckNamedArgument](/reuse/../TA_Automation/Topics/abtf_AdministerCheckNamedArgument.html) can be used to administer the result of a check already done in a script. They are typically used when the check is not a comparison between an expected and a recorded string \(like "check if the response time is below 8 seconds"\).
+-   Use [AdministerCheckArgument](/TA_Automation/Topics/abtf_AdministerCheckArgument.html) or [AdministerCheckNamedArgument](/TA_Automation/Topics/abtf_AdministerCheckNamedArgument.html) if possible, since these functions allow for better reporting \(in particular when used in action definitions\).
 -   The functions AdministerCheck can be used to administer the result of a check already done in a script. They are typically used when the check is not a comparison between an expected and a recorded string \(like "check if the response time is below 8 seconds"\).
 

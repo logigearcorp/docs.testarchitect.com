@@ -1,7 +1,7 @@
 --- 
 title: 'Custom fields: Example #1'
-slug: 'custom-fields-example-1'
 linktitle: 'Custom fields: Example #1'
+slug: 'custom-fields-example-1'
 description: "This example demonstrates the steps involved in mapping a custom field in TestArchitect to a custom field in the Quality Center TEST table."
 weight: 2
 aliases: 

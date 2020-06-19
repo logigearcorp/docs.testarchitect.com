@@ -1,6 +1,6 @@
 --- 
-title: "What's new in TestArchitect for Linux"
-linktitle: "Linux"
+title: "Linux"
+linktitle: "What's new in TestArchitect for Linux"
 description: "The following new features and improvements are introduced in TestArchitect version 8.3 Update 1 running under Linux."
 weight: 2
 aliases: 

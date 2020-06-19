@@ -49,7 +49,7 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   A captured image can only be saved as .JPEG, .BMP, or .png. Include the desired extension in the file name portion of the image location value.
+-   A captured image can only be saved as .JPEG, .BMP, or .PNG. Include the desired extension in the file name portion of the image location value.
 -   This action is applied to that part of the captured bitmap identified as the active area, with the remainder of the image ignored. The active area is determined by the combination of the window, control arguments, along with the four arguments \(left, top, width and height\) that define the rect area.
 
     To begin with, window and control determine the active UI element, which can be a control, window, or the full screen, based on the following rules:

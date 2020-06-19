@@ -13,14 +13,14 @@ In this activity you will run through the steps required for opening a Dashboard
 
 **Before proceeding:**You should have a familiarity with TestArchitect Client and its user interface. Also, observe the following:
 
-1.  Ensure that the TestArchitect Repository Server is running \(as indicated by the ![](/TA_Administration/Images/admin_RS_icn_RSrunning.png) icon in the Windows notification area\). If not, [start it up.](/TA_Administration/Topics/Starting_repository_server.html)start it up.
-2.  Ensure that the [TestArchitect Utility Server](/TA_Administration/Topics/TA_Utility_Server.html)TestArchitect Utility Server \(which manages the Dashboard application\) is running.
+1.  Ensure that the TestArchitect Repository Server is running \(as indicated by the ![](/images/TA_Administration/Images/admin_RS_icn_RSrunning.png) icon in the Windows notification area\). If not, [start it up.](/TA_Administration/Topics/Starting_repository_server.html) start it up.
+2.  Ensure that the [TestArchitect Utility Server](/TA_Administration/Topics/TA_Utility_Server.html) TestArchitect Utility Server \(which manages the Dashboard application\) is running.
 
 1.  Start the Dashboard.
 
     1.  On the TestArchitect explorer tree panel, right-click on the repository node that you want to view with the Dashboard, and then select **Show Dashboard**.
 
-        ![](/images/TA_Help/Images/DB_23.png)
+        ![](/images/TA_Help/Images/DB_23.PNG)
 
         Alternatively, from the **Repository** menu, click **Show Dashboard**.
 

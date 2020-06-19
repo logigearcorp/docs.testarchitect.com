@@ -88,7 +88,9 @@
               $(".search-seperate").css({"top": "5px", "right": "15px"})
       } else {
         var frame = document.getElementsByClassName('goog-te-menu-frame')[0];
+        console.log(frame);
            var arrs = frame.contentWindow.document.getElementsByTagName('a');
+           console.log(arrs);
            arrs[arrs.length-1].click();
            $("#current-lg").text("日本語");
            $(".header-right").css({"margin-top": "6px"});

@@ -1,6 +1,6 @@
 --- 
-title: "Addressing windows, controls of Multiple Document Interface applications"
-linktitle: "Addressing windows, controls of MDI apps"
+title: "Addressing windows, controls of MDI apps"
+linktitle: "Addressing windows, controls of Multiple Document Interface applications"
 description: "This topic explains how TestArchitect significantly enhances the UI matching process performance for Multiple Document Interface (MDI) applications during test automation"
 weight: 8
 aliases: 

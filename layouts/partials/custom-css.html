@@ -496,4 +496,50 @@ h1.concept{
 #breadcrumbs a {
   color: black;
 }
+
+.sidebar {
+  max-width: 25%;
+}
+
+
+
+.nav-next {
+  width: 45%;
+}
+
+.nav-prev {
+  width: 45%;
+}
+
+@media screen and (max-width: 480px) {
+  .sidebar {
+  max-width: 100%;
+  }
+
+  .nav-next {
+  width: unset;
+  margin-top: 20px;
+}
+
+.nav-prev {
+  width: unset;
+}
+ }
+.pagin-disable{
+  
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: gray;
+
+}
+ol>li{
+list-style-type: decimal;
+}
+ol>li>ol>li{
+list-style-type: lower-alpha;
+}
+ol>li>ol>li>ol>li{
+list-style-type: disc;
+}
 </style>

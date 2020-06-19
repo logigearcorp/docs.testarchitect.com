@@ -59,21 +59,21 @@ To create a data profile on a Dashboard page:
 
     **Note:** The list of selectable statistic fields varies depending on the **Item Type** specified on the **General Settings** page \(step \#[4](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da01)\).
 
-9.  **Note:** If an entity is specified for the **Related Data** field in Step \#[4](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da01), the next 4 steps \(step \#[9](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da06) through \#[12](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da09)\) will be available to you.
+**Note:** If an entity is specified for the **Related Data** field in Step \#[4](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da01), the next 4 steps \(step \#[9](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da06) through \#[12](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da09)\) will be available to you.
 
-10. On the Display Sub-Fields page, select the fields that you want to assign as display sub-fields. Click **Next** when you are done selecting the display sub-fields.
+9.  On the Display Sub-Fields page, select the fields that you want to assign as display sub-fields. Click **Next** when you are done selecting the display sub-fields.
 
     ![](/images/TA_Help/Images/DB_19.png)
 
-11. On the Sort Sub-Fields page, select the **Subfield** to sort on, if any, and click **Add Level**. To add additional subfields to sort on, select the sort field then click **Add Level**. Repeat as necessary. For more details on sorting fields, see step \#[6](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da03). Click **Next** when you are done with selecting the sort subfields.
+10. On the Sort Sub-Fields page, select the **Subfield** to sort on, if any, and click **Add Level**. To add additional subfields to sort on, select the sort field then click **Add Level**. Repeat as necessary. For more details on sorting fields, see step \#[6](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da03). Click **Next** when you are done with selecting the sort subfields.
 
     ![](/images/TA_Help/Images/DB_20.png)
 
-12. On the Filter Sub-Fields page, you can create logical expressions to filter data on, using the subfields. More than one expression can be created as necessary. For more details on creating filtering expressions, see step \#[7](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da04). Click **Next** when you are done with creating the subfields filters.
+11. On the Filter Sub-Fields page, you can create logical expressions to filter data on, using the subfields. More than one expression can be created as necessary. For more details on creating filtering expressions, see step \#[7](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da04). Click **Next** when you are done with creating the subfields filters.
 
     ![](/images/TA_Help/Images/DB_21.png)
 
-13. On the Statistic Sub-Fields page, select the subfields that you want to include in the data profile's subfield statistics. Each value for the selected field will be counted in the data profile. Click **Finish** when you are done selecting the statistic subfields.
+12. On the Statistic Sub-Fields page, select the subfields that you want to include in the data profile's subfield statistics. Each value for the selected field will be counted in the data profile. Click **Finish** when you are done selecting the statistic subfields.
 
     ![](/images/TA_Help/Images/DB_22.png)
 

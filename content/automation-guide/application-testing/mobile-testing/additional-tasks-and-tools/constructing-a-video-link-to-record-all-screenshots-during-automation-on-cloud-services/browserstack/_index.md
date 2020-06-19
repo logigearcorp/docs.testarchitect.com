@@ -1,6 +1,6 @@
 --- 
-title: "Constructing a video link to record all screenshots during automation in BrowserStack"
-linktitle: "BrowserStack"
+title: "BrowserStack"
+linktitle: "Constructing a video link to record all screenshots during automation in BrowserStack"
 description: "Note: The URL on BrowserStack which stores the video recording is as follows. ( Learn more .) https://www.browserstack.com/automate/builds/&lt;build-id&gt;/sessions/&lt;session-id&gt; The REST API, provided by ..."
 weight: 2
 aliases: 

@@ -73,9 +73,9 @@ The Picture Capturing tool lets you instantly capture the screen images of your 
 -   **[Key Points Modification tool](/TA_Help/Topics/ug_Key_point_modify_tool.html)**  
 The Key Points Modification tool applies a keypoint detection technique to detect matched objects between baseline images and a target images.
 -   **[Importing external image sources](/TA_Help/Topics/ug_picture_checks_importing_images.html)**  
-TestArchitect lets you easily import image files \(.png\) format\) as a new picture checks or additional new baseline images.
+TestArchitect lets you easily import image files \(.PNG\) format\) as a new picture checks or additional new baseline images.
 -   **[Exporting baseline images](/TA_Help/Topics/ug_picture_checks_exporting.html)**  
-Baseline images can be exported to image files \(.png format\), which can be used as a backup or for re-importing.
+Baseline images can be exported to image files \(.PNG format\), which can be used as a backup or for re-importing.
 -   **[Resolving unverified picture checks](/TA_Help/Topics/ug_Resolving_unverfied_picture_checks.html)**  
 Explains step-by-steps procedures to resolve unverified picture checks.
 -   **[Configuring notification time period to resolve unverified picture checks](/TA_Help/Topics/ug_configuring_notification_unverified_picture_checks.html)**  

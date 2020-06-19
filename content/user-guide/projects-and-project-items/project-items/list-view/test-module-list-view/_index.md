@@ -42,7 +42,7 @@ Test suites are used to organize and execute test modules based on certain crite
 
 -   **Option \#2: Performing a drag and drop**
 
-    **Note:** Applies to TestArchitect [8.3 Update 4](/TA_Automation/Topics/../../TA_ReleaseNotes/DITA_source/Whats_New_Windows_8.3_update_4.html) and higher.
+    **Note:** Applies to TestArchitect [8.3 Update 4](/TA_ReleaseNotes/DITA_source/Whats_New_Windows_8.3_update_4.html) and higher.
 
     Invoke the Execute Test dialog. In the test module list view, select additional preferred test modules. Next, drag these test modules from the test module list view to the desired position in the Test Modules panel of the Execute Test dialog box.
 

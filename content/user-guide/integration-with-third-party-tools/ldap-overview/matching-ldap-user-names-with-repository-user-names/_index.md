@@ -30,7 +30,7 @@ To map a given TestArchitect repository user name to an LDAP user name, perform 
 
     -   Within a repository, only one TestArchitect user name may be mapped to a given LDAP user name. \(Note, however, that this does not restrict you from concurrently allowing a different TestArchitect user name of a different repository to be mapped to the same LDAP user name.\)
     -   In order to modify the repository's current LDAP connection configuration at this point, click the **LDAP Configuration** button. You will be directed to the LDAP Tool.
-    ![](/TA_Administration/Images/editing_profile.png)
+    ![](/images/TA_Administration/Images/editing_profile.png)
 
 5.  Click **Apply** to perform the mapping.
 

@@ -1,6 +1,6 @@
 --- 
-title: "What's new in TestArchitect for macOS"
-linktitle: "macOS"
+title: "macOS"
+linktitle: "What's new in TestArchitect for macOS"
 description: "The following new features and improvements are introduced in TestArchitect version 8.3 running under macOS."
 weight: 3
 aliases: 
@@ -35,7 +35,7 @@ The following new features and improvements are introduced in TestArchitect vers
 **Enhancements to existing features**
 
 -   **Improved picture checks**:
-    -   **[Importing external image sources](/TA_Help/Topics/ug_picture_checks_importing_images.html)**: TestArchitect now lets you easily import image files \(i.e. .png\) format\) for new picture checks or additional new baseline images.
+    -   **[Importing external image sources](/TA_Help/Topics/ug_picture_checks_importing_images.html)**: TestArchitect now lets you easily import image files \(i.e. .PNG\) format\) for new picture checks or additional new baseline images.
     -   **[Resolving unverified picture checks](/TA_Help/Topics/ug_Resolving_unverfied_picture_checks.html)**: You are now able to upload unverified picture checks to the repository, and then resolve those unverified picture checks.
 
 ## TestArchitect Automation

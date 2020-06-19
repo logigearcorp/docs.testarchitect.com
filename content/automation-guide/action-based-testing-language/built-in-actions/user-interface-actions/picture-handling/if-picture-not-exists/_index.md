@@ -16,7 +16,7 @@ Check a bitmap area of the AUT's current display for the presence of a given ins
 
 -   **picture**
 
-    Identifying name of a regular or shared[picture check](/reuse/../TA_Help/Topics/Projects_and_tests_picture_check.html), a collection of one or more baseline images to be used for comparison with the AUT display.
+    Identifying name of a regular or shared [picture check](/reuse/../TA_Help/Topics/Projects_and_tests_picture_check.html), a collection of one or more baseline images to be used for comparison with the AUT display.
 
 -   **window**
 

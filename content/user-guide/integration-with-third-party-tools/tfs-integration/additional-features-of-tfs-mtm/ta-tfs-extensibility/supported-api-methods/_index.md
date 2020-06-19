@@ -1,6 +1,6 @@
 --- 
-title: "Supported API methods in ITAExecution.cs"
-linktitle: "Supported API methods"
+title: "Supported API methods"
+linktitle: "Supported API methods in ITAExecution.cs"
 description: "Lists supported API methods in ITAExecution.cs"
 weight: 4
 aliases: 

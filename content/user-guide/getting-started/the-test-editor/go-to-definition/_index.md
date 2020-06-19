@@ -64,5 +64,7 @@ TestArchitect navigates to the definition of the selected project item, making i
 
 
 
+<div id="fntarg_1"></div>
+<div id="fnsrc_1"></div>
 [1](#fnsrc_1) Note, however, that the control argument of a UI action often has a header name specific to the type of control, such as menu, list, toolbar, tree, etc.
 

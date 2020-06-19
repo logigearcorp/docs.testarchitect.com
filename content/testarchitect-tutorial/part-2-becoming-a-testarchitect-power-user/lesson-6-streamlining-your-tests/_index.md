@@ -1,7 +1,7 @@
 --- 
 title: 'Lesson #6: Streamlining your tests'
-slug: 'lesson-6-streamlining-your-tests'
 linktitle: 'Lesson #6: Streamlining your tests'
+slug: 'lesson-6-streamlining-your-tests'
 description: "How to use loops and actions to create tests that are compact, maintainable, and readable. One key to good testing is to repeat tasks multiple times, supplying the target application with new sets of ..."
 weight: 5
 aliases: 

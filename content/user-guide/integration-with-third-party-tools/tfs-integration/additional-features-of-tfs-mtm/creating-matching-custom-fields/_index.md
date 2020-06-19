@@ -1,6 +1,6 @@
 --- 
-title: "Creating matching custom fields in TestArchitect and Team Foundation Server"
-linktitle: "Creating matching custom fields"
+title: "Creating matching custom fields"
+linktitle: "Creating matching custom fields in TestArchitect and Team Foundation Server"
 description: "User-defined fields in TestArchitect are automatically mapped to TFS custom fields when the names and data types match."
 weight: 2
 aliases: 

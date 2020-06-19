@@ -1,6 +1,6 @@
 --- 
-title: "ExportFromID command \\(Import/Export tool\\)"
-linktitle: "ExportFromID command"
+title: "ExportFromID command"
+linktitle: "ExportFromID command \\(Import/Export tool\\)"
 description: "Export a project item, as identified by its TestArchitect ID, to a file."
 weight: 5
 aliases: 
@@ -118,5 +118,4 @@ java -jar TAImportExportTool.jar --ExportFromID [--server<value>] [--port<value>
 
 (/TA_Help/Topics/ug_export_import_tool_export_from_path.html)
 
-(/TA_Help/Topics/ug_export_import_tool_import_to_path.html)
 

@@ -1,6 +1,6 @@
 --- 
-title: "Configuring and registering an MTM test agent"
-linktitle: "Setting up the MTM test agent"
+title: "Setting up the MTM test agent"
+linktitle: "Configuring and registering an MTM test agent"
 description: "A test agent must be installed on each machine on which you intend to deploy your automated test, and on each machine to be used to collect test data. This section describes how to install a test agent and register it with a test controller."
 weight: 6
 aliases: 

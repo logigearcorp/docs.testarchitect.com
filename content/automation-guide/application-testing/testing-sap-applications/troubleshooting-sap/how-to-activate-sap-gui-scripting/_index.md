@@ -36,13 +36,13 @@ If one of the following parameters is available, it must have the value **FALSE*
 
 1. Open transaction **RZ11** in the system.
 
-![](/images/TA_Automation/Images/sap_open_rz11.png)
+![](/images/TA_Automation/Images/sap_open_rz11.PNG)
 
-2. Enter the parameter name **sapgui/user\_scripting** and click on **Display**.![](/images/TA_Automation/Images/sap_config_server_1.png)
+2. Enter the parameter name **sapgui/user\_scripting** and click on **Display**.![](/images/TA_Automation/Images/sap_config_server_1.PNG)
 
-3. If the parameter value is currently set to **FALSE**, click on the **Change Value** button in the toolbar.![](/images/TA_Automation/Images/sap_config_server_2.png)
+3. If the parameter value is currently set to **FALSE**, click on the **Change Value** button in the toolbar.![](/images/TA_Automation/Images/sap_config_server_2.PNG)
 
-4. A window will open. Enter the new value **TRUE** and save your changes.![](/images/TA_Automation/Images/sap_config_server_3.png)
+4. A window will open. Enter the new value **TRUE** and save your changes.![](/images/TA_Automation/Images/sap_config_server_3.PNG)
 
 5. Repeat the previous steps for all available parameters mentioned above.
 

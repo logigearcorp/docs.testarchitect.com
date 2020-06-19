@@ -1,6 +1,6 @@
 --- 
-title: "Unexpected error has occurred. Error Detail: *<Exceptions caught by RestAssured\\>*"
-linktitle: "Unexpected error has occurred. Error Detail: <Exceptions caught by RestAssured\\>"
+title: "Unexpected error has occurred. Error Detail: <Exceptions caught by RestAssured\\>"
+linktitle: "Unexpected error has occurred. Error Detail: *<Exceptions caught by RestAssured\\>*"
 description: "Error code: 0x80017003L Problem This issue occurs when an exception, which is not recognized by TestArchitect , is thrown by RestAssured . This error is returned from the tested web service. Solution ..."
 weight: 107
 aliases: 

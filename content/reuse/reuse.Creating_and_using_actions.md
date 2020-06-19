@@ -5,9 +5,9 @@ description: "Actions form the cornerstone of the Action Based Testing™ method
 weight: 6
 aliases: 
     - /reuse/reuse.Creating_and_using_actions.html
-keywords: "actions"
+keywords: "Actions"
 ---
-
+# Mobile testing
 Actions form the cornerstone of the Action Based Testing™ methodology upon which TestArchitect is based.
 
 Actions are the building blocks of your test cases, telling the system which operations to perform. Actions typically interface with the application under test, but may have other functions as well. These include documentary actions, actions that interact with the host file system, and various support actions.

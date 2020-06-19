@@ -1,7 +1,7 @@
 --- 
 title: 'Lesson #5: Working with variables and expressions'
-slug: 'lesson-5-working-with-variables-and-expressions'
 linktitle: 'Lesson #5: Working with variables and expressions'
+slug: 'lesson-5-working-with-variables-and-expressions'
 description: "Explores how constants, variables, and operations are combined to form expressions that can be included in your tests. Through careful use of variables and expressions, your tests can be flexible, ..."
 weight: 4
 aliases: 

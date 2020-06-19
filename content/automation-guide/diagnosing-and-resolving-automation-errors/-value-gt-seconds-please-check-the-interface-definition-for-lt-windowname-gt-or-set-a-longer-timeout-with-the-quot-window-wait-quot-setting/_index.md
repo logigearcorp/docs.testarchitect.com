@@ -1,6 +1,6 @@
 --- 
-title: 'No window found matching *<windowName\\>*, defined by *<windowDefinition\\>*, within the timeout of *<value\\>* seconds. Please check the interface definition for *<windowName\\>*, or set a longer timeout with the "window wait" setting.'
-linktitle: 'No window found matching <windowName\\>, defined by <windowDefinition\\>, within the timeout of <value\\> seconds. Please check the interface definition for <windowName\\>, or set a longer timeout with the "window wait" setting.'
+title: 'No window found matching <windowName\\>, defined by <windowDefinition\\>, within the timeout of <value\\> seconds. Please check the interface definition for <windowName\\>, or set a longer timeout with the "window wait" setting.'
+linktitle: 'No window found matching *<windowName\\>*, defined by *<windowDefinition\\>*, within the timeout of *<value\\>* seconds. Please check the interface definition for *<windowName\\>*, or set a longer timeout with the "window wait" setting.'
 description: "Error code: 0x80010004L Common causes AUT change issue, that is when title of the window is changed. Timing issue , that is when the window is not available within a specified timeout, defined in the ..."
 weight: 8
 aliases: 

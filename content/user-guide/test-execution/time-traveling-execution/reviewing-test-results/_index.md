@@ -1,6 +1,6 @@
 --- 
-title: "Reviewing test results with time traveling"
-linktitle: "Reviewing test results"
+title: "Reviewing test results"
+linktitle: "Reviewing test results with time traveling"
 description: "Reviewing test results can assist you in verifying which revision of each related project items is selected to run."
 weight: 3
 aliases: 

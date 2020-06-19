@@ -18,7 +18,7 @@ You are going to implement an action named hello in thePythonharness. It will ac
 
 
 
-As outlined in the three-step procedure described earlier, \(in[Developing your own User-scripted Python harness action](/reuse/../TA_Tutorials/Topics/Developing_your_own_harness_action.html)\), this entails making the following modifications to module mod\_Example.py:
+As outlined in the three-step procedure described earlier, \(in [Developing your own User-scripted Python harness action](/reuse/../TA_Tutorials/Topics/Developing_your_own_harness_action.html)\), this entails making the following modifications to module mod\_Example.py:
 
 -   adding a line to the list of SetActions\(\) function calls, declaring the hello action to have its implementation in the example module;
 -   adding an `else-if` clause to the Divert\(\) function, specifying the handling function action\_hello\(\) for the hello action;

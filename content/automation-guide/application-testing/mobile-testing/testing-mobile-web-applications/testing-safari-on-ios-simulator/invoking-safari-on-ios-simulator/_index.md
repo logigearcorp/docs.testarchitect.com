@@ -1,6 +1,6 @@
 --- 
-title: "Invoking Safari on iOS Simulator during automation"
-linktitle: "Invoking Safari on iOS Simulator"
+title: "Invoking Safari on iOS Simulator"
+linktitle: "Invoking Safari on iOS Simulator during automation"
 description: "There are two methods by which Safari may be invoked in the iOS Simulator:"
 weight: 2
 aliases: 

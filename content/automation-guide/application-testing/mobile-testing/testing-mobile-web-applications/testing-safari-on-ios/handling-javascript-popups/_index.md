@@ -1,6 +1,6 @@
 --- 
-title: "Handling JavaScript popups on Safari iOS"
-linktitle: "Handling JavaScript popups"
+title: "Handling JavaScript popups"
+linktitle: "Handling JavaScript popups on Safari iOS"
 description: "TestArchitect offers a special set of actions for interfacing with JavaScript popups, which include alerts, prompts and confirmation dialogs."
 weight: 3
 aliases: 

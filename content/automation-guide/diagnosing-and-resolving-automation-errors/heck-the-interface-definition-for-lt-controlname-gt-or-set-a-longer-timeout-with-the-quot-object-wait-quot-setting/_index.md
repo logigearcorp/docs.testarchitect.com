@@ -1,6 +1,6 @@
 --- 
-title: 'No matching UI object found for *<controlName\\>* within the timeout of *<value\\>* seconds. Please check the interface definition for *<controlName\\>*, or set a longer timeout with the "object wait" setting.'
-linktitle: 'No matching UI object found for <controlName\\> within the timeout of <value\\> seconds. Please check the interface definition for <controlName\\>, or set a longer timeout with the "object wait" setting.'
+title: 'No matching UI object found for <controlName\\> within the timeout of <value\\> seconds. Please check the interface definition for <controlName\\>, or set a longer timeout with the "object wait" setting.'
+linktitle: 'No matching UI object found for *<controlName\\>* within the timeout of *<value\\>* seconds. Please check the interface definition for *<controlName\\>*, or set a longer timeout with the "object wait" setting.'
 description: "Error code: 0x80010009L Common causes AUT change, that is, previously-captured TA properties are changed, or the control no longer exists. Timing issue , that is, the control is not available within a ..."
 weight: 16
 aliases: 

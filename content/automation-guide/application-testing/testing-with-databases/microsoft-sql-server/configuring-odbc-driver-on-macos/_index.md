@@ -1,6 +1,6 @@
 --- 
-title: "**Configuring the ODBC Driver on macOS to connect to Microsoft SQL Server**"
-linktitle: "Configuring ODBC Driver on macOS"
+title: "Configuring ODBC Driver on macOS"
+linktitle: "**Configuring the ODBC Driver on macOS to connect to Microsoft SQL Server**"
 description: "Explain additional configurations on macOS to connect to Microsoft SQL Server."
 weight: 1
 aliases: 

@@ -1,6 +1,6 @@
 --- 
-title: "ImportToID command \\(Import/Export tool\\)"
-linktitle: "ImportToID command"
+title: "ImportToID command"
+linktitle: "ImportToID command \\(Import/Export tool\\)"
 description: "Import a project item or test case to a TestArchitect project location identified by a TestArchitect ID."
 weight: 7
 aliases: 
@@ -106,5 +106,4 @@ java -Dfile.encoding=UTF-8 -jar TAImportExportTool.jar --ImportToID [--server<va
 
 
 
-(/TA_Help/Topics/ug_export_import_tool_import_to_path.html)
 

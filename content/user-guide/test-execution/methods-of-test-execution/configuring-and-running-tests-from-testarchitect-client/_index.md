@@ -40,7 +40,7 @@ Following are the fields of the Execute Test dialog box:
 
         **Note:**
 
-        -   Applies to TestArchitect [8.3 Update 4](/TA_Automation/Topics/../../TA_ReleaseNotes/DITA_source/Whats_New_Windows_8.3_update_4.html) and higher.
+        -   Applies to TestArchitect [8.3 Update 4](/TA_ReleaseNotes/DITA_source/Whats_New_Windows_8.3_update_4.html) and higher.
         -   When you deselect some test modules/test cases, the number of selected tests modules/test cases is updated immediately.
     -   In the Test Modules panel, test modules and test cases are executed from the top downwards. You might also change the positions of the test modules in the panel, which means changing the execution order of test modules.
 
@@ -62,7 +62,7 @@ Following are the fields of the Execute Test dialog box:
         2.  **Comment**: \(Optional\) Allows you to add a comment that will be included in the report generated after the test is executed. The comment value will appear as a field of the result item in the **Results** subtree of theTestArchitect explorer tree, and can therefore be used to filter or sort your reports.
         3.  **Build Number**: \(Optional\) Use to specify the AUT build number. The build number is displayed in the test result report and can be used as a filter or sort criteria.
 
-            **Note:** During execution, the built-in action [assign result field](/TA_Automation/Topics/bia_assign_result_field.html)can be used to assign a new value to this field, which changes the build number.
+            **Note:** During execution, the built-in action [assign result field](/TA_Automation/Topics/bia_assign_result_field.html) can be used to assign a new value to this field, which changes the build number.
 
         4.  **Automation Tools**: Click this button to set the automation tools \(see [Lesson \#8: Using an automation harness](/TA_Tutorials/Topics/Tutorial_Scripting_actions_in_other_languages.html)\). The following settings are available for automation tools:
             -   **Playback Tool**: Select the automation playback tool.

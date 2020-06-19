@@ -1,6 +1,6 @@
 --- 
-title: "Could not detect your *<logicalDeviceName\\>* device because it is not assigned yet."
-linktitle: "Could not detect your <logicalDeviceName\\> device because it is not assigned yet."
+title: "Could not detect your <logicalDeviceName\\> device because it is not assigned yet."
+linktitle: "Could not detect your *<logicalDeviceName\\>* device because it is not assigned yet."
 description: "Error code: 0x80018003L Problem This issue occurs when you make a connection to the target cloud device via the connect cloud device built-in action, as specified by its logical name; however, the ..."
 weight: 114
 aliases: 

@@ -1,6 +1,6 @@
 --- 
-title: "What's new in TestArchitect License Server for Linux"
-linktitle: "Linux"
+title: "Linux"
+linktitle: "What's new in TestArchitect License Server for Linux"
 description: "The following new features and improvements are introduced in TestArchitect License Server version 8.3.4 running under Linux."
 weight: 2
 aliases: 

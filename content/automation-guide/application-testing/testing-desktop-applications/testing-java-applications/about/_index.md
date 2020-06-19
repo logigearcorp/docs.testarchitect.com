@@ -1,6 +1,6 @@
 --- 
-title: "Testing Java applications - Overview"
-linktitle: "About"
+title: "About"
+linktitle: "Testing Java applications - Overview"
 description: "Some basics of creating and recording tests for Java applications, Java control identification via the Interface Viewer, and other concepts."
 weight: 1
 aliases: 

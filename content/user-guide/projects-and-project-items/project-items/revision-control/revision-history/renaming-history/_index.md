@@ -14,11 +14,11 @@ As of version 8.2, TestArchitect tracks changes made to names of project items, 
 
 **Note:** For legacy repository databases created prior to TestArchitect version 8.2, the [upgrade process for time travel-readiness](/TA_Administration/Topics/adm_database_upgrade_time_traveling.html) attempts, based on the existing revision histories, to reconstruct the past name changes of all involved project items, storing this information to the respective **Rename History** fields.
 
-![](/TA_Administration/Images/renaming_history.png)
+![](/images/TA_Administration/Images/renaming_history.png)
 
 On the **Information** tab of a given project item, you may view its renaming history records by clicking the **Edit** link. For each record, the Rename history dialog displays its timestamp, ID, prior name, and new name.
 
-![](/TA_Administration/Images/renaming_history_dlg.png)
+![](/images/TA_Administration/Images/renaming_history_dlg.png)
 
 **Note:**
 

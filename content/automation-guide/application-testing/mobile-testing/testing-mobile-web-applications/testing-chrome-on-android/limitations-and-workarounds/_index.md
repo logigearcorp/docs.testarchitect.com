@@ -1,6 +1,6 @@
 --- 
-title: "Limitations and workarounds of testing Chrome on Android"
-linktitle: "Limitations and workarounds"
+title: "Limitations and workarounds"
+linktitle: "Limitations and workarounds of testing Chrome on Android"
 description: "This topic categorizes some limitations you might encounter in testing web applications in Android Chrome. Applicable workarounds, if available, are also discussed."
 weight: 6
 aliases: 

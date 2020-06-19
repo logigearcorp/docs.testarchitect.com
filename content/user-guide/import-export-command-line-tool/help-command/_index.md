@@ -1,6 +1,6 @@
 --- 
-title: "Help command \\(Import/Export tool\\)"
-linktitle: "Help command"
+title: "Help command"
+linktitle: "Help command \\(Import/Export tool\\)"
 description: "Retrieve descriptive information on the functionality and options of the Import/Export tool."
 weight: 1
 aliases: 
@@ -47,5 +47,4 @@ java -jar TAImportExportTool.jar --help [--<CommandName>]
 
 
 
-(/TA_Help/Topics/ug_export_import_tool_export_repository.html)
 

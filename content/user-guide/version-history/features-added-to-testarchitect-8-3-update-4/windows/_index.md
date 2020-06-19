@@ -1,6 +1,6 @@
 --- 
-title: "What's new in TestArchitect for Windows"
-linktitle: "Windows"
+title: "Windows"
+linktitle: "What's new in TestArchitect for Windows"
 description: "The following new features and improvements are introduced in TestArchitect version 8.3 Update 4 running under Windows."
 weight: 1
 aliases: 
@@ -51,6 +51,6 @@ The following new features and improvements are introduced in TestArchitect vers
 **Enhancements to existing features**
 
 -   [**Support for the Firefox updates**](/TA_Automation/Topics/Web_automation.html): You can play back tests for web applications running in Firefox 57.
--   [capture screen](/TA_Automation/Topics/bia_capture_screen.html) built-in action: Additional support for saving captured screenshots to .png format.
+-   [capture screen](/TA_Automation/Topics/bia_capture_screen.html) built-in action: Additional support for saving captured screenshots to .PNG format.
 
 

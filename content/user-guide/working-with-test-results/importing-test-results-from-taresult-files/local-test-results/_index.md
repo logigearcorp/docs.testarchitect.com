@@ -1,6 +1,6 @@
 --- 
-title: "Importing local test results from .TARESULT files"
-linktitle: "Local test results"
+title: "Local test results"
+linktitle: "Importing local test results from .TARESULT files"
 description: "How to import your local test result files (.TARESULT) into TestArchitect as either local or repository results."
 weight: 1
 aliases: 

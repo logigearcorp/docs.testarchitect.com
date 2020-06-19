@@ -1,7 +1,7 @@
 --- 
 title: 'HTML5 Capture - Example # 2'
-slug: 'html5-capture-example-2'
 linktitle: 'HTML5 Capture - Example # 2'
+slug: 'html5-capture-example-2'
 description: "The Interface Viewer can be used to capture HTML5 tags (controls)."
 weight: 3
 aliases: 

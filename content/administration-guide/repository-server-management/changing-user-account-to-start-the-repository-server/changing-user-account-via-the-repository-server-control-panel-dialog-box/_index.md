@@ -1,6 +1,6 @@
 --- 
-title: "Changing user account via the Repository Server Control Panel dialog box to start the Repository Server service"
-linktitle: "Changing user account via the Repository Server Control Panel dialog box"
+title: "Changing user account via the Repository Server Control Panel dialog box"
+linktitle: "Changing user account via the Repository Server Control Panel dialog box to start the Repository Server service"
 description: "If, during the installation process, you do not specify a desired user account to start the repository server, you are still allowed to change a different user account from the Repository Server Control Panel dialog box."
 weight: 2
 aliases: 

@@ -1,6 +1,6 @@
 --- 
-title: "Importing new picture checks from external files"
-linktitle: "Importing new picture checks"
+title: "Importing new picture checks"
+linktitle: "Importing new picture checks from external files"
 description: "To import new picture checks from external image files, do the following: In the TestArchitect explorer tree , select either: a test module node, and then select Local Pictures , located under the ..."
 weight: 1
 aliases: 
@@ -30,7 +30,7 @@ To import new picture checks from external image files, do the following:
 
     **Note:**
 
-    -   Only .png files are accepted.
+    -   Only .PNG files are accepted.
     -   The Shift and Ctrl keys may be used with the mouse to aid in multiple selection.
     ![](/images/TA_Help/Images/import_baseline_images_select_dlg.png)
 

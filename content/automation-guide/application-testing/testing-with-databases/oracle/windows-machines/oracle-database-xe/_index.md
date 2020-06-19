@@ -1,6 +1,6 @@
 --- 
-title: "Oracle Database Express Edition"
-linktitle: "Oracle Database XE"
+title: "Oracle Database XE"
+linktitle: "Oracle Database Express Edition"
 description: "Information specific to testing with Oracle Database Express edition."
 weight: 2
 aliases: 

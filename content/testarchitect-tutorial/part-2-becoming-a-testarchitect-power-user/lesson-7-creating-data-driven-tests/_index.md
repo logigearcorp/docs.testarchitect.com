@@ -1,7 +1,7 @@
 --- 
 title: 'Lesson #7: Creating data-driven tests'
-slug: 'lesson-7-creating-data-driven-tests'
 linktitle: 'Lesson #7: Creating data-driven tests'
+slug: 'lesson-7-creating-data-driven-tests'
 description: "Demonstrates how to enhance your tests with external test data to better simulate real-world user actions. Audience: Testers, Automation engineers Time: Duration: 2 hours Prerequisites: Basic ..."
 weight: 6
 aliases: 

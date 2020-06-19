@@ -51,7 +51,7 @@ Set up the following system profile option at \(your\) user level to enable the 
 
     **Note:** The availability of the name property depends on whether your Oracle Server supplies it or not. \([Learn more](https://admhelp.microfocus.com/uft/en/14.02/UFT_Help/Content/Addins_Guide/Verifying_OracleServer_UniqueName_Attributes.htm).\)
 
-    ![](/images/TA_Automation/Images/unique_name_OracleForms.png)
+    ![](/images/TA_Automation/Images/unique_name_OracleForms.PNG)
 
 -   The figure above shows how the name property of the **Description** text field looks like in the Interface Viewer. Usually name is displayed in capital letters in the format `FORM:BLOCK:FIELD` or `FORM_BLOCK_FIELD`.
 

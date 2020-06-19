@@ -20,5 +20,4 @@ Fill in a value for the window argument, and then re-run the test.
 
 
 
-<headerName\> is invalid. Please look up or retype the action to determine the correct header name\(s\).](/TA_FAQ/Topics/0x80010016L.html)
 

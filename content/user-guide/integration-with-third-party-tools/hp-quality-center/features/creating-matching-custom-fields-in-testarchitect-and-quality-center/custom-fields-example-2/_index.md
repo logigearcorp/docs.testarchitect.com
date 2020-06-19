@@ -1,7 +1,7 @@
 --- 
 title: 'Custom fields: Example #2'
-slug: 'custom-fields-example-2'
 linktitle: 'Custom fields: Example #2'
+slug: 'custom-fields-example-2'
 description: "This second example explores the steps involved in mapping to custom fields in the Quality Center RUN table."
 weight: 3
 aliases: 

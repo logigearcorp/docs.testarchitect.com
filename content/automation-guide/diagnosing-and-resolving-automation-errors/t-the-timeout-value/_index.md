@@ -1,6 +1,6 @@
 --- 
-title: "The *<windowName\\>* window did not disappear within the timeout of *<value\\>* seconds. Please adjust the timeout value."
-linktitle: "The <windowName\\> window did not disappear within the timeout of <value\\> seconds. Please adjust the timeout value."
+title: "The <windowName\\> window did not disappear within the timeout of <value\\> seconds. Please adjust the timeout value."
+linktitle: "The *<windowName\\>* window did not disappear within the timeout of *<value\\>* seconds. Please adjust the timeout value."
 description: "Error code: 0x8001000CL Problem This issue occurs when a given window is not absent before the specified maximum wait time, specified in the wait for window close built-in action. Solution Try setting ..."
 weight: 67
 aliases: 

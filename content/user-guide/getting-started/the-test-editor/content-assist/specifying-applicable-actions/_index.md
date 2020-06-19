@@ -1,6 +1,6 @@
 --- 
-title: "Specifying action suggestion for a control belonging to a user-defined TA class"
-linktitle: "Specifying applicable actions"
+title: "Specifying applicable actions"
+linktitle: "Specifying action suggestion for a control belonging to a user-defined TA class"
 description: "For any set of controls whose TA class is user-defined, you can specify the list of actions that apply. This list will then appear in the applicable actions list of the Content Assist window when you work with these controls in the test editor."
 weight: 2
 aliases: 
@@ -55,5 +55,7 @@ The list of applicable actions has now been successfully defined for your user-d
 You can now view the results of your work by dragging controls of your user-defined TA class or classes into the editor for your test module or action, as described in [Applicable action suggestions for a window or control](/TA_Help/Topics/ug_applicable_actions.html).
 
 
+<div id="fntarg_1"></div>
+<div id="fnsrc_1"></div>
 [1](#fnsrc_1) Such would be the case if you were mapping multiple native classes to a single user-defined TA class, or using the class across platforms.
 

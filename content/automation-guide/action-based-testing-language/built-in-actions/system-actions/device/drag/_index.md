@@ -71,5 +71,6 @@ The following action lines presume that picture checks have already been created
 
 
 
+<div id="fn.iOS_screen_units"></div>
 1 In the case of iOS device testing, screen units are points. \(See Notes.\)
 

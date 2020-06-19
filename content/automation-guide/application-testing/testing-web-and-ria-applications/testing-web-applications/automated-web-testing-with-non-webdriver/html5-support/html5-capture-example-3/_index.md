@@ -1,7 +1,7 @@
 --- 
 title: 'HTML5 Capture - Example # 3'
-slug: 'html5-capture-example-3'
 linktitle: 'HTML5 Capture - Example # 3'
+slug: 'html5-capture-example-3'
 description: "An illustration of how existing built-in actions support HTML5 tags (controls)."
 weight: 4
 aliases: 

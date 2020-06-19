@@ -1,7 +1,7 @@
 --- 
 title: 'Developing your own user-scripted C# bundle harness action'
-slug: 'developing-your-own-user-scripted-c-bundle-harness-action'
 linktitle: 'Developing your own user-scripted C# bundle harness action'
+slug: 'developing-your-own-user-scripted-c-bundle-harness-action'
 description: "TestArchitect provides sample C# bundle harness code files for you to learn to develop, build, and execute C#-scripted actions."
 weight: 1
 aliases: 

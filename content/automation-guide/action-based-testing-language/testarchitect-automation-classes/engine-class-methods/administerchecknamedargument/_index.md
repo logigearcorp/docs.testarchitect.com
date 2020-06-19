@@ -18,7 +18,7 @@ Administer a check for a named argument.
 
 ## Parameters
 
--   **argname**
+-   **argname ;**
 
     Name of the argument in the action line that contains the expected value.
 
@@ -26,12 +26,16 @@ Administer a check for a named argument.
 
     Recorded value.
 
--   ****
+-   **result**
+
+    The result value that is to be administered for this check: 1 means pass, 0 means fail.
+
 
 ## Return Value
 
-The function returns the value of the *result* parameter. 
+The function returns the value of the result parameter.
 
 ## Notes
 
--   
+-   The functions [AdministerCheck](/reuse/../TA_Automation/Topics/abtf_AdministerCheck.html), [AdministerCheckArgument](/reuse/../TA_Automation/Topics/abtf_AdministerCheckArgument.html) and [AdministerCheckNamedArgument](/reuse/../TA_Automation/Topics/abtf_AdministerCheckNamedArgument.html) can be used to administer the result of a check already done in a script. They are typically used when the check is not a comparison between an expected and a recorded string \(like "check if the response time is below 8 seconds"\).
+

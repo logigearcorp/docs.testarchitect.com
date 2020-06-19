@@ -1,6 +1,6 @@
 --- 
-title: "Importing additional baseline images from external files"
-linktitle: "Importing additional baseline images"
+title: "Importing additional baseline images"
+linktitle: "Importing additional baseline images from external files"
 description: "To import additional baseline images into an existing picture check, do the following: In the TestArchitect explorer tree , select a picture check to which you'd like to import additional baseline ..."
 weight: 2
 aliases: 
@@ -26,7 +26,7 @@ To import additional baseline images into an existing picture check, do the foll
 
     **Note:**
 
-    -   Only .png files are accepted.
+    -   Only .PNG files are accepted.
     -   The Shift and Ctrl keys may be used with the mouse to aid in multiple selection.
     ![](/images/TA_Help/Images/import_picture_check_select_dlg.png)
 

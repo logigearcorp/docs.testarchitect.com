@@ -1,7 +1,7 @@
 --- 
 title: 'Running the C#-scripted test'
-slug: 'running-the-c-scripted-test'
 linktitle: 'Running the C#-scripted test'
+slug: 'running-the-c-scripted-test'
 description: "Execute the test that calls the hello action you implemented in the C# bundle harness."
 weight: 4
 aliases: 

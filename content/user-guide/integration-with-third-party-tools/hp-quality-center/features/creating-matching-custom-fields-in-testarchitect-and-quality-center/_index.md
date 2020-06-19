@@ -1,6 +1,6 @@
 --- 
-title: "Creating matching custom fields"
-linktitle: "Creating matching custom fields in TestArchitect and Quality Center"
+title: "Creating matching custom fields in TestArchitect and Quality Center"
+linktitle: "Creating matching custom fields"
 description: "User-defined fields in TestArchitect are automatically mapped to their counterparts in Quality Center, when such counterparts exist."
 weight: 6
 aliases: 

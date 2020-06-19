@@ -32,7 +32,7 @@ You have created a test case that calls the action hello, passing it an argument
 
     **Tip:** To save time, install Python to the default location C:\\Python\\.
 
-    Additionally, from TestArchitect 8.5 onward, in the python\_harness.bat file located in the folder C:\\Program Files\\LogiGear\\TestArchitect\\harness samples\\python, the default value will be Python 3. If a user wants to use Python 2, they will need to modify the path in this file like below:![](/images/TA_Tutorials/Images/python_path.png)
+    Additionally, from TestArchitect 8.5 onward, in the python\_harness.bat file located in the folder C:\\Program Files\\LogiGear\\TestArchitect\\harness samples\\python, the default value will be Python 3. If a user wants to use Python 2, they will need to modify the path in this file like below:![](/images/TA_Tutorials/Images/python_path.PNG)
 
 5.  Click **OK** to return to the Execute Test dialog box.
 

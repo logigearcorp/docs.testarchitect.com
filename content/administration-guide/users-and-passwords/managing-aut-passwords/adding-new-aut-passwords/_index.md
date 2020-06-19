@@ -42,7 +42,7 @@ Only members of the administrators and test managers groups have privileges for 
 
                 ![](/images/TA_Administration/Images/Dynamic_identifiers_identify.png)
 
-            -   Option \#2: Interface Viewer method \(see [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer_reading.html)for details\):
+            -   Option \#2: Interface Viewer method \(see [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer_reading.html) for details\):
 
                 ![](/images/TA_Administration/Images/Dynamic_identifiers_viewer.png)
 

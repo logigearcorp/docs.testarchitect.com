@@ -1,6 +1,6 @@
 --- 
-title: "Just-In-Time UI matching algorithm"
-linktitle: "JIT UI matching algorithm"
+title: "JIT UI matching algorithm"
+linktitle: "Just-In-Time UI matching algorithm"
 description: "TestArchitect employs a breadth-first search (BFS) algorithm to match a desired MDI-child window and its controls."
 weight: 2
 aliases: 

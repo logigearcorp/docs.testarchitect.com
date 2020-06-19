@@ -1,6 +1,6 @@
 --- 
-title: "Invalid value for argument *<argumentNalue\\>*. Please input valid data."
-linktitle: "Invalid value for argument <argumentNalue\\>. Please input valid data."
+title: "Invalid value for argument <argumentNalue\\>. Please input valid data."
+linktitle: "Invalid value for argument *<argumentNalue\\>*. Please input valid data."
 description: "Error code: 0x8001000EL Problem This happens because the specified value for the required argument is invalid. Solution Check the AUT again. Look up the possible values of the corresponding built-in ..."
 weight: 47
 aliases: 

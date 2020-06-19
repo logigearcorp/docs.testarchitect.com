@@ -34,7 +34,7 @@ TestArchitect, in support of the Action Based Testing model, is built around tes
 
     Your new test module appears as a node in the TestArchitect explorer tree. At the same time, a worksheet opens in the main panel. This is the TestArchitect test editor. The editor contains numbered rows and lettered columns. A black border around one of the cells, the cell pointer, indicates the current position for text entry. Use your mouse or the keyboard's arrow keys to move the cell pointer.
 
-    ![](/images/TA_Tutorials/Images/tut.Simple_Tests.creating01.png)
+    ![](/images/TA_Tutorials/Images/tut.Simple_Tests.creating01.PNG)
 
     Also note that the test module template, as described in the topic [The test module and template](/TA_Tutorials/Topics/The_test_module_template.html) has been inserted into the editor. The template contains various *test support* actions \(test case, test objective, `INITIAL`, etc.\) which are not executed at run time. These actions are both documentary, and serve as a means of partitioning the test module into parts that can be executed separately.
 
@@ -52,7 +52,7 @@ TestArchitect, in support of the Action Based Testing model, is built around tes
 
 10. Select cell **C14** \(one cell to the right\) and enter Say hello to the world as the short description for this test case.
 
-    ![](/images/TA_Tutorials/Images/tut.Simple_Tests.creating03.png)
+    ![](/images/TA_Tutorials/Images/tut.Simple_Tests.creating03.PNG)
 
 11. Select cell **C4** and type Say hello as a short description for this test objective.
 
@@ -68,7 +68,7 @@ TestArchitect, in support of the Action Based Testing model, is built around tes
 
     Your screen should now resemble the image below. You have created your first test module, which consists of a single executable action and you are ready to run your first test.
 
-    ![](/images/TA_Tutorials/Images/tut.Simple_Tests.creating04.png)
+    ![](/images/TA_Tutorials/Images/tut.Simple_Tests.creating04.PNG)
 
 
 

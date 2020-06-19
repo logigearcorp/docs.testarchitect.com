@@ -38,6 +38,5 @@ You can resolve this issue in one of two ways:
     4.  Re-run the automated test.
 
 
-<headerName\> is invalid. Please look up or retype the action to determine the correct header name\(s\).](/TA_FAQ/Topics/0x80010015L.html)
 
 

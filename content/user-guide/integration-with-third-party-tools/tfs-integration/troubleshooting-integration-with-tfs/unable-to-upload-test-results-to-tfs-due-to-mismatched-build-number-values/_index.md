@@ -1,6 +1,6 @@
 --- 
-title: "Unable to upload test results to Team Foundation Server due to mismatched build number values"
-linktitle: "Unable to upload test results to TFS due to mismatched build number values"
+title: "Unable to upload test results to TFS due to mismatched build number values"
+linktitle: "Unable to upload test results to Team Foundation Server due to mismatched build number values"
 description: "Whether you upload test results to TFS manually or automatically , the upload will fail when the given build number values among test modules belonging to a serial test run are not identical. In case ..."
 weight: 2
 aliases: 

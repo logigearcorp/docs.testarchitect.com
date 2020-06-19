@@ -1,6 +1,6 @@
 --- 
-title: "Automation testing on Safari in iOS Simulator"
-linktitle: "Automation testing"
+title: "Automation testing"
+linktitle: "Automation testing on Safari in iOS Simulator"
 description: "After having completed the prerequisites, you can now start to automate your tests on Safari in the target iOS Simulator."
 weight: 3
 aliases: 

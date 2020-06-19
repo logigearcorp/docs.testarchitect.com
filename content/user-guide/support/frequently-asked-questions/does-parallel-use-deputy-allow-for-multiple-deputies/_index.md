@@ -1,6 +1,6 @@
 --- 
-title: "If you have a use deputy action with parallel set to yes, does that mean the test can continue and start other use deputy blocks and a use lead block? How are the completions of the two \\(or more\\) deputy blocks synchronized? It looks like the wait for deputy action might be used ?"
-linktitle: "Does parallel use deputy allow for multiple deputies?"
+title: "Does parallel use deputy allow for multiple deputies?"
+linktitle: "If you have a use deputy action with parallel set to yes, does that mean the test can continue and start other use deputy blocks and a use lead block? How are the completions of the two \\(or more\\) deputy blocks synchronized? It looks like the wait for deputy action might be used ?"
 description: "Yes, if parallel is specified for a use deputy action, the block of action lines up until the next use lead or use deputy is executed by the assigned deputy, while that next use... action is ..."
 weight: 15
 aliases: 

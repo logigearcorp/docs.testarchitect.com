@@ -1,6 +1,6 @@
 --- 
-title: "ImportRepository command \\(Import/Export tool\\)"
-linktitle: "ImportRepository command"
+title: "ImportRepository command"
+linktitle: "ImportRepository command \\(Import/Export tool\\)"
 description: "Import a repository from a .dat file."
 weight: 3
 aliases: 
@@ -76,5 +76,4 @@ java -jar TAImportExportTool.jar --ImportRepository [--server<value>] [--port<va
 
 (/TA_Help/Topics/ug_export_import_tool_export_repository.html)
 
-(/TA_Help/Topics/ug_export_import_tool_export_from_path.html)
 

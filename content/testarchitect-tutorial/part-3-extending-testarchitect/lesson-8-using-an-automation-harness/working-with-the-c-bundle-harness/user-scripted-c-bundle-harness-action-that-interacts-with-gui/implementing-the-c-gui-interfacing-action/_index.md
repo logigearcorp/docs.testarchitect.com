@@ -1,7 +1,7 @@
 --- 
 title: 'Implementing the C# GUI-interfacing action'
-slug: 'implementing-the-c-gui-interfacing-action'
 linktitle: 'Implementing the C# GUI-interfacing action'
+slug: 'implementing-the-c-gui-interfacing-action'
 description: "We now implement the C# method getListViewRowValue() which will handle execution of the get list view row value action in TestArchitect."
 weight: 2
 aliases: 

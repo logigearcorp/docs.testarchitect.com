@@ -1,6 +1,6 @@
 --- 
-title: "Running ExportRepository command \\(Import/Export tool\\)"
-linktitle: "Running ExportRepository"
+title: "Running ExportRepository"
+linktitle: "Running ExportRepository command \\(Import/Export tool\\)"
 description: "Ensure that you have installed or upgraded your Java Runtime Environment (JRE) to at least version 8, which is necessary to run TAImportExportTool.jar on your Windows machine. Tip: Refer to JRE 8 ..."
 weight: 1
 aliases: 
@@ -41,5 +41,4 @@ To run the ExportRepository command, do the following:
 
 ![](/images/TA_Help/Images/TA_Export_Import_tool_ExportRepo.png)
 
-(/TA_Help/Topics/ug_export_import_tool_export_repository.html)
 

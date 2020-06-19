@@ -16,5 +16,4 @@ Please contact TestArchitect Support at [support@logigear.com](mailto:support@lo
 
 
 
-](/TA_FAQ/Topics/0x80010010L.html)
 

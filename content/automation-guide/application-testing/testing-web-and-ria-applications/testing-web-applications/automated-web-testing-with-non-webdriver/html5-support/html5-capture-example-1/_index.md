@@ -1,7 +1,7 @@
 --- 
 title: 'HTML5 Capture - Example # 1'
-slug: 'html5-capture-example-1'
 linktitle: 'HTML5 Capture - Example # 1'
+slug: 'html5-capture-example-1'
 description: "An example showing how the Element Identification dialog box can be used to capture HTML5 tags (controls)."
 weight: 2
 aliases: 

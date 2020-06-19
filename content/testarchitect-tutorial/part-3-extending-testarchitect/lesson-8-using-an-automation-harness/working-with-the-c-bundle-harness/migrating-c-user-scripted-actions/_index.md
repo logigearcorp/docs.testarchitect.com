@@ -1,7 +1,7 @@
 --- 
-title: 'Migrating C# user-scripted actions created in earlier versions to TestArchitect 8.3'
+title: 'Migrating C# user-scripted actions'
+linktitle: 'Migrating C# user-scripted actions created in earlier versions to TestArchitect 8.3'
 slug: 'migrating-c-user-scripted-actions-created-in-earlier-versions-to-testarchitect-8-3'
-linktitle: 'Migrating C# user-scripted actions'
 description: "Suppose that you have a C# user-scripted action check sort order programmed in TestArchitect versions prior to 8.3 . This action checks whether the order of rows in a table is ascending, using a ..."
 weight: 6
 aliases: 
@@ -16,7 +16,7 @@ The legacy function implementation of this action was programmed as follows.
 ```
         private void CheckSortOrder()
         {
-            // get parameters <window> <table> <column>
+            // get parameters <window> > <column>
             string sEntityName = Interpreter.AbtLibrary.Argument(1);
             string sElement = Interpreter.AbtLibrary.Argument(2);
             string sColumn = Interpreter.AbtLibrary.Argument(3);

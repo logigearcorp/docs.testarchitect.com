@@ -1,6 +1,6 @@
 --- 
-title: "Mapping a TestArchitect project to a Team Foundation Server project"
-linktitle: "Mapping a TA project to a TFS project"
+title: "Mapping a TA project to a TFS project"
+linktitle: "Mapping a TestArchitect project to a Team Foundation Server project"
 description: "Mapping a TA project to TFS team project allows you to upload test results to TFS."
 weight: 4
 aliases: 

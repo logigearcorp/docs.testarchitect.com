@@ -28,10 +28,9 @@ The following built-in setting\(s\) are supported: none.
 
 ## Example
 
-![](/images/TA_Automation/Images/automationguide_datefunction3.png)
+![](/images/TA_Automation/Images/automationguide_datefunction3.PNG)
 
 
 (/TA_Automation/Topics/Expressions_functions_d.html)
 
-(/TA_Automation/Topics/Expressions_functions_fj.html)
 

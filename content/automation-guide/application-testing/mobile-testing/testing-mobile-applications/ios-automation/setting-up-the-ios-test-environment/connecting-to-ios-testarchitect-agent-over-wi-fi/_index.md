@@ -22,7 +22,7 @@ Perform the following procedures to connect the iOS device to the host machine u
 
 3.  On the TestArchitect Agent logon screen, enter the host machine IP address and click **Connect**.
 
-    ![](/images/iOS/Images/TA_Agent_iOS.png)
+    ![](/images/iOS/Images/TA_Agent_iOS.PNG)
 
     **Warning:** If the connection to the host machine cannot be established, wait until the message Cannot connect to the host machine. Please check the connection between your device and the host machine appears \(after about a minute\), then try to connect to the host machine again.
 

@@ -101,8 +101,32 @@
             height: 250px;
         }
     }
+
+    #contain-default-hide {
+        display: none;
+    }
+    .loader {
+  border: 10px solid #f3f3f3; /* Light grey */
+  border-top: 10px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 2s linear infinite;
+  display: block;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#loader-container{
+    display: none;
+}
 </style>
-<div class="container">
+<div id="loader-container" class="loader"></div>
+<div id="contain-default-hide" class="container ">
     <div class="row">
       <div class="col-lg-6">
         <div class="card using-test">
@@ -205,6 +229,17 @@
 
    
       
-   
+      <script>
+        var urlParams = new URLSearchParams(window.location.search);
+       var query = urlParams.get('q');
+       var page = urlParams.get('page');
+       if (query) {
+        
+        document.getElementById('loader-container').style.display = 'block';
+       } else {
+        document.getElementById('contain-default-hide').style.display = 'block';
+
+       }
+   </script>
 
 {{- end -}}

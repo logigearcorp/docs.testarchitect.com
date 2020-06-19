@@ -25,5 +25,4 @@ If, however, the type of item in the active tab is something other than an inter
 
 (/TA_Help/Topics/Interface_def_Viewer_refresh.html)
 
-(/TA_Help/Topics/Interface_def_Viewer_HTML_tag_filter.html)
 

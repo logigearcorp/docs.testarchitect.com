@@ -1,6 +1,6 @@
 --- 
-title: "Best practices to define mobile device profiles"
-linktitle: "Best practices"
+title: "Best practices"
+linktitle: "Best practices to define mobile device profiles"
 description: "How to conveniently create a list of predefined mobile device profiles to be used in tests."
 weight: 4
 aliases: 

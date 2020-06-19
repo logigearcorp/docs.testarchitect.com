@@ -1,6 +1,6 @@
 --- 
-title: "Exporting repository test results to .TARESULT files"
-linktitle: "Repository test results"
+title: "Repository test results"
+linktitle: "Exporting repository test results to .TARESULT files"
 description: "How to export your repository test results to .TARESULT files."
 weight: 2
 aliases: 

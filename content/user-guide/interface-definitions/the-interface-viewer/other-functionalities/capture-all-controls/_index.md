@@ -33,5 +33,4 @@ To capture all controls at a time, carry out the following steps:
 
 
 
-(/TA_Help/Topics/ug_Interface_viewer_text_recognition.html)
 

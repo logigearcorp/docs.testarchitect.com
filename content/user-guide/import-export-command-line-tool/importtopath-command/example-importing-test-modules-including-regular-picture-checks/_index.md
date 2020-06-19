@@ -60,5 +60,4 @@ To run the ImportToPath command, do the following:
 
 ![](/images/TA_Help/Images/import-path-cmd-new.png)
 
-(/TA_Help/Topics/ug_export_import_tool_import_to_path.html)
 

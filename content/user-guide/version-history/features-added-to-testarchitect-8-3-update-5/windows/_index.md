@@ -1,6 +1,6 @@
 --- 
-title: "What's new in TestArchitect for Windows"
-linktitle: "Windows"
+title: "Windows"
+linktitle: "What's new in TestArchitect for Windows"
 description: "The following new features and improvements are introduced in TestArchitect version 8.3 Update 5 running under Windows."
 weight: 1
 aliases: 

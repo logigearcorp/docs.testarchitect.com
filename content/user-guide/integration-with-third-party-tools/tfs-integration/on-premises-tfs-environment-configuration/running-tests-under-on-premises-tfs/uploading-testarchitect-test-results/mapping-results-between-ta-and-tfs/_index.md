@@ -1,6 +1,6 @@
 --- 
-title: "Mapping test results between TestArchitect and Team Foundation Server"
-linktitle: "Mapping results between TA and TFS"
+title: "Mapping results between TA and TFS"
+linktitle: "Mapping test results between TestArchitect and Team Foundation Server"
 description: "This section describes possible test results mappings between TestArchitect and TFS when TestArchitect test results are uploaded into TFS."
 weight: 3
 aliases: 

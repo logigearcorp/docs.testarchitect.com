@@ -1,7 +1,7 @@
 --- 
 title: 'Lesson #4: Using the Action Recorder'
-slug: 'lesson-4-using-the-action-recorder'
 linktitle: 'Lesson #4: Using the Action Recorder'
+slug: 'lesson-4-using-the-action-recorder'
 description: "TestArchitect can generate tests by recording your interactions with the application under test. The Action Recorder allows for the recording of control actions (for example, click and enter ) as well ..."
 weight: 3
 aliases: 

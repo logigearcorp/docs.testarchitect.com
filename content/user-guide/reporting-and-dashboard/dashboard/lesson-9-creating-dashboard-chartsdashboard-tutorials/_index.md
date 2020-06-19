@@ -1,7 +1,7 @@
 --- 
 title: 'Lesson #9: Creating Dashboard chartsDashboard tutorials'
-slug: 'lesson-9-creating-dashboard-chartsdashboard-tutorials'
 linktitle: 'Lesson #9: Creating Dashboard chartsDashboard tutorials'
+slug: 'lesson-9-creating-dashboard-chartsdashboard-tutorials'
 description: "These tutorials show you how to create new charts and how to modify the chart to display different types of data."
 weight: 8
 aliases: 

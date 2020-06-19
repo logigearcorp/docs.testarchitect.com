@@ -36,6 +36,5 @@ To copy value of a property to the clipboard.
 
 
 
-(/TA_Help/Topics/Interface_def_Viewer_HTML_tag_filter.html)
 
 

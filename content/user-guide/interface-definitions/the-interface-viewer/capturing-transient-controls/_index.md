@@ -1,6 +1,6 @@
 --- 
-title: "Interface Viewer transient controls capture"
-linktitle: "Capturing transient controls"
+title: "Capturing transient controls"
+linktitle: "Interface Viewer transient controls capture"
 description: "The Interface Viewer retains captured UI controls and their properties even after they are no longer available from the AUT."
 weight: 7
 aliases: 

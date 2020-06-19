@@ -16,5 +16,4 @@ Please contact TestArchitect Support at [support@logigear.com](mailto:support@lo
 
 
 
-defined for interface entity <windowName\>. Please check if the correct interface is currently in use, or define the interface entity.](/TA_FAQ/Topics/0x80010002L.html)
 

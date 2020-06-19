@@ -62,5 +62,4 @@ To run the ImportToID command, do the following:
 
 ![](/images/TA_Help/Images/import-id-new.png)
 
-(/TA_Help/Topics/ug_export_import_tool_import_to_id.html)
 

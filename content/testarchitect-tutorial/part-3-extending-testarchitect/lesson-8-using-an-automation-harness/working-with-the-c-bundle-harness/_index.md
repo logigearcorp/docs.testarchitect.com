@@ -1,7 +1,7 @@
 --- 
 title: 'Working with the C# bundle harness'
-slug: 'working-with-the-c-bundle-harness'
 linktitle: 'Working with the C# bundle harness'
+slug: 'working-with-the-c-bundle-harness'
 description: "How to implement customized TestArchitect actions using the C# programming language."
 weight: 5
 aliases: 

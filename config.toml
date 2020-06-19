@@ -1,4 +1,4 @@
-baseURL = "https://ta-docs.gondolatest.com/"
+baseURL = "https://docs.testarchitect.com/"
 disablePathToLower = true
 
 
@@ -62,7 +62,9 @@ enableMissingTranslationPlaceholders = false
         "entry",
         "post",
         "posts",
-        "reuse"
+        "reuse",
+		"TA_Helps",
+		"Creating a new system tree"
     ]
 
 # Global menu section
@@ -85,6 +87,9 @@ enableMissingTranslationPlaceholders = false
     startLevel = 2
     endLevel = 8
     ordered = false
-
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 [output]
   home = [ "HTML", "RSS", "JSON" ]
+

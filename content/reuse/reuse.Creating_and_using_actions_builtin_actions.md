@@ -7,6 +7,7 @@ aliases:
     - /reuse/reuse.Creating_and_using_actions_builtin_actions.html
 keywords: "built-in actions, action, built-in"
 ---
+#Built-in actions
 
 TestArchitect includes a library of built-in actions to perform a myriad of functions.
 
@@ -25,7 +26,7 @@ Built-in actions are automatically available with your installation of TestArchi
     Actual automation actions, such as [enter](/TA_Automation/Topics/bia_enter.html) and [select menu item](/TA_Automation/Topics/bia_select_menu_item.html).
 
 
-![](/TA_Help/Images/Tree_with_built_in_actions.png)
+![](/images/TA_Help/Images/Tree_with_built_in_actions.png)
 
 Built-in actions cannot be modified by you. They can, however, be used as building blocks of custom user actions that you may create in the form of [user-defined](/TA_Glossary/Topics/glossaryHighLevelAction.html) or [user-scripted](/TA_Glossary/Topics/glossaryScriptedAction.html) actions.
 

@@ -24,7 +24,7 @@ Check a bitmap area of the AUT's current display against one or more stored base
 
 -   **name**
 
-    Identifying name of a regular or shared[picture check](/reuse/../TA_Help/Topics/Projects_and_tests_picture_check.html), a collection of one or more baseline images to be used for comparison with the AUT display.
+    Identifying name of a regular or shared [picture check](/reuse/../TA_Help/Topics/Projects_and_tests_picture_check.html), a collection of one or more baseline images to be used for comparison with the AUT display.
 
 -   **question**
 
@@ -68,13 +68,13 @@ This action may be used within the following project items:test modules and user
 
     Note that Failed and Warning results are tentative, and that each one is associated with an unverified picture check. Upon completion of the test run, each unverified picture check may be manually accessed and resolved in a way that modifies the final check result. \(Alternatively, no further action need be taken on an unverified picture check – that is, you can simply allow its associated test result to stand.\)
 
--   Results with unverified picture checks may be resolved at test run completion by means of a Picture Check dialog box, of which there are two varieties:
-    -   Failed results with unverified picture checks can be resolved through the [Picture Check - Changed Picture](#section_lbw_3zj_vq) dialog box, which allows for the possibility of adding the captured test image to the associated picture check as a new baseline picture.
-    -   Warning results with unverified picture checks are resolvable through the [Picture Check - New Picture](#section_z53_zwj_vq) dialog box, which allows for adding a new picture check \(with its name taken from the name argument\), with the captured test image as its baseline picture.
+-   <div id="li.note.picture_check_dlgs.two_types"></div>Results with unverified picture checks may be resolved at test run completion by means of a Picture Check dialog box, of which there are two varieties:
+    -   Failed results with unverified picture checks can be resolved through the [Picture Check - Changed Picture](#subsequent-check-picture-executions---matches-and-non-matches) dialog box, which allows for the possibility of adding the captured test image to the associated picture check as a new baseline picture.
+    -   Warning results with unverified picture checks are resolvable through the [Picture Check - New Picture](#verifying-the-picture) dialog box, which allows for adding a new picture check \(with its name taken from the name argument\), with the captured test image as its baseline picture.
 -   It should be noted that the suggested method for adding picture checks and baseline pictures is to do it “offline”, by means of the [Picture Capturing Tool](/TA_Help/Topics/Additional_features_image_capturing_tool.html)**Add** \> **Picture Check** option available on the Picture Checks folder in Solution Explorer. Adding baseline pictures as a consequence of unverified picture checks during testing is primarily intended for cases of unexpected check picture failures occurring during testing.
 -   The means by which the Picture Check dialog boxes are presented upon test completion is determined by the built-in setting [verify picture](/TA_Automation/Topics/bis_verify_picture.html). With verify picture set to yes, \(verify mode\) any unverified picture checks occurring during the test automatically prompt a series of Picture Check dialog boxes to appear upon completion of the test run session. With the setting set to no \(non-verify mode\), the dialog boxes do not automatically appear, but can be summoned by manual means subsequent to the test session. Non-verify mode \(setting verify picture to no\) is recommended for unattended [serial test runs](/TA_Glossary/Topics/glossarySerialTestRun.html) under batch file control; this avoids the possibility of some tests inhibiting subsequent ones from running due to the need for manual intervention.
 -   An unverified picture check remains unverified until one of two things occurs: its status is resolved via a Picture Check dialog box \(discussed above\), or the associated local **Results** item is moved to the repository. Once a **Results** item is moved to the repository, tentative Failed and Warning results associated with unverified picture checks are locked in as Failed and Warning, respectively, and any unverified picture checks are discarded.
--   This action is applied to that part of the captured bitmap identified as the active area, with the remainder of the image ignored. The active area is determined by the four arguments \(left, top, width and height\) that define the rect area. To begin with, window and control determine the active UI element, which can be a control, window, or the full screen, as follows:
+-   <div id="li.note.active_area"></div>This action is applied to that part of the captured bitmap identified as the active area, with the remainder of the image ignored. The active area is determined by the four arguments \(left, top, width and height\) that define the rect area. To begin with, window and control determine the active UI element, which can be a control, window, or the full screen, as follows:
 
     |window argument|control argument|active UI element is...|
     |---------------|----------------|-----------------------|

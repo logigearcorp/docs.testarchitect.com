@@ -27,6 +27,5 @@ Click the Viewer's **Refresh** button to prompt it to re-inventory all the curre
 If an open interface entity exists, it also reads that and attempts to synchronize it with the corresponding open application window, if any. The **Refresh** ![](/images/TA_Help/Images/refresh.png) button essentially has the same functionality as closing and re-opening the Interface Viewer.
 
 
-(/TA_Help/Topics/Interface_def_Viewer_save.html)
 
 

@@ -1,6 +1,6 @@
 --- 
-title: "What's new in TestArchitect for Windows"
-linktitle: "Windows"
+title: "Windows"
+linktitle: "What's new in TestArchitect for Windows"
 description: "The following new features and improvements are introduced in TestArchitect version 8.3 running under Windows."
 weight: 1
 aliases: 
@@ -36,7 +36,7 @@ The following new features and improvements are introduced in TestArchitect vers
 
 -   **Improved integration with Team Foundation Server–Microsoft Test Manager**: Support for uploading TestArchitect test results to TFS even when [mismatched build numbers](/TA_FAQ/Topics/faq.shoot.TFS_mismatched_build_number_values.html) among test results are detected.
 -   **Improved picture checks**:
-    -   **[Importing external image sources](/TA_Help/Topics/ug_picture_checks_importing_images.html)**: TestArchitect now lets you easily import image files \(i.e. .png\) format\) for new picture checks or additional new baseline images.
+    -   **[Importing external image sources](/TA_Help/Topics/ug_picture_checks_importing_images.html)**: TestArchitect now lets you easily import image files \(i.e. .PNG\) format\) for new picture checks or additional new baseline images.
     -   **[Resolving unverified picture checks](/TA_Help/Topics/ug_Resolving_unverfied_picture_checks.html)**: You are now able to upload unverified picture checks to the repository, and then resolve those unverified picture checks.
 
 ## TestArchitect Automation

@@ -1,6 +1,6 @@
 --- 
-title: "Test entity mappings between TestArchitect and Quality Center"
-linktitle: "Test entity mappings"
+title: "Test entity mappings"
+linktitle: "Test entity mappings between TestArchitect and Quality Center"
 description: "This topic describes how TestArchitect test module and test case fields and contents are mapped to Quality Center tests, determining how information is transferred during the import and upload processes."
 weight: 3
 aliases: 
@@ -12,9 +12,9 @@ This topic describes how TestArchitect test module and test case fields and cont
 
 The following discussion of element mappings is organized by the affected TestArchitect project entities:
 
--   [test folder](#section.ta_test_folder)
--   [test module](#section.ta_test_module)
--   [test case](#section.ta_test_case)
+-   [test folder](#testarchitect-test-folder)
+-   [test module](#testarchitect-test-module)
+-   [test case](#testarchitect-test-case)
 
 These sections summarize the transfer of data between TestArchitect and Quality Center during both import and upload transmissions. Further details are provided in the notes and details following these sections.
 

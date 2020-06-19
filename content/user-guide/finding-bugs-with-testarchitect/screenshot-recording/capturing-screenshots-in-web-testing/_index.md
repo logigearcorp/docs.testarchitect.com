@@ -1,6 +1,6 @@
 --- 
-title: "**Capturing screenshots in Web Testing**"
-linktitle: "Capturing screenshots in Web Testing"
+title: "Capturing screenshots in Web Testing"
+linktitle: "**Capturing screenshots in Web Testing**"
 description: "TestArchitect currently provides two ways of capturing screenshots:"
 weight: 2
 aliases: 

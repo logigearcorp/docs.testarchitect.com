@@ -31,10 +31,9 @@ The following built-in setting\(s\) are supported: [date order](/TA_Automation/T
 
 ## Example
 
-![](/images/TA_Automation/Images/automationguide_datefunction4.png)
+![](/images/TA_Automation/Images/automationguide_datefunction4.PNG)
 
 
 (/TA_Automation/Topics/Expressions_functions_fj.html)
 
-(/TA_Automation/Topics/Expressions_functions_month.html)
 

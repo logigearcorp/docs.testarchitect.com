@@ -31,5 +31,4 @@ In addition, the saved interface entity has an interface element line for each c
 ![](/images/TA_Help/Images/ug_interface_definition28.png)
 
 
-(/TA_Help/Topics/Interface_def_Viewer_refresh.html)
 

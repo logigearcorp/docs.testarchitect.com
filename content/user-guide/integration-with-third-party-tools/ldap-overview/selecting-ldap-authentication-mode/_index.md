@@ -27,7 +27,7 @@ To select LDAP authentication mode, do the following:
 
     **Tip:** In order to modify the repository's current LDAP connection configuration at this point, click the **LDAP Configuration** button. You will be directed to the LDAP Tool.
 
-    ![](/TA_Administration/Images/Manage_users_dlg.png)
+    ![](/images/TA_Administration/Images/Manage_users_dlg.png)
 
 3.  Click **OK**.
 

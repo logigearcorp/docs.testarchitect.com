@@ -7,6 +7,7 @@ aliases:
     - /reuse/reuse.Creating_and_using_actions_Arg_type.html
 keywords: "arguments, types, argument types, string, date, value set, interface entity, interface element, data types, actions, argument types, value set"
 ---
+# Argument types
 
 An action argument can have one of several possible data types.
 
@@ -16,7 +17,7 @@ By double-clicking an action argument node, the Argument page is displayed in th
 
 **Note:** Whenever changes are made in the Argument page, the **Apply** button must be clicked to force the changes to take effect.
 
-![](/TA_Help/Images/ug_argumenttype.png)
+![](/images/TA_Help/Images/ug_argumenttype.png)
 
 Modifications to an argument's attributes have no direct effect on its parent action's definition \(that is, on the action worksheet\). They do, however, allow TestArchitect to assist you at the time of test writing. When you write an action line calling a user-defined action, the editor provides assistance with arguments that have modifier specifications, helping to ensure that the values you provide are consistent with the modifiers. The form of this assistance depends on the type of the argument involved, as discussed below.
 
@@ -40,7 +41,7 @@ When you enter data into an argument field of the Date type, you have the option
 
 The **Argument Modifier** field of a Date argument allows you to specify the form that the entered date will take. Several formats are available for the date type, using different arrangements of various month, day and year specifiers. The set of available specifiers is as follows:
 
-![](/TA_Help/Images/ug_argumenttype1.png)
+![](/images/TA_Help/Images/ug_argumenttype1.png)
 
 **Note:** Specifier codes must be all lowercase when entered.
 
@@ -128,7 +129,7 @@ This argument type is used to pass the name of an interface entity to an action.
 
 Additionally, if your project subscribes to any other projects, the list includes interface entities defined in the supplier\(s\). Entities of the working project are presented in blue text, whereas interface entities of supplier projects appear in red.
 
-![](/TA_Help/Images/interface_entity_red_blue.png)
+![](/images/TA_Help/Images/interface_entity_red_blue.png)
 
 **Note:**
 

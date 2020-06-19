@@ -1,6 +1,6 @@
 --- 
-title: "Unable to work with Team Foundation Server due to missing DLL"
-linktitle: "Unable to work with TFS due to missing DLL"
+title: "Unable to work with TFS due to missing DLL"
+linktitle: "Unable to work with Team Foundation Server due to missing DLL"
 description: "Problem Although you've followed the configuration steps to integrate TestArchitect with Team Foundation Server properly, you encounter the following error message every time TA works with TFS, such ..."
 weight: 1
 aliases: 

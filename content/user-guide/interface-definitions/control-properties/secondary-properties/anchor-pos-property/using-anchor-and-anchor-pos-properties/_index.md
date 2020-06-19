@@ -109,7 +109,7 @@ The **div** element with `id="national_section"` is a good candidate as an ancho
 
     4.  Press F2 so that we can assign a meaningful TA name to the element. Let's call it **div\_national-news**.
 
-6.  Now select the first of the **link** nodes that holds a headline.
+6.  <div id="step.map_link.start"></div>Now select the first of the **link** nodes that holds a headline.
 
 7.  In the TA Properties panel, click in the **anchor** property field once or twice until the **Browse** button appears, then click the button:
 
@@ -135,7 +135,7 @@ The **div** element with `id="national_section"` is a good candidate as an ancho
 
     **Note:** Note that the anchor property always specifies a TA name of a control, while the anchor pos value, as discussed in [anchor pos property](/TA_Help/Topics/Interface_def_anchor_pos_concept.html), consists of a TA class followed by an index reflecting the control's position within the subtree beneath the anchor. In this case, the control we are interested in is the first link element under the **div\_national-news** element, hence the value link 1.
 
-12. In the UI explorer, give this node a TA name by right-clicking it, selecting **Rename**, and entering your name. We'll call it **link\_national\_article1\_headline**, since it holds the headline of the first article in the national news section. Press Enter.
+12. <div id="step.map_link.stop"></div>In the UI explorer, give this node a TA name by right-clicking it, selecting **Rename**, and entering your name. We'll call it **link\_national\_article1\_headline**, since it holds the headline of the first article in the national news section. Press Enter.
 
     Note that a green check mark appears next to the node, indicating that, in addition to being named, the node has also been tentatively mapped.
 

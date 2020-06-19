@@ -7,6 +7,7 @@ aliases:
     - /reuse/reuse.High_level_actions.html
 keywords: "user-defined actions, action, user-defined"
 ---
+# User-defined actions
 
 User-defined actions are actions that you create in TestArchitect's Action Based Testing language.User-defined actions may be comprised of any type of action: [built-in](/TA_Automation/Topics/bia_Built_in_actions.html), [user-scripted](/TA_Glossary/Topics/glossaryScriptedAction.html), or other user-defined actions, or any combination of the above.
 

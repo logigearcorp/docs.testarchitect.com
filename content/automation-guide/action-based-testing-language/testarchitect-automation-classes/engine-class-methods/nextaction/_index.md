@@ -18,7 +18,7 @@ Set up the execution of the next action line.
 
 ## Parameters
 
-There are no parameters for this function.
+There are no parameters for this function.;
 
 ## Return Value
 
@@ -40,4 +40,5 @@ Definitions of current NextAction return values:
 ## Notes
 
 -   An administrative function that prepares the interpretation of an action line. The function searches the action of the action line and keeps track whether the action line should come from the main test file or for example an Action Definition.
+
 

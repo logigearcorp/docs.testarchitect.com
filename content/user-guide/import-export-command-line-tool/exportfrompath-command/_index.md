@@ -1,6 +1,6 @@
 --- 
-title: "ExportFromPath command \\(Import/Export tool\\)"
-linktitle: "ExportFromPath command"
+title: "ExportFromPath command"
+linktitle: "ExportFromPath command \\(Import/Export tool\\)"
 description: "Export a project item, identified by its TA path, to a file."
 weight: 4
 aliases: 
@@ -120,5 +120,4 @@ java -jar TAImportExportTool.jar --ExportFromPath [--server<value>] [--port<valu
 
 (/TA_Help/Topics/ug_export_import_tool_import_repository.html)
 
-(/TA_Help/Topics/ug_export_import_tool_export_from_id.html)
 

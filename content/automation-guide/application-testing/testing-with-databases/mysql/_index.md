@@ -1,6 +1,6 @@
 --- 
-title: "MySQL Server"
-linktitle: "MySQL"
+title: "MySQL"
+linktitle: "MySQL Server"
 description: "Information specific to testing with MySQL Server"
 weight: 3
 aliases: 

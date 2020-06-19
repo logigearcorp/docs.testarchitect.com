@@ -10,7 +10,7 @@ keywords: "action (Python), stub"
 
 Create a stub action in TestArchitect as a placeholder for thescripted hello actionyou defined previously, then write a test to invoke the action.
 
-Note that, while it is necessary that you[implement the hello action in Python](/reuse/../TA_Tutorials/Topics/Scripting_an_action.html)before you can actually use it in your test, it is not a prerequisite for the following steps, which involve setting up the test that calls hello, and making the editor aware of the action.
+Note that, while it is necessary that you [implement the hello action in Python](/reuse/../TA_Tutorials/Topics/Scripting_an_action.html) before you can actually use it in your test, it is not a prerequisite for the following steps, which involve setting up the test that calls hello, and making the editor aware of the action.
 
 1.  Begin by opening TestArchitect Client, then expand the Car Rental project of the TestArchitect explorer tree.
 2.  In the TestArchitect explorer tree, right-click the **Action** node and select **New Action**.

@@ -1,7 +1,7 @@
 --- 
 title: 'Lesson #2: Interfacing with a GUI'
-slug: 'lesson-2-interfacing-with-a-gui'
 linktitle: 'Lesson #2: Interfacing with a GUI'
+slug: 'lesson-2-interfacing-with-a-gui'
 description: "The exercises in this lesson guide you through the creation of a test that simulates a user logging into the sample application, populating a text field and clicking a button. Audience: Testers, ..."
 weight: 1
 aliases: 

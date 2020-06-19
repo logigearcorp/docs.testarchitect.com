@@ -20,7 +20,7 @@ Now you will execute your test, then have a look at the results.
 
     Upon completion of execution, TestArchitect displays a page indicating the results of your test:
 
-    ![](/images/TA_Tutorials/Images/tut.Simple_Tests.viewing.png)
+    ![](/images/TA_Tutorials/Images/tut.Simple_Tests.viewing.PNG)
 
     The run summary section at the top of the test results page shows high-level details regarding the execution run including test **Start time**, test **Duration**, details of the **Test environment**, and more.
 

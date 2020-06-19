@@ -1,6 +1,6 @@
 --- 
-title: "ImportToPath command \\(Import/Export tool\\)"
-linktitle: "ImportToPath command"
+title: "ImportToPath command"
+linktitle: "ImportToPath command \\(Import/Export tool\\)"
 description: "Import a project item or test case to a TestArchitect project location identified by its TA path."
 weight: 6
 aliases: 
@@ -114,5 +114,4 @@ java -Dfile.encoding=UTF-8 -jar TAImportExportTool.jar --ImportToPath [--server<
 
 (/TA_Help/Topics/ug_export_import_tool_export_from_id.html)
 
-(/TA_Help/Topics/ug_export_import_tool_import_to_id.html)
 

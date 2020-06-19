@@ -1,6 +1,6 @@
 --- 
-title: "What happens when you have a serial synchronous test fail on one controller: do you have the option of continuing or stopping the test execution?"
-linktitle: "How to handle a single controller failure in serial synchronous testing?"
+title: "How to handle a single controller failure in serial synchronous testing?"
+linktitle: "What happens when you have a serial synchronous test fail on one controller: do you have the option of continuing or stopping the test execution?"
 description: "This depends upon the error handling actions set by the test module. Options for the on error action include continue , exit action , or exit test case . The action on error action allows for more ..."
 weight: 14
 aliases: 
@@ -13,5 +13,4 @@ This depends upon the error handling actions set by the test module. Options for
 
 under VMWare or MS Hyper-V, and/or remotely install the TA software and license? Can this be part of the INITIAL section for a test module?](/TA_FAQ/Topics/faq.can_ta_spin_up_virtual_machines.html)
 
-deputy blocks synchronized? It looks like the wait for deputy action might be used ?](/TA_FAQ/Topics/faq.does_parallel_use_deputy_allow_for_multiple_deputies.html)
 

@@ -1,6 +1,6 @@
 --- 
-title: "TestArchitect does not support this action for the *<typeName\\>* control. Please use another applicable action."
-linktitle: "TestArchitect does not support this action for the <typeName\\> control. Please use another applicable action."
+title: "TestArchitect does not support this action for the <typeName\\> control. Please use another applicable action."
+linktitle: "TestArchitect does not support this action for the *<typeName\\>* control. Please use another applicable action."
 description: "Error code: 0x80010011L Problem This happens because you use a built-in action to interact with an unsupported control. For example, use table-related built-in actions, such as, get table cell ..."
 weight: 2
 aliases: 
