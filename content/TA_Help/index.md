@@ -6,3 +6,4 @@ aliases:
 # Creating a new system tree
 
 Creating each category of system node is discussed.
+
