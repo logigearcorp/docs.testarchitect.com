@@ -16,7 +16,7 @@ When searching for a definition, TestArchitect performs a depth-first search \(D
 
 ![](/images/TA_Help/Images/Test_results_DFS_2.png "Order in which the nodes are visited")
 
-**Note:** An arrow from node **x** to node **y** means **x** subscribes to **y**. In the above diagram, node 1 subscribes to nodes 2, 7, and 8 which, conversely, are the suppliers for node 1.
+{{<note>}} An arrow from node **x** to node **y** means **x** subscribes to **y**. In the above diagram, node 1 subscribes to nodes 2, 7, and 8 which, conversely, are the suppliers for node 1.
 
 Each node in the above figure represents a TestArchitect project. The number on each node represents the traversing sequence. The search order amongst sibling nodes is from left to right,with the left-most child node representing the project that is first in its parent's suppliers list \(the **Selected supplier\(s\)** field of the Subscription dialog box\). The suppliers higher up on the list are searched first. TestArchitect ends its search for a given definition as soon as one is found.
 
@@ -24,9 +24,9 @@ Because a project may act as a supplier for any number of other projects, a give
 
 ![](/images/TA_Help/Images/Test_results_DFS_2.cross_link.png "Order in which the nodes are visited in case of cross edges")
 
-**Note:** The orange nodes highlight the changes in the traversing order due to cross edging.
+{{<note>}} The orange nodes highlight the changes in the traversing order due to cross edging.
 
-**Important:** Circularly linked subscriptions are not allowed. For example, if project A subscribes to project B and project B in turn subscribes to project A.
+{{<important>}} Circularly linked subscriptions are not allowed. For example, if project A subscribes to project B and project B in turn subscribes to project A.
 
 ![](/images/TA_Help/Images/Circularly_linked_subscription.png)
 

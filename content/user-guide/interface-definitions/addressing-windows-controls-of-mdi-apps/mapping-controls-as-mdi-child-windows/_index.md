@@ -10,13 +10,13 @@ keywords: "child windows (MDI), JIT mode, MDI, child window"
 
 To address controls of MDI applications, TestArchitect maps the controls as MDI-child windows.
 
-**Note:** Addressing controls of MDI applications by using the JIT mode is just fully supported on [Microsoft UI Automation](/TA_Automation/Topics/aut_Using_UIA.html) \(UIA\) technology.
+{{<note>}} Addressing controls of MDI applications by using the JIT mode is just fully supported on [Microsoft UI Automation](/TA_Automation/Topics/aut_Using_UIA.html) \(UIA\) technology.
 
 To map a control as a MDI-child window, do the following:
 
 1.  Open the AUT and navigate to the MDI-child window of interest.
 
-    **Note:** The MDI-child window is recognized as a normal control in the Interface Viewer.
+{{<note>}} The MDI-child window is recognized as a normal control in the Interface Viewer.
 
 2.  In the Interface Viewer, from the UI Explorer panel, right-click the control that you'd like to capture as a child window, and then select **Set Child Window**.
 

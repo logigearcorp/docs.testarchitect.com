@@ -25,7 +25,7 @@ To assign permissions on a specific project to one or more TestArchitect users, 
 
 2.  In the Not Assigned To panel, choose a user and then click the ![](/images/TA_Administration/Images/select_user.png) button.
 
-    **Tip:**
+{{<tip>}}
 
     -   Select multiple users by pressing your keyboard's Shift or Control key.
     -   To assign all available users to a project, click the ![](/images/TA_Administration/Images/select_all_users.png) button.
@@ -33,15 +33,15 @@ To assign permissions on a specific project to one or more TestArchitect users, 
     -   To remove all assigned users, click the ![](/images/TA_Administration/Images/remove_all_assigned_users.png) button.
 3.  Once you are satisfied with who is and isn't assigned to your project, you can select each user's respective roles by designating which group\(s\) he or she belongs to, within the confines of the project.
 
-    **Note:** Group designations must be performed individually for each Assigned to: user. Selecting more than one such user causes the Groups panel to become disabled. Hence, repeat the next two steps for each Assigned to: user:
+{{<note>}} Group designations must be performed individually for each Assigned to: user. Selecting more than one such user causes the Groups panel to become disabled. Hence, repeat the next two steps for each Assigned to: user:
 
 4.  Select a user from the Assigned to: panel.
 
 5.  In the Groups panel, select those check boxes representing those groups you wish this user to be a member of.
 
-    **Remember:** The group designations you assign here only apply to the current project. They do not affect users' group memberships within other projects.
+{{<remember>}} The group designations you assign here only apply to the current project. They do not affect users' group memberships within other projects.
 
-    **Note:** Note that the administrators group is not available for assignment from this dialog box. That's because assignment to administrators applies to the entire repository, not just the project. To assign a user to the administrators group, see [Assigning projects and permissions to a repository user](/TA_Administration/Topics/adm_users_assigning_repositories.html).
+{{<note>}} Note that the administrators group is not available for assignment from this dialog box. That's because assignment to administrators applies to the entire repository, not just the project. To assign a user to the administrators group, see [Assigning projects and permissions to a repository user](/TA_Administration/Topics/adm_users_assigning_repositories.html).
 
 6.  Click **Done**.
 

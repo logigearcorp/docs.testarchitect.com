@@ -37,7 +37,7 @@ The variations for the Android and iOS platforms appear as nodes in the TestArch
 
 ![](/images/TA_Automation/Images/Mobile_automation_linked_variations_res.png)
 
-**Important:** You must modify the action or interface entity of the respective variations to have TestArchitect execute mobile automated tests on the selected mobile platforms. For example:
+{{<important>}} You must modify the action or interface entity of the respective variations to have TestArchitect execute mobile automated tests on the selected mobile platforms. For example:
 
 ![](/images/TA_Automation/Images/Mobile_automation_linked_variations_res_details.png)
 

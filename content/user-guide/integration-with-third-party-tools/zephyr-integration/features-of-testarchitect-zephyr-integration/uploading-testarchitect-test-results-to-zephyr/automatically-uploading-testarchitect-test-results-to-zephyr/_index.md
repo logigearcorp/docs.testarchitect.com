@@ -10,7 +10,7 @@ keywords: "integration, Zephyr, automatically uploading test results"
 
 You can configure TestArchitect to automatically upload test results to Zephyr upon conclusion of a test run.
 
-**Important:** TestArchitect-Zephyr integration supports the following versions of Zephyr.
+{{<important>}} TestArchitect-Zephyr integration supports the following versions of Zephyr.
 
 -   [6.2](https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/550633474/6.2+Release+Notes)
     -   [Zephyr Cloud](https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/263521484/Zephyr+Enterprise+Cloud+Requirements)
@@ -22,10 +22,10 @@ Ensure that you have already taken the following steps:
 -   [Mapped the TestArchitect project containing the test cases of interest to a Zephyr project](/TA_Help/Topics/ug_Zephyr_mapping_projects.html).
 -   In Zephyr, added the tests to a test cycle and assigned them to a user.
 
-    **Note:** Test cycles, and the test phases which comprise them, are Zephyr entities and are beyond the scope of this help system. Further information on them is available at [https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/263554868/Test+Planning](https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/263554868/Test+Planning).
+{{<note>}} Test cycles, and the test phases which comprise them, are Zephyr entities and are beyond the scope of this help system. Further information on them is available at [https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/263554868/Test+Planning](https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/263554868/Test+Planning).
 
 
-**Restriction:**
+{{<restriction>}}
 
 -   In TestArchitect 8.4 Update 1 or earlier versions, if you have selected the **Create New** option while adding a new testing phase to a testing cycle in **Test Planning** in Zephyr, you will be unable to upload TestArchitect test results to Zephyr either manually or automatically \(Learn more\).
 

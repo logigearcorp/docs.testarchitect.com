@@ -10,7 +10,7 @@ keywords: "Android, TestArchitect Agent, Android, general information"
 
 TestArchitect Agent is an essential component in allowing TestArchitect to communicate with Android devices during automated testing.
 
-**Important:** Android automation is only supported on Windows.
+{{<important>}} Android automation is only supported on Windows.
 
 TestArchitect Agent is both an application and a service on Android devices. As a service, it runs in the background, facilitating control of the AUT by TestArchitect, as well as reporting information back to TestArchitect. As an application, it is required only for Wi-Fi connections between TestArchitect and the device. If the target device is connected via USB cable, or the target device is an emulator, then the TestArchitect Agent icon on the Android desktop serves no function and may be ignored.
 

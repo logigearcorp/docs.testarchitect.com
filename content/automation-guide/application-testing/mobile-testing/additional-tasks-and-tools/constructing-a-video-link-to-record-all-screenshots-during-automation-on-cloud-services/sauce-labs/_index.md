@@ -8,7 +8,7 @@ aliases:
 keywords: "cloud testing, SauceLabs, screenshots, troubleshooting"
 ---
 
-**Note:** The URL on Sauce Labs which stores the video recording is as follows.
+{{<note>}} The URL on Sauce Labs which stores the video recording is as follows.
 
 ```
 https://assets.saucelabs.com/jobs/<session-id>/video.flv

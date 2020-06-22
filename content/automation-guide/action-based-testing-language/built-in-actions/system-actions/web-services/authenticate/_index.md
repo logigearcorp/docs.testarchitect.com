@@ -38,7 +38,7 @@ This action may be used within the following project items:test modules and user
 -   value argument: Depends on which authentication scheme is selected, there are different ways to provide HTTP authentication information.
     1.  For Basic HTTP authentication scheme: Specify username and password to authenticate with the service you are using. Follow this format `userid:password`.
 
-        **Tip:** You can either input a plain text string or a base64url encoded string. To encode a text string into a base64url encoded string, you can use the [Online Base64URL encoder](http://kjur.github.io/jsjws/tool_b64uenc.html) tool.
+{{<tip>}} You can either input a plain text string or a base64url encoded string. To encode a text string into a base64url encoded string, you can use the [Online Base64URL encoder](http://kjur.github.io/jsjws/tool_b64uenc.html) tool.
 
         For example: username is John and password is Doe.
 
@@ -73,7 +73,7 @@ Suppose that you'd like to test a given Gmail API to get all messages based on t
 -   Web service under test: [Users.messages: get](https://developers.google.com/gmail/api/v1/reference/users/messages/get)
 -   Access token: ya29.Ci-fA76X0cjJXa2Lx0RM-fRyAQ6-6pboEX-iuT7PR-yYV6D
 
-    **Tip:** For Google APIs in order to retrieve the access token for OAuth 2.0, read [here](https://developers.google.com/oauthplayground/).
+{{<tip>}} For Google APIs in order to retrieve the access token for OAuth 2.0, read [here](https://developers.google.com/oauthplayground/).
 
 
 **Action Lines**

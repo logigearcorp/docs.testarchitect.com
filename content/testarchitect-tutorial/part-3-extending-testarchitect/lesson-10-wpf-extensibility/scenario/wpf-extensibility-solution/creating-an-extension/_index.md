@@ -10,7 +10,7 @@ keywords: "WPF extensibility, creating extension"
 
 Create a project which works as a new extension.
 
-**Remember:** It is highly recommended that you use Microsoft Visual Studio 2010 to program WPF Extensibility.
+{{<remember>}} It is highly recommended that you use Microsoft Visual Studio 2010 to program WPF Extensibility.
 
 To create an extension, follow these steps:
 
@@ -45,7 +45,7 @@ To create an extension, follow these steps:
 
     1.  Copy the DLL file from <installation path\>\\LogiGear\\TestArchitect\\binclient\\agents to your current working project directory.
 
-        **Note:**
+{{<note>}}
 
         -   On a 32 bit system: Select the NetExtensionLib.dll file.
         -   On a 64 bit system: Select the NetExtensionLib\_x64.dll file.
@@ -63,7 +63,7 @@ To create an extension, follow these steps:
 
         This method is invoked initially when the WPF agent is loaded.
 
-        **Tip:** Based on your specific requirements, you may need to implement more code in this method, such as registering handling, etc.
+{{<tip>}} Based on your specific requirements, you may need to implement more code in this method, such as registering handling, etc.
 
         Enter the code for the method below:
 

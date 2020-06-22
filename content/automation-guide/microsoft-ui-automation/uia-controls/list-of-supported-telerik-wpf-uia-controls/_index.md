@@ -10,7 +10,7 @@ keywords: "UIA, Telerik WPF controls, Microsoft UI Automation"
 
 Contains information on supported Telerik UI for WPF controls when testing Microsoft UIA-enabled AUTs.
 
-**Restriction:** The UIA Support tool is not available in the TestArchitect package for Linux and macOS operating systems.
+{{<restriction>}} The UIA Support tool is not available in the TestArchitect package for Linux and macOS operating systems.
 
 Below is the full list of Telerik UI for WPF controls for which TestArchitect provides UIA support:
 

@@ -12,7 +12,7 @@ The test result **Summary** tab reports basic test run information which summari
 
 Test result summaries are displayed on the test result **Summary** tab, and the various summaries it contains are grouped into sections.
 
-**Remember:** The **Summary** tab is available when the test results are viewed either on TestArchitect Client or a web browser.
+{{<remember>}} The **Summary** tab is available when the test results are viewed either on TestArchitect Client or a web browser.
 
 ## General Information section
 

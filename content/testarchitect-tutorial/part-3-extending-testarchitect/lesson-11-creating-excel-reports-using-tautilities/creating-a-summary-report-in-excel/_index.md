@@ -10,7 +10,7 @@ keywords: "TAUtilities, scenario"
 
 Exporting TestArchitect data to Microsoft Excel™ is probably the most common use of TAUtilities. This topic focuses on invoking TAUtilities' APIs from Excel, a COM application program.
 
-**Note:** While it is not necessary that they run on the same machine, both the TestArchitect client and the application interfacing to it \(Microsoft Excel, in this case\) must run on the same OS and machine architecture \(32-bit or 64-bit\).
+{{<note>}} While it is not necessary that they run on the same machine, both the TestArchitect client and the application interfacing to it \(Microsoft Excel, in this case\) must run on the same OS and machine architecture \(32-bit or 64-bit\).
 
 In the following example, you will export TestArchitect test module information into Excel, using Excel's Visual Basic, on a Windows-based system. The exported information includes the **description**, **assigned user**, **created by**, **date of creation**, and **status result**of each test module residing under a specific test module folder, plus the total number of test modules in the folder.
 

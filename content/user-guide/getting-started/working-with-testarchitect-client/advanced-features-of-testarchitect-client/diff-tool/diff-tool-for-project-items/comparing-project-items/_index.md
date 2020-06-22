@@ -12,7 +12,7 @@ How to view the differences between two project items of the same type in TestAr
 
 For this discussion, let's distinguish between the two project items being compared. We'll refer to one as the reference item and the other as the *comparison item*.
 
-**Note:** Generally, a reference item is an older file, against which comparisons are made with a newer, modified copy. In our case, however, we use the term *reference item* for the one that has been "marked" for comparisons \(explained below\).
+{{<note>}} Generally, a reference item is an older file, against which comparisons are made with a newer, modified copy. In our case, however, we use the term *reference item* for the one that has been "marked" for comparisons \(explained below\).
 
 To compare an item against the reference item, do the following:
 
@@ -24,7 +24,7 @@ To compare an item against the reference item, do the following:
 
     ![](/images/TA_Help/Images/diff_tool_reference_item_comparison.png)
 
-    **Tip:** If at any time you wish to view the current reference item in the test editor, right-click any project item node, and then select **Diff Tool** \> **Go to Marked Item**.
+{{<tip>}} If at any time you wish to view the current reference item in the test editor, right-click any project item node, and then select **Diff Tool** \> **Go to Marked Item**.
 
 
 The Diff Tool window appears, with the two items displayed in side-by-side panels, the reference \(marked\) item on the left and the comparison item on the right. The toolbar provides functions for viewing and navigating among the detected differences.

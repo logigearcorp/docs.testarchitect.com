@@ -14,7 +14,7 @@ To add new test modules to an existing dynamic test suite, do the following:
 
 1.  In the TestArchitect explorer tree, right-click a dynamic test suite node residing under the project's **Test Suites** folder, then click **Edit data profile**.
 
-    **Note:** If you right-click a static test suite node, the **Edit data profile** option is unavailable.
+{{<note>}} If you right-click a static test suite node, the **Edit data profile** option is unavailable.
 
 2.  In the Edit Profile panel, [customize](/TA_Help/Topics/Report_customizing.html) the data profile so that its specified set of criteria are inclusive of the test modules you wish to add.
 

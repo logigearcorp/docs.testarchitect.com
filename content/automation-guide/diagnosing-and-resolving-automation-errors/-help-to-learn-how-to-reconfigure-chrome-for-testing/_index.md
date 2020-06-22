@@ -27,13 +27,13 @@ You can resolve this issue in one of two ways:
     3.  Re-run the automated test.
 -   Option \#2**: Use the [navigate](/TA_Automation/Topics/bia_navigate.html) action.**
 
-    **Note:** The built-in navigate action automatically reconfigures Chrome by setting several of its [command line switches](/TA_Automation/Topics/aut_setting_switches_GC.html).
+{{<note>}} The built-in navigate action automatically reconfigures Chrome by setting several of its [command line switches](/TA_Automation/Topics/aut_setting_switches_GC.html).
 
     1.  Stop the currently running test.
     2.  Close Google Chrome, if open, and terminate any running Chrome-related background processes.
     3.  Insert the navigate action in an action line prior to any actions that interact with GUI web controls.
 
-        **Important:** Only a value for the action's location argument should be specified. If your test needs require you to specify a window argument as well, ensure that the specified window is [reconfigured](/TA_Automation/Topics/aut_setting_switches_GC.html) and launched .
+{{<important>}} Only a value for the action's location argument should be specified. If your test needs require you to specify a window argument as well, ensure that the specified window is [reconfigured](/TA_Automation/Topics/aut_setting_switches_GC.html) and launched .
 
     4.  Re-run the automated test.
 

@@ -10,9 +10,9 @@ keywords: "Android, command line tool, installing app, steps, command line tool,
 
 This example demonstrates the steps involved in running the Android command line tool with the Install command.
 
-**Important:** The Android command line tool is only supported on Windows.
+{{<important>}} The Android command line tool is only supported on Windows.
 
-**Note:**
+{{<note>}}
 
 -   The Android command line tool is only applicable when one or more devices are connected to the host PC via USB cable.
 
@@ -30,7 +30,7 @@ Ensure that the following requirements are met:
 
     Review [Install command](/Android/Topics/Android_command_line_tool_install.html#p_jfs_j42_5l) to understand the Install command's syntax.
 
-    **Tip:**
+{{<tip>}}
 
     -   If there is only one Android device connected to the host PC via USB cable, the unique ID parameter is optional.
     -   To obtain the unique ID of an Android device:

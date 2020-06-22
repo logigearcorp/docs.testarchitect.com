@@ -23,7 +23,7 @@ To transfer a host-based license to another machine:
     -   **macOS**: Note that the TestArchitect License Server is not currently supported on macOS.
 2.  Right-click a node representing a dedicated host-based license.
 
-    **Important:** This node is in either the **Universal License** or **Agent License** subtree of the **Host-based License** tree.
+{{<important>}} This node is in either the **Universal License** or **Agent License** subtree of the **Host-based License** tree.
 
     ![](/images/TA_Administration/Images/transfer_host_based_license.png)
 
@@ -31,7 +31,7 @@ To transfer a host-based license to another machine:
 
 4.  In the Change Host-Based License IP dialog box, enter the full host name or IP address of the new host to which you want to grant a dedicated license, then select **OK**.
 
-    **Note:** If you use the full host name of the machine, ensure that the machine is connected to your working domain.
+{{<note>}} If you use the full host name of the machine, ensure that the machine is connected to your working domain.
 
     ![](/images/TA_Administration/Images/change_host_based_license.png)
 

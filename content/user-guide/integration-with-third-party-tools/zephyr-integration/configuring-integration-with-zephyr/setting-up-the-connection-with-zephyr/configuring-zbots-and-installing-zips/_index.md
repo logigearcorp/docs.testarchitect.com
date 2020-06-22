@@ -10,7 +10,7 @@ keywords: "integration, Zephyr, configuring ZBots and ZIPs, configuring ZBots an
 
 In order to execute TestArchitect test cases or test modules from Zephyr, a Zephyr Bot \(ZBot\) agent is required to form the link between the Zephyr server and the TestArchitect Client on your machine. Additionally, a custom TestArchitect ZIP project must be deployed on the TestArchitect Client machine.
 
-**Important:** TestArchitect-Zephyr integration supports the following versions of Zephyr.
+{{<important>}} TestArchitect-Zephyr integration supports the following versions of Zephyr.
 
 -   [6.2](https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/550633474/6.2+Release+Notes)
     -   [Zephyr Cloud](https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/263521484/Zephyr+Enterprise+Cloud+Requirements)
@@ -42,10 +42,10 @@ To install a ZBot agent and deploy a custom TestArchitect ZIP project, carry out
 
     2.  A command line window appears indicating that ZBot started successfully.
 
-        **Remember:** Leave the command line window open on your machine; otherwise, the ZBot process is terminated.
+{{<remember>}} Leave the command line window open on your machine; otherwise, the ZBot process is terminated.
 
 
-**Note:**
+{{<note>}}
 
 -   Prior to [running automated tests from Zephyr](/TA_Help/Topics/ug_Zephyr_executing_tests.html), it is required that you repeat step [5](/TA_Help/Topics/ug_Zephyr_ZBot.html#step_start_zbot) to start the ZBot service manually.
 -   It is also recommended that on Windows you do not start ZBot through the standard Windows Services application. Otherwise, ZBot may not be launched properly.

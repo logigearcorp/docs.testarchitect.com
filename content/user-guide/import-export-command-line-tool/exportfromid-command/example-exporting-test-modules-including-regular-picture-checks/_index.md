@@ -10,7 +10,7 @@ keywords:
 
 Ensure that you have installed or upgraded your Java Runtime Environment \(JRE\) to at least version 8, which is necessary to run TAImportExportTool.jar on your Windows machine.
 
-**Tip:**
+{{<tip>}}
 
 -   Refer to [JRE 8 Installation for Microsoft Windows](http://docs.oracle.com/javase/8/docs/technotes/guides/install/windows_jre_install.html#CHDEDHAJ) for details.
 -   As an alternative to explicitly installing JDK 8, you may also use the Java Runtime Environment \(JRE\) packaged with TestArchitect at TA\_INSTALL\_DIR\\jre\\bin. In such a case, note that all invocations of the java command will need to specify its filepath \(e.g., C:\\Program Files\\LogiGear\\TestArchitect\\jre\\bin\\java\). \(This latter step can be circumvented by setting the Windows environment variable JAVA\_HOME to TA\_INSTALL\_DIR\\jre\\bin.\)
@@ -32,7 +32,7 @@ Let's say you want to export a given test module, Action Based Testing, with the
 -   In the export, include the regular picture checks of the source test module.
 -   Type of output: .zip
 
-    **Note:** Only .zip files are supported as targets when exporting regular picture checks from a test module. If you are not including regular picture checks in your export, .html and .csv files may also serve as the output.
+{{<note>}} Only .zip files are supported as targets when exporting regular picture checks from a test module. If you are not including regular picture checks in your export, .html and .csv files may also serve as the output.
 
 -   Overwrite the existing file.
 

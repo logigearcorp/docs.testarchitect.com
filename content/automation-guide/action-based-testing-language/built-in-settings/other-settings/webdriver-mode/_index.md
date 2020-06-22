@@ -12,7 +12,7 @@ keywords: "built-in setting, webdriver mode"
 
 Activate the WebDriver mode.
 
-**Important:** This setting is dedicated to Generic WebDriver.
+{{<important>}} This setting is dedicated to Generic WebDriver.
 
 ## Allowable values
 

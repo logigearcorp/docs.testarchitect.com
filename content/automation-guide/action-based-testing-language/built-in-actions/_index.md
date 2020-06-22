@@ -29,7 +29,7 @@ Built-in actions are automatically available with your installation of TestArchi
 
 Built-in actions cannot be modified by you. They can, however, be used as building blocks of custom user actions that you may create in the form of [user-defined](/reuse/../TA_Glossary/Topics/glossaryHighLevelAction.html) or [user-scripted](/reuse/../TA_Glossary/Topics/glossaryScriptedAction.html) actions.
 
-**Tip:** When writing your test, if you do not know which built-in actions to use, it is suggested you use the TestArchitect [Action Recorder](/reuse/../TA_Help/Topics/Creating_and_using_actions_AR.html), a tool to record your manual mouse and keyboard operations when testing an application. The interactive operations generate the corresponding built-in actions.
+{{<tip>}} When writing your test, if you do not know which built-in actions to use, it is suggested you use the TestArchitect [Action Recorder](/reuse/../TA_Help/Topics/Creating_and_using_actions_AR.html), a tool to record your manual mouse and keyboard operations when testing an application. The interactive operations generate the corresponding built-in actions.
 
 1.  [System actions](/TA_Automation/Topics/bia_System.html)  
 System built-in actions include those which allow your test to interact with the host operating system of your test automation, and perform other miscellaneous functions.

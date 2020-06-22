@@ -44,7 +44,7 @@ Create a test module / test case that reports the sales tax for cars across a ra
 
     The local variable action lines here assign new values to variables NY sales tax and car price.
 
-    **Tip:** During an editing session, entering the *\#* symbol in an empty argument cell triggers an autocomplete pop-up window containing a list of variables thought to be within scope at that position in the action lines. Use the Up and Down arrow keys to select one, should you need it inserted at that point. You can bring back the pop-up list at any further point in the expression by pressing Ctrl + Space
+{{<tip>}} During an editing session, entering the *\#* symbol in an empty argument cell triggers an autocomplete pop-up window containing a list of variables thought to be within scope at that position in the action lines. Use the Up and Down arrow keys to select one, should you need it inserted at that point. You can bring back the pop-up list at any further point in the expression by pressing Ctrl + Space
 
 6.  Select these three action lines in their entirety \(headers included\), and press Ctrl+C to copy them.
 

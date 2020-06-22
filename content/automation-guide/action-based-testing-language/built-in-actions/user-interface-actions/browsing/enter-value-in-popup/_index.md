@@ -12,7 +12,7 @@ keywords: "built-in action, enter value in popup"
 
 Write text in a field in a popup, and click **OK**.
 
-**Important:** This action is dedicated to Generic WebDriver.
+{{<important>}} This action is dedicated to Generic WebDriver.
 
 ## Arguments
 

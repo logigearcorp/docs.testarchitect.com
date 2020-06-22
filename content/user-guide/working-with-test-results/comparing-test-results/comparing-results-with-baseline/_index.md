@@ -15,7 +15,7 @@ Ensure that you meet the following requirements before comparing test results to
 -   TestArchitect is running and connected to the repository that contains the baseline results.
 -   You have [set the baseline results](/TA_Help/Topics/Test_result_settting_baseline.html), and the baseline results are stored in the repository.
 
-    **Tip:** The results can be stored in the repository either [manually](/TA_Help/Topics/Test_result_viewing_storing.html) or [automatically](/TA_Help/Topics/Test_result_storing_automatically.html).
+{{<tip>}} The results can be stored in the repository either [manually](/TA_Help/Topics/Test_result_viewing_storing.html) or [automatically](/TA_Help/Topics/Test_result_storing_automatically.html).
 
 -   The test results you want to compare and the baseline results are generated from the same test module or the same test module variation.
 
@@ -27,7 +27,7 @@ Choose one of the following two methods to compare the test results against the 
 
     ![](/images/TA_Help/Images/compare_to_baseline.png)
 
-    **Tip:** Baseline comparison is available for any test results within the same test module or test module variation.
+{{<tip>}} Baseline comparison is available for any test results within the same test module or test module variation.
 
 -   **Option 2**:
 
@@ -35,7 +35,7 @@ Choose one of the following two methods to compare the test results against the 
 
     2.  Right-click a test result you want to compare in the result list view and click **Compare to Baseline Result**.
 
-        **Tip:** Multiple test results can be selected from the result list view.
+{{<tip>}} Multiple test results can be selected from the result list view.
 
 -   **Option 3**:
 
@@ -43,12 +43,12 @@ Choose one of the following two methods to compare the test results against the 
 
     2.  Click the **Compare to Baseline Result** ![](/images/TA_Help/Images/Compare_to_baseline_result_icon.png) icon on the main panel.
 
-    **Note:** Baseline comparison is available for any test results within the same test module or test module variation.
+{{<note>}} Baseline comparison is available for any test results within the same test module or test module variation.
 
 
 The Result Comparison dialog box appears to show the differences at checkpoints in the test results. See [Results Comparison dialog boxes](/TA_Help/Topics/Test_result_comparison_dialog_box.html#sect_e383h_k3e8) for an explanation of the Results Comparison dialog box.
 
-**Note:** If the test result is from a set of serial test results, the Comparing Multiple Pairs of Results dialog box appears. See [Comparing serial run results](/TA_Help/Topics/Test_result_comparison_dialog_box.html#sect_nd6h_kd83) for an explanation of the Comparing Multiple Pairs of Results dialog box.
+{{<note>}} If the test result is from a set of serial test results, the Comparing Multiple Pairs of Results dialog box appears. See [Comparing serial run results](/TA_Help/Topics/Test_result_comparison_dialog_box.html#sect_nd6h_kd83) for an explanation of the Comparing Multiple Pairs of Results dialog box.
 
 
 

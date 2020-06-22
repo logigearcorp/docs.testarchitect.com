@@ -10,7 +10,7 @@ keywords: "methods of abt, AbtPictureCheckManagement, AbtPictureCheckManagement 
 
 This class is the central point for interacting with a picture check's information.
 
-**Note:** This class and its associated methods are currently supported only by the C\# harness.
+{{<note>}} This class and its associated methods are currently supported only by the C\# harness.
 
 ## Workflow Implementation
 

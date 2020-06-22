@@ -14,7 +14,7 @@ How to export your local test results to .TARESULT files.
 
     1.  Select a local test result that you want to export to the .TARESULT file.
 
-        **Tip:** You can select a local test result in the TestArchitect explorer tree, or in the [local result list view](/TA_Help/Topics/Listview_results_local.html).
+{{<tip>}} You can select a local test result in the TestArchitect explorer tree, or in the [local result list view](/TA_Help/Topics/Listview_results_local.html).
 
     2.  Invoke the Export Result\(s\) To File dialog box by doing one of the following:
 
@@ -28,7 +28,7 @@ How to export your local test results to .TARESULT files.
 
         You can accept the default location, but any place that is easy to remember will work.
 
-        **Note:**
+{{<note>}}
 
         -   On Windows: Network paths are also supported.
         -   On Linux, macOS: Mounted paths are also supported.
@@ -69,7 +69,7 @@ How to export your local test results to .TARESULT files.
 
         You can accept the default location, but any place that is easy to remember will work.
 
-        **Note:**
+{{<note>}}
 
         -   On Windows: Network paths are also supported.
         -   On Linux, macOS: Mounted paths are also supported.
@@ -84,7 +84,7 @@ How to export your local test results to .TARESULT files.
 
             **Warning:** When your local result files \(.TARESULT\) contain [captured screenshots](/TA_Help/Topics/ug_Screenshot_recording.html), but they are imported as repository test results, the screenshots are totally discarded.
 
-        **Note:** If you opt to generate a batch file \(rather than execute the test immediately\), the following parameters are written to the generated file. \([Learn more](/TA_Help/Topics/Test_exec_cmd.html#plentry.paramters_tares)\).
+{{<note>}} If you opt to generate a batch file \(rather than execute the test immediately\), the following parameters are written to the generated file. \([Learn more](/TA_Help/Topics/Test_exec_cmd.html#plentry.paramters_tares)\).
 
         -   **-tares <TAresult\>**
 

@@ -16,7 +16,7 @@ You can choose between either of the two following methods to compare two histor
 
 -   **Option 1**: To compare two arbitrary past revisions of a project item, invoke the Diff Tool from the Revision History dialog box.
 
-    **Note:** Using this approach, you may:
+{{<note>}} Using this approach, you may:
 
     -   compare two arbitrary revisions of a project item, or
     -   compare an arbitrary revision of a project item against the most recently checked-in revision.
@@ -28,17 +28,17 @@ You can choose between either of the two following methods to compare two histor
 
         ![](/images/TA_Help/Images/History_select_reference_item.png)
 
-        **Tip:** Alternatively, at this point, you may perform a quick comparison of some past revision against the latest checked in revision. Rather than select **Diff Tool** \> **Mark to Compare** from the pop-up menu, select **Diff Tool** \> **Compare to Latest revision**.
+{{<tip>}} Alternatively, at this point, you may perform a quick comparison of some past revision against the latest checked in revision. Rather than select **Diff Tool** \> **Mark to Compare** from the pop-up menu, select **Diff Tool** \> **Compare to Latest revision**.
 
     3.  In the same dialog box, right-click a revision you want to compare against the established reference and click **Diff Tool** \> **Compare to Marked Item**.
 
         ![](/images/TA_Help/Images/History_compare_against_reference_item.png)
 
-        **Tip:** If at any time you wish to view the current reference item in the test editor, right-click any item in the list \(it doesn't matter which\), and then select **Diff Tool** \> **Go to Marked Item**.
+{{<tip>}} If at any time you wish to view the current reference item in the test editor, right-click any item in the list \(it doesn't matter which\), and then select **Diff Tool** \> **Go to Marked Item**.
 
 -   **Option 2**: This approach lets you compare your current version of a project item against the most recently checked-in revision.
 
-    **Note:** Differences between the two items will exist only if your current version of the project item has changes which have not yet been checked in.
+{{<note>}} Differences between the two items will exist only if your current version of the project item has changes which have not yet been checked in.
 
     1.  In the TestArchitect explorer tree, select the project item of interest.
 

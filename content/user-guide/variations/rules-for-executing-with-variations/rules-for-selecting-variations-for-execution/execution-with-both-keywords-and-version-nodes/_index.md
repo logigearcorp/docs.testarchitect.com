@@ -10,14 +10,14 @@ keywords: "variations, execution, specified keywords and version nodes"
 
 When the Execute Test dialog box's runtime variation specification includes both keywords and version nodes, the decision-making performed is largely a combination of those described in the previous two cases.
 
-**Important:** It should be noted that, when an exact match is not found and the process must search for a suitable variation, versions take precedence over keyword sets.
+{{<important>}} It should be noted that, when an exact match is not found and the process must search for a suitable variation, versions take precedence over keyword sets.
 
 TestArchitect's process for selecting the correct variation of each project item can loosely be described as follows:
 
 1.  Get the [keyword run set](/TA_Glossary/Topics/glossaryKeywordRunSet.html) and version run set from the Execute Test dialog box.
 2.  Let KRS = the keyword run set and VRS = the version run set. If the current project item has linked variations, and those variations use a system which is also in VRS, set OSV \(the operative system:version\) to that particular system:version of VRS. Otherwise, we say no OSV exists.
 
-    **Remember:** Keep in mind that this algorithm is applied separately to each project item involved in the test. Also note that, although multiple systems can be specified in the version run set \(**AUT Version** field\), each project item's [variation set](/TA_Glossary/Topics/glossaryVariationSet.html) is limited to [no more than one system](/TA_Help/Topics/Variations_rules_1.html). Hence, the OSV can vary from one pass to the next, or not exists at all. \(OSV will not exist in the case of a project item having no linked variations, or where its linked variations are associated with a system that is not listed in the version run set.\)
+{{<remember>}} Keep in mind that this algorithm is applied separately to each project item involved in the test. Also note that, although multiple systems can be specified in the version run set \(**AUT Version** field\), each project item's [variation set](/TA_Glossary/Topics/glossaryVariationSet.html) is limited to [no more than one system](/TA_Help/Topics/Variations_rules_1.html). Hence, the OSV can vary from one pass to the next, or not exists at all. \(OSV will not exist in the case of a project item having no linked variations, or where its linked variations are associated with a system that is not listed in the version run set.\)
 
 3.  <div id="li.ta_selects_variation"></div>Select the [effective variation](/TA_Glossary/Topics/glossaryEffectiveVariation.html) that exactly matches OSV and KRS.
 4.  If such an exact match does not exist, select the effective variation of version OSV whose [keyword signature](/TA_Glossary/Topics/glossaryKeywordSignature.html) is the largest subset of RTKeys.
@@ -35,7 +35,7 @@ TestArchitect's process for selecting the correct variation of each project item
     4.  If this variation is not unique, in that at least one other non-versioned variation has an equal-sized keyword set which is also a subset of RTKeys, flag the issue and halt execution.
     5.  If, on the other hand, no such variation exists, select the default variation.
 
-        **Important:**
+{{<important>}}
 
         -   When your specified version node does not belong to any branch node, TestArchitect ignores other higher branch nodes in **Version Compilation Order List**, as well as its descendant nodes, if any.
             -   For example, if your automated test run specifies node **1.2**, the search order is **1.2** \> **1.1** \> **1** \> **default variation**.

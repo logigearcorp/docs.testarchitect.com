@@ -18,7 +18,7 @@ Explains how to create a stub action for a user-scripted scripted action in Test
 
 2.  Next to the **Bundle location** box, click the **Browse** button to specify a DLL.
 
-    **Important:** Currently, only [C\# bundle harness](/TA_Tutorials/Topics/tut_Scripting_actions_in_other_languages_CSharp_bundle.html) is supported to create user-scripted actions.
+{{<important>}} Currently, only [C\# bundle harness](/TA_Tutorials/Topics/tut_Scripting_actions_in_other_languages_CSharp_bundle.html) is supported to create user-scripted actions.
 
     User-scripted actions defined in DLL\(s\) are loaded into the Select actions list with the following information.
 
@@ -30,7 +30,7 @@ Explains how to create a stub action for a user-scripted scripted action in Test
 
 3.  Select action\(s\), and then click **Create**.
 
-    **Note:**
+{{<note>}}
 
     -   You are not allowed to select more than one identical user-scripted actions.
     -   Also, the selected user-scripted actions cannot have the same name as an existing built-in action

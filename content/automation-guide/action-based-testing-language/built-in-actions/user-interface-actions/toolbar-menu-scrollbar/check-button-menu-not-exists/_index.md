@@ -12,7 +12,7 @@ keywords: "built-in actions, check button menu not exists, check button menu not
 
 Check for the nonexistence of a specific menu item on a drop-down button . Result is Passed ifthe specified item is not found; otherwise Failed.
 
-**Note:** The drop-down button consists of a button. When clicked, the button displays a drop-down menu or list of items.
+{{<note>}} The drop-down button consists of a button. When clicked, the button displays a drop-down menu or list of items.
 
 ## Arguments
 

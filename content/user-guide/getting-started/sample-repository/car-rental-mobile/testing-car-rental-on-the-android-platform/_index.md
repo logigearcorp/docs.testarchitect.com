@@ -12,7 +12,7 @@ The Car Rental application on the Android platform mimics a reservation system f
 
 Car Rental Android is a Java-based application that runs on Android. The purpose of the application is to demonstrate Android automated testing from a Windows or Linux host.
 
-**Important:** Android automation is only supported on Windows.
+{{<important>}} Android automation is only supported on Windows.
 
 1.  [Car Rental Android configuration](/TA_Tutorials_Sample_App/Topics/SR_Android_configuration_def.html)  
 Before executing sample Car Rental automated tests on an Android device, a series of steps must be performed on both the host machine and the Android device.

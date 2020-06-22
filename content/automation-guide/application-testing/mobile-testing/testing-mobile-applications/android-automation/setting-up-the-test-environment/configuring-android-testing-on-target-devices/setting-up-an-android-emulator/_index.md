@@ -10,7 +10,7 @@ keywords: "Android, setting up a virtual device, virtual device, emulator, setti
 
 TestArchitect can test applications on Android emulators on the host PC.
 
-**Important:** Android automation is only supported on Windows.
+{{<important>}} Android automation is only supported on Windows.
 
 ## Supported Android emulator
 

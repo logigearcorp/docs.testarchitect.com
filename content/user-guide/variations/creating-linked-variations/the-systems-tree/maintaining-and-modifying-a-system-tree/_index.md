@@ -21,7 +21,7 @@ To demonstrate, first of all, let's create several additional nodes, residing un
 
 3.  In the main panel, click the **Version** tab. This tab presents a Version Compilation Order List panel for version node **2.1**, which is simply an ordered list of the descendants of node **2.1**, presented in the same order as they exist on the tree.
 
-    **Note:**
+{{<note>}}
 
     -   The **Version** tabs of subnodes of any given system tree are provided for convenience. This tab facilitates the node-reordering process.
     -   The **Up** and **Down** buttons are used to alter the order of nodes in the list.

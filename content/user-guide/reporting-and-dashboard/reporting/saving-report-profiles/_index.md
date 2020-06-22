@@ -23,7 +23,7 @@ After [creating a report profile](/TA_Help/Topics/Report_producing.html) in the 
 
 The title of the saved profile is added as an entry in the **Profile name** drop-down list. The profile also appears as an option in the **Reporting** \> **Create Reports** submenu of each node, enabling reporting of the saved profile from the TestArchitect explorer tree.
 
-**Tip:** If you make changes after you save a profile, click the **Update** button to save your updated settings to the current profile.
+{{<tip>}} If you make changes after you save a profile, click the **Update** button to save your updated settings to the current profile.
 
 
 

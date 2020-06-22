@@ -21,13 +21,13 @@ Choose one of the following two methods to compare test results. To avoid confus
 
     1.  In the TestArchitect explorer tree, establish a reference result by right-clicking a chosen test result node and selecting **Mark to Compare**.
 
-        **Tip:** Unlike setting baseline results, the reference results used for comparison may reside in either the repository or the local machine.
+{{<tip>}} Unlike setting baseline results, the reference results used for comparison may reside in either the repository or the local machine.
 
         ![](/images/TA_Help/Images/reference_result_chosen.png)
 
     2.  In the TestArchitect explorer tree, right-click a test result node you want to compare against the reference, and then click **Compare Results**.
 
-        **Tip:** When you hover your mouse over the **Compare Results** option on the context menu, a screentip appears to inform you which reference test result the current test result is about to be compared against.
+{{<tip>}} When you hover your mouse over the **Compare Results** option on the context menu, a screentip appears to inform you which reference test result the current test result is about to be compared against.
 
         ![](/images/TA_Help/Images/compare_with_reference_result.png)
 
@@ -42,11 +42,11 @@ Choose one of the following two methods to compare test results. To avoid confus
     4.  Select **Compare Results** from the context menu.
 
 
-**Important:** Once you compare results, TestArchitect automatically unmarks the previously marked test result. That is, there is no longer any set of reference result. To perform another comparison, you must again go through the two-step process of **Mark to Compare** and **Compare Results**.
+{{<important>}} Once you compare results, TestArchitect automatically unmarks the previously marked test result. That is, there is no longer any set of reference result. To perform another comparison, you must again go through the two-step process of **Mark to Compare** and **Compare Results**.
 
 The Result Comparison dialog box appears to show the differences at checkpoints in the test results. See [Results Comparison dialog boxes](/TA_Help/Topics/Test_result_comparison_dialog_box.html#sect_e383h_k3e8) for an explanation of the Results Comparison dialog box.
 
-**Note:** If the test result is from a set of serial test results, the Comparing Multiple Pairs of Results dialog box appears. See [Comparing serial run results](/TA_Help/Topics/Test_result_comparison_dialog_box.html#sect_nd6h_kd83) for an explanation of the Comparing Multiple Pairs of Results dialog box.
+{{<note>}} If the test result is from a set of serial test results, the Comparing Multiple Pairs of Results dialog box appears. See [Comparing serial run results](/TA_Help/Topics/Test_result_comparison_dialog_box.html#sect_nd6h_kd83) for an explanation of the Comparing Multiple Pairs of Results dialog box.
 
 
 

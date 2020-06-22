@@ -22,7 +22,7 @@ How to access existing TA bugs.
 
 The selected TA bugs are opened as new and active tabs.
 
-**Note:** The fields of the TA bugs are explained [here](/TA_Help/Topics/Bug_information.html).
+{{<note>}} The fields of the TA bugs are explained [here](/TA_Help/Topics/Bug_information.html).
 
 
 

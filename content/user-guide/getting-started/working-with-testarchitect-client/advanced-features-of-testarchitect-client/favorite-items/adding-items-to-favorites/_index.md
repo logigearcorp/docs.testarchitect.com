@@ -14,7 +14,7 @@ The simplest way to add items to favorites is to click the ![](/images/TA_Help/I
 
 -   Option \#1: Right-click an open tab you want to add as to favorite, and then click **Add active tab to favorites** option.
 
-    **Tip:** To bookmark all open items at once, click **Add all open tabs to favorites**.
+{{<tip>}} To bookmark all open items at once, click **Add all open tabs to favorites**.
 
 -   Option \#2: Add a favorite item from the toolbar.
 
@@ -24,7 +24,7 @@ The simplest way to add items to favorites is to click the ![](/images/TA_Help/I
 
     2.  Click **Add active tab to favorites**.
 
-        **Tip:** To bookmark all open items at once, click **Add all open tabs to favorites**.
+{{<tip>}} To bookmark all open items at once, click **Add all open tabs to favorites**.
 
 -   Option \#3: Add all open all tabs at once from the favorite list view.
 
@@ -33,7 +33,7 @@ The simplest way to add items to favorites is to click the ![](/images/TA_Help/I
     2.  Click the **Add all open tabs to favorites** button.
 
 
-**Note:** When you log in to a repository on another test machine with your account, all changes that you make to your favorite items will instantly show up on that test machine.
+{{<note>}} When you log in to a repository on another test machine with your account, all changes that you make to your favorite items will instantly show up on that test machine.
 
 
 

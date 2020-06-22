@@ -12,7 +12,7 @@ Obviously, if execution of a test run is specified with the **Keyword** Spanish 
 
 Instead, TestArchitect follows a set of rules for determining which variation of each test module, action, interface, and data set gets invoked when called. These rules are described narratively in the following sections. A comprehensive description of the entire algorithm for variation selection is then presented in flowchart form, in [Graphical summary of variation selection.](/TA_Help/Topics/Variations_graphical_summary.html).
 
-**Note:** Although we talk about variation selection taking place at the time of execution, these rules are actually applied at compile time, which takes place just prior to the actual execution of the test.
+{{<note>}} Although we talk about variation selection taking place at the time of execution, these rules are actually applied at compile time, which takes place just prior to the actual execution of the test.
 
 1.  [Execution with no variation-related parameters](/TA_Help/Topics/Variations_rules_executing_2_1.html)  
 If, at the start of execution, both fields \(**Keyword** and **AUT Version**\) of the Variation Specification section are left blank, then the default variation of an invoked test module, action, interface, or data set constitutes an exact match, and is invoked.

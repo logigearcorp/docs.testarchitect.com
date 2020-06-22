@@ -10,7 +10,7 @@ keywords: "test cases, importing from CSV, importing, from CSV: test cases, CSV"
 
 Describes how you can import test cases from CSV files.
 
-**Note:** The following rules hold when importing test cases from CSV files into a TestArchitect test module:
+{{<note>}} The following rules hold when importing test cases from CSV files into a TestArchitect test module:
 
 -   Only a CSV files containing a test case \(not test module\) may be imported into a test module.
 -   The ID of the test case in the CSV file must not already exist in the destination test module prior to importing.

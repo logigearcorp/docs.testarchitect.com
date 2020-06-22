@@ -26,7 +26,7 @@ How to create additional baseline images for a picture check.
 
     TestArchitect is minimized and your cursor changes into a crosshair icon, indicating that capture mode is now active.
 
-    **Tip:** In capture mode, the following options are available to you:
+{{<tip>}} In capture mode, the following options are available to you:
 
     -   Click Esc to exit capture mode and return to TestArchitect, or
     -   Hold Ctrl on your keyboard to tell the system not to interpret a mouse click as the start of an image capture. This frees you to use your mouse to navigate to another window before initiating the capture.
@@ -40,7 +40,7 @@ How to create additional baseline images for a picture check.
 
     -   **Picture name**: A unique name for the new baseline.
     -   **Location**: \(Optional\) Leave as default, or click ![](/images/TA_Help/Images/btn.browse-ellipsis.01.png) to save the picture to another location.
-    **Tip:** To select the entire captured image, select the **Full Screen** check box.
+{{<tip>}} To select the entire captured image, select the **Full Screen** check box.
 
     ![](/images/TA_Help/Images/capture_picture_dialog_add_new_baseline.png)
 

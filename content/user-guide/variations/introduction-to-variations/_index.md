@@ -14,7 +14,7 @@ When an AUT's low-level functionality or interfaces change – for instance, whe
 
 TestArchitect aids you in this effort by offering modularity to your test writing. By allowing you to restrict the direct interactions with the AUT to your test modules, actions, interface entities, and data sets, you can often adapt to application changes by making modifications to only these items. With an occasional necessary exception, your test modules can remain intact from one version to the next of your tests.
 
-**Note:**
+{{<note>}}
 
 In this documentation, the terms action and interface are used as a shorthand for user-defined action and interface entity, respectively. Also, because test modules, actions, interface entities, and data sets are defined by their action lines, they are in some contexts referred to as definitions.
 
@@ -30,7 +30,7 @@ You adapt your test to handle these different factors mostly by modifying the de
 
 The idea is that, at any point in time, you may have several different versions of a given action, interface, or data set, any one of which may be needed by your test module for the particular combination of application version, operation system, environment, localization, and more, that your project may be called on to test.
 
-**Note:** Systems and platforms: In discussing the various factors contributing to a specific point on the test configuration matrix, we talk of systems and platforms. By systems, we are referring to the target of the automation – the application under test, and all its various versions. Platforms are those components of the environment that a target system operates in, such as the O/S, the browser, hardware \(e.g., 32 bits vs. 64\), etc. Note that for purposes of this discussion, we from hereon refer to platforms also as systems.
+{{<note>}} Systems and platforms: In discussing the various factors contributing to a specific point on the test configuration matrix, we talk of systems and platforms. By systems, we are referring to the target of the automation – the application under test, and all its various versions. Platforms are those components of the environment that a target system operates in, such as the O/S, the browser, hardware \(e.g., 32 bits vs. 64\), etc. Note that for purposes of this discussion, we from hereon refer to platforms also as systems.
 
 TestArchitect addresses the problem of requiring multiple test configurations by allowing different versions of any given action, interface, or data set to coexist with each other. Each is ready to be called up when circumstances warrant. We use the term variations to refer to these multiple versions of the same action, interface, or data set.
 

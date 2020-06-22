@@ -10,7 +10,7 @@ keywords: "integration, Zephyr, mapping projects"
 
 Mapping a TestArchitect project to a project in Zephyr allows for tests to be transferred bidirectionally between the two projects.
 
-**Important:** TestArchitect-Zephyr integration supports the following versions of Zephyr.
+{{<important>}} TestArchitect-Zephyr integration supports the following versions of Zephyr.
 
 -   [6.2](https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/550633474/6.2+Release+Notes)
     -   [Zephyr Cloud](https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/263521484/Zephyr+Enterprise+Cloud+Requirements)
@@ -26,7 +26,7 @@ To map a TestArchitect project to a Zephyr project:
 
 2.  In the **Source** field, specify the ID of the Zephyr project to map to.
 
-    **Important:** You can only map a given TestArchitect project to a single Zephyr project at a time.
+{{<important>}} You can only map a given TestArchitect project to a single Zephyr project at a time.
 
     ![](/images/TA_Help/Images/Zephyr_mapping_projects_6.1.png)
 

@@ -10,7 +10,7 @@ keywords:
 
 In Part 1, you learned to master the basics of TestArchitect. Now you'll discover how to leverage the key resources of TestArchitect and employ the Action Based Testing method to rapidly produce modular, readable, and highly maintainable tests.
 
-**Note:** It should be noted that, in this part of the Tutorials Guide, the lessons build on one another. Unless you are already familiar with the subject matter of one or more of these lessons, it is strongly recommended that you follow them in the order in which they appear.
+{{<note>}} It should be noted that, in this part of the Tutorials Guide, the lessons build on one another. Unless you are already familiar with the subject matter of one or more of these lessons, it is strongly recommended that you follow them in the order in which they appear.
 
 The tutorial includes the following sections:
 

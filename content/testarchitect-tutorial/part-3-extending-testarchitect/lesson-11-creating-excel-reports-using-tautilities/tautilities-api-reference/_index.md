@@ -29,7 +29,7 @@ You have several options for accessing the API reference of the TAUtilities libr
 
 In all cases, your default browser displays the main API reference of the TAUtilities library. For a further explanation of the organization of this document, click the **Help** link at the top of the page.
 
-**Important:**
+{{<important>}}
 
 -   For API methods that contain the Boolean isRecursive parameter, the allowable values vary between different technologies as follows:
 

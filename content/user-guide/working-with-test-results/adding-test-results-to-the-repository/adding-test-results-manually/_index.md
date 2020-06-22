@@ -10,7 +10,7 @@ keywords: "test results, manually, adding to repository"
 
 How to manually store local test results to the repository.
 
-**Important:** Note that, if you add test results to the repository automatically, all [unverified picture checks](/TA_Glossary/Topics/glossaryUnverifiedPictureCheck.html) will be totally discarded. Whereas, adding test results to the repository manually preserves all picture checks.
+{{<important>}} Note that, if you add test results to the repository automatically, all [unverified picture checks](/TA_Glossary/Topics/glossaryUnverifiedPictureCheck.html) will be totally discarded. Whereas, adding test results to the repository manually preserves all picture checks.
 
 Perform the following steps:
 

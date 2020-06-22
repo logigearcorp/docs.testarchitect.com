@@ -10,7 +10,7 @@ keywords: "XPath property, TA property, XPath, properties, secondary"
 
 TestArchitect uses a special TA property, called XPath and derived from the XPath language, to uniquely locate UI controls within tested web applications. [XPath](https://www.w3schools.com/xml/xpath_syntax.asp) is the query language used for searching XML documents, which are hierarchical representations of data. Similarly, TestArchitect depicts the UI controls running on web applications as a hierarchical representation of elements and provides the XPath TA property for each control to uniquely identify it within that hierarchy.
 
-**Important:** In identifying a control within an application, TestArchitect normally allows for any combination of valid TA properties \(and their respective values\) to be specified. The XPath property is an exception. When it is used to identify a control \(such as in an [interface element](/TA_Glossary/Topics/glossaryInterfaceElement.html) or [dynamic identifier](/TA_Glossary/Topics/glossaryDynamicIdentifier.html)\), no other property-value pairs may accompany it.
+{{<important>}} In identifying a control within an application, TestArchitect normally allows for any combination of valid TA properties \(and their respective values\) to be specified. The XPath property is an exception. When it is used to identify a control \(such as in an [interface element](/TA_Glossary/Topics/glossaryInterfaceElement.html) or [dynamic identifier](/TA_Glossary/Topics/glossaryDynamicIdentifier.html)\), no other property-value pairs may accompany it.
 
 ## Applicable platforms
 
@@ -26,7 +26,7 @@ The XPath TA property is currently available on the following platforms:
     -   Safari on iOS
     -   Chrome on Android
 
-        **Restriction:** XPath is not supported on WebView.
+{{<restriction>}} XPath is not supported on WebView.
 
 
 ## Synopsis

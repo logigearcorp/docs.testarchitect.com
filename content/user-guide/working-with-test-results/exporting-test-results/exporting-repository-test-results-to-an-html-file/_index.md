@@ -14,7 +14,7 @@ Ensure that the test results you want to export are [stored in the repository](/
 
 1.  Select the repository test results that you want to export to the HTML file.
 
-    **Tip:** You can select repository results in the TestArchitect explorer tree, or in the [repository result list view](/TA_Help/Topics/Listview_results_repository.html).
+{{<tip>}} You can select repository results in the TestArchitect explorer tree, or in the [repository result list view](/TA_Help/Topics/Listview_results_repository.html).
 
 2.  Right-click the selection and click **Export** \> **to HTML file**.
 
@@ -36,12 +36,12 @@ Ensure that the test results you want to export are [stored in the repository](/
 
     You are first required to customize the default XSLT template, which means you need to modify [a set of XSL files](/TA_Help/Topics/ug_customizing_XML_report.html) to suit your desired view layout. \(See more examples [here](/TA_Help/Topics/ug_customizing_XML_report.html).\)
 
-    **Attention:** When your customized XSLT is invalid, the default XSLT template, located at the following places, is automatically applied.
+{{<attention>}} When your customized XSLT is invalid, the default XSLT template, located at the following places, is automatically applied.
 
     -   Windows: \{TA\_INSTALL\_DIR\}\\templates\\xsl\\
     -   Linux: /usr/local/logigear/testarchitect/templates/xsl/
     -   macOS: /Applications/TestArchitect/templates/xsl/
-    **Note:** if you are using a repository on another machine, make sure that the template you choose is accessible to the repository server under the account that starts the repository server service. It means that the template needs placing either on the repository server or in a network shared folder. Otherwise, the default template will be used.
+{{<note>}} if you are using a repository on another machine, make sure that the template you choose is accessible to the repository server under the account that starts the repository server service. It means that the template needs placing either on the repository server or in a network shared folder. Otherwise, the default template will be used.
 
 7.  To open the parent folder containing the exported test result, select the **Open folder after saving** check box.
 

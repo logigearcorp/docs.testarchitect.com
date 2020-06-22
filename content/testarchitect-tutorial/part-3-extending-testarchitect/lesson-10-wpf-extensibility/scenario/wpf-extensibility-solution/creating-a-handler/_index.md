@@ -10,7 +10,7 @@ keywords: "WPF extensibility, creating extension handler"
 
 Now create a class which works as a extension handler.
 
-**Remember:** It is highly recommended that you use Microsoft Visual Studio 2010 to program WPF Extensibility.
+{{<remember>}} It is highly recommended that you use Microsoft Visual Studio 2010 to program WPF Extensibility.
 
 To create a handler, follow these steps:
 
@@ -26,7 +26,7 @@ To create a handler, follow these steps:
 
 3.  Override the GetControlSupportLevel method. This is the priority level of methods in this handler.
 
-    **Tip:** To obtain full name of the Telerik’s raw class, you can use the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html) to check the raw class’ name.
+{{<tip>}} To obtain full name of the Telerik’s raw class, you can use the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html) to check the raw class’ name.
 
     Enter the code lines below:
 

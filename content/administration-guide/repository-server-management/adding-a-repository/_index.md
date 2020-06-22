@@ -12,7 +12,7 @@ A new repository can be added from the Repository Server Control Panel or from w
 
 Ensure that the repository service is [running](/TA_Administration/Topics/Starting_repository_server.html).
 
-**Note:**
+{{<note>}}
 
 -   The Repository Server Control Panel can be used to add a new repository to the local host.
 -   TestArchitect Client, on the other hand, can be used to add a new repository to any available host. To create a repository from TestArchitect Client, refer to [Creating a repository](/TA_Help/Topics/Repository_creating.html).

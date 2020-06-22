@@ -10,7 +10,7 @@ keywords: "JIRA, creating unregistered bugs, integration, creating unregistered 
 
 An unregistered TestArchitect bug \(TA bug\) is one that is created in TestArchitect but it is not associated with a JIRA bug.Note that you may link an unregistered TA bug with an existing JIRA bug, in which case the former becomes a registered TA bug.
 
-**Note:**
+{{<note>}}
 
 -   At present, TestArchitect-JIRA integration supports versions 5 and 6 of JIRA.
 
@@ -31,14 +31,14 @@ An unregistered bug is created and appears in the main Client panel. The fields 
 
 ![](/images/TA_Help/Images/Unlinked_bug_information.png)
 
-**Note:**
+{{<note>}}
 
 -   The TestArchitect **Bug ID** field is a combination of [a prefix key](/TA_Help/Topics/Projects_and_project_items_create_project.html) followed by an ID number, separated by a hyphen.
 -   The ID number is automatically generated to avoid duplicate bugs in case of [replication repositories](/TA_Administration/Topics/Repo_server_management_replication_repo_intro.html).
 
-**Tip:** You may associate the newly created unregistered bug with a JIRA bug by entering the JIRA issue ID into the **Source** box, then clicking **Apply**. Data from the JIRA issue's fields are then imported to the TA bug. Ensure that your TestArchitect test machine has [registered the JIRA server](/TA_Help/Topics/JIRA_registering.html).
+{{<tip>}} You may associate the newly created unregistered bug with a JIRA bug by entering the JIRA issue ID into the **Source** box, then clicking **Apply**. Data from the JIRA issue's fields are then imported to the TA bug. Ensure that your TestArchitect test machine has [registered the JIRA server](/TA_Help/Topics/JIRA_registering.html).
 
-**Restriction:**
+{{<restriction>}}
 
 -   If you attempt to associate a TA bug with a JIRA issue that is not of the type Bug, an error message is presented:
 

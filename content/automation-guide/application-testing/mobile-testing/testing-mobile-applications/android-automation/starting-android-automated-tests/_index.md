@@ -12,7 +12,7 @@ Approaches to selecting which Android device\(s\) run automated tests in TestArc
 
 You can specify which Android device runs a given automated test, or portion of a test, from either your test launch command \([online](/TA_Help/Topics/Test_exec_test_execution.html) or [offline](/TA_Help/Topics/Test_exec_batch_file.html)\) or from within your test procedures.
 
-**Important:**
+{{<important>}}
 
 Test initiation, which is typically performed either from the Execute Test dialog box or via a test execution batch file, specifies which device or devices test execution *starts* on. Once testing begins, your test procedure can control where execution is to take place, using the built-in action [use device](/TA_Automation/Topics/bia_use_device.html). For example, after you've selected device A in the Execute Test dialog box and clicked the **Execute** button, your test is executed on device A. The automated test runs on device A until it encounters the action line `use device B` in the test procedure. At this time, the automation stops running on device A, and logically connects to device B, making that the target device for the remainder of the automated test. This is basically the same as [synchronous serial execution](/TA_Help/Topics/Test_exec_remote_synchronous_serial.html) in desktop testing.
 

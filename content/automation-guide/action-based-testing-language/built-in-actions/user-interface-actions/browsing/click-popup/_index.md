@@ -12,7 +12,7 @@ keywords: "built-in action, click popup"
 
 Click a button in a popup.
 
-**Important:** This action is dedicated to Generic WebDriver
+{{<important>}} This action is dedicated to Generic WebDriver
 
 ## Valid contexts
 

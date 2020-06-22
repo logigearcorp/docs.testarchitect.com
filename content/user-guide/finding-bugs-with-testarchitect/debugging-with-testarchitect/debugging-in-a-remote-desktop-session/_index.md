@@ -10,11 +10,11 @@ keywords: "debugging, remote desktop session, test runs on"
 
 How to debug a harness in a remote desktop session.
 
-**Note:** Applies to TestArchitect 8.4 Update 3
+{{<note>}} Applies to TestArchitect 8.4 Update 3
 
 You are knowledgeable about [test runs in multiple remote desktop sessions](/TA_Help/Topics/Test_exec_multiple_remote_desktop_sessions.html)
 
-**Restriction:** You are unable run in the debugging mode on more than one remote desktop session.
+{{<restriction>}} You are unable run in the debugging mode on more than one remote desktop session.
 
 1.  Create a remote desktop session with a preferred user account. Start TestArchitect Controller.
 
@@ -30,7 +30,7 @@ You are knowledgeable about [test runs in multiple remote desktop sessions](/TA_
 
     ![](/images/TA_Help/Images/TA_RUN_CONFIG_env_variable.png)
 
-    **Important:** this step needs carrying out for the first time only.
+{{<important>}} this step needs carrying out for the first time only.
 
 4.  Execute the taplayback.exe command located in \{TA\_INSTALL\_DIR\}\\binclient so as to start debugging the harness
 

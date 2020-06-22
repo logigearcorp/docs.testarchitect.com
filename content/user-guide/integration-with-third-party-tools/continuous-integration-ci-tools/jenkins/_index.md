@@ -10,7 +10,7 @@ keywords: "Jenkins, continuous integration"
 
 Jenkins is a Java-based open-source continuous integration \(CI\) tool that controls and monitors the execution of repeatable tasks in software development. A key component of continuous integration is the frequent running of automated tests to catch potential bugs as soon as they are introduced in the development process. TestArchitect incorporates features that allow it to be readily integrated into a Jenkins-based CI environment.
 
-**Note:**
+{{<note>}}
 
 -   Ensure that the xUnit plugin is installed on the Jenkins server. The plug-in provides useful information about test results, such as the historical trends. It offers a Web interface for viewing test reports, tracking failures, and more.
 -   To avoid Java-related conflicts, do not install TestArchitect on the same host as your Jenkins master server.

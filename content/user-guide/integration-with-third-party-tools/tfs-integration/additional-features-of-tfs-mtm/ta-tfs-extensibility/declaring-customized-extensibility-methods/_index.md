@@ -12,7 +12,7 @@ This topic describes about ways to declare customized extensibility methods.
 
 All the customized extensibility methods above must be declared within the TAIntegrationExtensibility class in accordance with the Attribute Method technique.\([Learn more](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/attributes/).\)
 
-**Note:** By default, some of the supported extensibility methods above, such as ClassInitialized\(\), ClassCleaning\(\), and TestInitialized\(\), are automatically generated in advance in the TAIntegrationExtensibility class, for your ease of use.
+{{<note>}} By default, some of the supported extensibility methods above, such as ClassInitialized\(\), ClassCleaning\(\), and TestInitialized\(\), are automatically generated in advance in the TAIntegrationExtensibility class, for your ease of use.
 
 The following example depicts declarations of two methods:
 

@@ -13,7 +13,7 @@ There are two methods by which Safari may be invoked on iOS devices:
 1.  One, the “real-world” method, is to simply manually tap the **Safari** icon. However, this method requires manual intervention during automated test.
 2.  Use the [navigate](/TA_Automation/Topics/bia_navigate.html) built-in action.
 
-**Remember:**
+{{<remember>}}
 
 -   Method \#1 does not require you to install TestArchitect Browser Agent, whereas method \#2 does. Refer to [Re-signing and installing TestArchitect Browser Agent](/TA_Automation/Topics/aut_app_testing_mobile_web_Safari_installing_TA_Browser_Agent.html) for details.
 -   For method \#2, it is essential that you include the protocol \(http:// or https://\) for the target URL in the location argument. \(For example, http://google.com\)

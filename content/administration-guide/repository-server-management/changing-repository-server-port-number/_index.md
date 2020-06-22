@@ -27,7 +27,7 @@ To change the repository server port:
 
 After changing the repository server port number, all clients connected to the repository server must be updated accordingly.
 
-**Note:** This also includes replication networks \([learn more](/TA_Administration/Topics/adm_Setting_up_primary_replication_repository.html)\):
+{{<note>}} This also includes replication networks \([learn more](/TA_Administration/Topics/adm_Setting_up_primary_replication_repository.html)\):
 
 -   Primary replication repositories
 -   Secondary replication repositories

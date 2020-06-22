@@ -18,7 +18,7 @@ TestArchitect offers support for XML automation, allowing you to perform verific
 
 Specifically, TestArchitect provides this support with built-in actions that allow you to perform XPath \(XML Path Language\) queries to search for information in target XML content. An XPath expression uses a path notation for addressing parts of an XML document. For example, the expression `book[@type="Fiction"]` refers to the <book\> elements whose type attribute is set to `"Fiction"`.
 
-**Note:** As you may have surmised, in order to perform XPath queries to find XML elements by their tags and attributes, you must be familiar with XPath syntax. A tutorial on XML and XPath is beyond the scope of this help system. For more information on XPath, you can refer to this [XPath Tutorial](https://www.w3schools.com/xml/xpath_intro.asp).
+{{<note>}} As you may have surmised, in order to perform XPath queries to find XML elements by their tags and attributes, you must be familiar with XPath syntax. A tutorial on XML and XPath is beyond the scope of this help system. For more information on XPath, you can refer to this [XPath Tutorial](https://www.w3schools.com/xml/xpath_intro.asp).
 
 ## Supported XML-related built-in actions
 

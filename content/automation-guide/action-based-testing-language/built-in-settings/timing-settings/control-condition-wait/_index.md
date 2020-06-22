@@ -12,7 +12,7 @@ keywords: "built-in settings, control condition wait, settings, control conditio
 
 The maximum wait time for TA properties to satisfy the conditions of the control condition setting.
 
-**Note:** The TA properties and their conditions are defined in the [control condition](/TA_Automation/Topics/bis_control_condition.html) built-in setting.
+{{<note>}} The TA properties and their conditions are defined in the [control condition](/TA_Automation/Topics/bis_control_condition.html) built-in setting.
 
 ## Value Units
 

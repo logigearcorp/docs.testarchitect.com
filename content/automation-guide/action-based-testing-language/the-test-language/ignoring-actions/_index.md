@@ -12,7 +12,7 @@ When the ignore modifier \(the string “ignore”, surrounded by angle brackets
 
 This functionality is supported with user-scripted actions and a subset of the built-in actions \(specified below\). The TestArchitect interpreter, however, does not recognize <ignore\> as a special value when present in an argument of a call to a user-defined action, and hence proceeds to execute such actions. \(Of course, you are always free to write a user-defined action so that it bounces right back when it encounters the <ignore\> string, achieving the same effect.\)
 
-**Note:** The reserved word ignore must be surrounded by angle brackets \(< \>\) and can be placed in *any* argument cell of a supported action.
+{{<note>}} The reserved word ignore must be surrounded by angle brackets \(< \>\) and can be placed in *any* argument cell of a supported action.
 
 The ignore modifier is supported in the following actions:
 

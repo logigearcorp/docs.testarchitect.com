@@ -38,7 +38,7 @@ There are two ways in which TestArchitect stores the picture checks:
 
 As a tester, you would use regular picture checks for pictures like charts \(histograms, graphs, pie charts, etc.\), that need to accurately display data that is specific for the situation where the [check picture](/TA_Automation/Topics/bia_check_picture.html) built-in action is applied.
 
-**Note:**
+{{<note>}}
 
 -   You can see regular picture checks in the **Picture Checks** tab of a test module.
 
@@ -50,7 +50,7 @@ As a tester, you would use regular picture checks for pictures like charts \(his
 
 Shared picture checks are useful for standard pictures, like symbols and icons, where as a tester you mainly want to know if the correct picture is displayed by an application, but not what that picture exactly looks like. For example, the TestArchitect explorer tree has a special icon designating a test module, which varies slightly depending on whether the given item is checked in, checked out to you, or checked out to someone else. A test may need to verify only that a given icon being displayed is a test module icon, without regard to its particular state-dependent appearance. The example discussed above, with the picture of the Chevrolet Monte Carlo, would also work best as a shared picture check if, say, future versions of the application may update their car pictures.
 
-**Note:**
+{{<note>}}
 
 -   To capture shared picture checks, use the [Picture Capturing Tool](/TA_Help/Topics/Additional_features_image_capturing_tool.html).
 -   You may view the baseline pictures there, and if necessary delete them, or even delete the entire picture check.

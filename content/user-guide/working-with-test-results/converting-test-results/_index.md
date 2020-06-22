@@ -14,7 +14,7 @@ It is required to convert test results created in versions prior to TestArchitec
 
 Since TestArchitect version [8.3](/TA_ReleaseNotes/DITA_source/Whats_New_8.3.html), [XML result model](/TA_Help/Topics/Test_result.html) has been introduced to view test results in a web browser.
 
-**Important:** XML result model provides the following advantages when compared to the previous result model.
+{{<important>}} XML result model provides the following advantages when compared to the previous result model.
 
 -   Less memory footprint: The amount of memory that TestArchitect uses or references while opening and viewing test results is less.
 -   Smaller parsing times: The operation process is faster, such as open test results, import/export test results, etc.
@@ -22,7 +22,7 @@ Since TestArchitect version [8.3](/TA_ReleaseNotes/DITA_source/Whats_New_8.3.htm
 
 Test results generated in earlier TestArchitect versions must be converted to the current XML format, before you can view them. TestArchitect convert test results created in previous versions automatically when you first open them in TestArchitect Client.
 
-CAUTION:
+{{<caution>}}
 
 Test result conversion is a one-way process: the **converted test results cannot be opened in TestArchitect versions prior to 8.3**.
 

@@ -10,7 +10,7 @@ keywords: "child windows (MDI), BFS search, MDI, child window"
 
 TestArchitect employs a breadth-first search \(BFS\) algorithm to match a desired MDI-child window and its controls.
 
-**Note:** Addressing controls of MDI applications by using the JIT mode is just fully supported on [Microsoft UI Automation](/TA_Automation/Topics/aut_Using_UIA.html) \(UIA\) technology.
+{{<note>}} Addressing controls of MDI applications by using the JIT mode is just fully supported on [Microsoft UI Automation](/TA_Automation/Topics/aut_Using_UIA.html) \(UIA\) technology.
 
 Mapping them as MDI-child windows improves significantly the UI matching process during automation playback. When matching a MDI-child window, JIT mode performs a BFS which is an algorithm for searching tree data structures. It starts at the tree root and explores the neighbor nodes first, before moving to the next level neighbors. The process continues until the target node is found. The following picture illustrates the BFS algorithm.
 

@@ -10,7 +10,7 @@ keywords: "Android instrumentation tool, instrumentation tool Android"
 
 The Android Instrumentation Tool or AIT is the central command for managing target devices and the testable applications on those devices.
 
-**Important:** Android automation is only supported on Windows.
+{{<important>}} Android automation is only supported on Windows.
 
 To launch the Android Instrumentation Tool:
 
@@ -29,7 +29,7 @@ From this dialog box, you can:
 -   View the testable applications currently installed on each device.
 -   Install or remove testable applications to or from devices.
 
-    **Important:** The Android Instrumentation Tool does not have sufficient privileges to remove a device admin application. It is recommended that you deactivate the device admin rights of the application to allow the tool to remove it. To deactivate device admin rights, carry out the following procedure:
+{{<important>}} The Android Instrumentation Tool does not have sufficient privileges to remove a device admin application. It is recommended that you deactivate the device admin rights of the application to allow the tool to remove it. To deactivate device admin rights, carry out the following procedure:
 
     1.  On the Android device, select **Settings** \> **Security**.
     2.  Select the **Device administrators** option.

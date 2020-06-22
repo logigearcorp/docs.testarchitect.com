@@ -10,14 +10,14 @@ keywords: "integration, TFS, Visual Studio components installed, Visual Studio c
 
 A fully functional TA-TFS integrated system requires that a number of components of Microsoft's Application Lifecycle Management \(ALM\) environment be installed and configured.
 
-**Important:**
+{{<important>}}
 
 -   For test scenarios using Visual Studio 2015 or Team Foundation Server 2015, whether on-premise or cloud-based, support for launching automated tests is limited to Microsoft Test Manager 2015 with Microsoft test controller and Microsoft test agent for Visual Studio 2013 Update 5 \(Note that these are Microsoft-imposed constraints\).
 -   Running automated tests from Team Foundation Server’s web portal for Microsoft Visual Studio is currently not supported.
 
 TA-TFS integration requires installation of the following software components of the Microsoft ALM. Please refer to the appropriate Microsoft resources for information on the installation and configuration of these items:
 
-**Note:**
+{{<note>}}
 
 -   Unless you use MTM, you do not have to install it, Test Controller and Test Agent.
 -   TestArchitect Client and Microsoft Test Agent must be installed on the same machine.
@@ -30,7 +30,7 @@ TA-TFS integration requires installation of the following software components of
 -   Microsoft Agents for Visual Studio:
     -   Test agent for Visual Studio [2015](https://msdn.microsoft.com/en-us/library/hh546459(v=vs.140).aspx#agent), 2015 Update 1.
 
-        **Note:** Choose to download and install [Agents for Microsoft Visual Studio 2013 Update 5](https://www.visualstudio.com/vs/older-downloads/). This package includes installation of both test controllers and test agents.
+{{<note>}} Choose to download and install [Agents for Microsoft Visual Studio 2013 Update 5](https://www.visualstudio.com/vs/older-downloads/). This package includes installation of both test controllers and test agents.
 
     -   Test agent for Visual Studio [2013](http://msdn.microsoft.com/en-us/library/hh546459(v=vs.120).aspx#agent).
 -   TFS Object Model:

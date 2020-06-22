@@ -15,7 +15,7 @@ There are three ways in which an action can be automated:
 -   An action may be built-in: TestArchitect's automation libraries support these actions for most of the common platforms. These built-in actions are also considered system-level actions.
 -   A new action may be created and built-up from existing actions in an action definition. Such an action is known as a user-defined action.
 
-    **Note:** A user-defined action definition can be comprised of other user-defined actions, built-in actions, user-scripted actions, or any mixture of the above.
+{{<note>}} A user-defined action definition can be comprised of other user-defined actions, built-in actions, user-scripted actions, or any mixture of the above.
 
 -   Additional actions can be implemented using a scripting or programming language, in a harness \(see [Lesson \#8: Using an automation harness](/TA_Tutorials/Topics/Tutorial_Scripting_actions_in_other_languages.html)\). These are known as user-scripted actions..
 
@@ -37,7 +37,7 @@ The definition consists of three action lines \(with [get control property](/TA_
 
 ![](/images/TA_Help/Images/Action_check_message.png)
 
-**Note:**
+{{<note>}}
 
 -   In TestArchitect the pound key indicates an expression, in which the argument name plays the role of a variable. Since the arguments of the check message action are used as variables in the expressions, you can apply operators. For example if all messages in the tested application end with exclamation points \(!\), you could replace the cell **C13** with: `# message & "``!"`
 -   If you type a nonexistent action into the worksheet, the system automatically highlights it in red to identify the error. To add such a highlighted action to your project:

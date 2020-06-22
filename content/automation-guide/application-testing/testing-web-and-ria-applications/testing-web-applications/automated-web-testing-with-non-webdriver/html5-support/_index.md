@@ -16,7 +16,7 @@ TestArchitect for HTML5 is an adaptation of the TestArchitect framework for soft
 
 TestArchitect may be employed to test HTML5 applications. Specifically, TestArchitect creates automated tests for web sites that include HTML5 tags for video, audio, and imaging including the *<canvas\>* element, as well as *<svg\>*. TestArchitect can also be used to record and play back user interactions with HTML5 content. \(See the following topics for details [Action Recorder](/TA_Help/Topics/Creating_and_using_actions_AR.html) and [Using the Action Recorder](/TA_Tutorials/Topics/Tutorial_Using_the_Action_Recorder.html)\).
 
-**Note:**
+{{<note>}}
 
 To test HTML5 applications with TestArchitect, ensure that the TestArchitect Automation Agent extension is installed and enabled in the target browser \(see [TestArchitect browser extension](/TA_Help/Topics/Test_exec_extension.html)\).
 

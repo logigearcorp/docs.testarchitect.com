@@ -27,7 +27,7 @@ The difference is the basis of the index. The global pos properties of controls 
 
 In essence, anchor pos differs from global pos in that you choose your own anchor for the control of interest, with that anchor being another control – specifically, an ancestor control of the control of interest. By having an anchor that is relatively close to the control of interest, you can avoid the risk of misidentification, which can happen in a dynamic environment when other controls of the same class are introduced \(or removed\), causing index values to change.
 
-**Tip:** Controls in a window are always organized into a tree-style hierarchy, as evidenced when you use the Interface Viewer in Hierarchy View.
+{{<tip>}} Controls in a window are always organized into a tree-style hierarchy, as evidenced when you use the Interface Viewer in Hierarchy View.
 
 The following figure, depicting a dynamic AUT window at two different points in time, illustrates the value of anchor pos over global pos:
 

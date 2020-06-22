@@ -30,7 +30,7 @@ A data set can also contain one or more named [filter](/TA_Automation/Topics/bia
 
 A filter expression is similar to expressions that may appear in action line arguments, except that no pound \(\#\) symbol is needed to precede them. The variable names in the expressions refer to the column headers in the data section of the data set. The logical operators and and or can be used to apply multiple criteria. A header name \(variable\) containing a space can generally be used without an issue. However, to enhance readability, and to avoid conflicts with the operator names and and or, it makes sense to place single quotes around them.
 
-**Tip:** For flexibility, you are able to copy data either from other applications \(for example, Microsoft Excel, Microsoft Word, or Notepad\) or from TestArchitect itself, and then paste the it into the data area of the data set grid. If you copy data and paste it as a data set value, [row](/TA_Automation/Topics/bia_row.html) actions are automatically generated in the corresponding rows of the first column.
+{{<tip>}} For flexibility, you are able to copy data either from other applications \(for example, Microsoft Excel, Microsoft Word, or Notepad\) or from TestArchitect itself, and then paste the it into the data area of the data set grid. If you copy data and paste it as a data set value, [row](/TA_Automation/Topics/bia_row.html) actions are automatically generated in the corresponding rows of the first column.
 
 1.  [Creating a new data set](/TA_Help/Topics/Projects_and_tests_dataset_creation.html)  
 You can create a data set using the New Data Setdialog box.

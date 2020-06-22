@@ -36,7 +36,7 @@ The following procedures for re-signing the TestArchitect Agent app must be perf
     -   Debug.entitlements
     -   FileInfo
     -   iOSInstrumentationDyLib.dylib
-    **Note:** Assuming that TestArchitect is installed, resign.sh, Debug.entitlements, FileInfo, iOSInstrumentationDyLib.dylib and CarRental.ipa files can be found at the following location: Applications/TestArchitect/device/iOS/resource
+{{<note>}} Assuming that TestArchitect is installed, resign.sh, Debug.entitlements, FileInfo, iOSInstrumentationDyLib.dylib and CarRental.ipa files can be found at the following location: Applications/TestArchitect/device/iOS/resource
 
 3.  Start the command line terminal and navigate to the directory to which you copied the files in the preceding step.
 
@@ -58,7 +58,7 @@ The following procedures for re-signing the TestArchitect Agent app must be perf
 
         The re-signed Car Rental application is installed onto the device.
 
-    **Tip:** You can perform step [6](/TA_Tutorials_Sample_App/Topics/SR_iOS_installing_Car_Rental.html#step_jbb_m1r_kn) on either an macOS or Windows machine.
+{{<tip>}} You can perform step [6](/TA_Tutorials_Sample_App/Topics/SR_iOS_installing_Car_Rental.html#step_jbb_m1r_kn) on either an macOS or Windows machine.
 
 
 With the re-signed Car Rental application installed onto the iOS device, the Car Rental icon is available on the device's desktop.

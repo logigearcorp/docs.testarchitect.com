@@ -12,7 +12,7 @@ keywords: "built-in actions, configure webdriver, configure webdriver (action), 
 
 Set up an advanced test environment where you are going to run tests with WebDriver. \(Learn more about [Webdriver](https://www.w3.org/TR/webdriver/)\)
 
-**Important:** This action is dedicated to Generic WebDriver.
+{{<important>}} This action is dedicated to Generic WebDriver.
 
 ## Valid contexts
 
@@ -56,7 +56,7 @@ Besides, in GWD mode, you can decide whether or not to keep the browser open aft
 
 Additionally, you can use the Start-up settings to configure the cleanup. Click [here](/TA_FAQ/Topics/0x80020014L.html#) for more information.
 
-**Important:** The purpose of keeping the browser open is to help you to debug your test. Using it may cause some problems related to headless mode, multi-execution, un-rent devices, etc. Please be aware of this before using this setting.
+{{<important>}} The purpose of keeping the browser open is to help you to debug your test. Using it may cause some problems related to headless mode, multi-execution, un-rent devices, etc. Please be aware of this before using this setting.
 
 
 

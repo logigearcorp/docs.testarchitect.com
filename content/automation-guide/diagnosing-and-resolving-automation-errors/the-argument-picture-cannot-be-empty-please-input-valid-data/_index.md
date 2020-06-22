@@ -18,7 +18,7 @@ This happens because the value of the picture argument is omitted.
 
 Since picture is a required argument, fill in a value for the argument, and then re-run the test.
 
-**Note:** You can specify a shared or a regular picture check.
+{{<note>}} You can specify a shared or a regular picture check.
 
 
 

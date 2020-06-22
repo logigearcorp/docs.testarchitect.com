@@ -29,7 +29,7 @@ back to home {Car Rental:1.1}{spanish}
 back to home {Car Rental:1.2}{spanish}
 ```
 
-**Note:** At compile time \(just after a test run is launched\), when the operative variations for each project item are select, TestArchitect only concerns itself with effective variations.
+{{<note>}} At compile time \(just after a test run is launched\), when the operative variations for each project item are select, TestArchitect only concerns itself with effective variations.
 
 
 

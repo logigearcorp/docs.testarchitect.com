@@ -27,7 +27,7 @@ You can enable Xcode Connector from the Remote TestKit client version. \([Learn 
     ![](/images/TA_Automation/Images/xcode_connector_enabled.png)
 
 
-**Note:** Open Xcode, and ensure that Xcode detects the rented device.
+{{<note>}} Open Xcode, and ensure that Xcode detects the rented device.
 
 
 

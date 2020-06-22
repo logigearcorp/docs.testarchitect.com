@@ -10,7 +10,7 @@ keywords: "Release Notes 8.2 Update 1, Windows, What is new, Windows, TestArchit
 
 The following new features and improvements are introduced in TestArchitect version 8.2 Update 1 running under Windows.
 
-**Remember:**
+{{<remember>}}
 
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
@@ -19,7 +19,7 @@ The following new features and improvements are introduced in TestArchitect vers
 
 -   [**Visual Studio 2015 support**](/TA_Help/Topics/ug_MTM_supported_platforms.html): TestArchitect integrates with Microsoft Visual Studio 2015 \(Enterprise, Professional and Test Professional editions\).
 
-    **Note:** As of this release, running automated tests from Team Foundation Server’s web portal for Microsoft Visual Studio 2015 is not supported. Additionally, for test scenarios using Visual Studio 2015 or Team Foundation Server 2015, whether on-premise or cloud-based, support for launching automated tests is limited to Microsoft Test Manager 2015 with Microsoft test controller and Microsoft test agent for Visual Studio 2013 Update 5 \(Note that these are Microsoft-imposed constraints\). Note also that only an on-premise installation of Team Foundation Server 2015 is supported in integration with TestArchitect.
+{{<note>}} As of this release, running automated tests from Team Foundation Server’s web portal for Microsoft Visual Studio 2015 is not supported. Additionally, for test scenarios using Visual Studio 2015 or Team Foundation Server 2015, whether on-premise or cloud-based, support for launching automated tests is limited to Microsoft Test Manager 2015 with Microsoft test controller and Microsoft test agent for Visual Studio 2013 Update 5 \(Note that these are Microsoft-imposed constraints\). Note also that only an on-premise installation of Team Foundation Server 2015 is supported in integration with TestArchitect.
 
 -   **Support for uploading test results to Microsoft Test Manager test cases as identified by requirements-based test suites**.
 -   **[Startup settings](/TA_Automation/Topics/aut_startup_settings.html)**: The new Startup Settings panel on the Execute Test dialog box provides a means by which you can specify settings prior to a test run. For example, you can choose the browser in which to run a test by specifying a value for setting [use browser](/TA_Automation/Topics/bis_use_browser.html) without using variations. Or you can specify a user-defined setting such as test environment, then in turn retrieve its specified value within your tests using the action [get setting](/TA_Automation/Topics/bia_get_setting.html).

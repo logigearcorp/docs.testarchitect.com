@@ -18,7 +18,7 @@ Send JSON string request to a web service in order to apply new configuration se
 
     Send JSON string request to a web service in order to apply new configuration settings.
 
-    **Important:** Basic JSON syntax as required for creating profiles is as follows:
+{{<important>}} Basic JSON syntax as required for creating profiles is as follows:
 
     -   JSON data is written as name:value pairs. Example:
 
@@ -59,7 +59,7 @@ This action may be used within the following project items:test modules and user
 
 1.  Proxy: Defines a manual proxy server.
 
-    **Remember:** To specify that the proxy is not in use, simply do not call configure web service settings with proxy settings in your test procedures.
+{{<remember>}} To specify that the proxy is not in use, simply do not call configure web service settings with proxy settings in your test procedures.
 
     -   JSON string for manual proxy settings must be defined as follows.
 

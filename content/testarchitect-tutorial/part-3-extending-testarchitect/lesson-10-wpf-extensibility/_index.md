@@ -21,7 +21,7 @@ TestArchitect supports every WPF control with an exception to very few specific 
 -   Familiarity with the TestArchitect test editor
 -   Some familiarity with C\# programming language
 
-    **Remember:** It is highly recommended that you use Microsoft Visual Studio 2010 to program WPF Extensibility.
+{{<remember>}} It is highly recommended that you use Microsoft Visual Studio 2010 to program WPF Extensibility.
 
 
 **What you will learn:**

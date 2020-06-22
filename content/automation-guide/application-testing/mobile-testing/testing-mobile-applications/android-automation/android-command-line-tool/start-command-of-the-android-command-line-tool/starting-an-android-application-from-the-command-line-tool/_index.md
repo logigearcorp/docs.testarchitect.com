@@ -10,9 +10,9 @@ keywords: "Android, command line tool, launching app, steps, command line tool, 
 
 This example demonstrates the steps involved in launching an Android application using the Android command line tool with the Start command
 
-**Important:** The Android command line tool is only supported on Windows.
+{{<important>}} The Android command line tool is only supported on Windows.
 
-**Note:**
+{{<note>}}
 
 -   The Android command line tool is only applicable when one or more devices are connected to the host PC via USB cable.
 
@@ -29,7 +29,7 @@ Ensure that the following requirements are met:
 
     Review [Start command](/Android/Topics/Android_command_line_tool_start.html#p_n3t_vr2_5l) to understand the Start command's syntax.
 
-    **Tip:**
+{{<tip>}}
 
     -   If there is only one Android device connected to the host PC via USB cable, the unique ID parameter is optional.
     -   To obtain the package name of an Android application:

@@ -10,7 +10,7 @@ keywords: "executing tests, multiple remote desktop sessions, test runs on"
 
 TestArchitect provides you the capability to execute tests with multiple remote desktop sessions.
 
-**Note:** Applies to TestArchitect 8.4 Update 3 and higher.
+{{<note>}} Applies to TestArchitect 8.4 Update 3 and higher.
 
 **Preconditions**
 
@@ -26,7 +26,7 @@ TestArchitect provides you the capability to execute tests with multiple remote 
 
 ![](/images/TA_Help/Images/Multi_remote_desktop_sessions_diagram.png)
 
-**Note:** Support Deputy mode
+{{<note>}} Support Deputy mode
 
 1.  Open remote desktop sessions with different Windows accounts on the remote computer by using the **Remote Desktop Connection** dialog.
 
@@ -34,7 +34,7 @@ TestArchitect provides you the capability to execute tests with multiple remote 
 
 2.  On each of the remote sessions, start TestArchitect Controller and assign a unique port number to the Controller
 
-    **Restriction:** Although you can start TestArchitect Controller on multiple sessions, you can launch TestArchitect Client on only one session.
+{{<restriction>}} Although you can start TestArchitect Controller on multiple sessions, you can launch TestArchitect Client on only one session.
 
     There are three approaches to port number assignment.
 

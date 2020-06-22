@@ -24,7 +24,7 @@ To map a TestArchitect project to a Quality Center project:
 
     ![](/images/TA_Help/Images/map_TA_project_to_QC_step2.png)
 
-    **Important:**
+{{<important>}}
 
     -   It is recommended that a new TestArchitect project be created to map to the Quality Center project. Once mapped, you can create test modules and import Quality Center tests into the modules.
     -   When creating the Quality Center domain name or project name, please do not use underscores. A connection cannot be achieved if either project name contains underscores.
@@ -33,7 +33,7 @@ To map a TestArchitect project to a Quality Center project:
     To ensure that the syntax of the value written to the **Source** field is correct, right-click on the project's **Tests** node and hover your mouse pointer over **Upload to External Server**. The selection **Upload to Quality Center** should be enabled.
 
 
-**Note:** Be aware that the end result only this process only has the effect of saving the essential connection information for later use, as opposed to attempting a connection. It is only later, when direct communication between projects is attempted, that you will receive confirmation that your connection data is correct.
+{{<note>}} Be aware that the end result only this process only has the effect of saving the essential connection information for later use, as opposed to attempting a connection. It is only later, when direct communication between projects is attempted, that you will receive confirmation that your connection data is correct.
 
 
 

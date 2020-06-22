@@ -10,7 +10,7 @@ keywords: "check row count, user-scripted action, action_CheckRowCount(), Python
 
 In Python code, implement the action that will interface with a target application.Define the function action\_CheckRowCount\(\), which will handle the execution of the check row count action in TestArchitect.
 
-**Important:** In Python, the indentation level of your statements \(that is, the white space at the very left of your statements\) is significant and it must be consistent . Also, the exact amount of indentation is important to the relative indentation of nested blocks \(relative to each other\).
+{{<important>}} In Python, the indentation level of your statements \(that is, the white space at the very left of your statements\) is significant and it must be consistent . Also, the exact amount of indentation is important to the relative indentation of nested blocks \(relative to each other\).
 
 The definition of action\_CheckRowCount\(\) remains to be implemented. Compared to the earlier action\_hello\(\) function, this involves considerably more work. In particular, the code needs to:
 
@@ -54,7 +54,7 @@ The definition of action\_CheckRowCount\(\) remains to be implemented. Compared 
                         
     ```
 
-5.  **Note:** Each control has its own instance \(object\) of the AbtElement class, which can be obtained by using the OpenElement method ofABT .
+5.{{<note>}} Each control has its own instance \(object\) of the AbtElement class, which can be obtained by using the OpenElement method ofABT .
 
     Obtain the instance of the table object for the table specified by the values of windowName and tableName \(derived from the logical TA names of the window and table arguments of the action\):
 
@@ -113,7 +113,7 @@ The definition of action\_CheckRowCount\(\) remains to be implemented. Compared 
                         
     ```
 
-    **Note:** TestArchitect functions always work with strings. Therefore, integer results like count must be converted to strings. This is handled by theformat\(\) function in Python.
+{{<note>}} TestArchitect functions always work with strings. Therefore, integer results like count must be converted to strings. This is handled by theformat\(\) function in Python.
 
 
 Your entire action definition for action\_checkRowCount\(\) should now look similar to this:

@@ -10,9 +10,9 @@ keywords: "Android, command line tool, installing app, command line tool, Androi
 
 The Install command is used to re-sign an Android application, and then to install it.
 
-**Important:** The Android command line tool is only supported on Windows.
+{{<important>}} The Android command line tool is only supported on Windows.
 
-**Note:**
+{{<note>}}
 
 -   The Android command line tool is only applicable when one or more devices are connected to the host PC via USB cable.
 -   It is highly recommended that you do not combine Android commands with the pipe operator \( \| \) to pass the output of one Android command to another for further processing.
@@ -21,7 +21,7 @@ The syntax of the Install command are as follows:
 
 -   Windows: `ast.exe install "Path to APK" [-s "Unique ID of the Target Device"] -f`
 
-**Tip:**
+{{<tip>}}
 
 -   The install "Path to APK" and \[-s "Unique ID of the Target Device"\] parameters can be placed in any order.
 -   The -f flag, if used, must appear at the end of the command.
@@ -49,7 +49,7 @@ Parameters are as follows:.
     -   If an existing AUT has the same certificate as LogiGear, the Install command removes that AUT but keeps its data before installing the new AUT.
     -   If an existing AUT does not have the same certificate as LogiGear, the Install command removes that AUT and clears its data before installing the new AUT.
 
-**Note:**
+{{<note>}}
 
 -   One Install command line is limited to installing only one AUT to one Android device at a time.
 -   The Android command line tool automatically saves a file of the re-signed AUT at the same location with the source .apk file. The new name of the re-signed file has the suffix \_signed appended to the original .apk file name. For example, CarRental\_signed.apk.

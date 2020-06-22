@@ -26,7 +26,7 @@ To disconnect from Remote Desktop, run the following command on the remote compu
 
 where <SessionID\> is the ID of your current Remote Desktop session, for example, 0. You will see the Your remote desktop session has ended message, and the Remote Desktop client will be terminated. But all programs and automated tests on the remote computer will continue to run normally.
 
-**Important:** If this command does not work, because the ID of the remote desktop session to which you want to connect is not correct. Try changing the number 0 \(tscon.exe 0 /dest:console\) to the number 1, and if it still does not work, keep incrementing the session ID until your remote desktop is released.
+{{<important>}} If this command does not work, because the ID of the remote desktop session to which you want to connect is not correct. Try changing the number 0 \(tscon.exe 0 /dest:console\) to the number 1, and if it still does not work, keep incrementing the session ID until your remote desktop is released.
 
 You can also automate the above disconnection step using a batch file or using the [execute command](/TA_Automation/Topics/bia_execute_command.html) built-in action.
 

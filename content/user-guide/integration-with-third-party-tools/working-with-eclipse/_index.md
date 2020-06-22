@@ -10,9 +10,9 @@ keywords: "Eclipse, integration"
 
 Integration between TestArchitect™ and the Eclipse™ enhances testing and the debugging of user-scripted actions in Eclipse.
 
-**Important:** Since TestArchitect version [8.3](/TA_ReleaseNotes/DITA_source/Whats_New_Windows_8.3.html), the TestArchitect Eclipse plug-in works with JDK versions from 1.8.0 to [1.8.0\_91](http://www.oracle.com/technetwork/java/javase/8u91-relnotes-2949462.html).
+{{<important>}} Since TestArchitect version [8.3](/TA_ReleaseNotes/DITA_source/Whats_New_Windows_8.3.html), the TestArchitect Eclipse plug-in works with JDK versions from 1.8.0 to [1.8.0\_91](http://www.oracle.com/technetwork/java/javase/8u91-relnotes-2949462.html).
 
-**Restriction:** Integration between TestArchitect™ and the Eclipse™ has been deprecated since TestArchitect version [8.3 Update 2](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_2.html).
+{{<restriction>}} Integration between TestArchitect™ and the Eclipse™ has been deprecated since TestArchitect version [8.3 Update 2](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_2.html).
 
 1.  [Installing the Eclipse plug-in](/TA_Help/Topics/Integration_install_eclipse_plugin.html)  
 The TestArchitect plug-in can be installed into the Eclipse IDE using the **Help** menu in Eclipse, or the **Tools** menu in TestArchitect.

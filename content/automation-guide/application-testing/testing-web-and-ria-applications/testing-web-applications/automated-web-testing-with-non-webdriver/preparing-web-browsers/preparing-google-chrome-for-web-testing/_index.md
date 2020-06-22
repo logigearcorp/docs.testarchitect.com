@@ -10,7 +10,7 @@ keywords:
 
 How to properly configure Google Chrome for automated web testing with TestArchitect.
 
-**Note:** Ensure that any computers on which automated web testing withGoogle Chromeis to be performed have had the browser configured as described in this section.
+{{<note>}} Ensure that any computers on which automated web testing withGoogle Chromeis to be performed have had the browser configured as described in this section.
 
 1.  [Configuring Google Chrome](/TA_Automation/Topics/aut_setting_switches_GC.html)  
 To ensure that automated web application testing in Google Chrome runs properly with TestArchitect, you first need to set some necessary command line switches.

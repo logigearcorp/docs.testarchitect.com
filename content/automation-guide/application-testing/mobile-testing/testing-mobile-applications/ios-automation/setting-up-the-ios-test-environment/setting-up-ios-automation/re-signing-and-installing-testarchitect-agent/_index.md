@@ -10,7 +10,7 @@ keywords: "iOS, re-sign, instal TestArchitect Agent, TestArchitect, iOS Agent, r
 
 TestArchitect Agent is an essential component in allowing TestArchitect to communicate with iOS devices during automated testing.TestArchitect Agent is installed onto an iOS device in a two-step process involving re-signing of the Agent, followed by its installation.
 
-**Important:** iOS automation is only supported on Windows or macOS hosts.
+{{<important>}} iOS automation is only supported on Windows or macOS hosts.
 
 Ensure that the basic requirements are met before installing TestArchitect Agent onto an iOS device \(see [Prerequisites](/iOS/Topics/iOS_prerequisite.html)\).
 
@@ -45,7 +45,7 @@ The following procedures for re-signing the TestArchitect Agent app can only be 
     -   TestArchitectAgent.ipa
     -   FileInfo
     -   iOSInstrumentationDyLib.dylib
-    **Note:** resign.sh, TestArchitectAgent.ipa, FileInfo and iOSInstrumentationDyLib.dylib files can be found at the following location when TestArchitect is installed: Applications/TestArchitect/device/iOS/resource.
+{{<note>}} resign.sh, TestArchitectAgent.ipa, FileInfo and iOSInstrumentationDyLib.dylib files can be found at the following location when TestArchitect is installed: Applications/TestArchitect/device/iOS/resource.
 
 4.  Start the command line terminal and navigate to the directory to which you copied the files in the preceding step.
 
@@ -57,7 +57,7 @@ The following procedures for re-signing the TestArchitect Agent app can only be 
 
     Syntax: resign.sh <Common Name of private key in Keychain Access\> <file name of the provisional profile\> <file name \(without or with the .ipa suffix\) of the application file to re-sign\>
 
-    **Note:** Providing the file name's extension \(.ipa\) is optional. If not provided, the script assumes an extension of .ipa.
+{{<note>}} Providing the file name's extension \(.ipa\) is optional. If not provided, the script assumes an extension of .ipa.
 
     `./resign.sh "iPhone Developer: John Doe (3M2DBQ46ZG)" iOS_Team_Provisioning_Profile_.mobileprovision TestArchitectAgent`
 
@@ -71,7 +71,7 @@ The following procedures for re-signing the TestArchitect Agent app can only be 
 
         A re-signed TestArchitect Agent is installed onto the device.
 
-    **Tip:** Step [7](/iOS/Topics/iOS_installing_TA_target_device.html#step_tww_zzq_kn) may be performed on either an macOS or Windows machine.
+{{<tip>}} Step [7](/iOS/Topics/iOS_installing_TA_target_device.html#step_tww_zzq_kn) may be performed on either an macOS or Windows machine.
 
 8.  You must synchronize essential TestArchitect Agent development libraries with the iOS device before TestArchitect Agent can be launched on the device.
 
@@ -79,9 +79,9 @@ The following procedures for re-signing the TestArchitect Agent app can only be 
 
     2.  Start Xcode on the test machine and wait at least ten seconds before disconnecting the iOS device or closing Xcode.
 
-        **Note:** If the device is not a development device, [enable development mode](/iOS/Topics/iOS_prerequisite_enable_development_mode.html) on it.
+{{<note>}} If the device is not a development device, [enable development mode](/iOS/Topics/iOS_prerequisite_enable_development_mode.html) on it.
 
-    **Important:** TestArchitect Agent libraries are purged each time the iOS device restarts or reboots. Therefore, in order to run the Agent on a rebooted iOS device, you must resynchronize the TestArchitect Agent development libraries with the device by repeating step [8](/iOS/Topics/iOS_installing_TA_target_device.html#step_bmh_5rd_3n).
+{{<important>}} TestArchitect Agent libraries are purged each time the iOS device restarts or reboots. Therefore, in order to run the Agent on a rebooted iOS device, you must resynchronize the TestArchitect Agent development libraries with the device by repeating step [8](/iOS/Topics/iOS_installing_TA_target_device.html#step_bmh_5rd_3n).
 
 
 After installing a re-signed TestArchitect Agent onto an iOS device, the TestArchitect Agent icon is visible on the device's desktop.

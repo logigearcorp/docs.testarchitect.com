@@ -26,7 +26,7 @@ To export a given baseline image, do the following:
 
 3.  In the Save As dialog box, select a new file name and/or a new location, or leave them as default.
 
-    **Note:** Only .PNG format is supported.
+{{<note>}} Only .PNG format is supported.
 
     ![](/images/TA_Help/Images/export_picture_check_save_as_dlg.png)
 

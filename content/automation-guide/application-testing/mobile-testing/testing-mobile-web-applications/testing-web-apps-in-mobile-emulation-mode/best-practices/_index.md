@@ -27,7 +27,7 @@ You can certainly add JSON strings to define mobile device profiles in the [send
 
 In the action implementation, add as many mobile device profiles as you need.
 
-**Tip:**
+{{<tip>}}
 
 -   You can find a list of necessary predefined parameters of iPhone, iPad, Google Nexus, Samsung, and other devices [here](https://chromium.googlesource.com/chromium/blink/+/master/Source/devtools/front_end/emulated_devices/module.json).
 -   Refer to [Launching mobile browser emulator](/TA_Automation/Topics/aut_app_testing_responsive_web_Chrome_DevTools_creating_profiles.html) to see how to define mobile device profiles.

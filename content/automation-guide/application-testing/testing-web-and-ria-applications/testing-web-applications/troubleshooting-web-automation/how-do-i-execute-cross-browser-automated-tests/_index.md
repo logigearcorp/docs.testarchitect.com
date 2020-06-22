@@ -10,7 +10,7 @@ keywords: "FAQ, cross-browser testing, variations"
 
 **A**: TestArchitect provides a [Variations](/TA_Help/Topics/Variations.html) feature that makes creating cross-browser tests easier. Additionally, the [Scrum Board](/TA_Tutorials_Sample_App/Topics/SR_Scrum_Board_def.html) sample project is provided when you install TestArchitect to help you understand how to use [Variations](/TA_Help/Topics/Variations.html) in creating cross-browser tests.
 
-**Note:** Supported browsers are Internet Explorer, Mozilla Firefox and Google Chrome.
+{{<note>}} Supported browsers are Internet Explorer, Mozilla Firefox and Google Chrome.
 
 To perform cross-browser web-based tests, complete the following steps.
 

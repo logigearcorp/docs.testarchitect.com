@@ -12,7 +12,7 @@ Static and dynamic test suites, test suite folders, and modules within the same 
 
 There are two basic techniques by which test suites, folders, and modules can be moved around the TestArchitect explorer tree: drag-and-drop, and Cut, Copy, and Paste. One stipulation is that the items can only be moved or copied within the same project.
 
-**Important:**
+{{<important>}}
 
 -   Only dynamic \(not static\) test suites and test suite folders can be cut and copied between projects; furthermore, the projects must be within the same repository.
 -   Dragging of test folders to test suites across different projects is not permitted. Dragging of test folders into dynamic test suites is also not permitted.

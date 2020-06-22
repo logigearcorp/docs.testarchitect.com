@@ -22,7 +22,7 @@ For purposes of this topic, we only consider TestArchitect actions that relate t
 
         -   **existence checks**: These actions test for the existence, or nonexistence, of a specific element of the AUT's user interface. Examples include: check window exists, check control not exists, check menu item exists. \(In general, this group includes all actions of the form check...exists.\)
         -   **value/state checks**: Another set of check actions works by sampling some value or state of an element of the UI, and comparing it against an expected value or state. A match results in a pass, non-match in a fail. Some examples: check list cell value, check tab order, check toolbar button state.
-        **Note:** The above two subgroups do not quite account for all check... actions. There are also a handful \(check file exists, check text contains, etc.\) which do not directly test or interact with the AUT. These actions do not make use of any timing settings, so we will not concern ourselves with them in this discussion.
+{{<note>}} The above two subgroups do not quite account for all check... actions. There are also a handful \(check file exists, check text contains, etc.\) which do not directly test or interact with the AUT. These actions do not make use of any timing settings, so we will not concern ourselves with them in this discussion.
 
     -   those that return a 1\(true\)/0\(false\) value to a specified variable \(does…exist2 and is… actions\)
     -   those in which the resulting Boolean outcome determines control flow of the test \(if…exists2 actions\)
@@ -39,7 +39,7 @@ For purposes of this topic, we only consider TestArchitect actions that relate t
         actions that retrieve values from the UI \(e.g., get, get table cell value\)
 
 
-**Note:**
+{{<note>}}
 
 1One exception to this rule is get clipboard, which does not interact with the AUT, but does use a timing setting.
 

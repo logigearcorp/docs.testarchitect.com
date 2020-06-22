@@ -14,7 +14,7 @@ In the figure below, the license server on the left acts as an Universal license
 
 ![](/images/TA_Administration/Images/licenseserver_4-1.png)
 
-**Important:** A TestArchitect Controller can operate with any licenses, but TestArchitect Client cannot operate with only an Agent licenses.
+{{<important>}} A TestArchitect Controller can operate with any licenses, but TestArchitect Client cannot operate with only an Agent licenses.
 
 Of course, in an organization with a limited number of client, it is always preferable to assign Agent licenses to dedicated TestArchitect controllers, reserving the client licenses for client machines.
 

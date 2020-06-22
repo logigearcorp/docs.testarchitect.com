@@ -31,7 +31,7 @@ To set a new value for a built-in setting from TestArchitect Client, carry out t
     -   **Type**: \(Required\) Type of setting. Select the **Built-in** option.
     -   **Name**: \(Required\) Name of the setting.
 
-        **Note:** As you start typing a setting's name into the **Name** box, Content Assist pops up an autocomplete list displaying valid built-in settings. If you continue typing, the list is continuously filtered down to those built-in settings that contain the entered sequence of characters.
+{{<note>}} As you start typing a setting's name into the **Name** box, Content Assist pops up an autocomplete list displaying valid built-in settings. If you continue typing, the list is continuously filtered down to those built-in settings that contain the entered sequence of characters.
 
         ![](/images/TA_Automation/Images/Add_a_setting_dlg_autocomplete.png)
 
@@ -50,7 +50,7 @@ To set a new value for a built-in setting from TestArchitect Client, carry out t
 
 The new value for the built-in setting takes effect when you click the **Execute** button, overriding the setting's default value at the start of the test run. When the test run ends, built-in settings and their startup values are displayed in the [test result](/TA_Help/Topics/Test_result_details.html#note_vdn_psq_jt).
 
-**Note:** Built-in setting values are persistent across test modules within a test run. That is, the value of a built-in setting upon entry into a test module will be whatever its value was upon exit of the preceding test module in the run. Neither startup setting values nor system default values are restored between test modules. Hence, be aware of the fact that, when you execute test suites or serial test runs, the value of a given built-in setting at the entry point of a test module may depend upon that test module's placement in the execution order.
+{{<note>}} Built-in setting values are persistent across test modules within a test run. That is, the value of a built-in setting upon entry into a test module will be whatever its value was upon exit of the preceding test module in the run. Neither startup setting values nor system default values are restored between test modules. Hence, be aware of the fact that, when you execute test suites or serial test runs, the value of a given built-in setting at the entry point of a test module may depend upon that test module's placement in the execution order.
 
 If you choose to generate a batch file \([learn more](/TA_Help/Topics/Test_exec_cmd_creating_batch_file.html)\), the parameter [/ss](/TA_Help/Topics/Test_exec_cmd.html#plentry.startupsettinga_parameter) specifies the defined settings and their values. Multiple settings are separated with semi-colons.
 

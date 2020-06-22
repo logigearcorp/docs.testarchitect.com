@@ -18,7 +18,7 @@ To change the controller's port number:
 
 2.  Ensure that TestArchitect is not executing any test. Terminate any running test or wait for the running test to finish.
 
-    **Note:** The controller is in an idle state when TestArchitect is not running any test.
+{{<note>}} The controller is in an idle state when TestArchitect is not running any test.
 
 3.  Open the TestArchitect Controller dialog box:
 

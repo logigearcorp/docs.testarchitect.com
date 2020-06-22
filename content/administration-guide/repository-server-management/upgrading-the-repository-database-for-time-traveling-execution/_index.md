@@ -30,7 +30,7 @@ The database upgrade process can be initiated by doing the following:
     -   The **Ready** text in the **Status** column indicates that a given repository is ready to be upgraded.
     -   The **Warning...** text in the **Status** column indicates that the given repository is a supplier repository to subscribers that have not yet been upgraded \([learn more](/TA_Help/Topics/Project_subscription.html)\). In order for a supplier repository to be upgraded, all its subscriber repositories must first be time travel-ready.
 
-        **Tip:** To see the full list of subscriber repositories, click the **Warning...** text.
+{{<tip>}} To see the full list of subscriber repositories, click the **Warning...** text.
 
     -   The **Subscriber List** column allows you to modify the list of subscriber repositories to be upgraded. Clicking the **Edit...** text invokes the Subscriber List dialog box. Specify your own list in this dialog box, then click **OK**.
 
@@ -38,7 +38,7 @@ The database upgrade process can be initiated by doing the following:
 
 4.  In the Upgrade Repositories for Time Traveling dialog box, click **OK**.
 
-    **Note:**
+{{<note>}}
 
     -   While the repositories are being upgraded, they can not be connected to. If you attempt a connection, you'll receive the warning message The repository <repository name\> is being upgraded. Please try again later.
     -   While a primary repository is upgrading in a replication network, any attempt to connect to a secondary repository results in the warning message The repository <repository name\> is being upgraded. During this process, neither it nor any of its replication repositories may be used. Please try again later.

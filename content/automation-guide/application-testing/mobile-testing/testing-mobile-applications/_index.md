@@ -10,11 +10,11 @@ keywords: "mobile automation"
 
 TestArchitect supports the Android and iOS operating systems, allowing you automate testing of applications designed for these mobile devices.
 
-CAUTION:
+{{<caution>}}
 
 For power-saving purposes, computers are often configured to go into a non-active state \(such as sleep\) after a certain period of inactivity. By default, the processes associated with automated testing are typically not treated as “activities”, in this sense. Hence, for long execution runs, especially unattended ones, it is important that any machines serving as test controllers be configured not to lapse into any non-active mode during the test period. \(Typically, your computer's power policy is configured through its Control Panel, System Preferences, or command line, depending on the platform. For details, see your system administrator or information specific to the machine's operating system.\)
 
-**Important:** By default, TestArchitect Register Server, which is installed with TestArchitect, automatically starts up as a service \(daemon\) each time you boot your computer. This service is often essential for automated testing, and should generally be available. [Ensure the availability of the TestArchitect Register Server service](/TA_Administration/Topics/adm_taregserver.html) before running your automated tests.
+{{<important>}} By default, TestArchitect Register Server, which is installed with TestArchitect, automatically starts up as a service \(daemon\) each time you boot your computer. This service is often essential for automated testing, and should generally be available. [Ensure the availability of the TestArchitect Register Server service](/TA_Administration/Topics/adm_taregserver.html) before running your automated tests.
 
 ## Executing automated mobile tests
 

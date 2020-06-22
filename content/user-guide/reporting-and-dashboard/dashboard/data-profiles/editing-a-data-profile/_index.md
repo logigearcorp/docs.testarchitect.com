@@ -22,7 +22,7 @@ To edit a data profile on the Dashboard page:
 
     ![](/images/TA_Help/Images/Dashboard__edit_data_profile_table.png)
 
-    **Tip:** Only the data profiles in which the logged-in user has [permission](/TA_Help/Topics/Dashboard_authentication_permissions.html) to edit have the **Edit** links enabled.
+{{<tip>}} Only the data profiles in which the logged-in user has [permission](/TA_Help/Topics/Dashboard_authentication_permissions.html) to edit have the **Edit** links enabled.
 
     The **General Settings** page appears for you to begin editing the properties of the data profile.
 

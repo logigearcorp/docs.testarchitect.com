@@ -18,7 +18,7 @@ Use the Interface Viewer to create mappings for user interface elements.
 
     ![](/images/TA_Tutorials/Images/app.Car_Rental.Login.unmodified.png)
 
-2.  **Important:** This window is the target of the interface entity you created in the last exercise. Recall that you created an interface element mapped to a **User name** control. To avoid any confusion, note that there are two controls on this window that relate to User name. One is of TA class label, and has its caption property set to User name. You have not mapped this control, so your interface entity knows nothing of its existence. To the right of this control is a **textbox** control, with a label property set to User name. This is the control you have mapped to:
+2.{{<important>}} This window is the target of the interface entity you created in the last exercise. Recall that you created an interface element mapped to a **User name** control. To avoid any confusion, note that there are two controls on this window that relate to User name. One is of TA class label, and has its caption property set to User name. You have not mapped this control, so your interface entity knows nothing of its existence. To the right of this control is a **textbox** control, with a label property set to User name. This is the control you have mapped to:
 
 ![](/images/TA_Tutorials/Images/tut.Car_Rental.Login.User_name_controls.png)
 
@@ -34,11 +34,11 @@ Use the Interface Viewer to create mappings for user interface elements.
 
     If the node for the Car Rental-Login window does not include the text MY LOGIN, it is not mapped to your interface entity, and the reason is most likely that you did not have the my login interface entity open in the editor when you launched the Interface Viewer.
 
-    **Note:** Note the two green check marks ![](/images/TA_Tutorials/Images/icn.Interface_Viewer.Green_check_mark.png) in the UI Explorer. These indicate successful mappings between
+{{<note>}} Note the two green check marks ![](/images/TA_Tutorials/Images/icn.Interface_Viewer.Green_check_mark.png) in the UI Explorer. These indicate successful mappings between
 
     -   the open interface entity, MY LOGIN, and its matching window, Car Rental-Login
     -   the interface element for TA name **MY USER NAME** and the control with label = User name \(as indicated in the Properties panel\).
-    **Note:** TA names are case *insensitive*, and are always displayed in upper case in the Interface Viewer's **UI explorer Tree**.
+{{<note>}} TA names are case *insensitive*, and are always displayed in upper case in the Interface Viewer's **UI explorer Tree**.
 
 5.  So far the only control that your interface definition enables you to work with is the **User name** control, due to the mapping you created manually. Now you will use the Interface Viewer to create another interface element definition.
 6.  Expand the node for the class password text by clicking the ![](/images/TA_Tutorials/Images/icn.Interface_Viewer.Expansion_indicator.png) icon next to it.
@@ -53,7 +53,7 @@ Use the Interface Viewer to create mappings for user interface elements.
 
     ![](/images/TA_Tutorials/Images/tut.Interface_Defs.Int_Ent.Password_node02.png)
 
-8.  **Note:** This new mapping can be saved to the existing interface entity. Before saving, rename the mapping with your own TA name:
+8.{{<note>}} This new mapping can be saved to the existing interface entity. Before saving, rename the mapping with your own TA name:
 
     1.  Right-click the **Password** subnode and select **Rename**.
 
@@ -71,11 +71,11 @@ Use the Interface Viewer to create mappings for user interface elements.
 
     ![](/images/TA_Tutorials/Images/tut.Interface_Defs.IntEnt02.png)
 
-    **Note:** During a test run, when TestArchitect reads this line, it will interpret it as
+{{<note>}} During a test run, when TestArchitect reads this line, it will interpret it as
 
     “Within the window whose TA name is **my login**, assign the TA name **my password** to the control which is of class password text and has the properties label and role set to Password and password text, respectively.”
 
-    **Note:** In case you're wondering, yes, this is overkill. In fact, because there is only one control of class password text in the entire window, both of the two property-value pairs at the end of the definition could be removed. If so, TestArchitect would still be able to uniquely identify the control.
+{{<note>}} In case you're wondering, yes, this is overkill. In fact, because there is only one control of class password text in the entire window, both of the two property-value pairs at the end of the definition could be removed. If so, TestArchitect would still be able to uniquely identify the control.
 
 
 Next, you will put your interface definitions to use in a test.

@@ -14,7 +14,7 @@ Due to the manner in which the Chrome browser engine processes JavaScript code, 
 
 TestArchitect handles JavaScript popups in Chrome Android by overriding the function calls with its own set of inserted JavaScript.
 
-**Tip:** This is evidenced by the fact that, when running under TestArchitect, JavaScript popups on a properly configured Android device are not displayed on screen. \(But don't take this to mean that such popups do not have to be properly dealt with by your test!\)
+{{<tip>}} This is evidenced by the fact that, when running under TestArchitect, JavaScript popups on a properly configured Android device are not displayed on screen. \(But don't take this to mean that such popups do not have to be properly dealt with by your test!\)
 
 The following TestArchitect built-in actions are provided to both scan and handle Chrome Android JavaScript popups:
 

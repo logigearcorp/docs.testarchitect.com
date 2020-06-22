@@ -10,7 +10,7 @@ keywords: "mobile web testing, built-in browser, Android emulators, built-in bro
 
 TestArchitect automated tests may be created and run on web applications running within the built-in browser in Android emulators.
 
-**Remember:** Ensure that the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html) is closed prior to running automated tests.
+{{<remember>}} Ensure that the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html) is closed prior to running automated tests.
 
 ## Supported Android emulators
 

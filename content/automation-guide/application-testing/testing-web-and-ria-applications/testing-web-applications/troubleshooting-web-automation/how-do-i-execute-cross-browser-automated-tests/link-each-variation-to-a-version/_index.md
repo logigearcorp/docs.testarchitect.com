@@ -37,7 +37,7 @@ The variations for Internet Explorer, Chrome, and Firefox now appear as nodes in
 
 ![](/images/TA_Automation/Images/web_automation_linked_variations.png)
 
-**Important:** You must modify the user-defined action or interface entity of the respective variations to have TestArchitect execute web automated tests using the respective browsers. For example:
+{{<important>}} You must modify the user-defined action or interface entity of the respective variations to have TestArchitect execute web automated tests using the respective browsers. For example:
 
 ![](/images/TA_Automation/Images/web_automation_linked_variations_details.png)
 

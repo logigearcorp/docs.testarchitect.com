@@ -69,7 +69,7 @@ As before, we can use the **div** element with `id="national_section"` as an anc
 
 **Warning:** The last example included a warning that we are assuming that the only link \(<a\>\) elements in the articles are those that contain the headlines. That assumption still holds for this example. It is addressed in a [later example](/TA_Help/Topics/prop_anchor.example_03.html).
 
-1.  **Note:** If you already saved the HTML code from the previous example, you can skip the following substeps. \(But remember to open the web page in a browser.\)
+1.{{<note>}} If you already saved the HTML code from the previous example, you can skip the following substeps. \(But remember to open the web page in a browser.\)
 
     If you wish to follow along with the steps in this example:
 
@@ -81,9 +81,9 @@ As before, we can use the **div** element with `id="national_section"` as an anc
 
     4.  Open the saved file in a web browser.
 
-        **Remember:** During this exercise, ensure that the web page for this file is maintained as the active tab in its browser window.
+{{<remember>}} During this exercise, ensure that the web page for this file is maintained as the active tab in its browser window.
 
-2.  **Note:** You can skip this step if you already created the front\_page interface entity from the previous example, as we will continue to work with it. Note that, if you do not yet have it, in this case it only requires a single interface element, that for the anchor.
+2.{{<note>}} You can skip this step if you already created the front\_page interface entity from the previous example, as we will continue to work with it. Note that, if you do not yet have it, in this case it only requires a single interface element, that for the anchor.
 
     In a TestArchitect project, create a [new interface entity](/TA_Help/Topics/Interface_def_Adding.html), name it front\_page, and enter the following two mappings:
 

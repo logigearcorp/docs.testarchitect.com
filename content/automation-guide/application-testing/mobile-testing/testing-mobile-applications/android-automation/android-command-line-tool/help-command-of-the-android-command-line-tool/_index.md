@@ -10,9 +10,9 @@ keywords: "Android, command line tool, help instruction, command line tool, Andr
 
 The Help command, used from a Windows command prompt or a Linux terminal, can be used to retrieve descriptive information on the functionality and options of the Android command line tool.
 
-**Important:** The Android command line tool is only supported on Windows.
+{{<important>}} The Android command line tool is only supported on Windows.
 
-**Note:**
+{{<note>}}
 
 -   The Android command line tool is only applicable when one or more devices are connected to the host PC via USB cable.
 

@@ -10,7 +10,7 @@ keywords: "methods of abt, AbtBaselinePicture, AbtBaselinePicture (methods)"
 
 Object class representing a baseline image of a given picture check.
 
-**Note:** This class and its associated methods are currently supported only by the C\# harness.
+{{<note>}} This class and its associated methods are currently supported only by the C\# harness.
 
 ## Workflow Implementation
 

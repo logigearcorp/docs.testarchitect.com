@@ -57,7 +57,7 @@ login {French}
 
 It was mentioned that the comma in a keyword signature is really an `AND` operator. Hence, to take the first variation in the list, its signature essentially says, "I am the login variation for the UK English version of the Home edition of the AUT".
 
-**Tip:** Although [executing with variations is discussed elsewhere](/TA_Help/Topics/Variations_rules_executing_2.html), it's worth noting at this point that the login \{French\} variation works for both of the following cases:
+{{<tip>}} Although [executing with variations is discussed elsewhere](/TA_Help/Topics/Variations_rules_executing_2.html), it's worth noting at this point that the login \{French\} variation works for both of the following cases:
 
 -   *When there is only a single French edition of the application.* In this case, you would test it by launching a test run with the keyword French specified.
 -   *When the French version comes in both Home and Professional editions, but where the login interface definition is the same for both editions.* In this case, you would specify two keywords to launch the test – for example, French and Home. \(Keep in mind that, while the login interface entity may be the same for both editions, other French version project items may have separate variations, necessitating inclusion of the Home keyword at run time.\) When running a test with multiple keywords, if TestArchitect cannot find a variation of some project item that exactly matches the keyword run set, it settles for the variation whose keyword signature is the largest subset of the keyword run set. In this case, that would be login \{French\}.

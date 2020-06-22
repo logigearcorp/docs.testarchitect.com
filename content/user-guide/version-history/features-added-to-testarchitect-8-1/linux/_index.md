@@ -10,7 +10,7 @@ keywords: "Release Notes 8.1, Linux, What is new, Linux, TestArchitect 8.1, Test
 
 The following new features and improvements are introduced in TestArchitect version 8.1 running under Linux.
 
-**Remember:**
+{{<remember>}}
 
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.

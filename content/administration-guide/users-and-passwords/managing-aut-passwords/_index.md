@@ -14,9 +14,9 @@ Typically, the built-in [enter](/TA_Automation/Topics/bia_enter.html) action is 
 
 Password encryption is implemented in such a way that only authorized users \(for example, [administrators](/TA_Administration/Topics/User_administration.html) or [test managers](/TA_Administration/Topics/User_administration.html)\) can read, modify, and manage passwords. Passwords are managed using the Manage Passwords dialog box.
 
-**Tip:** You can copy data from an external application, such as Microsoft Excel™ or Notepad, and then paste the copied data into the Mange Passwords dialog box, or vice-versa.
+{{<tip>}} You can copy data from an external application, such as Microsoft Excel™ or Notepad, and then paste the copied data into the Mange Passwords dialog box, or vice-versa.
 
-**Note:**
+{{<note>}}
 
 -   The Manage Passwords dialog box is available from the context menu of a project when it is right-clicked \(select **Manage Passwords**\).
 -   Password encryption can only be used in combination with the [enter](/TA_Automation/Topics/bia_enter.html) built-in action.

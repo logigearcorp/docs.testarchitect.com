@@ -36,7 +36,7 @@ The [test case](/TA_Automation/Topics/bia_test_case.html) header line has two ar
 
 Newly-created test cases are not immediately visible in the TestArchitect explorer tree, and are similarly not visible to all users. They only appear on the tree, for you and for all users of the repository, when you [check in](/TA_Help/Topics/Project_items_checkin.html) the test module.
 
-**Important:**
+{{<important>}}
 
 When you check in a test module, if the limit number of created tests cases is exceeded under your specific TestArchitect license, you will receive the following message:
 
@@ -63,9 +63,9 @@ In all the above cases, the Delete Test Case dialog box appears, offering you tw
 
 ![](/images/TA_Help/Images/ug62.png)
 
-**Note:** When you merge a test case into the preceding one \(by not electing to delete its lines\), test objectives that were associated with the deleted test case are applied to the preceding one once the test module is checked in.
+{{<note>}} When you merge a test case into the preceding one \(by not electing to delete its lines\), test objectives that were associated with the deleted test case are applied to the preceding one once the test module is checked in.
 
-**Note:** If the test case is not a subordinate node in TestArchitect explorer tree \(not checked in yet\), you can delete it as a normal action line in the editor worksheet.
+{{<note>}} If the test case is not a subordinate node in TestArchitect explorer tree \(not checked in yet\), you can delete it as a normal action line in the editor worksheet.
 
 A test case may be modified in one of two ways. Under either option, you must have the parent test module checked out.
 
@@ -78,7 +78,7 @@ To change any field values of a test case, open it in TestArchitect explorer tre
 
 An alternative way to modify a test case is to right-click the cell containing the test case and select **Test case** \> **Edit Test Case** \(or type F2\) in the context menu. The **Information** tab is presented.
 
-**Note:** If a test case is not checked in to become a subordinate node in TestArchitect explorer tree, **Edit Test Case** in the context menu is not visible. In order to edit the test case, you can edit it directly in the grid cell containing TC ID in the editor.
+{{<note>}} If a test case is not checked in to become a subordinate node in TestArchitect explorer tree, **Edit Test Case** in the context menu is not visible. In order to edit the test case, you can edit it directly in the grid cell containing TC ID in the editor.
 
 1.  [Test steps](/TA_Help/Topics/Projects_and_tests_steps.html)  
 Test steps break up a test case into multiple smaller sections, which can be maintained in an easier manner.

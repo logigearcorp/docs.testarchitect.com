@@ -16,7 +16,7 @@ That works out great if you don't need your test to interact with any child elem
 
 This locking of container controls, and the option of unlocking them, applies both to the offline interface definition process \(that is, during intakes performed by the Interface Viewer\), as well as during the test process.
 
-**Important:** TestArchitect supports unlocking container classes for the following applications:
+{{<important>}} TestArchitect supports unlocking container classes for the following applications:
 
 -   Windows Presentation Foundation \(WPF\)
 -   Win32
@@ -24,7 +24,7 @@ This locking of container controls, and the option of unlocking them, applies bo
 -   Windows Forms \(WinForms\)
 -   SAP
 
-**Remember:** Container class unlocking is a relatively new feature of TestArchitect. It is not supported in pre-[7.2](/TA_ReleaseNotes/DITA_source/Whats_New_7.2.html) versions.
+{{<remember>}} Container class unlocking is a relatively new feature of TestArchitect. It is not supported in pre-[7.2](/TA_ReleaseNotes/DITA_source/Whats_New_7.2.html) versions.
 
 1.  [Unlocking container classes](/TA_Help/Topics/Interface_def_container_class_unlock.html)  
 To capture child UI elements of a container class, that container class must first be unlocked.

@@ -10,7 +10,7 @@ keywords: "licenses, conversion"
 
 With floating licenses, TestArchitect Client licenses can be shared by multiple users within the same organization on a non-concurrent basis.Any floating license can be reconfigured to act as a host-based license, thereby restricting the availability of that license to one specific machine. This process is reversible: any host-based license can be converted back to a floating license. However, note that, the node-locked license is locked onto one machine and cannot be converted to another type.
 
-**Remember:** An Agent license remains an Agent license whether it is converted from floating tohost-based, or vice versa. The same is true for Universal.
+{{<remember>}} An Agent license remains an Agent license whether it is converted from floating tohost-based, or vice versa. The same is true for Universal.
 
 1.  [Acquiring a temporary Universal license](/TA_Administration/Topics/LS_TA_acquiring_temporary_enterprise_license.html)  
 Within a working session, you can obtain a temporary Universal license to enable all features available in TestArchitect.

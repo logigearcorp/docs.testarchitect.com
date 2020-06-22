@@ -26,11 +26,11 @@ To create matching user-defined fields in TestArchitect and Quality Center:
     -   **Apply To**: Only **Test case**, **Test module**, and **Result** are mappable to Quality Center user fields. See [TestArchitect and Quality Center Entities table](/TA_Help/Topics/Integration_QC_creating_custom_field_rules.html#tbl_e83j_3k48) for details.
     -   **Value Type**: Data types must match between TestArchitect and Quality Center. See [TestArchitect and Quality Center Data Types table](/TA_Help/Topics/Integration_QC_creating_custom_field_rules.html#tbl_d38u_d78h) for details.
     -   **Default Value**: Assign a default value to a user-defined field. Note that it is essential that this field be defined when mapping to a required field \(see **Required** check box in step [2.d](/TA_Help/Topics/Integration_QC_creating_mapping_custom_field.html#step_jf38_d83u) in Quality Center\).
-    **Important:** For a TestArchitect field that is mapped to a Quality Center field marked as **Required**, it is essential that a value must be provided in the **Default Value** field.
+{{<important>}} For a TestArchitect field that is mapped to a Quality Center field marked as **Required**, it is essential that a value must be provided in the **Default Value** field.
 
 2.  Create a user-defined field in Quality Center that matches a user-defined field in TestArchitect:
 
-    **Note:** Please note that the following instructions on creating a custom field in HP Quality Center are provided for your convenience, and are not guaranteed to address changes that may occur with new updates to the application. If in doubt about any of the steps, please consult the Help documentation provided with Quality Center.
+{{<note>}} Please note that the following instructions on creating a custom field in HP Quality Center are provided for your convenience, and are not guaranteed to address changes that may occur with new updates to the application. If in doubt about any of the steps, please consult the Help documentation provided with Quality Center.
 
     1.  If using Quality Center 11, select **Customize** from the **Tools**menu; or, in Quality Center 12, select **Customize** from the **Settings** ![](/images/TA_Help/Images/icn.QC_settings.png) icon:
 

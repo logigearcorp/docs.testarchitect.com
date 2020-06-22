@@ -10,18 +10,18 @@ keywords: "user administration, assigning permissions, a specific project"
 
 Choose the means by which users of a given repository are to be authenticated when logging in.
 
-**Note:** Setting up LDAP authentication for a repository requires the successful deployment of an LDAP-based directory server, and proper configuration of both the repository and its user accounts. For full details, see [LDAP overview](/TA_Help/Topics/ug_LDAP_overview.html).
+{{<note>}} Setting up LDAP authentication for a repository requires the successful deployment of an LDAP-based directory server, and proper configuration of both the repository and its user accounts. For full details, see [LDAP overview](/TA_Help/Topics/ug_LDAP_overview.html).
 
 There are two means by which TestArchitect users may log in to a repository. In both cases, users are required to have explicit accounts \(user names\) residing in the repository.
 
 -   TestArchitect Authentication mode: Users log in with their repository user names and passwords. Authentication is performed directly by TestArchitect.
 -   LDAP Authentication mode: Requires the availability of an LDAP-based directory service. Users are authenticated with their system \(e.g., Windows\) logins, thus eliminating the need for a separate login for TestArchitect. \(This is known as single sign-on.\)
 
-**Important:** Only one authentication mode may be in effect for a repository at any given time. The chosen mode, established by an administrator of the repository, applies to all users of the repository.
+{{<important>}} Only one authentication mode may be in effect for a repository at any given time. The chosen mode, established by an administrator of the repository, applies to all users of the repository.
 
 1.  Log in to a repository with an account belonging to the TestArchitect [administrator](/TA_Administration/Topics/User_administration.html) group.
 
-    **Important:** Only TestArchitect users belonging to the administrator group have the right to modify the repository's authentication mode.
+{{<important>}} Only TestArchitect users belonging to the administrator group have the right to modify the repository's authentication mode.
 
 2.  Invoke the [Manage Users](/reuse/../TA_Administration/Topics/adm_users_invoking_Manage_Users.html) Manager Users dialog box for a given repository. \(You can do this by right-clicking the **Administration** node and then selecting **Manage Users**.\)
 

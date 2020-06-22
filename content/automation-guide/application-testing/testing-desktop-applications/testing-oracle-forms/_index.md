@@ -12,7 +12,7 @@ You can use TestArchitect to test Oracle Forms applets embedded into a web page.
 
 This section contains information specific to testing Oracle Forms.
 
-**Note:** Applies to TestArchitect [8.3 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.html) and higher.
+{{<note>}} Applies to TestArchitect [8.3 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.html) and higher.
 
 1.  [Testing Oracle Forms - Overview](/TA_Automation/Topics/aut_app_testing_Oracle_Forms_overview.html)  
 In TestArchitect, you can create and run tests for Oracle Forms. TestArchitect recognizes Oracle Forms running in a Java EE container inside a web page.

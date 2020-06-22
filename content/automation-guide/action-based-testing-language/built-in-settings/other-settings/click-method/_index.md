@@ -14,7 +14,7 @@ Specifies which type of [sendInput\(\)](https://msdn.microsoft.com/en-us/library
 
 ## Allowable values
 
-**Note:**
+{{<note>}}
 
 Technically, in TestArchitect, when a mouse click is specified by an action or method, the following three events are triggered in sequence:
 

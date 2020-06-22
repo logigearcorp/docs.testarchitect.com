@@ -31,7 +31,7 @@ You can open one or more favorite items in several ways.
         -   Control + left-click to select multiple noncontiguous favorite items.
     3.  Right-click the selection, and then click **Open** from the context menu.
 
-        **Tip:** You can also click the **Open** button.
+{{<tip>}} You can also click the **Open** button.
 
 
 The selected favorite items are opened as new tabs.

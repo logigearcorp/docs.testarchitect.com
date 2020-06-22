@@ -10,11 +10,11 @@ keywords: "mobile web testing, Safari, iOS Simulator, Safari testing, iOS Simula
 
 TestArchitect allows you to create and run automated tests of web applications in Safari on a simulated iOS device.
 
-**Remember:** Ensure that the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html) is closed prior to running automated tests.
+{{<remember>}} Ensure that the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html) is closed prior to running automated tests.
 
 Apple's Simulator allows you to rapidly prototype and test builds of your app during the development process. Installed as part of the Xcode tools, Simulator runs on your Mac and behaves like a standard Mac app while simulating an iPhone, iPad, Apple Watch, or Apple TV environment. \([Learn more](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/iOS_Simulator_Guide/Introduction/Introduction.html).\)
 
-**Note:** At present, TestArchitect only supports automation on Simulator for iOS, not watchOS or tvOS.
+{{<note>}} At present, TestArchitect only supports automation on Simulator for iOS, not watchOS or tvOS.
 
 ## Supported iOS versions
 

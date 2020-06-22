@@ -16,7 +16,7 @@ To edit a repository user's profile, do the following:
 
 2.  From the Users panel, select a user account which is to have its information modified.
 
-    **Restriction:** You are not allowed to modify the administrator user name's data, since it is a super administrator and a built-in account in TestArchitect.
+{{<restriction>}} You are not allowed to modify the administrator user name's data, since it is a super administrator and a built-in account in TestArchitect.
 
 3.  Select the **Profile** tab.
 
@@ -24,7 +24,7 @@ To edit a repository user's profile, do the following:
 
     -   LDAP User Name: \(Optional\) Specify an existing LDAP user name to map to this TestArchitect user name. This field is essential only if the repository is configured to employ LDAP authentication for user logins.
 
-        **Note:**
+{{<note>}}
 
         -   If the repository is already configured for [LDAP authentication](/TA_Help/Topics/ug_LDAP_connection.html), the domain name is auto-filled in.
         -   Within a repository, only one TestArchitect user name may be mapped to a given LDAP user name. \(Note, however, that this does not restrict you from concurrently allowing a different TestArchitect user name of a different repository to be mapped to the same LDAP user name.\)

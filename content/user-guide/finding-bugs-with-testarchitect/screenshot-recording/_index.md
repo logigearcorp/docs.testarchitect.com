@@ -12,7 +12,7 @@ Debugging blindly can be tedious work, especially when your test tool does most 
 
 Suppose you executed a long automated test that contains a good deal of interaction with the interface of the application under test, such as mouse clicks, keyboard input, menu item selection, etc. When viewing the generated test result, it may be difficult to understand why some fails, errors or warnings have occurred. It might be easier to identify the problem if the test result were accompanied by snapshots of the screen's display just before, during and after any interactivity between the test and the AUT's UI. This is the function of TestArchitect's screenshot recording: it captures screenshots during test automation attendant with each [UI-interactive action](/TA_Automation/Topics/timing_classifying_actions.html). These screenshots help you better visualize what took place and more easily debug many of the problems that occurred.
 
-**Note:**
+{{<note>}}
 
 -   TestArchitect captures images only for those actions that correspond to UI-interactive actions. Other actions are not accompanied by screenshots.
 -   The mouse pointer is not captured in the screenshots. \(However, for UI-interactive actions that apply an actual stimulus to the GUI, that point of stimulus, such as a mouse click, is highlighted. \)
@@ -21,7 +21,7 @@ Suppose you executed a long automated test that contains a good deal of interact
 
 With screenshot recording enabled, TestArchitect captures screenshots during test execution. It effectively snaps pictures for each UI-interactive action and posts all or some of them to the local test result.
 
-**Important:** Due to the potentially huge size of a full set of captured screenshots, TestArchitect handles the captured images in the following manner:
+{{<important>}} Due to the potentially huge size of a full set of captured screenshots, TestArchitect handles the captured images in the following manner:
 
 -   First, you have the option to limit the number of images retained upon conclusion of a test run. You configure these settings at the start of execution in the Execute Test dialog box, which is also where screenshot recording is enabled.
 -   Second, snapshots that TestArchitect deems redundant and unnecessary are discarded.
@@ -33,7 +33,7 @@ See [below](#screenshot-capture-and-retention-rules) for a full discussion of th
 
 Screenshots captured during testing are displayed in the [**Result Details**](/TA_Help/Topics/Test_result_details.html#li_jkx_zqp_5x) and [**Failure/Error Summary**](/TA_Help/Topics/ug_results_failure_error_summary.html) tabs of local test results.
 
-**Remember:** The **Result Details** tab is only available when local test results are viewed on a web browser.
+{{<remember>}} The **Result Details** tab is only available when local test results are viewed on a web browser.
 
 ![](/images/TA_Help/Images/Screenshot_captured_images.png)
 
@@ -55,7 +55,7 @@ The screenshot viewer incorporates a number of functions \(below\).
 
 TestArchitect doesn't only snap pictures. When you have screenshot recording enabled. TestArchitect creates a video of snapshots from important points during the test and stores it at the end of the test run as a video \(.mp4\) file on your machine.
 
-**Note:**
+{{<note>}}
 
 -   A sequence of captured screenshots are compressed and compiled into a \(.mp4\) video file in order to save hard drive space. In other words, this video is a means of image compression.
 -   You may wonder why it is necessary to filter out so many screenshots. The reasons are twofold:
@@ -96,7 +96,7 @@ The rules are as follows:
 
 -   For any UI-interfacing ABT action that involves a stimulus such as a click, select, type, or tap operation: if the preconditions have been satisfied, a screenshot is taken at the moment just before the stimulus occurs. At that point, the "after control match" screenshot is discarded.
 
-    **Note:** The stimulus point \(e.g., mouse click\) on the captured *before* screenshot is highlighted with a red circle.
+{{<note>}} The stimulus point \(e.g., mouse click\) on the captured *before* screenshot is highlighted with a red circle.
 
     ![](/images/TA_Help/Images/Recorded_screenshot_interaction_point.png)
 

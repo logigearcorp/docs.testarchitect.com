@@ -18,7 +18,7 @@ This happens because you enter an invalid index value which is less than 1 for a
 
 Check the AUT and enter the correct index value for the given argument. Then re-run the test.
 
-**Note:** Index numbering begins with 1.
+{{<note>}} Index numbering begins with 1.
 
 
 

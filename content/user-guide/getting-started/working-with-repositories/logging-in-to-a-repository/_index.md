@@ -12,7 +12,7 @@ After connecting to a repository, your final step before being granted access to
 
 Once you have connected to a repository, it is added to the TestArchitect explorer tree in TestArchitect Client. You can now log in to the repository.
 
-**Note:** There are two possible authentication modes for logging in to a repository:
+{{<note>}} There are two possible authentication modes for logging in to a repository:
 
 -   TestArchitect Authentication mode: Users log in with their repository user names and passwords. Authentication is performed directly by TestArchitect.
 -   LDAP Authentication mode: Requires the availability of an LDAP-based directory service. Users are authenticated with their system \(e.g., Windows\) logins, thus eliminating the need for a separate login for TestArchitect. \(This is known as single sign-on.\)
@@ -35,7 +35,7 @@ By default, repositories are configured for TestArchitect authentication mode. I
 
 4.  Click **OK**.
 
-    **Note:**
+{{<note>}}
 
     -   If using TestArchitect authentication mode:
         -   You may click the **Change Password** button to change your password.
@@ -43,7 +43,7 @@ By default, repositories are configured for TestArchitect authentication mode. I
     -   If LDAP Authentication mode is in effect:
         -   The **Change Password** and **Remember me on this computer** options are unavailable.
 
-            **Note:** Your LDAP password always remains identical to your system password, and cannot be changed from an application. **Remember me on this computer** is not available because your are automatically remembered.
+{{<note>}} Your LDAP password always remains identical to your system password, and cannot be changed from an application. **Remember me on this computer** is not available because your are automatically remembered.
 
         -   **Troubleshooting:** In the event that the LDAP server is down or the LDAP-based directory service is otherwise unavailable, you will be prevented from logging in to the repository. In that case, you will need someone with super administrator permissions for that repository to log into it and [change your authentication mode](/TA_Administration/Topics/adm_users_setting_authentication_mode.html).
 5.  \(LDAP authentication mode only\) If the entered LDAP user name has not been mapped to any TestArchitect user name, the following message appears.

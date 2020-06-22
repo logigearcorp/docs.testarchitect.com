@@ -22,7 +22,7 @@ To open a TestArchitect test result within a browser, do the following:
 
     ![](/images/TA_Help/Images/ug_web_link_results.png)
 
-    **Tip:** The prefix of the web link address containing the `[IP address]:[Dashboard port number]` snippet is dynamic. That is, based on the host computer and the port of the dashboard where the repository resides, the IP address and dashboard port number values are set automatically.
+{{<tip>}} The prefix of the web link address containing the `[IP address]:[Dashboard port number]` snippet is dynamic. That is, based on the host computer and the port of the dashboard where the repository resides, the IP address and dashboard port number values are set automatically.
 
 2.  Start a browser, and then paste the copied link into that browser.
 
@@ -35,7 +35,7 @@ To open a TestArchitect test result within a browser, do the following:
 
 The HTML-formatted test result is opened in the browser.
 
-**Tip:** If you have TestArchitect Client installed, clicking the **Navigate to source result in repository** link allows you to view the original test result within TestArchitect Client.
+{{<tip>}} If you have TestArchitect Client installed, clicking the **Navigate to source result in repository** link allows you to view the original test result within TestArchitect Client.
 
 ![](/images/TA_Help/Images/ug_MTM_result.png)
 

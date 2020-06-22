@@ -17,7 +17,7 @@ Team Foundation Server \(TFS\) offers both web-based and client-based solutions 
 -   The Test hub in the TFS web portal, as a web-based solution, can work across all platforms and with all browsers.
 -   Microsoft Test Manager, as a client-solution, requires Build System, Test Controller and Test Agent to communicate with TFS.
 
-**Note:** If you use TFS 2018, be aware of its substantial changes:
+{{<note>}} If you use TFS 2018, be aware of its substantial changes:
 
 -   XAML Build has been deprecated. Furthermore, Microsoft Test Manager \(MTM\) no longer supports XAML builds
 -   Using Test Center/Lab Center in MTM for automated testing is no longer supported by TFS, starting with TFS 2018.
@@ -43,13 +43,13 @@ It is a Windows Service that
 -   distributes automated tests to multiple machines.
 -   runs test and collects test data remotely. \(Refer to [Configuring and registering test controller](/TA_Help/Topics/Integrate_MTM_Config_TestController.html) for details.\)
 
-**Remember:** When you install and configure Test Controller, use the full domain namefor your test controller.
+{{<remember>}} When you install and configure Test Controller, use the full domain namefor your test controller.
 
 ## Test Agent
 
 It is a Windows Service. It executes test cases in a test machine and collects results. These results are then collected and published to Microsoft Test Controller. \(Refer to [Configuring and registering test agent](/TA_Help/Topics/Integrate_MTM_Config_TestAgent.html) for details.\)
 
-**Remember:**
+{{<remember>}}
 
 -   To run Coded UI tests, install Test Agent as an interactive process.
 -   When you install and configure Test Agent, use full domain name for your Test Agent.

@@ -12,7 +12,7 @@ keywords: "built-in setting, switch window"
 
 Switch to another window instance.
 
-**Important:** This action is dedicated to Generic WebDriver.
+{{<important>}} This action is dedicated to Generic WebDriver.
 
 ## Arguments
 

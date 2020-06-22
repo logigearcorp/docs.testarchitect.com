@@ -51,7 +51,7 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ## Example
 
-**Note:** Refer to the [above note](#li.obtain_device_id) for the means by which a device's unique ID is obtained.
+{{<note>}} Refer to the [above note](#li.obtain_device_id) for the means by which a device's unique ID is obtained.
 
 Let's say you have two Android mobile devices connected to a controller. Device 1 sends an email. Device 2 receives the email, which your test must then verify. In order to switch between these two devices during testing, they must be identified by logical names. Hence you would first assign a logical name to each device by means of the assign device action. Subsequently, invoke the use device action to designate whichever device you want to apply the test automation to.
 

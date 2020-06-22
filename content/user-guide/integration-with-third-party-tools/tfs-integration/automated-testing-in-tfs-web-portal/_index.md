@@ -16,7 +16,7 @@ You can open the web portal from a connected project in Visual Studio or from a 
 http://ServerName:8080/tfs/CollectionName/ProjectName 
 ```
 
-**Note:** If you use TFS 2018, be aware of its substantial changes:
+{{<note>}} If you use TFS 2018, be aware of its substantial changes:
 
 -   XAML Build has been deprecated. Furthermore, Microsoft Test Manager \(MTM\) no longer supports XAML builds
 -   Using Test Center/Lab Center in MTM for automated testing is no longer supported by TFS, starting with TFS 2018.

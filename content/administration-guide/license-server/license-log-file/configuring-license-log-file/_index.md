@@ -23,7 +23,7 @@ TestArchitect starts a new license log file every month. It retains as many of t
 
     3 is the default value, meaning that TestArchitect stores the most recent three log files, corresponding to the most recent three months.
 
-    **Remember:**
+{{<remember>}}
 
     -   Valid values are in the range of 1 to 12.
     -   A value of 0 or less deactivates the logging mechanism. That is, it tells TestArchitect License Server not to log license-related transactions.

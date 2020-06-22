@@ -10,7 +10,7 @@ keywords: "iOS, installing TestArchitect Agent, TestArchitect, iOS Agent, instal
 
 Establishing a connection between an iOS device and a host machine allows TestArchitect to communicate with iOS mobile applications.
 
-**Important:** iOS automation is only supported on Windows or macOS hosts.
+{{<important>}} iOS automation is only supported on Windows or macOS hosts.
 
 Ensure that you have installed [TestArchitect Agent on the iOS device](/iOS/Topics/iOS_installing_TA_target_device.html) and that you know the IP address of the host machine.
 
@@ -29,7 +29,7 @@ Perform the following procedures to connect the iOS device to the host machine u
 
 If a connection to the host machine is made successfully, a Connected Successfully message appears on the iOS device.
 
-**Note:** To disconnect the iOS device from the host machine, click the **Disconnect** button on the TestArchitect Agent logon screen.
+{{<note>}} To disconnect the iOS device from the host machine, click the **Disconnect** button on the TestArchitect Agent logon screen.
 
 
 

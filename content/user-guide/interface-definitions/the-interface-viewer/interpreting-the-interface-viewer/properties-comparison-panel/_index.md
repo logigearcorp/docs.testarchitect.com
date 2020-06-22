@@ -20,7 +20,7 @@ The Properties Comparison panel consists of three fields for each row:
 -   **Current Value**: The actual \(just-captured\) value of that property for the control represented by the currently selected node in the UI Explorer panel.
 -   **Defined Value**: The value defined for that property in the selected interface element.
 
-**Note:**
+{{<note>}}
 
 -   More than one row may appear in the panel, as any given interface element can be defined by more than one TA property.
 -   When there are differences between the defined and actual values of a control property, they are indicated with red text.

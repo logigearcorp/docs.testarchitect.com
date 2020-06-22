@@ -31,7 +31,7 @@ Return the node path of the parent node of a specified tree node.
 
 A string value indicating the parent node path.
 
-**Note:** The type of node path returned – that is, one composed of text or indexes – corresponds to the path type provided in parameter nodepath.
+{{<note>}} The type of node path returned – that is, one composed of text or indexes – corresponds to the path type provided in parameter nodepath.
 
 
 

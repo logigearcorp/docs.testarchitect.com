@@ -26,7 +26,7 @@ Note that, unlike the other timers involved in this action, the value changed wa
 
 ![](/images/TA_Automation/Images/timing_stages_of_get_table_cell_value_02.png)
 
-**Note:**
+{{<note>}}
 
 Note that, depending on the context, a given value changed wait-observant get or check action may effectively ignore the timer and grab its target value immediately upon the first sampling. This is the case, for example, if the test has not yet performed any UI-modifying actions. In such cases, there is no reason to assume that the sampled value will change after any given period of time.
 

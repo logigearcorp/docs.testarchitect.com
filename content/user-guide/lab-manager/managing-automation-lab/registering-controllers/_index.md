@@ -19,7 +19,7 @@ To register a new controller to a Lab Manager session from the session itself, e
 
 3.  Click **OK**. If the controller can be found on the network, that controller is added to the session.
 
-    **Note:** A controller may only be registered to a single Lab Manager session at a time. If TestArchitect cannot add the controller you specify, see [Troubleshooting controller registration](/TA_Help/Topics/Lab_manager_troubleshoot_controller_registration.html).
+{{<note>}} A controller may only be registered to a single Lab Manager session at a time. If TestArchitect cannot add the controller you specify, see [Troubleshooting controller registration](/TA_Help/Topics/Lab_manager_troubleshoot_controller_registration.html).
 
 
 

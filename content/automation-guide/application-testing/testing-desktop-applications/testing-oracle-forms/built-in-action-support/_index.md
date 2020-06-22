@@ -10,7 +10,7 @@ keywords: "Oracle Forms testing, supported built-in actions"
 
 Built-in actions supported by TestArchitect for testing Oracle Forms.
 
-**Note:** Applies to TestArchitect [8.4](/TA_Help/Topics/../../TA_ReleaseNotes/DITA_source/Whats_New_8.4.html) and higher.
+{{<note>}} Applies to TestArchitect [8.4](/TA_Help/Topics/../../TA_ReleaseNotes/DITA_source/Whats_New_8.4.html) and higher.
 
 |Action Name|button|combobox, poplist|list|menu|tab panel|textfield|tree|window|toolbar|check box|radio button|table|status bar|scroll bar|
 |-----------|------|-----------------|----|----|---------|---------|----|------|-------|---------|------------|-----|----------|----------|

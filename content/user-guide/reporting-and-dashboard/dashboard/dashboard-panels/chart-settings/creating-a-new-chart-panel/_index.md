@@ -27,7 +27,7 @@ To create a new chart panel on a Dashboard page:
     -   **Data Profile**: From the drop-down list, select a data profile containing a set of customized data to apply to the chart.
     -   **Display Name**: Title of the new panel.
 
-        **Tip:** TestArchitect automatically appends an incremental number surrounded by parentheses \(for example, "\(1\)" for the first duplication\) to the panel's **Display Name** for each name duplication.
+{{<tip>}} TestArchitect automatically appends an incremental number surrounded by parentheses \(for example, "\(1\)" for the first duplication\) to the panel's **Display Name** for each name duplication.
 
     **Chart Settings**:
 

@@ -10,7 +10,7 @@ keywords: "Release Notes 8.3, macOS, What is new, macOS, TestArchitect 8.3, Test
 
 The following new features and improvements are introduced in TestArchitect version 8.3 running under macOS.
 
-**Remember:**
+{{<remember>}}
 
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
@@ -22,7 +22,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   **Introduction of new [XML test result model](/TA_Help/Topics/Test_result.html)**:
     -   TestArchitect saves test results of each test run in the XML format, so that you can view them in any web browser.
 
-        **Important:** XML result model provides the following advantages when compared to the previous result model.
+{{<important>}} XML result model provides the following advantages when compared to the previous result model.
 
         -   Less memory footprint: The amount of memory that TestArchitect uses or references while opening and viewing test results is less.
         -   Smaller parsing times: The operation process is faster, such as open test results, import/export test results, etc.
@@ -54,7 +54,7 @@ The following new features and improvements are introduced in TestArchitect vers
     -   TestArchitect also enables you to test web services that use [Basic HTTP authentication](https://tools.ietf.org/html/rfc7617) and [OAuth 2.0](https://oauth.net/2/) authentication.
 -   **Built-in actions for [JSON checkpoints](/TA_Automation/Topics/bia_JSON.html) supported**:
 
-    **Note:** These built-in actions can also be used to verify JSON response returned by the tested web service.
+{{<note>}} These built-in actions can also be used to verify JSON response returned by the tested web service.
 
     -   [check json query result](/TA_Automation/Topics/bia_check_json_query_result.html): Check a JSON query result against an expected string. The result is Passed if the strings match; otherwise it is Failed.
     -   [get json query result](/TA_Automation/Topics/bia_get_json_query_result.html): Query a JSON document by JSONPath.

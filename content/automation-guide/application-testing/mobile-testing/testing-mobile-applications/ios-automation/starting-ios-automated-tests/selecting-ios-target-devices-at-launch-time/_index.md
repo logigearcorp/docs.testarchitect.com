@@ -12,7 +12,7 @@ The selection of which iOS devices are to execute a test can be made at the time
 
 Ensure that the controllers for the hosts that you want to execute the test on are visible to the local host machine and/or registered with the [Lab Manager Server](/TA_Help/Topics/Lab_manager.html).
 
-**Important:** iOS automation is only supported on Windows or macOS hosts.
+{{<important>}} iOS automation is only supported on Windows or macOS hosts.
 
 1.  Select the test module you want to run, and then click **Execute** ![](/images/TA_Help/Images/btn.TAC_toolbar.Execute.png) on the TestArchitect toolbar.
 

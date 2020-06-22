@@ -20,7 +20,7 @@ The Diff Tool makes the job of difference viewing more systematic, reliable, and
 -   [Interface entities](/TA_Help/Topics/Interface_entities_and_elements.html).
 -   [$ Class Maps entities](/TA_Help/Topics/Interface_def_Viewer_class_mapping.html).
 
-**Note:**
+{{<note>}}
 
 -   The Diff Tool supports the comparing of project items not just within a project, but across projects and across repositories as well.
 -   For comparing pairs of test results, TestArchitect offers a different tool. See [Comparing test results](/TA_Help/Topics/Test_result_baselining.html).
@@ -56,7 +56,7 @@ The Diff Tool's tool bar contains six buttons:
 
     **Fastpath:** F6.
 
-    **Note:** This button is disabled when the currently selected line is at or above the first detected difference in the files.
+{{<note>}} This button is disabled when the currently selected line is at or above the first detected difference in the files.
 
 2.  **Next Difference**:
 
@@ -64,7 +64,7 @@ The Diff Tool's tool bar contains six buttons:
 
     **Fastpath:** F7.
 
-    **Note:** This button is disabled when the currently selected line is at or below the first detected difference in the files.
+{{<note>}} This button is disabled when the currently selected line is at or below the first detected difference in the files.
 
 3.  **Refresh**:
 
@@ -109,7 +109,7 @@ Each Item panel includes the following elements:
 2.  Current location panel: Displays the currently selected line of the project item.
 3.  Display panel: Displays the text content of the item. Lines that are different from their counterparts \(or have no counterparts\) in the comparison file are highlighted. \(See highlighting details below.\) This panel is also the main area for visualizing and navigating the differences between the two items.
 
-    **Note:** As you scroll an item up/down or left/right using its scroll bars, the comparison item is scrolled in sync with it, so that the two windows remain visually aligned. Also note that when you select a difference, it is always selected in both Item panels.
+{{<note>}} As you scroll an item up/down or left/right using its scroll bars, the comparison item is scrolled in sync with it, so that the two windows remain visually aligned. Also note that when you select a difference, it is always selected in both Item panels.
 
 
 ## Difference highlighting
@@ -121,7 +121,7 @@ TestArchitect highlights differences between two items with colors. This section
 
         ![](/images/TA_Help/Images/diff_tool_difference_blocks.png)
 
-        **Note:** One exception is item headers. If differences are detected between item headers, the original \(blue\) background color is preserved, and difference highlighting is limited to the word or character level. \(Keep in mind that the headers refered to here are those *within* the respective project items, not the item panel headers within the Diff Tool window.\)
+{{<note>}} One exception is item headers. If differences are detected between item headers, the original \(blue\) background color is preserved, and difference highlighting is limited to the word or character level. \(Keep in mind that the headers refered to here are those *within* the respective project items, not the item panel headers within the Diff Tool window.\)
 
         ![](/images/TA_Help/Images/diff_tool_difference_blocks_header.png)
 
@@ -143,7 +143,7 @@ TestArchitect highlights differences between two items with colors. This section
     ![](/images/TA_Help/Images/diff_tool_missing_blocks.png)
 
 
-**Note:**
+{{<note>}}
 
 **Interface entity comparisons** are a special case. Unlike other project items, the order in which an interface entity's actions lines \(interface element and interface entity setting lines\) appear is basically inconsequential. Hence it is possible for two interface entities to look very different, yet be functionally identical. In addition to the usual highlighting rules, the Diff Tool automatically rearranges the two compared interface entities' action lines, so that they ultimately appear in their respective Item panels grouped into four distinct sections:
 
@@ -162,7 +162,7 @@ A unique Diff Tool window is launched every time you invoke the Diff Tool. Hence
 
 Say, for example, that you have a Diff Tool window already open, comparing a default user-defined action against a variation of itself. Now you would like to compare another variation against one of the two items. From the TestArchitect explorer tree tree, you can simply drag and drop the new action's node into either the left or right panel of the window. The contents of the window are automatically replaced with the new item, and the comparison is automatically refreshed.
 
-**Note:** The compared items must be of same type. Otherwise, the following message appears:
+{{<note>}} The compared items must be of same type. Otherwise, the following message appears:
 
 ![](/images/TA_Help/Images/diff_tool_warning_msg.png)
 

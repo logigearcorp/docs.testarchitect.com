@@ -10,9 +10,9 @@ keywords: "commandline port, changing port number"
 
 TestArchitect supports users in changing the TA command line port number to resolve port conflicts.
 
-**Note:** Applies to TestArchitect [8.3 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.html) and higher.
+{{<note>}} Applies to TestArchitect [8.3 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.html) and higher.
 
-**Remember:**
+{{<remember>}}
 
 -   To change the port number, set an environment variable named COMMANDLINE\_PORT
 -   The default value of COMMANDLINE\_PORT is 53800.

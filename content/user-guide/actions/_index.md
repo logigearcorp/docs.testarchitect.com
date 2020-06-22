@@ -18,7 +18,7 @@ An action may be something elementary, such as [report](/TA_Automation/Topics/bi
 -   User-scripted actions, which are written in a general-purpose language like Python or Java.
 -   User-scripted actions, which are written in C\#.
 
-**Tip:**
+{{<tip>}}
 
 -   When you enter an action name in a test or action worksheet, TestArchitect's editor verifies that the action is defined and, if so, what its arguments are. If the action has not yet been defined, its name is displayed in red text.
 -   From the test editor, you can find a description of any built-in action that's present by selecting its cell and pressing F1. This triggers TestArchitect Help to open to the reference page for the selected action.

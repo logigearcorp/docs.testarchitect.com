@@ -66,7 +66,7 @@ This action may be used within the following project items:test modules and user
     -   When this value is provided, TestArchitect compares the returned status code against the expected status code. An [automation error](/TA_FAQ/Topics/0x80017002L.html) is generated, if these two values do not match each other.
 -   response file argument: A full filename and extension must be declared. Otherwise, TestArchitect reports a warning automation and this argument is ignored.
 
-    **Note:**
+{{<note>}}
 
     -   Network resources and mapping network drives are also supported.
     -   On Windows: In order to specify [mapping network drives](http://www.dummies.com/computers/operating-systems/windows-7/how-to-map-a-network-folder-in-windows-7/), please disable User Account Control \(UAC\).

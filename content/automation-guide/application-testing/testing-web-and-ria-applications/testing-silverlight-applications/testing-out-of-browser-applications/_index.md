@@ -18,7 +18,7 @@ To test out-of-browser Silverlight applications, carry out the following procedu
 
 2.  Open a Silverlight application within its host web page in an Internet Explorer browser window.
 
-    **Remember:** TestArchitect currently supports Silverlight only in Internet Explorer versions 10 and 11.
+{{<remember>}} TestArchitect currently supports Silverlight only in Internet Explorer versions 10 and 11.
 
 3.  Install the Silverlight application to your test machine:
 

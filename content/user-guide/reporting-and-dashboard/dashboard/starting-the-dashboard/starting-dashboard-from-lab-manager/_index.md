@@ -20,7 +20,7 @@ To start a TestArchitect Dashboard instance from Lab Manager, follow these steps
 
         ![](/images/TA_Help/Images/DB_1.png)
 
-        **Note:** The TestArchitect Utility Server Information command is enabled only after the Repository Server has been started.
+{{<note>}} The TestArchitect Utility Server Information command is enabled only after the Repository Server has been started.
 
         The server information window opens:
 

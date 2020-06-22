@@ -18,7 +18,7 @@ After creating an XML build definition, the new build must be queued.
 
 2.  Queue the build by following Microsoft's instructions. \([Learn more](https://msdn.microsoft.com/en-us/library/ms181722(v=vs.120).aspx).\)
 
-    **Note:**
+{{<note>}}
 
     -   Only configurations for the **General** tab are required. The others are optional.
     -   In the Queue Build <Project\_name\> dialog box, if needed, specify the build definition, the build controller, the priority of the build in the build queue and the output folder where the files and modules will reside after the build is over.
@@ -30,13 +30,13 @@ Upon conclusion, the build is queued and marked with a green check.
 
 ![](/images/TA_Help/Images/VS_new_build_complete.png)
 
-**Note:** The available statuses of the queued build process are mentioned as follows:
+{{<note>}} The available statuses of the queued build process are mentioned as follows:
 
 ![](/images/TA_Help/Images/VS_build_status.png)
 
 When integrated with TestArchitect, keep in mind the following:
 
-**Important:** This task is one that must often be repeated, especially when you have modified mapped TFS test cases. \(For example, you remove or add test cases, or change the order of a test case run.\) When you do so, the association between TFS test cases and Visual Studio test methods/TestArchitect test cases is compromised. Hence, it is necessary that you perform the following steps again:
+{{<important>}} This task is one that must often be repeated, especially when you have modified mapped TFS test cases. \(For example, you remove or add test cases, or change the order of a test case run.\) When you do so, the association between TFS test cases and Visual Studio test methods/TestArchitect test cases is compromised. Hence, it is necessary that you perform the following steps again:
 
 1.  Re-[associate](/TA_Help/Topics/ug_MTM_associate.html) TestArchitect test cases with TFS test cases.
 2.  Check in your project.

@@ -10,7 +10,7 @@ keywords: "installing, Android application, Android, installing application"
 
 Installing an application on a target device for testing purposes is a two-step process which involves re-signing and installing the application.
 
-**Note:**
+{{<note>}}
 
 -   Android automation is only supported on Windows, or Linux hosts.
 -   You must have an administrative right to re-sign \(only for the first re-signing\) and install applications under test on the Android mobile device.

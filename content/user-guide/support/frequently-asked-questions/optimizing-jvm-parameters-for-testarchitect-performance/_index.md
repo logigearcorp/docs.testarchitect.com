@@ -10,7 +10,7 @@ keywords: "FAQ, Optimizing performance, optimize performance, set Java heap size
 
 Java Virtual Machine \(JVM\) heap memory size can be expanded and shrink, according to your requirements for TestArchitect's performance optimization. MaxHeapFreeRatio and MinHeapFreeRatio are the command line options available for this purpose in Oracle Java.
 
-**Note:** Applies to TestArchitect [8.3 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.html) and higher.
+{{<note>}} Applies to TestArchitect [8.3 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.html) and higher.
 
 The performance of TestArchitect is influenced by Java heap and metaspace available. You are allowed to adjust several JVM parameters to meet your desired performance as well as memory consumption.
 
@@ -20,25 +20,25 @@ The parameters below control how garbage collection \(GC\) is performed by the J
 
     Sets the maximum amount of native memory that can be allocated for class metadata. By default, the size is not limited. The amount of metadata for an application depends on the application itself, other running applications, and the amount of memory available on the system.
 
-    **Important:** By default, the value configured for TestArchitect is set to 256 MB.
+{{<important>}} By default, the value configured for TestArchitect is set to 256 MB.
 
 
 -   **-XX:MinHeapFreeRatio=percent**
 
     Sets the minimum allowed percentage of free heap space \(0 to 100\) after a GC event. If free heap space falls below this value, then the heap will be expanded.
 
-    **Important:** By default, the value configured for TestArchitect is set to 15%.
+{{<important>}} By default, the value configured for TestArchitect is set to 15%.
 
 -   **-XX:MaxHeapFreeRatio=percent**
 
     Sets the maximum allowed percentage of free heap space \(0 to 100\) after a GC event. If free heap space expands above this value, then the heap will shrink.
 
-    **Important:** By default, the value configured for TestArchitect is set to 30%.
+{{<important>}} By default, the value configured for TestArchitect is set to 30%.
 
 
 In simple words, MaxHeapFreeRatio is used to shrink the JVM and MinHeapFreeRatio is for expansion. If the ratio between the used memory and free memory exceeds MaxHeapFreeRatio \(30%\), JVM will shrink. If that ratio falls below MinHeapFreeRatio \(15%\), JVM will expand.
 
-**Remember:**
+{{<remember>}}
 
 -   If you would like to reconfigure the MaxHeapFreeRatio and MinHeapFreeRatio parameters, ensure that you choose fair values for these parameters.
 -   Specifically, TestArchitect performance is inversely proportional to memory consumption. In other words, the higher performance is, the more memory is consumed. If you decrease MinHeapFreeRatio, MaxHeapFreeRatio, memory consumption will be saved but TestArchitect performance will slow down; whereas, if you increase MinHeapFreeRatio, MaxHeapFreeRatio, TestArchitect performance will be enhanced, but memory will be sacrificed. Therefore, you need to choose fair values, so that they will not affect \(or less penalty on\) TestArchitect performance, as well as memory consumption.

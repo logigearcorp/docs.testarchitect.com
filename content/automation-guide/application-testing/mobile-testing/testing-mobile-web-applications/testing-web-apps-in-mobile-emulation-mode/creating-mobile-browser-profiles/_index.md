@@ -12,7 +12,7 @@ How to create mobile browser profiles with different user agents and screen size
 
 The built-in action [send command to browser](/TA_Automation/Topics/bia_send_command_to_browser.html) is used within your TestArchitect test to specify a mobile browser profile to be invoked during testing, or even to change the environment for the currently invoked emulator to customize its behaviors. Naturally, within a test, you can call this built-in action any number of times to repeat testing with a variety of profiles for different mobile devices. The profiles are coded in JavaScript Object Notation \([JSON](http://www.w3schools.com/js/js_json_intro.asp)\), and with [Chrome debugging protocol](https://chromedevtools.github.io/debugger-protocol-viewer/).
 
-**Important:** Basic JSON syntax as required for creating profiles is as follows:
+{{<important>}} Basic JSON syntax as required for creating profiles is as follows:
 
 -   JSON data is written as name:value pairs. Example:
 
@@ -39,7 +39,7 @@ The built-in action [send command to browser](/TA_Automation/Topics/bia_send_com
 
 Note that you can learn more about JSON syntax [here](http://www.w3schools.com/js/js_json_syntax.asp).
 
-**Tip:** You can define as many parameters as you need for a mobile browser profile. However, it is recommended that your JSON string contain the following basic information.
+{{<tip>}} You can define as many parameters as you need for a mobile browser profile. However, it is recommended that your JSON string contain the following basic information.
 
 1.  User Agent \(UA\): The browser’s UA string. It identifies the browser and contains information about the browser version, operating system and its version, and specific browser enhancements. For example, Galaxy S5 has this UA:
 
@@ -47,7 +47,7 @@ Note that you can learn more about JSON syntax [here](http://www.w3schools.com/j
     Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.23 Mobile Safari/537.36
     ```
 
-    **Tip:** You can find various mobile UA strings from the following links:
+{{<tip>}} You can find various mobile UA strings from the following links:
 
     -   [http://www.zytrax.com/tech/web/mobile\_ids.html](http://www.zytrax.com/tech/web/mobile_ids.html)
     -   [http://www.useragentstring.com/pages/useragentstring.php?typ=Mobile%20Browser](http://www.useragentstring.com/pages/useragentstring.php?typ=Mobile%20Browser)
@@ -55,7 +55,7 @@ Note that you can learn more about JSON syntax [here](http://www.w3schools.com/j
 
         ![](/images/TA_Automation/Images/user_agent_string_Nexus.png)
 
-    **Remember:** To define a UA string, use the [setUserAgentOverride](https://chromedevtools.github.io/debugger-protocol-viewer/tot/Network/#method-setUserAgentOverride) method with the userAgent parameter. For example: The following JSON string defines a given UA string.
+{{<remember>}} To define a UA string, use the [setUserAgentOverride](https://chromedevtools.github.io/debugger-protocol-viewer/tot/Network/#method-setUserAgentOverride) method with the userAgent parameter. For example: The following JSON string defines a given UA string.
 
     ```
     { "method" : "Network.setUserAgentOverride",
@@ -64,7 +64,7 @@ Note that you can learn more about JSON syntax [here](http://www.w3schools.com/j
 
 2.  Screen Width/Screen Height: Specify the browser screen size, including width and height, in CSS pixels. Note that this is not necessarily the same as the device’s physical screen size. For example, the iPhone 5 uses 2×2 physical pixels to display 1 CSS pixel, so the browser screen dimensions are half the physical screen dimensions.
 
-    **Tip:** You can find various mobile browser screen sizes here:
+{{<tip>}} You can find various mobile browser screen sizes here:
 
     -   [http://viewportsizes.com](http://viewportsizes.com/)
     -   [http://mydevice.io/devices/](http://mydevice.io/devices/)
@@ -72,7 +72,7 @@ Note that you can learn more about JSON syntax [here](http://www.w3schools.com/j
 
         ![](/images/TA_Automation/Images/screen_size.png)
 
-    **Remember:** To define screen size, use the [setDeviceMetricsOverride](https://chromedevtools.github.io/debugger-protocol-viewer/tot/Emulation/#method-setDeviceMetricsOverride) method with the width and height parameters. For example: The following JSON string defines the browser screen size.
+{{<remember>}} To define screen size, use the [setDeviceMetricsOverride](https://chromedevtools.github.io/debugger-protocol-viewer/tot/Emulation/#method-setDeviceMetricsOverride) method with the width and height parameters. For example: The following JSON string defines the browser screen size.
 
     ```
     { "method" : "Emulation.setDeviceMetricsOverride", "params" : { "width": 260, "height": 640 } }
@@ -80,7 +80,7 @@ Note that you can learn more about JSON syntax [here](http://www.w3schools.com/j
 
 3.  Device Pixel Ratio \(DPR\): Specify DPR, the number of physical pixels per CSS pixels. For example, iPhone 5 has DPR=2, meaning it uses 2×2 physical pixels to show 1 CSS pixel. Web applications can use the device pixel ratio to conditionally load different CSS or images.
 
-    **Tip:** You can find DPR values for various devices here:
+{{<tip>}} You can find DPR values for various devices here:
 
     -   [http://mydevice.io/devices/](http://mydevice.io/devices/)
     -   [http://www.canbike.org/CSSpixels/](http://www.canbike.org/CSSpixels/)
@@ -88,11 +88,11 @@ Note that you can learn more about JSON syntax [here](http://www.w3schools.com/j
 
         ![](/images/TA_Automation/Images/DPR.png)
 
-    **Remember:** To define DPR, use the [setDeviceMetricsOverride](https://chromedevtools.github.io/debugger-protocol-viewer/tot/Emulation/#method-setDeviceMetricsOverride) method with the deviceScaleFactor parameter.
+{{<remember>}} To define DPR, use the [setDeviceMetricsOverride](https://chromedevtools.github.io/debugger-protocol-viewer/tot/Emulation/#method-setDeviceMetricsOverride) method with the deviceScaleFactor parameter.
 
 4.  Trigger touch events: Toggles mouse event-based touch event emulation. This touch screen emulator lets you accurately test touch events and sequences as if you were using a touch-enabled device.
 
-    **Remember:** To simulate touch events, use the [setTouchEmulationEnabled](https://chromedevtools.github.io/debugger-protocol-viewer/tot/Emulation/#method-setTouchEmulationEnabled) method with the enabled parameter. For example:
+{{<remember>}} To simulate touch events, use the [setTouchEmulationEnabled](https://chromedevtools.github.io/debugger-protocol-viewer/tot/Emulation/#method-setTouchEmulationEnabled) method with the enabled parameter. For example:
 
     ```
     { "method" : "Emulation.setTouchEmulationEnabled", "params" : { "enabled" : true } }
@@ -112,7 +112,7 @@ In summary, the below JSON string defines the following parameters for a given m
     ![](/images/TA_Automation/Images/JSON_Chrome.png)
 
 
-**Tip:** You may want to validate your JSON string with the free resource [jsoneditoronline.org/](http://www.jsoneditoronline.org/), to ensure that its syntax and format are accurate.
+{{<tip>}} You may want to validate your JSON string with the free resource [jsoneditoronline.org/](http://www.jsoneditoronline.org/), to ensure that its syntax and format are accurate.
 
 Copy the JSON string into the command argument of the [send command to browser](/TA_Automation/Topics/bia_send_command_to_browser.html) built-in action.
 

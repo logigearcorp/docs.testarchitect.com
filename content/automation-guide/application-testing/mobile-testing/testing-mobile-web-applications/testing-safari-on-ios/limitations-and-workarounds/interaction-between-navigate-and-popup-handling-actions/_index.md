@@ -12,7 +12,7 @@ This topic describes a possible issue that may arise when you use the navigate b
 
 It is very common that you'd like to navigate to a specified URL either within an existing Safari window, or from a newly launched instance of Safari. In both of these cases, if your test calls popup-handling action\(s\) right after the [navigate](/TA_Automation/Topics/bia_navigate.html) built-in action, the popup-handler queue may apply the previous page session, instead of the target URL page session. Consequently, the popup-handler queue will not be handled properly on the target URL.
 
-**Note:** Note that, by definition, the readiness of a webpage is established by its [Document.readyState](https://developer.mozilla.org/en-US/docs/Web/API/document.readyState) property. A value of complete indicates that the page is ready.
+{{<note>}} Note that, by definition, the readiness of a webpage is established by its [Document.readyState](https://developer.mozilla.org/en-US/docs/Web/API/document.readyState) property. A value of complete indicates that the page is ready.
 
 Because you are already aware of the control triggering a popup window on the target URL, to avoid this problem, it is highly recommended that your test procedure [waits for the control](/TA_Automation/Topics/bia_wait_for_control.html) until it is available before invoking its popup-handling action. In this manner, you are assured that the popup-handling action, and all subsequent ones, apply to the target URL page session.
 

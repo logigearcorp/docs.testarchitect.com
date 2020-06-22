@@ -33,9 +33,9 @@ The URL can be found in the item's **Information** tab.
 
 ![](/images/TA_Help/Images/ug_TA_url.02.png)
 
-**Note:** The `tap:` portion of the URL represents a proprietary protocol for TestArchitect.
+{{<note>}} The `tap:` portion of the URL represents a proprietary protocol for TestArchitect.
 
-**Remember:**
+{{<remember>}}
 
 -   In order to open a URL, copy and paste the URL to File Explorer, and then press the Enter key. TestArchitect is opened to display the given item, provided that:
     -   TestArchitect Client is installed on your machine; and

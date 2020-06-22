@@ -81,7 +81,7 @@ Use numeric and string variables, as well as constants, in your mixed expression
 
 You have just seen how string and numeric variables and constants can be combined into expressions using both types of operations \(string and numeric\). You have also performed the same operation on two similar sets of data. Note that the second set of local variable action lines does not create new variables, because local variables with those names and exact same scope already exist. It does, however, replace the contents of those local variables with new values.
 
-**Note:** Later on, you will see how repetitive operations such as the identical report action lines can benefit from [encapsulation](/TA_Glossary/Topics/glossaryActionEncapsulation.html), which makes your tests more powerful and reusable, and test writing more efficient.
+{{<note>}} Later on, you will see how repetitive operations such as the identical report action lines can benefit from [encapsulation](/TA_Glossary/Topics/glossaryActionEncapsulation.html), which makes your tests more powerful and reusable, and test writing more efficient.
 
 ![](/images/TA_Tutorials/Images/tut.Vars_and_Exps.Mixed_Expr_Var_01.Results.png)
 

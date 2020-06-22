@@ -36,7 +36,7 @@ A sharp distinction between the two commands is their behavior towards the conso
     -   On macOS: TAController.sh \[-port <port\_number\>\]
     Where -port: assigns a port number to TestArchitect Controller.
 
-    **Remember:** The port number of TestArchitect Controller must fall within a range of 53600 to 53699.
+{{<remember>}} The port number of TestArchitect Controller must fall within a range of 53600 to 53699.
 
 
 ## Using the TACTRL command
@@ -53,7 +53,7 @@ A sharp distinction between the two commands is their behavior towards the conso
     -   On macOS: TACTRL.sh \[-port <port\_number\>\]
     Where -port: assigns a port number to TestArchitect Controller.
 
-    **Remember:** The port number of TestArchitect Controller must fall within a range of 53600 to 53699.
+{{<remember>}} The port number of TestArchitect Controller must fall within a range of 53600 to 53699.
 
 
 

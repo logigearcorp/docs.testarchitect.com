@@ -47,7 +47,7 @@ To start an emulator, do the following in your test:
 
 5.  Refresh the page by using the [refresh](/TA_Automation/Topics/bia_refresh.html) built-in action to ensure the newly-invoked emulator take effect properly.
 
-    **Important:** It should be noted that, upon conclusion of an automated run on the emulator, the Chrome browser automatically switches out of Device Mode and returns to Desktop Mode.
+{{<important>}} It should be noted that, upon conclusion of an automated run on the emulator, the Chrome browser automatically switches out of Device Mode and returns to Desktop Mode.
 
 6.  Now you're ready to begin performing your automated web-based tests on the emulator.
 
@@ -82,7 +82,7 @@ To start an emulator, do the following in your test:
 
     Technically, send command to browser sends a JSON string request to Google Chrome to customize the emulator behaviors on-the-fly. Note that you can change as many behaviors as you want, as long as those behaviors are supported by [Chrome debugging protocol](https://chromedevtools.github.io/debugger-protocol-viewer/tot/).
 
-    **Tip:** You may want to validate your JSON string with the free resource [jsoneditoronline.org/](http://www.jsoneditoronline.org/), to ensure that its syntax and format are accurate.
+{{<tip>}} You may want to validate your JSON string with the free resource [jsoneditoronline.org/](http://www.jsoneditoronline.org/), to ensure that its syntax and format are accurate.
 
     Suppose that you'd like to change the following behaviors:
 
@@ -154,7 +154,7 @@ To start an emulator, do the following in your test:
     refresh                     google
     ```
 
-    **Important:** It should be noted that, upon conclusion of an automated run on the emulator, the Chrome browser automatically switches out of Device Mode and returns to Desktop Mode.
+{{<important>}} It should be noted that, upon conclusion of an automated run on the emulator, the Chrome browser automatically switches out of Device Mode and returns to Desktop Mode.
 
 
 

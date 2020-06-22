@@ -26,7 +26,7 @@ The Interface Viewer minimizes, brings the appropriate application window to the
 
 **Warning:** An issue with [Google Chrome](/TA_Automation/Topics/Web_automation.html) exists, in which the **Highlight** feature cannot accurately display the positions of HTML controls when the Chrome download bar is active. The solution is to simply dismiss the download bar, which you can do by clicking the **Close** button to its right:![](/images/TA_Help/Images/Chrome_download_bar_close.png).
 
-**Note:**
+{{<note>}}
 
 -   Auto Highlight, available in the Interface Viewer, is a convenient variation on the Highlight tool. The **Auto Highlight** button is a toggle: click it once to turn Auto Highlight mode on, and again to turn this mode off.
     -   With Auto Highlight in the on state, you can continuously select node after node in the UI explorer panel, navigating within a tree or between trees. As you do so, Auto Highlight brings the appropriate window to the near-foreground \(just behind the Viewer\), highlighting the appropriate control or window. Click the **Auto Highlight** button again to exit from Auto Highlight mode.

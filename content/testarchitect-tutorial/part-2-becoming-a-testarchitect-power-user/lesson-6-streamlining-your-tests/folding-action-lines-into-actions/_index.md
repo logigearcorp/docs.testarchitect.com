@@ -40,7 +40,7 @@ The ABT solution to this is to define a new action, which we might call enter pi
 
 By folding the two action lines into an action that encompasses the overall function, the test becomes more readable, less cluttered, and helps insulate the test from its implementation. Now if a control in the target application changes, affecting how locations are entered \(such as cities being selected from a list\), the change will impact only the single action, not the tests or other actions that make use of this functionality. Moreover, you now have a reusable action that can be applied to any location.
 
-**Note:**
+{{<note>}}
 
 The implementation of the new action, enter pickup location, would look like something this:
 

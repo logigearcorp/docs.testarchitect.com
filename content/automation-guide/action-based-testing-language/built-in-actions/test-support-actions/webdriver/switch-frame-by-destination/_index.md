@@ -12,7 +12,7 @@ keywords: "built-in action, switch frame by destination"
 
 Switch the focus to the parent frame of the current one or the main frame \(default content\). \([Learn more](https://www.guru99.com/handling-iframes-selenium.html)\)
 
-**Important:** This action is dedicated to Generic WebDriver.
+{{<important>}} This action is dedicated to Generic WebDriver.
 
 Assuming the current frame is 'frame 2'.
 

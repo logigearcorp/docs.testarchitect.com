@@ -10,7 +10,7 @@ keywords: "Oracle Forms testing, supported built-in actions"
 
 Timing built-in settings supported by TestArchitect for testing Oracle Forms.
 
-**Note:** Applies to TestArchitect [8.3 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.html) and higher.
+{{<note>}} Applies to TestArchitect [8.3 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.html) and higher.
 
 Successful testing requires that the automation correctly handle the varying response times of a system under test, and not to attempt to continue with interactions before the system is finished with the previous function. Conversely, it is also important that we wait no longer than is necessary for a function to complete, as excessive waits could potentially slow down overall run times of larger test runs. \([Learn more](/TA_Automation/Topics/Automation_practices_Timing.html).\)
 

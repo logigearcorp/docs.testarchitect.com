@@ -10,7 +10,7 @@ keywords: "tool profiles, creating, editing profiles, playback tools, harnesses,
 
 Using **Tool Profiles**, you can configure TestArchitect to support integration with external third-party tools. In addition, its support for LDAP \(Lightweight Directory Access Protocol\) allows your TestArchitect login credentials to be established through your system account, avoiding the need for a separate sign on. Finally, **Tool Profiles** includes several predefined harnesses, which are scripts or programs that interpret and execute the action lines of a test sequence.
 
-**Remember:** You must be logged in to TestArchitect Client as a member of the [administrator](/TA_Administration/Topics/User_administration.html) group to configure external tools, or create or edit test tool profiles. Administrator changes are made available to all other clients logging in to the same repository.
+{{<remember>}} You must be logged in to TestArchitect Client as a member of the [administrator](/TA_Administration/Topics/User_administration.html) group to configure external tools, or create or edit test tool profiles. Administrator changes are made available to all other clients logging in to the same repository.
 
 1.  [External Tool](/TA_Administration/Topics/External_tool.html)  
 Many third-party sources offer tools that provide features which complement the functionality of TestArchitectin some way. The External tool offers a way for TestArchitect to integrate with those tools.

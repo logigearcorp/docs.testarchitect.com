@@ -26,7 +26,7 @@ OCR uses specific algorithms to read text from an onscreen region character by c
 
 TestArchitect includes GDI that uses other principles for text recognition. Technically, GDI first intercepts calls to certain drawing Windows APIs, including [DrawTextA](https://msdn.microsoft.com/en-us/library/dd162498(v=vs.85).aspx) \(ANSI name\), [DrawTextW](https://msdn.microsoft.com/en-us/library/dd162498(v=vs.85).aspx) \(Unicode name\), [TextOutA](https://msdn.microsoft.com/en-us/library/dd145133(v=vs.85).aspx) \(ANSI name\), [TextOutA](https://msdn.microsoft.com/en-us/library/dd145133(v=vs.85).aspx) \(Unicode name\), [ExtTextOutA](https://msdn.microsoft.com/en-us/library/dd162713(v=vs.85).aspx) \(ANSI name\), [ExtTextOutW](https://msdn.microsoft.com/en-us/library/dd162713(v=vs.85).aspx) \(Unicode name\), which output text on screen and tries to create special test objects for this text. Subsequently, GDI sends a Windows message \([WM\_PAINT](https://msdn.microsoft.com/en-us/library/windows/desktop/dd145213(v=vs.85).aspx)\) to the AUT to have the text redrawn. While the texts are being redrawn, all calls to drawing APIs are recorded and all redrawn texts will be detected. Since GDI uses other principles to determine object text, it works faster than OCR, if used, provides 100% recognition accuracy.
 
-**Note:**
+{{<note>}}
 
 -   If your AUT is a Windows application, that is Win32 or WinForms, before using OCR, we recommend that you try working with your text controls by using GDI. If GDI does not help, then use OCR.
 -   To switch between the OCR and GDI technology, use the [character recognition technique](/TA_Automation/Topics/bis_character_recognition_technique.html) built-in setting.

@@ -42,7 +42,7 @@ TestArchitect can work with UI controls that are exposed by Microsoft's UI Autom
 
 When the UIA Support tool is activated, TestArchitect is able to obtain extra and useful properties on a UI element of the AUT. One of the properties is automation id which can be used to uniquely locate a UI control from its siblings.
 
-**Tip:** Using a unique and discoverable automation id property to locate a specific UI control is particularly suitable for agile software development. One of the crucial points of agile testing is automation. Software designers can specify unique automation ids for their UI elements. From design specifications, it is possible for QA specialists to implement the interface definition of a UI control using its automation id before the AUT is available for testing. With the aid of declaring a unique and discoverable automation id, the code can be architected for easy testing, and the QA specialists are able to identify test cases as soon as the requirements are defined, even before coding begins or completes. Furthermore, they can also test again as soon as the code has changed.
+{{<tip>}} Using a unique and discoverable automation id property to locate a specific UI control is particularly suitable for agile software development. One of the crucial points of agile testing is automation. Software designers can specify unique automation ids for their UI elements. From design specifications, it is possible for QA specialists to implement the interface definition of a UI control using its automation id before the AUT is available for testing. With the aid of declaring a unique and discoverable automation id, the code can be architected for easy testing, and the QA specialists are able to identify test cases as soon as the requirements are defined, even before coding begins or completes. Furthermore, they can also test again as soon as the code has changed.
 
 ## Class mapping
 
@@ -54,7 +54,7 @@ TestArchitect's solution, TA classes, is a standardized set of control types, ea
 
 Refer to [Class mapping](/reuse/../TA_Help/Topics/Class_mapping.html) for details.
 
-**Important:** Class mapping is currently supported on WPF, Win32, iOS, Android, and Silverlight applications.
+{{<important>}} Class mapping is currently supported on WPF, Win32, iOS, Android, and Silverlight applications.
 
 
 

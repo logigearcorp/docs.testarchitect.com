@@ -20,9 +20,9 @@ At a glance, it's quite clear that the text to the left of the upper text box, N
 
 Clearly, the only thing connecting such controls is their proximity to each other. Hence, during a [window intake](/TA_Help/Topics/Interface_def_intake.html), TestArchitect looks for all the controls of a window which normally appear with labels, but which rely on outside controls to provide them. It also surveys all the controls that typically serve as labels \(for example, label controls in Java, or textblock controls in WPF\). Then it employs an algorithm to pair up such controls.
 
-**Note:** Not all labelled controls in a GUI interface rely on other controls to supply labels. For example, in most development platforms, the check box control provides its own label, taken from its caption property. TestArchitect does not apply the label-finding algorithm to these controls. The types of controls that accept external labels vary by development platform, but typically include such things as text boxes, password text, list boxes, list views, tables, combo boxes, tree views, and rich text fields.
+{{<note>}} Not all labelled controls in a GUI interface rely on other controls to supply labels. For example, in most development platforms, the check box control provides its own label, taken from its caption property. TestArchitect does not apply the label-finding algorithm to these controls. The types of controls that accept external labels vary by development platform, but typically include such things as text boxes, password text, list boxes, list views, tables, combo boxes, tree views, and rich text fields.
 
-**Note:** For purposes of this help topic, we'll refer to those controls that accept externally-supplied labels as label-accepting controls. When discussing a pair of label and label-accepting controls, we'll also refer to the latter as the *main* control.
+{{<note>}} For purposes of this help topic, we'll refer to those controls that accept externally-supplied labels as label-accepting controls. When discussing a pair of label and label-accepting controls, we'll also refer to the latter as the *main* control.
 
 A summary of the label-finding procedure follows. Details on some of the more technical definitions required for the algorithm's implementation are available in [label property - positional details](/TA_Help/Topics/Interface_def_label_property_supplement.html).
 
@@ -36,7 +36,7 @@ Threshold distances vary by platform. How it is determined that a non-aligned la
 
 If a label-accepting control is not sufficiently close to a label control, its label property remains empty. The same is true if there are indeed one or more labels that are sufficiently close, but which are allocated to other controls that are more qualified. \(An external label cannot be used by more than one control.\)
 
-**Note:**
+{{<note>}}
 
 Note that there is no guarantee that a TA label property of a given control will be unique within a window. The label-finding algorithm does guarantee that the same label control will not be used to provide a value for more than one control. However, if two label controls hold the same text, there is nothing to prevent them from providing those texts to two different controls:
 
@@ -46,7 +46,7 @@ Note that there is no guarantee that a TA label property of a given control will
 
 During a [window intake](/TA_Help/Topics/Interface_def_intake.html) process, the following label-finding process is applied to each label-accepting control in the window. The logical hierarchy of the controls is followed to determine the order in which each label-accepting control is examined.
 
-**Note:** Note that, aside from the fact that previously-assigned labels are no longer candidates for a given control when that control is examined, label assignment for each control is performed independently. For example, say label A is physically closer to label-accepting control Y than it is to label-accepting control X. If the label-finding algorithm is applied to X first, and X gets label A, that label is no longer available when Y is examined, no matter how much more appropriate that match may seem to be.
+{{<note>}} Note that, aside from the fact that previously-assigned labels are no longer candidates for a given control when that control is examined, label assignment for each control is performed independently. For example, say label A is physically closer to label-accepting control Y than it is to label-accepting control X. If the label-finding algorithm is applied to X first, and X gets label A, that label is no longer available when Y is examined, no matter how much more appropriate that match may seem to be.
 
 1.  Are there any available [left zone-aligned](/TA_Help/Topics/Interface_def_label_property_supplement.html#dl.left_zone_alignment) labels? If yes, select the one closest to the main control \(based on the above [distance determination](/TA_Help/Topics/Interface_def_label_property_supplement.html#section.distance_determination)\), mark it as unavailable, and repeat this procedure for the next control.
 2.  Are there any available [top zone-aligned](/TA_Help/Topics/Interface_def_label_property_supplement.html#dl.top_zone_alignment) labels? If yes, select the one closest to the main control, mark it as unavailable, and repeat this procedure for the next control.

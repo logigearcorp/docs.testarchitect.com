@@ -22,7 +22,7 @@ Here are features for using the Bug list view:
 -   **[Deleting](/TA_Help/Topics/Bugs_deleting.html)**: Delete one or multiple bugs within the list view.
 -   **[Viewing related items](/TA_Help/Topics/Bugs.html#section_rkf_vtw_mn)**: View those test modules holding TestArchitect bugs.
 
-**Tip:** To update the TA bug from the fields of its JIRA counterpart, click the **Refresh** button. Note, however, that a minimum interval of 60 seconds between refreshes is imposed for a given TestArchitect Client.
+{{<tip>}} To update the TA bug from the fields of its JIRA counterpart, click the **Refresh** button. Note, however, that a minimum interval of 60 seconds between refreshes is imposed for a given TestArchitect Client.
 
 
 

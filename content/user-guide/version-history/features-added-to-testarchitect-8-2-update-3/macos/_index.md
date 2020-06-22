@@ -10,7 +10,7 @@ keywords: "Release Notes 8.2 Update 3, macOS, What is new, macOS, TestArchitect 
 
 The following new features and improvements are introduced in TestArchitect version 8.2 Update 3 running under macOS.
 
-**Remember:**
+{{<remember>}}
 
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.

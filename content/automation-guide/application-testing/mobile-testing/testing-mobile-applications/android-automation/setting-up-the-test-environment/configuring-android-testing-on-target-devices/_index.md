@@ -10,7 +10,7 @@ keywords: "installation of target devices"
 
 Android developers have the option of hosting and testing their applications either on physical mobile devices \(phones and tablets\) or virtual devices \(emulators\) residing on a host PC.Accordingly, TestArchitect can test applications residing in either environment. For purposes of test automation, the term target device refers to both physical and virtual devices.
 
-**Important:** Android automation is only supported on Windows.
+{{<important>}} Android automation is only supported on Windows.
 
 TestArchitect running on the host PC communicates with the physical device by either USB cable or Wi-Fi. When both USB cable and Wi-Fi connections are present, TestArchitect gives precedence to the Wi-Fi connection. When TestArchitect launches an application for testing, it ascertains the state of connectivity to the physical device. If the Wi-Fi connection is good, TestArchitect uses that as the communication channel. If the Wi-Fi connection is poor, the USB cable is used.
 

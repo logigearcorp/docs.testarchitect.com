@@ -23,17 +23,17 @@ To set up a repository as a replication repository, do the following:
 
 3.  In the Open dialog box, specify the path to the .dat file to be imported.
 
-    **Tip:** You can select multiple repository files to import them in a single operation.
+{{<tip>}} You can select multiple repository files to import them in a single operation.
 
 4.  Click the **Open** button.
 
     The Import Repository dialog box appears and displays information on the selected repository files in the **Import Information** list.
 
-    **Note:** A repository exported from a pre-7.3 version of TestArchitect may have an issue when imported into TestArchitect 7.3 or later, if the original repository name contained any underscore \(\_\) characters. Please note that the suggested name in the **Repository Name** column may not accurately reflect the original name.
+{{<note>}} A repository exported from a pre-7.3 version of TestArchitect may have an issue when imported into TestArchitect 7.3 or later, if the original repository name contained any underscore \(\_\) characters. Please note that the suggested name in the **Repository Name** column may not accurately reflect the original name.
 
 5.  Select the **Import as Replication Repository** check box.
 
-    **Restriction:** Since you are importing the repository as a replication, you are not allowed to modify the default name in the **Repository Name** field.
+{{<restriction>}} Since you are importing the repository as a replication, you are not allowed to modify the default name in the **Repository Name** field.
 
     ![](/images/TA_Administration/Images/Import_repo_rep_dlg.png)
 
@@ -41,7 +41,7 @@ To set up a repository as a replication repository, do the following:
 
     A status bar indicating the progress of the import is visible in the bottom left corner of the Import Repository dialog box.
 
-    **Note:** If the status of the imported repository files is Error, please refer to [Troubleshooting repository import](/TA_Administration/Topics/adm_Importing_repository_troubleshooting.html).
+{{<note>}} If the status of the imported repository files is Error, please refer to [Troubleshooting repository import](/TA_Administration/Topics/adm_Importing_repository_troubleshooting.html).
 
     When the import process finishes, a successful notification message replaces the progress bar in the status area. The successfully imported repositories display a status of Done.
 
@@ -74,7 +74,7 @@ To set up a repository as a replication repository, do the following:
         ![](/images/TA_Administration/Images/Import_repo_replication_dlg.png)
 
 
-**Remember:** When your replication repository is down \(not running\), you must switch to the primary repository to continue your work.
+{{<remember>}} When your replication repository is down \(not running\), you must switch to the primary repository to continue your work.
 
 ![](/images/TA_Administration/Images/admin_RS_dlg_replication_5.png)
 

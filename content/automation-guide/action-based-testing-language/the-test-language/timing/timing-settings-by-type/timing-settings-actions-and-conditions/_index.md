@@ -12,7 +12,7 @@ A summary of the relationship between timing settings, action types, and associa
 
 The following table summarizes the relationship between types of actions and the applicable time settings, the type of condition or precondition involved, and the possible results of the tests of those conditions/preconditions:
 
-**Note:** See [the table](/TA_Automation/Topics/timing_summary.html#imgtbl_summary_actions_timesettings_results) in [the summary](/TA_Automation/Topics/timing_summary.html) for a more detailed look at the relationships between action types, timing settings, preconditions, conditions, and results.
+{{<note>}} See [the table](/TA_Automation/Topics/timing_summary.html#imgtbl_summary_actions_timesettings_results) in [the summary](/TA_Automation/Topics/timing_summary.html) for a more detailed look at the relationships between action types, timing settings, preconditions, conditions, and results.
 
 ![](/images/TA_Automation/Images/timing_tbl_action_types-time_settings-results.png)
 

@@ -10,7 +10,7 @@ keywords: "integration, Zephyr"
 
 Zephyr® is a powerful end-to-end test management tool that complements the test creation and automation capabilities of TestArchitect™. LogiGear provides an integration solution for Zephyr to harness the full potential of both TestArchitect and Zephyr.
 
-**Important:** TestArchitect-Zephyr integration supports the following versions of Zephyr.
+{{<important>}} TestArchitect-Zephyr integration supports the following versions of Zephyr.
 
 -   [6.2](https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/550633474/6.2+Release+Notes)
     -   [Zephyr Cloud](https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/263521484/Zephyr+Enterprise+Cloud+Requirements)

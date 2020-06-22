@@ -22,7 +22,7 @@ The start program action could not complete since the connection between your de
     2.  If asked, as before, to verify that you trust the connected computer: tap **Trust**.
     3.  Start iTunes on the test controller machine and ensure that your connected iOS device appears under **Devices** heading in iTunes.
 
-        **Note:** Once your iOS device is recognized in iTunes, TestArchitect is also able to detect it.
+{{<note>}} Once your iOS device is recognized in iTunes, TestArchitect is also able to detect it.
 
 
 

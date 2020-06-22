@@ -50,7 +50,7 @@ This action may be used within the following project items:test modules and user
     -   Command lines that lets you communicate with a connected iOS device.
 -   execute command works synchronously: that is, it causes test execution to wait for the specified command to finish before control is returned to the test. To execute commands asynchronously – that is, launch a command or application and continue with the test run without waiting – precede the contents of your command with the start command \(see Example - Case 2\).
 
-    **Tip:** You can view the full syntax of the start command by typing start /? in the command prompt window.
+{{<tip>}} You can view the full syntax of the start command by typing start /? in the command prompt window.
 
 -   If you want to write the command output to a file, rather than to the variable defined in the variable argument, use the redirect command output \(\>\) operator in your command string. For example, to redirect a directory listing to the file dirlist.txt:
 

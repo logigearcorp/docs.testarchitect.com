@@ -12,7 +12,7 @@ How to install TestArchitect on a Macintosh system.
 
 Contact LogiGear Sales to obtain the correct compressed TestArchitect installation file \(.zip\) for your system.
 
-**Remember:**
+{{<remember>}}
 
 -   If this is an upgrade, it is strongly recommended that you back up any existing repositories you may have prior to upgrading to this version of TestArchitect.
 -   It is recommended that you install TestArchitect from the administrator user access account.

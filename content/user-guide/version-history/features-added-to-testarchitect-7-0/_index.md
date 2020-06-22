@@ -10,9 +10,9 @@ keywords: "what's new, TestArchitect 7.0"
 
 This topic describes the changes made in TestArchitect version 7.0.
 
-**Note:** The following TestArchitect enhancements are currently stable on Windows platforms only.
+{{<note>}} The following TestArchitect enhancements are currently stable on Windows platforms only.
 
-CAUTION:
+{{<caution>}}
 
 It is strongly recommended that you back up all repositories before upgrading to the latest version of TestArchitect.
 

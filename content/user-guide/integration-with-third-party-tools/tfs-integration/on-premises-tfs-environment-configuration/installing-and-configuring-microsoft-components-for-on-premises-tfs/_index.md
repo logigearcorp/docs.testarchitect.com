@@ -10,7 +10,7 @@ keywords:
 
 This section and its subtopics list out a number of components of Microsoft's Application Lifecycle Management \(ALM\) environment that need to be installed and configured for on-premises TFS.
 
-**Note:** It is highly recommended that you review the following topics in order. This will ensure that you are able to successfully run automated TFS tests with Microsoft Test Manager \(MTM\) before integrating with TestArchitect.
+{{<note>}} It is highly recommended that you review the following topics in order. This will ensure that you are able to successfully run automated TFS tests with Microsoft Test Manager \(MTM\) before integrating with TestArchitect.
 
 1.  [Installing the Microsoft components](/TA_Help/Topics/ug_MTM_VS_components.html)  
 A fully functional TA-TFS integrated system requires that a number of components of Microsoft's Application Lifecycle Management \(ALM\) environment be installed and configured.

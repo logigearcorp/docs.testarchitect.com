@@ -14,7 +14,7 @@ WebDriver allows you to create automated tests that simulate user interaction. F
 
 2.  Download and install WebDriver into the test machine.
 
-    **Note:** Ensure that you download the version supported by TestArchitect. \([Learn more](/TA_Automation/Topics/Web_automation.html#li.Edge).\)
+{{<note>}} Ensure that you download the version supported by TestArchitect. \([Learn more](/TA_Automation/Topics/Web_automation.html#li.Edge).\)
 
     -   If you download the .msi file, proceed to step \#3.
     -   If you download the .exe file, proceed to step \#4.

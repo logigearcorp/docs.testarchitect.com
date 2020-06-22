@@ -25,7 +25,7 @@ Note that, while it is necessary that you[implement the hello action in Java](/T
 
     The new action appears in your test editor, displaying a line declaring your who argument to be of type STRING.
 
-    **Note:** This action serves as your stub action. It will now appear in the action autocomplete list in the test editor, and its argument name will appear as a header for the action.
+{{<note>}} This action serves as your stub action. It will now appear in the action autocomplete list in the test editor, and its argument name will appear as a header for the action.
 
 4.  Now, create a test module, which you will use to call your action.
 5.  In the TestArchitect explorer tree, select any item within the current project, then click **Create new test module** ![](/images/TA_Tutorials/Images/btn.TAC_toolbar.CreateTestModule.png) in the toolbar.

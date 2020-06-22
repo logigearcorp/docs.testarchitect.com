@@ -12,7 +12,7 @@ An interface entity list view displays a list of all interface entities containe
 
 On the TestArchitect explorer tree, when you double-click an interface node, and then select the **Interface Entities** tab. TestArchitect displays in the main panel a list view of the interface entities belonging to that interface. \([Learn more](/TA_Help/Topics/Interface_entities_and_elements.html#section.Interface_entity).\)
 
-**Note:** Interface entity list views are also available for subfolders of each interface node.
+{{<note>}} Interface entity list views are also available for subfolders of each interface node.
 
 ![](/images/TA_Help/Images/Listview_interface_entity.png)
 
@@ -26,7 +26,7 @@ You can find various common operations that can be performed on interface entity
 
 From an interface entity list view, you can open an interface entity in the editor by right-clicking its list view entry, then clicking **Open**.
 
-**Tip:** You can also open multiple interface entities by using your keyboard's Shift key to select a contiguous range of interface entities \(or Control to select multiple noncontiguous interface entities\); then right-click the selection, and click Open.
+{{<tip>}} You can also open multiple interface entities by using your keyboard's Shift key to select a contiguous range of interface entities \(or Control to select multiple noncontiguous interface entities\); then right-click the selection, and click Open.
 
 ## Revision control
 
@@ -50,7 +50,7 @@ Repository saves pertinent information on a project item at every check-in. This
 -   From an interface entity list view, you can delete desired interface entity from one interface entity folder and paste it to another interface entity folder by performing **Cut** and **Paste** operations from the context menu.
 -   The **Copy** and **Paste** operations from the context menu allow you to create a duplicate of the selected interface entity.
 
-    **Tip:**
+{{<tip>}}
 
     -   In addition to the conventional cut-and-paste and copy-and-paste from the context menu, you can drag and drop a project item, or a selection of items, from a list view into a folder or node of the same type in the TestArchitect explorer tree.
     -   Performing drag-and-drop within the same project is equivalent to cutting and pasting. Performing a drag-and-drop across different projects, on the other hand, is a copy-and-paste operation.
@@ -67,7 +67,7 @@ By selecting **Search** from the context menu, you can search all test modules a
 
 **Fastpath:** Ctrl + H
 
-**Tip:** You can include [supplier project\(s](/TA_Help/Topics/Project_subscription.html)\) in your search for the given interface entity by selecting the **Including supplier project\(s\)** check box in the Search dialog box.
+{{<tip>}} You can include [supplier project\(s](/TA_Help/Topics/Project_subscription.html)\) in your search for the given interface entity by selecting the **Including supplier project\(s\)** check box in the Search dialog box.
 
 ## Exporting an interface entity
 

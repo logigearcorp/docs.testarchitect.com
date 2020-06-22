@@ -12,7 +12,7 @@ This topic describes a possible issue that may arise when you use the navigate b
 
 A common test scenario is to navigate to a given URL in either a newly launched instance of Safari, or within an existing Safari window.In both of these cases, if your test calls the [delete cookies](/TA_Automation/Topics/bia_delete_cookies.html) built-in action right after the [navigate](/TA_Automation/Topics/bia_navigate.html) action, the deletion may be inadvertently applied to the previous page session \(hence that website\), instead of the target URL page session.
 
-**Note:** Note that, by definition, the readiness of a webpage is established by its [Document.readyState](https://developer.mozilla.org/en-US/docs/Web/API/document.readyState) property. A value of complete indicates that the page is ready.
+{{<note>}} Note that, by definition, the readiness of a webpage is established by its [Document.readyState](https://developer.mozilla.org/en-US/docs/Web/API/document.readyState) property. A value of complete indicates that the page is ready.
 
 To avoid this problem, it is highly recommended that your test procedure [wait for the control](/TA_Automation/Topics/bia_wait_for_control.html) until it is available before invoking the delete cookies action. In this manner, you are assured that the action, and all subsequent ones, are applied to the target URL page session.
 

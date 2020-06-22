@@ -10,7 +10,7 @@ keywords: "Android, capturing interfaces, interfaces, capturing on Android"
 
 The Interface Viewer looks for the presence of an available Android device. If found, it displays the elements of its graphical user interface.
 
-**Important:** Android automation is only supported on Windows.
+{{<important>}} Android automation is only supported on Windows.
 
 Ensure that the following requirements are met:
 
@@ -34,12 +34,12 @@ Do the following to capture interface entities/elements of the re-signed applica
 
     The Interface Viewer displays the associated GUI tree \(the GUI environment for the AUT on the Android device\).
 
-    **Note:** Only one AUT can be automated at a time. Therefore only one application’s UI environment is displayed.
+{{<note>}} Only one AUT can be automated at a time. Therefore only one application’s UI environment is displayed.
 
 
 The processes for mapping Android windows and GUI controls to interface entities and elements, naming items using TA name, and saving interface definitions, are essentially the same as described in [Capturing interface definitions](/TA_Help/Topics/Interface_def_capturing.html) and [Naming interface elements](/TA_Help/Topics/Interface_def_naming.html).
 
-**Note:**
+{{<note>}}
 
 -   You may find it difficult to capture controls with Class View in the Interface Viewer, especially when you do not know the exact class of the desired controls. It is recommended that you switch to the Hierarchy View to capture your desired controls. Use the **View** menu to switch between Class View and Hierarchy View.
 

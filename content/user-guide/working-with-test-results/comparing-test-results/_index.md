@@ -22,7 +22,7 @@ TestArchitect offers two methods of comparing test results: [Compare Results](/T
 
 When comparing to a baseline result, you must designate a test result stored in the repository as a baseline, and this baseline must be the result from the same test module or the same test module variation. Only one test result can be designated at a time as the baseline for a given test module, but you can change the baseline at any time. All future runs of that test are then compared against this baseline. Each variation of a test is treated as a separate test module; therefore, each set of test variations can have its own baseline. For example, one baseline result for the test module `Calculation` can coexist alongside a separate baseline for `Calculation {1.1}`.
 
-**Note:**
+{{<note>}}
 
 -   Baseline comparison for a given set of test variations is made against the baseline specific to that variation; if no such baseline exists, no baseline comparison can be made.
 -   More than one baseline can be set. However, among test results belonging to a given test module, only one test result can be designate as the baseline at a time.

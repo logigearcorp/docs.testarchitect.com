@@ -30,15 +30,15 @@ Built-in actions are automatically available with your installation of TestArchi
 
 Built-in actions cannot be modified by you. They can, however, be used as building blocks of custom user actions that you may create in the form of [user-defined](/TA_Glossary/Topics/glossaryHighLevelAction.html) or [user-scripted](/TA_Glossary/Topics/glossaryScriptedAction.html) actions.
 
-**Tip:** When writing your test, if you do not know which built-in actions to use, it is suggested you use the TestArchitect [Action Recorder](/TA_Help/Topics/Creating_and_using_actions_AR.html), a tool to record your manual mouse and keyboard operations when testing an application. The interactive operations generate the corresponding built-in actions.
+{{<tip>}} When writing your test, if you do not know which built-in actions to use, it is suggested you use the TestArchitect [Action Recorder](/TA_Help/Topics/Creating_and_using_actions_AR.html), a tool to record your manual mouse and keyboard operations when testing an application. The interactive operations generate the corresponding built-in actions.
 
-**Note:** See [Built-in actions](/TA_Automation/Topics/bia_Built_in_actions.html) for a complete reference to TestArchitect's library of built-in actions.
+{{<note>}} See [Built-in actions](/TA_Automation/Topics/bia_Built_in_actions.html) for a complete reference to TestArchitect's library of built-in actions.
 
 ## Showing applicable built-in actions for windows/controls
 
 From Solution Explorer, drag an interface entity or interface element into a cell in an empty row in the editor to view a drop-down list of applicable built-in actions. After selecting an action from the drop-down list, TestArchitect automatically completes the syntax and the argument cells of the interface entity or interface element.
 
-**Note:** This feature is only available in the test editor for test modules and [user-defined actions](/reuse/reuse.High_level_actions.html).
+{{<note>}} This feature is only available in the test editor for test modules and [user-defined actions](/reuse/reuse.High_level_actions.html).
 
 
 

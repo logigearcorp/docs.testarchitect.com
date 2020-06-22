@@ -23,7 +23,7 @@ Do the following to change user account to start the repository server with diff
     -   Local System Account: \(Default\) A predefined local account used by the service control manager. This account has privileges on the local computer, acts as the computer on the network, but might have limited network access rights \([Learn more](https://msdn.microsoft.com/en-us/library/windows/desktop/ms684190(v=vs.85).aspx).\)
     -   This account: Specify a local user account, or a domain user account. Ensure that the account belongs to the administrator group of the given machine to allow the Repository Server service to start successfully.
 
-        **Note:**
+{{<note>}}
 
         -   A local user account has the following name format: ".\\username"\). For example:
 

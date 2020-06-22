@@ -32,7 +32,7 @@ To work on a given project, you must create a connection to its host repository,
 
     3.  Select the desired server from the **Server** drop-down list.
 
-4.  **Note:** Once a repository server is selected in the **Server** drop-down list, the available repositories on that server are displayed in the **Repository** list.
+4.{{<note>}} Once a repository server is selected in the **Server** drop-down list, the available repositories on that server are displayed in the **Repository** list.
 
     In the **Repository** list, select the repository you want to connect to. TestArchitect supports connecting to multiple repositories at a time. To do so, select multiple choice in **Repository** list and click **OK**.
 
@@ -51,9 +51,9 @@ Your TestArchitect Client session is now connected to the chosen server and repo
 
 **Cancel Action**: This action allows you to cancel adding a repository. Additionally, you can use button **Close** to cancel all the repositories.
 
-**Note:** Cancel only works if repository is still in the queue, meaning the repository has status **On hold**.
+{{<note>}} Cancel only works if repository is still in the queue, meaning the repository has status **On hold**.
 
-**Important:**
+{{<important>}}
 
 If the limit number of concurrent connections to the repository servers is exceeded under your specific TestArchitect license, you will receive the following message:
 

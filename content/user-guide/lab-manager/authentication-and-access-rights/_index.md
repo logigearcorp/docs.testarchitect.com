@@ -17,7 +17,7 @@ Lab Manager offers two levels of access: administration which is granted to the 
 -   When you log in as a user of a repository for which you have administration privileges, you can view TestArchitect controllers/devices and their test sessions, add and delete controllers/devices, and terminate test runs on any controller/device.
 -   If you log in to Lab Manager with non-administration credentials, you have full viewing rights to the information available in the current session, but you cannot reconfigure the session such as adding or removing controllers/devices and terminating test processes.
 
-**Note:** Icons for controller/device modification, test termination and configuration are unavailable on the Lab Manager Toolbar if you logged in to the session as a non-administration user.
+{{<note>}} Icons for controller/device modification, test termination and configuration are unavailable on the Lab Manager Toolbar if you logged in to the session as a non-administration user.
 
 ![](/images/TA_Help/Images/ug_labmanager01.png)
 

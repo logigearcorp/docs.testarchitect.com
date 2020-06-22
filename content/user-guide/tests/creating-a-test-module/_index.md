@@ -37,7 +37,7 @@ To create a test module for a project:
 3.  Click **Create**.
 
 
-**Important:**
+{{<important>}}
 
 If the limit number of created tests modules is exceeded under your specific TestArchitect license, you will receive the following message:
 

@@ -40,7 +40,7 @@ Return a Boolean value to indicate whether the specified control is found to exi
 
     \(Optional\) Maximum wait time for the control to appear \(units: seconds; default = the current value of built-in setting object wait probe\).
 
-    **Note:** time out is an unsupported argument and hence invisible. To use it, you must specify both the value and the header “time out” in the cells to the right of the variable argument.
+{{<note>}} time out is an unsupported argument and hence invisible. To use it, you must specify both the value and the header “time out” in the cells to the right of the variable argument.
 
 
 ## Valid contexts

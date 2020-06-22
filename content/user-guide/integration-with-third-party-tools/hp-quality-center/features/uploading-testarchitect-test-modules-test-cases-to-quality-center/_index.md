@@ -17,7 +17,7 @@ Ensure that you have already taken the following steps:
 -   [Registered the Quality Center server with TestArchitect](/TA_Help/Topics/Integration_QC_connecting_repo_to_QC_server_step_1.html).
 -   [Mapped the TestArchitect project](/TA_Help/Topics/Integration_QC_connecting_repo_to_QC_server_step_2.html) containing the test cases of interest to the Quality Center project.
 
-**Note:**
+{{<note>}}
 
 TestArchitect relies on test modules that are typically developed and executed as standalone units. Each test module is comprised of a sequence of test cases. By contrast, the standard unit of test development and execution in Quality Center is the test, which more closely corresponds to a test case in TestArchitect than a test module. Hence each uploaded TestArchitect test case takes the form of a Quality Center test. In general, the following correspondences are used when moving test assets between the two systems:
 

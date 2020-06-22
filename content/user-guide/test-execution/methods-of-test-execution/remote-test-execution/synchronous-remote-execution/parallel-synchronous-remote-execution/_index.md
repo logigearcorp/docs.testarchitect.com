@@ -10,7 +10,7 @@ keywords: "synchronous remote execution, parallel synchronous remote execution, 
 
 In some cases it is necessary to test applications, or multiple instances of an application, for their interactions with each other, or for their joint effect on some shared resource such as a database. Such interactivity may be time sensitive and hence it is essential that the various test sequences running on each controller not be conducted in a simple one-after-the-other fashion.
 
-**Important:**
+{{<important>}}
 
 -   Before terminating the connection from the lead machine to a deputy machine with the disconnect deputyaction, a wait for deputy or wait for all deputies action should be invoked to ensure that the deputy machine has finished its tasks.
 -   In additional, before declaring wait for deputy/wait for all deputies and disconnect deputy, declare use lead to indicate that those actions are performed on the lead machine.

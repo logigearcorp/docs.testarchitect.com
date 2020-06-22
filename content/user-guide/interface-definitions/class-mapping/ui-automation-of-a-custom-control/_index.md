@@ -10,7 +10,7 @@ keywords: "scanning controls, WPF automation, scanning controls, UI Automation p
 
 You have options to have TestArchitect display more classes rather than display only the classes containing UI Automation peers.
 
-**Important:** Load UIA controls only setting is only available for the following applications:
+{{<important>}} Load UIA controls only setting is only available for the following applications:
 
 -   Windows Presentation Foundation \(WPF\)
 

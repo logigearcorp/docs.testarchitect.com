@@ -28,7 +28,7 @@ In some cases, the [condition/precondition](/TA_Automation/Topics/timing_precond
 
     Applies to UI items such as tree nodes, menu items, list items and table cells.
 
-    **Note:** item wait is not exclusively used as a critical wait timer. See note below for [object wait probe](/TA_Automation/Topics/bis_object_wait_probe.html).
+{{<note>}} item wait is not exclusively used as a critical wait timer. See note below for [object wait probe](/TA_Automation/Topics/bis_object_wait_probe.html).
 
 -   **[property wait](/TA_Automation/Topics/bis_property_wait.html)**
 
@@ -37,7 +37,7 @@ In some cases, the [condition/precondition](/TA_Automation/Topics/timing_precond
 
 The example below demonstrates three critical wait settings - [window wait](/TA_Automation/Topics/bis_window_wait.html), [object wait](/TA_Automation/Topics/bis_object_wait.html) and [item wait](/TA_Automation/Topics/bis_item_wait.html) - used as timers for preconditions of the [get table cell value](/TA_Automation/Topics/bia_get_table_cell_value.html) action. When executed, the action first looks for the presence of the View Orders window; if it must wait for the window to appear, that wait is governed by the [window wait](/TA_Automation/Topics/bis_window_wait.html) timer. A timeout results in a warning for the test, whereas discovery of the window allows the action to proceed to its next stage. A similar case is true for the next two stages of finding the specified object \(a table\), and the specified item \(a specific cell of the table\).
 
-**Note:** This action, get table cell value, also uses the non-critical timing setting value changed wait. For purposes of this topic, that is ignored here, but is discussed later.
+{{<note>}} This action, get table cell value, also uses the non-critical timing setting value changed wait. For purposes of this topic, that is ignored here, but is discussed later.
 
 ![](/images/TA_Automation/Images/timing_stages_of_get_table_cell_value_01.png)
 

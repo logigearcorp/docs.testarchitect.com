@@ -14,7 +14,7 @@ During a capture session with the Interface Viewer, it is often the case that a 
 
 Note that the Viewer's retention of objects and properties in cache is limited to those objects and properties that were captured prior to the objects being rendered unavailable. Controls of a window are captured when the window node is expanded in the Viewer's UI Explorer panel; however, the properties of each control are only captured when you click on the node for that control. Also keep in mind that, for performance reasons, TestArchitect does not, by default, capture invisible controls and container class controls. \(See [Intake](/TA_Help/Topics/Interface_def_intake.html) for more on this.\)
 
-**Note:** If the currently selected object in the Viewer is one that no longer exists, the Viewer alerts you to that fact with a notification message on the status bar, as illustrated below. It will also alert you if the properties of that object are not available because they were never captured prior to its dismissal.
+{{<note>}} If the currently selected object in the Viewer is one that no longer exists, the Viewer alerts you to that fact with a notification message on the status bar, as illustrated below. It will also alert you if the properties of that object are not available because they were never captured prior to its dismissal.
 
 ![](/images/TA_Help/Images/Viewer_offline_mode_1.png "Offline mode when UI controls have property values")
 

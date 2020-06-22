@@ -24,7 +24,7 @@ To edit the properties of a chart panel on a Dashboard page:
     -   Folder: Select a TestArchitect repository folder containing the report data you want displayed in the new panel.
 4.  If the logged-in user is the owner of the panel being edited, select the **Save current settings** check box to permanently save the new settings, or clear that check box to not save the new settings, which causes the new settings to be discarded once the session expires.
 
-    **Note:** New panel settings are effective for the current Dashboard session whether or not the **Save current settings** check box is selected.
+{{<note>}} New panel settings are effective for the current Dashboard session whether or not the **Save current settings** check box is selected.
 
 5.  After adding customized filters to the panel, if you want to save the new filtering expression\(s\) to a new data profile, click **Save as** on the **Filters** tab and enter the name of the data profile on the **Save setting profile as** text box, then click **Save**.
 

@@ -14,7 +14,7 @@ The TAIntegrationExtensibility class is generated in the Solution Explorer tree 
 
 ![](/images/TA_Help/Images/ug_MTM_TAIntegrationExtensibility.png)
 
-**Remember:**
+{{<remember>}}
 
 -   If you created a TA-TFS project in earlier versions of TestArchitect – that is, prior to version [8.2 Update 3](/TA_ReleaseNotes/DITA_source/Whats_New_8.2_update_3_Windows.html) – your project does not contain the TAIntegrationExtensibility class.
 -   In order to have this class included in your project, you must [upgrade the build assemblies of the TA plug-in](/TA_Help/Topics/ug_MTM_upgrading_assemblies.html). Once the project is successfully upgraded, the TAIntegrationExtensibility class is available for editing.

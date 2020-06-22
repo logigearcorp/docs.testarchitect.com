@@ -10,7 +10,7 @@ keywords: "What is new, TestArchitect 8, what is new"
 
 This topic describes the changes made in TestArchitect version 8.
 
-**Remember:**
+{{<remember>}}
 
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
@@ -39,7 +39,7 @@ This topic describes the changes made in TestArchitect version 8.
 
         -   Devices: iPhone 4S, iPhone 5, iPhone 5C, iPad 2, iPad with Retina display, iPad Air, iPad mini.
         -   [WebView supported](/TA_Automation/Topics/aut_app_testing_mobile_web.html).
-        **Note:**
+{{<note>}}
 
         -   Only apps built with iOS SDK 7 and deployment targets 5, 6 or 7 are supported by this release.
         -   If the app is designed specifically for an iPhone, that app can only be tested on an iPhone device. Likewise for iPad.
@@ -61,7 +61,7 @@ This topic describes the changes made in TestArchitect version 8.
         -   **text view**
         -   **textbox**
         -   **window**
-        **Note:** As of this release, 2 built-in actions, [type](/TA_Automation/Topics/bia_type.html) and [press device buttons](/TA_Automation/Topics/bia_press_device_buttons.html), do not support iOS 7.
+{{<note>}} As of this release, 2 built-in actions, [type](/TA_Automation/Topics/bia_type.html) and [press device buttons](/TA_Automation/Topics/bia_press_device_buttons.html), do not support iOS 7.
 
     -   **New built-in actions support for multi-touch gestures on iOS 7 devices**:
         -   [multi touch tap](/TA_Automation/Topics/bia_multi_touch_tap.html): Tap in multiple locations within a window or control concurrently.
@@ -75,7 +75,7 @@ This topic describes the changes made in TestArchitect version 8.
     -   **Telerik WPF** controls
     -   **Telerik WinForm** controls
     -   **Xceed WPF** controls
-    **Note:** UIA is an accessibility framework that enables Windows applications to provide and consume programmatic information about user interfaces \(UIs\). It provides programmatic access to UI controls, enables assistive technology products, and allows automated test scripts to interact with the UI. For details, see [Microsoft’s UI Automation](http://msdn.microsoft.com/en-us/library/windows/desktop/ee684009(v=vs.85).aspx).
+{{<note>}} UIA is an accessibility framework that enables Windows applications to provide and consume programmatic information about user interfaces \(UIs\). It provides programmatic access to UI controls, enables assistive technology products, and allows automated test scripts to interact with the UI. For details, see [Microsoft’s UI Automation](http://msdn.microsoft.com/en-us/library/windows/desktop/ee684009(v=vs.85).aspx).
 
 -   [**Support for automation on Mozilla Firefox 30**](/TA_Automation/Topics/Web_automation.html).
 -   [**Support for automation on Google Chrome 35**](/TA_Automation/Topics/Web_automation.html).
@@ -94,7 +94,7 @@ This topic describes the changes made in TestArchitect version 8.
 
     -   [GetPictureLocation](/TA_Automation/Topics/abt_AbtGetPictureLocation_AbtEntity.html): Returns the location and dimensions \(left, top, width, height \) of an instance of a specified image within an object's bitmap.
     -   [GetTextCoordinates](/TA_Automation/Topics/abt_AbtGetTextCoordinates_AbtEntity.html): Employs OCR to returns the location and dimensions \(left, top, width, height \) of an instance of a specified bitmap text fragment within an object's bitmap.
-    **Note:** At present, these two methods are supported only in the C\# harness.
+{{<note>}} At present, these two methods are supported only in the C\# harness.
 
 -   Other new built-in actions:
     -   [check tree node menu state](/TA_Automation/Topics/bia_check_tree_node_menu_state.html): Checks the state of a specified menu item on a context menu of a tree node against an expected value.

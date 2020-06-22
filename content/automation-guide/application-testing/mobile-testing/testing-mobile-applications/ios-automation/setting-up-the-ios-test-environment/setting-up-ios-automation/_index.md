@@ -10,7 +10,7 @@ keywords:
 
 Guides to setting up iOS automation which can be executed under TestArchitect.
 
-**Important:** iOS automation is only supported on Windows or macOS hosts.
+{{<important>}} iOS automation is only supported on Windows or macOS hosts.
 
 1.  [Enabling development mode on iOS device](/iOS/Topics/iOS_prerequisite_enable_development_mode.html)  
 Enabling the development mode on an iOS device allows you to install and run applications not originating from Apple's App Store.

@@ -20,13 +20,13 @@ You can store test results across multiple locations as an alternative to a cent
     1.  Click the Browse ![](/images/TA_Help/Images/Browse_btn.png) button next to the **Select a folder** box.
     2.  In the **Open** dialog box, locate the directory containing the preferred .TARESULT files.
 
-        **Note:** You can choose a local directory or a shared network directory.
+{{<note>}} You can choose a local directory or a shared network directory.
 
     3.  Select **Show virtual folder** to show a hierarchical tree structure, or subdirectories,of the mapped .TARESULT file\(s\) if any, in the result tree.
     4.  Select **Show results \(in this folder and sub-folder\)** to show all result\(s\) in subfolder\(s\), if any, in grid view.
     5.  Click the **Create** button.
 
-        **Note:** The hierarchical tree only shows the structure of the mapped folder. You have to double-click on folder to view list of results in grid view.
+{{<note>}} The hierarchical tree only shows the structure of the mapped folder. You have to double-click on folder to view list of results in grid view.
 
 
 ## Edit mapped folders
@@ -49,14 +49,14 @@ In the TestArchitect explorer tree, right-click the mapped folder from which you
 1.  In the TestArchitect explorer tree, right-click the preferred result or sub-folder in the mapped folder. Next, select **Add to Repository** from the context menu.
 2.  In the **Select a Destination** dialog box, browse to the location where you want to place the result/sub-folder, and then click the **OK** button.
 
-    **Note:** You can only add the result marked with the ![](/images/TA_Help/Images/result_icon_01.png) icon and sub-folder to the repository.
+{{<note>}} You can only add the result marked with the ![](/images/TA_Help/Images/result_icon_01.png) icon and sub-folder to the repository.
 
 
 ## Deleting test results
 
 In the TestArchitect explorer tree, right-click the preferred result\(s\) or sub-folder in the mapped folder. Next, select **Delete** from the context menu.
 
-**Attention:**
+{{<attention>}}
 
 -   The mapped folder is irremovable. If you want it to disappear, disconnect from it.
 -   Once you deleted a result/sub-folder in TestArchitect explorer tree, the corresponding file in the directory will be eliminated.
@@ -64,7 +64,7 @@ In the TestArchitect explorer tree, right-click the preferred result\(s\) or sub
     -   The \*.taresult file contains a result \(marked with the ![](/images/TA_Help/Images/result_icon_01.png) icon\) which is removable.
     -   The \*.taresult file is a folder and the results inside \(marked with the ![](/images/TA_Help/Images/result_icon_02.png)icon\) which is irremovable.
 
-**Note:** Support **[Verify Picture Checks...](/TA_Help/Topics/Projects_and_tests_picture_check.html#)**
+{{<note>}} Support **[Verify Picture Checks...](/TA_Help/Topics/Projects_and_tests_picture_check.html#)**
 
 
 

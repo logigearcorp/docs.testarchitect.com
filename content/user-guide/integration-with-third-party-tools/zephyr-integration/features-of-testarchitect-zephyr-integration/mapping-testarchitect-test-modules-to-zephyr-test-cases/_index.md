@@ -10,9 +10,9 @@ keywords: "mapping, TA test module, Zephyr test cases"
 
 Apart from TestArchitect test cases, you can map TestArchitect test modules to Zephyr test cases.
 
-**Note:** Applies to TestArchitect 8.4 Update 3 and higher
+{{<note>}} Applies to TestArchitect 8.4 Update 3 and higher
 
-**Remember:** Each Zephyr test case can only be mapped to a single TestArchitect test module.
+{{<remember>}} Each Zephyr test case can only be mapped to a single TestArchitect test module.
 
 Ensure that you have already taken the following steps:
 

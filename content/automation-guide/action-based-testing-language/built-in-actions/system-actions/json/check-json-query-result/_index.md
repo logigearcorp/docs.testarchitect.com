@@ -37,7 +37,7 @@ This action may be used within the following project items:test modules and user
 -   An empty expected argument results in Pass if the returned JSON is indeed empty; otherwise Fail.
 -   To insert an entire JSON document's content into the json argument, all whitespaces must be removed manually to avoid automation failure.
 
-    **Tip:** You can use various tools to compact JSON data to remove all whitepsaces. For example: [JSON Editor Online](http://www.jsoneditoronline.org/).
+{{<tip>}} You can use various tools to compact JSON data to remove all whitepsaces. For example: [JSON Editor Online](http://www.jsoneditoronline.org/).
 
 -   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 

@@ -14,7 +14,7 @@ Automation Agent Manager is used to install the TestArchitect Automation Agent e
 
 Also, Automation Agent Manager is used to specify WebDriver or GeckoDriver's location for Microsoft Edge, or Mozilla Firefox, respectively.
 
-**Important:**
+{{<important>}}
 
 -   Automation Agent Manager is supported only on the Windows platform.
 -   On the Linux and macOS platforms, if you install a browser after installing TestArchitect Client, and intend to test on that browser, please uninstall and reinstall TestArchitect Client, as that is the only means by which the TestArchitect add-ons can be installed on the browser.

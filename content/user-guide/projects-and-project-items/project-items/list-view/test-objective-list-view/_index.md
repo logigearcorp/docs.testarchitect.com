@@ -24,7 +24,7 @@ You can find various common operations that can be performed on test objective l
 
 You can view detailed information on a given test objective by selecting **Open** from the context menu, and then selecting the **Information** tab.
 
-**Tip:** You can also open multiple test objectives by using your keyboard's Shift key to select a contiguous range of test objectives \(or Control to select multiple noncontiguous test objectives\); then right-click the selection, and click Open.
+{{<tip>}} You can also open multiple test objectives by using your keyboard's Shift key to select a contiguous range of test objectives \(or Control to select multiple noncontiguous test objectives\); then right-click the selection, and click Open.
 
 ## Delete command
 

@@ -10,9 +10,9 @@ keywords: "create, batch file"
 
 You can create a batch file that calls batch files to execute TestArchitect tests simultaneously.
 
-**Note:** Applies to TestArchitect [8.4](/TA_ReleaseNotes/DITA_source/Whats_New_8.4.html) and higher.
+{{<note>}} Applies to TestArchitect [8.4](/TA_ReleaseNotes/DITA_source/Whats_New_8.4.html) and higher.
 
-**Restriction:** As of the current release, there are some following constraints that you should keep in mind.
+{{<restriction>}} As of the current release, there are some following constraints that you should keep in mind.
 
 -   You are unable to run more than one GUI testing harness simultaneously. However, running a single GUI testing harness together with multiple non-GUI testing harnesses, such as, API/DB/CLI testing, etc. is allowable.
 -   Running a harness in debug mode along with multiple harnesses using batch file\(s\) is allowable.

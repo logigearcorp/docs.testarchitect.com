@@ -17,19 +17,19 @@ Ensure that the following basic requirements are met before installing TestArchi
 
 Perform the following procedures on the host machine with the USB cable connected to the Android device:
 
-**Important:** Installation of TestArchitect Agent on an Android device must be performed over a USB connection between the host machine and the device; Wi-Fi is not an option.
+{{<important>}} Installation of TestArchitect Agent on an Android device must be performed over a USB connection between the host machine and the device; Wi-Fi is not an option.
 
 1.  Enable Android device to execute applications from unknown sources by enabling the **Unknown sources** option. \(On a device with Android 4.0 or higher, this option is accessed in **Settings** \> **Security**; on a device with an Android version lower than 4.0, go to **Settings** \> **Applications**\)
 
-    **Note:** Enabling the **Unknown sources** option instructs Android not to reject applications that come from sources other than the Google Play Store.
+{{<note>}} Enabling the **Unknown sources** option instructs Android not to reject applications that come from sources other than the Google Play Store.
 
 2.  Enable the USB connection between the Android device and the host machine. \(On a device with Android 4.0 or higher, enable the **USB debugging** option in **Settings** \> **Developer options**. On one with an Android version lower than 4.0, enable **USB debugging** in **Settings** \> **Applications** \> **Development**\)
 
 3.  When you connect a device running Android 4.2.2 or higher to your computer, the system displays a dialog box asking whether to accept an RSA key that allows debugging through this computer. Click **OK**.
 
-    **Tip:** To skip this dialog box in the future, select the **Always allow from this computer** check box.
+{{<tip>}} To skip this dialog box in the future, select the **Always allow from this computer** check box.
 
-    **Note:** This security mechanism protects user devices because it ensures that USB debugging and other ADB \(Android Debug Bridge\) commands cannot be executed unless you are able to unlock the device and acknowledge the dialog box.
+{{<note>}} This security mechanism protects user devices because it ensures that USB debugging and other ADB \(Android Debug Bridge\) commands cannot be executed unless you are able to unlock the device and acknowledge the dialog box.
 
 4.  In TestArchitect Client, click **Tools** on the toolbar and select **Android Instrumentation Tool**.
 

@@ -25,7 +25,7 @@ You can change the connection port on which a license server listens and grants 
 
     ![](/images/TA_Administration/Images/licenseserver_14.png)
 
-    **Tip:** The **Use Default Port** button is enabled if the current port number is not the default port number.
+{{<tip>}} The **Use Default Port** button is enabled if the current port number is not the default port number.
 
 3.  In the **New Communication Port** text field, enter a new port number, or, if available, click the **Use Default port** button to use the default port number.
 

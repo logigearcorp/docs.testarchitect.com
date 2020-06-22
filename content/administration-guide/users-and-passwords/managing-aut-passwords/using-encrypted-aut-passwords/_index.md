@@ -18,7 +18,7 @@ Suppose, for example, that your test needs to verify the login process of a live
 
     For example: `[[Car Rental password]]`
 
-    **Tip:** There are two methods available for retrieving the **Logical Name**:
+{{<tip>}} There are two methods available for retrieving the **Logical Name**:
 
     -   **Option 1**: Using the Manage Passwords dialog box:
         1.  In the TestArchitect explorer tree right-click the project node and select **Manage Passwords**.

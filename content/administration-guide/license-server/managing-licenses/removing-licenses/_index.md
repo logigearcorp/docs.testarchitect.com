@@ -37,7 +37,7 @@ To remove a set of licenses:
 
     ![](/images/TA_Administration/Images/remove_license_context_menu.png)
 
-    **Restriction:** License removal does not apply to host-based licenses.
+{{<restriction>}} License removal does not apply to host-based licenses.
 
     To remove all the key added by credential information:
 
@@ -63,7 +63,7 @@ To remove a set of licenses:
     The entire license keys relate to the account will be removed.
 
 
-**Tip:** This operation is reversible. If the set of licenses has not yet expired, you can reuse and reinstall the same licenses that you had previously. However, you may only reinstall those licenses to the same license server.
+{{<tip>}} This operation is reversible. If the set of licenses has not yet expired, you can reuse and reinstall the same licenses that you had previously. However, you may only reinstall those licenses to the same license server.
 
 
 

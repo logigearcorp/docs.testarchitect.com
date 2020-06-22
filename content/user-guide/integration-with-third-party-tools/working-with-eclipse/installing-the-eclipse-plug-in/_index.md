@@ -10,7 +10,7 @@ keywords: "Eclipse, installing plug-in, installation, Eclipse plug-in, plug-in, 
 
 The TestArchitect plug-in can be installed into the Eclipse IDE using the **Help** menu in Eclipse, or the **Tools** menu in TestArchitect.
 
-**Restriction:** Integration between TestArchitect™ and the Eclipse™ has been deprecated since TestArchitect version [8.3 Update 2](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_2.html).
+{{<restriction>}} Integration between TestArchitect™ and the Eclipse™ has been deprecated since TestArchitect version [8.3 Update 2](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_2.html).
 
 Ensure that your system meets the following software requirements:
 
@@ -18,7 +18,7 @@ Ensure that your system meets the following software requirements:
 -   A functional Eclipse development environment.
 -   TestArchitect plug-in file for Eclipse is available. Assuming TestArchitect is installed, plug-in file, TAEclipsePlugin.zip, can be found at TA\_INSTALL\_DIR\\plugins\\TAEclipsePlugin.zip
 
-    **Important:** Since TestArchitect version [8.3](/TA_ReleaseNotes/DITA_source/Whats_New_Windows_8.3.html), the TestArchitect Eclipse plug-in works with JDK versions from 1.8.0 to [1.8.0\_91](http://www.oracle.com/technetwork/java/javase/8u91-relnotes-2949462.html).
+{{<important>}} Since TestArchitect version [8.3](/TA_ReleaseNotes/DITA_source/Whats_New_Windows_8.3.html), the TestArchitect Eclipse plug-in works with JDK versions from 1.8.0 to [1.8.0\_91](http://www.oracle.com/technetwork/java/javase/8u91-relnotes-2949462.html).
 
 
 You have two options for installing the Eclipse plug-in:

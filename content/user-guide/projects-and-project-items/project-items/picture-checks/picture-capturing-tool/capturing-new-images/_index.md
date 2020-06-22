@@ -14,7 +14,7 @@ How to capture new images and save them for use as reference images for future p
 
 2.  In the TestArchitect explorer tree, select a test module node, or the **Picture Checks** node. You can also select a subfolder node residing under the **Picture Checks** node.
 
-    **Important:**
+{{<important>}}
 
     -   If the **Picture Checks** node or its subfolder is selected at the time of capture, the captured image is saved to the **Picture Checks** node. This captured image is shared across various test modules in a project \(see [Picture checks](/TA_Help/Topics/Projects_and_tests_picture_check.html) for more details\).
     -   If a test module is selected at the time of capture, the captured image is saved as a regular picture check and this regular picture check is only available within the selected test module. You can view the captured image in the **Picture Checks** tab \(see [Picture checks](/TA_Help/Topics/Projects_and_tests_picture_check.html) for more details\).
@@ -22,7 +22,7 @@ How to capture new images and save them for use as reference images for future p
 
     TestArchitect is minimized and your cursor changes into a crosshair icon, indicating that capture mode is now active.
 
-    **Tip:** In capture mode, the following options are available to you:
+{{<tip>}} In capture mode, the following options are available to you:
 
     -   Click Esc to exit capture mode and return to TestArchitect, or
     -   Hold Ctrl on your keyboard to tell the system not to interpret a mouse click as the start of an image capture. This frees you to use your mouse to navigate to another window before initiating the capture.
@@ -38,7 +38,7 @@ How to capture new images and save them for use as reference images for future p
     -   **Location**: \(Optional\) Leave as default, or click ![](/images/TA_Help/Images/btn.browse-ellipsis.01.png) to save the picture to another location.
     ![](/images/TA_Help/Images/capture_picture_dialog.png)
 
-    **Tip:**
+{{<tip>}}
 
     -   You can make further adjustments to the boundaries of the capture area by clicking and dragging the edges of the red rectangle within the dialog box.
     -   To select the entire captured image, select the **Full Screen** check box.

@@ -13,7 +13,7 @@ ta export is used to export Test Architect items such as repository, project, te
 -   A repository, project or test folder will be exported to a folder
 -   A built-in action, interface entity, test module or test case will be exported to a csv file
 
-**Note:** Applies to TestArchitect 8.4 Update 3 and higher
+{{<note>}} Applies to TestArchitect 8.4 Update 3 and higher
 
 ## Systax
 

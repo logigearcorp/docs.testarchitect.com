@@ -10,7 +10,7 @@ keywords: "test module list view, changing source"
 
 You can change the source IDs of test cases in test case list views.
 
-**Note:**
+{{<note>}}
 
 -   Applies to TestArchitect [8.3 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.html) and higher.
 -   The external tool must be active.

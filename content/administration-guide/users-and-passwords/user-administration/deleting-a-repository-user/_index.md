@@ -16,7 +16,7 @@ To delete an existing TestArchitect user, do the following:
 
 2.  In the Users panel, select a user to be deleted.
 
-    **Restriction:** You are not allowed to delete the administrator user name, since it is a super administrator and a built-in account in TestArchitect.
+{{<restriction>}} You are not allowed to delete the administrator user name, since it is a super administrator and a built-in account in TestArchitect.
 
 3.  Click the **Delete user** button.
 
@@ -26,7 +26,7 @@ To delete an existing TestArchitect user, do the following:
 
 4.  In the dialog box, click **Yes** to confirm the deletion.
 
-    **Note:** If this TestArchitect user name has been mapped to a LDAP user name, the linkage between the two names is also removed.
+{{<note>}} If this TestArchitect user name has been mapped to a LDAP user name, the linkage between the two names is also removed.
 
 
 The selected user is removed.

@@ -10,7 +10,7 @@ keywords: "bugs, workflow, TestArchitect bugs, life cycle, statuses, types, cate
 
 A bug in TestArchitect is a failure in an automation run which impairs or prevents the proper functioning of the automated test, and which can generally be attributed either to a bug in the application under test, or to a problem with the test itself. From hereon, any such bug is referred to as a TestArchitect bug, or TA bug.
 
-**Tip:** For more details on how to work with TA bugs and integrate them with the JIRA bug tracking system, see [JIRA integration](/TA_Help/Topics/JIRA_Integration.html)
+{{<tip>}} For more details on how to work with TA bugs and integrate them with the JIRA bug tracking system, see [JIRA integration](/TA_Help/Topics/JIRA_Integration.html)
 
 ## Workflow
 

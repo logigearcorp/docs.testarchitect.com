@@ -12,7 +12,7 @@ A mobile device software component that must be installed on an [Android](/Andro
 
 Also referred to as: **TA Agent**.
 
-**Note:**
+{{<note>}}
 
 -   Do not confuse with [TestArchitect Automation Agent](/TA_Glossary/Topics/glossaryTAAutomationAgent.html), which is used for web testing, nor with [TestArchitect agent license](/TA_Glossary/Topics/glossaryTAAgentLicense.html), which grants rights to the TestArchitect Controller service.
 

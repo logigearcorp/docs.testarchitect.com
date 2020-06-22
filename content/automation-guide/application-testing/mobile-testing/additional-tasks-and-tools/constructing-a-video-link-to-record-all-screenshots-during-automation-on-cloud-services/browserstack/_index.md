@@ -8,7 +8,7 @@ aliases:
 keywords: "cloud testing, BrowserStack, screenshots, BrowserStack, screenshots, troubleshooting"
 ---
 
-**Note:**
+{{<note>}}
 
 -   The URL on BrowserStack which stores the video recording is as follows. \([Learn more](https://www.browserstack.com/automate/rest-api).\)
 

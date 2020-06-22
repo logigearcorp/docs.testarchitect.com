@@ -16,7 +16,7 @@ Look at the example below:
 
 ![](/images/TA_Tutorials/Images/return_values.tm.01.png)
 
-**Tip:** double chevrons \(\>\>\) in front of q are r have no functional effect. They are just used to imply that the associated arguments will return values.
+{{<tip>}} double chevrons \(\>\>\) in front of q are r have no functional effect. They are just used to imply that the associated arguments will return values.
 
 Line 16 calls the action named division results that perform a division operation. The two values, the operands of a division \(numerator and denominator\) are passed into division results. The remaining other values - the integral quotient \>\>q and the remainder \(modulus\) \>\>r of the division - are received back from the action.
 
@@ -70,7 +70,7 @@ division results    13           5              >>q         >>r
         ```
 
 
-**Note:**
+{{<note>}}
 
 -   By default, lexical scoping is enabled.
 -   The variables q and r are treated as global ones.

@@ -26,7 +26,7 @@ Carry out the following procedure:
 
     ![](/images/TA_Tutorials_Sample_App/Images/ug_taextension_chrome_1.png)
 
-    **Note:** These flags have the following functions:
+{{<note>}} These flags have the following functions:
 
     -   --remote-debugging-port=9222: Enable remote debugging mode over HTTP on the specified port \(9222\). This mode supports the functioning of the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html) and [Identify](/TA_Help/Topics/Interface_def_client_interface_tool_identify.html) tool to capture web controls, and allows for automated tests to run successfully on Google Chrome. This flag is compulsory and the most important; hence, ensure that port 9222 is always available.
     -   --no-first-run: Skip First Run tasks, whether or not it is actually the first run. Specifically, this flag prevents first run in subsequent runs by dropping the First Run beacon, which may otherwise occasionally cause your automation to fail.
@@ -36,7 +36,7 @@ Carry out the following procedure:
     -   --force-renderer-accessibility: Enable the debugging renderer accessibility feature. This flag is required to support testing in a multi-window session, in which more than one Google Chrome instance is open concurrently.
 4.  Click **OK**.
 
-    **Note:** Depending on which version of Google Chrome is in use, the following warning may pop up each time the browser is launched:
+{{<note>}} Depending on which version of Google Chrome is in use, the following warning may pop up each time the browser is launched:
 
     ![](/images/TA_Automation/Images/Chrome_disable_web_security_msg.png)
 

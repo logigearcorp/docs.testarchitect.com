@@ -20,7 +20,7 @@ A context menu appears displaying a set of commands as follows:
 -   **Show information**: Shows the [TestArchitect Controller](/TA_Help/Topics/Controller_management.html) dialog box.
 -   **Show playback toolbar**: Opens a running status dialog box that displays runtime information when a harness or multiple harnesses are running.
 
-    **Tip:** Press a key combination of Ctrl + Alt + S to hide/show the playback toolbar during the automated test.
+{{<tip>}} Press a key combination of Ctrl + Alt + S to hide/show the playback toolbar during the automated test.
 
 -   **Lab Manager Registration**: Registers the TestArchitect Controller to the Lab Manager \(see [Self-registering a controller](/TA_Help/Topics/Lab_manager_self_registering.html) for further information\).
 -   **Settings**: Customizes settings for the running status window, such as its location on screen, the executing test case, etc.
@@ -41,7 +41,7 @@ A context menu appears displaying a set of commands as follows:
 
 -   **Exit**: Terminate controller services and all harnesses run by that controller.
 
-**Restriction:** Keyboard shortcuts for the playback toolbar are not supported on the Linux platform. For the full list of TestArchitect-supported keyboard shortcuts, refer to the [Table of keyboard shortcuts](/TA_Help/Topics/Support_Hotkey.html).
+{{<restriction>}} Keyboard shortcuts for the playback toolbar are not supported on the Linux platform. For the full list of TestArchitect-supported keyboard shortcuts, refer to the [Table of keyboard shortcuts](/TA_Help/Topics/Support_Hotkey.html).
 
 
 

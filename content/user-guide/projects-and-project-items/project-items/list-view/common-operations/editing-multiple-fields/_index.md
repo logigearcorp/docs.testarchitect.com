@@ -12,7 +12,7 @@ You can modify the field values of multiple items in an item list view by select
 
 Ensure that the fields you want to edit are in editable states \(see the table below\) and the fields are listed in the list view.
 
-**Important:** Editing multiple fields in a list view is applicable to all of the item list views, including **Test Modules**, **Test Cases**, **Data Sets**, **Interface Entities**, etc. It does not apply to **Favorites**, **Local results**, **Test Suite**, and **Bugs** list views.
+{{<important>}} Editing multiple fields in a list view is applicable to all of the item list views, including **Test Modules**, **Test Cases**, **Data Sets**, **Interface Entities**, etc. It does not apply to **Favorites**, **Local results**, **Test Suite**, and **Bugs** list views.
 
 |List View|Editable fields|
 |---------|---------------|

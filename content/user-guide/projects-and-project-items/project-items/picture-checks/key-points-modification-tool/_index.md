@@ -10,7 +10,7 @@ keywords: "Pictures, Key Points Modification tool"
 
 The Key Points Modification tool applies a keypoint detection technique to detect matched objects between baseline images and a target images.
 
-**Restriction:** Note that the Key Point Modification tool is not currently supported on Linux and macOS.
+{{<restriction>}} Note that the Key Point Modification tool is not currently supported on Linux and macOS.
 
 -   **[Keypoint object detection](/TA_Automation/Topics/aut_keypoint_detection_method.html)**  
 Understanding and configuring a baseline object for use with picture handling actions employing the keypoint object detection technique.

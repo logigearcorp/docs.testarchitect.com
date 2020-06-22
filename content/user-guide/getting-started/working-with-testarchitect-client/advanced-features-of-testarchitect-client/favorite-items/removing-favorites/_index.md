@@ -21,12 +21,12 @@ To remove favorite items, follow these steps.
     -   Control + left-click to select multiple noncontiguous favorite items.
 3.  Right-click the selection, and then click **Remove** from the context menu.
 
-    **Tip:** You can also click the **Remove** button.
+{{<tip>}} You can also click the **Remove** button.
 
     The selected favorites are removed from the favorites list view.
 
 
-**Note:** When you log in to a repository on another test machine with your account, all changes that you make to your favorite items will instantly show up on that test machine.
+{{<note>}} When you log in to a repository on another test machine with your account, all changes that you make to your favorite items will instantly show up on that test machine.
 
 
 

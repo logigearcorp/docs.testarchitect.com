@@ -21,7 +21,7 @@ Variables act as containers for values that are:
 
 There are two types of variables in TestArchitect: local and global. Whether a variable is local or global is determined by how it is declared, which in turn determines the scope of that variable. A global variable is declared with the [global variable](/TA_Automation/Topics/bia_global_variable.html) action, whereas local variables are declared with [local variable](/TA_Automation/Topics/bia_local_variable.html).
 
-**Note:** Variables in TestArchitect are declared at run-time, not during compilation.
+{{<note>}} Variables in TestArchitect are declared at run-time, not during compilation.
 
 A global variable, once declared within the test run, remains present throughout the execution of all test modules and invoked actions within a test run. If the global variable action is called twice with the same variable name, the second invocation merely assigns a new value to the existing global variable. \(Note, however, that the [set global variable](/TA_Automation/Topics/bia_set_global_variable.html) action is intended specifically for the assigning of new values to existing global variables.\)
 
@@ -42,7 +42,7 @@ In all the above cases, the scope of a given local variable or action argument m
 
 TestArchitect supports both dynamic scoping and lexical scoping of local variables and arguments. In both types, the above rules for the scope of local variables and arguments still apply. Where they differ is in the applicability of scope to called actions.
 
-**Note:** The method of scope binding applied is determined by the built-in [lexical scoping](/TA_Automation/Topics/bis_lexical_scoping.html) setting.
+{{<note>}} The method of scope binding applied is determined by the built-in [lexical scoping](/TA_Automation/Topics/bis_lexical_scoping.html) setting.
 
 -   Lexical scoping: The scope of a TestArchitect local variable or argument does *not* extend to any called actions. For example, as illustrated in the figure below, if local variable x is declared in test case TC01 and TC01 calls action Act1, x is available in TC01, but not in Act1. Likewise, local variable y declared in action Act1 is not available in action Act2.
 
@@ -55,7 +55,7 @@ TestArchitect supports both dynamic scoping and lexical scoping of local variabl
     Since the scope of a local variable is dynamically defined during runtime, it is important to anticipate all dynamic contexts in which that local variable might be used and how scripts may be invoked. For instance, when scripting an action in TestArchitect, you should be aware of when and where that action is used and will be used in the future.
 
 
-**Important:** By default, lexical scoping is in effect for TestArchitect local variables. To switch to dynamic scoping, use the [lexical scoping](/TA_Automation/Topics/bis_lexical_scoping.html) built-in setting.
+{{<important>}} By default, lexical scoping is in effect for TestArchitect local variables. To switch to dynamic scoping, use the [lexical scoping](/TA_Automation/Topics/bis_lexical_scoping.html) built-in setting.
 
 ## Levels of Variable Scope
 
@@ -65,7 +65,7 @@ The scope of a variable determines its lifetime and visibility. TestArchitect su
 
     ![](/images/TA_Automation/Images/variable_use_data_set.02.png)
 
-    **Note:** The name of the local variable inside the [use data set](/TA_Automation/Topics/bia_use_data_set.html)-[repeat for data set](/TA_Automation/Topics/bia_repeat_for_data_set.html) block cannot be the same as the name of the data set columns.
+{{<note>}} The name of the local variable inside the [use data set](/TA_Automation/Topics/bia_use_data_set.html)-[repeat for data set](/TA_Automation/Topics/bia_repeat_for_data_set.html) block cannot be the same as the name of the data set columns.
 
 -   **Test case scope:** A local variable declared within a test case is not available outside of that test case.
 -   **Test module scope**: A local variable declared within a test module is not visible outside of that test module. If it is declared within the [`INITIAL`](/TA_Automation/Topics/bia_initial.html) section of the test module, it is visible in every test cases of the module.
@@ -74,13 +74,13 @@ The scope of a variable determines its lifetime and visibility. TestArchitect su
 
 Using local variables is a good choice for holding temporary values, especially for calculations. Local variables consume memory only when the entity \(test module, test case, or action\) containing them executes. This memory is reclaimed when the TestArchitect interpreter passes outside of the scope of the variable. By contrast, global variables consume memory resources until the entire execution ends.
 
-**Tip:** In general, it is a good practice to declare a variable local and make its scope as narrow as possible. A global variable should be used only when it is necessary that the variable's value be accessible across test modules and action calls.
+{{<tip>}} In general, it is a good practice to declare a variable local and make its scope as narrow as possible. A global variable should be used only when it is necessary that the variable's value be accessible across test modules and action calls.
 
 The names of local variables are not susceptible to naming conflicts. If there is a naming conflict, the variable with narrower scope takes precedence. In the following example, global variable a has scope that extends throughout the entire executing module, but local variable a is limited in scope to test case `TC 01`. Since local variable a has narrower scope inside `TC 01` than global variable a, it is local variable a \(not global variable a\) that is visible within test case `TC 01`, and which is accessed in the report action of line \#18. Hence line \#18 reports the value 10, while line \#23, where global variable a is visible, reports 5.
 
 ![](/images/TA_Automation/Images/Variable_same_name.png)
 
-**Tip:** To explicitly access a global variable’s value, use either the [getglobal\(\)](/TA_Automation/Topics/Expressions_functions_getglobal.html) function or the [set global variable](/TA_Automation/Topics/bia_set_global_variable.html) built-in action.
+{{<tip>}} To explicitly access a global variable’s value, use either the [getglobal\(\)](/TA_Automation/Topics/Expressions_functions_getglobal.html) function or the [set global variable](/TA_Automation/Topics/bia_set_global_variable.html) built-in action.
 
 It is common practice to have an action with a name like initialize to assign values to a number of variables used throughout the remainder of a test run, and perhaps shared by several test modules. Each test module would start with a call to initialize to obtain the latest values for the variables.
 
@@ -88,7 +88,7 @@ It is common practice to have an action with a name like initialize to assign va
 
 During an editing session, entering the *\#* symbol in an empty argument cell triggers an autocomplete pop-up window containing a list of variables thought to be within scope at that position in the action lines. Use the Up and Down arrow keys to select one, should you need it inserted at that point. You can bring back the pop-up list at any further point in the expression by pressing Ctrl + Space.
 
-CAUTION:
+{{<caution>}}
 
 The variables listed in the autocomplete window are purely suggested variables. The editor cannot be certain that the variables it suggests will always be in scope at that point in the test run. It is up to you to ensure that a given variable inserted in an expression will indeed be visible \(within scope\) when the test is run.
 

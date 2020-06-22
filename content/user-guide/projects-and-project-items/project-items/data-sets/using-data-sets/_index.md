@@ -18,7 +18,7 @@ The [use data set](/TA_Automation/Topics/bia_use_data_set.html) action has two a
         -   A data set, zipcodes, is located in the folder **address data** under the **Data** node. The path is: `/address data/zipcodes.`
 2.  The filter argument can contain either a filter expression, or the name of a filter that has been defined \(or will be defined\) in the data set.
 
-**Tip:** In any of the arguments of the action lines following use data set \(up until the first repeat for data set action\), you can use an expression with variables whose names are equivalent to the column headers of the data set. These variables are automatically declared within the scope of the use data set / repeat for data set block.
+{{<tip>}} In any of the arguments of the action lines following use data set \(up until the first repeat for data set action\), you can use an expression with variables whose names are equivalent to the column headers of the data set. These variables are automatically declared within the scope of the use data set / repeat for data set block.
 
 At the end of the sequence of action lines, use the action [repeat for data set](/TA_Automation/Topics/bia_repeat_for_data_set.html). During the test run, this action causes execution to loop back to the use data set line for as long as there are more vectors from the data set available to be used.
 

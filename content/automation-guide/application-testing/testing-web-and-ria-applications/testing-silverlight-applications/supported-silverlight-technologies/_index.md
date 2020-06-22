@@ -23,7 +23,7 @@ You must have Silverlight version 5 installed on the TestArchitect test machine.
 -   HTTPS protocol communication
 -   Windowless mode \(in which a Silverlight plug-in's content is displayed directly by the browser window, rather than in a separate rendering window\).
 
-**Important:**
+{{<important>}}
 
 -   TestArchitect can test only Silverlight applications that are compiled and packed into an application package \(.xap file\) from which a wrapper web page can load the applications. Note that TestArchitect does not currently support Silverlight applications that are loaded by wrapper web pages directly from \*.xaml files containing the applications’ source code.
 -   If HTTPS protocol communication is employed, you must first [install a TestArchitect Certificate Authority](/TA_Automation/Topics/aut_app_testing_Silverlight_apps_installing_CA.html).
@@ -34,7 +34,7 @@ The tested Silverlight applications must run in the following browsers:
 
 -   Internet Explorer version 10 or 11, including Silverlight 5 applications running in both 32 and 64-bit versions of Internet Explorer.
 
-    **Remember:** It is highly recommend that you clear the browser cache and set the page's zoom ratio to 100% before testing. Refer to [Preparing a web browser](/TA_Automation/Topics/aut_app_testing_Silverlight_apps_prepraring_browser.html) for more information.
+{{<remember>}} It is highly recommend that you clear the browser cache and set the page's zoom ratio to 100% before testing. Refer to [Preparing a web browser](/TA_Automation/Topics/aut_app_testing_Silverlight_apps_prepraring_browser.html) for more information.
 
 
 ## Supported desktop operating systems

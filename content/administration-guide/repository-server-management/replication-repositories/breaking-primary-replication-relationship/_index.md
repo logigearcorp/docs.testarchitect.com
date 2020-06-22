@@ -10,7 +10,7 @@ keywords: "repositories, breaking primary replication relationship, breaking pri
 
 In some instances, it may be desirable to break the primary-replication repository relationship.
 
-**Note:** You can remove either a replication server or primary server from the relationship.
+{{<note>}} You can remove either a replication server or primary server from the relationship.
 
 -   **[Removing a replication server](/TA_Administration/Topics/adm_Removing_primary_repication_repository.html)**  
 Procedures for removing a replication server from a primary-replication relationship.

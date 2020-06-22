@@ -12,7 +12,7 @@ The test suite list view displays a list of all test suite items contained in a 
 
 When you double-click the **Test Suites** node in the TestArchitect explorer tree, and then select the **Test suites** tab, TestArchitect opens a list view of test suite items for the selected node in the main panel. \([Learn more](/TA_Help/Topics/Test_suite.html).\)
 
-**Note:** Test suite list views are also available for subfolders of the**Test Suites** node.
+{{<note>}} Test suite list views are also available for subfolders of the**Test Suites** node.
 
 ![](/images/TA_Help/Images/Listview_test_suite.png)
 
@@ -22,13 +22,13 @@ The following operations can be performed on a test suite list view:
 
 You can find various common operations that can be performed on a test suite list view in [Common operations](/TA_Help/Topics/Listview_common_operations.html).
 
-**Restriction:** Editing multiple fields is not applicable to a test suite list view.
+{{<restriction>}} Editing multiple fields is not applicable to a test suite list view.
 
 ## Opening a test suite
 
 Test suites are containers for sets of test modules that reside in the same repository and belong to the same project. You can check which test modules a given test suite contains by right-clicking it in the list view and then clicking **Open**.
 
-**Tip:** You can also open multiple test suites by using your keyboard's Shift key to select a contiguous range of test suites \(or Control to select multiple noncontiguous test suites\); then right-click the selection, and click Open.
+{{<tip>}} You can also open multiple test suites by using your keyboard's Shift key to select a contiguous range of test suites \(or Control to select multiple noncontiguous test suites\); then right-click the selection, and click Open.
 
 ## Executing test suites
 
@@ -43,7 +43,7 @@ You can create a [batch file](/TA_Help/Topics/Test_exec_batch_file.html) from a 
 -   From the test suite list view, you can move a test suite from one test suite folder to another by performing a **cut-and-paste** operation from the context menu.
 -   The **copy-and-paste** operation from the context menu allows you to create a duplicate of the selected test suite.
 
-    **Tip:**
+{{<tip>}}
 
     -   In addition to the conventional cut-and-paste and copy-and-paste from the context menu, you can drag and drop a project item, or a selection of items, from a list view into a folder or node of the same type in the TestArchitect explorer tree.
     -   Performing drag-and-drop within the same project is equivalent to cutting and pasting. Performing a drag-and-drop across different projects, on the other hand, is a copy-and-paste operation.

@@ -10,7 +10,7 @@ keywords: "integration, Zephyr, mapping custom fields, rules"
 
 Custom test case fields in Zephyr can be mapped to user-defined fields in TestArchitect test modules or test cases.Mapping is driven by field names. Fields in Zephyr and TestArchitect are mapped automatically when their names are identical and their data types are compatible. When uploading from TestArchitect to Zephyr, values from TestArchitect user-defined fields are loaded into their corresponding fields in Zephyr. Likewise, values from Zephyr custom test case fields are loaded into the corresponding TestArchitect user-defined fields when importing tests from Zephyr to TestArchitect.
 
-**Important:** TestArchitect-Zephyr integration supports the following versions of Zephyr.
+{{<important>}} TestArchitect-Zephyr integration supports the following versions of Zephyr.
 
 -   [6.2](https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/550633474/6.2+Release+Notes)
     -   [Zephyr Cloud](https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/263521484/Zephyr+Enterprise+Cloud+Requirements)

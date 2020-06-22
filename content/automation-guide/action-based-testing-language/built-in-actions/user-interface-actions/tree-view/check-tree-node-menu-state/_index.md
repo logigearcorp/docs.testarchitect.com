@@ -48,7 +48,7 @@ Check the state of a specified menu item on a context menu of a tree node agains
 
         The menu item is selected.
 
-    **Tip:** Use commas \(,\) as delimiters between expected values of the state property.
+{{<tip>}} Use commas \(,\) as delimiters between expected values of the state property.
 
 -   **x**
 

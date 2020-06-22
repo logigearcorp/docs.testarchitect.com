@@ -25,7 +25,7 @@ Running TA tests from MTM requires two types of associations:
 
     **Fastpath:** Alternatively, click the **Associate** ![](/images/TA_Help/Images/MTM_generate_and_associate_test_method_from_testArchitect_btn.png) button on the Visual Studio toolbar.
 
-    **Note:** If the **Associate** button is not visible on the Visual Studio toolbar, enable the button by right-clicking on the toolbar and selecting **TestArchitect** from the context menu.
+{{<note>}} If the **Associate** button is not visible on the Visual Studio toolbar, enable the button by right-clicking on the toolbar and selecting **TestArchitect** from the context menu.
 
 3.  In the Connect to Team Foundation Server dialog box, select the server to connect to from the **Team Foundation Server** drop-down box, and then choose the correct team project values for **Team Project Collections** and **Team Projects**. Click **Connect** to establish an association between TFS and TestArchitect.
 
@@ -39,7 +39,7 @@ Running TA tests from MTM requires two types of associations:
 
     ![](/images/TA_Help/Images/VS_select_test_to_associate.png)
 
-    **Tip:**
+{{<tip>}}
 
     -   TFS test cases that have not been associated are indicated in GREEN. Whereas, TFS test cases that have been associated are indicated in BLUE. Note that, if you select associated TFS test cases, they will be re-associated.
     -   Filtering TFS test cases:
@@ -76,7 +76,7 @@ Running TA tests from MTM requires two types of associations:
 
 7.  [Check in](https://docs.microsoft.com/en-us/vsts/tfvc/check-your-work-team-codebase?view=vsts#choose-the-files-you-want-to-check-in) your test method on the TFS server.
 
-    **Remember:** For TFS 2017, you are required to explicitly check in the following DLL LogiGear.TestArchitect.TAIntegrationLoader.dll
+{{<remember>}} For TFS 2017, you are required to explicitly check in the following DLL LogiGear.TestArchitect.TAIntegrationLoader.dll
 
     ![](/images/TA_Help/Images/check_in_TA_dll.png)
 
@@ -87,7 +87,7 @@ Microsoft Visual Studio automatically generates C\# code snippets which associat
 
 In the above example, four C\# test methods have been generated \(one method for each test case\) for the four TestArchitect test cases \(TC01, TC02, TC03, and TC04\). Each method consists of a call to RunTestCase, which starts the execution of the TestArchitect test case whose source field maps to the TFS test cases with identifiers 703, 704, 705, and 706 respectively.
 
-**Important:** This task is one that must often be repeated, especially when you have modified mapped TFS test cases. \(For example, you remove or add test cases, or change the order of a test case run.\) When you do so, the association between TFS test cases and Visual Studio test methods/TestArchitect test cases is compromised. Hence, it is necessary that you perform the following steps again:
+{{<important>}} This task is one that must often be repeated, especially when you have modified mapped TFS test cases. \(For example, you remove or add test cases, or change the order of a test case run.\) When you do so, the association between TFS test cases and Visual Studio test methods/TestArchitect test cases is compromised. Hence, it is necessary that you perform the following steps again:
 
 1.  Re-[associate](/TA_Help/Topics/ug_MTM_associate.html) TestArchitect test cases with TFS test cases.
 2.  Check in your project.

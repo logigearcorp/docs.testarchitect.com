@@ -10,7 +10,7 @@ keywords: "cloud testing, Remote TestKit, single device, Safari iOS, Remote Test
 
 From within your action lines, you can control which cloud device your test is to execute on. The built-in assign cloud device action is used to specify a target cloud device upon which the subsequent action lines are to be run.
 
-**Important:** With this method, only a single cloud device is selected and run at a time. You are required to terminate the connection the current device-under-test, before executing the remaining tests on other cloud devices.
+{{<important>}} With this method, only a single cloud device is selected and run at a time. You are required to terminate the connection the current device-under-test, before executing the remaining tests on other cloud devices.
 
 Ensure that the following requirements are met before implementing automated mobile web testing on a cloud device in the Remote TestKit cloud service.
 
@@ -53,7 +53,7 @@ Ensure that the following requirements are met before implementing automated mob
 
 2.  Make a connection to the target cloud device via the [connect cloud device](/TA_Automation/Topics/bia_connect_cloud_device.html) built-in action, as specified by its logical name.
 
-    **Note:** The name is established in advance by the [assign cloud device](/TA_Automation/Topics/bia_assign_cloud_device.html) action, which assigns a logical name to a mobile cloud device.
+{{<note>}} The name is established in advance by the [assign cloud device](/TA_Automation/Topics/bia_assign_cloud_device.html) action, which assigns a logical name to a mobile cloud device.
 
     ```
                            name         session id
@@ -62,7 +62,7 @@ Ensure that the following requirements are met before implementing automated mob
 
 3.  Employ the [use cloud device](/TA_Automation/Topics/bia_use_cloud_device.html) built-in action to use the cloud device to initiate automated tests. The invoked cloud device is specified by its session ID.
 
-    **Note:** The session ID specified in the session id argument is retrieved via the [connect cloud device](/TA_Automation/Topics/bia_connect_cloud_device.html) action.
+{{<note>}} The session ID specified in the session id argument is retrieved via the [connect cloud device](/TA_Automation/Topics/bia_connect_cloud_device.html) action.
 
     ```
                          session id

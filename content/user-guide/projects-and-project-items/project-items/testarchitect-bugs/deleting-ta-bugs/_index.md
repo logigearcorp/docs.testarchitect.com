@@ -16,11 +16,11 @@ TA bugs may be removed from the **Bugs** list view:
 
 2.  Right-click the TA bug you want to delete, and then click **Delete**.
 
-    **Restriction:** Deleting multiple TA bugs is not allowed.
+{{<restriction>}} Deleting multiple TA bugs is not allowed.
 
     The selected TA bug is removed from the bug list view.
 
-3.  **Important:** If you are trying to delete a TA bug that is currently marked in one or more action lines, a warning dialog box is presented:
+3.{{<important>}} If you are trying to delete a TA bug that is currently marked in one or more action lines, a warning dialog box is presented:
 
 ![](/images/TA_Help/Images/Bug_deletion_warning_message.png)
 

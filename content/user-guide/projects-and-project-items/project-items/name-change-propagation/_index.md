@@ -24,13 +24,13 @@ In TestArchitect explorer tree, the following entities can be renamed using the 
 -   test suites,
 -   system nodes, and version nodes of a given variation.
 
-**Restriction:** Built-in actions and local results cannot be renamed.
+{{<restriction>}} Built-in actions and local results cannot be renamed.
 
 The process of modifying all associated references to a renamed entity is known as name change propagation. Renaming an entity automatically updates all applicable action lines, test modules, action definitions, and variations where the entity name appears. For example, if the name of an action is changed, all references to that action's name will also be changed.
 
-**Note:** Name change propagation within a given project item is possible only when that item is in a writable state. \(For example, a test module which includes an action line that calls a just-renamed action must be checked out for name change propagation to succeed in the case of that action line\).
+{{<note>}} Name change propagation within a given project item is possible only when that item is in a writable state. \(For example, a test module which includes an action line that calls a just-renamed action must be checked out for name change propagation to succeed in the case of that action line\).
 
-**Restriction:**
+{{<restriction>}}
 
 Name change propagation is not supported in the TestArchitect test editor. Changing the name of an entity in the Editor window will not change the name of that entity elsewhere. \([Learn more](/TA_Tutorials/Topics/Test_editor_basics.html).\)
 

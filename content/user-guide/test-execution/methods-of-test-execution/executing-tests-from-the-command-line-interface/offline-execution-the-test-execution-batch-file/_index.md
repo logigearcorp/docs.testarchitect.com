@@ -10,7 +10,7 @@ keywords: "executing tests from the command line, command line"
 
 From a TestArchitect client session, you can generate a batch file that invokes the command line tool to perform your tests.
 
-**Note:** The following content discusses the batch files that are typically created in the Windows environment, and hence uses commands and other keywords that are specific to Windows. The batch files created under Linux and macOS are, however, quite similar.
+{{<note>}} The following content discusses the batch files that are typically created in the Windows environment, and hence uses commands and other keywords that are specific to Windows. The batch files created under Linux and macOS are, however, quite similar.
 
 ## Running on a single controller
 

@@ -20,7 +20,7 @@ To assign projects and permissions to a TestArchitect user, do the following:
 
 4.  In the Groups panel, choose roles for the user in that project by selecting the check boxes of the appropriate functional group\(s\).
 
-    **Note:**
+{{<note>}}
 
     -   The default functional group for each user in a project is guests.
     -   You can choose more than one functional group for a user in a project.

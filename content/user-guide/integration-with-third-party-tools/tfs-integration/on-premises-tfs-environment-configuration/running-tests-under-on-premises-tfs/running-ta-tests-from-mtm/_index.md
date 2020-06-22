@@ -30,7 +30,7 @@ Ensure that you have already taken the following steps:
 -   Created and queued TFS team builds. \([Learn more](/TA_Help/Topics/ug_MTM_test_execution_creating_team_builds.html).\)
 -   Created and configured test plans. [\(Learn more](/TA_Help/Topics/ug_MTM_test_execution_configuring_test_plans.html).\)
 
-**Important:** When running an automated test, the execution of every single TFS test case entails the execution of both the [INITIAL](/TA_Automation/Topics/bia_initial.html) and [FINAL](/TA_Automation/Topics/bia_final.html) sections, if any. For example, the execution of test case \#01 is preceded by the execution of the INITIAL section, and followed by the FINAL section; the same is true for test case \#02, and each subsequent test case.
+{{<important>}} When running an automated test, the execution of every single TFS test case entails the execution of both the [INITIAL](/TA_Automation/Topics/bia_initial.html) and [FINAL](/TA_Automation/Topics/bia_final.html) sections, if any. For example, the execution of test case \#01 is preceded by the execution of the INITIAL section, and followed by the FINAL section; the same is true for test case \#02, and each subsequent test case.
 
 1.  Run MTM and connect it to the team project from TFS where your project resides.
 
@@ -46,7 +46,7 @@ Ensure that you have already taken the following steps:
 
     The selected test case must be of the automated type. \(That is, the value of **Automated** must be Yes.\)
 
-    **Note:** If you want to run a test in a different environment or with different test settings, choose **Run with options**.
+{{<note>}} If you want to run a test in a different environment or with different test settings, choose **Run with options**.
 
     The TestArchitect Execution dialog box appears.
 
@@ -54,17 +54,17 @@ Ensure that you have already taken the following steps:
 
 4.  In the dialog box, enter the requested information, as described [here](/TA_Help/Topics/ug_TestArchitect_execution_dialog.html).
 
-    **Remember:**
+{{<remember>}}
 
     -   To save all defined configurations, click the **Save** button in the TestArchitect Execution dialog box.
     -   By default, the TestArchitect Execution dialog box only appears on the first run. If and when the configurations saved from the previous run are no longer valid, the dialog box reappears on the subsequent run.
 5.  In the TestArchitect Execution dialog box, click **Run** to execute the tests.
 
-    **Important:** If you are executing tests for the first time, you are prompted to enter your TestArchitect license server information. Enter the required information in the dialog box. If the specified license server is reached successfully, or the trial key is validated, the provided license information is stored. From then on, you will be able to execute tests without again being prompted for this information.
+{{<important>}} If you are executing tests for the first time, you are prompted to enter your TestArchitect license server information. Enter the required information in the dialog box. If the specified license server is reached successfully, or the trial key is validated, the provided license information is stored. From then on, you will be able to execute tests without again being prompted for this information.
 
     ![](/images/TA_Help/Images/Licensing_run_external_tools.png)
 
-    CAUTION:
+   {{<caution>}}
 
     MTM's automated tests settings include two timeout settings for imposing limits on automated test times. If these settings are enabled, you must ensure that they meet or exceed the maximum expected test times for your tests. These settings are available under MTM's Lab Center, under **Test Settings** \> **Timeouts**:
 
@@ -73,7 +73,7 @@ Ensure that you have already taken the following steps:
     -   The first setting, **Abort a test run if the total time exceeds:**, when enabled via the check box, attempts to enforce a ceiling on the total run time of your test run. Should you set a value here and your test run exceeds it, your test is not aborted or directly affected in any way. However, your test results will not be uploaded to TFS.
     -   The setting **Mark an individual test as failed if its execution time exceeds:** is applied to each individual test of your test run. Hence, if it is used \(which we advise against\), you should ensure that it exceeds the maximum possible test time of your longest test of the test run set.
 
-        CAUTION:
+       {{<caution>}}
 
         If this setting is enabled and any one of your tests does exceed its value, it may have the effect of corrupting the transferred results of other tests in the set.
 
@@ -82,13 +82,13 @@ A test run panel appears showing the status of the running test. Initially, the 
 
 ![](/images/TA_Help/Images/MTM_results.png)
 
-**Important:** When running an automated test, the execution of every single TFS test case entails the execution of both the [INITIAL](/TA_Automation/Topics/bia_initial.html) and [FINAL](/TA_Automation/Topics/bia_final.html) sections, if any. For example, the execution of test case \#01 is preceded by the execution of the INITIAL section, and followed by the FINAL section; the same is true for test case \#02, and each subsequent test case.
+{{<important>}} When running an automated test, the execution of every single TFS test case entails the execution of both the [INITIAL](/TA_Automation/Topics/bia_initial.html) and [FINAL](/TA_Automation/Topics/bia_final.html) sections, if any. For example, the execution of test case \#01 is preceded by the execution of the INITIAL section, and followed by the FINAL section; the same is true for test case \#02, and each subsequent test case.
 
 Additionally, the test run results are generated, and then uploaded into the **Attachment** sections as HTML attachment file\(s\).
 
 ![](/images/TA_Help/Images/MTM_Attachement.png)
 
-**Tip:**
+{{<tip>}}
 
 -   Right-click the attachment file and select **Open** to view the test results in a browser.
 -   The layout of the generated test results when test cases are executed in MTM is similar to the layout displayed when the same test cases are executed in TestArchitect.

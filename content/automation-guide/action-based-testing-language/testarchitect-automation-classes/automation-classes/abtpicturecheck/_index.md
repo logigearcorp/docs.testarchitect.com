@@ -10,7 +10,7 @@ keywords: "methods of abt, AbtPictureCheck, AbtPictureCheck (methods)"
 
 Object class representing a picture check.
 
-**Note:** This class and its associated methods are currently supported only by the C\# harness.
+{{<note>}} This class and its associated methods are currently supported only by the C\# harness.
 
 ## Workflow Implementation
 

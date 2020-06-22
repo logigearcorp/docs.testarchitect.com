@@ -44,12 +44,12 @@ New license keys or credential information received from the LogiGear sales team
 
     ![](/images/TA_Administration/Images/license_add_account_3.png)
 
-    **Note:**
+{{<note>}}
 
     -   If the license server is stopped, click **Start** ![](/images/TA_Administration/Images/licenseserver_12.png) on the toolbar to restart it.
     -   Repeat the procedures above when you change the current license server machine to another one. Ensure that your server's fully qualified domain name or IP address is static.
     -   With **license key** you can add multiple key. But with **credential information** you can only use one account for one License Server.
-    **Remember:** If you are using license keys of [TestArchitect Team](/TA_Administration/Topics/TA_Editions.html#entry_ta.editions.universal), but now you'd like to add new license keys of [TestArchitect Enterprise](/TA_Administration/Topics/TA_Editions.html#entry_ta.editions.universal). Please first remove license keys of TestArchitect Team. \([Learn more](/TA_Administration/Topics/LS_TA_revoking.html).\)
+{{<remember>}} If you are using license keys of [TestArchitect Team](/TA_Administration/Topics/TA_Editions.html#entry_ta.editions.universal), but now you'd like to add new license keys of [TestArchitect Enterprise](/TA_Administration/Topics/TA_Editions.html#entry_ta.editions.universal). Please first remove license keys of TestArchitect Team. \([Learn more](/TA_Administration/Topics/LS_TA_revoking.html).\)
 
 
 

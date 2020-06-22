@@ -10,7 +10,7 @@ keywords:
 
 How to properly configure Microsoft Edge for automated web testing with TestArchitect.
 
-**Note:** Ensure that any computers on which automated web testing withMicrosoft Edgeis to be performed have had the browser configured as described in this section.
+{{<note>}} Ensure that any computers on which automated web testing withMicrosoft Edgeis to be performed have had the browser configured as described in this section.
 
 1.  [Configuring WebDriver server](/TA_Automation/Topics/aut_app_testing_webdriver_ME.html)  
 WebDriver allows you to create automated tests that simulate user interaction. For security purposes, WebDriver is disabled by default. In order to use WebDriver, you will need to download and install the Microsoft WebDriver.

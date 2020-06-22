@@ -29,13 +29,13 @@ If you already have TestArchitect open, then this is the most convenient means o
 
 In both of the above cases, if you are already logged in to the selected repository, you will be automatically logged in to the Lab Manager session.
 
-**Note:** See the notice below if you receive a warning message when you attempt to access Lab Manager. If, on the other hand, you are not already logged in to the selected repository, Lab Manager presents you with a login page:
+{{<note>}} See the notice below if you receive a warning message when you attempt to access Lab Manager. If, on the other hand, you are not already logged in to the selected repository, Lab Manager presents you with a login page:
 
 ![](/images/TA_Help/Images/ug_labmanager04.png)
 
-**Tip:** In this login screen you have the option of supplying your credentials not just for a local repository, but for any other repository accessible on the network by clicking the **Connect to other repository server** link.
+{{<tip>}} In this login screen you have the option of supplying your credentials not just for a local repository, but for any other repository accessible on the network by clicking the **Connect to other repository server** link.
 
-**Note:** If you attempt to start Lab Manager from within TestArchitect Client and see this message:
+{{<note>}} If you attempt to start Lab Manager from within TestArchitect Client and see this message:
 
 ![](/images/TA_Help/Images/ug_err_utility_server_unavailable.png)
 

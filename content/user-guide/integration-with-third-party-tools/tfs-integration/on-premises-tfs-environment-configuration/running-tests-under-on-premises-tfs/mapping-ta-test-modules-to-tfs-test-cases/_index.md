@@ -10,9 +10,9 @@ keywords: "mapping between TestArchitect test modules and TFS test cases, map TA
 
 In addition to TestArchitect test cases, you can map TestArchitect test modules to TFS test cases.
 
-**Note:** Applies to TestArchitect 8.4 Update 1 and higher.
+{{<note>}} Applies to TestArchitect 8.4 Update 1 and higher.
 
-**Remember:** The ID of each TFS test case can only be mapped to a single TestArchitect test module.
+{{<remember>}} The ID of each TFS test case can only be mapped to a single TestArchitect test module.
 
 1.  In the TestArchitect explorer tree, double-click the test node that contains the test module to be mapped
 

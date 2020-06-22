@@ -10,7 +10,7 @@ keywords: "test case timeout, stopping test on timeout"
 
 You can set a timeout for the test case to ensure that the test execution does not take longer than it should.
 
-**Note:** Applies to TestArchitect [8.3 Update 4](/TA_ReleaseNotes/DITA_source/Whats_New_Windows_8.3_update_4.html) and higher.
+{{<note>}} Applies to TestArchitect [8.3 Update 4](/TA_ReleaseNotes/DITA_source/Whats_New_Windows_8.3_update_4.html) and higher.
 
 In other words, you can set time limits in which the execution of test cases will comply. You might need to do this when non-responsive test script happens. If a test case encounters a section of script that does not respond or the script falls into infinite loops, your use of the test case timeout allows that test case to finish, when the tests time out.
 
@@ -22,7 +22,7 @@ Setting time limits for test cases has the following effects:
     ![](/images/TA_Help/Images/TC_timeout_NF.png)
 
 
-**Note:** In TA-TFS integration, Not Finished can be mapped to various TFS test statuses. \([Learn more](/TA_Help/Topics/ug_MTM_mapping_result_table.html).\)
+{{<note>}} In TA-TFS integration, Not Finished can be mapped to various TFS test statuses. \([Learn more](/TA_Help/Topics/ug_MTM_mapping_result_table.html).\)
 
 ## Definitions of a test case timeout
 
@@ -32,7 +32,7 @@ A test case timeout occurs during runtime when run duration, accumulated from th
 
 The [test case timeout](/TA_Automation/Topics/bis_test_case_timeout.html) built-in setting is used to set timeout period for individual test cases.
 
-**Note:**
+{{<note>}}
 
 -   When this setting is not declared or its value is omitted, the default value of 0 is applied.
 -   0 indicates an infinite timeout period.
@@ -87,7 +87,7 @@ For example:
 
 ## How a test case timeout affects the amount of timeout value dedicated to lead and deputy machines in synchronous remote execution
 
-**Note:** It is recommended that you are familiar with the concept of synchronous remote execution. You may refer to this [topic](/TA_Help/Topics/Test_exec_remote_synchronous.html) for details.
+{{<note>}} It is recommended that you are familiar with the concept of synchronous remote execution. You may refer to this [topic](/TA_Help/Topics/Test_exec_remote_synchronous.html) for details.
 
 -   [Serial synchronous remote execution](/TA_Help/Topics/Test_exec_remote_synchronous_serial.html): The amount of timeout assigned to the run of the deputy and lead machines is similar to the one assigned to the subtest modules, as described above. Note that, the test execution in this case is taken place in serial mode. For example:
 
@@ -128,7 +128,7 @@ Well-written test procedures include timeout handling that allows them to recove
 
     For instance, when an unexpected test case timeout occurs, you might want to close the application-under-test and clean up the environment back to a blank slate in order to prepare for subsequent test case.
 
-    **Note:** After TestArchitect finishes running the action invoked by on timeout action, the renaming actions lines of the test case is skipped. The test run continues with the subsequent test case. In addition, TestArchitect test result is [Not Finished](/TA_Help/Topics/ug_test_results_status.html#row.NF).
+{{<note>}} After TestArchitect finishes running the action invoked by on timeout action, the renaming actions lines of the test case is skipped. The test run continues with the subsequent test case. In addition, TestArchitect test result is [Not Finished](/TA_Help/Topics/ug_test_results_status.html#row.NF).
 
 -   **[cleanup timeout](/TA_Automation/Topics/bis_cleanup_timeout.html) setting**
 

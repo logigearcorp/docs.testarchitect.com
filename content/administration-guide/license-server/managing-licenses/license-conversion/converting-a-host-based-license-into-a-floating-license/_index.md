@@ -10,7 +10,7 @@ keywords: "licenses, converting host-based to floating"
 
 Any host-based license can be reconfigured to act as a floating license, thereby freeing that license from a specific machine. This process is completely reversible; any floating license may be converted back into a host-based license.
 
-**Remember:** An Agent license remains an Agent license whether it is converted from floating tohost-based, or vice versa. The same is true for Universal.
+{{<remember>}} An Agent license remains an Agent license whether it is converted from floating tohost-based, or vice versa. The same is true for Universal.
 
 To convert a license from host-based to floating:
 
@@ -34,7 +34,7 @@ To convert a license from host-based to floating:
 
     ![](/images/TA_Administration/Images/covert_host_based_to_floating.png)
 
-    CAUTION:
+   {{<caution>}}
 
     When the license type of the host machine is converted from host-based to floating, that machine must rely on the floating pool of licenses and will no longer be guaranteed a license when it requests one.
 

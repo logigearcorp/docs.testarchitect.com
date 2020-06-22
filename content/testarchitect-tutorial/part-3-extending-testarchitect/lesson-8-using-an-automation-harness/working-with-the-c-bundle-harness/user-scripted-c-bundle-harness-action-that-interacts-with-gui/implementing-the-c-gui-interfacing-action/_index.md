@@ -50,7 +50,7 @@ In the getListViewRowValue\(\) method, we must create code that performs the fol
     }
     ```
 
-    **Note:** As seen, this is just a stub at the moment, with no actual code as of yet. Over the next several steps, we will build up the code to create the getListViewRowValue\(\) function definition.
+{{<note>}} As seen, this is just a stub at the moment, with no actual code as of yet. Over the next several steps, we will build up the code to create the getListViewRowValue\(\) function definition.
 
 3.  The following code validates the window's entity object.
 
@@ -130,7 +130,7 @@ In the getListViewRowValue\(\) method, we must create code that performs the fol
 
 12. Build the solution, and then place the generated TestAchitect.Harness.Bundle.Sample.dll library under the predefined <bundles\> folder.
 
-    **Remember:**
+{{<remember>}}
 
     -   Build the solution with the [target framework](https://msdn.microsoft.com/en-us/library/bb398202.aspx) .NET 4.5, and create a [release build](https://msdn.microsoft.com/en-us/library/3w7axy17.aspx).
     -   The DLLs that you build must target the same machine architecture as your installed version of TestArchitect. That is, if you are running the 32-bit version of TestArchitect, build the DLL for x86; for 64-bit TestArchitect, build the x64 DLL.

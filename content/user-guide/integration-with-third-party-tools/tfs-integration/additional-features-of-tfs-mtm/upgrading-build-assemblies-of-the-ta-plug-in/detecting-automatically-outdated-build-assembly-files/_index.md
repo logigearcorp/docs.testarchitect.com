@@ -10,7 +10,7 @@ keywords: "integration, TFS, automatic detection outdated assemblies, automatic 
 
 Steps to automatically detect outdated build assembly files.
 
-**Remember:**
+{{<remember>}}
 
 -   Upgrading of outdated build assembly files is supported with TA-TFS plug-in versions \#3.0.14 or later. \(To check the current version of your TA-TFS plug-in: in Visual Studio, select the **Tools** \> **Extensions and Updates** menu, browse, and then click **TA-TFS Integration Plugin**\).
 -   If your TA-TFS plug-in version is \#3.0.19 or earlier, an additional step is required after upgrading the build assembly files. TA-TFS integration projects created after \#3.0.19 have replaced Coded UI with Unit Tests; that is, they are no longer dependent on the Coded UI libraries. Therefore, you must reassociate your existing TFS tests cases \([Learn more](/TA_Help/Topics/ug_MTM_associate.html)\).
@@ -21,7 +21,7 @@ To turn on the automatic detection of obsolete TA-TFS projects, do the following
 
 2.  In the TestArchitect toolbar, click the **Preferences** ![](/images/TA_Help/Images/btn_Preferences.png) button.
 
-    **Note:** If the **Preferences** button is not visible on the Visual Studio toolbar, enable the button by right-clicking on the toolbar and selecting **TestArchitect** from the context menu.
+{{<note>}} If the **Preferences** button is not visible on the Visual Studio toolbar, enable the button by right-clicking on the toolbar and selecting **TestArchitect** from the context menu.
 
 3.  In the Preferences dialog box, select the **On** option, and then click **OK**.
 

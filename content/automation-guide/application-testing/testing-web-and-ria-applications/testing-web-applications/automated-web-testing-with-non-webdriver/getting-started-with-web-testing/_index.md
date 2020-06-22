@@ -10,7 +10,7 @@ keywords: "web testing, getting started, choosing browser, launching browser, na
 
 How to automate some common web testing tasks, such as launching the browser, navigating to web pages, and so on.
 
-**Note:**
+{{<note>}}
 
 Before testing web applications on a supported browser, ensure that necessary settings or reconfigurations required by TestArchitect are fully met. For detailed instructions, see [Preparing web browsers](/TA_Help/Topics/Test_exec_extension.html).
 
@@ -34,7 +34,7 @@ To navigate to a URL in a running browser, specify the window argument. For exam
 navigate      www.google.com       home page      home1
 ```
 
-**Note:**
+{{<note>}}
 
 -   Note that the window argument in this case is used to identify the browser window upon which the action is to operate. Depending on how this window is specified \(that is, the property-value pair\(s\) used to identify it\), that identification may no longer apply to the window once the new web page is loaded into it. The returned value of the handle argument, on the other hand, can be relied upon to identify the new window.
 -   In the case of two browsers – Safari on macOS, and the desktop version of Google Chrome – the location argument of the navigate action must include the protocol \(http:// or https://\). For example, while navigating to Google in an Internet Explorer window can be achieved with
@@ -76,7 +76,7 @@ Due to the manner in which the Safari browser engine processes JavaScript code, 
 
 TestArchitect handles JavaScript popups in Safari macOS by overriding the function calls with its own set of inserted JavaScript.
 
-**Tip:** This is evidenced by the fact that, when running under TestArchitect, JavaScript popups on a properly configured OS X device are not displayed on screen. \(But don't take this to mean that such popups do not have to be properly dealt with by your test!\)
+{{<tip>}} This is evidenced by the fact that, when running under TestArchitect, JavaScript popups on a properly configured OS X device are not displayed on screen. \(But don't take this to mean that such popups do not have to be properly dealt with by your test!\)
 
 The following TestArchitect built-in actions are provided to both scan and handle Safari macOS JavaScript popups:
 

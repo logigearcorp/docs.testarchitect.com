@@ -33,7 +33,7 @@ Perform the following procedures on the host machine.
 
 5.  On the Android Instrumentation Tool dialog box, click the **Install more** button.
 
-    **Tip:** The **Install more** button is active only when there is a device connected to the host machine.
+{{<tip>}} The **Install more** button is active only when there is a device connected to the host machine.
 
     The **Manage Applications Under Test** dialog box appears to allow you to add Android applications.
 

@@ -12,5 +12,5 @@ In the TestArchitect editor, the cell pointer indicates the currently-focused ce
 
 ![](/images/TA_Help/Images/cell_pointer.png)
 
-**Note:** The distinction should be understood between the cell pointer and text cursor. The text cursor is the vertical flashing bar that appears while the focused cell is in a text-entry state, and indicates exactly where in the cell's contents the next typed character will appear.
+{{<note>}} The distinction should be understood between the cell pointer and text cursor. The text cursor is the vertical flashing bar that appears while the focused cell is in a text-entry state, and indicates exactly where in the cell's contents the next typed character will appear.
 

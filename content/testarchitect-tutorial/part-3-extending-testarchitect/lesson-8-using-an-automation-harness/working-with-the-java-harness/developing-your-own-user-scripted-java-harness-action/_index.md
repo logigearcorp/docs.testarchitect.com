@@ -12,7 +12,7 @@ To created a scripted Java action, you must define the action, and modify the ex
 
 The figure below provides an overview of the harness samples/java directory tree, in the TestArchitect program folder, and the files it contains.
 
-**Note:**
+{{<note>}}
 
 This figure only describes the most important files and directories required to develop Java harness programs.
 

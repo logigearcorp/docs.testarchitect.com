@@ -10,7 +10,7 @@ keywords: "Dashboard, starting"
 
 A Dashboard instance is accessible from TestArchitect Client, TestArchitect Lab Manager, or a browser.
 
-**Note:** If the machine on which TestArchitect is installed is running on Windows Server, and a Dashboard instance is opened in the Internet Explorer browser, you may see a warning that the security certificate was not issued by a trusted certificate authority. As a consequence of this security issue, if no action is taken, charts will not be displayed in Dashboard. To resolve this, add the Dashboard page as a trusted site to Internet Explorer's security settings.
+{{<note>}} If the machine on which TestArchitect is installed is running on Windows Server, and a Dashboard instance is opened in the Internet Explorer browser, you may see a warning that the security certificate was not issued by a trusted certificate authority. As a consequence of this security issue, if no action is taken, charts will not be displayed in Dashboard. To resolve this, add the Dashboard page as a trusted site to Internet Explorer's security settings.
 
 ![](/images/TA_Help/Images/IE_untrusted_site.png)
 

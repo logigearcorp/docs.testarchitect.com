@@ -16,7 +16,7 @@ Ensure that the following requirements are met:
 -   [TestArchitect Browser Agent](/TA_Automation/Topics/aut_app_testing_mobile_web_Safari_installing_TA_Browser_Agent.html) is installed on your iOS test device.
 -   iTunes 11.1 or later is installed on the machine to be used as the test controller \(this may be a Windows or macOS machine\).
 
-**Important:** iTunes 12.7 no longer has an App store, which means you no longer can install .ipa iOS apps within iTunes \([learn more](https://www.macworld.com/article/3230135/software-entertainment/how-to-install-itunes-1263-and-replace-itunes-127.html)\). If you want to keep your ways, you can either install iTunes 12.6.3 and get back access to the App store, or use the special version of iTunes at [here](https://support.apple.com/en-gb/HT208079).
+{{<important>}} iTunes 12.7 no longer has an App store, which means you no longer can install .ipa iOS apps within iTunes \([learn more](https://www.macworld.com/article/3230135/software-entertainment/how-to-install-itunes-1263-and-replace-itunes-127.html)\). If you want to keep your ways, you can either install iTunes 12.6.3 and get back access to the App store, or use the special version of iTunes at [here](https://support.apple.com/en-gb/HT208079).
 
 Carry out the following procedures:
 
@@ -28,7 +28,7 @@ Carry out the following procedures:
 
     3.  Start Xcode on the macOS machine and wait for at least 10 seconds, so that the iOS device can obtain the essential development libraries.
 
-        **Tip:** Once you see the device listed under the **Devices** heading in the panel on the left side of the Xcode application, you are assured that the transfer is complete.
+{{<tip>}} Once you see the device listed under the **Devices** heading in the panel on the left side of the Xcode application, you are assured that the transfer is complete.
 
 2.  On your iOS device, terminate Safari, if running.
 
@@ -36,7 +36,7 @@ Carry out the following procedures:
 
     This may be a Windows or macOS machine.
 
-    **Important:** The USB cable connection must always be maintained during automation.
+{{<important>}} The USB cable connection must always be maintained during automation.
 
 
 Now you are free to use the [navigate](/TA_Automation/Topics/bia_navigate.html) action in your test procedures to invoke Safari on iOS.

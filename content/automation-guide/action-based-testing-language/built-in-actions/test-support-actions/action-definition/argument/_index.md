@@ -12,7 +12,7 @@ keywords: "built-in actions, argument, arguments, built-in actions"
 
 Define an argument for the current action definition.
 
-**Note:** This action is both functional and documentary.
+{{<note>}} This action is both functional and documentary.
 
 ## Arguments
 

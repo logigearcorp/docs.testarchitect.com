@@ -35,7 +35,7 @@ Under this new branch, you may again create [new version](/TA_Help/Topics/Variat
 
 ![](/images/TA_Help/Images/New_branch_car_rental_subversion.png)
 
-**Note:** If you delete a branch node, by right-clicking a branch node and then selecting **Delete**, the following dialog box appears with two possible options:
+{{<note>}} If you delete a branch node, by right-clicking a branch node and then selecting **Delete**, the following dialog box appears with two possible options:
 
 -   **Delete All**: Delete the selected branch node and all its descendant nodes.
 -   **Only Branch Node**: Delete only the selected branch node. Its descendant nodes are then moved upward to become children of the branch node's parent node.

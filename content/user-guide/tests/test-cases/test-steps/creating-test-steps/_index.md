@@ -24,18 +24,18 @@ To create test steps, follow the steps below:
 
     -   **Step**: Title of the test step.
 
-        **Note:**
+{{<note>}}
 
         -   Its maximum allowable length is 30,000 characters.
         -   It does support multiple lines. Provided that you type more than one line in the **Step** field, the lines automatically merge into a single one.
     -   **Description**: \(optional\) Short description for the test step.
 
-        **Tip:** To start a new line in the same cell, press Alt + Enter on your keyboard.
+{{<tip>}} To start a new line in the same cell, press Alt + Enter on your keyboard.
 
     -   **Expected result**: \(optional\) Define the expected test step result.
     -   **Recent result**: \(read-only\) The actual test step result.
 
-        **Note:**
+{{<note>}}
 
         -   The **Recent result** field is automatically filled in with the results of the most recent test execution [added to the repository](/TA_Help/Topics/Test_result_storing.html).
         -   Possible returned values are:
@@ -51,7 +51,7 @@ A new step is added to the test case for each pass of the above instructions. . 
 
 ![](/images/TA_Help/Images/ug67.png)
 
-**Tip:** If you do not want TestArchitect to insert test steps to action lines automatically, follow these steps:
+{{<tip>}} If you do not want TestArchitect to insert test steps to action lines automatically, follow these steps:
 
 1.  Invoke the [Preferences](/TA_Help/Topics/Additional_features_preferences.html) dialog box.
 2.  Clear the **Automatically insert step to test case** check box.
@@ -59,7 +59,7 @@ A new step is added to the test case for each pass of the above instructions. . 
 
 After you [execute](/TA_Help/Topics/Projects_execute_test.html) an automated test, the **Step Summary** table appears in [test results](/TA_Help/Topics/Test_result.html) on both TestArchitect Client and a web browser. With the support of this table, you might take a quick glance at which test steps have automation problems. Also you might grab the test flow thoroughly when you can identify the exact test steps in which the failures, errors, or warnings occur.
 
-**Note:** Click ![](/images/TA_Help/Images/Test_results_expand_detail.png), next to the test case's title, to expand and view **Step Summary** table for each test case.
+{{<note>}} Click ![](/images/TA_Help/Images/Test_results_expand_detail.png), next to the test case's title, to expand and view **Step Summary** table for each test case.
 
 ![](/images/TA_Help/Images/step_summary_table_tac.png "Step Summary table on TestArchitect Client")
 

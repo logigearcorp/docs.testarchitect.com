@@ -10,7 +10,7 @@ keywords: "time traveling, test execution, backward, execution, running, executi
 
 Time-traveling execution provides the support for "retroactive" execution; that is, the ability to execute a particular set of revisions of project items in a given project.
 
-**Remember:** To use time-traveling execution on any test module belonging to a legacy repository created prior to TestArchitect version [8.2](/TA_ReleaseNotes/DITA_source/Whats_New_8.2.html), you must first upgrade the repository database. \([Learn more](/TA_Administration/Topics/adm_database_upgrade_time_traveling.html).\)
+{{<remember>}} To use time-traveling execution on any test module belonging to a legacy repository created prior to TestArchitect version [8.2](/TA_ReleaseNotes/DITA_source/Whats_New_8.2.html), you must first upgrade the repository database. \([Learn more](/TA_Administration/Topics/adm_database_upgrade_time_traveling.html).\)
 
 ## The need for retroactive execution
 

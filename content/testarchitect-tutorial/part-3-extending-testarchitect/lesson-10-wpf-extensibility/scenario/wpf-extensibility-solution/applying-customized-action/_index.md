@@ -29,7 +29,7 @@ You have customized the built-in action get list item count to work with Telerik
     ![](/images/TA_Tutorials/Images/WPF_extensiblity_result_extensibility.png)
 
 
-**Tip:** You can find a list of built-in actions that you can override in **NetExtensionLib** \> **ControlHandler**.
+{{<tip>}} You can find a list of built-in actions that you can override in **NetExtensionLib** \> **ControlHandler**.
 
 
 

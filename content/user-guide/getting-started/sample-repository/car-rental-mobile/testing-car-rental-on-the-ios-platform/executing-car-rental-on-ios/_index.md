@@ -15,12 +15,12 @@ Ensure that the following requirements are met before you execute Car Rental aut
 -   [TestArchitect Agent](/TA_Tutorials_Sample_App/Topics/SR_iOS_installing_TA_Agent.html) and the [Car Rental](/TA_Tutorials_Sample_App/Topics/SR_iOS_installing_Car_Rental.html) application are installed onto the iOS device.
 -   The iOS device is [configured](/TA_Tutorials_Sample_App/Topics/SR_iOS_configuring_device.html) for automated testing.
 
-**Note:**
+{{<note>}}
 
 -   In order to ensure that the [start program](/TA_Automation/Topics/bia_start_program.html) built-in action can successfully launch Car Rental on iOS devices, refer to [Launching an AUT](/iOS/Topics/iOS_launching_an_AUT.html#section_pdh_mzj_m4).
 -   In additional, to ensure that the [select](/TA_Automation/Topics/bia_select.html) built-in action can successfully pick specific dates on the DatePicker control on iOS devices, set the date format on the devices to MM/DD/YYYY by selecting the United States region in **Settings** \> **General** \> **International** \> **Region Format**.
 
-**Restriction:** The **Car Rental - Mobile** automation scripts do not support iOS testing on Linux platform.
+{{<restriction>}} The **Car Rental - Mobile** automation scripts do not support iOS testing on Linux platform.
 
 1.  Connect the iOS device to the host machine via USB cable.
 
@@ -52,11 +52,11 @@ Ensure that the following requirements are met before you execute Car Rental aut
 
 11. Select the **iOS** check box in the Select Version dialog box and click **OK**.
 
-    **Restriction:** The **Car Rental - Mobile** automated test modules do not support iOS testing on a Linux platform.
+{{<restriction>}} The **Car Rental - Mobile** automated test modules do not support iOS testing on a Linux platform.
 
 12. In the Execute Test dialog box, click **Execute** to start the test.
 
-    **Important:** Do not provide any user input while the test is being executed.
+{{<important>}} Do not provide any user input while the test is being executed.
 
     A status bar indicating the stages of the test is visible in the bottom-right corner of the TestArchitect window. During the initial compilation stage, all information required for execution is collected and made available for automation. Following compilation, TestArchitect invokes the playback tool for the execution stage of the test.
 

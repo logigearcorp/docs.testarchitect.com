@@ -30,9 +30,9 @@ To configure your custom harness test tool, do the following:
     -   Description: Short description of the tool.
     -   Executable path: Path of the executable program \(for example, \{INSTALL\_DIR\}\\jre\\bin\\java.exe\) that, possibly in combination with a script, implements your harness.
 
-        **Note:** The harness may be implemented as a single executable file \(as is the case with the sample C\# harness\), or as an interpreted script file. An example of the latter is the sample Python harness, implemented as the script file ta\_main.py, which is executed by the Python interpreter.
+{{<note>}} The harness may be implemented as a single executable file \(as is the case with the sample C\# harness\), or as an interpreted script file. An example of the latter is the sample Python harness, implemented as the script file ta\_main.py, which is executed by the Python interpreter.
 
-        **Note:** The specified executable program appears in the **Executable\(s\)** field of the [Automation Tools](/TA_Help/Topics/Test_exec_test_execution.html#li_ux4_421_zp) dialog box, which you can access during test run setup from the Execute Test dialog box.
+{{<note>}} The specified executable program appears in the **Executable\(s\)** field of the [Automation Tools](/TA_Help/Topics/Test_exec_test_execution.html#li_ux4_421_zp) dialog box, which you can access during test run setup from the Execute Test dialog box.
 
         ![](/images/TA_Administration/Images/Executable_test_tool.01.png)
 
@@ -42,7 +42,7 @@ To configure your custom harness test tool, do the following:
         -   Folder
         -   Database
         -   Other
-        **Note:** Unless you are an advanced user or have the assistance of TestArchitect support, your choice should simply be File.
+{{<note>}} Unless you are an advanced user or have the assistance of TestArchitect support, your choice should simply be File.
 
     -   Available options: Here, you list those "yes/no" options that the user of the tool may specify at test run setup time, and which will be passed to the specified harness as command line arguments.
         -   The arguments will appear to the tool user as check box options in the Options panel of the [Automation Tools](/TA_Help/Topics/Test_exec_test_execution.html#li_ux4_421_zp) dialog box.
@@ -52,7 +52,7 @@ To configure your custom harness test tool, do the following:
             "[Option_name]"/"[Value_if_checked]"/"[Value_if_cleared]"/[Default_value]
             ```
 
-            **Tip:** To add multiple options, separate them by commas.
+{{<tip>}} To add multiple options, separate them by commas.
 
             Each component of the above option specification is described below:
 

@@ -10,7 +10,7 @@ keywords: "JIRA, attachment, integration"
 
 You can attach files from TestArchitect to a JIRA bug.
 
-**Note:**
+{{<note>}}
 
 -   At present, TestArchitect-JIRA integration supports versions 5 and 6 of JIRA.
 

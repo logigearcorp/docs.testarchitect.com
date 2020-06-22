@@ -38,7 +38,7 @@ You will now adapt the same test performed in the previous lesson to allow an ex
 
     3.  The next cell, text file, is where you specify the location and name of the text file that will serve as the data source.
 
-        **Tip:** Note that, if you are working on a Windows system, you have the option of using either forward or backward slashes \( / or \\ \) as folder/subfolder delimiters.
+{{<tip>}} Note that, if you are working on a Windows system, you have the option of using either forward or backward slashes \( / or \\ \) as folder/subfolder delimiters.
 
     4.  Finally, modify the name argument of the next action line so that [use data set](/TA_Automation/Topics/bia_use_data_set.html) also points to the /Rented Cars file link data set.
 

@@ -10,7 +10,7 @@ keywords: "interface viewer, $ Class Maps, viewer, mapping, user-defined TA clas
 
 For every new interface created in TestArchitect, a default $ Class Maps entity is assigned. This entity is user-editable and allows for user-defined mappings to be created between native control classes and TA classes.In addition, it allows for native control classes to be mapped to user-defined TA classes.
 
-**Important:** Custom class mapping is only supported for the following applications:
+{{<important>}} Custom class mapping is only supported for the following applications:
 
 -   Windows Presentation Foundation \(WPF\)
 -   Win32
@@ -28,7 +28,7 @@ A $Class Maps entity consists of three arguments:
 
 1.  ta class: The TA class \(built-in or user-defined\) to which a control is mapped.
 
-    **Note:** A user-defined TA class is one that TestArchitect does not inherently know anything about. Of TestArchitect's large library of user-interface built-in actions, only the most generic ones, such as [click](/TA_Automation/Topics/bia_click.html), [check control exists](/TA_Automation/Topics/bia_check_control_exists.html), and [get control property](/TA_Automation/Topics/bia_get_control_property.html), can operate on controls mapped to such a class. You may, however, effectively extend TestArchitect's library of actions by creating [user-scripted actions](/TA_Tutorials/Topics/Understanding_harnesses.html) that are specifically designed to apply to your new user-defined TA class.
+{{<note>}} A user-defined TA class is one that TestArchitect does not inherently know anything about. Of TestArchitect's large library of user-interface built-in actions, only the most generic ones, such as [click](/TA_Automation/Topics/bia_click.html), [check control exists](/TA_Automation/Topics/bia_check_control_exists.html), and [get control property](/TA_Automation/Topics/bia_get_control_property.html), can operate on controls mapped to such a class. You may, however, effectively extend TestArchitect's library of actions by creating [user-scripted actions](/TA_Tutorials/Topics/Understanding_harnesses.html) that are specifically designed to apply to your new user-defined TA class.
 
 2.  native class:
     -   native class property \(WPF, Silverlight\)
@@ -41,16 +41,16 @@ A $Class Maps entity consists of three arguments:
     -   role property \(WPF\)
     -   win type property \(Win32\)
     -   class name property \(Silverlight\)
-    **Restriction:** role argument is unavailable with iOS and Android applications.
+{{<restriction>}} role argument is unavailable with iOS and Android applications.
 
 
 For example, the mapping entry below can be interpreted as “every control whose native class property is `System.Windows.Controls.Button`, and whose role is `button`, is mapped to TA class `button` ”:
 
 ![](/images/TA_Help/Images/Class_mapping_example.png)
 
-**Restriction:** No class mappings may be placed above the `PLATFORM WIN32` section. Doing so results in an error message.
+{{<restriction>}} No class mappings may be placed above the `PLATFORM WIN32` section. Doing so results in an error message.
 
-**Important:** As of version [7.2](/TA_ReleaseNotes/DITA_source/Whats_New_7.2.html) of TestArchitect Client, a new format of the $ Class Maps entity is in effect. A pre-7.2 $ Class Maps is, upon creation, populated with TA's default mappings of native controls to built-in TA classes. With 7.2, a new $ Class Maps is empty - default TestArchitect mappings are relegated to a hidden system file. In TestArchitect [7.2](/TA_ReleaseNotes/DITA_source/Whats_New_7.2.html) and beyond, older $ Class Map's are automatically converted to the new format when you connect and log in to the repository \(see [Working with repositories](/TA_Help/Topics/Getting_started_overview_working_with_repositories.html)\).
+{{<important>}} As of version [7.2](/TA_ReleaseNotes/DITA_source/Whats_New_7.2.html) of TestArchitect Client, a new format of the $ Class Maps entity is in effect. A pre-7.2 $ Class Maps is, upon creation, populated with TA's default mappings of native controls to built-in TA classes. With 7.2, a new $ Class Maps is empty - default TestArchitect mappings are relegated to a hidden system file. In TestArchitect [7.2](/TA_ReleaseNotes/DITA_source/Whats_New_7.2.html) and beyond, older $ Class Map's are automatically converted to the new format when you connect and log in to the repository \(see [Working with repositories](/TA_Help/Topics/Getting_started_overview_working_with_repositories.html)\).
 
 
 

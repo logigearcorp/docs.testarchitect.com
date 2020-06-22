@@ -12,7 +12,7 @@ keywords: "built-in actions, interface entity setting, interface entity setting 
 
 Specify a property-value pair of a window or HTML page of an application under test, to create a mapping \(or partial mapping\) to a given logical name TA name.
 
-**Note:** A secondary function of interface entity setting is to issue directives to the TestArchitect runtime system. \(See Notes for example.\)
+{{<note>}} A secondary function of interface entity setting is to issue directives to the TestArchitect runtime system. \(See Notes for example.\)
 
 ## Arguments
 

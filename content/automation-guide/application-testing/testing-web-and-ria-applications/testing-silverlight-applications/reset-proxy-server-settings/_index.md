@@ -14,7 +14,7 @@ If and when you no longer need to test Silverlight applications, it is highly re
 
 Carry out the following procedures for whichever browsers you need reconfigured:
 
-**Note:** Please note, however, that Internet Explorer and Google Chrome use the same facility to configure the LAN settings. Hence, if you have both browsers on your system, it is only necessary to reconfigure the settings on one.
+{{<note>}} Please note, however, that Internet Explorer and Google Chrome use the same facility to configure the LAN settings. Hence, if you have both browsers on your system, it is only necessary to reconfigure the settings on one.
 
 -   Internet Explorer:
 

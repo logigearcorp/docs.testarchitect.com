@@ -14,7 +14,7 @@ A WIQL query consists of a SELECT statement \(similar to that of the SQL languag
 
 In TestArchitect, you might use a WIQL query to specify the location\(s\), in terms of test points, to which TA results are to be uploaded to TFS.
 
-**Important:**
+{{<important>}}
 
 -   Currently, in TestArchitect, the only supported type of WIQL query is that which is used to query for test points.
 -   A test point is an object in the TCM Object Model. It represents a TFS **test case** to be run against a **test configuration** in a test suite. Specifically:
@@ -35,7 +35,7 @@ SELECT \*
 
 |
 
-**Remember:**
+{{<remember>}}
 
 -   TestPoint is case-sensitive.
 -   Since uploading TA test results to TFS requires the IDs of test cases residing in TFS, ensure that the results set of the WIQL query consists of TFS test case IDs. To accomplish that, it is highly recommended that the SELECT \* query be used. Note also that the WIQL query for test points does not support returning specific values.

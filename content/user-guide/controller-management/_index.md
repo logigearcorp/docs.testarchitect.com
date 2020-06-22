@@ -42,7 +42,7 @@ A drop-down list box in the dialog box contains the following information:
 -   TestArchitect Controller, as well as the [compilation data](/TA_Help/Topics/Test_exec_test_execution.html#li.compilation_mode) of a test.
 -   All the harnesses actively running on the connected devices or local controller.
 
-    **Note:** Applies to TestArchitect [8.4](/TA_ReleaseNotes/DITA_source/Whats_New_8.4.html) and higher.
+{{<note>}} Applies to TestArchitect [8.4](/TA_ReleaseNotes/DITA_source/Whats_New_8.4.html) and higher.
 
 
 ![](/images/TA_Help/Images/TA_Controller_dlg_dropdown_list.png)
@@ -59,7 +59,7 @@ The name of a harness is formed by combining the result name with the timestamp 
 -   Timestamp: Date and time when the test is executed. The date is written in yyyy-mm-dd format and the time in hh.nn.ss format.
 -   Request ID: A string generated when the TestArchitect Controller prepares data for test run\(s\).
 
-**Tip:** If a harness' name is too long to be displayed fully, hover your mouse over this harness to view a tooltip of its complete name.
+{{<tip>}} If a harness' name is too long to be displayed fully, hover your mouse over this harness to view a tooltip of its complete name.
 
 For example:
 

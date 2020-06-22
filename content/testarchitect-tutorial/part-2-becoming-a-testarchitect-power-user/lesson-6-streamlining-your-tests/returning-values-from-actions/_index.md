@@ -23,7 +23,7 @@ We will extend the action choose rental location and dates by having it return t
 
     ![](/images/TA_Tutorials/Images/tut.actions.encapsulation.014.png)
 
-    **Note:** These variables will be used to accept the values returned from the action call: d will hold the car rental duration, and p will hold the total rental price.
+{{<note>}} These variables will be used to accept the values returned from the action call: d will hold the car rental duration, and p will hold the total rental price.
 
 4.  Next, select the leftmost cell of the choose rental location and dates action line \(the call that holds the action name\), press function key F2, and then press Enter.
 
@@ -39,7 +39,7 @@ We will extend the action choose rental location and dates by having it return t
 
     So the value for daily rate, which is 30 dollars per day, is simply being passed into the action. By contrast, the variables d and p pass in nothing, but are instead expected to hold values returned from the action.
 
-    **Tip:** It's interesting to note that, from the standpoint of the action being called, the values passed in the duration and price arguments are no different than, say, the rental city argument. That is, in each case they are simply passing in strings \( “d”, “p”, and “Miami”, respectively\). The fact that d and p have been declared as local variables has no effect on the action call. Instead, we are using the duration and price arguments to inform the called action that the *names* of the variables it should write to are d and p.
+{{<tip>}} It's interesting to note that, from the standpoint of the action being called, the values passed in the duration and price arguments are no different than, say, the rental city argument. That is, in each case they are simply passing in strings \( “d”, “p”, and “Miami”, respectively\). The fact that d and p have been declared as local variables has no effect on the action call. Instead, we are using the duration and price arguments to inform the called action that the *names* of the variables it should write to are d and p.
 
 6.  Below the action call, add the following report action:
 
@@ -67,7 +67,7 @@ We will extend the action choose rental location and dates by having it return t
 
         Recall that d is declared as a local variable in the test case `TC 04`. According to the [scoping rules for local variables](/TA_Automation/Topics/The_test_language_variables.html#li_qyh_ccq_qr), dynamic scoping, d is also visible to this action's current invocation, being a child of `TC 04`. Hence, the value of number of days is loaded into d, and that number becomes available to `TC 04` when control returns to it.
 
-        **Note:** Note that only the set variable action should be used for setting return values. The action [local variable](/TA_Automation/Topics/bia_local_variable.html) in this context would create a new variable, one whose scope would vanish upon return to the calling entity. [global variable](/TA_Automation/Topics/bia_global_variable.html), by contrast, would create a global variable that would have scope upon return, but would lack visibility due to the existence of a more localized variable of the same name.
+{{<note>}} Note that only the set variable action should be used for setting return values. The action [local variable](/TA_Automation/Topics/bia_local_variable.html) in this context would create a new variable, one whose scope would vanish upon return to the calling entity. [global variable](/TA_Automation/Topics/bia_global_variable.html), by contrast, would create a global variable that would have scope upon return, but would lack visibility due to the existence of a more localized variable of the same name.
 
 10. Now return your test module My streamlining, by clicking on its tab or double-clicking its node in the TestArchitect explorer tree.
 

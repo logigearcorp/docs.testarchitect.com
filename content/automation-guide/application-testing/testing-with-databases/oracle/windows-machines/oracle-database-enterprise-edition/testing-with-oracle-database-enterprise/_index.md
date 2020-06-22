@@ -16,7 +16,7 @@ To test with Oracle Database XE in TestArchitect, do the following steps:
 
 1.  In TestArchitect, in order to open an Oracle database connection, it is necessary to define an Oracle connection string.
 
-    **Note:** The nature of a connection string – meaning, the parameters that apply to it – is specific to the type of data source that it targets. More information on connection strings is available from the website [https://www.connectionstrings.com/oracle/](https://www.connectionstrings.com/oracle/).
+{{<note>}} The nature of a connection string – meaning, the parameters that apply to it – is specific to the type of data source that it targets. More information on connection strings is available from the website [https://www.connectionstrings.com/oracle/](https://www.connectionstrings.com/oracle/).
 
 2.  A basic Oracle connection string should contain the following parameters.
 

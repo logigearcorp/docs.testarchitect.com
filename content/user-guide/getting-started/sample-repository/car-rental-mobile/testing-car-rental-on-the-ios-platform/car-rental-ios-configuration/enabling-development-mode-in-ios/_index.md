@@ -10,7 +10,7 @@ keywords:
 
 Enabling the development mode on an iOS device allows you to install and run applications not originating from Apple's App Store.
 
-**Important:** iOS automation is only supported on Windows or macOS hosts.
+{{<important>}} iOS automation is only supported on Windows or macOS hosts.
 
 Ensure that the following requirements are met before enabling development mode on an iOS device.
 
@@ -28,7 +28,7 @@ Perform the following procedures on macOS machine:
 
 4.  In the left panel, select your connected iOS device and click **Use for development** on the main panel.
 
-    **Note:** The **Use for development** button is not available if development mode has been enabled on the selected device.
+{{<note>}} The **Use for development** button is not available if development mode has been enabled on the selected device.
 
 5.  Log on with your developer's Apple ID and password.
 

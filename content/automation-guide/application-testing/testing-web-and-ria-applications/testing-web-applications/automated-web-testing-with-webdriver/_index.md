@@ -10,7 +10,7 @@ keywords: "Generic, WebDriver"
 
 WebDriver is a tool for automating web application testing executing tests across a wide range of browsers like Chrome, Firefox and Microsoft Edge. As a member of the Selenium family, it is designed to provide better support for dynamic web pages.
 
-**Restriction:** TestArchitect currently provides partial support for Generic WebDriver. Built-in actions and settings can only work on the platforms and browsers listed in [this topic](/TA_Automation/Topics/WebDriver_supported_platforms.html).
+{{<restriction>}} TestArchitect currently provides partial support for Generic WebDriver. Built-in actions and settings can only work on the platforms and browsers listed in [this topic](/TA_Automation/Topics/WebDriver_supported_platforms.html).
 
 -   WebDriver makes direct calls to a browser using the browser's native support for automation.
 -   It provides separated language-binding for each supported language such as C\#, Java, Perl, PHP or Ruby. You use it to implement test script.

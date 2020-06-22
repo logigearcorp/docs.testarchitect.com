@@ -12,7 +12,7 @@ Implement an action in Java, using the TestArchitect Java harness.
 
 **Before proceeding:** Copy the files from the harness samples/java folder to a work folder of your own choosing.  This is an important first step when creating user-scripted actions.
 
-**Important:** It is generally recommended that you do not modify the files in harness samples/java. Your next upgrade of TestArchitect will cause these files to be overwritten. It is not good practice \(and in many organizations not even permitted\) to modify files in your **Programs** folder. So create a new folder on your hard drive \(for this example, we’ll assume it is D:/harness/java\) and copy to it the files from harness samples/java. From here on, all work will be performed on these files, and in this folder.
+{{<important>}} It is generally recommended that you do not modify the files in harness samples/java. Your next upgrade of TestArchitect will cause these files to be overwritten. It is not good practice \(and in many organizations not even permitted\) to modify files in your **Programs** folder. So create a new folder on your hard drive \(for this example, we’ll assume it is D:/harness/java\) and copy to it the files from harness samples/java. From here on, all work will be performed on these files, and in this folder.
 
 You are going to implement an action named hello in theJavaharness. It will accept one argument, who, and write out the word hello, followed by the value specified for who: ![](/images/TA_Tutorials/Images/Python_hello_demo.png)
 
@@ -26,7 +26,7 @@ As outlined in the three-step procedure described earlier, \(in[Developing your 
 
 These steps are implemented in the following procedure:
 
-**Note:** The following steps assume use of the Eclipse development environment. You can certainly use a different development environment or simple text editor, but you will have to adapt the steps accordingly. Note in particular that the sample harness files consist not only of the essential Java source, but of an entire Eclipse-based Java project.
+{{<note>}} The following steps assume use of the Eclipse development environment. You can certainly use a different development environment or simple text editor, but you will have to adapt the steps accordingly. Note in particular that the sample harness files consist not only of the essential Java source, but of an entire Eclipse-based Java project.
 
 1.  Open your Eclipse development environment.
 
@@ -80,7 +80,7 @@ These steps are implemented in the following procedure:
 
     This registers that the action hello needs to be interpreted by this class, example.
 
-    **Note:** setActionScript\(\) is a member function of an object called AbtLIBRARY. This object represents the core interpreter library of TestArchitect, which has functions for common tasks like registering actions, retrieving arguments and reporting results of checks.
+{{<note>}} setActionScript\(\) is a member function of an object called AbtLIBRARY. This object represents the core interpreter library of TestArchitect, which has functions for common tasks like registering actions, retrieving arguments and reporting results of checks.
 
 7.  Next, add an else-if clause \(in **bold**\) to the `if` block in the class’ divert\(\) method:
 
@@ -111,7 +111,7 @@ These steps are implemented in the following procedure:
 
 8.  If your IDE presents a message that the method action\_hello\(\) is undefined, that's OK: you're about to define it.
 
-    **Note:** The action\_hello\(\) method is where the real work is performed – it is the actual implementation of the hello action.
+{{<note>}} The action\_hello\(\) method is where the real work is performed – it is the actual implementation of the hello action.
 
 9.  Add action\_hello\(\) to the end of your file with code that looks like this:
 
@@ -156,7 +156,7 @@ These steps are implemented in the following procedure:
 
 You have now completed the implementation of a TestArchitect user-scripted action, written in Java. The action hello, realized in the coding of Java method action\_hello\(\), accepts a single argument, and writes that value to the TestArchitect output, using functions of TestArchitect's Automation AbtLIBRARY object.
 
-**Note:** Note the similarity of the code here to that of method action\_helloWorld\(\), which implements the hello world action included in the example code. The principal difference is that, whereas the pre-existing action simply writes out the string hello world, your new one accepts an argument, one which replaces “world” as the recipient of the hello greeting. The difference in code is that a library function called NamedArgument\(\) is now used to get the value of the who argument of the hello action. The code first assigns this to a variable named whovar, then uses it to create the text for the report. You may also have noticed the use of the Report\(\) function of the LIBRARY object to write the string to the output. Report\(\) is a wrapper that calls up TestArchitect’s implementation of the report action. Similarly, ReportError\(\), seen in the above step, calls up the implementation of TestArchitect's report error action.
+{{<note>}} Note the similarity of the code here to that of method action\_helloWorld\(\), which implements the hello world action included in the example code. The principal difference is that, whereas the pre-existing action simply writes out the string hello world, your new one accepts an argument, one which replaces “world” as the recipient of the hello greeting. The difference in code is that a library function called NamedArgument\(\) is now used to get the value of the who argument of the hello action. The code first assigns this to a variable named whovar, then uses it to create the text for the report. You may also have noticed the use of the Report\(\) function of the LIBRARY object to write the string to the output. Report\(\) is a wrapper that calls up TestArchitect’s implementation of the report action. Similarly, ReportError\(\), seen in the above step, calls up the implementation of TestArchitect's report error action.
 
 You are now ready to execute your test and verify that your user-scripted action works correctly.
 

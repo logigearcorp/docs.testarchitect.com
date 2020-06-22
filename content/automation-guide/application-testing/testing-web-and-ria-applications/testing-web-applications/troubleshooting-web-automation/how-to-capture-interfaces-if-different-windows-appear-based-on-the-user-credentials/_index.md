@@ -26,7 +26,7 @@ And then capture that main menu control:
         -   On Internet Explorer, the process property is iexplore.exe.
         -   On Mozilla Firefox, the process property is firefox.exe.
         -   On Google Chrome, the process property is chrome.exe.
-        **Tip:** If there are more than one instances of a given browser open simultaneously, use the [identify window](/TA_Automation/Topics/bia_identify_windows.html) action to handle the instances.
+{{<tip>}} If there are more than one instances of a given browser open simultaneously, use the [identify window](/TA_Automation/Topics/bia_identify_windows.html) action to handle the instances.
 
 
 

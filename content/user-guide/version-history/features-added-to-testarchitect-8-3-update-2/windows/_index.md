@@ -10,7 +10,7 @@ keywords: "Release Notes 8.3 Update 2, Windows, What is new, Windows, TestArchit
 
 The following new features and improvements are introduced in TestArchitect version 8.3 Update 2 running under Windows.
 
-**Remember:**
+{{<remember>}}
 
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.

@@ -25,7 +25,7 @@ To capture screenshots during test automation, carry out the following steps:
     -   Warning/Error: automation warnings and errors
 4.  In the **Keep** box, specify the number of UI-interacting actions preceding each screenshot-logging event whose screenshot sets are to be logged to the results. \(With screenshot recording enabled, the minimum is 1. By default, three screenshots sets are retained.\)
 
-    **Note:**
+{{<note>}}
 
     -   If this field is left empty, TestArchitect captures and logs screenshots of all UI-interacting actions.
     -   Only integer values above 0 are accepted.
@@ -40,7 +40,7 @@ During test execution, TestArchitect captures screenshots in accordance with its
     ![](/images/TA_Help/Images/Results.Show_recorded_screenshots.option_XML.png)
 
 
-**Note:**
+{{<note>}}
 
 -   If you choose to generate a batch file \(see [Executing tests from the command line interface](/TA_Help/Topics/Test_exec_cmd.html)\) for test automation, two parameters provide the specifications for screen recording: -capturecond specifies the screenshot-logging events, while -capturelimit indicates the number of screenshot sets to be logged per event:
 -   **Android:** This feature, when applied to a connected Android device, requires that the [TestArchitect Agent service](/reuse/../Android/Topics/Android_TA_agent.html) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:

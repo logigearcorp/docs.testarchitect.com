@@ -10,7 +10,7 @@ keywords: "iOS, settings, configurations, Triple-Click Home, Toggle VoiceOver, L
 
 Configuring an iOS device for test automation.
 
-**Important:** iOS automation is only supported on Windows or macOS hosts.
+{{<important>}} iOS automation is only supported on Windows or macOS hosts.
 
 Perform the following on your iOS device:
 

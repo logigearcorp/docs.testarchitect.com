@@ -16,7 +16,7 @@ The TestArchitect wildcard is represented by the 2-character string `.*` \(dot-s
 
 Wildcards can be applied more than once to a search string. For example, while `toto` and `batter` don't match `t.*t`, `toto` does match `t.*t.*`, `batter` matches `.*tt.*`, and both words match `.*t.*t.*`.
 
-**Note:** When wildcards are used, the entire search string must be enclosed within curly brace symbols `{}`. This lets TestArchitect know not to treat the string `.*` literally, but to treat it as a wildcard.
+{{<note>}} When wildcards are used, the entire search string must be enclosed within curly brace symbols `{}`. This lets TestArchitect know not to treat the string `.*` literally, but to treat it as a wildcard.
 
 Wildcard matching is not limited to runtime actions like check and check popup default text. Wildcards may also be used in interfacing when there is a need to identify a window or control in which the name \(or any other identifying property\) can be variable, yet has some known, constant component. For example, when testing a web application on multiple browsers, browsers tends to append their own names to web page names when they form window titles. Therefore if a title specified by the page is My Web App, the title property of the window in which it is opened may be My Web App – Windows Internet Explorer, My Web App – Mozilla Firefox, or My Web App – Google Chrome.
 

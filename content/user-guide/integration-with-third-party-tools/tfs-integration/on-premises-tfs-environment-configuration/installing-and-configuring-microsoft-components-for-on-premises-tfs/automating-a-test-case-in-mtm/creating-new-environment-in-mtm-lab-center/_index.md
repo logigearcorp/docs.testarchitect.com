@@ -28,7 +28,7 @@ To create a new lab environment, do the following:
 
     -   Select **Desktop client** for machine role.
 
-        **Note:**
+{{<note>}}
 
         -   For domain machines, in the **User name** box, use <domain\>\\<username\> format.
         -   For workgroup machines, in the **User name** box, use .\\<username\> format.
@@ -36,7 +36,7 @@ To create a new lab environment, do the following:
 
     -   In the **Advanced** step, select the **Configure environment to run UI tests** check box and enter the proper credentials.
 
-        **Note:**
+{{<note>}}
 
         -   For domain machines, in the **User name** box, use <domain\>\\<username\> format.
         -   For workgroup machines, in the **User name** box, use .\\<username\> format.

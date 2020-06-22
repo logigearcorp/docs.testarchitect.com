@@ -16,7 +16,7 @@ Licensing is handled through a License Server. Each time you start up TestArchit
 
 The License Server you use can reside either on your local machine, or on a remote system. The License Server you use for registration is the same server that will validate your license each time you use TestArchitect, so make certain that your License Server is installed on a machine that is always available. This is especially true in the case of multi-user licenses, where you want the active License Server to be available on your network to all valid users.
 
-**Important:** In this document, the client machine refers to the machine running the TestArchitect Client or TestArchitect Controller.
+{{<important>}} In this document, the client machine refers to the machine running the TestArchitect Client or TestArchitect Controller.
 
 1.  [What's new in TestArchitect License Server 8.5.1](/TA_ReleaseNotes/DITA_source/Whats_New_LS.html)  
 Following are the new features and enhancements introduced in the latest version of TestArchitect License Server.

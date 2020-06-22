@@ -22,9 +22,9 @@ Every UI element of an AUT has both a class and a set of properties. Property se
 -   one or more of its properties and their values \(property-value pairs\) and,
 -   in the case of a control, the window in which it resides.
 
-**Note:** TestArchitect maps the native classes and properties of every UI element to its own sets of TA classes and TA properties, to allow for consistency across platforms. For more discussion on classes in TestArchitect, see [Class mapping](/reuse/../TA_Help/Topics/Class_mapping.html).
+{{<note>}} TestArchitect maps the native classes and properties of every UI element to its own sets of TA classes and TA properties, to allow for consistency across platforms. For more discussion on classes in TestArchitect, see [Class mapping](/reuse/../TA_Help/Topics/Class_mapping.html).
 
-**Note:** During creation of interfaces, you have the option of determining which properties to use to identify controls and windows. [However, as described in a later topic](/reuse/../TA_Tutorials/Topics/Interface_Viewer.html), TestArchitect has built-in intelligence to select the minimum number of properties necessary to identify controls and windows during playback, thus relieving you of that burden.
+{{<note>}} During creation of interfaces, you have the option of determining which properties to use to identify controls and windows. [However, as described in a later topic](/reuse/../TA_Tutorials/Topics/Interface_Viewer.html), TestArchitect has built-in intelligence to select the minimum number of properties necessary to identify controls and windows during playback, thus relieving you of that burden.
 
 ## Interface entities
 
@@ -34,9 +34,9 @@ Aside from its function as a container, the interface entity also maps a TA name
 
 The interface entity setting actions contained within the interface entity handle the other side of the mapping – that is, they serve to identify the AUT window. Each interface entity setting action has two arguments: a property followed by a value. These property value pairs are used to identify the associated window so that the automation can easily find it during playback. In most cases, an interface entity only needs a single interface entity setting action. If more than one is used, then the interface entity is mapped to a given window only if all of the property-value pairs match.
 
-**Note:** Unlike the case with interface elements, it is not necessary for an interface entity to specify a TA class. That is because all interface entities map to UI elements whose TA class is window.
+{{<note>}} Unlike the case with interface elements, it is not necessary for an interface entity to specify a TA class. That is because all interface entities map to UI elements whose TA class is window.
 
-**Note:** In most cases, the window that a given interface entity points to can be identified by its title. For desktop application AUTs, this property is named title, hence that is what you will generally use as the first argument of an interface entity setting action. For HTML pages in web applications, by contrast, the property is doc title.
+{{<note>}} In most cases, the window that a given interface entity points to can be identified by its title. For desktop application AUTs, this property is named title, hence that is what you will generally use as the first argument of an interface entity setting action. For HTML pages in web applications, by contrast, the property is doc title.
 
 The red arrows of the following figure illustrate how the TA name **login** is mapped to the Car Rental-Login window of the AUT.
 
@@ -50,11 +50,11 @@ Because of these first two lines, for any tests using this interface, TestArchit
 
 An interface entity worksheet is usually populated with several interface element actions. Each interface element maps a logical TA name to a control that exists in the given window \(that is, the AUT window specified by the interface entity\). Controls are typically identified by a combination of their containing window \(interface entity\), TA class, and one or more property-value pairs. Tests can then use these TA names in actions to interact with target controls.
 
-**Note:** When you create an interface entity, how many interface elements are included is up to you. It is generally not necessary to populate your interface entity with an interface element for every control in the window. You only need to specify the ones that your test will be interacting with. And you can always add new interface elements to an interface entity, whenever changes to your test require you to do so.
+{{<note>}} When you create an interface entity, how many interface elements are included is up to you. It is generally not necessary to populate your interface entity with an interface element for every control in the window. You only need to specify the ones that your test will be interacting with. And you can always add new interface elements to an interface entity, whenever changes to your test require you to do so.
 
 An interface element action is similar in function to the interface entity setting action, but provides more information explicitly. First, it specifies a TA name for the associated control. It also specifies a TA class, to help identify the control. \(For an interface entity setting action, TA name and TA class are implicit.\) Finally, it specifies one or more property-value pairs to further identify the control. \(By contrast, a separate interface entity setting action is required for each property-value pair to be specified.\) The only information that is implicit for an interface element is the identity of the containing window, which is given by the interface entity that the action exists within.
 
-**Note:** When you enter an interface element action by hand, the editor populates the next two column headers with ta name and ta class. In the next column, you must provide both an argument value as well as a header. This \(and, optionally, subsequent columns\) is where you specify a property-value pair, with the header containing the name of the property, and the argument value being the property's identifying value for that control.
+{{<note>}} When you enter an interface element action by hand, the editor populates the next two column headers with ta name and ta class. In the next column, you must provide both an argument value as well as a header. This \(and, optionally, subsequent columns\) is where you specify a property-value pair, with the header containing the name of the property, and the argument value being the property's identifying value for that control.
 
 The red arrows of the following figure illustrate how the TA name **clear-button** is mapped to the **Clear** button in the login window of the AUT.
 
@@ -66,7 +66,7 @@ First, the containing interface entity's mapping \(line 2\) establishes that the
 
 It may sometimes be the case that some identifying property of a window or control may not be static – that is, it can vary from one time to the next, based on the state of the application. Often, however, there may be some identifiable consistency in all of the possible values that the property may take on. In such cases, regular expressions can often be used to reliably identify every possible value of that property of the control. Hence, TestArchitect accepts regular expressions as property value arguments in both interface entity setting and interface element actions.
 
-**Note:** Be careful when using regular expressions: Keep in mind that a regular expression in an interface definition needs to do more than just match all the possible values of the UI element's property – it needs to filter out all values, or possible values, for all other similar elements.
+{{<note>}} Be careful when using regular expressions: Keep in mind that a regular expression in an interface definition needs to do more than just match all the possible values of the UI element's property – it needs to filter out all values, or possible values, for all other similar elements.
 
 As an example, say the browser tab for a web-based email application displays text that consists of both a constant, known portion \(“Inbox”\), along with information that is variable, such as the number of currently unread emails:
 

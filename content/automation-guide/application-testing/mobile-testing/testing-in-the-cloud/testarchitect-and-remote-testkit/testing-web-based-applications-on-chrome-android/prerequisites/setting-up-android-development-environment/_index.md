@@ -45,7 +45,7 @@ Before you can automate testing Chrome on Android cloud devices, you must instal
 
 6.  Click the **Install packages…​** button to complete the download and installation.
 
-    **Note:** You might want to install all the available updates, but be aware it might take longer, as each API is a large download.
+{{<note>}} You might want to install all the available updates, but be aware it might take longer, as each API is a large download.
 
 
 

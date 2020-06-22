@@ -22,7 +22,7 @@ To establish a connection between TestArchitect and a Jenkins server, a batch fi
 
 5.  In the Open dialog box, specify the path to the Jenkins slave workspace.
 
-    **Note:**
+{{<note>}}
 
     -   The Jenkins master machine is responsible for controlling and monitoring executed jobs on slave machines.
     -   Jenkins slave machines are responsible for executing jobs.

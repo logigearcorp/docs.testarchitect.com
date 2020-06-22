@@ -24,7 +24,7 @@ The XML result conversion tool creates a single log file for each repository. Ea
 
 1.  Result status including Pass or Fail;
 
-    **Note:** If no status is prefixed the log file's name, user authentication fails.
+{{<note>}} If no status is prefixed the log file's name, user authentication fails.
 
 2.  ConvertResultXML;
 3.  testModuleName;

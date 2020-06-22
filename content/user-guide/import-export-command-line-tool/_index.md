@@ -10,9 +10,9 @@ keywords: "Import/Export tool"
 
 TestArchitect allows you to import and export repositories and individual project items from within the TestArchitect Client environment. In Windows, these tasks may also be performed with command line commands.This feature is especially valuable in development environments that employ continuous integration \(CI\) practices. Taking this capability a step further, the Import/Export tool allows you to create Windows batch files that automate your import and export processes.
 
-**Restriction:** The Import/Export tool is not available in the TestArchitect packages for the Linux and macOS operating systems.
+{{<restriction>}} The Import/Export tool is not available in the TestArchitect packages for the Linux and macOS operating systems.
 
-**Note:** With TestArchitect installed, the Import/Export tool \(TAImportExportTool.jar\), can be found at TA\_INSTALL\_DIR\\binclient.
+{{<note>}} With TestArchitect installed, the Import/Export tool \(TAImportExportTool.jar\), can be found at TA\_INSTALL\_DIR\\binclient.
 
 The Import/Export tool allows for the following operations to be performed:
 

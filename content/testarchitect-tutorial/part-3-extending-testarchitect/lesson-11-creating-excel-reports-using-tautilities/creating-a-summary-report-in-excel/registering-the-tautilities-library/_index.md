@@ -23,7 +23,7 @@ To register TAUtilities.dll, do the following:
 
 After registration, a message appears informing you the file has been placed in the Windows Registry.
 
-**Remember:** For Java applications needing to access the APIs, instead of registering TAUtilities.dll, you must configure your Java project's build path to include the following libraries:
+{{<remember>}} For Java applications needing to access the APIs, instead of registering TAUtilities.dll, you must configure your Java project's build path to include the following libraries:
 
 -   TAUtilities: TA\_INSTALL\_DIR\\lib\\com.logigear.testarchitect.utilities.jar
 -   Logback Classic module: TA\_INSTALL\_DIR\\lib\\vendor\\logback-classic-1.1.7.jar

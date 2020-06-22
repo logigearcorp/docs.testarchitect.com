@@ -28,11 +28,11 @@ There are two ways to quickly reopen closed tabs:
 
     ![](/images/TA_Help/Images/reopen_closed_tab.png)
 
-    **Important:** TestArchitect remembers up to the last five most-recently closed tabs.
+{{<important>}} TestArchitect remembers up to the last five most-recently closed tabs.
 
 -   Alternatively, a keyboard shortcut is available. Press Ctrl + Shift + T to reopen the most recently closed item.
 
-    **Tip:** Repeat the above steps to cycle through and open closed tabs starting from the most to the least recent.
+{{<tip>}} Repeat the above steps to cycle through and open closed tabs starting from the most to the least recent.
 
 
 The selected item is reopened as the active tab.

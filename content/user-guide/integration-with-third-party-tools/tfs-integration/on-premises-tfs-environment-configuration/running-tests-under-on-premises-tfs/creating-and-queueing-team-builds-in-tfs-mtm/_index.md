@@ -17,7 +17,7 @@ To run automated tests in MTM, create a team build that includes your test proje
 
 When integrated with TestArchitect, keep in mind the following:
 
-**Important:** This task is one that must often be repeated, especially when you have modified mapped TFS test cases. \(For example, you remove or add test cases, or change the order of a test case run.\) When you do so, the association between TFS test cases and Visual Studio test methods/TestArchitect test cases is compromised. Hence, it is necessary that you perform the following steps again:
+{{<important>}} This task is one that must often be repeated, especially when you have modified mapped TFS test cases. \(For example, you remove or add test cases, or change the order of a test case run.\) When you do so, the association between TFS test cases and Visual Studio test methods/TestArchitect test cases is compromised. Hence, it is necessary that you perform the following steps again:
 
 1.  Re-[associate](/TA_Help/Topics/ug_MTM_associate.html) TestArchitect test cases with TFS test cases.
 2.  Check in your project.

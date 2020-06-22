@@ -16,7 +16,7 @@ By default, the file user\_defined\_help.ini is installed to the following direc
 -   Linux:/usr/local/logigear/testarchitect/data
 -   macOS: /Applications/TestArchitect/data
 
-**Tip:** During installation, the location of user\_defined\_help.ini can be modified in the TestArchitect Installation dialog box. Following installation, the location can also be modified using [TestArchitect Preferences](/TA_Help/Topics/Additional_features_preferences.html).
+{{<tip>}} During installation, the location of user\_defined\_help.ini can be modified in the TestArchitect Installation dialog box. Following installation, the location can also be modified using [TestArchitect Preferences](/TA_Help/Topics/Additional_features_preferences.html).
 
 ![](/images/TA_Help/Images/installer_1.png)
 
@@ -29,7 +29,7 @@ The mapping file contains pairs of custom actions and their corresponding comman
 -   macOS: `<custom_action> = open + <absolute _path_to_HTML_page>`. For example:
     -   check login\[MAC\] = open /Users/John.Doe/Desktop/data\_folder/check\_login.html
 
-**Tip:**
+{{<tip>}}
 
 -   In user\_defined\_help.ini, the pound sign \(\#\) is used for commenting-out purposes.
 -   To include whitespace characters on Linux or macOS, place a backslash \(\\\) before each whitespace. For example:

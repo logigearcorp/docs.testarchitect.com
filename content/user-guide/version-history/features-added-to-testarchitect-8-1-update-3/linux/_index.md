@@ -10,7 +10,7 @@ keywords: "Release Notes 8.1 Update 3, Linux, What is new, Linux, TestArchitect 
 
 The following new features and improvements are introduced in TestArchitect version 8.1 update 3 running under Linux.
 
-**Remember:**
+{{<remember>}}
 
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
@@ -40,7 +40,7 @@ The following new features and improvements are introduced in TestArchitect vers
     1.  **Recommended:** Recapture the controls so that they are mapped into their appropriate TA classes. \(For example, remapping an **<input-color\>** control will change its TA class mapping from the legacy input-text class to the new input-color class.\)
     2.  Leave your legacy mappings intact and set the ignore html input types built-in setting to yes in all tests that interface with HTML5 **<input\>** type controls.
 
-        **Note:** [ignore html input types](/TA_Automation/Topics/bis_ignore_html_input_types.html) built-in setting: Determines whether, during the test execution, the TA classes of legacy-captured HTML **<input\>** type controls are taken into consideration.
+{{<note>}} [ignore html input types](/TA_Automation/Topics/bis_ignore_html_input_types.html) built-in setting: Determines whether, during the test execution, the TA classes of legacy-captured HTML **<input\>** type controls are taken into consideration.
 
 -   [enter](/TA_Automation/Topics/bia_enter.html) built-in action is now applicable to these additional HTML **<input\>** type controls:
     -   **<input-datetime\>**

@@ -10,11 +10,11 @@ keywords: "Android, installing re-signed application, installing application"
 
 After successfully re-signing the application, you can install it to a device.
 
-**Important:** Android automation is only supported on Windows.
+{{<important>}} Android automation is only supported on Windows.
 
 1.  Open the [Manage Application Under Test](/Android/Topics/Installing_applications_resigning.html) dialog box
 
-    **Tip:** From the Manage Application Under Test dialog box, you can install one or more re-signed applications into any number of physical Android mobile devices that are currently connected \(by USB cable or Wi-Fi\) and visible to TestArchitect, as well as any Android emulators that are running on the host PC.
+{{<tip>}} From the Manage Application Under Test dialog box, you can install one or more re-signed applications into any number of physical Android mobile devices that are currently connected \(by USB cable or Wi-Fi\) and visible to TestArchitect, as well as any Android emulators that are running on the host PC.
 
 2.  From the list of re-signed applications, select the application that you want to install.
 
@@ -22,9 +22,9 @@ After successfully re-signing the application, you can install it to a device.
 
 4.  Click **Install**.
 
-    **Remember:** If you install the application via a Wi-Fi connection, a dialog box appears on your device which asks you to select either **Open** or **Done**. Select **Done** to continue the installation process.
+{{<remember>}} If you install the application via a Wi-Fi connection, a dialog box appears on your device which asks you to select either **Open** or **Done**. Select **Done** to continue the installation process.
 
-    **Note:**
+{{<note>}}
 
     -   If you encounter issues while installing, refer to [Troubleshooting custom signatures](/TA_FAQ/Topics/faq.tshoot.Android_custom_signature.html).
     -   A particular problem with Android 6 devices has been known to occur when installing via Wi-Fi connection. Specifically, you may find your device continually repeating the installation process for no apparent reason. The solution for now is to manually intervene in the process: after completion of the first installation, press the device's **Back** button at the subsequent installation phase in order to exit from the loop.
@@ -42,7 +42,7 @@ After successfully re-signing the application, you can install it to a device.
 
 If the installation is successful, the Installation completed message appears.
 
-**Note:** Installation of each application via the Android Instrumentation Tool dialog box involves the installation of a second application to handle communications. If you go to the **Manage Applications** utility:
+{{<note>}} Installation of each application via the Android Instrumentation Tool dialog box involves the installation of a second application to handle communications. If you go to the **Manage Applications** utility:
 
 -   On a version 4.0 or higher Android device, the **Manage Applications** utility is available under **Settings** \> **Applications manager**.
 -   On a pre-4.0 Android device, the **Manage Applications** utility is available under **Settings** \> **Applications** \> **Manage applications**.

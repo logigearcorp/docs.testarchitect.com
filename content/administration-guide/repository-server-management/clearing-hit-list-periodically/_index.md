@@ -14,7 +14,7 @@ Each TestArchitect repository maintains a log, known as the hit list, of databas
 
 Scheduled hit list clearance is configurable for each given repository server. \(It cannot be done at the repository level.\) When in effect, period clearance can take place at a maximum frequency of daily, and minimum of weekly.
 
-**Tip:**
+{{<tip>}}
 
 -   It is recommended that you do not plan the hit list clearance at the same time as other scheduling, such as: [backing up the repository](/TA_Administration/Topics/Repo_server_management_bk.html) or [synchronizing data](/TA_Administration/Topics/adm_Synchronizing_data.html).
 -   Hit list clearance should be scheduled when your teams are idle.

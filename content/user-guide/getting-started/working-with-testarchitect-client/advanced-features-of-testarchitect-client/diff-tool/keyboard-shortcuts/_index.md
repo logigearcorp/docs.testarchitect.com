@@ -10,7 +10,7 @@ keywords: "Diff Tool, keyboard shortcuts, hot keys"
 
 In Diff Tool, you can use shortcut keys to perform many different tasks quickly or to work without a mouse.
 
-**Note:** The following are the primary key substitutions on the Windows keyboard, and their macOS equivalents.
+{{<note>}} The following are the primary key substitutions on the Windows keyboard, and their macOS equivalents.
 
 |Windows|macOS|
 |-------|-----|

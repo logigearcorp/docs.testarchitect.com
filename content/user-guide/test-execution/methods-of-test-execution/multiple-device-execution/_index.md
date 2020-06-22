@@ -26,7 +26,7 @@ To execute a test on one or more devices:
 
     The information displayed on the Lab Manager Server panel is obtained from your local Lab Manager server.
 
-    **Note:**
+{{<note>}}
 
     -   The main branches under the root node are controllers \(marked with the icon ![](/images/TA_Help/Images/Controller_icon.png)\), and the subnodes of a controller are devices that physically attached to that controller.
     -   Right-click on the device platform \(Android or iOS\) node, and select **Sort** from the context menu to sort the names of attached devices \(child nodes\) in alphabetical order.
@@ -37,12 +37,12 @@ To execute a test on one or more devices:
     -   Devices: `<name of device> (<device's ID>)`
 5.  On the Controllers/Devices panel, expand the root node, if needed, and select the devices on which you want to execute the tests.
 
-    **Restriction:**
+{{<restriction>}}
 
     -   A test can be run on a remote controller host, or on the devices attached to that controller, but not on both.
     -   It is not possible to run different test cases belonging to a given test module on multiple devices.
     -   If a device is currently busy, meaning that the device is already undergoing an automated test, that device will be highlighted in gray and it will not be possible to select it.
-    **Tip:** The device list for a controller is loaded only once, when the node of that controller is expanded for the first time. Collapsing and expanding the controller node will not refresh its device list. To update the device list for a specific controller, right-click on that controller node and select **Refresh** from the context menu.
+{{<tip>}} The device list for a controller is loaded only once, when the node of that controller is expanded for the first time. Collapsing and expanding the controller node will not refresh its device list. To update the device list for a specific controller, right-click on that controller node and select **Refresh** from the context menu.
 
 6.  Click **OK** on the Select Controller/Device dialog box, then select **Execute** on the Execute Test dialog box to execute the tests.
 
@@ -53,7 +53,7 @@ TestArchitect automatically adds controllers/devices executing tests to the cont
 
 **Warning:** If the controllers/devices executing tests have been already registered to another Lab Manager server, TestArchitect will not add those controllers/devices automatically to the controller/device list on your local Lab Manager server.
 
-**Note:** The selected devices are written as new parameters when you generate a batch file. The parameter `-devices` is written to the batch file. \([Learn more](/TA_Help/Topics/Test_exec_cmd.html).\)
+{{<note>}} The selected devices are written as new parameters when you generate a batch file. The parameter `-devices` is written to the batch file. \([Learn more](/TA_Help/Topics/Test_exec_cmd.html).\)
 
 -   **[Troubleshooting multiple device execution](/TA_Help/Topics/Test_exec_multiple_device_execution_troubleshooting.html)**  
 Typical issues that you may encounter when executing tests on multiple devices, and possible solutions.

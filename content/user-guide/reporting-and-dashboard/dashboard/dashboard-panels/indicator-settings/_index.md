@@ -28,9 +28,9 @@ Since the **Percentage** check box is not selected for the indicator range in th
 
 ![](/images/TA_Help/Images/Dashboard_indicator_range_percentage.png)
 
-**Tip:** For readability, it is suggested you add the indicator range values in ascending order - lowest range value first then next higher range value.
+{{<tip>}} For readability, it is suggested you add the indicator range values in ascending order - lowest range value first then next higher range value.
 
-**Tip:** You can modify the indicator settings at any time by selecting the **Edit** ![](/images/TA_Help/Images/Dashboard_edit_panel_icon.png) button in the upper-right corner of the panel \(see [Editing a chart panel](/TA_Help/Topics/Dashboard_edit_chart_panel.html)for details\).
+{{<tip>}} You can modify the indicator settings at any time by selecting the **Edit** ![](/images/TA_Help/Images/Dashboard_edit_panel_icon.png) button in the upper-right corner of the panel \(see [Editing a chart panel](/TA_Help/Topics/Dashboard_edit_chart_panel.html)for details\).
 
 -   **[Creating a new indicator panel](/TA_Help/Topics/Dashboard_create_new_indicator_panel.html)**  
 Use an indicator panel to show numerical values of statistic fields in a table format. Values matching user definable range can be highlighted with different colors to indicate the level of importance.

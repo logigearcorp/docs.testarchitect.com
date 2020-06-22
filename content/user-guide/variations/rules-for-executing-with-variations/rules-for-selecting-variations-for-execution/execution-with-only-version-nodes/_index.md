@@ -16,7 +16,7 @@ Scenario: At runtime, you specify version nodes in the Variation Specification p
 
 In this case, we begin to apply the **Version Compilation Order List** introduced in [Maintaining and modifying a system tree](/TA_Help/Topics/Variations_create_linked_mainitaining_modifying_system_tree.html). This list, which exists for each system tree, informs TestArchitect of the order of precedence to apply to system versions when searching for the appropriate linked variation to invoke.
 
-**Note:**
+{{<note>}}
 
 One thing to be aware of is the way TestArchitect regards variations linked to multiple nodes: for all practical purposes, they are treated as separate entities during the search process. For example, for searching purposes \(and for ease in understanding how the search works\), we can regard the variation:
 
@@ -52,7 +52,7 @@ When execution parameters include no keywords, but do include one or more versio
         -   If the answer is Yes, TestArchitect selects that variation.
         -   If No, move one level up in the [**Version Compilation Order List**](/TA_Help/Topics/Variations_create_linked_mainitaining_modifying_system_tree.html) for this system. Cycle back up to question [2b](#li.version_node_found), allowing the term the one specified to now refer to this new version node. Continue with this cycle until the answer to [2b](#li.version_node_found) is Yes, or the end of the list is reached. If the end of the list is reached, TestArchitect selects the default variation.
 
-            **Important:**
+{{<important>}}
 
             -   When your specified version node does not belong to any branch node, TestArchitect ignores other higher branch nodes in **Version Compilation Order List**, as well as its descendant nodes, if any.
                 -   For example, if your automated test run specifies node **1.2**, the search order is **1.2** \> **1.1** \> **1** \> **default variation**.

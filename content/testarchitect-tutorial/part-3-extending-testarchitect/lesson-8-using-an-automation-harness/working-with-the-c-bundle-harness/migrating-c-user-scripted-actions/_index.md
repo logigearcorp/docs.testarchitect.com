@@ -80,7 +80,7 @@ To migrate your C\# user-scripted action into C\# bundle harness architecture, p
 
 1.  In Visual Studio, open your solution file.
 
-    **Important:** It is highly recommended that you use Microsoft Visual Studio 2012 or later to program C\# bundle harness.
+{{<important>}} It is highly recommended that you use Microsoft Visual Studio 2012 or later to program C\# bundle harness.
 
 2.  Create a class library project.
 
@@ -285,7 +285,7 @@ To migrate your C\# user-scripted action into C\# bundle harness architecture, p
 
 10. Build the solution, and then place the generated .DLL under the predefined <bundles\> folder.
 
-    **Remember:**
+{{<remember>}}
 
     -   Build the solution with the [target framework](https://msdn.microsoft.com/en-us/library/bb398202.aspx) .NET 4.5, and create a [release build](https://msdn.microsoft.com/en-us/library/3w7axy17.aspx).
     -   The DLLs that you build must target the same machine architecture as your installed version of TestArchitect. That is, if you are running the 32-bit version of TestArchitect, build the DLL for x86; for 64-bit TestArchitect, build the x64 DLL.

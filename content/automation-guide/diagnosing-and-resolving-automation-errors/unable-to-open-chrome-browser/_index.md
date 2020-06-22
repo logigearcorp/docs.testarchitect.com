@@ -16,7 +16,7 @@ After upgrading Chrome. TestArchitect cannot open Chrome.
 
 So that it may be upgraded anytime a new version is release, the auto-upgrade function of Chrome browser is enabled by default.. This can cause version of WebDriver to be incompatible with the upgraded version of Chrome browser.
 
-**Note:** Turn off the auto-upgrade function of Chrome browser to avoid this problem in the future .
+{{<note>}} Turn off the auto-upgrade function of Chrome browser to avoid this problem in the future .
 
 ## Solution:
 

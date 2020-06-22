@@ -10,7 +10,7 @@ keywords: "launching an AUT (Android), Android, launching an application under t
 
 Any application to be tested on a target device must be launched in a manner that allows TestArchitect to properly interface with it.
 
-**Important:** Android automation is only supported on Windows.
+{{<important>}} Android automation is only supported on Windows.
 
 Starting an application in the normal, real world fashion \(that is, by clicking or tapping its icon on the menu screen of the target device\) does cause the application to run properly, but does not allow for communication with TestArchitect. Instead, TestArchitect itself must issue the directive to start the AUT, either through the [Android Instrumentation Tool](/Android/Topics/Android_Instrumentation_tool.html) dialog box, or via the [start program](/TA_Automation/Topics/bia_start_program.html) action of a test procedure. This initiates the control path involving the TestArchitect Agent service and the AUT’s companion [AndroidAgentInstrumentation](/Android/Topics/Installing_applications_to_a_target_device.html#p_hl4_pjn_5n) instance.
 
@@ -25,7 +25,7 @@ To again summarize the three methods by which a re-signed Android application ma
 
 1.  Launching from the host device is the typical way by which an application is launched in a real world environment. On a physical device or emulator, you start the application by tapping \(physical device\) or clicking \(emulator\) its icon on the menu screen.
 
-    **Note:** However, this method prevents TestArchitect from communicating with the application, and thus makes it unavailable for testing.
+{{<note>}} However, this method prevents TestArchitect from communicating with the application, and thus makes it unavailable for testing.
 
 2.  Launching from a test module with the [start program](/TA_Automation/Topics/bia_start_program.html) action: By starting the application in this manner, TestArchitect is able to interface to the AUT, and can thus control and test the AUT.
 3.  Launching from the Android Instrumentation Tool dialog box: This is the method by which an AUT may be launched manually and yet still allow TestArchitect to interface to it and control it. Do this by double-clicking the appropriate AUT icon in the dialog box.

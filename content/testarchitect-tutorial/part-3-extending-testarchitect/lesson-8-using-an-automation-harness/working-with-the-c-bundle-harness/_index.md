@@ -22,7 +22,7 @@ Since TestArchitect version [8.3](/TA_ReleaseNotes/DITA_source/Whats_New_Windows
 -   Usability: To ease the C\# function declaration and implementation
 -   Low coupling: not having to merge source code and rebuild the entire harness solution, even though a single user-scripted action is added. In other words, adding one new user-scripted action does not affect the existing user-scripted actions.
 
-**Note:** For legacy C\# user-scripted actions, created in TestArchitect versions prior to 8.3, you are not required to migrate them to C\# bundle harness. Specifically, your legacy C\# user-scripted actions continue to work normally in TestArchitect 8.3, and you are able to develop additional user-scripted actions that conform to legacy C\# harness architecture.
+{{<note>}} For legacy C\# user-scripted actions, created in TestArchitect versions prior to 8.3, you are not required to migrate them to C\# bundle harness. Specifically, your legacy C\# user-scripted actions continue to work normally in TestArchitect 8.3, and you are able to develop additional user-scripted actions that conform to legacy C\# harness architecture.
 
 This lesson contains two exercises that demonstrate how to create C\#-scripted actions and how to make such actions accessible in your TestArchitect ABT tests.
 

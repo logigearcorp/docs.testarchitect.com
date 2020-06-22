@@ -33,7 +33,7 @@ Perform the following steps to install TestArchitect Agent onto your Android dev
     This indicates that the functioning TestArchitect Agent application now resides on your device.
 
 
-**Remember:** After installing TestArchitect Agent onto your Android device, keep in mind that the USB cable connection must be retained for testing.
+{{<remember>}} After installing TestArchitect Agent onto your Android device, keep in mind that the USB cable connection must be retained for testing.
 
 
 

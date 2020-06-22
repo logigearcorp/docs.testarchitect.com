@@ -33,7 +33,7 @@ One means of contributing data values to a data set is by pasting them in, using
 
 The [row](/TA_Automation/Topics/bia_row.html) actions are automatically generated in the first column along with the pasted data.
 
-**Note:** If raw data is pasted into the test editor, the [row](/TA_Automation/Topics/bia_row.html) actions are not generated.
+{{<note>}} If raw data is pasted into the test editor, the [row](/TA_Automation/Topics/bia_row.html) actions are not generated.
 
 
 

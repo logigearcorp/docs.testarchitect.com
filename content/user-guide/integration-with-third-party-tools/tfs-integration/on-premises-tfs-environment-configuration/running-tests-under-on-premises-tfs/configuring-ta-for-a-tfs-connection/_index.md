@@ -14,7 +14,7 @@ Use the TestArchitect external tool to set up a repository for integration with 
 
 2.  Under the appropriate repository node of the TestArchitect explorer tree, expand the subtree **Administration** \> **Tool Profiles** \> **External Tool** \> **Test Management**.
 
-    **Note:** Only TestArchitect users belonging to the administrator group are able to view and modify the **Administration** node in the explorer tree.
+{{<note>}} Only TestArchitect users belonging to the administrator group are able to view and modify the **Administration** node in the explorer tree.
 
 3.  In the expanded list of options, double-click **Team Foundation Server**.
 
@@ -22,7 +22,7 @@ Use the TestArchitect external tool to set up a repository for integration with 
 
 5.  In the **Available options** box, type server= \[Full web access URL of your TFS server\]. For example, server=http://lgvn13388:8080/tfs
 
-    **Tip:** You can find the **Web Access URL** in the **Application Tier** node from the Team Foundation Server Administration Console dialog box. \([Learn more.](http://msdn.microsoft.com/en-us/library/vstudio/dd273718(v=vs.110).aspx)\)
+{{<tip>}} You can find the **Web Access URL** in the **Application Tier** node from the Team Foundation Server Administration Console dialog box. \([Learn more.](http://msdn.microsoft.com/en-us/library/vstudio/dd273718(v=vs.110).aspx)\)
 
     ![](/images/TA_Help/Images/Get_URL_from_TFSAC.png)
 
@@ -31,7 +31,7 @@ Use the TestArchitect external tool to set up a repository for integration with 
     -   TFS Helper - All version of Team Foundation Server \(Default\) \([Learn more](/TA_Help/Topics/ug_MTM_upload_result_automatic.html#)\)
     -   Rest API - Team Foundation Server 2015 Update 4 \([Learn more](/TA_Help/Topics/ug_MTM_upload_result_automatic.html#)\)
 
-        **Note:** Rest API - Team Foundation Server 2015 Update 4 option only support for Automatically uploading results to TFS.
+{{<note>}} Rest API - Team Foundation Server 2015 Update 4 option only support for Automatically uploading results to TFS.
 
         ![](/images/TA_Help/Images/TFS_upload_method.png)
 
@@ -42,7 +42,7 @@ Use the TestArchitect external tool to set up a repository for integration with 
 8.  Click **Apply**.
 
 
-CAUTION:
+{{<caution>}}
 
 As a general rule, only one test management tool can be active at a time for a given TestArchitect repository. If you select the **Active** check box and click the **Apply** button, the new external tool becomes active and any other tool formerly in use is automatically rendered inactive. For example, activating the Quality Center external tool automatically deactivates the Team Foundation Server external tool.
 

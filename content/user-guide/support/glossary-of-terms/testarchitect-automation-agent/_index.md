@@ -12,5 +12,5 @@ A browser extension that allows automated web testing to be conducted by TestArc
 
 Also referred to as: **TA Automation Agent**.
 
-**Note:** Do not confuse with [TestArchitect Agent](/TA_Glossary/Topics/glossaryTAAgent.html), which is used for mobile testing, nor with [TestArchitect agent license](/TA_Glossary/Topics/glossaryTAAgentLicense.html), which grants rights to the TestArchitect Controller service.
+{{<note>}} Do not confuse with [TestArchitect Agent](/TA_Glossary/Topics/glossaryTAAgent.html), which is used for mobile testing, nor with [TestArchitect agent license](/TA_Glossary/Topics/glossaryTAAgentLicense.html), which grants rights to the TestArchitect Controller service.
 

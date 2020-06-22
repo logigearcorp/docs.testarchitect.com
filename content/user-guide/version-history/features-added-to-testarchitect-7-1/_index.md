@@ -10,7 +10,7 @@ keywords: "What's new, TestArchitect 7.1, what's new"
 
 This topic describes the changes made in TestArchitect version 7.1.
 
-CAUTION:
+{{<caution>}}
 
 -   It is strongly recommended that you back up all repositories before upgrading to the latest version of TestArchitect.
 -   Upgrade of repository databases is mandatory for using the new **Name change propagation** feature. The upgrading process adds necessary referencing information to the databases.

@@ -10,7 +10,7 @@ keywords: "Android, test execution, action lines, executing test, executing, And
 
 From within your action lines, you can control which Android device\(s\) your test is to execute on.The built-in [use device](/TA_Automation/Topics/bia_use_device.html) action is used to specify a target device upon which the subsequent action lines are to be run.
 
-**Note:** Any device referenced by a use device action within a test must be connected to the same TestArchitect controller on which the test is running.
+{{<note>}} Any device referenced by a use device action within a test must be connected to the same TestArchitect controller on which the test is running.
 
 ## Specifying a target device from your action lines
 

@@ -16,7 +16,7 @@ TestArchitect's Utility Server runs in the background. It can be started, stoppe
 
 2.  In the dialog box, select **Tools** \> **TestArchitect Utility Server Information**.
 
-    **Note:** The **TestArchitect Utility Server Information** command is enabled only when the repository server is [started](/TA_Administration/Topics/Starting_repository_server.html).
+{{<note>}} The **TestArchitect Utility Server Information** command is enabled only when the repository server is [started](/TA_Administration/Topics/Starting_repository_server.html).
 
     The TestArchitect Utility Server Information dialog box appears.
 

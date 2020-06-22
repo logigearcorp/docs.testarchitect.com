@@ -10,7 +10,7 @@ keywords: "OCR, advanced settings, extra thresholds"
 
 Sometimes, complex or noisy backgrounds, irregularly spaced characters, or other factors may make the detection of bitmapped text difficult. To address the problem of difficult-to-read text, the OCR Detector Tool offers advanced settings, allowing you to make adjustments that optimize the automation's ability to detect and recognize bitmapped text..
 
-**Note:** Note that the OCR Detector tool is not currently supported on Linux and macOS.
+{{<note>}} Note that the OCR Detector tool is not currently supported on Linux and macOS.
 
 ![](/images/TA_Help/Images/OCR_detector_tool_dlg_advanced_settings.png)
 
@@ -37,7 +37,7 @@ The **Advanced Settings** tab of the OCR Detector Tool offers the following sett
     -   During the color inversion process: Specifies a tolerance level for determining which pixels are to be inverted. Pixels with colors within the specified range of the color of pixel \(x,y\) , and contiguous with the clicked point, are inverted; otherwise their colors remain intact. \(Note that pixels are changed to the inverse of the \(x,y\) pixel’s color, not to the inverses of their individual colors.\)
     -   During the text detection process: The value of this field is used to establish a range around the value of **Pick Color** \(under the **Settings** tab\) to determine which colors are to be considered \(those within the range\) and which are to be ignored \(those outside the range\).
 
-**Note:**
+{{<note>}}
 
 -   All the values specified for OCR advanced settings must be declared explicitly within your tests. Do this by clicking the **Copy Script to Clipboard** button in the OCR Detector Tool dialog box, and then pasting the values into TestArchitect's test editor \(pressing Ctrl + V\). TestArchitect automatically generates a built-in action [set ocr setting](/TA_Automation/Topics/bia_set_ocr_setting.html) with filled argument values:
 

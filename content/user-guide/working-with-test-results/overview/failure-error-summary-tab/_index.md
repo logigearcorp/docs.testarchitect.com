@@ -10,11 +10,11 @@ keywords: "test results, failure, error, failure, error"
 
 This section displays all failure, error, or warning encountered during the test run.
 
-**Remember:** The contents of **Failure/Error Summary** are organized into a tab when the test results are viewed on a web browser; whereas they are organized into a sub-section when the test results are viewed on the TestArchitect Client.
+{{<remember>}} The contents of **Failure/Error Summary** are organized into a tab when the test results are viewed on a web browser; whereas they are organized into a sub-section when the test results are viewed on the TestArchitect Client.
 
 Exploring this tab exhibits a list of the failures with the following fields:
 
-**Note:** In the following, the term *failure* is used as a shorthand for failure, error or warning.
+{{<note>}} In the following, the term *failure* is used as a shorthand for failure, error or warning.
 
 ![](/images/TA_Help/Images/Test_results_summaries_failure_error_summary_XML.png)
 

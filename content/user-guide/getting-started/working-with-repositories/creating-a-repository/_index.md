@@ -27,7 +27,7 @@ The new repository is added to the **Repository** list. The repository is select
 
 ![](/images/TA_Help/Images/ug_newaddedrepositoryserver2.png)
 
-**Note:** New repositories are automatically assigned a single user account named administrator. By default, no password is assigned to this account. If this is a production repository, or one with sensitive contents, the password should be changed.
+{{<note>}} New repositories are automatically assigned a single user account named administrator. By default, no password is assigned to this account. If this is a production repository, or one with sensitive contents, the password should be changed.
 
 
 

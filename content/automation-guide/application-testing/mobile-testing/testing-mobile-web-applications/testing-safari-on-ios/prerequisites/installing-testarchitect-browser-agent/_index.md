@@ -10,7 +10,7 @@ keywords: "mobile web testing, Safari, installing browser agent, Safari testing,
 
 If your tests are to make use of the built-in navigate action to automatically invoke web pages in the Safari browser, then any iOS device subject to such testing must by prepped by having TestArchitect Browser Agent re-signed and installed. \(Note, however, that this procedure may be bypassed if you instead plan to start Safari manually by tapping the Safari icon on the device.\)
 
-**Remember:** While web testing within Safari iOS can be hosted from either a Windows or macOS controller, the process of re-signing and installing TestArchitect Browser Agent on the target device must be performed from an macOS machine.
+{{<remember>}} While web testing within Safari iOS can be hosted from either a Windows or macOS controller, the process of re-signing and installing TestArchitect Browser Agent on the target device must be performed from an macOS machine.
 
 Before re-signing and installing TestArchitect Browser Agent, ensure that the device has already been configured in accordance with the [iOS testing prerequisites](/iOS/Topics/iOS_prerequisite.html).\)
 
@@ -37,7 +37,7 @@ Carry out the following procedures on an macOS machine:
     -   TestArchitectBrowserAgent.ipa
     -   FileInfo
     -   iOSInstrumentationDyLib.dylib
-    **Note:** The files resign.sh, TestArchitectBrowserAgent.ipa, FileInfo, and iOSInstrumentationDyLib.dylib may be found at the following location when TestArchitect is installed: Applications/TestArchitect/device/iOS/resource
+{{<note>}} The files resign.sh, TestArchitectBrowserAgent.ipa, FileInfo, and iOSInstrumentationDyLib.dylib may be found at the following location when TestArchitect is installed: Applications/TestArchitect/device/iOS/resource
 
 3.  Start the command line terminal and navigate to the directory to which you copied the files in the preceding step.
 
@@ -49,7 +49,7 @@ Carry out the following procedures on an macOS machine:
 
     Syntax: resign.sh <Common Name of private key in Keychain Access\> <file name of the provisional profile\> <file name \(without or with the .ipa suffix\) of the application file to re-sign\>
 
-    **Note:** Providing the file name's extension \(.ipa\) is optional. If not provided, the script assumes an extension of .ipa.
+{{<note>}} Providing the file name's extension \(.ipa\) is optional. If not provided, the script assumes an extension of .ipa.
 
     `./resign.sh "iPhone Developer: John Doe (3M2DBQ46ZG)" iOS_Team_Provisioning_Profile_.mobileprovision TestArchitectBrowserAgent`
 
@@ -63,7 +63,7 @@ Carry out the following procedures on an macOS machine:
 
         A re-signed TestArchitectBrowserAgent is installed onto the device.
 
-    **Note:** You can perform step [6](/TA_Automation/Topics/aut_app_testing_mobile_web_Safari_installing_TA_Browser_Agent.html#step_u4p_xyq_kn) on either an macOS or Windows machine.
+{{<note>}} You can perform step [6](/TA_Automation/Topics/aut_app_testing_mobile_web_Safari_installing_TA_Browser_Agent.html#step_u4p_xyq_kn) on either an macOS or Windows machine.
 
 
 

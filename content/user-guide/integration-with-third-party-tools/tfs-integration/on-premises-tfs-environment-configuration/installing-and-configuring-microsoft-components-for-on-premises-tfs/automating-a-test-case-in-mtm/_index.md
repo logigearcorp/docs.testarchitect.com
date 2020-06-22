@@ -10,7 +10,7 @@ keywords:
 
 To successfully automate a test case in Microsoft Test Manager \(MTM\), numerous steps must be taken. These include creating TFS test cases, creating UI tests, linking test cases to test methods, creating a lab environment and settings to run your tests, and more. Additionally, in this section, a simple coded UI test project is created to let you verify that the entire AUT, including its user interface, is functioning correctly.
 
-**Note:** If you use TFS 2018, be aware of its substantial changes:
+{{<note>}} If you use TFS 2018, be aware of its substantial changes:
 
 -   XAML Build has been deprecated. Furthermore, Microsoft Test Manager \(MTM\) no longer supports XAML builds
 -   Using Test Center/Lab Center in MTM for automated testing is no longer supported by TFS, starting with TFS 2018.

@@ -36,7 +36,7 @@ Check for the nonexistence of a specified [bitmap text fragment](/TA_Glossary/To
 
     The above figure illustrates the active area that applies when both the window and control arguments have been specified \(establishing a picture control as the active UI element\), and rect = 80, 30. \(That is, left=80, top=30, and width and height are allowed to assume their default values.\) Note that, in this case, the active area and the rect area are the same, but that is not always the case. \(See Notes below.\)
 
-    **Note:** Any of the four sub-arguments of rect may be omitted, but all values must maintain their comma-delimited places to ensure correct assignment.\(For example, setting rect to \(, , 100, 50\) specifies an active area of width=100, height=50, whose top-left corner coincides with that of the active UI element.\)
+{{<note>}} Any of the four sub-arguments of rect may be omitted, but all values must maintain their comma-delimited places to ensure correct assignment.\(For example, setting rect to \(, , 100, 50\) specifies an active area of width=100, height=50, whose top-left corner coincides with that of the active UI element.\)
 
 -   **text**
 
@@ -61,7 +61,7 @@ This action may be used within the following project items:test modules and user
 
 -   This built-in action employs both [Optional Character Recognition](/TA_Automation/Topics/aut_text_recognition_techniques.html) \(OCR\) and [Graphics Device Interface](/TA_Automation/Topics/aut_text_recognition_techniques.html) \(GDI\) techniques. By default, the action employs OCR technique. To switch to GDI technique, refer to the [character recognition technique](/TA_Automation/Topics/bis_character_recognition_technique.html) built-in setting for details.
 
-    **Important:**
+{{<important>}}
 
     -   When this built-in action applies GDI technique, all Windows APIs, including [DrawTextA](https://msdn.microsoft.com/en-us/library/dd162498(v=vs.85).aspx) \(ANSI name\), [DrawTextW](https://msdn.microsoft.com/en-us/library/dd162498(v=vs.85).aspx) \(Unicode name\), [TextOutA](https://msdn.microsoft.com/en-us/library/dd145133(v=vs.85).aspx) \(ANSI name\), [TextOutA](https://msdn.microsoft.com/en-us/library/dd145133(v=vs.85).aspx) \(Unicode name\), [ExtTextOutA](https://msdn.microsoft.com/en-us/library/dd162713(v=vs.85).aspx) \(ANSI name\), [ExtTextOutW](https://msdn.microsoft.com/en-us/library/dd162713(v=vs.85).aspx) \(Unicode name\) will be called to redraw the desired text produced by the AUT.
     -   Use of GDI technique for this action is supported on the following systems/platforms: Windows \(Win32, WinForms\).

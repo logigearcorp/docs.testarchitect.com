@@ -12,7 +12,16 @@ html {
   -webkit-text-size-adjust: 100%;
   /* 2 */
 }
-
+.note {
+  background-position-y: center;
+   background-repeat: no-repeat;
+   display:inline;
+  padding-top: 4px;
+  padding-right: 4px;
+  padding-bottom: 4px;
+  padding-left: 23px;
+  font-weight: bold;
+}
 /* Sections
    ========================================================================== */
 /**

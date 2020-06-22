@@ -14,7 +14,7 @@ TestArchitect provides sample C\# bundle harness code files for you to learn to 
 
 The following list provides an introductory overview of C\# bundle harness folders and files provided with the installation of TestArchitect.
 
-**Note:**
+{{<note>}}
 
 -   The diagram below only describes the most important files and folders required to develop C\#-scripted programs.
 -   All of the folders default to <INSTALL\_DIR\>\\harness samples\\

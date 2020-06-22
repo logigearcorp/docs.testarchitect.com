@@ -14,7 +14,7 @@ TestArchitect offers you two methods for verifying the correctness of images pro
 
 In the pixel-by-pixel technique, TestArchitect maintains a baseline image to use for comparison purposes when testing an image produced by the AUT. The comparison is considered successful only if the test image precisely matches its baseline, meaning that the colors of each pair of corresponding pixels of both images are identical. In order to improve the accuracy of image comparison, you should try to ensure that the baseline image, which is stored prior to testing, is captured under the same conditions for which the application is tested. Sometimes, you may encounter situations in which a pixel-by-pixel comparison fails, but where a visual inspection of the baseline and the image under test reveals no discernible difference. This can occur, for example, when the display hardware used during testing differs from that which was used during the baseline capture.
 
-**Note:** TestArchitect does allow you to specify multiple baselines for a given image comparison, which in many cases can address this problem.
+{{<note>}} TestArchitect does allow you to specify multiple baselines for a given image comparison, which in many cases can address this problem.
 
 ## Keypoint Detection Comparison
 

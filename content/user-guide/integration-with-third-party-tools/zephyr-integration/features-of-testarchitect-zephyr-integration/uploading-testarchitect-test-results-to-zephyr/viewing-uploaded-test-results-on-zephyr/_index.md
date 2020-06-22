@@ -10,7 +10,7 @@ keywords: "integration, Zephyr, viewing uploaded test results, viewing uploaded 
 
 This topic describes the steps you need to perform to view test results uploaded from TestArchitect on the Zephyr server.
 
-**Important:** TestArchitect-Zephyr integration supports the following versions of Zephyr.
+{{<important>}} TestArchitect-Zephyr integration supports the following versions of Zephyr.
 
 -   [6.2](https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/550633474/6.2+Release+Notes)
     -   [Zephyr Cloud](https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/263521484/Zephyr+Enterprise+Cloud+Requirements)

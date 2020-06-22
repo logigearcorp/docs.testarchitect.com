@@ -10,16 +10,16 @@ keywords: "running, multiple harnesses"
 
 Running multiple harnesses is to execute different test modules/suites with a single TA Controller simultaneously.
 
-**Note:** Applies to TestArchitect [8.4](/TA_ReleaseNotes/DITA_source/Whats_New_8.4.html) and higher.
+{{<note>}} Applies to TestArchitect [8.4](/TA_ReleaseNotes/DITA_source/Whats_New_8.4.html) and higher.
 
-**Restriction:** As of the current release, there are some following constraints that you should keep in mind.
+{{<restriction>}} As of the current release, there are some following constraints that you should keep in mind.
 
 -   You are unable to run more than one GUI testing harness simultaneously. However, running a single GUI testing harness together with multiple non-GUI testing harnesses, such as, API/DB/CLI testing, etc. is allowable.
 -   Running a harness in debug mode along with multiple harnesses using batch file\(s\) is allowable.
 -   It is impossible to run a harness in debug mode first and then run more harness\(es\) in debug/ordinary/compilation mode.
 -   Technically, you can run a harness in ordinary mode from TestArchitect Client first and then run another harness in debug mode. It is highly inadvisable to try this because it can cause unexpected functions.
 
-**Tip:** As for as [synchronous remote execution](/TA_Help/Topics/Test_exec_remote_synchronous.html), a lead machine is capable of launching multiple harnesses on a deputy machine.
+{{<tip>}} As for as [synchronous remote execution](/TA_Help/Topics/Test_exec_remote_synchronous.html), a lead machine is capable of launching multiple harnesses on a deputy machine.
 
 Perform the following steps to execute multiple harnesses from TestArchitect Client:
 
@@ -29,7 +29,7 @@ Perform the following steps to execute multiple harnesses from TestArchitect Cli
 
 2.  Continue to execute the other preferred test suites/modules one after another while other harnesses are still running.
 
-    **Tip:** You can monitor all the running harnesses and their statuses via:
+{{<tip>}} You can monitor all the running harnesses and their statuses via:
 
     -   [Playback toolbar](/TA_Help/Topics/Test_exec_playback_toolbar.html)
     -   [TestArchitect Controller](/TA_Help/Topics/Controller_management.html) dialog box.

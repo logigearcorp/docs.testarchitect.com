@@ -30,7 +30,7 @@ The main elements of the interface are:
 
 As mentioned, the left panel of the Client interface contains the TestArchitect explorer tree.
 
-**Tip:** It can be hidden, or made visible again, by pressing F10 on your keyboard, or by selecting **View** \> **Explorer Tree** from the main menu.
+{{<tip>}} It can be hidden, or made visible again, by pressing F10 on your keyboard, or by selecting **View** \> **Explorer Tree** from the main menu.
 
 The TestArchitect explorer tree provides a hierarchical view for managing your test projects. Its nodes represent repositories, projects, folders, test modules, actions, and other items.
 
@@ -63,7 +63,7 @@ Items within this hierarchical folder structure are added via the context menu o
 
 ![](/images/TA_Help/Images/ug_TA_Tests_context_menu.png)
 
-**Note:** The additional option on the menu of adding a new test folder rather than a test module. This type of option \(of creating a subfolder\) applies pretty much across the board. It offers you the ability to further organize and group your test modules, actions, data sets, picture checks and results in a logical fashion, and introduces additional levels of the items hierarchy. \(Subfolders can be created within subfolders, so that there is no practical limit to the number of levels that might exist in your items hierarchy.\)
+{{<note>}} The additional option on the menu of adding a new test folder rather than a test module. This type of option \(of creating a subfolder\) applies pretty much across the board. It offers you the ability to further organize and group your test modules, actions, data sets, picture checks and results in a logical fashion, and introduces additional levels of the items hierarchy. \(Subfolders can be created within subfolders, so that there is no practical limit to the number of levels that might exist in your items hierarchy.\)
 
 ## Definition tab
 

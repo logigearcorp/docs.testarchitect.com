@@ -45,7 +45,7 @@ The action is automatically inserted into your test, along with appropriate inte
 
 ![](/images/TA_Help/Images/applicable_BIA_1.png)
 
-**Note:**
+{{<note>}}
 
 -   <div id="li.actions_list.user-defined"></div>For controls that have a user-defined TA class, TestArchitect makes no attempt to guess the applicable actions. However, it is indeed possible to have the **applicable actions** list pop up for such controls – you just have to supply the list of actions yourself \(in advance, of course\). For such controls, the list may include [built-in actions](/TA_Automation/Topics/bia_Built_in_actions.html), [user-defined actions](/reuse/reuse.High_level_actions.html) and [user-scripted actions](/TA_Tutorials/Topics/Tutorial_Scripting_actions_in_other_languages.html)[1](#fntarg_1). \(See [Specifying action suggestion for user-defined TA classes](/TA_Help/Topics/ug_applicable_actions_user_defined_class.html) for details\).
 -   For any control belonging to a built-in TA class, the Content assist window's **applicable actions** list is limited to [built-in actions](/TA_Automation/Topics/bia_Built_in_actions.html). There is no way to customize that list by adding user-scripted or user-defined actions.

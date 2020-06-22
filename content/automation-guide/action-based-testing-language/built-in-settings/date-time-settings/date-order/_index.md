@@ -12,7 +12,7 @@ keywords: "built-in settings, date order, settings, date order (settings), date 
 
 Specify the order of the elements \(year, month, day\) of dates on output.
 
-**Tip:** To specify the format of each individual element of the date, use the [date format](/TA_Automation/Topics/bis_date_format.html) setting.
+{{<tip>}} To specify the format of each individual element of the date, use the [date format](/TA_Automation/Topics/bis_date_format.html) setting.
 
 ## Allowable values
 

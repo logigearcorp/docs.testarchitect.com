@@ -17,7 +17,7 @@ There are two means by which a test may be paused for debugging:
 -   Prior to executing a test, you may set one or more breakpoints in the test module or its action definition\(s\). Then execute the test in Debug mode.
 -   Upon encountering an automation problem \(warning or error\) during execution, TestArchitect automatically pauses, offering you the option of entering Debug mode at the point of the problem action line.
 
-**Note:** Take notice of the following rules when you try to execute multiple harnesses, one of which runs in debug mode.
+{{<note>}} Take notice of the following rules when you try to execute multiple harnesses, one of which runs in debug mode.
 
 -   Running a harness in debug mode along with multiple harnesses using batch file\(s\) is allowable.
 -   Technically, you can run a harness in ordinary mode from TestArchitect Client first and then run another harness in debug mode. It is highly inadvisable to try this because it can cause unexpected functions.

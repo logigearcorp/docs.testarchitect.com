@@ -10,7 +10,7 @@ keywords: "replication repositories, data synchronization, synchronizing data (p
 
 Data synchronization between the primary repository and the replication repository is a two-way process. Each modification to the primary repository is synchronized with the replication repository, and vice-versa.
 
-**Important:** Synchronization mode can only be set on a primary server. It is disabled on replication servers.
+{{<important>}} Synchronization mode can only be set on a primary server. It is disabled on replication servers.
 
 To synchronize data, do the following:
 
@@ -30,7 +30,7 @@ To synchronize data, do the following:
         -   **Interval**: Specifies the time between synchronizations.
     ![](/images/TA_Administration/Images/admin_RS_dlg_replication_10.png)
 
-    **Important:** TestArchitect calculates a synchronization schedule based on the assumption that the start time is for the current day, whether or not that time has already passed. For example, let's say the current time is 10:00 AM; the following table then specifies initial synchronization times based on a given start time.
+{{<important>}} TestArchitect calculates a synchronization schedule based on the assumption that the start time is for the current day, whether or not that time has already passed. For example, let's say the current time is 10:00 AM; the following table then specifies initial synchronization times based on a given start time.
 
     |Start time|Interval|Schedule|First synchronization|
     |----------|--------|--------|---------------------|

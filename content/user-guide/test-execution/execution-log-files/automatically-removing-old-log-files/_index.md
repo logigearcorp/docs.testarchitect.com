@@ -20,7 +20,7 @@ By default log files older than seven days will automatically be deleted; but yo
 
 3.  Find the line that begins with `days to keep run data` and change its value to the desired number of days.
 
-    **Note:** The value must be a positive integer. As long as you set an invalid value \(negative number or zero\), the default value \(7\) will be used automatically.
+{{<note>}} The value must be a positive integer. As long as you set an invalid value \(negative number or zero\), the default value \(7\) will be used automatically.
 
     ![](/images/TA_Help/Images/remove_old_log_files.png)
 

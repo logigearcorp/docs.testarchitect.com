@@ -12,7 +12,7 @@ A repository results list view displays a list of all repository test results co
 
 On the TestArchitect explorer tree, when you double-click the **Results** node, and then select the **Results** tab. TestArchitect displays in the main panel a list view of the repository test results for the project.
 
-**Note:** Repository test result list views are also available for subfolders of the **Results** node.
+{{<note>}} Repository test result list views are also available for subfolders of the **Results** node.
 
 ![](/images/TA_Help/Images/Listview_repo_result.png)
 
@@ -26,7 +26,7 @@ You can find various common operations that can be performed on a repository tes
 
 From a list view, you can display a repository test result in the main panel by right-clicking its list view entry, then clicking **Open**.
 
-**Tip:** You can also open multiple test results by using your keyboard's Shift key to select a contiguous range of test results \(or Control to select multiple noncontiguous test results\); then right-click the selection, and click Open.
+{{<tip>}} You can also open multiple test results by using your keyboard's Shift key to select a contiguous range of test results \(or Control to select multiple noncontiguous test results\); then right-click the selection, and click Open.
 
 ## Opening the source test module
 
@@ -50,7 +50,7 @@ The **Mark to compare**, **Compare results**, and **Go to marked result** comman
 
 -   From the repository test result list view, you can remove a given repository test result from one result folder and paste it to another by performing the **Cut** and **Paste** operations from the context menu.
 
-    **Tip:**
+{{<tip>}}
 
     -   In addition to the conventional cut-and-paste and copy-and-paste from the context menu, you can drag and drop a project item, or a selection of items, from a list view into a folder or node of the same type in the TestArchitect explorer tree.
     -   Performing drag-and-drop within the same project is equivalent to cutting and pasting. Performing a drag-and-drop across different projects, on the other hand, is a copy-and-paste operation.
@@ -80,15 +80,15 @@ TestArchitect seamlessly integrates with several powerful third-party tools, to 
 
 ## Previewing summary of a checkpoint failure or an automation warning/error
 
-**Note:** Applies to TestArchitect [8.3 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.html) and higher.
+{{<note>}} Applies to TestArchitect [8.3 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.html) and higher.
 
 You can preview a checkpoint by selecting the desired checkpoint in the result list view and clicking its corresponding number of failures, warnings or errors. The first failure, warning or error of the checkpoint will be displayed in a tooltip.
 
-**Restriction:** Previewing checkpoints of a master result, meaning, it is a [test suite result](/TA_Help/Topics/ug_test_results_introduction.html#section.TS_results), or it contains [subresults](/TA_Help/Topics/ug_test_results_introduction.html#section.Subresults), is currently unsupported.
+{{<restriction>}} Previewing checkpoints of a master result, meaning, it is a [test suite result](/TA_Help/Topics/ug_test_results_introduction.html#section.TS_results), or it contains [subresults](/TA_Help/Topics/ug_test_results_introduction.html#section.Subresults), is currently unsupported.
 
 ![](/images/TA_Help/Images/Preview_checkpoint.png)
 
-**Note:** It may take a while to load a tooltip, when the result list view contains thousands of checkpoints.
+{{<note>}} It may take a while to load a tooltip, when the result list view contains thousands of checkpoints.
 
 
 

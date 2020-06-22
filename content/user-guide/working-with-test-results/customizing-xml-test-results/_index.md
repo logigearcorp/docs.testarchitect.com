@@ -24,7 +24,7 @@ Go to the following location, and then modify .xsl files as you wish.
 -   Linux: /usr/local/logigear/testarchitect/templates/xsl/
 -   macOS: /Applications/TestArchitect/templates/xsl/
 
-**Note:** To understand the structure and the contents of XML test results, you may refer to the XML Scheme. This file is located at the following location:
+{{<note>}} To understand the structure and the contents of XML test results, you may refer to the XML Scheme. This file is located at the following location:
 
 -   Windows: \{TA\_INSTALL\_DIR\}\\tahelp\\data\\XMLResult.xsd
 -   Linux: /usr/local/logigear/testarchitect/tahelp/data/XMLResult.xsd

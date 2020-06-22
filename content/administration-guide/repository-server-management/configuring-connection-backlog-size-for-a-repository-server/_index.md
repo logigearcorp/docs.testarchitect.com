@@ -10,7 +10,7 @@ keywords: "configuration, connection retry, connect retries"
 
 TestArchitect enables you to specify the maximum size of the queue used for holding pending connections to a repository server
 
-**Note:** Applies to TestArchitect 8.4 Update 2 and higher
+{{<note>}} Applies to TestArchitect 8.4 Update 2 and higher
 
 1.  Exit the repository server if it is running.
 
@@ -21,7 +21,7 @@ TestArchitect enables you to specify the maximum size of the queue used for hold
     -   On MacOS: Applications/TestArchitect/data/rs.
 3.  Find the connection backlog size parameter and change its value to the desired number.
 
-    **Note:**
+{{<note>}}
 
     -   The default value is 50.
     -   In case you utilize TA Queue to submit jobs, the value of 1000 is recommended.

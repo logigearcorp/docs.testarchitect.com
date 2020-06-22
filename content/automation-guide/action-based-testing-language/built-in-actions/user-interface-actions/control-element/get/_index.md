@@ -46,7 +46,7 @@ The following settings are applicable to this action:[case sensitive](/TA_Automa
 
 This action is applicable to the following controls:check box, combo box, date picker, datetime, label, progress bar, radio button, rating bar, richtext, slider, search bar, slider, status bar, switch, text box, text view, toggle button, trackbar, calendar.
 
-**Note:** When getting very long strings from an SAP BW **richtext** control, you may experience perfomance issues.
+{{<note>}} When getting very long strings from an SAP BW **richtext** control, you may experience perfomance issues.
 
 This action is applicable to the following controls:button, Calendar, check box, combo box, DatePicker, DateTimePicker, Hyperlink, label, progress bar, radio button, text box, toggle button.
 

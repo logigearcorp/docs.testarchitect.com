@@ -10,7 +10,7 @@ keywords: "Release Notes 8.2 Update 5, Windows, What is new, Windows, TestArchit
 
 The following new features and improvements are introduced in TestArchitect version 8.2 Update 5 running under Windows.
 
-**Remember:**
+{{<remember>}}
 
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
@@ -38,7 +38,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Mobile automation:
     -   Support for automating [re-signed applications](/Android/Topics/Android_Automation_begin.html) and [Chrome](/TA_Automation/Topics/aut_app_testing_mobile_web_Android.html) on Android 6.0.
 
-        **Note:** As of this release, Dolphin browser versions 11.5 and later running on Android 6.0 are not currently supported.
+{{<note>}} As of this release, Dolphin browser versions 11.5 and later running on Android 6.0 are not currently supported.
 
     -   Support for [picture handling](/TA_Automation/Topics/bia_picture_handling.html) and [OCR](/TA_Automation/Topics/bia_OCR.html) built-in actions on [Chrome](/TA_Automation/Topics/aut_app_testing_mobile_web_Android.html) in physical Android devices with ARM architecture.
 -   [check picture](/TA_Automation/Topics/bia_check_picture.html) built-in action improvements:

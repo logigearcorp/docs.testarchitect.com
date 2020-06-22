@@ -42,9 +42,9 @@ You will run a test which executes the check row count action, which you have im
 
     ![](/images/TA_Tutorials/Images/dlg.Automation_Tools.Python_settings02.png)
 
-    **Note:** The default location for the python executable\(s\) is c:\\Python\\python.exe. If you install Python in a different location, you'll need to set the location, then move to the next step.
+{{<note>}} The default location for the python executable\(s\) is c:\\Python\\python.exe. If you install Python in a different location, you'll need to set the location, then move to the next step.
 
-    **Tip:** To save time, install Python to the default location C:\\Python\\.
+{{<tip>}} To save time, install Python to the default location C:\\Python\\.
 
     Additionally, from TestArchitect 8.5 onward, in the python\_harness.bat file located in the folder C:\\Program Files\\LogiGear\\TestArchitect\\harness samples\\python, the default value will be Python 3. If a user wants to use Python 2, they will need to modify the path in this file like below:![](/images/TA_Tutorials/Images/python_path.PNG)
 

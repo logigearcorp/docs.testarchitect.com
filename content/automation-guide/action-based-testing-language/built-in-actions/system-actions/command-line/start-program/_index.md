@@ -26,7 +26,7 @@ Launch a specified application on the test machine.
 
     \(Optional\) A parameter or string, such as the name of a data file, to be passed to the launched program.
 
-    **Note:** parameter is an invisible argument. To use it, you must specify both the value and parameter header in the column to the right of the program argument.
+{{<note>}} parameter is an invisible argument. To use it, you must specify both the value and parameter header in the column to the right of the program argument.
 
 
 ## Valid contexts

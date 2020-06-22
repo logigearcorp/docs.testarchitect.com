@@ -15,7 +15,7 @@ Once you have defined an argument in an action worksheet, and then [checked in](
 
 By double-clicking an action argument node, the Argument page is displayed in the main panel. On this page, you, or an automation engineer, may assign an argument type to the argument. Depending on what kind of data type is selected, additional modifier fields might be needed to define possible values, ranges or formats. \(Possible values for the **Argument Modifier** field are discussed below.\)
 
-**Note:** Whenever changes are made in the Argument page, the **Apply** button must be clicked to force the changes to take effect.
+{{<note>}} Whenever changes are made in the Argument page, the **Apply** button must be clicked to force the changes to take effect.
 
 ![](/images/TA_Help/Images/ug_argumenttype.png)
 
@@ -33,7 +33,7 @@ In general, while the focus is on an argument cell:
 
 This is the default type that is assigned to an argument when it is created. Any value is accepted as a literal string.
 
-**Note:** The **Argument Modifier** field is not applicable to the String type, so the **Argument Modifier** field is disabled when `Argument Type = String`.
+{{<note>}} The **Argument Modifier** field is not applicable to the String type, so the **Argument Modifier** field is disabled when `Argument Type = String`.
 
 **Date**
 
@@ -43,7 +43,7 @@ The **Argument Modifier** field of a Date argument allows you to specify the for
 
 ![](/images/TA_Help/Images/ug_argumenttype1.png)
 
-**Note:** Specifier codes must be all lowercase when entered.
+{{<note>}} Specifier codes must be all lowercase when entered.
 
 Allowable delimiters between specifiers are hyphen \( - \), forward slash \( / \), comma \( , \) and space. Delimiters may also be omitted. Hence, some example date formats are:
 

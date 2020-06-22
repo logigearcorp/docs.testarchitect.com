@@ -23,7 +23,7 @@ You can edit the **Name**, **Short Name**, or **Default Value** properties of al
 
 The user-defined field is updated based on your changes.
 
-**Restriction:** When naming a user-defined field, avoid any of the following special characters:
+{{<restriction>}} When naming a user-defined field, avoid any of the following special characters:
 
 |||
 |------|------|

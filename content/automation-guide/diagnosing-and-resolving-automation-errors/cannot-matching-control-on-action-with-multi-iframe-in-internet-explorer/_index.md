@@ -36,7 +36,7 @@ Error message: No matching UI object found for "\[ta class=select-one, id=lstCom
 
 ![](/images/TA_FAQ/Images/troubleshoot3.png)
 
-**Note:** Uncheck **Require server verification \(https:\) for all sites in this zone** if it;s not https.
+{{<note>}} Uncheck **Require server verification \(https:\) for all sites in this zone** if it;s not https.
 
 4. Save it and restart the IE & Edge.
 

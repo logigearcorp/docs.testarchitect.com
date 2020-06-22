@@ -10,9 +10,9 @@ keywords: "Eclipse, TestArchitect plug-in, perspectives, TestArchitect informati
 
 The Eclipse plug-in for TestArchitect creates an information window as an Eclipse perspective.
 
-**Restriction:** Integration between TestArchitect™ and the Eclipse™ has been deprecated since TestArchitect version [8.3 Update 2](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_2.html).
+{{<restriction>}} Integration between TestArchitect™ and the Eclipse™ has been deprecated since TestArchitect version [8.3 Update 2](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_2.html).
 
-**Note:**
+{{<note>}}
 
 -   The descriptions presented here assume that you are familiar with the TestArchitect debugger, as explained in [Using the debugger](/TA_Help/Topics/Debugging_the_debugger.html).
 -   Since TestArchitect version [8.3](/TA_ReleaseNotes/DITA_source/Whats_New_Windows_8.3.html), the TestArchitect Eclipse plug-in works with JDK versions from 1.8.0 to [1.8.0\_91](http://www.oracle.com/technetwork/java/javase/8u91-relnotes-2949462.html).
@@ -59,7 +59,7 @@ The TestArchitect perspective, installed via the [TA plug-in for Eclipse](/TA_He
         ![](/images/TA_Help/Images/Eclipse_plugin_problems_tab.png)
 
 
-**Tip:** Click **Refresh** to retrieve latest data and update the TestArchitect information window.
+{{<tip>}} Click **Refresh** to retrieve latest data and update the TestArchitect information window.
 
 The display of test information directly in an Eclipse perspective is useful when debugging user-scripted actions in Eclipse, precluding the need for developers to switch back and forth between TestArchitect and Eclipse to view debugging information. The plug-in also simplifies the process of creating, registering, and implementing user-scripted actions in Eclipse by automatically registering and diverting actions from TestArchitect to Eclipse.
 

@@ -44,7 +44,7 @@ Validate the current state\(s\) of a given menu item on a context menu. Result i
 
         The menu item is selected.
 
-    **Tip:** Use commas \(,\) as delimiters between expected values of the state property.
+{{<tip>}} Use commas \(,\) as delimiters between expected values of the state property.
 
 -   **x**
 

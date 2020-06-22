@@ -10,7 +10,7 @@ keywords: "iOS, setting up the test environment, test environment (iOS)"
 
 How to setup and configure iOS automated testing environment on target devices are discussed in following sections.
 
-**Important:** iOS automation is only supported on Windows or macOS hosts.
+{{<important>}} iOS automation is only supported on Windows or macOS hosts.
 
 1.  [Setting up iOS automation](/iOS/Topics/iOS_setting_up_automation.html)  
 Guides to setting up iOS automation which can be executed under TestArchitect.

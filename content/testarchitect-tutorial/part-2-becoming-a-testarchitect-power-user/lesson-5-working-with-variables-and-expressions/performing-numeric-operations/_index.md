@@ -44,9 +44,9 @@ Your action arguments may contain numeric operations, such as addition and divis
     local variable     y            # 20 + 10 * 5
     ```
 
-    **Note:** A variable may be set to a numeric value as well as a string, with no need to explicitly declare the variable's data type. Also notice that the value argument in a local variable action line can hold an expression as well as a constant.
+{{<note>}} A variable may be set to a numeric value as well as a string, with no need to explicitly declare the variable's data type. Also notice that the value argument in a local variable action line can hold an expression as well as a constant.
 
-    **Tip:** During an editing session, entering the *\#* symbol in an empty argument cell triggers an autocomplete pop-up window containing a list of variables thought to be within scope at that position in the action lines. Use the Up and Down arrow keys to select one, should you need it inserted at that point. You can bring back the pop-up list at any further point in the expression by pressing Ctrl + Space
+{{<tip>}} During an editing session, entering the *\#* symbol in an empty argument cell triggers an autocomplete pop-up window containing a list of variables thought to be within scope at that position in the action lines. Use the Up and Down arrow keys to select one, should you need it inserted at that point. You can bring back the pop-up list at any further point in the expression by pressing Ctrl + Space
 
 4.  Finally, add a report action line:
 

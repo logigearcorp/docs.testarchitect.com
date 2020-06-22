@@ -10,7 +10,7 @@ keywords: "files, log, execution log files"
 
 Once a harness run completes or is prematurely terminated, its execution information is logged to files.
 
-**Note:** Applies to TestArchitect [8.4](/TA_ReleaseNotes/DITA_source/Whats_New_8.4.html) and higher.
+{{<note>}} Applies to TestArchitect [8.4](/TA_ReleaseNotes/DITA_source/Whats_New_8.4.html) and higher.
 
 Log files mostly hold errors and exceptions that occurred during the harness run. All errors and exceptions in log files are described in greater detail than those in the [**Result Details**](/TA_Help/Topics/Test_result_details.html) tab of a test result. So they facilitate debugging or analysis of test results in case of automation errors.
 
@@ -19,7 +19,7 @@ Log files are placed in the following folder:
 -   Windows: %SystemDrive%\\Users\\Public\\LogiGear\\TestArchitect\\controller\\logging.
 -   Linux: /usr/local/logigear/testarchitect/controller/logging.
 
-**Important:**
+{{<important>}}
 
 -   For device-based harnesses, the names of their log files are associated with their device IDs and device names. The name of a log file may look like:
 

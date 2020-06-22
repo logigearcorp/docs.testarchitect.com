@@ -10,7 +10,7 @@ keywords: "methods of abt, AbtDataSet, AbtDataSet (methods)"
 
 Object class representing a data set.
 
-**Note:** This class and its associated methods are currently supported only by the C\# harness.
+{{<note>}} This class and its associated methods are currently supported only by the C\# harness.
 
 Built-in methods that you can use as operations on objects of classAbtDataSet:
 

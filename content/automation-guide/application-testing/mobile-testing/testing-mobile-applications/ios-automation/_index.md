@@ -10,7 +10,7 @@ keywords: "iOS, compatibility, compatibility, iOS"
 
 An introduction to the basics of TestArchitect automation on iOS devices, and the steps involved in setting up the test environment.
 
-**Important:** iOS automation is only supported on Windows or macOS hosts.
+{{<important>}} iOS automation is only supported on Windows or macOS hosts.
 
 TestArchitect supports the following:
 

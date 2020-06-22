@@ -10,7 +10,7 @@ keywords: "Database testing, application testing"
 
 TestArchitect offers a number of built-in actions and automation methods that allow for tests to connect to, and query, SQL-compliant databases. This allows for an expanded form of data-driven testing beyond that which relies on TestArchitect's proprietary data sets. It also expands the possibilities for performing tests on database-dependent applications. This topic presents a few of the typical test configurations involving SQL-based databases, along with specific examples.
 
-**Note:** In order to query a database, you must be familiar with SQL commands. A variety of good references and tutorials on SQL are available, including this [SQL Tutorial](http://www.w3schools.com/sql/) from W3Schools.
+{{<note>}} In order to query a database, you must be familiar with SQL commands. A variety of good references and tutorials on SQL are available, including this [SQL Tutorial](http://www.w3schools.com/sql/) from W3Schools.
 
 ## Actions
 

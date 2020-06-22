@@ -16,7 +16,7 @@ Conversely, it is also possible to perform numeric operations on string values, 
 
 Because data types in TestArchitect can be readily converted, it is possible to mix string and numeric operations and functions in an expression.
 
-**Note:** In mixed expressions, numeric calculations are performed first. All numeric operators have precedence over the `&` operator.
+{{<note>}} In mixed expressions, numeric calculations are performed first. All numeric operators have precedence over the `&` operator.
 
 
 

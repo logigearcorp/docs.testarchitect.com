@@ -66,7 +66,7 @@ This action is applicable to the following controls:table view.
 
 ![](/images/TA_Automation/Images/bia_get_table_view_section_res.png)
 
-**Note:** In this example, the returned table view section footer text is null since that section has no footer.
+{{<note>}} In this example, the returned table view section footer text is null since that section has no footer.
 
 
 

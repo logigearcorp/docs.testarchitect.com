@@ -10,7 +10,7 @@ keywords:
 
 Picture handling actions interact with captured and stored images.
 
-**Note:**
+{{<note>}}
 
 -   Picture Handling built-in actions works based on either a pixel-by-pixel technique or a keypoint detection technique comparison. To switch between techniques, use the [picture algorithm](/TA_Automation/Topics/bis_picture_algorithm.html) setting.
 -   The exact value for the picture algorithm built-in setting \(specifying the pixel-by-pixel comparison technique\) applies to nearly every [picture handling](/TA_Automation/Topics/bia_picture_handling.html) built-in action. The sole exception is [set picture min accuracy](/TA_Automation/Topics/bia_set_picture_min_accuracy.html), which does not interact with the AUT.

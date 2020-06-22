@@ -10,11 +10,11 @@ keywords: "known bugs, reviewing test results, bugs"
 
 Reviewing test results can assist you in determining if and when JIRA bug issues on a JIRA server should be closed.
 
-**Note:** It is assumed that you are familiar with test results \(see [Test results](/TA_Help/Topics/Test_result.html) for details\). Only sections related to known bugs are discussed.
+{{<note>}} It is assumed that you are familiar with test results \(see [Test results](/TA_Help/Topics/Test_result.html) for details\). Only sections related to known bugs are discussed.
 
 ## Summary tab
 
-**Remember:** The **Summary** tab is available when the test results are viewed either on TestArchitect Client or a web browser.
+{{<remember>}} The **Summary** tab is available when the test results are viewed either on TestArchitect Client or a web browser.
 
 **Test case summary** section: Displays the executed test cases and their test results in terms of passed, failed, passed with warning/error, and passed with known bug.
 

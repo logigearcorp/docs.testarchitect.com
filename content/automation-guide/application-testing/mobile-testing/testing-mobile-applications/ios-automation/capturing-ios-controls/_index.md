@@ -10,7 +10,7 @@ keywords: "iOS, capturing devices, interfaces, capturing on iOS, Interface Viewe
 
 The Interface Viewer looks for the presence, and displays the graphical user interface \(GUI\) of, available iOS devices.
 
-**Important:** iOS automation is only supported on Windows or macOS hosts.
+{{<important>}} iOS automation is only supported on Windows or macOS hosts.
 
 Ensure that the following requirements are met:
 
@@ -34,14 +34,14 @@ Do the following to capture interface entities/elements of the re-signed applica
 
     The Interface Viewer displays the associated GUI tree \(the UI environment for the AUT on the iOS device\).
 
-    **Note:**
+{{<note>}}
 
     -   Only one AUT can be automated at a time. Therefore only one application’s UI environment is displayed.
     -   TestArchitect does not support capturing native iOS dialog boxes - that is, ones that, regardless of origin, are posted by the operating system rather than directly from the application. \(An example of such a dialog box would be one displaying the message <app name\> Would Like To Use Your Current Location, which originates from an application submitting a request to iOS, which then presents the popup.\)
 4.  The processes for mapping iOS windows and GUI controls to interface entities and elements, naming items using TA name, and saving interface definitions are essentially the same as described in [Capturing interface definitions](/TA_Help/Topics/Interface_def_capturing.html) and [Naming interface elements](/TA_Help/Topics/Interface_def_naming.html).
 
 
-**Restriction:** Some features of the TestArchitect Interface Viewer are not available in the iOS version. These include:
+{{<restriction>}} Some features of the TestArchitect Interface Viewer are not available in the iOS version. These include:
 
 -   The [Identify button](/TA_Help/Topics/Interface_def_Viewer_identify.html) ![](/images/iOS/Images/iOS_hand.png).
 -   [Container classes](/TA_Help/Topics/Interface_def_container_class.html).

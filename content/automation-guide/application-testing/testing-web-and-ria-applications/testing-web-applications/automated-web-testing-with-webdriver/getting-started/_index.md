@@ -8,7 +8,7 @@ aliases:
 keywords: "of a webdriver test, basic structure, WebDriver basic structure"
 ---
 
-**Restriction:** TestArchitect currently provides partial support for Generic WebDriver. Built-in actions and settings can only work on the platforms and browsers listed in [this topic](/TA_Automation/Topics/WebDriver_supported_platforms.html).
+{{<restriction>}} TestArchitect currently provides partial support for Generic WebDriver. Built-in actions and settings can only work on the platforms and browsers listed in [this topic](/TA_Automation/Topics/WebDriver_supported_platforms.html).
 
 ![](/images/TA_Automation/Images/WebDriver_basic_structure_of_test.png)
 
@@ -17,7 +17,7 @@ A WebDriver test often starts with:
 1.  [setting](/TA_Automation/Topics/bia_setting.html) \[[webdriver mode](/TA_Automation/Topics/bis_webdriver_mode.html)\] \[on\]: to activate the WebDriver mode.
 2.  [navigate](/TA_Automation/Topics/bia_navigate.html): to go to the test web page.
 
-**Important:** To run a test with WebDriver, you have little choice other than to go to the test page using navigate.
+{{<important>}} To run a test with WebDriver, you have little choice other than to go to the test page using navigate.
 
 --- o0o ---
 

@@ -65,7 +65,7 @@ You have to activate modal dialog boxes on the client to steer SAP applications.
 3.  Switch the **F4 Help** tab and select the option **Dialog \(modal\)** in the **Display** section.![](/images/TA_Automation/Images/sap_config_client_5.png)
 4.  Confirm by clicking on the green check mark ![](/images/TA_Automation/Images/sap_config_client_6.png) button.
 
-    **Note:** Please note, that this is a per-user setting. The settings have to be configured on each client you want to test your application with. The SAP system administrator can set up the system default as Dialog \(modal\).
+{{<note>}} Please note, that this is a per-user setting. The settings have to be configured on each client you want to test your application with. The SAP system administrator can set up the system default as Dialog \(modal\).
 
 
 

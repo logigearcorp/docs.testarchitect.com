@@ -32,7 +32,7 @@ This topic categorizes some limitations you might encounter in testing web appli
     -   Use the [fire event](/TA_Automation/Topics/bia_fire_event.html) built-in action to apply an event to the control. To apply multiple events, use multiple fire event actions and then group them into a user-defined action for your convenience.
     -   Alternatively, program a separate JavaScript file to apply events. During testing, execute the JavaScript file by using the [exec script](/TA_Automation/Topics/bia_exec_script.html) built-in action.
 
-        **Note:** In order to specify events and to program the JavaScript code, you must be familiar with event specification and JavaScript syntax, respectively. Tutorials on these subjects are beyond the scope of this help system. For more information, the following resources are helpful:
+{{<note>}} In order to specify events and to program the JavaScript code, you must be familiar with event specification and JavaScript syntax, respectively. Tutorials on these subjects are beyond the scope of this help system. For more information, the following resources are helpful:
 
         -   [HTML DOM Events](http://www.w3schools.com/jsref/dom_obj_event.asp).
         -   [JavaScript Tutorial](http://www.w3schools.com/js/).

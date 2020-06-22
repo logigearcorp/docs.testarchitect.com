@@ -12,7 +12,7 @@ keywords: "built-in action, switch frame by path"
 
 Switch the focus to the target frame defined by frame path. \([Learn more](https://www.guru99.com/handling-iframes-selenium.html)\)
 
-**Important:** This action is dedicated to Generic WebDriver.
+{{<important>}} This action is dedicated to Generic WebDriver.
 
 ## When to 'switch frame'
 

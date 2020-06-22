@@ -17,7 +17,7 @@ A logical name should:
 -   be readable by a human reader,
 -   not have to change due to changes in the application under test.
 
-**Restriction:** The following special characters are not allowed in TA names: **\\** **/ : \* ? " ' < \> \| \# \[ \]**
+{{<restriction>}} The following special characters are not allowed in TA names: **\\** **/ : \* ? " ' < \> \| \# \[ \]**
 
 
 

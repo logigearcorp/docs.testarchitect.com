@@ -10,7 +10,7 @@ keywords: "Android, setting up a physical device via Wi-Fi, set up physical devi
 
 The process of setting up a physical device via Wi-Fi connection is discussed.
 
-**Important:** Android automation is only supported on Windows.
+{{<important>}} Android automation is only supported on Windows.
 
 Ensure that the following requirements are met:
 
@@ -29,7 +29,7 @@ Ensure that the following requirements are met:
 
 If a connection to the host machine is successfully established, a Connected Successfully message appears on the Android device. To disconnect the Android device from the host machine, click the **Disconnect** button.
 
-**Tip:** The Android icon, in the Devices panel of the Android Instrumentation Tool dialog box, changes to ![](/images/Android/Images/android_6.png) after the physical device has successfully connected to TestArchitect via Wi-Fi.
+{{<tip>}} The Android icon, in the Devices panel of the Android Instrumentation Tool dialog box, changes to ![](/images/Android/Images/android_6.png) after the physical device has successfully connected to TestArchitect via Wi-Fi.
 
 
 

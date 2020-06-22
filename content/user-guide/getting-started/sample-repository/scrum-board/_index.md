@@ -14,7 +14,7 @@ After logging into Scrum Board you will see three main display panels: **To Do**
 
 Scrum Board supports Internet Explorer, Google Chrome, and Mozilla Firefox web browsers and has both English and Spanish languages.
 
-**Note:**
+{{<note>}}
 
 If you'd like to manually launch the Scrum Board sample application and log in to it, perform the following:
 
@@ -22,7 +22,7 @@ If you'd like to manually launch the Scrum Board sample application and log in t
 
     -   Windows platform: TA\_INSTALL\_DIR\\samples\\ScrumBoard.
     -   Linux platform: /usr/local/logigear/testarchitect/samples/ScrumBoard.
-    **Restriction:** macOS platform: Scrum Board is not currently supported on Safari running on macOS.
+{{<restriction>}} macOS platform: Scrum Board is not currently supported on Safari running on macOS.
 
 2.  In the **Username** box, enter John.
 3.  In the **Password** box, enter tester.

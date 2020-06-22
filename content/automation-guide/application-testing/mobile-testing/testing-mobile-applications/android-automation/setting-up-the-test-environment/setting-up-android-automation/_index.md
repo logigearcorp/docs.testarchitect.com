@@ -10,7 +10,7 @@ keywords:
 
 Installing the TestArchitect Agent and testable Android applications, and properly launching the test.
 
-**Important:** Android automation is only supported on Windows.
+{{<important>}} Android automation is only supported on Windows.
 
 1.  [About TestArchitect Agent in Android](/Android/Topics/Android_TA_agent.html)  
 TestArchitect Agent is an essential component in allowing TestArchitect to communicate with Android devices during automated testing.

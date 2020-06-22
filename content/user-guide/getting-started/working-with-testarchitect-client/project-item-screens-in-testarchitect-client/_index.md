@@ -24,7 +24,7 @@ A test module is displayed in TestArchitect Client with these subtabs:
 
 ## Test Case display
 
-**Note:** This discussion refers to the subtabs that are present under a named test case tab. \(It does not apply to the **Test Cases** subtab which appears under a named test module tab.\) You can access a named test case tab by expanding a test module node in the explorer tree, then double-clicking one of the test case subnodes, if any.
+{{<note>}} This discussion refers to the subtabs that are present under a named test case tab. \(It does not apply to the **Test Cases** subtab which appears under a named test module tab.\) You can access a named test case tab by expanding a test module node in the explorer tree, then double-clicking one of the test case subnodes, if any.
 
 A test case is displayed in TestArchitect Client with the following subtabs:
 
@@ -35,7 +35,7 @@ A test case is displayed in TestArchitect Client with the following subtabs:
 
 ## Test Objective display
 
-**Note:** This discussion refers to the subtabs that are present under a named test case tab. \(It does not apply to the **Test Cases** subtab which appears under a named test module tab.\) You can access a named test case tab by expanding a test module node in the explorer tree, then double-clicking one of the test case subnodes, if any.
+{{<note>}} This discussion refers to the subtabs that are present under a named test case tab. \(It does not apply to the **Test Cases** subtab which appears under a named test module tab.\) You can access a named test case tab by expanding a test module node in the explorer tree, then double-clicking one of the test case subnodes, if any.
 
 A test case is displayed in TestArchitect Client with the following subtabs:
 
@@ -67,7 +67,7 @@ An interface is displayed in TestArchitect Client with two subtabs:
 
 ## Interface Entity display
 
-**Note:** Initial generation of an interface entity is generally performed with the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html).
+{{<note>}} Initial generation of an interface entity is generally performed with the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html).
 
 An interface entity is displayed in TestArchitect Client with two subtabs:
 
@@ -76,11 +76,11 @@ An interface entity is displayed in TestArchitect Client with two subtabs:
 
 ## Interface Element display
 
-**Note:** Direct editing of interface elements is generally performed in the **Interface Lines** tab of the parent interface entity. Initial generation of interface elements is generally performed with the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html) or [Identify tool](/TA_Help/Topics/Interface_def_client_interface_tool_identify.html).
+{{<note>}} Direct editing of interface elements is generally performed in the **Interface Lines** tab of the parent interface entity. Initial generation of interface elements is generally performed with the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html) or [Identify tool](/TA_Help/Topics/Interface_def_client_interface_tool_identify.html).
 
 An interface element is displayed in TestArchitect Client with a single screen \(no tabs\) containing both information fields and the element definition fields.
 
-**Tip:** This screen displays only the first property field for the interface element. If the element's definition involves more than a single property-value pair, the additional pairs must be accessed in the **Interface Lines** tab of the parent interface entity.
+{{<tip>}} This screen displays only the first property field for the interface element. If the element's definition involves more than a single property-value pair, the additional pairs must be accessed in the **Interface Lines** tab of the parent interface entity.
 
 ## Test Suite display
 

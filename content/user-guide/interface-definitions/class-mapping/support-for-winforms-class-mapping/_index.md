@@ -12,7 +12,7 @@ TestArchitect 8.3 enhances Windows Forms \(WinForms\) class mapping to allow Win
 
 If you have captured WinForms controls in versions of TestArchitect prior to [8.3](/TA_ReleaseNotes/DITA_source/Whats_New_Windows_8.3.html), your automated tests will continue to run normally in those versions. When running tests under TestArchitect versions 8.3 or later, if you haven't updated your mappings, the following automation warning appears in your test results: On Windows Forms AUTs, the algorithm to map user-defined and built-in TA classes has been enhanced. This causes your previously-captured interface elements to be obsolete. Please use “WinForms improvement command-line tool” to upgrade your current class mapping.
 
-**Important:**
+{{<important>}}
 
 -   You may continue using legacy-captured controls in TA 8.3 and later versions by setting [winforms raw class](/TA_Automation/Topics/bis_winforms_raw_class.html) to yes.
 -   You only need to run this tool once to address the backward compatibility issues and make existing tests runnable.

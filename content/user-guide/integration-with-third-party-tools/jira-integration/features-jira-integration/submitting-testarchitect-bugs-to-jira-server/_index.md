@@ -15,7 +15,7 @@ Ensure that the following requirements are met:
 -   Your TestArchitect test machine has [registered the JIRA server](/TA_Help/Topics/JIRA_registering.html).
 -   You are granted permission to submit bugs to a JIRA project.
 
-**Note:**
+{{<note>}}
 
 -   At present, TestArchitect-JIRA integration supports versions 5 and 6 of JIRA.
 
@@ -31,7 +31,7 @@ To submit a bug from a TestArchitect test result to a JIRA project, do the follo
     -   **Username**: Default JIRA user name to log on with.
     -   **Password**: JIRA password associated with the given user name.
     -   **Project Key**: JIRA project name to establish the connection with.
-    **Tip:** At your option, you may override the default user name and password with your own credentials for an existing account on the JIRA server.
+{{<tip>}} At your option, you may override the default user name and password with your own credentials for an existing account on the JIRA server.
 
     ![](/images/TA_Help/Images/Submit_bug_to_JIRA_dlg.png)
 

@@ -28,7 +28,7 @@ If, for any reason, the redundant license server discovers that the primary serv
 
 ![](/images/TA_Administration/Images/licenseserver_6-1.png)
 
-**Note:** Unlike the case of multiple license servers in a non-redundant configuration, all license requests from TestArchitect hosts are automatically redirected to the redundant license server when the primary server goes offline, allowing for network operation to continue uninterrupted, with minimal attention.
+{{<note>}} Unlike the case of multiple license servers in a non-redundant configuration, all license requests from TestArchitect hosts are automatically redirected to the redundant license server when the primary server goes offline, allowing for network operation to continue uninterrupted, with minimal attention.
 
 
 

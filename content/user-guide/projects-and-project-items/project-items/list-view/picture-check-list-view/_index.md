@@ -12,7 +12,7 @@ A picture check list view displays a list of all picture checks contained in the
 
 On the TestArchitect explorer tree, when you double-click the **Picture Checks** node, and then select the **Pictures** tab. TestArchitect displays in the main panel a list view of the picture checks for the project. \([Learn more](/TA_Help/Topics/Projects_and_tests_picture_check.html).\)
 
-**Note:** Picture check list views are also available for subfolders of the **Picture Checks** node.
+{{<note>}} Picture check list views are also available for subfolders of the **Picture Checks** node.
 
 ![](/images/TA_Help/Images/Listview_picture_check.png)
 
@@ -34,7 +34,7 @@ You can save a captured screen image as a new baseline for an existing image. \(
 
 -   From a picture check list view, you can remove a given picture check from one picture check folder and paste it to another by performing the **Cut** and **Paste** operations from the context menu.
 
-    **Tip:**
+{{<tip>}}
 
     -   In addition to the conventional cut-and-paste and copy-and-paste from the context menu, you can drag and drop a project item, or a selection of items, from a list view into a folder or node of the same type in the TestArchitect explorer tree.
     -   Performing drag-and-drop within the same project is equivalent to cutting and pasting. Performing a drag-and-drop across different projects, on the other hand, is a copy-and-paste operation.

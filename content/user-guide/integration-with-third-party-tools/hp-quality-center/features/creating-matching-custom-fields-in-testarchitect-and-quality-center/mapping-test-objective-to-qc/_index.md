@@ -10,7 +10,7 @@ keywords: "Quality Center, custom fields, test objective, HP Quality Center, int
 
 By default, the test objectives that may be assigned to TestArchitect test modules and test cases are not carried over to Quality Center tests. You can remedy that, however, by creating a special **test objective** custom field.
 
-**Note:** Please note that the following instructions on creating a custom field in HP Quality Center are provided for your convenience, and are not guaranteed to address changes that may occur with new updates to the application. If in doubt about any of the steps, please consult the Help documentation provided with Quality Center.
+{{<note>}} Please note that the following instructions on creating a custom field in HP Quality Center are provided for your convenience, and are not guaranteed to address changes that may occur with new updates to the application. If in doubt about any of the steps, please consult the Help documentation provided with Quality Center.
 
 Creating a means to map test objectives from TestArchitect test modules and test cases into your Quality Center tests requires that you create a special custom Memo field in Quality Center:
 

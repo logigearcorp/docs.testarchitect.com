@@ -16,7 +16,7 @@ After upgrade Firefox 70 and Geckodriver v0.26.0. TestArchitect cannot navigate 
 
 Geckodriver since v0.25.0 must have the the **Microsoft Visual Studio redistributable\_runtime** installed on your system for the binary to run. This is a known bug of Geckodriver version v0.26.0.
 
-**Note:** In TestArchitect version 8.4 update 6 released, we used Geckodriver v0.24.0. Hence, it's not require the Microsoft runtime.
+{{<note>}} In TestArchitect version 8.4 update 6 released, we used Geckodriver v0.24.0. Hence, it's not require the Microsoft runtime.
 
 ## Solution:
 

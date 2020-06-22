@@ -16,7 +16,7 @@ If you no longer need a breakpoint, delete it.
 
     -   Double-click the row header.
     -   Right-click the selected action line, then select **Debug** \> **Toggle Breakpoint**.
-    **Note:** You also can remove all of your existing breakpoints by selecting **Execution** \> **Debug** \> **Remove all** from the main menu.
+{{<note>}} You also can remove all of your existing breakpoints by selecting **Execution** \> **Debug** \> **Remove all** from the main menu.
 
 
 After you have removed the breakpoint, the red breakpoint indicator dot next to the row number disappears.

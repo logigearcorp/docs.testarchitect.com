@@ -56,7 +56,7 @@ Use of this action is supported on the following systems/platforms: Windows, Lin
     -   the current user lacks permission to modify the data set.
 -   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-**Restriction:** This action does not support [multiple device execution](/TA_Help/Topics/Test_exec_multiple_device_execution.html).
+{{<restriction>}} This action does not support [multiple device execution](/TA_Help/Topics/Test_exec_multiple_device_execution.html).
 
 ## Applicable Built-In Settings
 

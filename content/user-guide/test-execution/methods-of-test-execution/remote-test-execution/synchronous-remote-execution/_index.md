@@ -12,7 +12,7 @@ In synchronous remote execution, tests are run that typically involve multiple m
 
 As an example of a scenario requiring synchronization, hypothetically you wish to set up a test wherein Machine A sends a message in which Machine B then receives and checks. Under this scenario, the executions of Machines A and B must be synchronized so that B checks the message only after A has sent it out.
 
-**Note:** A synchronous remote execution scenario must be explicitly defined as part of the test case itself – that is, written up as action line sequences. Special lead-deputy built-in actions dedicated to synchronous remote execution are employed. This is very different from the case of asynchronous execution, in which the remote machine\(s\) are specified at runtime, and the remote execution is unrelated to the content of the test cases.
+{{<note>}} A synchronous remote execution scenario must be explicitly defined as part of the test case itself – that is, written up as action line sequences. Special lead-deputy built-in actions dedicated to synchronous remote execution are employed. This is very different from the case of asynchronous execution, in which the remote machine\(s\) are specified at runtime, and the remote execution is unrelated to the content of the test cases.
 
 In TestArchitect synchronous execution, the machine that initiates execution is called the lead, while other involved test machines are the deputies. Switching control from lead to deputy, deputy to lead, or between deputies is directed by the six lead-deputy actions:
 
@@ -25,7 +25,7 @@ In TestArchitect synchronous execution, the machine that initiates execution is 
 
 Under synchronous remote execution, control is passed to a deputy in one of two modes, serial or parallel. \(This is governed by the parallel argument of the use deputy action, in which `yes = parallel` and `no = serial`.\)
 
-**Attention:**
+{{<attention>}}
 
 -   TestArchitect automatically adds controllers executing tests to the controller list in [Lab Manager](/TA_Help/Topics/Lab_manager.html), and you can monitor the test progress there.
 -   Note that, while synchronous \(lead/deputy\) remote execution applies specifically to execution on TestArchitect controller hosts, it can be used in mobile testing when those hosts are controlling mobile devices.
@@ -48,7 +48,7 @@ Assuming that a lead connects a deputy, running two harnesses - temporarily call
     -   In case of serial mode, testOne will be terminated on both the deputy and lead.
     -   In case of parallel mode, testOne will be terminated on the deputy. However, testOne will continue running on the lead until it completes.
 
-**Note:** Regardless of whether you terminate TestOne on the lead or deputy, testTwo is not affected.
+{{<note>}} Regardless of whether you terminate TestOne on the lead or deputy, testTwo is not affected.
 
 1.  [Serial synchronous remote execution](/TA_Help/Topics/Test_exec_remote_synchronous_serial.html)  
 Under serial synchronous remote execution, control is initiated with the lead controller.

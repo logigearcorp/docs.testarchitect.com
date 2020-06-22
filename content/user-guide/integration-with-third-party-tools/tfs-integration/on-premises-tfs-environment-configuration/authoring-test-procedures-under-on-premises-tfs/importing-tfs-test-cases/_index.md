@@ -37,7 +37,7 @@ To import TFS test cases into TestArchitect:
     -   Test Steps Only: Only import all steps of the TFS test case into the TestArchitect test case. The imported test steps will not be displayed in the test editor, but the **Steps** tab of the test case.
     -   Scan Project for Existing Test Cases/Modules: if selected, the whole TestArchitect project will be scanned for test cases that already exist. Otherwise, the selected test node will be scanned.
 
-        **Note:** The **Scan Project for Existing Test Cases/Modules** function applies to Test Steps Only
+{{<note>}} The **Scan Project for Existing Test Cases/Modules** function applies to Test Steps Only
 
 5.  Click the **OK** button.
 
@@ -45,7 +45,7 @@ To import TFS test cases into TestArchitect:
 
     ![](/images/TA_Help/Images/TFS_import_overwrite_dlg.png)
 
-    **Note:** The **Copy to Clipboard** button is used to copy the list of existing test cases to the clipboard.
+{{<note>}} The **Copy to Clipboard** button is used to copy the list of existing test cases to the clipboard.
 
 7.  An information dialog box will appear stating The importing process completed successfully if the upload was successful. Click the **OK** button.
 

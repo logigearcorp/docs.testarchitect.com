@@ -16,7 +16,7 @@ When you create an interface entity with the Interface Viewer, the viewer endeav
 
 The **Check control unique** ![](/images/TA_Help/Images/btn.check_control_unique.png) button performs a validity check on your interface entity to ensure that each interface element does indeed identify no more than one control.
 
-**Note:** **Check control unique** only ensures against ambiguous control identifiers in an interface element; it does not check to make sure that at least one control does indeed exist which matches the specified property-value pair\(s\). However, the **Highlight** ![](/images/TA_Help/Images/btn.highlight.png) button, discussed below, does provide this functionality.
+{{<note>}} **Check control unique** only ensures against ambiguous control identifiers in an interface element; it does not check to make sure that at least one control does indeed exist which matches the specified property-value pair\(s\). However, the **Highlight** ![](/images/TA_Help/Images/btn.highlight.png) button, discussed below, does provide this functionality.
 
 To validate an interface entity with **Check control unique**:
 

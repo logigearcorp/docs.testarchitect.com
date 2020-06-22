@@ -33,12 +33,12 @@ To transfer a node-locked license to another machine:
 
 3.  On the Change Machine dialog box, enter the full host name or IP address of the machine to which you want to transfer the license, and select **Add**.
 
-    **Note:** If you use the full host name of the machine, ensure that the machine is connected to your working domain.
+{{<note>}} If you use the full host name of the machine, ensure that the machine is connected to your working domain.
 
     ![](/images/TA_Administration/Images/Change_machine_dlg.png)
 
 
-**Important:** Once you have successfully assigned or reassigned a node-locked license to a new machine, you are granted a 24-hour “grace” period, during which you are free to re-transfer the license to another machine. After the 24-hour grace period, a 72-hour lock-in period kicks in. For the duration of the lock-in period, you are restricted from transferring the node-locked license. Upon expiration of the lock-in period, you are once again free to transfer the license. This 24/72-hour policy applies on every subsequent occasion that the node-locked license is transferred.
+{{<important>}} Once you have successfully assigned or reassigned a node-locked license to a new machine, you are granted a 24-hour “grace” period, during which you are free to re-transfer the license to another machine. After the 24-hour grace period, a 72-hour lock-in period kicks in. For the duration of the lock-in period, you are restricted from transferring the node-locked license. Upon expiration of the lock-in period, you are once again free to transfer the license. This 24/72-hour policy applies on every subsequent occasion that the node-locked license is transferred.
 
 
 

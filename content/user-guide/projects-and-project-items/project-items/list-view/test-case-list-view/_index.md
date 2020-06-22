@@ -12,7 +12,7 @@ A test case list view displays a list of all test cases contained in the **Tests
 
 On the TestArchitect explorer tree, when you double-click the **Tests** node, and then select the **Test Cases** tab. TestArchitect opens a list view of test cases for all test modules in the project. \([Learn more](/TA_Help/Topics/Projects_and_tests_TC.html).\)
 
-**Note:** Similarly, test case list views are also available for subfolders of the**Tests** node.
+{{<note>}} Similarly, test case list views are also available for subfolders of the**Tests** node.
 
 ![](/images/TA_Help/Images/Listview_test_case.png)
 
@@ -26,7 +26,7 @@ You can find various common operations that can be performed on a test case list
 
 Steps break up a test case into smaller sections which can be maintained in an easier way. You can display the steps of a test case in the main panel by selecting **Open** on the context menu \(see [Steps](/TA_Help/Topics/Projects_and_tests_steps.html) for details\).
 
-**Tip:** You can also open multiple test cases by using your keyboard's Shift key to select a contiguous range of test cases \(or Control to select multiple noncontiguous test cases\); then right-click the selection, and click Open.
+{{<tip>}} You can also open multiple test cases by using your keyboard's Shift key to select a contiguous range of test cases \(or Control to select multiple noncontiguous test cases\); then right-click the selection, and click Open.
 
 ## Opening a test case in a test module
 

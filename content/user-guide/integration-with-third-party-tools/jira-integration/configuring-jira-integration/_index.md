@@ -10,7 +10,7 @@ keywords: "JIRA, configurations, integration"
 
 How to configure JIRA integration in TestArchitect.
 
-**Note:**
+{{<note>}}
 
 -   At present, TestArchitect-JIRA integration supports versions 5 and 6 of JIRA.
 

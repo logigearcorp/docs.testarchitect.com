@@ -10,7 +10,7 @@ keywords: "Java testing, testing Java applications, native properties, overview,
 
 Some basics of creating and recording tests for Java applications, Java control identification via the Interface Viewer, and other concepts.
 
-**Important:**
+{{<important>}}
 
 -   By default, TestArchitect Register Server, which is installed with TestArchitect, automatically starts up as a service \(daemon\) each time you boot your computer. This service is often essential for automated testing, and should generally be available. [Ensure the availability of the TestArchitect Register Server service](/TA_Administration/Topics/adm_taregserver.html) before running your automated tests.
 -   For both Windows and Linux platforms, the environment variable JAVA\_TOOL\_OPTIONS is added during the TestArchitect installation process. This variable is used to invoke the TAJavaLoader.jar agent, located at TA\_INSTALL\_DIR\\binclient\\agents\\java\\lib\\ext\\. \(Note: In Windows, JAVA\_TOOL\_OPTIONS is added as both a **User** variable and **System** variable.\)

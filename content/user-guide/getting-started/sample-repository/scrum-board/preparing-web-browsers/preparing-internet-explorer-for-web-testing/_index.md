@@ -10,7 +10,7 @@ keywords:
 
 How to properly configureInternet Explorerfor automated web testing with TestArchitect.
 
-**Note:** Ensure that any computers on which automated web testing withInternet Exploreris to be performed have had the browser configured as described in this section.
+{{<note>}} Ensure that any computers on which automated web testing withInternet Exploreris to be performed have had the browser configured as described in this section.
 
 1.  [Enabling TestArchitect Automation Agent](/TA_Automation/Topics/aut_enabling_automation_agent_IE_COPY.html)  
 Enabling the TestArchitect Automation Agent in Internet Explorer is required for testing web-based applications with TestArchitect in that browser.

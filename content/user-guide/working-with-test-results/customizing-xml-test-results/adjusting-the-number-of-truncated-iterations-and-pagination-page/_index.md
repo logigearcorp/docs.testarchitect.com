@@ -22,27 +22,27 @@ To change the number of truncated iterations in test results and define whether 
 
     -   `<xsl:param name="maxlinePaging" select="'20000'"/>`
 
-        **Note:** When the total number of action lines in a test result is larger than a specified number, the test result will display everything in a single HTML page, or no pagination page is supported.
+{{<note>}} When the total number of action lines in a test result is larger than a specified number, the test result will display everything in a single HTML page, or no pagination page is supported.
 
     -   `<xsl:param name="limit_Iterations_Number" select="500"/>`
 
-        **Note:** When the total number of [iterations](/TA_Glossary/Topics/glossaryIteration.html) is larger than a specified number, TestArchitect automatically begins to truncate the number of iterations that are shown in a test result.
+{{<note>}} When the total number of [iterations](/TA_Glossary/Topics/glossaryIteration.html) is larger than a specified number, TestArchitect automatically begins to truncate the number of iterations that are shown in a test result.
 
     -   `<xsl:param name="display_First_Iterations_Number" select="1"/>`
 
-        **Note:** The number of first iterations that will be shown in a test result.
+{{<note>}} The number of first iterations that will be shown in a test result.
 
     -   `<xsl:param name="display_Next_Failure_Iterations_Number" select="3"/>`
 
-        **Note:** The number of iterations, which contain errors, warnings, failures, etc., that will be shown next in a test result.
+{{<note>}} The number of iterations, which contain errors, warnings, failures, etc., that will be shown next in a test result.
 
     -   `<xsl:param name="display_Last_Iterations_Number" select="1"/>`
 
-        **Note:** The number of last iterations that will be shown in a test result.
+{{<note>}} The number of last iterations that will be shown in a test result.
 
     -   `<xsl:param name="display_Failure_Rows_Number" select="5"/>`
 
-        **Note:** The number of rows that will be shown in the [**Failure Summary**](/TA_Help/Topics/Test_result_details.html#li.Error_warning_failures_summary) table.
+{{<note>}} The number of rows that will be shown in the [**Failure Summary**](/TA_Help/Topics/Test_result_details.html#li.Error_warning_failures_summary) table.
 
 3.  Clear the HTML cache by doing the following.
 

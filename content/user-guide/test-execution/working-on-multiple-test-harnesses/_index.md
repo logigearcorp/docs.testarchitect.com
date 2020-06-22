@@ -10,7 +10,7 @@ keywords: "running, multiple harnesses"
 
 How to run multiple test harnesses simultaneously with a single controller.
 
-**Note:** Applies to TestArchitect [8.4](/TA_ReleaseNotes/DITA_source/Whats_New_8.4.html) and higher.
+{{<note>}} Applies to TestArchitect [8.4](/TA_ReleaseNotes/DITA_source/Whats_New_8.4.html) and higher.
 
 A distinct advantage of running multiple harnesses is parallel testing. In sequential testing, you have little choice but to carry out tests one by one, but in parallel testing you can run a number of tests concurrently. The more tests you run at the same time, the less overall time you spend.
 
@@ -22,7 +22,7 @@ Suppose that you need to conduct three tests - named test \#1, test \#2 and test
 
 The illustrations explicitly show the parallel execution time is only one-third of the sequential execution time.
 
-**Restriction:** As of the current release, there are some following constraints that you should keep in mind.
+{{<restriction>}} As of the current release, there are some following constraints that you should keep in mind.
 
 -   You are unable to run more than one GUI testing harness simultaneously. However, running a single GUI testing harness together with multiple non-GUI testing harnesses, such as, API/DB/CLI testing, etc. is allowable.
 -   Running a harness in debug mode along with multiple harnesses using batch file\(s\) is allowable.

@@ -10,7 +10,7 @@ keywords: "Quality Center, connecting repositories, HP Quality Center, repositor
 
 TestArchitect Client connects to a Quality Center server using your repository’s login information.
 
-**Important:** Note that, as a prerequisite, an account must exist on Quality Center with a user name identical to that with which you are logged in to the TestArchitect repository to be connected.
+{{<important>}} Note that, as a prerequisite, an account must exist on Quality Center with a user name identical to that with which you are logged in to the TestArchitect repository to be connected.
 
 ![](/images/TA_Help/Images/accountQC.png)
 

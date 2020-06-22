@@ -16,7 +16,7 @@ To configure TA for an integration with an Azure DevOps account, do the followin
 
 2.  Under the appropriate repository node of the TestArchitect explorer tree, expand the subtree **Administration** \> **Tool Profiles** \> **External Tool** \> **Test Management**.
 
-    **Note:** Only TestArchitect users belonging to the administrator group are able to view and modify the **Administration** node in the explorer tree.
+{{<note>}} Only TestArchitect users belonging to the administrator group are able to view and modify the **Administration** node in the explorer tree.
 
 3.  In the expanded list of options, double-click **Team Foundation Server**.
 
@@ -31,7 +31,7 @@ To configure TA for an integration with an Azure DevOps account, do the followin
 7.  Click the **Apply** button
 
 
-CAUTION:
+{{<caution>}}
 
 As a general rule, only one test management tool can be active at a time for a given TestArchitect repository. If you select the **Active** check box and click the **Apply** button, the new external tool becomes active and any other tool formerly in use is automatically rendered inactive. For example, activating the Quality Center external tool automatically deactivates the Team Foundation Server external tool.
 

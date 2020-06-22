@@ -12,7 +12,7 @@ The **Quick Start** tab, which appears when you open TestArchitect Client, and r
 
 Among other things, **Quick Start** lets you conveniently connect to a repository, create a new project, record actions, and open step-by-step tutorials.
 
-**Note:** The **Quick Start** tab appears, by default, every time TestArchitect is launched. The option to suppress or permit this appearance may be set in the Preferences dialog box. \([Learn more](/TA_Help/Topics/Additional_features_preferences.html).\)
+{{<note>}} The **Quick Start** tab appears, by default, every time TestArchitect is launched. The option to suppress or permit this appearance may be set in the Preferences dialog box. \([Learn more](/TA_Help/Topics/Additional_features_preferences.html).\)
 
 ![](/images/TA_Help/Images/welcome_pane.png)
 

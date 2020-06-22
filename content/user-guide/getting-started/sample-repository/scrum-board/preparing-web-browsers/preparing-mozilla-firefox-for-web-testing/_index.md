@@ -10,7 +10,7 @@ keywords:
 
 How to properly configure Mozilla Firefox for automated web testing with TestArchitect.
 
-**Note:** Ensure that any computers on which automated web testing withMozilla Firefoxis to be performed have had the browser configured as described in this section.
+{{<note>}} Ensure that any computers on which automated web testing withMozilla Firefoxis to be performed have had the browser configured as described in this section.
 
 -   On Windows:
     -   [Configure GeckoDriver](/TA_Automation/Topics/aut_app_testing_geckodriver_FF_COPY.html)

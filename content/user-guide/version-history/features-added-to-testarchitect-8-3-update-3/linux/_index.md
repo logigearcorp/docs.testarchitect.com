@@ -10,7 +10,7 @@ keywords: "Release Notes 8.3 Update 3, Linux, What is new, Linux, TestArchitect 
 
 The following new features and improvements are introduced in TestArchitect version 8.3 Update 3 running under Linux.
 
-**Remember:**
+{{<remember>}}
 
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be the same version.
@@ -42,9 +42,9 @@ The following new features and improvements are introduced in TestArchitect vers
 -   **[Web services testing improvements](/TA_Automation/Topics/aut_testing_web_service.html)**:
     -   [**Amazon Web Services \(AWS\) support**](https://aws.amazon.com/): TestArchitect allows you to run automated tests on AWS which enables you to remove hardware-based resource constraints to quickly create developer environments and expand your testing machine fleet.
 
-        **Remember:** When you send HTTP requests to AWS, you are required to sign the requests so that AWS can identify who sent them. To sign a request, you first need to calculate signature \([learn more](http://docs.aws.amazon.com/general/latest/gr/signing_aws_api_requests.html)\).
+{{<remember>}} When you send HTTP requests to AWS, you are required to sign the requests so that AWS can identify who sent them. To sign a request, you first need to calculate signature \([learn more](http://docs.aws.amazon.com/general/latest/gr/signing_aws_api_requests.html)\).
 
-        **Note:**
+{{<note>}}
 
         -   As of this release, signing process is not yet supported through TestArchitect's built-in actions. Consequently, you need to program a [user-scripted action](/TA_Tutorials/Topics/Tutorial_Scripting_actions_in_other_languages.html) for the signing process \(refer to the below links\).
             -   [Signing AWS Requests with Signature Version 4](http://docs.aws.amazon.com/general/latest/gr/sigv4_signing.html)

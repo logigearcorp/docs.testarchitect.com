@@ -24,7 +24,7 @@ Deploying TestArchitect installation file on other computers and running the ins
     -   /f1: Specifies where the response file is. \([Learn more](http://helpnet.flexerasoftware.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm).\)
     -   /f2: Specifies a log file location and file name. \([Learn more](http://helpnet.flexerasoftware.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm).\)
 
-        **Note:** Specify an absolute path; using a relative path gives unpredictable results.
+{{<note>}} Specify an absolute path; using a relative path gives unpredictable results.
 
     -   If the path includes spaces, enclose it in quotes.
     For example, enter the following command:

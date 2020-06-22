@@ -10,7 +10,7 @@ keywords: "Import/Export tool, Help command, Help command"
 
 Retrieve descriptive information on the functionality and options of the Import/Export tool.
 
-**Restriction:** The Import/Export tool is not available in the TestArchitect packages for the Linux and macOS operating systems.
+{{<restriction>}} The Import/Export tool is not available in the TestArchitect packages for the Linux and macOS operating systems.
 
 ## Synopsis
 

@@ -27,7 +27,7 @@ To create a data profile on a Dashboard page:
     -   **Name**: Name to be assigned to the data profile.
     -   **Item Type**: Select a project item from which to create the data profile. This item type determines which fields are selectable on the Statistic Field page \(step \#[8](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da05)\).
     -   **Related Data**: Optionally select a sub-field related to the project item. If you select an entity for this field, you will be asked to specify additional sub-fields from steps \#[9](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da06) through \#[12](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da09).
-    **Tip:** Click **Finish** if you do not want to proceed with selecting additional filtering criteria.
+{{<tip>}} Click **Finish** if you do not want to proceed with selecting additional filtering criteria.
 
 5.  On the Display Fields page, select those fields you want displayed by whatever panel uses the data profile, then click **Next**.
 
@@ -39,7 +39,7 @@ To create a data profile on a Dashboard page:
 
     ![](/images/TA_Help/Images/DB_16_results.png)
 
-    **Tip:** Click the ![](/images/TA_Help/Images/Dashboard_sort_down.png) or ![](/images/TA_Help/Images/Dashboard_sort_up.png) to change the field sorting priority order. Click ![](/images/TA_Help/Images/Dashboard_sort_delete.png) to remove a field from the sorting list.
+{{<tip>}} Click the ![](/images/TA_Help/Images/Dashboard_sort_down.png) or ![](/images/TA_Help/Images/Dashboard_sort_up.png) to change the field sorting priority order. Click ![](/images/TA_Help/Images/Dashboard_sort_delete.png) to remove a field from the sorting list.
 
 7.  On the Filter Fields page, create logical expression\(s\) to filter data, if you so opt. More than one expression may be created as necessary. Click **Next** when you are done with creating the filter fields.
 
@@ -57,9 +57,9 @@ To create a data profile on a Dashboard page:
 
     ![](/images/TA_Help/Images/DB_18.png)
 
-    **Note:** The list of selectable statistic fields varies depending on the **Item Type** specified on the **General Settings** page \(step \#[4](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da01)\).
+{{<note>}} The list of selectable statistic fields varies depending on the **Item Type** specified on the **General Settings** page \(step \#[4](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da01)\).
 
-**Note:** If an entity is specified for the **Related Data** field in Step \#[4](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da01), the next 4 steps \(step \#[9](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da06) through \#[12](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da09)\) will be available to you.
+{{<note>}} If an entity is specified for the **Related Data** field in Step \#[4](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da01), the next 4 steps \(step \#[9](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da06) through \#[12](/TA_Help/Topics/Dashboard_create_data_profile.html#step_783j_da09)\) will be available to you.
 
 9.  On the Display Sub-Fields page, select the fields that you want to assign as display sub-fields. Click **Next** when you are done selecting the display sub-fields.
 

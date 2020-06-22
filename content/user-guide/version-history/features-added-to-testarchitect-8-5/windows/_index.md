@@ -10,7 +10,7 @@ keywords: "Release Notes 8.5, Windows, What is new, Windows, TestArchitect 8.5, 
 
 The following new features and improvements are introduced in TestArchitect version 8.5 running under Windows.
 
-**Remember:**
+{{<remember>}}
 
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories and check in all test artifacts.
 -   A TestArchitect client and any repository server to which it connects must be the same version.
@@ -38,7 +38,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   [**Firefox 70+**](/TA_FAQ/Topics/0x80020015L.html#): There is an issue with geckodriver. Some computers may experience issues when navigating in webdriver mode.
 -   Due to changes in the WebDriver coordinate calculation algorithm, there may be a slight deviation of coordinates in relevant built-in actions with Generic Web Driver Mode \(GWD\) on Chrome 75. For precision, please re-calculate your positions and coordinates.
 
-    **Note:** These changes do not effect non-GWD mode.
+{{<note>}} These changes do not effect non-GWD mode.
 
 -   Certain BIA may not behave we expected when SAP cells are obscured by a scrollbar or off the screen. It's best to use the TestArchitect scroll action to reveal the full table before using actions on table cells.
 -   When using the action Count Child Node on an SAP Tree List control, you must first use the expand Built-In Action.

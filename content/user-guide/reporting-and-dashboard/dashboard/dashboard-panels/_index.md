@@ -12,7 +12,7 @@ Panels are the primary means of presenting project information on the Dashboard.
 
 A single panel can be added \(instantiated\) or cloned multiple times to one or more pages, which we call panel instances. Each instance of a panel can be constrained to a different folder. Each panel instance can have unique settings, and the ability to save those settings is determined by the user's permissions \(see [Dashboard authentication and permissions](/TA_Help/Topics/Dashboard_authentication_permissions.html) for more details\).
 
-**Note:** The default panel settings on the **Overview** and **Execution Dashboard** can be changed permanently by an administrator. Guest users can only view panels. Other users may change the panel settings but those settings are only effective for the current session.
+{{<note>}} The default panel settings on the **Overview** and **Execution Dashboard** can be changed permanently by an administrator. Guest users can only view panels. Other users may change the panel settings but those settings are only effective for the current session.
 
 1.  [Adding a predefined panel](/TA_Help/Topics/Dashboard_add_predefined_panel.html)  
 TestArchitect has a wide range of predefined panels that you can choose from to present data from your project.

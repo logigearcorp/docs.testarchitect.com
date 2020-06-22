@@ -10,9 +10,9 @@ keywords: "time traveling, rules, test execution, execution, running, executing"
 
 You have the option of supplying a specific timestamp to determine which revision of the given test module will be executed backward for the test run. It is possible that certain invoked test module and other related project items will not have the revision that is exact matches with your supplied timestamp. In this circumstance, TestArchitect applies a set of rules to determine the revision that is to be activated.
 
-**Remember:** To use time-traveling execution on any test module belonging to a legacy repository created prior to TestArchitect version [8.2](/TA_ReleaseNotes/DITA_source/Whats_New_8.2.html), you must first upgrade the repository database. \([Learn more](/TA_Administration/Topics/adm_database_upgrade_time_traveling.html).\)
+{{<remember>}} To use time-traveling execution on any test module belonging to a legacy repository created prior to TestArchitect version [8.2](/TA_ReleaseNotes/DITA_source/Whats_New_8.2.html), you must first upgrade the repository database. \([Learn more](/TA_Administration/Topics/adm_database_upgrade_time_traveling.html).\)
 
-**Note:** The rules of time-traveling execution are independent from the [rules for selecting variations for execution](/TA_Help/Topics/Variations_rules_executing.html).
+{{<note>}} The rules of time-traveling execution are independent from the [rules for selecting variations for execution](/TA_Help/Topics/Variations_rules_executing.html).
 
 ## Executing backward a revision
 
@@ -22,7 +22,7 @@ At runtime, you directly specify a timestamp in the Variation Specification pane
 
 When a specific timestamp is selected, and it is not tagged to an AUT version\(s\), TestArchitect takes the following approach for each test module, action, interface entity, or data set, it encounters in the test.
 
-**Note:** This rule is applied to [keyword variations](/TA_Help/Topics/Variations_create_keyword.html) and [default variations](/TA_Help/Topics/Variations_default.html). But not including [linked variations](/TA_Help/Topics/Variations_linking.html).
+{{<note>}} This rule is applied to [keyword variations](/TA_Help/Topics/Variations_create_keyword.html) and [default variations](/TA_Help/Topics/Variations_default.html). But not including [linked variations](/TA_Help/Topics/Variations_linking.html).
 
 ```
 TestArchitect asks: Is there a revision existing at the specified timestamp?

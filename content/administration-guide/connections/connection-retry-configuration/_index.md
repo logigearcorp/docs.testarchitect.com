@@ -10,7 +10,7 @@ keywords: "configuration, connection retry, connect retries"
 
 TestArchitect allows you to set the number of attempts for a failed connection which a TA component establishes to another component. For example, the TestArchitect Controller connects to a TestArchitect repository.
 
-**Note:** Applies to TestArchitect 8.4 Update 2 and higher
+{{<note>}} Applies to TestArchitect 8.4 Update 2 and higher
 
 ## TestArchitect Controller
 
@@ -23,7 +23,7 @@ The procedure below describes how to define the number of connection retries for
     -   On MacOS: Applications/TestArchitect/data/controller.
 3.  Find connect retries parameter and change its value to the desired number.
 
-    **Note:** The default number is 50
+{{<note>}} The default number is 50
 
 4.  Save the file.
 

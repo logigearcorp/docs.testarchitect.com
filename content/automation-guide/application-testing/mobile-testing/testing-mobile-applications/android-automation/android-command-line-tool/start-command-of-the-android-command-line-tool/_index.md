@@ -10,9 +10,9 @@ keywords: "Android, command line tool, launching app, command line tool, Android
 
 The Start command is used to launch an Android application from an Android device.
 
-**Important:** The Android command line tool is only supported on Windows.
+{{<important>}} The Android command line tool is only supported on Windows.
 
-**Note:**
+{{<note>}}
 
 -   The Android command line tool is only applicable when one or more devices are connected to the host PC via USB cable.
 -   It is highly recommended that you do not combine Android commands with the pipe operator \( \| \) to pass the output of one Android command to another for further processing.
@@ -21,7 +21,7 @@ The syntax of the Start command is as follows:
 
 -   Windows platform: `ast.exe start "Package Name" [-s "Unique ID of the Target Device"]`
 
-**Tip:** The start "Package Name" and \[-s "Unique ID of the Target Device"\] parameters can be placed in any order.
+{{<tip>}} The start "Package Name" and \[-s "Unique ID of the Target Device"\] parameters can be placed in any order.
 
 The meaning of the parameters is as follows:
 

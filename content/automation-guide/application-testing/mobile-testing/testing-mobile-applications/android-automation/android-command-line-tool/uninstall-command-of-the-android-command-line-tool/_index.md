@@ -10,14 +10,14 @@ keywords: "Android, command line tool, uninstalling app, command line tool, Andr
 
 The Uninstall command is used to uninstall an application from an Android device.
 
-**Important:** The Android command line tool is only supported on Windows.
+{{<important>}} The Android command line tool is only supported on Windows.
 
-**Note:**
+{{<note>}}
 
 -   The Android command line tool is only applicable when one or more devices are connected to the host PC via USB cable.
 -   It is highly recommended that you do not combine Android commands with the pipe operator \( \| \) to pass the output of one Android command to another for further processing.
 
-**Remember:**
+{{<remember>}}
 
 The Android command line tool does not have sufficient privileges to remove a device admin application. It is recommended that you deactivate the device admin rights of the application to allow the tool to remove it. To deactivate device admin rights, carry out the following procedure:
 
@@ -29,7 +29,7 @@ The syntax of the Uninstall command is as follows:
 
 -   Windows platform: `ast.exe uninstall "Package Name" [-s "Unique ID of the Target Device"] [Options]`
 
-**Tip:**
+{{<tip>}}
 
 -   The uninstall "Package Name" and \[-s "Unique ID of the Target Device"\] parameters can be placed in any order.
 -   \[Options\], if included, must appear at the end of the command.
@@ -65,7 +65,7 @@ The meaning of the parameters is explained below.
     -   -k: Keep the data and cache directories after uninstalling the package.
     -   -c: \(Default option\) Delete all data associated and uninstall the package.
 
-**Note:**
+{{<note>}}
 
 -   You can only uninstall an AUT from one Android device per execution.
 -   If the AUT to be uninstalled is running on the targeted Android device, the Android command line tool terminates that AUT's process and then uninstalls it.

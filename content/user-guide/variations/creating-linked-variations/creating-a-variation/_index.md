@@ -18,7 +18,7 @@ How to create a variation of a project item.
 
     ![](/images/TA_Help/Images/ug_systemtree4.png)
 
-    **Remember:** For test modules and data sets only, the variation must be pasted into the same folder as the source definition .
+{{<remember>}} For test modules and data sets only, the variation must be pasted into the same folder as the source definition .
 
 3.  If no keywords are to apply to this variation, proceed to step [3](/TA_Help/Topics/Variations_linking.html#step.linked_var).
 4.  In the Create Variation dialog box, enter any [variation keywords](/TA_Help/Topics/Variations_create_keyword.html) that apply into the **Use keyword\(s\)** box.
@@ -32,7 +32,7 @@ How to create a variation of a project item.
 
     ![](/images/TA_Help/Images/ug_systemtree33.png)
 
-    **Note:**
+{{<note>}}
 
     -   A [branch node](/TA_Help/Topics/ug_variations_create_new_branch.html) is not linkable to a variation. In other words, you are not allowed to link a variation to a branch node.
     -   If the **Select system** drop-down list is disabled, it is for one of two possible reasons:

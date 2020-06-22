@@ -12,7 +12,7 @@ It is important to test mobile web applications on different cloud devices \(sma
 
 In order to select multiple cloud devices at launch time concurrently, you need to specify necessary desired capabilities in a file, which conforms to JSON format.
 
-**Note:**
+{{<note>}}
 
 -   Ensure that the number of rented cloud devices, which would run test concurrently, is available.
 -   You can learn more about JSON syntax [here](http://www.w3schools.com/js/js_json_syntax.asp).
@@ -37,9 +37,9 @@ Carry out the following steps:
 
     -   list of [desired capabilities](/TA_Automation/Topics/aut_appium.html#section_p5f_qp3_gy) desired capabilities that would fit your organization's needs.
 
-        **Tip:** Each set of desired capabilities represents a single cloud device.
+{{<tip>}} Each set of desired capabilities represents a single cloud device.
 
-    **Note:** See the [Desired Capabilities documentation](http://appium.io/slate/en/master/?ruby#appium-server-capabilities) for the list of capabilities available for Appium.
+{{<note>}} See the [Desired Capabilities documentation](http://appium.io/slate/en/master/?ruby#appium-server-capabilities) for the list of capabilities available for Appium.
 
     For example:
 
@@ -95,7 +95,7 @@ Carry out the following steps:
 
 8.  In the Select dialog box, browse to the location of your JSON file, and then click the **Select** button.
 
-    **Restriction:** Only JSON files are accepted.
+{{<restriction>}} Only JSON files are accepted.
 
     ![](/images/TA_Automation/Images/Select_dlg_desired_capabilitties.png)
 
@@ -103,7 +103,7 @@ Carry out the following steps:
 
     ![](/images/TA_Automation/Images/Select_controllers_and_devices_dlg_desired_capabilities_selected.png)
 
-    **Tip:**
+{{<tip>}}
 
     -   To remove the unnecessary JSON file, right-click the node, and then select **Remove**.
 

@@ -18,7 +18,7 @@ Specifically, an MDI application has three kinds of windows: a *frame window*, a
 
 There are two modes available for TestArchitect to address controls of MDI applications: the traditional mode and the Just-In-Time \(JIT\) mode. By default, TestArchitect uses the traditional mode, that is, during automation playback, TestArchitect always explores every MDI-child window and its respective controls to match the window and the control. This mode might cause a slow performance issue, especially when the AUT has a large number of MDI-child windows. To address controls of MDI applications efficiently, TestArchitect maps them as MDI-child windows in the JIT mode \([learn more](/TA_Help/Topics/ug_JIT_UI_matching.html)\).
 
-**Note:** Addressing controls of MDI applications by using the JIT mode is just fully supported on [Microsoft UI Automation](/TA_Automation/Topics/aut_Using_UIA.html) \(UIA\) technology.
+{{<note>}} Addressing controls of MDI applications by using the JIT mode is just fully supported on [Microsoft UI Automation](/TA_Automation/Topics/aut_Using_UIA.html) \(UIA\) technology.
 
 1.  [Mapping controls as MDI-child windows](/TA_Help/Topics/ug_mapping_controls_child_windows.html)  
 To address controls of MDI applications, TestArchitect maps the controls as MDI-child windows.

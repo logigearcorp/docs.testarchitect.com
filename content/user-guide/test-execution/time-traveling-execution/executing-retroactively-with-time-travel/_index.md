@@ -26,7 +26,7 @@ Use one of the following methods to execute a retroactive revision of a given te
 
         -   Enter directly your desired a timestamp in the format of `MM/dd/yyyy hh:mm:ss.mmm`. For example: 04/09/2015 22:04:27.446.
 
-            **Remember:** Ensure that the input timestamp must not earlier than the creation date of the test module; otherwise, TestArchitect shows a warning message dialog box when you run the test.
+{{<remember>}} Ensure that the input timestamp must not earlier than the creation date of the test module; otherwise, TestArchitect shows a warning message dialog box when you run the test.
 
             ![](/images/TA_Help/Images/Unmatched_TM_time_traveling.png)
 
@@ -46,7 +46,7 @@ Use one of the following methods to execute a retroactive revision of a given te
 
     4.  Click **OK** to run the test with the specified revision.
 
-        **Attention:** If your current repository database is a legacy one created prior to TestArchitect version [8.2](/TA_ReleaseNotes/DITA_source/Whats_New_8.2.html), and has not been [upgraded for time traveling](/TA_Administration/Topics/adm_database_upgrade_time_traveling.html), you are presented with the following message: This repository has not yet been upgraded for time travel functionality. Please contact your administrator to upgrade it before using it with time traveling.
+{{<attention>}} If your current repository database is a legacy one created prior to TestArchitect version [8.2](/TA_ReleaseNotes/DITA_source/Whats_New_8.2.html), and has not been [upgraded for time traveling](/TA_Administration/Topics/adm_database_upgrade_time_traveling.html), you are presented with the following message: This repository has not yet been upgraded for time travel functionality. Please contact your administrator to upgrade it before using it with time traveling.
 
 -   Option \#2: Execution based on a [revision tag](/TA_Help/Topics/ug_revision_tag.html), that is, a revision is associated with a specific AUT version\(s\).
 
@@ -62,7 +62,7 @@ Use one of the following methods to execute a retroactive revision of a given te
 
         ![](/images/TA_Help/Images/execution_time_traveling_3.png)
 
-        **Tip:** To quickly deselect all selected versions, click the **Unchecked All** button.
+{{<tip>}} To quickly deselect all selected versions, click the **Unchecked All** button.
 
     4.  Click **OK**.
 
@@ -74,16 +74,16 @@ Use one of the following methods to execute a retroactive revision of a given te
 
         ![](/images/TA_Help/Images/execution_time_traveling_6.png)
 
-        **Important:** If you do not select the **Time Traveling** check box, TestArchitect ignores the Time Traveling feature, and executes the test with [linked variation\(s\)](/TA_Help/Topics/Variations_rules_executing_2_3.html) as usual.
+{{<important>}} If you do not select the **Time Traveling** check box, TestArchitect ignores the Time Traveling feature, and executes the test with [linked variation\(s\)](/TA_Help/Topics/Variations_rules_executing_2_3.html) as usual.
 
     6.  Click **OK** to run the test with the specified revision.
 
-        **Attention:** If your current repository database is a legacy one created prior to TestArchitect version [8.2](/TA_ReleaseNotes/DITA_source/Whats_New_8.2.html), and has not been [upgraded for time traveling](/TA_Administration/Topics/adm_database_upgrade_time_traveling.html), you are presented with the following message: This repository has not yet been upgraded for time travel functionality. Please contact your administrator to upgrade it before using it with time traveling.
+{{<attention>}} If your current repository database is a legacy one created prior to TestArchitect version [8.2](/TA_ReleaseNotes/DITA_source/Whats_New_8.2.html), and has not been [upgraded for time traveling](/TA_Administration/Topics/adm_database_upgrade_time_traveling.html), you are presented with the following message: This repository has not yet been upgraded for time travel functionality. Please contact your administrator to upgrade it before using it with time traveling.
 
 
 When you generate a batch file \(by clicking the **Generate Batch File** button in the Execute Test dialog box\) with time traveling selected, the selected timestamp is written as a new parameter, /rev, to the batch file. \([Learn more](/TA_Help/Topics/Test_exec_cmd.html)\).
 
-CAUTION:
+{{<caution>}}
 
 If your current database is legacy – that is, created prior to TestArchitect version 8.2 – and has not yet been [upgraded for time traveling](/TA_Administration/Topics/adm_database_upgrade_time_traveling.html) it, you are presented with the following message when you run the batch file: This repository has not yet been upgraded for time travel functionality. Please contact your administrator to upgrade it before using it with time traveling..
 

@@ -28,7 +28,7 @@ This action may be used within the following project items:test modules and user
     -   [repeat](/TA_Automation/Topics/bia_repeat.html)-[until](/TA_Automation/Topics/bia_until.html)
     -   [use data set](/TA_Automation/Topics/bia_use_data_set.html)-[repeat for data set](/TA_Automation/Topics/bia_repeat_for_data_set.html)
 
-        **Note:** The support for data set loops applies to TestArchitect [8.3 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.html) and higher.
+{{<note>}} The support for data set loops applies to TestArchitect [8.3 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.html) and higher.
 
 
 ## Applicable Built-In Settings

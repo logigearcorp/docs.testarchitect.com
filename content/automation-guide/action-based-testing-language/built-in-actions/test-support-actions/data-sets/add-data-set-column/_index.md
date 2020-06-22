@@ -22,7 +22,7 @@ Append new column\(s\) to a data set.
 
     Values to which the headers of newly added columns are to be set, in left-to-right order.
 
-    **Tip:** Use commas \(,\) as delimiters between names, when adding multiple columns.
+{{<tip>}} Use commas \(,\) as delimiters between names, when adding multiple columns.
 
 
 ## Valid contexts

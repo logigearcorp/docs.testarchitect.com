@@ -10,13 +10,13 @@ keywords: "integration, Zephyr, uploading test results"
 
 TestArchitect test results from test projects which are mapped to Zephyr can be uploaded to Zephyr manually or automatically.
 
-**Important:** TestArchitect-Zephyr integration supports the following versions of Zephyr.
+{{<important>}} TestArchitect-Zephyr integration supports the following versions of Zephyr.
 
 -   [6.2](https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/550633474/6.2+Release+Notes)
     -   [Zephyr Cloud](https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/263521484/Zephyr+Enterprise+Cloud+Requirements)
     -   TestArchitect 8.4 Update 4 & 5
 
-**Restriction:**
+{{<restriction>}}
 
 -   In TestArchitect 8.4 Update 1 or earlier versions, if you have selected the **Create New** option while adding a new testing phase to a testing cycle in **Test Planning** in Zephyr, you will be unable to upload TestArchitect test results to Zephyr either manually or automatically \(Learn more\).
 

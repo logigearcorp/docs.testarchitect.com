@@ -25,7 +25,7 @@ Perform the following procedure on the Android device to connect the device to t
 
 If a connection to the host machine is established successfully, a Connected Successfully message appears on the device. To disconnect the Android device from the host machine, click the **Disconnect** button.
 
-**Tip:** The Android icon changes to ![](/images/TA_Tutorials_Sample_App/Images/android_6.png) after the physical device is connected successfully to TestArchitect via a Wi-Fi connection.
+{{<tip>}} The Android icon changes to ![](/images/TA_Tutorials_Sample_App/Images/android_6.png) after the physical device is connected successfully to TestArchitect via a Wi-Fi connection.
 
 
 

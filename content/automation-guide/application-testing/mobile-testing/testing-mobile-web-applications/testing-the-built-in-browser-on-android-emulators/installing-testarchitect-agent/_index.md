@@ -17,7 +17,7 @@ Perform the following steps to install TestArchitect Agent onto your Android emu
     -   AVD emulator \([Learn more](http://developer.android.com/intl/vi/tools/devices/emulator.html#starting).\)
     -   Genymotion Desktop \([Learn more](https://www.genymotion.com/#!/developers/user-guide).\)
 
-        **Restriction:**
+{{<restriction>}}
 
         -   As of version 2.0.0, the Genymotion Desktop does not include Google Apps and ARM libraries support \([Learn more](https://www.genymotion.com/#!/release-notes/200%23200)\). This results in INSTALL\_FAILED\_CPU\_ABI\_INCOMPATIBLE errors when installing TestArchitect Agent onto Genymotion. In order to bypass this issue, please restore ARM Translation to your Genymotion VM, which you can do by following this [link](https://gist.github.com/wbroek/9321145).
         -   To install TestArchitect Agent smoothly onto Genymotion Desktop, the version of adb in Genymotion must be lower than or equal to that of adb in TestArchitect.

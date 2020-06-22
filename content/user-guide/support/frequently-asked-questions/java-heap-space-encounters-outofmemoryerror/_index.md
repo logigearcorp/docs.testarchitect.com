@@ -18,7 +18,7 @@ Increase java heap size by setting the TA\_SHELL\_HEAP\_SIZE variable in the com
 
 ![](/images/TA_FAQ/Images/TA_SHELL_HEAP_SIZE_var.png)
 
-**Note:** Be aware that the variable will affect other commands in the TestArchitect command line tool.
+{{<note>}} Be aware that the variable will affect other commands in the TestArchitect command line tool.
 
 
 

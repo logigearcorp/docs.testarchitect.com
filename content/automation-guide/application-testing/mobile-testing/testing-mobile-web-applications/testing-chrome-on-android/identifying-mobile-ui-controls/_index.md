@@ -24,7 +24,7 @@ To identify mobile app UI controls from the [Interface Viewer](/TA_Help/Topics/I
 
     **Fastpath:** Alternatively, you can also select **View** \> **Switch device** from the main menu.
 
-    **Note:** Synchronization of the Interface Viewer and Device Live Screen is always maintained when switching among devices, or Device Mode is activated.
+{{<note>}} Synchronization of the Interface Viewer and Device Live Screen is always maintained when switching among devices, or Device Mode is activated.
 
     -   If the Device Live Screen window is already open, Device Mode activation causes the Interface Viewer to display the GUI environment of the mobile device currently displayed in the Device Live Screen window.
     -   If the Device Live Screen window is not yet open, Device Mode automatically launches the Device Live Screen window. Subsequently, the Device Live Screen shows the screen of the device selected in the Interface Viewer. Note that,
@@ -32,7 +32,7 @@ To identify mobile app UI controls from the [Interface Viewer](/TA_Help/Topics/I
         -   If more than one mobile device is detected, the Interface Viewer shows a dialog box asking you to select a device.
     The Interface Viewer triggers Device Mode to display the GUI environment of the device currently mirrored in the Device Live Screen window.
 
-    **Tip:**
+{{<tip>}}
 
     -   The **Device mode** ![](/images/TA_Help/Images/btn_device_mode_Viewer.png) button can also be used to switch between multiple connected mobile devices.
     -   The **View** \> **Switch device** menu is not only used to switch across multiple mobile devices, but also to toggle between [device mode](/TA_Help/Topics/ug_Interface_UI_explorer_panel.html#section.device_desktop_mode) and [desktop mode](/TA_Help/Topics/ug_Interface_UI_explorer_panel.html#section.device_desktop_mode).
@@ -40,7 +40,7 @@ To identify mobile app UI controls from the [Interface Viewer](/TA_Help/Topics/I
 
 5.  Through the Device Live Screen window, navigate to the control you wish to identify, and hover your mouse pointer over it.
 
-    **Note:** The identification of non-HTML elements is not supported. For example, a JavaScript popup on an HTML is not identifiable.
+{{<note>}} The identification of non-HTML elements is not supported. For example, a JavaScript popup on an HTML is not identifiable.
 
     As you move your pointer around the screen, an orange, rectangular frame highlights whichever control lies under it. At the same time, the control's TA class is displayed, to assist you in deciding where to click.
 

@@ -18,7 +18,7 @@ How to import your local test result files \(.TARESULT\) into TestArchitect as e
 
     3.  Click **Select**.
 
-        **Note:** When identical test results are imported, the duplicate ones will be ignore during import operations.
+{{<note>}} When identical test results are imported, the duplicate ones will be ignore during import operations.
 
         A notification message dialog box appears to inform that the import is successful.
 
@@ -40,7 +40,7 @@ How to import your local test result files \(.TARESULT\) into TestArchitect as e
 
     3.  Click **Select**.
 
-        **Note:** When identical test results are imported, the duplicate ones will be ignore during import operations.
+{{<note>}} When identical test results are imported, the duplicate ones will be ignore during import operations.
 
         A notification message dialog box appears to inform that the import is successful.
 

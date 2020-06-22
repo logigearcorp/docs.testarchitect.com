@@ -17,7 +17,7 @@ Ensure the following requirements are met:
 
 Any project item may have up to one user assigned to it, or it may remain unassigned.
 
-**Note:** **Assigned user** status has its greatest impact on members of the [testers group](/TA_Help/Topics/Projects_assign_user.html). A testers member is restricted from modifying any project items other than those that are either assigned to him or herself, or are unassigned.
+{{<note>}} **Assigned user** status has its greatest impact on members of the [testers group](/TA_Help/Topics/Projects_assign_user.html). A testers member is restricted from modifying any project items other than those that are either assigned to him or herself, or are unassigned.
 
 To assign a TestArchitect user to a specific project item, do the following:
 
@@ -29,7 +29,7 @@ To assign a TestArchitect user to a specific project item, do the following:
 
 3.  In the **Assign user** box, select a user to assign to this project item.
 
-    **Tip:** If you'd like to assign this item to no one, just select the \(not assigned\) option.
+{{<tip>}} If you'd like to assign this item to no one, just select the \(not assigned\) option.
 
     ![](/images/TA_Administration/Images/assigning_projects_item.png)
 

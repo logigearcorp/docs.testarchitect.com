@@ -12,7 +12,7 @@ An action list view displays a list of all user-defined action contained within 
 
 On the TestArchitect explorer tree, when you double-click the **Actions** node, and then select the **Actions** tab. TestArchitect displays in the main panel a list view of the user-defined actions for the project. \([Learn more](/reuse/reuse.High_level_actions.html).\)
 
-**Note:** Action list views are also available for subfolders of the**Actions** node.
+{{<note>}} Action list views are also available for subfolders of the**Actions** node.
 
 ![](/images/TA_Help/Images/Listview_action.png)
 
@@ -26,7 +26,7 @@ You can find various common operations that can be performed on action list view
 
 From a list view, you can open a user-defined action in the editor by right-clicking its list view entry, then clicking **Open**.
 
-**Tip:** You can also open multiple user-defined actions by using your keyboard's Shift key to select a contiguous range of actions \(or Control to select multiple noncontiguous actions\); then right-click the selection, and click Open.
+{{<tip>}} You can also open multiple user-defined actions by using your keyboard's Shift key to select a contiguous range of actions \(or Control to select multiple noncontiguous actions\); then right-click the selection, and click Open.
 
 ## Revision control
 
@@ -50,7 +50,7 @@ Repository saves pertinent information on a project item at every check-in. This
 -   From an action list view, you can remove a given action from one actions folder and paste it to another by performing the **Cut** and **Paste** operations from the context menu.
 -   The the **Copy** and **Paste** operations from the context menu allow you to create a duplicate of a selected action.
 
-    **Tip:**
+{{<tip>}}
 
     -   In addition to the conventional cut-and-paste and copy-and-paste from the context menu, you can drag and drop a project item, or a selection of items, from a list view into a folder or node of the same type in the TestArchitect explorer tree.
     -   Performing drag-and-drop within the same project is equivalent to cutting and pasting. Performing a drag-and-drop across different projects, on the other hand, is a copy-and-paste operation.
@@ -67,7 +67,7 @@ By selecting **Search** from the context menu, you can search all test modules a
 
 **Fastpath:** Ctrl + H
 
-**Tip:** You can include [supplier project\(s](/TA_Help/Topics/Project_subscription.html)\) in your search for the given action by selecting the **Including supplier project\(s\)** check box in the Search dialog box.
+{{<tip>}} You can include [supplier project\(s](/TA_Help/Topics/Project_subscription.html)\) in your search for the given action by selecting the **Including supplier project\(s\)** check box in the Search dialog box.
 
 ## Exporting user-defined actions
 

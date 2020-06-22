@@ -34,7 +34,7 @@ The return value is an object of the class AbtEntity.
 
 If an argument describes a menu choice, its value can consist of multiple items, separated by `->` . For example, in the Windows Paint application, this argument could look like: `view->zoom->large size`. This means select the item **zoom** in the **view**, which in turn brings up a submenu of which the ITEM **large size** is to be selected.
 
-**Note:** TestArchitect ignores the following when interpreting a menu selection argument:
+{{<note>}} TestArchitect ignores the following when interpreting a menu selection argument:
 
 -   case \(upper vs. lower\)
 -   `&` characters \(which denote accelerator keys in Windows menus\)

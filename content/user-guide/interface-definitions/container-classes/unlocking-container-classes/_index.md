@@ -12,7 +12,7 @@ To capture child UI elements of a container class, that container class must fir
 
 Controls of TA classes Treeview, Listbox, Listview and Table are considered container class controls, due to their common characteristic of holding child controls. By default, during a window [intake](/TA_Help/Topics/Interface_def_intake.html) process, TestArchitect treats controls of a container class as locked. In order to access the child controls of a given container control, you must first unlock its class.
 
-**Important:** TestArchitect supports unlocking container classes for the following applications:
+{{<important>}} TestArchitect supports unlocking container classes for the following applications:
 
 -   Windows Presentation Foundation \(WPF\)
 -   Win32
@@ -20,7 +20,7 @@ Controls of TA classes Treeview, Listbox, Listview and Table are considered cont
 -   Windows Forms \(WinForms\)
 -   SAP
 
-**Note:** Note that unlocking takes place at the *class* level for a given window. That is, when you need to unlock a given Treeview control on a window, you must unlock all Treeview controls for the window.
+{{<note>}} Note that unlocking takes place at the *class* level for a given window. That is, when you need to unlock a given Treeview control on a window, you must unlock all Treeview controls for the window.
 
 1.  Create a [new interface entity](/TA_Help/Topics/Interface_def_Adding.html) in TestArchitect, and keep it open.
 
@@ -28,11 +28,11 @@ Controls of TA classes Treeview, Listbox, Listview and Table are considered cont
 
 3.  Launch the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer_identify.html) and click the **Identify** button on the viewer's toolbar.
 
-    **Note:** As a shortcut, you can bypass the Interface Viewer and launch into Identify mode by clicking the **Identify** ![](/images/TA_Help/Images/btn_Identify.png) button on TestArchitect's toolbar. \(Note, though, that this example is based on proceeding via the viewer.\)
+{{<note>}} As a shortcut, you can bypass the Interface Viewer and launch into Identify mode by clicking the **Identify** ![](/images/TA_Help/Images/btn_Identify.png) button on TestArchitect's toolbar. \(Note, though, that this example is based on proceeding via the viewer.\)
 
 4.  Hover the mouse cursor over the container class control to be accessed.
 
-    **Note:** You may observe that, at this point, only the container control can be highlighted, no matter which child controls you hover the cursor over. That will change once you unlock the container's class.
+{{<note>}} You may observe that, at this point, only the container control can be highlighted, no matter which child controls you hover the cursor over. That will change once you unlock the container's class.
 
     As an illustration, the figure below displays an application window with a tree view, and the cursor hovering over it while in Identify mode.
 
@@ -48,7 +48,7 @@ Controls of TA classes Treeview, Listbox, Listview and Table are considered cont
 
     The warning refers primarily to the fact that [global pos](/TA_Help/Topics/Interface_def_global_pos.html) values of other controls in the window may be affected by this action. Under some circumstances, [anchor pos](/TA_Help/Topics/prop_anchor.example_01.html) values can be altered as well. If your interface definitions for the associated window do not depend on these two properties for identifying controls, you need not be concerned about this.
 
-    **Tip:**
+{{<tip>}}
 
     -   Select the **Don't show this dialog again** check box to skip this dialog box in the future.
     -   If you want take this opportunity to unlock additional container classes within the window, click the **Settings** button \(see **The container class settings**, Option \#[1](/TA_Help/Topics/Interface_def_container_class_unlock_settings.html)\).
@@ -56,7 +56,7 @@ Controls of TA classes Treeview, Listbox, Listview and Table are considered cont
 
     The selected container class is now unlocked, freeing you to capture the descendant UI elements of your choice from the selected control.
 
-    **Tip:** You are also free to capture the descendants of any other controls of this class that may exist in the window, as it is the selected control's class, not the control itself, that has been unlocked.
+{{<tip>}} You are also free to capture the descendants of any other controls of this class that may exist in the window, as it is the selected control's class, not the control itself, that has been unlocked.
 
 7.  Capture a desired child UI element by clicking it.
 
@@ -66,13 +66,13 @@ Controls of TA classes Treeview, Listbox, Listview and Table are considered cont
 
     The node representing the selected child UI element is highlighted in the Interface Viewer's UI explorer panel.
 
-    **Note:** If you entered Identify mode via the TestArchitect interface, you will observe this node and its parent hierarchy not in the Interface Viewer, but in the Element definition dialog box.
+{{<note>}} If you entered Identify mode via the TestArchitect interface, you will observe this node and its parent hierarchy not in the Interface Viewer, but in the Element definition dialog box.
 
 8.  Change the default name in the **TA Name** field to one that is more user-friendly, then press Enter.
 
     We'll name our control Detail text.
 
-    **Note:** The following result assumes you are using the Interface Viewer.
+{{<note>}} The following result assumes you are using the Interface Viewer.
 
     The name you have assigned to the control appears in the node in uppercase letters. At the same time, the name of your open interface entity is assigned to the top-level node representing the window, with the native window title in parentheses. Green check marks ![](/images/TA_Help/Images/ug_interface_definition45.png) indicate that both the control and window are now provisionally mapped to the interface entity, awaiting your Save command to make the mappings permanent.
 
@@ -89,7 +89,7 @@ The open interface entity is now populated with an [interface entity setting](/T
 
 ![](/images/TA_Help/Images/unlock_container_classes_interface_entity.png)
 
-**Important:** Note that a setting called unlocked container classes, whose value specifies the class of the unlocked container class, has also been added to the interface entity. When the runtime automation performs an intake on this window, this directive informs it that it should include the child controls of the specified TA class in that process.
+{{<important>}} Note that a setting called unlocked container classes, whose value specifies the class of the unlocked container class, has also been added to the interface entity. When the runtime automation performs an intake on this window, this directive informs it that it should include the child controls of the specified TA class in that process.
 
 Proceed to the [next section](/TA_Help/Topics/Container_class_click_control_dynamically.html) to learn how to interact with controls dynamically.
 

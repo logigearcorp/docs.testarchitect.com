@@ -15,5 +15,5 @@ A named control class that TestArchitect automatically assigns to a GUI control 
 
 The primary purpose of TA classes is to have a unified set of control classes across application platforms. For each built-in action, TestArchitect determines whether it can be applied to a given control based on that control's TA class.
 
-**Note:** The argument name ta class \(all lowercase\) is used throughout TestArchitect, most notably in interface elements. Hence, references in the documentation to the argument name itself are always all lowercase.
+{{<note>}} The argument name ta class \(all lowercase\) is used throughout TestArchitect, most notably in interface elements. Hence, references in the documentation to the argument name itself are always all lowercase.
 

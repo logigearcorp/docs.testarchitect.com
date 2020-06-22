@@ -14,9 +14,9 @@ The Action Recorder saves you time by recording your manual operations on the ap
 
 In addition to creating action lines, the Action Recorder can generate interface definitions, which it does in those cases where UI elements visited during the recording session have not yet been mapped to TA names.
 
-**Note:** If you are not familiar with how interface definitions work, please review [Lesson \#3: Working with interface definitions](/TA_Tutorials/Topics/Tutorial_Working_with_interface_definitions.html).
+{{<note>}} If you are not familiar with how interface definitions work, please review [Lesson \#3: Working with interface definitions](/TA_Tutorials/Topics/Tutorial_Working_with_interface_definitions.html).
 
-**Tip:** The Action Recorder suggests TA names for you when it creates interface entities. Your review and editing of the suggested TA names is important to ensure that the names are meaningful and intuitive.
+{{<tip>}} The Action Recorder suggests TA names for you when it creates interface entities. Your review and editing of the suggested TA names is important to ensure that the names are meaningful and intuitive.
 
 
 

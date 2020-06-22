@@ -19,7 +19,7 @@ In this activity, you will create a chart that displays the relative amounts of 
 
 Dashboard offers five types of charts: pie charts, line charts, bar charts, stacked bar charts, and grouped bar charts. You are going to perform a simple comparison of the relative numbers of result outcomes \(passed, failed, and passed with errors/warnings\) for without any further groupings of the data. Given this requirement, the best choice of chart is a pie chart.
 
-1.  **Note:** We'll place all our new panels in a dedicated Dashboard page, named Tutorial Page.
+1.{{<note>}} We'll place all our new panels in a dedicated Dashboard page, named Tutorial Page.
 
     If a Tutorial Page does not yet exist on the Dashboard portal \(at top left\), add one:
 
@@ -65,7 +65,7 @@ Dashboard offers five types of charts: pie charts, line charts, bar charts, stac
 
     ![](/images/TA_Tutorials/Images/tut.Dashboard.pie_chart.Car_Rental_Overview.01.png)
 
-    **Note:** Note that, when the **Series** value is Result, as is the case here, the Dashboard application automatically makes the color assignments shown above.
+{{<note>}} Note that, when the **Series** value is Result, as is the case here, the Dashboard application automatically makes the color assignments shown above.
 
     Absolute numbers of respective results are provided in the yellow labels linked to each slice of the chart, followed by the respective percentages. The contents of these labels were determined by your choice of Value and Percentage for the **Data Labels** field in the previous step.
 
@@ -75,7 +75,7 @@ Dashboard offers five types of charts: pie charts, line charts, bar charts, stac
 
     ![](/images/TA_Tutorials/Images/tut.Dashboard.drill_down.Car_Rental_Overview.01.png)
 
-6.  **Note:**
+6.{{<note>}}
 
 Because a Dashboard panel is dynamically linked to its data profile, modifications to the profile are reflected in a panel or drill down report as soon as they are generated or refreshed.
 
@@ -91,7 +91,7 @@ Let's suppose you want to know which operating systems were hosting the AUT for 
 
     3.  From the list of existing data profiles, click on **Test Results \(unfiltered\)**.
 
-    4.  **Note:** The data profile setup facility consists of several configuation screens, displayed at left. You can go directly to any of those screens by clicking on its link.
+4.{{<note>}} The data profile setup facility consists of several configuation screens, displayed at left. You can go directly to any of those screens by clicking on its link.
 
         Click on the **Display Fields** link on the left side of the General Settings screen.
 

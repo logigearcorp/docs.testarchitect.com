@@ -10,7 +10,7 @@ keywords: "Release Notes 8.3 Update 1, Windows, What is new, Windows, TestArchit
 
 The following new features and improvements are introduced in TestArchitect version 8.3 Update 1 running under Windows.
 
-**Remember:**
+{{<remember>}}
 
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
@@ -38,7 +38,7 @@ The following new features and improvements are introduced in TestArchitect vers
 
 -   **Web automation on Mozilla Firefox** now utilizes the [GeckoDriver](/TA_Help/Topics/Test_exec_extension.html#li.FF) technical approach, since Mozilla intends to remove the support for most NPAPI plugins in Firefox, the technology previously employed by TestArchitect to automate web applications on Firefox.
 
-    **Restriction:** Use of the TestArchitect [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html) and [point-to-identify](/TA_Help/Topics/Interface_def_client_interface_tool_identify.html) tool are not supported on Firefox.
+{{<restriction>}} Use of the TestArchitect [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html) and [point-to-identify](/TA_Help/Topics/Interface_def_client_interface_tool_identify.html) tool are not supported on Firefox.
 
 
 ## Deprecation

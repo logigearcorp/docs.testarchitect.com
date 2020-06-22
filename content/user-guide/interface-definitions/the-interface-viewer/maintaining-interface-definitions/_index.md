@@ -14,7 +14,7 @@ Typically, the need for maintenance is discovered when your automation fails to 
 
 The Interface Viewer allows you to maintain existing interface entities by reconciling the differences between the contents of the interface entity and the controls that currently exist in the application.
 
-**Tip:** It may often be the case that you will need to update an interface entity to accommodate changes to an application, while still requiring the use of the original interface entity for testing the old version of the application. Such might be the case if, for example, an application was available in two or more language versions. For scenarios such as this, please refer to [Variations](/TA_Help/Topics/Variations.html) to learn how to conveniently maintain multiple definitions of a given interface entity.
+{{<tip>}} It may often be the case that you will need to update an interface entity to accommodate changes to an application, while still requiring the use of the original interface entity for testing the old version of the application. Such might be the case if, for example, an application was available in two or more language versions. For scenarios such as this, please refer to [Variations](/TA_Help/Topics/Variations.html) to learn how to conveniently maintain multiple definitions of a given interface entity.
 
 To update an interface entity:
 

@@ -32,7 +32,7 @@ Every user interface control of aWPFapplication has both a class and a set of pr
 
 Generally, only a small subset of a control's properties are useful for identification. Some properties of a given control may have highly volatile values, and therefore cannot be used for reliable identification. Other properties may be quite constant \(e.g., enabled=true\), but other controls of the same class might well have the exact same value for that property. Ideally, you need to find property values that are both persistent for a given control and unique. If necessary, a combination of two or more property-value pairs may be used for identification.
 
-**Note:** TestArchitect discovers information about WPF controls at runtime using Reflection technology.
+{{<note>}} TestArchitect discovers information about WPF controls at runtime using Reflection technology.
 
 The [Interface Viewer](/reuse/../TA_Help/Topics/Interface_def_Viewer.html) is a powerful support tool that allows you to view all of a control's available properties, to capture and save all or parts of an interface definition, and to explore the controls of an application's interface. The following image depicts the Interface Viewer examining the controls of aWPF application.
 
@@ -50,7 +50,7 @@ TestArchitect can work with UI controls that are exposed by Microsoft's UI Autom
 
 When the UIA Support tool is activated, TestArchitect is able to obtain extra and useful properties on a UI element of the AUT. One of the properties is automation id which can be used to uniquely locate a UI control from its siblings.
 
-**Tip:** Using a unique and discoverable automation id property to locate a specific UI control is particularly suitable for agile software development. One of the crucial points of agile testing is automation. Software designers can specify unique automation ids for their UI elements. From design specifications, it is possible for QA specialists to implement the interface definition of a UI control using its automation id before the AUT is available for testing. With the aid of declaring a unique and discoverable automation id, the code can be architected for easy testing, and the QA specialists are able to identify test cases as soon as the requirements are defined, even before coding begins or completes. Furthermore, they can also test again as soon as the code has changed.
+{{<tip>}} Using a unique and discoverable automation id property to locate a specific UI control is particularly suitable for agile software development. One of the crucial points of agile testing is automation. Software designers can specify unique automation ids for their UI elements. From design specifications, it is possible for QA specialists to implement the interface definition of a UI control using its automation id before the AUT is available for testing. With the aid of declaring a unique and discoverable automation id, the code can be architected for easy testing, and the QA specialists are able to identify test cases as soon as the requirements are defined, even before coding begins or completes. Furthermore, they can also test again as soon as the code has changed.
 
 ## Class mapping
 
@@ -62,7 +62,7 @@ TestArchitect's solution, TA classes, is a standardized set of control types, ea
 
 Refer to [Class mapping](/reuse/../TA_Help/Topics/Class_mapping.html) for details.
 
-**Important:** Class mapping is currently supported on WPF, Win32, iOS, Android, and Silverlight applications.
+{{<important>}} Class mapping is currently supported on WPF, Win32, iOS, Android, and Silverlight applications.
 
 
 

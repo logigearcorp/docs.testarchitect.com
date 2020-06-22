@@ -49,7 +49,7 @@ Only when you need an advanced test environment, should you adopt this method.
 
 ![](/images/TA_Automation/Images/WebDriver_configure_client.png)
 
-**Attention:** a backlash \(\\\) is treated as an escape sequence in the JSON format. You must replace one backlash with two backslashes, and double backlashes with four backslashes. For example,
+{{<attention>}} a backlash \(\\\) is treated as an escape sequence in the JSON format. You must replace one backlash with two backslashes, and double backlashes with four backslashes. For example,
 
 If the network path of the WebDriver client is: \\\\LGVN17978\\chromedriver\\selenium-server-standalone-3.14.0.jar
 

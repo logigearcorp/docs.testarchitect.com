@@ -29,7 +29,7 @@ To remove the known bug designation from a given action line:
 
 After you have removed the known bug mark, the yellow point in the left margin next to the row number you had selected previously disappears.
 
-**Note:** Note that this procedure has no effect on the bug itself, only on a line that is marked with it.
+{{<note>}} Note that this procedure has no effect on the bug itself, only on a line that is marked with it.
 
 
 

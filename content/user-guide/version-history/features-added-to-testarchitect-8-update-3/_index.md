@@ -10,7 +10,7 @@ keywords: "What is new, TestArchitect 8 Update 3, what is new"
 
 This topic describes the changes made in TestArchitect version 8 update 3.
 
-**Remember:**
+{{<remember>}}
 
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
@@ -34,7 +34,7 @@ This topic describes the changes made in TestArchitect version 8 update 3.
         -   [Class mapping](/TA_Help/Topics/Class_mapping.html).
         -   [Unlocking container classes](/TA_Help/Topics/Interface_def_container_class.html).
 
-**Note:** Silverlight is a powerful development tool for creating engaging, interactive user experiences for Web and mobile applications. Silverlight is a free plug-in, powered by the .NET framework and compatible with multiple browsers, devices and operating systems, bringing a new level of interactivity wherever the Web works. For details, refer to the link [http://www.microsoft.com/silverlight/](http://www.microsoft.com/silverlight/).
+{{<note>}} Silverlight is a powerful development tool for creating engaging, interactive user experiences for Web and mobile applications. Silverlight is a free plug-in, powered by the .NET framework and compatible with multiple browsers, devices and operating systems, bringing a new level of interactivity wherever the Web works. For details, refer to the link [http://www.microsoft.com/silverlight/](http://www.microsoft.com/silverlight/).
 
 
 

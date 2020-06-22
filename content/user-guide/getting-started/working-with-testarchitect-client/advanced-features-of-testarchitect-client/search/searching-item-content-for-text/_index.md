@@ -24,7 +24,7 @@ In addition to item names, you can conduct searches of the text content of test 
 
     If you're conducting your search from a project-level node, select the item type you wish to limit the search to in the **Search in:** drop-down list.
 
-    **Tip:**
+{{<tip>}}
 
     -   Select the **Whole word\(s\) only** check box, if you want to exclude matches that are not bound by whitespace.
     -   You can extend your search to items on all supplier project\(s\) by selecting the **Including supplier project\(s\)** check box.
@@ -36,7 +36,7 @@ In addition to item names, you can conduct searches of the text content of test 
 
 4.  To open a listed item, double-click it.
 
-    **Note:** Alternatively, select an item, and then click the **View** button.
+{{<note>}} Alternatively, select an item, and then click the **View** button.
 
     The item is opened, with the matching text string\(s\) highlighted in yellow.
 

@@ -51,7 +51,7 @@ There are three types of control box filters:
 
 Defining filters for more than one column has the same effect as placing the AND logical operator between the column filters. Only row items that meet all filtering requirements are displayed in the filtered list view. Each time you press the Enter key or lose the focus on the filtering box or select a filter from the list box, list view updates and displays only rows of elements that satisfy all filtering criteria.
 
-**Tip:** TestArchitect automatically saves each set of list view filtering criteria every time you close a list view. The next time you open the same list view, the same saved filtering criteria are automatically applied.
+{{<tip>}} TestArchitect automatically saves each set of list view filtering criteria every time you close a list view. The next time you open the same list view, the same saved filtering criteria are automatically applied.
 
 
 

@@ -20,13 +20,13 @@ To roll back to a previous revision of an item:
 
     ![](/images/TA_Help/Images/History_menu.png)
 
-    **Tip:** Alternatively, you can select **Revision History** from the context menu at the level of a project. This method, however, displays all revisions of each available project item.
+{{<tip>}} Alternatively, you can select **Revision History** from the context menu at the level of a project. This method, however, displays all revisions of each available project item.
 
     In the Revision History of <project item\>:<item name\> dialog box, a revision history of the selected item is presented with each line item displaying the timestamp \(the date/time of check-in\), assigned version \(linked variation\), project name, item type, item name, who checked it in and check-in comments.
 
     ![](/images/TA_Help/Images/History_roll_back_dialog_box.png)
 
-    **Tip:**
+{{<tip>}}
 
     -   Previewing a rollback allows you to see whether or not your rollback will do what you intended – because if not, you can cancel it without any impact on the current working item. To preview a rollback, in the Revision History of <project item\>:<item name\> dialog box, select a rollback, then click the **View** button.
     -   While viewing the item's history, you can click **Refresh** to update the history list.

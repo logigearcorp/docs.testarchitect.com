@@ -12,7 +12,7 @@ Registered TA bugs, by default, have the fields **Summary**, **Description**, **
 
 To ensure synchronization between a JIRA field and its corresponding TestArchitect user-defined field, ensure that the field's names on both JIRA and TestArchitect are identical.
 
-**Note:**
+{{<note>}}
 
 -   At present, TestArchitect-JIRA integration supports versions 5 and 6 of JIRA.
 

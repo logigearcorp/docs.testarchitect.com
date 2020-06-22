@@ -68,6 +68,6 @@ Contact LogiGear Sales to obtain the correct TestArchitect installation file for
 
 TestArchitect setup is complete.
 
-**Note:** Desktop shortcuts for TestArchitect Client, TestArchitect Controller, and Repository Server are automatically created *only if* the installation was conducted with root user permissions.
+{{<note>}} Desktop shortcuts for TestArchitect Client, TestArchitect Controller, and Repository Server are automatically created *only if* the installation was conducted with root user permissions.
 
 

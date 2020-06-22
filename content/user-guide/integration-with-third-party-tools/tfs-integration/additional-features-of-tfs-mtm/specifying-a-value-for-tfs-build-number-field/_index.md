@@ -10,7 +10,7 @@ keywords: "integration, TFS, specifying value for build number, specifying value
 
 Within TFS, for each test run that is recorded, a run build number must be supplied. This allows you to find the test runs quickly based on the build number.
 
-**Important:** If your TestArchitect installation is integrated with Visual Studio Team Services, formerly known as Visual Studio Online, be aware that the **Build Number** field in Visual Studio Team Services is governed by a user-specified domain of values. That is, any build number supplied from TestArchitect must first exist in Visual Studio Team Services's list of allowable build numbers.
+{{<important>}} If your TestArchitect installation is integrated with Visual Studio Team Services, formerly known as Visual Studio Online, be aware that the **Build Number** field in Visual Studio Team Services is governed by a user-specified domain of values. That is, any build number supplied from TestArchitect must first exist in Visual Studio Team Services's list of allowable build numbers.
 
 A build number can be specified to TFS by one of several means:
 

@@ -16,7 +16,7 @@ When you no longer want to keep the association, you can disassociate TestArchit
 
     **Fastpath:** Alternatively, click the **Disassociate** ![](/images/TA_Help/Images/MTM_generate_and_disassociate_test_method_from_testArchitect_btn.png) button on the Visual Studio toolbar.
 
-    **Note:** If the **Disassociate** button is not visible on the Visual Studio toolbar, enable the button by right-clicking on the toolbar and selecting **TestArchitect** from the context menu.
+{{<note>}} If the **Disassociate** button is not visible on the Visual Studio toolbar, enable the button by right-clicking on the toolbar and selecting **TestArchitect** from the context menu.
 
 3.  In the Connect to Team Foundation Server dialog box, select the server to connect to from the **Team Foundation Server** drop-down box, and then choose the correct team project values for **Team Project Collections** and **Team Projects**. Click **Connect** to establish an association between TFS and TestArchitect.
 
@@ -30,7 +30,7 @@ When you no longer want to keep the association, you can disassociate TestArchit
 
     ![](/images/TA_Help/Images/VS_select_test_to_disassociate.png)
 
-    **Tip:** Filtering TFS test cases:
+{{<tip>}} Filtering TFS test cases:
 
     -   In the Disassociate Tests dialog box, you can select the **Filter** button to narrow down the list of test cases displayed based on the selected conditions.
 
@@ -61,7 +61,7 @@ When you no longer want to keep the association, you can disassociate TestArchit
 
 7.  [Check in](https://docs.microsoft.com/en-us/vsts/tfvc/check-your-work-team-codebase?view=vsts#choose-the-files-you-want-to-check-in) your test method on the TFS server.
 
-    **Remember:** For TFS 2017, you are required to explicitly check in the following DLL LogiGear.TestArchitect.TAIntegrationLoader.dll
+{{<remember>}} For TFS 2017, you are required to explicitly check in the following DLL LogiGear.TestArchitect.TAIntegrationLoader.dll
 
     ![](/images/TA_Help/Images/check_in_TA_dll.png)
 

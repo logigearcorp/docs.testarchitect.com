@@ -16,13 +16,13 @@ Choose one of the following two methods to export test results to xUnit:
 
     1.  Select the test results that you want to export to xUnit.
 
-        **Tip:** You can select test results in the TestArchitect explorer tree, or in the [result list view](/TA_Help/Topics/Listview_results.html).
+{{<tip>}} You can select test results in the TestArchitect explorer tree, or in the [result list view](/TA_Help/Topics/Listview_results.html).
 
     2.  Right-click the selection, and click **Export** \> **to xUnit** .
 
     3.  In the Save As dialog box, choose a location and file name to which to save the xUnit file.
 
-        **Tip:** You can accept the default location, but any place that is easy to remember will work.
+{{<tip>}} You can accept the default location, but any place that is easy to remember will work.
 
     4.  Click **Save**.
 
@@ -40,7 +40,7 @@ Choose one of the following two methods to export test results to xUnit:
 
     5.  Click the **Browse** ![](/images/TA_Help/Images/btn.browse-ellipsis.01.png) button to choose a location and file name to which to save the xUnit file.
 
-        **Tip:** You can choose the default location, but any place that is easy to remember will work.
+{{<tip>}} You can choose the default location, but any place that is easy to remember will work.
 
     6.  Click **Execute**.
 

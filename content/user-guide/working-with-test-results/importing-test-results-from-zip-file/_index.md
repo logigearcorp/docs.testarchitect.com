@@ -10,7 +10,7 @@ keywords: "test results, zip, importing from, importing, test results, zip"
 
 TestArchitect lets you easily import a repository test result archive file \(.ZIP format\).
 
-**Important:** Legacy repository test result files \(.ZIP\), which have been exported in TestArchitect versions prior to [8.3 Update 2](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_2.html), are still be imported into TestArchitect. Please note that, since TestArchitect 8.3 Update 2, test results are [exported](/TA_Help/Topics/ug_test_results_export_TARESULT.html) to .TARESULT files, and [imported](/TA_Help/Topics/ug_importing_test_results.html) from .TARESULT files, instead.
+{{<important>}} Legacy repository test result files \(.ZIP\), which have been exported in TestArchitect versions prior to [8.3 Update 2](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_2.html), are still be imported into TestArchitect. Please note that, since TestArchitect 8.3 Update 2, test results are [exported](/TA_Help/Topics/ug_test_results_export_TARESULT.html) to .TARESULT files, and [imported](/TA_Help/Topics/ug_importing_test_results.html) from .TARESULT files, instead.
 
 1.  In the TestArchitect explorer tree, right-click the **Results** node or a test result folder, and then select **Import Test Result\(s\)** \> **from ZIP file**.
 
@@ -20,7 +20,7 @@ TestArchitect lets you easily import a repository test result archive file \(.ZI
 
 2.  In the dialog box, click **OK** to proceed.
 
-    **Tip:** Select the **Don't display this message again** check box to skip this dialog box in the future.
+{{<tip>}} Select the **Don't display this message again** check box to skip this dialog box in the future.
 
 3.  In the Select dialog box, browse to the location where the repository test result archive file \(.ZIP\) is stored.
 

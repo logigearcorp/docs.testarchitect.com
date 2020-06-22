@@ -12,7 +12,7 @@ This section summarizes the guidelines for selecting the appropriate variation f
 
 The following flowchart presents a comprehensive guideline for TestArchitect's process of determining the [operative variation](/TA_Glossary/Topics/glossaryOperativeVariation.html) for each action, interface, data set or test module invoked by a test. This reiterates the information presented in all the prior sections.
 
-**Note:** For brevity, the following abbreviations are used in the flowchart:
+{{<note>}} For brevity, the following abbreviations are used in the flowchart:
 
 -   **KRS**
 
@@ -33,7 +33,7 @@ The following flowchart presents a comprehensive guideline for TestArchitect's p
 
 ![](/images/TA_Help/Images/variations_flowchart_20160111.png)
 
-**Note:**
+{{<note>}}
 
 \*At compile time, a distinct VCOL, or version compilation order list, is established for each **system:version** listed in the VRS \(version run set\). For each such system, the VCOL starts with the version node specified for it in the VRS. It continues up the given system tree in what's known as a "post-order" traversal. From each given node, the next node traversed is the adjacent "older" sibling \(where, from a graphical standpoint, older means physically higher in the tree\). If no such sibling is available, the parent is accessed. This traversal continues until the particular system node is reached, or a suitable match is found – whichever comes first.
 

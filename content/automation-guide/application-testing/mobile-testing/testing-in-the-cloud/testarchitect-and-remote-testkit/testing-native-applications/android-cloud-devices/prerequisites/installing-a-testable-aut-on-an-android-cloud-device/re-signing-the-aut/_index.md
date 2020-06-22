@@ -20,7 +20,7 @@ To re-sign your application, follow these steps:
 
 3.  In the dialog box, click **Install more**.
 
-    **Note:** The **Install more** button is enabled only if at least one device is running and is recognized by the Android Instrumentation Tool dialog box.
+{{<note>}} The **Install more** button is enabled only if at least one device is running and is recognized by the Android Instrumentation Tool dialog box.
 
     The Manage Application Under Test dialog box appears.
 
@@ -28,9 +28,9 @@ To re-sign your application, follow these steps:
 
 4.  In the dialog box, to re-sign a new .apk application file, click the **Re-sign more** button.
 
-    **Important:** By default, TestArchitect re-signs an Android application with a LogiGear signature. You may alternatively select to re-sign the application with your self-signed signatures \(refer to [Configuring customized signatures](/Android/Topics/Android_configuring_customized_certificate.html) for details\).
+{{<important>}} By default, TestArchitect re-signs an Android application with a LogiGear signature. You may alternatively select to re-sign the application with your self-signed signatures \(refer to [Configuring customized signatures](/Android/Topics/Android_configuring_customized_certificate.html) for details\).
 
-    **Note:** If you encounter issues while re-signing, refer to [Troubleshooting custom signatures](/TA_FAQ/Topics/faq.tshoot.Android_custom_signature.html).
+{{<note>}} If you encounter issues while re-signing, refer to [Troubleshooting custom signatures](/TA_FAQ/Topics/faq.tshoot.Android_custom_signature.html).
 
 5.  Navigate to and select the .apk application file, and then click **Open**.
 

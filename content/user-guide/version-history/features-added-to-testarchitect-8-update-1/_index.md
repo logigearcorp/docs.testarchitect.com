@@ -10,7 +10,7 @@ keywords: "What is new, TestArchitect 8 Update 1, what is new"
 
 This topic describes the changes made in TestArchitect version 8 update 1.
 
-**Remember:**
+{{<remember>}}
 
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.

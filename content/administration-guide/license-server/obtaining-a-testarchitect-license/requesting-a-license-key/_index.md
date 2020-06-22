@@ -21,7 +21,7 @@ License keys may be requested from your TestArchitect or LogiGear sales represen
     -   **macOS**: Note that the TestArchitect License Server is not currently supported on macOS.
 2.  On the toolbar, select the **Request License** ![](/images/TA_Administration/Images/Request_license_btn.png) button to invoke the Request TestArchitect Licenses dialog box.
 
-    **Note:**
+{{<note>}}
 
     -   The Request TestArchitect Licenses dialog box appears automatically if you are starting the TestArchitect license server for the first time.
     -   TestArchitect automatically generates a host certificate \(which appears as a string of text in the **Host Certificate** text box on the **License Request Information** panel\) based on your machine's fully qualified domain name \(FQDN\) or its IP address. This host certificate is used by LogiGear to provide you with a license key specific to your machine. Since the host certificate is now generated based on either the FQDN or IP address, you may change the current license server machine to another one as long as its FQDN or IP address remains unchanged.
@@ -40,14 +40,14 @@ License keys may be requested from your TestArchitect or LogiGear sales represen
 
 4.  On the Customer Information panel, enter your organization information into the text fields.
 
-    **Note:** Asterisk \(\*\) indicates required fields.
+{{<note>}} Asterisk \(\*\) indicates required fields.
 
 5.  On the **License Request Information** panel, the information displayed is used to generate the host certificate. Depending on your machine configuration, either a host-based or IP address-based certificate is displayed.
 
     -   If your machine belongs to a working domain, the **License Server Machine Name \(FQDN\)** field is automatically displayed with your absolute machine name.
     -   If your machine is not part of a working domain, the **IP Address of License Server** field appears instead.
 
-        **Note:** In the event that your machine has multiple IP addresses, select one address from the **IP Address of License Server** field.
+{{<note>}} In the event that your machine has multiple IP addresses, select one address from the **IP Address of License Server** field.
 
 6.  If you selected Enterprise in the previous step, in the **Request mode** field, select whether you would like to purchase or upgrade licenses.
 

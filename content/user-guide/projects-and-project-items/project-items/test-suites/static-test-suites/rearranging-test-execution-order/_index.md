@@ -24,7 +24,7 @@ To rearrange the test modules in a static test suite, do the following:
         -   Select a test module whose position in the list you wish to change, then drag it to the desired positions in the list view. Repeat for other test modules until the list reflects your preferred execution order.
     -   Option \#2: Move Up and Move Down buttons
 
-        **Note:** Applies to TestArchitect [8.3 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.html) and higher.
+{{<note>}} Applies to TestArchitect [8.3 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.html) and higher.
 
         -   Select the preferred test module, and then click the **Move Up** button or **Move Down** button, until the test module reaches the desired position. Repeat for other preferred test modules.
 3.  Click the **Apply** button to save your changes to the static test suite.

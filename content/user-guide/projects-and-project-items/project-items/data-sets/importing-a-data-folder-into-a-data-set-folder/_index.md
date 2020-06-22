@@ -12,7 +12,7 @@ How to import data from an external data folder into a TestArchitect data set fo
 
 At times, rather than import a single tab-delimited text file to a data set, you may have a full set of external files that need to be imported as data sets.
 
-**Note:** TestArchitect supports the import of two file types, .csv and .txt, into data sets. These files must contain tab-delimited text lines.
+{{<note>}} TestArchitect supports the import of two file types, .csv and .txt, into data sets. These files must contain tab-delimited text lines.
 
 -   **Option 1**: To import an external data folder of .csv and/or .txt files into an existing data set folder, perform the following:
 
@@ -20,7 +20,7 @@ At times, rather than import a single tab-delimited text file to a data set, you
 
     2.  In the Select dialog box, select the folder \(the "source" folder\) to be imported.
 
-        **Note:**
+{{<note>}}
 
         -   You must have full read permissions for the source folder.
         -   TestArchitect only imports data files found at the top level of the source folder. Subfolders, if any, are ignored.
@@ -49,7 +49,7 @@ At times, rather than import a single tab-delimited text file to a data set, you
         -   **Source data folder**: Click ![](/images/TA_Help/Images/btn.browse-ellipsis.01.png) to browse to the external source folder to import its data into the data set folder.
     3.  Select the external source data folder that you want to import using the Select dialog box.
 
-        **Note:**
+{{<note>}}
 
         -   You must have full read permissions for the source folder.
         -   TestArchitect only imports data files found at the top level of the source folder. Subfolders, if any, are ignored.

@@ -26,7 +26,7 @@ The purpose of UI Automation technology is to expose rich information about the 
 
 TestArchitect includes a special tool, UIA Support, that provides support for UI Automation technology. \([Learn more](/TA_Automation/Topics/aut_Using_UIA.html).\)
 
-**Restriction:** The UIA Support tool is not available in the TestArchitect package for Linux and macOS operating systems.
+{{<restriction>}} The UIA Support tool is not available in the TestArchitect package for Linux and macOS operating systems.
 
 
 

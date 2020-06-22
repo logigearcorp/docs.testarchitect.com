@@ -18,7 +18,7 @@ In some special cases, such as the test failing to find the target AUT \(applica
 
 At this point, you can click the **Debug** button in the Automation Problem dialog box to enter debug mode.
 
-**Tip:**
+{{<tip>}}
 
 -   Debug mode can only be applied to one device at a time. Before bringing a second device into debug mode, you must wait until the device currently in debug mode exits that state.
 -   To abort execution on a device which is encountering an automation problem, click the **Stop** button in the Automation Problem dialog box.

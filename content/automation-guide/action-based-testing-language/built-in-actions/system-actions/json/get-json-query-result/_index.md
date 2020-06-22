@@ -36,7 +36,7 @@ This action may be used within the following project items:test modules and user
 -   JSONPath of REST Assured, a Java framework for simplifying testing of REST based services and currently employed in TestArchitect, uses [Groovy GPath](https://blog.jayway.com/2013/04/12/whats-new-in-rest-assured-1-8/) expressions. A tutorial on GPath is beyond the scope of this help system. For more information on GPath, you can refer to this [site](http://groovy-lang.org/processing-xml.html#_gpath).
 -   To insert an entire JSON document's content into the json argument, all whitespaces must be removed manually to avoid automation failure.
 
-    **Tip:** You can use various tools to compact JSON data to remove all whitepsaces. For example: [JSON Editor Online](http://www.jsoneditoronline.org/).
+{{<tip>}} You can use various tools to compact JSON data to remove all whitepsaces. For example: [JSON Editor Online](http://www.jsoneditoronline.org/).
 
 -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
 -   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.

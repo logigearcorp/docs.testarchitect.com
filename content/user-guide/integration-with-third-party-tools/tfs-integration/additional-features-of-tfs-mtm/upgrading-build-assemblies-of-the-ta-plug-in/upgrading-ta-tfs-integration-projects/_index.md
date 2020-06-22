@@ -10,7 +10,7 @@ keywords: "integration, MTM, upgrading build assembly files (a single project), 
 
 Steps to upgrade TA-TFS integration projects.
 
-**Remember:**
+{{<remember>}}
 
 -   Upgrading of outdated build assembly files is supported with TA-TFS plug-in versions \#3.0.14 or later. \(To check the current version of your TA-TFS plug-in: in Visual Studio, select the **Tools** \> **Extensions and Updates** menu, browse, and then click **TA-TFS Integration Plugin**\).
 -   If your TA-TFS plug-in version is \#3.0.19 or earlier, an additional step is required after upgrading the build assembly files. TA-TFS integration projects created after \#3.0.19 have replaced Coded UI with Unit Tests; that is, they are no longer dependent on the Coded UI libraries. Therefore, you must reassociate your existing TFS tests cases \([Learn more](/TA_Help/Topics/ug_MTM_associate.html)\).
@@ -27,7 +27,7 @@ To upgrade TA-TFS projects, do the following:
 
     ![](/images/TA_Help/Images/TA_TFS_projects_updating.png)
 
-    **Note:** The upgrade process, in general, performs the following actions:
+{{<note>}} The upgrade process, in general, performs the following actions:
 
     1.  Update the TestArchitect BuildAssemblies files, which store information of the TA-TFS plug-in when it is installed.
     2.  Structure folder in your projects as follows:
@@ -42,7 +42,7 @@ To upgrade TA-TFS projects, do the following:
 
     ![](/images/TA_Help/Images/TA_TFS_projects_updating_done.png)
 
-    **Note:**
+{{<note>}}
 
     -   If you previously selected to back up your projects, the backup copy of your projects are located under a folder named Backup\_<oldPluginVersion\>.
     -   For example, if your obsolete version of TA-TFS plug-in is 3.1.0, the folder's name is Backup\_3.1.0.

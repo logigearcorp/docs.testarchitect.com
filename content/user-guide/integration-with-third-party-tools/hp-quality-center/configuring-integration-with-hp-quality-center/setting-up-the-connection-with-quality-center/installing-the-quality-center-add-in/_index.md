@@ -12,13 +12,13 @@ Interoperability between a TestArchitect project and HP Quality Center requires 
 
 Contact your systems administrator if you are not certain whether the machine hosting your TestArchitect repository already has the HP ALM Connectivity Add-in installed. If it does not, and you are authorized to install to that machine, or the repository resides on your local machine, carry out the instructions that follow.
 
-**Note:** Be sure to install the correct HP ALM Connectivity Add-in for the version of Quality Center that you are interfacing with. Upgrades of Quality Center should be accompanied by a reinstallation of the add-in on any TestArchitect clients.
+{{<note>}} Be sure to install the correct HP ALM Connectivity Add-in for the version of Quality Center that you are interfacing with. Upgrades of Quality Center should be accompanied by a reinstallation of the add-in on any TestArchitect clients.
 
-**Note:** The HP ALM Connectivity Add-in is provided and supported by HP. Please note that the following instructions for locating and installing the add-in are offered for your convenience. They specifically apply to Quality Center version 12.00, and are not guaranteed to be accurate for other versions of Quality Center. For definitive guidance, please refer to the instructions provided by HP, available with your product.
+{{<note>}} The HP ALM Connectivity Add-in is provided and supported by HP. Please note that the following instructions for locating and installing the add-in are offered for your convenience. They specifically apply to Quality Center version 12.00, and are not guaranteed to be accurate for other versions of Quality Center. For definitive guidance, please refer to the instructions provided by HP, available with your product.
 
 1.  In a browser supported by your version of Quality Center, navigate to the URL of the Quality Center server in your organization.
 
-    **Note:** The HP Quality Center server supports a limited number of browsers. Specifically, versions 11 and 12 of Quality Center support Internet Explorer versions 8 thru 10. To ensure that you have the most recent information on Quality Center support for browsers, operating systems, hardware, etc., please refer to [HP's system requirement guide](https://hpln.hp.com/page/alm-qc-enterprise-technical-specifications). \(Note that Quality Center limitations on browser clients have no bearing on which browsers may be used as target platforms for TestArchitect automated testing.\)
+{{<note>}} The HP Quality Center server supports a limited number of browsers. Specifically, versions 11 and 12 of Quality Center support Internet Explorer versions 8 thru 10. To ensure that you have the most recent information on Quality Center support for browsers, operating systems, hardware, etc., please refer to [HP's system requirement guide](https://hpln.hp.com/page/alm-qc-enterprise-technical-specifications). \(Note that Quality Center limitations on browser clients have no bearing on which browsers may be used as target platforms for TestArchitect automated testing.\)
 
     ![](/images/TA_Help/Images/QC_install_addin.01.png)
 

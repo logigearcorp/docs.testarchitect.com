@@ -10,7 +10,7 @@ keywords:
 
 Explore some of the extended and special-purpose tools and features of TestArchitect.
 
-**Note:** This part of the Tutorials Guide covers subjects that are independent from one another. Hence, the lessons need not be covered in any particular order.
+{{<note>}} This part of the Tutorials Guide covers subjects that are independent from one another. Hence, the lessons need not be covered in any particular order.
 
 The following topics provide detailed information on extending TestArchitect:
 

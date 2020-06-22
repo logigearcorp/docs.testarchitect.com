@@ -12,7 +12,7 @@ text, in some cases, is a secondary property, with its value derived from other 
 
 ## TA classes employing the property
 
-**Note:** This is not the complete list of TA classes that employ the text property. It only covers those cases in which text is a secondary property.
+{{<note>}} This is not the complete list of TA classes that employ the text property. It only covers those cases in which text is a secondary property.
 
 |TA class|Applicable platform\(s\)|
 |--------|------------------------|

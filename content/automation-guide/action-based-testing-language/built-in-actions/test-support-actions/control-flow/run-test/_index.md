@@ -39,7 +39,7 @@ This action may be used within the following project items:test modules and user
 -   Execution of a test module \(or [test suite](/TA_Help/Topics/Test_suite.html)\) with run test is performed synchronously with respect to the calling test module. That is, the caller pauses its execution and only resumes upon completion of execution of the called test module/test suite.
 -   It is highly recommended that you do not invoke the run test action from within a [user-defined action](/reuse/reuse.High_level_actions.html). That is, only call it from within a test module.
 -   Note that, unlike the case with a test module whose execution is configured via the Execute Test dialog box, you have no option to specify which test cases of the target test module of the run test command will or will not be run.
--   **Tip:**
+-{{<tip>}}
 
 -   A convenient way to enter this built-in action as an action line is to drag and drop the node of the target test module or test suite from the TestArchitect explorer tree directly into column **A** of an empty line of your test editor. The line is automatically populated with a run test action line with the name argument specifying the correct target.
 -   Note, however, that if the dragged test module is a [variation](/TA_Help/Topics/ug_TM_create_variation.html), the name inserted to the name argument is just the default, with no variation spec.

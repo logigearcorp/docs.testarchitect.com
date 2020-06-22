@@ -18,7 +18,7 @@ How to use concatenation to manipulate text in action arguments.
 
 2.  In the **Name** field, type My expressions, then click **Create**.
 
-3.  **Note:** The new test module appears in the editor with a default template containing suggested basic components for a well-designed test. For this lesson, you only need the TEST CASE section.
+3.{{<note>}} The new test module appears in the editor with a default template containing suggested basic components for a well-designed test. For this lesson, you only need the TEST CASE section.
 
     In the editor, delete all content except for the TEST CASE line. Optionally, you can also delete any blank lines above the TEST CASE line.
 
@@ -50,7 +50,7 @@ How to use concatenation to manipulate text in action arguments.
 
 The argument of the first report action line \(row 15\) is treated as a literal string, requiring no further evaluation. By contrast, the second report action line begins with a \# symbol, and so is treated as an expression. It uses the concatenation operator \(&\) to merge several string constants.
 
-**Note:** Note that, within an expression, string constants must be enclosed in quotation marks. An argument cell containing only a simple text string, as in row 15, needs no quotation marks.
+{{<note>}} Note that, within an expression, string constants must be enclosed in quotation marks. An argument cell containing only a simple text string, as in row 15, needs no quotation marks.
 
 The results in both cases are identical:
 

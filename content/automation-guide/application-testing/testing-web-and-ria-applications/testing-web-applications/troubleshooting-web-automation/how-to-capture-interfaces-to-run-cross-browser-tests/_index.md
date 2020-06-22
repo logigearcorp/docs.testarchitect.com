@@ -38,6 +38,6 @@ You may ask: *Do I need different interface definitions for each of Internet Exp
     -   If the unique properties are slightly different on different browsers, use the wildcard \(\{.\*\}\) , as discussed above.
     -   If the unique properties do not have same or similar values across browsers, you can use Variations. Refer to [Variations](/TA_Help/Topics/Variations.html) to learn how to create a variation and run the same test modules across different browsers/platforms.
 
-**Tip:** In order to launch a specific browser from your test, use the [use browser](/TA_Automation/Topics/bis_use_browser.html) built-in setting.
+{{<tip>}} In order to launch a specific browser from your test, use the [use browser](/TA_Automation/Topics/bis_use_browser.html) built-in setting.
 
 

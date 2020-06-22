@@ -26,9 +26,9 @@ To compare a folder against the reference folder, do the following:
 
     ![](/images/TA_Help/Images/diff_tool_reference_dir_comparison.png)
 
-    **Note:** If the reference folder and the folder to be compared are not of the same type, the **Compare to Marked Item** menu item is disabled.
+{{<note>}} If the reference folder and the folder to be compared are not of the same type, the **Compare to Marked Item** menu item is disabled.
 
-    **Tip:** If at any time you wish to view the contents of the current reference folder, right-click any folder, and then select **Diff Tool** \> **Go to Marked Item**.
+{{<tip>}} If at any time you wish to view the contents of the current reference folder, right-click any folder, and then select **Diff Tool** \> **Go to Marked Item**.
 
 
 The Diff Tool window appears, with the two folders displayed in side-by-side panels, the reference \(marked\) folder on the left.

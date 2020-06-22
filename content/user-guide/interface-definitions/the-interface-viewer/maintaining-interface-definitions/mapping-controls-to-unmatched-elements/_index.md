@@ -33,6 +33,6 @@ The UI Explorer and Interface Elements panels reflect the new mapping for the co
 
 ![](/images/TA_Help/Images/dlg.Interface_Viewer_new_mapping.png)
 
-**Tip:** If you prefer to remove an unmatched interface element, rather than remap a control to it, simply edit the interface entity that contains the element and delete it.
+{{<tip>}} If you prefer to remove an unmatched interface element, rather than remap a control to it, simply edit the interface entity that contains the element and delete it.
 
 

@@ -24,7 +24,7 @@ Create a tab-delimited text file to supply data sets to your test.This external 
 
     When you copy and paste from the TestArchitect editor, adjacent cells of a row are delimited by tabs, while rows are separated by linefeed characters. This satisfies the TestArchitect requirements for an external data file.
 
-    **Note:** If you have a text editor that can visualize hidden characters, verify that all tabs and linefeeds are correctly positioned.
+{{<note>}} If you have a text editor that can visualize hidden characters, verify that all tabs and linefeeds are correctly positioned.
 
 6.  Change some of the data in your file. For example, change the first occurrence of Prius to Thunderbird.
 

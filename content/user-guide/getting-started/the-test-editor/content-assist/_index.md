@@ -22,7 +22,7 @@ Use the Up and Down arrow keys to scroll through the available choices. Note tha
 
 ![](/images/TA4VS_Help/Images/Autocomplete_actions.png)
 
-**Tip:** When you first enter a new cell, and before typing any characters, you may also press Ctrl + Space or Space to invoke Content Assist. If editing an existing action line, pressing Ctrl + Space also brings up Content Assist with appropriate selections.
+{{<tip>}} When you first enter a new cell, and before typing any characters, you may also press Ctrl + Space or Space to invoke Content Assist. If editing an existing action line, pressing Ctrl + Space also brings up Content Assist with appropriate selections.
 
 After selecting an action, you can insert it into your test editor by pressing Enter.
 
@@ -32,7 +32,7 @@ When you begin typing into the cell of an action line argument whose type is INT
 
 -   In the case of [INTERFACE ENTITY](/reuse/reuse.Creating_and_using_actions_Arg_type.html#sectiondiv.arg_type.int_ent)-type arguments \(generally, arguments named window\), Content Assist supplies the names of all interface entities of your project's *assumed* interface:
 
-    **Note:** Note that Content Assist tries to make an educated guess as to the interface that will be in effect at any given point in your test module, so that it may present you with the appropriate interface entities. Action lines following a [use interface](/reuse/../TA_Automation/Topics/bia_use_interface.html) action are assumed to use to the target interface of that action. In the absence of a use interface action, action lines are assumed to apply to whatever interface is currently designated as the [default](/reuse/../TA_Help/Topics/Interface_def_set_default_interface.html).
+{{<note>}} Note that Content Assist tries to make an educated guess as to the interface that will be in effect at any given point in your test module, so that it may present you with the appropriate interface entities. Action lines following a [use interface](/reuse/../TA_Automation/Topics/bia_use_interface.html) action are assumed to use to the target interface of that action. In the absence of a use interface action, action lines are assumed to apply to whatever interface is currently designated as the [default](/reuse/../TA_Help/Topics/Interface_def_set_default_interface.html).
 
 -   In the case of [INTERFACE ENTITY](/reuse/reuse.Creating_and_using_actions_Arg_type.html#sectiondiv.arg_type.int_ent)-type arguments \(generally, arguments named window\), Content Assist supplies the names of all interface entities of your project.
 -   Once a window or dialog is specified, [INTERFACE ELEMENT](/reuse/reuse.Creating_and_using_actions_Arg_type.html#sectiondiv.arg_type.int_elt)-type arguments \(typically named control\), have their domains limited to the elements \(controls\) of the given interface entity.
@@ -42,7 +42,7 @@ When you begin typing into the cell of an action line argument whose type is INT
 
 ![](/images/TA4VS_Help/Images/aucomplete_arguments.png)
 
-**Note:** As with action assistance, you can also press Ctrl + Space or Space to access Content Assist for argument lists at any time.
+{{<note>}} As with action assistance, you can also press Ctrl + Space or Space to access Content Assist for argument lists at any time.
 
 After selecting an item, you insert in into your test editor by pressing Enter.
 
@@ -54,7 +54,7 @@ For those arguments which accept expressions \(which include variables and funct
 
 After selecting an item with the Up/Down keys, insert it into the editor by pressing Enter.
 
-**Tip:**
+{{<tip>}}
 
 -   As you enter an expression function, a screentip appears displaying the function's syntax.
 

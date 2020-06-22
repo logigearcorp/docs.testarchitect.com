@@ -10,7 +10,7 @@ keywords: "mobile web testing, Chrome, Android, Chrome testing, Android"
 
 With TestArchitect, automated tests may be created and run on web applications running within Chrome for Android.
 
-**Note:**
+{{<note>}}
 
 -   Testing Chrome Android must be done by means of a USB cable connection.
 -   The Android mobile device under test may be a physical device or an emulator.

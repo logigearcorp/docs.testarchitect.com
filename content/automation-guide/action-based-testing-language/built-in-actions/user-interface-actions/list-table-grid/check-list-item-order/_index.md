@@ -38,7 +38,7 @@ Check for the presence of a specified sequence of items in a control. Result is 
 
     Elements of the ordered sequence whose presence in the control is checked.
 
-    **Tip:** Arguments argument2 through argumentN are optional.
+{{<tip>}} Arguments argument2 through argumentN are optional.
 
 
 ## Valid contexts

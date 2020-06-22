@@ -18,7 +18,7 @@ Along with these built-in classes, TestArchitect provides a number of built-in m
 
 Note, however, that this set of built-in mappings cannot cover all of the possible control types that might appear in the immense diversity of AUTs and their platforms. For example, a custom control may look and behave exactly like a table, yet have a native class name that is unknown to TestArchitect. Without a little intervention on someone's part, TestArchitect does not know how to handle it properly. In such a case, you can provide that help by manually mapping this unknown control to a known TA class – in this case, table. Once so mapped, the full range of [built-in actions](/TA_Automation/Topics/bia_Built_in_actions.html) that work on the TA class table are available to interact with the new custom control.
 
-**Important:** Custom class mapping is only supported for the following applications:
+{{<important>}} Custom class mapping is only supported for the following applications:
 
 -   Windows Presentation Foundation \(WPF\)
 -   Win32

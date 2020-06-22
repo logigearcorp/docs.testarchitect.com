@@ -60,7 +60,7 @@ The information is presented in the form of a tree structure, with nodes grouped
         -   Allocated: 0 indicates that no licenses are currently in use.
         -   Available: 2 indicates that both of the issued licenses are available to be granted to hosts that request them.
         -   Valid Until: 04/30/2017 shows that the licenses are valid until 04/30/2017.
-        **Note:**
+{{<note>}}
 
         -   The sum of **Allocated** and **Available** licenses always equals the number of **Issued** licenses.
         -   The number of issued licenses for a node can decrease. This happens when a license is converted from a floating license to a host-based license.
@@ -69,7 +69,7 @@ The information is presented in the form of a tree structure, with nodes grouped
     -   Beneath this node is a subnode representing the host to which the license is allocated, and whose IP address and network name are both displayed.
 -   The last top-level node, **Host-Based License**, has two subnodes, both of which have licenses designated exclusively for them, one being an Universal license and the other being an Agent license.
 
-**Attention:**
+{{<attention>}}
 
 -   Typically, each licensed machine is identified by its IP address as well as its computer name, separated by a hyphen \( - \). For example: 192.168.167.60 - lgvn14740.logigear.com.
 -   Additionally, the machine's identification will also get an instance ID, whenever its TestArchitect Client or TestArchitect Controller connects to the License Server. The instance ID is unique and is constantly changed for every connection session established. For example: 192.168.167.60 - lgvn14740.logigear.com \[ TACJFJMOHI395768 \]

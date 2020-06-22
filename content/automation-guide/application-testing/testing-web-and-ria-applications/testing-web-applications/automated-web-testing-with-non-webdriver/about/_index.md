@@ -10,7 +10,7 @@ keywords: "web testing, testing web applications, native properties, overview, r
 
 Some basics of creating and recording tests for web applications, web control identification via the Interface Viewer, and other concepts.
 
-**Note:**
+{{<note>}}
 
 Before testing web applications on a supported browser, ensure that necessary settings or reconfigurations required by TestArchitect are fully met. For detailed instructions, see [Preparing web browsers](/TA_Help/Topics/Test_exec_extension.html).
 
@@ -18,7 +18,7 @@ Before testing web applications on a supported browser, ensure that necessary se
 
 TestArchitect's test editor allows you to manually author tests consisting of action lines, based on the Action-Based Testing methodology. However, TestArchitect also provides you with a powerful tool to automate the process of authoring action-based tests, saving you time and eliminating the risk of accidental coding errors. The [Action Recorder](/reuse/../TA_Help/Topics/Creating_and_using_actions_AR.html) does this by monitoring and recording your manual interactions with thewebapplication. It automatically generates the equivalent action lines and writes them to your test file, inserting whatever checks you specify to verify the responses of the application. \(See [Using the Action Recorder](/reuse/../TA_Tutorials/Topics/Tutorial_Using_the_Action_Recorder.html) for further information.\)
 
-**Important:** Currently, Internet Explorer is the only browser platform that the Action Recorder supports.
+{{<important>}} Currently, Internet Explorer is the only browser platform that the Action Recorder supports.
 
 Auto-generated action lines can subsequently be modified and enhanced by hand in a number of ways to address specific test requirements. For example, you can:
 
@@ -38,7 +38,7 @@ Every user interface control of awebapplication has both a class and a set of pr
 
 Generally, only a small subset of a control's properties are useful for identification. Some properties of a given control may have highly volatile values, and therefore cannot be used for reliable identification. Other properties may be quite constant \(e.g., enabled=true\), but other controls of the same class might well have the exact same value for that property. Ideally, you need to find property values that are both persistent for a given control and unique. If necessary, a combination of two or more property-value pairs may be used for identification.
 
-**Note:**
+{{<note>}}
 
 -   [XPath](/reuse/../TA_Help/Topics/prop_xpath.html) property, a persistent TA property, should be used to uniquely target UI controls, and to attain the optimal performance within your web applications.
 -   However, XPath may not be used in combination with any other TA properties to identify and capture a web control.
@@ -47,7 +47,7 @@ The [Interface Viewer](/reuse/../TA_Help/Topics/Interface_def_Viewer.html) is a 
 
 ![](/images/TA_Automation/Images/aut_interface_definition_UI_web_identification.png)
 
-**Important:**
+{{<important>}}
 
 -   Use of the [Interface Viewer](/reuse/../TA_Help/Topics/Interface_def_Viewer.html) and [point-to-identify](/reuse/../TA_Help/Topics/Interface_def_client_interface_tool_identify.html) tool are currently not supported for web applications running within Microsoft Edge and Mozilla Firefox on Windows, because automated testing of Microsoft Edge and Mozilla Firefox is now supported through WebDriver and GeckoDriver, respectively. \([Learn more](/reuse/../TA_FAQ/Topics/faq.howto.capture_controls_Firefox_Edge.html)\)
 -   In order to obtain the XPath property, read [here](/reuse/../TA_FAQ/Topics/faq.howto.capture_controls_Firefox_Edge.html).

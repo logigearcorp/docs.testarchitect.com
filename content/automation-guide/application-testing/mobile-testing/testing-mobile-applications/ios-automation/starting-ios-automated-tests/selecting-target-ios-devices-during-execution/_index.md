@@ -10,7 +10,7 @@ keywords: "iOS, test execution, action lines, executing test, executing, iOS tes
 
 From within your action lines, you can control which iOS device\(s\) your test is to execute on.
 
-**Note:** Any device referenced by a use device action within a test must be connected to the same TestArchitect controller on which the test is running.
+{{<note>}} Any device referenced by a use device action within a test must be connected to the same TestArchitect controller on which the test is running.
 
 An example to indicate which iOS device to run automated tests on during runtime might look something like this:
 

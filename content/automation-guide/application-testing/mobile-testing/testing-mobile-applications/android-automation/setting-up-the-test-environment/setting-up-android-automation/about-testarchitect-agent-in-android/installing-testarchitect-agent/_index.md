@@ -10,7 +10,7 @@ keywords: "Android, installing TestArchitect Agent, TestArchitect Agent, Android
 
 How to install TestArchitect Agent onto Android devices.
 
-**Important:** Android automation is only supported on Windows.
+{{<important>}} Android automation is only supported on Windows.
 
 At the present time, installation to a physical device requires a USB cable connection to the host PC. \(Hence, if working with a physical device that has not yet been set up for communication with the host PC, refer to the instructions given in [Setting up a physical Android device via USB cable](/Android/Topics/Setting_up_physical_device_usb.html).\)
 

@@ -23,7 +23,7 @@ Creating a user-defined action is a two-stage process:
 -   You begin by defining the action's interface – that is, the things that the outside world needs to know about the action in order to interface with it. This consists of the action's name and its arguments, which you define in the New Action dialog box.
 -   Next, you create the action definition which, in the test editor, resembles a test module, with action lines consisting of other actions, be they user-defined, built-in, or user-scripted.
 
-**Note:** Arguments that you create appear at the top of the action definition in the editor, which may lead you to believe that arguments can be created directly in the action definition rather than the New Action dialog box. This is indeed true, but it is strongly advised that you not create arguments this way, as doing so interferes with the process of [name change propagation](/TA_Help/Topics/Project_and_project_items_rename_refactoring.html). Similarly, arguments of an existing action should only be added, modified, or deleted through the action's Information tab:
+{{<note>}} Arguments that you create appear at the top of the action definition in the editor, which may lead you to believe that arguments can be created directly in the action definition rather than the New Action dialog box. This is indeed true, but it is strongly advised that you not create arguments this way, as doing so interferes with the process of [name change propagation](/TA_Help/Topics/Project_and_project_items_rename_refactoring.html). Similarly, arguments of an existing action should only be added, modified, or deleted through the action's Information tab:
 
 ![](/images/TA_Tutorials/Images/hi_level_action.args_mods.png)
 

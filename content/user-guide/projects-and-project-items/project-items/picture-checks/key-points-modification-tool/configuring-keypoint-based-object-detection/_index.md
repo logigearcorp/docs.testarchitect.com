@@ -15,14 +15,14 @@ Ensure that you have done the following:
 -   Captured and saved a baseline image.
 -   Captured at least one image similar to the baseline image, or containing an object of interest that is similar to an object in the baseline. This is your training image; save it as a .png file.
 
-    **Note:**
+{{<note>}}
 
     -   To capture screenshots of desktop applications, use the [Picture Capturing](/TA_Help/Topics/Additional_features_image_capturing_tool.html) tool.
     -   To capture screenshots of mobile applications, use the [Device Live Screen](/TA_Help/Topics/ug_capturing_mobile_screenshot.html) tool together with the [Picture Capturing](/TA_Help/Topics/Additional_features_image_capturing_tool.html) tool.
 
 Keypoint image detection, as opposed to pixel-by-pixel detection, is a useful picture handling technique when you are dealing with test images that may vary somewhat from the baseline, or the need to find multiple instances of an “object” within a test image. For more on TestArchitect's keypoint detection process, refer to [Keypoint object detection](/TA_Automation/Topics/aut_keypoint_detection_method.html).
 
-**Restriction:** Note that the Key Point Modification tool is not currently supported on Linux and macOS.
+{{<restriction>}} Note that the Key Point Modification tool is not currently supported on Linux and macOS.
 
 In the following example, we wish to find the presence of a given object \(a Rubik's cube\) within the test image. We have already captured and saved a baseline image containing a sample of the Rubik's cube image, and have saved a training image containing the object of interest, along with additional content.
 
@@ -38,7 +38,7 @@ In the following example, we wish to find the presence of a given object \(a Rub
 
     ![](/images/TA_Help/Images/Key_Point_Modify_tool_dlg.png)
 
-    **Tip:**
+{{<tip>}}
 
     -   Use the ![](/images/TA_Help/Images/btn_zoom_in.png) and ![](/images/TA_Help/Images/btn_zoom_out.png) buttons to zoom in or out on the baseline image, respectively, to better help you visualize the locations of keypoints.
     -   The **Show picture in gray scale mode** check box is selected by default. By displaying the image without color, the colored keypoints are, again, easier to detect by eye. You may clear the check box if you wish.

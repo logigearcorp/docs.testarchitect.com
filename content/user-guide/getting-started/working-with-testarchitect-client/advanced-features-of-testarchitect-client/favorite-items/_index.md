@@ -17,9 +17,9 @@ With favorites, you can:
 
 Test modules, data sets, user-defined actions, interface entities, test suites and repository results can be added to favorites. \(Remaining entities, such as built-in actions or local results, cannot be added to favorites.\)
 
-**Note:** When you log in to a repository on another test machine with your account, all changes that you make to your favorite items will instantly show up on that test machine.
+{{<note>}} When you log in to a repository on another test machine with your account, all changes that you make to your favorite items will instantly show up on that test machine.
 
-**Note:**
+{{<note>}}
 
 -   If you disconnect or log out from a repository which has reference to your favorites, all those favorites are removed automatically from the **Favorite** list view and from the toolbar in your TestArchitect Client session.
 -   If you connect or log in to a repository, all favorites in that repository are appended automatically to your **Favorites** list view and to the current toolbar.

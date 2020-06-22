@@ -27,12 +27,12 @@ TestArchitect uses Google Chrome's Device Mode to emulate mobile browsers. The u
 
 Although Chrome's Device Mode offers many powerful emulation tools, it does have some limitations. \([Learn more](https://developer.chrome.com/devtools/docs/device-mode#limitations).\)
 
-**Important:**
+{{<important>}}
 
 -   Test procedures developed for testing web applications on desktop browsers and/or real devices can be applied to testing on mobile emulators. Note that this requires that the UI controls of the applications be captured with their [XPath](/TA_Help/Topics/prop_xpath.html) properties. An additional built-in action \([send command to browser](/TA_Automation/Topics/bia_send_command_to_browser.html)\) must also be used and configured within tests to invoke the desired emulator\(s\).\([Learn more](/TA_Automation/Topics/aut_app_testing_responsive_web_Chrome_DevTools_launching_emulator.html).\)
 -   It should be noted that, upon conclusion of an automated run on the emulator, the Chrome browser automatically switches out of Device Mode and returns to Desktop Mode.
 
-**Restriction:** TestArchitect's [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html) and [point-to-identify mode](/TA_Help/Topics/Interface_def_client_interface_tool_identify.html) are not supported for UI object identification and capture on mobile emulators.
+{{<restriction>}} TestArchitect's [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html) and [point-to-identify mode](/TA_Help/Topics/Interface_def_client_interface_tool_identify.html) are not supported for UI object identification and capture on mobile emulators.
 
 ## Supported platforms
 

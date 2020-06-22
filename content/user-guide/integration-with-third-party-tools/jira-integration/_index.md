@@ -10,7 +10,7 @@ keywords: "JIRA, integration"
 
 TestArchitect™ can be integrated with JIRA®, a defect tracking system, allowing you and your team to easily keep track of JIRA bug issues by associating them with TestArchitect bugs.
 
-**Note:**
+{{<note>}}
 
 -   At present, TestArchitect-JIRA integration supports versions 5 and 6 of JIRA.
 

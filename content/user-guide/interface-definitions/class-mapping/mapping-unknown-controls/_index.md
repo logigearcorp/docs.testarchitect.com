@@ -10,7 +10,7 @@ keywords: ", Interface Viewer, mapping unknown controls, viewer, mapping, unknow
 
 Every control belonging to a given platform has a native control class within that platform. Just as TestArchitect maps controls and windows to logical names \(TA names\) it also maps control class names from each AUT platform to its own set of class names, called TA classes. In some cases, the Interface Viewer encounters a control whose class it does not know about. \(These are indicated by red question marks ![](/images/TA_Help/Images/ug_interface_definition41.png) in their nodes in the Viewer's UI explorer tree.\) When that happens, if you need to interface with the control, or with other controls of that class, you must map the unknown native class to a suitable TA class.
 
-**Important:** Custom class mapping is only supported for the following applications:
+{{<important>}} Custom class mapping is only supported for the following applications:
 
 -   Windows Presentation Foundation \(WPF\)
 -   Win32

@@ -12,7 +12,7 @@ keywords: "built-in action, copy popup message"
 
 Obtain the message in a popup and store it in a variable.
 
-**Important:** This action is dedicated to Generic WebDriver.
+{{<important>}} This action is dedicated to Generic WebDriver.
 
 ## Valid contexts
 

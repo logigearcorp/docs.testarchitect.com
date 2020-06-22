@@ -14,7 +14,7 @@ A Lab Manager session may be started or accessed on any machine on the network, 
 
 In a web browser, enter the Lab Manager web server IP address and port in the address bar, in the form of: `http://{server IP:port }/LabManager`, such as, http://192.168.167.113:80/LabManager
 
-**Note:**
+{{<note>}}
 
 -   Port 80 is the default port of the web server which launches Lab Manager from a web browser. If unavailable, the next port is 54000, followed by 54001, 54002, etc. [\(Learn more.\)](/TA_Administration/Topics/adm_port_number_port_ranges.html#row.LM)
 -   There is no practical limit to the number of users who may concurrently be logged in to a given Lab Manager instance on a machine. For that matter, one user may also be logged in to multiple Lab Manager sessions concurrently, each on a different host, and each in a different window of his/her browser.

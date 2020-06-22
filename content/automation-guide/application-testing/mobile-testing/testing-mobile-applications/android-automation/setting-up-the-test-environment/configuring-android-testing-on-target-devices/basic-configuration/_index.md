@@ -10,7 +10,7 @@ keywords: "configuring, Android, configurations, unknown sources, enabling, USB 
 
 This section describes the essential configurations needed to ensure that automated tests on Android devices run successfully and stably.
 
-**Important:** Android automation is only supported on Windows.
+{{<important>}} Android automation is only supported on Windows.
 
 Perform the following procedure on the Android device:
 
@@ -26,14 +26,14 @@ Perform the following procedure on the Android device:
 
     -   On Android 4.0 and higher, enable this option in **Settings** \> **Developer options**.
 
-        **Note:** On Android 4.2 and higher, the **Developer options** screen is hidden by default. To make it visible, go to **Settings** \> **About phone** and tap **Build number** seven times.
+{{<note>}} On Android 4.2 and higher, the **Developer options** screen is hidden by default. To make it visible, go to **Settings** \> **About phone** and tap **Build number** seven times.
 
     -   On Android version lower than 4.0, enable this option in **Settings** \> **Applications** \> **Development**.
-    **Remember:**
+{{<remember>}}
 
     -   When you connect a device running Android 4.2.2 or higher to your computer, the system displays a dialog box asking whether to accept an RSA key that allows debugging through this computer. Click **OK**.
 
-        **Note:**
+{{<note>}}
 
         -   To skip this dialog box in the future, select the **Always allow from this computer** check box.
         -   This security mechanism protects user devices because it ensures that USB debugging and other adb commands cannot be executed unless you are able to unlock the device and acknowledge the dialog box.

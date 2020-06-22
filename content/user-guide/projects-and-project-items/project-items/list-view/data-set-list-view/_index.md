@@ -12,7 +12,7 @@ A data set list view displays a list of all data set items contained within eith
 
 On the TestArchitect explorer tree, when you double-click the **Data** node, and then select the **Data Sets** tab. TestArchitect opens a list view of data set items for the project. \(For details about data sets, see [Data sets](/TA_Help/Topics/Projects_and_tests_dataset.html).\)
 
-**Note:** Data set list views are also available for subfolders of the**Data** node.
+{{<note>}} Data set list views are also available for subfolders of the**Data** node.
 
 ![](/images/TA_Help/Images/Listview_data_set.png)
 
@@ -26,7 +26,7 @@ You can find various common operations that can be performed on data set list vi
 
 From a list view, you can open a data set in the editor by right-clicking its list view entry, then clicking **Open**.
 
-**Tip:** You can also open multiple data sets by using your keyboard's Shift key to select a contiguous range of data sets \(or Control to select multiple noncontiguous data sets\); then right-click the selection, and click Open.
+{{<tip>}} You can also open multiple data sets by using your keyboard's Shift key to select a contiguous range of data sets \(or Control to select multiple noncontiguous data sets\); then right-click the selection, and click Open.
 
 ## Revision control
 
@@ -50,7 +50,7 @@ TestArchitect's Diff Tool can be invoked from the list view, allowing you to com
 -   From a data set list view, you can remove a given data set from one data set folder and paste it to another by performing a **cut-and-paste** operation from the context menu.
 -   The **copy-and-paste** operation from the context menu allows you to create a duplicate of a selected data set.
 
-    **Tip:**
+{{<tip>}}
 
     -   In addition to the conventional cut-and-paste and copy-and-paste from the context menu, you can drag and drop a project item, or a selection of items, from a list view into a folder or node of the same type in the TestArchitect explorer tree.
     -   Performing drag-and-drop within the same project is equivalent to cutting and pasting. Performing a drag-and-drop across different projects, on the other hand, is a copy-and-paste operation.
@@ -67,7 +67,7 @@ By selecting **Search** from the context menu, you can search all test modules f
 
 **Fastpath:** Ctrl + H
 
-**Tip:** You can include [supplier project\(s](/TA_Help/Topics/Project_subscription.html)\) in your search for the given data set by selecting the **Including supplier project\(s\)** check box in the Search dialog box.
+{{<tip>}} You can include [supplier project\(s](/TA_Help/Topics/Project_subscription.html)\) in your search for the given data set by selecting the **Including supplier project\(s\)** check box in the Search dialog box.
 
 ## Exporting data set
 

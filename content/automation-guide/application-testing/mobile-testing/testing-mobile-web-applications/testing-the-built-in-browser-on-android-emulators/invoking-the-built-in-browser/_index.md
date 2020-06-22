@@ -16,7 +16,7 @@ There are two methods by which the built-in browser may be invoked in Android em
 
 2.  Alternatively, use the [navigate](/TA_Automation/Topics/bia_navigate.html) built-in action.
 
-**Remember:**
+{{<remember>}}
 
 -   For method \#2, it is essential that you include the protocol \(http:// or https://\) for the target URL in the location argument. \(For example, http://google.com\)
 

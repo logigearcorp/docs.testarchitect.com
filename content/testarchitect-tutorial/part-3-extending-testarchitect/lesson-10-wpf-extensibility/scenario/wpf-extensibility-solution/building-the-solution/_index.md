@@ -10,7 +10,7 @@ keywords: "WPF extensibility, building solution"
 
 Build the DLL for the Extension project so that TestArchitect can load the extension.
 
-**Remember:** It is highly recommended that you use Microsoft Visual Studio 2010 to program WPF Extensibility.
+{{<remember>}} It is highly recommended that you use Microsoft Visual Studio 2010 to program WPF Extensibility.
 
 To build the DLL file \(for example, WpfExtensionSample\) for the Extension project , perform the following steps:
 

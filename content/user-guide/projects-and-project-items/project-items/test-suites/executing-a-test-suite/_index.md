@@ -21,7 +21,7 @@ To execute a test suite, do the following:
 
 Alternatively, you can click the **Execute Test** ![](/images/TA_Help/Images/Toolbar_Button_Execute.png) toolbar icon or click Ctrl + F9 on Windows \(macOS: ![](/images/TA_Help/Images/Mac_control_key.png) + ![](/images/TA_Help/Images/Mac_shift_key.png) + F9, Linux: Ctrl + Shift + F9\) on your keyboard.
 
-**Tip:**
+{{<tip>}}
 
 You can generate a .bat file to run the test suite by right-clicking the test suite and selecting **Generate batch file**. The .bat file contains the suite name and the executed test modules that are defined at run time.
 

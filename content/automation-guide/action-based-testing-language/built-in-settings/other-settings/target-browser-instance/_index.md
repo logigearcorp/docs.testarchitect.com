@@ -12,7 +12,7 @@ keywords: "built-in action, target browswer instance"
 
 Determine if the [navigate](/TA_Automation/Topics/bia_navigate.html) built-in action opens a new tab, a new window instance, or overwrites the currently active instance with a new URL.
 
-**Important:** This setting is dedicated to Generic WebDriver.
+{{<important>}} This setting is dedicated to Generic WebDriver.
 
 ## Available values
 

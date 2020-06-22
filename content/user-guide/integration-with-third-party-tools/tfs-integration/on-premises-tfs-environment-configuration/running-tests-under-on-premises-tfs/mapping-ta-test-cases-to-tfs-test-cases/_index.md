@@ -25,7 +25,7 @@ You must have taken the following steps before you can map TestArchitect test ca
 
     ![](/images/TA_Help/Images/MTM_map_test_cases.png)
 
-    **Important:**
+{{<important>}}
 
     -   Each TFS source ID can only be mapped to a single TestArchitect test case.
     -   If the TFS source ID has been mapped to another TestArchitect test case, that source ID is highlighted in red.

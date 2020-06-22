@@ -56,7 +56,7 @@ Select an item on a specified context menu.
 
         Double left-mouse click.
 
-    **Note:** click type is an unsupported argument and hence invisible. To use it, you must specify both the value and the header click type in the cells to the right of the y argument.
+{{<note>}} click type is an unsupported argument and hence invisible. To use it, you must specify both the value and the header click type in the cells to the right of the y argument.
 
 
 ## Valid contexts
@@ -71,9 +71,9 @@ This action may be used within the following project items:test modules and user
     -   control, if the action has window and control arguments, and values are specified for both of them;
     -   window, if the action has a value specified for a window argument, but has no control value specified \(whether or not the control argument exists\);
     -   screen, if neither a window nor control value is specified, whether or not such arguments exist.
-    **Note:** As for TestArchitect 8.4 Update 2, the coordinates are determined in pixels relative to the top-left corner of the working document.
+{{<note>}} As for TestArchitect 8.4 Update 2, the coordinates are determined in pixels relative to the top-left corner of the working document.
 
-    **Restriction:** This rule should not be taken to imply that any control or window arguments are optional if their associated actions don't explicitly state that.
+{{<restriction>}} This rule should not be taken to imply that any control or window arguments are optional if their associated actions don't explicitly state that.
 
 -   item argument:
     -   The menu item may be specified by its caption propertyor numerical index representing its cardinal placement in the menu, with index values starting at 1.

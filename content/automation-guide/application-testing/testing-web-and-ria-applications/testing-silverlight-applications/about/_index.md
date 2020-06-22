@@ -18,13 +18,13 @@ TestArchitect provides many built-in actions for automating various user interac
 
 ## Silverlight control identification
 
-**Remember:** To capture Silverlight controls in TestArchitect, you have to enable the [UIA Support tool](/reuse/../TA_Automation/Topics/aut_UIA_activation.html).
+{{<remember>}} To capture Silverlight controls in TestArchitect, you have to enable the [UIA Support tool](/reuse/../TA_Automation/Topics/aut_UIA_activation.html).
 
 Every user interface control of aSilverlightapplication has both a class and a set of properties. Property sets vary depending on the class of object involved: a button, for example, will have a different set of properties than a text box or label. Within a given container \(window, dialog box, etc.\), the combination of a control's class and some set of property-value pairs is used by TestArchitect to uniquely identify the control.
 
 Generally, only a small subset of a control's properties are useful for identification. Some properties of a given control may have highly volatile values, and therefore cannot be used for reliable identification. Other properties may be quite constant \(e.g., enabled=true\), but other controls of the same class might well have the exact same value for that property. Ideally, you need to find property values that are both persistent for a given control and unique. If necessary, a combination of two or more property-value pairs may be used for identification.
 
-**Note:** TestArchitect discovers information about Silverlight controls at runtime using Reflection technology.
+{{<note>}} TestArchitect discovers information about Silverlight controls at runtime using Reflection technology.
 
 The [Interface Viewer](/reuse/../TA_Help/Topics/Interface_def_Viewer.html) is a powerful support tool that allows you to view all of a control's available properties, to capture and save all or parts of an interface definition, and to explore the controls of an application's interface. The following image depicts the Interface Viewer examining the controls of aSilverlight application.
 
@@ -46,7 +46,7 @@ TestArchitect's solution, TA classes, is a standardized set of control types, ea
 
 Refer to [Class mapping](/reuse/../TA_Help/Topics/Class_mapping.html) for details.
 
-**Important:** Class mapping is currently supported on WPF, Win32, iOS, Android, and Silverlight applications.
+{{<important>}} Class mapping is currently supported on WPF, Win32, iOS, Android, and Silverlight applications.
 
 
 

@@ -18,26 +18,26 @@ You can use client-side **point-to-identify** in a non-contextual mode, meaning 
 
 3.  Click the control of interest.
 
-    **Tip:** To capture UI child elements belonging to a container class, see [Container Class](/TA_Help/Topics/Interface_def_container_class.html).
+{{<tip>}} To capture UI child elements belonging to a container class, see [Container Class](/TA_Help/Topics/Interface_def_container_class.html).
 
     The Element definition dialog box appears, displaying the control, with its ancestor nodes, in the UI Explorer panel.
 
     ![](/images/TA_Help/Images/ug_interface_definition38.png)
 
-    **Note:**
+{{<note>}}
 
     -   As no reference interface entity has been supplied by you – that is, no context is given – none is displayed in the **Interface Entity** box. Consequently, all the nodes of the tree are shown as unmapped, as TestArchitect has not been informed as to where to find the mappings.
     -   The **TA Name** box offers a suggested name in the event that you wish to create a new interface element for this control \(or overwrite an existing one\), and allows you override it with your own choice of name. You also have the option of overriding TestArchitect's suggested property identifier\(s\) and choosing your own.
     -   You have the option at this point of creating a mapping not for the control that you have identified, but for any one of its ancestor-containers in the tree. Simply click the given ancestor node, accept or override the suggested TA name, accept or override the suggested property identifier\(s\), and continue.
 4.  After making any chosen changes, click **Save**.
 
-    **Tip:** Click **Cancel**, if you are just viewing the control's information.
+{{<tip>}} Click **Cancel**, if you are just viewing the control's information.
 
     The Interface Entity Selection dialog box appears. This dialog box presents you with a list of interface entities in the current interface that match the parent window of the control just clicked, if any exist.
 
     ![](/images/TA_Help/Images/ug_interface_definition39.png)
 
-    **Note:** If you want to save your interface element to an existing interface entity, proceed to step [5](/TA_Help/Topics/Interface_def_client_interface_tool_identify_non_contextual.html#step.select_int_ent), or proceed to step [8](/TA_Help/Topics/Interface_def_client_interface_tool_identify_non_contextual.html#step.create_int_ent) to create a new interface entity to house this new element.
+{{<note>}} If you want to save your interface element to an existing interface entity, proceed to step [5](/TA_Help/Topics/Interface_def_client_interface_tool_identify_non_contextual.html#step.select_int_ent), or proceed to step [8](/TA_Help/Topics/Interface_def_client_interface_tool_identify_non_contextual.html#step.create_int_ent) to create a new interface entity to house this new element.
 
 5.  In order to save to an existing interface entity, select an interface entity from the list in the Interface Entity Selection dialog box.
 

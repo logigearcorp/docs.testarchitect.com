@@ -10,7 +10,7 @@ keywords: "integration, Zephyr, importing Zephyr test cases, importing Zephyr te
 
 Test cases residing on Zephyr can be imported into TestArchitect, which also establishes one-to-one mappings between the two sets of test cases.
 
-**Important:** TestArchitect-Zephyr integration supports the following versions of Zephyr.
+{{<important>}} TestArchitect-Zephyr integration supports the following versions of Zephyr.
 
 -   [6.2](https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/550633474/6.2+Release+Notes)
     -   [Zephyr Cloud](https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/263521484/Zephyr+Enterprise+Cloud+Requirements)
@@ -21,7 +21,7 @@ Ensure that you have already taken the following steps:
 -   [Registered the Zephyr server with TestArchitect](/TA_Help/Topics/ug_Zephyr_registering_server.html).
 -   [Mapped the TestArchitect project containing the test cases of interest to a Zephyr project](/TA_Help/Topics/ug_Zephyr_mapping_projects.html).
 
-**Important:** The following rules apply:
+{{<important>}} The following rules apply:
 
 -   A Zephyr folder can be imported only as a TestArchitect test folder.
 -   A Zephyr test case can be imported as a TestArchitect test module or a TestArchitect test case.
@@ -49,7 +49,7 @@ Importing of Zephyr test cases into TestArchitect can be done on a one-by-one ba
 
     ![](/images/TA_Help/Images/Zephyr_import_overwrite_dlg.png)
 
-    **Note:** The **Copy to Clipboard** button is used to copy the list of existing test cases to the clipboard.
+{{<note>}} The **Copy to Clipboard** button is used to copy the list of existing test cases to the clipboard.
 
 7.  An information dialog box will appear stating Import process completed successfully if the upload was successful. Click the **OK** button.
 
@@ -63,7 +63,7 @@ Zephyr test steps are imported into TestArchitect with their corresponding colum
 
 ![](/images/TA_Help/Images/Zephyr_import_teststeps.png)
 
-**Note:** If you want to import a custom column from Zephyr into TestArchitect, you must first [create new column](/TA_Administration/Topics/User_defined_fields_create.html#) in TestArchitect with the same name.
+{{<note>}} If you want to import a custom column from Zephyr into TestArchitect, you must first [create new column](/TA_Administration/Topics/User_defined_fields_create.html#) in TestArchitect with the same name.
 
 
 

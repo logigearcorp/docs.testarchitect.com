@@ -10,7 +10,7 @@ keywords: "interface viewer, mapping known controls, viewer, mapping, known cont
 
 If an existing class mapping of a known control class is no longer suitable for your needs, you can remap the control class to another TA class.
 
-**Important:** Custom class mapping is only supported for the following applications:
+{{<important>}} Custom class mapping is only supported for the following applications:
 
 -   Windows Presentation Foundation \(WPF\)
 -   Win32

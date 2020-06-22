@@ -51,7 +51,7 @@ Most broadly, TestArchitect recognizes three types of alignment between label co
     ![](/images/TA_Help/Images/prop_label.right_zone_alignments.png)
 
 
-**Note:**
+{{<note>}}
 
 -   1This criteria is not applicable to iOS 7 and 8.
 -   2It should be noted that the criteria for declaring two edges aligned varies by platform. For most platforms, perfect alignment is required. \(That is, for example, to assert that controls A and B are aligned along their top edges, requires that top\_edgeA = top\_edgeB\). However, certain idiosyncrasies in Win32, WPF, WinForms and Silverlight require that GUI controls of applications developed in those platforms be granted some latitude in determining whether edges are aligned. Specifically, an allowance of 8 pixels is applied: for the purposes of the label-finding algorithm, the edges of two controls are considered aligned if they are positioned within 8 pixels of each other along the direction of alignment:
@@ -91,7 +91,7 @@ The following figure illustrates the acceptable top zone placement of a label co
 
 ![](/images/TA_Help/Images/prop_label.top_zone_nonaligned_candidates.png)
 
-**Note:** Determination of value for T : T is the threshold value used for placing an upper physical limit on the position of a label control's bottom edge relative to a main control, for that label control to qualify candidate label donor under the top zone scenario above. T varies by platform:
+{{<note>}} Determination of value for T : T is the threshold value used for placing an upper physical limit on the position of a label control's bottom edge relative to a main control, for that label control to qualify candidate label donor under the top zone scenario above. T varies by platform:
 
 -   **Desktop platforms \(Win32, WPF, Java, Silverlight\):**
 

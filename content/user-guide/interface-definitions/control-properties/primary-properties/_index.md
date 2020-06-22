@@ -20,7 +20,7 @@ So, to continue with the just-mentioned example, the following Java application 
 
 ![](/images/TA_Help/Images/value_property_login.png)
 
-**Note:** Note that not every native property is mapped to a TA property. In some platforms, controls have far more native properties than are generally required for testing.
+{{<note>}} Note that not every native property is mapped to a TA property. In some platforms, controls have far more native properties than are generally required for testing.
 
 -   **[Positional properties \(left, top, width, height\)](/TA_Help/Topics/Interface_def_positional_properties.html)**  
 The positional properties of a control specify its location and dimensions.

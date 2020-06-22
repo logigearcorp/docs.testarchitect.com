@@ -10,7 +10,7 @@ keywords: "Oracle Forms testing, supported controls"
 
 Oracle Forms controls are supported by TestArchitect.
 
-**Note:** Applies to TestArchitect [8.4](/TA_Help/Topics/../../TA_ReleaseNotes/DITA_source/Whats_New_8.4.html) and higher.
+{{<note>}} Applies to TestArchitect [8.4](/TA_Help/Topics/../../TA_ReleaseNotes/DITA_source/Whats_New_8.4.html) and higher.
 
 Below is the full list of the Oracle Forms controls for which TestArchitect provides support.
 

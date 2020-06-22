@@ -10,7 +10,7 @@ keywords: "Release Notes 8.5 update 1, Windows, What is new, Windows, TestArchit
 
 The following new features and improvements are introduced in the latest version of TestArchitect running on Windows.
 
-**Remember:**
+{{<remember>}}
 
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories and check in all test artifacts.
 

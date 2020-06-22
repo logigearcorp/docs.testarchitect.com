@@ -16,9 +16,9 @@ As a general rule, TestArchitect treats the contents of an argument literally �
 
 Note that the expression indicator is required even for arguments that contain nothing more than a single variable. \(Think of a single variable as a single-operand expression.\) In essence, any time the contents of a cell need to be evaluated before they can be used, they are an expression in TestArchitect’s view.
 
-**Tip:** A common mistake by newbies is to attempt to prepend the \# symbol to every variable in an expression. That is wrong. It is important to keep in mind that the \# symbol applies to the cell, not to any individual element within the cell. It informs TestArchitect that the cell has contents that must be evaluated before they can be used.
+{{<tip>}} A common mistake by newbies is to attempt to prepend the \# symbol to every variable in an expression. That is wrong. It is important to keep in mind that the \# symbol applies to the cell, not to any individual element within the cell. It informs TestArchitect that the cell has contents that must be evaluated before they can be used.
 
-CAUTION:
+{{<caution>}}
 
 **Exception to the requirement of an expression indicator:** While the expression indicator is generally required for an argument that contains a variable, it should not be used for arguments in which a variable name is explicitly *expected*. That is the case for arguments that the called action is expected to return a value to. An example would be any of the built-in get... actions:
 
@@ -29,7 +29,7 @@ get window property       login     title       logtitle
 
 These actions have no need to evaluate the variables, as their only purpose is to assign values to them. \(One exception is the case in which a variable or argument holds the name of the variable you wish to write to, which is typically with case for user-defined actions that return values.\)
 
-**Important:** **Escaping the expression indicator:** In some instances, you may need to deal with a string that begins with a pound \(\#\) symbol, and not have it treated as an expression indicator. To do so, precede the character with a backslash \(\\\). For example, the following action line allows you to check for whether the clipboard is holding the string “\# Cars”:
+{{<important>}} **Escaping the expression indicator:** In some instances, you may need to deal with a string that begins with a pound \(\#\) symbol, and not have it treated as an expression indicator. To do so, precede the character with a backslash \(\\\). For example, the following action line allows you to check for whether the clipboard is holding the string “\# Cars”:
 
 ```
                           window       property    expected

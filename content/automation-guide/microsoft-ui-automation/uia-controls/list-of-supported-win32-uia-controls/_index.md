@@ -10,7 +10,7 @@ keywords: "UIA, Win32 controls, Microsoft UI Automation"
 
 Supported Win32 controls when testing Microsoft UIA-enabled AUTs.
 
-**Restriction:** The UIA Support tool is not available in the TestArchitect package for Linux and macOS operating systems.
+{{<restriction>}} The UIA Support tool is not available in the TestArchitect package for Linux and macOS operating systems.
 
 Below is the full list of Win32 controls for which TestArchitect provides UIA support:
 

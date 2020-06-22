@@ -14,7 +14,7 @@ Often fails occur in an automation run because of AUT bugs. In large scale test 
 
 A feature called **Mark As Known Bug** offers the ability to associate an action line in a test module with a TA bug. When such as association is made, the parent test case and parent test module of that action line are associated with the TA bug as well.
 
-**Note:** The action lines that declare the TEST CASE, INITIAL and FINAL divisions of a test module may also be marked as having known bugs. Note that **Mark As Known Bug** has no effect on test objective action lines, since test objectives are not directly associated with test results.
+{{<note>}} The action lines that declare the TEST CASE, INITIAL and FINAL divisions of a test module may also be marked as having known bugs. Note that **Mark As Known Bug** has no effect on test objective action lines, since test objectives are not directly associated with test results.
 
 As an example, let us say that in a first automation run, we have 20 fails reported in the test results. In the next run, the test results reveal 30 fails. Unless we go through the time-consuming process of carefully examining the test results, we have no knowledge of whether the 30 new fails consist of the 20 old ones plus 10 new fails, or if all 30 fails are completely new, or if the reality is somewhere in between.
 

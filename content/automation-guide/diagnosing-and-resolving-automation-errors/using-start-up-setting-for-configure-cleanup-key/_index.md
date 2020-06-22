@@ -26,7 +26,7 @@ Step 4: Check the **Startup Settings** checkbox
 
 Step 5: Click the **Execute** button
 
-**Important:** The purpose of keeping the browser open is to help you to debug your test. Using it may cause some problems related to headless mode, multi-execution, un-rent devices, etc. Please be aware of this before using this setting.
+{{<important>}} The purpose of keeping the browser open is to help you to debug your test. Using it may cause some problems related to headless mode, multi-execution, un-rent devices, etc. Please be aware of this before using this setting.
 
 
 

@@ -17,7 +17,7 @@ This subsection contains two exercises that demonstrate how to create user-scrip
 -   Windows
 -   Linux
 
-**Note:**
+{{<note>}}
 
 -   The TestArchitect installation includes the Java Runtime Environment \(JRE\), which is used to run Java programs. The JRE is included in directory TA\_INSTALL\_DIR\\jre.
 -   To develop Java programs, you need the Java Development Kit \(JDK\). The JDK is free, open source software, available at the [Oracle website.](http://www.oracle.com/technetwork/java/javase/downloads/index.html) Ensure that you have JDK installed before you proceed with the examples here. Also, your system’s PATH variable must be set to include the path to the Java executable: for example, C:\\Program Files\\Java\\jdk1.6.0\_31\\bin.

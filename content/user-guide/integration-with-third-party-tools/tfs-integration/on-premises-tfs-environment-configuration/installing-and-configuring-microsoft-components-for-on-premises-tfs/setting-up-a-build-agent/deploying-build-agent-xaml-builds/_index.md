@@ -16,7 +16,7 @@ Ensure that you have completed the following tasks:
 -   [Configured a build server](/TA_Help/Topics/ug_MTM_config_build_server.html).
 -   [Configured a build controller](/TA_Help/Topics/ug_MTM_config_build_controller.html).
 
-**Note:** If you use TFS 2018, be aware of its substantial changes:
+{{<note>}} If you use TFS 2018, be aware of its substantial changes:
 
 -   XAML Build has been deprecated. Furthermore, Microsoft Test Manager \(MTM\) no longer supports XAML builds
 -   Using Test Center/Lab Center in MTM for automated testing is no longer supported by TFS, starting with TFS 2018.

@@ -25,7 +25,7 @@ To address this issue, do the following:
 1.  In the [Automation Tools](/TA_Help/Topics/Test_exec_test_execution.html#li_ux4_421_zp) dialog box, from the Playback Tool field, ensure that **CSharp\_Harness** is selected.
 2.  In the **Executable\(s\)** text box, point to the TestArchitect.Harness.Executor.exe file.
 
-    **Note:** By default, this file is located at TA\_INSTALL\_DIR\\harness samples\\csharp\\executables\\TestArchitect.Harness.Executor.exe, once TestArchitect is installed.
+{{<note>}} By default, this file is located at TA\_INSTALL\_DIR\\harness samples\\csharp\\executables\\TestArchitect.Harness.Executor.exe, once TestArchitect is installed.
 
 3.  Run the C\# bundle harness as usual.
 

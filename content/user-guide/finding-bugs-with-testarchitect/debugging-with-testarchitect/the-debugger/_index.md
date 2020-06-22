@@ -10,7 +10,7 @@ keywords: "debugging, debugger"
 
 With execution halted, the debugger toolbar offers various functional buttons to help you debug the action lines.
 
-**Note:**
+{{<note>}}
 
 -   For a given test execution session, which may involve multiple test machines or devices, only one machine or device can be launched in debug mode at a time.
 -   The debugger toolbar only appears in the TestArchitect toolbar when in debug mode; normally this toolbar is invisible to users.

@@ -12,7 +12,7 @@ How to unlock more than one container class at one time.
 
 [Unlocking container classes](/TA_Help/Topics/Interface_def_container_class_unlock.html) discusses how to unlock the class of a container control whose children you may need to access for your test. In some cases, a window may contain controls of more than one container class that you wish to unlock. Rather than repeat the unlocking process for each such class, TestArchitect allows you to select multiple container classes for unlocking at one time.
 
-**Important:** TestArchitect supports unlocking container classes for the following applications:
+{{<important>}} TestArchitect supports unlocking container classes for the following applications:
 
 -   Windows Presentation Foundation \(WPF\)
 -   Win32
@@ -34,7 +34,7 @@ How to unlock more than one container class at one time.
 
         ![](/images/TA_Help/Images/unlock_container_classes_setting.png)
 
-        **Note:** The Listview option does not apply to Silverlight applications. Silverlight only supports Table, Treeview, and Listbox container classes.
+{{<note>}} The Listview option does not apply to Silverlight applications. Silverlight only supports Table, Treeview, and Listbox container classes.
 
     4.  Click **Apply**.
 
@@ -64,7 +64,7 @@ How to unlock more than one container class at one time.
 
     7.  Select the container classes that you want to unlock.
 
-        **Note:** The Listview option does not apply to Silverlight applications. Silverlight only supports Table, Treeview, and Listbox container classes.
+{{<note>}} The Listview option does not apply to Silverlight applications. Silverlight only supports Table, Treeview, and Listbox container classes.
 
     8.  Click **Apply**.
 

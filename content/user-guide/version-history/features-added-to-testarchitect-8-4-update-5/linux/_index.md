@@ -10,7 +10,7 @@ keywords: "Release Notes 8.4 Update 5, Linux, What is new, Linux, TestArchitect 
 
 The following new features and improvements are introduced in TestArchitect version 8.4 Update 5 running under Linux.
 
-**Remember:**
+{{<remember>}}
 
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be the same version.
@@ -36,6 +36,6 @@ The following new features and improvements are introduced in TestArchitect vers
 
 Due to changes in the Web Driver coordinate calculation algorithm, there may be a slight deviation of coordinates in relevant built-in actions with Generic Web Driver Mode \(GWD\) on Chrome 75. For precision, please re-calculate your positions and coordinates.
 
-**Note:** These changes do not effect non-GWD mode.
+{{<note>}} These changes do not effect non-GWD mode.
 
 

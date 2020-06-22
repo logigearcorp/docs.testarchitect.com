@@ -10,7 +10,7 @@ keywords: "Quality Center, disconnecting servers, HP Quality Center, servers, di
 
 If no further connection between a TestArchitect repository and Quality Center is required, you may terminate it.
 
-**Tip:** It should be noted that the following is not an essential process. A connection to a third party tool \(such as Quality Center or Team Foundation Server\) is only active when it is in use. Hence, leaving a tool “connected” only really means that the repository is configured to allow for such a connection to be activated when needed. Also, while it is true that only a single external tool may be connected at a given time, configuring a repository to connect to a new tool has the effect of *automatically* disconnecting any other tool that is already connected.
+{{<tip>}} It should be noted that the following is not an essential process. A connection to a third party tool \(such as Quality Center or Team Foundation Server\) is only active when it is in use. Hence, leaving a tool “connected” only really means that the repository is configured to allow for such a connection to be activated when needed. Also, while it is true that only a single external tool may be connected at a given time, configuring a repository to connect to a new tool has the effect of *automatically* disconnecting any other tool that is already connected.
 
 To disconnect a TestArchitect repository from a Quality Center server:
 

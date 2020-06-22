@@ -69,7 +69,7 @@ This built-in action is supported on the following systems/platforms:
     2.  Datetime: Follows the date format, specified in the [date format](/TA_Automation/Topics/bis_date_format.html) built-in setting.
     3.  Color: Follows the color formatting code, specified in the [color format](/TA_Automation/Topics/bis_color_format.html) built-in setting.
 
-        **Remember:** If you use the Hex color formatting code for the value argument, insert a back slash \( \\ \) before the value entered. For example: \\\#FFFFFF.
+{{<remember>}} If you use the Hex color formatting code for the value argument, insert a back slash \( \\ \) before the value entered. For example: \\\#FFFFFF.
 
 -   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 

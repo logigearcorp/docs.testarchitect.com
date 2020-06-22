@@ -10,7 +10,7 @@ keywords: "mobile automation, cross-platform mobile automated tests"
 
 TestArchitect provides a [Variations](/TA_Help/Topics/Variations.html) feature that makes creating cross-platform mobile tests easier. Additionally, the [Car Rental Mobile](/TA_Tutorials_Sample_App/Topics/SR_Car_Rental_mobile_def.html) sample project is provided with installation of TestArchitect to give you a better understanding of how to use [Variations](/TA_Help/Topics/Variations.html) in creating cross-platform mobile tests.
 
-**Note:** The supported mobile platforms are [Android](/Android/Topics/Android_Automation_begin.html) and [iOS](/iOS/Topics/iOS_automation_def.html).
+{{<note>}} The supported mobile platforms are [Android](/Android/Topics/Android_Automation_begin.html) and [iOS](/iOS/Topics/iOS_automation_def.html).
 
 To perform cross-platform mobile tests, complete the following steps.
 

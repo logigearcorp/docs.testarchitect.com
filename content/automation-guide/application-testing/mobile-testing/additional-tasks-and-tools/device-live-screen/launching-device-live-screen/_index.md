@@ -15,7 +15,7 @@ keywords:
     -   Method 1: In TestArchitect Client, from the **Tools** menu, click **Device Live Screen**.
     -   Method 2: From the Interface Viewer's toolbar, click the **Device mode** ![](/images/TA_Help/Images/btn_device_mode_Viewer.png) button.
     -   Method 3: From the Interface Viewer's main menu, click **View** \> **Switch device**.
-    **Tip:** In the specific case of web applications running in the Chrome browser on Android, it is possible to use TestArchitect [point-to-identify](/TA_Help/Topics/Interface_def_Viewer_identify.html) with Device Live Screen to quickly capture controls and generate interface definitions. \(See [Identifying mobile UI controls](/TA_Automation/Topics/aut_app_testing_mobile_web_Chrome_identifying_controls.html) for more on this topic.\) When using Device Live Screen in this manner, it is recommended that you use either of \# Methods 2 or 3 above to launch it.
+{{<tip>}} In the specific case of web applications running in the Chrome browser on Android, it is possible to use TestArchitect [point-to-identify](/TA_Help/Topics/Interface_def_Viewer_identify.html) with Device Live Screen to quickly capture controls and generate interface definitions. \(See [Identifying mobile UI controls](/TA_Automation/Topics/aut_app_testing_mobile_web_Chrome_identifying_controls.html) for more on this topic.\) When using Device Live Screen in this manner, it is recommended that you use either of \# Methods 2 or 3 above to launch it.
 
     If Method 1 \(above\) is used to launch Device Live Screen, the Open device live screen dialog box appears and displays all connected mobile devices on your test machine.
 

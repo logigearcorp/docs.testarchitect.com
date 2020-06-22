@@ -10,7 +10,7 @@ keywords: "Import/Export tool, ExportRepository command, ExportRepository comman
 
 Export a repository to a .dat file.
 
-**Restriction:** The Import/Export tool is not available in the TestArchitect packages for the Linux and macOS operating systems.
+{{<restriction>}} The Import/Export tool is not available in the TestArchitect packages for the Linux and macOS operating systems.
 
 ## Synopsis
 
@@ -33,19 +33,19 @@ java -jar TAImportExportTool.jar --ExportRepository [--server<value>] [--port<va
 
     \(Optional, default = localhost\) Full hostname or IP address of the repository server in which the repository is to reside.
 
-    **Note:** If this argument is not defined, localhost is used as the default.
+{{<note>}} If this argument is not defined, localhost is used as the default.
 
 -   **--port <value\>**
 
     \(Optional, default = 53404\) Dedicated port number used to connect to the repository server.
 
-    **Note:** At present, only the port number 53404 may be used, and serves as the default value. Hence, please ensure that this port is always available.
+{{<note>}} At present, only the port number 53404 may be used, and serves as the default value. Hence, please ensure that this port is always available.
 
 -   **--repoName <value\>**
 
     Name of repository to be exported.
 
-    **Note:** If the repository namecontains any spaces, enclose it between a pair of double quotation marks.
+{{<note>}} If the repository namecontains any spaces, enclose it between a pair of double quotation marks.
 
 -   **--destinationFile <value\>**
 
@@ -53,7 +53,7 @@ java -jar TAImportExportTool.jar --ExportRepository [--server<value>] [--port<va
 
     The file must have a .dat extension.
 
-    **Note:**
+{{<note>}}
 
     -   If the specified path does not include a file name, the name is automatically generated.
     -   Network paths are also supported.
@@ -62,7 +62,7 @@ java -jar TAImportExportTool.jar --ExportRepository [--server<value>] [--port<va
 
     \(Optional\) Specify whether the existing file, if any, should be overwritten.
 
-    **Note:** If this parameter is not specified, or its value is empty, its value defaults to true.
+{{<note>}} If this parameter is not specified, or its value is empty, its value defaults to true.
 
 
 1.  [Running ExportRepository command \(Import/Export tool\)](/TA_Help/Topics/ug_export_import_tool_export_repository_running.html)  

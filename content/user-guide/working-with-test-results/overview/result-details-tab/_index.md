@@ -12,7 +12,7 @@ The **Result Details** tab displays a detailed \(line-by-line\) log of the test 
 
 For each execution of an action line, the effect and/or test result is automatically recorded by TestArchitect. The line-by-line details are available for viewing in the **Result Details** tab.
 
-**Remember:** The **Result Details** tab is only available when the test results are viewed on a web browser.
+{{<remember>}} The **Result Details** tab is only available when the test results are viewed on a web browser.
 
 A result line consists of
 
@@ -28,7 +28,7 @@ Click ![](/images/TA_Help/Images/Test_results_expand_detail.png) to expand and v
 
 ![](/images/TA_Help/Images/Test_results_details_XML.png)
 
-**Note:**
+{{<note>}}
 
 -   When a [user-defined action](/reuse/reuse.High_level_actions.html), which calls other sub-actions, encounters failures during the test run, the respective number of failures are displayed underneath the action for quick references. Additionally, a **Failure Summary** table appears.
 

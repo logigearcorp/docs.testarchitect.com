@@ -29,7 +29,7 @@ To create a test folder, do the following:
 
 A new test folder appears as a node under the **Tests** node. You now have a folder to contain your tests, or a subset of them.
 
-**Tip:** You can also create a test folder inside another test folders. There is no practical limit to the depth at which test folders may extend.
+{{<tip>}} You can also create a test folder inside another test folders. There is no practical limit to the depth at which test folders may extend.
 
 ![](/images/TA_Help/Images/ug_folderontree.png)
 

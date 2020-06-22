@@ -12,7 +12,7 @@ Execute your test to have TestArchitect perform the actions you defined in your 
 
 **Before proceeding:**If you haven't done so already, start the Car Rental sample application to display the Login dialog box: Select **Start** \> **All Programs** \> **TestArchitect** \> **Samples** \> **Car Rental Application**.
 
-**Note:** Note that you are doing this so as to keep the test as simple as possible. In future exercises, your test modules will contain lines in the INITIALIZATION section that handle the launching of the AUT automatically.
+{{<note>}} Note that you are doing this so as to keep the test as simple as possible. In future exercises, your test modules will contain lines in the INITIALIZATION section that handle the launching of the AUT automatically.
 
 1.  In the AUT, clear the **User name** field in the Login dialog box so that you can observe how TestArchitect automation fills in the field automatically.
 

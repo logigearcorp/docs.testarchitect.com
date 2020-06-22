@@ -28,7 +28,7 @@ Your target test folder may contain other test folders and/or test modules prior
 
 1.  Right-click the target test folder and select **External Tool** \> **HP ALM** \> **Import from Quality Center**.
 
-    **Note:** If requested, enter the password for the Quality Center account whose user name is the same as the current TestArchitect user name.
+{{<note>}} If requested, enter the password for the Quality Center account whose user name is the same as the current TestArchitect user name.
 
     The **Import from Quality Center** dialog box appears, displaying lists of Quality Center tests and folders in a tree structure:
 
@@ -36,7 +36,7 @@ Your target test folder may contain other test folders and/or test modules prior
 
 2.  Select a Quality Center source folder to import into TestArchitect and click **OK**.
 
-    **Note:** TestArchitect imports the selected node and its subnodes, if any, recursively.
+{{<note>}} TestArchitect imports the selected node and its subnodes, if any, recursively.
 
     The import process begins, as indicated at the bottom of the dialog box. Note that the entire process may take anywhere from a few seconds to a minute or more, depending on the content being imported.
 

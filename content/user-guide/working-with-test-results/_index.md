@@ -14,13 +14,13 @@ TestArchitect automatically generates a report containing the results of an auto
 
 Since TestArchitect version [8.3](/TA_ReleaseNotes/DITA_source/Whats_New_8.3.html), [XML result model](/TA_Help/Topics/Test_result.html) has been introduced to view test results in a web browser.
 
-**Important:** XML result model provides the following advantages when compared to the previous result model.
+{{<important>}} XML result model provides the following advantages when compared to the previous result model.
 
 -   Less memory footprint: The amount of memory that TestArchitect uses or references while opening and viewing test results is less.
 -   Smaller parsing times: The operation process is faster, such as open test results, import/export test results, etc.
 -   Smaller test result compression: Test results take up less hard drive space; therefore, the repository's size is reduced.
 
-**Remember:** To view XML test results in the Internet Explorer browser, ensure that **Active Content** is enabled. \([Learn more](/TA_Automation/Topics/aut_advanced_settings_IE.html#step_hlp_4dc_jy).\)
+{{<remember>}} To view XML test results in the Internet Explorer browser, ensure that **Active Content** is enabled. \([Learn more](/TA_Automation/Topics/aut_advanced_settings_IE.html#step_hlp_4dc_jy).\)
 
 ## Optimizing test results
 
@@ -30,7 +30,7 @@ The number of truncated iterations is determined based on several predefined set
 
 ## User-defined fields
 
-**Note:** Applies to TestArchitect 8.4 Update 2 and higher.
+{{<note>}} Applies to TestArchitect 8.4 Update 2 and higher.
 
 If you change the value of a user-defined field on the **Information** tab of a test module, it will not take effect on the test result of this test module. In other words, the test result will still adopt the default value set in the process of [Creating a user-defined field](/TA_Administration/Topics/User_defined_fields_create.html).
 

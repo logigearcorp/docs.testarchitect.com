@@ -36,7 +36,7 @@ The following action, which uses dynamic identifiers to identify the controls, f
 
 Note that, on line 18 in this revised action, we replace only the control argument with a dynamic identifier \(simply to show that static and dynamic identifiers can live side-by-side on the same action line\). Line 22 demonstrates that both the window and control arguments may be hold dynamic identifiers. Note also that, as mentioned earlier, window dynamic identifiers require only a set of property-value pairs \(one is usually sufficient\), while a dynamic identifier for a control also requires that the TA class of the control be identified.
 
-**Note:**
+{{<note>}}
 
 -   For convenience, you can retrieve a dynamic identifier for a control quickly via either the [Identify](/TA_Help/Topics/Interface_def_client_interface_tool_identify.html) or [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer_reading.html) tools:
     -   Option \#1: The Identify tool
@@ -54,7 +54,7 @@ Note that, on line 18 in this revised action, we replace only the control argume
 
         3.  In the test editor, paste the content from the clipboard into the control’s argument in the appropriate action line.
 
-**Tip:** For greater convenience, you can retrieve the dynamic identifier of a control quickly either via the Element Definition dialog box or the Interface editor:
+{{<tip>}} For greater convenience, you can retrieve the dynamic identifier of a control quickly either via the Element Definition dialog box or the Interface editor:
 
 -   **Option 1**: The Element Definition dialog box \(see the [Element Definition](/TA_Help/Topics/Interface_def_client_interface_tool_identify.html) dialog box section for details\).
     1.  In the Element Definition dialog box, with the control of interest selected in the UI hierarchy tree, make sure that the property \(or properties\) that you want to use for the control's identification is\(are\) selected in the **Properties**tab.

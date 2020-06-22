@@ -26,7 +26,7 @@ An exception to the rule above applies to web applications running in mobile dev
 
 ![](/images/TA_Help/Images/properties.positional.01.png)
 
-**Tip:** The browser display window, indicated in the figure on the right by the dashed green border, is that part of the browser that displays the web page.
+{{<tip>}} The browser display window, indicated in the figure on the right by the dashed green border, is that part of the browser that displays the web page.
 
 ## Screen units
 

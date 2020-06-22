@@ -10,7 +10,7 @@ keywords: "Quality Center, turning on/off auto-uploading, HP Quality Center inte
 
 Controlling whether or not TestArchitect uploads tests to Quality Center automatically.By default, when you request TestArchitect to [upload tests](/TA_Help/Topics/Integration_QC_test_development_step_2.html), you are asked, via a dialog box, to specify the destination folder in Quality Center. With automatic uploading enabled, however, if a mapping has already been established for the given TestArchitect project item, this step is bypassed.
 
-**Remember:**
+{{<remember>}}
 
 TestArchitect relies on test modules that are typically developed and executed as standalone units. Each test module is comprised of a sequence of test cases. By contrast, the standard unit of test development and execution in Quality Center is the test, which more closely corresponds to a test case in TestArchitect than a test module. Hence each uploaded TestArchitect test case takes the form of a Quality Center test. In general, the following correspondences are used when moving test assets between the two systems:
 

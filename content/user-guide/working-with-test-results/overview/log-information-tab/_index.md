@@ -8,7 +8,7 @@ aliases:
 keywords: "test results, log information"
 ---
 
-**Remember:** The contents of **Log Information** are organized into a tab when the test results are viewed on a web browser; whereas they are organized into a sub-section when the test results are viewed on TestArchitect Client.
+{{<remember>}} The contents of **Log Information** are organized into a tab when the test results are viewed on a web browser; whereas they are organized into a sub-section when the test results are viewed on TestArchitect Client.
 
 **Log Information** section: This section displays the logging information from the report actions, that is, [report](/TA_Automation/Topics/bia_report.html), [report check](/TA_Automation/Topics/bia_report_check.html), [report warning](/TA_Automation/Topics/bia_report_warning.html), and [report error](/TA_Automation/Topics/bia_report_error.html) in the test procedure. Expanding this section by clicking ![](/images/TA_Help/Images/Test_results_summary_tab_expand_button.png) button displays the following information:
 

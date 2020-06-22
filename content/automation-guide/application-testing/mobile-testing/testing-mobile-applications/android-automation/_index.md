@@ -10,7 +10,7 @@ keywords: "Android, compatibility, compatibility, Android"
 
 An introduction to the basics of TestArchitect automation on Android devices, and the steps involved in setting up the test environment.
 
-**Important:** Android automation is only supported on Windows.
+{{<important>}} Android automation is only supported on Windows.
 
 ## Supported Android versions and devices
 

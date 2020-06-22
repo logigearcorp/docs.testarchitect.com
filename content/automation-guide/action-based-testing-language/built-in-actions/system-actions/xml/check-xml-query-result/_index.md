@@ -18,7 +18,7 @@ Check an XPath query result against an expected string.Result is Passed ifthe st
 
     XML target string that the query runs against.
 
-    **Tip:** To access content from an XML file, use the [get text file](/TA_Automation/Topics/bia_get_text_file.html) action to load the XML document into a variable, then reference the variable in this argument.
+{{<tip>}} To access content from an XML file, use the [get text file](/TA_Automation/Topics/bia_get_text_file.html) action to load the XML document into a variable, then reference the variable in this argument.
 
 -   **xpath**
 
@@ -110,7 +110,7 @@ The following example iteratively retrieves the contents of the **price** elemen
 
 As an example, the first iteration of the use data set loop issues an XPath query of `//price[../title="Everyday Italian"]/text()`.
 
-**Important:** To have TestArchitect parse a quotation mark, enter four consecutive quotation marks into the editor cell, that is, `""""`.
+{{<important>}} To have TestArchitect parse a quotation mark, enter four consecutive quotation marks into the editor cell, that is, `""""`.
 
 ```
 <?xml version="1.0"?>

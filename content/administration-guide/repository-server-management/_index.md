@@ -12,7 +12,7 @@ The repository server handles read and write requests from TestArchitect Client,
 
 In Windows it is a service, in Linux and Unix-based systems it is a daemon. \(For the sake of conciseness, the term *service* is used for both cases from here on.\) The TA Repository Server service is responsible for managing the TestArchitect repositories residing on its host machine. It handles repository-related read and write requests from TestArchitect Client and TestArchitect Controller applications on the same machine. It can also handle requests from third party applications that need access to repository data, such as HP Quality Center. It can be managed and monitored with the user program Repository Server Control Panel.
 
-**Important:** Hardware and software in computers are prone to power outage or surge. There is a chance that the power supply fails as you are carrying out actions on TA repositories. It might result in corruption of repositories. Recovering them is laborious and sometimes impossible. Thus it is recommended you provide steady power supply for your machine.
+{{<important>}} Hardware and software in computers are prone to power outage or surge. There is a chance that the power supply fails as you are carrying out actions on TA repositories. It might result in corruption of repositories. Recovering them is laborious and sometimes impossible. Thus it is recommended you provide steady power supply for your machine.
 
 1.  [Launching the Repository Server Control Panel](/TA_Administration/Topics/Repo_server_management_launching.html)  
 How to start the TestArchitect Repository Server Control Panel on different operating systems.

@@ -12,7 +12,7 @@ keywords: "built-in setting, auto switch windows"
 
 Determine whether TestArchitect automatically switches among window instances.
 
-**Important:** This setting is dedicated to Generic WebDriver.
+{{<important>}} This setting is dedicated to Generic WebDriver.
 
 ## Usage of auto switch window
 

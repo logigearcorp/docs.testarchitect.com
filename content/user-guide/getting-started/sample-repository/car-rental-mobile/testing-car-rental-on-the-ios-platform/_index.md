@@ -12,7 +12,7 @@ The Car Rental application for iOS mimics a reservation system for a fictitious 
 
 The purpose of this Car Rental application is to demonstrate iOS automated testing on macOS and Windows platforms.
 
-**Important:** iOS automation is only supported on Windows or macOS hosts.
+{{<important>}} iOS automation is only supported on Windows or macOS hosts.
 
 1.  [Car Rental iOS configuration](/TA_Tutorials_Sample_App/Topics/SR_iOS_configuration_def.html)  
 Before executing tests on an iOS device with the sample Car Rental application, you must install required software and configure the device.

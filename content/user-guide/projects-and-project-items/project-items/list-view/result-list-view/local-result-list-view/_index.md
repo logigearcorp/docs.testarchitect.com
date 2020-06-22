@@ -20,13 +20,13 @@ The following operations can be performed on the local test results list view:
 
 You can find various common operations that can be performed on the local test result list view at [Common operations](/TA_Help/Topics/Listview_common_operations.html).
 
-**Note:** Multiple field editing operations are not applicable to the local test results list view.
+{{<note>}} Multiple field editing operations are not applicable to the local test results list view.
 
 ## Opening result
 
 From a list view, you can open a local test result in the main panel by right-clicking its list view entry, then clicking **Open**.
 
-**Tip:** You can also open multiple test results by using your keyboard's Shift key to select a contiguous range of test results \(or Control to select multiple noncontiguous test results\); then right-click the selection, and click Open.
+{{<tip>}} You can also open multiple test results by using your keyboard's Shift key to select a contiguous range of test results \(or Control to select multiple noncontiguous test results\); then right-click the selection, and click Open.
 
 ## Storing local results to the repository
 
@@ -62,15 +62,15 @@ From the context menu, a local test result can be converted and exported to the 
 
 ## Previewing summary of a checkpoint failure or an automation warning/error
 
-**Note:** Applies to TestArchitect [8.3 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.html) and higher.
+{{<note>}} Applies to TestArchitect [8.3 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.html) and higher.
 
 You can preview a checkpoint by selecting the desired checkpoint in the result list view and clicking its corresponding number of failures, warnings or errors. The first failure, warning or error of the checkpoint will be displayed in a tooltip.
 
-**Restriction:** Previewing checkpoints of a master result, meaning, it is a [test suite result](/TA_Help/Topics/ug_test_results_introduction.html#section.TS_results), or it contains [subresults](/TA_Help/Topics/ug_test_results_introduction.html#section.Subresults), is currently unsupported.
+{{<restriction>}} Previewing checkpoints of a master result, meaning, it is a [test suite result](/TA_Help/Topics/ug_test_results_introduction.html#section.TS_results), or it contains [subresults](/TA_Help/Topics/ug_test_results_introduction.html#section.Subresults), is currently unsupported.
 
 ![](/images/TA_Help/Images/Preview_checkpoint.png)
 
-**Note:** It may take a while to load a tooltip, when the result list view contains thousands of checkpoints.
+{{<note>}} It may take a while to load a tooltip, when the result list view contains thousands of checkpoints.
 
 ## Integration with third-party tools
 

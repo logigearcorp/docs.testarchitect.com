@@ -10,7 +10,7 @@ keywords: "UIA, supported controls, Microsoft UI Automation"
 
 Information on various supported UIA controls.
 
-**Restriction:** The UIA Support tool is not available in the TestArchitect package for Linux and macOS operating systems.
+{{<restriction>}} The UIA Support tool is not available in the TestArchitect package for Linux and macOS operating systems.
 
 The supported controls include:
 

@@ -10,7 +10,7 @@ keywords: "test results, delete, delete items using command line tool"
 
 ta delete is used to remove local test results from the command-line interface.
 
-**Note:** Applies to TestArchitect 8.4 Update 2 and higher
+{{<note>}} Applies to TestArchitect 8.4 Update 2 and higher
 
 ## Syntax
 

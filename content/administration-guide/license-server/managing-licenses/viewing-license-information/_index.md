@@ -17,7 +17,7 @@ To view current TestArchitect Client licensing information:
 
 The TestArchitect Licensing dialog box appears, displaying the current licensing information in the **License Information** panel. Licensing information includes the license type, number of licenses issued, number of licenses allocated, number of available licenses, and the license expiration date.
 
-**Note:** The **License Information** panel is not available when using TestArchitect Client with a trial key.
+{{<note>}} The **License Information** panel is not available when using TestArchitect Client with a trial key.
 
 
 

@@ -16,7 +16,7 @@ To open and view license log files, click the **Open License Log Folder** ![](/i
 -   Linux: /usr/local/logigear/testarchitect/data/ls/logging
 -   macOS: Note that the TestArchitect License Server is not currently supported on macOS.
 
-**Important:** The TestArchitect License Server stores a single log file for each month. You may configure the length of time for files to be retained. \([Learn more](/TA_Administration/Topics/adm_License_server_log_file_configuration.html).\)
+{{<important>}} The TestArchitect License Server stores a single log file for each month. You may configure the length of time for files to be retained. \([Learn more](/TA_Administration/Topics/adm_License_server_log_file_configuration.html).\)
 
 The license log file of a given TestArchitect license server consists of records containing information on license requests submitted by client machines, and the outcomes of those requests. This information is stored to a .CSV log file and formatted as below:
 

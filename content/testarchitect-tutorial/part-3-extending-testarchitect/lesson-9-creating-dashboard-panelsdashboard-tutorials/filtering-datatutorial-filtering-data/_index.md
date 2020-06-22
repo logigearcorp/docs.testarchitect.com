@@ -19,9 +19,9 @@ In this activity, you will restrict the items of data being used for a panel to 
 
 Our task now is to create a pie chart similar to the first, except that we limit it to reporting only on the test results of the latest build.
 
-**Note:** You have two options for filtering the data that's supplied to a Dashboard panel. You can do it in the data profile used by that panel, or in the configuration of the panel itself.
+{{<note>}} You have two options for filtering the data that's supplied to a Dashboard panel. You can do it in the data profile used by that panel, or in the configuration of the panel itself.
 
-**Note:** Keep in mind, though, that a data profile can drive more than a single Dashboard panel. Hence, modifying the settings of an existing data profile can have unintended consequences, if you don't know all the panels that rely on it. For that reason, while we will use the existing Test Results \(unfiltered\) profile, we will do our filtering at the panel level.
+{{<note>}} Keep in mind, though, that a data profile can drive more than a single Dashboard panel. Hence, modifying the settings of an existing data profile can have unintended consequences, if you don't know all the panels that rely on it. For that reason, while we will use the existing Test Results \(unfiltered\) profile, we will do our filtering at the panel level.
 
 1.  Create a clone of the Car Rental Test Results Overview panel.
 
@@ -46,11 +46,11 @@ Our task now is to create a pie chart similar to the first, except that we limit
         -   **Value**: latest build
     4.  Click on the **Display Settings** tab.
 
-    5.  **Note:** The **Chart Title** of Summarized test results across test modules and dates no longer applies to this chart. Since we already have a name for the panel, let's just make **Chart Title** invisible.
+5.{{<note>}} The **Chart Title** of Summarized test results across test modules and dates no longer applies to this chart. Since we already have a name for the panel, let's just make **Chart Title** invisible.
 
         Under Chart Settings, clear the **Show Title** check box.
 
-    6.  **Note:** You can also change some other display settings, to see their effect.
+6.{{<note>}} You can also change some other display settings, to see their effect.
 
         Under Chart Settings, set **Legends** to None; On the **Data Labels** line, select the **Series** check box, and clear the **Percentage** check box.
 

@@ -27,11 +27,11 @@ If you have an interface entity open at the time, client-side **point-to-identif
     2.  Click the **Identify** ![](/images/TA_Help/Images/btn_Identify.png) button from the TA toolbar.
     3.  Click the control you wish to remap the name to, and then click **Save**.
 
-        **Tip:** When you click **Save**, the **Group Elements** check box determines the format of interface entity being written to. Selecting **Group Elements** tells TestArchitect to group all the interface elements in the file by their respective TA classes and properties, so that grouped elements all share the same headers. If you prefer that each interface entity have its own set of headers, clear the **Group Elements** check box before saving.
+{{<tip>}} When you click **Save**, the **Group Elements** check box determines the format of interface entity being written to. Selecting **Group Elements** tells TestArchitect to group all the interface elements in the file by their respective TA classes and properties, so that grouped elements all share the same headers. If you prefer that each interface entity have its own set of headers, clear the **Group Elements** check box before saving.
 
 -   Work in either a [contextual](/TA_Help/Topics/Interface_def_client_interface_tool_identify_using_identify.html) or [non-contextual](/TA_Help/Topics/Interface_def_client_interface_tool_identify_non_contextual.html) manner. In the contextual case, the context can come from either a specified interface element, or a specified action argument \(for a window or control\), as explained in the following sections.
 
-**Tip:** To capture UI child elements belonging to a container class, see [Container Class](/TA_Help/Topics/Interface_def_container_class.html).
+{{<tip>}} To capture UI child elements belonging to a container class, see [Container Class](/TA_Help/Topics/Interface_def_container_class.html).
 
 1.  [Non-contextual use of client-side point-to-identify](/TA_Help/Topics/Interface_def_client_interface_tool_identify_non_contextual.html)  
 You can use client-side **point-to-identify** in a non-contextual mode, meaning that you use it without the benefit of an existing interface entity as a reference. Use non-contextual **point-to-identify** to investigate a window or control's properties, or to generate a new interface element for a control.

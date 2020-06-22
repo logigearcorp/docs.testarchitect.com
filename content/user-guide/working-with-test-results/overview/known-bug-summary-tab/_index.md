@@ -10,7 +10,7 @@ keywords: "test results, known bug summary"
 
 Reviewing test results can assist you in determining if and when JIRA bug issues on a JIRA server should be closed.
 
-**Remember:** The contents of **Known Bug Summary** are organized into a tab when the test results are viewed on a web browser; whereas they are organized into a sub-section when the results are viewed on TestArchitect Client.
+{{<remember>}} The contents of **Known Bug Summary** are organized into a tab when the test results are viewed on a web browser; whereas they are organized into a sub-section when the results are viewed on TestArchitect Client.
 
 The **Known Bug Summary** tab shows all known bug marked on action lines \([learn more](/TA_Help/Topics/Bugs_working_known_bug_reviewing_test_results.html)\). Exploring this tab reveals the following information:
 

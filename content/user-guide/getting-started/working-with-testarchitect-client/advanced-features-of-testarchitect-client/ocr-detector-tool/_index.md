@@ -16,7 +16,7 @@ The OCR Detector tool offers the following functions:
 -   Generate automatically action lines for the [set ocr setting](/TA_Automation/Topics/bia_set_ocr_setting.html) built-in action.
 -   Help you identify text manually on a tested image to ensure that OCR-related built-in actions are able to detect the text.
 
-**Note:** Note that the OCR Detector tool is not currently supported on Linux and macOS.
+{{<note>}} Note that the OCR Detector tool is not currently supported on Linux and macOS.
 
 1.  [Detecting matched texts](/TA_Help/Topics/ug_OCR_detector_tool_retrieving_color_code.html)  
 How to detect matched texts and get their color code in hexadecimal numbers.

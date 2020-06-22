@@ -10,7 +10,7 @@ keywords: "licenses, converting floating to host-based"
 
 Any floating license can be reconfigured to act as a host-based license, thereby restricting that license's availability to one specific machine. This process is completely reversible; any host-based license can be converted back into a floating license.
 
-**Remember:** An Agent license remains an Agent license whether it is converted from floating tohost-based, or vice versa. The same is true for Universal.
+{{<remember>}} An Agent license remains an Agent license whether it is converted from floating tohost-based, or vice versa. The same is true for Universal.
 
 To convert a license from floating to host-based:
 
@@ -28,11 +28,11 @@ To convert a license from floating to host-based:
 
     ![](/images/TA_Administration/Images/licenseserver_17.png)
 
-    **Note:** Although the node may have several available floating licenses, only one license can be converted at a time.
+{{<note>}} Although the node may have several available floating licenses, only one license can be converted at a time.
 
 4.  Enter the IP address or full host name of the machine to be granted a dedicated license and click **OK**.
 
-    **Note:** If you use the full host name of the machine, ensure that the machine is connected to your working domain.
+{{<note>}} If you use the full host name of the machine, ensure that the machine is connected to your working domain.
 
     ![](/images/TA_Administration/Images/licenseserver_18.png)
 

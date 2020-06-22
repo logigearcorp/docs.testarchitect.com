@@ -22,7 +22,7 @@ A search is conducted within a subtree of a project. The search is restricted to
 
 2.  In the first tab, enter the text string you are searching for.
 
-    **Tip:**
+{{<tip>}}
 
     -   Use the asterisk \(**\***\) character as a wildcard, to denote any fragment of arbitrary text to be ignored for search purposes.
     -   You can extend your search to items on all supplier project\(s\) by selecting the **Including supplier project\(s\)** check box.
@@ -34,7 +34,7 @@ A search is conducted within a subtree of a project. The search is restricted to
 
 4.  To open a matching item, double-click it.
 
-    **Note:** Alternatively, select an item, and then click the **View** button.
+{{<note>}} Alternatively, select an item, and then click the **View** button.
 
     ![](/images/TA_Help/Images/Search_dlg_results.png)
 
