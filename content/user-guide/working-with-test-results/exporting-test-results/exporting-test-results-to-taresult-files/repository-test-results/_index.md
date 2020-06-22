@@ -1,5 +1,5 @@
 --- 
-title: "Repository test results"
+title: "Exporting repository test results to .TARESULT files"
 linktitle: "Exporting repository test results to .TARESULT files"
 description: "How to export your repository test results to .TARESULT files."
 weight: 2

@@ -1,6 +1,7 @@
 --- 
-title: 'Lesson #9: Creating Dashboard panelsDashboard tutorials'
-linktitle: 'Lesson #9: Creating Dashboard panelsDashboard tutorials'
+title: "Lesson #9: Creating Dashboard panelsDashboard tutorials"
+slug: 'lesson-9-creating-dashboard-panelsdashboard-tutorials'
+linktitle: "Lesson #9: Creating Dashboard panelsDashboard tutorials"
 slug: 'lesson-9-creating-dashboard-panelsdashboard-tutorials'
 description: "The following set of activities will guide you in creating and editing data-reporting panels in the Dashboard, to allow you to display the types of data you need, in the forms that you need. Audience: ..."
 weight: 2

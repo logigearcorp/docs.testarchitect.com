@@ -1,6 +1,7 @@
 --- 
-title: 'Creating a new C# bundle harness class'
-linktitle: 'Creating a new C# bundle harness class'
+title: "Creating a new C# bundle harness class"
+slug: 'creating-a-new-c-bundle-harness-class'
+linktitle: "Creating a new C# bundle harness class"
 slug: 'creating-a-new-c-bundle-harness-class'
 description: "We will now create a C# class to direct program flow to a function which handles the get list view row value action."
 weight: 1

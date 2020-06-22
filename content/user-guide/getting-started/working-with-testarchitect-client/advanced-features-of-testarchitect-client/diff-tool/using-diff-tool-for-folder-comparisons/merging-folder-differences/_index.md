@@ -1,5 +1,5 @@
 --- 
-title: "Merging folder differences"
+title: "****Merging differences between folders with the Diff Tool****"
 linktitle: "****Merging differences between folders with the Diff Tool****"
 description: "The Diff Tool enables you to synchronize the contents of two folder hierarchies by copying items and folders between them."
 weight: 2

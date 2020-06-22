@@ -1,5 +1,5 @@
 --- 
-title: "Rules for mapping custom fields"
+title: "Rules for mapping custom fields between TestArchitect and Quality Center"
 linktitle: "Rules for mapping custom fields between TestArchitect and Quality Center"
 description: "Mapping is driven by field names. Fields in Quality Center and TestArchitect are mapped to each other automatically when a), their names are identical, b), their data types are compatible, and c), the TestArchitect Apply To entity is matched properly with the Quality Center Project entity. When uploading from TestArchitect to Quality Center, values fromTestArchitect user-defined fields are loaded into their corresponding fields in Quality Center. Likewise, values from Quality Center custom fields are loaded into the corresponding TestArchitect user-defined fields when importing tests from Quality Center to TestArchitect."
 weight: 1

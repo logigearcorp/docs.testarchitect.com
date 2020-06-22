@@ -1,6 +1,7 @@
 --- 
-title: 'Lesson #3: Working with interface definitions'
-linktitle: 'Lesson #3: Working with interface definitions'
+title: "Lesson #3: Working with interface definitions"
+slug: 'lesson-3-working-with-interface-definitions'
+linktitle: "Lesson #3: Working with interface definitions"
 slug: 'lesson-3-working-with-interface-definitions'
 description: "The exercises in this lesson guide you through the creation of a test that simulates a user logging into the sample application, populating a text field and clicking a button. Audience: Testers, ..."
 weight: 2

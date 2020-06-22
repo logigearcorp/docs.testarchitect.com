@@ -1,6 +1,6 @@
 --- 
-title: 'The action "check control exist" is unable to detect a SAP control that does exist.'
-linktitle: 'The action "check control exist" is unable to detect a SAP control that does exist.'
+title: "The action 'check control exist' is unable to detect a SAP control that does exist."
+linktitle: "The action 'check control exist' is unable to detect a SAP control that does exist."
 description: "SAP application and TestArchitect must run with the same integrity"
 weight: 2
 aliases: 

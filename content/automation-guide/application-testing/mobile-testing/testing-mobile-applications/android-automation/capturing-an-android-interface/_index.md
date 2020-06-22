@@ -1,5 +1,5 @@
 --- 
-title: "Capturing an Android interface"
+title: "Capturing an Android interface with the Interface Viewer"
 linktitle: "Capturing an Android interface with the Interface Viewer"
 description: "The Interface Viewer looks for the presence of an available Android device. If found, it displays the elements of its graphical user interface."
 weight: 3

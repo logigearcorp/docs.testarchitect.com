@@ -1,5 +1,5 @@
 --- 
-title: "Capturing transient controls"
+title: "Interface Viewer transient controls capture"
 linktitle: "Interface Viewer transient controls capture"
 description: "The Interface Viewer retains captured UI controls and their properties even after they are no longer available from the AUT."
 weight: 7

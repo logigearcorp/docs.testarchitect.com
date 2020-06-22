@@ -1,5 +1,5 @@
 --- 
-title: "Handling JavaScript popups"
+title: "Handling JavaScript popups on Chrome Android"
 linktitle: "Handling JavaScript popups on Chrome Android"
 description: "TestArchitect offers a special set of actions for interfacing with JavaScript popups, which include alerts, prompts and confirmation dialogs."
 weight: 4

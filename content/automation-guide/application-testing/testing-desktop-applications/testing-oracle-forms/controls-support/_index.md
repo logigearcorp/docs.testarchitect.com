@@ -1,5 +1,5 @@
 --- 
-title: "Controls support"
+title: "Support for Oracle Forms controls"
 linktitle: "Support for Oracle Forms controls"
 description: "Oracle Forms controls are supported by TestArchitect."
 weight: 3

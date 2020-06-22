@@ -1,5 +1,5 @@
 --- 
-title: "Invalid value for argument <argumentName\\>. Valid input data is a Boolean value, e.g. on/off."
+title: "Invalid value for argument *<argumentName\\>*. Valid input data is a Boolean value, e.g. on/off."
 linktitle: "Invalid value for argument *<argumentName\\>*. Valid input data is a Boolean value, e.g. on/off."
 description: "Error code: 0x8001000EL Problem This happens because the specified argument value for controls with binary states, such as, check box, radio button, or switch control is not a Boolean value. Solution ..."
 weight: 52

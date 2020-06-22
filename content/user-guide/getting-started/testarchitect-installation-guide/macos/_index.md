@@ -1,5 +1,5 @@
 --- 
-title: "macOS"
+title: "Installing TestArchitect on macOS"
 linktitle: "Installing TestArchitect on macOS"
 description: "How to install TestArchitect on a Macintosh system."
 weight: 4

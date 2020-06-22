@@ -1,5 +1,5 @@
 --- 
-title: "Switching to a different TFS account"
+title: "Switching to a different Team Foundation Server account"
 linktitle: "Switching to a different Team Foundation Server account"
 description: "When making queries to a TFS server from a TestArchitect repository, you need a TFS account to authenticate the query. If necessary, you have the option of switching from the current TFS account to a different account."
 weight: 4

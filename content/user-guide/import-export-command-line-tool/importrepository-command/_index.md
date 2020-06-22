@@ -1,5 +1,5 @@
 --- 
-title: "ImportRepository command"
+title: "ImportRepository command \\(Import/Export tool\\)"
 linktitle: "ImportRepository command \\(Import/Export tool\\)"
 description: "Import a repository from a .dat file."
 weight: 3

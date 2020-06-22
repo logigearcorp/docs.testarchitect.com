@@ -1,5 +1,5 @@
 --- 
-title: "Mapping test objective to QC"
+title: "Creating a custom test objective field in Quality Center"
 linktitle: "Creating a custom test objective field in Quality Center"
 description: "By default, the test objectives that may be assigned to TestArchitect test modules and test cases are not carried over to Quality Center tests. You can remedy that, however, by creating a special test objective custom field."
 weight: 4

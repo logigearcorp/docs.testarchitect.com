@@ -1,5 +1,5 @@
 --- 
-title: "How can I specify a browser for automation?"
+title: "How can I have my automation use a browser other than Internet Explorer?"
 linktitle: "How can I have my automation use a browser other than Internet Explorer?"
 description: "In your test, use the setting action with the use browser setting, then specify the browser in the following argument. Note that Internet Explorer is the default browser only in the case of desktop ..."
 weight: 17

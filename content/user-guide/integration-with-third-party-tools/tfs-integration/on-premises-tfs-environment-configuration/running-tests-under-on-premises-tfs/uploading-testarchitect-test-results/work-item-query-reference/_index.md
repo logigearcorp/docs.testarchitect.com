@@ -1,5 +1,5 @@
 --- 
-title: "Work Item Query reference"
+title: "Work Item Query Language - Work Item Query reference"
 linktitle: "Work Item Query Language - Work Item Query reference"
 description: "How to use Work Item Query Language (WIQL) to programmatically query for test points."
 weight: 4

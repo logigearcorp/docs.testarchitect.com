@@ -1,5 +1,5 @@
 --- 
-title: "Declaring customized extensibility methods"
+title: "How to declare customized extensibility methods"
 linktitle: "How to declare customized extensibility methods"
 description: "This topic describes about ways to declare customized extensibility methods."
 weight: 3

@@ -1,5 +1,5 @@
 --- 
-title: "MySQL"
+title: "MySQL Server"
 linktitle: "MySQL Server"
 description: "Information specific to testing with MySQL Server"
 weight: 3

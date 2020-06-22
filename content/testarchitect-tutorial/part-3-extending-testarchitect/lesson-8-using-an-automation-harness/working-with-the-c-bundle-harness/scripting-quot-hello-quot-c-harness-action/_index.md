@@ -1,7 +1,8 @@
 --- 
-title: 'Scripting "hello" C# harness action'
-linktitle: 'Scripting "hello" C# harness action'
-slug: 'scripting-quot-hello-quot-c-harness-action'
+title: "Scripting 'hello' C# harness action"
+slug: 'scripting-hello-c-harness-action'
+linktitle: "Scripting 'hello' C# harness action"
+slug: 'scripting-hello-c-harness-action'
 description: "In this topic, we will write C# code which implements the simple hello user-scripted action."
 weight: 2
 aliases: 

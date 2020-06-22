@@ -1,5 +1,5 @@
 --- 
-title: "Local test results"
+title: "Exporting local test results to .TARESULT files"
 linktitle: "Exporting local test results to .TARESULT files"
 description: "How to export your local test results to .TARESULT files."
 weight: 1

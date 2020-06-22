@@ -1,6 +1,7 @@
 --- 
-title: 'Lesson #10: WPF Extensibility'
-linktitle: 'Lesson #10: WPF Extensibility'
+title: "Lesson #10: WPF Extensibility"
+slug: 'lesson-10-wpf-extensibility'
+linktitle: "Lesson #10: WPF Extensibility"
 slug: 'lesson-10-wpf-extensibility'
 description: "TestArchitect supports every WPF control with an exception to very few specific controls, such as Telerik list box control. Therefore, there is a need to have a solution to this issue. The WPF ..."
 weight: 3

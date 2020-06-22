@@ -1,6 +1,7 @@
 --- 
-title: 'User-scripted C# bundle harness action that interacts with GUI'
-linktitle: 'User-scripted C# bundle harness action that interacts with GUI'
+title: "User-scripted C# bundle harness action that interacts with GUI"
+slug: 'user-scripted-c-bundle-harness-action-that-interacts-with-gui'
+linktitle: "User-scripted C# bundle harness action that interacts with GUI"
 slug: 'user-scripted-c-bundle-harness-action-that-interacts-with-gui'
 description: "In this exercise, we will create a user-scripted action that interacts with an application's user interface."
 weight: 5

@@ -1,5 +1,5 @@
 --- 
-title: "Test entity mappings"
+title: "Test entity mappings between TestArchitect and Quality Center"
 linktitle: "Test entity mappings between TestArchitect and Quality Center"
 description: "This topic describes how TestArchitect test module and test case fields and contents are mapped to Quality Center tests, determining how information is transferred during the import and upload processes."
 weight: 3

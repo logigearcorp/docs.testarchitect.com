@@ -1,5 +1,5 @@
 --- 
-title: "Using checkpoints"
+title: "Using web service checkpoints"
 linktitle: "Using web service checkpoints"
 description: "A web service checkpoint is a test operation that verifies that an HTTP response returned from a tested web service contains appropriate data."
 weight: 3

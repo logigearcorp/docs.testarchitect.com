@@ -1,5 +1,5 @@
 --- 
-title: "Windows"
+title: "What's new in TestArchitect License Server for Windows"
 linktitle: "What's new in TestArchitect License Server for Windows"
 description: "The following new features and improvements are introduced in TestArchitect License Server version 8.3.1 running under Windows."
 weight: 1

@@ -1,5 +1,5 @@
 --- 
-title: "Re-signing and installing TestArchitect Agent"
+title: "Re-signing and installing TestArchitect Agent on iOS"
 linktitle: "Re-signing and installing TestArchitect Agent on iOS"
 description: "TestArchitect Agent is an essential component in allowing TestArchitect to communicate with iOS devices during automated testing."
 weight: 2

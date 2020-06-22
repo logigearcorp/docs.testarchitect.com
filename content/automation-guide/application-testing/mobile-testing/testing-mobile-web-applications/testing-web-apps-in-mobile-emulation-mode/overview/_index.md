@@ -1,5 +1,5 @@
 --- 
-title: "Overview"
+title: "Testing web apps in mobile emulation mode - Overview"
 linktitle: "Testing web apps in mobile emulation mode - Overview"
 description: "Mobile web testing can be challenging and tedious, thanks to the large variety of mobile devices, platforms and screen sizes. TestArchitect addresses this challenge by letting you test mobile web applications on device emulators. Without the need for real physical devices of every type to ensure full testing coverage, your testing setup and maintenance is highly simplified."
 weight: 1

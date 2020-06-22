@@ -1,6 +1,7 @@
 --- 
-title: 'Lesson #8: Using an automation harness'
-linktitle: 'Lesson #8: Using an automation harness'
+title: "Lesson #8: Using an automation harness"
+slug: 'lesson-8-using-an-automation-harness'
+linktitle: "Lesson #8: Using an automation harness"
 slug: 'lesson-8-using-an-automation-harness'
 description: "You may at times find it necessary to do some things in your test that cannot be achieved with built-in actions, nor with the user-defined actions that build upon them. User-scripted actions allow you ..."
 weight: 1

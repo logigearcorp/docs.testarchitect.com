@@ -22,7 +22,7 @@
 {{- else -}}
   {{- safeHTML .Params.head -}}
   {{- $numberOfPages := (add (len .Pages) (len .Sections)) -}}
-<li class="{{ if .IsAncestor $currentNode }}parent open {{ end }}{{ if and .File $currentNode.File }}{{ if eq .File.UniqueID $currentNode.File.UniqueID }} active dfsfsfsdf{{ end }}{{ end }}{{ if .Params.alwaysopen }} parent{{ end }}"><a href="{{ .Permalink }}" onClick="loadContent('{{ .Permalink }}', this);  return false;">{{ safeHTML .Params.Pre }}{{ .Title | markdownify  }}{{ safeHTML .Params.Post }}</a>
+<li class="{{ if .IsAncestor $currentNode }}parent open {{ end }}{{ if and .File $currentNode.File }}{{ if eq .File.UniqueID $currentNode.File.UniqueID }} active dfsfsfsdf{{ end }}{{ end }}{{ if .Params.alwaysopen }} parent{{ end }}"><a href="{{ .Permalink }}" onClick="loadContent('{{ .Permalink }}', this);  return false;">{{ safeHTML .Params.Pre }}{{ .LinkTitle | markdownify  }}{{ safeHTML .Params.Post }}</a>
   {{ if ne $numberOfPages 0 }}
 <ul class="sub-menu">
     {{- .Scratch.Set "pages" .Pages -}}
@@ -51,7 +51,7 @@
 {{- end -}}
 {{- else -}}
   {{- if not .Params.Hidden -}}
-<li class="{{ if and .File $currentNode.File }}{{ if eq .File.UniqueID $currentNode.File.UniqueID }}active sdsfsdfsd{{ end }}{{ end }}"><a href="{{ .Permalink }}" onClick=" loadContent('{{ .Permalink }}', this);  return false;">{{ safeHTML .Params.Pre }}{{ .Title  | markdownify }}{{ safeHTML .Params.Post }}</a></li>
+<li class="{{ if and .File $currentNode.File }}{{ if eq .File.UniqueID $currentNode.File.UniqueID }}active sdsfsdfsd{{ end }}{{ end }}"><a href="{{ .Permalink }}" onClick=" loadContent('{{ .Permalink }}', this);  return false;">{{ safeHTML .Params.Pre }}{{  .LinkTitle | markdownify }}{{ safeHTML .Params.Post }}</a></li>
   {{- end -}}
 {{ end -}}
 {{ end -}}

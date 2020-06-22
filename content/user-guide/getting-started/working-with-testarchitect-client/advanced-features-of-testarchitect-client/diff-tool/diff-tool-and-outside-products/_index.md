@@ -1,5 +1,5 @@
 --- 
-title: "Diff Tool and outside products"
+title: "Using Diff Tool with other third-party products"
 linktitle: "Using Diff Tool with other third-party products"
 description: "Integrating TestArchitect with other differencing and merging tools."
 weight: 3

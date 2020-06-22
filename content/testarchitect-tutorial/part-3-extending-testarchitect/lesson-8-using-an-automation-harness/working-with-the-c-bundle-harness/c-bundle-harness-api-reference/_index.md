@@ -1,6 +1,7 @@
 --- 
-title: 'C# bundle harness API reference'
-linktitle: 'C# bundle harness API reference'
+title: "C# bundle harness API reference"
+slug: 'c-bundle-harness-api-reference'
+linktitle: "C# bundle harness API reference"
 slug: 'c-bundle-harness-api-reference'
 description: "How to access the API specifications of the C# bundle harness library."
 weight: 7

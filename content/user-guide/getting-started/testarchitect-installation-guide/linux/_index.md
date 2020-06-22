@@ -1,5 +1,5 @@
 --- 
-title: "Linux"
+title: "Installing TestArchitect on Linux"
 linktitle: "Installing TestArchitect on Linux"
 description: "How to install TestArchitect on a Linux system."
 weight: 3

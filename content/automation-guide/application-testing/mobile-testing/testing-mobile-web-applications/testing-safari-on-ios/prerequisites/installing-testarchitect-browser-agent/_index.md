@@ -1,5 +1,5 @@
 --- 
-title: "Installing TestArchitect Browser Agent"
+title: "Re-signing and installing TestArchitect Browser Agent"
 linktitle: "Re-signing and installing TestArchitect Browser Agent"
 description: "If your tests are to make use of the built-in navigate action to automatically invoke web pages in the Safari browser, then any iOS device subject to such testing must by prepped by having TestArchitect Browser Agent re-signed and installed. (Note, however, that this procedure may be bypassed if you instead plan to start Safari manually by tapping the Safari icon on the device.)"
 weight: 2

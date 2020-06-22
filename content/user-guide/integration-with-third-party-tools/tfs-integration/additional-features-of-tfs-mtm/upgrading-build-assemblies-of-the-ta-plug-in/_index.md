@@ -1,5 +1,5 @@
 --- 
-title: "Upgrading build assemblies of the TA plug-in"
+title: "Upgrading build assemblies of the TestArchitect plug-in"
 linktitle: "Upgrading build assemblies of the TestArchitect plug-in"
 description: "When the TA-TFS plug-in is installed, its information is stored in build assembly files. Whenever you upgrade the plug-in to a newer version, the assembly files also need to be upgraded, by either manual or automatic means."
 weight: 3

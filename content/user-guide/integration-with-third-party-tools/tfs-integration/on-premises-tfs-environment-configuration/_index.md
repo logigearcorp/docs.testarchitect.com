@@ -1,5 +1,5 @@
 --- 
-title: "On-premises TFS environment configuration"
+title: "Setting up the integration environment for on-premises Team Foundation Server"
 linktitle: "Setting up the integration environment for on-premises Team Foundation Server"
 description: "The following topics discuss the tasks required to set up a TFS-MTM integrated environment, including setup of required Visual Studio components, and the TestArchitect plug-in."
 weight: 3

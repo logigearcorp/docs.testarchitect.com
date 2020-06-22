@@ -1,5 +1,5 @@
 --- 
-title: "Creating TA-TFS projects"
+title: "Creating TestArchitect-Team Foundation Server projects in Visual Studio"
 linktitle: "Creating TestArchitect-Team Foundation Server projects in Visual Studio"
 description: "Creating TestArchitect/Team Foundation Server (TA-TFS) projects in Microsoft Visual Studio automatically generates C# code that assists you in associating TestArchitect test cases with TFS test cases."
 weight: 5

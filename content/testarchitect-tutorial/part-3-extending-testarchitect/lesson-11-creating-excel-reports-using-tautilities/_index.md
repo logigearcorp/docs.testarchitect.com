@@ -1,6 +1,7 @@
 --- 
-title: 'Lesson #11: Creating Excel reports using TAUtilities'
-linktitle: 'Lesson #11: Creating Excel reports using TAUtilities'
+title: "Lesson #11: Creating Excel reports using TAUtilities"
+slug: 'lesson-11-creating-excel-reports-using-tautilities'
+linktitle: "Lesson #11: Creating Excel reports using TAUtilities"
 slug: 'lesson-11-creating-excel-reports-using-tautilities'
 description: "TAUtilities provides a set of public APIs that perform interactive functions with TestArchitect items, such as retrieving a test module’s name or most recent result. Audience: Automation engineers, ..."
 weight: 4

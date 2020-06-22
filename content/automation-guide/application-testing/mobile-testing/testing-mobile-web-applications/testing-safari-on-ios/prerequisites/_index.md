@@ -1,5 +1,5 @@
 --- 
-title: "Prerequisites"
+title: "Safari iOS testing prerequisites"
 linktitle: "Safari iOS testing prerequisites"
 description: "Guides to setting up Safari iOS automation under TestArchitect."
 weight: 1

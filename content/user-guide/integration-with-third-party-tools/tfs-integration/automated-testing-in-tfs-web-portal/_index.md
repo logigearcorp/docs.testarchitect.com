@@ -1,5 +1,5 @@
 --- 
-title: "Automated testing in TFS web portal"
+title: "Team Foundation Server's web portal"
 linktitle: "Team Foundation Server's web portal"
 description: "The TFS web portal allows you to manage source code, work items, builds, test efforts, machines and test runs."
 weight: 4

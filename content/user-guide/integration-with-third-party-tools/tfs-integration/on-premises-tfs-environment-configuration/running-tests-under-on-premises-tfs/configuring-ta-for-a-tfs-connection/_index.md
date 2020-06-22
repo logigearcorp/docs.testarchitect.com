@@ -1,5 +1,5 @@
 --- 
-title: "Configuring TA for a TFS connection"
+title: "Configuring TestArchitect for a Team Foundation Server® connection"
 linktitle: "Configuring TestArchitect for a Team Foundation Server® connection"
 description: "Use the TestArchitect external tool to set up a repository for integration with a Team Foundation Server (TFS) server."
 weight: 3

@@ -1,5 +1,5 @@
 --- 
-title: "Understanding action types and condition types"
+title: "**Understanding action types and condition types**"
 linktitle: "**Understanding action types and condition types**"
 description: "For a full understanding of timing settings and their effects, it is helpful to understand the types of UI-related action, and the two types of UI-testing conditions."
 weight: 1

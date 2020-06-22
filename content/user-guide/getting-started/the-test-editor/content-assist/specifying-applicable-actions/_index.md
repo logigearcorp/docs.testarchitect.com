@@ -1,5 +1,5 @@
 --- 
-title: "Specifying applicable actions"
+title: "Specifying action suggestion for a control belonging to a user-defined TA class"
 linktitle: "Specifying action suggestion for a control belonging to a user-defined TA class"
 description: "For any set of controls whose TA class is user-defined, you can specify the list of actions that apply. This list will then appear in the applicable actions list of the Content Assist window when you work with these controls in the test editor."
 weight: 2

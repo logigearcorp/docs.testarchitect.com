@@ -1,5 +1,5 @@
 --- 
-title: "Windows"
+title: "License Server installation on Windows"
 linktitle: "License Server installation on Windows"
 description: "How to install TestArchitect License Server on Windows."
 weight: 2

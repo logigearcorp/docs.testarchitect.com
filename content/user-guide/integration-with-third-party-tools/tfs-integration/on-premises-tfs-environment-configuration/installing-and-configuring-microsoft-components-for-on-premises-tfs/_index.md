@@ -1,5 +1,5 @@
 --- 
-title: "Installing and configuring Microsoft components for on-premises TFS"
+title: "Installing and configuring Microsoft components for on-premises Team Foundation Server"
 linktitle: "Installing and configuring Microsoft components for on-premises Team Foundation Server"
 description: "This section and its subtopics list out a number of components of Microsoft's Application Lifecycle Management (ALM) environment that need to be installed and configured for on-premises TFS."
 weight: 1

@@ -1,5 +1,5 @@
 --- 
-title: "Overview of TestArchitect components"
+title: "**Overview of TestArchitect components**"
 linktitle: "**Overview of TestArchitect components**"
 description: "The basic TestArchitect infrastructure includes Repository Server, License Server, client machines, and execution machines."
 weight: 5

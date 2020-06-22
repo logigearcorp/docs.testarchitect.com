@@ -1,5 +1,5 @@
 --- 
-title: "Configuring an iOS Simulator"
+title: "Configuring an iOS Simulator for testing Safari"
 linktitle: "Configuring an iOS Simulator for testing Safari"
 description: "This section describes essential configurations needed to ensure that automated tests on Safari on the iOS Simulator run successfully and stably."
 weight: 1

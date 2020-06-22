@@ -1,5 +1,5 @@
 --- 
-title: "Importing additional baseline images"
+title: "Importing additional baseline images from external files"
 linktitle: "Importing additional baseline images from external files"
 description: "To import additional baseline images into an existing picture check, do the following: In the TestArchitect explorer tree , select a picture check to which you'd like to import additional baseline ..."
 weight: 2

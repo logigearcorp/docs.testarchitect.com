@@ -1,6 +1,7 @@
 --- 
-title: 'Creating the GUI-interfacing test case for the user-scripted C# bundle harness action'
-linktitle: 'Creating the GUI-interfacing test case for the user-scripted C# bundle harness action'
+title: "Creating the GUI-interfacing test case for the user-scripted C# bundle harness action"
+slug: 'creating-the-gui-interfacing-test-case-for-the-user-scripted-c-bundle-harness-action'
+linktitle: "Creating the GUI-interfacing test case for the user-scripted C# bundle harness action"
 slug: 'creating-the-gui-interfacing-test-case-for-the-user-scripted-c-bundle-harness-action'
 description: "Create a TestArchitect test case to invoke the custom scripted C# action that handles the GUI-interfacing action."
 weight: 3

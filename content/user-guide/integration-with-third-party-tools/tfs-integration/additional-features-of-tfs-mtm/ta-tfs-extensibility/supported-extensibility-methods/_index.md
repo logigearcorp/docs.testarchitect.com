@@ -1,5 +1,5 @@
 --- 
-title: "Supported extensibility methods"
+title: "Supported extensibility methods offered by TAIntegrationExtensibility.cs"
 linktitle: "Supported extensibility methods offered by TAIntegrationExtensibility.cs"
 description: "Lists the extensibility methods exposed by the TAIntegrationExtensibility.cs class."
 weight: 2

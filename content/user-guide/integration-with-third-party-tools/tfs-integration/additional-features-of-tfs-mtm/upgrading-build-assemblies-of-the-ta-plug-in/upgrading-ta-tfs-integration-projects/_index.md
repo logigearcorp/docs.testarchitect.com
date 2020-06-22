@@ -1,5 +1,5 @@
 --- 
-title: "Upgrading TA-TFS integration projects"
+title: "Upgrading TestArchitect-Team Foundation Server integration projects"
 linktitle: "Upgrading TestArchitect-Team Foundation Server integration projects"
 description: "Steps to upgrade TA-TFS integration projects."
 weight: 2

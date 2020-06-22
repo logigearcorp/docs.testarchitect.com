@@ -1,5 +1,5 @@
 --- 
-title: "macOS"
+title: "What's new in TestArchitect for macOS"
 linktitle: "What's new in TestArchitect for macOS"
 description: "The following new features and improvements are introduced in TestArchitect version 8.2 Update 5 running under macOS."
 weight: 3

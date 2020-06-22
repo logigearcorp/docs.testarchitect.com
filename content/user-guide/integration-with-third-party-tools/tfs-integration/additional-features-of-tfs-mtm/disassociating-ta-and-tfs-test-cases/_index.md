@@ -1,5 +1,5 @@
 --- 
-title: "Disassociating TA and TFS test cases"
+title: "Disassociating TestArchitect and Team Foundation Server test cases in Visual Studio"
 linktitle: "Disassociating TestArchitect and Team Foundation Server test cases in Visual Studio"
 description: "When you no longer want to keep the association, you can disassociate TestArchitect tests from TFS tests."
 weight: 1

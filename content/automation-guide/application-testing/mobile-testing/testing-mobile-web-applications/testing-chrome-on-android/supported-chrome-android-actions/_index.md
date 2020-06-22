@@ -1,5 +1,5 @@
 --- 
-title: "Supported Chrome Android actions"
+title: "List of supported Google Chrome Android built-in actions"
 linktitle: "List of supported Google Chrome Android built-in actions"
 description: "Built-in actions supported by TestArchitect for testing Chrome on Android."
 weight: 5

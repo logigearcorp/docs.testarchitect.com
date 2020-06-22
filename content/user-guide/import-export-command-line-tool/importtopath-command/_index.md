@@ -1,5 +1,5 @@
 --- 
-title: "ImportToPath command"
+title: "ImportToPath command \\(Import/Export tool\\)"
 linktitle: "ImportToPath command \\(Import/Export tool\\)"
 description: "Import a project item or test case to a TestArchitect project location identified by its TA path."
 weight: 6

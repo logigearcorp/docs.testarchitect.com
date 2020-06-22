@@ -1,5 +1,5 @@
 --- 
-title: "Installing TestArchitect Agent"
+title: "Installing TestArchitect Agent onto Android devices"
 linktitle: "Installing TestArchitect Agent onto Android devices"
 description: "TestArchitect Agent is an essential component in allowing TestArchitect to communicate with Google Chrome running on Android devices during automated testing."
 weight: 2

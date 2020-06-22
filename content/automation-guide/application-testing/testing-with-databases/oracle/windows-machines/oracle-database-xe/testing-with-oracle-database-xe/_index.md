@@ -1,5 +1,5 @@
 --- 
-title: "Testing with Oracle Database XE"
+title: "Testing with Oracle Database XE in TA"
 linktitle: "Testing with Oracle Database XE in TA"
 description: "This topic describes the steps required for testing with Oracle Database XE in TestArchitect."
 weight: 4

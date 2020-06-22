@@ -1,5 +1,5 @@
 --- 
-title: "Preparing a web browser"
+title: "Preparing a web browser for testing Silverlight applications"
 linktitle: "Preparing a web browser for testing Silverlight applications"
 description: "To allow TestArchitect to work properly with a Silverlight application embedded into a web page, you may need to prepare your web browser."
 weight: 1

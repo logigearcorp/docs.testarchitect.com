@@ -1,5 +1,5 @@
 --- 
-title: "Comparing project items"
+title: "Comparing project items with Diff Tool"
 linktitle: "Comparing project items with Diff Tool"
 description: "How to view the differences between two project items of the same type in TestArchitect."
 weight: 1

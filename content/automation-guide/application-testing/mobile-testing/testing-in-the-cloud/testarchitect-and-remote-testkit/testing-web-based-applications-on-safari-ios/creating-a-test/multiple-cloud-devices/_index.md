@@ -1,5 +1,5 @@
 --- 
-title: "Multiple cloud devices"
+title: "Selecting multiple cloud devices at launch time"
 linktitle: "Selecting multiple cloud devices at launch time"
 description: "It is important to test mobile web applications on different cloud devices (smartphones, tablets, phablets, etc.) to ensure that it behaves in a consistent and correct manner on all of them. TestArchitect allows an automated test to run on multiple cloud mobile devices concurrently."
 weight: 2

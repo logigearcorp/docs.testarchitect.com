@@ -1,5 +1,5 @@
 --- 
-title: "Manually uploading TestArchitect test results to TFS"
+title: "Manually uploading TestArchitect test results to Team Foundation Server"
 linktitle: "Manually uploading TestArchitect test results to Team Foundation Server"
 description: "TestArchitect test results from projects or test cases which are mapped to TFS can also be uploaded to TFS by manual means."
 weight: 2

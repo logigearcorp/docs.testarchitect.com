@@ -1,5 +1,5 @@
 --- 
-title: "Supported Safari macOS actions"
+title: "List of supported Safari macOS actions"
 linktitle: "List of supported Safari macOS actions"
 description: "Built-in actions supported by TestArchitect for testing in the Safari on macOS platform."
 weight: 8

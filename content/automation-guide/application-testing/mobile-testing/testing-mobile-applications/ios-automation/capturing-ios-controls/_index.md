@@ -1,5 +1,5 @@
 --- 
-title: "Capturing iOS controls"
+title: "Capturing iOS controls with the Interface Viewer"
 linktitle: "Capturing iOS controls with the Interface Viewer"
 description: "The Interface Viewer looks for the presence, and displays the graphical user interface (GUI) of, available iOS devices."
 weight: 3

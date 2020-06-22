@@ -1,5 +1,5 @@
 --- 
-title: "Repository test results"
+title: "Importing repository test results from .TARESULT file"
 linktitle: "Importing repository test results from .TARESULT file"
 description: "How to import your repository test result files (.TARESULT) into TestArchitect as either local or repository results."
 weight: 2

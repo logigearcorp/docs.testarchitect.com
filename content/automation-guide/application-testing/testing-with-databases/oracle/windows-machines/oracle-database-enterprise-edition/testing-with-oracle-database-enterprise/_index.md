@@ -1,5 +1,5 @@
 --- 
-title: "Testing with Oracle Database Enterprise"
+title: "Testing with Oracle Database Enterprise in TestArchitect"
 linktitle: "Testing with Oracle Database Enterprise in TestArchitect"
 description: "This topic describes the steps required for testing with Oracle Database Enterprise in TestArchitect."
 weight: 2

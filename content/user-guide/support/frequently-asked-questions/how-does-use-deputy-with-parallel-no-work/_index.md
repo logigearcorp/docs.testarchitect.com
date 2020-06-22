@@ -1,5 +1,5 @@
 --- 
-title: "How does use deputy with parallel=no work?"
+title: "If you have a use deputy action with parallel set to no, does that assume the deputy execution is serial, meaning the test waits until the action lines associated with the use deputy are completed before moving on?"
 linktitle: "If you have a use deputy action with parallel set to no, does that assume the deputy execution is serial, meaning the test waits until the action lines associated with the use deputy are completed before moving on?"
 description: "Yes, that is correct. Using the use deputy action with the parallel argument set to no is, by definition, serial synchronous remote execution . The block of action lines following use deputy (which is ..."
 weight: 16

@@ -1,5 +1,5 @@
 --- 
-title: "Importing TFS test cases"
+title: "Importing TFS test cases to TA"
 linktitle: "Importing TFS test cases to TA"
 description: "Test cases residing on TFS may be imported into TestArchitect, establishing one-to-one mappings between the two sets of test cases."
 weight: 4

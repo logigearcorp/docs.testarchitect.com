@@ -1,5 +1,5 @@
 --- 
-title: "Renting an Android cloud device"
+title: "Renting an Android device in Remote TestKit"
 linktitle: "Renting an Android device in Remote TestKit"
 description: "Describes how to rent an Android cloud device and enable the Android adb command."
 weight: 2

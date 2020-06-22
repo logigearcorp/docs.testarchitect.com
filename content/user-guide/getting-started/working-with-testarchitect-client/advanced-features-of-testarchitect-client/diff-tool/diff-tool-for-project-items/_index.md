@@ -1,5 +1,5 @@
 --- 
-title: "Diff Tool for project items"
+title: "Using Diff Tool for project item comparisons"
 linktitle: "Using Diff Tool for project item comparisons"
 description: "This topic describes the use of the Diff Tool to compare two project items, such as test modules or data sets, or revisions of a given project item."
 weight: 1

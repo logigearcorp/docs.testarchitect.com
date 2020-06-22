@@ -1,5 +1,5 @@
 --- 
-title: "Creating a test"
+title: "Creating mobile web application test"
 linktitle: "Creating mobile web application test"
 description: "Explains general workflow to test mobile web applications on Android cloud devices in the Remote TestKit cloud service."
 weight: 2

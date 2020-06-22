@@ -1,5 +1,5 @@
 --- 
-title: "Troubleshooting integration with TFS"
+title: "Troubleshooting integration with Team Foundation Server"
 linktitle: "Troubleshooting integration with Team Foundation Server"
 description: "A discussion of issues you may encounter when working with Team Foundation Server integration."
 weight: 8

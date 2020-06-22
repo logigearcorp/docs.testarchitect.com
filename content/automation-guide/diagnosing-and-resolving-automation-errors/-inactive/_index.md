@@ -1,5 +1,5 @@
 --- 
-title: "Could not detect your <logicalName\\> device. Either it is currently locked or the re-signed app is inactive."
+title: "Could not detect your *<logicalName\\>* device. Either it is currently locked or the re-signed app is inactive."
 linktitle: "Could not detect your *<logicalName\\>* device. Either it is currently locked or the re-signed app is inactive."
 description: "Error code: 0x80015001L Problem This happens because your mobile device-under test is currently not unlocked, or the re-signed application is not launched in the correct manner. Solution Follow the ..."
 weight: 5

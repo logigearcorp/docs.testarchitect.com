@@ -1,5 +1,5 @@
 --- 
-title: "License server"
+title: "License server for TestArchitect"
 linktitle: "License server for TestArchitect"
 description: "TestArchitect is sold on a node-locked or floating license basis. You must license your copy of TestArchitect before you can use it."
 weight: 5

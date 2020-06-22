@@ -1,5 +1,5 @@
 --- 
-title: "Comparing folders"
+title: "Comparing two folders with the Diff Tool"
 linktitle: "Comparing two folders with the Diff Tool"
 description: "How to compare differences between two folders or nodes (of the same project item type) in TestArchitect."
 weight: 1

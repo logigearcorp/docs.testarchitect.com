@@ -1,5 +1,5 @@
 --- 
-title: "Automation testing"
+title: "Automation testing on the built-in browser in Android emulators"
 linktitle: "Automation testing on the built-in browser in Android emulators"
 description: "After having completed the prerequisites, you can now start to automate your tests on the built-in browser in the target Android emulators."
 weight: 3

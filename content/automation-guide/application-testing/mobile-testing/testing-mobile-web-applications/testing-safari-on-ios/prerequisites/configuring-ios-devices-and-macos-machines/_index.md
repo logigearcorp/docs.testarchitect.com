@@ -1,5 +1,5 @@
 --- 
-title: "Configuring iOS devices and macOS machines"
+title: "Configuring iOS devices and macOS machines for testing Safari iOS"
 linktitle: "Configuring iOS devices and macOS machines for testing Safari iOS"
 description: "This section describes essential configurations needed to ensure that automated tests on Safari iOS run successfully and stably."
 weight: 1

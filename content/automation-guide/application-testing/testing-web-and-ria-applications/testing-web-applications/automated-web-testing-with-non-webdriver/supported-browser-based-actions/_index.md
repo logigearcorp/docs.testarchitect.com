@@ -1,5 +1,5 @@
 --- 
-title: "Supported browser-based actions"
+title: "List of supported browser-based actions"
 linktitle: "List of supported browser-based actions"
 description: "Built-in actions supported by TestArchitect for testing web applications."
 weight: 5

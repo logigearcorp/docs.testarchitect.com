@@ -1,6 +1,6 @@
 --- 
-title: 'Creating test case and stub action for "hello" action'
-linktitle: 'Creating test case and stub action for "hello" action'
+title: "Creating test case and stub action for 'hello' action"
+linktitle: "Creating test case and stub action for 'hello' action"
 description: "Create a stub action in TestArchitect as a placeholder for the C#-coded hello action you defined previously, then write a test to invoke the action."
 weight: 3
 aliases: 

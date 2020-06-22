@@ -1,5 +1,5 @@
 --- 
-title: "Supported HTML5 controls"
+title: "List of supported HTML5 controls"
 linktitle: "List of supported HTML5 controls"
 description: "A list of the HTML5 controls (tags) that TestArchitect supports for test automation."
 weight: 7

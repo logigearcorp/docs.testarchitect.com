@@ -1,6 +1,7 @@
 --- 
-title: 'Lesson #1: Creating a simple test'
-linktitle: 'Lesson #1: Creating a simple test'
+title: "Lesson #1: Creating a simple test"
+slug: 'lesson-1-creating-a-simple-test'
+linktitle: "Lesson #1: Creating a simple test"
 slug: 'lesson-1-creating-a-simple-test'
 description: "In this lesson we explain the basics of accessing a repository, working with the test editor, writing actions, creating a test, running it, and examining test results. Audience: Testers, Automation ..."
 weight: 2

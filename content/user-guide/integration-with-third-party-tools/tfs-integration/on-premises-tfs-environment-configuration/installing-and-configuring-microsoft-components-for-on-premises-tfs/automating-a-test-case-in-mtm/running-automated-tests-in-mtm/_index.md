@@ -1,5 +1,5 @@
 --- 
-title: "Running automated tests in MTM"
+title: "Running automated tests in Microsoft Test Manager"
 linktitle: "Running automated tests in Microsoft Test Manager"
 description: "This topic describes the details of running automated tests in a lab environment using Microsoft Test Manager."
 weight: 8

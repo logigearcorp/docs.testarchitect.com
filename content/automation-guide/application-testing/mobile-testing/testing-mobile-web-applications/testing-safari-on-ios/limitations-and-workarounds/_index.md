@@ -1,5 +1,5 @@
 --- 
-title: "Limitations and workarounds"
+title: "Limitations and workarounds of testing Safari on iOS"
 linktitle: "Limitations and workarounds of testing Safari on iOS"
 description: "This topic categorizes some limitations you might encounter in testing web applications in Safari on iOS. Applicable workarounds, if available, are also discussed."
 weight: 5

@@ -1,5 +1,5 @@
 --- 
-title: "Running tests under on-premises TFS"
+title: "Running automated tests under on-premises Team Foundation Server"
 linktitle: "Running automated tests under on-premises Team Foundation Server"
 description: "With TFS-MTM integration in place, you have the option of launching your automated TA tests from either environment. And in both cases, you can have your test results automatically (or manually) sent to TFS."
 weight: 3

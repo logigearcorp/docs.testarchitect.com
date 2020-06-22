@@ -1,5 +1,5 @@
 --- 
-title: "Installing TestArchitect Agent"
+title: "Installing TestArchitect Agent onto Android emulators"
 linktitle: "Installing TestArchitect Agent onto Android emulators"
 description: "TestArchitect Agent is an essential component in allowing TestArchitect to communicate with the built-in browser running on Android emulators during automated testing."
 weight: 1

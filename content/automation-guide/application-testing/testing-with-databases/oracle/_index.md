@@ -1,5 +1,5 @@
 --- 
-title: "Oracle"
+title: "Oracle Database"
 linktitle: "Oracle Database"
 description: "Information specific to testing with Oracle Database."
 weight: 5
