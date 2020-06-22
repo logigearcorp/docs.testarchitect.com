@@ -10,7 +10,7 @@ keywords: "Silverlight testing, supported Silverlight technologies"
 
 Silverlight applications are rich internet applications \(RIAs\) which are executed in web browsers. In-browser mode is the most common way to use them.
 
-**Warning:** Microsoft ceased development of Silverlight. However, Silverlight continues working in TestArchitect.
+{{<warning>}} Microsoft ceased development of Silverlight. However, Silverlight continues working in TestArchitect.
 
 ## Supported Silverlight runtime versions
 

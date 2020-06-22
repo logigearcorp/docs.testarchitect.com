@@ -18,7 +18,7 @@ The usage of both commands is to launch TestArchitect Controller. They are place
 -   On Linux: /usr/local/logigear/testarchitect/controller.
 -   On macOS: /Applications/TestArchitect/controller
 
-**Warning:** When you run either of the commands, all the running harnesses will be terminated.
+{{<warning>}} When you run either of the commands, all the running harnesses will be terminated.
 
 A sharp distinction between the two commands is their behavior towards the console prompt. Upon a successful execution, the TAController command will return the console prompt. On contrary, upon a successful execution, the TACTRL command will keep the console prompt. Therefore, TAController, not TACTRL, suits CI/CD testing.
 

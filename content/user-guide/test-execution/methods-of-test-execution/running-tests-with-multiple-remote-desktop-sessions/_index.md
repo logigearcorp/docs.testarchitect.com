@@ -54,7 +54,7 @@ TestArchitect provides you the capability to execute tests with multiple remote 
 
 6.  Execute the test.
 
-    **Warning:** During the test run,
+{{<warning>}} During the test run,
 
     -   Keep the remote computer unlocked as long as you perform GUI testing on any sessions.
     -   Do not minimize any remote session window from the local computer.

@@ -10,7 +10,7 @@ keywords: "Silverlight testing, out-of-browser applications"
 
 Silverlight-based applications, as well as your test machine, must be configured properly to allow the applications to be installed from their host web pages, run outside of the browser, and tested.
 
-**Warning:** Microsoft ceased development of Silverlight. However, Silverlight continues working in TestArchitect.
+{{<warning>}} Microsoft ceased development of Silverlight. However, Silverlight continues working in TestArchitect.
 
 To test out-of-browser Silverlight applications, carry out the following procedure:
 

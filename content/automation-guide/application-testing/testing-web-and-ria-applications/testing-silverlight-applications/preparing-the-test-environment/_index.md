@@ -10,7 +10,7 @@ keywords:
 
 In order to test a Silverlight application, you need to properly configure your test environment. This may include preparing a web browser's settings, installing a Certificate Authority, and possibly other actions.
 
-**Warning:** Microsoft ceased development of Silverlight. However, Silverlight continues working in TestArchitect.
+{{<warning>}} Microsoft ceased development of Silverlight. However, Silverlight continues working in TestArchitect.
 
 For a complete checklist, see the following topics:
 

@@ -28,7 +28,7 @@ To map a control as a MDI-child window, do the following:
 
     For example, capture a button and a list view controls.
 
-    **Warning:** While selecting TA properties to capture a control as a MDI-child window, it is highly recommended that you do not use the [global pos](/TA_Help/Topics/Interface_def_global_pos.html) TA property. The use of global pos might cause the mistake when identifying UI control, since the nature of employed breadth-first search algorithm. \([Learn more](/TA_Help/Topics/ug_JIT_UI_matching.html).\)
+{{<warning>}} While selecting TA properties to capture a control as a MDI-child window, it is highly recommended that you do not use the [global pos](/TA_Help/Topics/Interface_def_global_pos.html) TA property. The use of global pos might cause the mistake when identifying UI control, since the nature of employed breadth-first search algorithm. \([Learn more](/TA_Help/Topics/ug_JIT_UI_matching.html).\)
 
     ![](/images/TA_Help/Images/ug_Viewer_child_window_2.png)
 

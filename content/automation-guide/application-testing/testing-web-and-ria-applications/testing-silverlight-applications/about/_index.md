@@ -10,7 +10,7 @@ keywords: "Silverlight testing, testing Silverlight applications, native propert
 
 TestArchitect provides full support for automated testing of applications based on Microsoft Silverlight technology.
 
-**Warning:** Microsoft ceased development of Silverlight. However, Silverlight continues working in TestArchitect.
+{{<warning>}} Microsoft ceased development of Silverlight. However, Silverlight continues working in TestArchitect.
 
 ## Actions supported for Silverlight controls
 

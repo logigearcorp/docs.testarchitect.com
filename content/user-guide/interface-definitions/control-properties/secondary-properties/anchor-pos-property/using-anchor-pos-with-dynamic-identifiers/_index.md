@@ -67,7 +67,7 @@ Also recall that we are interested in retrieving the text of the headlines of th
 
 As before, we can use the **div** element with `id="national_section"` as an anchor for the headline elements. In that example, we also used mappings from the interface entity to identify the link containing each headline. Because these interface elements are hard-coded and unchangeable during runtime, we refer to them as static identifiers. What we need instead in this case is a [dynamic identifier](/TA_Help/Topics/The_test_language_dynamic_identifiers.html), one which can be varied during the run to identify each headline-containing link element in sequence.
 
-**Warning:** The last example included a warning that we are assuming that the only link \(<a\>\) elements in the articles are those that contain the headlines. That assumption still holds for this example. It is addressed in a [later example](/TA_Help/Topics/prop_anchor.example_03.html).
+{{<warning>}} The last example included a warning that we are assuming that the only link \(<a\>\) elements in the articles are those that contain the headlines. That assumption still holds for this example. It is addressed in a [later example](/TA_Help/Topics/prop_anchor.example_03.html).
 
 1.{{<note>}} If you already saved the HTML code from the previous example, you can skip the following substeps. \(But remember to open the web page in a browser.\)
 

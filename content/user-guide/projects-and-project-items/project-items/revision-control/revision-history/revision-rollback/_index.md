@@ -37,7 +37,7 @@ To roll back to a previous revision of an item:
 
     ![](/images/TA_Help/Images/History_roll_back_confirm_dialog_box.png)
 
-    **Warning:** The rollback cannot be undone.
+{{<warning>}} The rollback cannot be undone.
 
 
 A copy of the rollback revision is checked in to the repository as the latest revision, with your new comments assigned to it.

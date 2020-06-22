@@ -12,7 +12,7 @@ Information specific to Silverlight application testing.
 
 Silverlight applications are rich Internet applications \(RIA\) that can run in web browsers and on the desktop \(out-of-browser\). With TestArchitect, you can create and run automated tests for Silverlight applications.
 
-**Warning:** Microsoft ceased development of Silverlight. However, Silverlight continues working in TestArchitect.
+{{<warning>}} Microsoft ceased development of Silverlight. However, Silverlight continues working in TestArchitect.
 
 1.  [Testing Silverlight applications - Overview](/TA_Automation/Topics/aut_app_testing_Silverlight_apps_overview.html)  
 TestArchitect provides full support for automated testing of applications based on Microsoft Silverlight technology.

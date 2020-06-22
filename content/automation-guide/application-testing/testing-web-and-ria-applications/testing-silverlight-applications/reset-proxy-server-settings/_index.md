@@ -10,7 +10,7 @@ keywords: "Silverlight testing, resetting proxy server settings"
 
 If and when you no longer need to test Silverlight applications, it is highly recommended that you reset your machine's proxy server settings to make your web browsers work properly under normal conditions.
 
-**Warning:** Microsoft ceased development of Silverlight. However, Silverlight continues working in TestArchitect.
+{{<warning>}} Microsoft ceased development of Silverlight. However, Silverlight continues working in TestArchitect.
 
 Carry out the following procedures for whichever browsers you need reconfigured:
 

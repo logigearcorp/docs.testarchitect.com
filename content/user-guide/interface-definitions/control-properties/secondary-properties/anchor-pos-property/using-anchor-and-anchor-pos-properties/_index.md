@@ -73,7 +73,7 @@ Since we have no such attributes for the headlines, our best bet for identifying
 
 The **div** element with `id="national_section"` is a good candidate as an anchor for the headline elements, because a\), it is an ancestor to all of them \(an essential requirement\), and b\), it is uniquely identifiable, thanks to its id attribute.
 
-**Warning:** Note that there is an assumption being made for this example, which is that the only <a\> elements in the articles are the headlines. That is a dangerous assumption, as <a\> is used for hyperlinks and it is certainly possible for hyperlinks to appear in an article's content. We will address this problem in a [later topic](/TA_Help/Topics/prop_anchor.example_03.html).
+{{<warning>}} Note that there is an assumption being made for this example, which is that the only <a\> elements in the articles are the headlines. That is a dangerous assumption, as <a\> is used for hyperlinks and it is certainly possible for hyperlinks to appear in an article's content. We will address this problem in a [later topic](/TA_Help/Topics/prop_anchor.example_03.html).
 
 1.  If you wish to follow along with the steps in this example:
 

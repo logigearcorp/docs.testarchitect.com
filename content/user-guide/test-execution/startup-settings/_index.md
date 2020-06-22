@@ -18,7 +18,7 @@ TestArchitect has a number of built-in settings that control how your action lin
 
 User-defined settings are settings that you create at runtime startup, and use within your test procedure in a manner you choose. Your test procedure can read the value of a user-defined setting, store it to a variable, and then use the value of that variable to take appropriate action. Note that, unlike built-in settings, the value of a user-defined setting is not modifiable during runtime.
 
-**Warning:**
+{{<warning>}}
 
 If you're performing a test run with multiple test modules \(as in the case of a [test suite](/TA_Help/Topics/Test_suite.html) or a [serial test run](/TA_Glossary/Topics/glossarySerialTestRun.html)\), it's important to note that the values of both built-in and user-defined settings are persistent between test module executions. However, the values of built-in settings can be modified by your test procedures, while those of user-defined settings cannot. Hence, note that the built-in setting values in effect upon entry into a test module can depend on that test module's placement in the execution order, whereas that is not a concern for user-defined settings.
 

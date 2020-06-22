@@ -10,7 +10,7 @@ keywords: "Silverlight testing, uninstalling Certificate Authority"
 
 If you no longer need to test Silverlight applications running over the HTTPS protocol, you may opt to uninstall the TestArchitect Certificate Authority \(CA\) which was previously installed.
 
-**Warning:** Microsoft ceased development of Silverlight. However, Silverlight continues working in TestArchitect.
+{{<warning>}} Microsoft ceased development of Silverlight. However, Silverlight continues working in TestArchitect.
 
 To uninstall a CA, do the following:
 

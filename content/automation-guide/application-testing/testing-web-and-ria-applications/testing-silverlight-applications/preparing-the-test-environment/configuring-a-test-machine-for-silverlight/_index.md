@@ -10,7 +10,7 @@ keywords: "Silverlight testing, configuring machine"
 
 Preparing your test machine to ensure the testability of your Silverlight application.
 
-**Warning:** Microsoft ceased development of Silverlight. However, Silverlight continues working in TestArchitect.
+{{<warning>}} Microsoft ceased development of Silverlight. However, Silverlight continues working in TestArchitect.
 
 Ensure the following requirements are met:
 
