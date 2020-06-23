@@ -167,7 +167,46 @@
 <script>
   
   imageviewer("img");
+  createCoppyCode();
+  const copyToCB = (copyIcon, tempCopyInput, d) => {
+  tempCopyInput.select();
+  d.execCommand('copy');
 
+  copyIcon.textContent   = 'Copied to clipboard';
+  copyIcon.className='copied_clipboard'
+  setTimeout(function(){ copyIcon.textContent   = 'copy'; copyIcon.className='copy_clipboard'}, 3000);
+};
+
+function createCoppyCode () {
+  const d = document;
+const tempCopyInput = d.createElement('input');
+d.body.appendChild(tempCopyInput);
+tempCopyInput.style.position = 'fixed';
+tempCopyInput.style.top = '-1000px';
+// copy to clipboard function
+
+
+// Hugo outputs code `div` with `highlight` class name.
+// copy from highlight container
+let highlight = d.querySelectorAll('pre');// or any div containing code stuff
+
+
+    copyIcon = d.createElement('button');
+copyIcon.innerHTML = 'copy';
+copyIcon.className='copy_clipboard'
+  
+highlight.forEach((hl) => {
+ let buttonnote = copyIcon.cloneNode([true]);
+  hl.appendChild(buttonnote);
+  hl.children[1].addEventListener('click',() => {
+  let codeText = hl.childNodes[0].childNodes[0].textContent;
+  tempCopyInput.setAttribute('value', codeText);
+    copyToCB(buttonnote, tempCopyInput, d);
+    
+  })
+ 
+})
+}
   function searchRemote(query, page) {
     var currentLanguage = readCookie('googtrans');
     if(currentLanguage !== undefined) {
@@ -335,50 +374,17 @@ setTimeout(function(){ $("#search-header").val(""); }, 1000);
             .html();
         $("main").html(remoteContent);
         window.history.pushState({"html":remoteContent,"pageTitle":url},"", url);
-       
+        imageviewer("img");
+        createCoppyCode();
       })
       .fail(function(jqxhr, textStatus, error) {
         var err = textStatus + ", " + error;
         console.error("Error getting Hugo index flie:", err);
       });
-
+      
     return false;
   }
 
-const d = document;
-const tempCopyInput = d.createElement('input');
-d.body.appendChild(tempCopyInput);
-tempCopyInput.style.position = 'fixed';
-tempCopyInput.style.top = '-1000px';
-// copy to clipboard function
-const copyToCB = (copyIcon) => {
-  tempCopyInput.select();
-  d.execCommand('copy');
-  console.log(copyIcon);
-  copyIcon.textContent   = 'Copied to clipboard';
-  copyIcon.className='copied_clipboard'
-  setTimeout(function(){ copyIcon.textContent   = 'copy'; copyIcon.className='copy_clipboard'}, 3000);
-};
 
-// Hugo outputs code `div` with `highlight` class name.
-// copy from highlight container
-let highlight = d.querySelectorAll('pre');// or any div containing code stuff
-
-
-    copyIcon = d.createElement('button');
-copyIcon.innerHTML = 'copy';
-copyIcon.className='copy_clipboard'
-  
-highlight.forEach((hl) => {
- let buttonnote = copyIcon.cloneNode([true]);
-  hl.appendChild(buttonnote);
-  hl.children[1].addEventListener('click',() => {
-  let codeText = hl.childNodes[0].childNodes[0].textContent;
-  tempCopyInput.setAttribute('value', codeText);
-    copyToCB(buttonnote);
-    
-  })
- 
-})
 
 </script>
