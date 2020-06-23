@@ -10,7 +10,7 @@ keywords: "Silverlight testing, preparing browsers"
 
 To allow TestArchitect to work properly with a Silverlight application embedded into a web page, you may need to prepare your web browser.
 
-**Warning:** Microsoft ceased development of Silverlight. However, Silverlight continues working in TestArchitect.
+{{<warning>}} Microsoft ceased development of Silverlight. However, Silverlight continues working in TestArchitect.
 
 ## Clearing the browser cache
 

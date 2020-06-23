@@ -44,7 +44,7 @@ Deploying TestArchitect installation file on other computers and running the ins
     -   Path to the log file: D:\\Silent installation\\Silent files\\install.log
     The installation program installs TestArchitect in the background using the options specified in the response file. The installation program displays no dialog boxes. The installation progress is not shown either.
 
-    **Warning:** Silent installation only applies to the TestArchitect English version.
+{{<warning>}} Silent installation only applies to the TestArchitect English version.
 
 
 

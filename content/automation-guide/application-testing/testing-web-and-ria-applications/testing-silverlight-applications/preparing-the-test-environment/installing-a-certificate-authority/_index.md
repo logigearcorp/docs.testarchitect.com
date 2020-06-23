@@ -10,7 +10,7 @@ keywords: "Silverlight testing, installing Certificate Authority"
 
 In order to test Silverlight applications running over the HTTPS protocol, installing a TestArchitect Certificate Authority \(CA\) on your test machine is required.
 
-**Warning:** Microsoft ceased development of Silverlight. However, Silverlight continues working in TestArchitect.
+{{<warning>}} Microsoft ceased development of Silverlight. However, Silverlight continues working in TestArchitect.
 
 To install a CA, do the following:
 

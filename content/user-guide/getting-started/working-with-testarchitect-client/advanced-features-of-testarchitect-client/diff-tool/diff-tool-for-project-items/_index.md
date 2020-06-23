@@ -72,7 +72,7 @@ The Diff Tool's tool bar contains six buttons:
 
     **Fastpath:** F5.
 
-    **Warning:**
+{{<warning>}}
 
     -   If changes are detected, the following warning dialog box appears.
 

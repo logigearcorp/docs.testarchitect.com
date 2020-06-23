@@ -31,7 +31,7 @@ To undo a checked out item:
 
         ![](/images/TA_Help/Images/Undo_checkout_recursive.png)
 
-    **Warning:**
+{{<warning>}}
 
     When you undo a checkout, all changes made to the item\(s\), including the local copies, are lost. The checkout undo process cannot be reversed.
 

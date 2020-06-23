@@ -17,7 +17,7 @@ For example, you install TestArchitect in silent mode, when you would like to au
 -   The installation runs in the background. It does not show any dialog boxes or messages.
 -   An installation [response file](/TA_InstallationGuide/DITA_source/Topics/inst_TA_silent_mode_creating_response_file.html) is required. Response file is like a mold that helps replicate the installation process again and again.
 
-    **Warning:**
+{{<warning>}}
 
     -   If you want to change something during installation, such as, installation directory, you are required to re-create this mold.
     -   Silent installation only applies to the TestArchitect English version.

@@ -51,7 +51,7 @@ TestArchitect saves the settings on the Select Controller/Device dialog box and 
 
 TestArchitect automatically adds controllers/devices executing tests to the controller/device list on the [Controller status](/TA_Help/Topics/Lab_manager_controller.html) and [Device status](/TA_Help/Topics/Lab_manager_device.html), and you can monitor the test progress there.
 
-**Warning:** If the controllers/devices executing tests have been already registered to another Lab Manager server, TestArchitect will not add those controllers/devices automatically to the controller/device list on your local Lab Manager server.
+{{<warning>}} If the controllers/devices executing tests have been already registered to another Lab Manager server, TestArchitect will not add those controllers/devices automatically to the controller/device list on your local Lab Manager server.
 
 {{<note>}} The selected devices are written as new parameters when you generate a batch file. The parameter `-devices` is written to the batch file. \([Learn more](/TA_Help/Topics/Test_exec_cmd.html).\)
 

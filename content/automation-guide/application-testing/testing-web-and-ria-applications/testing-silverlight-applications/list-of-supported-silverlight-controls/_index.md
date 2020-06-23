@@ -10,7 +10,7 @@ keywords: "Silverlight testing, supported Silverlight controls"
 
 Silverlight controls supported by TestArchitect for testing Silverlight applications.
 
-**Warning:** Microsoft ceased development of Silverlight. However, Silverlight continues working in TestArchitect.
+{{<warning>}} Microsoft ceased development of Silverlight. However, Silverlight continues working in TestArchitect.
 
 Below is the full list of Silverlight controls for which TestArchitect provides support:
 

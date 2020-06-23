@@ -45,7 +45,7 @@ While some windows and dialog boxes have only a few controls, others may hold qu
 
 **invisible controls**: During testing, if you have a need to interface with controls that are invisible \(as per the above definition of *invisible*\), TestArchitect provides the built-in setting [load invisible controls](/TA_Automation/Topics/bis_load_invisible_controls.html). Note that load invisible controls is a setting, not an action, so it has no immediate effect. Its default value is no. By setting it to yes, the next time an intake needs to be performed on a given window, the window's invisible controls are included in the intake. Moreover, with this setting switched from no to yes, TestArchitect understands that any set of window controls already in its intake cache is outdated, hence for each given window a new intake is performed the next time an action line attempts to access a control in that window.
 
-**Warning:** Changing the setting of load invisible controls generally changes a given window's set of controls eligible for intake. It is important to be aware that the next intake for the window may well cause some or all of [global pos](/TA_Help/Topics/Interface_def_global_pos.html) and/or [anchor pos](/TA_Help/Topics/prop_anchor.example_01.html) properties to have the index portions of their values change accordingly.
+{{<warning>}} Changing the setting of load invisible controls generally changes a given window's set of controls eligible for intake. It is important to be aware that the next intake for the window may well cause some or all of [global pos](/TA_Help/Topics/Interface_def_global_pos.html) and/or [anchor pos](/TA_Help/Topics/prop_anchor.example_01.html) properties to have the index portions of their values change accordingly.
 
 {{<note>}} You may also elect to capture invisible controls during the identification stage, when you are creating your interface definitions. Just select [**View** \> **Show Invisible Controls**](/TA_Help/Topics/Interface_def_Viewer_show_invisible_controls.html) in the Interface Viewer.
 
@@ -55,7 +55,7 @@ While some windows and dialog boxes have only a few controls, others may hold qu
 
 At runtime, during an intake on this window, this setting instructs TestArchitect to go ahead and retrieve all the child controls of the specified container classes. \(For more on container classes, see [Container classes](/TA_Help/Topics/Interface_def_container_class.html).\)
 
-**Warning:** As with invisible controls, be aware that the unlocking of container classes has an impact on the values generated for the global pos properties of controls, and this effect is not limited to the child controls of the container objects.
+{{<warning>}} As with invisible controls, be aware that the unlocking of container classes has an impact on the values generated for the global pos properties of controls, and this effect is not limited to the child controls of the container objects.
 
 
 

@@ -49,7 +49,7 @@ How to export your local test results to .TARESULT files.
     -   After exporting the local test results, you can import them into TestArchitect on any machine. \([Learn more](/TA_Help/Topics/ug_importing_test_results.html).\)
     -   Local result \(.TARESULT\) files can be imported as either local or repository test results into TestArchitect.
 
-        **Warning:** When your local result files \(.TARESULT\) contain [captured screenshots](/TA_Help/Topics/ug_Screenshot_recording.html), but they are imported as repository test results, the screenshots are totally discarded.
+{{<warning>}} When your local result files \(.TARESULT\) contain [captured screenshots](/TA_Help/Topics/ug_Screenshot_recording.html), but they are imported as repository test results, the screenshots are totally discarded.
 
 -   **Option \#2**: Directing TestArchitect to automatically export test results to .TARESULT upon test completion.
 
@@ -82,7 +82,7 @@ How to export your local test results to .TARESULT files.
         -   TestArchitect saves the settings in the Advanced tab and executes the test\(s\). Once execution is complete, the test results are automatically exported to a .TARESULT file at the specified location.
         -   Local result \(.TARESULT\) files can be imported as either local or repository test results into TestArchitect. \([Learn more](/TA_Help/Topics/ug_importing_test_results.html).\)
 
-            **Warning:** When your local result files \(.TARESULT\) contain [captured screenshots](/TA_Help/Topics/ug_Screenshot_recording.html), but they are imported as repository test results, the screenshots are totally discarded.
+{{<warning>}} When your local result files \(.TARESULT\) contain [captured screenshots](/TA_Help/Topics/ug_Screenshot_recording.html), but they are imported as repository test results, the screenshots are totally discarded.
 
 {{<note>}} If you opt to generate a batch file \(rather than execute the test immediately\), the following parameters are written to the generated file. \([Learn more](/TA_Help/Topics/Test_exec_cmd.html#plentry.paramters_tares)\).
 

@@ -24,7 +24,7 @@ The Interface Viewer minimizes, brings the appropriate application window to the
 
 ![](/images/TA_Help/Images/ug_interface_definition26_UIA.png)
 
-**Warning:** An issue with [Google Chrome](/TA_Automation/Topics/Web_automation.html) exists, in which the **Highlight** feature cannot accurately display the positions of HTML controls when the Chrome download bar is active. The solution is to simply dismiss the download bar, which you can do by clicking the **Close** button to its right:![](/images/TA_Help/Images/Chrome_download_bar_close.png).
+{{<warning>}} An issue with [Google Chrome](/TA_Automation/Topics/Web_automation.html) exists, in which the **Highlight** feature cannot accurately display the positions of HTML controls when the Chrome download bar is active. The solution is to simply dismiss the download bar, which you can do by clicking the **Close** button to its right:![](/images/TA_Help/Images/Chrome_download_bar_close.png).
 
 {{<note>}}
 
