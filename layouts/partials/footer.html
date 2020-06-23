@@ -374,8 +374,8 @@ setTimeout(function(){ $("#search-header").val(""); }, 1000);
             .html();
         $("main").html(remoteContent);
         window.history.pushState({"html":remoteContent,"pageTitle":url},"", url);
-        imageviewer("img");
-        createCoppyCode();
+        // imageviewer("img");
+        // createCoppyCode();
       })
       .fail(function(jqxhr, textStatus, error) {
         var err = textStatus + ", " + error;

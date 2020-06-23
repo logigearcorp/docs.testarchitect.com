@@ -4,7 +4,7 @@
 {{- if eq .Title "" }}
 <title>{{ .Site.Title }}</title>
 {{- else }}
-<title>{{ .Title | markdownify}} - {{ .Site.Title }}</title>
+<title>{{trim .Title "**" | markdownify}} - {{ .Site.Title }}</title>
 {{- end }}
 {{- if ne .Description "" }}
 <meta name="description" content="{{ .Description  }}">
