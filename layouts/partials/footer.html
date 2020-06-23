@@ -166,7 +166,7 @@
 
 <script>
   
-  imageviewer();
+  imageviewer("img");
 
   function searchRemote(query, page) {
     var currentLanguage = readCookie('googtrans');
@@ -344,4 +344,41 @@ setTimeout(function(){ $("#search-header").val(""); }, 1000);
 
     return false;
   }
+
+const d = document;
+const tempCopyInput = d.createElement('input');
+d.body.appendChild(tempCopyInput);
+tempCopyInput.style.position = 'fixed';
+tempCopyInput.style.top = '-1000px';
+// copy to clipboard function
+const copyToCB = (copyIcon) => {
+  tempCopyInput.select();
+  d.execCommand('copy');
+  console.log(copyIcon);
+  copyIcon.textContent   = 'Copied to clipboard';
+  copyIcon.className='copied_clipboard'
+  setTimeout(function(){ copyIcon.textContent   = 'copy'; copyIcon.className='copy_clipboard'}, 3000);
+};
+
+// Hugo outputs code `div` with `highlight` class name.
+// copy from highlight container
+let highlight = d.querySelectorAll('pre');// or any div containing code stuff
+
+
+    copyIcon = d.createElement('button');
+copyIcon.innerHTML = 'copy';
+copyIcon.className='copy_clipboard'
+  
+highlight.forEach((hl) => {
+ let buttonnote = copyIcon.cloneNode([true]);
+  hl.appendChild(buttonnote);
+  hl.children[1].addEventListener('click',() => {
+  let codeText = hl.childNodes[0].childNodes[0].textContent;
+  tempCopyInput.setAttribute('value', codeText);
+    copyToCB(buttonnote);
+    
+  })
+ 
+})
+
 </script>
