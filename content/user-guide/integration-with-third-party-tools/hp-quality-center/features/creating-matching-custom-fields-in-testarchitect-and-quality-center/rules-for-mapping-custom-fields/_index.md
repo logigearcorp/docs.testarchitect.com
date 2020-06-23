@@ -22,7 +22,7 @@ Mutually mapped fields must have compatible data types, as specified in the foll
 |Boolean|String|
 |List item|Lookup list, User list|
 
-**Note:**
+{{<note>}}
 
 -   In TestArchitect, the data type is set in the TestArchitect **Value Type** field in the [New Field](/TA_Administration/Topics/User_defined_fields_create.html#stepresult_q44_hls_mq) dialog box.
 -   Values for user-defined TestArchitect fields are set using the **Default Value** field in the New Field dialog box.

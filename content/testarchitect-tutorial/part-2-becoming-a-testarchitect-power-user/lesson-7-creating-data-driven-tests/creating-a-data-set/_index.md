@@ -45,7 +45,7 @@ Data-driven tests require simulated user input in the form of multi-column data 
 
 5.  Skip down a few lines in the test editor. Enter three filter actions, as shown in the table below, to create three named filters.
 
-    **Note:** Alternatively, select the contents of the table and paste it into the editor.
+    {{<note>}} Alternatively, select the contents of the table and paste it into the editor.
 
     A named filter is defined in the data set and may be used within the test to limit the number of used records to a subset of the data set based on the filter criteria.
 

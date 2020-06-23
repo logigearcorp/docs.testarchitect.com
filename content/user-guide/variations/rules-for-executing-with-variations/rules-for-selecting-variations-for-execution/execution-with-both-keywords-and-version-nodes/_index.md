@@ -19,7 +19,7 @@ TestArchitect's process for selecting the correct variation of each project item
 
 {{<remember>}} Keep in mind that this algorithm is applied separately to each project item involved in the test. Also note that, although multiple systems can be specified in the version run set \(**AUT Version** field\), each project item's [variation set](/TA_Glossary/Topics/glossaryVariationSet.html) is limited to [no more than one system](/TA_Help/Topics/Variations_rules_1.html). Hence, the OSV can vary from one pass to the next, or not exists at all. \(OSV will not exist in the case of a project item having no linked variations, or where its linked variations are associated with a system that is not listed in the version run set.\)
 
-3.  <div id="li.ta_selects_variation"></div>Select the [effective variation](/TA_Glossary/Topics/glossaryEffectiveVariation.html) that exactly matches OSV and KRS.
+3.  {{<anchor li.ta_selects_variation >}}Select the [effective variation](/TA_Glossary/Topics/glossaryEffectiveVariation.html) that exactly matches OSV and KRS.
 4.  If such an exact match does not exist, select the effective variation of version OSV whose [keyword signature](/TA_Glossary/Topics/glossaryKeywordSignature.html) is the largest subset of RTKeys.
 5.  If this variation is not unique, in that at least one other effective variation of version OSV has an equal-sized keyword signature which is also a subset of RTKeys, flag the issue \(indicating that user-intervention is required\) and halt execution.
 6.  If, on the other hand, no effective variation with a keyword subset is found, select the variation of version OSV which has no keywords.

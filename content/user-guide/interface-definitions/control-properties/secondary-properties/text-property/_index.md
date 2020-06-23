@@ -28,6 +28,6 @@ As a secondary property, text is handled differently depending on both the contr
 
 In the simplest cases, text may act like a primary property. For example, a table cell containing only a text string will have its text property set to that string value. On the other hand, if the cell contains certain other controls, the cell's text property is set to the concatenation of their text and/or state values. Delimiters used in the concatenated strings vary between control classes.
 
-**Note:** When getting very long strings from an SAP BW **richtext** control, you may experience perfomance issues.
+{{<note>}} When getting very long strings from an SAP BW **richtext** control, you may experience perfomance issues.
 
 

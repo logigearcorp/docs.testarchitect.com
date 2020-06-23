@@ -65,7 +65,7 @@ For the purpose of running an SQL query, Excel offers a few constructs that can 
     execute sql      select * from customers       customers_ds
     ```
 
-    **Note:** The query treats the last row of the named range as the last row of the table. Note that any empty rows at the end of the range are treated as table rows with NULL values in each cell.
+    {{<note>}} The query treats the last row of the named range as the last row of the table. Note that any empty rows at the end of the range are treated as table rows with NULL values in each cell.
 
 -   **worksheet**
 
@@ -76,7 +76,7 @@ For the purpose of running an SQL query, Excel offers a few constructs that can 
     execute sql      select * from [customer_sheet$]     customers_ds
     ```
 
-    **Note:** For a query on a full worksheet, the last non-empty row is treated as the end of the table. Note that any empty rows preceding it are treated as table rows with NULL values in each cell.
+    {{<note>}} For a query on a full worksheet, the last non-empty row is treated as the end of the table. Note that any empty rows preceding it are treated as table rows with NULL values in each cell.
 
 -   **a specified range within a worksheet**
 
@@ -87,7 +87,7 @@ For the purpose of running an SQL query, Excel offers a few constructs that can 
     execute sql      select * from [customer_sheet$C3:H320]     customers_ds
     ```
 
-    **Note:** With a table defined by a specified range within a worksheet, the last row of the range, or the last non-empty row – whichever comes first – is treated as the end of the table. Note that any empty rows preceding the last non-empty row are treated as table rows with NULL values in each cell.
+    {{<note>}} With a table defined by a specified range within a worksheet, the last row of the range, or the last non-empty row – whichever comes first – is treated as the end of the table. Note that any empty rows preceding the last non-empty row are treated as table rows with NULL values in each cell.
 
 
 It's important to note that, for whichever type of table construct you use, TestArchitect treats the first row of the given range as one of column headers. The values in this row are used as the field names of the dynamic data set \(customer\_ds in all the above examples\) that is generated.

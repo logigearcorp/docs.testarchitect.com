@@ -37,14 +37,14 @@ The editor is designed to facilitate the creation of action-based tests, though 
 |Ctrl+Home|Move the cell pointer to the upper left of the worksheet.|
 |Ctrl+End|Move the cell pointer to the bottom of the editor \(three rows below the last line\) to continue adding action lines.|
 |Ctrl+End|Move the cell pointer to the lower right of the worksheet.|
-|Enter|Enter or edit action lines.**Note:** The Enter key uses intelligent navigation to anticipate the next cell you intend to edit.<br><br>|<br>
+|Enter|Enter or edit action lines.{{<note>}} The Enter key uses intelligent navigation to anticipate the next cell you intend to edit.<br><br>|<br>
 |Shift+Enter|Move the cell pointer up to the previous cell.|
 
 ## Editing cell content
 
 Once you navigate to a cell, you can begin typing into it.
 
-**Note:** Any existing contents of the cell are overwritten once you start typing.
+{{<note>}} Any existing contents of the cell are overwritten once you start typing.
 
 To modify, rather than replace existing cell content, double-click the cell. That puts you into cell-edit mode. Alternatively, if the cell is already selected, you can enter cell-edit mode by hitting the F2 key. Once in cell-edit mode, you may use the Left and Right Arrow keys to navigate through the cell text, or use the mouse to place the text cursor where desired.
 
@@ -93,7 +93,7 @@ Alternatively, you can save *all* opened files in the editor two ways:
 -   From the main menu, select **File** \> **Save All**
 -   Click the **Save All** button on the toolbar.
 
-**Note:**
+{{<note>}}
 
 **Ambiguous entities:**TestArchitect checks for ambiguous entities \(described in [Ambiguous entities](/reuse/../TA_Administration/Topics/Repo_mapping_ambiguous_entities.html)\) before saving the files. If there are ambiguous entities that need mapping, a Select Interface dialog box appears for you to specify which ambiguous entity to map to which interface.
 
@@ -101,7 +101,7 @@ Alternatively, you can save *all* opened files in the editor two ways:
 
 Comments may be added to test modules, actions, interface entities and data sets. A commented line starts with two forward slashes \(//\); its contents are ignored during test execution.
 
-CAUTION:
+{{<caution>}}
 
 A comment must occupy its own row in the editor, and be entered into column A. Entering a comment to the right of an action line is not supported, and can lead to unpredictable behavior.
 
@@ -153,7 +153,7 @@ The height of rows and the width of columns may be adjusted by dragging the sepa
 -   Ctrl + I: Insert a single new line into the editor worksheet, at the current location of the cell pointer.
 -   Ctrl + Enter: Insert several empty lines into the editor worksheet, below the current location of the cell pointer, and move the cell pointer three lines down to allow you to continue adding action lines.
 
-    **Note:** By default, TestArchitect automatically inserts four empty lines. You can set the number of inserted empty lines in the [Preferences](/reuse/../TA_Help/Topics/Additional_features_preferences.html) dialog box.
+    {{<note>}} By default, TestArchitect automatically inserts four empty lines. You can set the number of inserted empty lines in the [Preferences](/reuse/../TA_Help/Topics/Additional_features_preferences.html) dialog box.
 
 
 1.  [Content Assist](/TA_Help/Topics/ug_content_assist.html)  

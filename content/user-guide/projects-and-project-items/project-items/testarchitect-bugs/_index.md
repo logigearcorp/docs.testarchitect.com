@@ -49,10 +49,10 @@ The fields of the **Information** tab are:
 |Field|Description|
 |-----|-----------|
 |**Bug ID**|\(Automatically generated\) The ID of the TA bug. This bug ID is combination of [a prefix key](/TA_Help/Topics/Projects_and_project_items_create_project.html) followed by an ID number, separated by a hyphen.|
-|**Summary**|A brief one-line summary of the TA bug. **Note:** The **Summary** field cannot be empty.<br><br>|<br>
+|**Summary**|A brief one-line summary of the TA bug. {{<note>}} The **Summary** field cannot be empty.<br><br>|<br>
 |**Description**|A detailed description of the TA bug.|
 |**URL**|\(Automatically generated\) The [TestArchitect URL address](/TA_Help/Topics/Additional_features_TA_URL.html) of this bug.|
-|**Source**|The bug ID of an external bug tracking system associated with the TA bug.<br><br> **Note:**<br><br>-   If this is an unregistered bug, this field is empty.<br>-   You may change the **Source** value to drop the current link and association this bug with another external bug.<br>-   You can also clear the **Source** content to decouple this bug from its associated external bug, rendering this an unregistered bug.<br><br>|<br>
+|**Source**|The bug ID of an external bug tracking system associated with the TA bug.<br><br> {{<note>}}<br><br>-   If this is an unregistered bug, this field is empty.<br>-   You may change the **Source** value to drop the current link and association this bug with another external bug.<br>-   You can also clear the **Source** content to decouple this bug from its associated external bug, rendering this an unregistered bug.<br><br>|<br>
 |**Current status**|The current life cycle stage of this TA bug \(refer to [Workflow](/TA_Help/Topics/Bugs.html#ksec_tabugs_workflow)\)|
 |**Last update date**|The date on which this TA bug was last updated from an external bug tracking system.|
 |**Last update by**|The person who last edited this TA bug.|

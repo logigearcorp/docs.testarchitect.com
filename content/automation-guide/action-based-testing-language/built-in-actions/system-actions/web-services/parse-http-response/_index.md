@@ -59,7 +59,7 @@ Suppose that you'd like to test a given Google API to send a message to a recipi
 
     |Property name|Value|Description|
     |-------------|-----|-----------|
-    |raw|bytes|The entire email message in base64url encoded string.**Tip:** To encode a plain text string into a base64url encoded string, you can use the [Online Base64URL encoder](http://kjur.github.io/jsjws/tool_b64uenc.html) tool.<br><br>|<br>
+    |raw|bytes|The entire email message in base64url encoded string.{{<tip>}} To encode a plain text string into a base64url encoded string, you can use the [Online Base64URL encoder](http://kjur.github.io/jsjws/tool_b64uenc.html) tool.<br><br>|<br>
 
     -   Raw body content:
 

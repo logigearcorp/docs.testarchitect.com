@@ -61,13 +61,13 @@ Each term of a filter expression applies a comparison against an attribute of th
 
 -   The asterisk \(\*\) character is used as a wildcard to represent any arbitrary string of characters \(including the empty string\). When using wildcards, the tilde \(~\) operator must be used in place of the equal-to \(=\) operator, to ensure that the asterisk is treated as a wildcard. Multiple wildcards may be used within a single comparison term. See the [example](/TA_Help/Topics/Report_customizing.html#li_g44_3g1_xn) below.
 
-**Note:** Values must be surrounded by double quotation marks \("\). For date values, use the format `"yyyy-mm-dd`" . \(For example, "`2010-09-01"` for September 1st, 2010\).
+{{<note>}} Values must be surrounded by double quotation marks \("\). For date values, use the format `"yyyy-mm-dd`" . \(For example, "`2010-09-01"` for September 1st, 2010\).
 
 Here are some example filtering expressions applied to the **Priority** attribute: in some cases the filtering is by **Priority** only; in others, by **Priority** plus another attribute \(**Status**\):
 
 ![](/images/TA_Help/Images/ug_Customizing_a_report_2.png)
 
-**Note:**
+{{<note>}}
 
 -   For the filtering expression of a given attribute, it is generally not necessary to include expression terms relating to other attributes, since you can specify the filtering of each attribute within that attribute's own filtering expression. Hence, the last expression in the box above could also be specified as follows:
 
@@ -112,7 +112,7 @@ Available subreports vary based on the selected item.
 |**Test suites**|\(None\)|
 |**Bugs**|Related test modules, related test results, related test cases.|
 
-**Tip:** To display all of the available attributes, click **All attributes**.
+{{<tip>}} To display all of the available attributes, click **All attributes**.
 
 Suppose that you want to create a test module report which includes those tests which were a\), executed last month, and b\), produced a Failed result. Follow these steps:
 
@@ -146,7 +146,7 @@ The toolbar of the Edit Profile panel offers the following buttons:
 5.  **Clear all** button: Clear all check boxes.
 6.  **Save as test suite** button: Create a dynamic test suite based on the current report. See also [Creating a dynamic test suite](/TA_Help/Topics/Test_suite_item_dynamic.html).
 
-    **Note:** Initially, when a report is created, the **Save as test suite** button is disabled. To enable that button, you must [save the report profile](/TA_Help/Topics/Report_profiles.html) in advance.
+    {{<note>}} Initially, when a report is created, the **Save as test suite** button is disabled. To enable that button, you must [save the report profile](/TA_Help/Topics/Report_profiles.html) in advance.
 
 
 

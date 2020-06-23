@@ -65,6 +65,6 @@ The following settings are applicable to this action:none.
 
 
 
-<div id="fn.iOS_screen_units"></div>
+{{<anchor fn.iOS_screen_units >}}
 1 In the case of iOS device testing, screen units are points. \(See Notes.\)
 

@@ -71,7 +71,7 @@ Use of this action is supported on the following systems/platforms: Windows, Lin
         |6|and|Value is TRUE if and only if both sides of the and operator are TRUE.|
         |7|or|Value is TRUE if either side of the or operator is TRUE.|
 
-        **Note:** For the full list of operator precedence, see [here](/TA_Automation/Topics/aut_operator_precedence.html).
+        {{<note>}} For the full list of operator precedence, see [here](/TA_Automation/Topics/aut_operator_precedence.html).
 
 -   If the value in row exceeds the current number of rows in the data set, empty rows are appended until the data set has row rows, after which the value in the designated cell is set.
 -   If the data set is inline, all added data are stored in memory.

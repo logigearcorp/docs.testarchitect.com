@@ -32,7 +32,7 @@ To enable or disable automatic uploading of a given test to Quality Center:
 
     ![](/images/TA_Help/Images/Integration_QC_xmp_autoupload.png)
 
-    **Note:** is auto upload to qc is defaulted to false when the file is first created.
+    {{<note>}} is auto upload to qc is defaulted to false when the file is first created.
 
 
 -   If automatic uploading is enabled, the same test will be uploaded automatically to Quality Center, and the [Upload Test Module](/TA_Help/Topics/Integration_QC_test_development_step_2.html#step_vnm_v4j_fm)dialog box will no longer appear if all of the following conditions are met:

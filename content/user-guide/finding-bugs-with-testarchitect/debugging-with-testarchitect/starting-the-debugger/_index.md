@@ -32,7 +32,7 @@ After defining breakpoints, you can run your test procedure through the debugger
 
     ![](/images/TA_Help/Images/debugger_guide_3.png)
 
-    **Note:**
+    {{<note>}}
 
     -   The red dots in the row headers specify where breakpoints have been set.
     -   The yellow arrow in the row header indicates the point at which execution is currently paused.

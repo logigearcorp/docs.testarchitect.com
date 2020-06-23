@@ -41,7 +41,7 @@ Reviewing test results can assist you in determining if and when JIRA bug issues
 
 ## Known Bug Summary tab
 
-**Remember:** The contents of **Known Bug Summary** are organized into a tab when the test results are viewed on a web browser; whereas they are organized into a sub-section when the results are viewed on TestArchitect Client.
+{{<remember>}} The contents of **Known Bug Summary** are organized into a tab when the test results are viewed on a web browser; whereas they are organized into a sub-section when the results are viewed on TestArchitect Client.
 
 This tab displays the information about TA bugs marked in the action lines.
 
@@ -71,7 +71,7 @@ The following table describes the matrix to determine the suggested bug status f
 |Closed|Closed|Reopened|Reopened|
 |Reopened|Resolved|Reopened|Reopened|
 
-**Note:**
+{{<note>}}
 
 -   There may be times when an automation run does not include the execution of a given action line marked with a TA bug, such as when the test run is terminated before reaching that line. For such cases, an additional status, Not Executed, is defined, and is assigned as the **Suggested Status** for the bug.
 -   Note also that, if multiple action lines marked with a given TA bug exist, and any one of them is not executed during a test run, the overall suggested status of the TA bug is again Not Executed.

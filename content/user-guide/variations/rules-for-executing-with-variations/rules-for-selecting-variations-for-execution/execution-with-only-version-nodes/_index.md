@@ -41,7 +41,7 @@ When execution parameters include no keywords, but do include one or more versio
     ```
 
     1.  If the answer is No, TestArchitect selects the default variation.
-    2.  <div id="li.version_node_found"></div>If Yes, TestArchitect asks:
+    2.  {{<anchor li.version_node_found >}}If Yes, TestArchitect asks:
 
         ```
         Is there a variation in the variation set that 

@@ -32,7 +32,7 @@ To change date time format of the **Start Time** built-in field from mm/dd/yyyy 
     |------|----------|
     |31 DEC 2002|\[D01\] \[MN,\*-3\] \[Y0001\]|
 
-    **Tip:** You can find additional expressions of date format [here](https://www.w3.org/TR/xslt20/#function-format-date).
+    {{<tip>}} You can find additional expressions of date format [here](https://www.w3.org/TR/xslt20/#function-format-date).
 
 4.  To ensure the new changes take effect, clear the HTML cache.
 

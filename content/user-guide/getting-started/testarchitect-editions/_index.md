@@ -27,7 +27,7 @@ The following table compares the detailed differences among TestArchitect editio
 |Number of agent licenses|Limited|Pay-per-request|
 |Support channels|Forum|Phone, portal, email, hotfixes|
 
-**Note:** Universal licenses include both TestArchitect Team and TestArchitect Enterprise editions.
+{{<note>}} Universal licenses include both TestArchitect Team and TestArchitect Enterprise editions.
 
 All the above editions of TestArchitect include both the TestArchitect Client and TestArchitect Controller software \(for developing and executing tests, respectively\). In addition, it is also possible to purchase separate Agent licenses, which apply to the TestArchitect Controller software and allow strictly for the execution of tests on a given machine.
 

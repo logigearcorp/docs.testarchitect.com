@@ -36,7 +36,7 @@ The top of the **Summary** tab lists such items as follows:
 |**Device OS**|OS name of the target physical mobile device|
 |**Desired capabilities name**|Name of the target cloud mobile device and full path to the JSON file, which defines target cloud devices \([learn more](/TA_Automation/Topics/aut_app_cloud_testing_Appium_automation_json.html)\)|
 
-**Note:**
+{{<note>}}
 
 ![](/images/TA_Help/Images/Test_results_summaries_general_info.01a.png)
 
@@ -79,14 +79,14 @@ This section displays the executed test cases, skipped test cases \(if any\) and
 
 ![](/images/TA_Help/Images/step_summary_table_web.png "Step Summary table on a web browser")
 
-**Note:**
+{{<note>}}
 
 -   This table is only available when you [create test steps](/TA_Help/Topics/Projects_and_tests_steps_creating.html).
 -   Click ![](/images/TA_Help/Images/Test_results_expand_detail.png), next to the test case's title, to expand and view **Step Summary** table for each test case.
 
 ## Failure/Error Summary section
 
-**Note:** Applies to TestArchitect [8.3 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.html) and higher.
+{{<note>}} Applies to TestArchitect [8.3 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.html) and higher.
 
 The section exhibits a list of the failures occurring during the test run. For more details, please refer to [Failure/Error Summary tab](/TA_Help/Topics/ug_results_failure_error_summary.html).
 
@@ -94,7 +94,7 @@ The section exhibits a list of the failures occurring during the test run. For m
 
 ## Known Bug Summary section
 
-**Note:** Applies to TestArchitect [8.3 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.html) and higher.
+{{<note>}} Applies to TestArchitect [8.3 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.html) and higher.
 
 This section displays details about known bugs marked on action lines. For more details, please refer to [Known Bug Summary tab](/TA_Help/Topics/ug_results_known_bug_summary.html).
 
@@ -102,7 +102,7 @@ This section displays details about known bugs marked on action lines. For more 
 
 ## Log Information tab section
 
-**Note:** Applies to TestArchitect [8.3 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.html) and higher.
+{{<note>}} Applies to TestArchitect [8.3 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.html) and higher.
 
 This section displays the logging information from the report actions, that is, [report](/TA_Automation/Topics/bia_report.html), [report check](/TA_Automation/Topics/bia_report_check.html), [report warning](/TA_Automation/Topics/bia_report_warning.html), and [report error](/TA_Automation/Topics/bia_report_error.html) in the test procedure.
 

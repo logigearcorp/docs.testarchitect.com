@@ -38,7 +38,7 @@ Reports can be produced for entire projects or for specified project items.
     |****Data****|Data sets|
     |****Interfaces****|Interface entities|
     |****Test suites****|Test suites|
-    |****Results****|Test results and test case results. **Note:** The report can only include test results residing in the repository \(not local results\).<br><br>|<br>
+    |****Results****|Test results and test case results. {{<note>}} The report can only include test results residing in the repository \(not local results\).<br><br>|<br>
     |****Bugs****|Bugs|
 
 3.  After selecting a report type to create, an **Edit Profile** panel appears in the main window, listing the options for defining the properties of the report \(see [customizing a report](/TA_Help/Topics/Report_customizing.html)\).
@@ -50,7 +50,7 @@ Reports can be produced for entire projects or for specified project items.
 
 A panel appears in the main window displaying the details of the generated report.
 
-**Tip:** When the length of a report is longer than a single panel page, page navigation links appear at the bottom of the panel.
+{{<tip>}} When the length of a report is longer than a single panel page, page navigation links appear at the bottom of the panel.
 
 
 

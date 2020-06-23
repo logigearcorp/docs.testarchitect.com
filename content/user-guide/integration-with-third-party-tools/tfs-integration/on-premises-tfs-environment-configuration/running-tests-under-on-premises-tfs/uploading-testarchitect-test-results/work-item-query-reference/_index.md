@@ -51,7 +51,7 @@ SELECT \*
 
 -   In the qualifying WHERE clause, the ID of the TFS test plan is mandatory. At a given time, only a single TFS test plan is accepted in the query session.
 
-    **Tip:** You can find test plan ID in the following:
+    {{<tip>}} You can find test plan ID in the following:
 
     -   in the [Select Location](/TA_Help/Topics/ug_MTM_upload_result_manual.html) dialog box:
 
@@ -93,7 +93,7 @@ SELECT \*
 
 ```
 
-**Tip:** When you want to traverse TFS sub test suites recursively, change SuiteId into RecursiveSuiteId. In this case, all test cases below the specified test suite that satisfy the condition are returned.
+{{<tip>}} When you want to traverse TFS sub test suites recursively, change SuiteId into RecursiveSuiteId. In this case, all test cases below the specified test suite that satisfy the condition are returned.
 
 
 

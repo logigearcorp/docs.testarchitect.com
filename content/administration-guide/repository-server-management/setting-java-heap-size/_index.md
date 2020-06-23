@@ -17,7 +17,7 @@ If Java heap memory is set too low, TestArchitect may not have enough memory to 
 |32-bit|1024 MB|512 MB|764 MB|
 |64-bit|Half of total physical memory|512 MB|Half of total physical memory|
 
-**Tip:** The current Java heap size setting is displayed in the **Repository Server Information** panel in the Repository Server Control Panel window.
+{{<tip>}} The current Java heap size setting is displayed in the **Repository Server Information** panel in the Repository Server Control Panel window.
 
 ![](/images/TA_Administration/Images/java_heap_size_info.png)
 
@@ -31,7 +31,7 @@ If Java heap memory is set too low, TestArchitect may not have enough memory to 
 
 3.  In the Set Heap Size panel, type the amount of memory \(in megabytes\) that is to be made available to Java as heap storage, and then click **OK**.
 
-    **Tip:** Click **Reset** dialog box to return the heap size to the default setting for your system.
+    {{<tip>}} Click **Reset** dialog box to return the heap size to the default setting for your system.
 
 
 Changing the Java heap size value automatically restarts the repository server. All access to the server is temporarily disabled while the server restarts. Server requests made during this time will be rerouted to a [replication server](/TA_Administration/Topics/Repo_server_management_replication_repo_intro.html), if one is available.

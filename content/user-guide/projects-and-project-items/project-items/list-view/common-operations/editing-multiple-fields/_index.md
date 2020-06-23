@@ -52,7 +52,7 @@ To edit multiple items in a list view:
 
 6.  Click **Apply** to save all edited values.
 
-    **Tip:** Click **Reset** to reset all field values.
+    {{<tip>}} Click **Reset** to reset all field values.
 
 
 TestArchitect only changes and updates fields in a list view if the edited fields are in an editable state. All changes to non-editable fields are ignored.

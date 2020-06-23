@@ -25,7 +25,7 @@ A WebDriver test often starts with:
 
 To execute tests with WebDriver, it is required to configure [WebDriver server & client](/TA_Automation/Topics/WebDriver_server_client.html).
 
-**Note:** Providing that you use Safari, configure it to enable WebDriver support. \([Learn more](https://developer.apple.com/documentation/webkit/testing_with_webdriver_in_safari)\)
+{{<note>}} Providing that you use Safari, configure it to enable WebDriver support. \([Learn more](https://developer.apple.com/documentation/webkit/testing_with_webdriver_in_safari)\)
 
 ## Setting an environment
 

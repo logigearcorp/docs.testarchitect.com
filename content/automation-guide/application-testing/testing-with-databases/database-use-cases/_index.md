@@ -66,7 +66,7 @@ A simple entry form allows records to be added to this table:
 
 To keep this example simple, the use of any data repositories is limited to just the one belonging to the AUT. Records submitted by the test are generated on the fly, rather than stored in another database or data set. This is done through the use of a pseudo-random generator supplied as a user-defined action, generate values. On each invocation, generate values returns both a “random” 5-digit numeric value \(for the **key**\), and a 20-character ASCII string \(for **string\_store**\). These values are derived from a 5-digit *seed* supplied to the action.
 
-<div id="image_qgw_sqx_ft"></div>![](/images/TA_Automation/Images/db_use_case.02.uda.01.png)
+{{<anchor image_qgw_sqx_ft >}}![](/images/TA_Automation/Images/db_use_case.02.uda.01.png)
 
 In the test case \(shown below\), generate values is called multiple times within a loop to produce multiple records. Each record is supplied to the AUT by means of the user-defined action write AUT record \(not shown\). The 5-digit output \(working seed\) of each execution of generate values is used not just to supply the key value for the AUT record, but also to provide the seed for generate values in the next iteration of the while loop.
 

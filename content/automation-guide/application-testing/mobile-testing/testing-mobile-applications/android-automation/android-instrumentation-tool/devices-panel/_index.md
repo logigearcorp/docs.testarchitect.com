@@ -24,7 +24,7 @@ In the Devices panel, there are five possible icons representing detected device
 
 There is no unavailable status for Wi-Fi-connected devices. This is because the TestArchitect Agent is a prerequisite for a Wi-Fi device to be visible to TestArchitect. Hence, a device connected over Wi-Fi, if visible, must also be available.
 
-**Tip:** When a new device is connected and detectable, or an old one removed, or an emulator is started or stopped, the change is not registered in the Android Instrumentation Tool dialog box until you refresh the display. Do this by clicking the **Refresh devices list** ![](/images/Android/Images/Refresh_device_list_btn.png) button.
+{{<tip>}} When a new device is connected and detectable, or an old one removed, or an emulator is started or stopped, the change is not registered in the Android Instrumentation Tool dialog box until you refresh the display. Do this by clicking the **Refresh devices list** ![](/images/Android/Images/Refresh_device_list_btn.png) button.
 
 
 

@@ -90,6 +90,6 @@ In the application, pinch the tomato and papaya towards each other.
 
 
 
-<div id="fn.iOS_screen_units"></div>
+{{<anchor fn.iOS_screen_units >}}
 1 In the case of iOS device testing, screen units are points. \(See Notes.\)
 

@@ -64,7 +64,7 @@ Perform the following steps:
 -   The two parameters, -upc and -up, are written to the batch file. \([Learn more](/TA_Help/Topics/Test_exec_cmd.html#plentry.paramters_up).\)
 -   In the batch file, the selected conditions are specified as a comma-delimited list, e.g. /upc "Passed, WE".
 
-**Important:** Note that, if you add test results to the repository automatically, all [unverified picture checks](/TA_Glossary/Topics/glossaryUnverifiedPictureCheck.html) will be totally discarded. Whereas, adding test results to the repository manually preserves all picture checks.
+{{<important>}} Note that, if you add test results to the repository automatically, all [unverified picture checks](/TA_Glossary/Topics/glossaryUnverifiedPictureCheck.html) will be totally discarded. Whereas, adding test results to the repository manually preserves all picture checks.
 
 
 

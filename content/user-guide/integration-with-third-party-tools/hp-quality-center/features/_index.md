@@ -25,7 +25,7 @@ At the broadest level, the steps involved in developing Quality Center tests for
 3.  For each folder you create in Quality Center, create a test module in TestArchitect with identical name.
 4.  Import the Quality Center tests from each folder into the corresponding TestArchitect test module, in which the Quality Center tests become test cases.
 
-    **Note:** If you defined design steps in the Quality Center tests, each design step is added to the corresponding test module as a comment within the corresponding test case.
+    {{<note>}} If you defined design steps in the Quality Center tests, each design step is added to the corresponding test module as a comment within the corresponding test case.
 
 5.  Upload each TestArchitect test module to its corresponding folder in Quality Center. This creates a Quality Center test with the same name as the TestArchitect test module's name, prepended with a \# symbol. This is known as a test module node.
 6.  For each test case, create action lines that implement the test.

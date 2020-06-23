@@ -41,11 +41,11 @@ TestArchitect items are uploaded to Zephyr as follows:
 
 -   Each TestArchitect test objective is copied to the corresponding Zephyr test case, provided that you have created a custom field in Zephyr to accept it.
 
-    **Remember:** The custom field in Zephyr must be named **Test Objective**, and have the attribute Long Text \(32000\). \(See [Creating matching custom fields in TestArchitect and Zephyr](/TA_Help/Topics/ug_Zephyr_creating_custom_fields.html) for details.\)
+    {{<remember>}} The custom field in Zephyr must be named **Test Objective**, and have the attribute Long Text \(32000\). \(See [Creating matching custom fields in TestArchitect and Zephyr](/TA_Help/Topics/ug_Zephyr_creating_custom_fields.html) for details.\)
 
     ![](/images/TA_Help/Images/Zephyr_mapped_TO_6.1.png)
 
 
-**Note:** The lower panel of a Zephyr test case, which displays the details of that TestArchitect test sequence \(including **\#**, **Test Steps**, **Test Data**, and **Expected Results** fields\), can only be written to when the test case is initially generated \(that is, on the first upload\). After that, due to Zephyr limitations, the data is effectively read-only. That is, subsequent uploads of the same TestArchitect test modules and test cases have no effect on the contents of the lower panels of affected Zephyr test cases. \(Note, however, that this information is strictly documentary. Whether outdated or not, it has no effect on tests that are initiated from Zephyr.\)
+{{<note>}} The lower panel of a Zephyr test case, which displays the details of that TestArchitect test sequence \(including **\#**, **Test Steps**, **Test Data**, and **Expected Results** fields\), can only be written to when the test case is initially generated \(that is, on the first upload\). After that, due to Zephyr limitations, the data is effectively read-only. That is, subsequent uploads of the same TestArchitect test modules and test cases have no effect on the contents of the lower panels of affected Zephyr test cases. \(Note, however, that this information is strictly documentary. Whether outdated or not, it has no effect on tests that are initiated from Zephyr.\)
 
 

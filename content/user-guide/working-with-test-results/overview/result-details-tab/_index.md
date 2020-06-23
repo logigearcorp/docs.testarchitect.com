@@ -56,7 +56,7 @@ The **Result Details** tab also provide additional functions, such as, turning o
     -   **Show Start Time & Run Duration**: Display the start time and duration of each action's execution.
     -   [**Show recorded screenshots**](/TA_Help/Topics/ug_Screenshot_recording.html): Displays all logged screenshots captured during test automation. Note that TestArchitect captures screenshots only for UI-interacting actions, and posts to the local test result only those matching the specifications provided at the start of execution \(in the Screen recording panel of the Execute Test dialog box\).
 
-        **Important:** Recorded screenshots are only available to **local test results**. They are unavailable to **repository test results**. \([Learn more](/TA_Help/Topics/ug_Screenshot_recording.html#section_nnf_wj5_34).\)
+        {{<important>}} Recorded screenshots are only available to **local test results**. They are unavailable to **repository test results**. \([Learn more](/TA_Help/Topics/ug_Screenshot_recording.html#section_nnf_wj5_34).\)
 
     -   [**Show revision timestamp**](/TA_Help/Topics/ug_time_traveling_results.html#section_chl_lxp_ls): Display the executed revision of each project item involved, such as user-defined actions, interface entities, and data sets.
 2.  Collapse all sections.

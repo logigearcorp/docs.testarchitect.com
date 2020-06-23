@@ -45,14 +45,14 @@ To open a definition of a named project item from within a test module or action
 
     The referenced action, interface entity, data set, test suite, or test module is opened in its own editor window.
 
-    **Note:** In the case of a referenced interface element, the parent interface entity is opened, with the interface element highlighted.
+    {{<note>}} In the case of a referenced interface element, the parent interface entity is opened, with the interface element highlighted.
 
 3.  ![](/images/TA_Help/Images/go_to_def_ex.01.png)
 
 
 TestArchitect navigates to the definition of the selected project item, making it the active tab in the main client window.
 
-**Note:** For certain types of project items, [variations](/TA_Help/Topics/Variations.html) may exist. When they do, **Go to definition** has the following behavior:
+{{<note>}} For certain types of project items, [variations](/TA_Help/Topics/Variations.html) may exist. When they do, **Go to definition** has the following behavior:
 
 -   In most cases, the context menu displays the full list of variations, including the [default variation](/TA_Help/Topics/Variations_default.html), allowing you to select the one of your choosing:
 
@@ -64,7 +64,7 @@ TestArchitect navigates to the definition of the selected project item, making i
 
 
 
-<div id="fntarg_1"></div>
-<div id="fnsrc_1"></div>
+{{<anchor fntarg_1 >}}
+<di{{<anchor fnsrc_1 >}}
 [1](#fnsrc_1) Note, however, that the control argument of a UI action often has a header name specific to the type of control, such as menu, list, toolbar, tree, etc.
 

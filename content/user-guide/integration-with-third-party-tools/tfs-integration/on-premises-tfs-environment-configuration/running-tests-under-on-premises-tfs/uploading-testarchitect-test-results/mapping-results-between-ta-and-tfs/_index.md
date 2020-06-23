@@ -19,7 +19,7 @@ This section describes possible test results mappings between TestArchitect and 
 |5|Not Finished 1|Passed<br><br> Failed<br><br> Inconclusive \(default\)<br><br>|<br>
 |6|Not Run 2|Passed<br><br> Failed<br><br> Inconclusive \(default\)<br><br>|<br>
 
-**Important:**
+{{<important>}}
 
 1Not Finished occur if a test is started, but it is unable to reach the end of an automated run. An unfinished test case may result from any one of the following:
 

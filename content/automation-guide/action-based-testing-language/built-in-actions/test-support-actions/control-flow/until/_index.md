@@ -45,7 +45,7 @@ This action may be used within the following project items:test modules and user
     |6|and|Value is TRUE if and only if both sides of the and operator are TRUE.|
     |7|or|Value is TRUE if either side of the or operator is TRUE.|
 
-    **Note:** For the full list of operator precedence, see [here](/TA_Automation/Topics/aut_operator_precedence.html).
+    {{<note>}} For the full list of operator precedence, see [here](/TA_Automation/Topics/aut_operator_precedence.html).
 
 -   Be careful when using repeat/until loops, and in the expressions you use for condition to stop. An infinite loop may cause the TA Playback tool to hang.
 -   To exit the repeat/until loop from within the block of action lines, use the built-in action [exit loop](/TA_Automation/Topics/bia_exit_loop.html).

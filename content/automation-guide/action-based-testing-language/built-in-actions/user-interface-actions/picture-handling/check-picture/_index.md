@@ -68,13 +68,13 @@ This action may be used within the following project items:test modules and user
 
     Note that Failed and Warning results are tentative, and that each one is associated with an unverified picture check. Upon completion of the test run, each unverified picture check may be manually accessed and resolved in a way that modifies the final check result. \(Alternatively, no further action need be taken on an unverified picture check – that is, you can simply allow its associated test result to stand.\)
 
--   <div id="li.note.picture_check_dlgs.two_types"></div>Results with unverified picture checks may be resolved at test run completion by means of a Picture Check dialog box, of which there are two varieties:
+-   {{<anchor li.note.picture_check_dlgs.two_types >}}Results with unverified picture checks may be resolved at test run completion by means of a Picture Check dialog box, of which there are two varieties:
     -   Failed results with unverified picture checks can be resolved through the [Picture Check - Changed Picture](#subsequent-check-picture-executions---matches-and-non-matches) dialog box, which allows for the possibility of adding the captured test image to the associated picture check as a new baseline picture.
     -   Warning results with unverified picture checks are resolvable through the [Picture Check - New Picture](#verifying-the-picture) dialog box, which allows for adding a new picture check \(with its name taken from the name argument\), with the captured test image as its baseline picture.
 -   It should be noted that the suggested method for adding picture checks and baseline pictures is to do it “offline”, by means of the [Picture Capturing Tool](/TA_Help/Topics/Additional_features_image_capturing_tool.html)**Add** \> **Picture Check** option available on the Picture Checks folder in Solution Explorer. Adding baseline pictures as a consequence of unverified picture checks during testing is primarily intended for cases of unexpected check picture failures occurring during testing.
 -   The means by which the Picture Check dialog boxes are presented upon test completion is determined by the built-in setting [verify picture](/TA_Automation/Topics/bis_verify_picture.html). With verify picture set to yes, \(verify mode\) any unverified picture checks occurring during the test automatically prompt a series of Picture Check dialog boxes to appear upon completion of the test run session. With the setting set to no \(non-verify mode\), the dialog boxes do not automatically appear, but can be summoned by manual means subsequent to the test session. Non-verify mode \(setting verify picture to no\) is recommended for unattended [serial test runs](/TA_Glossary/Topics/glossarySerialTestRun.html) under batch file control; this avoids the possibility of some tests inhibiting subsequent ones from running due to the need for manual intervention.
 -   An unverified picture check remains unverified until one of two things occurs: its status is resolved via a Picture Check dialog box \(discussed above\), or the associated local **Results** item is moved to the repository. Once a **Results** item is moved to the repository, tentative Failed and Warning results associated with unverified picture checks are locked in as Failed and Warning, respectively, and any unverified picture checks are discarded.
--   <div id="li.note.active_area"></div>This action is applied to that part of the captured bitmap identified as the active area, with the remainder of the image ignored. The active area is determined by the four arguments \(left, top, width and height\) that define the rect area. To begin with, window and control determine the active UI element, which can be a control, window, or the full screen, as follows:
+-   {{<anchor li.note.active_area >}}This action is applied to that part of the captured bitmap identified as the active area, with the remainder of the image ignored. The active area is determined by the four arguments \(left, top, width and height\) that define the rect area. To begin with, window and control determine the active UI element, which can be a control, window, or the full screen, as follows:
 
     |window argument|control argument|active UI element is...|
     |---------------|----------------|-----------------------|
@@ -88,7 +88,7 @@ This action may be used within the following project items:test modules and user
 
     The above figure illustrates the active area that applies when both the window and control arguments have been specified, establishing the picture control \(with the 12 cars\) as the active UI element. The rect area itself, specified by left, top, width and height, is the active area.
 
-    **Important:** The rule to determine the active area of the picture check built-in action is different from the one of other [Picture Handling](/TA_Automation/Topics/bia_picture_handling.html) built-in actions, such as, [check picture exists](/TA_Automation/Topics/bia_check_picture_exists.html), [click picture](/TA_Automation/Topics/bia_click_picture.html).
+    {{<important>}} The rule to determine the active area of the picture check built-in action is different from the one of other [Picture Handling](/TA_Automation/Topics/bia_picture_handling.html) built-in actions, such as, [check picture exists](/TA_Automation/Topics/bia_check_picture_exists.html), [click picture](/TA_Automation/Topics/bia_click_picture.html).
 
 -   In all cases, the rect area itself, if specified, is the active area. The following three images illustrate the cases for how the active area is determined when the four values \(left, top, width, height\) of the rect area are specified.
 
@@ -124,7 +124,7 @@ Our last step in the action lines is to verify that the correct picture is displ
 
 ![](/images/TA_Automation/Images/bia_check_picture_pgm.01.png)
 
-**Note:** We've omitted the positional arguments of left, top, width and height from the check picture action line, meaning that the active area of the picture check corresponds to the entire **car image** control.
+{{<note>}} We've omitted the positional arguments of left, top, width and height from the check picture action line, meaning that the active area of the picture check corresponds to the entire **car image** control.
 
 ## Verifying the picture
 
@@ -150,7 +150,7 @@ As the picture is indeed correct, we would expect our tester to click **Pass**, 
 
 Finally, clicking **Submit** completes the picture verification.
 
-**Note:**
+{{<note>}}
 
 -   Whichever option \(that is, Pass or Fail\) is selected in this dialog box is stored only in temporary memory, and is not saved to the repository, until you click the **Submit** button.
 -   The **Close** button discards the changes \(if any\) and then closes the dialog box.
@@ -174,22 +174,22 @@ In this dialog box, we can again observe the test picture. We also have the opti
 -   **Fail**: Report this check as having Failed. \(That is, the image under test is not one that the AUT was expected to display, nor should have displayed, at the time of execution of this check picture action.\)
 -   **Pass, this is the new baseline**: Report this check as Passed, remove all existing baseline images, and save the test image as the baseline.
 
-    **Warning:** If the current picture check has multiple baseline pictures, this option removes all of them.
+    {{<warning>}} If the current picture check has multiple baseline pictures, this option removes all of them.
 
 -   **Pass, but keep the original**: Report this check as Passed, but keep the original existing baselines. The test image is discarded.
 -   **Pass, save as a baseline variation**: Report this check as Passed, and save the test image as an additional baseline.
 
-**Tip:** In the event that a test run results in multiple unverified picture checks, a separate Picture Check dialog box is available to resolve each one. From any one of the dialog boxes, you can use the following buttons to navigate between them.
+{{<tip>}} In the event that a test run results in multiple unverified picture checks, a separate Picture Check dialog box is available to resolve each one. From any one of the dialog boxes, you can use the following buttons to navigate between them.
 
 ![](/images/TA_Automation/Images/btn_navigation_multiple_picture_check.png)
 
 Click the **Save** button to save your decision.
 
-**Note:** The option \(Fail, Pass, this is the new baseline, Pass, but keep the original, or Pass, save as a baseline variation\) selected in the dialog box is only stored in temporary memory, that is, other your team members will not see the changes in the repository, until you click the **Submit** button.
+{{<note>}} The option \(Fail, Pass, this is the new baseline, Pass, but keep the original, or Pass, save as a baseline variation\) selected in the dialog box is only stored in temporary memory, that is, other your team members will not see the changes in the repository, until you click the **Submit** button.
 
 Finally, click the **Submit** button to complete the picture verification process.
 
-**Note:** The **Close** button discards the changes \(if any\) and then closes the dialog box.
+{{<note>}} The **Close** button discards the changes \(if any\) and then closes the dialog box.
 
 ## Automation mode
 
@@ -197,7 +197,7 @@ It has been mentioned that test runs with picture checks may be run in either an
 
 In a production test environment, it is frequently necessary to run serial tests under batch control, without stopping for human input. Under batch file control, however, each test module in a serial batch run is invoked as a separate test run session. The upshot is that, when in semi-automated mode, any single test module with unverified picture checks results in a requirement for human intervention when that test module completes its execution, regardless of whether it is part of a serial test run. To avoid this interruption, ensure that such batch runs are performed in automated mode, thus allowing you to determine if and when manual picture check verifications take place.
 
-**Tip:** To set up test runs in automation mode, refer to the [verify picture](/TA_Automation/Topics/bis_verify_picture.html) built-in setting.
+{{<tip>}} To set up test runs in automation mode, refer to the [verify picture](/TA_Automation/Topics/bis_verify_picture.html) built-in setting.
 
 ## Accessing the Picture Check dialog box
 
@@ -211,7 +211,7 @@ The obvious question here is *"What happens when a new image – a baseline cand
 
         ![](/images/TA_Help/Images/test_result_unverified_node.png)
 
-        **Tip:** In order to resolve unverified picture checks, refer to this [topic](/TA_Help/Topics/ug_Resolving_unverfied_picture_checks.html).
+        {{<tip>}} In order to resolve unverified picture checks, refer to this [topic](/TA_Help/Topics/ug_Resolving_unverfied_picture_checks.html).
 
     -   An unverified picture check is one that:
         -   failed to find a match at the time of a [check picture](/TA_Help/Topics/../../TA_Automation/Topics/bia_check_picture.html) execution, either due to a non-existing named picture check or non-matching pictures, and
@@ -231,7 +231,7 @@ At the first run if there is no retained image for this check \(that is, no base
 
 ![](/images/TA_Automation/Images/Picture_Check_dlg.png)
 
-**Note:**
+{{<note>}}
 
 -   In the Picture Check dialog box, there are three possible icons representing picture checks and their current status:
 
@@ -262,7 +262,7 @@ The generated test result for this particular check action displays a status of 
 
 ![](/images/TA_Automation/Images/check_picture_res_new_baseline.png)
 
-**Note:** **Multiple baselines**
+{{<note>}} **Multiple baselines**
 
 A picture check is not limited to a single baseline image. Instead, one picture check can store multiple baselines. This is important for those cases in which more than a single bitmap presented by the AUT may be considered acceptable for the picture check, as it is often the case that a given picture file may be rendered with different resolutions on different sets of hardware. When multiple baselines exist for a given picture check, TestArchitect's criterion for a passed check is that any one of the stored baselines match the presented picture.
 
@@ -281,7 +281,7 @@ In this dialog box, you can select one of the following verification options:
 -   **Pass, but keep the original**: Report this check as Passed, but keep the original existing baselines. The test image is discarded.
 -   **Pass, save as a baseline variation**: Report this check as Passed, and save the test image as an additional baseline.
 
-**Note:**
+{{<note>}}
 
 -   If you select a baseline image node, the **Pass, overwrite this baseline** check box appears. Selecting this check box reports the check as Passed and replaces the selected baseline node with the current test image.![](/images/TA_Automation/Images/bia_check_picture_select_baseline.png)
 -   To highlight differences between the baseline picture against the current picture, select the **Highlight Differences** check box.
@@ -314,7 +314,7 @@ The obvious question here is *"What happens when a new image, one that fails to 
             ![](/images/TA4VS_Help/Images/test_result_unverified_node.png)
 
     -   In order to resolve unverified picture checks, refer to Resolving unverified picture checks.
--   **Restriction:** You will not be able to verify test results if you have executed tests from the command line or Microsoft Test Manager.
+-   {{<restriction>}} You will not be able to verify test results if you have executed tests from the command line or Microsoft Test Manager.
 
 
 

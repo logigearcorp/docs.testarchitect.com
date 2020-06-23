@@ -20,7 +20,7 @@ TestArchitect supports the following:
 |**Mobile operating systems**|-   iOS 7.x.<br>-   iOS 8.4, iOS 8.1.x, iOS 8.0.x,<br>-   iOS 9.3.x, iOS 9.2.x, iOS 9.1, iOS 9.0<br>-   iOS 10.3.x<br><br>|<br>
 |**Devices**|All types of iPhone and iPad.|
 
-**Note:**
+{{<note>}}
 
 -   If an app is designed specifically for an iPhone, that app can only be tested on an iPhone device. The same is true for iPad.
 

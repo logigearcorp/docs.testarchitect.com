@@ -53,7 +53,7 @@ Use of this action is supported on the following systems/platforms: Windows, Lin
     |6|and|Value is TRUE if and only if both sides of the and operator are TRUE.|
     |7|or|Value is TRUE if either side of the or operator is TRUE.|
 
-    **Note:** For the full list of operator precedence, see [here](/TA_Automation/Topics/aut_operator_precedence.html).
+    {{<note>}} For the full list of operator precedence, see [here](/TA_Automation/Topics/aut_operator_precedence.html).
 
 -   This action supports the [<ignore\>](/reuse/../TA_Automation/Topics/Ignoring_action.html) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 

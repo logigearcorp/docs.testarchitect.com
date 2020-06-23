@@ -97,7 +97,7 @@ The information is presented in the form of a tree structure, with nodes grouped
 5.  **Convert license**: Click to convert a floating license into a host-based license and vice-versa. \(Refer to [Converting a floating license into a host-based license](/TA_Administration/Topics/LS_TA_converting_floating_to_host_based.html) and [Converting a host-based license into a floating license](/TA_Administration/Topics/LS_TA_converting_host_based_to_floating.html) for details.\)
 6.  [Remove license](/TA_Administration/Topics/LS_TA_revoking.html): Click this button after selecting a license package node, to remove the licenses from the license server.
 
-    **Note:** Use **Remove license** to remove expired license packages.
+    {{<note>}} Use **Remove license** to remove expired license packages.
 
 7.  [Serve as Redundant License Server](/TA_Administration/Topics/LS_TA_managing_creating_redundant_license.html): Allows this license server to be designated as a redundant license server for a specified primary license server.
 8.  Refresh display: Updates the display to reflect any changes in status, such as license requests and grants, since the last display.

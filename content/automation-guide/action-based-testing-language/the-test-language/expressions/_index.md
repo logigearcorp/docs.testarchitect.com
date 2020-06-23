@@ -71,7 +71,7 @@ Upon execution of the above, the results reported are as follows:
 
 A cell expression consists of two classes of items: operands, which are things that are operated on \(such as numbers, strings and variables\), and operators, which specify what operations are to be performed. TestArchitect offers seven operators: six that operate on numbers and one that operates on strings.
 
-**Note:** While the set of expression operators in TestArchitect is relatively small, they are effectively supplemented by the many [functions](/TA_Automation/Topics/The_test_language_functions.html) available. Moreover, user-defined actions can be written to provide additional functionality, with operands assigned to arguments, and the [result \(or results\) returned](/TA_Tutorials/Topics/Return_values.html) to variables in other argument\(s\).
+{{<note>}} While the set of expression operators in TestArchitect is relatively small, they are effectively supplemented by the many [functions](/TA_Automation/Topics/The_test_language_functions.html) available. Moreover, user-defined actions can be written to provide additional functionality, with operands assigned to arguments, and the [result \(or results\) returned](/TA_Tutorials/Topics/Return_values.html) to variables in other argument\(s\).
 
 The following expression operators are available in TestArchitect.
 
@@ -93,7 +93,7 @@ The priority assigned to operators tells us which operations are performed befor
 
 **Parentheses** can be used to modify the order of operations in an expression. For instance, if we want the expression above to have its addition operation performed first, we need only surround the term with parentheses: `(4 + 3) * 2`.
 
-**Note:** For the full list of operator precedence, see [here](/TA_Automation/Topics/aut_operator_precedence.html).
+{{<note>}} For the full list of operator precedence, see [here](/TA_Automation/Topics/aut_operator_precedence.html).
 
 ## Automatic conversion of data types
 
@@ -122,7 +122,7 @@ By contrast, converting strings into numeric values is not always a sure thing. 
 
 During an editing session, entering the *\#* symbol in an empty argument cell triggers an autocomplete pop-up window containing a list of variables thought to be within scope at that position in the action lines. Use the Up and Down arrow keys to select one, should you need it inserted at that point. You can bring back the pop-up list at any further point in the expression by pressing Ctrl + Space.
 
-CAUTION:
+{{<caution>}}
 
 The variables listed in the autocomplete window are purely suggested variables. The editor cannot be certain that the variables it suggests will always be in scope at that point in the test run. It is up to you to ensure that a given variable inserted in an expression will indeed be visible \(within scope\) when the test is run.
 

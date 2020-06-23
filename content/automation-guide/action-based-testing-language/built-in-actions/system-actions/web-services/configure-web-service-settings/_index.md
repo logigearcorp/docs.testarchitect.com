@@ -71,7 +71,7 @@ This action may be used within the following project items:test modules and user
         |---|-----------|
         |hostname|        -   \(Required\) The proxy host to use.<br>|<br>
         |port|        -   \(Required\) The proxy port to use.<br>|<br>
-        |scheme|        -   \(Optional\) The scheme of the proxy.<br>         -   When this key's value is empty, by default, the value of HTTP is used.<br>        -   Supported scheme\(s\):<br>            -   HTTP<br><br>**Restriction:** [REST Assured](https://github.com/rest-assured/rest-assured), a Java framework for simplifying testing of REST based services built on top of HTTP Builder, and currently employed in TestArchitect, does not fully support HTTPS connection over proxy servers.<br><br>|<br>
+        |scheme|        -   \(Optional\) The scheme of the proxy.<br>         -   When this key's value is empty, by default, the value of HTTP is used.<br>        -   Supported scheme\(s\):<br>            -   HTTP<br><br>{{<restriction>}} [REST Assured](https://github.com/rest-assured/rest-assured), a Java framework for simplifying testing of REST based services built on top of HTTP Builder, and currently employed in TestArchitect, does not fully support HTTPS connection over proxy servers.<br><br>|<br>
         |username|        -   \(Optional\) The username sent for proxy authentications.<br>        -   When this argument's key is empty, this key is ignored during automation.<br>|<br>
         |password|        -   \(Optional\) The password sent for proxy authentications.<br>        -   When this argument's key is empty, this key is ignored during automation.<br>|<br>
 
@@ -87,7 +87,7 @@ This action may be used within the following project items:test modules and user
 
         ![](/images/TA_Automation/Images/JSON_proxy_configuration_system.png)
 
-        **Note:**
+        {{<note>}}
 
         -   REST Assured automatically determines system proxy by looking at Java settings, environment variables, browser settings and operating system settings.
         -   TestArchitect supports mixed mode. Specially, you might use the system hostname in combination with a user-defined port, or vice versa.
@@ -115,11 +115,11 @@ This action may be used within the following project items:test modules and user
 
             |Option|Description|
             |------|-----------|
-            |pathToKeyStore|            -   \(Required\) The path to the keystore to use when locating client certificates<br><br>**Remember:** Please ensure that you have the keystore file beforehand. Otherwise, please follow this [link](http://docs.oracle.com/javase/1.5.0/docs/tooldocs/solaris/keytool.html), and read "Keystore Creation".<br><br>            -   Supported keystore types \([learn more](http://docs.oracle.com/javase/6/docs/technotes/guides/security/StandardNames.html#KeyStore)\):<br>                -   **jceks**<br><br>The proprietary keystore implementation provided by the SunJCE provider.<br><br>                -   **jks**<br><br>The proprietary keystore implementation provided by the SUN provider.<br><br>                -   **pkcs12**<br><br>The transfer syntax for personal identity information as defined in PKCS12.<br><br>             -   To separate directories in JSON, use four consecutive backslashes \(\\\), or alternatively, use a single forward slash \(/\).<br>|<br>
+            |pathToKeyStore|            -   \(Required\) The path to the keystore to use when locating client certificates<br><br>{{<remember>}} Please ensure that you have the keystore file beforehand. Otherwise, please follow this [link](http://docs.oracle.com/javase/1.5.0/docs/tooldocs/solaris/keytool.html), and read "Keystore Creation".<br><br>            -   Supported keystore types \([learn more](http://docs.oracle.com/javase/6/docs/technotes/guides/security/StandardNames.html#KeyStore)\):<br>                -   **jceks**<br><br>The proprietary keystore implementation provided by the SunJCE provider.<br><br>                -   **jks**<br><br>The proprietary keystore implementation provided by the SUN provider.<br><br>                -   **pkcs12**<br><br>The transfer syntax for personal identity information as defined in PKCS12.<br><br>             -   To separate directories in JSON, use four consecutive backslashes \(\\\), or alternatively, use a single forward slash \(/\).<br>|<br>
             |keyStorePassword|            -   \(Optional\) The password for the keystore.<br>|<br>
             |pathToTrustStore|            -   \(Optional\) The path to trust store file.<br>            -   When this argument's key is empty, REST Assured automatically searches for a certificate file named cecarts, which resides in the security properties directory, java.home/lib/security, where java.home is the runtime environment's directory. \([Learn more](http://docs.oracle.com/javase/1.5.0/docs/tooldocs/solaris/keytool.html#cacerts).\)<br>             -   To separate directories in JSON, use four consecutive backslashes \(\\\), or alternatively, use a single forward slash \(/\).<br>|<br>
             |trustStorePassword|            -   \(Optional\) The password for the trust store.<br>            -   When this argument's key is empty, this key is ignored during automation.<br>|<br>
-            |port|            -   \(Optional\) The port for SSL connections.<br><br>**Note:** Most of the time you do not need to specify a port, since REST Assured will apply the configuration to the HTTPS port, defined in the URI.<br><br>            -   When this argument's key is empty, this key is ignored during automation.<br>|<br>
+            |port|            -   \(Optional\) The port for SSL connections.<br><br>{{<note>}} Most of the time you do not need to specify a port, since REST Assured will apply the configuration to the HTTPS port, defined in the URI.<br><br>            -   When this argument's key is empty, this key is ignored during automation.<br>|<br>
 
         -   A sample JSON string might look like the following.
 
@@ -132,7 +132,7 @@ This action may be used within the following project items:test modules and user
         {"cookies":{"<cookie-name>":"<cookie-value1>","<cookie-name2>":"<cookie-value2>","<cookie-name3>":"<cookie-value3>"}}
         ```
 
-        **Note:** A list of name-value pairs in the form of `"<cookie-name>":"<cookie-value>"`. Pairs in the list are separated by a comma.
+        {{<note>}} A list of name-value pairs in the form of `"<cookie-name>":"<cookie-value>"`. Pairs in the list are separated by a comma.
 
     -   A sample JSON string might look like the following.
 
@@ -324,7 +324,7 @@ Suppose that you'd like to specify the following configurations for the decoder.
     -   application/octet-stream=us-ascii
 2.  The content decoder to apply: No compression.
 
-    **Note:** When you do this the [Accept-Encoding](https://developer.mozilla.org/vi/docs/Web/HTTP/Headers/Accept-Encoding) header will be added automatically to the request and the response body will not be encoded. In this case, identity value, which indicates no compression, is enabled.
+    {{<note>}} When you do this the [Accept-Encoding](https://developer.mozilla.org/vi/docs/Web/HTTP/Headers/Accept-Encoding) header will be added automatically to the request and the response body will not be encoded. In this case, identity value, which indicates no compression, is enabled.
 
 
 JSON string resembles the following:

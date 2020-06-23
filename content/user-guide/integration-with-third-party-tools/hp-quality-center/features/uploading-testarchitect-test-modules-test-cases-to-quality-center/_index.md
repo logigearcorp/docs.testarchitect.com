@@ -31,7 +31,7 @@ To upload TestArchitect test modules/test cases to Quality Center, carry out the
 
 1.  In the TestArchitect explorer tree, right-click the **Tests** node, a test folder node, or a test module node to upload, and then click **External Tool** \> **HP ALM** \> **Upload to Quality Center** .
 
-    **Note:**
+    {{<note>}}
 
     -   TestArchitect entities whose names contain special characters \(see below\) can not be successfully uploaded to Quality Center. Ensure that you avoid these special characters when naming TestArchitect test folders, test modules, and test cases.
 
@@ -81,7 +81,7 @@ To upload TestArchitect test modules/test cases to Quality Center, carry out the
 
 2.  On the Upload Test Module dialog box, select the target folder in Quality Center to which you want to upload the test module/test case.
 
-    **Tip:**
+    {{<tip>}}
 
     -   It is recommended that you upload TestArchitect tests into a Quality Center test node with similar node structure.
     -   You can change the setting that governs whether TestArchitect uploads the same test automatically to Quality Center next time you request an upload by disabling the Upload Test Module dialog box. Refer to [Turning on/off automatic uploading](/TA_Help/Topics/Integration_QC_Turning_on_off_autoupload.html).

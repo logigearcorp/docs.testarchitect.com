@@ -57,11 +57,11 @@ Allowable delimiters between specifiers are hyphen \( - \), forward slash \( / \
 
 A value set is a user-defined set of allowable values, also known as the value domain. In the editor, when you wish to enter data into a cell of an argument of type Value Set, you have access to a drop-down list of all elements in the value domain.
 
-**Tip:** When focus is on the cell, you may access the drop-down list by hitting Spacebar.
+{{<tip>}} When focus is on the cell, you may access the drop-down list by hitting Spacebar.
 
 Alternatively, the list may be brought up by double- or triple-clicking in the cell, depending on whether focus is already on that field. You may then select a value from the drop-down list, or type a value directly into the field.
 
-**Note:** In some cases \(depending on the argument modifier constraints\), the value domain is essentially "open": values outside the Value Set list are treated as acceptable, and in other cases, they may be unacceptable. \(However, the only real difference is that values outside the value set appear red in the editor. Unless there is specific language in the user-defined action's action lines that catches non-domain values during execution, they are treated normally.\)
+{{<note>}} In some cases \(depending on the argument modifier constraints\), the value domain is essentially "open": values outside the Value Set list are treated as acceptable, and in other cases, they may be unacceptable. \(However, the only real difference is that values outside the value set appear red in the editor. Unless there is specific language in the user-defined action's action lines that catches non-domain values during execution, they are treated normally.\)
 
 The **Argument Modifier** field of a Value Set argument is where you specify the value domain. Your modifier may be as straightforward as a simple list `(1, 2, 3, 4, 5)`, or can involve complex expressions in which the value domain depends on the contents of one or more other argument fields. For example, for a given action, an argument named car model might have different value domains, depending on the existing contents of the car type \(`standard`, `compact`, `premium`, or `minivan`\) argument.
 
@@ -81,9 +81,9 @@ Conditionals, in which the value domains are determined by the values in other a
 |4|<|less than|
 |4|<=|less than or equal to|
 
-**Note:** For the full list of operator precedence, see [here](/TA_Automation/Topics/aut_operator_precedence.html).
+{{<note>}} For the full list of operator precedence, see [here](/TA_Automation/Topics/aut_operator_precedence.html).
 
-**Important:**
+{{<important>}}
 
 -   When a conditional statement is required, the condition and the values associated with that condition must be separated by a colon \( : \). For example: `car type=standard: Monte Carlo, Grand Am, Mustang Coupe`
 -   If there are multiple conditional statements, they are delimited by semicolons \( ; \).
@@ -130,7 +130,7 @@ Additionally, if your project subscribes to any other projects, the list include
 
 ![](/images/TA_Help/Images/interface_entity_red_blue.png)
 
-**Note:**
+{{<note>}}
 
 -   Any name conflicts \(same-named interface entities existing in both the working project and a supplier project\) are resolved in favor of the working project.
 -   The **Argument modifier** field is not applicable to arguments of Interface Entity type.
@@ -139,7 +139,7 @@ Additionally, if your project subscribes to any other projects, the list include
 
 This argument type is used to pass the name of an interface element to an action. When an argument has the Interface Element type, you are presented with a drop-down list of interface elements to choose from. The list includes all interface elements defined in the project.
 
-**Note:** The **Argument modifier** field is not applicable to arguments of Interface Element type.
+{{<note>}} The **Argument modifier** field is not applicable to arguments of Interface Element type.
 
 ## Hiding arguments that use default values
 

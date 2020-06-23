@@ -143,7 +143,7 @@ An example of a list view of actions:
 
 The list view can be used to efficiently perform operations like cut, copy or delete. The list may be sorted by clicking on the header of the column you wish to sort on. By selecting a row and pressing Ctrl + C to copy, the row may be pasted into another program, such as a spreadsheet, for further analysis. \(Please note that, while you can also right-click an item in the list and select Copy from the context menu, this is intended for copying items *within* TestArchitect, and does not allow for pasting the text into external programs.\)
 
-**Note:** Refer to [list view](/TA_Help/Topics/Projects_and_tests_list_view.html) for further information.
+{{<note>}} Refer to [list view](/TA_Help/Topics/Projects_and_tests_list_view.html) for further information.
 
 ## Project item displays
 

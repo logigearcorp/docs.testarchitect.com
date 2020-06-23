@@ -47,7 +47,7 @@ The action is automatically inserted into your test, along with appropriate inte
 
 {{<note>}}
 
--   <div id="li.actions_list.user-defined"></div>For controls that have a user-defined TA class, TestArchitect makes no attempt to guess the applicable actions. However, it is indeed possible to have the **applicable actions** list pop up for such controls – you just have to supply the list of actions yourself \(in advance, of course\). For such controls, the list may include [built-in actions](/TA_Automation/Topics/bia_Built_in_actions.html), [user-defined actions](/reuse/reuse.High_level_actions.html) and [user-scripted actions](/TA_Tutorials/Topics/Tutorial_Scripting_actions_in_other_languages.html)[1](#fntarg_1). \(See [Specifying action suggestion for user-defined TA classes](/TA_Help/Topics/ug_applicable_actions_user_defined_class.html) for details\).
+-   {{<anchor li.actions_list.user-defined >}}For controls that have a user-defined TA class, TestArchitect makes no attempt to guess the applicable actions. However, it is indeed possible to have the **applicable actions** list pop up for such controls – you just have to supply the list of actions yourself \(in advance, of course\). For such controls, the list may include [built-in actions](/TA_Automation/Topics/bia_Built_in_actions.html), [user-defined actions](/reuse/reuse.High_level_actions.html) and [user-scripted actions](/TA_Tutorials/Topics/Tutorial_Scripting_actions_in_other_languages.html)[1](#fntarg_1). \(See [Specifying action suggestion for user-defined TA classes](/TA_Help/Topics/ug_applicable_actions_user_defined_class.html) for details\).
 -   For any control belonging to a built-in TA class, the Content assist window's **applicable actions** list is limited to [built-in actions](/TA_Automation/Topics/bia_Built_in_actions.html). There is no way to customize that list by adding user-scripted or user-defined actions.
 -   Should you accidentally drop a UI element node into an empty cell that is not in column **A**, e.g. column **B**, the Content Assist window does not appear. Instead, only the TA name of the item is inserted into that cell.
 
@@ -55,7 +55,7 @@ The action is automatically inserted into your test, along with appropriate inte
 
 
 
-<div id="fntarg_1"></div>
-<div id="fnsrc_1"></div>
+<di{{<anchor fntarg_1 >}}
+<di{{<anchor fnsrc_1 >}}
 [1](#fnsrc_1) This only applies to user-scripted actions that are “front- ended” by user-defined [stub actions](/TA_Tutorials/Topics/Creating_the_test_case_and_stub_action.html).
 

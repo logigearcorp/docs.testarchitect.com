@@ -60,7 +60,7 @@ This topic describes the steps required for installing and configuring Oracle Da
 
         ![](/images/TA_Automation/Images/oracle_data_source_add.png)
 
-        **Note:** If there are no options in the **TNS Service Name** drop-down, you can add a system environment variable with following value.
+        {{<note>}} If there are no options in the **TNS Service Name** drop-down, you can add a system environment variable with following value.
 
         ```
         set TNS_ADMIN=%ORACLE HOME%\network\admin
