@@ -19,7 +19,7 @@ The Diff Tool can be used to perform comparisons between top-level nodes, folder
 -   Interfaces
 -   Picture Checks
 
-{{<important>}} Note that, in the case of image comparisons, only fully matching images \(on a pixel-by-pixel basis\) are treated as identical. \([Learn more](/TA_Automation/Topics/aut_image_comparison_techniques.html#section_bpj_xkg_wv).\)
+    {{<important>}} Note that, in the case of image comparisons, only fully matching images \(on a pixel-by-pixel basis\) are treated as identical. \([Learn more](/TA_Automation/Topics/aut_image_comparison_techniques.html#section_bpj_xkg_wv).\)
 
 
 {{<note>}} The Diff Tool supports folder comparisons not just within a single repository, but across different repositories and repository servers.
@@ -32,7 +32,7 @@ Important folder comparison/synchronizing features are indicated in this figure.
 
     Save the changes you have made.
 
-{{<note>}} The changes you make, such as folder synchronization, only take immediate effect in temporary memory. Once you click the Save button, those changes are saved into repositories.
+    {{<note>}} The changes you make, such as folder synchronization, only take immediate effect in temporary memory. Once you click the Save button, those changes are saved into repositories.
 
 2.  **Previous Difference**:
 
@@ -40,7 +40,7 @@ Important folder comparison/synchronizing features are indicated in this figure.
 
     **Fastpath:** F6.
 
-{{<note>}} This button is disabled when the currently selected line is at or above the first detected difference in the files.
+    {{<note>}} This button is disabled when the currently selected line is at or above the first detected difference in the files.
 
 3.  **Next Difference**:
 
@@ -48,7 +48,7 @@ Important folder comparison/synchronizing features are indicated in this figure.
 
     **Fastpath:** F7.
 
-{{<note>}} This button is disabled when the currently selected line is at or below the first detected difference in the files.
+    {{<note>}} This button is disabled when the currently selected line is at or below the first detected difference in the files.
 
 4.  **Undo**:
 
@@ -64,7 +64,7 @@ Important folder comparison/synchronizing features are indicated in this figure.
 
     **Fastpath:** F5.
 
-{{<note>}}
+    {{<note>}}
 
     -   If the tool detects unsaved changes in either of the currently displayed nodes or folders, the following warning dialog box appears:
 
@@ -82,14 +82,14 @@ Important folder comparison/synchronizing features are indicated in this figure.
 
     -   **Expand All**: Expand all folders on the Source and Target panels.
     -   **Collapse All**: Collapse all folders on the Source and Target panels.
-{{<tip>}}
+    {{<tip>}}
 
     -   You can collapse a folder in which you are not interested by clicking the plus \(+\) button to the left of its icon. Click again to expand.
     -   To expand/collapse all child nodes belonging to a specific folder, simply right-click the folder, and then select **Expand All**/**Collapse All**.
 8.  **Hide Options**:
     -   **Hide Unchanged Rows**: Hide/show unchanged items and folders.
 
-{{<note>}} By default, Diff tool omits all unchanged lines of text to avoid showing irrelevant information.
+        {{<note>}} By default, Diff tool omits all unchanged lines of text to avoid showing irrelevant information.
 
     -   **Hide Empty Folders**: Hide/show all empty folders on the Source and Target panels.
 9.  **View Options**:
@@ -131,7 +131,7 @@ Important folder comparison/synchronizing features are indicated in this figure.
 
     Paired project items of the source and target panels \(that is, those that exist in the same place in the respective hierarchies, have identical names, and identical contents\) are, by default, not shown. \(This is to avoid displaying excessive and unnecessary lines in the panels.\)
 
-{{<note>}} To override the default and display the unchanged elements of each hierarchy, select **Hide Options** \> **Hide Unchanged Rows** to toggle that option.
+    {{<note>}} To override the default and display the unchanged elements of each hierarchy, select **Hide Options** \> **Hide Unchanged Rows** to toggle that option.
 
 18. **Status**: \(including change summary\)
 

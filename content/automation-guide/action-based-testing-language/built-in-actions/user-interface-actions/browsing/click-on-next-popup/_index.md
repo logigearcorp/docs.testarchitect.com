@@ -32,7 +32,7 @@ This action may be used within the following project items:test modules and user
     -   For Google Chrome on Android, refer to [Handling JavaScript popups on Chrome Android](/TA_Automation/Topics/aut_app_testing_Android_apps_popups.html) for details.
 -   Because it is not possible for TestArchitect to interface with JavaScript popups in a conventional manner, this action suppresses the display of the popup to which it is targeted.
 
-   {{<caution>}}
+    {{<{{<caution>}}>}}
 
     The actual appearance of a popup on your AUT's display during testing will prevent automation from proceeding. If you do indeed see a popup, probable causes are:
 

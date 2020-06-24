@@ -37,7 +37,7 @@ This topic categorizes some limitations you might encounter in testing web appli
     -   Use the [fire event](/TA_Automation/Topics/bia_fire_event.html) built-in action to apply an event to the control. To apply multiple events, use multiple fire event actions and then group them into a user-defined action for your convenience.
     -   Alternatively, program a separate JavaScript file to apply events. During testing, execute the JavaScript file by using the [exec script](/TA_Automation/Topics/bia_exec_script.html) built-in action.
 
-{{<note>}} In order to specify events and to program the JavaScript code, you must be familiar with event specification and JavaScript syntax, respectively. Tutorials on these subjects are beyond the scope of this help system. For more information, the following resources are helpful:
+        {{<note>}} In order to specify events and to program the JavaScript code, you must be familiar with event specification and JavaScript syntax, respectively. Tutorials on these subjects are beyond the scope of this help system. For more information, the following resources are helpful:
 
         -   [HTML DOM Events](http://www.w3schools.com/jsref/dom_obj_event.asp).
         -   [JavaScript Tutorial](http://www.w3schools.com/js/).
@@ -50,7 +50,7 @@ This topic categorizes some limitations you might encounter in testing web appli
 
     **Solution**: You may use the [wait for the control](/TA_Automation/Topics/bia_wait_for_control.html) built-in action to wait for the availability of a given control on the target web page before invoking navigate.
 
-{{<tip>}} Refer to [Interaction between navigate and popup-handling actions](/TA_Automation/Topics/aut_app_testing_mobile_web_navigate.html) for details.
+    {{<tip>}} Refer to [Interaction between navigate and popup-handling actions](/TA_Automation/Topics/aut_app_testing_mobile_web_navigate.html) for details.
 
 -   **Problem**: **TestArchitect may clear cookies on a wrong page session.**
 
@@ -58,7 +58,7 @@ This topic categorizes some limitations you might encounter in testing web appli
 
     **Solution**: You may use the [wait for the control](/TA_Automation/Topics/bia_wait_for_control.html) built-in action to wait for the availability of a given control on the target web page before invoking delete cookies.
 
-{{<tip>}} Refer to [Interaction between navigate and delete cookies built-in action](/TA_Automation/Topics/aut_app_testing_mobile_web_navigate_delete_cookies.html) for details.
+    {{<tip>}} Refer to [Interaction between navigate and delete cookies built-in action](/TA_Automation/Topics/aut_app_testing_mobile_web_navigate_delete_cookies.html) for details.
 
 
 1.  [Interaction between navigate and popup-handling actions](/TA_Automation/Topics/aut_app_testing_mobile_web_navigate.html)  

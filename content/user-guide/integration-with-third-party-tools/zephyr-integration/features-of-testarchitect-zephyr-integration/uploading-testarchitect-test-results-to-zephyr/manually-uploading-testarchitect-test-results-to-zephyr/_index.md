@@ -22,7 +22,7 @@ Ensure that you have already taken the following steps:
 -   [Mapped the TestArchitect project containing the test cases of interest to a Zephyr project](/TA_Help/Topics/ug_Zephyr_mapping_projects.html).
 -   In Zephyr, added the tests to a test cycle and assigned them to a user.
 
-{{<note>}} Test cycles, and the test phases which comprise them, are Zephyr entities and are beyond the scope of this help system. Further information on them is available at [https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/263554868/Test+Planning](https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/263554868/Test+Planning).
+    {{<note>}} Test cycles, and the test phases which comprise them, are Zephyr entities and are beyond the scope of this help system. Further information on them is available at [https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/263554868/Test+Planning](https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/263554868/Test+Planning).
 
 
 {{<restriction>}}

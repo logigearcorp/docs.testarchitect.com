@@ -38,13 +38,13 @@ java -Dfile.encoding=UTF-8 -jar TAImportExportTool.jar --ImportToPath [--server<
 
     \(Optional, default = localhost\) Full hostname or IP address of the repository server hosting the repository into which the item is to be imported.
 
-{{<note>}} If this argument is not defined, localhost is used as the default.
+    {{<note>}} If this argument is not defined, localhost is used as the default.
 
 -   **--port <value\>**
 
     \(Optional, default = 53400\) Port number of the repository server.
 
-{{<note>}}
+    {{<note>}}
 
     -   If this argument is set to 0 or not defined, the default port number 53400 is used.
     -   If port number of the source repository server has been [changed](/TA_Administration/Topics/Repo_changing_port.html) from its TestArchitect default of 53400, ensure that the correct port number is specified.
@@ -52,7 +52,7 @@ java -Dfile.encoding=UTF-8 -jar TAImportExportTool.jar --ImportToPath [--server<
 
     User name with which to log in to repository.
 
-{{<note>}} If the user namecontains any spaces, enclose it between a pair of double quotation marks.
+    {{<note>}} If the user namecontains any spaces, enclose it between a pair of double quotation marks.
 
 -   **--pwd <value\>**
 
@@ -62,19 +62,19 @@ java -Dfile.encoding=UTF-8 -jar TAImportExportTool.jar --ImportToPath [--server<
 
     Name of the target repository.
 
-{{<note>}} If the repository namecontains any spaces, enclose it between a pair of double quotation marks..
+    {{<note>}} If the repository namecontains any spaces, enclose it between a pair of double quotation marks..
 
 -   **--projectName <value\>**
 
     Name of the target TestArchitect project.
 
-{{<note>}} If the project namecontains any spaces, enclose it between a pair of double quotation marks.
+    {{<note>}} If the project namecontains any spaces, enclose it between a pair of double quotation marks.
 
 -   **--sourceFile <value\>**
 
     Path to file that is to be imported.
 
-{{<note>}}
+    {{<note>}}
 
     -   Network paths are also supported.
     -   If the pathcontains any spaces, enclose it between a pair of double quotation marks.
@@ -87,7 +87,7 @@ java -Dfile.encoding=UTF-8 -jar TAImportExportTool.jar --ImportToPath [--server<
 
     For example: /Tests/Action-based Testing Basics/Data Driven Tests
 
-{{<note>}}
+    {{<note>}}
 
     -   The specified root node must match the type of project item being imported. \(e.g., **Data** for data sets\)
     -   In the case of importing test cases, the path must end with the name of an existing test module.
@@ -97,13 +97,13 @@ java -Dfile.encoding=UTF-8 -jar TAImportExportTool.jar --ImportToPath [--server<
 
     \(Optional, default = false\) Specify whether the existing project item or test case, if any, should be overwritten.
 
-{{<note>}} If this parameter is not specified, or its value is empty, its value defaults to false.
+    {{<note>}} If this parameter is not specified, or its value is empty, its value defaults to false.
 
 -   **--includePictureChecks <yes\|no\>**
 
     \(Optional, default = yes; applicable only to import of test module\) Specifies whether the regular picture checks belonging to the source test module are to be included.
 
-{{<note>}}
+    {{<note>}}
 
     -   This parameter is only applicable for test modules. If the target item is not a test module, this parameter, if declared, is simply ignored.
     -   Only a .zip file containing an exported test module can include that test module's picture checks. Hence a value of yes for this parameter is only effectual when the -sourceFile parameter specifies a .zip file.

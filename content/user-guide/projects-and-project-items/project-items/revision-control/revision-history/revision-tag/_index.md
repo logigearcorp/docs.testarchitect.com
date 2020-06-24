@@ -25,13 +25,13 @@ To associate an AUT version with a specific revision, do the following:
 
     2.  Click the **Browse** ![](/images/TA_Help/Images/btn.browse-ellipsis.01.png) button to look for a suitable revision.
 
-{{<note>}} Alternatively, in the **Revision Timestamp** box, you may directly enter a revision you wish to associate with. The format of a revision, or timestamp is `MM/dd/yyyy hh:mm:ss.mmm`, for example: 04/09/2015 22:04:27.446. However, it is not recommended that you enter the timestamp by hand.
+        {{<note>}} Alternatively, in the **Revision Timestamp** box, you may directly enter a revision you wish to associate with. The format of a revision, or timestamp is `MM/dd/yyyy hh:mm:ss.mmm`, for example: 04/09/2015 22:04:27.446. However, it is not recommended that you enter the timestamp by hand.
 
     3.  In the **Select Timestamp** dialog box, select a revision with which you want to associate the given version.
 
         ![](/images/TA_Help/Images/Select_timestamp_dlg.png)
 
-{{<important>}} It is not possible to select multiple revisions: only one revision timestamp may be associated with a given version node. On the other hand, a given revision may be associated with any number of version nodes, and this can be accomplished in a single operation \(see Option \#2 below\).
+        {{<important>}} It is not possible to select multiple revisions: only one revision timestamp may be associated with a given version node. On the other hand, a given revision may be associated with any number of version nodes, and this can be accomplished in a single operation \(see Option \#2 below\).
 
     4.  Click **OK**.
 
@@ -45,7 +45,7 @@ To associate an AUT version with a specific revision, do the following:
 
     1.  Invoke the Revision History dialog box by right-clicking the repository, the project, or the project item node in the TestArchitect explorer tree.
 
-{{<note>}} Only the following project items have revision control:
+        {{<note>}} Only the following project items have revision control:
 
         -   [User-defined action](/reuse/reuse.High_level_actions.html)
         -   [Test module](/TA_Help/Topics/Create_test_module.html)
@@ -63,7 +63,7 @@ To associate an AUT version with a specific revision, do the following:
 
         ![](/images/TA_Help/Images/Assign_to_version_2.png)
 
-{{<important>}}
+        {{<important>}}
 
         -   You can select multiple versions belonging to a single system. However, you are prohibited from selecting version nodes belonging to different systems.
         -   Note that a version node can be associated with only one revision at any given time. If you select a version that is already assigned to another revision, you are prompted with the following warning:

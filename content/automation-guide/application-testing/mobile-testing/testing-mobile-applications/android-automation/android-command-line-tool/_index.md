@@ -26,7 +26,7 @@ The Android command line tool allows you to perform the following operations on 
 -   Launch an installed application
 -   Uninstall a re-signed application
 
-{{<remember>}}
+    {{<remember>}}
 
     The Android command line tool does not have sufficient privileges to remove a device admin application. It is recommended that you deactivate the device admin rights of the application to allow the tool to remove it. To deactivate device admin rights, carry out the following procedure:
 

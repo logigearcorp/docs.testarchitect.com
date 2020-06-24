@@ -26,7 +26,7 @@ To modify a test objective, follow these steps:
     -   **Title**: Title of the test objective.
     -   **Recent result:** Result of the test objective.
 
-{{<note>}}
+        {{<note>}}
 
         -   The **Recent result** field is automatically filled in from the results of parent test cases [added to the repository](/TA_Help/Topics/Test_result_storing.html).
         -   This field may also be manually edited, allowing you to override the value that the system supplies.

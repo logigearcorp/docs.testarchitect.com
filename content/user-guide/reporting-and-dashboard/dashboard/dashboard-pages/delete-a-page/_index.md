@@ -24,7 +24,7 @@ To delete a Dashboard page:
 
     ![](/images/TA_Help/Images/Dashboard_delete_page.png)
 
-{{<restriction>}} The **Overview** and **Execution Dashboard** pages are not deletable.
+    {{<restriction>}} The **Overview** and **Execution Dashboard** pages are not deletable.
 
 4.  On the page removal dialog box, click **OK** to confirm that you want to remove the page from the Dashboard session.
 

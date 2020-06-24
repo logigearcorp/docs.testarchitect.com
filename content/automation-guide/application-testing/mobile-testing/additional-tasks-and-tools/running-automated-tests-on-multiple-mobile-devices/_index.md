@@ -22,7 +22,7 @@ To execute an automated test on multiple mobile devices:
 
     ![](/images/TA_Automation/Images/Select_multiple_mobile_devices.png)
 
-{{<tip>}} The device list for a controller is loaded only once, when the node of that controller is expanded for the first time. Collapsing and expanding the controller node will not refresh its device list. To update the device list for a specific controller, right-click on that controller node and select **Refresh** from the context menu.
+    {{<tip>}} The device list for a controller is loaded only once, when the node of that controller is expanded for the first time. Collapsing and expanding the controller node will not refresh its device list. To update the device list for a specific controller, right-click on that controller node and select **Refresh** from the context menu.
 
 4.  Click **OK** on the Select Controller/Device dialog box, then select **Execute** on the Execute Test dialog box to execute the automated test.
 

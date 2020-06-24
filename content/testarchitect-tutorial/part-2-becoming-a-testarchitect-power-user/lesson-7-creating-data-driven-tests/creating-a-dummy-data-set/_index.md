@@ -12,7 +12,7 @@ To connect a test to an external data source, you must create a dummy data set t
 
 Although your test will receive its data from an external file, the action lines must still reference a data set. This establishes the names of the variables that the incoming values will be loaded into. To do this, you create a "dummy" data set. Create this data set with the same headers you used in the previous lesson. Add one or more rows of test data to the data set.
 
-1.{{<note>}} Rather than create a new data set, copy the data set you created in the previous lesson.
+1.  {{<note>}} Rather than create a new data set, copy the data set you created in the previous lesson.
 
     In the TestArchitect explorer tree, expand the **Data** node. Right-click **Rented Cars** and select **Copy**.
 

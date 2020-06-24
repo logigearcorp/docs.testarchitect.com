@@ -22,7 +22,7 @@ If you'd like to manually launch the Scrum Board sample application and log in t
 
     -   Windows platform: TA\_INSTALL\_DIR\\samples\\ScrumBoard.
     -   Linux platform: /usr/local/logigear/testarchitect/samples/ScrumBoard.
-{{<restriction>}} macOS platform: Scrum Board is not currently supported on Safari running on macOS.
+    {{<restriction>}} macOS platform: Scrum Board is not currently supported on Safari running on macOS.
 
 2.  In the **Username** box, enter John.
 3.  In the **Password** box, enter tester.

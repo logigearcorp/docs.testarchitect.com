@@ -10,7 +10,7 @@ keywords: "mobile web testing, Safari, Safari testing, iOS"
 
 With TestArchitect, automated tests may be created and run on web applications running within Safari on iOS.
 
-{{<caution>}}
+{{<{{<caution>}}>}}
 
 -   Testing Safari on iOS must be done via USB cable connection.
 -   TestArchitect does not support capturing native iOS dialog boxes - that is, ones that, regardless of origin, are posted by the operating system rather than directly from the application. \(An example of such a dialog box would be one displaying the message <app name\> Would Like To Use Your Current Location, which originates from an application submitting a request to iOS, which then presents the popup.\)

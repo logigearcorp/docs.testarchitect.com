@@ -15,7 +15,7 @@ There are three ways in which an action can be automated:
 -   An action may be built-in: TestArchitect's automation libraries support these actions for most of the common platforms. These built-in actions are also considered system-level actions.
 -   A new action may be created and built-up from existing actions in an action definition. Such an action is known as a user-defined action.
 
-{{<note>}} A user-defined action definition can be comprised of other user-defined actions, built-in actions, user-scripted actions, or any mixture of the above.
+    {{<note>}} A user-defined action definition can be comprised of other user-defined actions, built-in actions, user-scripted actions, or any mixture of the above.
 
 -   Additional actions can be implemented using a scripting or programming language, in a harness \(see [Lesson \#8: Using an automation harness](/TA_Tutorials/Topics/Tutorial_Scripting_actions_in_other_languages.html)\). These are known as user-scripted actions..
 

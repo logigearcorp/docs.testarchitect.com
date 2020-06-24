@@ -16,7 +16,7 @@ You have two options for exporting your test results to HTML:
 
     1.  Select the local test results that you want to export to an HTML file.
 
-{{<tip>}} You can select local test results in the TestArchitect explorer tree, or on the [local test result list view](/TA_Help/Topics/Listview_results_local.html).
+        {{<tip>}} You can select local test results in the TestArchitect explorer tree, or on the [local test result list view](/TA_Help/Topics/Listview_results_local.html).
 
     2.  Invoke the Save Result\(s\) To File dialog box by doing one of the following:
 
@@ -40,12 +40,12 @@ You have two options for exporting your test results to HTML:
 
         You are first required to customize the default XSLT template, which means you need to modify [a set of XSL files](/TA_Help/Topics/ug_customizing_XML_report.html) to suit your desired view layout. \(See more examples [here](/TA_Help/Topics/ug_customizing_XML_report.html).\)
 
-{{<attention>}} When your customized XSLT is invalid, the default XSLT template, located at the following places, is automatically applied.
+        {{<attention>}} When your customized XSLT is invalid, the default XSLT template, located at the following places, is automatically applied.
 
         -   Windows: \{TA\_INSTALL\_DIR\}\\templates\\xsl\\
         -   Linux: /usr/local/logigear/testarchitect/templates/xsl/
         -   macOS: /Applications/TestArchitect/templates/xsl/
-{{<note>}} if you are using a repository on another machine, make sure that the template you choose is accessible to the repository server under the account that starts the repository server service. It means that the template needs placing either on the repository server or in a network shared folder. Otherwise, the default template will be used.
+        {{<note>}} if you are using a repository on another machine, make sure that the template you choose is accessible to the repository server under the account that starts the repository server service. It means that the template needs placing either on the repository server or in a network shared folder. Otherwise, the default template will be used.
 
     7.  To include all captured screenshots in the exported test result, select the **Include screenshots** check box. With this option chosen, select one of the following:
 
@@ -89,12 +89,12 @@ You have two options for exporting your test results to HTML:
 
         You are first required to customize the default XSLT template, which means you need to modify [a set of XSL files](/TA_Help/Topics/ug_customizing_XML_report.html) to suit your desired view layout. \(See more examples [here](/TA_Help/Topics/ug_customizing_XML_report.html).\)
 
-{{<attention>}} When your customized XSLT is invalid, the default XSLT template, located at the following places, is automatically applied.
+        {{<attention>}} When your customized XSLT is invalid, the default XSLT template, located at the following places, is automatically applied.
 
         -   Windows: \{TA\_INSTALL\_DIR\}\\templates\\xsl\\
         -   Linux: /usr/local/logigear/testarchitect/templates/xsl/
         -   macOS: /Applications/TestArchitect/templates/xsl/
-{{<note>}} if you are using a repository on another machine, make sure that the template you choose is accessible to the repository server under the account that starts the repository server service. It means that the template needs placing either on the repository server or in a network shared folder. Otherwise, the default template will be used.
+        {{<note>}} if you are using a repository on another machine, make sure that the template you choose is accessible to the repository server under the account that starts the repository server service. It means that the template needs placing either on the repository server or in a network shared folder. Otherwise, the default template will be used.
 
     9.  To include all captured screenshots in the exported test result, select the **Include screenshots** check box. With this option chosen, select one of the following:
 
@@ -104,7 +104,7 @@ You have two options for exporting your test results to HTML:
 
     TestArchitect saves the settings in the Advanced Setting tab and executes the test\(s\). Once execution is complete, the test results are automatically exported to an HTML file at the specified location.
 
-{{<note>}} If you opt to generate a batch file \(rather than execute the test immediately\), the following parameters are written to the generated file. \([Learn more](/TA_Help/Topics/Test_exec_cmd.html#plentry.paramters_html)\).
+    {{<note>}} If you opt to generate a batch file \(rather than execute the test immediately\), the following parameters are written to the generated file. \([Learn more](/TA_Help/Topics/Test_exec_cmd.html#plentry.paramters_html)\).
 
     -   **-html**
 

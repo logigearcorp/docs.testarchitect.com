@@ -16,13 +16,13 @@ Before installing TestArchitect Agent on an iOS device, ensure the host macOS ma
 
 -   A provisional profile file \(\*.mobileprovision\) containing appropriate keys for your iOS device.
 
-{{<note>}}
+    {{<note>}}
 
     -   Your provisional profile must be type of iOS App Development, not type Distribution.
     -   If iOS apps to be tested require permissions \(for instance, Push Notifications, In-App Purchases, Game Center, etc.\), your provisional profile must have the corresponding permissions.
 -   A development private key file \(\*.p12\) containing appropriate keys for your test machine. \(These will be imported into Keychain Access.\) Alternatively, a machine with the development private key file already imported.
 
-{{<note>}}
+    {{<note>}}
 
     -   Ensure that the development private key file and the provisional profile file have been created from the same developer account.
     -   Refer to Apple's [App Distribution Guide](http://developer.apple.com/library/mac/#documentation/IDEs/Conceptual/AppDistributionGuide/Introduction/Introduction.html%23//apple_ref/doc/uid/TP40012582) for more information on how to request developer certificates.
@@ -30,7 +30,7 @@ Before installing TestArchitect Agent on an iOS device, ensure the host macOS ma
 -   Xcode Command Line Tools installed, to run the resign.sh shell script.
 -   iTunes 11.1 or later installed.
 
-{{<important>}} iTunes 12.7 no longer has an App store, which means you no longer can install .ipa iOS apps within iTunes \([learn more](https://www.macworld.com/article/3230135/software-entertainment/how-to-install-itunes-1263-and-replace-itunes-127.html)\). If you want to keep your ways, you can either install iTunes 12.6.3 and get back access to the App store, or use the special version of iTunes at [here](https://support.apple.com/en-gb/HT208079).
+    {{<important>}} iTunes 12.7 no longer has an App store, which means you no longer can install .ipa iOS apps within iTunes \([learn more](https://www.macworld.com/article/3230135/software-entertainment/how-to-install-itunes-1263-and-replace-itunes-127.html)\). If you want to keep your ways, you can either install iTunes 12.6.3 and get back access to the App store, or use the special version of iTunes at [here](https://support.apple.com/en-gb/HT208079).
 
 -   Turn off the Energy Saver sleep and idle modes. Specifically, set the **Computer sleep** slider to Never. \([Learn more](https://support.apple.com/en-gb/HT201714).\) This ensures that your macOS machine does not automatically slip into a sleep or idle state while the automated test is running, which would cause the test to fail.
 

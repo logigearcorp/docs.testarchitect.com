@@ -48,7 +48,7 @@ java -jar TAConvertWinFormsClassMapping.jar --ConvertWinFormsClassMapping
 
     User name with which to log in to repository.
 
-{{<note>}} If the user namecontains any spaces, enclose it between a pair of double quotation marks.
+    {{<note>}} If the user namecontains any spaces, enclose it between a pair of double quotation marks.
 
 -   **--pwd <value\>**
 
@@ -58,13 +58,13 @@ java -jar TAConvertWinFormsClassMapping.jar --ConvertWinFormsClassMapping
 
     Name of the source repository.
 
-{{<note>}} If the repository namecontains any spaces, enclose it between a pair of double quotation marks.
+    {{<note>}} If the repository namecontains any spaces, enclose it between a pair of double quotation marks.
 
 -   **--projectName <value\>**
 
     Name of the source TestArchitect project.
 
-{{<note>}} If the project namecontains any spaces, enclose it between a pair of double quotation marks.
+    {{<note>}} If the project namecontains any spaces, enclose it between a pair of double quotation marks.
 
 -   **--source<value\>**
 
@@ -74,13 +74,13 @@ java -jar TAConvertWinFormsClassMapping.jar --ConvertWinFormsClassMapping
 
     For example: /Interfaces/Car Rental
 
-{{<note>}} If the source pathcontains any spaces, enclose it between a pair of double quotation marks.
+    {{<note>}} If the source pathcontains any spaces, enclose it between a pair of double quotation marks.
 
 -   **--destination<value\>**
 
     Host file system's folder location into which the WinForms class mapping file is to be written.
 
-{{<note>}}
+    {{<note>}}
 
     -   No file name is required. In its absence, the generated WinForm class mapping file is automatically named with the following format: \[Interface Name\]\_Class\_map\_\[yyyy-MM-dd HH:mm:ss.SS\]. For example: Car Rental\_Class\_map\_2016-04-19 16:57:59.921.txt
     -   Network paths are also supported.

@@ -25,7 +25,7 @@ To attach a test result in HTML format to a JIRA bug, complete the following ste
 
 1.  In the TestArchitect explorer tree, open a test result \(repository-based or local\) which you wish to attach to a JIRA bug by double-clicking the test result's node.
 
-{{<note>}} While a JIRA bug can accept multiple attachments, you are allowed to attach only a single file at a time.
+    {{<note>}} While a JIRA bug can accept multiple attachments, you are allowed to attach only a single file at a time.
 
 2.  Click the paperclip icon ![](/images/TA_Help/Images/btn_paperclip.png) on the main panel's toolbar.
 
@@ -33,7 +33,7 @@ To attach a test result in HTML format to a JIRA bug, complete the following ste
 
     ![](/images/TA_Help/Images/Attach_result_dlg.png)
 
-{{<tip>}} At your option, you may override the default user name and password with your own credentials for an existing account on the JIRA server.
+    {{<tip>}} At your option, you may override the default user name and password with your own credentials for an existing account on the JIRA server.
 
 3.  In **Bug ID**, enter the JIRA bug ID to which you wish to attach the test result.
 

@@ -55,7 +55,7 @@ Ensure that the following requirements are met before implementing automated mob
 
 2.  Make a connection to the target cloud device via the [connect cloud device](/TA_Automation/Topics/bia_connect_cloud_device.html) built-in action, as specified by its logical name.
 
-{{<note>}} The name is established in advance by the [assign cloud device](/TA_Automation/Topics/bia_assign_cloud_device.html) action, which assigns a logical name to a mobile cloud device.
+    {{<note>}} The name is established in advance by the [assign cloud device](/TA_Automation/Topics/bia_assign_cloud_device.html) action, which assigns a logical name to a mobile cloud device.
 
     ```
                            name       session id
@@ -64,7 +64,7 @@ Ensure that the following requirements are met before implementing automated mob
 
 3.  Employ the [use cloud device](/TA_Automation/Topics/bia_use_cloud_device.html) built-in action to use the cloud device to initiate automated tests. The invoked cloud device is specified by its session ID.
 
-{{<note>}} The session ID specified in the session id argument is retrieved via the [connect cloud device](/TA_Automation/Topics/bia_connect_cloud_device.html) action.
+    {{<note>}} The session ID specified in the session id argument is retrieved via the [connect cloud device](/TA_Automation/Topics/bia_connect_cloud_device.html) action.
 
     ```
                          session id

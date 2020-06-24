@@ -34,7 +34,7 @@ Do the following to capture interface entities/elements of the re-signed applica
 
     The Interface Viewer displays the associated GUI tree \(the GUI environment for the AUT on the Android device\).
 
-{{<note>}} Only one AUT can be automated at a time. Therefore only one application’s UI environment is displayed.
+    {{<note>}} Only one AUT can be automated at a time. Therefore only one application’s UI environment is displayed.
 
 
 The processes for mapping Android windows and GUI controls to interface entities and elements, naming items using TA name, and saving interface definitions, are essentially the same as described in [Capturing interface definitions](/TA_Help/Topics/Interface_def_capturing.html) and [Naming interface elements](/TA_Help/Topics/Interface_def_naming.html).

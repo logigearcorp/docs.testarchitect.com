@@ -25,7 +25,7 @@ Running TA tests from MTM requires two types of associations:
 
     **Fastpath:** Alternatively, click the **Associate** ![](/images/TA_Help/Images/MTM_generate_and_associate_test_method_from_testArchitect_btn.png) button on the Visual Studio toolbar.
 
-{{<note>}} If the **Associate** button is not visible on the Visual Studio toolbar, enable the button by right-clicking on the toolbar and selecting **TestArchitect** from the context menu.
+    {{<note>}} If the **Associate** button is not visible on the Visual Studio toolbar, enable the button by right-clicking on the toolbar and selecting **TestArchitect** from the context menu.
 
 3.  In the Connect to Team Foundation Server dialog box, select the server to connect to from the **Team Foundation Server** drop-down box, and then choose the correct team project values for **Team Project Collections** and **Team Projects**. Click **Connect** to establish an association between TFS and TestArchitect.
 
@@ -39,7 +39,7 @@ Running TA tests from MTM requires two types of associations:
 
     ![](/images/TA_Help/Images/VS_select_test_to_associate.png)
 
-{{<tip>}}
+    {{<tip>}}
 
     -   TFS test cases that have not been associated are indicated in GREEN. Whereas, TFS test cases that have been associated are indicated in BLUE. Note that, if you select associated TFS test cases, they will be re-associated.
     -   Filtering TFS test cases:
@@ -76,7 +76,7 @@ Running TA tests from MTM requires two types of associations:
 
 7.  [Check in](https://docs.microsoft.com/en-us/vsts/tfvc/check-your-work-team-codebase?view=vsts#choose-the-files-you-want-to-check-in) your test method on the TFS server.
 
-{{<remember>}} For TFS 2017, you are required to explicitly check in the following DLL LogiGear.TestArchitect.TAIntegrationLoader.dll
+    {{<remember>}} For TFS 2017, you are required to explicitly check in the following DLL LogiGear.TestArchitect.TAIntegrationLoader.dll
 
     ![](/images/TA_Help/Images/check_in_TA_dll.png)
 

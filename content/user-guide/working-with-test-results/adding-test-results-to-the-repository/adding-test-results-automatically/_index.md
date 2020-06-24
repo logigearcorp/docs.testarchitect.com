@@ -16,7 +16,7 @@ Perform the following steps:
 
 1.  Select the test module you want to execute.
 
-{{<note>}} The test module can be executed [normally](/TA_Help/Topics/Test_result.html), in a [serial run](/TA_Help/Topics/Test_result.html), or from another test module using the [run test](/TA_Automation/Topics/bia_run_test.html) built-in action.
+    {{<note>}} The test module can be executed [normally](/TA_Help/Topics/Test_result.html), in a [serial run](/TA_Help/Topics/Test_result.html), or from another test module using the [run test](/TA_Automation/Topics/bia_run_test.html) built-in action.
 
 2.  Click **Execute** ![](/images/TA_Help/Images/btn.TAC_toolbar.Execute.png) on the toolbar.
 
@@ -34,7 +34,7 @@ Perform the following steps:
         -   [**Failed**](/TA_Help/Topics/ug_test_results_status.html): Failed test results are stored.
         -   [**Passed with known bug**](/TA_Help/Topics/ug_test_results_status.html): Test results that passed, but are marked [known bugs](/TA_Help/Topics/Bugs_working_known_bug.html) whose outcomes have been ignored, are stored.
         -   [**Not Finished**](/TA_Help/Topics/ug_test_results_status.html): Incomplete test results.
-{{<tip>}} If you select more than one check box, the conditions will be OR'd together. For example, by selecting the **Passed** and **Passed with Warnings/Errors** check boxes, the repository receives all the results with Passed and Passed with Warnings/Errors outcomes, and no others.
+    {{<tip>}} If you select more than one check box, the conditions will be OR'd together. For example, by selecting the **Passed** and **Passed with Warnings/Errors** check boxes, the repository receives all the results with Passed and Passed with Warnings/Errors outcomes, and no others.
 
     ![](/images/TA_Help/Images/Execute_test_auto_add_result_to_repo_1.png)
 
@@ -42,7 +42,7 @@ Perform the following steps:
 
 7.  In the Select a Destination dialog box, select a location, and then click **OK**.
 
-{{<tip>}} Alternatively, if you'd like to store repository results into a folder dynamically, that is, the folder does not exist. You can manually enter several pre-defined macro variables, mentioned in the table below, into the **Select a repository destination** box in order to name a new result folder on-the-fly.
+    {{<tip>}} Alternatively, if you'd like to store repository results into a folder dynamically, that is, the folder does not exist. You can manually enter several pre-defined macro variables, mentioned in the table below, into the **Select a repository destination** box in order to name a new result folder on-the-fly.
 
     |Macro variables|Description|Output \(example\)|
     |---------------|-----------|------------------|

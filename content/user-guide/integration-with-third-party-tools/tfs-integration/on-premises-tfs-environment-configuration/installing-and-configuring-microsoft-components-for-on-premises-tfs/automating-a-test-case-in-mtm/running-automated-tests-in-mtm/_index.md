@@ -42,7 +42,7 @@ To run automated tests in MTM, do the following:
 
     ![](/images/TA_Help/Images/run_MTM_test.png)
 
-{{<tip>}} If you wish to run a test in a different environment or with different test settings, choose **Run with options**.
+    {{<tip>}} If you wish to run a test in a different environment or with different test settings, choose **Run with options**.
 
     The **Analyze Test Runs** tab is displayed, showing the progress of the test run that contains this test.
 

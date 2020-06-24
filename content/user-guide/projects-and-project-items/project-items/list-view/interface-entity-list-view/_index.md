@@ -50,7 +50,7 @@ Repository saves pertinent information on a project item at every check-in. This
 -   From an interface entity list view, you can delete desired interface entity from one interface entity folder and paste it to another interface entity folder by performing **Cut** and **Paste** operations from the context menu.
 -   The **Copy** and **Paste** operations from the context menu allow you to create a duplicate of the selected interface entity.
 
-{{<tip>}}
+    {{<tip>}}
 
     -   In addition to the conventional cut-and-paste and copy-and-paste from the context menu, you can drag and drop a project item, or a selection of items, from a list view into a folder or node of the same type in the TestArchitect explorer tree.
     -   Performing drag-and-drop within the same project is equivalent to cutting and pasting. Performing a drag-and-drop across different projects, on the other hand, is a copy-and-paste operation.

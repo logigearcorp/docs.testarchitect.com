@@ -26,7 +26,7 @@ You can choose among the following methods to execute multiple test modules at o
 
         ![](/images/TA_Help/Images/ug_testexecution1.png)
 
-{{<note>}}
+        {{<note>}}
 
         -   If the dragged-and-dropped test module is a [variation](/TA_Help/Topics/ug_TM_create_variation.html), the **Keyword** and/or **AUT version** boxes are automatically filled in.
 
@@ -45,7 +45,7 @@ You can choose among the following methods to execute multiple test modules at o
 
         -   Right-click the selection, and then select **Execute Test**.
         -   Alternatively, click the **Execute** ![](/images/TA_Help/Images/btn.TAC_toolbar.Execute.png) button on the toolbar.
-{{<note>}} If the selected test folder contains a [default test module](/TA_Help/Topics/Variations_default.html) and its respective [variations](/TA_Help/Topics/ug_TM_create_variation.html). You will see the following warning message. Since at a time, only one variation of a given test module can be executed.
+        {{<note>}} If the selected test folder contains a [default test module](/TA_Help/Topics/Variations_default.html) and its respective [variations](/TA_Help/Topics/ug_TM_create_variation.html). You will see the following warning message. Since at a time, only one variation of a given test module can be executed.
 
         ![](/images/TA_Help/Images/execution_test_folder_variation.png)
 
@@ -69,7 +69,7 @@ You can choose among the following methods to execute multiple test modules at o
 
     3.  In the Execute Test dialog box, click the **Execute** button.
 
-{{<tip>}} In the cases of Options \#1 through \#3, when the Execute Test dialog appears, you have the option to pick and choose which test modules and test cases are to be executed during the test.
+    {{<tip>}} In the cases of Options \#1 through \#3, when the Execute Test dialog appears, you have the option to pick and choose which test modules and test cases are to be executed during the test.
 
 -   Option \#4: Using the [run test](/TA_Automation/Topics/bia_run_test.html) built-in action.
 
@@ -87,7 +87,7 @@ You can choose among the following methods to execute multiple test modules at o
 
         ![](/images/TA_Help/Images/ug_testexecution2.png)
 
-{{<important>}} If the dragged-and-dropped test module is a [variation](/TA_Help/Topics/ug_TM_create_variation.html), the test module's name in the name argument of run test is just a default, not a variation.
+        {{<important>}} If the dragged-and-dropped test module is a [variation](/TA_Help/Topics/ug_TM_create_variation.html), the test module's name in the name argument of run test is just a default, not a variation.
 
     4.  In the TestArchitect explorer tree, select the test module node.
 

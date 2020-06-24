@@ -37,7 +37,7 @@ To remove a set of licenses:
 
     ![](/images/TA_Administration/Images/remove_license_context_menu.png)
 
-{{<restriction>}} License removal does not apply to host-based licenses.
+    {{<restriction>}} License removal does not apply to host-based licenses.
 
     To remove all the key added by credential information:
 

@@ -18,7 +18,7 @@ Choose one of the following two methods to export data sets:
 
     2.  In the Export Data Set dialog box, click ![](/images/TA_Help/Images/btn.browse-ellipsis.01.png) to choose a location to which to save the file \(in .ZIP format\).
 
-{{<tip>}} You can choose the default location, but any place that is easy to remember will work.
+        {{<tip>}} You can choose the default location, but any place that is easy to remember will work.
 
     3.  Click **OK**.
 
@@ -30,7 +30,7 @@ Choose one of the following two methods to export data sets:
 
     3.  In the Export Data Set dialog box, click ![](/images/TA_Help/Images/btn.browse-ellipsis.01.png) to choose a location to which to save the file \(in .ZIP format\).
 
-{{<tip>}} You can choose the default location, but any place that is easy to remember will work.
+        {{<tip>}} You can choose the default location, but any place that is easy to remember will work.
 
     4.  Click **OK**.
 

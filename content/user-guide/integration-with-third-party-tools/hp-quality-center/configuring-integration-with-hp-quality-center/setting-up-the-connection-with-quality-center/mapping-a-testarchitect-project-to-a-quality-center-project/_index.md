@@ -24,7 +24,7 @@ To map a TestArchitect project to a Quality Center project:
 
     ![](/images/TA_Help/Images/map_TA_project_to_QC_step2.png)
 
-{{<important>}}
+    {{<important>}}
 
     -   It is recommended that a new TestArchitect project be created to map to the Quality Center project. Once mapped, you can create test modules and import Quality Center tests into the modules.
     -   When creating the Quality Center domain name or project name, please do not use underscores. A connection cannot be achieved if either project name contains underscores.

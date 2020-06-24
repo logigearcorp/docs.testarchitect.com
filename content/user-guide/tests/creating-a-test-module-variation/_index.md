@@ -20,7 +20,7 @@ To create a test module variation, do the following:
 
 2.  In the TA explorer tree, right-click the parent test folder of the test module you just copied, and then select **Paste as Variation**.
 
-{{<remember>}} You must paste the variation into the same folder as the default which has just been copied.
+    {{<remember>}} You must paste the variation into the same folder as the default which has just been copied.
 
     ![](/images/TA_Help/Images/TM_var_1.png)
 

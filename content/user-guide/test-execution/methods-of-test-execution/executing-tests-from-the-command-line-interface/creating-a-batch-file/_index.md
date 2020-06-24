@@ -30,7 +30,7 @@ How to have TestArchitect generate a test execution batch file for you, with all
 
     ![](/images/TA_Help/Images/Test_exec_compileonly_flag.png)
 
-{{<note>}} The **-co** flag can be inserted anywhere between the ta execute statement and before the last flag, as long as the insertion does not split the existing flag tokens.
+    {{<note>}} The **-co** flag can be inserted anywhere between the ta execute statement and before the last flag, as long as the insertion does not split the existing flag tokens.
 
 
 Double-click the generated batch file to execute the batch run.

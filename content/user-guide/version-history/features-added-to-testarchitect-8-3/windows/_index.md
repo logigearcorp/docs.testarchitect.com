@@ -22,7 +22,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   **Introduction of new [XML test result model](/TA_Help/Topics/Test_result.html)**:
     -   TestArchitect saves test results of each test run in the XML format, so that you can view them in any web browser.
 
-{{<important>}} XML result model provides the following advantages when compared to the previous result model.
+        {{<important>}} XML result model provides the following advantages when compared to the previous result model.
 
         -   Less memory footprint: The amount of memory that TestArchitect uses or references while opening and viewing test results is less.
         -   Smaller parsing times: The operation process is faster, such as open test results, import/export test results, etc.
@@ -55,7 +55,7 @@ The following new features and improvements are introduced in TestArchitect vers
     -   TestArchitect also enables you to test web services that use [Basic HTTP authentication](https://tools.ietf.org/html/rfc7617) and [OAuth 2.0](https://oauth.net/2/) authentication.
 -   **Built-in actions for [JSON checkpoints](/TA_Automation/Topics/bia_JSON.html) supported**:
 
-{{<note>}} These built-in actions can also be used to verify JSON response returned by the tested web service.
+    {{<note>}} These built-in actions can also be used to verify JSON response returned by the tested web service.
 
     -   [check json query result](/TA_Automation/Topics/bia_check_json_query_result.html): Check a JSON query result against an expected string. The result is Passed if the strings match; otherwise it is Failed.
     -   [get json query result](/TA_Automation/Topics/bia_get_json_query_result.html): Query a JSON document by JSONPath.
@@ -73,7 +73,7 @@ The following new features and improvements are introduced in TestArchitect vers
     -   Easy deployment: The ability to reuse user-scripted actions among different projects by simply sharing DLLs of the actions
     -   Usability: To ease the C\# function declaration and implementation
     -   Low coupling: not having to merge source code and rebuild the entire harness solution, even though a single user-scripted action is added. In other words, adding one new user-scripted action does not affect the existing user-scripted actions.
-{{<note>}} For legacy C\# user-scripted actions, created in TestArchitect versions prior to 8.3, you are not required to migrate them to C\# bundle harness. Specifically, your legacy C\# user-scripted actions continue to work normally in TestArchitect 8.3, and you are able to develop additional user-scripted actions that conform to legacy C\# harness architecture.
+    {{<note>}} For legacy C\# user-scripted actions, created in TestArchitect versions prior to 8.3, you are not required to migrate them to C\# bundle harness. Specifically, your legacy C\# user-scripted actions continue to work normally in TestArchitect 8.3, and you are able to develop additional user-scripted actions that conform to legacy C\# harness architecture.
 
 -   **Support for the [Graphics Device Interface \(GDI\) technique](/TA_Automation/Topics/aut_text_recognition_techniques.html)** to better recognize text produced by an AUT. Technically, GDI traces text that the operating system is drawing on the screen. GDI works faster than the Optical Character Recognition technique and provides higher recognition accuracy.
     -   [character recognition technique](/TA_Automation/Topics/bis_character_recognition_technique.html) setting: Specifies which algorithm, OCR or GDI, is applied to recognize text produced by an AUT.
@@ -105,7 +105,7 @@ The following new features and improvements are introduced in TestArchitect vers
     -   **[WinForms command line tool](/TA_Automation/Topics/aut_app_testing_WinForms_command_line_tool.html)**:
         -   Exports new WinForms mapping file. Since new class mapping for WinForms controls has been improved, it is highly recommended that you use this command line tool to [update your legacy WinForms captured controls](/TA_Help/Topics/ug_class_mapping_WinForms.html) to ensure your automated test runs properly.
 
-{{<note>}} You only need to run this tool once to address the backward compatibility issues and make existing tests runnable.
+            {{<note>}} You only need to run this tool once to address the backward compatibility issues and make existing tests runnable.
 
         -   [winforms raw class](/TA_Automation/Topics/bis_winforms_raw_class.html) built-in setting: This determines whether, during automation, the legacy classes of captured WinForms application controls should be used in identifying those controls, in cases where the option to use TA classes exists. In case, you encounter backward compatibility problems, you can turn on this setting to switch back to the legacy Winforms control matching technique.
 -   **Additional support for the existing OCR built-in actions to work with the**[Graphics Device Interface \(GDI\) technique](/TA_Automation/Topics/aut_text_recognition_techniques.html)****: The following built-in actions now support both OCR and GDI text recognition techniques.

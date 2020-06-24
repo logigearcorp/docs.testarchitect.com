@@ -28,15 +28,15 @@ To set up or modify the auto-backup schedule, do the following:
 
     -   **Disable auto-backup function**: deactivates the auto-backup function.
     -   **Enable auto-backup function**: activates the auto-backup function.
-{{<tip>}} There may be instances when you want to suspend the backup of repositories for a period, say one or two days. In such cases, disabling auto-backup is a better option than modifying the schedule.
+    {{<tip>}} There may be instances when you want to suspend the backup of repositories for a period, say one or two days. In such cases, disabling auto-backup is a better option than modifying the schedule.
 
 4.  In the **Select repositories for auto-backup** list, select which repositories are to be included in the backup schedule. Repositories in the leftmost list are not included in the schedule; those on the right are included.
 
-{{<note>}} Use the \>, \>\>, <, << buttons between the two lists to move repositories between them.
+    {{<note>}} Use the \>, \>\>, <, << buttons between the two lists to move repositories between them.
 
 5.  The next panel allows you to specify when the auto-backup schedule, including times of day and days of weeks, takes place.
 
-{{<note>}} The schedule you select here applies to all repositories selected for auto-backup in your repository server. Schedules are not individually customizable by repository.
+    {{<note>}} The schedule you select here applies to all repositories selected for auto-backup in your repository server. Schedules are not individually customizable by repository.
 
 6.  Choose a location on your hard drive or network in which the automatic backup files are to be stored.
 

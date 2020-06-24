@@ -47,7 +47,7 @@ Note that you can learn more about JSON syntax [here](http://www.w3schools.com/j
     Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.23 Mobile Safari/537.36
     ```
 
-{{<tip>}} You can find various mobile UA strings from the following links:
+    {{<tip>}} You can find various mobile UA strings from the following links:
 
     -   [http://www.zytrax.com/tech/web/mobile\_ids.html](http://www.zytrax.com/tech/web/mobile_ids.html)
     -   [http://www.useragentstring.com/pages/useragentstring.php?typ=Mobile%20Browser](http://www.useragentstring.com/pages/useragentstring.php?typ=Mobile%20Browser)
@@ -55,7 +55,7 @@ Note that you can learn more about JSON syntax [here](http://www.w3schools.com/j
 
         ![](/images/TA_Automation/Images/user_agent_string_Nexus.png)
 
-{{<remember>}} To define a UA string, use the [setUserAgentOverride](https://chromedevtools.github.io/debugger-protocol-viewer/tot/Network/#method-setUserAgentOverride) method with the userAgent parameter. For example: The following JSON string defines a given UA string.
+    {{<remember>}} To define a UA string, use the [setUserAgentOverride](https://chromedevtools.github.io/debugger-protocol-viewer/tot/Network/#method-setUserAgentOverride) method with the userAgent parameter. For example: The following JSON string defines a given UA string.
 
     ```
     { "method" : "Network.setUserAgentOverride",
@@ -64,7 +64,7 @@ Note that you can learn more about JSON syntax [here](http://www.w3schools.com/j
 
 2.  Screen Width/Screen Height: Specify the browser screen size, including width and height, in CSS pixels. Note that this is not necessarily the same as the device’s physical screen size. For example, the iPhone 5 uses 2×2 physical pixels to display 1 CSS pixel, so the browser screen dimensions are half the physical screen dimensions.
 
-{{<tip>}} You can find various mobile browser screen sizes here:
+    {{<tip>}} You can find various mobile browser screen sizes here:
 
     -   [http://viewportsizes.com](http://viewportsizes.com/)
     -   [http://mydevice.io/devices/](http://mydevice.io/devices/)
@@ -72,7 +72,7 @@ Note that you can learn more about JSON syntax [here](http://www.w3schools.com/j
 
         ![](/images/TA_Automation/Images/screen_size.png)
 
-{{<remember>}} To define screen size, use the [setDeviceMetricsOverride](https://chromedevtools.github.io/debugger-protocol-viewer/tot/Emulation/#method-setDeviceMetricsOverride) method with the width and height parameters. For example: The following JSON string defines the browser screen size.
+    {{<remember>}} To define screen size, use the [setDeviceMetricsOverride](https://chromedevtools.github.io/debugger-protocol-viewer/tot/Emulation/#method-setDeviceMetricsOverride) method with the width and height parameters. For example: The following JSON string defines the browser screen size.
 
     ```
     { "method" : "Emulation.setDeviceMetricsOverride", "params" : { "width": 260, "height": 640 } }
@@ -80,7 +80,7 @@ Note that you can learn more about JSON syntax [here](http://www.w3schools.com/j
 
 3.  Device Pixel Ratio \(DPR\): Specify DPR, the number of physical pixels per CSS pixels. For example, iPhone 5 has DPR=2, meaning it uses 2×2 physical pixels to show 1 CSS pixel. Web applications can use the device pixel ratio to conditionally load different CSS or images.
 
-{{<tip>}} You can find DPR values for various devices here:
+    {{<tip>}} You can find DPR values for various devices here:
 
     -   [http://mydevice.io/devices/](http://mydevice.io/devices/)
     -   [http://www.canbike.org/CSSpixels/](http://www.canbike.org/CSSpixels/)
@@ -88,11 +88,11 @@ Note that you can learn more about JSON syntax [here](http://www.w3schools.com/j
 
         ![](/images/TA_Automation/Images/DPR.png)
 
-{{<remember>}} To define DPR, use the [setDeviceMetricsOverride](https://chromedevtools.github.io/debugger-protocol-viewer/tot/Emulation/#method-setDeviceMetricsOverride) method with the deviceScaleFactor parameter.
+    {{<remember>}} To define DPR, use the [setDeviceMetricsOverride](https://chromedevtools.github.io/debugger-protocol-viewer/tot/Emulation/#method-setDeviceMetricsOverride) method with the deviceScaleFactor parameter.
 
 4.  Trigger touch events: Toggles mouse event-based touch event emulation. This touch screen emulator lets you accurately test touch events and sequences as if you were using a touch-enabled device.
 
-{{<remember>}} To simulate touch events, use the [setTouchEmulationEnabled](https://chromedevtools.github.io/debugger-protocol-viewer/tot/Emulation/#method-setTouchEmulationEnabled) method with the enabled parameter. For example:
+    {{<remember>}} To simulate touch events, use the [setTouchEmulationEnabled](https://chromedevtools.github.io/debugger-protocol-viewer/tot/Emulation/#method-setTouchEmulationEnabled) method with the enabled parameter. For example:
 
     ```
     { "method" : "Emulation.setTouchEmulationEnabled", "params" : { "enabled" : true } }

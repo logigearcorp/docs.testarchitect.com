@@ -19,7 +19,7 @@ How to use the Action Recorder to record interactions with UI controls in the sa
 
     Then click **OK**.
 
-{{<note>}} The **Generate "navigate" action for web browser**, Highlight element on hover, and Ignore formatting tags settings only apply to browser-based recording \([learn more](/TA_Help/Topics/ug_AR_settings.html#li_e2h_yrc_vs)\), and may be ignored for purposes of this tutorial.
+    {{<note>}} The **Generate "navigate" action for web browser**, Highlight element on hover, and Ignore formatting tags settings only apply to browser-based recording \([learn more](/TA_Help/Topics/ug_AR_settings.html#li_e2h_yrc_vs)\), and may be ignored for purposes of this tutorial.
 
 
 1.  In the TestArchitect explorer tree, select any item within the Car Rental project, then click **Create new test module** ![](/images/TA_Tutorials/Images/btn.TAC_toolbar.CreateTestModule.png) in the toolbar.
@@ -34,7 +34,7 @@ How to use the Action Recorder to record interactions with UI controls in the sa
 
 4.  Return to TestArchitect, and in test case `TC 01` of the editor, select an empty cell in the first column \(for example, **A16**\).
 
-{{<attention>}} Once the Action Recorder starts, it records *all* actions, including any actions you take with this tutorial. For that reason, it is recommended that you pre-read this exercise up to **Step 8** to ensure that the actions you record with Action Recorder are only those that relate to this exercise.
+    {{<attention>}} Once the Action Recorder starts, it records *all* actions, including any actions you take with this tutorial. For that reason, it is recommended that you pre-read this exercise up to **Step 8** to ensure that the actions you record with Action Recorder are only those that relate to this exercise.
 
 5.  Click **Record** on the toolbar:
 

@@ -28,7 +28,7 @@ To register the Zephyr server with TestArchitect, carry out the following proced
 
 2.  In the TestArchitect explorer tree, expand the **Administration** \> **Tool Profiles** \> **External Tool** \> **Test Management** node.
 
-{{<note>}} Only TestArchitect users belonging to the administrator group are able to view and modify the **Administration** node in the explorer tree.
+    {{<note>}} Only TestArchitect users belonging to the administrator group are able to view and modify the **Administration** node in the explorer tree.
 
 3.  In the expanded list of options, double-click the **Zephyr** node.
 
@@ -40,7 +40,7 @@ To register the Zephyr server with TestArchitect, carry out the following proced
 
     -   **Available options**: URL of Zephyr server, including port number.
 
-{{<note>}} Both HTTP and HTTPS are supported.
+        {{<note>}} Both HTTP and HTTPS are supported.
 
         -   Syntax: `server=[Zephyr server]`
         -   Example: server=http://lgvn1434:81
@@ -49,7 +49,7 @@ To register the Zephyr server with TestArchitect, carry out the following proced
 
 6.  Click **Apply**.
 
-{{<important>}}
+    {{<important>}}
 
     -   If you have specified HTTPS and the Zephyr server's identity has not been verified by a trusted third-party, or the SSL certificate installed on your test machine has expired, a Verify Certificate security alert is displayed. To install the SSL certificate, click the **Accept** button.
 

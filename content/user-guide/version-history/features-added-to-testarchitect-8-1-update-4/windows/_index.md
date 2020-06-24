@@ -19,7 +19,7 @@ The following new features and improvements are introduced in TestArchitect vers
 
 -   [**Import/Export command line tool**](/TA_Help/Topics/ug_export_import_tool.html): The import and export of repositories and project items has long been possible in TestArchitect, but only within the confines of TestArchitect Client. With the introduction of the Import/Export tool, your import and export operations may now be incorporated into Windows batch files, a feature that is especially useful in environments that employ continuous integration \(CI\) practices. The tool itself consists of a set of command line commands that mirror the Client’s abilities to import and export test modules, test cases, data sets, actions, interface entities, and test results, along with full repositories.
 
-{{<note>}} This functionality has also been incorporated into the TAUtilities API in the form of six new methods. Please see the TAUtilities API documentation available in the TestArchitect **Help** menu for details.
+    {{<note>}} This functionality has also been incorporated into the TAUtilities API in the form of six new methods. Please see the TAUtilities API documentation available in the TestArchitect **Help** menu for details.
 
 -   [**Variation for test modules**](/TA_Help/Topics/ug_TM_create_variation.html): Project item variation is now supported for test modules, enhancing modularity by limiting test changes to applicable sections, while allowing your test to otherwise remain intact from one version to the next.
 

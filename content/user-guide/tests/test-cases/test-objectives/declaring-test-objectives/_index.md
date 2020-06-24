@@ -20,11 +20,11 @@ To declare new test objectives, follow these steps:
 
     An ID number is automatically assigned to the new test objective and written to the next cell \(column B\).
 
-{{<tip>}} You may modify the ID number if you wish.
+    {{<tip>}} You may modify the ID number if you wish.
 
 4.  Add a title for the test objective \(column C\).
 
-{{<note>}} The title must be unique within the test module.
+    {{<note>}} The title must be unique within the test module.
 
 5.  [Check in](/TA_Help/Topics/Project_items_checkin.html) the test module.
 

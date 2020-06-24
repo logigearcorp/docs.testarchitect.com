@@ -48,7 +48,7 @@ From a list view, you can open an interface in the editor by right-clicking its 
 
 -   The **Copy** and **Paste** operations from the context menu allow you to create a duplicate of the selected interface.
 
-{{<tip>}}
+    {{<tip>}}
 
     -   In addition to the conventional copy-and-paste from the context menu, you can drag and drop a project item, or a selection of items, from a list view into a folder or node of the same type in the TestArchitect explorer tree.
     -   During a drag operation, at any time your mouse pointer is over a location that cannot accept the type of item being dragged, the pointer turns into a black crossed circle ![](/images/TA_Help/Images/black_cross_icon.png). Releasing the mouse button at this point simply cancels the operation.

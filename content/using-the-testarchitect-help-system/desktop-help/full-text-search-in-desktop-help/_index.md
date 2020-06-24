@@ -17,7 +17,7 @@ The full-text search is performed within the **Search** tab of the desktop CHM h
 1.  Select the **Search** tab of the help viewer.
 2.  Type the word or phrase you want to find.
 
-{{<tip>}} Use the right-arrow ![](/images/TA_Help/Images/btn.right_arrow.png)button to add boolean operators to your search \(see [Refining a full-text search](/TA_UsingHelpSystem/Topics/hs_CHM_full_text_search.html#section_ffh_4nh_cp) for details\).
+    {{<tip>}} Use the right-arrow ![](/images/TA_Help/Images/btn.right_arrow.png)button to add boolean operators to your search \(see [Refining a full-text search](/TA_UsingHelpSystem/Topics/hs_CHM_full_text_search.html#section_ffh_4nh_cp) for details\).
 
 3.  Press Enter or click the **List Topics** button. The viewer searches for topics that match the specified criteria and displays the found topics in the Search results panel.
 4.  To view a topic, select it in the list of search results and then click **Display**, or simply double-click the topic in the list.

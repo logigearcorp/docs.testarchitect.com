@@ -28,7 +28,7 @@ This issue occurs because of the heap size limitation of the Java Virtual Machin
     3.  Find the parameter xmx, the maximum size of the heap. Note that the value it is set to is in units of megabytes \(MB\).
     4.  Set a higher value to increase the memory setting.
 
-{{<tip>}} It is best to increase xmx by no more than 512MB increments. If you ultimately find that the increased amount is still inadequate, keep increasing it until you no longer experience the out-of-memory problem.
+        {{<tip>}} It is best to increase xmx by no more than 512MB increments. If you ultimately find that the increased amount is still inadequate, keep increasing it until you no longer experience the out-of-memory problem.
 
     5.  Save the file.
     6.  Launch TestArchitect again.

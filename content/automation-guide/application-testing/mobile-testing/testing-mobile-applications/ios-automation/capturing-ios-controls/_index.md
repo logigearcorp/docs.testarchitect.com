@@ -34,7 +34,7 @@ Do the following to capture interface entities/elements of the re-signed applica
 
     The Interface Viewer displays the associated GUI tree \(the UI environment for the AUT on the iOS device\).
 
-{{<note>}}
+    {{<note>}}
 
     -   Only one AUT can be automated at a time. Therefore only one application’s UI environment is displayed.
     -   TestArchitect does not support capturing native iOS dialog boxes - that is, ones that, regardless of origin, are posted by the operating system rather than directly from the application. \(An example of such a dialog box would be one displaying the message <app name\> Would Like To Use Your Current Location, which originates from an application submitting a request to iOS, which then presents the popup.\)

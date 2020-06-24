@@ -21,7 +21,7 @@ How to import data from a single external source file into a TestArchitect data 
     -   **Data source file**: Click ![](/images/TA_Help/Images/btn.browse-ellipsis.01.png) to browse to the external source file to import its data into the data set.
     1.  Select an external source file in the Select dialog box.
 
-{{<note>}}
+        {{<note>}}
 
         -   You must have full read permissions for the external source file.
         -   TestArchitect only supports the import of two file types: .csv and .txt files. The files must contain tab-delimited text lines.

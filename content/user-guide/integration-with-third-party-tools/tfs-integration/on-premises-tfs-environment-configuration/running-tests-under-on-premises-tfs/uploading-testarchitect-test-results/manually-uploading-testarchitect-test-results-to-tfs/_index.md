@@ -37,20 +37,20 @@ To manually upload TestArchitect test results to TFS:
 
             ![](/images/TA_Help/Images/WIQL_command_2.png)
 
-{{<tip>}} Click the question mark icon to see the typical syntax of a WIQL query.
+            {{<tip>}} Click the question mark icon to see the typical syntax of a WIQL query.
 
--{{<note>}} TestArchitect only support **Rest API** option for Automatically uploading test results to TFS.
+    -   {{<note>}} TestArchitect only support **Rest API** option for Automatically uploading test results to TFS.
 3.  In the **Build Number** box, specify a build number.
 
     ![](/images/TA_Help/Images/ug_MTM_build_number_enter.png)
 
-{{<note>}} **Build Number** field:
+    {{<note>}} **Build Number** field:
 
     -   It is a built-in field in both TestArchitect and TFS, used to represent the AUT build.
         -   If this field is empty, specify a value.
         -   If this test result's built-in field already has a value defined from a previous run, this field is automatically filled in and is non-modifiable.
     -   You only need to fill in this field, if you are using [TFS 2015 RTM](https://www.visualstudio.com/en-us/news/releasenotes/tfs2015-rtm-vs) \(Release to Manufacturing\) and/or earlier versions.
-{{<important>}} If your TestArchitect installation is integrated with Visual Studio Team Services, formerly known as Visual Studio Online, be aware that the **Build Number** field in Visual Studio Team Services is governed by a user-specified domain of values. That is, any build number supplied from TestArchitect must first exist in Visual Studio Team Services's list of allowable build numbers.
+    {{<important>}} If your TestArchitect installation is integrated with Visual Studio Team Services, formerly known as Visual Studio Online, be aware that the **Build Number** field in Visual Studio Team Services is governed by a user-specified domain of values. That is, any build number supplied from TestArchitect must first exist in Visual Studio Team Services's list of allowable build numbers.
 
 4.  Select the **Upload attachment\(s\) to Team Foundation Server** check box to upload the TestArchitect test result to selected TFS test cases as an HTML file attachment. \(Selectivity is determined by the field as follows\).
 
@@ -63,7 +63,7 @@ To manually upload TestArchitect test results to TFS:
     -   Passed: Upload the TA test result as an attachment if the TFS result status is Passed.
     -   Inconclusive: Upload the TA test result as an attachment if the TFS result status is Inconclusive.
     -   Failed: Upload the TA test result as an attachment if the TFS result status is Failed.
-{{<note>}}
+    {{<note>}}
 
     -   The mappings between TestArchitect and TFS test result statuses \(that is, how TFS interprets each TA result status\) are defined during initial configuration of the TA repository's connection to the Team Foundation Server. \([Learn more](/TA_Help/Topics/Integration_MTM_connecting_TFS.html#choice_xrl_w5x_xs).\)
     -   If more than one condition is selected, they are effectively OR'd together. For example: If both Passed and Failed check boxes are selected, any TA result that has an TFS status of *either* Passed or Failed is uploaded as an attachment.
@@ -85,7 +85,7 @@ TestArchitect test results are uploaded to TFS in the format specified in step \
 
 ![](/images/TA_Help/Images/ug_MTM_uploaded_results.png)
 
-{{<caution>}}
+{{<{{<caution>}}>}}
 
 In case of test results generated from a [serial test run](/TA_Help/Topics/Test_exec_multiple_TM.html), that is, running multiple test modules sequentially within a single test run, if the given **Build Number**'s values among test modules are not identical, the test results are unable to be uploaded to TFS. \([Learn more](/TA_FAQ/Topics/faq.shoot.TFS_mismatched_build_number_values.html).\)
 

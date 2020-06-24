@@ -16,7 +16,7 @@ The playback controller contains of the following items:
 
 -   **The Harness drop-down list box**: presents the list of running harnesses. You can view the running status of a specific harness by selecting it from this drop-down list box. See below for the [harness naming convention](/TA_Help/Topics/Test_exec_playback_toolbar.html#harness_name).
 
-{{<note>}} Applies to TestArchitect [8.4](/TA_ReleaseNotes/DITA_source/Whats_New_8.4.html) and higher.
+    {{<note>}} Applies to TestArchitect [8.4](/TA_ReleaseNotes/DITA_source/Whats_New_8.4.html) and higher.
 
 -   **Running harnesses**: Number of harnesses that are currently running.
 -   **Pending harnesses**: Number of harnesses that are pending. \([Learn more](/TA_Help/Topics/Multiple_harnesses_pool_size.html)\)
@@ -32,7 +32,7 @@ The playback controller contains of the following items:
 
     **Alternative**: Right-click the **TestArchitect Controller** ![](/images/TA_Help/Images/TA_controller_icon.png) icon in the Windows notification area. Select **Terminate** from the context menu.
 
-{{<note>}} TestArchitect generates a test result even after the test run is terminated prematurely.
+    {{<note>}} TestArchitect generates a test result even after the test run is terminated prematurely.
 
 -   **Terminate All**: Terminate all the running harnesses.
 
@@ -40,7 +40,7 @@ The playback controller contains of the following items:
 
     **Alternative**: To terminate all running harnesses, right-click the **TestArchitect Controller** ![](/images/TA_Help/Images/TA_controller_icon.png) icon in the Windows notification area. Select **Terminate All** from the context menu.
 
-{{<note>}} Applies to TestArchitect [8.4](/TA_ReleaseNotes/DITA_source/Whats_New_8.4.html) and higher.
+    {{<note>}} Applies to TestArchitect [8.4](/TA_ReleaseNotes/DITA_source/Whats_New_8.4.html) and higher.
 
 -   **Show/Hide running status**: Show or hide the running status of the selected harness. including test modules, test cases and action lines
 

@@ -85,7 +85,7 @@ The **div** element with `id="national_section"` is a good candidate as an ancho
 
     4.  Open the saved file in a web browser.
 
-{{<remember>}} During this exercise, ensure that the web page for this file is maintained as the active tab in its browser window.
+        {{<remember>}} During this exercise, ensure that the web page for this file is maintained as the active tab in its browser window.
 
 2.  In a TestArchitect project, create a [new interface entity](/TA_Help/Topics/Interface_def_Adding.html), name it front\_page, and keep it open.
 
@@ -105,7 +105,7 @@ The **div** element with `id="national_section"` is a good candidate as an ancho
 
         ![](/images/TA_Help/Images/interface.anchor_pos.07.png)
 
-{{<note>}} Note that each control of TA class link represents a <a\> element.
+        {{<note>}} Note that each control of TA class link represents a <a\> element.
 
     4.  Press F2 so that we can assign a meaningful TA name to the element. Let's call it **div\_national-news**.
 
@@ -133,7 +133,7 @@ The **div** element with `id="national_section"` is a good candidate as an ancho
 
     ![](/images/TA_Help/Images/IV_tree_for_anchor_pos.09a.png)
 
-{{<note>}} Note that the anchor property always specifies a TA name of a control, while the anchor pos value, as discussed in [anchor pos property](/TA_Help/Topics/Interface_def_anchor_pos_concept.html), consists of a TA class followed by an index reflecting the control's position within the subtree beneath the anchor. In this case, the control we are interested in is the first link element under the **div\_national-news** element, hence the value link 1.
+    {{<note>}} Note that the anchor property always specifies a TA name of a control, while the anchor pos value, as discussed in [anchor pos property](/TA_Help/Topics/Interface_def_anchor_pos_concept.html), consists of a TA class followed by an index reflecting the control's position within the subtree beneath the anchor. In this case, the control we are interested in is the first link element under the **div\_national-news** element, hence the value link 1.
 
 12. <div id="step.map_link.stop"></div>In the UI explorer, give this node a TA name by right-clicking it, selecting **Rename**, and entering your name. We'll call it **link\_national\_article1\_headline**, since it holds the headline of the first article in the national news section. Press Enter.
 

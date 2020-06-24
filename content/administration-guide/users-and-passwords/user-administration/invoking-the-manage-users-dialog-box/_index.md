@@ -14,7 +14,7 @@ To invoke the Manage Users dialog box, do the following:
 
 1.  Log in to a repository as a member of the TestArchitect [administrator](/TA_Administration/Topics/User_administration.html) group.
 
-{{<note>}} Only TestArchitect users belonging to the administrator group have rights to invoke the Manage Users dialog
+    {{<note>}} Only TestArchitect users belonging to the administrator group have rights to invoke the Manage Users dialog
 
 2.  Invoke the Manage Users dialog box by doing one of the following:
 

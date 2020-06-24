@@ -24,7 +24,7 @@ To import additional baseline images into an existing picture check, do the foll
 
 3.  In the Select dialog box, select image file\(s\) to be imported, and then click **Select**.
 
-{{<note>}}
+    {{<note>}}
 
     -   Only .PNG files are accepted.
     -   The Shift and Ctrl keys may be used with the mouse to aid in multiple selection.

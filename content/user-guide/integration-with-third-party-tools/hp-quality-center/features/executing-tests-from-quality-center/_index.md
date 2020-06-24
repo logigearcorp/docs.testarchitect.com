@@ -37,7 +37,7 @@ Ensure that you have already taken the following steps:
 
 5.  Select the test cases and/or test modules to add to the test set, and drag them to the **Execution Grid** tab.
 
-{{<tip>}} You can distinguish a test module by the pound sign \(\#\) as the first character in its name.
+    {{<tip>}} You can distinguish a test module by the pound sign \(\#\) as the first character in its name.
 
 6.  Select the test cases and/or test modules in the **Execution Grid** tab and click **Run**.
 
@@ -47,7 +47,7 @@ Ensure that you have already taken the following steps:
 
 7.  In the Automatic Runner dialog box, specify the host machine \(in the **Run on Host** column\) where each selected test will run. If you want to run all tests on the local host machine, select the check box **Run All Tests Locally**.
 
-{{<restriction>}} Due to Quality Center limitations, execution of tests on a Linux host from Quality Center is not supported.
+    {{<restriction>}} Due to Quality Center limitations, execution of tests on a Linux host from Quality Center is not supported.
 
 8.  Select a test on the test list you want to execute and click **Run** to execute the selected test case, or click **Run All** to run all test cases on the list.
 
@@ -95,7 +95,7 @@ Ensure that you have already taken the following steps:
                 1.  Lab Manager Server panel: \(Display only\) IP and port number of the Lab Manager Server to which the test controllers and devices are registered.
                 2.  Controllers/Devices panel: Lists all available controllers and cloud/physical mobile devices on which the test can be executed. The list consists of those controllers and devices that are either registered with the Lab Manager Server or have been manually added with the **Add Controller** or **Add desired capabilities files** button.
 
-{{<tip>}} To select multiple cloud devices to be executed at launch time, see the following topics.
+                    {{<tip>}} To select multiple cloud devices to be executed at launch time, see the following topics.
 
                     -   [WebDriver based cloud services](/TA_Automation/Topics/aut_app_cloud_testing_Appium_automation_json.html) \(Appium enabled\).
                     -   In [Remote TestKit](https://appkitbox.com/en/testkit/) service
@@ -104,7 +104,7 @@ Ensure that you have already taken the following steps:
                 3.  Controller Port Configuration: Use this panel to specify to TestArchitect the port number that the remote machine is using for its TestArchitect Controller, if not using the default.
                     -   **IP/Server Name**: \(Display only\) IP address of remote machine currently selected in the Controllers/Devices panel.
                     -   **Port**: Port number through which TestArchitect will attempt to communicate with the controller on the host specified in the **IP/Server Name** field. If this is not the port on which the controller is known to be listening, change this value and then click **Save** ![](/images/TA_Help/Images/btn.TAC_toolbar.SaveFile.png).
-{{<restriction>}} Only one controller or one physical mobile device may be selected to run tests at a time. In other words, multiple controller/physical mobile device execution is prohibited.
+            {{<restriction>}} Only one controller or one physical mobile device may be selected to run tests at a time. In other words, multiple controller/physical mobile device execution is prohibited.
 
         3.  Variation Specification panel:
 
@@ -119,7 +119,7 @@ Ensure that you have already taken the following steps:
 
         1.  **Export Result\(s\) to TARESULT**: Select this check box to export TA results as .TARESULT files.
 
-{{<note>}} .TARESULT is an archive extension, developed by LogiGear.
+            {{<note>}} .TARESULT is an archive extension, developed by LogiGear.
 
             ![](/images/TA_Help/Images/MTM_export_TARESULT_file.png)
 
@@ -161,13 +161,13 @@ Ensure that you have already taken the following steps:
         ![](/images/TA_Help/Images/Scheduler_Zephyr_startup_settings.png)
 
         -   **Startup Settings**: Select this check box to enable [user-defined settings](/TA_Automation/Topics/aut_defining_user_defined_settings.html) and/or [reconfigured built-in settings](/TA_Automation/Topics/aut_configuring_built_in_settings.html) to be loaded at the startup of test automation.
-{{<tip>}} To save the configurations, click the **Save** button.
+    {{<tip>}} To save the configurations, click the **Save** button.
 
-{{<note>}} The list of remote machines is added using the **Available Options** field in the New External Tool dialog box \(see [Configuring the Quality Center connection](/TA_Help/Topics/Integration_QC_connecting_repo_to_QC_server_step_1.html)\). For an existing tool profile, the field is available on the tool profile’s information screen.
+    {{<note>}} The list of remote machines is added using the **Available Options** field in the New External Tool dialog box \(see [Configuring the Quality Center connection](/TA_Help/Topics/Integration_QC_connecting_repo_to_QC_server_step_1.html)\). For an existing tool profile, the field is available on the tool profile’s information screen.
 
 10. Click **Run** to execute the tests.
 
-{{<important>}} If you are executing tests for the first time, you are prompted to enter your TestArchitect license server information. Enter the required information in the dialog box. If the specified license server is reached successfully, or the trial key is validated, the provided license information is stored. From then on, you will be able to execute tests without being prompted for this information again.
+    {{<important>}} If you are executing tests for the first time, you are prompted to enter your TestArchitect license server information. Enter the required information in the dialog box. If the specified license server is reached successfully, or the trial key is validated, the provided license information is stored. From then on, you will be able to execute tests without being prompted for this information again.
 
     ![](/images/TA_Help/Images/Licensing_run_external_tools.png)
 

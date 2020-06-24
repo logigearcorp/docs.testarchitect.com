@@ -35,7 +35,7 @@ To define the maximum allowable number of harnesses, follow the instructions bel
 2.  Open the abt.ini file in a text editor; Notepad++ is recommended.
 3.  Find the line that begins with `number pool harnesses` and change its value to the desired number.
 
-{{<note>}} The value must be a positive integer. So long as you set an invalid value \(negative number or zero\), the default value will be used.
+    {{<note>}} The value must be a positive integer. So long as you set an invalid value \(negative number or zero\), the default value will be used.
 
     ![](/images/TA_Help/Images/configure_harness_pool_size.png)
 

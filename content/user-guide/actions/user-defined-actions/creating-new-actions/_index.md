@@ -22,7 +22,7 @@ User-defined actions are kept in the **Actions** sub-tree of the project, to whi
 
     An important section of this dialog box is the list of arguments for the action. For each argument, you can specify a name, a default value, a description, a type and a modifier.
 
-{{<tip>}}
+    {{<tip>}}
 
     -   Refer to [Argument types](/reuse/reuse.Creating_and_using_actions_Arg_type.html) for argument types and associated argument modifiers.
     -   Use the **Move Up** and **Move Down** buttons to change the order of the arguments \(which determines the order in which they will appear when you use the action in a test\).

@@ -23,9 +23,9 @@ In TestArchitect, you create a new variation of a given definition by copying th
 
     ![](/images/TA_Help/Images/ug_systemtree4.png)
 
-{{<remember>}} For test modules and data sets only, the variation must be pasted into the same folder as the source definition .
+    {{<remember>}} For test modules and data sets only, the variation must be pasted into the same folder as the source definition .
 
-{{<tip>}} For a given project, it is common practice to create subfolders named Variations – one under the **Tests** node, one under the **Actions** node, one under the **Interfaces** node, and one under the **Data** node – to store all variations of each item type.
+    {{<tip>}} For a given project, it is common practice to create subfolders named Variations – one under the **Tests** node, one under the **Actions** node, one under the **Interfaces** node, and one under the **Data** node – to store all variations of each item type.
 
 3.  In the Create Variation dialog box, select the **Uses keyword\(s\)** check box. In the accompanying text field, enter the keyword or list of keywords that will be used to identify this variation.
 

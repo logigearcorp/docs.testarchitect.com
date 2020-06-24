@@ -16,7 +16,7 @@ Follow these steps to set up the Diff Tool to work with a third-party product.
 
 2.  Click the ellipsis \(…\) button to browse to the executable file of the external tool \(Windows: \*.exe; macOS: \*.app\), and use its corresponding command line to integrate Diff Tool with the external tool.
 
-{{<note>}} See the documentation for the given third party tool to familiarize yourself with its command line parameters. When constructing the command line in the Preferences dialog box, keep in mind the following two substitution variables to which the Diff Tool exports values:
+    {{<note>}} See the documentation for the given third party tool to familiarize yourself with its command line parameters. When constructing the command line in the Preferences dialog box, keep in mind the following two substitution variables to which the Diff Tool exports values:
 
     -   %sname: Reference to the Source item of the current comparison.
     -   %tname: Reference to the Target item of the current comparison.
@@ -26,7 +26,7 @@ Follow these steps to set up the Diff Tool to work with a third-party product.
 
         ![](/images/TA_Help/Images/diff_tool_external_tools_WinMerge.png)
 
-{{<note>}}
+        {{<note>}}
 
         -   The path `C:\Program Files (x86)\WinMerge\WinMergeU.exe` is the full path to the WinMerge executable for the particular installation of this example. Use whatever path is correct for the installation directory and application that you are using.
         -   %sname: Reference to the Source item of the current comparison.
@@ -35,7 +35,7 @@ Follow these steps to set up the Diff Tool to work with a third-party product.
 
         ![](/images/TA_Help/Images/diff_tool_external_tools_AraxisMerge.png)
 
-{{<note>}}
+        {{<note>}}
 
         -   The path `C:\Program Files (x86)\Araxis\Araxis Merge\` is the full path to the Araxis Merge executable for the particular installation of this example. Use whatever path is correct for the installation directory and application that you are using.
         -   %sname: Reference to the Source item of the current comparison.

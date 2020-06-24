@@ -27,7 +27,7 @@ As a rule, processing data queries between your application program and TestArch
 
 1.  Register TAUtilities.dll in COM application programs.
 
-{{<remember>}} In Java application programs, instead of registering TAUtilities.dll into the registry, you must reference the following .JARs from within your Java project \([learn more](/TA_Tutorials/Topics/TAUtilities_register_library.html)\):
+    {{<remember>}} In Java application programs, instead of registering TAUtilities.dll into the registry, you must reference the following .JARs from within your Java project \([learn more](/TA_Tutorials/Topics/TAUtilities_register_library.html)\):
 
     -   TAUtilities
     -   SLF4J API module
@@ -37,7 +37,7 @@ As a rule, processing data queries between your application program and TestArch
 3.  Call the Login\(\) method to log on to the repository.
 4.  Call getProject\(\) to access objects of a single TestArchitect project, or call the getProjects\(\) method to access objects of multiple projects.
 
-{{<note>}} Data can only be retrieved after the connection has been established successfully and you have logged on to the repository. In case of exceptions that TAUtilities functions may throw, use the static getLastErrorMessage\(\) method of the Repository class to catch the most recent exception message.
+    {{<note>}} Data can only be retrieved after the connection has been established successfully and you have logged on to the repository. In case of exceptions that TAUtilities functions may throw, use the static getLastErrorMessage\(\) method of the Repository class to catch the most recent exception message.
 
 5.  Based on your particular scenario, call the appropriate methods to interact with the TestArchitect items such as test folders, test modules, or test cases.
 6.  When you are done with the connection, explicitly close the it by calling the Disconnect\(\) method.

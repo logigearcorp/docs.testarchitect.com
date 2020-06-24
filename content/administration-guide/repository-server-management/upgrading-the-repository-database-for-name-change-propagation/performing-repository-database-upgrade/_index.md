@@ -29,17 +29,17 @@ Ensure the following requirements are met before upgrading a database.
     -   Click **OK**, if you want all databases to be upgraded automatically.
     -   Click **Cancel**, if you do not want the upgrading process to take place immediately.
 
-{{<note>}} If you click **Cancel**, proceed to step [3](/TA_Administration/Topics/Repo_upgrading_database.html#step_login) to manually run the upgrade process for specific repositories.
+        {{<note>}} If you click **Cancel**, proceed to step [3](/TA_Administration/Topics/Repo_upgrading_database.html#step_login) to manually run the upgrade process for specific repositories.
 
 3.  From TestArchitect Client, log in to the repository that you want to upgrade using the built-in user account, **administrator**.
 
 4.  In the TestArchitect explorer tree, right-click on the repository and select **Upgrade Database** on the context menu.
 
-{{<note>}} The **Upgrade Database** option will no longer appear in the context menu once the repository's database has been upgraded.
+    {{<note>}} The **Upgrade Database** option will no longer appear in the context menu once the repository's database has been upgraded.
 
 5.  Confirm that you want to upgrade the database.
 
-   {{<caution>}}
+    {{<{{<caution>}}>}}
 
     There is no way for TestArchitect to undo the changes made to the database after it has been upgraded.
 

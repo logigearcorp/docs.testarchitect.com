@@ -21,7 +21,7 @@ The following offers a simple example of rearranging the test modules in a dynam
 
 1.  In the TestArchitect explorer tree, right-click a dynamic test suite node residing under the project's **Test Suites** folder, then click **Edit data profile**.
 
-{{<note>}} If you right-click a static test suite node, the **Edit data profile** option is unavailable.
+    {{<note>}} If you right-click a static test suite node, the **Edit data profile** option is unavailable.
 
 2.  In the Edit Profile panel, [customize](/TA_Help/Topics/Report_customizing.html) the data profile so that the order of the test modules reflect your preferred sequence of execution.
 

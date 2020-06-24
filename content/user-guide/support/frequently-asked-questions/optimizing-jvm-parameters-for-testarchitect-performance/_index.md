@@ -20,20 +20,20 @@ The parameters below control how garbage collection \(GC\) is performed by the J
 
     Sets the maximum amount of native memory that can be allocated for class metadata. By default, the size is not limited. The amount of metadata for an application depends on the application itself, other running applications, and the amount of memory available on the system.
 
-{{<important>}} By default, the value configured for TestArchitect is set to 256 MB.
+    {{<important>}} By default, the value configured for TestArchitect is set to 256 MB.
 
 
 -   **-XX:MinHeapFreeRatio=percent**
 
     Sets the minimum allowed percentage of free heap space \(0 to 100\) after a GC event. If free heap space falls below this value, then the heap will be expanded.
 
-{{<important>}} By default, the value configured for TestArchitect is set to 15%.
+    {{<important>}} By default, the value configured for TestArchitect is set to 15%.
 
 -   **-XX:MaxHeapFreeRatio=percent**
 
     Sets the maximum allowed percentage of free heap space \(0 to 100\) after a GC event. If free heap space expands above this value, then the heap will shrink.
 
-{{<important>}} By default, the value configured for TestArchitect is set to 30%.
+    {{<important>}} By default, the value configured for TestArchitect is set to 30%.
 
 
 In simple words, MaxHeapFreeRatio is used to shrink the JVM and MinHeapFreeRatio is for expansion. If the ratio between the used memory and free memory exceeds MaxHeapFreeRatio \(30%\), JVM will shrink. If that ratio falls below MinHeapFreeRatio \(15%\), JVM will expand.

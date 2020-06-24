@@ -82,7 +82,7 @@ To run automated tests from Zephyr, do as follows:
                 1.  Lab Manager Server panel: \(Display only\) IP and port number of the Lab Manager Server to which the test controllers and devices are registered.
                 2.  Controllers/Devices panel: Lists all available controllers and cloud/physical mobile devices on which the test can be executed. The list consists of those controllers and devices that are either registered with the Lab Manager Server or have been manually added with the **Add Controller** or **Add desired capabilities files** button.
 
-{{<tip>}} To select multiple cloud devices to be executed at launch time, see the following topics.
+                    {{<tip>}} To select multiple cloud devices to be executed at launch time, see the following topics.
 
                     -   [WebDriver based cloud services](/TA_Automation/Topics/aut_app_cloud_testing_Appium_automation_json.html) \(Appium enabled\).
                     -   In [Remote TestKit](https://appkitbox.com/en/testkit/) service
@@ -91,7 +91,7 @@ To run automated tests from Zephyr, do as follows:
                 3.  Controller Port Configuration: Use this panel to specify to TestArchitect the port number that the remote machine is using for its TestArchitect Controller, if not using the default.
                     -   **IP/Server Name**: \(Display only\) IP address of remote machine currently selected in the Controllers/Devices panel.
                     -   **Port**: Port number through which TestArchitect will attempt to communicate with the controller on the host specified in the **IP/Server Name** field. If this is not the port on which the controller is known to be listening, change this value and then click **Save** ![](/images/TA_Help/Images/btn.TAC_toolbar.SaveFile.png).
-{{<restriction>}} Only one controller or one physical mobile device may be selected to run tests at a time. In other words, multiple controller/physical mobile device execution is prohibited.
+            {{<restriction>}} Only one controller or one physical mobile device may be selected to run tests at a time. In other words, multiple controller/physical mobile device execution is prohibited.
 
         3.  Variation Specification panel:
 
@@ -106,7 +106,7 @@ To run automated tests from Zephyr, do as follows:
 
         1.  **Export Result\(s\) to TARESULT**: Select this check box to export TA results as .TARESULT files.
 
-{{<note>}} .TARESULT is an archive extension, developed by LogiGear.
+            {{<note>}} .TARESULT is an archive extension, developed by LogiGear.
 
             ![](/images/TA_Help/Images/MTM_export_TARESULT_file.png)
 
@@ -150,9 +150,9 @@ To run automated tests from Zephyr, do as follows:
         -   **Startup Settings**: Select this check box to enable [user-defined settings](/TA_Automation/Topics/aut_defining_user_defined_settings.html) and/or [reconfigured built-in settings](/TA_Automation/Topics/aut_configuring_built_in_settings.html) to be loaded at the startup of test automation.
 7.  Click **Run** to execute the tests.
 
-{{<note>}} On each subsequent test run, the information you provide is retained and automatically populates the TestArchitect Execution dialog box.
+    {{<note>}} On each subsequent test run, the information you provide is retained and automatically populates the TestArchitect Execution dialog box.
 
-{{<important>}} If you are executing tests for the first time, you are prompted to enter your TestArchitect license server information. Enter the required information in the dialog box. If the specified license server is reached successfully, or the trial key is validated, the provided license information is stored. From then on, you will be able to execute tests without being prompted for this information again.
+    {{<important>}} If you are executing tests for the first time, you are prompted to enter your TestArchitect license server information. Enter the required information in the dialog box. If the specified license server is reached successfully, or the trial key is validated, the provided license information is stored. From then on, you will be able to execute tests without being prompted for this information again.
 
     ![](/images/TA_Help/Images/Licensing_run_external_tools.png)
 

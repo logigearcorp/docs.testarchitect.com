@@ -45,7 +45,7 @@ We'll begin by creating a new code file, similar in nature to mod\_Example.py, u
 
     As in the previous exercise, there is a SetActions\(\) function, which in this case declares those actions that are part of the mod\_TableSupport module. \(Only one action, check row count, is so declared, in this case.\) The Divert\(\) function, also seen previously, is called from the main module and directs the action to the Python function that implements it.
 
-3.{{<note>}} The file ta\_main.py, which is the main entry point for user-scripted action calls, must now be edited. Note that this was not the case in our previous lesson. When an action definition is added to an existing code module, there is no need to touch ta\_main.  However, when a new module is created, as we’re doing here, ta\_main does need to know about it.
+3.  {{<note>}} The file ta\_main.py, which is the main entry point for user-scripted action calls, must now be edited. Note that this was not the case in our previous lesson. When an action definition is added to an existing code module, there is no need to touch ta\_main.  However, when a new module is created, as we’re doing here, ta\_main does need to know about it.
 
     Open ta\_main.py in the editor.
 

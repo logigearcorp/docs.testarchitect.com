@@ -27,7 +27,7 @@ To bring a Quality Center test into a TestArchitect test module as a new test ca
 
 1.  Right-click the test module icon and select **External Tool** \> **HP ALM** \> **Import from Quality Center**.
 
-{{<note>}} If requested, enter the password for the Quality Center account whose user name is the same as the current TestArchitect user name.
+    {{<note>}} If requested, enter the password for the Quality Center account whose user name is the same as the current TestArchitect user name.
 
     The **Import from Quality Center** dialog box appears, displaying lists of Quality Center tests and folders in a tree structure:
 
@@ -35,7 +35,7 @@ To bring a Quality Center test into a TestArchitect test module as a new test ca
 
 2.  Select a Quality Center test to import and click **OK**.
 
-{{<note>}} When importing into a TestArchitect test module, you are limited to selecting a single Quality Center test as the source. Also note that “\#” tests are intended for Quality Center documentation purposes only and are non-importable.
+    {{<note>}} When importing into a TestArchitect test module, you are limited to selecting a single Quality Center test as the source. Also note that “\#” tests are intended for Quality Center documentation purposes only and are non-importable.
 
     The import process begins, as indicated at the bottom of the dialog box. Note that the entire process may take anywhere from a few seconds to a minute or more, depending on the content being imported.
 

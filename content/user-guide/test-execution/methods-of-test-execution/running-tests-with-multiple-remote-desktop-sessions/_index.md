@@ -34,7 +34,7 @@ TestArchitect provides you the capability to execute tests with multiple remote 
 
 2.  On each of the remote sessions, start TestArchitect Controller and assign a unique port number to the Controller
 
-{{<restriction>}} Although you can start TestArchitect Controller on multiple sessions, you can launch TestArchitect Client on only one session.
+    {{<restriction>}} Although you can start TestArchitect Controller on multiple sessions, you can launch TestArchitect Client on only one session.
 
     There are three approaches to port number assignment.
 
@@ -54,7 +54,7 @@ TestArchitect provides you the capability to execute tests with multiple remote 
 
 6.  Execute the test.
 
-{{<warning>}} During the test run,
+    {{<warning>}} During the test run,
 
     -   Keep the remote computer unlocked as long as you perform GUI testing on any sessions.
     -   Do not minimize any remote session window from the local computer.

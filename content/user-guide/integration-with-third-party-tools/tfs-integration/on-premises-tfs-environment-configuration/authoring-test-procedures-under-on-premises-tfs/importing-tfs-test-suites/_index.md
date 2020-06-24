@@ -28,11 +28,11 @@ To import a TFS test suite into TestArchitect:
     -   Test Module\(s\): Create a test module in TestArchitect corresponding to each imported test case in TFS. The name of the test module is made up of TFS test case's ID and test case's title separated by underscore \(\_\). For instance, 90\_TC01.
     -   Test Case\(s\): Create a test case in TestArchitect corresponding to each imported test case in TFS. The TFS test case's ID will be mapped to the Source field and ID of the TestArchitect test case. The title of the TestArchitect test case is made up of TFS test case's ID and test case's title separated by comma \(,\). For instance, 90, TC01.
 
-{{<remember>}} you must select either Test Module\(s\) or Test Cases, or both.
+        {{<remember>}} you must select either Test Module\(s\) or Test Cases, or both.
 
     -   All Contents: Import all contents of the TFS test cases into TestArchitect test cases/ test modules.
 
-{{<note>}} If you choose the All Contents mode, you can only import non-mixed test suites that:
+        {{<note>}} If you choose the All Contents mode, you can only import non-mixed test suites that:
 
         -   do not contain both child test cases and child test suites.
         -   do not recursively contain any child mix mode test suites.
@@ -40,7 +40,7 @@ To import a TFS test suite into TestArchitect:
     -   Keep Folder Structure: Organize the imported tests in Architect in a similar way to those in TFS.
     -   Scan Project for Existing Test Cases/Modules: If selected, the whole TestArchitect project will be scanned for test cases/test modules that already exist. Otherwise, the selected test node will be scanned.
 
-{{<note>}} The **Scan Project for Existing Test Cases/Modules** function applies to Test Steps Only.
+        {{<note>}} The **Scan Project for Existing Test Cases/Modules** function applies to Test Steps Only.
 
 4.  Click the **OK** button.
 
@@ -48,7 +48,7 @@ To import a TFS test suite into TestArchitect:
 
     ![](/images/TA_Help/Images/TFS_import_overwrite_dlg.png)
 
-{{<note>}} The **Copy to Clipboard** button is used to copy the list of existing test cases to the clipboard.
+    {{<note>}} The **Copy to Clipboard** button is used to copy the list of existing test cases to the clipboard.
 
 6.  An information dialog box will appear stating “The Importing process completed successfully” if the upload was successful. Click the **OK** button.
 

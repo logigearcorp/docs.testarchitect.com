@@ -20,7 +20,7 @@ TestArchitect lets you easily import a repository test result archive file \(.ZI
 
 2.  In the dialog box, click **OK** to proceed.
 
-{{<tip>}} Select the **Don't display this message again** check box to skip this dialog box in the future.
+    {{<tip>}} Select the **Don't display this message again** check box to skip this dialog box in the future.
 
 3.  In the Select dialog box, browse to the location where the repository test result archive file \(.ZIP\) is stored.
 

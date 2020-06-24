@@ -24,7 +24,7 @@ On repository servers that are shared among multiple users, it is recommended th
 
 4.  Enter the same password in both **Password** and **Confirm Password** boxes.
 
-{{<tip>}} To remove an existing authentication requirement, clear the **Require a password to create a repository** check box.
+    {{<tip>}} To remove an existing authentication requirement, clear the **Require a password to create a repository** check box.
 
 5.  Click **OK**.
 

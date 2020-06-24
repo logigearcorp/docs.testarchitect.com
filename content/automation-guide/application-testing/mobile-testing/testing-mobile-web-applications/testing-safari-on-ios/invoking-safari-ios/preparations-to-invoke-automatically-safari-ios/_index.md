@@ -28,7 +28,7 @@ Carry out the following procedures:
 
     3.  Start Xcode on the macOS machine and wait for at least 10 seconds, so that the iOS device can obtain the essential development libraries.
 
-{{<tip>}} Once you see the device listed under the **Devices** heading in the panel on the left side of the Xcode application, you are assured that the transfer is complete.
+        {{<tip>}} Once you see the device listed under the **Devices** heading in the panel on the left side of the Xcode application, you are assured that the transfer is complete.
 
 2.  On your iOS device, terminate Safari, if running.
 
@@ -36,7 +36,7 @@ Carry out the following procedures:
 
     This may be a Windows or macOS machine.
 
-{{<important>}} The USB cable connection must always be maintained during automation.
+    {{<important>}} The USB cable connection must always be maintained during automation.
 
 
 Now you are free to use the [navigate](/TA_Automation/Topics/bia_navigate.html) action in your test procedures to invoke Safari on iOS.

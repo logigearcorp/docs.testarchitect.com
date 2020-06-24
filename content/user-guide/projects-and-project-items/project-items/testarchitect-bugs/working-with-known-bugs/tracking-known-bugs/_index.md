@@ -35,20 +35,20 @@ Ensure that the following requirements are met:
         -   Team Foundation Server: Select this option to mark the action line with a TFS bug.
     -   **Bug ID**: Depending on what type of bug you selected in the **Bug Tracker** drop-down list, enter the bug ID of a TA bug or a JIRA bug or a TFS bug, respectively.
 
-{{<note>}} It should be understood that you cannot create a new bug from this dialog box. The bug ID must already exist in the system specified in the **Bug Tracker** field.
+        {{<note>}} It should be understood that you cannot create a new bug from this dialog box. The bug ID must already exist in the system specified in the **Bug Tracker** field.
 
     -   **Summary**: \(Optional\) Briefly describe the bug.
     ![](/images/TA_Help/Images/Specify_bug_dialog_box.png)
 
 4.  Click the **Preview** button to load basic information of the bug into the **Summary** and **Status** fields.
 
-{{<note>}} If you selected the JIRA or TFS bug type, an additional field, **Linked to**, in the dialog box is displayed. This field displays the TA bug associated with the selected JIRA bug or TFS bug. However, if that bug is not associated with a TA bug, this field is empty as in the figure below.
+    {{<note>}} If you selected the JIRA or TFS bug type, an additional field, **Linked to**, in the dialog box is displayed. This field displays the TA bug associated with the selected JIRA bug or TFS bug. However, if that bug is not associated with a TA bug, this field is empty as in the figure below.
 
     ![](/images/TA_Help/Images/Specify_bug_JIRA_dlg.png)
 
 5.  Click **OK**.
 
-{{<note>}} If the JIRA or TFS bug type was selected, and that bug is not associated with any TA bug, you are presented with the option to create a new TA bug and import its data from the new JIRA or TFS bug:
+    {{<note>}} If the JIRA or TFS bug type was selected, and that bug is not associated with any TA bug, you are presented with the option to create a new TA bug and import its data from the new JIRA or TFS bug:
 
     ![](/images/TA_Help/Images/Marking_new_JIRA_known_bug.png)
 
@@ -64,7 +64,7 @@ Ensure that the following requirements are met:
 
     ![](/images/TA_Help/Images/Marking_known_bug_yellow_dot.png)
 
-{{<tip>}} Hover your mouse over the yellow dot to see the screentip of the known bug. The displayed information includes **Bug ID**, **Source**, **Marked By**, **Summary** and **Status**.
+    {{<tip>}} Hover your mouse over the yellow dot to see the screentip of the known bug. The displayed information includes **Bug ID**, **Source**, **Marked By**, **Summary** and **Status**.
 
 
 [Execute](/TA_Help/Topics/Test_exec.html) your tests, then proceed to [Reviewing test result results with known bugs](/TA_Help/Topics/Bugs_working_known_bug_reviewing_test_results.html) to verify your test results and keep track of progress on the known bugs.

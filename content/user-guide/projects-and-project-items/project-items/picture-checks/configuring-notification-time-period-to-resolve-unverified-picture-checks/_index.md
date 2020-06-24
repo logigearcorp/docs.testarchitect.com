@@ -21,7 +21,7 @@ To turn off the notification dialog box, please [resolve unverified picture chec
     -   macOS: /Applications/TestArchitect/data/rs/abt.ini
 2.  Under the \[SETTINGS\] section, set a new value for unverified picture checks results timeout, which is an integer representing the time period, in days, to notify that there are unverified picture checks.
 
-{{<note>}} unverified picture checks results timeout is defaulted to 5 days when the file is first created.
+    {{<note>}} unverified picture checks results timeout is defaulted to 5 days when the file is first created.
 
     For example:
 

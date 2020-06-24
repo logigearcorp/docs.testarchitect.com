@@ -34,11 +34,11 @@ To execute a test on one or more remote machines:
 
     If the remote controller you want to run is not listed in the Controllers/Devices panel, and that controller is visible to the local host machine, click **Add controller**. Enter the host address of the controller, followed by its controller port number, separated by a colon.
 
-{{<tip>}} Multiple controllers separated by semicolons can be added simultaneously to the list, as illustrated below:
+    {{<tip>}} Multiple controllers separated by semicolons can be added simultaneously to the list, as illustrated below:
 
     ![](/images/TA_Help/Images/Add_controller.png)
 
-{{<note>}} If the remote controller's port number is [changed](/TA_Help/Topics/Controller_changing_port.html) to a different value, you must reconfigure that controller port number in the Controllers/Devices panel. Enter the correct port number into the **Port** box in the Controller Port Configuration panel, then clicking **Save** ![](/images/TA_Help/Images/Save_btn_port_configuration.png).
+    {{<note>}} If the remote controller's port number is [changed](/TA_Help/Topics/Controller_changing_port.html) to a different value, you must reconfigure that controller port number in the Controllers/Devices panel. Enter the correct port number into the **Port** box in the Controller Port Configuration panel, then clicking **Save** ![](/images/TA_Help/Images/Save_btn_port_configuration.png).
 
 6.  Click **OK** in the Select Controller/Device dialog box, and select **Execute** in theExecute Test dialog box, to begin executing the remote tests.
 

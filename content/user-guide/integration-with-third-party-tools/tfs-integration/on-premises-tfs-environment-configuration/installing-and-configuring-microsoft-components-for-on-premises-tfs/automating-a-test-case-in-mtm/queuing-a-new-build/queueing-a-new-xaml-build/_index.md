@@ -18,7 +18,7 @@ After creating an XML build definition, the new build must be queued.
 
 2.  Queue the build by following Microsoft's instructions. \([Learn more](https://msdn.microsoft.com/en-us/library/ms181722(v=vs.120).aspx).\)
 
-{{<note>}}
+    {{<note>}}
 
     -   Only configurations for the **General** tab are required. The others are optional.
     -   In the Queue Build <Project\_name\> dialog box, if needed, specify the build definition, the build controller, the priority of the build in the build queue and the output folder where the files and modules will reside after the build is over.

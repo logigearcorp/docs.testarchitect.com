@@ -29,7 +29,7 @@ Let's say you want to export a given test module, Multiple Reservations, and its
 -   In the export, include the regular picture checks of the source test module.
 -   Type of output: .zip
 
-{{<note>}} Only .zip files are supported as targets when exporting regular picture checks from a test module. If you are not including regular picture checks in your export, .html and .csv files may also serve as the output.
+    {{<note>}} Only .zip files are supported as targets when exporting regular picture checks from a test module. If you are not including regular picture checks in your export, .html and .csv files may also serve as the output.
 
 -   Overwrite the existing file, if any.
 

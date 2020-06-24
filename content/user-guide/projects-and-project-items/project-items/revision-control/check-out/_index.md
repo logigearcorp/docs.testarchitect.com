@@ -20,9 +20,9 @@ Ensure that your TestArchitect Client is running and connected to the repository
 
     **Fastpath:** Alternatively, use the keyboard shortcut F12.
 
-{{<important>}} Only one user can check out an item at a time.
+    {{<important>}} Only one user can check out an item at a time.
 
-{{<note>}}
+    {{<note>}}
 
     -   When you check out a folder, you check out all items in that folder. Furthermore, you have the option to recursively check out all items within the entire subtree of the selected folder, by selecting the **Recursive** check box in the dialog box that appears.
 

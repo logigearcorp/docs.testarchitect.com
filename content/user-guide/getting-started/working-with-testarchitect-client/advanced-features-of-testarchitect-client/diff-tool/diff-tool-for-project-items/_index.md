@@ -56,7 +56,7 @@ The Diff Tool's tool bar contains six buttons:
 
     **Fastpath:** F6.
 
-{{<note>}} This button is disabled when the currently selected line is at or above the first detected difference in the files.
+    {{<note>}} This button is disabled when the currently selected line is at or above the first detected difference in the files.
 
 2.  **Next Difference**:
 
@@ -64,7 +64,7 @@ The Diff Tool's tool bar contains six buttons:
 
     **Fastpath:** F7.
 
-{{<note>}} This button is disabled when the currently selected line is at or below the first detected difference in the files.
+    {{<note>}} This button is disabled when the currently selected line is at or below the first detected difference in the files.
 
 3.  **Refresh**:
 
@@ -72,7 +72,7 @@ The Diff Tool's tool bar contains six buttons:
 
     **Fastpath:** F5.
 
-{{<warning>}}
+    {{<warning>}}
 
     -   If changes are detected, the following warning dialog box appears.
 
@@ -109,7 +109,7 @@ Each Item panel includes the following elements:
 2.  Current location panel: Displays the currently selected line of the project item.
 3.  Display panel: Displays the text content of the item. Lines that are different from their counterparts \(or have no counterparts\) in the comparison file are highlighted. \(See highlighting details below.\) This panel is also the main area for visualizing and navigating the differences between the two items.
 
-{{<note>}} As you scroll an item up/down or left/right using its scroll bars, the comparison item is scrolled in sync with it, so that the two windows remain visually aligned. Also note that when you select a difference, it is always selected in both Item panels.
+    {{<note>}} As you scroll an item up/down or left/right using its scroll bars, the comparison item is scrolled in sync with it, so that the two windows remain visually aligned. Also note that when you select a difference, it is always selected in both Item panels.
 
 
 ## Difference highlighting
@@ -121,7 +121,7 @@ TestArchitect highlights differences between two items with colors. This section
 
         ![](/images/TA_Help/Images/diff_tool_difference_blocks.png)
 
-{{<note>}} One exception is item headers. If differences are detected between item headers, the original \(blue\) background color is preserved, and difference highlighting is limited to the word or character level. \(Keep in mind that the headers refered to here are those *within* the respective project items, not the item panel headers within the Diff Tool window.\)
+        {{<note>}} One exception is item headers. If differences are detected between item headers, the original \(blue\) background color is preserved, and difference highlighting is limited to the word or character level. \(Keep in mind that the headers refered to here are those *within* the respective project items, not the item panel headers within the Diff Tool window.\)
 
         ![](/images/TA_Help/Images/diff_tool_difference_blocks_header.png)
 

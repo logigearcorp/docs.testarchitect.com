@@ -65,7 +65,7 @@ The scope of a variable determines its lifetime and visibility. TestArchitect su
 
     ![](/images/TA_Automation/Images/variable_use_data_set.02.png)
 
-{{<note>}} The name of the local variable inside the [use data set](/TA_Automation/Topics/bia_use_data_set.html)-[repeat for data set](/TA_Automation/Topics/bia_repeat_for_data_set.html) block cannot be the same as the name of the data set columns.
+    {{<note>}} The name of the local variable inside the [use data set](/TA_Automation/Topics/bia_use_data_set.html)-[repeat for data set](/TA_Automation/Topics/bia_repeat_for_data_set.html) block cannot be the same as the name of the data set columns.
 
 -   **Test case scope:** A local variable declared within a test case is not available outside of that test case.
 -   **Test module scope**: A local variable declared within a test module is not visible outside of that test module. If it is declared within the [`INITIAL`](/TA_Automation/Topics/bia_initial.html) section of the test module, it is visible in every test cases of the module.
@@ -88,7 +88,7 @@ It is common practice to have an action with a name like initialize to assign va
 
 During an editing session, entering the *\#* symbol in an empty argument cell triggers an autocomplete pop-up window containing a list of variables thought to be within scope at that position in the action lines. Use the Up and Down arrow keys to select one, should you need it inserted at that point. You can bring back the pop-up list at any further point in the expression by pressing Ctrl + Space.
 
-{{<caution>}}
+{{<{{<caution>}}>}}
 
 The variables listed in the autocomplete window are purely suggested variables. The editor cannot be certain that the variables it suggests will always be in scope at that point in the test run. It is up to you to ensure that a given variable inserted in an expression will indeed be visible \(within scope\) when the test is run.
 

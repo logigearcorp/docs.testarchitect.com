@@ -18,13 +18,13 @@ To enable the UIA Support tool, perform the following:
 
 1.  Start the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer_Starting.html).
 
-{{<note>}} Refer to [list of UIA supported controls](/TA_Automation/Topics/aut_UIA_controls.html). Note that, for a control that is not mentioned in this list, the UI Automation properties are not available.
+    {{<note>}} Refer to [list of UIA supported controls](/TA_Automation/Topics/aut_UIA_controls.html). Note that, for a control that is not mentioned in this list, the UI Automation properties are not available.
 
 2.  On the Interface Viewer's toolbar, click the **UIA technology** ![](/images/TA_Automation/Images/btn_UIA_technology.png) button.
 
     ![](/images/TA_Automation/Images/Interface_Viewer_UIA.png)
 
-{{<note>}}
+    {{<note>}}
 
     -   With UIA technology enabled, the **Native Properties** tab of the Properties panel is unavailable.
     -   Which control's properties are retrieved by TestArchitect depends on the [UIA supported controls](/TA_Automation/Topics/aut_UIA_controls.html). All retrieved properties are displayed in the **TA Properties** tab. You can use these properties for capturing UI controls.

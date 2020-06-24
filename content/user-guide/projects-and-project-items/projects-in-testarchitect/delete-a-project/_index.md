@@ -23,7 +23,7 @@ To delete a project, do the following:
 
     ![](/images/TA_Help/Images/Projects_delete_project.png)
 
-{{<important>}}
+    {{<important>}}
 
     In the event that the repository hosting the project to be deleted is serving as a primary/replication repository, TestArchitect shows an error message dialog box, and is unable to delete the project. Please disconnect the primary-replication relationship, and then try again. \([Learn more](/TA_Administration/Topics/adm_Removing_primary_repication_repository_main.html).\)
 

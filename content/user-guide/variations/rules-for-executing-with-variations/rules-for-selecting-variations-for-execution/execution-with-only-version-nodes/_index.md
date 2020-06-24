@@ -52,7 +52,7 @@ When execution parameters include no keywords, but do include one or more versio
         -   If the answer is Yes, TestArchitect selects that variation.
         -   If No, move one level up in the [**Version Compilation Order List**](/TA_Help/Topics/Variations_create_linked_mainitaining_modifying_system_tree.html) for this system. Cycle back up to question [2b](#li.version_node_found), allowing the term the one specified to now refer to this new version node. Continue with this cycle until the answer to [2b](#li.version_node_found) is Yes, or the end of the list is reached. If the end of the list is reached, TestArchitect selects the default variation.
 
-{{<important>}}
+            {{<important>}}
 
             -   When your specified version node does not belong to any branch node, TestArchitect ignores other higher branch nodes in **Version Compilation Order List**, as well as its descendant nodes, if any.
                 -   For example, if your automated test run specifies node **1.2**, the search order is **1.2** \> **1.1** \> **1** \> **default variation**.

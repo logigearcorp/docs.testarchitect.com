@@ -16,15 +16,15 @@ Capturing interface definitions means writing out interface entities with a\) ma
 
 3.  Launch the Interface Viewer from TestArchitect \(press F7 or select **Tools** \> **Interface Viewer** from the main menu; or click the **Interface Viewer** ![](/images/TA_Help/Images/Interface_viewer_btn.png) button on the toolbar\). Alternatively, if the Interface Viewer is already open, perform a **Refresh** \(press **F5** or select **File** \> **Refresh**, or click the **Refresh** button\).
 
-{{<note>}} The name of the active interface entity appears in the title bar of the Interface Viewer.
+    {{<note>}} The name of the active interface entity appears in the title bar of the Interface Viewer.
 
 4.  In the **View Menu**, if there is a menu item named **Switch to Class View**, select it. \(If it's not present, the Interface Viewer is already in Class View mode\)
 
 5.  In the UI explorer panel, locate the node representing the application window you will capture. Click that node. Observe that the Properties panel now displays the properties for this window.
 
-{{<tip>}} To capture UI child elements belonging to a container class, see [Container Class](/TA_Help/Topics/Interface_def_container_class.html).
+    {{<tip>}} To capture UI child elements belonging to a container class, see [Container Class](/TA_Help/Topics/Interface_def_container_class.html).
 
-{{<note>}} Typically, in the Properties panel, the check box of the title property is selected. Because it is selected, this is the property that will be used by the interface entity to uniquely identify this window and map it to the interface entity. You have the option at this point of deselecting this property and choosing some other property, or multiple properties, as the identifier. The important thing is that you ensure that the property or combination of properties you use is unique. This uniqueness must be not just amongst all the windows that are currently open, but all the ones that may be open during testing. If TestArchitect cannot uniquely identify a single window from an interface entity, you will receive an error message to the effect that there is more than one open window matching the interface entity.
+    {{<note>}} Typically, in the Properties panel, the check box of the title property is selected. Because it is selected, this is the property that will be used by the interface entity to uniquely identify this window and map it to the interface entity. You have the option at this point of deselecting this property and choosing some other property, or multiple properties, as the identifier. The important thing is that you ensure that the property or combination of properties you use is unique. This uniqueness must be not just amongst all the windows that are currently open, but all the ones that may be open during testing. If TestArchitect cannot uniquely identify a single window from an interface entity, you will receive an error message to the effect that there is more than one open window matching the interface entity.
 
 6.  Double-click the node.
 
@@ -52,7 +52,7 @@ Capturing interface definitions means writing out interface entities with a\) ma
 
     2.  Type your choice of TA name for the item, and hit **Enter**. The control is now mapped.
 
-{{<attention>}} The icon for each node now switches from double angle brackets to a green check mark, indicating it has been mapped. Furthermore, your new TA name appears in the node in UPPER-CASE letters, with the physical name next to it in parentheses.
+        {{<attention>}} The icon for each node now switches from double angle brackets to a green check mark, indicating it has been mapped. Furthermore, your new TA name appears in the node in UPPER-CASE letters, with the physical name next to it in parentheses.
 
         **Auto-mapping & unmapping:** As a speedy alternative to using the **Rename** option, you may simply double-click any unmapped control node. This causes the control to be mapped with a logical name that the Viewer assigns for you. This is called a suggested name and can be used in your definition.
 

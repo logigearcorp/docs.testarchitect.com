@@ -28,7 +28,7 @@ In this exercise you will write a simple test case that uses your interface defi
 
 2.  In the **Name** field, type My login test and click **Create**.
 
-3.{{<note>}} The new test module appears in the editor with a default template containing suggested basic components for a well-designed test. For this lesson, you only need the TEST CASE section.
+3.  {{<note>}} The new test module appears in the editor with a default template containing suggested basic components for a well-designed test. For this lesson, you only need the TEST CASE section.
 
     In the editor, delete all content except for the TEST CASE line. Optionally, you can also delete any blank lines above the TEST CASE line.
 

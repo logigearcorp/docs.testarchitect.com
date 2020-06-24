@@ -23,7 +23,7 @@ The procedure below describes how to define the number of connection retries for
     -   On MacOS: Applications/TestArchitect/data/controller.
 3.  Find connect retries parameter and change its value to the desired number.
 
-{{<note>}} The default number is 50
+    {{<note>}} The default number is 50
 
 4.  Save the file.
 

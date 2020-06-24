@@ -29,14 +29,14 @@ Upon creation, TestArchitect populates the test module with headings for a recom
 1.  The **TEST MODULE** heading: As a documentary line, this heading is fixed at row 1, and is the only non-optional, non-deletable heading in a test module.
 2.  The **OBJECTIVES** heading: The OBJECTIVES section holds every objective that is associated with the test cases. The objectives listed in it define the scope of the test module. They allow readers to understand why test cases are designed the way they are, and give an auditor a quick insight into the correctness and, more importantly, completeness of a test.
 
-{{<note>}} Only the [test objective](/reuse/../TA_Automation/Topics/bia_test_objective.html) built-in action is allowed to appear in the OBJECTIVE section. Otherwise, the following error dialog box appears.
+    {{<note>}} Only the [test objective](/reuse/../TA_Automation/Topics/bia_test_objective.html) built-in action is allowed to appear in the OBJECTIVE section. Otherwise, the following error dialog box appears.
 
     ![](/images/TA_Tutorials/Images/tut_TM_template_error_1.png)
 
 3.  The **INITIAL** heading: The `INITIAL` section of a test module is useful for holding action lines that are required for initialization of the test, especially when such initialization is required for all or most of the test cases in the module. For example, lines for launching the application under test, initializing it, etc., would typically appear here.
 4.  A **TEST CASE** heading. This is a representative heading, accompanied by a representative **test objective** line, both of which are presented as a reminder of their utility. Typically, your test might have multiple test cases, each of which may have one or more test objectives associated with it.
 
-{{<note>}} Before entering the test objectives of a test case under the **TEST CASE** heading, you must document all test objectives of your test under the **OBJECTIVES** heading. Otherwise, the below error dialog box appears.
+    {{<note>}} Before entering the test objectives of a test case under the **TEST CASE** heading, you must document all test objectives of your test under the **OBJECTIVES** heading. Otherwise, the below error dialog box appears.
 
     ![](/images/TA_Tutorials/Images/tut_TM_template_error_2.png)
 

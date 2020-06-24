@@ -26,7 +26,7 @@ The XPath TA property is currently available on the following platforms:
     -   Safari on iOS
     -   Chrome on Android
 
-{{<restriction>}} XPath is not supported on WebView.
+        {{<restriction>}} XPath is not supported on WebView.
 
 
 ## Synopsis

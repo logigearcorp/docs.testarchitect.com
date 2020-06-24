@@ -43,7 +43,7 @@ You can create a [batch file](/TA_Help/Topics/Test_exec_batch_file.html) from a 
 -   From the test suite list view, you can move a test suite from one test suite folder to another by performing a **cut-and-paste** operation from the context menu.
 -   The **copy-and-paste** operation from the context menu allows you to create a duplicate of the selected test suite.
 
-{{<tip>}}
+    {{<tip>}}
 
     -   In addition to the conventional cut-and-paste and copy-and-paste from the context menu, you can drag and drop a project item, or a selection of items, from a list view into a folder or node of the same type in the TestArchitect explorer tree.
     -   Performing drag-and-drop within the same project is equivalent to cutting and pasting. Performing a drag-and-drop across different projects, on the other hand, is a copy-and-paste operation.

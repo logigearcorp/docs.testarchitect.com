@@ -48,12 +48,12 @@ The following new features and improvements are introduced in TestArchitect vers
 
 -   [**Microsoft Edge beta support**](/TA_Automation/Topics/Web_automation.html#li.Edge): This release of TestArchitect introduces support for automated testing of web applications in Microsoft Edge.
 
-{{<note>}} As of this release the following versions are supported:
+    {{<note>}} As of this release the following versions are supported:
 
     -   Windows 10 Anniversary version 1607 \(build number 14393\), Pro edition.
     -   Microsoft Edge browser version 14393
     -   [Microsoft WebDriver Insider 14366](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
-{{<restriction>}} The following features are not currently supported on Microsoft Edge.
+    {{<restriction>}} The following features are not currently supported on Microsoft Edge.
 
     -   Use of the TestArchitect [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html) and [point-to-identify](/TA_Help/Topics/Interface_def_client_interface_tool_identify.html) tool.
     -   Use of the [case sensitive](/TA_Automation/Topics/bis_case_sensitive.html) and [standard ASCII only](/TA_Automation/Topics/bis_standard_ASCII_only.html) built-in settings to match UI web controls.

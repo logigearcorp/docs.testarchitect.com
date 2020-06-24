@@ -22,16 +22,16 @@ TestArchitect supports automated testing of web applications on Internet Explore
             -   For the [click table cell](/TA_Automation/Topics/bia_click_table_cell.html) built-in action, the following predefined events are triggered sequentially on a control: mousemove \> mouseover \> mousedown \> focus \> mouseup \> click.
 -   **Microsoft Edge**: Automated testing of Microsoft Edge is supported through the W3C [WebDriver](https://w3c.github.io/webdriver/webdriver-spec.html) standard. To use [WebDriver](/TA_Automation/Topics/aut_app_testing_webdriver_ME.html) with Microsoft Edge, you must ensure that the [Microsoft WebDriver server](https://www.microsoft.com/en-us/download/details.aspx?id=48212) is properly configured on your test machines. \([Learn more](/TA_Help/Topics/ug_preparing_Edge.html).\)
 
-{{<restriction>}} Use of the TestArchitect [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html) and [point-to-identify](/TA_Help/Topics/Interface_def_client_interface_tool_identify.html) tool are not supported on Microsoft Edge.
+    {{<restriction>}} Use of the TestArchitect [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html) and [point-to-identify](/TA_Help/Topics/Interface_def_client_interface_tool_identify.html) tool are not supported on Microsoft Edge.
 
 -   **Mozilla Firefox**:
     -   Windows: Similar to Microsoft Edge, automation testing of Mozilla Firefox on Windows is supported through GeckoDriver, which is a proxy for using W3C WebDriver-compatible clients to interact Mozilla Firefox. To use GeckoDriver with Mozilla Firefox, you must ensure that the [GeckoDriver](/TA_Automation/Topics/aut_app_testing_geckodriver_FF.html) is properly configured on your test machines. \([Learn more](/TA_Help/Topics/ug_preparing_Firefox.html).\)
 
-{{<restriction>}} Use of the TestArchitect [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html) and [point-to-identify](/TA_Help/Topics/Interface_def_client_interface_tool_identify.html) tool are not supported on Mozilla Firefox running on Windows.
+        {{<restriction>}} Use of the TestArchitect [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html) and [point-to-identify](/TA_Help/Topics/Interface_def_client_interface_tool_identify.html) tool are not supported on Mozilla Firefox running on Windows.
 
     -   Linux: Automation testing of Mozilla Firefox on Linux is supported through the NPAPI plug-in technique. Specifically, both TestArchitect Automation Agent and TAWebPlugin are automatically installed as an extension and a plug-in, respectively, in the existing Firefox browser on your system when you install TestArchitect. This extension and plug-in are essential to both the proper functioning of the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html) and [Point-to-Identify](/TA_Help/Topics/Interface_def_client_interface_tool_identify.html) tool, as well as the successful execution of automated tests. Hence, it is recommended that you install Firefox prior to installing TestArchitect, if you intend to test on that browser. However, it is also possible to manually [install](/TA_Help/Topics/Test_exec_automation_agent_manager.html) and enable the agent and plug-in for the browser, if and when the browser is installed subsequent to TestArchitect. \([Learn more](/TA_Help/Topics/ug_preparing_Firefox.html).\)
 
-{{<important>}} Note that, you are required to install Firefox from the [package manager](https://support.mozilla.org/en-US/kb/install-firefox-linux). For details, please refer to the documentation of the Red Hat Enterprise Linux version you are using.
+        {{<important>}} Note that, you are required to install Firefox from the [package manager](https://support.mozilla.org/en-US/kb/install-firefox-linux). For details, please refer to the documentation of the Red Hat Enterprise Linux version you are using.
 
 
 -   **[Preparing Microsoft Edge for web testing](/TA_Help/Topics/ug_preparing_Edge.html)**  

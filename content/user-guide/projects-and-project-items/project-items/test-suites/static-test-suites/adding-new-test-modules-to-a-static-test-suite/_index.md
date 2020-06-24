@@ -18,7 +18,7 @@ To add new test modules to an existing static test suite, do the following:
 
 2.  In the TestArchitect explorer tree, drag a test module or a test folder node to the test suite list view.
 
-   {{<caution>}}
+    {{<{{<caution>}}>}}
 
     -   The test module and/or test folder must exist in the same project as the test suite.
     -   The [variation signature](/TA_Glossary/Topics/glossaryVariationSignature.html) of a drag-and-dropped test module is ignored; only the [default variation](/TA_Help/Topics/Variations_default.html) is displayed in the test suite list view.

@@ -28,7 +28,7 @@ A $Class Maps entity consists of three arguments:
 
 1.  ta class: The TA class \(built-in or user-defined\) to which a control is mapped.
 
-{{<note>}} A user-defined TA class is one that TestArchitect does not inherently know anything about. Of TestArchitect's large library of user-interface built-in actions, only the most generic ones, such as [click](/TA_Automation/Topics/bia_click.html), [check control exists](/TA_Automation/Topics/bia_check_control_exists.html), and [get control property](/TA_Automation/Topics/bia_get_control_property.html), can operate on controls mapped to such a class. You may, however, effectively extend TestArchitect's library of actions by creating [user-scripted actions](/TA_Tutorials/Topics/Understanding_harnesses.html) that are specifically designed to apply to your new user-defined TA class.
+    {{<note>}} A user-defined TA class is one that TestArchitect does not inherently know anything about. Of TestArchitect's large library of user-interface built-in actions, only the most generic ones, such as [click](/TA_Automation/Topics/bia_click.html), [check control exists](/TA_Automation/Topics/bia_check_control_exists.html), and [get control property](/TA_Automation/Topics/bia_get_control_property.html), can operate on controls mapped to such a class. You may, however, effectively extend TestArchitect's library of actions by creating [user-scripted actions](/TA_Tutorials/Topics/Understanding_harnesses.html) that are specifically designed to apply to your new user-defined TA class.
 
 2.  native class:
     -   native class property \(WPF, Silverlight\)
@@ -41,7 +41,7 @@ A $Class Maps entity consists of three arguments:
     -   role property \(WPF\)
     -   win type property \(Win32\)
     -   class name property \(Silverlight\)
-{{<restriction>}} role argument is unavailable with iOS and Android applications.
+    {{<restriction>}} role argument is unavailable with iOS and Android applications.
 
 
 For example, the mapping entry below can be interpreted as “every control whose native class property is `System.Windows.Controls.Button`, and whose role is `button`, is mapped to TA class `button` ”:

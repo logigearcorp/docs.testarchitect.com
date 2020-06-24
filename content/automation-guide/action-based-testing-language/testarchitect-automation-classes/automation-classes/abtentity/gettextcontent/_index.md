@@ -30,7 +30,7 @@ Retrieve content of the text fragment residing in a given window.
     -   TextOutW: Retrieve texts drawn by the [TextOutA](https://msdn.microsoft.com/en-us/library/dd145133(v=vs.85).aspx) function \(Unicode name\).
     -   ExtTextOutA: Retrieve texts drawn by the [ExtTextOutA](https://msdn.microsoft.com/en-us/library/dd162713(v=vs.85).aspx) function \(ANSI name\).
     -   ExtTextOutW: Retrieve texts drawn by the [ExtTextOutW](https://msdn.microsoft.com/en-us/library/dd162713(v=vs.85).aspx) function \(Unicode name\).
-{{<note>}}
+    {{<note>}}
 
     -   If the argument's value is omitted, by default, TestArchitect retrieve texts drawn by all drawing functions above.
     -   To use multiple values at a time, use semi-colon \( ; \) as delimiters between values.

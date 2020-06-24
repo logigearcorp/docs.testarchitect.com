@@ -28,7 +28,7 @@ In some cases, the [condition/precondition](/TA_Automation/Topics/timing_precond
 
     Applies to UI items such as tree nodes, menu items, list items and table cells.
 
-{{<note>}} item wait is not exclusively used as a critical wait timer. See note below for [object wait probe](/TA_Automation/Topics/bis_object_wait_probe.html).
+    {{<note>}} item wait is not exclusively used as a critical wait timer. See note below for [object wait probe](/TA_Automation/Topics/bis_object_wait_probe.html).
 
 -   **[property wait](/TA_Automation/Topics/bis_property_wait.html)**
 

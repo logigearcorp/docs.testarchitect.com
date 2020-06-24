@@ -10,7 +10,7 @@ keywords: "What is new, TestArchitect 8 beta 2, what is new"
 
 This topic describes the changes made in TestArchitect version 8 beta 2.
 
-{{<caution>}}
+{{<{{<caution>}}>}}
 
 -   It is strongly recommended that you back up all repositories before upgrading to the latest version of TestArchitect.
 -   A TestArchitect client and any Repository Server to which it connects must be of the same version.

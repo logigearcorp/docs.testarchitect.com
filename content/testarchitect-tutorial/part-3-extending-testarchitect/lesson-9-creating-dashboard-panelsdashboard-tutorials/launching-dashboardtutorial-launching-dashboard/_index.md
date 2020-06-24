@@ -29,7 +29,7 @@ In this activity you will run through the steps required for opening a Dashboard
 
         ![](/images/TA_Help/Images/DB_5.png)
 
-{{<note>}} If you are already logged in to the Sample Repository, the Dashboard portal opens in the browser, and the next step may be skipped.
+        {{<note>}} If you are already logged in to the Sample Repository, the Dashboard portal opens in the browser, and the next step may be skipped.
 
     2.  On the TestArchitect Dashboard Login page, select **SampleRepository** from the repository drop-down list. Enter Administrator for the **Username** and leave the **Password** field blank, and then click **Login** to start the Dashboard.
 

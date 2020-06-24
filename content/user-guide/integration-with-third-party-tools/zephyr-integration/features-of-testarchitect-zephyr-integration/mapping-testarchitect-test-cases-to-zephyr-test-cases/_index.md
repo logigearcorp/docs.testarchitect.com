@@ -32,13 +32,13 @@ To map TestArchitect test cases to Zephyr test cases, do the following steps:
 
 3.  The Map Test Case to Zephyr dialog box appears. In the Map Test Case to Zephyr dialog box, for each test case that you wish to have mapped to a Zephyr test case, enter the Zephyr test case ID into the **Source** column, then click **OK**.
 
-{{<note>}} If any of the listed TestArchitect test cases are already mapped, the corresponding Zephyr test case ID is displayed in the **Source** column. It may be overwritten.
+    {{<note>}} If any of the listed TestArchitect test cases are already mapped, the corresponding Zephyr test case ID is displayed in the **Source** column. It may be overwritten.
 
     In this example, the user has opted to map three TestArchitect test cases, `TC 01`, `TC 02` and `TC 03`, to Zephyr test cases with IDs `566`, `567` and `568`, respectively:
 
     ![](/images/TA_Help/Images/Zephyr_mapping_test_cases.png)
 
-{{<tip>}} In the event that one or more of the Zephyr test cases that you attempt to map to are already mapped to other TestArchitect test cases, a message to that effect is displayed:
+    {{<tip>}} In the event that one or more of the Zephyr test cases that you attempt to map to are already mapped to other TestArchitect test cases, a message to that effect is displayed:
 
     ![](/images/TA_Help/Images/Zephyr_fail_mapping.png)
 
@@ -52,7 +52,7 @@ To map TestArchitect test cases to Zephyr test cases, do the following steps:
 
     3.  Click **OK**.
 
-{{<tip>}} If any of the specified Zephyr test cases do not exist in the Zephyr server, a warning dialog box displays the test cases that could not be mapped:
+    {{<tip>}} If any of the specified Zephyr test cases do not exist in the Zephyr server, a warning dialog box displays the test cases that could not be mapped:
 
     ![](/images/TA_Help/Images/Zephyr_fail_mapping_1.png)
 

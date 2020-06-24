@@ -29,13 +29,13 @@ To subscribe to one or more projects from a given project:
 
 3.  Click **\>** to add selected suppliers to the **Selected supplier\(s\)** list.
 
-{{<tip>}}
+    {{<tip>}}
 
     -   Click **\>\>** to add *all* available suppliers.
     -   Click **<** to remove selected suppliers from the **Selected supplier\(s\)** list, or click **<<** to remove all suppliers from the **Selected supplier\(s\)** list.
-{{<remember>}} The order in which the suppliers appear in the list of selected suppliers determines the order in which TestArchitect searches for a specified project item definition. If the definition is not found within the subscriber, TestArchitect performs a recursive search from top to bottom through the suppliers list. \(Recursive because suppliers may have other suppliers, thus forming a logical tree structure; see [subscription rules](/TA_Help/Topics/Project_subscription_rules.html) for details\) . You may modify the order by selecting a project in the **Selected supplier\(s\)** list and clicking the up or down button above the list box. \(Note that the top-to-bottom order of suppliers in the **Selected supplier\(s\)** list corresponds to their left-to-right order in the DFS search diagrams of [subscription rules](/TA_Help/Topics/Project_subscription_rules.html).\)
+    {{<remember>}} The order in which the suppliers appear in the list of selected suppliers determines the order in which TestArchitect searches for a specified project item definition. If the definition is not found within the subscriber, TestArchitect performs a recursive search from top to bottom through the suppliers list. \(Recursive because suppliers may have other suppliers, thus forming a logical tree structure; see [subscription rules](/TA_Help/Topics/Project_subscription_rules.html) for details\) . You may modify the order by selecting a project in the **Selected supplier\(s\)** list and clicking the up or down button above the list box. \(Note that the top-to-bottom order of suppliers in the **Selected supplier\(s\)** list corresponds to their left-to-right order in the DFS search diagrams of [subscription rules](/TA_Help/Topics/Project_subscription_rules.html).\)
 
-{{<restriction>}} Circularly linked subscriptions are not allowed. \(For example, project A subscribing to project B, project B to C, and C back to A.\) TestArchitect displays an error message when an illegal subscription is attempted.
+    {{<restriction>}} Circularly linked subscriptions are not allowed. \(For example, project A subscribing to project B, project B to C, and C back to A.\) TestArchitect displays an error message when an illegal subscription is attempted.
 
     ![](/images/TA_Help/Images/Circularly_linked_subscription_warning.png)
 

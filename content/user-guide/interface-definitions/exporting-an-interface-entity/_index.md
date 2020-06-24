@@ -18,7 +18,7 @@ Choose one of the following two methods to export interface entities:
 
     2.  In the Export Interface Entity dialog box, click ![](/images/TA_Help/Images/btn.browse-ellipsis.01.png) to choose a location to save the file \(in .ZIP format\).
 
-{{<tip>}} You can accept the default location, but any place that is easy to remember will work.
+        {{<tip>}} You can accept the default location, but any place that is easy to remember will work.
 
     3.  Click **OK**.
 
@@ -36,7 +36,7 @@ Choose one of the following two methods to export interface entities:
 
     3.  In the Export Interface Entity dialog box, click ![](/images/TA_Help/Images/btn.browse-ellipsis.01.png) to choose a location to save the file \(in .ZIP format\).
 
-{{<tip>}} You can accept the default location, but any place that is easy to remember will work.
+        {{<tip>}} You can accept the default location, but any place that is easy to remember will work.
 
     4.  Click **OK**.
 

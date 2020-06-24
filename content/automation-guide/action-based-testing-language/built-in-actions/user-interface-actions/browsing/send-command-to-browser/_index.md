@@ -22,7 +22,7 @@ Send JSON string request to Google Chrome's Device Mode in order to invoke a new
 
     JSON string request sent to [Chrome DevTools](https://developer.chrome.com/devtools)'s [Device Mode](https://developers.google.com/web/tools/chrome-devtools/iterate/device-mode/)
 
-{{<important>}} Basic JSON syntax as required for creating profiles is as follows:
+    {{<important>}} Basic JSON syntax as required for creating profiles is as follows:
 
     -   JSON data is written as name:value pairs. Example:
 

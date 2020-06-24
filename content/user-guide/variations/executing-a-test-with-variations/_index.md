@@ -16,7 +16,7 @@ As discussed, it is at the start of execution that you inform TestArchitect of t
 
     -   If you want to execute a test with keyword variations, enter the keyword\(s\) into the Keyword field of the Variation Specification panel.
 
-{{<note>}} Separate multiple keywords with commas.
+        {{<note>}} Separate multiple keywords with commas.
 
         ![](/images/TA_Help/Images/Kw_variations.png)
 
@@ -24,7 +24,7 @@ As discussed, it is at the start of execution that you inform TestArchitect of t
 
         ![](/images/TA_Help/Images/Linked_variations.png)
 
-{{<important>}} Note that, during execution setup, only one version node may be selected per system. \([Learn more](/TA_Help/Topics/Variations_rules_executing.html).\)
+        {{<important>}} Note that, during execution setup, only one version node may be selected per system. \([Learn more](/TA_Help/Topics/Variations_rules_executing.html).\)
 
 
 The test is executed with the selected keyword or/and the linked variations.

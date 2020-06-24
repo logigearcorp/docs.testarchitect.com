@@ -38,13 +38,13 @@ Converts all test results belonging to a given repository into XML test result f
 
     Name of the target repository.
 
-{{<note>}} If the repository namecontains any spaces, enclose it between a pair of double quotation marks.
+    {{<note>}} If the repository namecontains any spaces, enclose it between a pair of double quotation marks.
 
 -   **-user<value\>**
 
     User name with which to log in to repository.
 
-{{<note>}}
+    {{<note>}}
 
     -   If the user namecontains any spaces, enclose it between a pair of double quotation marks.
     -   Ensure that the user name has permission to log into the repository.

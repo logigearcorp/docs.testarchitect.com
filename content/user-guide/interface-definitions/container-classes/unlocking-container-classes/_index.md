@@ -28,11 +28,11 @@ Controls of TA classes Treeview, Listbox, Listview and Table are considered cont
 
 3.  Launch the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer_identify.html) and click the **Identify** button on the viewer's toolbar.
 
-{{<note>}} As a shortcut, you can bypass the Interface Viewer and launch into Identify mode by clicking the **Identify** ![](/images/TA_Help/Images/btn_Identify.png) button on TestArchitect's toolbar. \(Note, though, that this example is based on proceeding via the viewer.\)
+    {{<note>}} As a shortcut, you can bypass the Interface Viewer and launch into Identify mode by clicking the **Identify** ![](/images/TA_Help/Images/btn_Identify.png) button on TestArchitect's toolbar. \(Note, though, that this example is based on proceeding via the viewer.\)
 
 4.  Hover the mouse cursor over the container class control to be accessed.
 
-{{<note>}} You may observe that, at this point, only the container control can be highlighted, no matter which child controls you hover the cursor over. That will change once you unlock the container's class.
+    {{<note>}} You may observe that, at this point, only the container control can be highlighted, no matter which child controls you hover the cursor over. That will change once you unlock the container's class.
 
     As an illustration, the figure below displays an application window with a tree view, and the cursor hovering over it while in Identify mode.
 
@@ -48,7 +48,7 @@ Controls of TA classes Treeview, Listbox, Listview and Table are considered cont
 
     The warning refers primarily to the fact that [global pos](/TA_Help/Topics/Interface_def_global_pos.html) values of other controls in the window may be affected by this action. Under some circumstances, [anchor pos](/TA_Help/Topics/prop_anchor.example_01.html) values can be altered as well. If your interface definitions for the associated window do not depend on these two properties for identifying controls, you need not be concerned about this.
 
-{{<tip>}}
+    {{<tip>}}
 
     -   Select the **Don't show this dialog again** check box to skip this dialog box in the future.
     -   If you want take this opportunity to unlock additional container classes within the window, click the **Settings** button \(see **The container class settings**, Option \#[1](/TA_Help/Topics/Interface_def_container_class_unlock_settings.html)\).
@@ -56,7 +56,7 @@ Controls of TA classes Treeview, Listbox, Listview and Table are considered cont
 
     The selected container class is now unlocked, freeing you to capture the descendant UI elements of your choice from the selected control.
 
-{{<tip>}} You are also free to capture the descendants of any other controls of this class that may exist in the window, as it is the selected control's class, not the control itself, that has been unlocked.
+    {{<tip>}} You are also free to capture the descendants of any other controls of this class that may exist in the window, as it is the selected control's class, not the control itself, that has been unlocked.
 
 7.  Capture a desired child UI element by clicking it.
 
@@ -66,13 +66,13 @@ Controls of TA classes Treeview, Listbox, Listview and Table are considered cont
 
     The node representing the selected child UI element is highlighted in the Interface Viewer's UI explorer panel.
 
-{{<note>}} If you entered Identify mode via the TestArchitect interface, you will observe this node and its parent hierarchy not in the Interface Viewer, but in the Element definition dialog box.
+    {{<note>}} If you entered Identify mode via the TestArchitect interface, you will observe this node and its parent hierarchy not in the Interface Viewer, but in the Element definition dialog box.
 
 8.  Change the default name in the **TA Name** field to one that is more user-friendly, then press Enter.
 
     We'll name our control Detail text.
 
-{{<note>}} The following result assumes you are using the Interface Viewer.
+    {{<note>}} The following result assumes you are using the Interface Viewer.
 
     The name you have assigned to the control appears in the node in uppercase letters. At the same time, the name of your open interface entity is assigned to the top-level node representing the window, with the native window title in parentheses. Green check marks ![](/images/TA_Help/Images/ug_interface_definition45.png) indicate that both the control and window are now provisionally mapped to the interface entity, awaiting your Save command to make the mappings permanent.
 

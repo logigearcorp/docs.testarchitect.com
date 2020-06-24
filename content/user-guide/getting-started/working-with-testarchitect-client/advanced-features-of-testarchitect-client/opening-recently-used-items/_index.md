@@ -28,7 +28,7 @@ To open a recently used tab:
 
 2.  Click on an item that you want to open from the list.
 
-{{<note>}}
+    {{<note>}}
 
     -   If you did not log on/connect to the server/repository containing the selected item, you are asked to do so.
     -   If the selected item has been deleted or moved, a warning message is displayed:

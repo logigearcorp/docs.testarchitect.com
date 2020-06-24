@@ -25,7 +25,7 @@ Synchronize essential development libraries with your iOS test device via Xcode:
 
     Start Xcode on the macOS machine and wait for at least 10 seconds, so that the iOS device can obtain the essential development libraries.
 
-{{<tip>}} Once you see the device listed under the **Devices** heading in the panel on the left side of the Xcode application, you are assured that the transfer is complete.
+    {{<tip>}} Once you see the device listed under the **Devices** heading in the panel on the left side of the Xcode application, you are assured that the transfer is complete.
 
 
 

@@ -34,7 +34,7 @@ To map a TestArchitect project to a TFS project:
 
     ![](/images/TA_Help/Images/Domain_Credentials.png)
 
-{{<note>}}
+    {{<note>}}
 
     -   This dialog box is only displayed the first time you connect to the TFS server and map a project. It will not appear again unless there is a change in the TFS server or user account/password.
     -   If necessary, you have the option of switching from the current credentials to different ones. \([Learn more](/TA_Help/Topics/ug_MTM_switching_TFS_account.html).\)

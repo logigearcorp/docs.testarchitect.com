@@ -50,7 +50,7 @@ The definition of action\_CheckRowCount\(\) remains to be implemented. Compared 
     String checkLabel = "check row count";                  
     ```
 
-5.{{<note>}} Each control has its own instance \(object\) of the AbtElement class, which can be obtained by using the OpenElement method ofAbtAutomation.
+5.  {{<note>}} Each control has its own instance \(object\) of the AbtElement class, which can be obtained by using the OpenElement method ofAbtAutomation.
 
     Obtain the instance of the table object for the table specified by the values of windowName and tableName \(derived from the logical TA names of the window and table arguments of the action\):
 
@@ -105,7 +105,7 @@ The definition of action\_CheckRowCount\(\) remains to be implemented. Compared 
         AbtLibrary.administerCheck(checkLabel, expected, Integer.toString(count), 0);               
     ```
 
-{{<note>}} TestArchitect functions always work with strings. Therefore, integer results like count must be converted to strings. This is handled by theInteger.toString\(\) function in Java.
+    {{<note>}} TestArchitect functions always work with strings. Therefore, integer results like count must be converted to strings. This is handled by theInteger.toString\(\) function in Java.
 
 11. Open build.xml in the editor: In Package Explorer, double-click the **build.xml** node under **javaharness**.
 

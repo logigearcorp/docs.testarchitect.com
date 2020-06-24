@@ -18,7 +18,7 @@ Note that the expression indicator is required even for arguments that contain n
 
 {{<tip>}} A common mistake by newbies is to attempt to prepend the \# symbol to every variable in an expression. That is wrong. It is important to keep in mind that the \# symbol applies to the cell, not to any individual element within the cell. It informs TestArchitect that the cell has contents that must be evaluated before they can be used.
 
-{{<caution>}}
+{{<{{<caution>}}>}}
 
 **Exception to the requirement of an expression indicator:** While the expression indicator is generally required for an argument that contains a variable, it should not be used for arguments in which a variable name is explicitly *expected*. That is the case for arguments that the called action is expected to return a value to. An example would be any of the built-in get... actions:
 
@@ -122,7 +122,7 @@ By contrast, converting strings into numeric values is not always a sure thing. 
 
 During an editing session, entering the *\#* symbol in an empty argument cell triggers an autocomplete pop-up window containing a list of variables thought to be within scope at that position in the action lines. Use the Up and Down arrow keys to select one, should you need it inserted at that point. You can bring back the pop-up list at any further point in the expression by pressing Ctrl + Space.
 
-{{<caution>}}
+{{<caution>}}:
 
 The variables listed in the autocomplete window are purely suggested variables. The editor cannot be certain that the variables it suggests will always be in scope at that point in the test run. It is up to you to ensure that a given variable inserted in an expression will indeed be visible \(within scope\) when the test is run.
 

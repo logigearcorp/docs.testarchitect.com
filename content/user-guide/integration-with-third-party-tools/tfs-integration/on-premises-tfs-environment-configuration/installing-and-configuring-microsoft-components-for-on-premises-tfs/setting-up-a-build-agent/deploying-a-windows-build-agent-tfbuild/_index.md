@@ -16,7 +16,7 @@ To deploy the agent, do the following:
 
     Agent pools are used to organize and define permission boundaries around your agents. You can share your pool across multiple team project collections.
 
-{{<remember>}} When you create a new pool, in most cases you should leave **Auto-Provision Queue in Project Collections** selected. This setting ensures all collections have a queue to access the pool. The system creates a queue for existing collections and whenever a collection is created.
+    {{<remember>}} When you create a new pool, in most cases you should leave **Auto-Provision Queue in Project Collections** selected. This setting ensures all collections have a queue to access the pool. The system creates a queue for existing collections and whenever a collection is created.
 
     ![](/images/TA_Help/Images/agent_pool.png)
 
@@ -26,7 +26,7 @@ To deploy the agent, do the following:
 
 2.  On the machine on which you plan to run the Windows build agent, deploy the build agent \(see the [Deploy the agent](https://msdn.microsoft.com/library/vs/alm/build/agents/windows) section.\)
 
-{{<remember>}} As you are responding to the prompts, deploy the agent to run as a Windows service.
+    {{<remember>}} As you are responding to the prompts, deploy the agent to run as a Windows service.
 
     The deployed build agent is registered to the dedicated agent pool.
 

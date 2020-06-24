@@ -31,7 +31,7 @@ To set a new value for a built-in setting from TestArchitect Client, carry out t
     -   **Type**: \(Required\) Type of setting. Select the **Built-in** option.
     -   **Name**: \(Required\) Name of the setting.
 
-{{<note>}} As you start typing a setting's name into the **Name** box, Content Assist pops up an autocomplete list displaying valid built-in settings. If you continue typing, the list is continuously filtered down to those built-in settings that contain the entered sequence of characters.
+        {{<note>}} As you start typing a setting's name into the **Name** box, Content Assist pops up an autocomplete list displaying valid built-in settings. If you continue typing, the list is continuously filtered down to those built-in settings that contain the entered sequence of characters.
 
         ![](/images/TA_Automation/Images/Add_a_setting_dlg_autocomplete.png)
 

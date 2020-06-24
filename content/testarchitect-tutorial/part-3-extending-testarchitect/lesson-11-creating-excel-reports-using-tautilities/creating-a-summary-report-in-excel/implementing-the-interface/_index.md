@@ -27,7 +27,7 @@ You will now create the code for the generateMethod\(\) procedure, which impleme
     g_folder = Trim(Cells(7, "B").Value)
     ```
 
-{{<note>}}
+    {{<note>}}
 
     The Trim\(\) method ensures that returned strings have no leading or trailing spaces.
 
@@ -46,7 +46,7 @@ You will now create the code for the generateMethod\(\) procedure, which impleme
     Set repo = CreateObject("TAUtilities.Repository")
     ```
 
-4.{{<note>}}
+4.  {{<note>}}
 
 The Repository type object has a method called Connect\(\). This is used to set up a connection to the TestArchitect repository. Connect\(\) needs the following arguments:
 
@@ -113,12 +113,12 @@ If the connection is successful, the Connect\(\) method returns a value of 1.
 
     The method getTestFolders\(1\) and GetTestModules\(1\) returns recursively a collection of the test module folder TestFolderList object, and the test module testModuleCollection object.
 
-{{<important>}} The isRecursive parameter belonging to getTestFolders\(\) and GetTestModules\(\) only accepts the following boolean values \([learn more](/TA_Tutorials/Topics/tut_TAUtilities_API.html#ul_uyv_ffz_tv)\):
+    {{<important>}} The isRecursive parameter belonging to getTestFolders\(\) and GetTestModules\(\) only accepts the following boolean values \([learn more](/TA_Tutorials/Topics/tut_TAUtilities_API.html#ul_uyv_ffz_tv)\):
 
     -   Microsoft Component Object Model \(COM\):
         -   0: Gets project items at the top level only.
 
-{{<note>}} If an invalid value is specified, the value of 0 is used by default.
+            {{<note>}} If an invalid value is specified, the value of 0 is used by default.
 
         -   1: Gets project items recursively at all levels.
     -   Java:

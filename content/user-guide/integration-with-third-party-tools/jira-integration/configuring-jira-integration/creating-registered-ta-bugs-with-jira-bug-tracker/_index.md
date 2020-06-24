@@ -29,7 +29,7 @@ To create a registered TA bug, complete the following steps:
 
     The Import Bug dialog box appears with the default user name and password configured in [Registering JIRA server](/TA_Help/Topics/JIRA_registering.html#step_wxv_tc5_2m).
 
-{{<tip>}} At your option, you may override the default user name and password with your own credentials for an existing account on the JIRA server.
+    {{<tip>}} At your option, you may override the default user name and password with your own credentials for an existing account on the JIRA server.
 
 3.  In the **Bug ID** text box, specify the bug ID of a JIRA bug you would like to associate this TA bug with.
 
@@ -43,14 +43,14 @@ To create a registered TA bug, complete the following steps:
 
     ![](/images/TA_Help/Images/Associated_information.png)
 
-{{<note>}}
+    {{<note>}}
 
     -   Generally, a registered TA bug loads values from four JIRA built-in fields: **Key**, **Summary**, **Status**, and **Description**. However, you can have TestArchitect load additional JIRA fields, such as **Priority** or **Fix Version\(s\)**, by creating associated TestArchitect user-defined fields. See [Adding a custom field in TestArchitect](/TA_Help/Topics/Bugs_defined_field_TA.html) for further information.
     -   If the JIRA bug's status is different from Open, Closed or Reopened, the status of the registered TestArchitect bug is always set to Open. Refer to [TestArchitect bugs](/TA_Help/Topics/Bugs.html) for possible statuses, or stages, of a TestArchitect bug.
     -   Making changes to the **Summary** or **Description** field in the New Bug dialog box is possible.
 5.  Click the **Create** button.
 
-{{<restriction>}}
+    {{<restriction>}}
 
     -   If you attempt to associate a TA bug with a JIRA issue that is not of the type Bug, an error message is presented:
 

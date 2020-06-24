@@ -21,7 +21,7 @@ The following new features and improvements are introduced in TestArchitect vers
 
 -   [**Running multiple harnesses in parallel**](/TA_Help/Topics/Multiple_harnesses_running.html): When the number of test scripts increases to a point in which it takes too much time, it is essential to reduce the execution time. Now, TestArchitect is able to add parallelization to your automation. It helps you speed up the tests and reduce the execution time. The more tests you run at the same time, the less overall time you might spend.
 
-{{<note>}} Restrictions applied, please see the [article](/TA_Help/Topics/Multiple_harnesses.html) in the TestArchitect Help for details.
+    {{<note>}} Restrictions applied, please see the [article](/TA_Help/Topics/Multiple_harnesses.html) in the TestArchitect Help for details.
 
     -   **Monitoring progress of running harnesses and their current status** through the [Playback Toolbar](/TA_Help/Topics/Test_exec_playback_toolbar.html), [Lab Manager](/TA_Help/Topics/Lab_manager_controller.html), and [TestArchitect Controller](/TA_Help/Topics/Controller_management.html) dialog box: These improved features provide detailed information about each harness running on a given controller.
     -   **[Configuring the harness pool size](/TA_Help/Topics/Multiple_harnesses_pool_size.html), or the parallel test limit**: Based on the recommended [system requirements](/TA_ReleaseNotes/DITA_source/System_Requirements.html) for installation of TestArchitect Client, a default number of maximum harnesses which to be invoked simultaneously has been pre-configured. However, you are able to adjust the number of maximum running harnesses, as long as the memory and CPU of your hardware can manage.

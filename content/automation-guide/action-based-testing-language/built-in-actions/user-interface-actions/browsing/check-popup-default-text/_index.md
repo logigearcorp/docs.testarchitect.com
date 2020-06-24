@@ -38,7 +38,7 @@ This action may be used within the following project items:test modules and user
     -   If no value is provided in this argument, any prompt without a message is considered a match.
     -   For added flexibility, wildcards may be used in this argument. For example: given a message argument with value of \{Please reenter your.\*\}, TestArchitect searches for prompt popups whose message beginnings match the string Please reenter your. \(See example below.\)
 
-{{<tip>}} In more general terms, this argument accepts regular expressions.
+        {{<tip>}} In more general terms, this argument accepts regular expressions.
 
 -   expected argument:
     -   For convenience, the argument headersexpected, expected0 and expected1are all used to reference the same item \(that is, the default text of the most recent matching prompt popup\).
@@ -61,7 +61,7 @@ This action is applicable to the following controls:none.
 
 1.  Upon clicking the button, a prompt appears with one input field and two buttons: **OK** and **Cancel**.
 
-{{<note>}} The prompt popup displays the fields:
+    {{<note>}} The prompt popup displays the fields:
 
     -   Message: Please enter your name
     -   Default text: Joe Doe
@@ -82,7 +82,7 @@ This action is applicable to the following controls:none.
 
 1.  Upon clicking the button, a prompt popup appears with one input field and two buttons: **OK** and **Cancel**.
 
-{{<note>}} This first prompt popup displays the following:
+    {{<note>}} This first prompt popup displays the following:
 
     -   Message: Please enter your email address
     -   Default text: Joe.doe@example.com
@@ -91,7 +91,7 @@ This action is applicable to the following controls:none.
 4.  The test clicks **OK** in the alert to dismiss it and proceed.
 5.  An additional prompt popup appears emphasizing the need for a valid email address.
 
-{{<note>}} This second prompt popup displays:
+    {{<note>}} This second prompt popup displays:
 
     -   Message: Please enter a valid email
     -   Default text: Jane.doe@example.com

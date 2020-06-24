@@ -24,7 +24,7 @@ A step-by-step guide to remapping known, mapped controls to a known \(built-in T
 
 2.  Launch the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer_Starting.html) or the [Element Definition](/TA_Help/Topics/Interface_def_client_interface_tool_identify.html) dialog box.
 
-{{<restriction>}} The Element Definitions dialog box is unavailable with iOS and Android applications.
+    {{<restriction>}} The Element Definitions dialog box is unavailable with iOS and Android applications.
 
 3.  In the UI explorer tree panel, navigate to your choice of a known class \(as indicated by a gear ![](/images/TA_Help/Images/ug_interface_definition46.png) icon\), right-click a control node under it, and then click **Map to Other Known Class**.
 
@@ -42,9 +42,9 @@ A step-by-step guide to remapping known, mapped controls to a known \(built-in T
         -   In Android, Native Class is the raw class property of the selected control - for example, `android.widget.Button`.
         -   In Silverlight, Native Class is the native class property of the selected control - for example, `System.Windows.Controls.Button`.
         -   In WinForms, Native Class is the native class property of the selected control - for example, `System.Windows.Forms.Button`.
-{{<restriction>}} You cannot use a ta class, native class, or role as a native class's name because they are \(case insensitive\) reserved words.
+        {{<restriction>}} You cannot use a ta class, native class, or role as a native class's name because they are \(case insensitive\) reserved words.
 
-{{<tip>}} You can use regular expressions enclosed between curly brackets \{ \} to add flexibility to native class matching. For example, given that the general purpose regex wildcard is .\* \(dot-star\), \{.\*button.\*\} allows a single mapping to pertain to any native control class whose name includes the string “button”.
+        {{<tip>}} You can use regular expressions enclosed between curly brackets \{ \} to add flexibility to native class matching. For example, given that the general purpose regex wildcard is .\* \(dot-star\), \{.\*button.\*\} allows a single mapping to pertain to any native control class whose name includes the string “button”.
 
     -   Role: \(Uneditable field\)
 
@@ -53,12 +53,12 @@ A step-by-step guide to remapping known, mapped controls to a known \(built-in T
         -   For iOS, Android this field is disabled.
         -   For Silverlight, Role is the class name property of the selected control - for example, `Button`.
         -   For WinForms, Role is derived from the object’s class name. For instance, for the full class name of System.Windows.Forms.Button, the short name Button is displayed in the **Role** field.
-{{<tip>}} If the control role is unnecessary for the class mapping \(because you want to apply the mapping to *all* controls of the specified native class\), select the **Ignore** check box.
+        {{<tip>}} If the control role is unnecessary for the class mapping \(because you want to apply the mapping to *all* controls of the specified native class\), select the **Ignore** check box.
 
     -   Current Class: \(Uneditable field\) The name of the TA class that the selected control is currently mapped to.
     -   Map to Class: Specify which TA class you want to map the selected control \(and its related controls\) to.
 
-{{<tip>}} In the drop-down list, you can choose either a built-in TA class, or a known user-defined TA class. \(The user-defined TA classes, if any, are loaded from the [$ Class Maps entity](/TA_Help/Topics/Interface_def_Viewer_class_mapping.html).\)
+        {{<tip>}} In the drop-down list, you can choose either a built-in TA class, or a known user-defined TA class. \(The user-defined TA classes, if any, are loaded from the [$ Class Maps entity](/TA_Help/Topics/Interface_def_Viewer_class_mapping.html).\)
 
 5.  Click **OK**.
 

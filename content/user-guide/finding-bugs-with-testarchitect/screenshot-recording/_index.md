@@ -96,7 +96,7 @@ The rules are as follows:
 
 -   For any UI-interfacing ABT action that involves a stimulus such as a click, select, type, or tap operation: if the preconditions have been satisfied, a screenshot is taken at the moment just before the stimulus occurs. At that point, the "after control match" screenshot is discarded.
 
-{{<note>}} The stimulus point \(e.g., mouse click\) on the captured *before* screenshot is highlighted with a red circle.
+    {{<note>}} The stimulus point \(e.g., mouse click\) on the captured *before* screenshot is highlighted with a red circle.
 
     ![](/images/TA_Help/Images/Recorded_screenshot_interaction_point.png)
 

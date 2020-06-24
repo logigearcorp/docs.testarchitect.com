@@ -16,15 +16,15 @@ There may be times when you'll want to augment the set of fields that TestArchit
 
     -   **Name**: Name for the new field, which must be unique for the given project item type.
 
-{{<important>}} When creating a user-defined field, you must follow naming conventions discussed below.
+        {{<important>}} When creating a user-defined field, you must follow naming conventions discussed below.
 
     -   **Short name**: \(Optional\) Short name for the field, which is displayed in list views. If this field is empty, the **Name** value is used as the short name.
 
-{{<important>}} When assigning a short name to an user-defined field, you must follow naming conventions discussed below.
+        {{<important>}} When assigning a short name to an user-defined field, you must follow naming conventions discussed below.
 
     -   **Apply To**: Select the project item type whose definition you want this field added to.
 
-{{<note>}} If Result is selected, you can then use the [assign result field](/TA_Automation/Topics/bia_assign_result_field.html) to assign a value to that field during execution.
+        {{<note>}} If Result is selected, you can then use the [assign result field](/TA_Automation/Topics/bia_assign_result_field.html) to assign a value to that field during execution.
 
     -   **Value type**: Select the data type of the field \(for example, Single Line Text or Multi Line Text\).
     -   Default Value: \(Optional\) The initial value of the field when a new item of the given type is created.
@@ -36,7 +36,7 @@ There may be times when you'll want to augment the set of fields that TestArchit
 
     ![](/images/TA_Administration/Images/user_defined_field_TM.png)
 
-{{<note>}}
+    {{<note>}}
 
     -   If a user-defined field is added to the **Test Step** project item type, the field will appear as a column under the [**Steps** List View](/TA_Help/Topics/Projects_and_tests_steps_creating.html#) of the **Test Case** as shown in the screenshot below.
     ![](/images/TA_Administration/Images/ug_userdefinefield2.4.png)

@@ -31,11 +31,11 @@ To create a user-defined setting from TestArchitect Client, do the following:
     -   **Type**: \(Required\) Type of the setting. Select the **User Defined** option.
     -   **Name**: \(Required\) Name of the setting.
 
-{{<restriction>}} You cannot “reuse” the name of a built-in setting here. Built-in setting names are reserved keywords and cannot be used to label user-defined settings.
+        {{<restriction>}} You cannot “reuse” the name of a built-in setting here. Built-in setting names are reserved keywords and cannot be used to label user-defined settings.
 
     -   **Value**: \(Optional\) Value for the specified setting.
 
-{{<note>}} Although setting a value is optional at this point, you cannot change a user-defined setting's value from within your test procedure. On the other hand, there is a valid reason for leaving this field empty: it allows your program to *effectively* set a value for the setting when it finds that there is no value set. This is because your test's action lines cannot directly work with a user-defined setting, but *can* work with variables. The [get setting](/TA_Automation/Topics/bia_get_setting.html) action is used to transfer a value from a user-defined setting to a variable, and when that setting has no value, the value specified in the action's default argument is applied to the variable.
+        {{<note>}} Although setting a value is optional at this point, you cannot change a user-defined setting's value from within your test procedure. On the other hand, there is a valid reason for leaving this field empty: it allows your program to *effectively* set a value for the setting when it finds that there is no value set. This is because your test's action lines cannot directly work with a user-defined setting, but *can* work with variables. The [get setting](/TA_Automation/Topics/bia_get_setting.html) action is used to transfer a value from a user-defined setting to a variable, and when that setting has no value, the value specified in the action's default argument is applied to the variable.
 
     -   **Description**: \(Optional\) Short description of the setting.
 5.  Click **OK**.

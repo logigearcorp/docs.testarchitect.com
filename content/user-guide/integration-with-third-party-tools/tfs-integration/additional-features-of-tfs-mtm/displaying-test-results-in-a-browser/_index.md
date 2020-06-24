@@ -28,7 +28,7 @@ To open a TestArchitect test result within a browser, do the following:
 
         ![](/images/TA_Help/Images/ug_web_link_results_MTM.png)
 
-{{<tip>}} The prefix of the web link address containing the `[IP address]:[Dashboard port number]` snippet is dynamic. That is, based on the host computer and the port of the dashboard where the repository resides, the IP address and dashboard port number values are set automatically.
+    {{<tip>}} The prefix of the web link address containing the `[IP address]:[Dashboard port number]` snippet is dynamic. That is, based on the host computer and the port of the dashboard where the repository resides, the IP address and dashboard port number values are set automatically.
 
 2.  Start a browser, and then paste the copied link into that browser.
 

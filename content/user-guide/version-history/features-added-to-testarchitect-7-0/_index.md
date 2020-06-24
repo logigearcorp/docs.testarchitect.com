@@ -12,7 +12,7 @@ This topic describes the changes made in TestArchitect version 7.0.
 
 {{<note>}} The following TestArchitect enhancements are currently stable on Windows platforms only.
 
-{{<caution>}}
+{{<{{<caution>}}>}}
 
 It is strongly recommended that you back up all repositories before upgrading to the latest version of TestArchitect.
 

@@ -34,7 +34,7 @@ The tested Silverlight applications must run in the following browsers:
 
 -   Internet Explorer version 10 or 11, including Silverlight 5 applications running in both 32 and 64-bit versions of Internet Explorer.
 
-{{<remember>}} It is highly recommend that you clear the browser cache and set the page's zoom ratio to 100% before testing. Refer to [Preparing a web browser](/TA_Automation/Topics/aut_app_testing_Silverlight_apps_prepraring_browser.html) for more information.
+    {{<remember>}} It is highly recommend that you clear the browser cache and set the page's zoom ratio to 100% before testing. Refer to [Preparing a web browser](/TA_Automation/Topics/aut_app_testing_Silverlight_apps_prepraring_browser.html) for more information.
 
 
 ## Supported desktop operating systems

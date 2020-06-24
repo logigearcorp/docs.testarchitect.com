@@ -21,7 +21,7 @@ To remove favorite items, follow these steps.
     -   Control + left-click to select multiple noncontiguous favorite items.
 3.  Right-click the selection, and then click **Remove** from the context menu.
 
-{{<tip>}} You can also click the **Remove** button.
+    {{<tip>}} You can also click the **Remove** button.
 
     The selected favorites are removed from the favorites list view.
 

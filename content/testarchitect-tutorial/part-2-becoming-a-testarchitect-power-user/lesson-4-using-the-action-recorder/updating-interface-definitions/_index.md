@@ -48,7 +48,7 @@ When interface entities and elements are not created for given windows or contro
 
 6.  Select an empty cell within test case `TC 03`.
 
-7.{{<attention>}} Once the Action Recorder starts, it records *all* actions, including any actions you take with this tutorial. For that reason, it is recommended that you read through to Step 11 now and not refer to this tutorial while the Action Recorder is recording.
+7.  {{<attention>}} Once the Action Recorder starts, it records *all* actions, including any actions you take with this tutorial. For that reason, it is recommended that you read through to Step 11 now and not refer to this tutorial while the Action Recorder is recording.
 
 8.  Start the Action Recorder by clicking **Record** on the toolbar.
 
@@ -58,7 +58,7 @@ When interface entities and elements are not created for given windows or contro
 
 9.  Click the onscreen text that reads Version: 1.1 on the Car Rental-About window.
 
-{{<note>}} Although this text object is not a control that responds to your click, the action will be recorded, including the exact coordinates of the location of the click.
+    {{<note>}} Although this text object is not a control that responds to your click, the action will be recorded, including the exact coordinates of the location of the click.
 
 10. Click **OK** to return to the Welcome screen.
 
@@ -68,7 +68,7 @@ When interface entities and elements are not created for given windows or contro
 
     The New Interface Definitions dialog box appears.
 
-{{<note>}} **If this dialog fails to appear:** The Car Rental sample project installed with TestArchitect does not include interface definitions for the three controls you've just clicked on \(and has no interface entity for the Car Rental-About window\). If New Interface Definitions does not appear, however, it is likely the interface definitions needed for the generated action lines already exist, possibly because someone already performed this exercise with your repository. Delete them \(the window and control arguments of your generated action lines tell you where to find them\) and start the exercise again.
+    {{<note>}} **If this dialog fails to appear:** The Car Rental sample project installed with TestArchitect does not include interface definitions for the three controls you've just clicked on \(and has no interface entity for the Car Rental-About window\). If New Interface Definitions does not appear, however, it is likely the interface definitions needed for the generated action lines already exist, possibly because someone already performed this exercise with your repository. Delete them \(the window and control arguments of your generated action lines tell you where to find them\) and start the exercise again.
 
 13. **New Interface Definition dialog box**
 
@@ -78,13 +78,13 @@ When interface entities and elements are not created for given windows or contro
 
         A list of the windows and controls involved in the previous recording and requiring interface definitions. \(Note that windows appearing here include both those that require a definition as well as those that are already defined, but require a new control definition.\) Windows are displayed as root nodes, with interface entity icons \(![](/images/TA_Tutorials/Images/icn.Interface_Viewer.Window.png)\).
 
-{{<note>}} The names accompanying interface entities that do not yet exist are TestArchitect's suggested TA names, and may be modified here. TA names of existing interface entities may not be changed.
+        {{<note>}} The names accompanying interface entities that do not yet exist are TestArchitect's suggested TA names, and may be modified here. TA names of existing interface entities may not be changed.
 
     -   ****Properties** \(center panel\)**
 
         A list of the properties-value pairs for the item currently selected in the **New interface entities and elements** panel. For an existing interface entities, the properties displayed are those that the entity currently uses to map to a window. For a non-existing entity of element, the listed properties are those that TestArchitect will use to create the mapping.
 
-{{<note>}} Unlike the Interface Viewer, you cannot select which identifying properties are to be used for the mapping of an interface entity or element at this stage. You may, of course, modify them after the interface entities have been saved. They can be changed either by hand or through the Interface Viewer.
+        {{<note>}} Unlike the Interface Viewer, you cannot select which identifying properties are to be used for the mapping of an interface entity or element at this stage. You may, of course, modify them after the interface entities have been saved. They can be changed either by hand or through the Interface Viewer.
 
     -   ****Screen shot** \(rightmost panel\)**
 

@@ -86,7 +86,7 @@ Note that the content div of the first article now has a new link element encomp
 
 This will help us ensure that our new approach works correctly. \(Feel free, by the way, to try out the test cases of the previous two examples against this new web page, to verify that they are no longer adequate solutions.\)
 
-1.{{<note>}} If you already saved the HTML code from the previous example, you can skip the following substeps. \(But remember to change the content div element as mentioned above, and to open the web page in a browser.\)
+1.  {{<note>}} If you already saved the HTML code from the previous example, you can skip the following substeps. \(But remember to change the content div element as mentioned above, and to open the web page in a browser.\)
 
     If you wish to follow along with the steps in this example:
 
@@ -98,9 +98,9 @@ This will help us ensure that our new approach works correctly. \(Feel free, by 
 
     4.  Open the saved file in a web browser.
 
-{{<remember>}} During this exercise, ensure that the web page for this file is maintained as the active tab in its browser window.
+        {{<remember>}} During this exercise, ensure that the web page for this file is maintained as the active tab in its browser window.
 
-2.{{<note>}} You can skip this step if you already have the front\_page interface entity from the previous example, as we will continue to work with it.
+2.  {{<note>}} You can skip this step if you already have the front\_page interface entity from the previous example, as we will continue to work with it.
 
     In a TestArchitect project, create a [new interface entity](/TA_Help/Topics/Interface_def_Adding.html), name it front\_page, and enter the following two mappings:
 
@@ -121,13 +121,13 @@ This will help us ensure that our new approach works correctly. \(Feel free, by 
 
     Our get action now uses a two-level [dynamic identifier](/TA_Help/Topics/The_test_language_dynamic_identifiers.html) to access each headline. At the innermost level, we continue to use the **national\_section** div \(TA name: **div\_national-news**\) as a “hard anchor” \(hard, in that it is a static identifier\). Within that inner dynamic identifier, on each iteration of the `while` loop, the anchor pos value progresses from div 1, to div 3, to div 5, etc., corresponding to each article div. In the outer dynamic identifier, with each article div acting as an anchor, we simply specify that we are interested in the first link element \(anchor pos = link 1\), corresponding to that article's headline.
 
-{{<tip>}} If you have trouble reading multilevel dynamic identifiers \(especially ones that go beyond two levels\), or just want to make your test cases more readable, you can decompose them with the use of variables. For example, the get action line in this example could easily be replaced with the following:
+    {{<tip>}} If you have trouble reading multilevel dynamic identifiers \(especially ones that go beyond two levels\), or just want to make your test cases more readable, you can decompose them with the use of variables. For example, the get action line in this example could easily be replaced with the following:
 
     ![](/images/TA_Help/Images/IV_tree_for_anchor_pos.12d.png)
 
 7.  Now [execute](/TA_Help/Topics/Test_exec_test_execution.html) your test case.
 
-{{<note>}} If your test module now holds the test cases from the previous examples, you might want to restrict execution to just this test case. On the other hand, if they all use different output files, you may want to let all of them run and compare the results.
+    {{<note>}} If your test module now holds the test cases from the previous examples, you might want to restrict execution to just this test case. On the other hand, if they all use different output files, you may want to let all of them run and compare the results.
 
 
 Upon completion of execution, your headlines.txt file holds the three retrieved headlines, having successfully avoided capturing the text of any non-headline links:

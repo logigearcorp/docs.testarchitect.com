@@ -60,7 +60,7 @@ The information is presented in the form of a tree structure, with nodes grouped
         -   Allocated: 0 indicates that no licenses are currently in use.
         -   Available: 2 indicates that both of the issued licenses are available to be granted to hosts that request them.
         -   Valid Until: 04/30/2017 shows that the licenses are valid until 04/30/2017.
-{{<note>}}
+        {{<note>}}
 
         -   The sum of **Allocated** and **Available** licenses always equals the number of **Issued** licenses.
         -   The number of issued licenses for a node can decrease. This happens when a license is converted from a floating license to a host-based license.

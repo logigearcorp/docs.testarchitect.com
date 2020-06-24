@@ -42,7 +42,7 @@ A drop-down list box in the dialog box contains the following information:
 -   TestArchitect Controller, as well as the [compilation data](/TA_Help/Topics/Test_exec_test_execution.html#li.compilation_mode) of a test.
 -   All the harnesses actively running on the connected devices or local controller.
 
-{{<note>}} Applies to TestArchitect [8.4](/TA_ReleaseNotes/DITA_source/Whats_New_8.4.html) and higher.
+    {{<note>}} Applies to TestArchitect [8.4](/TA_ReleaseNotes/DITA_source/Whats_New_8.4.html) and higher.
 
 
 ![](/images/TA_Help/Images/TA_Controller_dlg_dropdown_list.png)

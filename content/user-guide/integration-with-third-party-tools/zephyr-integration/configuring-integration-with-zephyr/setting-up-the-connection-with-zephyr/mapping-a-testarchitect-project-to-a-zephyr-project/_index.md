@@ -26,7 +26,7 @@ To map a TestArchitect project to a Zephyr project:
 
 2.  In the **Source** field, specify the ID of the Zephyr project to map to.
 
-{{<important>}} You can only map a given TestArchitect project to a single Zephyr project at a time.
+    {{<important>}} You can only map a given TestArchitect project to a single Zephyr project at a time.
 
     ![](/images/TA_Help/Images/Zephyr_mapping_projects_6.1.png)
 

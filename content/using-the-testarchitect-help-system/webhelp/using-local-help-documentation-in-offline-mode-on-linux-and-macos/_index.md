@@ -30,7 +30,7 @@ Perform the following steps:
 
     You will see the following extracted directory tahelp/webhelp/testarchitectclienthelp/.
 
-{{<restriction>}} Please ensure that this directory remains unchanged, because it is vital for TestArchitect to look for the local help documentation file.
+    {{<restriction>}} Please ensure that this directory remains unchanged, because it is vital for TestArchitect to look for the local help documentation file.
 
 6.  Place all extracted directory under the following locations.
 

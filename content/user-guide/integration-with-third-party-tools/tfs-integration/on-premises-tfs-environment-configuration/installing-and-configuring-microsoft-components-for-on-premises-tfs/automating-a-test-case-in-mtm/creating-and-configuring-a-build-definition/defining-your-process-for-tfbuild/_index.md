@@ -64,7 +64,7 @@ There are numerous ways to define the process to suit your organization's needs.
 
         2.  Run Functional Tests: Run Coded UI/Selenium/Functional tests on a set of machines using the test agent. \([Learn more](https://msdn.microsoft.com/library/vs/alm/build/steps/test/run-functional-tests).\)
 
-{{<remember>}} This task must be preceded by a [Visual Studio Test Agent Deployment](/TA_Help/Topics/ug_MTM_specify_build_steps.html#li.VS_test_agent_deployment) task.
+            {{<remember>}} This task must be preceded by a [Visual Studio Test Agent Deployment](/TA_Help/Topics/ug_MTM_specify_build_steps.html#li.VS_test_agent_deployment) task.
 
             -   Test Machine Group/Azure Resource Group: A list of the machines on which the test agent is to be deployed. In this example, we specify the name of a Machine Group. \(Read [here](https://msdn.microsoft.com/library/vs/alm/build/steps/test/run-functional-tests#machgroup) to configure a Machine Group for testing.\)
             -   Test Drop Location: The location on the test machine\(s\) where the test binaries can be found, having been written there during the [Windows Machine File Copy](/TA_Help/Topics/ug_MTM_specify_build_steps.html#li.Windows_machine_file_copy) phase.
