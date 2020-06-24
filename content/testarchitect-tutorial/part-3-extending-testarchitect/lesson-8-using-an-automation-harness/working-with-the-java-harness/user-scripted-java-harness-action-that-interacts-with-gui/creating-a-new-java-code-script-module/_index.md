@@ -68,7 +68,7 @@ Create a new Java module, and provide the code overhead required to access your 
 
     As in the previous exercise, there is a setActions\(\) function, which in this case declares those actions that are part of the table support class. Only one action, check row count, is so declared, in this case. The divert\(\) function, also seen previously, is called from the main class and directs the action to the Java method that implements it.
 
-3.{{<note>}} The file TAMain.java, which is the main entry point for user-scripted action calls, must now be edited. Note that this was not the case in our previous lesson. When an action definition is added to an existing code module, there is no need to modify TAMain.java.  However, when a new module is created, as we’re doing here, TAMain.java does need to know about it.
+3.  {{<note>}} The file TAMain.java, which is the main entry point for user-scripted action calls, must now be edited. Note that this was not the case in our previous lesson. When an action definition is added to an existing code module, there is no need to modify TAMain.java.  However, when a new module is created, as we’re doing here, TAMain.java does need to know about it.
 
     Open TAMain in the editor.
 

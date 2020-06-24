@@ -42,7 +42,7 @@ To install a ZBot agent and deploy a custom TestArchitect ZIP project, carry out
 
     2.  A command line window appears indicating that ZBot started successfully.
 
-{{<remember>}} Leave the command line window open on your machine; otherwise, the ZBot process is terminated.
+        {{<remember>}} Leave the command line window open on your machine; otherwise, the ZBot process is terminated.
 
 
 {{<note>}}

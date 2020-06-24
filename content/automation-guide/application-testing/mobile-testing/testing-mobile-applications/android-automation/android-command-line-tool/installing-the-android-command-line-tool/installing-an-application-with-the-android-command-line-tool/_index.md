@@ -30,7 +30,7 @@ Ensure that the following requirements are met:
 
     Review [Install command](/Android/Topics/Android_command_line_tool_install.html#p_jfs_j42_5l) to understand the Install command's syntax.
 
-{{<tip>}}
+    {{<tip>}}
 
     -   If there is only one Android device connected to the host PC via USB cable, the unique ID parameter is optional.
     -   To obtain the unique ID of an Android device:

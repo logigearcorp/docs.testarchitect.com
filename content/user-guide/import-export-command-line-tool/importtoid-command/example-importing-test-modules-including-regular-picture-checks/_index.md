@@ -26,7 +26,7 @@ Let's say you want to import a given test module, Action Based Testing, from a .
 -   Include the test module's regular picture checks in the import.
 -   File to import: D:\\exported items\\Action Based Testing\_2020-05-21 16-47-34.zip
 
-{{<note>}} While test modules can be exported to & imported from .csv, .html and .zip files, only .zip files can hold regular picture checks from the source test module.
+    {{<note>}} While test modules can be exported to & imported from .csv, .html and .zip files, only .zip files can hold regular picture checks from the source test module.
 
 -   ID of destination test folder in project: 1z23htgfc2
 

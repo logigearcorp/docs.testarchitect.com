@@ -37,7 +37,7 @@ Carry out the following procedures on an macOS machine:
     -   TestArchitectBrowserAgent.ipa
     -   FileInfo
     -   iOSInstrumentationDyLib.dylib
-{{<note>}} The files resign.sh, TestArchitectBrowserAgent.ipa, FileInfo, and iOSInstrumentationDyLib.dylib may be found at the following location when TestArchitect is installed: Applications/TestArchitect/device/iOS/resource
+    {{<note>}} The files resign.sh, TestArchitectBrowserAgent.ipa, FileInfo, and iOSInstrumentationDyLib.dylib may be found at the following location when TestArchitect is installed: Applications/TestArchitect/device/iOS/resource
 
 3.  Start the command line terminal and navigate to the directory to which you copied the files in the preceding step.
 
@@ -49,7 +49,7 @@ Carry out the following procedures on an macOS machine:
 
     Syntax: resign.sh <Common Name of private key in Keychain Access\> <file name of the provisional profile\> <file name \(without or with the .ipa suffix\) of the application file to re-sign\>
 
-{{<note>}} Providing the file name's extension \(.ipa\) is optional. If not provided, the script assumes an extension of .ipa.
+    {{<note>}} Providing the file name's extension \(.ipa\) is optional. If not provided, the script assumes an extension of .ipa.
 
     `./resign.sh "iPhone Developer: John Doe (3M2DBQ46ZG)" iOS_Team_Provisioning_Profile_.mobileprovision TestArchitectBrowserAgent`
 
@@ -63,7 +63,7 @@ Carry out the following procedures on an macOS machine:
 
         A re-signed TestArchitectBrowserAgent is installed onto the device.
 
-{{<note>}} You can perform step [6](/TA_Automation/Topics/aut_app_testing_mobile_web_Safari_installing_TA_Browser_Agent.html#step_u4p_xyq_kn) on either an macOS or Windows machine.
+    {{<note>}} You can perform step [6](/TA_Automation/Topics/aut_app_testing_mobile_web_Safari_installing_TA_Browser_Agent.html#step_u4p_xyq_kn) on either an macOS or Windows machine.
 
 
 

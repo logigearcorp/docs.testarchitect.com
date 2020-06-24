@@ -24,7 +24,7 @@ To compare an item against the reference item, do the following:
 
     ![](/images/TA_Help/Images/diff_tool_reference_item_comparison.png)
 
-{{<tip>}} If at any time you wish to view the current reference item in the test editor, right-click any project item node, and then select **Diff Tool** \> **Go to Marked Item**.
+    {{<tip>}} If at any time you wish to view the current reference item in the test editor, right-click any project item node, and then select **Diff Tool** \> **Go to Marked Item**.
 
 
 The Diff Tool window appears, with the two items displayed in side-by-side panels, the reference \(marked\) item on the left and the comparison item on the right. The toolbar provides functions for viewing and navigating among the detected differences.

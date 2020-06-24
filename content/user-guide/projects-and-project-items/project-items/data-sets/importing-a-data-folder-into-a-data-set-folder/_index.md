@@ -20,7 +20,7 @@ At times, rather than import a single tab-delimited text file to a data set, you
 
     2.  In the Select dialog box, select the folder \(the "source" folder\) to be imported.
 
-{{<note>}}
+        {{<note>}}
 
         -   You must have full read permissions for the source folder.
         -   TestArchitect only imports data files found at the top level of the source folder. Subfolders, if any, are ignored.
@@ -49,7 +49,7 @@ At times, rather than import a single tab-delimited text file to a data set, you
         -   **Source data folder**: Click ![](/images/TA_Help/Images/btn.browse-ellipsis.01.png) to browse to the external source folder to import its data into the data set folder.
     3.  Select the external source data folder that you want to import using the Select dialog box.
 
-{{<note>}}
+        {{<note>}}
 
         -   You must have full read permissions for the source folder.
         -   TestArchitect only imports data files found at the top level of the source folder. Subfolders, if any, are ignored.

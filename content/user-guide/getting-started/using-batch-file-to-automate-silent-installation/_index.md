@@ -16,7 +16,7 @@ Ensure that the following requirements are met:
 -   Create [installation](/TA_InstallationGuide/DITA_source/Topics/inst_TA_silent_mode_creating_response_file.html) and [uninstallation](/TA_InstallationGuide/DITA_source/Topics/uninst_TA_silent_mode_creating_response_file.html) response files.
 -   Back up abt.ini and automation.ini from the computer creating the response files.
 
-{{<note>}}
+    {{<note>}}
 
     -   abt.ini stores information such as, repository server, license server, such as, automation harness. Location:
         -   C:\\Users\\Public\\LogiGear\\TestArchitect\\controller
@@ -50,7 +50,7 @@ Ensure that the following requirements are met:
 
 3.  Uninstall previously installed TestArchitect by entering the following command. `<UninstallString value> /s /f1<path_to_response_file>\<respone_file>.iss /f2<path_to_log_file>\<log_file>.log` \([Learn more](/TA_InstallationGuide/DITA_source/Topics/uninst_TA_silent_mode_running_response_file.html).\)
 
-{{<note>}} If you do not installTestArchitect yet, proceed to step \#6.
+    {{<note>}} If you do not installTestArchitect yet, proceed to step \#6.
 
     For example, enter the code line below.
 
@@ -119,7 +119,7 @@ Ensure that the following requirements are met:
     automation.ini's location:
 
     -   C:\\Users\\Public\\LogiGear\\TestArchitect\\Data
-{{<note>}} Remember to copy exact abt.ini and automation.ini to the same folders as the original computer on the target machine \(physical machines, cloud instances, virtual machines, etc.\)
+    {{<note>}} Remember to copy exact abt.ini and automation.ini to the same folders as the original computer on the target machine \(physical machines, cloud instances, virtual machines, etc.\)
 
     For example, enter the code lines below:
 

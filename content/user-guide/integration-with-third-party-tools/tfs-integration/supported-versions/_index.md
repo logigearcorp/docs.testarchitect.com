@@ -16,14 +16,14 @@ Currently, TFS integration supports the Microsoft technologies listed below:
 
     -   Visual Studio Team Foundation Server 2018, 2017 Update 2, 2017 Update 1, 2015, 2015 Update 1 \([learn more](https://www.visualstudio.com/en-us/docs/setup-admin/tfs/install/get-started)\).
 
-{{<note>}} If you use TFS 2018, be aware of its substantial changes:
+        {{<note>}} If you use TFS 2018, be aware of its substantial changes:
 
         -   XAML Build has been deprecated. Furthermore, Microsoft Test Manager \(MTM\) no longer supports XAML builds
         -   Using Test Center/Lab Center in MTM for automated testing is no longer supported by TFS, starting with TFS 2018.
         Accordingly Build vNext and the Test Hub in the [TFS web portal](/TA_Help/Topics/TFS_web_automated_testing.html) are ideal replacements for respective XAML Build and MTM.\(See also: [Team Foundation Server 2018 Release Notes](https://docs.microsoft.com/en-us/visualstudio/releasenotes/tfs2018-relnotes)\)
 
     -   Visual Studio Team Foundation Server [2013](http://msdn.microsoft.com/en-us/library/dd631902(v=vs.120).aspx).
-{{<note>}} Both [on-premises](/TA_Help/Topics/ug_MTM_setting_up_environment.html) and [Azure DevOps](/TA_Help/Topics/Azure_DevOps_running_automated_tests.html) \(the formerly known as Visual Studio Team Services\) are supported.
+    {{<note>}} Both [on-premises](/TA_Help/Topics/ug_MTM_setting_up_environment.html) and [Azure DevOps](/TA_Help/Topics/Azure_DevOps_running_automated_tests.html) \(the formerly known as Visual Studio Team Services\) are supported.
 
 -   Microsoft Visual Studio, including Microsoft Test Manager:
     -   Microsoft Visual Studio [2017 Update 2](https://www.visualstudio.com/en-us/news/releasenotes/tfs2017-update2), [2017 Update 1](https://www.visualstudio.com/en-us/news/releasenotes/tfs2017-update1) \(Enterprise and Professional editions\)
@@ -32,13 +32,13 @@ Currently, TFS integration supports the Microsoft technologies listed below:
 -   Microsoft Test Controller for Visual Studio:
     -   Test controller for Visual Studio [2015](https://msdn.microsoft.com/en-us/library/hh546459(v=vs.140).aspx#controller), 2015 Update 1.
 
-{{<note>}} Choose to download and install [Agents for Microsoft Visual Studio 2013 Update 5](https://www.visualstudio.com/vs/older-downloads/). This package includes installation of both test controllers and test agents.
+        {{<note>}} Choose to download and install [Agents for Microsoft Visual Studio 2013 Update 5](https://www.visualstudio.com/vs/older-downloads/). This package includes installation of both test controllers and test agents.
 
     -   Test controller for Visual Studio [2013](http://msdn.microsoft.com/en-us/library/hh546459(v=vs.120).aspx#controller).
 -   Microsoft Agents for Visual Studio:
     -   Test agent for Visual Studio [2015](https://msdn.microsoft.com/en-us/library/hh546459(v=vs.140).aspx#agent), 2015 Update 1.
 
-{{<note>}} Choose to download and install [Agents for Microsoft Visual Studio 2013 Update 5](https://www.visualstudio.com/vs/older-downloads/). This package includes installation of both test controllers and test agents.
+        {{<note>}} Choose to download and install [Agents for Microsoft Visual Studio 2013 Update 5](https://www.visualstudio.com/vs/older-downloads/). This package includes installation of both test controllers and test agents.
 
     -   Test agent for Visual Studio [2013](http://msdn.microsoft.com/en-us/library/hh546459(v=vs.120).aspx#agent).
 -   TFS test suites: types of TFS test suites supported in Team Foundation Server-Microsoft Test Manager integration are as follows \([learn more](https://msdn.microsoft.com/library/dd286738(v=vs.110).aspx)\):

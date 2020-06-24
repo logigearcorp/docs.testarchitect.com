@@ -23,7 +23,7 @@ To register a JIRA server with your TestArchitect repository, do the following:
 
 1.  Under the appropriate repository node of the TestArchitect explorer tree, expand the subtree **Administration** \> **Tool Profiles** \> **External Tool** \> **Bug Tracker**.
 
-{{<note>}} Only TestArchitect users belonging to the administrator group are able to view and modify the **Administration** node in the explorer tree.
+    {{<note>}} Only TestArchitect users belonging to the administrator group are able to view and modify the **Administration** node in the explorer tree.
 
 2.  In the expanded list of options, double-click **Jira**.
 
@@ -35,11 +35,11 @@ To register a JIRA server with your TestArchitect repository, do the following:
 
         -   server=\[JIRA server URL\]: \(Required\) Full URL of the JIRA server, including HTTP://
 
-{{<restriction>}} HTTPS is not supported.
+            {{<restriction>}} HTTPS is not supported.
 
         -   user=\[JIRA user name\]: \(Required\) Default JIRA user name to log on with.
 
-{{<tip>}} It is recommended that the administrator create a common JIRA account available to everyone, and configure the repository to use that as the default account. Note that users with individual JIRA accounts have the option to override the default credentials when they are working with JIRA integration.
+            {{<tip>}} It is recommended that the administrator create a common JIRA account available to everyone, and configure the repository to use that as the default account. Note that users with individual JIRA accounts have the option to override the default credentials when they are working with JIRA integration.
 
         -   auto fetch data=\[24-hour format\]: \(Optional\) Daily time at which TestArchitect is to retrieve external bug information from the JIRA server and update the registered TA bugs.
         Example: server=http://192.168.167.74; user=Joe.Doe; auto fetch data=18:00
@@ -49,7 +49,7 @@ To register a JIRA server with your TestArchitect repository, do the following:
 
 6.  In the Enter Password dialog box, enter the JIRA password for the **user** that was entered in the **Available options** field, and then click OK.
 
-{{<note>}} The entered password is not verified at this point.
+    {{<note>}} The entered password is not verified at this point.
 
 
 The connection between TestArchitect and JIRA server is established.

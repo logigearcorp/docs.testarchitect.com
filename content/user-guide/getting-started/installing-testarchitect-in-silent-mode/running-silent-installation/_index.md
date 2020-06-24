@@ -24,7 +24,7 @@ Deploying TestArchitect installation file on other computers and running the ins
     -   /f1: Specifies where the response file is. \([Learn more](http://helpnet.flexerasoftware.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm).\)
     -   /f2: Specifies a log file location and file name. \([Learn more](http://helpnet.flexerasoftware.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm).\)
 
-{{<note>}} Specify an absolute path; using a relative path gives unpredictable results.
+        {{<note>}} Specify an absolute path; using a relative path gives unpredictable results.
 
     -   If the path includes spaces, enclose it in quotes.
     For example, enter the following command:
@@ -44,7 +44,7 @@ Deploying TestArchitect installation file on other computers and running the ins
     -   Path to the log file: D:\\Silent installation\\Silent files\\install.log
     The installation program installs TestArchitect in the background using the options specified in the response file. The installation program displays no dialog boxes. The installation progress is not shown either.
 
-{{<warning>}} Silent installation only applies to the TestArchitect English version.
+    {{<warning>}} Silent installation only applies to the TestArchitect English version.
 
 
 

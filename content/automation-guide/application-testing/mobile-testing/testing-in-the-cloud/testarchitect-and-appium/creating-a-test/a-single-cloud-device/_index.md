@@ -16,7 +16,7 @@ To start automated mobile web testing on a cloud device in a given WebDriver bas
 
 1.  Use the [assign cloud device](/TA_Automation/Topics/bia_assign_cloud_device.html) built-in action to define a list of [desired capabilities](/TA_Automation/Topics/aut_appium.html#section_p5f_qp3_gy), which are sets of keys and values sent to the Appium server in [JSON](http://www.w3schools.com/js/js_json_syntax.asp) format.
 
-{{<note>}}
+    {{<note>}}
 
     -   See the [Desired Capabilities documentation](http://appium.io/slate/en/master/?ruby#appium-server-capabilities) for the list of capabilities available for Appium.
     -   Along with the capabilities of Appium, some WebDriver based cloud services might have their own set of capabilities. For example, [Testdroid](https://cloud.testdroid.com/), several additional Testdroid Desired Capabilities are also provided \([learn more](http://docs.testdroid.com/appium/testdroid-desired-caps/)\). Also ensure that your [Testdroid Cloud project's type](http://docs.testdroid.com/user-manuals/testdroid-cloud/projects/) must be either Appium Android client side or Appium iOS client side
@@ -66,7 +66,7 @@ To start automated mobile web testing on a cloud device in a given WebDriver bas
 
 2.  Make a connection to the target cloud device via the [connect cloud device](/TA_Automation/Topics/bia_connect_cloud_device.html) built-in action, as specified by its logical name.
 
-{{<note>}} The name is established in advance by the [assign cloud device](/TA_Automation/Topics/bia_assign_cloud_device.html) action, which assigns a logical name to a mobile cloud device.
+    {{<note>}} The name is established in advance by the [assign cloud device](/TA_Automation/Topics/bia_assign_cloud_device.html) action, which assigns a logical name to a mobile cloud device.
 
     ```
                            name         session id
@@ -75,7 +75,7 @@ To start automated mobile web testing on a cloud device in a given WebDriver bas
 
 3.  Employ the [use cloud device](/TA_Automation/Topics/bia_use_cloud_device.html) built-in action to use the cloud device to initiate automated tests. The invoked cloud device is specified by its session ID.
 
-{{<note>}} The session ID specified in the session id argument is retrieved via the [connect cloud device](/TA_Automation/Topics/bia_connect_cloud_device.html) action.
+    {{<note>}} The session ID specified in the session id argument is retrieved via the [connect cloud device](/TA_Automation/Topics/bia_connect_cloud_device.html) action.
 
     ```
                          session id

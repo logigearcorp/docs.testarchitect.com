@@ -23,7 +23,7 @@ The license server can be started and stopped from the License Server Control Pa
 
 3.  Stop the server by clicking **Stop** ![](/images/TA_Administration/Images/licenseserver_13.png) on the toolbar.
 
-{{<tip>}} The status bar of the License Server Control Panel displays the current state of the server, Started or Stopped.
+    {{<tip>}} The status bar of the License Server Control Panel displays the current state of the server, Started or Stopped.
 
 
 

@@ -36,7 +36,7 @@ An additional benefit of these actions is that your test can use a database to s
             -   11g Release 2
         -   Oracle Database Express Edition
             -   11g Release 2
-{{<note>}}
+    {{<note>}}
 
     -   SQL Server and MySQL are standard relational database management systems \(DBMSs\) that enjoy widespread use. While MS Excel is not a DBMS per se, its data is also structured in a relational \(table\) form, allowing for it to also be queried by means of SQL commands.
     -   In principle, while only the DBMSs listed are explicitly supported, any SQL-conversant DBMS with ODBC-compliant drivers for the platform of the given test system should also behave well with TestArchitect. For assistance, contact TestArchitect Support at [support@logigear.com](mailto:support@logigear.com).

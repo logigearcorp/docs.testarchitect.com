@@ -80,7 +80,7 @@ These steps are implemented in the following procedure:
 
     This registers that the action hello needs to be interpreted by this class, example.
 
-{{<note>}} setActionScript\(\) is a member function of an object called AbtLIBRARY. This object represents the core interpreter library of TestArchitect, which has functions for common tasks like registering actions, retrieving arguments and reporting results of checks.
+    {{<note>}} setActionScript\(\) is a member function of an object called AbtLIBRARY. This object represents the core interpreter library of TestArchitect, which has functions for common tasks like registering actions, retrieving arguments and reporting results of checks.
 
 7.  Next, add an else-if clause \(in **bold**\) to the `if` block in the class’ divert\(\) method:
 
@@ -111,7 +111,7 @@ These steps are implemented in the following procedure:
 
 8.  If your IDE presents a message that the method action\_hello\(\) is undefined, that's OK: you're about to define it.
 
-{{<note>}} The action\_hello\(\) method is where the real work is performed – it is the actual implementation of the hello action.
+    {{<note>}} The action\_hello\(\) method is where the real work is performed – it is the actual implementation of the hello action.
 
 9.  Add action\_hello\(\) to the end of your file with code that looks like this:
 

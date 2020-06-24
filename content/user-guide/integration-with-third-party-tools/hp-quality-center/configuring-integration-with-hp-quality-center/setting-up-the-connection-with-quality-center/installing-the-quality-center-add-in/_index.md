@@ -18,7 +18,7 @@ Contact your systems administrator if you are not certain whether the machine ho
 
 1.  In a browser supported by your version of Quality Center, navigate to the URL of the Quality Center server in your organization.
 
-{{<note>}} The HP Quality Center server supports a limited number of browsers. Specifically, versions 11 and 12 of Quality Center support Internet Explorer versions 8 thru 10. To ensure that you have the most recent information on Quality Center support for browsers, operating systems, hardware, etc., please refer to [HP's system requirement guide](https://hpln.hp.com/page/alm-qc-enterprise-technical-specifications). \(Note that Quality Center limitations on browser clients have no bearing on which browsers may be used as target platforms for TestArchitect automated testing.\)
+    {{<note>}} The HP Quality Center server supports a limited number of browsers. Specifically, versions 11 and 12 of Quality Center support Internet Explorer versions 8 thru 10. To ensure that you have the most recent information on Quality Center support for browsers, operating systems, hardware, etc., please refer to [HP's system requirement guide](https://hpln.hp.com/page/alm-qc-enterprise-technical-specifications). \(Note that Quality Center limitations on browser clients have no bearing on which browsers may be used as target platforms for TestArchitect automated testing.\)
 
     ![](/images/TA_Help/Images/QC_install_addin.01.png)
 

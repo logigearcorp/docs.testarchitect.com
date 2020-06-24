@@ -19,7 +19,7 @@ The following new features and improvements are introduced in TestArchitect vers
 
 -   [**Time-traveling execution**](/TA_Help/Topics/ug_time_traveling.html): Time-traveling execution provides support for retroactive execution, that is, the ability to execute a particular historical snapshot, or set of revisions, of project items in a given project. Given its ability to find the right set of test assets for a particular past version of an application, time-traveling execution is well-suited for regression testing on AUT versions that precede the current release.
 
-{{<note>}}
+    {{<note>}}
 
     -   Implementation of time-traveling execution has necessitated structural changes to TestArchitect repository databases. An [upgrade tool](/TA_Administration/Topics/adm_database_upgrade_time_traveling.html) is provided to allow you to take advantage of time traveling on repositories created prior to TestArchitect version 8.2.
     -   Note that repository databases belonging to TestArchitect version 6.4 or earlier must be upgraded in stages:

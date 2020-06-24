@@ -26,7 +26,7 @@ You can directly edit the value of a field in a test case list view.
 
 4.  Enter the new data.
 
-{{<tip>}} For the multi-line fields, such as Notes, Description, etc., press Alt + Enter to insert new lines within the cell.
+    {{<tip>}} For the multi-line fields, such as Notes, Description, etc., press Alt + Enter to insert new lines within the cell.
 
 5.  Press the Enter key to complete the change.
 

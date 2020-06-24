@@ -47,11 +47,11 @@ Our task now is to create a pie chart similar to the first, except that we limit
         -   **Value**: latest build
     4.  Click on the **Display Settings** tab.
 
-5.{{<note>}} The **Chart Title** of Summarized test results across test modules and dates no longer applies to this chart. Since we already have a name for the panel, let's just make **Chart Title** invisible.
+    5.  {{<note>}} The **Chart Title** of Summarized test results across test modules and dates no longer applies to this chart. Since we already have a name for the panel, let's just make **Chart Title** invisible.
 
         Under Chart Settings, clear the **Show Title** check box.
 
-6.{{<note>}} You can also change some other display settings, to see their effect.
+    6.  {{<note>}} You can also change some other display settings, to see their effect.
 
         Under Chart Settings, set **Legends** to None; On the **Data Labels** line, select the **Series** check box, and clear the **Percentage** check box.
 

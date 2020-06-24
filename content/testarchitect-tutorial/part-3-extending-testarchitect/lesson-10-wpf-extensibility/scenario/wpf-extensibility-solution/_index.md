@@ -17,7 +17,7 @@ Overriding TestArchitect's built-in actions by using WPF Extensibility involves 
     -   extend a specific kind of handler base. For instance, TelerikTableHandler : TATableHandlerBase, and
     -   override the GetControlSupportLevel \(Object obj\) method to define the supported control and the level of priority.
 
-{{<note>}}
+        {{<note>}}
 
         -   We only need to override the necessary methods. The rest of the methods are inherited from the base handler. On the base handler side, each method is responsible for getting the best handler which extends this base handler and implements the method. The best handler has the highest level of support.
         -   The NetAgent.sln solution is provided to work with WPF Extensibility. You can find the solution at the following location: <installation path\>/LogiGear/TestArchitect/samples/Extensions/WPF/WpfExtensionSample.

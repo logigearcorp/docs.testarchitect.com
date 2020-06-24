@@ -18,7 +18,7 @@ To set up the TestArchitect repository for integration with an HP Quality Center
 
 2.  Expand **Administration** \> **Tool Profiles** \> **External Tool** \> **Test Management** node on TestArchitect explorer tree.
 
-{{<note>}} Only TestArchitect users belonging to the administrator group are able to view and modify the **Administration** node in the explorer tree.
+    {{<note>}} Only TestArchitect users belonging to the administrator group are able to view and modify the **Administration** node in the explorer tree.
 
 3.  In the expanded list of options, double-click the **Quality Center** node.
 
@@ -31,11 +31,11 @@ To set up the TestArchitect repository for integration with an HP Quality Center
     -   **Available options:** list of options as described below, separated by semicolons.
         -   `server=[QC server url]` \(URL of Quality Center server, including port number, and a directory path, if applicable.\)
 
-{{<restriction>}} HTTPS is not supported.
+            {{<restriction>}} HTTPS is not supported.
 
         -   `machines={TestArchitect controller network names or IP addresses}` \(Optional. List of TestArchitect controller IP addresses, separated by commas.
 
-{{<note>}} These are the controllers that will be presented to you as test hosts when you execute tests from Quality Center. \(Note, however, that you will not be restricted to only using controllers from this list.\)
+            {{<note>}} These are the controllers that will be presented to you as test hosts when you execute tests from Quality Center. \(Note, however, that you will not be restricted to only using controllers from this list.\)
 
             \)
 
@@ -45,7 +45,7 @@ To set up the TestArchitect repository for integration with an HP Quality Center
 
 6.  Click **Apply**.
 
-   {{<caution>}}
+    {{<caution>}}
 
     As a general rule, only one test management tool can be active at a time for a given TestArchitect repository. If you select the **Active** check box and click the **Apply** button, the new external tool becomes active and any other tool formerly in use is automatically rendered inactive. For example, activating the Quality Center external tool automatically deactivates the Team Foundation Server external tool.
 
@@ -53,7 +53,7 @@ To set up the TestArchitect repository for integration with an HP Quality Center
 
     ![](/images/TA_Help/Images/QC_connection.png)
 
-{{<note>}} Be aware that clicking **Apply** only has the effect of saving the connection and configuration information for later use, as opposed to attempting a connection. It is only later, when direct communication between projects is attempted, that you will receive confirmation that your connection data is correct.
+    {{<note>}} Be aware that clicking **Apply** only has the effect of saving the connection and configuration information for later use, as opposed to attempting a connection. It is only later, when direct communication between projects is attempted, that you will receive confirmation that your connection data is correct.
 
 
 You are now ready to map your project to a project in Quality Center.

@@ -21,7 +21,7 @@ To turn on the automatic detection of obsolete TA-TFS projects, do the following
 
 2.  In the TestArchitect toolbar, click the **Preferences** ![](/images/TA_Help/Images/btn_Preferences.png) button.
 
-{{<note>}} If the **Preferences** button is not visible on the Visual Studio toolbar, enable the button by right-clicking on the toolbar and selecting **TestArchitect** from the context menu.
+    {{<note>}} If the **Preferences** button is not visible on the Visual Studio toolbar, enable the button by right-clicking on the toolbar and selecting **TestArchitect** from the context menu.
 
 3.  In the Preferences dialog box, select the **On** option, and then click **OK**.
 

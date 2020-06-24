@@ -30,7 +30,7 @@ You are knowledgeable about [test runs in multiple remote desktop sessions](/TA_
 
     ![](/images/TA_Help/Images/TA_RUN_CONFIG_env_variable.png)
 
-{{<important>}} this step needs carrying out for the first time only.
+    {{<important>}} this step needs carrying out for the first time only.
 
 4.  Execute the taplayback.exe command located in \{TA\_INSTALL\_DIR\}\\binclient so as to start debugging the harness
 

@@ -128,7 +128,7 @@ Well-written test procedures include timeout handling that allows them to recove
 
     For instance, when an unexpected test case timeout occurs, you might want to close the application-under-test and clean up the environment back to a blank slate in order to prepare for subsequent test case.
 
-{{<note>}} After TestArchitect finishes running the action invoked by on timeout action, the renaming actions lines of the test case is skipped. The test run continues with the subsequent test case. In addition, TestArchitect test result is [Not Finished](/TA_Help/Topics/ug_test_results_status.html#row.NF).
+    {{<note>}} After TestArchitect finishes running the action invoked by on timeout action, the renaming actions lines of the test case is skipped. The test run continues with the subsequent test case. In addition, TestArchitect test result is [Not Finished](/TA_Help/Topics/ug_test_results_status.html#row.NF).
 
 -   **[cleanup timeout](/TA_Automation/Topics/bis_cleanup_timeout.html) setting**
 

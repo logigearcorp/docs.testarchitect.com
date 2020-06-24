@@ -14,7 +14,7 @@ To temporarily acquire an Universal license:
 
 1.  On the TestArchitect Client toolbar, select **Help** \> **License Server** \> **Upgrade License**.
 
-{{<note>}} The **Upgrade License** option is disabled if your copy of TestArchitect already has an Universal license.
+    {{<note>}} The **Upgrade License** option is disabled if your copy of TestArchitect already has an Universal license.
 
     A dialog box appears, letting you know whether the license acquisition was successful.
 

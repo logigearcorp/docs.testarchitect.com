@@ -19,7 +19,7 @@ Performing the following steps on the repository server machine will help resolv
 1.  Download NuGet \(nuget.exe\), the package manager for the Microsoft development platform. \([Learn more](https://dist.nuget.org/index.html)\).
 2.  Download the Json.NET package. \([Learn more](https://www.nuget.org/packages/Newtonsoft.Json/4.5.1).\)
 
-{{<important>}} For TFS 2013, 2015, 2015 Update 1, download Json.NET version \#**4.5.1**.
+    {{<important>}} For TFS 2013, 2015, 2015 Update 1, download Json.NET version \#**4.5.1**.
 
 3.  Install nuget.exe by doing the following:
     1.  Bring up the Windows console window. The console window opens with a prompt displaying your current directory.

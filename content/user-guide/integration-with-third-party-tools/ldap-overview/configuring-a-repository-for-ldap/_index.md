@@ -26,7 +26,7 @@ To establish this configuration, do the following:
 
 2.  In the TestArchitect explorer tree, expand the **Administration** \> **Tool Profiles** \> **LDAP Tool** node.
 
-{{<note>}} Only TestArchitect users belonging to the administrator group are able to view and modify the **Administration** node in the explorer tree.
+    {{<note>}} Only TestArchitect users belonging to the administrator group are able to view and modify the **Administration** node in the explorer tree.
 
 3.  In the expanded list, double-click the **LDAP Server** node.
 
@@ -39,7 +39,7 @@ To establish this configuration, do the following:
     -   Host: The host name of your LDAP-based directory server.
     -   Port: The port on which your directory server is listening.
 
-{{<remember>}}
+        {{<remember>}}
 
         -   By default, port 389 is automatically chosen.
         -   For SSL connections, use port 636.
@@ -51,11 +51,11 @@ To establish this configuration, do the following:
 
     -   User Name: The user name of an account \(system user name\) with sufficient privileges on the LDAP server \(see note below\).
 
-{{<note>}} This account will be used for all future user authentication queries submitted from this repository to the server. Hence, it must have read permission for at least that part of the LDAP directory tree, and that user name is not denied on LDAP directory tree.
+        {{<note>}} This account will be used for all future user authentication queries submitted from this repository to the server. Hence, it must have read permission for at least that part of the LDAP directory tree, and that user name is not denied on LDAP directory tree.
 
     -   Password: Password for the LDAP account.
 
-{{<restriction>}} You cannot leave this password field blank. Hence, ensure that the system user account you are using does not have a blank password, or first provide that account with a password.
+        {{<restriction>}} You cannot leave this password field blank. Hence, ensure that the system user account you are using does not have a blank password, or first provide that account with a password.
 
     ![](/images/TA_Help/Images/LDAP_tool_dlg_authentication_settings.png)
 
@@ -63,7 +63,7 @@ To establish this configuration, do the following:
 
     The Base Distinguished Name \(Base DN\) corresponds to a node in the LDAP directory tree. By specifying a Base DN, you can restrict authentication queries to only those subnodes that reside below that point \(as opposed to all subnodes under the root\). This reduces the time and overhead of such queries, since it narrows downs the scope of the search.
 
-{{<note>}}
+    {{<note>}}
 
     -   If no value is supplied for Base DN, LDAP queries start from root.
     -   See your network administrator if you do not already have the following information in hand:
@@ -73,7 +73,7 @@ To establish this configuration, do the following:
 
 8.  After entering the relevant settings, authentication can be tested by clicking the **Test Connection** button. This provides feedback on whether the LDAP server was reachable and if the authentication was a success or failure.
 
-{{<important>}} If you have opted to use an SSL connection, and your LDAP-based directory server's identity has not been verified by a trusted third-party, or the SSL certificate installed on your client machine has expired, TestArchitect displays a Verify Certificate alert. To install the SSL certificate, click the **Accept** button.
+    {{<important>}} If you have opted to use an SSL connection, and your LDAP-based directory server's identity has not been verified by a trusted third-party, or the SSL certificate installed on your client machine has expired, TestArchitect displays a Verify Certificate alert. To install the SSL certificate, click the **Accept** button.
 
     ![](/images/TA_Help/Images/LDAP_verify_cert_dlg.PNG)
 

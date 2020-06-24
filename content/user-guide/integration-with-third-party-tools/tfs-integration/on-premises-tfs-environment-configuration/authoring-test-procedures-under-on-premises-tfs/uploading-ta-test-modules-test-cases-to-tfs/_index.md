@@ -46,7 +46,7 @@ To upload TestArchitect test cases/test modules to TFS:
 
     ![](/images/TA_Help/Images/TFS_upload_overwrite_dlg.png)
 
-{{<note>}} the **Copy to Clipboard** button is used to copy the list of existing test cases to the clipboard.
+    {{<note>}} the **Copy to Clipboard** button is used to copy the list of existing test cases to the clipboard.
 
 7.  An information dialog box will appear stating “Upload process completed successfully” if the upload was successful. Click the **OK** button.
 

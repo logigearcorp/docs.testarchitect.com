@@ -18,7 +18,7 @@ To export repositories, perform the following:
 
 2.  Select a repository from the Repository List panel.
 
-{{<tip>}} You may select multiple repositories to export them in a single operation.
+    {{<tip>}} You may select multiple repositories to export them in a single operation.
 
 3.  Click **Export Repository** ![](/images/TA_Administration/Images/btn.RS_export_repo.png) on the toolbar, or select **Tools** \> **Export Repository**.
 
@@ -37,7 +37,7 @@ To export repositories, perform the following:
 
     A status bar indicating the progress of the export is visible in the bottom left corner of the Export Repository dialog box.
 
-{{<note>}} If the status of the exported repository files is Error, please refer to [Troubleshooting repository export](/TA_Administration/Topics/adm_Exporting_repository_troubleshooting.html).
+    {{<note>}} If the status of the exported repository files is Error, please refer to [Troubleshooting repository export](/TA_Administration/Topics/adm_Exporting_repository_troubleshooting.html).
 
     When the export process completes, a successful notification message replaces the progress bar in the status area. The successfully exported repositories display a status of Done.
 

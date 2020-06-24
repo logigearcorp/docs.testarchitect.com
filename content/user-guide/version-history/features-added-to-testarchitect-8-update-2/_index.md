@@ -31,7 +31,7 @@ This topic describes the changes made in TestArchitect version 8 update 2.
     -   During the re-signing process, the **.ipa** app extension is now optional.
 -   **Generic Android ta class is no longer supported**; instead, new and existing Android ta classes have been created and improved.
 
-{{<note>}} If you already have captured generic Android controls in prior versions of TestArchitect, you may continue using them in this version by contacting TestArchitect Support at [support@logigear.com](mailto:support@logigear.com).
+    {{<note>}} If you already have captured generic Android controls in prior versions of TestArchitect, you may continue using them in this version by contacting TestArchitect Support at [support@logigear.com](mailto:support@logigear.com).
 
 -   [get text file](/TA_Automation/Topics/bia_get_text_file.html) built-in action: File extensions are not taken into consideration, as long as they are text or word-processing files.
 

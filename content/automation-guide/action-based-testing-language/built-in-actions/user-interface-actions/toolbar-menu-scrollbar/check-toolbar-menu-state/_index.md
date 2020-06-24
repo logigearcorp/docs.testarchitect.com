@@ -48,7 +48,7 @@ Check, against an expected value, the state of an item on a drop-down menu hoste
 
         The menu item is selected.
 
-{{<tip>}} Use commas \(,\) as delimiters between expected values of the state property.
+    {{<tip>}} Use commas \(,\) as delimiters between expected values of the state property.
 
 
 ## Valid contexts

@@ -28,7 +28,7 @@ To run your automated tests from the Execute Test dialog box, carry out the foll
 
     ![](/images/TA_Help/Images/Select_Android_mobile_devices.png)
 
-{{<tip>}} You can also monitor your connected mobile devices from the [Lab Manager Server](/reuse/../TA_Help/Topics/Lab_manager.html).
+    {{<tip>}} You can also monitor your connected mobile devices from the [Lab Manager Server](/reuse/../TA_Help/Topics/Lab_manager.html).
 
 6.  Click **OK** in the Select Controller/Device dialog box, and select **Execute** in theExecute Test dialog box to begin executing tests on your selected mobile devices, or click [**Generate Batch File**](/reuse/../TA_Help/Topics/Test_exec_cmd_creating_batch_file.html) to launch your tests at a later point.
 

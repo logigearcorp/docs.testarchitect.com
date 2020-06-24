@@ -44,7 +44,7 @@ This action may be used within the following project items:test modules and user
     -   **COMMAND** key combinations: \{command\} plus the modified key. For example, \{command\}c represents COMMAND+C.
     -   **OPTION** key combinations: \{option\} plus the modified key. For example, \{option\}\{delete\} represents OPTION + Delete
 
-{{<restriction>}} Currently, \{capslock\} is not supported for Safari running on macOS.
+        {{<restriction>}} Currently, \{capslock\} is not supported for Safari running on macOS.
 
 -   For special keys on mobile operating systems, the following notations are used:
     -   \{home\}, \{back\}, \{menu\}, \{search\}, \{spacebar\}, \{enter\}, \{backspace\}, \{up\}, \{down\}, \{left\}, \{right\}, \{go\}, \{voldown\}, \{volup\}.

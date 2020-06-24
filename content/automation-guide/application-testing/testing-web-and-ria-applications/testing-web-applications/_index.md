@@ -20,7 +20,7 @@ TestArchitect allows you to test web applications in the following browsers and 
         -   Microsoft WebDriver Release [14393](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
     -   Internet Explorer: 11, 10, 9 \(both 32-bit and 64-bits\).
 
-{{<restriction>}} The Modern UI \(Metro\) version of Internet Explorer 10 and 11 is not supported.
+        {{<restriction>}} The Modern UI \(Metro\) version of Internet Explorer 10 and 11 is not supported.
 
     -   Google Chrome, up to version 80, 81.
         -   ChromeDriver version: 81
@@ -29,12 +29,12 @@ TestArchitect allows you to test web applications in the following browsers and 
 -   **Linux**:
     -   Red Hat 7.2, 6.6, 6.3: Mozilla Firefox, up to version 52.3.0 Extended Support Release ESR.
 
-{{<important>}} Note that, you are required to install Firefox from the [package manager](https://support.mozilla.org/en-US/kb/install-firefox-linux). For details, please refer to the documentation of the Red Hat Enterprise Linux version you are using.
+        {{<important>}} Note that, you are required to install Firefox from the [package manager](https://support.mozilla.org/en-US/kb/install-firefox-linux). For details, please refer to the documentation of the Red Hat Enterprise Linux version you are using.
 
 -   **macOS**:
 
     -   MAC OS \(10.13, 10.14\): Safari version 12.0.2.
-{{<restriction>}}
+    {{<restriction>}}
 
     -   Multiple Safari windows that are open concurrently are not supported.
     -   Viewing Safari in full screen mode precludes web automation testing.

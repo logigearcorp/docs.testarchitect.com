@@ -22,7 +22,7 @@ To edit a panel template on the Dashboard page:
 
     ![](/images/TA_Help/Images/Dashboard_edit_panel_name_table.png)
 
-{{<tip>}} Only the panel names in which the logon user has [permission](/TA_Help/Topics/Dashboard_authentication_permissions.html) to edit have the **Edit** buttons and the panel's name check boxes enabled.
+    {{<tip>}} Only the panel names in which the logon user has [permission](/TA_Help/Topics/Dashboard_authentication_permissions.html) to edit have the **Edit** buttons and the panel's name check boxes enabled.
 
     The **Edit Panel** dialog box appears for you to edit the properties of the panel.
 
@@ -34,7 +34,7 @@ To edit a panel template on the Dashboard page:
     -   **Heat Map**: The panel settings on the Edit Panel dialog box are the same as the settings on the Add New Panel dialog box for reports \(see [Create new indicator panel](/TA_Help/Topics/Dashboard_create_heat_map_panel.html)\) steps \#[3](/TA_Help/Topics/Dashboard_create_heat_map_panel.html#step_wue7_del3) through \#[4](/TA_Help/Topics/Dashboard_create_heat_map_panel.html#step_ce8d_e389).
 5.  If the logged-in user is the owner of the panel being edited, select the **Save current settings** check box to permanently save the new settings, or clear that check box to not save the new settings, which causes the new settings to be discarded once the session expires.
 
-{{<note>}} New panel settings are effective for the current Dashboard session whether or not the **Save current settings** check box is selected.
+    {{<note>}} New panel settings are effective for the current Dashboard session whether or not the **Save current settings** check box is selected.
 
 6.  Click **OK**
 

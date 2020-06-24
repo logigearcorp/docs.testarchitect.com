@@ -21,13 +21,13 @@ Choose one of the following two methods to compare test results. To avoid confus
 
     1.  In the TestArchitect explorer tree, establish a reference result by right-clicking a chosen test result node and selecting **Mark to Compare**.
 
-{{<tip>}} Unlike setting baseline results, the reference results used for comparison may reside in either the repository or the local machine.
+        {{<tip>}} Unlike setting baseline results, the reference results used for comparison may reside in either the repository or the local machine.
 
         ![](/images/TA_Help/Images/reference_result_chosen.png)
 
     2.  In the TestArchitect explorer tree, right-click a test result node you want to compare against the reference, and then click **Compare Results**.
 
-{{<tip>}} When you hover your mouse over the **Compare Results** option on the context menu, a screentip appears to inform you which reference test result the current test result is about to be compared against.
+        {{<tip>}} When you hover your mouse over the **Compare Results** option on the context menu, a screentip appears to inform you which reference test result the current test result is about to be compared against.
 
         ![](/images/TA_Help/Images/compare_with_reference_result.png)
 

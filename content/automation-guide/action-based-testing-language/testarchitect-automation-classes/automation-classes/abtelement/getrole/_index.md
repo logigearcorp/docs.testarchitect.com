@@ -29,7 +29,7 @@ A string value specifying the retrieved role value.
     -   For iOS, Android this field is disabled.
     -   For Silverlight, Role is the class name property of the selected control - for example, `Button`.
     -   For WinForms, Role is derived from the object’s class name. For instance, for the full class name of System.Windows.Forms.Button, the short name Button is displayed in the **Role** field.
-{{<tip>}} If the control role is unnecessary for the class mapping \(because you want to apply the mapping to *all* controls of the specified native class\), select the **Ignore** check box.
+    {{<tip>}} If the control role is unnecessary for the class mapping \(because you want to apply the mapping to *all* controls of the specified native class\), select the **Ignore** check box.
 
 
 

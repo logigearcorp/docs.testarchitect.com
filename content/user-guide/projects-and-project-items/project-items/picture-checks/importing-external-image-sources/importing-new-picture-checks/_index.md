@@ -20,7 +20,7 @@ To import new picture checks from external image files, do the following:
 
         ![](/images/TA_Help/Images/import_shared_picture_checks.png)
 
-{{<important>}}
+    {{<important>}}
 
     -   If the **Picture Checks** node or its subfolder is selected, the imported image is saved to the **Picture Checks** node. This image is shared across various test modules in a project, also known as a [shared picture check](/TA_Help/Topics/Projects_and_tests_picture_check.html#li_Regular_picture_check).
     -   If a test module is selected, the imported image is saved as a [regular picture check](/TA_Help/Topics/Projects_and_tests_picture_check.html#li_Regular_picture_check) and this image is only available within the selected test module.
@@ -28,7 +28,7 @@ To import new picture checks from external image files, do the following:
 
 3.  In the Select dialog box, select image file\(s\) to be imported, and then click **Select**.
 
-{{<note>}}
+    {{<note>}}
 
     -   Only .PNG files are accepted.
     -   The Shift and Ctrl keys may be used with the mouse to aid in multiple selection.

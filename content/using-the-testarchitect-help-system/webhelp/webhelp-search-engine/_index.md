@@ -20,7 +20,7 @@ Rules that are applied during a search include:
 -   Words composed by merging two or more words with colon \(":"\), minus \("-"\), underline \("\_"\), or dot \("."\) characters count as a single word.
 -   Your search terms should contain two or more characters.
 
-{{<important>}}
+    {{<important>}}
 
     -   stop words will be ignored.
     -   Specifically, to improve performance, the Search feature excludes certain stop words. For example: a, an, and, are, as, at, be, but, by, for, if, in, into, is, it, no, not, of, on, or, such, that, the, their, then, there, these, they, this, to, was, will, with.

@@ -26,7 +26,7 @@ To create a handler, follow these steps:
 
 3.  Override the GetControlSupportLevel method. This is the priority level of methods in this handler.
 
-{{<tip>}} To obtain full name of the Telerik’s raw class, you can use the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html) to check the raw class’ name.
+    {{<tip>}} To obtain full name of the Telerik’s raw class, you can use the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html) to check the raw class’ name.
 
     Enter the code lines below:
 

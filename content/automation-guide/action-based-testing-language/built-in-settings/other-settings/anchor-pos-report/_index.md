@@ -44,11 +44,11 @@ no/false
     1.  **Entity URL**: [TestAchitect URL](/TA_Help/Topics/Additional_features_TA_URL.html) of project items which contains anchor and/or anchor pos properties.
     2.  **XPath**: The replacement XPath property.
 
-{{<note>}} Use this column's value when your interface elements are defined in interface entities, also known as static identifiers.
+        {{<note>}} Use this column's value when your interface elements are defined in interface entities, also known as static identifiers.
 
     3.  **Element XPath Definition**: Definition of the replacement XPath property in case of [dynamic identifiers](/TA_Help/Topics/The_test_language_dynamic_identifiers.html).
 
-{{<note>}} Use this column's value when your interface elements are defined dynamically.
+        {{<note>}} Use this column's value when your interface elements are defined dynamically.
 
 -   Each column in a report file is separated by a tab delimiter. Therefore, it is highly recommended that you open this file by MS Excel spreadsheet.
 

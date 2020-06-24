@@ -45,7 +45,7 @@ Perform one of the following procedures to create a static test suite:
 
     3.  In the Execute Test dialog box, click the **Save as Test Suite** button.
 
-{{<tip>}} You can include additional test modules in the static test suite by dragging other test modules from the TestArchitect explorer tree and dropping them into the Test Modules panel.
+        {{<tip>}} You can include additional test modules in the static test suite by dragging other test modules from the TestArchitect explorer tree and dropping them into the Test Modules panel.
 
         ![](/images/TA_Help/Images/ug_testexecution1.png)
 

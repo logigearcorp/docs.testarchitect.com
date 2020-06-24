@@ -29,7 +29,7 @@ Ensure that the following requirements are met:
 
     Review [Start command](/Android/Topics/Android_command_line_tool_start.html#p_n3t_vr2_5l) to understand the Start command's syntax.
 
-{{<tip>}}
+    {{<tip>}}
 
     -   If there is only one Android device connected to the host PC via USB cable, the unique ID parameter is optional.
     -   To obtain the package name of an Android application:

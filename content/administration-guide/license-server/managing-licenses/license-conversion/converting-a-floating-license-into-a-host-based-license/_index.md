@@ -28,11 +28,11 @@ To convert a license from floating to host-based:
 
     ![](/images/TA_Administration/Images/licenseserver_17.png)
 
-{{<note>}} Although the node may have several available floating licenses, only one license can be converted at a time.
+    {{<note>}} Although the node may have several available floating licenses, only one license can be converted at a time.
 
 4.  Enter the IP address or full host name of the machine to be granted a dedicated license and click **OK**.
 
-{{<note>}} If you use the full host name of the machine, ensure that the machine is connected to your working domain.
+    {{<note>}} If you use the full host name of the machine, ensure that the machine is connected to your working domain.
 
     ![](/images/TA_Administration/Images/licenseserver_18.png)
 

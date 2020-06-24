@@ -20,13 +20,13 @@ You can store test results across multiple locations as an alternative to a cent
     1.  Click the Browse ![](/images/TA_Help/Images/Browse_btn.png) button next to the **Select a folder** box.
     2.  In the **Open** dialog box, locate the directory containing the preferred .TARESULT files.
 
-{{<note>}} You can choose a local directory or a shared network directory.
+        {{<note>}} You can choose a local directory or a shared network directory.
 
     3.  Select **Show virtual folder** to show a hierarchical tree structure, or subdirectories,of the mapped .TARESULT file\(s\) if any, in the result tree.
     4.  Select **Show results \(in this folder and sub-folder\)** to show all result\(s\) in subfolder\(s\), if any, in grid view.
     5.  Click the **Create** button.
 
-{{<note>}} The hierarchical tree only shows the structure of the mapped folder. You have to double-click on folder to view list of results in grid view.
+        {{<note>}} The hierarchical tree only shows the structure of the mapped folder. You have to double-click on folder to view list of results in grid view.
 
 
 ## Edit mapped folders
@@ -49,7 +49,7 @@ In the TestArchitect explorer tree, right-click the mapped folder from which you
 1.  In the TestArchitect explorer tree, right-click the preferred result or sub-folder in the mapped folder. Next, select **Add to Repository** from the context menu.
 2.  In the **Select a Destination** dialog box, browse to the location where you want to place the result/sub-folder, and then click the **OK** button.
 
-{{<note>}} You can only add the result marked with the ![](/images/TA_Help/Images/result_icon_01.png) icon and sub-folder to the repository.
+    {{<note>}} You can only add the result marked with the ![](/images/TA_Help/Images/result_icon_01.png) icon and sub-folder to the repository.
 
 
 ## Deleting test results

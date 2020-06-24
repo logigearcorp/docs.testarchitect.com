@@ -23,7 +23,7 @@ To reclaim a license and return it to the license pool:
     -   **macOS**: Note that the TestArchitect License Server is not currently supported on macOS.
 2.  Right-click the node representing the machine whose license is to be reclaimed, and select **Rescind License**.
 
-{{<important>}} This option is only available for nodes in the **Floating License** and **Floating Agent License** trees.
+    {{<important>}} This option is only available for nodes in the **Floating License** and **Floating Agent License** trees.
 
     ![](/images/TA_Administration/Images/Revoke_license.png)
 

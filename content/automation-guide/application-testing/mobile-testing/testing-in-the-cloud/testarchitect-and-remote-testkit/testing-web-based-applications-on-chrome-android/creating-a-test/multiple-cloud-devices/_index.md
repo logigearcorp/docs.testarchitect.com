@@ -16,7 +16,7 @@ It is important to test mobile web applications on different cloud devices \(sma
     -   In the Remote TestKit cloud service, [rent](/TA_Automation/Topics/aut_app_cloud_testing_RTK_renting.html) several Android device.
 2.  In order to select multiple cloud devices at launch time concurrently, you must specify necessary desired capabilities in a file, which conforms to JSON format.
 
-{{<note>}}
+    {{<note>}}
 
     -   Ensure that the number of rented cloud devices, which would run test concurrently, is available.
     -   You can learn more about JSON syntax [here](http://www.w3schools.com/js/js_json_syntax.asp).
@@ -28,7 +28,7 @@ Carry out the following steps:
 
 2.  Open the downloaded JSON template file, and then modify the following desired capabilities that would fit your organization's needs.
 
-{{<remember>}}
+    {{<remember>}}
 
     -   Each set of desired capabilities represents a single cloud device.
     -   It is required to specify a unique name for each cloud device. Name of the executed cloud device will appear on test results.
@@ -91,7 +91,7 @@ Carry out the following steps:
 
 8.  In the Select dialog box, browse to the location of your JSON file, and then click the **Select** button.
 
-{{<restriction>}} Only JSON files are accepted.
+    {{<restriction>}} Only JSON files are accepted.
 
     ![](/images/TA_Automation/Images/Select_dlg_desired_capabilitties_RTK.png)
 
@@ -99,7 +99,7 @@ Carry out the following steps:
 
     ![](/images/TA_Automation/Images/Select_controllers_and_devices_dlg_desired_capabilities_selected_RTK.png)
 
-{{<tip>}}
+    {{<tip>}}
 
     -   To remove the unnecessary JSON file, right-click the node, and then select **Remove**.
 

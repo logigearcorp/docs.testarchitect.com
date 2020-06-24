@@ -16,7 +16,7 @@ Following are three examples of using the get and check built-in actions to indi
 
 1.  Using the get and [check text contains](/TA_Automation/Topics/bia_check_text_contains.html) built-in actions to check for the existence of an expected substring in the returned string.
 
-{{<tip>}} Use the [check text contains](/TA_Automation/Topics/bia_check_text_contains.html) method if you want to check for the existence of a string of text within another string.
+    {{<tip>}} Use the [check text contains](/TA_Automation/Topics/bia_check_text_contains.html) method if you want to check for the existence of a string of text within another string.
 
     -   For example, suppose you want to check the operating system of your test machine. Use [get operating system name](/TA_Automation/Topics/bia_get_operating_system_name.html) to retrieve the execution test machine's operating system, then use [check text contains](/TA_Automation/Topics/bia_check_text_contains.html) to verify if the retrieved information contains the substring Windows 7.
     -   You can make a test procedure as follows:
@@ -29,7 +29,7 @@ Following are three examples of using the get and check built-in actions to indi
 
 2.  Using the get and [check value](/TA_Automation/Topics/bia_check_value.html) built-in actions to check the content of a value against an expected value.
 
-{{<tip>}} Use the [check value](/TA_Automation/Topics/bia_check_value.html) action to compare the retrieved value against an exact string.
+    {{<tip>}} Use the [check value](/TA_Automation/Topics/bia_check_value.html) action to compare the retrieved value against an exact string.
 
     -   In the above example, instead of using [check text contains](/TA_Automation/Topics/bia_check_text_contains.html), use the [check value](/TA_Automation/Topics/bia_check_value.html) built-in action.
     -   You can make a test procedure as follows:
@@ -42,7 +42,7 @@ Following are three examples of using the get and check built-in actions to indi
 
 3.  Using the get and [if](/TA_Automation/Topics/bia_if.html) condition together with [report check](/TA_Automation/Topics/bia_report_check.html), which reports a Passed or Failed message based on the result of the comparison.
 
-{{<tip>}} Use the [if](/TA_Automation/Topics/bia_if.html) method if you know the exact content of the value.
+    {{<tip>}} Use the [if](/TA_Automation/Topics/bia_if.html) method if you know the exact content of the value.
 
     -   In the above example, instead of using [if](/TA_Automation/Topics/bia_if.html) and [report check](/TA_Automation/Topics/bia_report_check.html), you can create a test procedure as follows:
     -   ![](/images/TA_Automation/Images/check_opearting_system_pgm.png)

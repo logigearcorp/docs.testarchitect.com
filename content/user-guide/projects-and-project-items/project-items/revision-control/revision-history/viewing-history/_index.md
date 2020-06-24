@@ -21,7 +21,7 @@ To view a previously checked in revision:
 
     In the Revision History of <project item\>:<item name\> dialog box, a revision history of the selected item is presented with each line item displaying the timestamp \(the date/time of check-in\), assigned version \(linked variation\), project name, item type, item name, who checked it in and check-in comments.
 
-{{<tip>}}
+    {{<tip>}}
 
     -   While viewing the item's history, you can click **Refresh** to update the history list.
     -   Click the **Next 100** button: a list of the next 100 revisions is then added to the dialog box. This button is disabled if there are no further revisions.

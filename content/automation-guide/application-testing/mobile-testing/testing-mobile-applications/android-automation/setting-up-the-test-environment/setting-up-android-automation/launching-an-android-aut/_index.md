@@ -25,7 +25,7 @@ To again summarize the three methods by which a re-signed Android application ma
 
 1.  Launching from the host device is the typical way by which an application is launched in a real world environment. On a physical device or emulator, you start the application by tapping \(physical device\) or clicking \(emulator\) its icon on the menu screen.
 
-{{<note>}} However, this method prevents TestArchitect from communicating with the application, and thus makes it unavailable for testing.
+    {{<note>}} However, this method prevents TestArchitect from communicating with the application, and thus makes it unavailable for testing.
 
 2.  Launching from a test module with the [start program](/TA_Automation/Topics/bia_start_program.html) action: By starting the application in this manner, TestArchitect is able to interface to the AUT, and can thus control and test the AUT.
 3.  Launching from the Android Instrumentation Tool dialog box: This is the method by which an AUT may be launched manually and yet still allow TestArchitect to interface to it and control it. Do this by double-clicking the appropriate AUT icon in the dialog box.

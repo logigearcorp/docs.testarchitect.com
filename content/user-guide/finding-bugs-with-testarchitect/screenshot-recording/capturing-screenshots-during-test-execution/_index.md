@@ -25,7 +25,7 @@ To capture screenshots during test automation, carry out the following steps:
     -   Warning/Error: automation warnings and errors
 4.  In the **Keep** box, specify the number of UI-interacting actions preceding each screenshot-logging event whose screenshot sets are to be logged to the results. \(With screenshot recording enabled, the minimum is 1. By default, three screenshots sets are retained.\)
 
-{{<note>}}
+    {{<note>}}
 
     -   If this field is left empty, TestArchitect captures and logs screenshots of all UI-interacting actions.
     -   Only integer values above 0 are accepted.

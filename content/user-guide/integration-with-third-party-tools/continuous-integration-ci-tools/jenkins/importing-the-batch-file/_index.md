@@ -28,7 +28,7 @@ You need to import the newly-generated batch file into the Jenkins master machin
 
     ![](/images/TA_Help/Images/Jenkins_config_build.png)
 
-{{<note>}} The batch file must be stored on the Jenkins master machine. You must copy the generated batch files on the Jenkins slave machines and paste them into the Jenkins master machine.
+    {{<note>}} The batch file must be stored on the Jenkins master machine. You must copy the generated batch files on the Jenkins slave machines and paste them into the Jenkins master machine.
 
 7.  In the **Post-Build Actions** section, click **Add post-build action**.
 

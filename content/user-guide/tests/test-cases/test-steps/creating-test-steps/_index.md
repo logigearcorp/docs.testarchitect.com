@@ -24,18 +24,18 @@ To create test steps, follow the steps below:
 
     -   **Step**: Title of the test step.
 
-{{<note>}}
+        {{<note>}}
 
         -   Its maximum allowable length is 30,000 characters.
         -   It does support multiple lines. Provided that you type more than one line in the **Step** field, the lines automatically merge into a single one.
     -   **Description**: \(optional\) Short description for the test step.
 
-{{<tip>}} To start a new line in the same cell, press Alt + Enter on your keyboard.
+        {{<tip>}} To start a new line in the same cell, press Alt + Enter on your keyboard.
 
     -   **Expected result**: \(optional\) Define the expected test step result.
     -   **Recent result**: \(read-only\) The actual test step result.
 
-{{<note>}}
+        {{<note>}}
 
         -   The **Recent result** field is automatically filled in with the results of the most recent test execution [added to the repository](/TA_Help/Topics/Test_result_storing.html).
         -   Possible returned values are:

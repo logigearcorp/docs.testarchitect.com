@@ -49,7 +49,7 @@ Set up the following system profile option at \(your\) user level to enable the 
 
 -   Now you can use the TestArchitect's [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html) to capture Oracle Forms controls which have the unique name property \(see the image below\).
 
-{{<note>}} The availability of the name property depends on whether your Oracle Server supplies it or not. \([Learn more](https://admhelp.microfocus.com/uft/en/14.02/UFT_Help/Content/Addins_Guide/Verifying_OracleServer_UniqueName_Attributes.htm).\)
+    {{<note>}} The availability of the name property depends on whether your Oracle Server supplies it or not. \([Learn more](https://admhelp.microfocus.com/uft/en/14.02/UFT_Help/Content/Addins_Guide/Verifying_OracleServer_UniqueName_Attributes.htm).\)
 
     ![](/images/TA_Automation/Images/unique_name_OracleForms.PNG)
 

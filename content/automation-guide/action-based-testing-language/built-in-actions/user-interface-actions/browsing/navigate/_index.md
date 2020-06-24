@@ -47,7 +47,7 @@ This action may be used within the following project items:test modules and user
 
     To specify a remote host, use five slashes: `file://///hostname/sFile`
 
-{{<warning>}} In instances where the window argument has a value, your URL cannot contain white spaces. Replace any white space with %20.
+    {{<warning>}} In instances where the window argument has a value, your URL cannot contain white spaces. Replace any white space with %20.
 
 -   When Chrome on Android has multiple tabs open, navigate needs to traverse through those tabs to check for the already-navigated site. Activating each tab can typically take around two seconds. Consequently, the time consumed by navigate when many tabs are open can be significant.
 -   You can have this action open the specified URL within a specific mobile device emulator, allowing you to test webpages and applications in emulation mode for the given device. Do this by means of the [send command to browser](/TA_Automation/Topics/bia_send_command_to_browser.html) built-in action, which must be set after execution of the navigate. \([Learn more](/TA_Automation/Topics/aut_app_testing_responsive_web_Chrome_DevTools_launching_emulator.html).\)

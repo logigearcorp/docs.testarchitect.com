@@ -97,7 +97,7 @@ In this exercise you will refactor your last test case by encapsulating its repo
 
     Your action now accepts a rental country argument, which accepts the values US or Canada.
 
-{{<note>}} Actually, the action itself will accept any values, but only the values US and Canada \(of any case\) will have a meaningful effect and not result in an error.
+    {{<note>}} Actually, the action itself will accept any values, but only the values US and Canada \(of any case\) will have a meaningful effect and not result in an error.
 
 18. Return to the test module My streamlining, and create another test case:
 

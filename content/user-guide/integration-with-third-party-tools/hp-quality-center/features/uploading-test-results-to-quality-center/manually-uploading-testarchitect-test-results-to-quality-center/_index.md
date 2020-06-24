@@ -20,7 +20,7 @@ To manually upload TestArchitect test results to Quality Center
 
 1.  In the TestArchitect explorer tree or [a result list view](/TA_Help/Topics/Listview_results.html), right-click a test result, and then select **External Tool** \> **HP ALM** \> **Upload to Quality Center**.
 
-{{<important>}} The context menu **Upload to Quality Center** is enabled only for test results produced from mapped projects or test cases.
+    {{<important>}} The context menu **Upload to Quality Center** is enabled only for test results produced from mapped projects or test cases.
 
 2.  On the Select Test Set To Upload dialog box, select a test set node in Quality Center to upload the test results to, and click **OK**.
 

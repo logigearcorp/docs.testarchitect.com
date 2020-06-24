@@ -18,7 +18,7 @@ Create a test that uses multiple data records from a data set. A data set is a d
 
 2.  In the **Name** field, type My data-driven tests, then click **Create**.
 
-3.{{<note>}} The new test module appears in the editor with a default template containing suggested basic components for a well-designed test. For this lesson, you only need the TEST CASE section.
+3.  {{<note>}} The new test module appears in the editor with a default template containing suggested basic components for a well-designed test. For this lesson, you only need the TEST CASE section.
 
     In the editor, delete all content except for the TEST CASE line. Optionally, you can also delete any blank lines above the TEST CASE line.
 
@@ -26,7 +26,7 @@ Create a test that uses multiple data records from a data set. A data set is a d
 
 4.  In the third column of the TEST CASE line, provide a useful description, such as Report data out of a data set.
 
-5.{{<note>}} The first step is to enter a use data set action line, but TestArchitect offers a shortcut for this:
+5.  {{<note>}} The first step is to enter a use data set action line, but TestArchitect offers a shortcut for this:
 
     Click the **Rented Cars** node \(under the **Data** node in the TestArchitect explorer tree\), and drag it to the first column of the editor, a few lines below the TEST CASE line.
 
@@ -34,7 +34,7 @@ Create a test that uses multiple data records from a data set. A data set is a d
 
     The use data set action connects the test to a data set and, when executed, grabs a row of data from it. The repeat for data set action works with use data set to define the beginning and end of a loop. During execution, repeat for data set sends control back to use data set, which grabs a new record from the data set.
 
-{{<tip>}} Leave the filter argument of use data set blank. It is not required for this lesson.
+    {{<tip>}} Leave the filter argument of use data set blank. It is not required for this lesson.
 
 6.  Write a report action to write out the contents of each data set record to the results:
 

@@ -33,7 +33,7 @@ To transfer a node-locked license to another machine:
 
 3.  On the Change Machine dialog box, enter the full host name or IP address of the machine to which you want to transfer the license, and select **Add**.
 
-{{<note>}} If you use the full host name of the machine, ensure that the machine is connected to your working domain.
+    {{<note>}} If you use the full host name of the machine, ensure that the machine is connected to your working domain.
 
     ![](/images/TA_Administration/Images/Change_machine_dlg.png)
 

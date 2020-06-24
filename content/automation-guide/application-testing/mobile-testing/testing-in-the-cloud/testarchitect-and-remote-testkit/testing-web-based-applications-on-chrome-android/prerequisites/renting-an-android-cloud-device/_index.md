@@ -21,7 +21,7 @@ Ensure that the following requirements are met:
 
     ![](/images/TA_Automation/Images/Device_list_RTK_dialog.png)
 
-{{<remember>}} Note down the Android version of the rented device. This information is necessary while [configuring](/TA_Automation/Topics/aut_app_cloud_testing_Appium_RTK.html) Appium in your local host.
+    {{<remember>}} Note down the Android version of the rented device. This information is necessary while [configuring](/TA_Automation/Topics/aut_app_cloud_testing_Appium_RTK.html) Appium in your local host.
 
 3.  When your device appears, enable the use of the adb command by clicking the **ADT/DDMS/adb** ![](/images/TA_Automation/Images/RTK_adb_btn.png) button. A grey icon indicates that adb is not activated yet.
 

@@ -30,7 +30,7 @@ These steps are implemented in the following procedure:
 
     For example, use the Eclipse software development environment, with the PyDev plug-in.
 
-2.{{<note>}} As discussed earlier, the new action definition will be added to the file mod\_Example.py.
+2.  {{<note>}} As discussed earlier, the new action definition will be added to the file mod\_Example.py.
 
     Open mod\_Example.py in the editor.
 
@@ -40,7 +40,7 @@ These steps are implemented in the following procedure:
 
     This registers that the action hello needs to be interpreted by this module \(or, more specifically, by the module with a moduleName of example\)\).
 
-{{<note>}} SetActionScript\(\) is a member function of an object called LIBRARY. This object represents the core interpreter library of TestArchitect, which has functions for common tasks like registering actions, getting arguments and reporting results of checks.
+    {{<note>}} SetActionScript\(\) is a member function of an object called LIBRARY. This object represents the core interpreter library of TestArchitect, which has functions for common tasks like registering actions, getting arguments and reporting results of checks.
 
 4.  At this point, we've told TestArchitect which module will handle the hello action; now let's tell it which specific function in the module it needs to call.
 5.  Add an else-if \(`elif`\) clause to the `if`-statement in the module’s Divert\(\) function:
@@ -49,13 +49,13 @@ These steps are implemented in the following procedure:
 
     You have now specified that the hello action is implemented by the Python function action\_hello\(\)
 
-6.{{<note>}} The real work, the implementation of the action itself, is performed by the action\_hello\(\) function.
+6.  {{<note>}} The real work, the implementation of the action itself, is performed by the action\_hello\(\) function.
 
     Add this function to the end of your file with the following code:
 
     ![](/images/TA_Tutorials/Images/tut.Harness.mod_py_file.action_hello01.png)
 
-{{<note>}}
+    {{<note>}}
 
     If you prefer to use Python’s documentation conventions, you may want to place the comment below the definition header:
 

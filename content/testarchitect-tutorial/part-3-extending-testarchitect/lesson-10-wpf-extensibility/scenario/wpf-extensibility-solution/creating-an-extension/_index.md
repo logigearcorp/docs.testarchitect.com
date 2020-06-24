@@ -45,7 +45,7 @@ To create an extension, follow these steps:
 
     1.  Copy the DLL file from <installation path\>\\LogiGear\\TestArchitect\\binclient\\agents to your current working project directory.
 
-{{<note>}}
+        {{<note>}}
 
         -   On a 32 bit system: Select the NetExtensionLib.dll file.
         -   On a 64 bit system: Select the NetExtensionLib\_x64.dll file.
@@ -63,7 +63,7 @@ To create an extension, follow these steps:
 
         This method is invoked initially when the WPF agent is loaded.
 
-{{<tip>}} Based on your specific requirements, you may need to implement more code in this method, such as registering handling, etc.
+        {{<tip>}} Based on your specific requirements, you may need to implement more code in this method, such as registering handling, etc.
 
         Enter the code for the method below:
 

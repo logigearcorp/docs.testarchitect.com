@@ -20,11 +20,11 @@ On the machine that is to host the redundant license server:
 
 3.  Click the **Serve as Redundant License Server** ![](/images/TA_Administration/Images/admin_icn_Redundant_License_server.png) button on the toolbar.
 
-{{<note>}} Alternatively, select **Tools** \> **Serve as Redundant License Server**.
+    {{<note>}} Alternatively, select **Tools** \> **Serve as Redundant License Server**.
 
 4.  In the Register to Primary License Server dialog box, enter the full host name or IP address of the primary license server for which this license server will act as backup in the **IP** text box.
 
-{{<note>}} If you use the full host name of the machine, ensure that the machine is connected to your working domain.
+    {{<note>}} If you use the full host name of the machine, ensure that the machine is connected to your working domain.
 
 5.  Use the default port number for the redundant license server, or overwrite the port value with a different value.
 

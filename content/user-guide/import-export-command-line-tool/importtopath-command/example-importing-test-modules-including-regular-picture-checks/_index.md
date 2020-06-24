@@ -26,7 +26,7 @@ Let's say you want to import a given test module, Multiple Reservations, from a 
 -   Include the test module's regular picture checks in the import.
 -   File to import: D:\\export\\Multiple Reservations\_2020-05-21 16-12-11.csv
 
-{{<note>}} While test modules can be exported to & imported from .csv, .html and .zip files, only .zip files can hold regular picture checks from the source test module.
+    {{<note>}} While test modules can be exported to & imported from .csv, .html and .zip files, only .zip files can hold regular picture checks from the source test module.
 
 -   Destination folder in project: /Tests/Action-based Testing Basics/Functional Tests
 -   Overwrite the existing Multiple Reservations test module, if any.

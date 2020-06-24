@@ -16,7 +16,7 @@ If you no longer need a user-defined field, you can delete it.
 
     **Fastpath:** Press Delete on your keyboard.
 
-{{<warning>}} Deleting a field removes all field values from the repository.
+    {{<warning>}} Deleting a field removes all field values from the repository.
 
 
 The user-defined field is removed from the repository.

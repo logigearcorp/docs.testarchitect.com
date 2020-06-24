@@ -18,7 +18,7 @@ Registering a device from within a Lab Manager session.
 
     The selected device is added to the Lab Manger session.
 
-{{<note>}} If you do not see your device in the Add new Device dialog box, see [Troubleshooting device registration](/TA_Help/Topics/Lab_manager_troubleshoot_device_registration.html).
+    {{<note>}} If you do not see your device in the Add new Device dialog box, see [Troubleshooting device registration](/TA_Help/Topics/Lab_manager_troubleshoot_device_registration.html).
 
 
 

@@ -14,7 +14,7 @@ On Windows machines only, automating tests on Mozilla Firefox requires GeckoDriv
 
 2.  Download the GeckoDriver executable file into the test machine.
 
-{{<remember>}} Ensure that you download the right version supported by TestArchitect. \([Learn more](/TA_Automation/Topics/Web_automation.html#li.FF).\)
+    {{<remember>}} Ensure that you download the right version supported by TestArchitect. \([Learn more](/TA_Automation/Topics/Web_automation.html#li.FF).\)
 
 3.  Specify GeckoDriver's path, so that TestArchitect is able to detect it.
 

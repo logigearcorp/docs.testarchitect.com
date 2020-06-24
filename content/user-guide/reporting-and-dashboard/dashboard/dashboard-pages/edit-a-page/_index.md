@@ -22,7 +22,7 @@ To edit an existing Dashboard page:
 
     ![](/images/TA_Help/Images/Dashboard_edit_page.png)
 
-{{<restriction>}} The **Overview** and **Execution Dashboard** pages are not editable.
+    {{<restriction>}} The **Overview** and **Execution Dashboard** pages are not editable.
 
 4.  On the Edit Page dialog box, enter the information as requested and click **OK**.
 

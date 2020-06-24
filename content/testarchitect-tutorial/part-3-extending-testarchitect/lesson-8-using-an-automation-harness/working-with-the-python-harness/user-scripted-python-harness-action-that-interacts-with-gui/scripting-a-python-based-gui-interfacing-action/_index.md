@@ -54,7 +54,7 @@ The definition of action\_CheckRowCount\(\) remains to be implemented. Compared 
                         
     ```
 
-5.{{<note>}} Each control has its own instance \(object\) of the AbtElement class, which can be obtained by using the OpenElement method ofABT .
+5.  {{<note>}} Each control has its own instance \(object\) of the AbtElement class, which can be obtained by using the OpenElement method ofABT .
 
     Obtain the instance of the table object for the table specified by the values of windowName and tableName \(derived from the logical TA names of the window and table arguments of the action\):
 
@@ -113,7 +113,7 @@ The definition of action\_CheckRowCount\(\) remains to be implemented. Compared 
                         
     ```
 
-{{<note>}} TestArchitect functions always work with strings. Therefore, integer results like count must be converted to strings. This is handled by theformat\(\) function in Python.
+    {{<note>}} TestArchitect functions always work with strings. Therefore, integer results like count must be converted to strings. This is handled by theformat\(\) function in Python.
 
 
 Your entire action definition for action\_checkRowCount\(\) should now look similar to this:

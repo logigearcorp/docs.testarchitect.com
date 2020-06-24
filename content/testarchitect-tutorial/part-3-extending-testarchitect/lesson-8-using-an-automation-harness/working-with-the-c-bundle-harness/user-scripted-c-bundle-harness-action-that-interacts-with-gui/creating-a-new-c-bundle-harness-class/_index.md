@@ -24,7 +24,7 @@ These steps are implemented in the following procedure:
 
 1.  Add a new C\# class in the TestArchitect.Harness.Bundle.Sample.sln sample solution and name the class GetListViewRowValueAction.cs.
 
-{{<important>}} It is highly recommended that you use Microsoft Visual Studio 2012 or later to program C\# bundle harness.
+    {{<important>}} It is highly recommended that you use Microsoft Visual Studio 2012 or later to program C\# bundle harness.
 
 2.  If you run up against a broken reference, TestArchitect.Harness.Bundle.Core.dll, fix it by deleting the broken reference, and add the reference again. Otherwise, move to next step.
 

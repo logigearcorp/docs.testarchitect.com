@@ -22,7 +22,7 @@ To attach a test result in HTML format to a TFS bug, complete the following step
 
 1.  In the TestArchitect explorer tree, open a test result \(repository-based or local\) which you wish to attach to a TFS bug by double-clicking the test result's node.
 
-{{<note>}} While a TFS bug can accept multiple attachments, you are allowed to attach only a single file at a time.
+    {{<note>}} While a TFS bug can accept multiple attachments, you are allowed to attach only a single file at a time.
 
 2.  Click the paperclip icon ![](/images/TA_Help/Images/btn_paperclip.png) on the main panel's toolbar.
 
@@ -38,7 +38,7 @@ To attach a test result in HTML format to a TFS bug, complete the following step
 
     If the test result is successfully attached to the bug, a message to that effect is displayed.
 
-{{<note>}} TestArchitect will use the default user name and password configured in[Registering TFS server](/TA_Help/Topics/Integration_MTM_connecting_TFS.html#) or [TFS Bug Tracker](/TA_Help/Topics/ug_TFS_BugTracker_Registering_bugtracker.html#).
+    {{<note>}} TestArchitect will use the default user name and password configured in[Registering TFS server](/TA_Help/Topics/Integration_MTM_connecting_TFS.html#) or [TFS Bug Tracker](/TA_Help/Topics/ug_TFS_BugTracker_Registering_bugtracker.html#).
 
 5.  Click **OK**.
 

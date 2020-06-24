@@ -37,9 +37,9 @@ Carry out the following steps:
 
     -   list of [desired capabilities](/TA_Automation/Topics/aut_appium.html#section_p5f_qp3_gy) desired capabilities that would fit your organization's needs.
 
-{{<tip>}} Each set of desired capabilities represents a single cloud device.
+        {{<tip>}} Each set of desired capabilities represents a single cloud device.
 
-{{<note>}} See the [Desired Capabilities documentation](http://appium.io/slate/en/master/?ruby#appium-server-capabilities) for the list of capabilities available for Appium.
+    {{<note>}} See the [Desired Capabilities documentation](http://appium.io/slate/en/master/?ruby#appium-server-capabilities) for the list of capabilities available for Appium.
 
     For example:
 
@@ -95,7 +95,7 @@ Carry out the following steps:
 
 8.  In the Select dialog box, browse to the location of your JSON file, and then click the **Select** button.
 
-{{<restriction>}} Only JSON files are accepted.
+    {{<restriction>}} Only JSON files are accepted.
 
     ![](/images/TA_Automation/Images/Select_dlg_desired_capabilitties.png)
 
@@ -103,7 +103,7 @@ Carry out the following steps:
 
     ![](/images/TA_Automation/Images/Select_controllers_and_devices_dlg_desired_capabilities_selected.png)
 
-{{<tip>}}
+    {{<tip>}}
 
     -   To remove the unnecessary JSON file, right-click the node, and then select **Remove**.
 

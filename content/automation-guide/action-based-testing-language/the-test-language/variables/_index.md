@@ -65,7 +65,7 @@ The scope of a variable determines its lifetime and visibility. TestArchitect su
 
     ![](/images/TA_Automation/Images/variable_use_data_set.02.png)
 
-{{<note>}} The name of the local variable inside the [use data set](/TA_Automation/Topics/bia_use_data_set.html)-[repeat for data set](/TA_Automation/Topics/bia_repeat_for_data_set.html) block cannot be the same as the name of the data set columns.
+    {{<note>}} The name of the local variable inside the [use data set](/TA_Automation/Topics/bia_use_data_set.html)-[repeat for data set](/TA_Automation/Topics/bia_repeat_for_data_set.html) block cannot be the same as the name of the data set columns.
 
 -   **Test case scope:** A local variable declared within a test case is not available outside of that test case.
 -   **Test module scope**: A local variable declared within a test module is not visible outside of that test module. If it is declared within the [`INITIAL`](/TA_Automation/Topics/bia_initial.html) section of the test module, it is visible in every test cases of the module.

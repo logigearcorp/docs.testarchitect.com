@@ -26,15 +26,15 @@ Only members of the administrators and test managers groups have privileges for 
     -   **Window**: Name of the selected window.
     -   **Window Properties**: \(Optional\) Properties of the selected window.
 
-{{<tip>}} Separate each window property with a comma \(for example: title=Car Rental-Login, top=272, height=185.\).
+        {{<tip>}} Separate each window property with a comma \(for example: title=Car Rental-Login, top=272, height=185.\).
 
     -   **Control**: Name of the selected control.
 
-{{<note>}} All control types are supported, including text boxes, password fields, etc.
+        {{<note>}} All control types are supported, including text boxes, password fields, etc.
 
     -   **Control Properties**: \(Optional\) Properties of the selected control.
 
-{{<tip>}}
+        {{<tip>}}
 
         -   Separate each control property with a comma.
         -   For greater convenience, you can retrieve the properties of a control quickly using the **Copy Definition** option, mentioned below, and paste the properties into the **Control Properties** column in the Manage Passwords dialog box. Note, however, that you must delete the double brackets manually after pasting properties into the **Control Properties** column.
@@ -47,7 +47,7 @@ Only members of the administrators and test managers groups have privileges for 
                 ![](/images/TA_Administration/Images/Dynamic_identifiers_viewer.png)
 
     -   **Last updated by**: \(Read only\) The user who most recently created/updated the password information. This field is automatically updated.
-{{<note>}}
+    {{<note>}}
 
     -   To move between columns in the dialog box, press Tab or Enter on your keyboard.
     -   The **Window** and **Control** fields are required for each encrypted password as a security measure, ensuring that no unauthorized user can enter the password into a fake window or control.
@@ -58,7 +58,7 @@ Only members of the administrators and test managers groups have privileges for 
 
 5.  Click **Apply** to save.
 
-{{<tip>}} To cancel any changes you've made, click **Reset**.
+    {{<tip>}} To cancel any changes you've made, click **Reset**.
 
 
 The encrypted password is created successfully.

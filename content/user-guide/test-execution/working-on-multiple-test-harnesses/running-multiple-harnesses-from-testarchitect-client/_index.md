@@ -29,7 +29,7 @@ Perform the following steps to execute multiple harnesses from TestArchitect Cli
 
 2.  Continue to execute the other preferred test suites/modules one after another while other harnesses are still running.
 
-{{<tip>}} You can monitor all the running harnesses and their statuses via:
+    {{<tip>}} You can monitor all the running harnesses and their statuses via:
 
     -   [Playback toolbar](/TA_Help/Topics/Test_exec_playback_toolbar.html)
     -   [TestArchitect Controller](/TA_Help/Topics/Controller_management.html) dialog box.

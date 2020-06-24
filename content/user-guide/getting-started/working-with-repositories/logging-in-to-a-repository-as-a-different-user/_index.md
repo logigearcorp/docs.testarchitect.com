@@ -14,13 +14,13 @@ To log in to a repository as a different user, do the following:
 
 1.  In the TestArchitect explorer tree, right-click the repository node that you are currently logged in to and then select **Log in as Different User**.
 
-{{<note>}} Alternatively, from the **Repository** menu, click **Log in as Different User**.
+    {{<note>}} Alternatively, from the **Repository** menu, click **Log in as Different User**.
 
 2.  In the **User Name** box, depending on the authentication mode currently in effect, enter your LDAP user name or your TestArchitect user name.
 
     The default user name of administrator is applicable to both authentication modes. administrator is a super administrator and a built-in account in TestArchitect.
 
-{{<remember>}} Your LDAP user name is the same as your system user name – that is, the name you use to log in to your PC.
+    {{<remember>}} Your LDAP user name is the same as your system user name – that is, the name you use to log in to your PC.
 
 3.  In the **Password** box, type your password.
 
@@ -30,7 +30,7 @@ To log in to a repository as a different user, do the following:
 
 4.  Click **OK**.
 
-{{<note>}}
+    {{<note>}}
 
     -   If using TestArchitect authentication mode:
         -   You may click the **Change Password** button to change your password.
@@ -38,7 +38,7 @@ To log in to a repository as a different user, do the following:
     -   If LDAP Authentication mode is in effect:
         -   The **Change Password** and **Remember me on this computer** options are unavailable.
 
-{{<note>}} Your LDAP password always remains identical to your system password, and cannot be changed from an application. **Remember me on this computer** is not available because your are automatically remembered.
+            {{<note>}} Your LDAP password always remains identical to your system password, and cannot be changed from an application. **Remember me on this computer** is not available because your are automatically remembered.
 
         -   **Troubleshooting:** In the event that the LDAP server is down or the LDAP-based directory service is otherwise unavailable, you will be prevented from logging in to the repository. In that case, you will need someone with super administrator permissions for that repository to log into it and [change your authentication mode](/TA_Administration/Topics/adm_users_setting_authentication_mode.html).
 5.  \(LDAP authentication mode only\) If the entered LDAP user name has not been mapped to any TestArchitect user name, the following message appears.

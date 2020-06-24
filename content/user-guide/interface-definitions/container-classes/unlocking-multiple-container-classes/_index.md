@@ -34,7 +34,7 @@ How to unlock more than one container class at one time.
 
         ![](/images/TA_Help/Images/unlock_container_classes_setting.png)
 
-{{<note>}} The Listview option does not apply to Silverlight applications. Silverlight only supports Table, Treeview, and Listbox container classes.
+        {{<note>}} The Listview option does not apply to Silverlight applications. Silverlight only supports Table, Treeview, and Listbox container classes.
 
     4.  Click **Apply**.
 
@@ -64,7 +64,7 @@ How to unlock more than one container class at one time.
 
     7.  Select the container classes that you want to unlock.
 
-{{<note>}} The Listview option does not apply to Silverlight applications. Silverlight only supports Table, Treeview, and Listbox container classes.
+        {{<note>}} The Listview option does not apply to Silverlight applications. Silverlight only supports Table, Treeview, and Listbox container classes.
 
     8.  Click **Apply**.
 

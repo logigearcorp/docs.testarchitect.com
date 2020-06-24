@@ -40,7 +40,7 @@ To resolve unverified picture checks, perform the following steps:
 
         ![](/images/TA_Help/Images/bia_check_picture_aut_7.png)
 
-{{<tip>}} If there are unverified picture checks in your [serial test results](/TA_Help/Topics/ug_test_results_introduction.html#section.Serial_results), you can quickly verify them by selecting the master result node in TestArchitect explorer tree, and then repeating one of the above options. For example:
+    {{<tip>}} If there are unverified picture checks in your [serial test results](/TA_Help/Topics/ug_test_results_introduction.html#section.Serial_results), you can quickly verify them by selecting the master result node in TestArchitect explorer tree, and then repeating one of the above options. For example:
 
     ![](/images/TA_Help/Images/verify_PC_master_results.png)
 
@@ -73,7 +73,7 @@ To resolve unverified picture checks, perform the following steps:
 
 6.  Click **Submit** to close the dialog box.
 
-{{<note>}} The **Close** button discards the changes \(if any\) and then closes the dialog box.
+    {{<note>}} The **Close** button discards the changes \(if any\) and then closes the dialog box.
 
 
 

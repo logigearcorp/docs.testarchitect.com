@@ -22,7 +22,7 @@ To disconnect TestArchitect from a Zephyr server, do the following:
 
 1.  In the TestArchitect explorer tree, expand the **Administration** \> **Tool Profiles** \> **External Tool** \> **Test Management** node.
 
-{{<note>}} Only TestArchitect users belonging to the administrator group are able to view and modify the **Administration** node in the explorer tree.
+    {{<note>}} Only TestArchitect users belonging to the administrator group are able to view and modify the **Administration** node in the explorer tree.
 
 2.  In the expanded list of options, double-click the **Zephyr** node.
 

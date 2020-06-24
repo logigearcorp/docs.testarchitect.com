@@ -27,7 +27,7 @@ You will train the system by establishing optimal settings for detecting text du
 
 2.  In the OCR Detector Tool dialog box, click the ![](/images/TA_Help/Images/btn.browse-ellipsis.01.png) button next to the **Select file to test** field.
 
-{{<note>}} Only .png images are supported.
+    {{<note>}} Only .png images are supported.
 
 3.  In the Save dialog box, browse to the training image containing the text you want to detect, then click **Select**.
 
@@ -39,7 +39,7 @@ You will train the system by establishing optimal settings for detecting text du
 
 5.  Under the **Settings** tab, select the **Pick Color** check box to enable color code selection and retrieval of desired text.
 
-{{<tip>}} To zoom out or zoom in on the image, use **Zoom Out \(-\)** or **Zoom In \(+\)** button, respectively.
+    {{<tip>}} To zoom out or zoom in on the image, use **Zoom Out \(-\)** or **Zoom In \(+\)** button, respectively.
 
     The mouse cursor changes into a eyedropper pointer.
 
@@ -51,7 +51,7 @@ You will train the system by establishing optimal settings for detecting text du
 
     ![](/images/TA_Help/Images/OCR_detector_tool_dlg_pick_color.png)
 
-{{<important>}} Make note of these three hexadecimal values for manual entry into the text color argument of whichever [OCR-related built-in actions](/TA_Automation/Topics/bia_OCR.html) you use in your test.
+    {{<important>}} Make note of these three hexadecimal values for manual entry into the text color argument of whichever [OCR-related built-in actions](/TA_Automation/Topics/bia_OCR.html) you use in your test.
 
 7.  Click the **Scan Picture** button to filter out colors which do not match the color selected from the text.
 

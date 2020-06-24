@@ -36,7 +36,7 @@ To map the Telerik list box control to the supported TA class, list box, follow 
 
 5.  Enter the following script in TestArchitect editor.
 
-{{<note>}} You must capture windows and controls in advance before using them in your test scripts.
+    {{<note>}} You must capture windows and controls in advance before using them in your test scripts.
 
     ![](/images/TA_Tutorials/Images/WPF_extensiblity_line_editor.png)
 

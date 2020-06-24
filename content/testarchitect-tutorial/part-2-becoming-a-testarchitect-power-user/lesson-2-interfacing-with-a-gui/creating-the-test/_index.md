@@ -28,9 +28,9 @@ Build a new test module based on the interface of the Car Rental sample applicat
 
     ![](/images/TA_Tutorials/Images/tut.Interfacing_with_GUI_02.png)
 
-{{<note>}} This tells TestArchitect that you're going to test against an application’s user interface and that the details for the windows and controls can be found in a TestArchitect interface called Car Rental.
+    {{<note>}} This tells TestArchitect that you're going to test against an application’s user interface and that the details for the windows and controls can be found in a TestArchitect interface called Car Rental.
 
-{{<note>}}
+    {{<note>}}
 
     This TA interface, in contrast to a conventional application user interface, is an entity created in TestArchitect specifically to facilitate interfacing with the Car Rental application. The Car Rental interface consists of a set of worksheet files called interface entities, and is found in the **Interfaces** subtree of the Car Rental project:
 
@@ -42,9 +42,9 @@ Build a new test module based on the interface of the Car Rental sample applicat
 
 6.  In the test case, add a new action line by typing enter, again in the leftmost cell. \(Note that actions, and only actions, must be entered in the leftmost column of the editor's worksheet.\)
 
-7.{{<note>}} [enter](/TA_Automation/Topics/bia_enter.html) is the standard action used for entering values into controls such as text boxes in the AUT. In this case, this action line is responsible for entering a user name. Note that the [enter](/TA_Automation/Topics/bia_enter.html) action accepts three arguments: window, control, and value.
+7.  {{<note>}} [enter](/TA_Automation/Topics/bia_enter.html) is the standard action used for entering values into controls such as text boxes in the AUT. In this case, this action line is responsible for entering a user name. Note that the [enter](/TA_Automation/Topics/bia_enter.html) action accepts three arguments: window, control, and value.
 
-{{<note>}} You can move your cell pointer to the next cell by hitting the Enter or Tab key. Once in the field for the window argument, hit your space key. Note how this brings up a context-sensitive list of possible window names for the Car Rental AUT. \(These names are defined in the Car Rental interface that you are using.\) The same holds true when you enter the next argument, control.
+    {{<note>}} You can move your cell pointer to the next cell by hitting the Enter or Tab key. Once in the field for the window argument, hit your space key. Note how this brings up a context-sensitive list of possible window names for the Car Rental AUT. \(These names are defined in the Car Rental interface that you are using.\) The same holds true when you enter the next argument, control.
 
     Enter the values login, user name, and john into the line's argument fields as shown below:
 
@@ -64,7 +64,7 @@ Build a new test module based on the interface of the Car Rental sample applicat
 
     -   window: The TA name of the window containing the button to be clicked \(the Login window\)
     -   control: The TA name of the control to be clicked \(the **Login** button on the Login window\)
-{{<note>}} Refer to [Built-in actions](/TA_Automation/Topics/bia_Built_in_actions.html) of the TestArchitect Automation Guide for details regarding which arguments are required and which are optional for other arguments.
+    {{<note>}} Refer to [Built-in actions](/TA_Automation/Topics/bia_Built_in_actions.html) of the TestArchitect Automation Guide for details regarding which arguments are required and which are optional for other arguments.
 
 9.  A few rows below your click action line, add a new line by entering [check window exists](/TA_Automation/Topics/bia_check_window_exists.html) in the leftmost cell.
 

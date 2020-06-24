@@ -14,7 +14,7 @@ Rapidly create a new user-defined action from a contiguous set of actions in the
 
 2.  Right-click the selection, then select **Create Action** from the context menu \(or press Ctrl + Alt + C on the keyboard\).
 
-{{<remember>}} It is OK if one or more of the actions is marked with a bug, as long as all the bugs are of the same type. However, if the set of actions contains bugs of more than a single type, the following message is displayed. \(See [Marking TA bugs as known bugs](/TA_Help/Topics/Bugs_working_known_bug_marking.html) for further information\).
+    {{<remember>}} It is OK if one or more of the actions is marked with a bug, as long as all the bugs are of the same type. However, if the set of actions contains bugs of more than a single type, the following message is displayed. \(See [Marking TA bugs as known bugs](/TA_Help/Topics/Bugs_working_known_bug_marking.html) for further information\).
 
     ![](/images/TA_Help/Images/Bugs_smart_create_new_action.png)
 
@@ -24,7 +24,7 @@ Rapidly create a new user-defined action from a contiguous set of actions in the
     -   **Description**: \(Optional\) Short description for the action.
     -   **Location**: \(Optional\) Specify the directory location in which to store the newly created action. If you do not specify the location, TestArchitect automatically stores it directly under the **Actions** node.
     -   **Argument**: \(Optional\) Select several respective check box arguments if you want to create arguments in the action editor.
-{{<tip>}}
+    {{<tip>}}
 
     -   To replace the selected set of contiguous actions with the newly-created action immediately upon its creation, select the **Replace selected script by new action** check box.
     -   To display all the window and control arguments in the Argument panel, select the **Show window and control argument** check box.

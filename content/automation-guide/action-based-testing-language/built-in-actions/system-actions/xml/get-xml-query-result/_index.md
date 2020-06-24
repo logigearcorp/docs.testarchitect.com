@@ -18,7 +18,7 @@ Query an XML string by XPath.
 
     XML target string that the query runs against.
 
-{{<tip>}} To access content from an XML file, use the [get text file](/TA_Automation/Topics/bia_get_text_file.html) action to load the XML document into a variable, then reference the variable in this argument.
+    {{<tip>}} To access content from an XML file, use the [get text file](/TA_Automation/Topics/bia_get_text_file.html) action to load the XML document into a variable, then reference the variable in this argument.
 
 -   **xpath**
 

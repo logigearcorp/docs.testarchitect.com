@@ -49,7 +49,7 @@ Importing of Zephyr test cases into TestArchitect can be done on a one-by-one ba
 
     ![](/images/TA_Help/Images/Zephyr_import_overwrite_dlg.png)
 
-{{<note>}} The **Copy to Clipboard** button is used to copy the list of existing test cases to the clipboard.
+    {{<note>}} The **Copy to Clipboard** button is used to copy the list of existing test cases to the clipboard.
 
 7.  An information dialog box will appear stating Import process completed successfully if the upload was successful. Click the **OK** button.
 

@@ -29,7 +29,7 @@ To configure the browser settings, carry out the following steps:
     -   Third-party extensions option enabled, and
     -   Enhanced Protected Mode disabled.
 
-{{<note>}} TestArchitect comes in both 32-bit and 64-bit versions; the same is true for Internet Explorer. If your TestArchitect bit-width does not match your Internet Explorer bit-width, Internet Explorer will not load TestArchitect Automation Agent. You can bypass this problem, however, by simply disabling Internet Explorer’s Enhanced Protected Mode security feature. For example, you can use TestArchitect 64-bit to test applications running on Internet Explorer 32-bit.
+        {{<note>}} TestArchitect comes in both 32-bit and 64-bit versions; the same is true for Internet Explorer. If your TestArchitect bit-width does not match your Internet Explorer bit-width, Internet Explorer will not load TestArchitect Automation Agent. You can bypass this problem, however, by simply disabling Internet Explorer’s Enhanced Protected Mode security feature. For example, you can use TestArchitect 64-bit to test applications running on Internet Explorer 32-bit.
 
     1.  Enable the third-party extensions option:
 

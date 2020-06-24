@@ -21,7 +21,7 @@ User-defined fields in TestArchitect are automatically mapped to TFS custom fiel
         -   Value Type: Field data types must match between TestArchitect and TFS. \([Learn more](/TA_Help/Topics/ug_MTM_matching_custom_fields_rule.html).\)
         -   Default value: Assign a default value to a user-defined field.
 
-{{<important>}} For a TestArchitect user-defined field that maps to a TFS custom field designated as Required, it is essential that a value exist in the TestArchitect field when its corresponding test module or test case is uploaded to TFS. You can ensure that such fields will have values by utilizing the **Default Value** field in the New Field dialog box. \(For existing user-defined fields, defaults can also be set in the Edit Field dialog box.\) A given user-defined field for a particular test module or test case may also be set to a specific value via the **Information** tab of the project item.
+            {{<important>}} For a TestArchitect user-defined field that maps to a TFS custom field designated as Required, it is essential that a value exist in the TestArchitect field when its corresponding test module or test case is uploaded to TFS. You can ensure that such fields will have values by utilizing the **Default Value** field in the New Field dialog box. \(For existing user-defined fields, defaults can also be set in the Edit Field dialog box.\) A given user-defined field for a particular test module or test case may also be set to a specific value via the **Information** tab of the project item.
 
         For example, create a user-defined field, **Scheduling Start Date**.
 

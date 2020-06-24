@@ -29,13 +29,13 @@ To map TestArchitect test cases to Quality Center tests:
 
     ![](/images/TA_Help/Images/QC_map_TC.png)
 
-{{<important>}}
+    {{<important>}}
 
     -   For each mapping, the Quality Center test must already exist, and must have its **Type** field set to the value VAPI-XP-TEST .
     -   Mappings between TestArchitect test cases and Quality Center tests are restricted to a 1-to-1 basis. \(That is, one-to-many mappings are not permitted.\)
 3.  Click **OK**.
 
-{{<note>}} If your user name has not already been authenticated by Quality Center for the current session, you will be prompted to enter the password for the account.
+    {{<note>}} If your user name has not already been authenticated by Quality Center for the current session, you will be prompted to enter the password for the account.
 
     -   If any of the selected Quality Center tests are already mapped to other TestArchitect test cases, the dialog box remains in place, and the source IDs of those tests are displayed in red.
 

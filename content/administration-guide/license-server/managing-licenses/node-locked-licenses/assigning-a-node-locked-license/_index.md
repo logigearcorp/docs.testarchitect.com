@@ -31,17 +31,17 @@ To assign a node-locked license to a machine:
 
     ![](/images/TA_Administration/Images/LS_TA_Add_machine.png)
 
-{{<note>}} If you use the full host name of the machine, ensure that the machine is connected to your working domain.
+    {{<note>}} If you use the full host name of the machine, ensure that the machine is connected to your working domain.
 
-{{<note>}} **Using host name vs. IP address:** The means of identification \(host name or IP address\) used to assign a node-locked license to a machine is used in all future license validations for that machine. \(Hence, for example, in an environment in which IP addresses are assigned to machines dynamically, using the machine’s host name when assigning it a node-locked license avoids future validation issues.\)
+    {{<note>}} **Using host name vs. IP address:** The means of identification \(host name or IP address\) used to assign a node-locked license to a machine is used in all future license validations for that machine. \(Hence, for example, in an environment in which IP addresses are assigned to machines dynamically, using the machine’s host name when assigning it a node-locked license avoids future validation issues.\)
 
     The Add Machine dialog box has two panels, the License Information panel and the License Assignment panel.
 
     -   The License Information panel displays detailed information about the active key.
     -   The License Assignment panel shows which machine the license has been issued to and any open slots for additional licenses, if available.
-{{<important>}} A node-locked license assigned to a machine cannot be removed. The license can only be transferred to another machine after the lock-in period has expired.
+    {{<important>}} A node-locked license assigned to a machine cannot be removed. The license can only be transferred to another machine after the lock-in period has expired.
 
-{{<important>}} Once you have successfully assigned or reassigned a node-locked license to a new machine, you are granted a 24-hour “grace” period, during which you are free to re-transfer the license to another machine. After the 24-hour grace period, a 72-hour lock-in period kicks in. For the duration of the lock-in period, you are restricted from transferring the node-locked license. Upon expiration of the lock-in period, you are once again free to transfer the license. This 24/72-hour policy applies on every subsequent occasion that the node-locked license is transferred.
+    {{<important>}} Once you have successfully assigned or reassigned a node-locked license to a new machine, you are granted a 24-hour “grace” period, during which you are free to re-transfer the license to another machine. After the 24-hour grace period, a 72-hour lock-in period kicks in. For the duration of the lock-in period, you are restricted from transferring the node-locked license. Upon expiration of the lock-in period, you are once again free to transfer the license. This 24/72-hour policy applies on every subsequent occasion that the node-locked license is transferred.
 
 
 If the machine that you are requesting the node-locked license for is not on any assigned-license list, the license server issues a node-locked license to it, and the number of available licenses decreases accordingly.

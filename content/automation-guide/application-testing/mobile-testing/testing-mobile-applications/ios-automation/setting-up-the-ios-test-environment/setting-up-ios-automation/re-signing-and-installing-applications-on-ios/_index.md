@@ -37,7 +37,7 @@ The following procedures for re-signing the TestArchitect Agent app must be perf
     -   your .ipa application file
     -   FileInfo
     -   iOSInstrumentationDyLib.dylib
-{{<note>}} resign.sh, FileInfo and iOSInstrumentationDyLib.dylib files can be found at the following location when TestArchitect is installed: Applications/TestArchitect/device/iOS/resource.
+    {{<note>}} resign.sh, FileInfo and iOSInstrumentationDyLib.dylib files can be found at the following location when TestArchitect is installed: Applications/TestArchitect/device/iOS/resource.
 
 3.  Start the command line terminal and navigate to the directory to which you copied the files in the preceding step.
 
@@ -49,7 +49,7 @@ The following procedures for re-signing the TestArchitect Agent app must be perf
 
     Syntax: resign.sh <Common Name of private key in Keychain Access\> <file name of the provisional profile\> <file name \(without or with the .ipa suffix\) of the application file to re-sign\>
 
-{{<note>}} Providing the file name's extension \(.ipa\) is optional. If not provided, the script assumes an extension of .ipa.
+    {{<note>}} Providing the file name's extension \(.ipa\) is optional. If not provided, the script assumes an extension of .ipa.
 
     The resign.sh script terminates with the message replacing existing signature, to indicate that re-signing was successful.
 
@@ -61,7 +61,7 @@ The following procedures for re-signing the TestArchitect Agent app must be perf
 
         The re-signed application is installed onto the device.
 
-{{<tip>}} You can perform step [6](/iOS/Topics/iOS_installing_applications.html#step_u4p_xyq_kn) on either an macOS or Windows machine.
+    {{<tip>}} You can perform step [6](/iOS/Topics/iOS_installing_applications.html#step_u4p_xyq_kn) on either an macOS or Windows machine.
 
 
 After installing the re-signed application onto the iOS device, the application icon is available on the device's desktop.

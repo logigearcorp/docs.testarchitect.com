@@ -18,7 +18,7 @@ Create interface definitions to enable a test to interact with an application wi
 
     ![](/images/TA_Tutorials/Images/tut.TAX.Interfaces.Car_Rental.png)
 
-{{<note>}} If you're wondering why a project might have more than a single interface, the typical reason is that the system under test may have more than a single application, and it makes sense to have one interface per application.
+    {{<note>}} If you're wondering why a project might have more than a single interface, the typical reason is that the system under test may have more than a single application, and it makes sense to have one interface per application.
 
 2.  Right-click the **Car Rental** interface node and select **New Interface Entity**.
 
@@ -28,7 +28,7 @@ Create interface definitions to enable a test to interact with an application wi
 
     A new interface entity worksheet opens in the test editor, ready for your input.
 
-{{<note>}} Typically, you will create an interface entity for each window or dialog box in the application under test — or at least for the windows and dialog boxes that you intend to test.
+    {{<note>}} Typically, you will create an interface entity for each window or dialog box in the application under test — or at least for the windows and dialog boxes that you intend to test.
 
 4.  Now you will create interface definitions, each of which maps a GUI element \(window or control\) to a TA name. As seen in [Lesson \#2: Interfacing with a GUI](/TA_Tutorials/Topics/Tutorial_Interfacing_with_a_GUI.html), TA names are used by the tests you create to refer to the GUI elements of the AUT.
 
@@ -44,7 +44,7 @@ Create interface definitions to enable a test to interact with an application wi
 
     You have now associated the window whose title property is Car Rental-Login with the TA name **my login**.
 
-{{<note>}} title is the property most commonly used for identifying windows. Also, note the importance of this property-value pair being unique across all application windows that may be instantiated on the test system during testing.
+    {{<note>}} title is the property most commonly used for identifying windows. Also, note the importance of this property-value pair being unique across all application windows that may be instantiated on the test system during testing.
 
 7.  Now map the **User name** textbox control of the Login window to a TA name.
 8.  Select a cell a few rows down in column **A** and type interface element. Press Tab.
@@ -65,7 +65,7 @@ Create interface definitions to enable a test to interact with an application wi
     -   has a property named label which has the value User name.
     .
 
-{{<tip>}} When a single property-value pair is insufficient to ensure that a control is uniquely identified, use additional property-value pairs in adjacent columns of the interface element action.
+    {{<tip>}} When a single property-value pair is insufficient to ensure that a control is uniquely identified, use additional property-value pairs in adjacent columns of the interface element action.
 
 12. Click **Save** ![](/images/TA_Tutorials/Images/btn.TAC_toolbar.SaveFile.png) on the toolbar.
 

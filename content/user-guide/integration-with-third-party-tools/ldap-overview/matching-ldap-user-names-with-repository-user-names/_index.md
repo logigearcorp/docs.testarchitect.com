@@ -20,13 +20,13 @@ To map a given TestArchitect repository user name to an LDAP user name, perform 
 
 2.  From the Users panel, select a TestArchitect user name.
 
-{{<restriction>}} The administrator account of a repository may not be mapped to an LDAP user name, as administrator is a super administrator and a built-in account of TestArchitect.
+    {{<restriction>}} The administrator account of a repository may not be mapped to an LDAP user name, as administrator is a super administrator and a built-in account of TestArchitect.
 
 3.  Select the **Profile** tab.
 
 4.  In the **LDAP User Name** box, enter the LDAP user name that is to be mapped to the repository user name.
 
-{{<note>}}
+    {{<note>}}
 
     -   Within a repository, only one TestArchitect user name may be mapped to a given LDAP user name. \(Note, however, that this does not restrict you from concurrently allowing a different TestArchitect user name of a different repository to be mapped to the same LDAP user name.\)
     -   In order to modify the repository's current LDAP connection configuration at this point, click the **LDAP Configuration** button. You will be directed to the LDAP Tool.

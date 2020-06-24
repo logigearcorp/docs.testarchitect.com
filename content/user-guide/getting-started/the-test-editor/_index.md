@@ -101,7 +101,7 @@ Alternatively, you can save *all* opened files in the editor two ways:
 
 Comments may be added to test modules, actions, interface entities and data sets. A commented line starts with two forward slashes \(//\); its contents are ignored during test execution.
 
-{{<caution>}}
+{{<caution>}}:
 
 A comment must occupy its own row in the editor, and be entered into column A. Entering a comment to the right of an action line is not supported, and can lead to unpredictable behavior.
 

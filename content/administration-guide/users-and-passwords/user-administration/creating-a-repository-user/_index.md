@@ -25,14 +25,14 @@ To create a TestArchitect user, do the following:
     -   Name: \(Required\) Specify a TestArchitect user name for logging in.
     -   LDAP User Name: \(Optional\) Specify an existing LDAP user name to map to this TestArchitect user name. This field is essential only if the repository is configured to employ LDAP authentication for user logins.
 
-{{<note>}}
+        {{<note>}}
 
         -   If the repository is already configured for [LDAP authentication](/TA_Help/Topics/ug_LDAP_connection.html), the domain name is auto-filled in.
         -   Within a repository, only one TestArchitect user name may be mapped to a given LDAP user name. \(Note, however, that this does not restrict you from concurrently allowing a different TestArchitect user name of a different repository to be mapped to the same LDAP user name.\)
     -   First Name, Last Name, Email, Phone: \(Optional\) Additional user information.
 4.  Click **Create**.
 
-{{<note>}} If you have entered an LDAP user name but it is already mapped to another TestArchitect user name, an error message appears. Click **OK** and then select a different LDAP user name.
+    {{<note>}} If you have entered an LDAP user name but it is already mapped to another TestArchitect user name, an error message appears. Click **OK** and then select a different LDAP user name.
 
     ![](/images/TA_Administration/Images/LDAP_error_message_1.png)
 

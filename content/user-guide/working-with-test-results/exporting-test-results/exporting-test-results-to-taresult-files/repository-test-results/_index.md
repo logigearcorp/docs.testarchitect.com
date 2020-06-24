@@ -14,7 +14,7 @@ Ensure that the test results you want to export are [stored in the repository](/
 
 1.  Select the **Results** node or repository test results that you want to export to the .TARESULT file.
 
-{{<tip>}} You can select repository test results in the TestArchitect explorer tree, or in the [repository result list view](/TA_Help/Topics/Listview_results_repository.html).
+    {{<tip>}} You can select repository test results in the TestArchitect explorer tree, or in the [repository result list view](/TA_Help/Topics/Listview_results_repository.html).
 
 2.  Invoke the Export Result\(s\) To File dialog box by doing one of the following:
 
@@ -28,7 +28,7 @@ Ensure that the test results you want to export are [stored in the repository](/
 
     You can accept the default location, but any place that is easy to remember will work.
 
-{{<note>}}
+    {{<note>}}
 
     -   On Windows: Network paths are also supported.
     -   On Linux, macOS: Mounted paths are also supported.

@@ -14,7 +14,7 @@ Guides to setting up Safari iOS automation under TestArchitect.
 
 -   iTunes 11.1 or later is installed on the machine to be used as the test controller \(this may be a Windows or macOS machine\).
 
-{{<important>}} iTunes 12.7 no longer has an App store, which means you no longer can install .ipa iOS apps within iTunes \([learn more](https://www.macworld.com/article/3230135/software-entertainment/how-to-install-itunes-1263-and-replace-itunes-127.html)\). If you want to keep your ways, you can either install iTunes 12.6.3 and get back access to the App store, or use the special version of iTunes at [here](https://support.apple.com/en-gb/HT208079).
+    {{<important>}} iTunes 12.7 no longer has an App store, which means you no longer can install .ipa iOS apps within iTunes \([learn more](https://www.macworld.com/article/3230135/software-entertainment/how-to-install-itunes-1263-and-replace-itunes-127.html)\). If you want to keep your ways, you can either install iTunes 12.6.3 and get back access to the App store, or use the special version of iTunes at [here](https://support.apple.com/en-gb/HT208079).
 
 -   On macOS machine, turn off the Energy Saver sleep and idle modes. Specifically, set the **Computer sleep** slider to Never. \([Learn more](https://support.apple.com/en-gb/HT201714).\) This ensures that your macOS machine does not automatically slip into a sleep or idle state while the automated test is running, which would cause the test to fail.
 

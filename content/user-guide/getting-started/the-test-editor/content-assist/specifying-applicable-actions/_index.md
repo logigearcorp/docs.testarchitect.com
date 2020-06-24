@@ -22,7 +22,7 @@ To specify an **applicable actions** list for all controls of a given user-defin
 
     The user-defined TA classes that you have already defined for the platform should appear in this section, one row per class.
 
-{{<note>}} Note that entries in this section may consist of standard TA classes as well as user-defined ones. For this effort, we are only concerned with user-defined TA classes.
+    {{<note>}} Note that entries in this section may consist of standard TA classes as well as user-defined ones. For this effort, we are only concerned with user-defined TA classes.
 
 4.  If an **Actions** heading does not yet exist in the column next to the **role** heading, go ahead and create one.
 
@@ -30,7 +30,7 @@ To specify an **applicable actions** list for all controls of a given user-defin
 
 5.  Underneath the **Actions** column, specify a list of suggested actions that are applicable to the corresponding user-defined TA class.
 
-{{<remember>}}
+    {{<remember>}}
 
     -   A user-defined TA class accepts any [built-in action](/TA_Automation/Topics/bia_Built_in_actions.html), [user-defined action](/reuse/reuse.High_level_actions.html), and/or user-scripted action with a user-defined stub action to “front-end” it.
     -   Separate multiple actions with semi-colons \( ; \). For example, let's specify two built-in actions, [check control property](/TA_Automation/Topics/bia_check_control_property.html), [get control property](/TA_Automation/Topics/bia_get_control_property.html), and one user-defined action, select ribbon button, for a user-defined TA class, ribbon:

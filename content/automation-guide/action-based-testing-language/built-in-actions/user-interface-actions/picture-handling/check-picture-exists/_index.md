@@ -40,7 +40,7 @@ Check a bitmap area of the AUT's current display for the presence of a given ins
 
     The above figure illustrates the active area that applies when both the window and control arguments have been specified \(establishing a picture control as the active UI element\), and the values for rect are such that it covers both a portion of the active UI element as well as an area outside of it. In such a case, the active area is the area of overlap between the UI element and the rect area. \(See related note below.\)
 
-{{<note>}} Any of the four sub-arguments of rect may be omitted, but all values must maintain their comma-delimited places to ensure correct assignment.\(For example, setting rect to \(, , 100, 50\) specifies an active area of width=100, height=50, whose top-left corner coincides with that of the active UI element.\)
+    {{<note>}} Any of the four sub-arguments of rect may be omitted, but all values must maintain their comma-delimited places to ensure correct assignment.\(For example, setting rect to \(, , 100, 50\) specifies an active area of width=100, height=50, whose top-left corner coincides with that of the active UI element.\)
 
 -   **index**
 

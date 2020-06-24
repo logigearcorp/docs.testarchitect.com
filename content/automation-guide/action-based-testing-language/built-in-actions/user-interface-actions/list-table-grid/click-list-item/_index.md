@@ -26,7 +26,7 @@ Click an item in a list control.
 
     The item to click, as specified by its text contentor index value.
 
-{{<important>}} For the list view control only, in order to click an item, enter the aggregated values of every cell value with vertical bars \( \| \) as delimiters.
+    {{<important>}} For the list view control only, in order to click an item, enter the aggregated values of every cell value with vertical bars \( \| \) as delimiters.
 
 -   **x**
 

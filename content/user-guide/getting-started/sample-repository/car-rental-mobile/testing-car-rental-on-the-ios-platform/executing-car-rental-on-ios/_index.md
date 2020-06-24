@@ -52,11 +52,11 @@ Ensure that the following requirements are met before you execute Car Rental aut
 
 11. Select the **iOS** check box in the Select Version dialog box and click **OK**.
 
-{{<restriction>}} The **Car Rental - Mobile** automated test modules do not support iOS testing on a Linux platform.
+    {{<restriction>}} The **Car Rental - Mobile** automated test modules do not support iOS testing on a Linux platform.
 
 12. In the Execute Test dialog box, click **Execute** to start the test.
 
-{{<important>}} Do not provide any user input while the test is being executed.
+    {{<important>}} Do not provide any user input while the test is being executed.
 
     A status bar indicating the stages of the test is visible in the bottom-right corner of the TestArchitect window. During the initial compilation stage, all information required for execution is collected and made available for automation. Following compilation, TestArchitect invokes the playback tool for the execution stage of the test.
 

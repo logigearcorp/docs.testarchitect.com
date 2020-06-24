@@ -58,7 +58,7 @@ In the Action Recorder Settings dialog box, if you don't want basic [check](/TA_
 -   **Action Name**: List of checkpoint actions applicable to the given control.
 -   **Control property**: List of available properties of the control.
 
-{{<note>}} This field is enabled only if your choose [check window property](/TA_Automation/Topics/bia_check_window_property.html) or [check control property](/TA_Automation/Topics/bia_check_control_property.html) in the **Action Name** box.
+    {{<note>}} This field is enabled only if your choose [check window property](/TA_Automation/Topics/bia_check_window_property.html) or [check control property](/TA_Automation/Topics/bia_check_control_property.html) in the **Action Name** box.
 
 -   **Expected value**: The value expected to be returned by the check.
 

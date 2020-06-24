@@ -16,7 +16,7 @@ To configure TA for an integration with an Azure DevOps account, do the followin
 
 2.  Under the appropriate repository node of the TestArchitect explorer tree, expand the subtree **Administration** \> **Tool Profiles** \> **External Tool** \> **Test Management**.
 
-{{<note>}} Only TestArchitect users belonging to the administrator group are able to view and modify the **Administration** node in the explorer tree.
+    {{<note>}} Only TestArchitect users belonging to the administrator group are able to view and modify the **Administration** node in the explorer tree.
 
 3.  In the expanded list of options, double-click **Team Foundation Server**.
 

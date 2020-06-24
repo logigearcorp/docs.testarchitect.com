@@ -16,7 +16,7 @@ To insert test objectives into a test case, perform the following steps:
 
 2.  Type [test objective](/TA_Automation/Topics/bia_test_objective.html) and press Enter on your keyboard.
 
-{{<note>}} To ensure a clear and structured approach, it is suggested that you list test objectives at the top of each test case in the editor worksheet.
+    {{<note>}} To ensure a clear and structured approach, it is suggested that you list test objectives at the top of each test case in the editor worksheet.
 
     TestArchitect's auto-complete functionality will suggest possible test objectives as you type.
 

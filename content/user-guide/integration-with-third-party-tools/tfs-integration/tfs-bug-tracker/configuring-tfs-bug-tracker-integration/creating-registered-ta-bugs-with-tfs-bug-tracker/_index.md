@@ -15,7 +15,7 @@ Ensure that the following requirements are met:
 -   Your TestArchitect test machine has [registered](/TA_Help/Topics/Integration_MTM_connecting_TFS.html#) and [actived bug tracker](/TA_Help/Topics/ug_TFS_BugTracker_Registering_bugtracker.html#) of Team Foundation Server.
 -   A TFS Bug to be associated with a TA bug has already been created, and is of type Bug.
 
-{{<note>}} In TFS server, TestArchitect only support process template include **Bug** type in Work Item Type list.
+    {{<note>}} In TFS server, TestArchitect only support process template include **Bug** type in Work Item Type list.
 
 
 To create a registered TA bug, complete the following steps:
@@ -40,13 +40,13 @@ To create a registered TA bug, complete the following steps:
 
     ![](/images/TA_Help/Images/ug_TFS_importbug.png)
 
-{{<note>}}
+    {{<note>}}
 
     -   Generally, a registered TA bug loads values from four TFS built-in fields: **Key**, **Summary**, **Status**, and **Description**. However, you can have TestArchitect load additional TFS fields, such as **Priority** or **Severity**, by creating associated TestArchitect user-defined fields. See [Adding a custom field in TestArchitect](/TA_Help/Topics/Bugs_defined_field_TA.html) for further information.
     -   Making changes to the **Summary** or **Description** field in the New Bug dialog box is possible.
 5.  Click the **Create** button.
 
-{{<restriction>}}
+    {{<restriction>}}
 
     -   If you attempt to associate a TA bug with a TFS issue that is not of the type Bug, an error message is presented:
 
@@ -60,7 +60,7 @@ To create a registered TA bug, complete the following steps:
 
     ![](/images/TA_Help/Images/ug_TFS_bug_information_external_bug.PNG)
 
-{{<note>}}
+    {{<note>}}
 
     -   The TestArchitect **Bug ID** field is a combination of [a prefix key](/TA_Help/Topics/Projects_and_project_items_create_project.html) followed by an ID number, separated by a hyphen.
     -   The ID number is automatically generated to avoid duplicate bugs in case of [replication repositories](/TA_Administration/Topics/Repo_server_management_replication_repo_intro.html).

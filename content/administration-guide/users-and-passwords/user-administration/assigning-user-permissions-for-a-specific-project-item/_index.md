@@ -29,7 +29,7 @@ To assign a TestArchitect user to a specific project item, do the following:
 
 3.  In the **Assign user** box, select a user to assign to this project item.
 
-{{<tip>}} If you'd like to assign this item to no one, just select the \(not assigned\) option.
+    {{<tip>}} If you'd like to assign this item to no one, just select the \(not assigned\) option.
 
     ![](/images/TA_Administration/Images/assigning_projects_item.png)
 

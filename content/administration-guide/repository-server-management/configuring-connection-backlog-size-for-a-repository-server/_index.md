@@ -21,7 +21,7 @@ TestArchitect enables you to specify the maximum size of the queue used for hold
     -   On MacOS: Applications/TestArchitect/data/rs.
 3.  Find the connection backlog size parameter and change its value to the desired number.
 
-{{<note>}}
+    {{<note>}}
 
     -   The default value is 50.
     -   In case you utilize TA Queue to submit jobs, the value of 1000 is recommended.

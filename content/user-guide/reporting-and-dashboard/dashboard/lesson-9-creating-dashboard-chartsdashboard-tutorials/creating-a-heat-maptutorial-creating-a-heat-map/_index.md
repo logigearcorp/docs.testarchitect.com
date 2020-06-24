@@ -59,7 +59,7 @@ The heat map consists of a matrix with each unique test module placed along the 
         -   **Folder**: Car Rental/Tests
     The resulting heat map is displayed.
 
-{{<note>}} Note that, to view the entire map, it may be necessary to click the **View full heat map** link at the top-left corner of the panel.
+    {{<note>}} Note that, to view the entire map, it may be necessary to click the **View full heat map** link at the top-left corner of the panel.
 
     ![](/images/TA_Tutorials/Images/tut.Dashboard.heat_map.Car_Rental.failure_monitor.01.png)
 

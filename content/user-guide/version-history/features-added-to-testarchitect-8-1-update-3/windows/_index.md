@@ -42,7 +42,7 @@ The following new features and improvements are introduced in TestArchitect vers
     1.  **Recommended:** Recapture the controls so that they are mapped into their appropriate TA classes. \(For example, remapping an **<input-color\>** control will change its TA class mapping from the legacy input-text class to the new input-color class.\)
     2.  Leave your legacy mappings intact and set the ignore html input types built-in setting to yes in all tests that interface with HTML5 **<input\>** type controls.
 
-{{<note>}} [ignore html input types](/TA_Automation/Topics/bis_ignore_html_input_types.html) built-in setting: Determines whether, during the test execution, the TA classes of legacy-captured HTML **<input\>** type controls are taken into consideration.
+        {{<note>}} [ignore html input types](/TA_Automation/Topics/bis_ignore_html_input_types.html) built-in setting: Determines whether, during the test execution, the TA classes of legacy-captured HTML **<input\>** type controls are taken into consideration.
 
 -   [enter](/TA_Automation/Topics/bia_enter.html) built-in action is now applicable to these additional HTML **<input\>** type controls:
     -   **<input-datetime\>**

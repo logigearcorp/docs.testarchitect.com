@@ -25,7 +25,7 @@ To select LDAP authentication mode, do the following:
 
 2.  In the Manage Users dialog box, select the LDAP Authentication Mode radio button.
 
-{{<tip>}} In order to modify the repository's current LDAP connection configuration at this point, click the **LDAP Configuration** button. You will be directed to the LDAP Tool.
+    {{<tip>}} In order to modify the repository's current LDAP connection configuration at this point, click the **LDAP Configuration** button. You will be directed to the LDAP Tool.
 
     ![](/images/TA_Administration/Images/Manage_users_dlg.png)
 

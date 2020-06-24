@@ -38,7 +38,7 @@ The following new features and improvements are introduced in TestArchitect vers
 
 -   **Web automation on Mozilla Firefox** now utilizes the [GeckoDriver](/TA_Help/Topics/Test_exec_extension.html#li.FF) technical approach, since Mozilla intends to remove the support for most NPAPI plugins in Firefox, the technology previously employed by TestArchitect to automate web applications on Firefox.
 
-{{<restriction>}} Use of the TestArchitect [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html) and [point-to-identify](/TA_Help/Topics/Interface_def_client_interface_tool_identify.html) tool are not supported on Firefox.
+    {{<restriction>}} Use of the TestArchitect [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html) and [point-to-identify](/TA_Help/Topics/Interface_def_client_interface_tool_identify.html) tool are not supported on Firefox.
 
 
 ## Deprecation

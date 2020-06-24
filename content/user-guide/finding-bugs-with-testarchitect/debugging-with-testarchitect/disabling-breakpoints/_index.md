@@ -16,7 +16,7 @@ To disable the currently selected breakpoint, follow these steps:
 
 2.  Select **Debug** \> **Disable Breakpoint**.
 
-{{<tip>}} If you want to deactivate all your breakpoints, select **Execution** \> **Debug** \> **Skip all** from the main menu.
+    {{<tip>}} If you want to deactivate all your breakpoints, select **Execution** \> **Debug** \> **Skip all** from the main menu.
 
 
 

@@ -39,7 +39,7 @@ In order to invoke this dialog box, see [here](/TA_Help/Topics/Integration_MTM_r
 
     1.  **Export Result\(s\) to TARESULT**: Select this check box to export TA results as .TARESULT files.
 
-{{<note>}} .TARESULT is an archive extension, developed by LogiGear.
+        {{<note>}} .TARESULT is an archive extension, developed by LogiGear.
 
         ![](/images/TA_Help/Images/MTM_export_TARESULT_file.png)
 
@@ -80,7 +80,7 @@ In order to invoke this dialog box, see [here](/TA_Help/Topics/Integration_MTM_r
             -   Passed: Attach the TA test result file if the test case's TFS outcome is Passed.
             -   Inconclusive: Attach the TA test result file if the test case's TFS outcome is Inconclusive.
             -   Failed: Attach the TA test result file if the test case's TFS outcome is Failed.
-{{<note>}}
+            {{<note>}}
 
             -   The mappings between TestArchitect result statuses and TFS outcomes \(that is, how TFS interprets each TA result status\) are defined during initial configuration of the TA repository's connection to the Team Foundation Server. \([Learn more](/TA_Help/Topics/Integration_MTM_connecting_TFS.html#choice_xrl_w5x_xs).\)
             -   If more than one condition is selected, they are effectively OR'd together. For example: If both Passed and Failed check boxes are selected, any TA result that has an TFS outcome of *either* Passed or Failed is uploaded as an attachment.
@@ -90,11 +90,11 @@ In order to invoke this dialog box, see [here](/TA_Help/Topics/Integration_MTM_r
             -   **Automatically compress result\(s\) if file size \> KB**: Upload the result as a compressed \(zipped\) HTML file if the file exceeds the specified size. Otherwise, upload the result as an uncompressed HTML file.
         -   Apply customized XSLT template: Export HTML results with your own view layout.
 
-{{<note>}}
+            {{<note>}}
 
             -   You are first required to customize the default XSLT template, which means you need to modify [a set of XSL files](/TA_Help/Topics/ug_customizing_XML_report.html) to suit your desired view layout. \(See more examples [here](/TA_Help/Topics/ug_customizing_XML_report.html).\)
             -   When your customized XSLT is invalid, the default XSLT template, located at the \{TA\_INSTALL\_DIR\}\\templates\\xsl\\ directory, is automatically applied.
-{{<important>}} Please ensure that your Repository Server has access rights to the location which stores the XSLT template.
+            {{<important>}} Please ensure that your Repository Server has access rights to the location which stores the XSLT template.
 
 
 

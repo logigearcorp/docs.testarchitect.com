@@ -24,7 +24,7 @@ To delete a repository from the **Repository Server Control Panel**:
 
     ![](/images/TA_Administration/Images/delete_repo_3.png)
 
-{{<note>}} You may only delete one repository at a time.
+    {{<note>}} You may only delete one repository at a time.
 
 5.  The successful deletion message will appear, click **OK** to finish
 

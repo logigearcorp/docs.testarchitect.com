@@ -39,7 +39,7 @@ This topic gives you a basic guide on creating a release definition in the TFS w
 
     3.  On the **Tasks** tab, configure **Agent phase**: select the agent queue to run tests
 
-{{<note>}} In order to run Visual Studio Test, an agent queue needs to have VSTest.Console.exe.
+        {{<note>}} In order to run Visual Studio Test, an agent queue needs to have VSTest.Console.exe.
 
         -   You can acquire VSTest.Console.exe by installing Visual Studio.
         -   If VSTest.Console.exe already exists on the agent queue, you can custom the VS Test parameter in **Agent Queues**

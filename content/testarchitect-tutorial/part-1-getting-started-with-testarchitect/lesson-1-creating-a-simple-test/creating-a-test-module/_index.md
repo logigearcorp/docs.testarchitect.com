@@ -44,7 +44,7 @@ TestArchitect, in support of the Action Based Testing model, is built around tes
 
     Notice that as you type in the cell an autocomplete drop-down list box appears, showing available actions matching your text entry that are available for selection. As you highlight each action in the list, a description of that action appears below the list. If you misspell an action name, the entry appears in red text, alerting you to the fact that no such action has been defined.
 
-{{<note>}} Upon entry of the string the row turns gray. This behavior is unique to the test case action. The editor does this for readability, so that the beginning of each test case in a test module is easily identifiable.
+    {{<note>}} Upon entry of the string the row turns gray. This behavior is unique to the test case action. The editor does this for readability, so that the beginning of each test case in a test module is easily identifiable.
 
 8.  TO01 appears on cells B4 and B15 as the ID for the first test objective.
 
@@ -58,7 +58,7 @@ TestArchitect, in support of the Action Based Testing model, is built around tes
 
 12. Write your first executable action. Select cell A18 and type report.
 
-{{<note>}} As you type, autocomplete displays a drop-down list box of matching action names.
+    {{<note>}} As you type, autocomplete displays a drop-down list box of matching action names.
 
 13. In the autocomplete pop-up window, use the Up and Down arrow keys to navigate to report and press Enter.
 

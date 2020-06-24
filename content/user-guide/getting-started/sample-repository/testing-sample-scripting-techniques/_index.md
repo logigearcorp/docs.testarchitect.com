@@ -26,7 +26,7 @@ Ensure that the TestArchitect Client is installed.
 
 6.  In the Execute Test dialog box, click **Execute** to start the test.
 
-{{<important>}} Do not provide any user input while the test is being executed.
+    {{<important>}} Do not provide any user input while the test is being executed.
 
     A status bar indicating the stages of the test is visible in the bottom-right corner of the TestArchitect window. During the initial compilation stage, all information required for execution is collected and made available for automation. Following compilation, TestArchitect invokes the playback tool for the execution stage of the test.
 

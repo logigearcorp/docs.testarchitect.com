@@ -42,11 +42,11 @@ Test suites are used to organize and execute test modules based on certain crite
 
 -   **Option \#2: Performing a drag and drop**
 
-{{<note>}} Applies to TestArchitect [8.3 Update 4](/TA_ReleaseNotes/DITA_source/Whats_New_Windows_8.3_update_4.html) and higher.
+    {{<note>}} Applies to TestArchitect [8.3 Update 4](/TA_ReleaseNotes/DITA_source/Whats_New_Windows_8.3_update_4.html) and higher.
 
     Invoke the Execute Test dialog. In the test module list view, select additional preferred test modules. Next, drag these test modules from the test module list view to the desired position in the Test Modules panel of the Execute Test dialog box.
 
-{{<important>}} Only test modules which belong to a single project are allowed.
+    {{<important>}} Only test modules which belong to a single project are allowed.
 
     ![](/images/TA_Help/Images/tm_listview_drag_drop_execution.png)
 
@@ -78,7 +78,7 @@ TestArchitect's Diff Tool can be invoked from the list view, allowing you to com
 -   From a test module list view, you can remove a given test module from one test folder and paste it to another by performing a cut-and-paste operation from the context menu.
 -   The copy-and-paste operation from the context menu allows you to create a duplicate of a selected test module.
 
-{{<tip>}}
+    {{<tip>}}
 
     -   In addition to the conventional cut-and-paste and copy-and-paste from the context menu, you can drag and drop a project item, or a selection of items, from a list view into a folder or node of the same type in the TestArchitect explorer tree.
     -   Performing drag-and-drop within the same project is equivalent to cutting and pasting. Performing a drag-and-drop across different projects, on the other hand, is a copy-and-paste operation.

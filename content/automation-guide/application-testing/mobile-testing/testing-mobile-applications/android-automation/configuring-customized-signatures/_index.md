@@ -24,13 +24,13 @@ To configure a custom certificate, observe the following steps:
 
     -   Select a keystore file location: \(Required\) Click ![](/images/Android/Images/btn.browse-ellipsis.01.png) to browse to your keystore file.
 
-{{<note>}} The supported keystore types are PKCS\#12, which includes the .P12 and .PFX extensions, and .JKS.
+        {{<note>}} The supported keystore types are PKCS\#12, which includes the .P12 and .PFX extensions, and .JKS.
 
     -   Keystore alias name: \(Required\) Alias for the key.
     -   Keystore password: \(Required\) Password for the keystore.
     -   Private key password: \(Required\) Password for the key.
 
-{{<note>}} Based on the selected keystore types, the Private key password option is disabled for PKCS\#12; whereas, it is enabled for .JKS.
+        {{<note>}} Based on the selected keystore types, the Private key password option is disabled for PKCS\#12; whereas, it is enabled for .JKS.
 
     ![](/images/Android/Images/Android_settings_dlg.png)
 

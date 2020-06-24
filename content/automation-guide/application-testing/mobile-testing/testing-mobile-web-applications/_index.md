@@ -19,28 +19,28 @@ For power-saving purposes, computers are often configured to go into a non-activ
 -   **iOS**:
     -   [Safari](/TA_Automation/Topics/aut_app_testing_mobile_web_Safari.html) \(on both iOS devices and Apple's [iOS simulator](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/iOS_Simulator_Guide/Introduction/Introduction.html)\).
 
-{{<remember>}}
+        {{<remember>}}
 
         -   Before testing Safari on iOS devices, you must set up and configure the mobile test device. \([Learn more](/TA_Automation/Topics/aut_app_testing_mobile_web_Safari_prerequesites.html).\)
         -   Before testing Safari on the Apple Simulator, you must set up and configure the simulator. \([Learn more](/TA_Automation/Topics/aut_app_testing_mobile_web_simulator_config.html).\)
     -   WebView \(on iOS device\) a software component used to embed web content in a mobile application.
 
-{{<remember>}} Before testing a web view on iOS devices, you must set up and configure your mobile device. \([Learn more](/iOS/Topics/iOS_setting_up_the_test_enviroment.html).\)
+        {{<remember>}} Before testing a web view on iOS devices, you must set up and configure your mobile device. \([Learn more](/iOS/Topics/iOS_setting_up_the_test_enviroment.html).\)
 
 -   **Android**:
     -   **Android devices:**
         -   [Google Chrome](/TA_Automation/Topics/aut_app_testing_mobile_web_Android.html).
 
-{{<remember>}} Before testing Chrome on Android devices, you must set up and configure the mobile test device. \([Learn more](/TA_Automation/Topics/aut_app_testing_mobile_web_Chrome_prerequesites.html).\)
+            {{<remember>}} Before testing Chrome on Android devices, you must set up and configure the mobile test device. \([Learn more](/TA_Automation/Topics/aut_app_testing_mobile_web_Chrome_prerequesites.html).\)
 
         -   WebView, a component used to embed web content in a mobile application.
 
-{{<remember>}} Before testing a web view on Android devices, you must set up and configure your mobile device. \([Learn more](/Android/Topics/Setting_up_the_test_enviroment.html).\)
+            {{<remember>}} Before testing a web view on Android devices, you must set up and configure your mobile device. \([Learn more](/Android/Topics/Setting_up_the_test_enviroment.html).\)
 
     -   **Android emulators**, including [Genymotion](https://www.genymotion.com/#!/) and [Android virtual device](http://developer.android.com/intl/vi/tools/devices/emulator.html) \(AVD\), packaged with Android SDK:
         -   [Android built-in browser](/TA_Automation/Topics/aut_app_testing_mobile_web_Android_emulators.html).
 
-{{<remember>}} Before testing the built-in browser on Android emulators, you must install TestArchitect Agent onto the emulators. \([Learn more](/TA_Automation/Topics/aut_app_testing_mobile_web_emulator_installing_TA_Agent.html).\)
+            {{<remember>}} Before testing the built-in browser on Android emulators, you must install TestArchitect Agent onto the emulators. \([Learn more](/TA_Automation/Topics/aut_app_testing_mobile_web_emulator_installing_TA_Agent.html).\)
 
 
 1.  [Testing Safari on iOS](/TA_Automation/Topics/aut_app_testing_mobile_web_Safari.html)  
