@@ -100,11 +100,20 @@ a.has-child::before {
 .search-query{
   color: #337ab7;
 }
+
+.search-query-right {
+  float: right;
+}
 .search__icon {
   position: relative;
     top: -20px;
     opacity: 0.3;
     left: -15px;
+}
+
+.search-contain {
+  display: inline-block;
+  max-width: 80%;
 }
 
 .search-result__item {
@@ -251,7 +260,10 @@ a.has-child::before {
     padding: 18px 0;
   }
   
-
+  .search-contain {
+  display: inline-block;
+  max-width: 100%;
+}
 
 
   .header-right{
@@ -572,5 +584,17 @@ pre {
 			img { cursor: pointer; }
       h1 > strong {
         font-weight: normal;
+      }
+
+      .disable-view {
+        cursor: unset
+      }
+
+      .search-title {
+        margin-bottom: -20px;
+      }
+
+      #imageviewer-wrapper {
+        overflow: auto;
       }
 </style>

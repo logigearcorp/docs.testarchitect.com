@@ -40,7 +40,7 @@
           <div style="padding-top:0px;padding-bottom:0px;">
             <div>
               <img
-                class=""
+                class="disable-view"
                 style="margin-top: 20px;"
                 src="{{"images/logo_header.png" | absURL}}"
                 alt=""
@@ -165,10 +165,23 @@
 </div>
 
 <script>
+  if (/MSIE 10/i.test(navigator.userAgent)) {
+  document.getElementById('language-container').style.visibility ='hidden';
+}
+
+if (/MSIE 9/i.test(navigator.userAgent) || /rv:11.0/i.test(navigator.userAgent)) {
+  document.getElementById('language-container').style.visibility ='hidden';
+   
+}
+
+if (/Edge\/\d./i.test(navigator.userAgent)){
+  document.getElementById('language-container').style.visibility ='hidden';
   
+}
+
   imageviewer("img");
   createCoppyCode();
-  const copyToCB = (copyIcon, tempCopyInput, d) => {
+  function copyToCB (copyIcon, tempCopyInput, d) {
   tempCopyInput.select();
   d.execCommand('copy');
 
@@ -195,19 +208,19 @@ let highlight = d.querySelectorAll('pre');// or any div containing code stuff
 copyIcon.innerHTML = 'copy';
 copyIcon.className='copy_clipboard'
   
-highlight.forEach((hl) => {
- let buttonnote = copyIcon.cloneNode([true]);
+for (let index = 0; index < highlight.length; index++) {
+  const hl = highlight[index];
+  let buttonnote = copyIcon.cloneNode([true]);
   hl.appendChild(buttonnote);
-  hl.children[1].addEventListener('click',() => {
+  hl.children[1].addEventListener('click',function() {
   let codeText = hl.childNodes[0].childNodes[0].textContent;
   tempCopyInput.setAttribute('value', codeText);
     copyToCB(buttonnote, tempCopyInput, d);
-    
-  })
- 
-})
+  });
+}
 }
   function searchRemote(query, page) {
+    
     var currentLanguage = readCookie('googtrans');
     if(currentLanguage !== undefined) {
       var searchHost = 'https://glowing-harmony-272303.appspot.com/ja?q=';
@@ -220,6 +233,7 @@ highlight.forEach((hl) => {
     $.getJSON(searchHost+query+'&page=' +page)
       .done(function(res) {
         $results.empty();
+        console.log(res);
         renderResults(res, query);
       });
   }
@@ -266,14 +280,16 @@ setTimeout(function(){ $("#search-header").val(""); }, 1000);
    */
   function renderResults(res, query) {
     var converter = new showdown.Converter();
-   
+    console.log(query);
     var $results = $("main");
     if (res.results.length < 1) {
-      $results.append($("<div>", {html: "<h3>Sorry we couldn't find any matches for <span class='search-query'>"+query +'</span></h3>'}));
-      return ;
+      $results.append($("<div>", {html: "<h3>Sorry we couldn't find any matches for <span class='search-query'>"+query +"</span></h3>"}));
+       var $query = $(".search-query");
+        $query.append(document.createTextNode(query));
+        return ;
     }
 
-    $results.append($("<div>", {html: '<h3>Search Results From: <span class="search-query">'+query +'</span></h3>'}));
+    $results.append($("<div>", {html: '<div ><div class="search-contain"><h4>' + res.itemPerPage*res.totalPage + ' document(s) found for: <span class="search-query">'+query +'</span><h4></div> <span class="search-query-right"><h5>Page '+res.page +'/' + res.totalPage +'</h5></span></div>'}));
 
     // Only show the ten first results
     res.results.forEach(function(result) {
@@ -385,6 +401,8 @@ setTimeout(function(){ $("#search-header").val(""); }, 1000);
     return false;
   }
 
-
+  $(document.links).filter(function() {
+    return this.hostname != window.location.hostname;
+  }).attr('target', '_blank');
 
 </script>
