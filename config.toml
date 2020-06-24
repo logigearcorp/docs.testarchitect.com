@@ -90,6 +90,8 @@ enableMissingTranslationPlaceholders = false
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+    [markup.goldmark.extensions]
+      taskList = false
 [output]
   home = [ "HTML", "RSS", "JSON" ]
 

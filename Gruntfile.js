@@ -76,12 +76,15 @@ module.exports = function(grunt) {
 
             if (frontMatter.title) {
                 // Build Lunr index for this page
+                var showdown  = require('showdown'),
+                converter = new showdown.Converter(),
+               
                 pageIndex = {
-                    title: frontMatter.title,
+                    title: S(converter.makeHtml(frontMatter.title)).stripTags("em", "p").s,
                     keywords: frontMatter.keywords,
-                    description: frontMatter.description,
+                    description: frontMatter.description ? S(converter.makeHtml(frontMatter.description)).stripTags("em", "p").s : "",
                     href: href,
-                    content: S(content[2]).trim().stripTags().collapseWhitespace().s
+                    content: (S(converter.makeHtml(content[2])).collapseWhitespace().s).replace(/(<([^>]+)>)/ig,"")
                 };
             }
             

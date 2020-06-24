@@ -640,7 +640,6 @@ figcaption {
 }
 
 .stack, main * + h1, main * + h2, main * + h3, main * + h4, main * + h5, main * + h6,
-main * + p,
 main * + hr,
 main * + table,
 main * + ul,
@@ -661,6 +660,13 @@ main * + figure, .table_of_contents,
   margin-top: 1.28rem;
 }
 
+p {
+  margin-bottom: 0px !important;
+}
+
+p > img {
+  padding: 10px 0;
+}
 .stack--by2 {
   margin-top: 2.56rem;
 }

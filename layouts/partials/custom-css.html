@@ -484,9 +484,9 @@ header h1{
 }
 
 .close{
-  float: unset;
-  font-size: unset;
-  opacity: 0.8;
+  float: right;
+  font-size: 1.5em;
+ 
 }
 
 h1.concept{
@@ -504,11 +504,11 @@ h1.concept{
 
 
 .nav-next {
-  width: 45%;
+  max-width: 45%;
 }
 
 .nav-prev {
-  width: 45%;
+  max-width: 45%;
 }
 
 @media screen and (max-width: 480px) {
@@ -547,13 +547,14 @@ list-style-type: disc;
 }
 pre {
   position: relative;
+  padding-top: 40px;
 }
 .copy_clipboard {
   border: 1px solid;
     padding: 5px 20px;
     border-radius: 5px;
     position: absolute;
-    top: 15px;
+    top: 6px;
     right: 10px;
 }
 
@@ -562,11 +563,14 @@ pre {
     padding: 5px 20px;
     border-radius: 5px;
     position: absolute;
-    top: 15px;
+    top: 6px;
     right: 10px;
     color: white;
     background-color: grey;
 }
 
 			img { cursor: pointer; }
+      h1 > strong {
+        font-weight: normal;
+      }
 </style>
