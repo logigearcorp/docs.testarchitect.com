@@ -34,7 +34,7 @@ To convert a license from host-based to floating:
 
     ![](/images/TA_Administration/Images/covert_host_based_to_floating.png)
 
-    {{<{{<caution>}}>}}
+    {{<caution>}}
 
     When the license type of the host machine is converted from host-based to floating, that machine must rely on the floating pool of licenses and will no longer be guaranteed a license when it requests one.
 

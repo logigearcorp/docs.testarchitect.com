@@ -14,7 +14,7 @@ In order to capture UI controls on Microsoft Edge and Mozilla Firefox, there are
 
 -   Option \#1: Capture UI controls on Google Chrome in a convention manner via the Interface Viewer and point-to-identify tool, and then run the automated tests on Microsoft Edge or Mozilla Firefox via the setting [use browser](/TA_Automation/Topics/bis_use_browser.html).
 
-    {{<{{<caution>}}>}}
+    {{<caution>}}
 
     However, note that, web controls' native properties might sometimes vary across various web browsers and employed technologies.
 

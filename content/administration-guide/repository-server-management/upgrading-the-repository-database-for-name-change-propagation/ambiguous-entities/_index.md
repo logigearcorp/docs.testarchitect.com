@@ -22,7 +22,7 @@ The Specify Interface for dialog box has a table that lists the line numbers \( 
 
 When mapping an ambiguous entity to an interface called **\[--Keep as text--\]**, which is the default value, the name of the ambiguous entity is mapped to a text string whose value is the same as the string name of the ambiguous entity. Unlike mapping an ambiguous entity to a valid interface, any ambiguous entity mapped to **\[--Keep as text--\]** can no longer be available for automatic [name change propagation](/TA_Help/Topics/Project_and_project_items_rename_refactoring.html), and you will not be prompted to remap the **\[--Keep as text--\]** entity again. \(For example, if you were to upgrade the repository database based on the mapping dialog box above, the **View cars** entity could still enjoy name change propagation after the database upgrade, but the **View orders** entity could not. If you want all ambiguous entities to map to **\[--Keep as text--\]**, select the check box **Keep all items as text**.
 
-{{<{{<caution>}}>}}
+{{<caution>}}
 
 Ambiguous entities that are mapped to **\[--Keep as text--\]** during a database upgrade are no longer eligible for TestArchitect's automatic name change propagation feature, and TestArchitect will not prompt you to map those entities again.
 
@@ -42,7 +42,7 @@ If you do not want TestArchitect to prompt you to map ambiguous entities again, 
 
 When you are satisfied with how ambiguous entities are mapped, click the **OK** button on the Select Interface dialog box to map all ambiguous entities as specified and continue. If you click the **Close** button, TestArchitect maps all ambiguous entities listed in the **Interface** entity column to the default **\[--Keep as text--\]**.
 
-{{<{{<caution>}}>}}
+{{<caution>}}
 
 Clicking the **Close** button on the Specify Interface for dialog box reassigns and overrides all ambiguous mappings specified in the dialog box to **\[--Keep as text--\]**. As a result, these entities can no longer be eligible for name change propagation.
 

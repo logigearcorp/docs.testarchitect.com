@@ -10,7 +10,7 @@ keywords: "What is new, TestArchitect 7.3, what is new"
 
 This topic describes the changes made in TestArchitect version 7.3.
 
-{{<{{<caution>}}>}}
+{{<caution>}}
 
 -   It is strongly recommended that you back up all repositories before upgrading to the latest version of TestArchitect.
 -   A TestArchitect client and any Repository Server to which it connects must be of the same version.

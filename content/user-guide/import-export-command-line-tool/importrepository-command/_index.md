@@ -65,7 +65,7 @@ java -jar TAImportExportTool.jar --ImportRepository [--server<value>] [--port<va
 
     {{<note>}} If this parameter is not specified, or its value is empty, its value defaults to false.
 
-    {{<{{<caution>}}>}}
+    {{<caution>}}
 
     Since overwriting a repository will cause you to lose the data in the existing repository, please inform your team members to ensure that no project modifications are made during the repository import process.
 

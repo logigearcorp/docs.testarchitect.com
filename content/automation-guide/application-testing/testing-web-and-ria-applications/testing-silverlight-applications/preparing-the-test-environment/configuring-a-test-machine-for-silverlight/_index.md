@@ -18,7 +18,7 @@ Ensure the following requirements are met:
 -   Your browser's cache has been cleared and the zoom ratio is set to 100%. Refer to [Preparing a web browser](/TA_Automation/Topics/aut_app_testing_Silverlight_apps_prepraring_browser.html) for more information.
 -   A TestArchitect Certificate Authority installed on your test machine. See [Installing a Certificate Authority](/TA_Automation/Topics/aut_app_testing_Silverlight_apps_installing_CA.html) for details.
 -   When installing TestArchitect, make sure that both the components TestArchitect Client and Repository Server are selected; this is essential to ensuring that the Interface Viewer can detect Silverlight controls.
--   {{<{{<caution>}}>}}
+-   {{<caution>}}
 
     For power-saving purposes, computers are often configured to go into a non-active state \(such as sleep\) after a certain period of inactivity. By default, the processes associated with automated testing are typically not treated as “activities”, in this sense. Hence, for long execution runs, especially unattended ones, it is important that any machines serving as test controllers be configured not to lapse into any non-active mode during the test period. \(Typically, your computer's power policy is configured through its Control Panel, System Preferences, or command line, depending on the platform. For details, see your system administrator or information specific to the machine's operating system.\)
 

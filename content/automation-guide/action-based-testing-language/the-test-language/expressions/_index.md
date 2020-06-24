@@ -18,7 +18,7 @@ Note that the expression indicator is required even for arguments that contain n
 
 {{<tip>}} A common mistake by newbies is to attempt to prepend the \# symbol to every variable in an expression. That is wrong. It is important to keep in mind that the \# symbol applies to the cell, not to any individual element within the cell. It informs TestArchitect that the cell has contents that must be evaluated before they can be used.
 
-{{<{{<caution>}}>}}
+{{<caution>}}
 
 **Exception to the requirement of an expression indicator:** While the expression indicator is generally required for an argument that contains a variable, it should not be used for arguments in which a variable name is explicitly *expected*. That is the case for arguments that the called action is expected to return a value to. An example would be any of the built-in get... actions:
 

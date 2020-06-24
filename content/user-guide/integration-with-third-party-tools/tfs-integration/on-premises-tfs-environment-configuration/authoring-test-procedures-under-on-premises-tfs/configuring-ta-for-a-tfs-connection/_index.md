@@ -42,7 +42,7 @@ Use the TestArchitect external tool to set up a repository for integration with 
 8.  Click **Apply**.
 
 
-{{<{{<caution>}}>}}
+{{<caution>}}
 
 As a general rule, only one test management tool can be active at a time for a given TestArchitect repository. If you select the **Active** check box and click the **Apply** button, the new external tool becomes active and any other tool formerly in use is automatically rendered inactive. For example, activating the Quality Center external tool automatically deactivates the Team Foundation Server external tool.
 

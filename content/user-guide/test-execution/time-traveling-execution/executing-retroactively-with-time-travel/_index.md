@@ -83,7 +83,7 @@ Use one of the following methods to execute a retroactive revision of a given te
 
 When you generate a batch file \(by clicking the **Generate Batch File** button in the Execute Test dialog box\) with time traveling selected, the selected timestamp is written as a new parameter, /rev, to the batch file. \([Learn more](/TA_Help/Topics/Test_exec_cmd.html)\).
 
-{{<{{<caution>}}>}}
+{{<caution>}}
 
 If your current database is legacy – that is, created prior to TestArchitect version 8.2 – and has not yet been [upgraded for time traveling](/TA_Administration/Topics/adm_database_upgrade_time_traveling.html) it, you are presented with the following message when you run the batch file: This repository has not yet been upgraded for time travel functionality. Please contact your administrator to upgrade it before using it with time traveling..
 

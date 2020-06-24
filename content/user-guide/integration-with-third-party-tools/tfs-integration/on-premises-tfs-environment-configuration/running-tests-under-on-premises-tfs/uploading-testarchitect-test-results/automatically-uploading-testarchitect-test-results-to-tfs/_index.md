@@ -116,7 +116,7 @@ TestArchitect test results are uploaded to TFS in the format specified in step \
 
 ![](/images/TA_Help/Images/ug_MTM_uploaded_results.png)
 
-{{<{{<caution>}}>}}
+{{<caution>}}
 
 In case of test results generated from a [serial test run](/TA_Help/Topics/Test_exec_multiple_TM.html), that is, running multiple test modules sequentially within a single test run, if the given **Build Number**'s values among test modules are not identical, the test results are unable to be uploaded to TFS. \([Learn more](/TA_FAQ/Topics/faq.shoot.TFS_mismatched_build_number_values.html).\)
 

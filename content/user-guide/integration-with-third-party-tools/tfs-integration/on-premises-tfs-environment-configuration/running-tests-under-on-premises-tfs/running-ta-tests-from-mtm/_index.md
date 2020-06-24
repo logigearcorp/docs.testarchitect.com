@@ -64,7 +64,7 @@ Ensure that you have already taken the following steps:
 
     ![](/images/TA_Help/Images/Licensing_run_external_tools.png)
 
-    {{<{{<caution>}}>}}
+    {{<caution>}}
 
     MTM's automated tests settings include two timeout settings for imposing limits on automated test times. If these settings are enabled, you must ensure that they meet or exceed the maximum expected test times for your tests. These settings are available under MTM's Lab Center, under **Test Settings** \> **Timeouts**:
 
@@ -73,7 +73,7 @@ Ensure that you have already taken the following steps:
     -   The first setting, **Abort a test run if the total time exceeds:**, when enabled via the check box, attempts to enforce a ceiling on the total run time of your test run. Should you set a value here and your test run exceeds it, your test is not aborted or directly affected in any way. However, your test results will not be uploaded to TFS.
     -   The setting **Mark an individual test as failed if its execution time exceeds:** is applied to each individual test of your test run. Hence, if it is used \(which we advise against\), you should ensure that it exceeds the maximum possible test time of your longest test of the test run set.
 
-        {{<{{<caution>}}>}}
+        {{<caution>}}
 
         If this setting is enabled and any one of your tests does exceed its value, it may have the effect of corrupting the transferred results of other tests in the set.
 

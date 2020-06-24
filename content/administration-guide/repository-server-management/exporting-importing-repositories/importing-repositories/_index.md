@@ -37,7 +37,7 @@ To import repositories, perform the following:
     -   To import repository files as replication repositories, see [Importing a repository as an replication](/TA_Administration/Topics/Importing_repository_replication.html#step_rbp_hbl_nm).
     -   To overwrite existing repositories, select the **Overwrite Repository** check box. Before overwriting the repositories,[stop the repository server](/TA_Administration/Topics/Stopping_repository_server.html).
 
-        {{<{{<caution>}}>}}
+        {{<caution>}}
 
         Since overwriting a repository will cause you to lose the data in the existing repository, please inform your team members to ensure that no project modifications are made during the repository import process.
 

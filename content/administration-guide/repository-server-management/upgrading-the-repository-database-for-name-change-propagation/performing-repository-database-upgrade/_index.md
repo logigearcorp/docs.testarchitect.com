@@ -39,7 +39,7 @@ Ensure the following requirements are met before upgrading a database.
 
 5.  Confirm that you want to upgrade the database.
 
-    {{<{{<caution>}}>}}
+    {{<caution>}}
 
     There is no way for TestArchitect to undo the changes made to the database after it has been upgraded.
 

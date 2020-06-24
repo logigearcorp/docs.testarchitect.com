@@ -10,7 +10,7 @@ keywords: "What is new, TestArchitect 7.2 Update 1, what is new"
 
 This topic describes the changes made in TestArchitect version 7.2 update 1.
 
-{{<{{<caution>}}>}}
+{{<caution>}}
 
 It is strongly recommended that you back up all repositories before upgrading to the latest version of TestArchitect.
 

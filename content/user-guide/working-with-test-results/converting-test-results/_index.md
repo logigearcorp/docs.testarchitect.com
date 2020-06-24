@@ -22,7 +22,7 @@ Since TestArchitect version [8.3](/TA_ReleaseNotes/DITA_source/Whats_New_8.3.htm
 
 Test results generated in earlier TestArchitect versions must be converted to the current XML format, before you can view them. TestArchitect convert test results created in previous versions automatically when you first open them in TestArchitect Client.
 
-{{<{{<caution>}}>}}
+{{<caution>}}
 
 Test result conversion is a one-way process: the **converted test results cannot be opened in TestArchitect versions prior to 8.3**.
 
