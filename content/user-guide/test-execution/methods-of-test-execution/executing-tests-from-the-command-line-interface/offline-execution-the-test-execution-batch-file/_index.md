@@ -21,7 +21,7 @@ In Windows, the generated batch file to execute a test only single controller ha
 @echo off
 title TestArchitect - Command Line Tool 
 
-ta execute [TACommandLine.jar command line[1](/TA_Help/Topics/Test_exec_batch_file.html#fn.tacommandline.ref)]
+ta execute [TACommandLine.jar command line{{<superlink "1" "#fn.tacommandline" >}}]
  
 exit
 ```
@@ -61,14 +61,14 @@ exit
 @echo off
 title TestArchitect - Command Line Tool 
 
-ta execute [TACommandLine.jar command line[1](/TA_Help/Topics/Test_exec_batch_file.html#fn.tacommandline.ref)]
+ta execute [TACommandLine.jar command line{{<superlink "1" "#fn.tacommandline" >}}]
 
 exit
 :TAExecute1
 @echo off  
 title TestArchitect - Command Line Tool 
 
-ta execute [TACommandLine.jar command line[1](/TA_Help/Topics/Test_exec_batch_file.html#fn.tacommandline.ref)]
+ta execute [TACommandLine.jar command line{{<superlink "1" "#fn.tacommandline" >}}]
 
 exit
 ```
@@ -98,25 +98,25 @@ When you specify a [serial test run](/TA_Help/Topics/Test_exec_multiple_TM.html)
 :TAExecute0
 @echo off 
 title TestArchitect - Command Line Tool 
-ta execute [TACommandLine.jar command line for tm01[1](/TA_Help/Topics/Test_exec_batch_file.html#fn.tacommandline.ref)]
-ta execute [TACommandLine.jar command line for tm02[1](/TA_Help/Topics/Test_exec_batch_file.html#fn.tacommandline.ref)]
+ta execute [TACommandLine.jar command line for tm01{{<superlink "1" "#fn.tacommandline" >}}]
+ta execute [TACommandLine.jar command line for tm02{{<superlink "1" "#fn.tacommandline" >}}]
 exit
 
 :TAExecute1
 @echo off
 title TestArchitect - Command Line Tool 
-ta execute  [TACommandLine.jar command line for tm01[1](/TA_Help/Topics/Test_exec_batch_file.html#fn.tacommandline.ref)]
-ta execute  [TACommandLine.jar command line for tm02[1](/TA_Help/Topics/Test_exec_batch_file.html#fn.tacommandline.ref)]
+ta execute  [TACommandLine.jar command line for tm01{{<superlink "1" "#fn.tacommandline" >}}]
+ta execute  [TACommandLine.jar command line for tm02{{<superlink "1" "#fn.tacommandline" >}}]
 exit
 
 :TAExecute2
 @echo off
 title TestArchitect - Command Line Tool 
-ta execute  [TACommandLine.jar command line for tm01[1](/TA_Help/Topics/Test_exec_batch_file.html#fn.tacommandline.ref)]
-ta execute  [TACommandLine.jar command line for tm02[1](/TA_Help/Topics/Test_exec_batch_file.html#fn.tacommandline.ref)]
+ta execute  [TACommandLine.jar command line for tm01{{<superlink "1" "#fn.tacommandline" >}}]
+ta execute  [TACommandLine.jar command line for tm02{{<superlink "1" "#fn.tacommandline" >}}]
 exit
 ```
 
 
-1 For full details of the TACommandLine structure and its arguments, see [Command options](/TA_Help/Topics/Test_exec_cmd.html#section.ta_command_line.options).
+{{<anchor fn.tacommandline>}} For full details of the TACommandLine structure and its arguments, see [Command options](/TA_Help/Topics/Test_exec_cmd.html#section.ta_command_line.options).
 
