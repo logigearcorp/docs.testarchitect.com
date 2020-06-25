@@ -42,6 +42,5 @@ The following built-in setting\(s\) are supported: [date order](/TA_Automation/T
 ![](/images/TA_Automation/Images/automationguide_datefunction11.PNG)
 
 
-(/TA_Automation/Topics/Expressions_functions_plusd.html)
 
 

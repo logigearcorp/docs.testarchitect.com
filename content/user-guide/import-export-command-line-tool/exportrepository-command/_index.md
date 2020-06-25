@@ -69,6 +69,5 @@ java -jar TAImportExportTool.jar --ExportRepository [--server<value>] [--port<va
 
 
 
-(/TA_Help/Topics/ug_export_import_tool_help.html)
 
 

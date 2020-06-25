@@ -38,6 +38,5 @@ The following built-in setting\(s\) are supported: [add month compensation](/TA_
 ![](/images/TA_Automation/Images/automationguide_datefunction9.PNG)
 
 
-(/TA_Automation/Topics/Expressions_functions_plusy.html)
 
 

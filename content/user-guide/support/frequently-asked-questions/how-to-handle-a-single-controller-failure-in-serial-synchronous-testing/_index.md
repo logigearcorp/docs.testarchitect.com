@@ -11,6 +11,5 @@ keywords: "FAQ, How to handle a single controller failure in serial synchronous 
 This depends upon the error handling actions set by the test module. Options for the [on error](/TA_Automation/Topics/bia_on_error.html) action include continue, exit action, or exit test case. The action [on error action](/TA_Automation/Topics/bia_on_error_action.html) allows for more user-customized error handling to be taken. These actions apply to conventional as well as synchronous tests.
 
 
-under VMWare or MS Hyper-V, and/or remotely install the TA software and license? Can this be part of the INITIAL section for a test module?](/TA_FAQ/Topics/faq.can_ta_spin_up_virtual_machines.html)
 
 

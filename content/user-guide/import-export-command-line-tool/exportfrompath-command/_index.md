@@ -118,6 +118,5 @@ java -jar TAImportExportTool.jar --ExportFromPath [--server<value>] [--port<valu
 
 
 
-(/TA_Help/Topics/ug_export_import_tool_import_repository.html)
 
 

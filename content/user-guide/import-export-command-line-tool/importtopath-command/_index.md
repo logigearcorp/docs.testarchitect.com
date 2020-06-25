@@ -112,6 +112,5 @@ java -Dfile.encoding=UTF-8 -jar TAImportExportTool.jar --ImportToPath [--server<
 
 
 
-(/TA_Help/Topics/ug_export_import_tool_export_from_id.html)
 
 

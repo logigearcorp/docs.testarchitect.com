@@ -20,7 +20,6 @@ How to configure JIRA integration in TestArchitect.
 Features of TestArchitect's JIRA integration tool.
 
 
-tools](/TA_Help/Topics/Integration_xUnit.html)
 
 
 **Related information**  

@@ -34,6 +34,5 @@ The following built-in setting\(s\) are supported: [break year](/TA_Automation/T
 ![](/images/TA_Automation/Images/automationguide_datefunction12.PNG)
 
 
-(/TA_Automation/Topics/Expressions_functions_plusbd.html)
 
 

@@ -23,6 +23,5 @@ If, however, the type of item in the active tab is something other than an inter
 ![](/images/TA_Help/Images/Select_an_open_interface_definition_dlg.png)
 
 
-(/TA_Help/Topics/Interface_def_Viewer_refresh.html)
 
 

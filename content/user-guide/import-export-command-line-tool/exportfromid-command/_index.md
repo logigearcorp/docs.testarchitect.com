@@ -116,6 +116,5 @@ java -jar TAImportExportTool.jar --ExportFromID [--server<value>] [--port<value>
 
 
 
-(/TA_Help/Topics/ug_export_import_tool_export_from_path.html)
 
 

@@ -31,6 +31,5 @@ The following built-in setting\(s\) are supported: none.
 ![](/images/TA_Automation/Images/automationguide_datefunction3.PNG)
 
 
-(/TA_Automation/Topics/Expressions_functions_d.html)
 
 
