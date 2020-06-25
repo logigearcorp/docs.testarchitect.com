@@ -233,7 +233,7 @@ for (let index = 0; index < highlight.length; index++) {
     $.getJSON(searchHost+query+'&page=' +page)
       .done(function(res) {
         $results.empty();
-        console.log(res);
+        
         renderResults(res, query);
       });
   }
@@ -283,13 +283,13 @@ setTimeout(function(){ $("#search-header").val(""); }, 1000);
     console.log(query);
     var $results = $("main");
     if (res.results.length < 1) {
-      $results.append($("<div>", {html: "<h3>Sorry we couldn't find any matches for <span class='search-query'>"+query +"</span></h3>"}));
+      $results.append($("<div>", {html: "<h3>Sorry we couldn't find any matches for <span class='search-query'></span></h3>"}));
        var $query = $(".search-query");
         $query.append(document.createTextNode(query));
         return ;
     }
 
-    $results.append($("<div>", {html: '<div ><div class="search-contain"><h4>' + res.itemPerPage*res.totalPage + ' document(s) found for: <span class="search-query">'+query +'</span><h4></div> <span class="search-query-right"><h5>Page '+res.page +'/' + res.totalPage +'</h5></span></div>'}));
+    $results.append($("<div>", {html: '<div ><div class="search-contain"><h4>' + res.totalResults + ' document(s) found for: <span class="search-query">'+query +'</span><h4></div> <span class="search-query-right"><h5>Page '+res.page +'/' + res.totalPage +'</h5></span></div>'}));
 
     // Only show the ten first results
     res.results.forEach(function(result) {

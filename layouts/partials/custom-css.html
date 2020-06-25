@@ -524,6 +524,11 @@ h1.concept{
 }
 
 @media screen and (max-width: 480px) {
+  .dropdown-menu {
+    display: block;
+    margin-top: -15px;
+    margin-bottom: 5px;
+  }
   .sidebar {
   max-width: 100%;
   }
@@ -568,6 +573,11 @@ pre {
     position: absolute;
     top: 6px;
     right: 10px;
+    opacity: 0.2;
+}
+
+.copy_clipboard:hover{
+  opacity: 1;
 }
 
 .copied_clipboard {
@@ -591,10 +601,21 @@ pre {
       }
 
       .search-title {
-        margin-bottom: -20px;
+        /* margin-bottom: -20px; */
       }
 
       #imageviewer-wrapper {
         overflow: auto;
+        height: 100%;
+        flex-flow: wrap;
       }
+
+      
+
+      input::-ms-clear {
+  display: none;
+}
+/* p > img {
+  display: block;
+} */
 </style>
