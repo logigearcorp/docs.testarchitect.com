@@ -39,9 +39,9 @@ A typical Jenkins-based CI environment with integrated TestArchitect involves th
 
     -   TestArchitect may be installed on a Jenkins slave, but not on the Jenkins master.
 
-1.  [Creating a batch file](/TA_Help/Topics/Integration_Jenkins_create_batch_file.html)  
+1.  [Creating a batch file](/user-guide/integration-with-third-party-tools/continuous-integration-ci-tools/jenkins/creating-a-batch-file)  
 To establish a connection between TestArchitect and a Jenkins server, a batch file that includes executed test modules is required.
-2.  [Importing the batch file](/TA_Help/Topics/Integration_Jenkins_import.html)  
+2.  [Importing the batch file](/user-guide/integration-with-third-party-tools/continuous-integration-ci-tools/jenkins/importing-the-batch-file)  
 You need to import the newly-generated batch file into the Jenkins master machine so that it is able to monitor and control its jobs related to executing test modules.
 
 

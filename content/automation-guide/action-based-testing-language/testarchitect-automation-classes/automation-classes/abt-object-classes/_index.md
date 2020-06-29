@@ -10,19 +10,19 @@ keywords:
 
 Classes used by built-in automation methods.
 
-1.  [TACheckState](/TA_Automation/Topics/abt_TACheckState.html)  
+1.  [TACheckState](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abt-object-classes/tacheckstate)  
 
-2.  [TADBResult](/TA_Automation/Topics/abt_TADBResult.html)  
+2.  [TADBResult](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abt-object-classes/tadbresult)  
 
-3.  [TAItemState](/TA_Automation/Topics/abt_TAItemState.html)  
+3.  [TAItemState](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abt-object-classes/taitemstate)  
 
-4.  [TAMouseClickType](/TA_Automation/Topics/abt_TAMouseClickType.html)  
+4.  [TAMouseClickType](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abt-object-classes/tamouseclicktype)  
 
-5.  [TAPoint](/TA_Automation/Topics/abt_TAPoint.html)  
+5.  [TAPoint](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abt-object-classes/tapoint)  
 
-6.  [TARect](/TA_Automation/Topics/abt_TARect.html)  
+6.  [TARect](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abt-object-classes/tarect)  
 
-7.  [TAScrollBarType](/TA_Automation/Topics/abt_TAScrollBarType.html)  
+7.  [TAScrollBarType](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abt-object-classes/tascrollbartype)  
 
 
 

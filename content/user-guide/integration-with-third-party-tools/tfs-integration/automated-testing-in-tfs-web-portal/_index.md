@@ -21,13 +21,13 @@ http://ServerName:8080/tfs/CollectionName/ProjectName
 -   XAML Build has been deprecated. Furthermore, Microsoft Test Manager \(MTM\) no longer supports XAML builds
 -   Using Test Center/Lab Center in MTM for automated testing is no longer supported by TFS, starting with TFS 2018.
 
-Accordingly Build vNext and the Test Hub in the [TFS web portal](/TA_Help/Topics/TFS_web_automated_testing.html) are ideal replacements for respective XAML Build and MTM.\(See also: [Team Foundation Server 2018 Release Notes](https://docs.microsoft.com/en-us/visualstudio/releasenotes/tfs2018-relnotes)\)
+Accordingly Build vNext and the Test Hub in the [TFS web portal](/user-guide/integration-with-third-party-tools/tfs-integration/automated-testing-in-tfs-web-portal/) are ideal replacements for respective XAML Build and MTM.\(See also: [Team Foundation Server 2018 Release Notes](https://docs.microsoft.com/en-us/visualstudio/releasenotes/tfs2018-relnotes)\)
 
-1.  [Creating a build definition and queuing a build](/TA_Help/Topics/TFS_web_creating_and_queuing_build.html)  
+1.  [Creating a build definition and queuing a build](/user-guide/integration-with-third-party-tools/tfs-integration/automated-testing-in-tfs-web-portal/creating-a-build-definition-and-queuing-a-build)  
 This topic gives you a basic guide on creating a build definition and queuing it in the TFS web portal.
-2.  [Creating a release definition](/TA_Help/Topics/TFS_web_creating_release_def.html)  
+2.  [Creating a release definition](/user-guide/integration-with-third-party-tools/tfs-integration/automated-testing-in-tfs-web-portal/creating-a-release-definition)  
 This topic gives you a basic guide on creating a release definition in the TFS web portal.
-3.  [Running automated tests](/TA_Help/Topics/TFS_web_runnning_automated_tests.html)  
+3.  [Running automated tests](/user-guide/integration-with-third-party-tools/tfs-integration/automated-testing-in-tfs-web-portal/running-automated-tests)  
 
 
 

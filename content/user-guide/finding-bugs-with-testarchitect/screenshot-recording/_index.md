@@ -10,7 +10,7 @@ keywords: "screenshot recording, Screenshot viewer, Recorded Screenshot dialog b
 
 Debugging blindly can be tedious work, especially when your test tool does most of its work through the user interface. Moreover, bugs can sometimes be hard to replicate when single-stepping through a test procedure. To address this problem, TestArchitect allows snapshots to be automatically taken of the AUT's display at various critical points during test execution. By letting you observe the display state of the AUT at each stage of the test, you can have a better grasp of where and how a test, or application, is going wrong.
 
-Suppose you executed a long automated test that contains a good deal of interaction with the interface of the application under test, such as mouse clicks, keyboard input, menu item selection, etc. When viewing the generated test result, it may be difficult to understand why some fails, errors or warnings have occurred. It might be easier to identify the problem if the test result were accompanied by snapshots of the screen's display just before, during and after any interactivity between the test and the AUT's UI. This is the function of TestArchitect's screenshot recording: it captures screenshots during test automation attendant with each [UI-interactive action](/TA_Automation/Topics/timing_classifying_actions.html). These screenshots help you better visualize what took place and more easily debug many of the problems that occurred.
+Suppose you executed a long automated test that contains a good deal of interaction with the interface of the application under test, such as mouse clicks, keyboard input, menu item selection, etc. When viewing the generated test result, it may be difficult to understand why some fails, errors or warnings have occurred. It might be easier to identify the problem if the test result were accompanied by snapshots of the screen's display just before, during and after any interactivity between the test and the AUT's UI. This is the function of TestArchitect's screenshot recording: it captures screenshots during test automation attendant with each [UI-interactive action](/automation-guide/action-based-testing-language/the-test-language/timing/understanding-action-types-and-condition-types/classifying-ui-interactive-actions). These screenshots help you better visualize what took place and more easily debug many of the problems that occurred.
 
 {{<note>}}
 
@@ -25,13 +25,13 @@ With screenshot recording enabled, TestArchitect captures screenshots during tes
 
 -   First, you have the option to limit the number of images retained upon conclusion of a test run. You configure these settings at the start of execution in the Execute Test dialog box, which is also where screenshot recording is enabled.
 -   Second, snapshots that TestArchitect deems redundant and unnecessary are discarded.
--   Third, captured screenshots are discarded when the local test result is added to the repository. This removal takes place regardless of whether the [automatic](/TA_Help/Topics/Test_result_storing_automatically.html) or [manual](/TA_Help/Topics/Test_result_viewing_storing.html) method is used to transfer the results to the repository.
+-   Third, captured screenshots are discarded when the local test result is added to the repository. This removal takes place regardless of whether the [automatic](/user-guide/working-with-test-results/adding-test-results-to-the-repository/adding-test-results-automatically) or [manual](/user-guide/working-with-test-results/adding-test-results-to-the-repository/adding-test-results-manually) method is used to transfer the results to the repository.
 
 See [below](#screenshot-capture-and-retention-rules) for a full discussion of the rules regarding screenshot retention.
 
 ## Results display
 
-Screenshots captured during testing are displayed in the [**Result Details**](/TA_Help/Topics/Test_result_details.html#li_jkx_zqp_5x) and [**Failure/Error Summary**](/TA_Help/Topics/ug_results_failure_error_summary.html) tabs of local test results.
+Screenshots captured during testing are displayed in the [**Result Details**](/user-guide/working-with-test-results/overview/result-details-tab#li_jkx_zqp_5x) and [**Failure/Error Summary**](/user-guide/working-with-test-results/overview/failure-error-summary-tab) tabs of local test results.
 
 {{<remember>}} The **Result Details** tab is only available when local test results are viewed on a web browser.
 
@@ -39,7 +39,7 @@ Screenshots captured during testing are displayed in the [**Result Details**](/T
 
 ## Screenshot viewer display
 
-On the web browser, when you click a captured screenshot in the [**Result Details**](/TA_Help/Topics/Test_result_details.html#li_jkx_zqp_5x) tab, the screenshot viewer, appears.
+On the web browser, when you click a captured screenshot in the [**Result Details**](/user-guide/working-with-test-results/overview/result-details-tab#li_jkx_zqp_5x) tab, the screenshot viewer, appears.
 
 ![](/images/TA_Help/Images/Recorded_screenshot_dlg_XML.png)
 
@@ -78,7 +78,7 @@ To deal with issues of utility, performance and disk usage, and to avoid taxing 
 
 The rules are as follows:
 
--   All [UI-interacting](/TA_Automation/Topics/timing_classifying_actions.html) [ABT](/TA_Automation/Topics/The_test_language.html) actions incorporate one or more operations, or [preconditions](/TA_Automation/Topics/timing_preconditions.html), which involve checking to verify the existence of a given UI element which is essential to completion of the action. Often these involve matching a window or control. \(For example, in following action line,
+-   All [UI-interacting](/automation-guide/action-based-testing-language/the-test-language/timing/understanding-action-types-and-condition-types/classifying-ui-interactive-actions) [ABT](/automation-guide/action-based-testing-language/the-test-language/) actions incorporate one or more operations, or [preconditions](/automation-guide/action-based-testing-language/the-test-language/timing/understanding-action-types-and-condition-types/conditions-and-preconditions), which involve checking to verify the existence of a given UI element which is essential to completion of the action. Often these involve matching a window or control. \(For example, in following action line,
 
     ```
                 window      control
@@ -103,7 +103,7 @@ The rules are as follows:
 -   A final screenshot is taken upon the conclusion of every UI-interacting ABT action.
 -   In instances where more than one screenshot is being retained for an action, but two screenshots are identical, the older one is discarded.
 -   When there is an automation problem, \(for example, an unmatched window, undefined control, etc.\), not including syntax errors, TestArchitect captures a single screenshot at the moment the problem occurs.
--   For a UI-interacting [user-scripted action](/TA_Tutorials/Topics/Tutorial_Scripting_actions_in_other_languages.html), TestArchitect captures only a single screenshot at the moment immediately following completion of the action.
+-   For a UI-interacting [user-scripted action](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/), TestArchitect captures only a single screenshot at the moment immediately following completion of the action.
 -   Finally, the number of screenshots retained by TestArchitect is determined by your settings in the Screenshot recording panel of the Execute Test dialog box just prior to your test run:
 
     ![](/images/TA_Help/Images/Screenshot_recording_panel.02.png)
@@ -113,14 +113,14 @@ The rules are as follows:
 
 ## Notes
 
--   **Android:** Screenshot recording, when applied to a connected Android device, requires that the [TestArchitect Agent service](/reuse/../Android/Topics/Android_TA_agent.html) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
+-   **Android:** Screenshot recording, when applied to a connected Android device, requires that the [TestArchitect Agent service](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/setting-up-the-test-environment/setting-up-android-automation/about-testarchitect-agent-in-android/) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
     1.  Connect the Android device to the test controller through a USB cable \(not Wi-Fi\), if not already so connected.
-    2.  Open the [Android Instrumentation Tool](/reuse/../Android/Topics/Android_Instrumentation_tool.html) dialog box.
+    2.  Open the [Android Instrumentation Tool](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/android-instrumentation-tool/) dialog box.
     3.  Click the **Refresh devices list** ![](/images/Android/Images/Refresh_device_list_btn.png) button.
 
--   **[Capturing screenshots during test execution](/TA_Help/Topics/ug_Screenshot_recording_capturing.html)**  
+-   **[Capturing screenshots during test execution](/user-guide/finding-bugs-with-testarchitect/screenshot-recording/capturing-screenshots-during-test-execution)**  
 With screenshot recording active,TestArchitect captures screenshots during test execution for each UI-interactive action. Depending on your settings, it retains some of these screenshots and logs them to the generated test result.
--   **[Capturing screenshots in Web Testing](/TA_Help/Topics/ug_Screenshot_recording_GWD.html)**  
+-   **[Capturing screenshots in Web Testing](/user-guide/finding-bugs-with-testarchitect/screenshot-recording/capturing-screenshots-in-web-testing)**  
 TestArchitect currently provides two ways of capturing screenshots:
 
 
@@ -128,7 +128,7 @@ TestArchitect currently provides two ways of capturing screenshots:
 **Related information**  
 
 
-[Exporting local test results to an HTML file](/TA_Help/Topics/Test_result_export_HTML.html)
+[Exporting local test results to an HTML file](/user-guide/working-with-test-results/exporting-test-results/exporting-local-test-results-to-an-html-file)
 
-[Result Details tab](/TA_Help/Topics/Test_result_details.html)
+[Result Details tab](/user-guide/working-with-test-results/overview/result-details-tab)
 

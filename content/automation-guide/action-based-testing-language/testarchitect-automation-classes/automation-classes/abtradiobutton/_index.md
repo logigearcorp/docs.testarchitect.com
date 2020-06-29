@@ -12,9 +12,9 @@ Object class representing a radio button control.
 
 Built-in methods that you can use as operations on objects of classAbtRadioButton:
 
-1.  [Get](/TA_Automation/Topics/abt_Get_7.html)  
+1.  [Get](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtradiobutton/get)  
 
-2.  [Set](/TA_Automation/Topics/abt_Set_7.html)  
+2.  [Set](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtradiobutton/set)  
 
 
 

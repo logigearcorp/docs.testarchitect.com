@@ -57,23 +57,23 @@ Permissions are based on the functional group, as follows:
 
 Note that user assignments to groups are project-specific. For example, user Mary may be assigned to the Car Rental project as a test manager, while being assigned to the Scrum Board project \(in the same repository\) as a test lead and automation engineer. An exception is that of the administrators group: assignment to administrators is done at the repository level. Hence, if John is assigned to one project as a member of administrators, he is automatically an administrator of all projects in the repository.
 
-1.  [Invoking the Manage Users dialog box](/TA_Administration/Topics/adm_users_invoking_Manage_Users.html)  
+1.  [Invoking the Manage Users dialog box](/administration-guide/users-and-passwords/user-administration/invoking-the-manage-users-dialog-box)  
 The Manage Users dialog box can be used to add or delete users to or from a repository, edit their data, or change their assignments \(permissions\). You can also use the dialog box to change the password of a selected user, but this is only recommended if the user has forgotten his or her password and you need to reset it. It can also be used to assign the user to specific projects as a member of different functional groups, thus setting his or her functional permissions.
-2.  [Creating a repository user](/TA_Administration/Topics/adm_users_creating.html)  
+2.  [Creating a repository user](/administration-guide/users-and-passwords/user-administration/creating-a-repository-user)  
 As an administrator, you can create a TestArchitect user for a repository. You may also match that TestArchitect user to an existing LDAP user, if needed.
-3.  [Deleting a repository user](/TA_Administration/Topics/adm_users_deleting.html)  
+3.  [Deleting a repository user](/administration-guide/users-and-passwords/user-administration/deleting-a-repository-user)  
 As an administrator, you can delete a TestArchitect user if that user is no longer required.
-4.  [Editing a user's profile](/TA_Administration/Topics/adm_users_modifying_profile.html)  
+4.  [Editing a user's profile](/administration-guide/users-and-passwords/user-administration/editing-a-user-s-profile)  
 As an administrator, you can edit the data in a repository user's profile.
-5.  [Changing a repository user's password](/TA_Administration/Topics/adm_users_changing_password.html)  
+5.  [Changing a repository user's password](/administration-guide/users-and-passwords/user-administration/changing-a-repository-user-s-password)  
 As an administrator, you can change the password of a user. This is especially helpful if a user forgets his or her password.
-6.  [Setting a repository's user authentication mode](/TA_Administration/Topics/adm_users_setting_authentication_mode.html)  
+6.  [Setting a repository's user authentication mode](/administration-guide/users-and-passwords/user-administration/setting-a-repository-s-user-authentication-mode)  
 Choose the means by which users of a given repository are to be authenticated when logging in.
-7.  [Assigning projects and permissions to a repository user](/TA_Administration/Topics/adm_users_assigning_repositories.html)  
+7.  [Assigning projects and permissions to a repository user](/administration-guide/users-and-passwords/user-administration/assigning-projects-and-permissions-to-a-repository-user)  
 Repository users can be assigned to one or more projects in the repository, and granted the appropriate permissions in each case.
-8.  [Assigning user permissions for a specific project](/TA_Administration/Topics/adm_users_assigning_permissions.html)  
+8.  [Assigning user permissions for a specific project](/administration-guide/users-and-passwords/user-administration/assigning-user-permissions-for-a-specific-project)  
 Within a given project, TestArchitect users belonging to the administrators and test managers groups are able to assign user's roles.
-9.  [Assigning user permissions for a specific project item](/TA_Administration/Topics/adm_users_assigning_permissions_items.html)  
+9.  [Assigning user permissions for a specific project item](/administration-guide/users-and-passwords/user-administration/assigning-user-permissions-for-a-specific-project-item)  
 Designating the **Assigned user** for a project item.
 
 

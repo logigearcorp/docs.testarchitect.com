@@ -12,7 +12,7 @@ Object class representing an XML document.
 
 Built-in methods that you can use as operations on objects of classAbtXml:
 
-1.  [Query](/TA_Automation/Topics/abt_Query.html)  
+1.  [Query](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtxml/query)  
 
 
 

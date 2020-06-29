@@ -10,13 +10,13 @@ keywords: "managing license servers, licenses, managing servers"
 
 How to start and stop the license server, change the server port, and create a redundant license server.
 
-1.  [Starting and stopping the server](/TA_Administration/Topics/LS_TA_managing_start_stop.html)  
+1.  [Starting and stopping the server](/administration-guide/license-server/managing-the-license-server/starting-and-stopping-the-server)  
 The license server can be started and stopped from the License Server Control Panel.
-2.  [Changing the license server port number](/TA_Administration/Topics/LS_TA_managing_changing_port.html)  
+2.  [Changing the license server port number](/administration-guide/license-server/managing-the-license-server/changing-the-license-server-port-number)  
 You can change the connection port on which a license server listens and grants license connection requests.
-3.  [Creating a redundant license server](/TA_Administration/Topics/LS_TA_managing_creating_redundant_license.html)  
+3.  [Creating a redundant license server](/administration-guide/license-server/managing-the-license-server/creating-a-redundant-license-server)  
 A redundant license server can be set up as a backup for an existing license server. When your primary license server goes down, the redundant license server is automatically and seamlessly activated.
-4.  [Unblocking a redundant license server](/TA_Administration/Topics/adm_unblocking_redundant_license_server.html)  
+4.  [Unblocking a redundant license server](/administration-guide/license-server/managing-the-license-server/unblocking-a-redundant-license-server)  
 After a 72-hour period of continuous operation following the failure or absence of a primary license server, a redundant license server blocks further requests for licenses. If your primary server remains unavailable, send an activation key request to LogiGear for an extension of the redundant server's operation.
 
 

@@ -21,13 +21,13 @@ Action Based Testing is based on test module elements, which are essentially wor
     -   interface elements
 -   data-driven testing, using data sets
 
-1.  [Test Modules](/TA_Help/Topics/ABT_Test_module.html)  
+1.  [Test Modules](/user-guide/introduction-to-action-based-testing/action-based-testing/test-modules)  
 All test development and execution in Action Based Testing is based on test modules.
-2.  [Actions](/TA_Help/Topics/ABT_actions.html)  
+2.  [Actions](/user-guide/introduction-to-action-based-testing/action-based-testing/actions)  
 An action is a reusable container housing a series of operations and checks.
-3.  [Interface definitions](/TA_Help/Topics/ABT_interface_def.html)  
+3.  [Interface definitions](/user-guide/introduction-to-action-based-testing/action-based-testing/interface-definitions)  
 An automated test execution needs to interact with the application under test through one or more interfaces.
-4.  [Data-driven testing](/TA_Help/Topics/ABT_data_driven_testing.html)  
+4.  [Data-driven testing](/user-guide/introduction-to-action-based-testing/action-based-testing/data-driven-testing)  
 In Action Based Testing, action-based tests can be applied to data sets.
 
 

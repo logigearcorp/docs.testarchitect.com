@@ -23,19 +23,19 @@ There are two means by which a test may be paused for debugging:
 -   Technically, you can run a harness in ordinary mode from TestArchitect Client first and then run another harness in debug mode. It is highly inadvisable to try this because it can cause unexpected functions.
 -   It is impossible to run a harness in debug mode first and then run more harness\(es\) in debug/ordinary/compilation mode.
 
-1.  [The debugger](/TA_Help/Topics/Debugging_the_debugger.html)  
+1.  [The debugger](/user-guide/finding-bugs-with-testarchitect/debugging-with-testarchitect/the-debugger)  
 With execution halted, the debugger toolbar offers various functional buttons to help you debug the action lines.
-2.  [Setting breakpoints](/TA_Help/Topics/Debugging_setting_breakpoints.html)  
+2.  [Setting breakpoints](/user-guide/finding-bugs-with-testarchitect/debugging-with-testarchitect/setting-breakpoints)  
 A breakpoint is a location in your action lines that has been designated as a point at which execution is to be paused. With execution thus halted, you can view information about the running application's state at the given point.
-3.  [Starting the debugger](/TA_Help/Topics/Debugging_starting_debugger.html)  
+3.  [Starting the debugger](/user-guide/finding-bugs-with-testarchitect/debugging-with-testarchitect/starting-the-debugger)  
 After defining breakpoints, you can run your test procedure through the debugger.
-4.  [Removing breakpoints](/TA_Help/Topics/Debugging_removing_breakpoints.html)  
+4.  [Removing breakpoints](/user-guide/finding-bugs-with-testarchitect/debugging-with-testarchitect/removing-breakpoints)  
 If you no longer need a breakpoint, delete it.
-5.  [Disabling breakpoints](/TA_Help/Topics/Debugging_disabling_breakpoints.html)  
+5.  [Disabling breakpoints](/user-guide/finding-bugs-with-testarchitect/debugging-with-testarchitect/disabling-breakpoints)  
 Sometimes you may want to disable a breakpoint without doing away with it entirely. Execution is not paused when it meets a disabled breakpoint. The breakpoint remains marked in the margin for your reference, and can be re-enabled when again needed.
-6.  [Enabling breakpoints](/TA_Help/Topics/Debugging_enabling_breakpoints.html)  
+6.  [Enabling breakpoints](/user-guide/finding-bugs-with-testarchitect/debugging-with-testarchitect/enabling-breakpoints)  
 Reactivating a disabled breakpoint.
-7.  [Debugging in a remote desktop session](/TA_Help/Topics/Debugging_remote_desktop_session.html)  
+7.  [Debugging in a remote desktop session](/user-guide/finding-bugs-with-testarchitect/debugging-with-testarchitect/debugging-in-a-remote-desktop-session)  
 How to debug a harness in a remote desktop session.
 
 
@@ -43,5 +43,5 @@ How to debug a harness in a remote desktop session.
 **Related information**  
 
 
-[Working with Eclipse](/TA_Help/Topics/Integration_eclipse_intro.html)
+[Working with Eclipse](/user-guide/integration-with-third-party-tools/working-with-eclipse/)
 

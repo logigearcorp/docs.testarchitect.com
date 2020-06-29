@@ -27,21 +27,21 @@ At the broadest level, the steps involved in developing Zephyr test cases for in
 
 With this integration with Zephyr, you will be able to do the following:
 
-1.  [Importing Zephyr test cases into TestArchitect](/TA_Help/Topics/ug_Zephyr_importing_Zephyr_test_cases.html)  
+1.  [Importing Zephyr test cases into TestArchitect](/user-guide/integration-with-third-party-tools/zephyr-integration/features-of-testarchitect-zephyr-integration/importing-zephyr-test-cases-into-testarchitect)  
 Test cases residing on Zephyr can be imported into TestArchitect, which also establishes one-to-one mappings between the two sets of test cases.
-2.  [Uploading TestArchitect test modules/test cases to Zephyr](/TA_Help/Topics/ug_Zephyr_upload_TA_TM_TC.html)  
+2.  [Uploading TestArchitect test modules/test cases to Zephyr](/user-guide/integration-with-third-party-tools/zephyr-integration/features-of-testarchitect-zephyr-integration/uploading-testarchitect-test-modules-test-cases-to-zephyr/)  
 TestArchitect test cases and test modules can be uploaded to the Zephyr server, which also establishes one-to-one mappings between the two sets of test cases.
-3.  [Mapping TestArchitect test cases to Zephyr test cases](/TA_Help/Topics/ug_Zephyr_mapping_test_cases.html)  
+3.  [Mapping TestArchitect test cases to Zephyr test cases](/user-guide/integration-with-third-party-tools/zephyr-integration/features-of-testarchitect-zephyr-integration/mapping-testarchitect-test-cases-to-zephyr-test-cases)  
 Mappings between TestArchitect and Zephyr test cases are generated automatically when Zephyr test cases are imported to TestArchitect, and when TestArchitect test cases are uploaded to Zephyr. There may be occasions, however, when you need to create a linkage between test cases created independently on the two systems.
-4.  [Mapping TestArchitect test modules to Zephyr test cases](/TA_Help/Topics/Zephyr_mapping_TM.html)  
+4.  [Mapping TestArchitect test modules to Zephyr test cases](/user-guide/integration-with-third-party-tools/zephyr-integration/features-of-testarchitect-zephyr-integration/mapping-testarchitect-test-modules-to-zephyr-test-cases)  
 Apart from TestArchitect test cases, you can map TestArchitect test modules to Zephyr test cases.
-5.  [Uploading TestArchitect test results to Zephyr](/TA_Help/Topics/ug_Zephyr_uploading_results.html)  
+5.  [Uploading TestArchitect test results to Zephyr](/user-guide/integration-with-third-party-tools/zephyr-integration/features-of-testarchitect-zephyr-integration/uploading-testarchitect-test-results-to-zephyr/)  
 TestArchitect test results from test projects which are mapped to Zephyr can be uploaded to Zephyr manually or automatically.
-6.  [Executing tests from Zephyr](/TA_Help/Topics/ug_Zephyr_executing_tests.html)  
+6.  [Executing tests from Zephyr](/user-guide/integration-with-third-party-tools/zephyr-integration/features-of-testarchitect-zephyr-integration/executing-tests-from-zephyr)  
 As an alternative to executing tests from TestArchitect, TestArchitect test cases and test modules may be executed from Zephyr.
-7.  [Creating matching custom fields in TestArchitect and Zephyr](/TA_Help/Topics/ug_Zephyr_creating_custom_fields.html)  
+7.  [Creating matching custom fields in TestArchitect and Zephyr](/user-guide/integration-with-third-party-tools/zephyr-integration/features-of-testarchitect-zephyr-integration/creating-matching-custom-fields-in-testarchitect-and-zephyr)  
 User-defined fields in TestArchitect are automatically mapped to Zephyr custom fields when the names and data types match.
-8.  [Rules for mapping custom fields between TestArchitect and Zephyr](/TA_Help/Topics/ug_Zephyr_matching_custom_fields.html)  
+8.  [Rules for mapping custom fields between TestArchitect and Zephyr](/user-guide/integration-with-third-party-tools/zephyr-integration/features-of-testarchitect-zephyr-integration/rules-for-mapping-custom-fields-between-testarchitect-and-zephyr)  
 Custom test case fields in Zephyr can be mapped to user-defined fields in TestArchitect test modules or test cases.
 
 

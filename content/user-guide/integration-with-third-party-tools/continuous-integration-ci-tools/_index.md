@@ -29,7 +29,7 @@ To enable integration between TestArchitect and a continuous integration \(CI\) 
     The selected test modules are executed and an XML file that includes the test result data is generated at the specified location.
 
 
-1.  [Jenkins](/TA_Help/Topics/Integration_Jenkins.html)  
+1.  [Jenkins](/user-guide/integration-with-third-party-tools/continuous-integration-ci-tools/jenkins/)  
 TestArchitect incorporates features that allow it to be readily integrated into a Jenkins-based CI environment.
 
 

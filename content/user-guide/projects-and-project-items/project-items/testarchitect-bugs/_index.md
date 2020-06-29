@@ -10,7 +10,7 @@ keywords: "bugs, workflow, TestArchitect bugs, life cycle, statuses, types, cate
 
 A bug in TestArchitect is a failure in an automation run which impairs or prevents the proper functioning of the automated test, and which can generally be attributed either to a bug in the application under test, or to a problem with the test itself. From hereon, any such bug is referred to as a TestArchitect bug, or TA bug.
 
-{{<tip>}} For more details on how to work with TA bugs and integrate them with the JIRA bug tracking system, see [JIRA integration](/TA_Help/Topics/JIRA_Integration.html)
+{{<tip>}} For more details on how to work with TA bugs and integrate them with the JIRA bug tracking system, see [JIRA integration](/user-guide/integration-with-third-party-tools/jira-integration/)
 
 ## Workflow
 
@@ -32,9 +32,9 @@ Each TA bug has a status indicating where the bug currently is in its life cycle
 
 TA bugs are categorized into two types: registered bugs and unregistered bugs.
 
-Registered bugs are bug records created in TestArchitect and associated with a bug on an external bug tracking system. You may refer to [Creating registered TA bugs](/TA_Help/Topics/JIRA_creating_registered_bugs.html) to see how to create a bug associated with a JIRA bug.
+Registered bugs are bug records created in TestArchitect and associated with a bug on an external bug tracking system. You may refer to [Creating registered TA bugs](/user-guide/integration-with-third-party-tools/jira-integration/configuring-jira-integration/creating-registered-ta-bugs-with-jira-bug-tracker) to see how to create a bug associated with a JIRA bug.
 
-On the other hand, unregistered bugs are created in TestArchitect but not associated with a bug on any external bug tracking system. Refer to [Creating unregistered TA bugs](/TA_Help/Topics/JIRA_creating_unregistered_bugs.html).
+On the other hand, unregistered bugs are created in TestArchitect but not associated with a bug on any external bug tracking system. Refer to [Creating unregistered TA bugs](/user-guide/projects-and-project-items/project-items/testarchitect-bugs/creating-unregistered-ta-bugs).
 
 ## Bug information
 
@@ -48,12 +48,12 @@ The fields of the **Information** tab are:
 
 |Field|Description|
 |-----|-----------|
-|**Bug ID**|\(Automatically generated\) The ID of the TA bug. This bug ID is combination of [a prefix key](/TA_Help/Topics/Projects_and_project_items_create_project.html) followed by an ID number, separated by a hyphen.|
+|**Bug ID**|\(Automatically generated\) The ID of the TA bug. This bug ID is combination of [a prefix key](/user-guide/projects-and-project-items/projects-in-testarchitect/create-a-new-project) followed by an ID number, separated by a hyphen.|
 |**Summary**|A brief one-line summary of the TA bug. {{<note>}} The **Summary** field cannot be empty.<br><br>|<br>
 |**Description**|A detailed description of the TA bug.|
-|**URL**|\(Automatically generated\) The [TestArchitect URL address](/TA_Help/Topics/Additional_features_TA_URL.html) of this bug.|
+|**URL**|\(Automatically generated\) The [TestArchitect URL address](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/testarchitect-url) of this bug.|
 |**Source**|The bug ID of an external bug tracking system associated with the TA bug.<br><br> {{<note>}}<br><br>-   If this is an unregistered bug, this field is empty.<br>-   You may change the **Source** value to drop the current link and association this bug with another external bug.<br>-   You can also clear the **Source** content to decouple this bug from its associated external bug, rendering this an unregistered bug.<br><br>|<br>
-|**Current status**|The current life cycle stage of this TA bug \(refer to [Workflow](/TA_Help/Topics/Bugs.html#ksec_tabugs_workflow)\)|
+|**Current status**|The current life cycle stage of this TA bug \(refer to [Workflow](/user-guide/projects-and-project-items/project-items/testarchitect-bugs/#ksec_tabugs_workflow)\)|
 |**Last update date**|The date on which this TA bug was last updated from an external bug tracking system.|
 |**Last update by**|The person who last edited this TA bug.|
 |**Creation date**|The date on which this TA bug was created in TestArchitect.|
@@ -73,13 +73,13 @@ The fields shown in the above screenshot are:
 |**Test Line**|The line number where the bug is marked as a known bug.|
 |**Marked By**|The person who marked the bug.|
 
-1.  [Creating unregistered TA bugs](/TA_Help/Topics/JIRA_creating_unregistered_bugs.html)  
+1.  [Creating unregistered TA bugs](/user-guide/projects-and-project-items/project-items/testarchitect-bugs/creating-unregistered-ta-bugs)  
 An unregistered TestArchitect bug \(TA bug\) is one that is created in TestArchitect but it is not associated with a JIRA bug.
-2.  [Working with known bugs](/TA_Help/Topics/Bugs_working_known_bug.html)  
+2.  [Working with known bugs](/user-guide/projects-and-project-items/project-items/testarchitect-bugs/working-with-known-bugs/)  
 Known bugs indicate where fails in a test have been recognized so that those fails are ignored in subsequent automation run results. The Ignore known bug feature helps you obtain test results from test runs that are not cluttered up with fails from known bugs, thus rendering the results easier to analyze.
-3.  [Viewing TA bugs](/TA_Help/Topics/Bug_opening.html)  
+3.  [Viewing TA bugs](/user-guide/projects-and-project-items/project-items/testarchitect-bugs/viewing-ta-bugs)  
 How to access existing TA bugs.
-4.  [Deleting TA bugs](/TA_Help/Topics/Bugs_deleting.html)  
+4.  [Deleting TA bugs](/user-guide/projects-and-project-items/project-items/testarchitect-bugs/deleting-ta-bugs)  
 TA bugs can be removed from the system once they have been addressed.
 
 
@@ -88,5 +88,5 @@ TA bugs can be removed from the system once they have been addressed.
 **Related information**  
 
 
-[JIRA integration](/TA_Help/Topics/JIRA_Integration.html)
+[JIRA integration](/user-guide/integration-with-third-party-tools/jira-integration/)
 

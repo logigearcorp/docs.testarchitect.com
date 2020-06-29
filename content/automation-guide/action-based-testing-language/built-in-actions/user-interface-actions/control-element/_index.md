@@ -10,39 +10,39 @@ keywords:
 
 This section includes built-in actions which interact with general controls in application under test.
 
-1.  [check](/TA_Automation/Topics/bia_check.html)  
+1.  [check](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/check)  
 
-2.  [check control exists](/TA_Automation/Topics/bia_check_control_exists.html)  
+2.  [check control exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/check-control-exists)  
 
-3.  [check control not exists](/TA_Automation/Topics/bia_check_control_not_exists.html)  
+3.  [check control not exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/check-control-not-exists)  
 
-4.  [check control property](/TA_Automation/Topics/bia_check_control_property.html)  
+4.  [check control property](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/check-control-property)  
 
-5.  [check control tooltip](/TA_Automation/Topics/bia_check_control_tooltip.html)  
+5.  [check control tooltip](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/check-control-tooltip)  
 
-6.  [check native property](/TA_Automation/Topics/bia_check_native_property.html)  
+6.  [check native property](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/check-native-property)  
 
-7.  [check tab order](/TA_Automation/Topics/bia_check_tab_order.html)  
+7.  [check tab order](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/check-tab-order)  
 
-8.  [does control exist](/TA_Automation/Topics/bia_does_control_exist.html)  
+8.  [does control exist](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/does-control-exist)  
 
-9.  [enter](/TA_Automation/Topics/bia_enter.html)  
+9.  [enter](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/enter)  
 
-10. [focus control](/TA_Automation/Topics/bia_focus_control.html)  
+10. [focus control](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/focus-control)  
 
-11. [get](/TA_Automation/Topics/bia_get.html)  
+11. [get](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/get)  
 
-12. [get control property](/TA_Automation/Topics/bia_get_control_property.html)  
+12. [get control property](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/get-control-property)  
 
-13. [get control tooltip](/TA_Automation/Topics/bia_get_control_tooltip.html)  
+13. [get control tooltip](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/get-control-tooltip)  
 
-14. [get native property](/TA_Automation/Topics/bia_get_native_property.html)  
+14. [get native property](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/get-native-property)  
 
-15. [is control focused](/TA_Automation/Topics/bia_is_control_focused.html)  
+15. [is control focused](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/is-control-focused)  
 
-16. [set](/TA_Automation/Topics/bia_set.html)  
+16. [set](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/set)  
 
-17. [set native property](/TA_Automation/Topics/bia_set_native_property.html)  
+17. [set native property](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/set-native-property)  
 
 
 

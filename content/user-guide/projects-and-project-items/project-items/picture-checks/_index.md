@@ -36,7 +36,7 @@ There are two ways in which TestArchitect stores the picture checks:
 
 ## Definition of regular picture checks
 
-As a tester, you would use regular picture checks for pictures like charts \(histograms, graphs, pie charts, etc.\), that need to accurately display data that is specific for the situation where the [check picture](/TA_Automation/Topics/bia_check_picture.html) built-in action is applied.
+As a tester, you would use regular picture checks for pictures like charts \(histograms, graphs, pie charts, etc.\), that need to accurately display data that is specific for the situation where the [check picture](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/check-picture) built-in action is applied.
 
 {{<note>}}
 
@@ -44,7 +44,7 @@ As a tester, you would use regular picture checks for pictures like charts \(his
 
     ![](/images/TA_Help/Images/bia_check_picture_aut_10.png)
 
--   Instead of capturing regular picture checks through the [check picture](/TA_Automation/Topics/bia_check_picture.html) action, you can also use the [Picture Capturing](/TA_Help/Topics/Additional_features_image_capturing_tool.html) tool. Or you can even import regular picture checks from external image files \([learn more](/TA_Help/Topics/ug_picture_checks_importing_images.html).\)
+-   Instead of capturing regular picture checks through the [check picture](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/check-picture) action, you can also use the [Picture Capturing](/user-guide/projects-and-project-items/project-items/picture-checks/picture-capturing-tool/) tool. Or you can even import regular picture checks from external image files \([learn more](/user-guide/projects-and-project-items/project-items/picture-checks/importing-external-image-sources/).\)
 
 ## Definition of shared picture checks
 
@@ -52,11 +52,11 @@ Shared picture checks are useful for standard pictures, like symbols and icons, 
 
 {{<note>}}
 
--   To capture shared picture checks, use the [Picture Capturing Tool](/TA_Help/Topics/Additional_features_image_capturing_tool.html).
+-   To capture shared picture checks, use the [Picture Capturing Tool](/user-guide/projects-and-project-items/project-items/picture-checks/picture-capturing-tool/).
 -   You may view the baseline pictures there, and if necessary delete them, or even delete the entire picture check.
--   When writing a test with a picture check, indicate a shared picture check by preceding the picture's name \(the name or picture argument of [Picture Handling](/TA_Automation/Topics/bia_picture_handling.html) built-in actions\) with a forward slash \(/\).
+-   When writing a test with a picture check, indicate a shared picture check by preceding the picture's name \(the name or picture argument of [Picture Handling](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/) built-in actions\) with a forward slash \(/\).
 
-Suppose that we use a [check picture](/TA_Automation/Topics/bia_check_picture.html) action with a name argument of /chevy in a test module. After running that test module, we approve the picture as a baseline. We can then see the picture check and the stored baseline picture in the TestArchitect explorer tree, as shown below. By double-clicking the Baseline node, we can view that baseline picture.
+Suppose that we use a [check picture](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/check-picture) action with a name argument of /chevy in a test module. After running that test module, we approve the picture as a baseline. We can then see the picture check and the stored baseline picture in the TestArchitect explorer tree, as shown below. By double-clicking the Baseline node, we can view that baseline picture.
 
 ![](/images/TA_Help/Images/bia_check_picture_aut_11.png)
 
@@ -64,21 +64,21 @@ Suppose that we use a [check picture](/TA_Automation/Topics/bia_check_picture.ht
 
 There are essentially three ways to accomplish this:
 
--   One is within the context of a test itself. During testing, when a [check picture](/TA_Automation/Topics/bia_check_picture.html) built-in action executes, if the captured test image does not match any baseline\(s\) belonging to the referenced picture check \(or no baseline yet exists for the picture check\) you are given the opportunity to designate the newly-captured image as a new baseline.
--   Alternatively, you can import picture checks or baseline images from external files. \([Learn more](/TA_Help/Topics/ug_picture_checks_importing_images.html).\)
--   Finally, you can create new picture checks or baseline images in a fully manual mode, outside of the context of a test. You accomplish this with TestArchitect's Picture Capturing tool. \([Learn more](/TA_Help/Topics/Additional_features_image_capturing_tool_capturing_saving.html).\)
+-   One is within the context of a test itself. During testing, when a [check picture](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/check-picture) built-in action executes, if the captured test image does not match any baseline\(s\) belonging to the referenced picture check \(or no baseline yet exists for the picture check\) you are given the opportunity to designate the newly-captured image as a new baseline.
+-   Alternatively, you can import picture checks or baseline images from external files. \([Learn more](/user-guide/projects-and-project-items/project-items/picture-checks/importing-external-image-sources/).\)
+-   Finally, you can create new picture checks or baseline images in a fully manual mode, outside of the context of a test. You accomplish this with TestArchitect's Picture Capturing tool. \([Learn more](/user-guide/projects-and-project-items/project-items/picture-checks/picture-capturing-tool/capturing-new-images).\)
 
--   **[Picture Capturing tool](/TA_Help/Topics/Additional_features_image_capturing_tool.html)**  
+-   **[Picture Capturing tool](/user-guide/projects-and-project-items/project-items/picture-checks/picture-capturing-tool/)**  
 The Picture Capturing tool lets you instantly capture the screen images of your test machines.
--   **[Key Points Modification tool](/TA_Help/Topics/ug_Key_point_modify_tool.html)**  
+-   **[Key Points Modification tool](/user-guide/projects-and-project-items/project-items/picture-checks/key-points-modification-tool/)**  
 The Key Points Modification tool applies a keypoint detection technique to detect matched objects between baseline images and a target images.
--   **[Importing external image sources](/TA_Help/Topics/ug_picture_checks_importing_images.html)**  
+-   **[Importing external image sources](/user-guide/projects-and-project-items/project-items/picture-checks/importing-external-image-sources/)**  
 TestArchitect lets you easily import image files \(.PNG\) format\) as a new picture checks or additional new baseline images.
--   **[Exporting baseline images](/TA_Help/Topics/ug_picture_checks_exporting.html)**  
+-   **[Exporting baseline images](/user-guide/projects-and-project-items/project-items/picture-checks/exporting-baseline-images)**  
 Baseline images can be exported to image files \(.PNG format\), which can be used as a backup or for re-importing.
--   **[Resolving unverified picture checks](/TA_Help/Topics/ug_Resolving_unverfied_picture_checks.html)**  
+-   **[Resolving unverified picture checks](/user-guide/projects-and-project-items/project-items/picture-checks/resolving-unverified-picture-checks)**  
 Explains step-by-steps procedures to resolve unverified picture checks.
--   **[Configuring notification time period to resolve unverified picture checks](/TA_Help/Topics/ug_configuring_notification_unverified_picture_checks.html)**  
+-   **[Configuring notification time period to resolve unverified picture checks](/user-guide/projects-and-project-items/project-items/picture-checks/configuring-notification-time-period-to-resolve-unverified-picture-checks)**  
 By default, you will be notified every five days when you log into a repository which has repository test results containing unverified picture checks.
 
 

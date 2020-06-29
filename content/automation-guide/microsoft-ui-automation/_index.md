@@ -19,13 +19,13 @@ TestArchitect can work with UI controls that are exposed by the Microsoft UI Aut
 
 {{<restriction>}} The UIA Support tool is not available in the TestArchitect package for Linux and macOS operating systems.
 
-If the UIA Support tool is activated, TestArchitect is able to obtain information on UI controls of the AUT. UI Automation Framework includes special providers that expose rich information regarding properties of buttons, check boxes, list boxes, and other supported controls. For more information, please see [List of UIA controls](/TA_Automation/Topics/aut_UIA_controls.html).
+If the UIA Support tool is activated, TestArchitect is able to obtain information on UI controls of the AUT. UI Automation Framework includes special providers that expose rich information regarding properties of buttons, check boxes, list boxes, and other supported controls. For more information, please see [List of UIA controls](/automation-guide/microsoft-ui-automation/uia-controls/).
 
 
 
-1.  [Enabling UIA Support tool](/TA_Automation/Topics/aut_UIA_activation.html)  
+1.  [Enabling UIA Support tool](/automation-guide/microsoft-ui-automation/enabling-uia-support-tool)  
 To support Microsoft UI Automation technology in TestArchitect, enable the UIA Support tool.
-2.  [UIA controls](/TA_Automation/Topics/aut_UIA_controls.html)  
+2.  [UIA controls](/automation-guide/microsoft-ui-automation/uia-controls/)  
 Information on various supported UIA controls.
 
 

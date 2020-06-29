@@ -10,69 +10,69 @@ keywords:
 
 Actions which interact with toolbar, menu, scroll bar controls in an AUT.
 
-1.  [check button menu exists](/TA_Automation/Topics/bia_check_button_menu_exists.html)  
+1.  [check button menu exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/check-button-menu-exists)  
 
-2.  [check button menu not exists](/TA_Automation/Topics/bia_check_button_menu_not_exists.html)  
+2.  [check button menu not exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/check-button-menu-not-exists)  
 
-3.  [check context menu item exists](/TA_Automation/Topics/bia_check_context_menu_item_exists.html)  
+3.  [check context menu item exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/check-context-menu-item-exists)  
 
-4.  [check context menu item not exists](/TA_Automation/Topics/bia_check_context_menu_item_not_exists.html)  
+4.  [check context menu item not exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/check-context-menu-item-not-exists)  
 
-5.  [check context menu item state](/TA_Automation/Topics/bia_check_context_menu_item_state.html)  
+5.  [check context menu item state](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/check-context-menu-item-state)  
 
-6.  [check menu item exists](/TA_Automation/Topics/bia_check_menu_item_exists.html)  
+6.  [check menu item exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/check-menu-item-exists)  
 
-7.  [check toolbar button exists](/TA_Automation/Topics/bia_check_toolbar_button_exists.html)  
+7.  [check toolbar button exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/check-toolbar-button-exists)  
 
-8.  [check toolbar button not exists](/TA_Automation/Topics/bia_check_toolbar_button_not_exists.html)  
+8.  [check toolbar button not exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/check-toolbar-button-not-exists)  
 
-9.  [check toolbar button state](/TA_Automation/Topics/bia_check_toolbar_button_state.html)  
+9.  [check toolbar button state](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/check-toolbar-button-state)  
 
-10. [check toolbar control value](/TA_Automation/Topics/bia_check_toolbar_control_value.html)  
+10. [check toolbar control value](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/check-toolbar-control-value)  
 
-11. [check toolbar menu item exists](/TA_Automation/Topics/bia_check_toolbar_menu_item_exists.html)  
+11. [check toolbar menu item exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/check-toolbar-menu-item-exists)  
 
-12. [check toolbar menu item not exists](/TA_Automation/Topics/bia_check_toolbar_menu_item_not_exists.html)  
+12. [check toolbar menu item not exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/check-toolbar-menu-item-not-exists)  
 
-13. [check toolbar menu state](/TA_Automation/Topics/bia_check_toolbar_menu_state.html)  
+13. [check toolbar menu state](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/check-toolbar-menu-state)  
 
-14. [click select menu](/TA_Automation/Topics/bia_click_select_menu.html)  
+14. [click select menu](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/click-select-menu)  
 
-15. [click toolbar button](/TA_Automation/Topics/bia_click_toolbar_button.html)  
+15. [click toolbar button](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/click-toolbar-button)  
 
-16. [does button menu exist](/TA_Automation/Topics/bia_does_button_menu_exist.html)  
+16. [does button menu exist](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/does-button-menu-exist)  
 
-17. [does context menu item exist](/TA_Automation/Topics/bia_does_context_menu_item_exist.html)  
+17. [does context menu item exist](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/does-context-menu-item-exist)  
 
-18. [does menu item exist](/TA_Automation/Topics/bia_does_menu_item_exist.html)  
+18. [does menu item exist](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/does-menu-item-exist)  
 
-19. [does toolbar button exist](/TA_Automation/Topics/bia_does_toolbar_button_exist.html)  
+19. [does toolbar button exist](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/does-toolbar-button-exist)  
 
-20. [does toolbar menu item exist](/TA_Automation/Topics/bia_does_toolbar_menu_item_exist.html)  
+20. [does toolbar menu item exist](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/does-toolbar-menu-item-exist)  
 
-21. [get context menu item state](/TA_Automation/Topics/bia_get_context_menu_item_state.html)  
+21. [get context menu item state](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/get-context-menu-item-state)  
 
-22. [get toolbar menu state](/TA_Automation/Topics/bia_get_toolbar_menu_state.html)  
+22. [get toolbar menu state](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/get-toolbar-menu-state)  
 
-23. [is toolbar button pressed](/TA_Automation/Topics/bia_is_toolbar_button_pressed.html)  
+23. [is toolbar button pressed](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/is-toolbar-button-pressed)  
 
-24. [scroll down](/TA_Automation/Topics/bia_scroll_down.html)  
+24. [scroll down](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/scroll-down)  
 
-25. [scroll left](/TA_Automation/Topics/bia_scroll_left.html)  
+25. [scroll left](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/scroll-left)  
 
-26. [scroll right](/TA_Automation/Topics/bia_scroll_right.html)  
+26. [scroll right](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/scroll-right)  
 
-27. [scroll up](/TA_Automation/Topics/bia_scroll_up.html)  
+27. [scroll up](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/scroll-up)  
 
-28. [select button menu](/TA_Automation/Topics/bia_select_button_menu.html)  
+28. [select button menu](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/select-button-menu)  
 
-29. [select context menu item](/TA_Automation/Topics/bia_select_context_menu_item.html)  
+29. [select context menu item](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/select-context-menu-item)  
 
-30. [select list item menu](/TA_Automation/Topics/bia_select_list_item_menu.html)  
+30. [select list item menu](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/select-list-item-menu)  
 
-31. [select menu item](/TA_Automation/Topics/bia_select_menu_item.html)  
+31. [select menu item](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/select-menu-item)  
 
-32. [select toolbar menu](/TA_Automation/Topics/bia_select_toolbar_menu.html)  
+32. [select toolbar menu](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/select-toolbar-menu)  
 
 
 

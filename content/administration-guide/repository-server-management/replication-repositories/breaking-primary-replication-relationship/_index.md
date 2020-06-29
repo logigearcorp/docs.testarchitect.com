@@ -12,9 +12,9 @@ In some instances, it may be desirable to break the primary-replication reposito
 
 {{<note>}} You can remove either a replication server or primary server from the relationship.
 
--   **[Removing a replication server](/TA_Administration/Topics/adm_Removing_primary_repication_repository.html)**  
+-   **[Removing a replication server](/administration-guide/repository-server-management/replication-repositories/breaking-primary-replication-relationship/removing-a-replication-server)**  
 Procedures for removing a replication server from a primary-replication relationship.
--   **[Removing primary server](/TA_Administration/Topics/adm_Setting_up_primary_replication_repository_2.html)**  
+-   **[Removing primary server](/administration-guide/repository-server-management/replication-repositories/breaking-primary-replication-relationship/removing-primary-server)**  
 Procedures for removing the primary server from a primary-replication relationship.
 
 

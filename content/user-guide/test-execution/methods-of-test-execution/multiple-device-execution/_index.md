@@ -10,7 +10,7 @@ keywords: "executing tests, multiple devices, execution"
 
 An automated test can be run on multiple devices attached to a local host, and/or on multiple controllers, and/or on multiple devices attached to the controllers.
 
-Ensure that the controllers for the hosts or devices that you want to execute the test on are visible to the local host machine and/or registered with the [Lab Manager Server](/TA_Help/Topics/Lab_manager.html).
+Ensure that the controllers for the hosts or devices that you want to execute the test on are visible to the local host machine and/or registered with the [Lab Manager Server](/user-guide/lab-manager/).
 
 To execute a test on one or more devices:
 
@@ -49,13 +49,13 @@ To execute a test on one or more devices:
 
 TestArchitect saves the settings on the Select Controller/Device dialog box and executes the test on designated remote hosts. The same settings are used as the default for the next test execution.
 
-TestArchitect automatically adds controllers/devices executing tests to the controller/device list on the [Controller status](/TA_Help/Topics/Lab_manager_controller.html) and [Device status](/TA_Help/Topics/Lab_manager_device.html), and you can monitor the test progress there.
+TestArchitect automatically adds controllers/devices executing tests to the controller/device list on the [Controller status](/user-guide/lab-manager/managing-automation-lab/controller-status) and [Device status](/user-guide/lab-manager/managing-automation-lab/device-status), and you can monitor the test progress there.
 
 {{<warning>}} If the controllers/devices executing tests have been already registered to another Lab Manager server, TestArchitect will not add those controllers/devices automatically to the controller/device list on your local Lab Manager server.
 
-{{<note>}} The selected devices are written as new parameters when you generate a batch file. The parameter `-devices` is written to the batch file. \([Learn more](/TA_Help/Topics/Test_exec_cmd.html).\)
+{{<note>}} The selected devices are written as new parameters when you generate a batch file. The parameter `-devices` is written to the batch file. \([Learn more](/user-guide/test-execution/methods-of-test-execution/executing-tests-from-the-command-line-interface/).\)
 
--   **[Troubleshooting multiple device execution](/TA_Help/Topics/Test_exec_multiple_device_execution_troubleshooting.html)**  
+-   **[Troubleshooting multiple device execution](/user-guide/test-execution/methods-of-test-execution/multiple-device-execution/troubleshooting-multiple-device-execution)**  
 Typical issues that you may encounter when executing tests on multiple devices, and possible solutions.
 
 
@@ -64,5 +64,5 @@ Typical issues that you may encounter when executing tests on multiple devices, 
 **Related information**  
 
 
-[Default port numbers and port ranges](/TA_Administration/Topics/adm_port_number_port_ranges.html)
+[Default port numbers and port ranges](/administration-guide/default-port-numbers-and-port-ranges)
 

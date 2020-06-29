@@ -36,13 +36,13 @@ The Android command line tool allows you to perform the following operations on 
 
 {{<note>}} It is highly recommended that you do not combine Android commands with the pipe operator \( \| \) to pass the output of one Android command to another for further processing.
 
-1.  [Installing the Android command line tool](/Android/Topics/Android_command_line_tool_install.html)  
+1.  [Installing the Android command line tool](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/android-command-line-tool/installing-the-android-command-line-tool/)  
 The Install command is used to re-sign an Android application, and then to install it.
-2.  [Start command of the Android command line tool](/Android/Topics/Android_command_line_tool_start.html)  
+2.  [Start command of the Android command line tool](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/android-command-line-tool/start-command-of-the-android-command-line-tool/)  
 The Start command is used to launch an Android application from an Android device.
-3.  [Uninstall command of the Android command line tool](/Android/Topics/Android_command_line_tool_uninstall.html)  
+3.  [Uninstall command of the Android command line tool](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/android-command-line-tool/uninstall-command-of-the-android-command-line-tool/)  
 The Uninstall command is used to uninstall an application from an Android device.
-4.  [Help command of the Android command line tool](/Android/Topics/Android_command_line_tool_help.html)  
+4.  [Help command of the Android command line tool](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/android-command-line-tool/help-command-of-the-android-command-line-tool)  
 The Help command, used from a Windows command prompt or a Linux terminal, can be used to retrieve descriptive information on the functionality and options of the Android command line tool.
 
 
@@ -51,5 +51,5 @@ The Help command, used from a Windows command prompt or a Linux terminal, can be
 **Related information**  
 
 
-[execute command](/TA_Automation/Topics/bia_execute_command.html)
+[execute command](/automation-guide/action-based-testing-language/built-in-actions/system-actions/command-line/execute-command)
 

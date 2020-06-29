@@ -20,13 +20,13 @@ The last exercise also demonstrated how code for a new action \(hello\) can be a
 
 {{<note>}} mod\_Example.py contains two action implementations in Python, one of which is check sort order, which, like check row count, operates on tables. Hence, if you plan to actually make use of this example action in your future tests, consider moving it over to your new file \(and more appropriate home\),mod\_TableSupport.py.
 
-1.  [Creating a new code script module](/TA_Tutorials/Topics/Creating_a_new_code_script_module.html)  
+1.  [Creating a new code script module](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/working-with-the-python-harness/user-scripted-python-harness-action-that-interacts-with-gui/creating-a-new-code-script-module)  
 Create a new Python module, and provide the code overhead required to access your new user-scripted action.
-2.  [Scripting a Python-based GUI-interfacing action](/TA_Tutorials/Topics/Scripting_a_GUI-interfacing_action.html)  
+2.  [Scripting a Python-based GUI-interfacing action](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/working-with-the-python-harness/user-scripted-python-harness-action-that-interacts-with-gui/scripting-a-python-based-gui-interfacing-action)  
 In Python code, implement the action that will interface with a target application.
-3.  [Creating the test case and stub action](/TA_Tutorials/Topics/Creating_the_test_case_and_stub_action_1.html)  
+3.  [Creating the test case and stub action](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/working-with-the-python-harness/user-scripted-python-harness-action-that-interacts-with-gui/creating-the-test-case-and-stub-action)  
 After implementing the scripted code that interacts with the target application, set up a stub action for the editor, and create the action lines to set up and call the associated action.
-4.  [Viewing the test results](/TA_Tutorials/Topics/Viewing_the_test_results_2.html)  
+4.  [Viewing the test results](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/working-with-the-python-harness/user-scripted-python-harness-action-that-interacts-with-gui/viewing-the-test-results)  
 Run a test using yourPython-coded action, and ensure that it properly interacts with the target application.
 
 

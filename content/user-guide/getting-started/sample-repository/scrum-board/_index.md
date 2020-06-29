@@ -28,9 +28,9 @@ If you'd like to manually launch the Scrum Board sample application and log in t
 3.  In the **Password** box, enter tester.
 4.  Click the **Log in** button.
 
-1.  [Preparing web browsers](/TA_Tutorials_Sample_App/Topics/SR_Enabling_TA_automation_agent_def.html)  
+1.  [Preparing web browsers](/user-guide/getting-started/sample-repository/scrum-board/preparing-web-browsers/)  
 TestArchitect supports automated testing of web applications on Internet Explorer, Google Chrome, Mozilla Firefox, Safari, and Microsoft Edge. Before beginning testing, you must configure the target browser to ensure that TestArchitect Automation Agent \(a browser extension\), TAWebPlugin \(a plug-in\), remote debugging mode, WebDriver, and/or GeckoDriver are installed and enabled.
-2.  [Testing Scrum Board](/TA_Tutorials_Sample_App/Topics/SR_Scrum_Board_testing.html)  
+2.  [Testing Scrum Board](/user-guide/getting-started/sample-repository/scrum-board/testing-scrum-board)  
 TestArchitect provides sample test modules that demonstrate automated testing of the Scrum Board web application.
 
 

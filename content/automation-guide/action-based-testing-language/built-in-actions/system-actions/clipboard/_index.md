@@ -10,11 +10,11 @@ keywords:
 
 Clipboard built-in actions include those actions which allow your test to interact with the short-term data storage of the host system clipboard.
 
-1.  [check clipboard](/TA_Automation/Topics/bia_check_clipboard.html)  
+1.  [check clipboard](/automation-guide/action-based-testing-language/built-in-actions/system-actions/clipboard/check-clipboard)  
 
-2.  [get clipboard](/TA_Automation/Topics/bia_get_clipboard.html)  
+2.  [get clipboard](/automation-guide/action-based-testing-language/built-in-actions/system-actions/clipboard/get-clipboard)  
 
-3.  [set clipboard](/TA_Automation/Topics/bia_set_clipboard.html)  
+3.  [set clipboard](/automation-guide/action-based-testing-language/built-in-actions/system-actions/clipboard/set-clipboard)  
 
 
 

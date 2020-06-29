@@ -20,11 +20,11 @@ TestArchitect test results from test projects which are mapped to Zephyr can be 
 
 -   In TestArchitect 8.4 Update 1 or earlier versions, if you have selected the **Create New** option while adding a new testing phase to a testing cycle in **Test Planning** in Zephyr, you will be unable to upload TestArchitect test results to Zephyr either manually or automatically \(Learn more\).
 
-1.  [Automatically uploading TestArchitect test results to Zephyr](/TA_Help/Topics/ug_Zephyr_auto_uploading_results.html)  
+1.  [Automatically uploading TestArchitect test results to Zephyr](/user-guide/integration-with-third-party-tools/zephyr-integration/features-of-testarchitect-zephyr-integration/uploading-testarchitect-test-results-to-zephyr/automatically-uploading-testarchitect-test-results-to-zephyr)  
 You can configure TestArchitect to automatically upload test results to Zephyr upon conclusion of a test run.
-2.  [Manually uploading TestArchitect test results to Zephyr](/TA_Help/Topics/ug_Zephyr_manual_uploading_results.html)  
+2.  [Manually uploading TestArchitect test results to Zephyr](/user-guide/integration-with-third-party-tools/zephyr-integration/features-of-testarchitect-zephyr-integration/uploading-testarchitect-test-results-to-zephyr/manually-uploading-testarchitect-test-results-to-zephyr)  
 TestArchitect test results from projects or test cases which are mapped to Zephyr can be uploaded to Zephyr by manual means as well as automatic.
-3.  [Viewing uploaded test results on Zephyr](/TA_Help/Topics/ug_Zephyr_viewing_uploaded_results.html)  
+3.  [Viewing uploaded test results on Zephyr](/user-guide/integration-with-third-party-tools/zephyr-integration/features-of-testarchitect-zephyr-integration/uploading-testarchitect-test-results-to-zephyr/viewing-uploaded-test-results-on-zephyr)  
 This topic describes the steps you need to perform to view test results uploaded from TestArchitect on the Zephyr server.
 
 

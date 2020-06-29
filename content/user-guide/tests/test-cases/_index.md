@@ -12,7 +12,7 @@ Test cases are used to arrange the contents of a test module into logical divisi
 
 In the test editor, you can add a new test case to a test module by doing of one of the following in the row in which you would like the new test case header to appear:
 
--   Type [test case](/TA_Automation/Topics/bia_test_case.html) in first column;
+-   Type [test case](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/documentary/test-case) in first column;
 -   Right-click anywhere in the row and then select **Test case** \> **Insert Test Case**;
 -   Select any cell in the row and then press Ctrl + T on your keyboard;
 -   Select any cell in the row and then click the **Create new test case** ![](/images/TA_Help/Images/ug61.png) button on the toolbar.
@@ -29,12 +29,12 @@ TestArchitect recognizes all listed methods of creating new test cases and appli
 
 ![](/images/TA_Help/Images/ug_testcase.png)
 
-The [test case](/TA_Automation/Topics/bia_test_case.html) header line has two arguments:
+The [test case](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/documentary/test-case) header line has two arguments:
 
 -   test case id. This must be unique within the test module, \(but not necessarily unique outside of the test module\).
 -   A descriptive title of the test case.
 
-Newly-created test cases are not immediately visible in the TestArchitect explorer tree, and are similarly not visible to all users. They only appear on the tree, for you and for all users of the repository, when you [check in](/TA_Help/Topics/Project_items_checkin.html) the test module.
+Newly-created test cases are not immediately visible in the TestArchitect explorer tree, and are similarly not visible to all users. They only appear on the tree, for you and for all users of the repository, when you [check in](/user-guide/projects-and-project-items/project-items/revision-control/check-in) the test module.
 
 {{<important>}}
 
@@ -80,9 +80,9 @@ An alternative way to modify a test case is to right-click the cell containing t
 
 {{<note>}} If a test case is not checked in to become a subordinate node in TestArchitect explorer tree, **Edit Test Case** in the context menu is not visible. In order to edit the test case, you can edit it directly in the grid cell containing TC ID in the editor.
 
-1.  [Test steps](/TA_Help/Topics/Projects_and_tests_steps.html)  
+1.  [Test steps](/user-guide/tests/test-cases/test-steps/)  
 Test steps break up a test case into multiple smaller sections, which can be maintained in an easier manner.
-2.  [Test objectives](/TA_Help/Topics/Projects_and_tests_TO.html)  
+2.  [Test objectives](/user-guide/tests/test-cases/test-objectives/)  
 Test objectives provide details of scope of the tests of a test module.
 
 

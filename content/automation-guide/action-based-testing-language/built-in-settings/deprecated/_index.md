@@ -10,9 +10,9 @@ keywords:
 
 Deprecated built-in settings include those settings which should be avoided, typically because they have been superseded.
 
-1.  [get flash controls](/TA_Automation/Topics/bis_get_flash_controls.html)  
+1.  [get flash controls](/automation-guide/action-based-testing-language/built-in-settings/deprecated/get-flash-controls)  
 
-2.  [ignore empty expected](/TA_Automation/Topics/bis_ignore_empty_expected.html)  
+2.  [ignore empty expected](/automation-guide/action-based-testing-language/built-in-settings/deprecated/ignore-empty-expected)  
 
 
 

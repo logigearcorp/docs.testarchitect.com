@@ -14,33 +14,33 @@ Object class representing a data set.
 
 Built-in methods that you can use as operations on objects of classAbtDataSet:
 
-1.  [CheckIn](/TA_Automation/Topics/abt_CheckIn.html)  
+1.  [CheckIn](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdataset/checkin)  
 
-2.  [CheckOut](/TA_Automation/Topics/abt_CheckOut.html)  
+2.  [CheckOut](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdataset/checkout)  
 
-3.  [AddColumn](/TA_Automation/Topics/abt_AddColumn.html)  
+3.  [AddColumn](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdataset/addcolumn)  
 
-4.  [AddRow](/TA_Automation/Topics/abt_AddRow.html)  
+4.  [AddRow](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdataset/addrow)  
 
-5.  [Clear](/TA_Automation/Topics/abt_Clear.html)  
+5.  [Clear](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdataset/clear)  
 
-6.  [GetColumnCount](/TA_Automation/Topics/abt_GetColumnCount.html)  
+6.  [GetColumnCount](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdataset/getcolumncount)  
 
-7.  [GetColumnName](/TA_Automation/Topics/abt_GetColumnName.html)  
+7.  [GetColumnName](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdataset/getcolumnname)  
 
-8.  [GetData](/TA_Automation/Topics/abt_GetData.html)  
+8.  [GetData](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdataset/getdata)  
 
-9.  [InsertColumn](/TA_Automation/Topics/abt_InsertColumn.html)  
+9.  [InsertColumn](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdataset/insertcolumn)  
 
-10. [InsertRow](/TA_Automation/Topics/abt_InsertRow.html)  
+10. [InsertRow](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdataset/insertrow)  
 
-11. [ReFillData](/TA_Automation/Topics/abt_ReFillData.html)  
+11. [ReFillData](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdataset/refilldata)  
 
-12. [RemoveColumnByIndex](/TA_Automation/Topics/abt_RemoveColumnByIndex.html)  
+12. [RemoveColumnByIndex](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdataset/removecolumnbyindex)  
 
-13. [RemoveColumnByName](/TA_Automation/Topics/abt_RemoveColumnByName.html)  
+13. [RemoveColumnByName](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdataset/removecolumnbyname)  
 
-14. [RemoveRowAt](/TA_Automation/Topics/abt_RemoveRowAt.html)  
+14. [RemoveRowAt](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdataset/removerowat)  
 
 
 

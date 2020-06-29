@@ -12,11 +12,11 @@ With floating licenses, TestArchitect Client licenses can be shared by multiple 
 
 {{<remember>}} An Agent license remains an Agent license whether it is converted from floating tohost-based, or vice versa. The same is true for Universal.
 
-1.  [Acquiring a temporary Universal license](/TA_Administration/Topics/LS_TA_acquiring_temporary_enterprise_license.html)  
+1.  [Acquiring a temporary Universal license](/administration-guide/license-server/managing-licenses/license-conversion/acquiring-a-temporary-universal-license)  
 Within a working session, you can obtain a temporary Universal license to enable all features available in TestArchitect.
-2.  [Converting a floating license into a host-based license](/TA_Administration/Topics/LS_TA_converting_floating_to_host_based.html)  
+2.  [Converting a floating license into a host-based license](/administration-guide/license-server/managing-licenses/license-conversion/converting-a-floating-license-into-a-host-based-license)  
 Any floating license can be reconfigured to act as a host-based license, thereby restricting that license's availability to one specific machine.
-3.  [Converting a host-based license into a floating license](/TA_Administration/Topics/LS_TA_converting_host_based_to_floating.html)  
+3.  [Converting a host-based license into a floating license](/administration-guide/license-server/managing-licenses/license-conversion/converting-a-host-based-license-into-a-floating-license)  
 Any host-based license can be reconfigured to act as a floating license, thereby freeing that license from a specific machine.
 
 

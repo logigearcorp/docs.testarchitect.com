@@ -10,9 +10,9 @@ keywords:
 
 Command line actions are those built-in actions which interact with the host computer's operating system through the command line interface \(CLI\).
 
-1.  [execute command](/TA_Automation/Topics/bia_execute_command.html)  
+1.  [execute command](/automation-guide/action-based-testing-language/built-in-actions/system-actions/command-line/execute-command)  
 
-2.  [start program](/TA_Automation/Topics/bia_start_program.html)  
+2.  [start program](/automation-guide/action-based-testing-language/built-in-actions/system-actions/command-line/start-program)  
 
 
 

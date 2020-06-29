@@ -14,7 +14,7 @@ Typically, the need for maintenance is discovered when your automation fails to 
 
 The Interface Viewer allows you to maintain existing interface entities by reconciling the differences between the contents of the interface entity and the controls that currently exist in the application.
 
-{{<tip>}} It may often be the case that you will need to update an interface entity to accommodate changes to an application, while still requiring the use of the original interface entity for testing the old version of the application. Such might be the case if, for example, an application was available in two or more language versions. For scenarios such as this, please refer to [Variations](/TA_Help/Topics/Variations.html) to learn how to conveniently maintain multiple definitions of a given interface entity.
+{{<tip>}} It may often be the case that you will need to update an interface entity to accommodate changes to an application, while still requiring the use of the original interface entity for testing the old version of the application. Such might be the case if, for example, an application was available in two or more language versions. For scenarios such as this, please refer to [Variations](/user-guide/variations/) to learn how to conveniently maintain multiple definitions of a given interface entity.
 
 To update an interface entity:
 
@@ -32,7 +32,7 @@ The degree of synchronization between the interface entity and the application i
     which maps the ta name login-button to the AUT button with `caption = Login`, if a new version of the application changes the button's caption to Sign in, this interface element is considered missing, at least until it is updated with a new value for the caption argument.\)
 
 
-1.  [Mapping controls to unmatched elements](/TA_Help/Topics/Interface_def_Viewer_maintaining_mapping_controls.html)  
+1.  [Mapping controls to unmatched elements](/user-guide/interface-definitions/the-interface-viewer/maintaining-interface-definitions/mapping-controls-to-unmatched-elements)  
 Interface elements identify controls in an application window. It is possible, often as a result of an application change, for an interface element to lose its mapping to its associated control. We call this an "unmatched" element, and the cause is generally a change in one or more property values of the control. When this occurs, you must remap the control to the unmatched element.
 
 

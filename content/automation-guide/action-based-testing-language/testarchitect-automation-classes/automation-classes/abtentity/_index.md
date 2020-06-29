@@ -12,63 +12,63 @@ Object class typically representing an application window, dialog box or web pag
 
 Built-in methods that you can use as operations on objects of classAbtEntity:
 
-1.  [BringToTop](/TA_Automation/Topics/abt_BringToTop.html)  
+1.  [BringToTop](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/bringtotop)  
 
-2.  [CheckProperty](/TA_Automation/Topics/abt_CheckProperty.html)  
+2.  [CheckProperty](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/checkproperty)  
 
-3.  [Click](/TA_Automation/Topics/abt_Click.html)  
+3.  [Click](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/click)  
 
-4.  [ClickCenter](/TA_Automation/Topics/abt_ClickCenter_1.html)  
+4.  [ClickCenter](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/clickcenter)  
 
-5.  [Close](/TA_Automation/Topics/abt_Close.html)  
+5.  [Close](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/close)  
 
-6.  [DragMouse](/TA_Automation/Topics/abt_DragMouse.html)  
+6.  [DragMouse](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/dragmouse)  
 
-7.  [ExecuteScript](/TA_Automation/Topics/abt_Entity_executeScript.html)  
+7.  [ExecuteScript](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/executescript)  
 
-8.  [ExecuteJS](/TA_Automation/Topics/abt_ExecuteJS.html)  
+8.  [ExecuteJS](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/executejs)  
 
-9.  [Exists](/TA_Automation/Topics/abt_Exists.html)  
+9.  [Exists](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/exists)  
 
-10. [Focus](/TA_Automation/Topics/abt_Focus.html)  
+10. [Focus](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/focus)  
 
-11. [GetChildAt](/TA_Automation/Topics/abt_GetChildAt.html)  
+11. [GetChildAt](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/getchildat)  
 
-12. [GetChildOfClassAt](/TA_Automation/Topics/abt_getChildOfClassAt.html)  
+12. [GetChildOfClassAt](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/getchildofclassat)  
 
-13. [GetChildCount](/TA_Automation/Topics/abt_GetChildCount.html)  
+13. [GetChildCount](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/getchildcount)  
 
-14. [GetMousePosition](/TA_Automation/Topics/abt_GetMousePosition.html)  
+14. [GetMousePosition](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/getmouseposition)  
 
-15. [GetPictureLocation](/TA_Automation/Topics/abt_AbtGetPictureLocation_AbtEntity.html)  
+15. [GetPictureLocation](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/getpicturelocation)  
 
-16. [GetProperty](/TA_Automation/Topics/abt_GetProperty.html)  
+16. [GetProperty](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/getproperty)  
 
-17. [GetTextBackgroundColor](/TA_Automation/Topics/abt_AbtGetTextBackgroundColor_AbtEntity.html)  
+17. [GetTextBackgroundColor](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/gettextbackgroundcolor)  
 
-18. [GetTextColor](/TA_Automation/Topics/abt_AbtGetTextColor_AbtEntity.html)  
+18. [GetTextColor](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/gettextcolor)  
 
-19. [GetTextContent](/TA_Automation/Topics/abt_AbtGetTextContent_AbtEntity.html)  
+19. [GetTextContent](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/gettextcontent)  
 
-20. [GetTextCoordinates](/TA_Automation/Topics/abt_AbtGetTextCoordinates_AbtEntity.html)  
+20. [GetTextCoordinates](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/gettextcoordinates)  
 
-21. [GetTextCount](/TA_Automation/Topics/abt_AbtGetTextCount_AbtEntity.html)  
+21. [GetTextCount](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/gettextcount)  
 
-22. [Maximize](/TA_Automation/Topics/abt_Maximize.html)  
+22. [Maximize](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/maximize)  
 
-23. [Minimize](/TA_Automation/Topics/abt_Minimize.html)  
+23. [Minimize](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/minimize)  
 
-24. [MoveMouse](/TA_Automation/Topics/abt_MoveMouse.html)  
+24. [MoveMouse](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/movemouse)  
 
-25. [MoveWindow](/TA_Automation/Topics/abt_MoveWindow.html)  
+25. [MoveWindow](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/movewindow)  
 
-26. [ResizeWindow](/TA_Automation/Topics/abt_ResizeWindow.html)  
+26. [ResizeWindow](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/resizewindow)  
 
-27. [RestoreWindow](/TA_Automation/Topics/abt_RestoreWindow.html)  
+27. [RestoreWindow](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/restorewindow)  
 
-28. [Type](/TA_Automation/Topics/abt_Type.html)  
+28. [Type](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/type)  
 
-29. [WaitForProperty](/TA_Automation/Topics/abt_WaitForProperty.html)  
+29. [WaitForProperty](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/waitforproperty)  
 
 
 

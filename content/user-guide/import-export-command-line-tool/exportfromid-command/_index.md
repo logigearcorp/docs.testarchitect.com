@@ -43,7 +43,7 @@ java -jar TAImportExportTool.jar --ExportFromID [--server<value>] [--port<value>
     {{<note>}}
 
     -   If this argument is set to 0 or not defined, the default port number 53400 is used.
-    -   If port number of the source repository server has been [changed](/TA_Administration/Topics/Repo_changing_port.html) from its TestArchitect default of 53400, ensure that the correct port number is specified.
+    -   If port number of the source repository server has been [changed](/administration-guide/repository-server-management/changing-repository-server-port-number) from its TestArchitect default of 53400, ensure that the correct port number is specified.
 -   **--uid <value\>**
 
     User name with which to log in to repository.
@@ -70,7 +70,7 @@ java -jar TAImportExportTool.jar --ExportFromID [--server<value>] [--port<value>
 
     TestArchitect ID of the item to be exported.
 
-    {{<note>}} To obtain the ID of the item, find the [**URL**](/TA_Help/Topics/Additional_features_TA_URL.html) field under the item's **Information** tab. The ID is placed at the end of the item's URL address, prefixed with a hyphen \( - \). In the following example, the TestArchitect ID is `1z26kdr8h1`:
+    {{<note>}} To obtain the ID of the item, find the [**URL**](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/testarchitect-url) field under the item's **Information** tab. The ID is placed at the end of the item's URL address, prefixed with a hyphen \( - \). In the following example, the TestArchitect ID is `1z26kdr8h1`:
 
     ![](/images/TA_Help/Images/obtain_ID_item.png)
 
@@ -112,7 +112,7 @@ java -jar TAImportExportTool.jar --ExportFromID [--server<value>] [--port<value>
     -   This parameter is only applicable to test modules. For other project items, it is simply ignored.
     -   Only .zip files are supported as export targets.
 
-1.  [Example: Exporting test modules including regular picture checks](/TA_Help/Topics/ug_export_import_tool_export_from_id_regular_picture_checks.html)  
+1.  [Example: Exporting test modules including regular picture checks](/user-guide/import-export-command-line-tool/exportfromid-command/example-exporting-test-modules-including-regular-picture-checks)  
 
 
 

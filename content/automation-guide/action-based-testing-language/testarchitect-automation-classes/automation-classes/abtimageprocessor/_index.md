@@ -12,9 +12,9 @@ Object class representing, for all practical purposes, the full screen of the di
 
 Built-in methods that you can use as operations on objects of classAbtImageProcessor:
 
-1.  [GetPictureLocation](/TA_Automation/Topics/abt_AbtGetPictureLocation_AbtImageProcessor.html)  
+1.  [GetPictureLocation](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtimageprocessor/getpicturelocation)  
 
-2.  [GetTextCoordinates](/TA_Automation/Topics/abt_AbtGetTextCoordinates_AbtImageProcessor.html)  
+2.  [GetTextCoordinates](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtimageprocessor/gettextcoordinates)  
 
 
 

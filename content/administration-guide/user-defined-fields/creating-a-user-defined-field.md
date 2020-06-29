@@ -1,0 +1,84 @@
+--- 
+title: "Creating a user-defined field"
+linktitle: "Creating a user-defined field"
+description: "There may be times when you'll want to augment the set of fields that TestArchitect provides for a given project item type. You can do that by creating new fields and adding them to the item type definition."
+weight: 1
+aliases: 
+    - /TA_Administration/Topics/User_defined_fields_create.html
+keywords: "user-defined fields, creating"
+---
+
+There may be times when you'll want to augment the set of fields that TestArchitect provides for a given project item type. You can do that by creating new fields and adding them to the item type definition.
+
+1.  In the TestArchitect explorer tree, right-click the **Administration** \> **Fields** node, and then select **New Field**.
+
+2.  In the New Field dialog box, enter the following information:
+
+    -   **Name**: Name for the new field, which must be unique for the given project item type.
+
+        {{<important>}} When creating a user-defined field, you must follow naming conventions discussed below.
+
+    -   **Short name**: \(Optional\) Short name for the field, which is displayed in list views. If this field is empty, the **Name** value is used as the short name.
+
+        {{<important>}} When assigning a short name to an user-defined field, you must follow naming conventions discussed below.
+
+    -   **Apply To**: Select the project item type whose definition you want this field added to.
+
+        {{<note>}} If Result is selected, you can then use the [assign result field](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/reporting-and-formatting/assign-result-field) to assign a value to that field during execution.
+
+    -   **Value type**: Select the data type of the field \(for example, Single Line Text or Multi Line Text\).
+    -   Default Value: \(Optional\) The initial value of the field when a new item of the given type is created.
+    ![](/images/TA_Administration/Images/ug_userdefinedfield2.1.png)
+
+3.  Click **Create**.
+
+    The new user-defined field is added as a child node beneath the **Fields** node, and is displayed in the **Information** tabs of any of the project items to which it has been applied.
+
+    ![](/images/TA_Administration/Images/user_defined_field_TM.png)
+
+    {{<note>}}
+
+    -   If a user-defined field is added to the **Test Step** project item type, the field will appear as a column under the [**Steps** List View](/user-guide/tests/test-cases/test-steps/creating-test-steps#) of the **Test Case** as shown in the screenshot below.
+    ![](/images/TA_Administration/Images/ug_userdefinefield2.4.png)
+
+    -   In the case of a user-defined field being added to the Result project item type, the field also appears in the **Result Fields** tab of the [Execute Test](/user-guide/test-execution/methods-of-test-execution/configuring-and-running-tests-from-testarchitect-client) dialog box, as depicted in the screenshot below. A value entered into this box prior to a test run results in that value being recorded into the corresponding field of the test result for that run.
+    ![](/images/TA_Administration/Images/user_defined_field_results.png)
+
+
+{{<restriction>}} When naming a user-defined field, avoid any of the following special characters:
+
+|||
+|------|------|
+|Apostrophe|'|
+|Quotation mark|"|
+|At sign|@|
+|Grave accent|\`|
+|Number sign|\#|
+|Percent|%|
+|Greater than sign|\>|
+|Less than sign|<|
+|Exclamation mark|!|
+|Brackets|\[ \]|
+|Asterisk|\*|
+|Dollar sign|$|
+|Semicolon|;|
+|Colon|:|
+|Question mark|?|
+|Caret|^|
+|Braces|\{ \}|
+|Plus sign|+|
+|Hyphen|-|
+|Equal sign|=|
+|Tilde|~|
+|Backslash|\\|
+|Slash mark|/|
+|Pipe|\||
+|Underscore|\_|
+
+Note also that:
+
+-   A period \(.\) is permitted anywhere in the name.
+-   Numeric digits are permitted anywhere in the name, except at the beginning.
+
+
+

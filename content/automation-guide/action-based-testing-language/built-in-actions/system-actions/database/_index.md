@@ -18,11 +18,11 @@ The set of actions in this section allows you to connect to a database, run SQL 
 
 The following built-in actions are provided. They are listed here in the typical order of their workflow.
 
-1.  [create connection string](/TA_Automation/Topics/bia_create_connection_string.html): Generate a connection string for a specified database on a given host.
-2.  [connect database](/TA_Automation/Topics/bia_connect_database.html): Open a database connection using a connection string.
-3.  [use database](/TA_Automation/Topics/bia_use_database.html): Specify a database against which the ensuing SQL action lines are to be applied.
-4.  [execute sql](/TA_Automation/Topics/bia_execute_sql.html): Execute an SQL command against the currently in-use database; optionally, store returned data into one or more data sets.
-5.  [disconnect database](/TA_Automation/Topics/bia_disconnect_database.html): Close the database connection.
+1.  [create connection string](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/create-connection-string): Generate a connection string for a specified database on a given host.
+2.  [connect database](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/connect-database): Open a database connection using a connection string.
+3.  [use database](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/use-database): Specify a database against which the ensuing SQL action lines are to be applied.
+4.  [execute sql](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/execute-sql): Execute an SQL command against the currently in-use database; optionally, store returned data into one or more data sets.
+5.  [disconnect database](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/disconnect-database): Close the database connection.
 
 ## Prerequisites
 
@@ -54,25 +54,25 @@ The following built-in actions are provided. They are listed here in the typical
     -   Microsoft SQL Server:
         -   **On Windows:** [Read here](https://docs.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server).
         -   **On Linux:** [Read here](https://docs.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server).
-        -   **On macOS:** Microsoft does not provide a SQL Server ODBC driver for the macOS machine. However, a good open source alternative, [FreeTDS](http://www.freetds.org/), is available. Note that, additional configurations are also required \([learn more](/TA_Automation/Topics/aut_testing_database_Mac_setup_MSSQL.html)\).
+        -   **On macOS:** Microsoft does not provide a SQL Server ODBC driver for the macOS machine. However, a good open source alternative, [FreeTDS](http://www.freetds.org/), is available. Note that, additional configurations are also required \([learn more](/automation-guide/application-testing/testing-with-databases/microsoft-sql-server/configuring-odbc-driver-on-macos)\).
     -   MySQL Server: [Read here](http://dev.mysql.com/downloads/connector/odbc/).
 
-        {{<note>}} On macOS, additional configurations are required \([learn more](/TA_Automation/Topics/aut_testing_database_Mac_setup_MySQL.html)\).
+        {{<note>}} On macOS, additional configurations are required \([learn more](/automation-guide/application-testing/testing-with-databases/mysql/configuring-odbc-driver-on-macos)\).
 
     -   Excel: The ODBC driver for Microsoft Excel is automatically installed with Microsoft Office. If Microsoft Office is not currently installed on your test machine, you can download and install the correct driver from the appropriate link below:
         -   **ODBC driver for Excel 2007 \(32-bit\):** [http://www.microsoft.com/en-us/download/details.aspx?id=23734](http://www.microsoft.com/en-us/download/details.aspx?id=23734)
         -   **ODBC driver for Excel 2010 \(both 32 and 64-bit\):** [http://www.microsoft.com/en-us/download/details.aspx?id=13255](http://www.microsoft.com/en-us/download/details.aspx?id=13255)
         -   **ODBC driver Excel 2013 \(32-bit\):** [http://www.microsoft.com/en-us/download/details.aspx?id=39358](http://www.microsoft.com/en-us/download/details.aspx?id=39358)
 
-1.  [create connection string](/TA_Automation/Topics/bia_create_connection_string.html)  
+1.  [create connection string](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/create-connection-string)  
 
-2.  [connect database](/TA_Automation/Topics/bia_connect_database.html)  
+2.  [connect database](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/connect-database)  
 
-3.  [use database](/TA_Automation/Topics/bia_use_database.html)  
+3.  [use database](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/use-database)  
 
-4.  [execute sql](/TA_Automation/Topics/bia_execute_sql.html)  
+4.  [execute sql](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/execute-sql)  
 
-5.  [disconnect database](/TA_Automation/Topics/bia_disconnect_database.html)  
+5.  [disconnect database](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/disconnect-database)  
 
 
 

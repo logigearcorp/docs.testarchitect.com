@@ -10,13 +10,13 @@ keywords: "built-in actions, WebDriver, Generic WebDriver"
 
 WebDriver built-in actions allows you set up environment, switch among frames, etc. with WebDriver.
 
-1.  [configure webdriver](/TA_Automation/Topics/bia_configure_webdriver.html)  
+1.  [configure webdriver](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/webdriver/configure-webdriver)  
 
-2.  [switch frame by destination](/TA_Automation/Topics/bia_switch_frame_by_destination.html)  
+2.  [switch frame by destination](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/webdriver/switch-frame-by-destination)  
 
-3.  [switch frame by path](/TA_Automation/Topics/bia_switch_frame_by_path.html)  
+3.  [switch frame by path](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/webdriver/switch-frame-by-path)  
 
-4.  [switch window](/TA_Automation/Topics/bia_switch_window.html)  
+4.  [switch window](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/webdriver/switch-window)  
 
 
 

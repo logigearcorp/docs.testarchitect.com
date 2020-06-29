@@ -36,9 +36,9 @@ From this dialog box, you can:
     3.  Tap the application you want to disable device admin rights of, then click **Deactivate**.
 -   Launch testable applications on the target device
 
-1.  [Devices panel](/Android/Topics/Devices_area.html)  
+1.  [Devices panel](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/android-instrumentation-tool/devices-panel)  
 
-2.  [Applications Under Test panel](/Android/Topics/Application_under_test_area.html)  
+2.  [Applications Under Test panel](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/android-instrumentation-tool/applications-under-test-panel)  
 
 
 

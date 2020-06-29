@@ -10,19 +10,19 @@ keywords:
 
 Documentary built-in actions perform test documentation and assist in properly organizing your test module, which aids in ensuring conformance to the ABT methodology.
 
-1.  [FINAL](/TA_Automation/Topics/bia_final.html)  
+1.  [FINAL](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/documentary/final)  
 
-2.  [INITIAL](/TA_Automation/Topics/bia_initial.html)  
+2.  [INITIAL](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/documentary/initial)  
 
-3.  [OBJECTIVES](/TA_Automation/Topics/bia_objectives.html)  
+3.  [OBJECTIVES](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/documentary/objectives)  
 
-4.  [SECTION](/TA_Automation/Topics/bia_section.html)  
+4.  [SECTION](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/documentary/section)  
 
-5.  [step](/TA_Automation/Topics/bia_step.html)  
+5.  [step](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/documentary/step)  
 
-6.  [test case](/TA_Automation/Topics/bia_test_case.html)  
+6.  [test case](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/documentary/test-case)  
 
-7.  [test objective](/TA_Automation/Topics/bia_test_objective.html)  
+7.  [test objective](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/documentary/test-objective)  
 
 
 

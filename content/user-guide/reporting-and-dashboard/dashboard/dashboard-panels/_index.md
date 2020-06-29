@@ -10,25 +10,25 @@ keywords: "Dashboard, panels"
 
 Panels are the primary means of presenting project information on the Dashboard. They show data retrieved from underlying data profiles known as report profiles in TestArchitect Client.
 
-A single panel can be added \(instantiated\) or cloned multiple times to one or more pages, which we call panel instances. Each instance of a panel can be constrained to a different folder. Each panel instance can have unique settings, and the ability to save those settings is determined by the user's permissions \(see [Dashboard authentication and permissions](/TA_Help/Topics/Dashboard_authentication_permissions.html) for more details\).
+A single panel can be added \(instantiated\) or cloned multiple times to one or more pages, which we call panel instances. Each instance of a panel can be constrained to a different folder. Each panel instance can have unique settings, and the ability to save those settings is determined by the user's permissions \(see [Dashboard authentication and permissions](/user-guide/reporting-and-dashboard/dashboard/dashboard-permissions) for more details\).
 
 {{<note>}} The default panel settings on the **Overview** and **Execution Dashboard** can be changed permanently by an administrator. Guest users can only view panels. Other users may change the panel settings but those settings are only effective for the current session.
 
-1.  [Adding a predefined panel](/TA_Help/Topics/Dashboard_add_predefined_panel.html)  
+1.  [Adding a predefined panel](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/adding-a-predefined-panel)  
 TestArchitect has a wide range of predefined panels that you can choose from to present data from your project.
-2.  [Cloning a panel](/TA_Help/Topics/Dashboard_clone_panel.html)  
+2.  [Cloning a panel](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/cloning-a-panel)  
 Cloning a panel is a way to quickly copy an existing panel including all customized settings.
-3.  [Updating a panel](/TA_Help/Topics/Dashboard_update_panel.html)  
+3.  [Updating a panel](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/updating-a-panel)  
 Updating a panel refreshes the panel with the latest filtering data from the data profile.
-4.  [Panel templates](/TA_Help/Topics/Dashboard_panel_templates.html)  
+4.  [Panel templates](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/panel-templates/)  
 A panel template provides the basic framework that brings together common elements found in Dashboard panels.
-5.  [Chart settings](/TA_Help/Topics/Dashboard_chart.html)  
+5.  [Chart settings](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/chart-settings/)  
 You can customize how data are presented on a chart panel.
-6.  [Indicator settings](/TA_Help/Topics/Dashboard_indicator.html)  
+6.  [Indicator settings](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/indicator-settings/)  
 An indicator panel displays user-selectable data in a tabular format, in which data meeting a certain criteria can be highlighted for quick viewing.
-7.  [Report settings](/TA_Help/Topics/Dashboard_report.html)  
+7.  [Report settings](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/report-settings/)  
 A report displays detailed information on the progress of a test and gives insight into the test runs and their results.
-8.  [Heat map settings](/TA_Help/Topics/Dashboard_heatmap.html)  
+8.  [Heat map settings](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/heat-map-settings/)  
 A heat map panel displays user-selectable data in a graphical tabular format where data meeting certain criteria that occur in a consecutive manner are noted and highlighted for quick viewing.
 
 
@@ -37,5 +37,5 @@ A heat map panel displays user-selectable data in a graphical tabular format whe
 **Related information**  
 
 
-[Dashboard permissions](/TA_Help/Topics/Dashboard_authentication_permissions.html)
+[Dashboard permissions](/user-guide/reporting-and-dashboard/dashboard/dashboard-permissions)
 

@@ -40,10 +40,10 @@ java -jar TAImportExportTool.jar --help [--<CommandName>]
     java -jar TAImportExportTool.jar --help ImportRepository
     ```
 
-    invokes help information specific to the [ImportRepository](/TA_Help/Topics/ug_export_import_tool_import_repository.html) command.
+    invokes help information specific to the [ImportRepository](/user-guide/import-export-command-line-tool/importrepository-command/) command.
 
 
-1.  [Running the Help command \(Import/Export tool\)](/TA_Help/Topics/ug_export_import_tool_help_running.html)  
+1.  [Running the Help command \(Import/Export tool\)](/user-guide/import-export-command-line-tool/help-command/running-help)  
 
 
 

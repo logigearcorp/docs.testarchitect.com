@@ -14,8 +14,8 @@ Ensure that the machine hosting the TestArchitect repository server has the **HP
 
 Ensure that you have already taken the following steps:
 
--   [Registered the Quality Center server with TestArchitect](/TA_Help/Topics/Integration_QC_connecting_repo_to_QC_server_step_1.html).
--   [Mapped the TestArchitect project](/TA_Help/Topics/Integration_QC_connecting_repo_to_QC_server_step_2.html) containing the test cases of interest to the Quality Center project.
+-   [Registered the Quality Center server with TestArchitect](/user-guide/integration-with-third-party-tools/hp-quality-center/configuring-integration-with-hp-quality-center/setting-up-the-connection-with-quality-center/configuring-the-quality-center-connection).
+-   [Mapped the TestArchitect project](/user-guide/integration-with-third-party-tools/hp-quality-center/configuring-integration-with-hp-quality-center/setting-up-the-connection-with-quality-center/mapping-a-testarchitect-project-to-a-quality-center-project) containing the test cases of interest to the Quality Center project.
 
 {{<note>}}
 
@@ -61,7 +61,7 @@ To upload TestArchitect test modules/test cases to Quality Center, carry out the
             |Slash mark|/|
             |Pipe|\||
 
-    -   Should you upload a [test module variation](/TA_Help/Topics/ug_TM_create_variation.html) whose name is in the form of `<default definition name>{<System>:<node1>, <node2>} {<keyword1>, <keyword2>}`, TestArchitect automatically replaces the colon character \(:\) with an equal sign \(=\).
+    -   Should you upload a [test module variation](/user-guide/tests/creating-a-test-module-variation) whose name is in the form of `<default definition name>{<System>:<node1>, <node2>} {<keyword1>, <keyword2>}`, TestArchitect automatically replaces the colon character \(:\) with an equal sign \(=\).
 
         For example, uploading test module variation
 
@@ -84,7 +84,7 @@ To upload TestArchitect test modules/test cases to Quality Center, carry out the
     {{<tip>}}
 
     -   It is recommended that you upload TestArchitect tests into a Quality Center test node with similar node structure.
-    -   You can change the setting that governs whether TestArchitect uploads the same test automatically to Quality Center next time you request an upload by disabling the Upload Test Module dialog box. Refer to [Turning on/off automatic uploading](/TA_Help/Topics/Integration_QC_Turning_on_off_autoupload.html).
+    -   You can change the setting that governs whether TestArchitect uploads the same test automatically to Quality Center next time you request an upload by disabling the Upload Test Module dialog box. Refer to [Turning on/off automatic uploading](/user-guide/integration-with-third-party-tools/hp-quality-center/features/uploading-testarchitect-test-modules-test-cases-to-quality-center/turning-on-off-automatic-uploading).
     ![](/images/TA_Help/Images/QC_UploadTestModule.png)
 
 3.  Select the **Map Test Module \(\#\)** and/or **Map Test Folder** check boxes, which determine exactly what items are created on the Quality Center side:
@@ -110,9 +110,9 @@ Note that the upload process triggers versioning for every affected test in Qual
 
 The following topic describes how TestArchitect test module and test case information is mapped to the corresponding Quality Center tests.
 
--   **[Mapped items between TestArchitect and Quality Center](/TA_Help/Topics/ug_QC_mapped_items.html)**  
+-   **[Mapped items between TestArchitect and Quality Center](/user-guide/integration-with-third-party-tools/hp-quality-center/features/uploading-testarchitect-test-modules-test-cases-to-quality-center/mapped-items-between-testarchitect-and-quality-center)**  
 This topic describes how TestArchitect test module and test case information is mapped to the corresponding Quality Center test fields.
--   **[Turning on/off automatic uploading](/TA_Help/Topics/Integration_QC_Turning_on_off_autoupload.html)**  
+-   **[Turning on/off automatic uploading](/user-guide/integration-with-third-party-tools/hp-quality-center/features/uploading-testarchitect-test-modules-test-cases-to-quality-center/turning-on-off-automatic-uploading)**  
 Controlling whether or not TestArchitect uploads tests to Quality Center automatically.
 
 

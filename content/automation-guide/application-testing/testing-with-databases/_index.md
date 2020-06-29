@@ -41,15 +41,15 @@ An additional benefit of these actions is that your test can use a database to s
     -   SQL Server and MySQL are standard relational database management systems \(DBMSs\) that enjoy widespread use. While MS Excel is not a DBMS per se, its data is also structured in a relational \(table\) form, allowing for it to also be queried by means of SQL commands.
     -   In principle, while only the DBMSs listed are explicitly supported, any SQL-conversant DBMS with ODBC-compliant drivers for the platform of the given test system should also behave well with TestArchitect. For assistance, contact TestArchitect Support at [support@logigear.com](mailto:support@logigear.com).
 
-1.  [Database use cases](/TA_Automation/Topics/aut_app_testing_Database_use_cases.html)  
+1.  [Database use cases](/automation-guide/application-testing/testing-with-databases/database-use-cases)  
 TestArchitect offers a number of built-in actions and automation methods that allow for tests to connect to, and query, SQL-compliant databases. This allows for an expanded form of data-driven testing beyond that which relies on TestArchitect's proprietary data sets. It also expands the possibilities for performing tests on database-dependent applications. This topic presents a few of the typical test configurations involving SQL-based databases, along with specific examples.
-2.  [Microsoft SQL Server](/TA_Automation/Topics/aut_app_testing_Database_MSSQL_Server.html)  
+2.  [Microsoft SQL Server](/automation-guide/application-testing/testing-with-databases/microsoft-sql-server/)  
 Information specific to testing with Microsoft SQL Server
-3.  [MySQL Server](/TA_Automation/Topics/aut_app_testing_Database_MySQL_Server.html)  
+3.  [MySQL Server](/automation-guide/application-testing/testing-with-databases/mysql/)  
 Information specific to testing with MySQL Server
-4.  [Microsoft Excel](/TA_Automation/Topics/aut_app_testing_Database_Excel_Server.html)  
+4.  [Microsoft Excel](/automation-guide/application-testing/testing-with-databases/microsoft-excel)  
 Information specific to testing with Microsoft Excel
-5.  [Oracle Database](/TA_Automation/Topics/aut_app_testing_Oracle.html)  
+5.  [Oracle Database](/automation-guide/application-testing/testing-with-databases/oracle/)  
 Information specific to testing with Oracle Database.
 
 

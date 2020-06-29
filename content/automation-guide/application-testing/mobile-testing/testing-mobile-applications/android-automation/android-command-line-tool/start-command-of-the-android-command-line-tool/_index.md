@@ -31,7 +31,7 @@ The meaning of the parameters is as follows:
 
     To obtain the package name of an Android application:
 
-    1.  Open the [Android Instrumentation Tool](/reuse/../Android/Topics/Android_Instrumentation_tool.html) dialog box.
+    1.  Open the [Android Instrumentation Tool](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/android-instrumentation-tool/) dialog box.
     2.  In the Application Under Test panel, right-click the appropriate application, and then select **Copy package name**.
 
         ![](/images/Android/Images/Android_copy_package_name.png)
@@ -43,7 +43,7 @@ The meaning of the parameters is as follows:
 
     To obtain the unique ID of an Android device:
 
-    1.  Open the [Android Instrumentation Tool](/reuse/../Android/Topics/Android_Instrumentation_tool.html) dialog box.
+    1.  Open the [Android Instrumentation Tool](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/android-instrumentation-tool/) dialog box.
     2.  Select the device whose unique ID you wish to obtain.
     3.  Click ![](/images/Android/Images/android_copy_ID.png) on the Android Instrumentation Tool's toolbar to copy the unique ID to the clipboard.
     4.  Paste the copied content into the unique ID parameter in the Start command.
@@ -60,7 +60,7 @@ The following table describes output messages you may encounter while using the 
 |There are multiple Android devices connected to the tool. You must specify the exact Unique ID of the target device.|This error is commonly encountered when there are multiple Android devices connected to the host PC via USB cable, but the unique ID parameter is omitted.|
 |<Package Name\> cannot be found.|The Android command line tool cannot locate the specified package name of an AUT.|
 
--   **[Starting an Android application from the command line tool](/Android/Topics/Android_command_line_tool_start_step.html)**  
+-   **[Starting an Android application from the command line tool](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/android-command-line-tool/start-command-of-the-android-command-line-tool/starting-an-android-application-from-the-command-line-tool)**  
 This example demonstrates the steps involved in launching an Android application using the Android command line tool with the Start command
 
 
@@ -69,7 +69,7 @@ This example demonstrates the steps involved in launching an Android application
 **Related information**  
 
 
-[Launching an Android AUT](/Android/Topics/Launching_an_AUT.html)
+[Launching an Android AUT](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/setting-up-the-test-environment/setting-up-android-automation/launching-an-android-aut)
 
-[execute command](/TA_Automation/Topics/bia_execute_command.html)
+[execute command](/automation-guide/action-based-testing-language/built-in-actions/system-actions/command-line/execute-command)
 

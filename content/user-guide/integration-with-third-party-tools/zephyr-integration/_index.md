@@ -20,20 +20,20 @@ Integration between TestArchitect and Zephyr involves establishing a connection 
 
 Data and control integration between Zephyr and TestArchitect includes the following:
 
--   [Connection of a TestArchitect repository to a Zephyr server](/TA_Help/Topics/ug_Zephyr_setting_up_connection.html).
--   [Mapping of a TestArchitect project to a Zephyr project](/TA_Help/Topics/ug_Zephyr_mapping_projects.html).
--   [Importing Zephyr test cases to TestArchitect test modules](/TA_Help/Topics/ug_Zephyr_importing_Zephyr_test_cases.html).
--   [Configuring Zephyr Bot \(ZBot\) agent and ZIPs](/TA_Help/Topics/ug_Zephyr_ZBot.html).
--   [Uploading of TestArchitect test modules/test cases to a Zephyr server](/TA_Help/Topics/ug_Zephyr_upload_TA_TM_TC.html).
--   [Automatic uploading of TestArchitect test results to Zephyr](/TA_Help/Topics/ug_Zephyr_auto_uploading_results.html).
--   [Manual uploading of TestArchitect test results to Zephyr](/TA_Help/Topics/ug_Zephyr_manual_uploading_results.html).
--   [Execution of tests from Zephyr](/TA_Help/Topics/ug_Zephyr_executing_tests.html).
+-   [Connection of a TestArchitect repository to a Zephyr server](/user-guide/integration-with-third-party-tools/zephyr-integration/configuring-integration-with-zephyr/setting-up-the-connection-with-zephyr/).
+-   [Mapping of a TestArchitect project to a Zephyr project](/user-guide/integration-with-third-party-tools/zephyr-integration/configuring-integration-with-zephyr/setting-up-the-connection-with-zephyr/mapping-a-testarchitect-project-to-a-zephyr-project).
+-   [Importing Zephyr test cases to TestArchitect test modules](/user-guide/integration-with-third-party-tools/zephyr-integration/features-of-testarchitect-zephyr-integration/importing-zephyr-test-cases-into-testarchitect).
+-   [Configuring Zephyr Bot \(ZBot\) agent and ZIPs](/user-guide/integration-with-third-party-tools/zephyr-integration/configuring-integration-with-zephyr/setting-up-the-connection-with-zephyr/configuring-zbots-and-installing-zips).
+-   [Uploading of TestArchitect test modules/test cases to a Zephyr server](/user-guide/integration-with-third-party-tools/zephyr-integration/features-of-testarchitect-zephyr-integration/uploading-testarchitect-test-modules-test-cases-to-zephyr/).
+-   [Automatic uploading of TestArchitect test results to Zephyr](/user-guide/integration-with-third-party-tools/zephyr-integration/features-of-testarchitect-zephyr-integration/uploading-testarchitect-test-results-to-zephyr/automatically-uploading-testarchitect-test-results-to-zephyr).
+-   [Manual uploading of TestArchitect test results to Zephyr](/user-guide/integration-with-third-party-tools/zephyr-integration/features-of-testarchitect-zephyr-integration/uploading-testarchitect-test-results-to-zephyr/manually-uploading-testarchitect-test-results-to-zephyr).
+-   [Execution of tests from Zephyr](/user-guide/integration-with-third-party-tools/zephyr-integration/features-of-testarchitect-zephyr-integration/executing-tests-from-zephyr).
 
-1.  [Configuring integration with Zephyr](/TA_Help/Topics/ug_Zephyr_configuring.html)  
+1.  [Configuring integration with Zephyr](/user-guide/integration-with-third-party-tools/zephyr-integration/configuring-integration-with-zephyr/)  
 Establishing and terminating communications between TestArchitect and Zephyr.
-2.  [Notice about integrating TestArchitect with Zephyr](/TA_Help/Topics/ug_Zephyr_notice.html)  
+2.  [Notice about integrating TestArchitect with Zephyr](/user-guide/integration-with-third-party-tools/zephyr-integration/notice-about-integrating-testarchitect-with-zephyr)  
 
-3.  [Features of TestArchitect-Zephyr integration](/TA_Help/Topics/ug_Zephyr_features.html)  
+3.  [Features of TestArchitect-Zephyr integration](/user-guide/integration-with-third-party-tools/zephyr-integration/features-of-testarchitect-zephyr-integration/)  
 A discussion of key features of TestArchitect and Zephyr integration.
 
 

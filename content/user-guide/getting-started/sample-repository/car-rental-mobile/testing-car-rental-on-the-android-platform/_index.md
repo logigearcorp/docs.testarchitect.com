@@ -14,9 +14,9 @@ Car Rental Android is a Java-based application that runs on Android. The purpose
 
 {{<important>}} Android automation is only supported on Windows.
 
-1.  [Car Rental Android configuration](/TA_Tutorials_Sample_App/Topics/SR_Android_configuration_def.html)  
+1.  [Car Rental Android configuration](/user-guide/getting-started/sample-repository/car-rental-mobile/testing-car-rental-on-the-android-platform/car-rental-android-configuration/)  
 Before executing sample Car Rental automated tests on an Android device, a series of steps must be performed on both the host machine and the Android device.
-2.  [Executing Car Rental tests on Android device](/TA_Tutorials_Sample_App/Topics/SR_Executing_Car_Rental_Android.html)  
+2.  [Executing Car Rental tests on Android device](/user-guide/getting-started/sample-repository/car-rental-mobile/testing-car-rental-on-the-android-platform/executing-car-rental-tests-on-android-device)  
 The Car Rental automated test modules are part of the TestArchitect test suites provided in the Sample Repository to demonstrate automated testing of the AUT on the Android platform.
 
 

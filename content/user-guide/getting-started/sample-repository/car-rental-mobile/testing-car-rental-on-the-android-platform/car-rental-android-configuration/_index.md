@@ -16,13 +16,13 @@ Second, you must connect the Android device to the host machine to facilitate An
 
 Finally, the re-signed Car Rental application has to be installed on the Android device with TestArchitect's install tool. This is also performed from the **Manage Applications Under Test** dialog box.
 
-1.  [Installing TestArchitect Agent on Android device](/TA_Tutorials_Sample_App/Topics/SR_Android_installing_TA_agent.html)  
+1.  [Installing TestArchitect Agent on Android device](/user-guide/getting-started/sample-repository/car-rental-mobile/testing-car-rental-on-the-android-platform/car-rental-android-configuration/installing-testarchitect-agent-on-android-device)  
 Installing TestArchitect Agent on an Android device is the first step in setting up the test environment for Android application testing.
-2.  [Connecting to Android's TestArchitect Agent via Wi-Fi](/TA_Tutorials_Sample_App/Topics/SR_Car_Rental_connecting_to_Android_TA_Agent.html)  
+2.  [Connecting to Android's TestArchitect Agent via Wi-Fi](/user-guide/getting-started/sample-repository/car-rental-mobile/testing-car-rental-on-the-android-platform/car-rental-android-configuration/connecting-to-android-s-testarchitect-agent-via-wi-fi)  
 Establishing a connection between the Android device and the host machine allows TestArchitect to communicate with mobile applications.
-3.  [Re-signing Car Rental application](/TA_Tutorials_Sample_App/Topics/SR_Car_Rental_re-signing_application.html)  
+3.  [Re-signing Car Rental application](/user-guide/getting-started/sample-repository/car-rental-mobile/testing-car-rental-on-the-android-platform/car-rental-android-configuration/re-signing-car-rental-application)  
 In order for the Car Rental application to run as an AUT on an Android device, the application must be re-signed by TestArchitect.
-4.  [Installing re-signed Car Rental application](/TA_Tutorials_Sample_App/Topics/SR_Car_Rental_installing_re-signed_application.html)  
+4.  [Installing re-signed Car Rental application](/user-guide/getting-started/sample-repository/car-rental-mobile/testing-car-rental-on-the-android-platform/car-rental-android-configuration/installing-re-signed-car-rental-application)  
 After re-signing the Car Rental Android application, you can proceed to install it on an Android device via TestArchitect's **Manage Applications Under Test** dialog box.
 
 

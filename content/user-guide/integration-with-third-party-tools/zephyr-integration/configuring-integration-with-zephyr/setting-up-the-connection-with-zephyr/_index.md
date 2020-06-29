@@ -18,11 +18,11 @@ Before you start working with Zephyr, you need to set up TestArchitect and Zephy
 
 Begin by connecting your TestArchitect repository to a Zephyr server, which involves the following tasks:
 
-1.  [Registering the Zephyr server](/TA_Help/Topics/ug_Zephyr_registering_server.html)  
+1.  [Registering the Zephyr server](/user-guide/integration-with-third-party-tools/zephyr-integration/configuring-integration-with-zephyr/setting-up-the-connection-with-zephyr/registering-the-zephyr-server)  
 Registering the Zephyr server is the first action you need to perform to prepare a TestArchitect-Zephyr integrated environment.
-2.  [Mapping a TestArchitect project to a Zephyr project](/TA_Help/Topics/ug_Zephyr_mapping_projects.html)  
+2.  [Mapping a TestArchitect project to a Zephyr project](/user-guide/integration-with-third-party-tools/zephyr-integration/configuring-integration-with-zephyr/setting-up-the-connection-with-zephyr/mapping-a-testarchitect-project-to-a-zephyr-project)  
 Mapping a TestArchitect project to a project in Zephyr allows for tests to be transferred bidirectionally between the two projects.
-3.  [Configuring ZBots and installing ZIPs](/TA_Help/Topics/ug_Zephyr_ZBot.html)  
+3.  [Configuring ZBots and installing ZIPs](/user-guide/integration-with-third-party-tools/zephyr-integration/configuring-integration-with-zephyr/setting-up-the-connection-with-zephyr/configuring-zbots-and-installing-zips)  
 In order to execute TestArchitect test cases or test modules from Zephyr, a Zephyr Bot \(ZBot\) agent is required to form the link between the Zephyr server and the TestArchitect Client on your machine. Additionally, a custom TestArchitect ZIP project must be deployed on the TestArchitect Client machine.
 
 

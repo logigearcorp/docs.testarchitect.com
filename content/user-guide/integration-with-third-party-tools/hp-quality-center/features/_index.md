@@ -34,17 +34,17 @@ Note that you can now run the tests from either TestArchitect or Quality Center 
 
 The following topics provide details for the high-level steps outlined above.
 
-1.  [Importing Quality Center tests into a TestArchitect test module](/TA_Help/Topics/Integration_QC_test_development_step_1.html)  
+1.  [Importing Quality Center tests into a TestArchitect test module](/user-guide/integration-with-third-party-tools/hp-quality-center/features/importing-quality-center-tests-into-a-testarchitect-test-module/)  
 Tests residing in Quality Center can be imported into TestArchitect. Each Quality Center test is mapped automatically to a test case in TestArchitect.
-2.  [Uploading TestArchitect test modules/test cases to Quality Center](/TA_Help/Topics/Integration_QC_test_development_step_2.html)  
+2.  [Uploading TestArchitect test modules/test cases to Quality Center](/user-guide/integration-with-third-party-tools/hp-quality-center/features/uploading-testarchitect-test-modules-test-cases-to-quality-center/)  
 TestArchitect test modules and test cases can be uploaded to Quality Center which establishes one-to-one mappings between TestArchitect test cases and Quality Center tests.
-3.  [Test entity mappings between TestArchitect and Quality Center](/TA_Help/Topics/ug_QC_mapped_items.revised.html)  
+3.  [Test entity mappings between TestArchitect and Quality Center](/user-guide/integration-with-third-party-tools/hp-quality-center/features/test-entity-mappings)  
 This topic describes how TestArchitect test module and test case fields and contents are mapped to Quality Center tests, determining how information is transferred during the import and upload processes.
-4.  [Uploading test results to Quality Center](/TA_Help/Topics/Integration_QC_Uploading_test_results_to_QC.html)  
+4.  [Uploading test results to Quality Center](/user-guide/integration-with-third-party-tools/hp-quality-center/features/uploading-test-results-to-quality-center/)  
  TestArchitect test results from projects which are mapped to Quality Center can be uploaded to Quality Center manually or automatically.
-5.  [Executing tests from Quality Center](/TA_Help/Topics/Integration_QC_executing_from_QC.html)  
+5.  [Executing tests from Quality Center](/user-guide/integration-with-third-party-tools/hp-quality-center/features/executing-tests-from-quality-center)  
 As an alternative to executing tests from TestArchitect, TestArchitect test cases and test modules can be executed from Quality Center.
-6.  [Creating matching custom fields](/TA_Help/Topics/Integration_QC_creating_mapping_custom_field.html)  
+6.  [Creating matching custom fields](/user-guide/integration-with-third-party-tools/hp-quality-center/features/creating-matching-custom-fields-in-testarchitect-and-quality-center/)  
 User-defined fields in TestArchitect are automatically mapped to their counterparts in Quality Center, when such counterparts exist.
 
 

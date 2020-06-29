@@ -14,11 +14,11 @@ In order to test a Silverlight application, you need to properly configure your 
 
 For a complete checklist, see the following topics:
 
-1.  [Preparing a web browser for testing Silverlight applications](/TA_Automation/Topics/aut_app_testing_Silverlight_apps_prepraring_browser.html)  
+1.  [Preparing a web browser for testing Silverlight applications](/automation-guide/application-testing/testing-web-and-ria-applications/testing-silverlight-applications/preparing-the-test-environment/preparing-a-web-browser)  
 To allow TestArchitect to work properly with a Silverlight application embedded into a web page, you may need to prepare your web browser.
-2.  [Installing a Certificate Authority](/TA_Automation/Topics/aut_app_testing_Silverlight_apps_installing_CA.html)  
+2.  [Installing a Certificate Authority](/automation-guide/application-testing/testing-web-and-ria-applications/testing-silverlight-applications/preparing-the-test-environment/installing-a-certificate-authority)  
 In order to test Silverlight applications running over the HTTPS protocol, installing a TestArchitect Certificate Authority \(CA\) on your test machine is required.
-3.  [Configuring a test machine for Silverlight](/TA_Automation/Topics/aut_app_testing_Silverlight_apps_preparation.html)  
+3.  [Configuring a test machine for Silverlight](/automation-guide/application-testing/testing-web-and-ria-applications/testing-silverlight-applications/preparing-the-test-environment/configuring-a-test-machine-for-silverlight)  
 Preparing your test machine to ensure the testability of your Silverlight application.
 
 

@@ -1,0 +1,45 @@
+--- 
+title: "Mapping controls as MDI-child windows"
+linktitle: "Mapping controls as MDI-child windows"
+description: "To address controls of MDI applications, TestArchitect maps the controls as MDI-child windows."
+weight: 1
+aliases: 
+    - /TA_Help/Topics/ug_mapping_controls_child_windows.html
+keywords: "child windows (MDI), JIT mode, MDI, child window"
+---
+
+To address controls of MDI applications, TestArchitect maps the controls as MDI-child windows.
+
+{{<note>}} Addressing controls of MDI applications by using the JIT mode is just fully supported on [Microsoft UI Automation](/automation-guide/microsoft-ui-automation/) \(UIA\) technology.
+
+To map a control as a MDI-child window, do the following:
+
+1.  Open the AUT and navigate to the MDI-child window of interest.
+
+    {{<note>}} The MDI-child window is recognized as a normal control in the Interface Viewer.
+
+2.  In the Interface Viewer, from the UI Explorer panel, right-click the control that you'd like to capture as a child window, and then select **Set Child Window**.
+
+    The control is now captured as a child window. You can verify it from the **Settings** tab, at the **Child window** field.
+
+    ![](/images/TA_Help/Images/ug_Viewer_child_window.png)
+
+3.  Capture UI controls belonging to the newly-captured child window as you wish.
+
+    For example, capture a button and a list view controls.
+
+    {{<warning>}} While selecting TA properties to capture a control as a MDI-child window, it is highly recommended that you do not use the [global pos](/user-guide/interface-definitions/control-properties/secondary-properties/using-global-pos-to-identify-ui-elements) TA property. The use of global pos might cause the mistake when identifying UI control, since the nature of employed breadth-first search algorithm. \([Learn more](/user-guide/interface-definitions/addressing-windows-controls-of-mdi-apps/jit-ui-matching-algorithm).\)
+
+    ![](/images/TA_Help/Images/ug_Viewer_child_window_2.png)
+
+4.  Save the interface definition.
+
+
+A new [interface entity setting](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/interface-handling/interface-entity-setting) action named child window with the value of specified child window is added to the interface entity you are working on.
+
+![](/images/TA_Help/Images/ug_MDI_definition.png)
+
+In this example, frm\_chart\_check is a MDI-child window, and btn\_ok and listview are child controls which belong to the MDI-child window.
+
+
+

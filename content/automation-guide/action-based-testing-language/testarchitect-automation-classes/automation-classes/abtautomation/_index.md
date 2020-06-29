@@ -12,21 +12,21 @@ Provides support for UI Automation clients.
 
 Contains built-in methods for UI Automation client applications.
 
-1.  [Create](/TA_Automation/Topics/abt_Create.html)  
+1.  [Create](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtautomation/create)  
 
-2.  [Destroy](/TA_Automation/Topics/abt_Destroy.html)  
+2.  [Destroy](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtautomation/destroy)  
 
-3.  [Divert](/TA_Automation/Topics/abt_Divert.html)  
+3.  [Divert](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtautomation/divert)  
 
-4.  [DoAction](/TA_Automation/Topics/abt_DoAction.html)  
+4.  [DoAction](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtautomation/doaction)  
 
-5.  [EndRun](/TA_Automation/Topics/abt_EndRun.html)  
+5.  [EndRun](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtautomation/endrun)  
 
-6.  [OpenEntity](/TA_Automation/Topics/abt_OpenEntity.html)  
+6.  [OpenEntity](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtautomation/openentity)  
 
-7.  [OpenElement](/TA_Automation/Topics/abt_OpenElement.html)  
+7.  [OpenElement](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtautomation/openelement)  
 
-8.  [GetLastError](/TA_Automation/Topics/abt_GetLast_Error.html)  
+8.  [GetLastError](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtautomation/getlasterror)  
 
 
 

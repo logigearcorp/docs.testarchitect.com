@@ -17,13 +17,13 @@ To simplify test creation, TestArchitect includes the Action Recorder, a tool wh
 
     ![](/images/TA_Help/Images/AR_warning_unsupported_platforms.png)
 
--   To generate a [move mouse](/TA_Automation/Topics/bia_move_mouse.html) action during a recording session, you need to let the Action Recorder know the destination point of the move. But simply clicking at a given point generates a [click](/TA_Automation/Topics/bia_click.html) action, which may not be what you want. Instead, once your mouse is at the desired destination point, indicate that fact by using the key combination Ctrl + Alt + Left-click. That indicates to the Action Recorder both the fact that you wish to generate a mouse move action, and the location for the mouse move.
+-   To generate a [move mouse](/automation-guide/action-based-testing-language/built-in-actions/system-actions/mouse/move-mouse) action during a recording session, you need to let the Action Recorder know the destination point of the move. But simply clicking at a given point generates a [click](/automation-guide/action-based-testing-language/built-in-actions/system-actions/mouse/click) action, which may not be what you want. Instead, once your mouse is at the desired destination point, indicate that fact by using the key combination Ctrl + Alt + Left-click. That indicates to the Action Recorder both the fact that you wish to generate a mouse move action, and the location for the mouse move.
 
-{{<tip>}} More on how to use the Action Recorder can be found in [the tutorial chapter for the Action Recorder](/TA_Tutorials/Topics/Tutorial_Using_the_Action_Recorder.html).
+{{<tip>}} More on how to use the Action Recorder can be found in [the tutorial chapter for the Action Recorder](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-4-using-the-action-recorder/).
 
-1.  [Recording in TestArchitect](/TA_Help/Topics/ug_AR_overview.html)  
+1.  [Recording in TestArchitect](/user-guide/actions/action-recorder/recording-in-testarchitect)  
 This topic provides general information on the Action Recorder's recording functionality and controls.
-2.  [Action Recorder settings](/TA_Help/Topics/ug_AR_settings.html)  
+2.  [Action Recorder settings](/user-guide/actions/action-recorder/action-recorder-settings)  
 Several global settings are available to affect the behavior of the TestArchitect Action Recorder.
 
 
@@ -31,5 +31,5 @@ Several global settings are available to affect the behavior of the TestArchitec
 **Related information**  
 
 
-[Introduction to the Action Recorder](/TA_Tutorials/Topics/Action_Recorder_Introduction.html)
+[Introduction to the Action Recorder](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-4-using-the-action-recorder/introduction-to-the-action-recorder)
 

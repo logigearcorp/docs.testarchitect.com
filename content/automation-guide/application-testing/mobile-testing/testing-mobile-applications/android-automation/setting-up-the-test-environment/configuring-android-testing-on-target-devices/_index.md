@@ -14,13 +14,13 @@ Android developers have the option of hosting and testing their applications eit
 
 TestArchitect running on the host PC communicates with the physical device by either USB cable or Wi-Fi. When both USB cable and Wi-Fi connections are present, TestArchitect gives precedence to the Wi-Fi connection. When TestArchitect launches an application for testing, it ascertains the state of connectivity to the physical device. If the Wi-Fi connection is good, TestArchitect uses that as the communication channel. If the Wi-Fi connection is poor, the USB cable is used.
 
-1.  [Basic configuration for Android automation](/Android/Topics/Android_configuring_device.html)  
+1.  [Basic configuration for Android automation](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/setting-up-the-test-environment/configuring-android-testing-on-target-devices/basic-configuration)  
 This section describes the essential configurations needed to ensure that automated tests on Android devices run successfully and stably.
-2.  [Setting up a physical Android device via USB cable](/Android/Topics/Setting_up_physical_device_usb.html)  
+2.  [Setting up a physical Android device via USB cable](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/setting-up-the-test-environment/configuring-android-testing-on-target-devices/setting-up-a-physical-android-device-via-usb-cable)  
 The process of setting up a physical device via USB cable connection.
-3.  [Setting up a physical Android device via Wi-Fi](/Android/Topics/Setting_up_physical_device_wifi.html)  
+3.  [Setting up a physical Android device via Wi-Fi](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/setting-up-the-test-environment/configuring-android-testing-on-target-devices/setting-up-a-physical-android-device-via-wi-fi)  
 The process of setting up a physical device via Wi-Fi connection is discussed.
-4.  [Setting up an Android emulator](/Android/Topics/Setting_up_Android_emulator.html)  
+4.  [Setting up an Android emulator](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/setting-up-the-test-environment/configuring-android-testing-on-target-devices/setting-up-an-android-emulator)  
 TestArchitect can test applications on Android emulators on the host PC.
 
 

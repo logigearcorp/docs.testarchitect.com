@@ -19,20 +19,20 @@ The makers of Remote TestKit offer their service as either a web application, ac
 TestArchitect supports testing on the following platforms on Remote TestKit:
 
 -   WebKit:
-    -   WebView, a software component used to embed web content in a mobile application, and native applications on [Android devices](/TA_Automation/Topics/aut_app_cloud_testing_RTK_Android.html).
--   WebDriver, or in particular [Appium](/TA_Automation/Topics/aut_appium.html):
+    -   WebView, a software component used to embed web content in a mobile application, and native applications on [Android devices](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/testarchitect-and-remote-testkit/testing-native-applications/android-cloud-devices/).
+-   WebDriver, or in particular [Appium](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/testarchitect-and-appium/):
     -   Supported Appium versions:
         -   Windows: Appium version [1.7.2](https://github.com/appium/appium/releases/)
         -   macOS: Appium version [1.7.2](https://github.com/appium/appium/releases/)
     -   Supported platforms:
-        -   Google Chrome on Android devices. \([Learn more](/TA_Automation/Topics/aut_app_cloud_testing_RTK_Chrome.html).\)
-        -   Safari on iOS devices. \([Learn more](/TA_Automation/Topics/aut_app_testing_RTK_Safari.html).\)
+        -   Google Chrome on Android devices. \([Learn more](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/testarchitect-and-remote-testkit/testing-web-based-applications-on-chrome-android/).\)
+        -   Safari on iOS devices. \([Learn more](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/testarchitect-and-remote-testkit/testing-web-based-applications-on-safari-ios/).\)
 
-1.  [Testing native applications](/TA_Automation/Topics/aut_app_cloud_testing_RTK_native_apps.html)  
+1.  [Testing native applications](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/testarchitect-and-remote-testkit/testing-native-applications/)  
 Using TestArchitect, you can create and run automated tests for native applications on Android cloud devices rented in the Remote TestKit service.
-2.  [Testing web based-applications on Chrome Android](/TA_Automation/Topics/aut_app_cloud_testing_RTK_Chrome.html)  
+2.  [Testing web based-applications on Chrome Android](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/testarchitect-and-remote-testkit/testing-web-based-applications-on-chrome-android/)  
 Using TestArchitect, you can create and run automated tests for mobile web applications \(Google Chrome\) on Android cloud devices rented in the Remote TestKit service.
-3.  [Testing web based-applications on Safari iOS](/TA_Automation/Topics/aut_app_testing_RTK_Safari.html)  
+3.  [Testing web based-applications on Safari iOS](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/testarchitect-and-remote-testkit/testing-web-based-applications-on-safari-ios/)  
 Using TestArchitect, you can create and run automated tests for mobile web applications \(Safari\) on iOS cloud devices rented in the Remote TestKit service.
 
 

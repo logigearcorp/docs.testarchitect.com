@@ -10,7 +10,7 @@ keywords: "running, multiple harnesses"
 
 How to run multiple test harnesses simultaneously with a single controller.
 
-{{<note>}} Applies to TestArchitect [8.4](/TA_ReleaseNotes/DITA_source/Whats_New_8.4.html) and higher.
+{{<note>}} Applies to TestArchitect [8.4](/user-guide/version-history/features-added-to-testarchitect-8-4/) and higher.
 
 A distinct advantage of running multiple harnesses is parallel testing. In sequential testing, you have little choice but to carry out tests one by one, but in parallel testing you can run a number of tests concurrently. The more tests you run at the same time, the less overall time you spend.
 
@@ -29,11 +29,11 @@ The illustrations explicitly show the parallel execution time is only one-third 
 -   It is impossible to run a harness in debug mode first and then run more harness\(es\) in debug/ordinary/compilation mode.
 -   Technically, you can run a harness in ordinary mode from TestArchitect Client first and then run another harness in debug mode. It is highly inadvisable to try this because it can cause unexpected functions.
 
-1.  [Running multiple harnesses from TestArchitect Client](/TA_Help/Topics/Multiple_harnesses_running.html)  
+1.  [Running multiple harnesses from TestArchitect Client](/user-guide/test-execution/working-on-multiple-test-harnesses/running-multiple-harnesses-from-testarchitect-client)  
 Running multiple harnesses is to execute different test modules/suites with a single TA Controller simultaneously.
-2.  [Creating a batch file to run multiple harnesses](/TA_Help/Topics/Multiple_harnesses_creating_batch_file.html)  
+2.  [Creating a batch file to run multiple harnesses](/user-guide/test-execution/working-on-multiple-test-harnesses/creating-a-batch-file-to-run-multiple-harnesses)  
 You can create a batch file that calls batch files to execute TestArchitect tests simultaneously.
-3.  [Configuring harness pool size](/TA_Help/Topics/Multiple_harnesses_pool_size.html)  
+3.  [Configuring harness pool size](/user-guide/test-execution/working-on-multiple-test-harnesses/configuring-harness-pool-size)  
 TestArchitect allows you to determine the maximum allowable number of harnesses \(harness pool size\) running on a TestArchitect controller at a time.
 
 

@@ -10,11 +10,11 @@ keywords: "installation guide, License Server"
 
 This guide provides you with step-by-step instructions on how to install the TestArchitect License Server on Windows and Linux operating systems.
 
--   **[System requirements for TestArchitect License Server](/../TA_Administration/Topics/LS_system_requirements.html)**  
+-   **[System requirements for TestArchitect License Server](/administration-guide/license-server/license-server-installation-guide/system-requirements-for-testarchitect-license-server)**  
 Minimum hardware and software requirements for installation of TestArchitect.
--   **[License Server installation on Windows](/../TA_InstallationGuide/DITA_source/Topics/inst_LS_Windows.html)**  
+-   **[License Server installation on Windows](/administration-guide/license-server/license-server-installation-guide/windows)**  
 How to install TestArchitect License Server on Windows.
--   **[License Server installation on Linux](/../TA_InstallationGuide/DITA_source/Topics/inst_LS_Linux.html)**  
+-   **[License Server installation on Linux](/administration-guide/license-server/license-server-installation-guide/linux)**  
 How to install TestArchitect License Server on Linux.
 
 

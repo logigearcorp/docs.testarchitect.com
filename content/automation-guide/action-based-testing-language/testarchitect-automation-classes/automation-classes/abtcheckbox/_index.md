@@ -12,9 +12,9 @@ Object class representing a check box control.
 
 Built-in methods that you can use as operations on objects of classAbtCheckBox:
 
-1.  [Get](/TA_Automation/Topics/abt_Get.html)  
+1.  [Get](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtcheckbox/get)  
 
-2.  [Set](/TA_Automation/Topics/abt_Set.html)  
+2.  [Set](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtcheckbox/set)  
 
 
 

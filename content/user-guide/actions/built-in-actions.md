@@ -1,0 +1,43 @@
+--- 
+title: "Built-in actions"
+linktitle: "Built-in actions"
+description: "TestArchitect includes a library of built-in actions to perform a myriad of functions."
+weight: 1
+aliases: 
+    - /reuse/reuse.Creating_and_using_actions_builtin_actions.html
+keywords: "built-in actions, action, built-in"
+---
+
+TestArchitect includes a library of built-in actions to perform a myriad of functions.
+
+Built-in actions are automatically available with your installation of TestArchitect. They can be found listed in the **Built-In Actions** subtree of the repository tree. There are three categories of built-in actions:
+
+-   **[System actions](/automation-guide/action-based-testing-language/built-in-actions/system-actions/)**
+
+    Actions that interact with the system of the AUT host, such as those that work with user input \(e.g., [type](/automation-guide/action-based-testing-language/built-in-actions/system-actions/keyboard/type), [click](/automation-guide/action-based-testing-language/built-in-actions/system-actions/mouse/click)\) , system resources \([get clipboard](/automation-guide/action-based-testing-language/built-in-actions/system-actions/clipboard/get-clipboard)\), or the host file system \([copy file](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/copy-file)\).
+
+-   **[Test Support actions](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/)**
+
+    Includes automation control actions, like [if](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/if) and [sleep](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/timing/sleep), and declaratory actions \([argument](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/action-definition/argument), [test case](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/documentary/test-case), [test objective](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/documentary/test-objective)\).
+
+-   **[User Interface actions](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/)**
+
+    Actual automation actions, such as [enter](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/enter) and [select menu item](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/select-menu-item).
+
+
+![](/images/TA_Help/Images/Tree_with_built_in_actions.png)
+
+Built-in actions cannot be modified by you. They can, however, be used as building blocks of custom user actions that you may create in the form of [user-defined](/user-guide/support/glossary-of-terms/action-application-level) or [user-scripted](/user-guide/support/glossary-of-terms/action-user-scripted) actions.
+
+{{<tip>}} When writing your test, if you do not know which built-in actions to use, it is suggested you use the TestArchitect [Action Recorder](/user-guide/actions/action-recorder/), a tool to record your manual mouse and keyboard operations when testing an application. The interactive operations generate the corresponding built-in actions.
+
+{{<note>}} See [Built-in actions](/automation-guide/action-based-testing-language/built-in-actions/) for a complete reference to TestArchitect's library of built-in actions.
+
+## Showing applicable built-in actions for windows/controls
+
+From Solution Explorer, drag an interface entity or interface element into a cell in an empty row in the editor to view a drop-down list of applicable built-in actions. After selecting an action from the drop-down list, TestArchitect automatically completes the syntax and the argument cells of the interface entity or interface element.
+
+{{<note>}} This feature is only available in the test editor for test modules and [user-defined actions](/user-guide/actions/user-defined-actions/).
+
+
+

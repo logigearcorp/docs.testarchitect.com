@@ -20,9 +20,9 @@ Guides to setting up Safari iOS automation under TestArchitect.
 
 Additionally, ensure the you take the following steps:
 
-1.  [Configuring iOS devices and macOS machines for testing Safari iOS](/TA_Automation/Topics/aut_app_testing_mobile_web_Safari_configurations.html)  
+1.  [Configuring iOS devices and macOS machines for testing Safari iOS](/automation-guide/application-testing/mobile-testing/testing-mobile-web-applications/testing-safari-on-ios/prerequisites/configuring-ios-devices-and-macos-machines)  
 This section describes essential configurations needed to ensure that automated tests on Safari iOS run successfully and stably.
-2.  [Re-signing and installing TestArchitect Browser Agent](/TA_Automation/Topics/aut_app_testing_mobile_web_Safari_installing_TA_Browser_Agent.html)  
+2.  [Re-signing and installing TestArchitect Browser Agent](/automation-guide/application-testing/mobile-testing/testing-mobile-web-applications/testing-safari-on-ios/prerequisites/installing-testarchitect-browser-agent)  
 If your tests are to make use of the built-in navigate action to automatically invoke web pages in the Safari browser, then any iOS device subject to such testing must by prepped by having TestArchitect Browser Agent re-signed and installed. \(Note, however, that this procedure may be bypassed if you instead plan to start Safari manually by tapping the Safari icon on the device.\)
 
 

@@ -63,9 +63,9 @@ The following types of charts are available in TestArchitect's Dashboard:
     Each data point on the line chart is a hyperlink to a drill down page containing detailed statistics for that particular point. For example, clicking on the passing test module execution for the test date 2013-20 on the line chart above brings up a detailed statistics page containing a list of all test modules executed on that date with passing results.
 
 
--   **[Creating a new chart panel](/TA_Help/Topics/Dashboard_create_new_chart_panel.html)**  
+-   **[Creating a new chart panel](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/chart-settings/creating-a-new-chart-panel)**  
 You can create panels containing pie charts, bar charts, or line charts to compare and track your test results and other project-related metrics.
--   **[Editing a chart panel](/TA_Help/Topics/Dashboard_edit_chart_panel.html)**  
+-   **[Editing a chart panel](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/chart-settings/editing-a-chart-panel)**  
 A chart's appearance, and data used to render the chart, can be modified at any time.
 
 
@@ -74,13 +74,13 @@ A chart's appearance, and data used to render the chart, can be modified at any 
 **Related information**  
 
 
-[Category and series](/TA_Help/Topics/Dashboard_category_series.html)
+[Category and series](/user-guide/reporting-and-dashboard/dashboard/category-and-series)
 
-[Heat map settings](/TA_Help/Topics/Dashboard_heatmap.html)
+[Heat map settings](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/heat-map-settings/)
 
-[Report settings](/TA_Help/Topics/Dashboard_report.html)
+[Report settings](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/report-settings/)
 
-[Indicator settings](/TA_Help/Topics/Dashboard_indicator.html)
+[Indicator settings](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/indicator-settings/)
 
-[Chart settings](/TA_Help/Topics/Dashboard_chart.html)
+[Chart settings](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/chart-settings/)
 

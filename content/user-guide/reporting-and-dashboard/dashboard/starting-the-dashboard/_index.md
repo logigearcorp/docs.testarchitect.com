@@ -14,11 +14,11 @@ A Dashboard instance is accessible from TestArchitect Client, TestArchitect Lab 
 
 ![](/images/TA_Help/Images/IE_untrusted_site.png)
 
-1.  [Starting Dashboard from TestArchitect](/TA_Help/Topics/Dashboard_starting_from_TA.html)  
+1.  [Starting Dashboard from TestArchitect](/user-guide/reporting-and-dashboard/dashboard/starting-the-dashboard/starting-dashboard-from-testarchitect)  
 Launching a Dashboard instance from TestArchitect Client
-2.  [Starting Dashboard from Lab Manager](/TA_Help/Topics/Dashboard_starting_from_lab_manager.html)  
+2.  [Starting Dashboard from Lab Manager](/user-guide/reporting-and-dashboard/dashboard/starting-the-dashboard/starting-dashboard-from-lab-manager)  
 Accessing a Dashboard instance from a TestArchitect Lab Manager session.
-3.  [Starting Dashboard from a browser](/TA_Help/Topics/Dashboard_starting_from_browser.html)  
+3.  [Starting Dashboard from a browser](/user-guide/reporting-and-dashboard/dashboard/starting-the-dashboard/starting-dashboard-from-a-browser)  
 A Dashboard instance may also be launched directly from within any web browser.
 
 

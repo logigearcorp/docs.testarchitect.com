@@ -12,11 +12,11 @@ Device Live Screen is a tool built into the TestArchitect Client environment to 
 
 Topics of this section provide detailed information about the Device Live Screen window.
 
-1.  [Launching Device Live Screen](/TA_Help/Topics/ug_DLS_displaying_window.html)  
+1.  [Launching Device Live Screen](/automation-guide/application-testing/mobile-testing/additional-tasks-and-tools/device-live-screen/launching-device-live-screen)  
 
-2.  [Display modes](/TA_Help/Topics/ug_DLS_display_modes.html)  
+2.  [Display modes](/automation-guide/application-testing/mobile-testing/additional-tasks-and-tools/device-live-screen/display-modes)  
 
-3.  [Description of the window](/TA_Help/Topics/ug_DLS_description.html)  
+3.  [Description of the window](/automation-guide/application-testing/mobile-testing/additional-tasks-and-tools/device-live-screen/description-of-the-window)  
 
 
 
@@ -24,5 +24,5 @@ Topics of this section provide detailed information about the Device Live Screen
 **Related information**  
 
 
-[Identifying mobile UI controls](/TA_Automation/Topics/aut_app_testing_mobile_web_Chrome_identifying_controls.html)
+[Identifying mobile UI controls](/automation-guide/application-testing/mobile-testing/testing-mobile-web-applications/testing-chrome-on-android/identifying-mobile-ui-controls)
 

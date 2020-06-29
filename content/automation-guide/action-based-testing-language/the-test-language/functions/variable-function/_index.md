@@ -10,7 +10,7 @@ keywords: "variable functions"
 
 The getglobal function is used to retrieve a global variable's value.
 
-1.  [getglobal\(variable\)](/TA_Automation/Topics/Expressions_functions_getglobal.html)  
+1.  [getglobal\(variable\)](/automation-guide/action-based-testing-language/the-test-language/functions/variable-function/getglobal-variable)  
 Retrieve an existing global variable’s value.
 
 

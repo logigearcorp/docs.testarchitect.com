@@ -70,7 +70,7 @@ java -jar TAImportExportTool.jar --ImportRepository [--server<value>] [--port<va
     Since overwriting a repository will cause you to lose the data in the existing repository, please inform your team members to ensure that no project modifications are made during the repository import process.
 
 
-1.  [Running ImportRepository command \(Import/Export tool\)](/TA_Help/Topics/ug_export_import_tool_import_repository_running.html)  
+1.  [Running ImportRepository command \(Import/Export tool\)](/user-guide/import-export-command-line-tool/importrepository-command/running-importrepository)  
 
 
 

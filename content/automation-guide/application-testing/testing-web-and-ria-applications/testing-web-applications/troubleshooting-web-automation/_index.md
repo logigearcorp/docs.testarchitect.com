@@ -10,41 +10,41 @@ keywords: "web automation, troubleshooting"
 
 A discussion of issues you may encounter when automating tests on web browsers, and possible solutions to these problems. FAQs are also mentioned.
 
--   **[Why can't I execute web automated tests with TestArchitect?](/TA_FAQ/Topics/faq.tshoot.web_automation_install_TA_agent.html)**  
+-   **[Why can't I execute web automated tests with TestArchitect?](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/troubleshooting-web-automation/why-can-t-i-execute-web-automated-tests-with-testarchitect)**  
 
--   **[How to capture interfaces to run cross-browser tests?](/TA_FAQ/Topics/faq.howto.web_automation_capture_interfaces_cross_browsers.html)**  
+-   **[How to capture interfaces to run cross-browser tests?](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/troubleshooting-web-automation/how-to-capture-interfaces-to-run-cross-browser-tests)**  
 
--   **[How do I execute cross-browser automated tests?](/TA_FAQ/Topics/faq.howto.web_automation_variations.html)**  
+-   **[How do I execute cross-browser automated tests?](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/troubleshooting-web-automation/how-do-i-execute-cross-browser-automated-tests/)**  
 
--   **[Can TestArchitect capture pop-up windows without titles in Mozilla Firefox?](/TA_FAQ/Topics/faq.howto.web_automation_capturing_popup_window.html)**  
+-   **[Can TestArchitect capture pop-up windows without titles in Mozilla Firefox?](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/troubleshooting-web-automation/can-testarchitect-capture-pop-up-windows-without-titles-in-mozilla-firefox)**  
 
--   **[How should errors during automated tests be handled?](/TA_FAQ/Topics/faq.howto.web_automation_error_handling.html)**  
+-   **[How should errors during automated tests be handled?](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/troubleshooting-web-automation/how-should-errors-during-automated-tests-be-handled)**  
 
--   **[How do I enable the TestArchitect Automation Agent in Mozilla Firefox on Linux?](/TA_FAQ/Topics/faq.howto.web_automation_enable_TA_Firefox_plugin_Linux.html)**  
+-   **[How do I enable the TestArchitect Automation Agent in Mozilla Firefox on Linux?](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/troubleshooting-web-automation/how-do-i-enable-the-testarchitect-automation-agent-in-mozilla-firefox-on-linux)**  
 
--   **[How to verify a control if its value starts with the pound key?](/TA_FAQ/Topics/faq.howto.web_automation_verify_controls_pound_key.html)**  
+-   **[How to verify a control if its value starts with the pound key?](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/troubleshooting-web-automation/how-to-verify-a-control-if-its-value-starts-with-the-pound-key)**  
 
--   **[How to capture interfaces if different windows appear based on the user credentials?](/TA_FAQ/Topics/faq.howto.web_automation_capture_interfaces_user_credentials.html)**  
+-   **[How to capture interfaces if different windows appear based on the user credentials?](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/troubleshooting-web-automation/how-to-capture-interfaces-if-different-windows-appear-based-on-the-user-credentials)**  
 
--   **[Google Chrome: Unable to use the Interface Viewer or the Identify features](/TA_FAQ/Topics/faq.tshoot.chrome.viewer_not_work.html)**  
+-   **[Google Chrome: Unable to use the Interface Viewer or the Identify features](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/troubleshooting-web-automation/google-chrome-unable-to-use-the-interface-viewer-or-the-identify-features)**  
 
--   **[Google Chrome: Unable to run automated tests](/TA_FAQ/Topics/faq.tshoot.chrome.automation_not_run.html)**  
+-   **[Google Chrome: Unable to run automated tests](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/troubleshooting-web-automation/google-chrome-unable-to-run-automated-tests)**  
 
--   **[Why does my automated test fail to locate a web element on the page?](/TA_FAQ/Topics/faq.tshoot.web_control_not_found.html)**  
+-   **[Why does my automated test fail to locate a web element on the page?](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/troubleshooting-web-automation/why-does-my-automated-test-fail-to-locate-a-web-element-on-the-page)**  
 
--   **[Safari macOS: Unable to restore the Interface Viewer from the Dock](/TA_FAQ/Topics/faq.tshoot.restore_Viewer.html)**  
+-   **[Safari macOS: Unable to restore the Interface Viewer from the Dock](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/troubleshooting-web-automation/safari-macos-unable-to-restore-the-interface-viewer-from-the-dock)**  
 
--   **[Incompatible add-on on Internet Explorer](/TA_FAQ/Topics/faq.tshoot.incompatible_add_on_IE.html)**  
+-   **[Incompatible add-on on Internet Explorer](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/troubleshooting-web-automation/incompatible-add-on-on-internet-explorer)**  
 
--   **[Microsoft Edge: Unable to launch the browser or run automated tests](/TA_FAQ/Topics/faq.tshoot.edge.automation_not_run.html)**  
+-   **[Microsoft Edge: Unable to launch the browser or run automated tests](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/troubleshooting-web-automation/microsoft-edge-unable-to-launch-the-browser-or-run-automated-tests)**  
 
--   **[Google Chrome: Unable to identify web controls or run automated tests because modal dialog boxes appear](/TA_FAQ/Topics/faq.tshoot.chrome.modal_dialog_boxes_not_run.html)**  
+-   **[Google Chrome: Unable to identify web controls or run automated tests because modal dialog boxes appear](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/troubleshooting-web-automation/ar)**  
 
--   **[Mozilla Firefox: Unable to launch the browser or run automated tests](/TA_FAQ/Topics/faq.tshoot.firefox.automation_not_run.html)**  
+-   **[Mozilla Firefox: Unable to launch the browser or run automated tests](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/troubleshooting-web-automation/mozilla-firefox-unable-to-launch-the-browser-or-run-automated-tests)**  
 
--   **[How to capture UI controls on Mozilla Firefox and Microsoft Edge?](/TA_FAQ/Topics/faq.howto.capture_controls_Firefox_Edge.html)**  
+-   **[How to capture UI controls on Mozilla Firefox and Microsoft Edge?](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/troubleshooting-web-automation/how-to-capture-ui-controls-on-mozilla-firefox-and-microsoft-edge)**  
 
--   **[How to bypass Insecure password warning in Firefox during automation testing?](/TA_FAQ/Topics/faq.howto.bypass_insecure_password_warning_Firefox.html)**  
+-   **[How to bypass Insecure password warning in Firefox during automation testing?](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/troubleshooting-web-automation/how-to-bypass-insecure-password-warning-in-firefox-during-automation-testing)**  
 
 
 

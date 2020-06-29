@@ -18,14 +18,14 @@ In addition, all of the hardware and software are located in the providers’ da
 
 ## Supported cloud computing services
 
--   [Remote TestKit](/TA_Automation/Topics/aut_app_cloud_testing_RTK.html)
--   [WebDriver based cloud services](/TA_Automation/Topics/aut_appium.html) \([Appium](http://appium.io/slate/en/master/?ruby#about-appium) enabled\)
+-   [Remote TestKit](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/testarchitect-and-remote-testkit/)
+-   [WebDriver based cloud services](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/testarchitect-and-appium/) \([Appium](http://appium.io/slate/en/master/?ruby#about-appium) enabled\)
 
-{{<restriction>}} [Screenshot Recording](/TA_Help/Topics/ug_Screenshot_recording.html) is currently not supported on automated tests in mobile cloud environment. \(See [here](/TA_FAQ/Topics/faq.howto.screenshot_recording_mobile_cloud.html) for a detour solution.\)
+{{<restriction>}} [Screenshot Recording](/user-guide/finding-bugs-with-testarchitect/screenshot-recording/) is currently not supported on automated tests in mobile cloud environment. \(See [here](/automation-guide/application-testing/mobile-testing/additional-tasks-and-tools/constructing-a-video-link-to-record-all-screenshots-during-automation-on-cloud-services/) for a detour solution.\)
 
-1.  [TestArchitect and Remote TestKit](/TA_Automation/Topics/aut_app_cloud_testing_RTK.html)  
+1.  [TestArchitect and Remote TestKit](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/testarchitect-and-remote-testkit/)  
 You can use Remote TestKit to remotely rent a wide variety of Android and iOS smartphones, with over 350 popular models to choose from, situated in locations around the world.
-2.  [TestArchitect and Appium](/TA_Automation/Topics/aut_appium.html)  
+2.  [TestArchitect and Appium](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/testarchitect-and-appium/)  
 TestArchitect allows you to run automated tests on real devices in **WebDriver based cloud services** \(Appium enabled\).
 
 

@@ -12,7 +12,7 @@ You can attach files from TestArchitect to a TFS bug.
 
 An attachment is any file that is included with your TFS bug. Supported attachments are test results in HTML format and screenshots. You can attach files to any TFS bug, provided you have permission to do so.
 
--   **[Attaching HTML test results to a TFS bug](/TA_Help/Topics/Bug_working_attachments_test_results_TFS.html)**  
+-   **[Attaching HTML test results to a TFS bug](/user-guide/integration-with-third-party-tools/tfs-integration/tfs-bug-tracker/features-tfs-bug-tracker/working-with-tfs-attachments/attaching-html-test-results-to-a-tfs-bug)**  
 TestArchitect allows you to attach both local results and repository results, in HTML format, to a TFS bug.
 
 

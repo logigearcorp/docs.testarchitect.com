@@ -18,25 +18,25 @@ The License Server you use can reside either on your local machine, or on a remo
 
 {{<important>}} In this document, the client machine refers to the machine running the TestArchitect Client or TestArchitect Controller.
 
-1.  [What's new in TestArchitect License Server 8.5.1](/TA_ReleaseNotes/DITA_source/Whats_New_LS.html)  
+1.  [What's new in TestArchitect License Server 8.5.1](/administration-guide/license-server/what-s-new-in-testarchitect-license-server-8-5-1/)  
 Following are the new features and enhancements introduced in the latest version of TestArchitect License Server.
-2.  [Version history](/TA_ReleaseNotes/DITA_source/Version_History_LS.html)  
+2.  [Version history](/administration-guide/license-server/version-history/)  
 This topic describes the changes made in previous versions of TestArchitect License Server.
-3.  [License administration configurations](/TA_Administration/Topics/LS_TA_admin_config.html)  
+3.  [License administration configurations](/administration-guide/license-server/license-administration-configurations/)  
 A TestArchitect license server can be configured as a single server, one of multiple licensing servers, or as a redundant server.
-4.  [License Server installation guide](/TA_InstallationGuide/DITA_source/Topics/inst_LS.html)  
+4.  [License Server installation guide](/administration-guide/license-server/license-server-installation-guide/)  
 This guide provides you with step-by-step instructions on how to install the TestArchitect License Server on Windows and Linux operating systems.
-5.  [License server interface](/TA_Administration/Topics/LS_TA_interface.html)  
+5.  [License server interface](/administration-guide/license-server/license-server-interface)  
 The License Server Control Panel allows you to add and edit licenses in the license pool, change license types, and display license information and status.
-6.  [Obtaining a TestArchitect license](/TA_Administration/Topics/LS_TA_obtaining_license.html)  
+6.  [Obtaining a TestArchitect license](/administration-guide/license-server/obtaining-a-testarchitect-license/)  
 Obtaining a TestArchitect license, or adding a license, is a two-step process which involves submitting a request to LogiGear for a license key and using the authorized key to add the license.
-7.  [Managing the license server](/TA_Administration/Topics/LS_TA_managing_license_server.html)  
+7.  [Managing the license server](/administration-guide/license-server/managing-the-license-server/)  
 How to start and stop the license server, change the server port, and create a redundant license server.
-8.  [Managing licenses](/TA_Administration/Topics/LS_TA_managing_licenses.html)  
+8.  [Managing licenses](/administration-guide/license-server/managing-licenses/)  
 The processes of license conversion, reclaiming, redirecting, and removing.
-9.  [License log file](/TA_Administration/Topics/adm_License_server_log_file.html)  
+9.  [License log file](/administration-guide/license-server/license-log-file/)  
 The license log file tracks license requests submitted to the license server. It can be helpful in interpreting events and problems.
-10. [Troubleshooting the TestArchitect License Server](/TA_Administration/Topics/adm_LS_troubleshooting.html)  
+10. [Troubleshooting the TestArchitect License Server](/administration-guide/license-server/troubleshooting-the-testarchitect-license-server/)  
 This section describes possible errors that you might encounter with the TestArchitect License Server, their common causes and possible solutions.
 
 

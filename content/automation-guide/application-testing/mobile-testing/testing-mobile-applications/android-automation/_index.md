@@ -29,17 +29,17 @@ TestArchitect supports of testing physical devices or emulators running on your 
 |API level 15|4.0.3 - 4.0.4|
 |API level 14|4.0 - 4.0.2|
 
-1.  [Android Instrumentation Tool](/Android/Topics/Android_Instrumentation_tool.html)  
+1.  [Android Instrumentation Tool](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/android-instrumentation-tool/)  
 The Android Instrumentation Tool or AIT is the central command for managing target devices and the testable applications on those devices.
-2.  [Setting up the test environment](/Android/Topics/Setting_up_the_test_enviroment.html)  
+2.  [Setting up the test environment](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/setting-up-the-test-environment/)  
 How to setup and configure Android automated testing environments on target devices..
-3.  [Capturing an Android interface with the Interface Viewer](/Android/Topics/Capturing_Android_interface.html)  
+3.  [Capturing an Android interface with the Interface Viewer](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/capturing-an-android-interface)  
 The Interface Viewer looks for the presence of an available Android device. If found, it displays the elements of its graphical user interface.
-4.  [Starting Android automated tests](/Android/Topics/Android_execution.html)  
+4.  [Starting Android automated tests](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/starting-android-automated-tests/)  
 Approaches to selecting which Android device\(s\) run automated tests in TestArchitect.
-5.  [Android command line tool](/Android/Topics/Android_command_line_tool.html)  
+5.  [Android command line tool](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/android-command-line-tool/)  
 Rather than re-signing, installing, and then launching an Android AUT via the Android Instrumentation Tool, you can perform these operations in the command line of both Windows and Linux.
-6.  [Configuring customized signatures](/Android/Topics/Android_configuring_customized_certificate.html)  
+6.  [Configuring customized signatures](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/configuring-customized-signatures/)  
  How to configure your custom Android signature to allow your application to be tested by TestArchitect.
 
 

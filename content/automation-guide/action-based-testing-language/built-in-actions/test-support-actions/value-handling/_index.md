@@ -10,27 +10,27 @@ keywords:
 
 Value handling built-in actions include actions that verify the value of displayed text.
 
-1.  [check pattern](/TA_Automation/Topics/bia_check_pattern.html)  
+1.  [check pattern](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/value-handling/check-pattern)  
 
-2.  [check text contains](/TA_Automation/Topics/bia_check_text_contains.html)  
+2.  [check text contains](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/value-handling/check-text-contains)  
 
-3.  [check text not contains](/TA_Automation/Topics/bia_check_text_not_contains.html)  
+3.  [check text not contains](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/value-handling/check-text-not-contains)  
 
-4.  [check value](/TA_Automation/Topics/bia_check_value.html)  
+4.  [check value](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/value-handling/check-value)  
 
-5.  [does text contain](/TA_Automation/Topics/bia_does_text_contain.html)  
+5.  [does text contain](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/value-handling/does-text-contain)  
 
-6.  [get setting](/TA_Automation/Topics/bia_get_setting.html)  
+6.  [get setting](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/value-handling/get-setting)  
 
-7.  [global variable](/TA_Automation/Topics/bia_global_variable.html)  
+7.  [global variable](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/value-handling/global-variable)  
 
-8.  [local variable](/TA_Automation/Topics/bia_local_variable.html)  
+8.  [local variable](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/value-handling/local-variable)  
 
-9.  [set global variable](/TA_Automation/Topics/bia_set_global_variable.html)  
+9.  [set global variable](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/value-handling/set-global-variable)  
 
-10. [set variable](/TA_Automation/Topics/bia_set_variable.html)  
+10. [set variable](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/value-handling/set-variable)  
 
-11. [setting](/TA_Automation/Topics/bia_setting.html)  
+11. [setting](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/value-handling/setting)  
 
 
 

@@ -22,15 +22,15 @@ With the aid of **Mark As Known Bug**, the 20 fails from the first test run can 
 
 It should be understood that marked bugs do not affect the flow of execution of a test. The action lines associated with a marked bug are still executed as before. The only effect a marked bug has is that the particular result associated with it is omitted from the standard test results display.
 
-That said, the reality is that TestArchitect does, in fact, take note of the outcomes of tests that are marked as known bugs. These are reported in the [Known bug summary](/TA_Help/Topics/Bugs_working_known_bug_reviewing_test_results.html) section of the test results, separate from the main body. This reporting aids you in deciding whether, and how, the status of each given bug should be changed.
+That said, the reality is that TestArchitect does, in fact, take note of the outcomes of tests that are marked as known bugs. These are reported in the [Known bug summary](/user-guide/projects-and-project-items/project-items/testarchitect-bugs/working-with-known-bugs/reviewing-test-results-with-known-bugs) section of the test results, separate from the main body. This reporting aids you in deciding whether, and how, the status of each given bug should be changed.
 
-1.  [Tracking known bugs](/TA_Help/Topics/Bugs_working_known_bug_marking.html)  
+1.  [Tracking known bugs](/user-guide/projects-and-project-items/project-items/testarchitect-bugs/working-with-known-bugs/tracking-known-bugs)  
 Known bugs in a test may be flagged, or marked. Marking known bugs allows the fails associated with the bugs to be ignored, so that they are not counted in test results.
-2.  [Reviewing test results with known bugs](/TA_Help/Topics/Bugs_working_known_bug_reviewing_test_results.html)  
+2.  [Reviewing test results with known bugs](/user-guide/projects-and-project-items/project-items/testarchitect-bugs/working-with-known-bugs/reviewing-test-results-with-known-bugs)  
 Reviewing test results can assist you in determining if and when JIRA bug issues on a JIRA server should be closed.
-3.  [Removing known bugs](/TA_Help/Topics/Bugs_working_known_bug_removing.html)  
+3.  [Removing known bugs](/user-guide/projects-and-project-items/project-items/testarchitect-bugs/working-with-known-bugs/removing-known-bugs)  
 Removed known bug marks from action lines when they are no longer needed.
-4.  [Viewing bugs related to a test module or test case](/TA_Help/Topics/Bugs_viewing_related_bugs.html)  
+4.  [Viewing bugs related to a test module or test case](/user-guide/projects-and-project-items/project-items/testarchitect-bugs/working-with-known-bugs/viewing-bugs-related-to-a-test-module-or-test-case)  
 If an action line in a test module is marked with a TA bug, the parent test case and test module are also marked with that TA bug. You have option to view all the TA bugs which are exposed by the parent test modules/test cases.
 
 

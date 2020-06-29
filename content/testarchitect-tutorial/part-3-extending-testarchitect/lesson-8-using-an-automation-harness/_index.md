@@ -1,8 +1,7 @@
 --- 
 title: "Lesson #8: Using an automation harness"
-slug: 'lesson-8-using-an-automation-harness'
 linktitle: "Lesson #8: Using an automation harness"
-slug: 'lesson-8-using-an-automation-harness'
+slug: "lesson-8-using-an-automation-harness"
 description: "You may at times find it necessary to do some things in your test that cannot be achieved with built-in actions, nor with the user-defined actions that build upon them. User-scripted actions allow you ..."
 weight: 1
 aliases: 
@@ -38,17 +37,17 @@ The intended audiences include testers and automation engineers.
 -   Writing harness script code to interact with a UI
 -   Reporting results from a user-scripted action
 
-1.  [Understanding harnesses](/TA_Tutorials/Topics/Understanding_harnesses.html)  
+1.  [Understanding harnesses](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/understanding-harnesses)  
 Some project requirements cannot be addressed strictly by building upon built-in actions.
-2.  [Invoking a user-scripted action](/TA_Tutorials/Topics/Invoking_a_harness_action.html)  
+2.  [Invoking a user-scripted action](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/invoking-a-user-scripted-action)  
  What it takes to access a user-scripted action from your test module.
-3.  [Working with the Python harness](/TA_Tutorials/Topics/Tutorial_Scripting_actions_in_other_languages_python.html)  
+3.  [Working with the Python harness](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/working-with-the-python-harness/)  
 How to implement TestArchitect actions using the Python programming language.
-4.  [Working with the Java harness](/TA_Tutorials/Topics/Tutorial_Scripting_actions_in_other_languages_java.html)  
+4.  [Working with the Java harness](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/working-with-the-java-harness/)  
 How to implement TestArchitect actions using the Java programming language.
-5.  [Working with the C\# bundle harness](/TA_Tutorials/Topics/tut_Scripting_actions_in_other_languages_CSharp_bundle.html)  
+5.  [Working with the C\# bundle harness](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/working-with-the-c-bundle-harness/)  
 How to implement customized TestArchitect actions using the C\# programming language.
-6.  [Summary: What you have learned](/TA_Tutorials/Topics/Summary_Scripting_in_other_languages.html)  
+6.  [Summary: What you have learned](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/summary-what-you-have-learned)  
 
 
 

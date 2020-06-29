@@ -12,33 +12,33 @@ Picture handling actions interact with captured and stored images.
 
 {{<note>}}
 
--   Picture Handling built-in actions works based on either a pixel-by-pixel technique or a keypoint detection technique comparison. To switch between techniques, use the [picture algorithm](/TA_Automation/Topics/bis_picture_algorithm.html) setting.
--   The exact value for the picture algorithm built-in setting \(specifying the pixel-by-pixel comparison technique\) applies to nearly every [picture handling](/TA_Automation/Topics/bia_picture_handling.html) built-in action. The sole exception is [set picture min accuracy](/TA_Automation/Topics/bia_set_picture_min_accuracy.html), which does not interact with the AUT.
--   The key points value for the picture algorithm built-in setting \(specifying the keypoint detection technique\) applies to every [picture handling](/TA_Automation/Topics/bia_picture_handling.html) built-in action but two: [check picture](/TA_Automation/Topics/bia_check_picture.html) is exempt, since it always applies a pixel-by-pixel comparison, and set picture min accuracy, as mentioned, has no interaction with the AUT.
+-   Picture Handling built-in actions works based on either a pixel-by-pixel technique or a keypoint detection technique comparison. To switch between techniques, use the [picture algorithm](/automation-guide/action-based-testing-language/built-in-settings/other-settings/picture-algorithm) setting.
+-   The exact value for the picture algorithm built-in setting \(specifying the pixel-by-pixel comparison technique\) applies to nearly every [picture handling](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/) built-in action. The sole exception is [set picture min accuracy](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/set-picture-min-accuracy), which does not interact with the AUT.
+-   The key points value for the picture algorithm built-in setting \(specifying the keypoint detection technique\) applies to every [picture handling](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/) built-in action but two: [check picture](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/check-picture) is exempt, since it always applies a pixel-by-pixel comparison, and set picture min accuracy, as mentioned, has no interaction with the AUT.
 
-1.  [capture screen](/TA_Automation/Topics/bia_capture_screen.html)  
+1.  [capture screen](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/capture-screen)  
 
-2.  [check picture](/TA_Automation/Topics/bia_check_picture.html)  
+2.  [check picture](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/check-picture)  
 
-3.  [check picture exists](/TA_Automation/Topics/bia_check_picture_exists.html)  
+3.  [check picture exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/check-picture-exists)  
 
-4.  [check picture not exists](/TA_Automation/Topics/bia_check_picture_not_exists.html)  
+4.  [check picture not exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/check-picture-not-exists)  
 
-5.  [click picture](/TA_Automation/Topics/bia_click_picture.html)  
+5.  [click picture](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/click-picture)  
 
-6.  [does picture exist](/TA_Automation/Topics/bia_does_picture_exist.html)  
+6.  [does picture exist](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/does-picture-exist)  
 
-7.  [export baseline picture](/TA_Automation/Topics/bia_export_baseline_picture.html)  
+7.  [export baseline picture](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/export-baseline-picture)  
 
-8.  [get baseline image count](/TA_Automation/Topics/bia_get_baseline_image_count.html)  
+8.  [get baseline image count](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/get-baseline-image-count)  
 
-9.  [get picture location](/TA_Automation/Topics/bia_get_picture_location.html)  
+9.  [get picture location](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/get-picture-location)  
 
-10. [if picture exists](/TA_Automation/Topics/bia_if_picture_exists.html)  
+10. [if picture exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/if-picture-exists)  
 
-11. [if picture not exists](/TA_Automation/Topics/bia_if_picture_not_exists.html)  
+11. [if picture not exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/if-picture-not-exists)  
 
-12. [set picture min accuracy](/TA_Automation/Topics/bia_set_picture_min_accuracy.html)  
+12. [set picture min accuracy](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/set-picture-min-accuracy)  
 
 
 
@@ -47,5 +47,5 @@ Picture handling actions interact with captured and stored images.
 **Related information**  
 
 
-[Image comparison techniques](/TA_Automation/Topics/aut_image_comparison_techniques.html)
+[Image comparison techniques](/automation-guide/action-based-testing-language/the-test-language/image-comparison-techniques)
 

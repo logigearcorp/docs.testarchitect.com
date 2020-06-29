@@ -10,9 +10,9 @@ keywords:
 
 Actions which interact with spin box control in an AUT.
 
-1.  [spin down](/TA_Automation/Topics/bia_spin_down.html)  
+1.  [spin down](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/spin/spin-down)  
 
-2.  [spin up](/TA_Automation/Topics/bia_spin_up.html)  
+2.  [spin up](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/spin/spin-up)  
 
 
 

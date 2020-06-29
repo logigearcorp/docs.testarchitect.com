@@ -10,11 +10,11 @@ keywords: "time traveling, test execution, backward, execution, running, executi
 
 Time-traveling execution provides the support for "retroactive" execution; that is, the ability to execute a particular set of revisions of project items in a given project.
 
-{{<remember>}} To use time-traveling execution on any test module belonging to a legacy repository created prior to TestArchitect version [8.2](/TA_ReleaseNotes/DITA_source/Whats_New_8.2.html), you must first upgrade the repository database. \([Learn more](/TA_Administration/Topics/adm_database_upgrade_time_traveling.html).\)
+{{<remember>}} To use time-traveling execution on any test module belonging to a legacy repository created prior to TestArchitect version [8.2](/user-guide/version-history/features-added-to-testarchitect-8-2/), you must first upgrade the repository database. \([Learn more](/administration-guide/repository-server-management/upgrading-the-repository-database-for-time-traveling-execution).\)
 
 ## The need for retroactive execution
 
-Under some circumstances you may need to run automated tests against a specific release version of an AUT, say, version 1, when that is no longer the current version. Now, in a perfect world, you might have used [linked variations](/TA_Help/Topics/Variations_linking.html) to associate all the right versions of project items to the version 1 system. In practice, though, we don't always do things that way. So what do you do when you need to “go back in time” to execute existing tests on an older AUT version? Fortunately, you still have all the necessary versions of project items preserved through TestArchitect's [revision control system](/TA_Help/Topics/Project_items_history.html). And time-traveling execution helps grant your test run access to the specific revisions that you require for all the project items invoked by your test.
+Under some circumstances you may need to run automated tests against a specific release version of an AUT, say, version 1, when that is no longer the current version. Now, in a perfect world, you might have used [linked variations](/user-guide/variations/creating-linked-variations/creating-a-variation) to associate all the right versions of project items to the version 1 system. In practice, though, we don't always do things that way. So what do you do when you need to “go back in time” to execute existing tests on an older AUT version? Fortunately, you still have all the necessary versions of project items preserved through TestArchitect's [revision control system](/user-guide/projects-and-project-items/project-items/revision-control/revision-history/). And time-traveling execution helps grant your test run access to the specific revisions that you require for all the project items invoked by your test.
 
 ## Use case
 
@@ -30,16 +30,16 @@ Given that the new, patched version of AUT version 1 is expected to be able to p
 
 ## Best practices for time-traveling execution
 
-1.  Create a new [version](/TA_Help/Topics/Variations_create_linked_create_new_version_node.html) node when you begin test automation development on a new version of your AUT. Do this regardless of whether or you expect to have a need to create [linked variations](/TA_Help/Topics/Variations_linking.html) for this node.
-2.  Tag that version to a particular revision when that automation development cycle is finished. \([Learn more](/TA_Help/Topics/ug_revision_tag.html).\)
+1.  Create a new [version](/user-guide/variations/creating-linked-variations/the-systems-tree/creating-a-new-version-node) node when you begin test automation development on a new version of your AUT. Do this regardless of whether or you expect to have a need to create [linked variations](/user-guide/variations/creating-linked-variations/creating-a-variation) for this node.
+2.  Tag that version to a particular revision when that automation development cycle is finished. \([Learn more](/user-guide/projects-and-project-items/project-items/revision-control/revision-history/revision-tag).\)
     -   For example: Tag revision 04/09/2015 22:04:27.446 to AUT version 2.0.
 3.  At runtime, specify the AUT version to be executed. Time-traveling execution is then invoked.
 
-1.  [Executing retroactively with time travel](/TA_Help/Topics/ug_time_traveling_execution.html)  
+1.  [Executing retroactively with time travel](/user-guide/test-execution/time-traveling-execution/executing-retroactively-with-time-travel)  
 How to perform retroactive execution of historical revisions of project items.
-2.  [Rules of time-traveling execution](/TA_Help/Topics/ug_time_traveling_execution_rules.html)  
+2.  [Rules of time-traveling execution](/user-guide/test-execution/time-traveling-execution/rules-of-time-traveling-execution)  
 You have the option of supplying a specific timestamp to determine which revision of the given test module will be executed backward for the test run. It is possible that certain invoked test module and other related project items will not have the revision that is exact matches with your supplied timestamp. In this circumstance, TestArchitect applies a set of rules to determine the revision that is to be activated.
-3.  [Reviewing test results with time traveling](/TA_Help/Topics/ug_time_traveling_results.html)  
+3.  [Reviewing test results with time traveling](/user-guide/test-execution/time-traveling-execution/reviewing-test-results)  
 Reviewing test results can assist you in verifying which revision of each related project items is selected to run.
 
 

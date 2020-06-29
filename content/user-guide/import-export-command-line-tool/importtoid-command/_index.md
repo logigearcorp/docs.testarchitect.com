@@ -47,7 +47,7 @@ java -Dfile.encoding=UTF-8 -jar TAImportExportTool.jar --ImportToID [--server<va
     {{<note>}}
 
     -   If this argument is set to 0 or not defined, the default port number 53400 is used.
-    -   If port number of the source repository server has been [changed](/TA_Administration/Topics/Repo_changing_port.html) from its TestArchitect default of 53400, ensure that the correct port number is specified.
+    -   If port number of the source repository server has been [changed](/administration-guide/repository-server-management/changing-repository-server-port-number) from its TestArchitect default of 53400, ensure that the correct port number is specified.
 -   **--uid <value\>**
 
     User name with which to log in to repository.
@@ -83,7 +83,7 @@ java -Dfile.encoding=UTF-8 -jar TAImportExportTool.jar --ImportToID [--server<va
 
     ID of the project item root node \(**Tests**, **Data**, etc.\) or folder into which the item is to be imported. In the case of importing test cases, ID must be that of a test module.
 
-    To obtain the ID of any TestArchitect entity, find the [**URL**](/TA_Help/Topics/Additional_features_TA_URL.html) field under its **Information** tab. The ID is found at the end of the URL address, prefixed with a hyphen \( - \), such as, `1z23htgfc2`, below:
+    To obtain the ID of any TestArchitect entity, find the [**URL**](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/testarchitect-url) field under its **Information** tab. The ID is found at the end of the URL address, prefixed with a hyphen \( - \), such as, `1z23htgfc2`, below:
 
     ![](/images/TA_Help/Images/obtain_ID_folder.png)
 
@@ -102,7 +102,7 @@ java -Dfile.encoding=UTF-8 -jar TAImportExportTool.jar --ImportToID [--server<va
     -   This parameter is only applicable for test modules. If the target item is not a test module, this parameter, if declared, is simply ignored.
     -   Only a .zip file containing an exported test module can include that test module's picture checks. Hence a value of yes for this parameter is only effectual when the -sourceFile parameter specifies a .zip file.
 
-1.  [Example: Importing test modules including regular picture checks](/TA_Help/Topics/ug_export_import_tool_import_to_id_picture_checks.html)  
+1.  [Example: Importing test modules including regular picture checks](/user-guide/import-export-command-line-tool/importtoid-command/example-importing-test-modules-including-regular-picture-checks)  
 
 
 

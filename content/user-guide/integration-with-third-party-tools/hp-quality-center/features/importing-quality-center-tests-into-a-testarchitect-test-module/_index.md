@@ -14,8 +14,8 @@ Ensure that the machine hosting the TestArchitect repository server has the **HP
 
 Ensure that you have already taken the following steps:
 
--   [Registered the Quality Center server with TestArchitect](/TA_Help/Topics/Integration_QC_connecting_repo_to_QC_server_step_1.html).
--   [Mapped the TestArchitect project](/TA_Help/Topics/Integration_QC_connecting_repo_to_QC_server_step_2.html) containing the test cases of interest to the Quality Center project.
+-   [Registered the Quality Center server with TestArchitect](/user-guide/integration-with-third-party-tools/hp-quality-center/configuring-integration-with-hp-quality-center/setting-up-the-connection-with-quality-center/configuring-the-quality-center-connection).
+-   [Mapped the TestArchitect project](/user-guide/integration-with-third-party-tools/hp-quality-center/configuring-integration-with-hp-quality-center/setting-up-the-connection-with-quality-center/mapping-a-testarchitect-project-to-a-quality-center-project) containing the test cases of interest to the Quality Center project.
 
 {{<note>}}
 
@@ -29,9 +29,9 @@ TestArchitect relies on test modules that are typically developed and executed a
 
 You have two options when importing tests from Quality Center to TestArchitect:
 
-1.  [Importing a Quality Center test](/TA_Help/Topics/Integration_QC_test_development_step_1a.html)  
+1.  [Importing a Quality Center test](/user-guide/integration-with-third-party-tools/hp-quality-center/features/importing-quality-center-tests-into-a-testarchitect-test-module/importing-a-quality-center-test)  
 A test in the test plan of an HP Quality Center project may be imported into an existing TestArchitect test module, generating a new test case in the module.
-2.  [Importing a Quality Center folder](/TA_Help/Topics/Integration_QC_test_development_step_1b.html)  
+2.  [Importing a Quality Center folder](/user-guide/integration-with-third-party-tools/hp-quality-center/features/importing-quality-center-tests-into-a-testarchitect-test-module/importing-a-quality-center-folder)  
 A folder in the test plan of an HP Quality Center project may be imported into an existing TestArchitect test folder, generating new test modules and/or test folders.
 
 

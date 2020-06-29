@@ -1,0 +1,32 @@
+--- 
+title: "Applying a data filter"
+linktitle: "Applying a data filter"
+description: "Add a filter to your test to limit the data coming in."
+weight: 12
+aliases: 
+    - /TA_Tutorials/Topics/Applying_a_data_filter.html
+keywords: "filters, applying to a data set, data sets, data filtering"
+---
+
+Add a filter to your test to limit the data coming in.
+
+You will now restrict the data coming into your test to cars picked up in Nevada, and for only quantities of two or more.
+
+1.  Return to test case TC 02 of your test module. If it's not already there, restore the filter heading to the [use data set](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/use-data-set) action line. \(To the right of the name heading.\)
+
+2.  Under the filter heading, add the following filter expression: `pickup state = "Nevada" and quantity rented > 1`
+
+    The filter argument expects an expression, and cannot accept a literal value. Hence, in this case, you do *not* precede the expression with a \# symbol.
+
+    Your test case should now resembled the following:
+
+    ![](/images/TA_Tutorials/Images/tut.Data_Sets.Test02.filter01.png)
+
+3.  As before, execute the test case.
+
+    In the results, you will now observe that the report is now limited to two entries: those for the Prius and Mustang models, rented in Nevada in March and April, respectively.
+
+
+
+
+

@@ -10,13 +10,13 @@ keywords:
 
 The Media control actions include built-in actions which interact with the audio or video controls.
 
-1.  [pause](/TA_Automation/Topics/bia_html5_audio_video_pause.html)  
+1.  [pause](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/media-control/pause)  
 
-2.  [play](/TA_Automation/Topics/bia_html5_audio_video_play.html)  
+2.  [play](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/media-control/play)  
 
-3.  [set media property](/TA_Automation/Topics/bia_html5_audio_video_set_media_property.html)  
+3.  [set media property](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/media-control/set-media-property)  
 
-4.  [set volume](/TA_Automation/Topics/bia_html5_audio_video_set_volume.html)  
+4.  [set volume](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/media-control/set-volume)  
 
 
 

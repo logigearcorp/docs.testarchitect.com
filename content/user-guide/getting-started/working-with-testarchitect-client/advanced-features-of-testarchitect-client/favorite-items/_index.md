@@ -24,11 +24,11 @@ Test modules, data sets, user-defined actions, interface entities, test suites a
 -   If you disconnect or log out from a repository which has reference to your favorites, all those favorites are removed automatically from the **Favorite** list view and from the toolbar in your TestArchitect Client session.
 -   If you connect or log in to a repository, all favorites in that repository are appended automatically to your **Favorites** list view and to the current toolbar.
 
-1.  [Adding items to favorites](/TA_Help/Topics/Favorite_items_adding.html)  
+1.  [Adding items to favorites](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/favorite-items/adding-items-to-favorites)  
 Instead of memorizing favorite items, use TestArchitect Favorites to easily save items you’d like to revisit.
-2.  [Opening favorite items](/TA_Help/Topics/Favorite_items_opening.html)  
+2.  [Opening favorite items](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/favorite-items/opening-favorite-items)  
 You can open your favorite items from the toolbar or from the **Favorites** list view.
-3.  [Removing favorites](/TA_Help/Topics/Favorite_items_removing.html)  
+3.  [Removing favorites](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/favorite-items/removing-favorites)  
 Use the **Favorite** list view if you need to remove a favorite item or multiple favorite items at once.
 
 
@@ -37,9 +37,9 @@ Use the **Favorite** list view if you need to remove a favorite item or multiple
 **Related information**  
 
 
-[Connecting to a repository](/TA_Help/Topics/Getting_started_overview_working_with_TestArchitect_client_connecting.html)
+[Connecting to a repository](/user-guide/getting-started/working-with-repositories/connecting-to-a-repository)
 
-[Logging in to a repository](/TA_Help/Topics/Getting_started_overview_working_with_TestArchitect_client_logging.html)
+[Logging in to a repository](/user-guide/getting-started/working-with-repositories/logging-in-to-a-repository)
 
-[Favorite list view](/TA_Help/Topics/Listview_favorites.html)
+[Favorite list view](/user-guide/projects-and-project-items/project-items/list-view/favorite-list-view/)
 

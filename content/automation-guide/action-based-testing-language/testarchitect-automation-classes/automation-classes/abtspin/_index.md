@@ -12,13 +12,13 @@ Object class representing a spin control.
 
 Built-in methods that you can use as operations on objects of classAbtSpin:
 
-1.  [Get](/TA_Automation/Topics/abt_Get_9.html)  
+1.  [Get](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtspin/get)  
 
-2.  [Set](/TA_Automation/Topics/abt_Set_9.html)  
+2.  [Set](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtspin/set)  
 
-3.  [SpinDown](/TA_Automation/Topics/abt_SpinDown_9.html)  
+3.  [SpinDown](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtspin/spindown)  
 
-4.  [SpinUp](/TA_Automation/Topics/abt_SpinUp_9.html)  
+4.  [SpinUp](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtspin/spinup)  
 
 
 

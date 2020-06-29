@@ -19,7 +19,7 @@ The Diff Tool can be used to perform comparisons between top-level nodes, folder
 -   Interfaces
 -   Picture Checks
 
-    {{<important>}} Note that, in the case of image comparisons, only fully matching images \(on a pixel-by-pixel basis\) are treated as identical. \([Learn more](/TA_Automation/Topics/aut_image_comparison_techniques.html#section_bpj_xkg_wv).\)
+    {{<important>}} Note that, in the case of image comparisons, only fully matching images \(on a pixel-by-pixel basis\) are treated as identical. \([Learn more](/automation-guide/action-based-testing-language/the-test-language/image-comparison-techniques#section_bpj_xkg_wv).\)
 
 
 {{<note>}} The Diff Tool supports folder comparisons not just within a single repository, but across different repositories and repository servers.
@@ -103,7 +103,7 @@ Important folder comparison/synchronizing features are indicated in this figure.
     -   **Deselect All**: Deselect all rows that were previously selected in the Target and Source panels.
 11. **Copy Selected**:
 
-    Enable folder synchronization. \([Learn more](/TA_Help/Topics/ug_diff_tool_copying_items_folders.html).\)
+    Enable folder synchronization. \([Learn more](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/diff-tool/using-diff-tool-for-folder-comparisons/merging-folder-differences).\)
 
     -   **Copy from Source to Target Panel**: Copy selected project items and folders from the Source panel into the Target panel.
     -   **Copy from Target to Source Panel**: Copy selected project items and folders from the Target panel into the Source panel.
@@ -149,9 +149,9 @@ A unique Diff Tool window is launched every time you invoke the Diff Tool. Hence
 
 {{<tip>}} From a Diff Tool window, you can launch another Diff Tool window by right-clicking an item row, and then selecting **Launch Folder Comparisons for Selection** or **Launch Item Comparisons for Selection**.
 
-1.  [Comparing two folders with the Diff Tool](/TA_Help/Topics/ug_diff_tool_comparing_directories.html)  
+1.  [Comparing two folders with the Diff Tool](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/diff-tool/using-diff-tool-for-folder-comparisons/comparing-folders)  
 How to compare differences between two folders or nodes \(of the same project item type\) in TestArchitect.
-2.  [Merging differences between folders with the Diff Tool](/TA_Help/Topics/ug_diff_tool_copying_items_folders.html)  
+2.  [Merging differences between folders with the Diff Tool](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/diff-tool/using-diff-tool-for-folder-comparisons/merging-folder-differences)  
 The Diff Tool enables you to synchronize the contents of two folder hierarchies by copying items and folders between them.
 
 

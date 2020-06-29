@@ -24,19 +24,19 @@ TestArchitect supports the following:
 
 -   If an app is designed specifically for an iPhone, that app can only be tested on an iPhone device. The same is true for iPad.
 
-Before beginning automated testing on an iOS device, make sure the device is set up for development use and that the device's settings are configured correctly. \(See [iOS testing prerequisites](/iOS/Topics/iOS_prerequisite.html), [Enabling development mode on iOS device](/iOS/Topics/iOS_prerequisite_enable_development_mode.html), and [Configuring an iOS device](/iOS/Topics/iOS_setting_up_installation_target_devices.html) for details on how to ensure your device is ready to serve as a testing platform\).
+Before beginning automated testing on an iOS device, make sure the device is set up for development use and that the device's settings are configured correctly. \(See [iOS testing prerequisites](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/ios-automation/ios-testing-prerequisites), [Enabling development mode on iOS device](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/ios-automation/setting-up-the-ios-test-environment/setting-up-ios-automation/enabling-development-mode-on-ios-device), and [Configuring an iOS device](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/ios-automation/setting-up-the-ios-test-environment/configuring-an-ios-device) for details on how to ensure your device is ready to serve as a testing platform\).
 
-1.  [iOS testing prerequisites](/iOS/Topics/iOS_prerequisite.html)  
+1.  [iOS testing prerequisites](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/ios-automation/ios-testing-prerequisites)  
 Basic prerequisites for testing iOS applications.
-2.  [Setting up the iOS test environment](/iOS/Topics/iOS_setting_up_the_test_enviroment.html)  
+2.  [Setting up the iOS test environment](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/ios-automation/setting-up-the-ios-test-environment/)  
 How to setup and configure iOS automated testing environment on target devices are discussed in following sections.
-3.  [Capturing iOS controls with the Interface Viewer](/iOS/Topics/iOS_capturing_interface.html)  
+3.  [Capturing iOS controls with the Interface Viewer](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/ios-automation/capturing-ios-controls)  
 The Interface Viewer looks for the presence, and displays the graphical user interface \(GUI\) of, available iOS devices.
-4.  [Launching an AUT](/iOS/Topics/iOS_launching_an_AUT.html)  
+4.  [Launching an AUT](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/ios-automation/launching-an-aut)  
  Approaches to launch a re-signed iOS application.
-5.  [Starting iOS automated tests](/iOS/Topics/iOS_automated_tests_execution.html)  
+5.  [Starting iOS automated tests](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/ios-automation/starting-ios-automated-tests/)  
 Approaches to selecting which iOS device\(s\) runs automated tests in TestArchitect.
-6.  [Troubleshooting iOS automation](/iOS/Topics/iOS_troubleshooting.html)  
+6.  [Troubleshooting iOS automation](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/ios-automation/troubleshooting-ios-automation/)  
 A discussion of issues you may encounter when automating tests on iOS devices, and possible solutions to these problems.
 
 

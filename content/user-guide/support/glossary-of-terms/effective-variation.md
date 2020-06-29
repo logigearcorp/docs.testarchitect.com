@@ -1,0 +1,12 @@
+--- 
+title: "effective variation"
+linktitle: "effective variation"
+description: ""
+weight: 51
+aliases: 
+    - /TA_Glossary/Topics/glossaryEffectiveVariation.html
+keywords: "glossary, effective variation"
+---
+
+A variation that results from the factoring of an [explicit variation](/user-guide/support/glossary-of-terms/explicit-variation). For an explicit variation whose variation signature contains only a single version node and/or a keyword signature with no complex keyterms \(i.e., `OR`'d keywords\), the effective variation is equivalent to its explicit variation. However, an explicit variation that has more than one system version node, or any complex keyterms, is factored into two or more effective variations by TestArchitect.
+

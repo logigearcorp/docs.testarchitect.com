@@ -10,27 +10,27 @@ keywords:
 
 Data set built-in actions help you to define and use data sets and filters.
 
-1.  [add data set column](/TA_Automation/Topics/bia_add_data_set_column.html)  
+1.  [add data set column](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/add-data-set-column)  
 
-2.  [check in data set](/TA_Automation/Topics/bia_check_in_data_set.html)  
+2.  [check in data set](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/check-in-data-set)  
 
-3.  [create data set](/TA_Automation/Topics/bia_create_data_set.html)  
+3.  [create data set](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/create-data-set)  
 
-4.  [end create data set](/TA_Automation/Topics/bia_end_create_data_set.html)  
+4.  [end create data set](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/end-create-data-set)  
 
-5.  [filter](/TA_Automation/Topics/bia_filter.html)  
+5.  [filter](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/filter)  
 
-6.  [refill data set](/TA_Automation/Topics/bia_refill_data_set.html)  
+6.  [refill data set](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/refill-data-set)  
 
-7.  [repeat for data set](/TA_Automation/Topics/bia_repeat_for_data_set.html)  
+7.  [repeat for data set](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/repeat-for-data-set)  
 
-8.  [row](/TA_Automation/Topics/bia_row.html)  
+8.  [row](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/row)  
 
-9.  [set data set value](/TA_Automation/Topics/bia_set_data_set_value.html)  
+9.  [set data set value](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/set-data-set-value)  
 
-10. [use data set](/TA_Automation/Topics/bia_use_data_set.html)  
+10. [use data set](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/use-data-set)  
 
-11. [use filter](/TA_Automation/Topics/bia_use_filter.html)  
+11. [use filter](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/use-filter)  
 
 
 

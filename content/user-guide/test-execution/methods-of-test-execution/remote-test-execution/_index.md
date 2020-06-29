@@ -21,9 +21,9 @@ The initiation of a remote execution run takes place in one of two ways:
 -   Asynchronous: the operator simply redirecting a test run onto one or more remote controllers and/or devices at runtime.
 -   Synchronous: remote execution directed from within the test module.
 
-1.  [Asynchronous remote execution](/TA_Help/Topics/Test_exec_remote_asynchronous.html)  
+1.  [Asynchronous remote execution](/user-guide/test-execution/methods-of-test-execution/remote-test-execution/asynchronous-remote-execution)  
 Asynchronous testing allows you to run a test on multiple remote controllers.
-2.  [Synchronous remote execution](/TA_Help/Topics/Test_exec_remote_synchronous.html)  
+2.  [Synchronous remote execution](/user-guide/test-execution/methods-of-test-execution/remote-test-execution/synchronous-remote-execution/)  
 In synchronous remote execution, tests are run that typically involve multiple machines interacting with each other, or accessing the same resource.
 
 

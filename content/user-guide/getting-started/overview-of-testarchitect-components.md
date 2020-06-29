@@ -1,0 +1,33 @@
+--- 
+title: "**Overview of TestArchitect components**"
+linktitle: "**Overview of TestArchitect components**"
+description: "The basic TestArchitect infrastructure includes Repository Server, License Server, client machines, and execution machines."
+weight: 5
+aliases: 
+    - /TA_InstallationGuide/DITA_source/Topics/inst_TA_components.html
+keywords: 
+---
+
+The basic TestArchitect infrastructure includes Repository Server, License Server, client machines, and execution machines.
+
+|Component|Description|
+|---------|-----------|
+|[Repository Server](/testarchitect-tutorial/part-1-getting-started-with-testarchitect/introducing-testarchitect/repository-basics)|The component responsible for managing one or more TestArchitect repositories. Each repository holds the test assets for one or more of your test projects. You can choose to have a repository server running on your local machine, along with TestArchitect Client. You may also connect to repositories hosted on other machines on your network, possibly including machines dedicated to hosting TestArchitect repositories.{{<note>}}<br><br>-   It is possible to set up a [Replication Repository Server](/administration-guide/repository-server-management/replication-repositories/introduction-to-replication-repositories), which is highly desirable in the event that the primary repository server, for whatever reason, becomes unavailable.<br>-   The Repository Server also manages other TestArchitect components, such as [Lab Manager](/user-guide/lab-manager/) and [Dashboard](/user-guide/reporting-and-dashboard/dashboard/introduction)<br><br>|<br>
+|[License Server](/administration-guide/license-server/managing-the-license-server/starting-and-stopping-the-server)|Responsible for issuing licenses to your client machines and test controllers. You can manage your purchased licenses using this tool's control panel.{{<note>}} It is possible to set up a [Redundant License Server](/administration-guide/license-server/managing-the-license-server/creating-a-redundant-license-server), which is highly desirable in the event that the primary license server, for whatever reason, becomes unavailable.<br><br>|<br>
+|Client machine|A workstation having TestArchitect Client installed, from which you can author tests, direct the execution of tests, generate reports, etc.|
+|Execution machine|Real or virtual machine which has TestArchitect Controller and necessary automation libraries installed, and which can be used to execute tests, either locally or on attached mobile devices.<br><br>Note that any client machine \(with TestArchitect Client installed\) also has TestArchitect Controller installed, and so can be used to execute tests. Tests can also be executed on remote machines.|<br>
+
+## Sample model
+
+Since one machine can take on many roles \(as long as it has the necessary components installed\), you don’t need a dedicated machine for each component. The following picture illustrates a typical network topology for a small test team.
+
+![](/images/TA_InstallationGuide/DITA_source/Images/TA_sample_model_components.jpg)
+
+{{<note>}}
+
+-   All TestArchitect test-related components, including TestArchitect Repository Server, TestArchitect Client, and TestArchitect Controller, are packaged in a single installation file, simplifying installation \(see the [installation guide](/user-guide/getting-started/testarchitect-installation-guide/) for more information\).
+-   For step-by-step details on installing the TestArchitect License Server, see the [License Server installation guide](/administration-guide/license-server/license-server-installation-guide/).
+
+
+
+

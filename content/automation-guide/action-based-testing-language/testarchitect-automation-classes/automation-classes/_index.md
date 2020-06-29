@@ -10,63 +10,63 @@ keywords:
 
 Exposed automation classes of TestArchitect and their associated methods, available when coding in a TestArchitect harness.
 
-1.  [AbtAutomation](/TA_Automation/Topics/abt_AbtAutomation.html)  
+1.  [AbtAutomation](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtautomation/)  
 Provides support for UI Automation clients.
-2.  [AbtBaselinePicture](/TA_Automation/Topics/abt_AbtBaselinePicture.html)  
+2.  [AbtBaselinePicture](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtbaselinepicture/)  
 Object class representing a baseline image of a given picture check.
-3.  [AbtEntity](/TA_Automation/Topics/abt_AbtEntity.html)  
+3.  [AbtEntity](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/)  
 Object class typically representing an application window, dialog box or web page.
-4.  [AbtElement](/TA_Automation/Topics/abt_AbtElement.html)  
+4.  [AbtElement](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtelement/)  
 Object class typically representing a control or HTML element.
-5.  [AbtButton](/TA_Automation/Topics/abt_AbtButton.html)  
+5.  [AbtButton](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtbutton/)  
 Object class representing a button control.
-6.  [AbtCheckBox](/TA_Automation/Topics/abt_AbtCheckBox.html)  
+6.  [AbtCheckBox](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtcheckbox/)  
 Object class representing a check box control.
-7.  [AbtComboBox](/TA_Automation/Topics/abt_AbtComboBox.html)  
+7.  [AbtComboBox](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtcombobox/)  
 Object class representing a combo box control.
-8.  [AbtDatabase](/TA_Automation/Topics/abt_Database.html)  
+8.  [AbtDatabase](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdatabase/)  
 Object class representing a SQL-compliant database.
-9.  [AbtDataRow](/TA_Automation/Topics/abt_AbtDataRow.html)  
+9.  [AbtDataRow](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdatarow/)  
 Object class representing a dataset row, specifying both data and column names.
-10. [AbtDataSet](/TA_Automation/Topics/abt_AbtDataSet.html)  
+10. [AbtDataSet](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdataset/)  
 Object class representing a data set.
-11. [AbtDataSetManagement](/TA_Automation/Topics/abt_AbtDataSetManagement.html)  
+11. [AbtDataSetManagement](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdatasetmanagement/)  
 This class is the central point for interacting with data set's information.
-12. [AbtDevice](/TA_Automation/Topics/abt_Device.html)  
+12. [AbtDevice](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdevice/)  
 Object class representing a test device.
-13. [AbtImageProcessor](/TA_Automation/Topics/abt_ImageProcessor.html)  
+13. [AbtImageProcessor](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtimageprocessor/)  
 Object class representing, for all practical purposes, the full screen of the display.
-14. [AbtList](/TA_Automation/Topics/abt_AbtList.html)  
+14. [AbtList](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtlist/)  
 Object class representing list-based controls, including those of TA class ListBox and ListView.
-15. [AbtMenuBar](/TA_Automation/Topics/abt_AbtMenuBar.html)  
+15. [AbtMenuBar](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtmenubar/)  
 Object class representing a menu bar control.
-16. [AbtPictureCheck](/TA_Automation/Topics/abt_AbtPictureCheck.html)  
+16. [AbtPictureCheck](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtpicturecheck/)  
 Object class representing a picture check.
-17. [AbtPictureCheckManagement](/TA_Automation/Topics/abt_AbtPictureCheckManagement.html)  
+17. [AbtPictureCheckManagement](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtpicturecheckmanagement/)  
 This class is the central point for interacting with a picture check's information.
-18. [AbtRadioButton](/TA_Automation/Topics/abt_AbtRadioButton.html)  
+18. [AbtRadioButton](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtradiobutton/)  
 Object class representing a radio button control.
-19. [AbtScrollBar](/TA_Automation/Topics/abt_AbtScrollBar.html)  
+19. [AbtScrollBar](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtscrollbar/)  
 Object class representing a scroll bar control.
-20. [AbtSpin](/TA_Automation/Topics/abt_Spin.html)  
+20. [AbtSpin](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtspin/)  
 Object class representing a spin control.
-21. [AbtStatusBar](/TA_Automation/Topics/abt_AbtStatusBar.html)  
+21. [AbtStatusBar](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtstatusbar/)  
 Object class representing a status bar control.
-22. [AbtTab](/TA_Automation/Topics/abt_AbtTab.html)  
+22. [AbtTab](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttab/)  
 Object class representing a tab control.
-23. [AbtTable](/TA_Automation/Topics/abt_AbtTable.html)  
+23. [AbtTable](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttable/)  
 Object class representing a table control.
-24. [AbtTextEdit](/TA_Automation/Topics/abt_AbtTextEdit.html)  
+24. [AbtTextEdit](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttextedit/)  
 Object class representing an editable text control.
-25. [AbtToolBar](/TA_Automation/Topics/abt_AbtToolBar.html)  
+25. [AbtToolBar](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttoolbar/)  
 Object class representing a toolbar control.
-26. [AbtTrackBar](/TA_Automation/Topics/abt_AbtTrackBar.html)  
+26. [AbtTrackBar](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttrackbar/)  
 Object class representing trackbar controls, including sliders and progress bars.
-27. [AbtTree](/TA_Automation/Topics/abt_AbtTree.html)  
+27. [AbtTree](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttree/)  
 Object class representing a tree view control.
-28. [AbtXml](/TA_Automation/Topics/abt_AbtXML.html)  
+28. [AbtXml](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtxml/)  
 Object class representing an XML document.
-29. [ABT object classes](/TA_Automation/Topics/abt_constant.html)  
+29. [ABT object classes](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abt-object-classes/)  
 Classes used by built-in automation methods.
 
 

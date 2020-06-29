@@ -12,19 +12,19 @@ Object class representing a toolbar control.
 
 Built-in methods that you can use as operations on objects of classAbtToolBar:
 
-1.  [GetItemText](/TA_Automation/Topics/abt_GetItemText_15.html)  
+1.  [GetItemText](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttoolbar/getitemtext)  
 
-2.  [GetItemCount](/TA_Automation/Topics/abt_GetItemCount_15.html)  
+2.  [GetItemCount](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttoolbar/getitemcount)  
 
-3.  [GetItemRect](/TA_Automation/Topics/abt_GetItemRect_15.html)  
+3.  [GetItemRect](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttoolbar/getitemrect)  
 
-4.  [GetItemStates](/TA_Automation/Topics/abt_GetItemStates_15.html)  
+4.  [GetItemStates](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttoolbar/getitemstates)  
 
-5.  [GetSelectedIndex](/TA_Automation/Topics/abt_GetSelectedIndex_15.html)  
+5.  [GetSelectedIndex](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttoolbar/getselectedindex)  
 
-6.  [GetSelectedText](/TA_Automation/Topics/abt_GetSelectedText_15.html)  
+6.  [GetSelectedText](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttoolbar/getselectedtext)  
 
-7.  [SelectItem](/TA_Automation/Topics/abt_SelectItem_15.html)  
+7.  [SelectItem](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttoolbar/selectitem)  
 
 
 

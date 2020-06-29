@@ -10,7 +10,7 @@ keywords: "cloud testing, WebDriver, Appium"
 
 TestArchitect allows you to run automated tests on real devices in **WebDriver based cloud services** \(Appium enabled\).
 
-{{<restriction>}} [Screenshot Recording](/TA_Help/Topics/ug_Screenshot_recording.html) is currently not supported on automated tests in mobile cloud environment. \(See [here](/TA_FAQ/Topics/faq.howto.screenshot_recording_mobile_cloud.html) for a detour solution.\)
+{{<restriction>}} [Screenshot Recording](/user-guide/finding-bugs-with-testarchitect/screenshot-recording/) is currently not supported on automated tests in mobile cloud environment. \(See [here](/automation-guide/application-testing/mobile-testing/additional-tasks-and-tools/constructing-a-video-link-to-record-all-screenshots-during-automation-on-cloud-services/) for a detour solution.\)
 
 ## Supported platforms
 
@@ -28,11 +28,11 @@ TestArchitect supports testing mobile web applications on the following platform
 
 ## **Running Appium locally**
 
-You can run your automated tests as Appium client on your local computer. This is the approach supported by TestArchitect, when you typically would automate mobile web applications on cloud devices in the specific Remote TestKit cloud service. \([Learn more](/TA_Automation/Topics/aut_app_cloud_testing_RTK.html).\)
+You can run your automated tests as Appium client on your local computer. This is the approach supported by TestArchitect, when you typically would automate mobile web applications on cloud devices in the specific Remote TestKit cloud service. \([Learn more](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/testarchitect-and-remote-testkit/).\)
 
 ## **Running Appium in cloud**
 
-Your automated tests can also be run in cloud. Tests are run against the rented devices as soon as they become available. \([Learn more](/TA_Automation/Topics/aut_app_cloud_testing_Appium_automation.html).\)
+Your automated tests can also be run in cloud. Tests are run against the rented devices as soon as they become available. \([Learn more](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/testarchitect-and-appium/creating-a-test/a-single-cloud-device).\)
 
 {{<attention>}}
 
@@ -42,7 +42,7 @@ Your automated tests can also be run in cloud. Tests are run against the rented 
 
 Automation in Appium is performed in the context of a [session](http://appium.io/slate/en/master/?ruby#appium-concepts). Clients initiate a session with a server in ways specific to each library, but they all end up sending a POST /session request to the server, with a JSON object called the desired capabilities object. At this point the server will start up the automation session and respond with a session ID which is used for sending further commands.
 
-{{<note>}} In TestArchitect, session ID of the rented mobile cloud device can be retrieved through the [connect cloud device](/TA_Automation/Topics/bia_connect_cloud_device.html) and [get cloud device session id](/TA_Automation/Topics/bia_get_cloud_device_session_id.html) built-in actions.
+{{<note>}} In TestArchitect, session ID of the rented mobile cloud device can be retrieved through the [connect cloud device](/automation-guide/action-based-testing-language/built-in-actions/system-actions/device/connect-cloud-device) and [get cloud device session id](/automation-guide/action-based-testing-language/built-in-actions/system-actions/device/get-cloud-device-session-id) built-in actions.
 
 ## Desired capabilities
 
@@ -57,9 +57,9 @@ For example:
 
 Along with the capabilities of Appium, some WebDriver based cloud services might have their own set of capabilities. For example, [Testdroid](https://cloud.testdroid.com/), several additional Testdroid Desired Capabilities are also provided \([learn more](http://docs.testdroid.com/appium/testdroid-desired-caps/)\).
 
-In TestArchitect, desired capabilities are defined through the [assign cloud device](/TA_Automation/Topics/bia_assign_cloud_device.html) built-in action \([learn more](/TA_Automation/Topics/aut_app_cloud_testing_Appium_automation.html)\), or in a JSON file \([learn more](/TA_Automation/Topics/aut_app_cloud_testing_Appium_automation_json.html)\).
+In TestArchitect, desired capabilities are defined through the [assign cloud device](/automation-guide/action-based-testing-language/built-in-actions/system-actions/device/assign-cloud-device) built-in action \([learn more](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/testarchitect-and-appium/creating-a-test/a-single-cloud-device)\), or in a JSON file \([learn more](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/testarchitect-and-appium/creating-a-test/multiple-cloud-devices)\).
 
--   **[Creating mobile web application test](/TA_Automation/Topics/aut_app_cloud_testing_creating_tests.html)**  
+-   **[Creating mobile web application test](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/testarchitect-and-appium/creating-a-test/)**  
 Explains general workflow to test mobile web applications on iOS and Android cloud devices in WebDriver cloud based services.
 
 

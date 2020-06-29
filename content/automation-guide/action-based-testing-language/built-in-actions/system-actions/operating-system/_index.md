@@ -10,23 +10,23 @@ keywords:
 
 Operating system built-in actions help you monitor and interact with desktop or mobile operating systems on your test machine\(s\).
 
-1.  [check process not running](/TA_Automation/Topics/bia_check_process_not_running.html)  
+1.  [check process not running](/automation-guide/action-based-testing-language/built-in-actions/system-actions/operating-system/check-process-not-running)  
 
-2.  [check process running](/TA_Automation/Topics/bia_check_process_running.html)  
+2.  [check process running](/automation-guide/action-based-testing-language/built-in-actions/system-actions/operating-system/check-process-running)  
 
-3.  [get operating system name](/TA_Automation/Topics/bia_get_operating_system_name.html)  
+3.  [get operating system name](/automation-guide/action-based-testing-language/built-in-actions/system-actions/operating-system/get-operating-system-name)  
 
-4.  [get screen resolution](/TA_Automation/Topics/bia_get_screen_resolution.html)  
+4.  [get screen resolution](/automation-guide/action-based-testing-language/built-in-actions/system-actions/operating-system/get-screen-resolution)  
 
-5.  [get system date](/TA_Automation/Topics/bia_get_system_date.html)  
+5.  [get system date](/automation-guide/action-based-testing-language/built-in-actions/system-actions/operating-system/get-system-date)  
 
-6.  [get system time](/TA_Automation/Topics/bia_get_system_time.html)  
+6.  [get system time](/automation-guide/action-based-testing-language/built-in-actions/system-actions/operating-system/get-system-time)  
 
-7.  [get system performance information](/TA_Automation/Topics/bia_get_system_performance_information.html)  
+7.  [get system performance information](/automation-guide/action-based-testing-language/built-in-actions/system-actions/operating-system/get-system-performance-information)  
 
-8.  [is process running](/TA_Automation/Topics/bia_is_process_running.html)  
+8.  [is process running](/automation-guide/action-based-testing-language/built-in-actions/system-actions/operating-system/is-process-running)  
 
-9.  [shut down](/TA_Automation/Topics/bia_shut_down.html)  
+9.  [shut down](/automation-guide/action-based-testing-language/built-in-actions/system-actions/operating-system/shut-down)  
 
 
 

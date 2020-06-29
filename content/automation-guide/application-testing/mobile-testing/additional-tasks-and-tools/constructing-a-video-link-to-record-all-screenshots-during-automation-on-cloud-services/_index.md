@@ -8,9 +8,9 @@ aliases:
 keywords: 
 ---
 
-1.  [Constructing a video link to record all screenshots during automation in Sauce Labs](/TA_FAQ/Topics/faq.howto.screenshot_recording_saucelabs.html)  
+1.  [Constructing a video link to record all screenshots during automation in Sauce Labs](/automation-guide/application-testing/mobile-testing/additional-tasks-and-tools/constructing-a-video-link-to-record-all-screenshots-during-automation-on-cloud-services/sauce-labs)  
 
-2.  [Constructing a video link to record all screenshots during automation in BrowserStack](/TA_FAQ/Topics/faq.howto.screenshot_recording_browserstack.html)  
+2.  [Constructing a video link to record all screenshots during automation in BrowserStack](/automation-guide/application-testing/mobile-testing/additional-tasks-and-tools/constructing-a-video-link-to-record-all-screenshots-during-automation-on-cloud-services/browserstack)  
 
 
 

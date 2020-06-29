@@ -12,7 +12,7 @@ Allowing TestArchitect to test your Android application requires that it be re-s
 
 To configure a custom certificate, observe the following steps:
 
-1.  Open the [Android Instrumentation Tool](/Android/Topics/Android_Instrumentation_tool.html) dialog box.
+1.  Open the [Android Instrumentation Tool](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/android-instrumentation-tool/) dialog box.
 
 2.  In the dialog box, click the **Settings** ![](/images/Android/Images/Settings_btn.png) button.
 
@@ -39,11 +39,11 @@ To configure a custom certificate, observe the following steps:
     The Settings dialog box closes, and you are returned to the Android Instrumentation Tool dialog box.
 
 
-Your custom signature is now configured successfully. If you encounter issues while configuring, refer to [Troubleshooting custom signatures](/TA_FAQ/Topics/faq.tshoot.Android_custom_signature.html).
+Your custom signature is now configured successfully. If you encounter issues while configuring, refer to [Troubleshooting custom signatures](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/configuring-customized-signatures/troubleshooting-custom-signatures-android).
 
-You are now ready to [re-sign your application](/Android/Topics/Installing_applications_resigning.html) with your custom certificate.
+You are now ready to [re-sign your application](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/setting-up-the-test-environment/setting-up-android-automation/installing-a-testable-android-application/re-signing-the-android-application) with your custom certificate.
 
--   **[Troubleshooting custom signatures \(Android\)](/TA_FAQ/Topics/faq.tshoot.Android_custom_signature.html)**  
+-   **[Troubleshooting custom signatures \(Android\)](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/configuring-customized-signatures/troubleshooting-custom-signatures-android)**  
 Typical issues you may encounter when working with your custom Android certificate.
 
 

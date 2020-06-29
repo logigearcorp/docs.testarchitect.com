@@ -55,27 +55,27 @@ TestArchitect interacts with web applications through UI controls displayed in b
 
 TestArchitect recognizes and provides support for various web controls including:
 
--   [Standard HTML controls](/TA_Automation/Topics/aut_app_testing_web_apps_supported_controls.html)
--   [HTML 5 controls](/TA_Automation/Topics/HTML5_automation_new_tags.html)
+-   [Standard HTML controls](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/automated-web-testing-with-non-webdriver/supported-web-controls)
+-   [HTML 5 controls](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/automated-web-testing-with-non-webdriver/supported-html5-controls)
 -   All third-party ASP.NET controls
 
 ## Test machine and web browser configuration
 
--   By default, TestArchitect Register Server, which is installed with TestArchitect, automatically starts up as a service \(daemon\) each time you boot your computer. This service is often essential for automated testing, and should generally be available. [Ensure the availability of the TestArchitect Register Server service](/TA_Administration/Topics/adm_taregserver.html) before running your automated tests.
--   Before testing web applications on a supported browser, ensure that necessary settings or reconfigurations required by TestArchitect are fully met. For detailed instructions, see [Preparing web browsers](/TA_Help/Topics/Test_exec_extension.html).
+-   By default, TestArchitect Register Server, which is installed with TestArchitect, automatically starts up as a service \(daemon\) each time you boot your computer. This service is often essential for automated testing, and should generally be available. [Ensure the availability of the TestArchitect Register Server service](/administration-guide/testarchitect-register-server) before running your automated tests.
+-   Before testing web applications on a supported browser, ensure that necessary settings or reconfigurations required by TestArchitect are fully met. For detailed instructions, see [Preparing web browsers](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/automated-web-testing-with-non-webdriver/preparing-web-browsers/).
 
 
 {{<caution>}}
 
 For power-saving purposes, computers are often configured to go into a non-active state \(such as sleep\) after a certain period of inactivity. By default, the processes associated with automated testing are typically not treated as “activities”, in this sense. Hence, for long execution runs, especially unattended ones, it is important that any machines serving as test controllers be configured not to lapse into any non-active mode during the test period. \(Typically, your computer's power policy is configured through its Control Panel, System Preferences, or command line, depending on the platform. For details, see your system administrator or information specific to the machine's operating system.\)
 
-1.  [Automated web testing with non-WebDriver](/TA_Automation/Topics/WebKit.html)  
+1.  [Automated web testing with non-WebDriver](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/automated-web-testing-with-non-webdriver/)  
 
-2.  [Automated web testing with WebDriver](/TA_Automation/Topics/Generic_WebDriver.html)  
+2.  [Automated web testing with WebDriver](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/automated-web-testing-with-webdriver/)  
 WebDriver is a tool for automating web application testing executing tests across a wide range of browsers like Chrome, Firefox and Microsoft Edge. As a member of the Selenium family, it is designed to provide better support for dynamic web pages.
-3.  [Troubleshooting web automation](/TA_Automation/Topics/web_troubleshooting.html)  
+3.  [Troubleshooting web automation](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/troubleshooting-web-automation/)  
 A discussion of issues you may encounter when automating tests on web browsers, and possible solutions to these problems. FAQs are also mentioned.
-4.  [WebKit vs WebDriver](/TA_Automation/Topics/WebKit_vs_WebDriver.html)  
+4.  [WebKit vs WebDriver](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/webkit-vs-webdriver)  
 Differences between WebKit and WebDriver
 
 

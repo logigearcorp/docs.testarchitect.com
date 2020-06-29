@@ -10,67 +10,67 @@ keywords:
 
 This section includes built-in actions which interact with lists, tables, and grids in the application under test.
 
-1.  [check column header name](/TA_Automation/Topics/bia_check_column_header_name.html)  
+1.  [check column header name](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/check-column-header-name)  
 
-2.  [check item exists](/TA_Automation/Topics/bia_check_item_exists.html)  
+2.  [check item exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/check-item-exists)  
 
-3.  [check item not exists](/TA_Automation/Topics/bia_check_item_not_exists.html)  
+3.  [check item not exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/check-item-not-exists)  
 
-4.  [check list cell value](/TA_Automation/Topics/bia_check_list_cell_value.html)  
+4.  [check list cell value](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/check-list-cell-value)  
 
-5.  [check list item order](/TA_Automation/Topics/bia_check_list_item_order.html)  
+5.  [check list item order](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/check-list-item-order)  
 
-6.  [check list order](/TA_Automation/Topics/bia_check_list_order.html)  
+6.  [check list order](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/check-list-order)  
 
-7.  [check listbox checked](/TA_Automation/Topics/bia_check_listbox_checked.html)  
+7.  [check listbox checked](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/check-listbox-checked)  
 
-8.  [check scrollbar exists](/TA_Automation/Topics/bia_check_scrollbar_exists.html)  
+8.  [check scrollbar exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/check-scrollbar-exists)  
 
-9.  [check scrollbar not exists](/TA_Automation/Topics/bia_check_scrollbar_not_exists.html)  
+9.  [check scrollbar not exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/check-scrollbar-not-exists)  
 
-10. [check selected count](/TA_Automation/Topics/bia_check_selected_count.html)  
+10. [check selected count](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/check-selected-count)  
 
-11. [check selected items](/TA_Automation/Topics/bia_check_selected_items.html)  
+11. [check selected items](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/check-selected-items)  
 
-12. [check table cell value](/TA_Automation/Topics/bia_check_table_cell_value.html)  
+12. [check table cell value](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/check-table-cell-value)  
 
-13. [click list item](/TA_Automation/Topics/bia_click_list_item.html)  
+13. [click list item](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/click-list-item)  
 
-14. [click table cell](/TA_Automation/Topics/bia_click_table_cell.html)  
+14. [click table cell](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/click-table-cell)  
 
-15. [does item exist](/TA_Automation/Topics/bia_does_item_exist.html)  
+15. [does item exist](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/does-item-exist)  
 
-16. [does scrollbar exist](/TA_Automation/Topics/bia_does_scrollbar_exist.html)  
+16. [does scrollbar exist](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/does-scrollbar-exist)  
 
-17. [get column header coordinates](/TA_Automation/Topics/bia_get_column_header_coordinates.html)  
+17. [get column header coordinates](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/get-column-header-coordinates)  
 
-18. [get column header name](/TA_Automation/Topics/bia_get_column_header_name.html)  
+18. [get column header name](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/get-column-header-name)  
 
-19. [get column number](/TA_Automation/Topics/bia_get_column_number.html)  
+19. [get column number](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/get-column-number)  
 
-20. [get list cell value](/TA_Automation/Topics/bia_get_list_cell_value.html)  
+20. [get list cell value](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/get-list-cell-value)  
 
-21. [get list check](/TA_Automation/Topics/bia_get_list_check.html)  
+21. [get list check](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/get-list-check)  
 
-22. [get list item count](/TA_Automation/Topics/bia_get_list_item_count.html)  
+22. [get list item count](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/get-list-item-count)  
 
-23. [get selected count](/TA_Automation/Topics/bia_get_selected_count.html)  
+23. [get selected count](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/get-selected-count)  
 
-24. [get selected items](/TA_Automation/Topics/bia_get_selected_items.html)  
+24. [get selected items](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/get-selected-items)  
 
-25. [get table cell containing](/TA_Automation/Topics/bia_get_table_cell_containing.html)  
+25. [get table cell containing](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/get-table-cell-containing)  
 
-26. [get table cell value](/TA_Automation/Topics/bia_get_table_cell_value.html)  
+26. [get table cell value](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/get-table-cell-value)  
 
-27. [is cell selected](/TA_Automation/Topics/bia_is_cell_selected.html)  
+27. [is cell selected](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/is-cell-selected)  
 
-28. [select](/TA_Automation/Topics/bia_select.html)  
+28. [select](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/select)  
 
-29. [select column](/TA_Automation/Topics/bia_select_column.html)  
+29. [select column](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/select-column)  
 
-30. [set list check](/TA_Automation/Topics/bia_set_list_check.html)  
+30. [set list check](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/set-list-check)  
 
-31. [set table cell value](/TA_Automation/Topics/bia_set_table_cell_value.html)  
+31. [set table cell value](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/set-table-cell-value)  
 
 
 

@@ -10,57 +10,57 @@ keywords:
 
 A hodge-podge of built-in settings that don't fit into any other categories. Includes settings for loading visible controls, setting the default web browser, etc.
 
-1.  [anchor pos report](/TA_Automation/Topics/bis_anchor_pos_report.html)  
+1.  [anchor pos report](/automation-guide/action-based-testing-language/built-in-settings/other-settings/anchor-pos-report)  
 
-2.  [auto switch window](/TA_Automation/Topics/bis_auto_switch_windows.html)  
+2.  [auto switch window](/automation-guide/action-based-testing-language/built-in-settings/other-settings/auto-switch-window)  
 
-3.  [character recognition technique](/TA_Automation/Topics/bis_character_recognition_technique.html)  
+3.  [character recognition technique](/automation-guide/action-based-testing-language/built-in-settings/other-settings/character-recognition-technique)  
 
-4.  [click method](/TA_Automation/Topics/bis_click_method.html)  
+4.  [click method](/automation-guide/action-based-testing-language/built-in-settings/other-settings/click-method)  
 
-5.  [color format](/TA_Automation/Topics/bis_color_format.html)  
+5.  [color format](/automation-guide/action-based-testing-language/built-in-settings/other-settings/color-format)  
 
-6.  [enable click hook](/TA_Automation/Topics/bis_enable_click_hook.html)  
+6.  [enable click hook](/automation-guide/action-based-testing-language/built-in-settings/other-settings/enable-click-hook)  
 
-7.  [ignore html input types](/TA_Automation/Topics/bis_ignore_html_input_types.html)  
+7.  [ignore html input types](/automation-guide/action-based-testing-language/built-in-settings/other-settings/ignore-html-input-types)  
 
-8.  [inverse color](/TA_Automation/Topics/bis_inverse_color.html)  
+8.  [inverse color](/automation-guide/action-based-testing-language/built-in-settings/other-settings/inverse-color)  
 
-9.  [gdi column identifier percentage](/TA_Automation/Topics/bis_gdi_column_identifier_percentage.html)  
+9.  [gdi column identifier percentage](/automation-guide/action-based-testing-language/built-in-settings/other-settings/gdi-column-identifier-percentage)  
 
-10. [gdi row identifier percentage](/TA_Automation/Topics/bis_gdi_row_identifier_percentage.html)  
+10. [gdi row identifier percentage](/automation-guide/action-based-testing-language/built-in-settings/other-settings/gdi-row-identifier-percentage)  
 
-11. [lexical scoping](/TA_Automation/Topics/bis_lexical_scoping.html)  
+11. [lexical scoping](/automation-guide/action-based-testing-language/built-in-settings/other-settings/lexical-scoping)  
 
-12. [linking distance](/TA_Automation/Topics/bis_linking_distance.html)  
+12. [linking distance](/automation-guide/action-based-testing-language/built-in-settings/other-settings/linking-distance)  
 
-13. [load invisible controls](/TA_Automation/Topics/bis_load_invisible_controls.html)  
+13. [load invisible controls](/automation-guide/action-based-testing-language/built-in-settings/other-settings/load-invisible-controls)  
 
-14. [menu interact type](/TA_Automation/Topics/bis_menu_interact_type.html)  
+14. [menu interact type](/automation-guide/action-based-testing-language/built-in-settings/other-settings/menu-interact-type)  
 
-15. [min edge length](/TA_Automation/Topics/bis_min_edge_length.html)  
+15. [min edge length](/automation-guide/action-based-testing-language/built-in-settings/other-settings/min-edge-length)  
 
-16. [minimum accuracy](/TA_Automation/Topics/bis_minimum_accuracy.html)  
+16. [minimum accuracy](/automation-guide/action-based-testing-language/built-in-settings/other-settings/minimum-accuracy)  
 
-17. [modal close attempts](/TA_Automation/Topics/bis_modal_close_attempts.html)  
+17. [modal close attempts](/automation-guide/action-based-testing-language/built-in-settings/other-settings/modal-close-attempts)  
 
-18. [notice level](/TA_Automation/Topics/bis_notice_level.html)  
+18. [notice level](/automation-guide/action-based-testing-language/built-in-settings/other-settings/notice-level)  
 
-19. [picture algorithm](/TA_Automation/Topics/bis_picture_algorithm.html)  
+19. [picture algorithm](/automation-guide/action-based-testing-language/built-in-settings/other-settings/picture-algorithm)  
 
-20. [skip manual check](/TA_Automation/Topics/bis_skip_manual_check.html)  
+20. [skip manual check](/automation-guide/action-based-testing-language/built-in-settings/other-settings/skip-manual-check)  
 
-21. [target browser instance](/TA_Automation/Topics/bis_target_browser_instance.html)  
+21. [target browser instance](/automation-guide/action-based-testing-language/built-in-settings/other-settings/target-browser-instance)  
 
-22. [use browser](/TA_Automation/Topics/bis_use_browser.html)  
+22. [use browser](/automation-guide/action-based-testing-language/built-in-settings/other-settings/use-browser)  
 
-23. [verify picture](/TA_Automation/Topics/bis_verify_picture.html)  
+23. [verify picture](/automation-guide/action-based-testing-language/built-in-settings/other-settings/verify-picture)  
 
-24. [web element matching](/TA_Automation/Topics/bis_web_element_matching.html)  
+24. [web element matching](/automation-guide/action-based-testing-language/built-in-settings/other-settings/web-element-matching)  
 
-25. [webdriver mode](/TA_Automation/Topics/bis_webdriver_mode.html)  
+25. [webdriver mode](/automation-guide/action-based-testing-language/built-in-settings/other-settings/webdriver-mode)  
 
-26. [winforms raw class](/TA_Automation/Topics/bis_winforms_raw_class.html)  
+26. [winforms raw class](/automation-guide/action-based-testing-language/built-in-settings/other-settings/winforms-raw-class)  
 
 
 

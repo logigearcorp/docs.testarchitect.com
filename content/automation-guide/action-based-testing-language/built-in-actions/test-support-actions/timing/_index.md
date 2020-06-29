@@ -10,21 +10,21 @@ keywords:
 
 Timing built-in actions handle the varying response times of an application under test. It is important that tests not sample AUT outputs faster than the AUT can respond to stimuli, which can cause false failures. At the same time, tests should wait no longer than necessary for functions to complete, because excessive waits can slow down overall run times of large test runs.
 
-1.  [get clock count](/TA_Automation/Topics/bia_get_clock_count.html)  
+1.  [get clock count](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/timing/get-clock-count)  
 
-2.  [sleep](/TA_Automation/Topics/bia_sleep.html)  
+2.  [sleep](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/timing/sleep)  
 
-3.  [start clock count](/TA_Automation/Topics/bia_start_clock_count.html)  
+3.  [start clock count](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/timing/start-clock-count)  
 
-4.  [wait for control](/TA_Automation/Topics/bia_wait_for_control.html)  
+4.  [wait for control](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/timing/wait-for-control)  
 
-5.  [wait for control not exists](/TA_Automation/Topics/bia_wait_for_control_not_exists.html)  
+5.  [wait for control not exists](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/timing/wait-for-control-not-exists)  
 
-6.  [wait for property](/TA_Automation/Topics/bia_wait_for_property.html)  
+6.  [wait for property](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/timing/wait-for-property)  
 
-7.  [wait for window](/TA_Automation/Topics/bia_wait_for_window.html)  
+7.  [wait for window](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/timing/wait-for-window)  
 
-8.  [wait for window close](/TA_Automation/Topics/bia_wait_for_window_close.html)  
+8.  [wait for window close](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/timing/wait-for-window-close)  
 
 
 
