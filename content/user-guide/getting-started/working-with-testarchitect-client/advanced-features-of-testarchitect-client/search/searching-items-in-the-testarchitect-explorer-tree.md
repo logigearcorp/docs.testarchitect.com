@@ -14,7 +14,7 @@ A search is conducted within a subtree of a project. The search is restricted to
 
     **Fastpath:** Ctrl + H
 
-    ![](/images/TA_Help/Images/ug_searchitem.PNG)
+    ![](/images/TA_Help/Images/ug_searchitem.png)
 
     The Search dialog box appears, and the active tab indicates the type of project item of which names that will be searched:
 

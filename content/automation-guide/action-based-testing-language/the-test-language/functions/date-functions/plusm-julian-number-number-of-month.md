@@ -35,7 +35,7 @@ The following built-in setting\(s\) are supported: [add month compensation](/aut
 
 ## Example
 
-![](/images/TA_Automation/Images/automationguide_datefunction9.PNG)
+![](/images/TA_Automation/Images/automationguide_datefunction9.png)
 
 
 

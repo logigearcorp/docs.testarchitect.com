@@ -26,7 +26,7 @@ To register a TFS Bug Tracker with your TestArchitect reposiotry, do the followi
 
 3.  **Optional**: **Auto fetch data:** 24-hour format. Daily time at which TestArchitect is to retrieve external bug information from the TFS server and update the registered TA bugs.
 
-    Example: ![](/images/TA_Help/Images/ug_auto_fetch_data_TFS.PNG)
+    Example: ![](/images/TA_Help/Images/ug_auto_fetch_data_TFS.png)
 
     {{<note>}} Auto fetch data required user input credential information by click **Authenticate**.
 

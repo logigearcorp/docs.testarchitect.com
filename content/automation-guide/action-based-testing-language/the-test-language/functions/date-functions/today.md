@@ -28,7 +28,7 @@ The following built-in setting\(s\) are supported: none.
 
 ## Example
 
-![](/images/TA_Automation/Images/automationguide_datefunction3.PNG)
+![](/images/TA_Automation/Images/automationguide_datefunction3.png)
 
 
 
