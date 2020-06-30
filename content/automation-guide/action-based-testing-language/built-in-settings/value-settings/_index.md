@@ -10,23 +10,23 @@ keywords:
 
 Built-in settings that operate on displayed values are classified as value settings. They include functions for ignoring case sensitivity in string comparison, trimming white spaces from the beginnings and ends of strings, etc.
 
-1.  [case sensitive](/TA_Automation/Topics/bis_case_sensitive.html)  
+1.  [case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive)  
 
-2.  [escape sequences](/TA_Automation/Topics/bis_escape_sequences.html)  
+2.  [escape sequences](/automation-guide/action-based-testing-language/built-in-settings/value-settings/escape-sequences)  
 
-3.  [ignore blank space](/TA_Automation/Topics/bis_ignore_blank_space.html)  
+3.  [ignore blank space](/automation-guide/action-based-testing-language/built-in-settings/value-settings/ignore-blank-space)  
 
-4.  [ignore tabs and newlines](/TA_Automation/Topics/bis_ignore_tabs_and_newlines.html)  
+4.  [ignore tabs and newlines](/automation-guide/action-based-testing-language/built-in-settings/value-settings/ignore-tabs-and-newlines)  
 
-5.  [remove double quotes from cells](/TA_Automation/Topics/bis_remove_double_quotes_from_cells.html)  
+5.  [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells)  
 
-6.  [maximum length of strings](/TA_Automation/Topics/bis_maximum_length_of_strings.html)  
+6.  [maximum length of strings](/automation-guide/action-based-testing-language/built-in-settings/value-settings/maximum-length-of-strings)  
 
-7.  [max show length](/TA_Automation/Topics/bis_max_show_length.html)  
+7.  [max show length](/automation-guide/action-based-testing-language/built-in-settings/value-settings/max-show-length)  
 
-8.  [standard ASCII only](/TA_Automation/Topics/bis_standard_ASCII_only.html)  
+8.  [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only)  
 
-9.  [number digits after decimal](/TA_Automation/Topics/bis_number_digits_after_decimal.html)  
+9.  [number digits after decimal](/automation-guide/action-based-testing-language/built-in-settings/value-settings/number-digits-after-decimal)  
 
 
 

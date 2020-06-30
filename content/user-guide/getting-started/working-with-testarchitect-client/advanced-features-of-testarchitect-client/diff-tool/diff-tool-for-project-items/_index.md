@@ -14,23 +14,23 @@ At times, it can be helpful to compare the contents of two similar text-based pr
 
 The Diff Tool makes the job of difference viewing more systematic, reliable, and efficient. It can be used to perform comparisons between the following types of project items:
 
--   [Test modules](/TA_Help/Topics/Create_test_module.html).
--   [Data sets](/TA_Help/Topics/Projects_and_tests_dataset.html).
--   [User-defined actions](/reuse/reuse.High_level_actions.html).
--   [Interface entities](/TA_Help/Topics/Interface_entities_and_elements.html).
--   [$ Class Maps entities](/TA_Help/Topics/Interface_def_Viewer_class_mapping.html).
+-   [Test modules](/user-guide/tests/creating-a-test-module).
+-   [Data sets](/user-guide/projects-and-project-items/project-items/data-sets/).
+-   [User-defined actions](/user-guide/actions/user-defined-actions/).
+-   [Interface entities](/user-guide/interface-definitions/interface-entities-and-elements).
+-   [$ Class Maps entities](/user-guide/interface-definitions/class-mapping/class-maps-entity).
 
 {{<note>}}
 
 -   The Diff Tool supports the comparing of project items not just within a project, but across projects and across repositories as well.
--   For comparing pairs of test results, TestArchitect offers a different tool. See [Comparing test results](/TA_Help/Topics/Test_result_baselining.html).
+-   For comparing pairs of test results, TestArchitect offers a different tool. See [Comparing test results](/user-guide/working-with-test-results/comparing-test-results/).
 
 ## The user interface
 
 The Diff Tool dialog box consists of two main components:
 
--   [The diff toolbar](/TA_Help/Topics/ug_item_comparison.html#section_Toolbar), to allow you to control the nature of the comparison, navigate between found differences, and interface external tools; and
--   [Item panels](/TA_Help/Topics/ug_item_comparison.html#section_Items_panel), which provide side-by-side comparisons of the two compared items.
+-   [The diff toolbar](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/diff-tool/diff-tool-for-project-items/#section_Toolbar), to allow you to control the nature of the comparison, navigate between found differences, and interface external tools; and
+-   [Item panels](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/diff-tool/diff-tool-for-project-items/#section_Items_panel), which provide side-by-side comparisons of the two compared items.
 
 This screenshot displays a comparison of two test modules in the Diff Tool:
 
@@ -38,8 +38,8 @@ This screenshot displays a comparison of two test modules in the Diff Tool:
 
 The Diff Tool dialog box consists of the following parts:
 
--   [Toolbar](/TA_Help/Topics/ug_item_comparison.html#section_Toolbar).
--   [Item panels](/TA_Help/Topics/ug_item_comparison.html#section_Items_panel).
+-   [Toolbar](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/diff-tool/diff-tool-for-project-items/#section_Toolbar).
+-   [Item panels](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/diff-tool/diff-tool-for-project-items/#section_Items_panel).
     -   Headers.
     -   Current location panels.
     -   Display panels.
@@ -92,7 +92,7 @@ The Diff Tool's tool bar contains six buttons:
 5.  **Character Level**:
     -   Disabled: \(Default\) Highlights differences at the word level.
     -   **Enabled**: Highlights character-by-character differences.
-6.  **Open External Merge Tool**: The Diff Tool integrates with other applications that allow a third-party file comparison \(diff\) or file merging tool to be specified. \([Learn more.](/TA_Help/Topics/ug_diff_tool_using_other_products.html)\)
+6.  **Open External Merge Tool**: The Diff Tool integrates with other applications that allow a third-party file comparison \(diff\) or file merging tool to be specified. \([Learn more.](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/diff-tool/diff-tool-and-outside-products)\)
 
 ## The Item panels
 
@@ -125,7 +125,7 @@ TestArchitect highlights differences between two items with colors. This section
 
         ![](/images/TA_Help/Images/diff_tool_difference_blocks_header.png)
 
-    -   Within highlighted lines, exact differences are further highlighted by rendering the text in red. At this level of difference highlighting, you can exercise one of two options, as determined by the state of the toolbar's [**Character Level**](/TA_Help/Topics/ug_item_comparison.html#li_a4r_12w_cq) pushbutton:
+    -   Within highlighted lines, exact differences are further highlighted by rendering the text in red. At this level of difference highlighting, you can exercise one of two options, as determined by the state of the toolbar's [**Character Level**](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/diff-tool/diff-tool-for-project-items/#li_a4r_12w_cq) pushbutton:
         -   *With button inactive \(Default state\)*: Differences are displayed at the word level.
 
             ![](/images/TA_Help/Images/diff_tool_word_level.01.png)
@@ -149,7 +149,7 @@ TestArchitect highlights differences between two items with colors. This section
 
 ![](/images/TA_Help/Images/ug_diff_tool_interface_entities.png)
 
-1.  **Header**: Contains interface entity and [interface entity setting](/TA_Automation/Topics/bia_interface_entity_setting.html) action lines.
+1.  **Header**: Contains interface entity and [interface entity setting](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/interface-handling/interface-entity-setting) action lines.
 2.  **Missing**: Contains action lines present in only one of the two interface entities.
 3.  **Differences**: Contains action lines that the tool has determined to be corresponding lines \(due to similarities\), but which nevertheless have differences, which are highlighted.
 4.  **Identicalness**: Contains fully matching action lines.
@@ -166,9 +166,9 @@ Say, for example, that you have a Diff Tool window already open, comparing a def
 
 ![](/images/TA_Help/Images/diff_tool_warning_msg.png)
 
-1.  [Comparing project items with Diff Tool](/TA_Help/Topics/ug_diff_tool_comparing_items.html)  
+1.  [Comparing project items with Diff Tool](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/diff-tool/diff-tool-for-project-items/comparing-project-items)  
 How to view the differences between two project items of the same type in TestArchitect.
-2.  [Comparing a project item's revisions with Diff Tool](/TA_Help/Topics/ug_diff_tool_comparing_revisions.html)  
+2.  [Comparing a project item's revisions with Diff Tool](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/diff-tool/diff-tool-for-project-items/comparing-revisions)  
 How to view the differences between two historical revisions of a project item.
 
 

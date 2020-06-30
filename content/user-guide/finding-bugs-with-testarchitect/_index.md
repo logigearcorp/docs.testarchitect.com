@@ -16,9 +16,9 @@ Toward that end,
 
 TestArchitect offers two tools to aid you in the quick identification of errors, warnings, and failures: the debugger, and screenshot recording.
 
-1.  [Debugging with TestArchitect](/TA_Help/Topics/Debugging.html)  
+1.  [Debugging with TestArchitect](/user-guide/finding-bugs-with-testarchitect/debugging-with-testarchitect/)  
 The TestArchitect debugger allows you to run an application under test interactively while observing the action lines and results at each stage of execution, as well as the state of the AUT. Variables, arguments, and settings at each stage may also be observed, and modified.
-2.  [Screenshot recording](/TA_Help/Topics/ug_Screenshot_recording.html)  
+2.  [Screenshot recording](/user-guide/finding-bugs-with-testarchitect/screenshot-recording/)  
 TestArchitect allows snapshots to be automatically taken of the AUT's display at various critical points during test execution. By letting you observe the display state of the AUT at each stage of the test, you can have a better grasp of where and how a test, or application, is going wrong.
 
 

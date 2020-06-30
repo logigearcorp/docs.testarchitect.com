@@ -14,17 +14,17 @@ In Part 1, you learned to master the basics of TestArchitect. Now you'll discove
 
 The tutorial includes the following sections:
 
-1.  [Lesson \#2: Interfacing with a GUI](/TA_Tutorials/Topics/Tutorial_Interfacing_with_a_GUI.html)  
+1.  [Lesson \#2: Interfacing with a GUI](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-2-interfacing-with-a-gui/)  
 
-2.  [Lesson \#3: Working with interface definitions](/TA_Tutorials/Topics/Tutorial_Working_with_interface_definitions.html)  
+2.  [Lesson \#3: Working with interface definitions](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-3-working-with-interface-definitions/)  
 
-3.  [Lesson \#4: Using the Action Recorder](/TA_Tutorials/Topics/Tutorial_Using_the_Action_Recorder.html)  
+3.  [Lesson \#4: Using the Action Recorder](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-4-using-the-action-recorder/)  
 
-4.  [Lesson \#5: Working with variables and expressions](/TA_Tutorials/Topics/Tutorial_Working_with_variables_and_expressions.html)  
+4.  [Lesson \#5: Working with variables and expressions](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-5-working-with-variables-and-expressions/)  
 
-5.  [Lesson \#6: Streamlining your tests](/TA_Tutorials/Topics/Tutorial_Building_an_action_definition.html)  
+5.  [Lesson \#6: Streamlining your tests](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-6-streamlining-your-tests/)  
 
-6.  [Lesson \#7: Creating data-driven tests](/TA_Tutorials/Topics/Tutorial_Creating_data-driven_tests.html)  
+6.  [Lesson \#7: Creating data-driven tests](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-7-creating-data-driven-tests/)  
 
 
 

@@ -10,35 +10,35 @@ keywords:
 
 Built-in actions which interact with dialog boxes or windows in the AUT.
 
-1.  [check controls matched](/TA_Automation/Topics/bia_check_controls_matched.html)  
+1.  [check controls matched](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/window/check-controls-matched)  
 
-2.  [check window exists](/TA_Automation/Topics/bia_check_window_exists.html)  
+2.  [check window exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/window/check-window-exists)  
 
-3.  [check window not exists](/TA_Automation/Topics/bia_check_window_not_exists.html)  
+3.  [check window not exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/window/check-window-not-exists)  
 
-4.  [check window property](/TA_Automation/Topics/bia_check_window_property.html)  
+4.  [check window property](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/window/check-window-property)  
 
-5.  [close window](/TA_Automation/Topics/bia_close_window.html)  
+5.  [close window](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/window/close-window)  
 
-6.  [does window exist](/TA_Automation/Topics/bia_does_window_exist.html)  
+6.  [does window exist](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/window/does-window-exist)  
 
-7.  [focus window](/TA_Automation/Topics/bia_focus_window.html)  
+7.  [focus window](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/window/focus-window)  
 
-8.  [get modal definition](/TA_Automation/Topics/bia_get_modal_definition.html)  
+8.  [get modal definition](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/window/get-modal-definition)  
 
-9.  [get window property](/TA_Automation/Topics/bia_get_window_property.html)  
+9.  [get window property](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/window/get-window-property)  
 
-10. [identify windows](/TA_Automation/Topics/bia_identify_windows.html)  
+10. [identify windows](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/window/identify-windows)  
 
-11. [maximize](/TA_Automation/Topics/bia_maximize.html)  
+11. [maximize](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/window/maximize)  
 
-12. [minimize](/TA_Automation/Topics/bia_minimize.html)  
+12. [minimize](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/window/minimize)  
 
-13. [move window](/TA_Automation/Topics/bia_move_window.html)  
+13. [move window](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/window/move-window)  
 
-14. [resize window](/TA_Automation/Topics/bia_resize_window.html)  
+14. [resize window](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/window/resize-window)  
 
-15. [restore window](/TA_Automation/Topics/bia_restore_window.html)  
+15. [restore window](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/window/restore-window)  
 
 
 

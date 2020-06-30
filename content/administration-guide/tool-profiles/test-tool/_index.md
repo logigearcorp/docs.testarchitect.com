@@ -14,7 +14,7 @@ The default harness in TestArchitect is taplayback.exe, also known as TestArchit
 
 See the following subtopic to learn how to configure your own harness for proper execution.
 
--   **[Creating a test tool profile](/TA_Administration/Topics/Test_tool_profile_creating.html)**  
+-   **[Creating a test tool profile](/administration-guide/tool-profiles/test-tool/creating-a-test-tool-profile)**  
 In order to run your test automation with a customized harness program, a test tool profile for that harness must be created.
 
 

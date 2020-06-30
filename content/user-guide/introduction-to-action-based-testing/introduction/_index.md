@@ -16,11 +16,11 @@ ABT is a keyword-based approach to testing. For test automation in general, ther
 -   scripting, also known as programming
 -   keywords, of which Action Based Testing is an advanced form
 
-1.  [Record and Playback](/TA_Help/Topics/ABT_record_playback.html)  
+1.  [Record and Playback](/user-guide/introduction-to-action-based-testing/introduction/record-and-playback)  
 The metaphor for record and playback is the test tool as a tape recorder.
-2.  [Scripting](/TA_Help/Topics/ABT_Scripting.html)  
+2.  [Scripting](/user-guide/introduction-to-action-based-testing/introduction/scripting)  
 Scripting, or programming, commonly refers to a process in which test cases are first developed by testers, usually in verbal form, and then automated, usually by a specialized automation engineer.
-3.  [Keywords, Action Based Testing™](/TA_Help/Topics/ABT_Keywords.html)  
+3.  [Keywords, Action Based Testing™](/user-guide/introduction-to-action-based-testing/introduction/keywords-action-based-testing-trade)  
 In a keyword approach, the tester creates the test cases as a series of keywords with arguments.
 
 

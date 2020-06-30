@@ -38,15 +38,15 @@ In addition, please observe the following when installing an interpreter:
 
 Please ensure that you have Python installed before proceeding with the following examples. In addition, your system’s PATH variable must be set to include the path to the Python executable: for example, C:\\Python.
 
-1.  [Developing your own User-scripted Python harness action](/TA_Tutorials/Topics/Developing_your_own_harness_action.html)  
+1.  [Developing your own User-scripted Python harness action](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/working-with-the-python-harness/developing-your-own-user-scripted-python-harness-action)  
 To created a scripted Python action, you must define the action, and modify the existing harness files to implement it.
-2.  [Scripting an action in Python](/TA_Tutorials/Topics/Scripting_an_action.html)  
+2.  [Scripting an action in Python](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/working-with-the-python-harness/scripting-an-action-in-python)  
  Implement an action in Python, using the TestArchitect Python harness.
-3.  [Creating the test case and stub action](/TA_Tutorials/Topics/Creating_the_test_case_and_stub_action.html)  
+3.  [Creating the test case and stub action](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/working-with-the-python-harness/creating-the-test-case-and-stub-action)  
 Create a stub action in TestArchitect as a placeholder for thescripted hello actionyou defined previously, then write a test to invoke the action.
-4.  [Running a Python harness test](/TA_Tutorials/Topics/Running_the_test_4.html)  
+4.  [Running a Python harness test](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/working-with-the-python-harness/running-a-python-harness-test)  
 Execute the test that calls the user-scripted action you implemented in thePython harness.
-5.  [User-scripted Python harness action that interacts with GUI](/TA_Tutorials/Topics/Creating_a_harness_action_that_interacts_with_a_GUI.html)  
+5.  [User-scripted Python harness action that interacts with GUI](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/working-with-the-python-harness/user-scripted-python-harness-action-that-interacts-with-gui/)  
  In this exercise, we create a Python-scripted action that interacts with an AUT's user interface.
 
 

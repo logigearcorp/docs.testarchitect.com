@@ -30,11 +30,11 @@ Go to the following location, and then modify .xsl files as you wish.
 -   Linux: /usr/local/logigear/testarchitect/tahelp/data/XMLResult.xsd
 -   macOS: /Applications/TestArchitect/tahelp/data/XMLResult.xsd
 
-1.  [Example - Removing the 'Result Details' tab in test results](/TA_Help/Topics/ug_customizing_XML_report_example_1.html)  
+1.  [Example - Removing the 'Result Details' tab in test results](/user-guide/working-with-test-results/customizing-xml-test-results/example-removing-the-result-details-tab-in-test-results)  
 Explain steps to remove the **Result Details** tab in test results.
-2.  [Example - Changing date format in test results](/TA_Help/Topics/ug_customizing_XML_report_example_2.html)  
+2.  [Example - Changing date format in test results](/user-guide/working-with-test-results/customizing-xml-test-results/example-changing-date-format-in-test-results)  
 Explain steps to change date format in test results.
-3.  [Adjusting the number of truncated iterations and pagination page](/TA_Help/Topics/ug_modifying_truncated_iterations.html)  
+3.  [Adjusting the number of truncated iterations and pagination page](/user-guide/working-with-test-results/customizing-xml-test-results/adjusting-the-number-of-truncated-iterations-and-pagination-page)  
 Explain steps to adjust several parameters to optimize HTML test results.
 
 

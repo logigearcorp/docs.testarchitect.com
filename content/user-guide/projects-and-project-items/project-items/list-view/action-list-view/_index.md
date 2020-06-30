@@ -10,7 +10,7 @@ keywords: "actions, list view, opening action, list view, actions, check in, che
 
 An action list view displays a list of all user-defined action contained within either the **Actions** node or one of its subfolders.
 
-On the TestArchitect explorer tree, when you double-click the **Actions** node, and then select the **Actions** tab. TestArchitect displays in the main panel a list view of the user-defined actions for the project. \([Learn more](/reuse/reuse.High_level_actions.html).\)
+On the TestArchitect explorer tree, when you double-click the **Actions** node, and then select the **Actions** tab. TestArchitect displays in the main panel a list view of the user-defined actions for the project. \([Learn more](/user-guide/actions/user-defined-actions/).\)
 
 {{<note>}} Action list views are also available for subfolders of the**Actions** node.
 
@@ -20,7 +20,7 @@ The following operations can be performed on an action list view:
 
 ## Common operations
 
-You can find various common operations that can be performed on action list views at [Common operations](/TA_Help/Topics/Listview_common_operations.html).
+You can find various common operations that can be performed on action list views at [Common operations](/user-guide/projects-and-project-items/project-items/list-view/common-operations/).
 
 ## Opening an action
 
@@ -30,20 +30,20 @@ From a list view, you can open a user-defined action in the editor by right-clic
 
 ## Revision control
 
--   Check-out is the process of creating a local working copy from the repository. When a project item is checked out, a lock is placed on that item preventing other users from modifying it. \([Learn more](/TA_Help/Topics/Project_items_checkout.html).\)
--   Check-in is the process of writing the changes made to a local working copy back to the repository. Checking in a project item releases the lock on it, allowing other authorized users to check out the item and modify it as needed. \([Learn more](/TA_Help/Topics/Project_items_checkin.html).\)
--   Undoing a checkout allows you to cancel a checkout and discard any changes you have made to the local copy. \([Learn more](/TA_Help/Topics/Project_items_undo_checkout.html).\)
+-   Check-out is the process of creating a local working copy from the repository. When a project item is checked out, a lock is placed on that item preventing other users from modifying it. \([Learn more](/user-guide/projects-and-project-items/project-items/revision-control/check-out).\)
+-   Check-in is the process of writing the changes made to a local working copy back to the repository. Checking in a project item releases the lock on it, allowing other authorized users to check out the item and modify it as needed. \([Learn more](/user-guide/projects-and-project-items/project-items/revision-control/check-in).\)
+-   Undoing a checkout allows you to cancel a checkout and discard any changes you have made to the local copy. \([Learn more](/user-guide/projects-and-project-items/project-items/revision-control/undo-check-out).\)
 
 ## Project item comparisons
 
 TestArchitect's Diff Tool can be invoked from the list view, allowing you to compare the differences between two project items in the list, or two revisions of the same item.
 
--   For comparing two project items, see [Comparing project items with Diff Tool](/TA_Help/Topics/ug_diff_tool_comparing_items.html).
--   For comparing two revisions of a project item, see [Comparing a project item's revisions with Diff Tool](/TA_Help/Topics/ug_diff_tool_comparing_revisions.html).
+-   For comparing two project items, see [Comparing project items with Diff Tool](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/diff-tool/diff-tool-for-project-items/comparing-project-items).
+-   For comparing two revisions of a project item, see [Comparing a project item's revisions with Diff Tool](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/diff-tool/diff-tool-for-project-items/comparing-revisions).
 
 ## Revision history
 
-Repository saves pertinent information on a project item at every check-in. This includes timestamp, assigned version, project name, item type, item name, user who checked in the item, and included comments. \([Learn more](/TA_Help/Topics/Project_items_history.html).\)
+Repository saves pertinent information on a project item at every check-in. This includes timestamp, assigned version, project name, item type, item name, user who checked in the item, and included comments. \([Learn more](/user-guide/projects-and-project-items/project-items/revision-control/revision-history/).\)
 
 ## Cut-Copy-Paste operations, and Delete command
 
@@ -59,7 +59,7 @@ Repository saves pertinent information on a project item at every check-in. This
 
 ## Name change propagation
 
-The process of renaming a given entity so that the change propagates to all references to that item is known as [name change propagation](/TA_Glossary/Topics/glossaryNameChangePropagation.html). Renaming an entity automatically updates all applicable action lines, test modules, and action definitions where the entity name appears. \([Learn more](/TA_Help/Topics/Project_and_project_items_rename_refactoring.html).\)
+The process of renaming a given entity so that the change propagates to all references to that item is known as [name change propagation](/user-guide/support/glossary-of-terms/name-change-propagation). Renaming an entity automatically updates all applicable action lines, test modules, and action definitions where the entity name appears. \([Learn more](/user-guide/projects-and-project-items/project-items/name-change-propagation).\)
 
 ## Searching
 
@@ -67,17 +67,17 @@ By selecting **Search** from the context menu, you can search all test modules a
 
 **Fastpath:** Ctrl + H
 
-{{<tip>}} You can include [supplier project\(s](/TA_Help/Topics/Project_subscription.html)\) in your search for the given action by selecting the **Including supplier project\(s\)** check box in the Search dialog box.
+{{<tip>}} You can include [supplier project\(s](/user-guide/projects-and-project-items/projects-in-testarchitect/project-subscription/)\) in your search for the given action by selecting the **Including supplier project\(s\)** check box in the Search dialog box.
 
 ## Exporting user-defined actions
 
-User-defined actions can be exported to archive files \(.ZIP format\), which can be used as a backup, or for re-importing \(see [Exporting actions](/TA_Help/Topics/High_level_actions_exporting.html), option \#2, for details\).
+User-defined actions can be exported to archive files \(.ZIP format\), which can be used as a backup, or for re-importing \(see [Exporting actions](/user-guide/actions/user-defined-actions/exporting-actions), option \#2, for details\).
 
 ## Reporting
 
-TestArchitect can generate reports to show the progress of the test or automation development, as well as test run performance and results. \([Learn more](/TA_Help/Topics/Report_producing.html#choice_oj2_cwb_cw).\)
+TestArchitect can generate reports to show the progress of the test or automation development, as well as test run performance and results. \([Learn more](/user-guide/reporting-and-dashboard/reporting/creating-reports#choice_oj2_cwb_cw).\)
 
--   **[Editing action variations](/TA_Help/Topics/Listview_action_edit_variation.html)**  
+-   **[Editing action variations](/user-guide/projects-and-project-items/project-items/list-view/action-list-view/editing-action-variations)**  
 You can re-link a user-defined action variation to other version nodes or keywords via the Edit Variations dialog box.
 
 

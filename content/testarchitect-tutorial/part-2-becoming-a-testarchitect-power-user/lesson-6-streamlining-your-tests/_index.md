@@ -1,8 +1,7 @@
 --- 
 title: "Lesson #6: Streamlining your tests"
-slug: 'lesson-6-streamlining-your-tests'
 linktitle: "Lesson #6: Streamlining your tests"
-slug: 'lesson-6-streamlining-your-tests'
+slug: "lesson-6-streamlining-your-tests"
 description: "How to use loops and actions to create tests that are compact, maintainable, and readable. One key to good testing is to repeat tasks multiple times, supplying the target application with new sets of ..."
 weight: 5
 aliases: 
@@ -32,21 +31,21 @@ Another means of creating efficient, maintainable tests is through the liberal u
 -   Generating a user-defined action by folding a set of action lines into it
 -   Passing values to actions and receiving return values
 
-1.  [Handling repetition](/TA_Tutorials/Topics/Handling_repetition.html)  
+1.  [Handling repetition](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-6-streamlining-your-tests/handling-repetition)  
  Tests frequently perform the same steps repeatedly, often varying only the input data values, and expected responses. Sets of actions can be used to create control loops to enable such repetitive processing.
-2.  [Creating a case for looping](/TA_Tutorials/Topics/Creating_loops.html)  
+2.  [Creating a case for looping](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-6-streamlining-your-tests/creating-a-case-for-looping)  
 Create a test module / test case that reports the sales tax for cars across a range of prices.
-3.  [Folding repetition into a loop](/TA_Tutorials/Topics/tut_looping_examples.html)  
+3.  [Folding repetition into a loop](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-6-streamlining-your-tests/folding-repetition-into-a-loop)  
 How to use loop control actions to handle iterative processes.
-4.  [User-defined actions](/TA_Tutorials/Topics/High-level_actions.html)  
+4.  [User-defined actions](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-6-streamlining-your-tests/user-defined-actions)  
 User-defined actions consist of sequences of actions that typically relate to a single business logic function in the application under test.
-5.  [Folding action lines into actions](/TA_Tutorials/Topics/Refactoring.html)  
+5.  [Folding action lines into actions](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-6-streamlining-your-tests/folding-action-lines-into-actions)  
 Encapsulate action lines that perform a single, logical function into user-defined actions to produce tests that are easy to read and maintain.
-6.  [Encapsulating action lines](/TA_Tutorials/Topics/Refactoring_test_lines.html)  
+6.  [Encapsulating action lines](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-6-streamlining-your-tests/encapsulating-action-lines)  
 In this exercise you will refactor your last test case by encapsulating its report action line into a user-defined action.
-7.  [Returning values from actions](/TA_Tutorials/Topics/Returning_values_from_actions.html)  
+7.  [Returning values from actions](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-6-streamlining-your-tests/returning-values-from-actions)  
 In this exercise you expand the functionality of your new action by having it derive some values and return them to the calling entity.
-8.  [Summary: What you learned](/TA_Tutorials/Topics/Summary_Building_action_definition.html)  
+8.  [Summary: What you learned](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-6-streamlining-your-tests/summary-what-you-learned)  
 
 
 

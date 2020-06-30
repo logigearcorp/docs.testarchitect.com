@@ -16,15 +16,15 @@ TestArchitect allows you to import and export repositories and individual projec
 
 The Import/Export tool allows for the following operations to be performed:
 
--   Export or import of [repositories](/TA_Help/Topics/Getting_started_overview_working_with_repositories.html).
+-   Export or import of [repositories](/user-guide/getting-started/working-with-repositories/).
 -   Export or import of the following TestArchitect items:
-    -   [test modules](/TA_Help/Topics/ABT_Test_module.html)
-    -   [test cases](/TA_Help/Topics/Projects_and_tests_TC.html)
-    -   [data sets](/TA_Help/Topics/Projects_and_tests_dataset.html)
-    -   [actions](/reuse/reuse.High_level_actions.html)
-    -   [interface entities](/TA_Help/Topics/Interface_def_Adding.html)
-    -   [test results](/TA_Help/Topics/Test_result.html)
-    -   [picture checks](/TA_Help/Topics/Projects_and_tests_picture_check.html), including shared and regular picture checks
+    -   [test modules](/user-guide/introduction-to-action-based-testing/action-based-testing/test-modules)
+    -   [test cases](/user-guide/tests/test-cases/)
+    -   [data sets](/user-guide/projects-and-project-items/project-items/data-sets/)
+    -   [actions](/user-guide/actions/user-defined-actions/)
+    -   [interface entities](/user-guide/interface-definitions/creating-interface-entities)
+    -   [test results](/user-guide/working-with-test-results/)
+    -   [picture checks](/user-guide/projects-and-project-items/project-items/picture-checks/), including shared and regular picture checks
 
 The following command line commands are available:
 
@@ -36,19 +36,19 @@ The following command line commands are available:
 -   `ImportToPath`: Import a project item to a specific location, identified by TA path, in TestArchitect.
 -   `ImportToID`: Imports a project item to specific location, identified by ID, in TestArchitect
 
-1.  [Help command \(Import/Export tool\)](/TA_Help/Topics/ug_export_import_tool_help.html)  
+1.  [Help command \(Import/Export tool\)](/user-guide/import-export-command-line-tool/help-command/)  
 Retrieve descriptive information on the functionality and options of the Import/Export tool.
-2.  [ExportRepository command \(Import/Export tool\)](/TA_Help/Topics/ug_export_import_tool_export_repository.html)  
+2.  [ExportRepository command \(Import/Export tool\)](/user-guide/import-export-command-line-tool/exportrepository-command/)  
 Export a repository to a .dat file.
-3.  [ImportRepository command \(Import/Export tool\)](/TA_Help/Topics/ug_export_import_tool_import_repository.html)  
+3.  [ImportRepository command \(Import/Export tool\)](/user-guide/import-export-command-line-tool/importrepository-command/)  
 Import a repository from a .dat file.
-4.  [ExportFromPath command \(Import/Export tool\)](/TA_Help/Topics/ug_export_import_tool_export_from_path.html)  
+4.  [ExportFromPath command \(Import/Export tool\)](/user-guide/import-export-command-line-tool/exportfrompath-command/)  
 Export a project item, identified by its TA path, to a file.
-5.  [ExportFromID command \(Import/Export tool\)](/TA_Help/Topics/ug_export_import_tool_export_from_id.html)  
+5.  [ExportFromID command \(Import/Export tool\)](/user-guide/import-export-command-line-tool/exportfromid-command/)  
 Export a project item, as identified by its TestArchitect ID, to a file.
-6.  [ImportToPath command \(Import/Export tool\)](/TA_Help/Topics/ug_export_import_tool_import_to_path.html)  
+6.  [ImportToPath command \(Import/Export tool\)](/user-guide/import-export-command-line-tool/importtopath-command/)  
 Import a project item or test case to a TestArchitect project location identified by its TA path.
-7.  [ImportToID command \(Import/Export tool\)](/TA_Help/Topics/ug_export_import_tool_import_to_id.html)  
+7.  [ImportToID command \(Import/Export tool\)](/user-guide/import-export-command-line-tool/importtoid-command/)  
 Import a project item or test case to a TestArchitect project location identified by a TestArchitect ID.
 
 

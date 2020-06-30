@@ -31,15 +31,15 @@ There are two means by which TestArchitect users may log in to a repository. In 
 
 {{<important>}} Only one authentication mode may be in effect for a repository at any given time. The chosen mode, established by an administrator of the repository, applies to all users of the repository.
 
-1.  [Creating a repository](/TA_Help/Topics/Repository_creating.html)  
+1.  [Creating a repository](/user-guide/getting-started/working-with-repositories/creating-a-repository)  
 How to create a new repository.
-2.  [Connecting to a repository](/TA_Help/Topics/Getting_started_overview_working_with_TestArchitect_client_connecting.html)  
+2.  [Connecting to a repository](/user-guide/getting-started/working-with-repositories/connecting-to-a-repository)  
 To work on a given project, you must create a connection to its host repository, whether it exists on a local or remote repository server.
-3.  [Logging in to a repository](/TA_Help/Topics/Getting_started_overview_working_with_TestArchitect_client_logging.html)  
+3.  [Logging in to a repository](/user-guide/getting-started/working-with-repositories/logging-in-to-a-repository)  
 After connecting to a repository, your final step before being granted access to its contents is to log in to it.
-4.  [Disconnecting from a repository](/TA_Help/Topics/ug_Repository_disconnecting.html)  
+4.  [Disconnecting from a repository](/user-guide/getting-started/working-with-repositories/disconnecting-from-a-repository)  
 If you no longer need to work on a project, you may disconnect from its host repository.
-5.  [Logging in to a repository as a different user](/TA_Help/Topics/ug_logging_as_different_user.html)  
+5.  [Logging in to a repository as a different user](/user-guide/getting-started/working-with-repositories/logging-in-to-a-repository-as-a-different-user)  
 When logged in to a repository, you have the option, in a one-step procedure, of logging yourself out and then logging back in as a different user.
 
 

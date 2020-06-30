@@ -10,7 +10,7 @@ keywords: "Generic, WebDriver"
 
 WebDriver is a tool for automating web application testing executing tests across a wide range of browsers like Chrome, Firefox and Microsoft Edge. As a member of the Selenium family, it is designed to provide better support for dynamic web pages.
 
-{{<restriction>}} TestArchitect currently provides partial support for Generic WebDriver. Built-in actions and settings can only work on the platforms and browsers listed in [this topic](/TA_Automation/Topics/WebDriver_supported_platforms.html).
+{{<restriction>}} TestArchitect currently provides partial support for Generic WebDriver. Built-in actions and settings can only work on the platforms and browsers listed in [this topic](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/automated-web-testing-with-webdriver/platform-support).
 
 -   WebDriver makes direct calls to a browser using the browser's native support for automation.
 -   It provides separated language-binding for each supported language such as C\#, Java, Perl, PHP or Ruby. You use it to implement test script.
@@ -23,16 +23,16 @@ By using WebDriver, you are able to run tests across browsers with minor changes
 
 ## Locating interface elements
 
--   WebDriver only supports locating interface elements by Selenium-supported properties such as id, name, tagname and xpath. You had better use [POM Builder](https://chrome.google.com/webstore/detail/pombuilder-–-auto-generat/akcejfbfkkjnghlfngighgncolfaghco) or the browser's **inspect** feature to identify web elements instead of the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html).
+-   WebDriver only supports locating interface elements by Selenium-supported properties such as id, name, tagname and xpath. You had better use [POM Builder](https://chrome.google.com/webstore/detail/pombuilder-–-auto-generat/akcejfbfkkjnghlfngighgncolfaghco) or the browser's **inspect** feature to identify web elements instead of the [Interface Viewer](/user-guide/interface-definitions/the-interface-viewer/).
 -   For legacy interface elements that were captured with different from Selenium-supported properties, replace these properties with. It means that you ought to re-capture the interface elements using the Selenium-supported property.
 
-1.  [Getting Started](/TA_Automation/Topics/WebDriver_basic_structure.html)  
+1.  [Getting Started](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/automated-web-testing-with-webdriver/getting-started)  
 
-2.  [Platform support](/TA_Automation/Topics/WebDriver_supported_platforms.html)  
+2.  [Platform support](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/automated-web-testing-with-webdriver/platform-support)  
 
-3.  [Configuring WebDriver server & client](/TA_Automation/Topics/WebDriver_server_client.html)  
+3.  [Configuring WebDriver server & client](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/automated-web-testing-with-webdriver/configuring-webdriver-server-amp-client)  
 The topic guides you how to configure WebDriver server/client.
-4.  [Best practices for WebDriver](/TA_Automation/Topics/WebDriver_best_practices.html)  
+4.  [Best practices for WebDriver](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/automated-web-testing-with-webdriver/best-practices-for-webdriver)  
 
 
 

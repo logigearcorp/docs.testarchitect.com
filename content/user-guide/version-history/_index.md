@@ -10,83 +10,83 @@ keywords:
 
 This topic describes the changes made in previous versions of TestArchitect.
 
-1.  [Features added to TestArchitect 8.5](/TA_ReleaseNotes/DITA_source/Whats_New_8.5.html)  
+1.  [Features added to TestArchitect 8.5](/user-guide/version-history/features-added-to-testarchitect-8-5/)  
 This topic describes the changes made in TestArchitect version 8.4 Update 6
-2.  [Features added to TestArchitect 8.4 Update 6](/TA_ReleaseNotes/DITA_source/Whats_New_8.4_update_6.html)  
+2.  [Features added to TestArchitect 8.4 Update 6](/user-guide/version-history/features-added-to-testarchitect-8-4-update-6/)  
 This topic describes the changes made in TestArchitect version 8.4 Update 6
-3.  [Features added to TestArchitect 8.4 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.4_update_5.html)  
+3.  [Features added to TestArchitect 8.4 Update 5](/user-guide/version-history/features-added-to-testarchitect-8-4-update-5/)  
 This topic describes the changes made in TestArchitect version 8.4 Update 5.
-4.  [Features added to TestArchitect 8.4 Update 4](/TA_ReleaseNotes/DITA_source/Whats_New_8.4_update_4.html)  
+4.  [Features added to TestArchitect 8.4 Update 4](/user-guide/version-history/features-added-to-testarchitect-8-4-update-4/)  
 This topic describes the changes made in TestArchitect version 8.4 Update 4.
-5.  [Features added to TestArchitect 8.4 Update 3](/TA_ReleaseNotes/DITA_source/Whats_New_8.4_update_3.html)  
+5.  [Features added to TestArchitect 8.4 Update 3](/user-guide/version-history/features-added-to-testarchitect-8-4-update-3/)  
 This topic describes the changes made in TestArchitect version 8.4 Update 3.
-6.  [Features added to TestArchitect 8.4 Update 2](/TA_ReleaseNotes/DITA_source/Whats_New_8.4_update_2.html)  
+6.  [Features added to TestArchitect 8.4 Update 2](/user-guide/version-history/features-added-to-testarchitect-8-4-update-2/)  
 This topic describes the changes made in TestArchitect version 8.4 Update 2.
-7.  [Features added to TestArchitect 8.4 Update 1](/TA_ReleaseNotes/DITA_source/Whats_New_8.4_update_1.html)  
+7.  [Features added to TestArchitect 8.4 Update 1](/user-guide/version-history/features-added-to-testarchitect-8-4-update-1/)  
 This topic describes the changes made in TestArchitect version 8.4 Update 1.
-8.  [Features added to TestArchitect 8.4](/TA_ReleaseNotes/DITA_source/Whats_New_8.4.html)  
+8.  [Features added to TestArchitect 8.4](/user-guide/version-history/features-added-to-testarchitect-8-4/)  
 This topic describes the changes made in TestArchitect version 8.4
-9.  [Features added to TestArchitect 8.3 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_5.html)  
+9.  [Features added to TestArchitect 8.3 Update 5](/user-guide/version-history/features-added-to-testarchitect-8-3-update-5/)  
 This topic describes the changes made in TestArchitect version 8.3 Update 5.
-10. [Features added to TestArchitect 8.3 Update 4](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_4.html)  
+10. [Features added to TestArchitect 8.3 Update 4](/user-guide/version-history/features-added-to-testarchitect-8-3-update-4/)  
 This topic describes the changes made in TestArchitect version 8.3 Update 4.
-11. [Features added to TestArchitect 8.3 Update 3](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_3.html)  
+11. [Features added to TestArchitect 8.3 Update 3](/user-guide/version-history/features-added-to-testarchitect-8-3-update-3/)  
 This topic describes the changes made in TestArchitect version 8.3 Update 3.
-12. [Features added to TestArchitect 8.3 Update 2](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_2.html)  
+12. [Features added to TestArchitect 8.3 Update 2](/user-guide/version-history/features-added-to-testarchitect-8-3-update-2/)  
 This topic describes the changes made in TestArchitect version 8.3 Update 2.
-13. [Features added to TestArchitect 8.3 Update 1](/TA_ReleaseNotes/DITA_source/Whats_New_8.3_update_1.html)  
+13. [Features added to TestArchitect 8.3 Update 1](/user-guide/version-history/features-added-to-testarchitect-8-3-update-1/)  
 This topic describes the changes made in TestArchitect version 8.3 Update 1.
-14. [Features added to TestArchitect 8.3](/TA_ReleaseNotes/DITA_source/Whats_New_8.3.html)  
+14. [Features added to TestArchitect 8.3](/user-guide/version-history/features-added-to-testarchitect-8-3/)  
 This topic describes the changes made in TestArchitect version 8.3.
-15. [Features added to TestArchitect 8.2 Update 7](/TA_ReleaseNotes/DITA_source/Whats_New_8.2_update_7.html)  
+15. [Features added to TestArchitect 8.2 Update 7](/user-guide/version-history/features-added-to-testarchitect-8-2-update-7/)  
 This topic describes the changes made in TestArchitect version 8.2 Update 7.
-16. [Features added to TestArchitect 8.2 Update 6](/TA_ReleaseNotes/DITA_source/Whats_New_8.2_update_6.html)  
+16. [Features added to TestArchitect 8.2 Update 6](/user-guide/version-history/features-added-to-testarchitect-8-2-update-6/)  
 This topic describes the changes made in TestArchitect version 8.2 Update 6.
-17. [Features added to TestArchitect 8.2 Update 5](/TA_ReleaseNotes/DITA_source/Whats_New_8.2_update_5.html)  
+17. [Features added to TestArchitect 8.2 Update 5](/user-guide/version-history/features-added-to-testarchitect-8-2-update-5/)  
 This topic describes the changes made in TestArchitect version 8.2 Update 5.
-18. [Features added to TestArchitect 8.2 Update 4](/TA_ReleaseNotes/DITA_source/Whats_New_8.2_update_4.html)  
+18. [Features added to TestArchitect 8.2 Update 4](/user-guide/version-history/features-added-to-testarchitect-8-2-update-4/)  
 This topic describes the changes made in TestArchitect version 8.2 Update 4.
-19. [Features added to TestArchitect 8.2 Update 3](/TA_ReleaseNotes/DITA_source/Whats_New_8.2_update_3.html)  
+19. [Features added to TestArchitect 8.2 Update 3](/user-guide/version-history/features-added-to-testarchitect-8-2-update-3/)  
 This topic describes the changes made in TestArchitect version 8.2 Update 3.
-20. [Features added to TestArchitect 8.2 Update 2](/TA_ReleaseNotes/DITA_source/Whats_New_8.2_update_2.html)  
+20. [Features added to TestArchitect 8.2 Update 2](/user-guide/version-history/features-added-to-testarchitect-8-2-update-2/)  
 This topic describes the changes made in TestArchitect version 8.2 Update 2.
-21. [Features added to TestArchitect 8.2 Update 1](/TA_ReleaseNotes/DITA_source/Whats_New_8.2_update_1.html)  
+21. [Features added to TestArchitect 8.2 Update 1](/user-guide/version-history/features-added-to-testarchitect-8-2-update-1/)  
 This topic describes the changes made in TestArchitect version 8.2 Update 1.
-22. [Features added to TestArchitect 8.2](/TA_ReleaseNotes/DITA_source/Whats_New_8.2.html)  
+22. [Features added to TestArchitect 8.2](/user-guide/version-history/features-added-to-testarchitect-8-2/)  
 This topic describes the changes made in TestArchitect version 8.2.
-23. [Features added to TestArchitect 8.1 Update 4](/TA_ReleaseNotes/DITA_source/Whats_New_8.1_update_4.html)  
+23. [Features added to TestArchitect 8.1 Update 4](/user-guide/version-history/features-added-to-testarchitect-8-1-update-4/)  
 This topic describes the changes made in TestArchitect version 8.1 update 4.
-24. [Features added to TestArchitect 8.1 Update 3](/TA_ReleaseNotes/DITA_source/Whats_New_8.1_update_3.html)  
+24. [Features added to TestArchitect 8.1 Update 3](/user-guide/version-history/features-added-to-testarchitect-8-1-update-3/)  
 This topic describes the changes made in TestArchitect version 8.1 update 3.
-25. [Features added to TestArchitect 8.1 Update 2](/TA_ReleaseNotes/DITA_source/Whats_New_8.1_update_2.html)  
+25. [Features added to TestArchitect 8.1 Update 2](/user-guide/version-history/features-added-to-testarchitect-8-1-update-2/)  
 This topic describes the changes made in TestArchitect version 8.1 update 2.
-26. [Features added to TestArchitect 8.1 Update 1](/TA_ReleaseNotes/DITA_source/Whats_New_8.1_update_1.html)  
+26. [Features added to TestArchitect 8.1 Update 1](/user-guide/version-history/features-added-to-testarchitect-8-1-update-1/)  
 This topic describes the changes made in TestArchitect version 8.1 update 1.
-27. [Features added to TestArchitect 8.1](/TA_ReleaseNotes/DITA_source/Whats_New_8.1.html)  
+27. [Features added to TestArchitect 8.1](/user-guide/version-history/features-added-to-testarchitect-8-1/)  
 This topic describes the changes made in TestArchitect version 8.1.
-28. [Features added to TestArchitect 8 Update 4](/TA_ReleaseNotes/DITA_source/Whats_New_8_update_4.html)  
+28. [Features added to TestArchitect 8 Update 4](/user-guide/version-history/features-added-to-testarchitect-8-update-4/)  
 This topic describes the changes made in TestArchitect version 8 update 4.
-29. [Features added to TestArchitect 8 Update 3](/TA_ReleaseNotes/DITA_source/Whats_New_8_update_3.html)  
+29. [Features added to TestArchitect 8 Update 3](/user-guide/version-history/features-added-to-testarchitect-8-update-3)  
 This topic describes the changes made in TestArchitect version 8 update 3.
-30. [Features added to TestArchitect 8 Update 2](/TA_ReleaseNotes/DITA_source/Whats_New_8_update_2.html)  
+30. [Features added to TestArchitect 8 Update 2](/user-guide/version-history/features-added-to-testarchitect-8-update-2)  
 This topic describes the changes made in TestArchitect version 8 update 2.
-31. [Features added to TestArchitect 8 Update 1](/TA_ReleaseNotes/DITA_source/Whats_New_8_update_1.html)  
+31. [Features added to TestArchitect 8 Update 1](/user-guide/version-history/features-added-to-testarchitect-8-update-1)  
 This topic describes the changes made in TestArchitect version 8 update 1.
-32. [Features added to TestArchitect 8](/TA_ReleaseNotes/DITA_source/Whats_New_8.html)  
+32. [Features added to TestArchitect 8](/user-guide/version-history/features-added-to-testarchitect-8)  
 This topic describes the changes made in TestArchitect version 8.
-33. [Features added to TestArchitect 8 beta 2](/TA_ReleaseNotes/DITA_source/Whats_New_8.0_beta_2.html)  
+33. [Features added to TestArchitect 8 beta 2](/user-guide/version-history/features-added-to-testarchitect-8-beta-2)  
 This topic describes the changes made in TestArchitect version 8 beta 2.
-34. [Features added to TestArchitect 8 beta 1](/TA_ReleaseNotes/DITA_source/Whats_New_8.0_beta_1.html)  
+34. [Features added to TestArchitect 8 beta 1](/user-guide/version-history/features-added-to-testarchitect-8-beta-1)  
 This topic describes the changes made in TestArchitect version 8 beta 1.
-35. [Features added to TestArchitect 7.3](/TA_ReleaseNotes/DITA_source/Whats_New_7.3.html)  
+35. [Features added to TestArchitect 7.3](/user-guide/version-history/features-added-to-testarchitect-7-3)  
 This topic describes the changes made in TestArchitect version 7.3.
-36. [Features added to TestArchitect 7.2 update 1](/TA_ReleaseNotes/DITA_source/Whats_New_7.2_update_1.html)  
+36. [Features added to TestArchitect 7.2 update 1](/user-guide/version-history/features-added-to-testarchitect-7-2-update-1)  
 This topic describes the changes made in TestArchitect version 7.2 update 1.
-37. [Features added to TestArchitect 7.2](/TA_ReleaseNotes/DITA_source/Whats_New_7.2.html)  
+37. [Features added to TestArchitect 7.2](/user-guide/version-history/features-added-to-testarchitect-7-2)  
 This topic describes the changes made in TestArchitect version 7.2.
-38. [Features added to TestArchitect 7.1](/TA_ReleaseNotes/DITA_source/Whats_New_7.1.html)  
+38. [Features added to TestArchitect 7.1](/user-guide/version-history/features-added-to-testarchitect-7-1)  
 This topic describes the changes made in TestArchitect version 7.1.
-39. [Features added to TestArchitect 7.0](/TA_ReleaseNotes/DITA_source/Whats_New_7.0.html)  
+39. [Features added to TestArchitect 7.0](/user-guide/version-history/features-added-to-testarchitect-7-0)  
 This topic describes the changes made in TestArchitect version 7.0.
 
 

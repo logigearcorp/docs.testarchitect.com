@@ -10,7 +10,7 @@ keywords:
 
 This chapter involves connection establishment among TestArchitect components.
 
-1.  [Connection retry configuration](/TA_Administration/Topics/Connection_retry_configuration.html)  
+1.  [Connection retry configuration](/administration-guide/connections/connection-retry-configuration)  
 TestArchitect allows you to set the number of attempts for a failed connection which a TA component establishes to another component. For example, the TestArchitect Controller connects to a TestArchitect repository.
 
 

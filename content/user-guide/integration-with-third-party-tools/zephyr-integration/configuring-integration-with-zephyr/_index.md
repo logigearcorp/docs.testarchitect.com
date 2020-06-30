@@ -16,9 +16,9 @@ Establishing and terminating communications between TestArchitect and Zephyr.
     -   [Zephyr Cloud](https://zephyrdocs.atlassian.net/wiki/spaces/ZE61/pages/263521484/Zephyr+Enterprise+Cloud+Requirements)
     -   TestArchitect 8.4 Update 4 & 5
 
-1.  [Setting up the connection with Zephyr](/TA_Help/Topics/ug_Zephyr_setting_up_connection.html)  
+1.  [Setting up the connection with Zephyr](/user-guide/integration-with-third-party-tools/zephyr-integration/configuring-integration-with-zephyr/setting-up-the-connection-with-zephyr/)  
 Before you start working with Zephyr, you need to set up TestArchitect and Zephyr.
-2.  [Disconnecting from the Zephyr server](/TA_Help/Topics/ug_Zephyr_disconnection.html)  
+2.  [Disconnecting from the Zephyr server](/user-guide/integration-with-third-party-tools/zephyr-integration/configuring-integration-with-zephyr/disconnecting-from-the-zephyr-server)  
 If it is no longer required, you may terminate the connection between the Zephyr server and your TestArchitect repository.
 
 

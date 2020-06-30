@@ -10,49 +10,49 @@ keywords:
 
 This section includes built-in actions which interact with browsers.
 
-1.  [check popup default text](/TA_Automation/Topics/bia_check_popup_default_text.html)  
+1.  [check popup default text](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/check-popup-default-text)  
 
-2.  [check popup message](/TA_Automation/Topics/bia_check_popup_message.html)  
+2.  [check popup message](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/check-popup-message)  
 
-3.  [check status bar value](/TA_Automation/Topics/bia_check_status_bar_value.html)  
+3.  [check status bar value](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/check-status-bar-value)  
 
-4.  [clear popup queue](/TA_Automation/Topics/bia_clear_popup_queue.html)  
+4.  [clear popup queue](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/clear-popup-queue)  
 
-5.  [click on next popup](/TA_Automation/Topics/bia_click_on_next_popup.html)  
+5.  [click on next popup](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/click-on-next-popup)  
 
-6.  [click popup](/TA_Automation/Topics/bia_click_popup.html)  
+6.  [click popup](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/click-popup)  
 
-7.  [copy popup message](/TA_Automation/Topics/bia_copy_popup_message.html)  
+7.  [copy popup message](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/copy-popup-message)  
 
-8.  [delete cookies](/TA_Automation/Topics/bia_delete_cookies.html)  
+8.  [delete cookies](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/delete-cookies)  
 
-9.  [enter text on next popup](/TA_Automation/Topics/bia_enter_text_on_next_popup.html)  
+9.  [enter text on next popup](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/enter-text-on-next-popup)  
 
-10. [enter value in popup](/TA_Automation/Topics/bia_enter_value_in_popup.html)  
+10. [enter value in popup](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/enter-value-in-popup)  
 
-11. [exec script](/TA_Automation/Topics/bia_exec_script.html)  
+11. [exec script](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/exec-script)  
 
-12. [fire event](/TA_Automation/Topics/bia_fire_event.html)  
+12. [fire event](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/fire-event)  
 
-13. [get popup default text](/TA_Automation/Topics/bia_get_popup_default_text.html)  
+13. [get popup default text](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/get-popup-default-text)  
 
-14. [get popup message](/TA_Automation/Topics/bia_get_popup_message.html)  
+14. [get popup message](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/get-popup-message)  
 
-15. [get status bar value](/TA_Automation/Topics/bia_get_status_bar_value.html)  
+15. [get status bar value](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/get-status-bar-value)  
 
-16. [go back](/TA_Automation/Topics/bia_go_back.html)  
+16. [go back](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/go-back)  
 
-17. [go forward](/TA_Automation/Topics/bia_go_forward.html)  
+17. [go forward](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/go-forward)  
 
-18. [go home](/TA_Automation/Topics/bia_go_home.html)  
+18. [go home](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/go-home)  
 
-19. [navigate](/TA_Automation/Topics/bia_navigate.html)  
+19. [navigate](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/navigate)  
 
-20. [refresh](/TA_Automation/Topics/bia_refresh.html)  
+20. [refresh](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/refresh)  
 
-21. [send command to browser](/TA_Automation/Topics/bia_send_command_to_browser.html)  
+21. [send command to browser](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/send-command-to-browser)  
 
-22. [submit form](/TA_Automation/Topics/bia_submit_form.html)  
+22. [submit form](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/submit-form)  
 
 
 

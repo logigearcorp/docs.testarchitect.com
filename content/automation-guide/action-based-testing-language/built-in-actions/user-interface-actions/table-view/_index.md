@@ -10,25 +10,25 @@ keywords:
 
 Actions which interact with a table view control of applications running on mobile operating systems.
 
-1.  [check table view cell exists](/TA_Automation/Topics/bia_check_table_view_cell_exists.html)  
+1.  [check table view cell exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/table-view/check-table-view-cell-exists)  
 
-2.  [check table view cell not exists](/TA_Automation/Topics/bia_check_table_view_cell_not_exists.html)  
+2.  [check table view cell not exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/table-view/check-table-view-cell-not-exists)  
 
-3.  [check table view cell value](/TA_Automation/Topics/bia_check_table_view_cell_value.html)  
+3.  [check table view cell value](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/table-view/check-table-view-cell-value)  
 
-4.  [check table view section exists](/TA_Automation/Topics/bia_check_table_view_section_exists.html)  
+4.  [check table view section exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/table-view/check-table-view-section-exists)  
 
-5.  [does table view cell exist](/TA_Automation/Topics/bia_does_table_view_cell_exist.html)  
+5.  [does table view cell exist](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/table-view/does-table-view-cell-exist)  
 
-6.  [get table view cell containing](/TA_Automation/Topics/bia_get_table_view_cell_containing.html)  
+6.  [get table view cell containing](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/table-view/get-table-view-cell-containing)  
 
-7.  [get table view cell value](/TA_Automation/Topics/bia_get_table_view_cell_value.html)  
+7.  [get table view cell value](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/table-view/get-table-view-cell-value)  
 
-8.  [get table view section](/TA_Automation/Topics/bia_get_table_view_section.html)  
+8.  [get table view section](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/table-view/get-table-view-section)  
 
-9.  [get table view section containing](/TA_Automation/Topics/bia_get_table_view_section_containing.html)  
+9.  [get table view section containing](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/table-view/get-table-view-section-containing)  
 
-10. [tap table view cell](/TA_Automation/Topics/bia_tap_table_view_cell.html)  
+10. [tap table view cell](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/table-view/tap-table-view-cell)  
 
 
 

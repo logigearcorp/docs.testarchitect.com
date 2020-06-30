@@ -29,13 +29,13 @@ Once the information is provided, clicking the **Generate** button results in th
 
 ![](/images/TA_Tutorials/Images/scenario_provide_basic_information.png)
 
-1.  [Registering the TAUtilities library](/TA_Tutorials/Topics/TAUtilities_register_library.html)  
+1.  [Registering the TAUtilities library](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-11-creating-excel-reports-using-tautilities/creating-a-summary-report-in-excel/registering-the-tautilities-library)  
 To allow a COM application to use the shared TAUtilities.dll file. you must register the DLL file.
-2.  [Creating the macro in Microsoft Excel](/TA_Tutorials/Topics/TAUtilities_implentation.html)  
+2.  [Creating the macro in Microsoft Excel](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-11-creating-excel-reports-using-tautilities/creating-a-summary-report-in-excel/creating-the-macro-in-microsoft-excel)  
 In this exercise, you will create a macro in Microsoft Excel™ to interact with TestArchitect items.
-3.  [Implementing the interface](/TA_Tutorials/Topics/TAUtilities_implentation_1.html)  
+3.  [Implementing the interface](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-11-creating-excel-reports-using-tautilities/creating-a-summary-report-in-excel/implementing-the-interface)  
 In this topic, the procedure generateMethod\(\), which interfaces with the TAUtilities APIs, is implemented.
-4.  [Viewing the result](/TA_Tutorials/Topics/TAUtilities_result.html)  
+4.  [Viewing the result](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-11-creating-excel-reports-using-tautilities/creating-a-summary-report-in-excel/viewing-the-result)  
 Run your macro, and ensure that it properly gets needed information from TestArchitect items.
 
 

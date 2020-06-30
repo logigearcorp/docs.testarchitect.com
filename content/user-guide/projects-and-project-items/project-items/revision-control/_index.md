@@ -23,13 +23,13 @@ Repository files are subject to revision control and management. Older revision 
 
 If you make changes to a file and you don't want to save your changes to the repository, you may opt to use **undo check out**, in which case your changes are discarded, the lock on the checked out file is removed, and the file becomes available again for other authorized users.
 
-1.  [Check in](/TA_Help/Topics/Project_items_checkin.html)  
+1.  [Check in](/user-guide/projects-and-project-items/project-items/revision-control/check-in)  
 Check-in is a process of writing the changes made to the local working copy of a file back into the repository.
-2.  [Check out](/TA_Help/Topics/Project_items_checkout.html)  
+2.  [Check out](/user-guide/projects-and-project-items/project-items/revision-control/check-out)  
 Check-out is the process of creating a local working copy from the repository.
-3.  [Undo check out](/TA_Help/Topics/Project_items_undo_checkout.html)  
+3.  [Undo check out](/user-guide/projects-and-project-items/project-items/revision-control/undo-check-out)  
 Undoing checkout allows you discard any changes you have made to local copies of project items and check them back in to the repository.
-4.  [Revision history](/TA_Help/Topics/Project_items_history.html)  
+4.  [Revision history](/user-guide/projects-and-project-items/project-items/revision-control/revision-history/)  
 The TestArchitect repository saves pertinent information on a project item every time the item is checked in. This includes timestamp, assigned version, project name, item type \(test modules, data sets, actions, etc.\), item name, user who checked in the item, and included comments.
 
 
@@ -38,5 +38,5 @@ The TestArchitect repository saves pertinent information on a project item every
 **Related information**  
 
 
-[Revision history](/TA_Help/Topics/Project_items_history.html)
+[Revision history](/user-guide/projects-and-project-items/project-items/revision-control/revision-history/)
 

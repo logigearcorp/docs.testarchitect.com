@@ -10,43 +10,43 @@ keywords:
 
 Deprecated built-in actions include those actions which should be avoided, typically because they have been superseded.
 
-1.  [author](/TA_Automation/Topics/bia_author.html)  
+1.  [author](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/deprecated/author)  
 
-2.  [check row item](/TA_Automation/Topics/bia_check_row_item.html)  
+2.  [check row item](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/deprecated/check-row-item)  
 
-3.  [date](/TA_Automation/Topics/bia_date.html)  
+3.  [date](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/deprecated/date)  
 
-4.  [last update date](/TA_Automation/Topics/bia_last_update_date.html)  
+4.  [last update date](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/deprecated/last-update-date)  
 
-5.  [last updated by](/TA_Automation/Topics/bia_last_updated_by.html)  
+5.  [last updated by](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/deprecated/last-updated-by)  
 
-6.  [priority](/TA_Automation/Topics/bia_priority.html)  
+6.  [priority](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/deprecated/priority)  
 
-7.  [remark](/TA_Automation/Topics/bia_remark.html)  
+7.  [remark](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/deprecated/remark)  
 
-8.  [sheet](/TA_Automation/Topics/bia_sheet.html)  
+8.  [sheet](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/deprecated/sheet)  
 
-9.  [status](/TA_Automation/Topics/bia_status.html)  
+9.  [status](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/deprecated/status)  
 
-10. [test module](/TA_Automation/Topics/bia_test_module.html)  
+10. [test module](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/deprecated/test-module)  
 
-11. [version](/TA_Automation/Topics/bia_version.html)  
+11. [version](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/deprecated/version)  
 
-12. [interface frame](/TA_Automation/Topics/bia_interface_frame.html)  
+12. [interface frame](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/deprecated/interface-frame)  
 
-13. [end interface frame](/TA_Automation/Topics/bia_end_interface_frame.html)  
+13. [end interface frame](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/deprecated/end-interface-frame)  
 
-14. [interface element setting](/TA_Automation/Topics/bia_interface_element_setting.html)  
+14. [interface element setting](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/deprecated/interface-element-setting)  
 
-15. [action definition](/TA_Automation/Topics/bia_action_definition_1.html)  
+15. [action definition](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/deprecated/action-definition)  
 
-16. [end action definition](/TA_Automation/Topics/bia_end_action_definition.html)  
+16. [end action definition](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/deprecated/end-action-definition)  
 
-17. [assign entity setting](/TA_Automation/Topics/bia_assign_entity_setting.html)  
+17. [assign entity setting](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/deprecated/assign-entity-setting)  
 
-18. [interface element class](/TA_Automation/Topics/bia_interface_element_class.html)  
+18. [interface element class](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/deprecated/interface-element-class)  
 
-19. [interface element class action](/TA_Automation/Topics/bia_interface_element_class_action.html)  
+19. [interface element class action](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/deprecated/interface-element-class-action)  
 
 
 

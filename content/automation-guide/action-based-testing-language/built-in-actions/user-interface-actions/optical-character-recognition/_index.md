@@ -10,31 +10,31 @@ keywords:
 
 The optical character recognition actions include built-in actions which use OCR to discern text from bitmap images captured from the AUT.
 
-1.  [check text exists](/TA_Automation/Topics/bia_check_text_exists.html)  
+1.  [check text exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/optical-character-recognition/check-text-exists)  
 
-2.  [check text not exists](/TA_Automation/Topics/bia_check_text_not_exists.html)  
+2.  [check text not exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/optical-character-recognition/check-text-not-exists)  
 
-3.  [clear ocr setting](/TA_Automation/Topics/bia_clear_ocr_setting.html)  
+3.  [clear ocr setting](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/optical-character-recognition/clear-ocr-setting)  
 
-4.  [click text](/TA_Automation/Topics/bia_click_text.html)  
+4.  [click text](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/optical-character-recognition/click-text)  
 
-5.  [does text exist](/TA_Automation/Topics/bia_does_text_exist.html)  
+5.  [does text exist](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/optical-character-recognition/does-text-exist)  
 
-6.  [get text background color](/TA_Automation/Topics/bia_get_text_background_color.html)  
+6.  [get text background color](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/optical-character-recognition/get-text-background-color)  
 
-7.  [get text color](/TA_Automation/Topics/bia_get_text_color.html)  
+7.  [get text color](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/optical-character-recognition/get-text-color)  
 
-8.  [get text content](/TA_Automation/Topics/bia_get_text_content.html)  
+8.  [get text content](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/optical-character-recognition/get-text-content)  
 
-9.  [get text coordinates](/TA_Automation/Topics/bia_get_text_coordinates.html)  
+9.  [get text coordinates](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/optical-character-recognition/get-text-coordinates)  
 
-10. [get text count](/TA_Automation/Topics/bia_get_text_count.html)  
+10. [get text count](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/optical-character-recognition/get-text-count)  
 
-11. [if text exists](/TA_Automation/Topics/bia_if_text_exists.html)  
+11. [if text exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/optical-character-recognition/if-text-exists)  
 
-12. [if text not exists](/TA_Automation/Topics/bia_if_text_not_exists.html)  
+12. [if text not exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/optical-character-recognition/if-text-not-exists)  
 
-13. [set ocr setting](/TA_Automation/Topics/bia_set_ocr_setting.html)  
+13. [set ocr setting](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/optical-character-recognition/set-ocr-setting)  
 
 
 

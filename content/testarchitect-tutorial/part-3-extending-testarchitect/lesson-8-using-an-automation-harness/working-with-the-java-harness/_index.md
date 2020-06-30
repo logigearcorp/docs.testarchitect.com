@@ -24,15 +24,15 @@ This subsection contains two exercises that demonstrate how to create user-scrip
 -   TestArchitect installation includes the file javaharnesslib.jar, which exposes the automation library objects and functions that are used in the Java harness.
 -   Both your installation of TestArchitect and your JDK must be for the same machine architecture \(32-bit or 64-bit\).
 
-1.  [Developing your own User-scripted Java harness action](/TA_Tutorials/Topics/Developing_your_own_harness_action_Java.html)  
+1.  [Developing your own User-scripted Java harness action](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/working-with-the-java-harness/developing-your-own-user-scripted-java-harness-action)  
  To created a scripted Java action, you must define the action, and modify the existing harness files to implement it.
-2.  [Scripting an action in Java](/TA_Tutorials/Topics/Scripting_an_action_Java.html)  
+2.  [Scripting an action in Java](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/working-with-the-java-harness/scripting-an-action-in-java)  
 Implement an action in Java, using the TestArchitect Java harness.
-3.  [Creating the test case and stub action](/TA_Tutorials/Topics/Creating_the_test_case_and_stub_action_Java.html)  
+3.  [Creating the test case and stub action](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/working-with-the-java-harness/creating-the-test-case-and-stub-action)  
 Create a stub action in TestArchitect as a placeholder for thescripted hello actionyou defined previously, then write a test to invoke the action.
-4.  [Running a Java harness test](/TA_Tutorials/Topics/Running_the_test_4_Java.html)  
+4.  [Running a Java harness test](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/working-with-the-java-harness/running-a-java-harness-test)  
  Execute the test that calls the hello action you implemented in the Java harness.
-5.  [User-scripted Java harness action that interacts with GUI](/TA_Tutorials/Topics/Creating_a_harness_action_that_interacts_with_a_GUI_Java.html)  
+5.  [User-scripted Java harness action that interacts with GUI](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/working-with-the-java-harness/user-scripted-java-harness-action-that-interacts-with-gui/)  
  In this exercise, we will create a Java-scripted action that interacts with an application's user interface. We will also create a new Java class to house the new scripted function implementing the action.
 
 

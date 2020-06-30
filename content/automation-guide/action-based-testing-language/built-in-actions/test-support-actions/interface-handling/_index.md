@@ -10,13 +10,13 @@ keywords:
 
 Interface Handling built-in actions allow you to create interfaces, interface entities, interface elements and use them in your test procedures.
 
-1.  [intake](/TA_Automation/Topics/bia_intake.html)  
+1.  [intake](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/interface-handling/intake)  
 
-2.  [interface element](/TA_Automation/Topics/bia_interface_element.html)  
+2.  [interface element](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/interface-handling/interface-element)  
 
-3.  [interface entity setting](/TA_Automation/Topics/bia_interface_entity_setting.html)  
+3.  [interface entity setting](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/interface-handling/interface-entity-setting)  
 
-4.  [use interface](/TA_Automation/Topics/bia_use_interface.html)  
+4.  [use interface](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/interface-handling/use-interface)  
 
 
 

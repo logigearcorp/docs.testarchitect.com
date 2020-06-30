@@ -21,17 +21,17 @@ The supported controls include:
 -   Telerik WinForms controls.
 -   Xceed WPF controls.
 
-1.  [List of supported Win32 UIA controls](/TA_Automation/Topics/aut_Using_UIA_supported_controls_WIN32.html)  
+1.  [List of supported Win32 UIA controls](/automation-guide/microsoft-ui-automation/uia-controls/list-of-supported-win32-uia-controls)  
 Supported Win32 controls when testing Microsoft UIA-enabled AUTs.
-2.  [List of supported WPF UIA controls](/TA_Automation/Topics/aut_Using_UIA_supported_controls_WPF.html)  
+2.  [List of supported WPF UIA controls](/automation-guide/microsoft-ui-automation/uia-controls/list-of-supported-wpf-uia-controls)  
 Supported WPF controls when testing Microsoft UIA-enabled AUTs.
-3.  [List of supported WinForms UIA controls](/TA_Automation/Topics/aut_Using_UIA_supported_controls_WinForm.html)  
+3.  [List of supported WinForms UIA controls](/automation-guide/microsoft-ui-automation/uia-controls/list-of-supported-winforms-uia-controls)  
 Supported WinForms controls when testing Microsoft UIA-enabled AUTs.
-4.  [List of supported Telerik WPF UIA controls](/TA_Automation/Topics/aut_Using_UIA_supported_controls_WPF_Telerik.html)  
+4.  [List of supported Telerik WPF UIA controls](/automation-guide/microsoft-ui-automation/uia-controls/list-of-supported-telerik-wpf-uia-controls)  
 Contains information on supported Telerik UI for WPF controls when testing Microsoft UIA-enabled AUTs.
-5.  [List of supported Telerik WinForms UIA controls](/TA_Automation/Topics/aut_Using_UIA_supported_controls_WinForm_Telerik.html)  
+5.  [List of supported Telerik WinForms UIA controls](/automation-guide/microsoft-ui-automation/uia-controls/list-of-supported-telerik-winforms-uia-controls)  
 Contains information on supported Telerik UI for WinForms controls when testing Microsoft UIA-enabled AUTs.
-6.  [List of supported Xceed WPF UIA controls](/TA_Automation/Topics/aut_Using_UIA_supported_controls_WPF_Xceed.html)  
+6.  [List of supported Xceed WPF UIA controls](/automation-guide/microsoft-ui-automation/uia-controls/list-of-supported-xceed-wpf-uia-controls)  
 Contains information on supported Xceed UI for WPF controls when testing Microsoft UIA-enabled AUTs.
 
 

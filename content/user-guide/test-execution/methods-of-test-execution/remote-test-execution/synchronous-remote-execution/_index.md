@@ -16,27 +16,27 @@ As an example of a scenario requiring synchronization, hypothetically you wish t
 
 In TestArchitect synchronous execution, the machine that initiates execution is called the lead, while other involved test machines are the deputies. Switching control from lead to deputy, deputy to lead, or between deputies is directed by the six lead-deputy actions:
 
--   [connect deputy \[machine\] \[port\] \[time out\] \[name\]](/TA_Automation/Topics/bia_connect_deputy.html)
--   [use deputy \[name\] \[parallel\]](/TA_Automation/Topics/bia_use_deputy.html)
--   [use lead](/TA_Automation/Topics/bia_use_lead.html)
--   [wait for deputy \[name\]](/TA_Automation/Topics/bia_wait_for_deputy.html)
--   [wait for all deputies](/TA_Automation/Topics/bia_wait_for_all_deputies.html)
--   [disconnect deputy \[name\]](/TA_Automation/Topics/bia_disconnect_deputy.html)
+-   [connect deputy \[machine\] \[port\] \[time out\] \[name\]](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/remote-agents/connect-deputy)
+-   [use deputy \[name\] \[parallel\]](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/remote-agents/use-deputy)
+-   [use lead](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/remote-agents/use-lead)
+-   [wait for deputy \[name\]](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/remote-agents/wait-for-deputy)
+-   [wait for all deputies](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/remote-agents/wait-for-all-deputies)
+-   [disconnect deputy \[name\]](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/remote-agents/disconnect-deputy)
 
 Under synchronous remote execution, control is passed to a deputy in one of two modes, serial or parallel. \(This is governed by the parallel argument of the use deputy action, in which `yes = parallel` and `no = serial`.\)
 
 {{<attention>}}
 
--   TestArchitect automatically adds controllers executing tests to the controller list in [Lab Manager](/TA_Help/Topics/Lab_manager.html), and you can monitor the test progress there.
+-   TestArchitect automatically adds controllers executing tests to the controller list in [Lab Manager](/user-guide/lab-manager/), and you can monitor the test progress there.
 -   Note that, while synchronous \(lead/deputy\) remote execution applies specifically to execution on TestArchitect controller hosts, it can be used in mobile testing when those hosts are controlling mobile devices.
--   Note that [database actions](/TA_Automation/Topics/bia_Database.html) are not supported on machines operating as deputies.
+-   Note that [database actions](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/) are not supported on machines operating as deputies.
 -   While Machine A is utilizing Machine B as a deputy, it is impossible for Machine B to utilize Machine A as a deputy.
 
 ## Variables
 
 -   If the deputies are running in parallel mode, each thread has its own local/global variables. You cannot refer to a variable declared in another thread no matter whether the variable is local or global.
--   If the deputies are running in serial mode, the scoping rules are the same as for executing normal tests procedures \(see [Variables](/TA_Automation/Topics/The_test_language_variables.html) for details\).
--   If a test case variable is declared before both of the [use deputy](/TA_Automation/Topics/bia_use_deputy.html) actions, the deputies can retrieve the value of that local variable regardless of whether the deputies are running in parallel or serial mode.
+-   If the deputies are running in serial mode, the scoping rules are the same as for executing normal tests procedures \(see [Variables](/automation-guide/action-based-testing-language/the-test-language/variables/) for details\).
+-   If a test case variable is declared before both of the [use deputy](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/remote-agents/use-deputy) actions, the deputies can retrieve the value of that local variable regardless of whether the deputies are running in parallel or serial mode.
 -   However, if the deputies write values to an existing local/global variable, the new value takes effect only if the deputies are running in serial mode. Otherwise, the new value is discarded.
 
 ## Harness termination on a deputy
@@ -50,9 +50,9 @@ Assuming that a lead connects a deputy, running two harnesses - temporarily call
 
 {{<note>}} Regardless of whether you terminate TestOne on the lead or deputy, testTwo is not affected.
 
-1.  [Serial synchronous remote execution](/TA_Help/Topics/Test_exec_remote_synchronous_serial.html)  
+1.  [Serial synchronous remote execution](/user-guide/test-execution/methods-of-test-execution/remote-test-execution/synchronous-remote-execution/serial-synchronous-remote-execution)  
 Under serial synchronous remote execution, control is initiated with the lead controller.
-2.  [Parallel synchronous remote execution](/TA_Help/Topics/Test_exec_remote_synchronous_parallel.html)  
+2.  [Parallel synchronous remote execution](/user-guide/test-execution/methods-of-test-execution/remote-test-execution/synchronous-remote-execution/parallel-synchronous-remote-execution)  
 In some cases it is necessary to test applications, or multiple instances of an application, for their interactions with each other, or for their joint effect on some shared resource such as a database.
 
 

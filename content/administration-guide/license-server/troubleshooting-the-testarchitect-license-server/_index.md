@@ -10,7 +10,7 @@ keywords:
 
 This section describes possible errors that you might encounter with the TestArchitect License Server, their common causes and possible solutions.
 
-1.  [License keys are unable to be verified when a power outage and connection loss occur](/TA_Administration/Topics/adm_LS_troubleshooting_license_keys_not_validated.html)  
+1.  [License keys are unable to be verified when a power outage and connection loss occur](/administration-guide/license-server/troubleshooting-the-testarchitect-license-server/license-keys-are-unable-to-be-verified-when-a-power-outage-and-connection-loss-occur)  
 
 
 

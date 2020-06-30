@@ -47,7 +47,7 @@ java -Dfile.encoding=UTF-8 -jar TAImportExportTool.jar --ImportToPath [--server<
     {{<note>}}
 
     -   If this argument is set to 0 or not defined, the default port number 53400 is used.
-    -   If port number of the source repository server has been [changed](/TA_Administration/Topics/Repo_changing_port.html) from its TestArchitect default of 53400, ensure that the correct port number is specified.
+    -   If port number of the source repository server has been [changed](/administration-guide/repository-server-management/changing-repository-server-port-number) from its TestArchitect default of 53400, ensure that the correct port number is specified.
 -   **--uid <value\>**
 
     User name with which to log in to repository.
@@ -108,10 +108,9 @@ java -Dfile.encoding=UTF-8 -jar TAImportExportTool.jar --ImportToPath [--server<
     -   This parameter is only applicable for test modules. If the target item is not a test module, this parameter, if declared, is simply ignored.
     -   Only a .zip file containing an exported test module can include that test module's picture checks. Hence a value of yes for this parameter is only effectual when the -sourceFile parameter specifies a .zip file.
 
-1.  [Example: Importing test modules including regular picture checks](/TA_Help/Topics/ug_export_import_tool_import_to_path_regular_picture_checks.html)  
+1.  [Example: Importing test modules including regular picture checks](/user-guide/import-export-command-line-tool/importtopath-command/example-importing-test-modules-including-regular-picture-checks)  
 
 
 
-(/TA_Help/Topics/ug_export_import_tool_export_from_id.html)
 
 

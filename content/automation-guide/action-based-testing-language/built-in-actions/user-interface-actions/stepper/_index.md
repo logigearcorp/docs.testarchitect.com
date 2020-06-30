@@ -10,7 +10,7 @@ keywords:
 
 Actions which interact with a stepper control of applications running on mobile operating systems.
 
--   **[tap stepper button](/TA_Automation/Topics/bia_tap_stepper_button.html)**  
+-   **[tap stepper button](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/stepper/tap-stepper-button)**  
 
 
 

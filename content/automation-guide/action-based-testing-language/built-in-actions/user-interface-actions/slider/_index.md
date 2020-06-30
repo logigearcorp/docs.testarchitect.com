@@ -10,11 +10,11 @@ keywords:
 
 Actions which interact with a slider control in the AUT.
 
-1.  [check trackbar value](/TA_Automation/Topics/bia_check_trackbar_value.html)  
+1.  [check trackbar value](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/slider/check-trackbar-value)  
 
-2.  [get trackbar value](/TA_Automation/Topics/bia_get_trackbar_value.html)  
+2.  [get trackbar value](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/slider/get-trackbar-value)  
 
-3.  [set trackbar value](/TA_Automation/Topics/bia_set_trackbar_value.html)  
+3.  [set trackbar value](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/slider/set-trackbar-value)  
 
 
 

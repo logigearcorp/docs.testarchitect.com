@@ -12,9 +12,9 @@ TFS together with MTM or the Test hub allows you to leverage the test developmen
 
 ![](/images/TA_Help/Images/microsoft_eco_system.png)
 
-1.  [Team Foundation Server overview](/TA_Help/Topics/ug_TFS_overview.html)  
+1.  [Team Foundation Server overview](/user-guide/integration-with-third-party-tools/tfs-integration/microsoft-ecosystem/tfs-overview)  
 Team Foundation Server \(TFS\) is a Microsoft product which provides source code management, reporting, requirements management, project management, automated builds, lab management, testing and release management capabilities.
-2.  [Microsoft CI system](/TA_Help/Topics/ug_Microsoft_CI_system.html)  
+2.  [Microsoft CI system](/user-guide/integration-with-third-party-tools/tfs-integration/microsoft-ecosystem/microsoft-ci-system)  
 Continuous Integration \(CI\) is a development practice that requires developers to integrate code into a shared repository several times a day. Each check-in is then verified by an automated build, allowing teams to detect problems early.
 
 

@@ -12,9 +12,9 @@ For a full understanding of timing settings and their effects, it is helpful to 
 
 
 
-1.  [Classifying UI-interactive actions](/TA_Automation/Topics/timing_classifying_actions.html)  
+1.  [Classifying UI-interactive actions](/automation-guide/action-based-testing-language/the-test-language/timing/understanding-action-types-and-condition-types/classifying-ui-interactive-actions)  
 Timing settings used for a given action are largely determined by the type of action it is. Actions that interact with the AUT can be classified into UI-testing and UI-interfacing actions. Each group can be further classified into subgroups.
-2.  [Conditions and preconditions](/TA_Automation/Topics/timing_preconditions.html)  
+2.  [Conditions and preconditions](/automation-guide/action-based-testing-language/the-test-language/timing/understanding-action-types-and-condition-types/conditions-and-preconditions)  
  The execution of an action may involve one or more UI-related tests that must be satisfied before the primary function of the action can be executed.
 
 

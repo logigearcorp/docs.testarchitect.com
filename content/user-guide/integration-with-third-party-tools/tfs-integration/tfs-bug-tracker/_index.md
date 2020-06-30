@@ -10,9 +10,9 @@ keywords: "TFS, bug tracker integration"
 
 TestArchitect™ can be integrated with TFS®, as a defect tracking system, allowing you and your team to easily keep track of TFS bug issues by associating them with TestArchitect bugs.
 
-1.  [Configuring TFS Bug Tracker integration](/TA_Help/Topics/ug_TFS_BugTracker_configuration.html)  
+1.  [Configuring TFS Bug Tracker integration](/user-guide/integration-with-third-party-tools/tfs-integration/tfs-bug-tracker/configuring-tfs-bug-tracker-integration/)  
 How to configure TFS Bug Tracker in TestArchitect.
-2.  [Features - TFS Bug Tracker](/TA_Help/Topics/ug_TFS_BugTracker_features.html)  
+2.  [Features - TFS Bug Tracker](/user-guide/integration-with-third-party-tools/tfs-integration/tfs-bug-tracker/features-tfs-bug-tracker/)  
 Features of TestArchitect's TFS Bug Tracker tool.
 
 

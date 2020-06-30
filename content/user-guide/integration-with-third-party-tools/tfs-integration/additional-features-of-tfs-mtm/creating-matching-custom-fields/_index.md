@@ -18,7 +18,7 @@ User-defined fields in TestArchitect are automatically mapped to TFS custom fiel
 
         -   Name: The name of the TestArchitect user-defined field must be identical to that of its corresponding custom field in TFS.
         -   Apply to: Only Test module and Test case are mappable to TFS custom fields.
-        -   Value Type: Field data types must match between TestArchitect and TFS. \([Learn more](/TA_Help/Topics/ug_MTM_matching_custom_fields_rule.html).\)
+        -   Value Type: Field data types must match between TestArchitect and TFS. \([Learn more](/user-guide/integration-with-third-party-tools/tfs-integration/additional-features-of-tfs-mtm/creating-matching-custom-fields/rules-for-mapping-custom-fields).\)
         -   Default value: Assign a default value to a user-defined field.
 
             {{<important>}} For a TestArchitect user-defined field that maps to a TFS custom field designated as Required, it is essential that a value exist in the TestArchitect field when its corresponding test module or test case is uploaded to TFS. You can ensure that such fields will have values by utilizing the **Default Value** field in the New Field dialog box. \(For existing user-defined fields, defaults can also be set in the Edit Field dialog box.\) A given user-defined field for a particular test module or test case may also be set to a specific value via the **Information** tab of the project item.
@@ -36,7 +36,7 @@ User-defined fields in TestArchitect are automatically mapped to TFS custom fiel
     ![](/images/TA_Help/Images/TA_MTM_custom_field.png)
 
 
-1.  [Rules for mapping custom fields](/TA_Help/Topics/ug_MTM_matching_custom_fields_rule.html)  
+1.  [Rules for mapping custom fields](/user-guide/integration-with-third-party-tools/tfs-integration/additional-features-of-tfs-mtm/creating-matching-custom-fields/rules-for-mapping-custom-fields)  
 Custom fields in TFS may be mapped to user-defined fields in TestArchitect test modules or test cases.
 
 

@@ -27,11 +27,11 @@ ta <command\> <arguments\>
 |-?,--help\(Optional\)<br><br>|Displays the help information for the command line tool.Example: ta -?<br><br>|<br>
 |-ver\(Optional\)<br><br>|\(Optional\) Displays the version of the command line tool Example: ta -ver<br><br>|<br>
 
-1.  [delete command](/TA_Help/Topics/TA_command_line_delete.html)  
+1.  [delete command](/user-guide/testarchitect-command-line-tool/delete-command)  
 ta delete is used to remove local test results from the command-line interface.
-2.  [execute command](/TA_Help/Topics/TA_command_line_execute.html)  
+2.  [execute command](/user-guide/testarchitect-command-line-tool/execute-command)  
 ta execute is used to execute tests from the command-line interface.
-3.  [export command](/TA_Help/Topics/TA_command_line_export.html)  
+3.  [export command](/user-guide/testarchitect-command-line-tool/export-command)  
 ta export is used to export Test Architect items such as repository, project, test folder, built-in actions, interface entities, test modules/test cases using the command-line interface.
 
 

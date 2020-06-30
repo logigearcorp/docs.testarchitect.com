@@ -10,9 +10,9 @@ keywords:
 
 This section contains information on JSON automation.
 
-1.  [check json query result](/TA_Automation/Topics/bia_check_json_query_result.html)  
+1.  [check json query result](/automation-guide/action-based-testing-language/built-in-actions/system-actions/json/check-json-query-result)  
 
-2.  [get json query result](/TA_Automation/Topics/bia_get_json_query_result.html)  
+2.  [get json query result](/automation-guide/action-based-testing-language/built-in-actions/system-actions/json/get-json-query-result)  
 
 
 

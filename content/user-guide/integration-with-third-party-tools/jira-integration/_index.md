@@ -14,17 +14,16 @@ TestArchitect™ can be integrated with JIRA®, a defect tracking system, allowi
 
 -   At present, TestArchitect-JIRA integration supports versions 5 and 6 of JIRA.
 
-1.  [Configuring JIRA integration](/TA_Help/Topics/JIRA_configuration.html)  
+1.  [Configuring JIRA integration](/user-guide/integration-with-third-party-tools/jira-integration/configuring-jira-integration/)  
 How to configure JIRA integration in TestArchitect.
-2.  [Features - JIRA integration](/TA_Help/Topics/JIRA_features.html)  
+2.  [Features - JIRA integration](/user-guide/integration-with-third-party-tools/jira-integration/features-jira-integration/)  
 Features of TestArchitect's JIRA integration tool.
 
 
-tools](/TA_Help/Topics/Integration_xUnit.html)
 
 
 **Related information**  
 
 
-[TestArchitect bugs](/TA_Help/Topics/Bugs.html)
+[TestArchitect bugs](/user-guide/projects-and-project-items/project-items/testarchitect-bugs/)
 

@@ -33,11 +33,11 @@ The **Execution Dashboard** page has eight default built-in panels:
 
 In addition to the default pages \(Overview and Execution Dashboard\), you can add, edit, or delete pages from the Dashboard.
 
-1.  [Add a page](/TA_Help/Topics/Dashboard_add_page.html)  
+1.  [Add a page](/user-guide/reporting-and-dashboard/dashboard/dashboard-pages/add-a-page)  
 Adding a new page to a Dashboard instance.
-2.  [Delete a page](/TA_Help/Topics/Dashboard_delete_page.html)  
+2.  [Delete a page](/user-guide/reporting-and-dashboard/dashboard/dashboard-pages/delete-a-page)  
 Deleting a Dashboard page.
-3.  [Edit a page](/TA_Help/Topics/Dashboard_edit_page.html)  
+3.  [Edit a page](/user-guide/reporting-and-dashboard/dashboard/dashboard-pages/edit-a-page)  
 Modifying the properties of an existing Dashboard page.
 
 
@@ -46,5 +46,5 @@ Modifying the properties of an existing Dashboard page.
 **Related information**  
 
 
-[Dashboard permissions](/TA_Help/Topics/Dashboard_authentication_permissions.html)
+[Dashboard permissions](/user-guide/reporting-and-dashboard/dashboard/dashboard-permissions)
 

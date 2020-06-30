@@ -38,7 +38,7 @@ Parameters are as follows:.
 
     To obtain the unique ID of an Android device:
 
-    1.  Open the [Android Instrumentation Tool](/reuse/../Android/Topics/Android_Instrumentation_tool.html) dialog box.
+    1.  Open the [Android Instrumentation Tool](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/android-instrumentation-tool/) dialog box.
     2.  Select the device whose unique ID you wish to obtain.
     3.  Click ![](/images/Android/Images/android_copy_ID.png) on the Android Instrumentation Tool's toolbar to copy the unique ID to the clipboard.
     4.  Paste the copied content into the unique ID parameter in the Install command.
@@ -71,7 +71,7 @@ The following table describes the output messages you may encounter while using 
 |There are multiple Android devices connected to the tool. You must specify the exact Unique ID of the target device.|This error is commonly encountered when there are multiple Android devices connected to the host PC via USB cable, but the unique ID parameter is omitted.|
 |Unknown error.|An unknown error has occurred that is not recognized by the Android command line tool.|
 
--   **[Installing an application with the Android command line tool](/Android/Topics/Android_command_line_tool_install_step.html)**  
+-   **[Installing an application with the Android command line tool](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/android-command-line-tool/installing-the-android-command-line-tool/installing-an-application-with-the-android-command-line-tool)**  
 This example demonstrates the steps involved in running the Android command line tool with the Install command.
 
 
@@ -79,11 +79,11 @@ This example demonstrates the steps involved in running the Android command line
 **Related information**  
 
 
-[Installing a testable Android application](/Android/Topics/Installing_applications.html)
+[Installing a testable Android application](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/setting-up-the-test-environment/setting-up-android-automation/installing-a-testable-android-application/)
 
-[Re-signing the Android application](/Android/Topics/Installing_applications_resigning.html)
+[Re-signing the Android application](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/setting-up-the-test-environment/setting-up-android-automation/installing-a-testable-android-application/re-signing-the-android-application)
 
-[Installing the re-signed Android application onto a target device](/Android/Topics/Installing_applications_to_a_target_device.html)
+[Installing the re-signed Android application onto a target device](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/setting-up-the-test-environment/setting-up-android-automation/installing-a-testable-android-application/installing-the-re-signed-android-application-onto-a-target-device)
 
-[execute command](/TA_Automation/Topics/bia_execute_command.html)
+[execute command](/automation-guide/action-based-testing-language/built-in-actions/system-actions/command-line/execute-command)
 

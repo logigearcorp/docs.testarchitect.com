@@ -12,37 +12,37 @@ Object class representing a table control.
 
 Built-in methods that you can use as operations on objects of classAbtTable:
 
-1.  [ClickCell](/TA_Automation/Topics/abt_ClickCell_13.html)  
+1.  [ClickCell](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttable/clickcell)  
 
-2.  [DeselectColumn](/TA_Automation/Topics/abt_DeselectColumn_13.html)  
+2.  [DeselectColumn](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttable/deselectcolumn)  
 
-3.  [DeselectRow](/TA_Automation/Topics/abt_DeselectRow_13.html)  
+3.  [DeselectRow](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttable/deselectrow)  
 
-4.  [DoesScrollBarExist](/TA_Automation/Topics/abt_DoesScrollBarExist_13.html)  
+4.  [DoesScrollBarExist](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttable/doesscrollbarexist)  
 
-5.  [FindCellWithText](/TA_Automation/Topics/abt_FindCellWithText_13.html)  
+5.  [FindCellWithText](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttable/findcellwithtext)  
 
-6.  [GetCellText](/TA_Automation/Topics/abt_GetCellText_13.html)  
+6.  [GetCellText](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttable/getcelltext)  
 
-7.  [GetColumnCount](/TA_Automation/Topics/abt_GetColumnCount_13.html)  
+7.  [GetColumnCount](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttable/getcolumncount)  
 
-8.  [GetColumnName](/TA_Automation/Topics/abt_GetColumnName_13.html)  
+8.  [GetColumnName](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttable/getcolumnname)  
 
-9.  [GetColumnIndex](/TA_Automation/Topics/abt_GetColumnIndex.html)  
+9.  [GetColumnIndex](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttable/getcolumnindex)  
 
-10. [GetRowCount](/TA_Automation/Topics/abt_GetRowCount_13.html)  
+10. [GetRowCount](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttable/getrowcount)  
 
-11. [GetRowText](/TA_Automation/Topics/abt_GetRowText_13.html)  
+11. [GetRowText](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttable/getrowtext)  
 
-12. [IsCellSelected](/TA_Automation/Topics/abt_IsCellSelected_13.html)  
+12. [IsCellSelected](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttable/iscellselected)  
 
-13. [SelectCell](/TA_Automation/Topics/abt_SelectCell_13.html)  
+13. [SelectCell](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttable/selectcell)  
 
-14. [SelectColumn](/TA_Automation/Topics/abt_SelectColumn_13.html)  
+14. [SelectColumn](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttable/selectcolumn)  
 
-15. [SelectRow](/TA_Automation/Topics/abt_SelectRow_13.html)  
+15. [SelectRow](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttable/selectrow)  
 
-16. [SetCellText](/TA_Automation/Topics/abt_SetCellText_13.html)  
+16. [SetCellText](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttable/setcelltext)  
 
 
 

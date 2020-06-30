@@ -54,12 +54,12 @@ Converts all test results belonging to a given repository into XML test result f
 
 -   **-xml<true\|false\>**
 
-    \(Optional, default = false\) Specifies to upgrade XML results, generated in TestArchitect version [8.3](/TA_ReleaseNotes/DITA_source/Whats_New_8.3.html), into new XML results of future versions of TestArchitect. Use this parameter in case there are future enhancements for the XML results.
+    \(Optional, default = false\) Specifies to upgrade XML results, generated in TestArchitect version [8.3](/user-guide/version-history/features-added-to-testarchitect-8-3/), into new XML results of future versions of TestArchitect. Use this parameter in case there are future enhancements for the XML results.
 
 
-1.  [Running ConvertResults command \(XML Result Conversion tool\)](/TA_Help/Topics/ug_XML_result_conversion_tool_example.html)  
+1.  [Running ConvertResults command \(XML Result Conversion tool\)](/user-guide/working-with-test-results/converting-test-results/xml-result-conversion-command-line-tool/running-convertresults-command-xml-result-conversion-tool)  
 An example to show usage of the XML Result Conversion tool.
-2.  [Errors returned during test result conversion](/TA_Help/Topics/ug_results_conversion_error_code.html)  
+2.  [Errors returned during test result conversion](/user-guide/working-with-test-results/converting-test-results/xml-result-conversion-command-line-tool/errors-returned-during-test-result-conversion)  
 Explain all errors that might be encountered during XML result conversion.
 
 

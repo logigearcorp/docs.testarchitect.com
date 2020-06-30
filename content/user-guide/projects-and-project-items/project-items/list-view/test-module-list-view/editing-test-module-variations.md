@@ -1,0 +1,38 @@
+--- 
+title: "Editing test module variations"
+linktitle: "Editing test module variations"
+description: "You can re-link a test module variation to other version nodes or keywords via the Edit Variations dialog box."
+weight: 3
+aliases: 
+    - /TA_Help/Topics/ug_Listview_test_module_editing_variations.html
+keywords: "editing test module variation, list view, test module"
+---
+
+You can re-link a test module variation to other version nodes or keywords via the Edit Variations dialog box.
+
+Ensure that the [test module variation](/user-guide/variations/) that you want to re-link to other version nodes or keywords is [checked-out](/user-guide/projects-and-project-items/project-items/revision-control/check-out).
+
+1.  Open the test module list view.
+
+    For example: On the TestArchitect explorer tree, double-click the **Tests** node.
+
+    The test module list view appears in the main panel.
+
+2.  Select a test module variation that you want to re-link to another version node or keywords.
+
+3.  From the context menu, select **Edit Variation**.
+
+    The Edit Variation dialog box appears.
+
+    ![](/images/TA_Help/Images/Edit_variation_dlg_testModule_listView.png)
+
+4.  Re-link the selected test module variation to other versions or keywords.
+
+    For more information, see [Creating keyword variations](/user-guide/variations/creating-keyword-variations) and [Creating a variation](/user-guide/variations/creating-linked-variations/creating-a-variation).
+
+5.  Click **OK**.
+
+
+The selected test module variation is re-linked to other version nodes/keywords.
+
+

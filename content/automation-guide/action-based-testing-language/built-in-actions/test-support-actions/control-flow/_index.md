@@ -10,43 +10,43 @@ keywords:
 
 Control Flow built-in actions break up the flow of execution by employing decision making, looping, and branching, enabling your test to run conditionally-executed blocks of action lines.
 
-1.  [continue](/TA_Automation/Topics/bia_continue.html)  
+1.  [continue](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/continue)  
 
-2.  [else](/TA_Automation/Topics/bia_else.html)  
+2.  [else](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/else)  
 
-3.  [else if](/TA_Automation/Topics/bia_else_if.html)  
+3.  [else if](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/else-if)  
 
-4.  [end if](/TA_Automation/Topics/bia_end_if.html)  
+4.  [end if](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/end-if)  
 
-5.  [end while](/TA_Automation/Topics/bia_end_while.html)  
+5.  [end while](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/end-while)  
 
-6.  [exit loop](/TA_Automation/Topics/bia_exit_loop.html)  
+6.  [exit loop](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/exit-loop)  
 
-7.  [exit test action](/TA_Automation/Topics/bia_exit_test_action.html)  
+7.  [exit test action](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/exit-test-action)  
 
-8.  [exit test case](/TA_Automation/Topics/bia_exit_test_case.html)  
+8.  [exit test case](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/exit-test-case)  
 
-9.  [exit test module](/TA_Automation/Topics/bia_exit_test_module.html)  
+9.  [exit test module](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/exit-test-module)  
 
-10. [if](/TA_Automation/Topics/bia_if.html)  
+10. [if](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/if)  
 
-11. [if control exists](/TA_Automation/Topics/bia_if_control_exists.html)  
+11. [if control exists](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/if-control-exists)  
 
-12. [if control not exists](/TA_Automation/Topics/bia_if_control_not_exists.html)  
+12. [if control not exists](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/if-control-not-exists)  
 
-13. [if window exists](/TA_Automation/Topics/bia_if_window_exists.html)  
+13. [if window exists](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/if-window-exists)  
 
-14. [if window not exists](/TA_Automation/Topics/bia_if_window_not_exists.html)  
+14. [if window not exists](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/if-window-not-exists)  
 
-15. [repeat](/TA_Automation/Topics/bia_repeat.html)  
+15. [repeat](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/repeat)  
 
-16. [run test](/TA_Automation/Topics/bia_run_test.html)  
+16. [run test](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/run-test)  
 
-17. [terminate](/TA_Automation/Topics/bia_terminate.html)  
+17. [terminate](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/terminate)  
 
-18. [until](/TA_Automation/Topics/bia_until.html)  
+18. [until](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/until)  
 
-19. [while](/TA_Automation/Topics/bia_while.html)  
+19. [while](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/while)  
 
 
 

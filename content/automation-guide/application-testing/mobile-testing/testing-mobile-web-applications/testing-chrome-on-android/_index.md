@@ -14,7 +14,7 @@ With TestArchitect, automated tests may be created and run on web applications r
 
 -   Testing Chrome Android must be done by means of a USB cable connection.
 -   The Android mobile device under test may be a physical device or an emulator.
--   Ensure that the [Interface Viewer](/TA_Help/Topics/Interface_def_Viewer.html) is closed prior to running automated tests.
+-   Ensure that the [Interface Viewer](/user-guide/interface-definitions/the-interface-viewer/) is closed prior to running automated tests.
 
 ## Support Android emulators
 
@@ -47,14 +47,14 @@ TestArchitect supports testing on Google Chrome browser, up to version 69.
 -   Remote debugging is a remote web inspector for debugging web applications on Android devices. The following configurations must be set up to allow remote debugging to be performed:
 
     -   Physically connect the Android device to the TestArchitect controller via USB cable during test automation.
-    -   [Install TestArchitect Agent](/TA_Automation/Topics/aut_app_testing_mobile_web_Chrome_installing_TA_Agent.html).
--   Event-fired action model: TestArchitect attempts to effectuate built-in actions in a manner that is as close as possible to real user actions. In most cases, for each given UI action, TestArchitect calls a sequence of events as follows. \(Refer to [List of supported built-in actions for Chrome on Android](/TA_Automation/Topics/aut_app_testing_mobile_web_Chrome_actions.html).\)
+    -   [Install TestArchitect Agent](/automation-guide/application-testing/mobile-testing/testing-mobile-web-applications/testing-chrome-on-android/prerequisites/installing-testarchitect-agent).
+-   Event-fired action model: TestArchitect attempts to effectuate built-in actions in a manner that is as close as possible to real user actions. In most cases, for each given UI action, TestArchitect calls a sequence of events as follows. \(Refer to [List of supported built-in actions for Chrome on Android](/automation-guide/application-testing/mobile-testing/testing-mobile-web-applications/testing-chrome-on-android/supported-chrome-android-actions).\)
 
     |Built-in actions|Applicable controls|Sequence of events triggered|
     |----------------|-------------------|----------------------------|
-    |[click](/TA_Automation/Topics/bia_click.html), [tap](/TA_Automation/Topics/bia_tap.html)|all controls|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
-    |[click table cell](/TA_Automation/Topics/bia_click_table_cell.html)|table|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
-    |[set list check](/TA_Automation/Topics/bia_set_list_check.html)|ul, ol|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
-    |[select](/TA_Automation/Topics/bia_select.html), [click list item](/TA_Automation/Topics/bia_click_list_item.html)|select-one, select-multiple|**click** \> **change**|
-    |[set](/TA_Automation/Topics/bia_set.html)|input-checkbox, input-radio|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
-    |[enter](/TA_Automation/Topics/bia_enter.html), [set](/TA_Automation/Topics/bia_set.html)|input-text, input-password, input-search, input-tel, input-url, input-email, input-number|**keydown** \> **keypress** \> **input** \> **keyup** \> **change**|
+    |[click](/automation-guide/action-based-testing-language/built-in-actions/system-actions/mouse/click), [tap](/automation-guide/action-based-testing-language/built-in-actions/system-actions/device/tap)|all controls|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
+    |[click table cell](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/click-table-cell)|table|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
+    |[set list check](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/set-list-check)|ul, ol|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
+    |[select](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/select), [click list item](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/click-list-item)|select-one, select-multiple|**click** \> **change**|
+    |[set](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/set)|input-checkbox, input-radio|**touchstart** \> **touchend** \> **mouseover** \> **mousedown** \> **focus** \> **mouseup** \> **click**|
+    |[enter](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/enter), [set](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/set)|input-text, input-password, input-search, input-tel, input-url, input-email, input-number|**keydown** \> **keypress** \> **input** \> **keyup** \> **change**|

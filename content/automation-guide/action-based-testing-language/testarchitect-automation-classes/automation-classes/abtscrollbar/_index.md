@@ -12,15 +12,15 @@ Object class representing a scroll bar control.
 
 Built-in methods that you can use as operations on objects of classAbtScrollBar:
 
-1.  [MoveToNextLine](/TA_Automation/Topics/abt_MoveToNextLine_8.html)  
+1.  [MoveToNextLine](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtscrollbar/movetonextline)  
 
-2.  [MoveToNextPage](/TA_Automation/Topics/abt_MoveToNextPage_8.html)  
+2.  [MoveToNextPage](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtscrollbar/movetonextpage)  
 
-3.  [MoveToPreviousLine](/TA_Automation/Topics/abt_MoveToPreviousLine_8.html)  
+3.  [MoveToPreviousLine](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtscrollbar/movetopreviousline)  
 
-4.  [MoveToPreviousPage](/TA_Automation/Topics/abt_MoveToPreviousPage_8.html)  
+4.  [MoveToPreviousPage](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtscrollbar/movetopreviouspage)  
 
-5.  [Set](/TA_Automation/Topics/abt_Set_8.html)  
+5.  [Set](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtscrollbar/set)  
 
 
 

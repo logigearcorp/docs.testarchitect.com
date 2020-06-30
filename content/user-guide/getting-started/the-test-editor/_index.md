@@ -56,7 +56,7 @@ When you begin typing an action keyword into column **A**, TestArchitect uses au
 
 Press Enter to complete your selection of an action.
 
-Once you have entered or selected an action, the test editor automatically populates the argument names in the row above, as shown in the image below for the [enter](/reuse/../TA_Automation/Topics/bia_enter.html) action.
+Once you have entered or selected an action, the test editor automatically populates the argument names in the row above, as shown in the image below for the [enter](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/enter) action.
 
 ## Line continuation
 
@@ -95,7 +95,7 @@ Alternatively, you can save *all* opened files in the editor two ways:
 
 {{<note>}}
 
-**Ambiguous entities:**TestArchitect checks for ambiguous entities \(described in [Ambiguous entities](/reuse/../TA_Administration/Topics/Repo_mapping_ambiguous_entities.html)\) before saving the files. If there are ambiguous entities that need mapping, a Select Interface dialog box appears for you to specify which ambiguous entity to map to which interface.
+**Ambiguous entities:**TestArchitect checks for ambiguous entities \(described in [Ambiguous entities](/administration-guide/repository-server-management/upgrading-the-repository-database-for-name-change-propagation/ambiguous-entities)\) before saving the files. If there are ambiguous entities that need mapping, a Select Interface dialog box appears for you to specify which ambiguous entity to map to which interface.
 
 ## Commenting
 
@@ -132,17 +132,17 @@ The TestArchitect test editor does a bit of context-based formatting as you type
 
 The TestArchitect test editor provides for the automatic insertion of closing actions for paired built-in actions as follows:
 
--   [if](/reuse/../TA_Automation/Topics/bia_if.html)/[end if](/reuse/../TA_Automation/Topics/bia_end_if.html)
--   [while](/reuse/../TA_Automation/Topics/bia_while.html)/[end while](/reuse/../TA_Automation/Topics/bia_end_while.html)
--   [create data set](/reuse/../TA_Automation/Topics/bia_create_data_set.html)/[end create data set](/reuse/../TA_Automation/Topics/bia_end_create_data_set.html)
--   [if control exists](/reuse/../TA_Automation/Topics/bia_if_control_exists.html)/[end if](/reuse/../TA_Automation/Topics/bia_end_if.html)
--   [if control not exists](/reuse/../TA_Automation/Topics/bia_if_control_not_exists.html)/[end if](/reuse/../TA_Automation/Topics/bia_end_if.html)
--   [if window exists](/reuse/../TA_Automation/Topics/bia_if_window_exists.html)/[end if](/reuse/../TA_Automation/Topics/bia_end_if.html)
--   [if window not exists](/reuse/../TA_Automation/Topics/bia_if_window_not_exists.html)/[end if](/reuse/../TA_Automation/Topics/bia_end_if.html)
--   [repeat](/reuse/../TA_Automation/Topics/bia_repeat.html)/[until](/reuse/../TA_Automation/Topics/bia_until.html)
--   [use data set](/reuse/../TA_Automation/Topics/bia_use_data_set.html)/[repeat for data set](/reuse/../TA_Automation/Topics/bia_repeat_for_data_set.html)
+-   [if](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/if)/[end if](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/end-if)
+-   [while](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/while)/[end while](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/end-while)
+-   [create data set](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/create-data-set)/[end create data set](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/end-create-data-set)
+-   [if control exists](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/if-control-exists)/[end if](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/end-if)
+-   [if control not exists](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/if-control-not-exists)/[end if](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/end-if)
+-   [if window exists](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/if-window-exists)/[end if](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/end-if)
+-   [if window not exists](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/if-window-not-exists)/[end if](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/end-if)
+-   [repeat](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/repeat)/[until](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/until)
+-   [use data set](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/use-data-set)/[repeat for data set](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/repeat-for-data-set)
 
-For example, when you type [if](/reuse/../TA_Automation/Topics/bia_if.html) into a test, and then hit Tab or Enter, the [end if](/reuse/../TA_Automation/Topics/bia_end_if.html) action is automatically inserted several lines below the [if](/reuse/../TA_Automation/Topics/bia_if.html) action.
+For example, when you type [if](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/if) into a test, and then hit Tab or Enter, the [end if](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/end-if) action is automatically inserted several lines below the [if](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/if) action.
 
 ## Adjusting the row height or column width
 
@@ -153,12 +153,12 @@ The height of rows and the width of columns may be adjusted by dragging the sepa
 -   Ctrl + I: Insert a single new line into the editor worksheet, at the current location of the cell pointer.
 -   Ctrl + Enter: Insert several empty lines into the editor worksheet, below the current location of the cell pointer, and move the cell pointer three lines down to allow you to continue adding action lines.
 
-    {{<note>}} By default, TestArchitect automatically inserts four empty lines. You can set the number of inserted empty lines in the [Preferences](/reuse/../TA_Help/Topics/Additional_features_preferences.html) dialog box.
+    {{<note>}} By default, TestArchitect automatically inserts four empty lines. You can set the number of inserted empty lines in the [Preferences](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/preferences) dialog box.
 
 
-1.  [Content Assist](/TA_Help/Topics/ug_content_assist.html)  
+1.  [Content Assist](/user-guide/getting-started/the-test-editor/content-assist/)  
 Use Content Assist in the test editor to complete your action lines faster and with more accuracy.
-2.  [Go to Definition](/TA_Help/Topics/ug_go_to_definition.html)  
+2.  [Go to Definition](/user-guide/getting-started/the-test-editor/go-to-definition)  
 TestArchitect's Go to Definition feature enables you to navigate instantaneously to an item from a reference to it in the test editor.
 
 
@@ -167,5 +167,5 @@ TestArchitect's Go to Definition feature enables you to navigate instantaneously
 **Related information**  
 
 
-[Troubleshooting power outage-related problems](/TA_Administration/Topics/adm_troubleshooting_power_blackout.html)
+[Troubleshooting power outage-related problems](/user-guide/support/frequently-asked-questions/troubleshooting-power-outage-related-problems)
 

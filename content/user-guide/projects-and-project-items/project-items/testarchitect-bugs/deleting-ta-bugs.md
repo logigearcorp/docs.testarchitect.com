@@ -1,0 +1,33 @@
+--- 
+title: "Deleting TA bugs"
+linktitle: "Deleting TA bugs"
+description: "TA bugs can be removed from the system once they have been addressed."
+weight: 4
+aliases: 
+    - /TA_Help/Topics/Bugs_deleting.html
+keywords: "bugs, deleting"
+---
+
+TA bugs can be removed from the system once they have been addressed.
+
+TA bugs may be removed from the **Bugs** list view:
+
+1.  In the TestArchitect explorer tree, open the [bug list view](/user-guide/projects-and-project-items/project-items/list-view/bug-list-view) by double-clicking the **Bugs** node.
+
+2.  Right-click the TA bug you want to delete, and then click **Delete**.
+
+    {{<restriction>}} Deleting multiple TA bugs is not allowed.
+
+    The selected TA bug is removed from the bug list view.
+
+3.  {{<important>}} If you are trying to delete a TA bug that is currently marked in one or more action lines, a warning dialog box is presented:
+
+![](/images/TA_Help/Images/Bug_deletion_warning_message.png)
+
+    In this case, select one of the following:
+
+    -   Click **OK** to close the dialog box and open the [**Related Items**](/user-guide/integration-with-third-party-tools/jira-integration/features-jira-integration/ta-bug-information#section_hc2_x4d_bm) tab of the selected TA bug.
+    -   Click **Cancel** to close the dialog box and cancel the deletion.
+
+
+

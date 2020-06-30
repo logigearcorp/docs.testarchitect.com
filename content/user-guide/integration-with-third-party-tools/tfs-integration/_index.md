@@ -25,29 +25,28 @@ In general:
 5.  Test Controller publishes the results to Team Foundation Server.
 6.  Finally, Team Foundation Server displays the test results in Microsoft Test Manager.
 
-1.  [Microsoft ecosystem](/TA_Help/Topics/ug_microsoft_eco_system.html)  
+1.  [Microsoft ecosystem](/user-guide/integration-with-third-party-tools/tfs-integration/microsoft-ecosystem/)  
 TFS together with MTM or the Test hub allows you to leverage the test development and test run capabilities of TestArchitect with a host of software tools offered by Microsoft's Application Lifecycle Management \(ALM\) ecosystem. To fully exploit these offerings, it is helpful to have an understanding of the Microsoft ALM and its components.
-2.  [Supported versions](/TA_Help/Topics/ug_MTM_supported_platforms.html)  
+2.  [Supported versions](/user-guide/integration-with-third-party-tools/tfs-integration/supported-versions)  
 Contains information of supported Microsoft technologies.
-3.  [Setting up the integration environment for on-premises Team Foundation Server](/TA_Help/Topics/ug_MTM_setting_up_environment.html)  
+3.  [Setting up the integration environment for on-premises Team Foundation Server](/user-guide/integration-with-third-party-tools/tfs-integration/on-premises-tfs-environment-configuration/)  
 The following topics discuss the tasks required to set up a TFS-MTM integrated environment, including setup of required Visual Studio components, and the TestArchitect plug-in.
-4.  [Team Foundation Server's web portal](/TA_Help/Topics/TFS_web_automated_testing.html)  
+4.  [Team Foundation Server's web portal](/user-guide/integration-with-third-party-tools/tfs-integration/automated-testing-in-tfs-web-portal/)  
 The TFS web portal allows you to manage source code, work items, builds, test efforts, machines and test runs.
-5.  [Azure DevOps](/TA_Help/Topics/Azure_DevOps_running_automated_tests.html)  
+5.  [Azure DevOps](/user-guide/integration-with-third-party-tools/tfs-integration/automated-testing-in-azure-devops/)  
  Azure DevOps evolved from Visual Studio Team Services \(VSTS\). Known as an online version of Team Foundation Server, it both provides an integrated, collaborative environment that supports Git, continuous integration, and Agile tools for planning and tracking work.
-6.  [Additional features of TFS-MTM](/TA_Help/Topics/ug_MTM_features.html)  
+6.  [Additional features of TFS-MTM](/user-guide/integration-with-third-party-tools/tfs-integration/additional-features-of-tfs-mtm/)  
 A discussion of additional key features of TestArchitect and TFS-MTM integration.
-7.  [TFS Bug Tracker](/TA_Help/Topics/ug_TFS_BugTracker.html)  
+7.  [TFS Bug Tracker](/user-guide/integration-with-third-party-tools/tfs-integration/tfs-bug-tracker/)  
 TestArchitect™ can be integrated with TFS®, as a defect tracking system, allowing you and your team to easily keep track of TFS bug issues by associating them with TestArchitect bugs.
-8.  [Troubleshooting integration with Team Foundation Server](/TA_FAQ/Topics/faq.tshoot.TFS.html)  
+8.  [Troubleshooting integration with Team Foundation Server](/user-guide/integration-with-third-party-tools/tfs-integration/troubleshooting-integration-with-tfs/)  
 A discussion of issues you may encounter when working with Team Foundation Server integration.
 
 
 
-tools](/TA_Help/Topics/Integration_xUnit.html)
 
 **Related information**  
 
 
-[Default port numbers and port ranges](/TA_Administration/Topics/adm_port_number_port_ranges.html)
+[Default port numbers and port ranges](/administration-guide/default-port-numbers-and-port-ranges)
 

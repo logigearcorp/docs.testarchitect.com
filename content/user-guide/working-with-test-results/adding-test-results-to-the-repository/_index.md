@@ -12,13 +12,13 @@ Test results reside locally, in the **LOCAL RESULTS** node, until they are eithe
 
 Storing local test results in the repository allows testers and automation engineers to share the results with others. Test results are generally stored to the repository after the tests and their runs are considered valid, and do not contain errors or invalid checks.
 
-{{<important>}} Note that, if you add test results to the repository automatically, all [unverified picture checks](/TA_Glossary/Topics/glossaryUnverifiedPictureCheck.html) will be totally discarded. Whereas, adding test results to the repository manually preserves all picture checks.
+{{<important>}} Note that, if you add test results to the repository automatically, all [unverified picture checks](/user-guide/support/glossary-of-terms/unverified-picture-check) will be totally discarded. Whereas, adding test results to the repository manually preserves all picture checks.
 
 Storing the repository can be done either manually or automatically, as discussed as follows.
 
-1.  [Adding test results manually](/TA_Help/Topics/Test_result_viewing_storing.html)  
+1.  [Adding test results manually](/user-guide/working-with-test-results/adding-test-results-to-the-repository/adding-test-results-manually)  
 How to manually store local test results to the repository.
-2.  [Adding test results automatically](/TA_Help/Topics/Test_result_storing_automatically.html)  
+2.  [Adding test results automatically](/user-guide/working-with-test-results/adding-test-results-to-the-repository/adding-test-results-automatically)  
 Rather than manually adding test results to a repository, you can have TestArchitect store them automatically, based on pre-defined conditions.
 
 

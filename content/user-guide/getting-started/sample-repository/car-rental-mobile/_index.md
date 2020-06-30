@@ -10,9 +10,9 @@ keywords: "mobile, Car Rental"
 
 The sample Car Rental application for mobile platforms is part of TestArchitect's automation sample test suite. It runs on both Android and iOS platforms.
 
-1.  [Testing Car Rental on the Android platform](/TA_Tutorials_Sample_App/Topics/SR_Car_Rental_Android_def.html)  
+1.  [Testing Car Rental on the Android platform](/user-guide/getting-started/sample-repository/car-rental-mobile/testing-car-rental-on-the-android-platform/)  
 The Car Rental application on the Android platform mimics a reservation system for a fictitious car rental company.
-2.  [Testing Car Rental on the iOS platform](/TA_Tutorials_Sample_App/Topics/SR_Car_Rental_iOS_def.html)  
+2.  [Testing Car Rental on the iOS platform](/user-guide/getting-started/sample-repository/car-rental-mobile/testing-car-rental-on-the-ios-platform/)  
 The Car Rental application for iOS mimics a reservation system for a fictitious car rental company.
 
 

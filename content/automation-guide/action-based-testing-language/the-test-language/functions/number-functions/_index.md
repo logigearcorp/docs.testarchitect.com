@@ -10,7 +10,7 @@ keywords: "number functions"
 
 Functions that are useful for manipulating numeric data.
 
-1.  [random](/TA_Automation/Topics/Expressions_functions_random.html)  
+1.  [random](/automation-guide/action-based-testing-language/the-test-language/functions/number-functions/random)  
 Return a random integer in the range, inclusive, of the given limits.
 
 

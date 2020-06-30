@@ -12,25 +12,25 @@ Object class representing a combo box control.
 
 Built-in methods that you can use as operations on objects of classAbtComboBox:
 
-1.  [DoesItemExist](/TA_Automation/Topics/abt_DoesItemExist.html)  
+1.  [DoesItemExist](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtcombobox/doesitemexist)  
 
-2.  [GetItemText](/TA_Automation/Topics/abt_GetItemText.html)  
+2.  [GetItemText](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtcombobox/getitemtext)  
 
-3.  [GetItemCount](/TA_Automation/Topics/abt_GetItemCount.html)  
+3.  [GetItemCount](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtcombobox/getitemcount)  
 
-4.  [GetItemIndex](/TA_Automation/Topics/abt_GetItemIndex.html)  
+4.  [GetItemIndex](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtcombobox/getitemindex)  
 
-5.  [GetSelectedIndex](/TA_Automation/Topics/abt_GetSelectedIndex.html)  
+5.  [GetSelectedIndex](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtcombobox/getselectedindex)  
 
-6.  [GetSelectedText](/TA_Automation/Topics/abt_GetSelectedText.html)  
+6.  [GetSelectedText](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtcombobox/getselectedtext)  
 
-7.  [ScrollItemIntoViewByIndex](/TA_Automation/Topics/abt_ScrollItemIntoView_1.html)  
+7.  [ScrollItemIntoViewByIndex](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtcombobox/scrollitemintoviewbyindex)  
 
-8.  [ScrollItemIntoViewByText](/TA_Automation/Topics/abt_ScrollItemIntoView_2.html)  
+8.  [ScrollItemIntoViewByText](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtcombobox/scrollitemintoviewbytext)  
 
-9.  [SelectItemByIndex](/TA_Automation/Topics/abt_SelectItemByIndex.html)  
+9.  [SelectItemByIndex](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtcombobox/selectitembyindex)  
 
-10. [SelectItemByText](/TA_Automation/Topics/abt_SelectItemByText.html)  
+10. [SelectItemByText](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtcombobox/selectitembytext)  
 
 
 

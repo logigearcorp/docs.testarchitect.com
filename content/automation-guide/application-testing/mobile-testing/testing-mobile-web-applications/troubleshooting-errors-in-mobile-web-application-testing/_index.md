@@ -10,7 +10,7 @@ keywords:
 
 This section offers you solutions to common issues that you might encounter while testing mobile web applications.
 
-1.  [Unable to install TestArchitect Agent onto Genymotion](/TA_Automation/Topics/Tshoot.unable_to_install_TAAgent_onto_Genymotion.html)  
+1.  [Unable to install TestArchitect Agent onto Genymotion](/automation-guide/application-testing/mobile-testing/testing-mobile-web-applications/troubleshooting-errors-in-mobile-web-application-testing/unable-to-install-testarchitect-agent-onto-genymotion)  
 
 
 

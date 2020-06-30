@@ -10,24 +10,24 @@ keywords:
 
 This section includes built-in actions which interact with tree table or tree list control in AUT.
 
-1.  [click tree table cell](/TA_Automation/Topics/bia_click_tree_table_cell.html#)
-2.  [check tree table cell value](/TA_Automation/Topics/bia_check_tree_table_cell_value.html#)
-3.  [get tree table cell value](/TA_Automation/Topics/bia_get_tree_table_cell_value.html#)
-4.  [is tree table cell selected](/TA_Automation/Topics/bia_is_tree_table_cell_selected.html#)
-5.  [set tree table cell value](/TA_Automation/Topics/bia_set_tree_table_cell_value.html#)
-6.  [get tree table cell containing](/TA_Automation/Topics/bia_get_tree_table_cell_containing.html#)
+1.  [click tree table cell](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-table-tree-list/click-tree-table-cell#)
+2.  [check tree table cell value](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-table-tree-list/check-tree-table-cell-value#)
+3.  [get tree table cell value](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-table-tree-list/get-tree-table-cell-value#)
+4.  [is tree table cell selected](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-table-tree-list/is-tree-table-cell-selected#)
+5.  [set tree table cell value](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-table-tree-list/set-tree-table-cell-value#)
+6.  [get tree table cell containing](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-table-tree-list/get-tree-table-cell-containing#)
 
-1.  [click tree table cell](/TA_Automation/Topics/bia_click_tree_table_cell.html)  
+1.  [click tree table cell](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-table-tree-list/click-tree-table-cell)  
 
-2.  [check tree table cell value](/TA_Automation/Topics/bia_check_tree_table_cell_value.html)  
+2.  [check tree table cell value](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-table-tree-list/check-tree-table-cell-value)  
 
-3.  [get tree table cell value](/TA_Automation/Topics/bia_get_tree_table_cell_value.html)  
+3.  [get tree table cell value](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-table-tree-list/get-tree-table-cell-value)  
 
-4.  [is tree table cell selected](/TA_Automation/Topics/bia_is_tree_table_cell_selected.html)  
+4.  [is tree table cell selected](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-table-tree-list/is-tree-table-cell-selected)  
 
-5.  [set tree table cell value](/TA_Automation/Topics/bia_set_tree_table_cell_value.html)  
+5.  [set tree table cell value](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-table-tree-list/set-tree-table-cell-value)  
 
-6.  [get tree table cell containing](/TA_Automation/Topics/bia_get_tree_table_cell_containing.html)  
+6.  [get tree table cell containing](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-table-tree-list/get-tree-table-cell-containing)  
 
 
 

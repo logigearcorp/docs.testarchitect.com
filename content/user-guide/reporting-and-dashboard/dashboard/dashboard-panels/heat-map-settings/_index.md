@@ -22,9 +22,9 @@ Notice the **Set as Heat Value** radio button is selected for the Failed **Serie
 
 Each row label in the heat map is a hyperlink to the corresponding entity in TestArchitect. For example, if you click on the *TM1* field on the above heat map, TestArchitect opens and loads test module TM1 automatically for viewing. Each cell in the above heat map is a hyperlink to the test result corresponding to that cell. For instance, clicking on the heat map cell for test module *TM2* that failed on *2013-05-04* opens TestArchitect and loads the detailed results report for that test run.
 
--   **[Creating a heat map panel](/TA_Help/Topics/Dashboard_create_heat_map_panel.html)**  
+-   **[Creating a heat map panel](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/heat-map-settings/creating-a-heat-map-panel)**  
 Use a heat map panel to show data as cells in graphical tabular format where consecutive recurrence data are emphasized using cell color variations.
--   **[Editing a heat map panel](/TA_Help/Topics/Dashboard_edit_heat_map_panel.html)**  
+-   **[Editing a heat map panel](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/heat-map-settings/editing-a-heat-map-panel)**  
 Modifying a heat map's appearance and/or the data used to generate it.
 
 
@@ -32,13 +32,13 @@ Modifying a heat map's appearance and/or the data used to generate it.
 **Related information**  
 
 
-[Category and series](/TA_Help/Topics/Dashboard_category_series.html)
+[Category and series](/user-guide/reporting-and-dashboard/dashboard/category-and-series)
 
-[Heat map settings](/TA_Help/Topics/Dashboard_heatmap.html)
+[Heat map settings](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/heat-map-settings/)
 
-[Report settings](/TA_Help/Topics/Dashboard_report.html)
+[Report settings](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/report-settings/)
 
-[Indicator settings](/TA_Help/Topics/Dashboard_indicator.html)
+[Indicator settings](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/indicator-settings/)
 
-[Chart settings](/TA_Help/Topics/Dashboard_chart.html)
+[Chart settings](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/chart-settings/)
 

@@ -35,15 +35,15 @@ The **Built-In Actions** node contains TestArchitect-supplied built-in actions f
 
 The **Administrator** node has administrative tools for creating and adding users to functional work groups as well as tools for integrating TestArchitect with external tools, such as HP's Quality Center® and Microsoft's Team Foundation Server®.
 
-1.  [Testing the Car Rental application on Java](/TA_Tutorials_Sample_App/Topics/SR_Car_Rental_TA_client.html)  
+1.  [Testing the Car Rental application on Java](/user-guide/getting-started/sample-repository/testing-the-car-rental-application-on-java)  
 The Car Rental project in the TestArchitect Sample Repository includes test modules and other project items for demonstrating automated testing of the Car Rental application on the Java platform.
-2.  [Car Rental mobile](/TA_Tutorials_Sample_App/Topics/SR_Car_Rental_mobile_def.html)  
+2.  [Car Rental mobile](/user-guide/getting-started/sample-repository/car-rental-mobile/)  
 The sample Car Rental application for mobile platforms is part of TestArchitect's automation sample test suite. It runs on both Android and iOS platforms.
-3.  [Testing sample scripting techniques](/TA_Tutorials_Sample_App/Topics/SR_sample_scripting_techniques.html)  
+3.  [Testing sample scripting techniques](/user-guide/getting-started/sample-repository/testing-sample-scripting-techniques)  
 TestArchitect provides various testing samples to illustrate additional techniques in comparing pictures, obtaining controls, using wildcards, and using inline data sets.
-4.  [Scrum Board](/TA_Tutorials_Sample_App/Topics/SR_Scrum_Board_def.html)  
+4.  [Scrum Board](/user-guide/getting-started/sample-repository/scrum-board/)  
 The Scrum Board application, a part of the TestArchitect's automation sample test suite, is a web application that manages software development based on Scrum methodology.
-5.  [Testing the Music Library](/TA_Tutorials_Sample_App/Topics/SR_Executing_Music_Library.html)  
+5.  [Testing the Music Library](/user-guide/getting-started/sample-repository/testing-the-music-library)  
 The Music Library automated test project is provided in the Sample Repository to demonstrate automated testing of the Music Library application, which is based on Windows Presentation Foundation \(WPF\).
 
 

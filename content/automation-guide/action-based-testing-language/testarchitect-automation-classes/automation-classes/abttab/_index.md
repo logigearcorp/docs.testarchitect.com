@@ -12,29 +12,29 @@ Object class representing a tab control.
 
 Built-in methods that you can use as operations on objects of classAbtTab:
 
-1.  [DoesItemExistByText](/TA_Automation/Topics/abt_DoesItemExist_11.html)  
+1.  [DoesItemExistByText](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttab/doesitemexistbytext)  
 
-2.  [DoesItemExistByIndex](/TA_Automation/Topics/abt_DoesItemExist_12.html)  
+2.  [DoesItemExistByIndex](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttab/doesitemexistbyindex)  
 
-3.  [GetItemText](/TA_Automation/Topics/abt_GetItemText_11.html)  
+3.  [GetItemText](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttab/getitemtext)  
 
-4.  [GetItemCount](/TA_Automation/Topics/abt_GetItemCount_11.html)  
+4.  [GetItemCount](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttab/getitemcount)  
 
-5.  [GetItemIndex](/TA_Automation/Topics/abt_GetItemIndex_11.html)  
+5.  [GetItemIndex](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttab/getitemindex)  
 
-6.  [GetItemRect](/TA_Automation/Topics/abt_GetItemRect_11.html)  
+6.  [GetItemRect](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttab/getitemrect)  
 
-7.  [GetSelectedIndex](/TA_Automation/Topics/abt_GetSelectedIndex_11.html)  
+7.  [GetSelectedIndex](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttab/getselectedindex)  
 
-8.  [GetSelectedItem](/TA_Automation/Topics/abt_GetSelectedItem_11.html)  
+8.  [GetSelectedItem](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttab/getselecteditem)  
 
-9.  [IsItemSelectedByIndex](/TA_Automation/Topics/abt_IsItemSelected_11.html)  
+9.  [IsItemSelectedByIndex](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttab/isitemselectedbyindex)  
 
-10. [IsItemSelectedByText](/TA_Automation/Topics/abt_IsItemSelected_12.html)  
+10. [IsItemSelectedByText](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttab/isitemselectedbytext)  
 
-11. [SelectItemByText](/TA_Automation/Topics/abt_SelectItem_11.html)  
+11. [SelectItemByText](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttab/selectitembytext)  
 
-12. [SelectItemByIndex](/TA_Automation/Topics/abt_SelectItem_12.html)  
+12. [SelectItemByIndex](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abttab/selectitembyindex)  
 
 
 

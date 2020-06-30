@@ -12,9 +12,9 @@ How to setup and configure Android automated testing environments on target devi
 
 {{<important>}} Android automation is only supported on Windows.
 
-1.  [Configuring Android testing on target devices](/Android/Topics/Setting_up_installation_target_devices.html)  
+1.  [Configuring Android testing on target devices](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/setting-up-the-test-environment/configuring-android-testing-on-target-devices/)  
 Android developers have the option of hosting and testing their applications either on physical mobile devices \(phones and tablets\) or virtual devices \(emulators\) residing on a host PC.
-2.  [Setting up Android automation](/Android/Topics/Setting_up_Android_automation.html)  
+2.  [Setting up Android automation](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/setting-up-the-test-environment/setting-up-android-automation/)  
 Installing the TestArchitect Agent and testable Android applications, and properly launching the test.
 
 

@@ -23,6 +23,7 @@ function imageviewer(selector)
 				width:           '100%',
 				height:          '100vh',
 				backgroundColor: 'rgba(0,0,0,0.5)',
+				
 			},
 			append: $('<img>', {
 				id:  'imageviewer-image',
@@ -40,6 +41,7 @@ function imageviewer(selector)
 					backgroundColor:    'rgba(0,0,0,0.5)',
 					cursor:             'pointer',
 					translation:        '0.5s ease',
+					display:			'inline'
 				},
 				append: $('<div>', {
 					css: {

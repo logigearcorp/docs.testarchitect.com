@@ -16,11 +16,11 @@ The TestArchitect Client offers three tools for exploring, verifying, and modify
 
 ![](/images/TA_Help/Images/ug_interface_definition35.png)
 
-1.  [Check for duplicates](/TA_Help/Topics/Interface_def_client_interface_tool_duplicate.html)  
+1.  [Check for duplicates](/user-guide/interface-definitions/interface-capturing-commands/check-for-duplicates)  
 An interface entity consists of a number of interface elements, each of which uses one or more property-value pairs to identify a control of an application window.
-2.  [Point-to-identify tool](/TA_Help/Topics/Interface_def_client_interface_tool_identify.html)  
+2.  [Point-to-identify tool](/user-guide/interface-definitions/interface-capturing-commands/point-to-identify-tool/)  
 Point-to-identify tool allows you to quickly and conveniently map controls. From within TestArchitect Client, point-to-identify tool is activated by the **Identify** ![](/images/TA_Help/Images/btn_Identify.png) on the toolbar.
-3.  [Highlight](/TA_Help/Topics/Interface_def_client_interface_tool_hightlight.html)  
+3.  [Highlight](/user-guide/interface-definitions/interface-capturing-commands/highlight)  
 The **Highlight** ![](/images/TA_Help/Images/btn.highlight.png) button functionality within TestArchitect Client is nearly identical to that of the Interface Viewer, except that the context is provided by the interface-related nodes of the TestArchitect explorer tree.
 
 

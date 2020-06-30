@@ -12,7 +12,7 @@ Object class representing a button control.
 
 Built-in methods that you can use as operations on objects of classAbtButton:
 
-1.  [Click](/TA_Automation/Topics/abt_Click_2.html)  
+1.  [Click](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtbutton/click)  
 
 
 

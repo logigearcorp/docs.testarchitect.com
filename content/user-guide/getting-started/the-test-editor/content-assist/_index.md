@@ -30,13 +30,13 @@ After selecting an action, you can insert it into your test editor by pressing E
 
 When you begin typing into the cell of an action line argument whose type is INTERFACE ENTITY, INTERFACE ELEMENT, or VALUE SET, Content Assist displays a list of all appropriate values. The list is continuously filtered to include only the items that begin with the entered characters.
 
--   In the case of [INTERFACE ENTITY](/reuse/reuse.Creating_and_using_actions_Arg_type.html#sectiondiv.arg_type.int_ent)-type arguments \(generally, arguments named window\), Content Assist supplies the names of all interface entities of your project's *assumed* interface:
+-   In the case of [INTERFACE ENTITY](/user-guide/actions/user-defined-actions/argument-types/#sectiondiv.arg_type.int_ent)-type arguments \(generally, arguments named window\), Content Assist supplies the names of all interface entities of your project's *assumed* interface:
 
-    {{<note>}} Note that Content Assist tries to make an educated guess as to the interface that will be in effect at any given point in your test module, so that it may present you with the appropriate interface entities. Action lines following a [use interface](/reuse/../TA_Automation/Topics/bia_use_interface.html) action are assumed to use to the target interface of that action. In the absence of a use interface action, action lines are assumed to apply to whatever interface is currently designated as the [default](/reuse/../TA_Help/Topics/Interface_def_set_default_interface.html).
+    {{<note>}} Note that Content Assist tries to make an educated guess as to the interface that will be in effect at any given point in your test module, so that it may present you with the appropriate interface entities. Action lines following a [use interface](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/interface-handling/use-interface) action are assumed to use to the target interface of that action. In the absence of a use interface action, action lines are assumed to apply to whatever interface is currently designated as the [default](/user-guide/interface-definitions/setting-a-default-interface).
 
--   In the case of [INTERFACE ENTITY](/reuse/reuse.Creating_and_using_actions_Arg_type.html#sectiondiv.arg_type.int_ent)-type arguments \(generally, arguments named window\), Content Assist supplies the names of all interface entities of your project.
--   Once a window or dialog is specified, [INTERFACE ELEMENT](/reuse/reuse.Creating_and_using_actions_Arg_type.html#sectiondiv.arg_type.int_elt)-type arguments \(typically named control\), have their domains limited to the elements \(controls\) of the given interface entity.
--   [VALUE SET](/reuse/reuse.Creating_and_using_actions_Arg_type.html#sectiondiv.arg_type.value_set)-based arguments are those for which a domain of allowable values has been explicitly specified; this set of values serves as the pre-filtered source of the Content Assist list.
+-   In the case of [INTERFACE ENTITY](/user-guide/actions/user-defined-actions/argument-types/#sectiondiv.arg_type.int_ent)-type arguments \(generally, arguments named window\), Content Assist supplies the names of all interface entities of your project.
+-   Once a window or dialog is specified, [INTERFACE ELEMENT](/user-guide/actions/user-defined-actions/argument-types/#sectiondiv.arg_type.int_elt)-type arguments \(typically named control\), have their domains limited to the elements \(controls\) of the given interface entity.
+-   [VALUE SET](/user-guide/actions/user-defined-actions/argument-types/#sectiondiv.arg_type.value_set)-based arguments are those for which a domain of allowable values has been explicitly specified; this set of values serves as the pre-filtered source of the Content Assist list.
 
 ![](/images/TA_Help/Images/Autocomplete_arguments.png)
 
@@ -64,11 +64,11 @@ After selecting an item with the Up/Down keys, insert it into the editor by pres
 
 ## Applicable actions assistance
 
-It may often be the case that you need to write one or a series of test cases related to a given control, but you are not certain which actions can be used on that control. In general, the determination of whether a given control can be handled by a certain action is based on the TA class of the control. To allow you to avoid constantly referring to the Built-in Action reference pages to determine which actions can be used for a control, a Content Assist window is available for any mapped control, presenting a list of those actions that may be used with it. For details, see [Applicable action suggestions for a window or control](/TA_Help/Topics/ug_applicable_actions.html).
+It may often be the case that you need to write one or a series of test cases related to a given control, but you are not certain which actions can be used on that control. In general, the determination of whether a given control can be handled by a certain action is based on the TA class of the control. To allow you to avoid constantly referring to the Built-in Action reference pages to determine which actions can be used for a control, a Content Assist window is available for any mapped control, presenting a list of those actions that may be used with it. For details, see [Applicable action suggestions for a window or control](/user-guide/getting-started/the-test-editor/content-assist/applicable-action-suggestions).
 
--   **[Applicable action suggestions for a window or control](/TA_Help/Topics/ug_applicable_actions.html)**  
+-   **[Applicable action suggestions for a window or control](/user-guide/getting-started/the-test-editor/content-assist/applicable-action-suggestions)**  
 As you edit your tests, you often find yourself needing to know which actions can be used for a given control or window. Content Assist's **applicable actions** list provides you with a convenient means of viewing and selecting from the list of actions available for a given UI element.
--   **[Specifying action suggestion for a control belonging to a user-defined TA class](/TA_Help/Topics/ug_applicable_actions_user_defined_class.html)**  
+-   **[Specifying action suggestion for a control belonging to a user-defined TA class](/user-guide/getting-started/the-test-editor/content-assist/specifying-applicable-actions)**  
 For any set of controls whose TA class is user-defined, you can specify the list of actions that apply. This list will then appear in the **applicable actions** list of the Content Assist window when you work with these controls in the test editor.
 
 

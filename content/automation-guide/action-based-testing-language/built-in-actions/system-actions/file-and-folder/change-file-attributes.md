@@ -1,0 +1,92 @@
+--- 
+title: "change file attributes"
+linktitle: "change file attributes"
+description: "Description Change the attributes of a file. Arguments file Full path of target file. attributes New attribute value(s). Allowable values: Windows platform read-only File is read-only. hidden File is ..."
+weight: 1
+aliases: 
+    - /TA_Automation/Topics/bia_change_file_attributes.html
+keywords: "built-in actions, change file attributes, change file attributes (action), Android (action), change file attributes, set file attributes, change file properties, modify file attributes"
+---
+
+## Description
+
+Change the attributes of a file.
+
+## Arguments
+
+-   **file**
+
+    Full path of target file.
+
+-   **attributes**
+
+    New attribute value\(s\).
+
+    Allowable values:
+
+    -   Windows platform
+        -   **read-only**
+
+            File is read-only.
+
+        -   **hidden**
+
+            File is hidden, and thus is not included in an ordinary directory listing.
+
+        -   **archive**
+
+            File is a candidate for backup or removal.
+
+        -   **normal**
+
+            File is a standard file that has no special attributes.
+
+    -   Linux platform
+        -   **read**
+
+            File's contents may be viewed.
+
+        -   **write**
+
+            File's contents may be written.
+
+        -   **execute**
+
+            File may be executed.
+
+
+## Valid contexts
+
+This action may be used within the following project items:test modules and user-defined actions.
+
+## Notes
+
+-   Observe the following format for the file path:
+    -   **Windows platform**: Use backward slashes as separators for the path.
+    -   **Linux platform**: Use forward slashes as separators for the path. \(Note that network paths are not supported.\)
+-   Note that this built-in action is not currently supported on macOS or mobile platforms.
+-   The attributes argument may include any combination of attributes allowed for the given platform, separated by commas.
+-   \(Windows only\) If the attributes argument's value is set to normal, the action clears all existing attributes of the specified file.
+-   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
+
+## Applicable Built-In Settings
+
+The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
+
+## Example
+
+**Action Lines**
+
+![](/images/TA_Automation/Images/bia_change_file_attribute_pgm.png)
+
+**Result**
+
+![](/images/TA_Automation/Images/bia_change_file_attribute_res.png)
+
+
+
+**Related information**  
+
+
+[get file attributes](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/get-file-attributes)
+

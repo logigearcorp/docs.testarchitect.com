@@ -10,7 +10,7 @@ keywords: "arguments, types, argument types, string, date, value set, interface 
 
 An action argument can have one of several possible data types.
 
-Once you have defined an argument in an action worksheet, and then [checked in](/TA_Help/Topics/Project_items_checkin.html) the action, the new argument appears as a node in the TestArchitect explorer tree, under the node of its parent action.
+Once you have defined an argument in an action worksheet, and then [checked in](/user-guide/projects-and-project-items/project-items/revision-control/check-in) the action, the new argument appears as a node in the TestArchitect explorer tree, under the node of its parent action.
 
 By double-clicking an action argument node, the Argument page is displayed in the main panel. On this page, you, or an automation engineer, may assign an argument type to the argument. Depending on what kind of data type is selected, additional modifier fields might be needed to define possible values, ranges or formats. \(Possible values for the **Argument Modifier** field are discussed below.\)
 
@@ -81,7 +81,7 @@ Conditionals, in which the value domains are determined by the values in other a
 |4|<|less than|
 |4|<=|less than or equal to|
 
-{{<note>}} For the full list of operator precedence, see [here](/TA_Automation/Topics/aut_operator_precedence.html).
+{{<note>}} For the full list of operator precedence, see [here](/automation-guide/action-based-testing-language/the-test-language/operator-precedence).
 
 {{<important>}}
 
@@ -105,7 +105,7 @@ Each conditional statement may have multiple conditions. These are combined with
 
 Parentheses may be used in statements with multiple conditionals, in order to override the default order of precedence.
 
-The asterisk \( \* \) may be used as a wildcard to represent any value. This applies to conditionals as well as value set lists. In the latter case, it indicates an open value domain. In the case of conditionals, it is useful at the end of a list of conditional value set expressions, to indicate the default value set \(see the [table](/reuse/reuse.Creating_and_using_actions_Arg_type.html#table_z4c_tfh_xn) below\).
+The asterisk \( \* \) may be used as a wildcard to represent any value. This applies to conditionals as well as value set lists. In the latter case, it indicates an open value domain. In the case of conditionals, it is useful at the end of a list of conditional value set expressions, to indicate the default value set \(see the [table](/user-guide/actions/user-defined-actions/argument-types/#table_z4c_tfh_xn) below\).
 
 Some further examples of value set modifiers:
 
@@ -143,7 +143,7 @@ This argument type is used to pass the name of an interface element to an action
 
 ## Hiding arguments that use default values
 
-TestArchitect can be configured so that argument headers and values used in calls to actions can be hidden in the text editor when the values match the defaults defined for the action. You can set this up in the [Preferences](/TA_Help/Topics/Additional_features_preferences.html) dialog box:
+TestArchitect can be configured so that argument headers and values used in calls to actions can be hidden in the text editor when the values match the defaults defined for the action. You can set this up in the [Preferences](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/preferences) dialog box:
 
 1.  Select menu **Edit** \> **Preferences**
 2.  In the **Preferences** dialog box, select the **Hide arguments using default value** check box.
@@ -151,7 +151,7 @@ TestArchitect can be configured so that argument headers and values used in call
 
 After setting this option, arguments in action lines that pass default values are hidden in the test editor when you save the file.
 
-1.  [Automating actions](/TA_Help/Topics/Creating_and_using_actions_Arg_type_auto_action.html)  
+1.  [Automating actions](/user-guide/actions/user-defined-actions/argument-types/automating-actions)  
 An action which can be automated belongs to one of three categories: built-in, user-defined or user-scripted.
 
 

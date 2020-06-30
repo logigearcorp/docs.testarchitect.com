@@ -12,7 +12,7 @@ With TestArchitect's command line tool, tests can be launched from a command she
 
 You are probably already familiar with the typical means by which automated tests are invoked, a method we call online execution. You create a test, or set of tests, open the Execute Test dialog box to configure any options, then run the tests from there.
 
-The command line tool - ta execute - allows you to execute tests from your host operating system's command line interface. By itself, this capability may not be very useful. But TestArchitect also exploits this feature by enabling you to generate batch files that run the command line tool, configured to execute your tests. These batch files may in turn be launched automatically from other programs, for example as part of a nightly build process. \([Learn more](/TA_Help/Topics/TA_command_line_execute.html)\)
+The command line tool - ta execute - allows you to execute tests from your host operating system's command line interface. By itself, this capability may not be very useful. But TestArchitect also exploits this feature by enabling you to generate batch files that run the command line tool, configured to execute your tests. These batch files may in turn be launched automatically from other programs, for example as part of a nightly build process. \([Learn more](/user-guide/testarchitect-command-line-tool/execute-command)\)
 
 A typical ta execute to invoke the execution of a single TestArchitect test module might appear as follows:
 
@@ -31,9 +31,9 @@ ta execute -ls "lgvn14254:14101" -rep "SampleRepository" -prj "Car Rental" -u "a
 exit
 ```
 
--   **[Offline execution - The test execution batch file](/TA_Help/Topics/Test_exec_batch_file.html)**  
+-   **[Offline execution - The test execution batch file](/user-guide/test-execution/methods-of-test-execution/executing-tests-from-the-command-line-interface/offline-execution-the-test-execution-batch-file)**  
 From a TestArchitect client session, you can generate a batch file that invokes the command line tool to perform your tests.
--   **[Creating a batch file](/TA_Help/Topics/Test_exec_cmd_creating_batch_file.html)**  
+-   **[Creating a batch file](/user-guide/test-execution/methods-of-test-execution/executing-tests-from-the-command-line-interface/creating-a-batch-file)**  
 How to have TestArchitect generate a test execution batch file for you, with all the arguments set in accordance with your preferences.
 
 
@@ -42,9 +42,9 @@ How to have TestArchitect generate a test execution batch file for you, with all
 **Related information**  
 
 
-[Configuring and running tests from TestArchitect Client](/TA_Help/Topics/Test_exec_test_execution.html)
+[Configuring and running tests from TestArchitect Client](/user-guide/test-execution/methods-of-test-execution/configuring-and-running-tests-from-testarchitect-client)
 
-[Multiple device execution](/TA_Help/Topics/Test_exec_multiple_device_execution.html)
+[Multiple device execution](/user-guide/test-execution/methods-of-test-execution/multiple-device-execution/)
 
-[Startup settings](/TA_Automation/Topics/aut_startup_settings.html)
+[Startup settings](/user-guide/test-execution/startup-settings/)
 

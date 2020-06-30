@@ -14,9 +14,9 @@ An overview of some of the more basic components of TestArchitect, recommended f
 
 This tutorial includes the following sections:
 
-1.  [Introducing TestArchitect](/TA_Tutorials/Topics/Tutorial_Introducing_TA.html)  
+1.  [Introducing TestArchitect](/testarchitect-tutorial/part-1-getting-started-with-testarchitect/introducing-testarchitect/)  
 Before starting with the hands-on tutorials, let's review some of the basic features and ideas behind TestArchitect and the Action-Based Testing model.
-2.  [Lesson \#1: Creating a simple test](/TA_Tutorials/Topics/Tutorial_Creating_a_simple_test.html)  
+2.  [Lesson \#1: Creating a simple test](/testarchitect-tutorial/part-1-getting-started-with-testarchitect/lesson-1-creating-a-simple-test/)  
 
 
 

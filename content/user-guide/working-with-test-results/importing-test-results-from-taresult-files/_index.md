@@ -10,9 +10,9 @@ keywords: "test results, TARESULT, importing from, importing, test results, TARE
 
 TestArchitect lets you easily import a test result archive file \(.TARESULT format\).
 
-1.  [Importing local test results from .TARESULT files](/TA_Help/Topics/ug_importing_local_test_results.html)  
+1.  [Importing local test results from .TARESULT files](/user-guide/working-with-test-results/importing-test-results-from-taresult-files/local-test-results)  
 How to import your local test result files \(.TARESULT\) into TestArchitect as either local or repository results.
-2.  [Importing repository test results from .TARESULT file](/TA_Help/Topics/ug_importing_repo_test_results.html)  
+2.  [Importing repository test results from .TARESULT file](/user-guide/working-with-test-results/importing-test-results-from-taresult-files/repository-test-results)  
 How to import your repository test result files \(.TARESULT\) into TestArchitect as either local or repository results.
 
 

@@ -16,11 +16,11 @@ A TestArchitect action has the following syntax:
 
 -   **`action name:`**
 
-    The action name is the action command that tells TestArchitect what operation to perform. There are three types of actions: built-in, user-defined, and user-scripted \(see [creating and using actions](/reuse/reuse.Creating_and_using_actions.html)\).
+    The action name is the action command that tells TestArchitect what operation to perform. There are three types of actions: built-in, user-defined, and user-scripted \(see [creating and using actions](/user-guide/actions/)\).
 
 -   **`arguments:`**
 
-    The number of action arguments and types depends on the how the action is defined. Arguments can be of types String, Date, Value Set, Entity, Element, etc. \(see [Argument types](/reuse/reuse.Creating_and_using_actions_Arg_type.html)\).
+    The number of action arguments and types depends on the how the action is defined. Arguments can be of types String, Date, Value Set, Entity, Element, etc. \(see [Argument types](/user-guide/actions/user-defined-actions/argument-types/)\).
 
 
 Example syntax of an enter action:
@@ -30,33 +30,33 @@ Example syntax of an enter action:
 TestArchitect supports a number of special features to provide the test developer with more control over test values and the flow of the test execution. The most important ones are:
 
 -   Expressions and variables, which allow for calculating values and storing them for later use.
--   Control flow actions, like [if](/TA_Automation/Topics/bia_if.html) and [while](/TA_Automation/Topics/bia_while.html).
--   [Data sets](/TA_Help/Topics/Projects_and_tests_dataset.html).
--   [Data sets](/TA_Tutorials/Topics/Data_driven_testing_overview.html).
+-   Control flow actions, like [if](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/if) and [while](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/while).
+-   [Data sets](/user-guide/projects-and-project-items/project-items/data-sets/).
+-   [Data sets](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-7-creating-data-driven-tests/data-driven-testing-overview).
 
-1.  [Variables](/TA_Automation/Topics/The_test_language_variables.html)  
+1.  [Variables](/automation-guide/action-based-testing-language/the-test-language/variables/)  
 Variables are placeholders that contain values for later use in one or more action lines, and which allow for easy substitution of values within given action lines.
-2.  [Expressions](/TA_Automation/Topics/The_test_language_expressions.html)  
+2.  [Expressions](/automation-guide/action-based-testing-language/the-test-language/expressions/)  
 An expression is any combination of literal values, variables, operators, and functions that follows a set of rules, and which needs to be evaluated before it can be used.
-3.  [Functions](/TA_Automation/Topics/The_test_language_functions.html)  
+3.  [Functions](/automation-guide/action-based-testing-language/the-test-language/functions/)  
 Functions are prewritten operations which you can reference by name within your expressions to produce values needed by your test.
-4.  [Control flow actions](/TA_Automation/Topics/The_test_language_control_flow_actions.html)  
+4.  [Control flow actions](/automation-guide/action-based-testing-language/the-test-language/control-flow-actions)  
 Control flow actions let you change the order in which action lines are executed.
-5.  [Operator precedence](/TA_Automation/Topics/aut_operator_precedence.html)  
+5.  [Operator precedence](/automation-guide/action-based-testing-language/the-test-language/operator-precedence)  
 Operator precedence determines the order in which operators are evaluated in TestArchitect. Operators with higher precedence are evaluated first.
-6.  [Working with checks](/TA_Automation/Topics/Automation_model_working_with_checks.html)  
+6.  [Working with checks](/automation-guide/action-based-testing-language/the-test-language/working-with-checks/)  
 In TestArchitect, a check compares and verifies expected behavior against actual observed behavior during a test. It's good practice to incorporate checks in test procedures to verify that the procedures are running as expected.
-7.  [Error handling and recovery](/TA_Automation/Topics/The_test_language_error_handling_and_recovery.html)  
+7.  [Error handling and recovery](/automation-guide/action-based-testing-language/the-test-language/error-handling-and-recovery/)  
  Handling unanticipated errors, warnings or test failures.
-8.  [Timing](/TA_Automation/Topics/Automation_practices_Timing.html)  
+8.  [Timing](/automation-guide/action-based-testing-language/the-test-language/timing/)  
 Successful testing requires that the automation correctly handle the varying response times of a system under test, and not to attempt to continue with interactions before the system is finished with the previous function.
-9.  [Ignoring actions](/TA_Automation/Topics/Ignoring_action.html)  
+9.  [Ignoring actions](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions)  
 When the ignore modifier \(the string “ignore”, surrounded by angle brackets\) is used as an argument value in supported actions, TestArchitect bypasses that action during test execution and continues at the subsequent action line.
-10. [Image comparison techniques](/TA_Automation/Topics/aut_image_comparison_techniques.html)  
+10. [Image comparison techniques](/automation-guide/action-based-testing-language/the-test-language/image-comparison-techniques)  
 TestArchitect offers you two methods for verifying the correctness of images produced by a tested application: pixel-by-pixel comparison and keypoint detection.
-11. [Text recognition techniques](/TA_Automation/Topics/aut_text_recognition_techniques.html)  
+11. [Text recognition techniques](/automation-guide/action-based-testing-language/the-test-language/text-recognition-techniques)  
 TestArchitect offers you two methods for recognizing text produced by an AUT: Optical Character Recognition \(OCR\) and Graphics Device Interface \(GDI\) techniques.
-12. [Stopping tests on timeout](/TA_Automation/Topics/aut_stop_tests_after_timeout.html)  
+12. [Stopping tests on timeout](/automation-guide/action-based-testing-language/the-test-language/stopping-tests-on-timeout)  
 You can set a timeout for the test case to ensure that the test execution does not take longer than it should.
 
 

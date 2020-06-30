@@ -42,14 +42,14 @@ Now, TestArchitect has complete support for 21 SAP BW controls.
 
 SAP BW has specific controls such as tree lists and tree tables. We've added new Built-In Actions for interacting with these controls.
 
-1.  [Click tree table cell](/TA_Automation/Topics/bia_click_tree_table_cell.html#)
-2.  [Check tree table cell value](/TA_Automation/Topics/bia_check_tree_table_cell_value.html#)
-3.  [Get tree table cell value](/TA_Automation/Topics/bia_get_tree_table_cell_value.html#)
-4.  [Get tree table cell containing](/TA_Automation/Topics/bia_get_tree_table_cell_containing.html#)
-5.  [Is tree table cell selected](/TA_Automation/Topics/bia_is_tree_table_cell_selected.html#)
-6.  [Set tree table cell value](/TA_Automation/Topics/bia_set_tree_table_cell_value.html#)
+1.  [Click tree table cell](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-table-tree-list/click-tree-table-cell#)
+2.  [Check tree table cell value](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-table-tree-list/check-tree-table-cell-value#)
+3.  [Get tree table cell value](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-table-tree-list/get-tree-table-cell-value#)
+4.  [Get tree table cell containing](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-table-tree-list/get-tree-table-cell-containing#)
+5.  [Is tree table cell selected](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-table-tree-list/is-tree-table-cell-selected#)
+6.  [Set tree table cell value](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-table-tree-list/set-tree-table-cell-value#)
 
--   **[Troubleshooting SAP](/TA_Automation/Topics/aut_SAP.html)**  
+-   **[Troubleshooting SAP](/automation-guide/application-testing/testing-sap-applications/troubleshooting-sap/)**  
 This section describes possible errors that you might encounter during SAP automation, their common causes and possible solutions.
 
 

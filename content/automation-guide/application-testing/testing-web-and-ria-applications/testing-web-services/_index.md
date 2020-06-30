@@ -37,18 +37,18 @@ A network connection to the web service-under-test is required. Otherwise, TestA
 
 ## Web service testing
 
-A web service test basically involves \([learn more](/TA_Automation/Topics/aut_testing_web_service_creating_test.html#section_l5x_qrm_1y)\):
+A web service test basically involves \([learn more](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-services/creating-a-test#section_l5x_qrm_1y)\):
 
 1.  Specify authentication information for service clients
 2.  Send an HTTP request to the web service-under-test
 3.  Parse an HTTP response from the web service-under-test
 4.  Verify the HTTP response
 
-1.  [Creating web service test](/TA_Automation/Topics/aut_testing_web_service_creating_test.html)  
+1.  [Creating web service test](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-services/creating-a-test)  
 Functional testing of web services consists of invoking web service's APIs from TestArchitect's test procedures and checking the returned result values.
-2.  [Specifying web service credentials](/TA_Automation/Topics/aut_testing_web_service_specifying_credentials.html)  
+2.  [Specifying web service credentials](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-services/specifying-credentials)  
 Details how to specify authentication information for service clients.
-3.  [Using web service checkpoints](/TA_Automation/Topics/aut_testing_web_service_using_checkpoints.html)  
+3.  [Using web service checkpoints](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-services/using-checkpoints)  
 A web service checkpoint is a test operation that verifies that an HTTP response returned from a tested web service contains appropriate data.
 
 
@@ -56,21 +56,21 @@ A web service checkpoint is a test operation that verifies that an HTTP response
 **Related information**  
 
 
-[add http body](/TA_Automation/Topics/bia_add_http_body.html)
+[add http body](/automation-guide/action-based-testing-language/built-in-actions/system-actions/web-services/add-http-body)
 
-[add http header](/TA_Automation/Topics/bia_add_http_header.html)
+[add http header](/automation-guide/action-based-testing-language/built-in-actions/system-actions/web-services/add-http-header)
 
-[add http parameter](/TA_Automation/Topics/bia_add_http_parameter.html)
+[add http parameter](/automation-guide/action-based-testing-language/built-in-actions/system-actions/web-services/add-http-parameter)
 
-[authenticate](/TA_Automation/Topics/bia_authenticate.html)
+[authenticate](/automation-guide/action-based-testing-language/built-in-actions/system-actions/web-services/authenticate)
 
-[create http request](/TA_Automation/Topics/bia_create_http_request.html)
+[create http request](/automation-guide/action-based-testing-language/built-in-actions/system-actions/web-services/create-http-request)
 
-[send http request](/TA_Automation/Topics/bia_send_http_request.html)
+[send http request](/automation-guide/action-based-testing-language/built-in-actions/system-actions/web-services/send-http-request)
 
-[parse http response](/TA_Automation/Topics/bia_parse_http_response.html)
+[parse http response](/automation-guide/action-based-testing-language/built-in-actions/system-actions/web-services/parse-http-response)
 
-[attach file](/TA_Automation/Topics/bia_attach_file.html)
+[attach file](/automation-guide/action-based-testing-language/built-in-actions/system-actions/web-services/attach-file)
 
-[configure web service settings](/TA_Automation/Topics/bia_configure_web_service_settings.html)
+[configure web service settings](/automation-guide/action-based-testing-language/built-in-actions/system-actions/web-services/configure-web-service-settings)
 

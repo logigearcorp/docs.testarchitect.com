@@ -18,9 +18,9 @@ Information specific to testing with Oracle Database on Windows machines.
 -   Oracle Database Express Edition
     -   11g Release 2
 
-1.  [Oracle Database Enterprise Edition](/TA_Automation/Topics/aut_app_testing_Oracle_Windows_Enterprise.html)  
+1.  [Oracle Database Enterprise Edition](/automation-guide/application-testing/testing-with-databases/oracle/windows-machines/oracle-database-enterprise-edition/)  
 Information specific to testing with Oracle Database Enterprise edition.
-2.  [Oracle Database Express Edition](/TA_Automation/Topics/aut_app_testing_Oracle_Windows_XE.html)  
+2.  [Oracle Database Express Edition](/automation-guide/application-testing/testing-with-databases/oracle/windows-machines/oracle-database-xe/)  
 Information specific to testing with Oracle Database Express edition.
 
 

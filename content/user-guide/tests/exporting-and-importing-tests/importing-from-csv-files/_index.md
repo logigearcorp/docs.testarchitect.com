@@ -10,9 +10,9 @@ keywords:
 
 You can import test modules or test cases into TestArchitect from CSV files.
 
-1.  [Importing test modules](/TA_Help/Topics/Importing_from_CSV_test_modules.html)  
+1.  [Importing test modules](/user-guide/tests/exporting-and-importing-tests/importing-from-csv-files/importing-test-modules)  
 Describes how you can import test modules from CSV files.
-2.  [Importing test cases](/TA_Help/Topics/Importing_from_CSV_test_cases.html)  
+2.  [Importing test cases](/user-guide/tests/exporting-and-importing-tests/importing-from-csv-files/importing-test-cases)  
 Describes how you can import test cases from CSV files.
 
 

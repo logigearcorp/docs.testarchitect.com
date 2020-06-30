@@ -41,10 +41,10 @@ Object class representing a SQL-compliant database.
     -   Microsoft SQL Server:
         -   **On Windows:** [Read here](https://docs.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server).
         -   **On Linux:** [Read here](https://docs.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server).
-        -   **On macOS:** Microsoft does not provide a SQL Server ODBC driver for the macOS machine. However, a good open source alternative, [FreeTDS](http://www.freetds.org/), is available. Note that, additional configurations are also required \([learn more](/TA_Automation/Topics/aut_testing_database_Mac_setup_MSSQL.html)\).
+        -   **On macOS:** Microsoft does not provide a SQL Server ODBC driver for the macOS machine. However, a good open source alternative, [FreeTDS](http://www.freetds.org/), is available. Note that, additional configurations are also required \([learn more](/automation-guide/application-testing/testing-with-databases/microsoft-sql-server/configuring-odbc-driver-on-macos)\).
     -   MySQL Server: [Read here](http://dev.mysql.com/downloads/connector/odbc/).
 
-        {{<note>}} On macOS, additional configurations are required \([learn more](/TA_Automation/Topics/aut_testing_database_Mac_setup_MySQL.html)\).
+        {{<note>}} On macOS, additional configurations are required \([learn more](/automation-guide/application-testing/testing-with-databases/mysql/configuring-odbc-driver-on-macos)\).
 
     -   Excel: The ODBC driver for Microsoft Excel is automatically installed with Microsoft Office. If Microsoft Office is not currently installed on your test machine, you can download and install the correct driver from the appropriate link below:
         -   **ODBC driver for Excel 2007 \(32-bit\):** [http://www.microsoft.com/en-us/download/details.aspx?id=23734](http://www.microsoft.com/en-us/download/details.aspx?id=23734)
@@ -53,11 +53,11 @@ Object class representing a SQL-compliant database.
 
 Built-in methods that you can use as operations on objects of classAbtDatabase:
 
-1.  [Connect](/TA_Automation/Topics/abt_Connect.html)  
+1.  [Connect](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdatabase/connect)  
 
-2.  [Disconnect](/TA_Automation/Topics/abt_Disconnect.html)  
+2.  [Disconnect](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdatabase/disconnect)  
 
-3.  [ExecSqlCommand](/TA_Automation/Topics/abt_Execute_Sql_Command.html)  
+3.  [ExecSqlCommand](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdatabase/execsqlcommand)  
 
 
 

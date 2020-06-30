@@ -10,7 +10,7 @@ keywords:
 
 Action Definition built-in actions help you to define arguments in user-defined actions.
 
-1.  [argument](/TA_Automation/Topics/bia_argument.html)  
+1.  [argument](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/action-definition/argument)  
 
 
 

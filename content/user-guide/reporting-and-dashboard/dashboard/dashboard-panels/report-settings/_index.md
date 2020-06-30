@@ -17,9 +17,9 @@ A Dashboard panel report is composed of four sections:
 
 ![](/images/TA_Help/Images/Dashboard_report_table.png)
 
--   **[Creating a new report panel](/TA_Help/Topics/Dashboard_create_new_report_panel.html)**  
+-   **[Creating a new report panel](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/report-settings/creating-a-new-report-panel)**  
 A report panel displays detailed data generated from test results after applying the filters specified in the data profile.
--   **[Editing a report panel](/TA_Help/Topics/Dashboard_edit_report_panel.html)**  
+-   **[Editing a report panel](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/report-settings/editing-a-report-panel)**  
 Modifying a report's appearance and/or the data used to generate it.
 
 
@@ -28,13 +28,13 @@ Modifying a report's appearance and/or the data used to generate it.
 **Related information**  
 
 
-[Category and series](/TA_Help/Topics/Dashboard_category_series.html)
+[Category and series](/user-guide/reporting-and-dashboard/dashboard/category-and-series)
 
-[Heat map settings](/TA_Help/Topics/Dashboard_heatmap.html)
+[Heat map settings](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/heat-map-settings/)
 
-[Report settings](/TA_Help/Topics/Dashboard_report.html)
+[Report settings](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/report-settings/)
 
-[Indicator settings](/TA_Help/Topics/Dashboard_indicator.html)
+[Indicator settings](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/indicator-settings/)
 
-[Chart settings](/TA_Help/Topics/Dashboard_chart.html)
+[Chart settings](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/chart-settings/)
 

@@ -10,47 +10,47 @@ keywords:
 
 File and folder built-in actions provide a comprehensive way to work with text files, and folders.
 
-1.  [change file attributes](/TA_Automation/Topics/bia_change_file_attributes.html)  
+1.  [change file attributes](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/change-file-attributes)  
 
-2.  [change folder attributes](/TA_Automation/Topics/bia_change_folder_attributes.html)  
+2.  [change folder attributes](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/change-folder-attributes)  
 
-3.  [check file exists](/TA_Automation/Topics/bia_check_file_exists.html)  
+3.  [check file exists](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/check-file-exists)  
 
-4.  [check file not exists](/TA_Automation/Topics/bia_check_file_not_exists.html)  
+4.  [check file not exists](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/check-file-not-exists)  
 
-5.  [check folder exists](/TA_Automation/Topics/bia_check_folder_exists.html)  
+5.  [check folder exists](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/check-folder-exists)  
 
-6.  [check folder not exists](/TA_Automation/Topics/bia_check_folder_not_exists.html)  
+6.  [check folder not exists](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/check-folder-not-exists)  
 
-7.  [copy file](/TA_Automation/Topics/bia_copy_file.html)  
+7.  [copy file](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/copy-file)  
 
-8.  [copy folder](/TA_Automation/Topics/bia_copy_folder.html)  
+8.  [copy folder](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/copy-folder)  
 
-9.  [create folder](/TA_Automation/Topics/bia_create_folder.html)  
+9.  [create folder](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/create-folder)  
 
-10. [delete file](/TA_Automation/Topics/bia_delete_file.html)  
+10. [delete file](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/delete-file)  
 
-11. [delete folder](/TA_Automation/Topics/bia_delete_folder.html)  
+11. [delete folder](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/delete-folder)  
 
-12. [does file exist](/TA_Automation/Topics/bia_does_file_exist.html)  
+12. [does file exist](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/does-file-exist)  
 
-13. [does folder exist](/TA_Automation/Topics/bia_does_folder_exist.html)  
+13. [does folder exist](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/does-folder-exist)  
 
-14. [get file attributes](/TA_Automation/Topics/bia_get_file_attributes.html)  
+14. [get file attributes](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/get-file-attributes)  
 
-15. [get file size](/TA_Automation/Topics/bia_get_file_size.html)  
+15. [get file size](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/get-file-size)  
 
-16. [get text file](/TA_Automation/Topics/bia_get_text_file.html)  
+16. [get text file](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/get-text-file)  
 
-17. [move file](/TA_Automation/Topics/bia_move_file.html)  
+17. [move file](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/move-file)  
 
-18. [move folder](/TA_Automation/Topics/bia_move_folder.html)  
+18. [move folder](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/move-folder)  
 
-19. [rename file](/TA_Automation/Topics/bia_rename_file.html)  
+19. [rename file](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/rename-file)  
 
-20. [rename folder](/TA_Automation/Topics/bia_rename_folder.html)  
+20. [rename folder](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/rename-folder)  
 
-21. [set text file](/TA_Automation/Topics/bia_set_text_file.html)  
+21. [set text file](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/set-text-file)  
 
 
 

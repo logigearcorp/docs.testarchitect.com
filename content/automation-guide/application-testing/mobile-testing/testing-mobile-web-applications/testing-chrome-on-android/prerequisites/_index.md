@@ -10,9 +10,9 @@ keywords: "mobile web testing, Chrome, Android, prerequisites, Chrome testing, A
 
 Guides to setting up Chrome Android automation under TestArchitect.
 
-1.  [Configuring an Android device for testing Google Chrome](/TA_Automation/Topics/aut_app_testing_mobile_web_Android_configurations.html)  
+1.  [Configuring an Android device for testing Google Chrome](/automation-guide/application-testing/mobile-testing/testing-mobile-web-applications/testing-chrome-on-android/prerequisites/configuring-an-android-device)  
 This section describes the essential configurations needed to ensure that automated tests on Chrome Android run successfully and stably.
-2.  [Installing TestArchitect Agent onto Android devices](/TA_Automation/Topics/aut_app_testing_mobile_web_Chrome_installing_TA_Agent.html)  
+2.  [Installing TestArchitect Agent onto Android devices](/automation-guide/application-testing/mobile-testing/testing-mobile-web-applications/testing-chrome-on-android/prerequisites/installing-testarchitect-agent)  
 TestArchitect Agent is an essential component in allowing TestArchitect to communicate with Google Chrome running on Android devices during automated testing.
 
 

@@ -30,11 +30,11 @@ Since the **Percentage** check box is not selected for the indicator range in th
 
 {{<tip>}} For readability, it is suggested you add the indicator range values in ascending order - lowest range value first then next higher range value.
 
-{{<tip>}} You can modify the indicator settings at any time by selecting the **Edit** ![](/images/TA_Help/Images/Dashboard_edit_panel_icon.png) button in the upper-right corner of the panel \(see [Editing a chart panel](/TA_Help/Topics/Dashboard_edit_chart_panel.html)for details\).
+{{<tip>}} You can modify the indicator settings at any time by selecting the **Edit** ![](/images/TA_Help/Images/Dashboard_edit_panel_icon.png) button in the upper-right corner of the panel \(see [Editing a chart panel](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/chart-settings/editing-a-chart-panel)for details\).
 
--   **[Creating a new indicator panel](/TA_Help/Topics/Dashboard_create_new_indicator_panel.html)**  
+-   **[Creating a new indicator panel](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/indicator-settings/creating-a-new-indicator-panel)**  
 Use an indicator panel to show numerical values of statistic fields in a table format. Values matching user definable range can be highlighted with different colors to indicate the level of importance.
--   **[Editing an indicator panel](/TA_Help/Topics/Dashboard_edit_indicator_panel.html)**  
+-   **[Editing an indicator panel](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/indicator-settings/editing-an-indicator-panel)**  
 The indicator's appearance and data used to render the indicator can be modified at any time.
 
 
@@ -43,13 +43,13 @@ The indicator's appearance and data used to render the indicator can be modified
 **Related information**  
 
 
-[Category and series](/TA_Help/Topics/Dashboard_category_series.html)
+[Category and series](/user-guide/reporting-and-dashboard/dashboard/category-and-series)
 
-[Heat map settings](/TA_Help/Topics/Dashboard_heatmap.html)
+[Heat map settings](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/heat-map-settings/)
 
-[Report settings](/TA_Help/Topics/Dashboard_report.html)
+[Report settings](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/report-settings/)
 
-[Indicator settings](/TA_Help/Topics/Dashboard_indicator.html)
+[Indicator settings](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/indicator-settings/)
 
-[Chart settings](/TA_Help/Topics/Dashboard_chart.html)
+[Chart settings](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/chart-settings/)
 

@@ -33,9 +33,9 @@ Contact LogiGear Sales to obtain the correct TestArchitect installation file for
         ![](/images/TA_InstallationGuide/DITA_source/Images/install_TA_Windows_2.png)
 
 
-1.  [TestArchitect Quick Install](/../TA_InstallationGuide/DITA_source/Topics/inst_TA_Windows_quick_install.html)  
+1.  [TestArchitect Quick Install](/user-guide/getting-started/testarchitect-installation-guide/windows/testarchitect-quick-install)  
 The Quick Install option allows you to install TestArchitect and its components more quickly by bypassing the option to change the default installation settings.
-2.  [TestArchitect Custom Install](/../TA_InstallationGuide/DITA_source/Topics/inst_TA_Windows_custom_install.html)  
+2.  [TestArchitect Custom Install](/user-guide/getting-started/testarchitect-installation-guide/windows/testarchitect-custom-install)  
 The Custom Install option allows you to choose the components you wish to install, and select other options.
 
 

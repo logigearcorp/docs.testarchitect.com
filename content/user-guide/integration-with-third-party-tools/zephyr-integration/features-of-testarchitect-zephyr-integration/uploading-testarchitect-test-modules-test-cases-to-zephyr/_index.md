@@ -18,8 +18,8 @@ TestArchitect test cases and test modules can be uploaded to the Zephyr server, 
 
 Ensure that you have already taken the following steps:
 
--   [Registered the Zephyr server with TestArchitect](/TA_Help/Topics/ug_Zephyr_registering_server.html).
--   [Mapped the TestArchitect project containing the test cases of interest to a Zephyr project](/TA_Help/Topics/ug_Zephyr_mapping_projects.html).
+-   [Registered the Zephyr server with TestArchitect](/user-guide/integration-with-third-party-tools/zephyr-integration/configuring-integration-with-zephyr/setting-up-the-connection-with-zephyr/registering-the-zephyr-server).
+-   [Mapped the TestArchitect project containing the test cases of interest to a Zephyr project](/user-guide/integration-with-third-party-tools/zephyr-integration/configuring-integration-with-zephyr/setting-up-the-connection-with-zephyr/mapping-a-testarchitect-project-to-a-zephyr-project).
 
 {{<attention>}} From TestArchitect 8.4 Update 3 onwards, only test steps of TestArchitect test cases/ modules are uploaded to Zephyr.
 
@@ -60,9 +60,9 @@ Test steps from TestArchitect test cases/test modules are uploaded to Zephyr wit
 
 ![](/images/TA_Help/Images/Zephyr_upload_teststeps.png)
 
-{{<note>}} If you want to upload test steps from a custom column to Zephyr, you must first create a new column in Zephyr with the same name. In this example, you must [create new a column](/TA_Administration/Topics/User_defined_fields_create.html#) in TestArchitect first and naming Test Data. Then it will be uploaded on Zephyr by matching the name.
+{{<note>}} If you want to upload test steps from a custom column to Zephyr, you must first create a new column in Zephyr with the same name. In this example, you must [create new a column](/administration-guide/user-defined-fields/creating-a-user-defined-field#) in TestArchitect first and naming Test Data. Then it will be uploaded on Zephyr by matching the name.
 
-1.  [Mapped items between TestArchitect and Zephyr](/TA_Help/Topics/ug_Zephyr_mapped_items.html)  
+1.  [Mapped items between TestArchitect and Zephyr](/user-guide/integration-with-third-party-tools/zephyr-integration/features-of-testarchitect-zephyr-integration/uploading-testarchitect-test-modules-test-cases-to-zephyr/mapped-items-between-testarchitect-and-zephyr)  
 This topic describes how TestArchitect test case information is mapped to the corresponding Zephyr test case fields.
 
 

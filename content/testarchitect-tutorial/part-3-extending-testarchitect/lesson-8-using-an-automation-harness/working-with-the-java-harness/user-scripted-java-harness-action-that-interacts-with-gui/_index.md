@@ -18,13 +18,13 @@ The function of action check row count, as you will define it, is to interface w
 
 The last exercise also demonstrated how code for a new action \(hello\) can be added to an existing code script module. It is good practice, however, to group actions of similar functionality into their own modules, and you will observe that practice in this exercise.The action check row count operates on tables, hence you will create a new module entitled table support, effectively a place to house all of your table-relatedJava-coded actions. check row count will be implemented in the fileMod\_Table.java , which embodies the table support module.
 
-1.  [Creating a new Java code script module](/TA_Tutorials/Topics/Creating_a_new_code_script_module_Java.html)  
+1.  [Creating a new Java code script module](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/working-with-the-java-harness/user-scripted-java-harness-action-that-interacts-with-gui/creating-a-new-java-code-script-module)  
 Create a new Java module, and provide the code overhead required to access your new user-scripted action.
-2.  [Scripting a Java-based GUI-interfacing action](/TA_Tutorials/Topics/Scripting_a_GUI-interfacing_action_Java.html)  
+2.  [Scripting a Java-based GUI-interfacing action](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/working-with-the-java-harness/user-scripted-java-harness-action-that-interacts-with-gui/scripting-a-java-based-gui-interfacing-action)  
 In Java code, implement the action that will interface with a target application.
-3.  [Creating the test case and stub action](/TA_Tutorials/Topics/Creating_the_test_case_and_stub_action_1_Java.html)  
+3.  [Creating the test case and stub action](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/working-with-the-java-harness/user-scripted-java-harness-action-that-interacts-with-gui/creating-the-test-case-and-stub-action)  
 After implementing the scripted code that interacts with the target application, set up a stub action for the editor, and create the action lines to set up and call the associated action.
-4.  [Viewing the test results](/TA_Tutorials/Topics/Viewing_the_test_results_2_Java.html)  
+4.  [Viewing the test results](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/working-with-the-java-harness/user-scripted-java-harness-action-that-interacts-with-gui/viewing-the-test-results)  
  Run a test using yourJava-coded action, and ensure that it properly interacts with the target application.
 
 

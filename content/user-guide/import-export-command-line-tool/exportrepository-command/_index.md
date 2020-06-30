@@ -65,10 +65,9 @@ java -jar TAImportExportTool.jar --ExportRepository [--server<value>] [--port<va
     {{<note>}} If this parameter is not specified, or its value is empty, its value defaults to true.
 
 
-1.  [Running ExportRepository command \(Import/Export tool\)](/TA_Help/Topics/ug_export_import_tool_export_repository_running.html)  
+1.  [Running ExportRepository command \(Import/Export tool\)](/user-guide/import-export-command-line-tool/exportrepository-command/running-exportrepository)  
 
 
 
-(/TA_Help/Topics/ug_export_import_tool_help.html)
 
 

@@ -1,8 +1,7 @@
 --- 
 title: "Lesson #10: WPF Extensibility"
-slug: 'lesson-10-wpf-extensibility'
 linktitle: "Lesson #10: WPF Extensibility"
-slug: 'lesson-10-wpf-extensibility'
+slug: "lesson-10-wpf-extensibility"
 description: "TestArchitect supports every WPF control with an exception to very few specific controls, such as Telerik list box control. Therefore, there is a need to have a solution to this issue. The WPF ..."
 weight: 3
 aliases: 
@@ -31,9 +30,9 @@ TestArchitect supports every WPF control with an exception to very few specific 
 -   Applying the customized built-in actions
 -   The overall architecture and workflow activities of WPF Extensibility
 
-1.  [Scenario](/TA_Tutorials/Topics/WPF_extensibility_scenario.html)  
+1.  [Scenario](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-10-wpf-extensibility/scenario/)  
 Suppose that we are running an AUT based on Telerik controls, and we may want to get the total number of items in a list box control.
-2.  [Technical reference](/TA_Tutorials/Topics/WPF_extensibility_techinical_reference.html)  
+2.  [Technical reference](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-10-wpf-extensibility/technical-reference/)  
 This section explains the WPF Extensibility overview and its workflow.
 
 

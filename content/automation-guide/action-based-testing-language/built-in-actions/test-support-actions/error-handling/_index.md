@@ -10,17 +10,17 @@ keywords:
 
 Error handling built-in actions provide different ways of handling abnormal conditions or errors that occur during test execution.
 
-1.  [on error](/TA_Automation/Topics/bia_on_error.html)  
+1.  [on error](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/error-handling/on-error)  
 
-2.  [on error action](/TA_Automation/Topics/bia_on_error_action.html)  
+2.  [on error action](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/error-handling/on-error-action)  
 
-3.  [on failure action](/TA_Automation/Topics/bia_on_failure_action.html)  
+3.  [on failure action](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/error-handling/on-failure-action)  
 
-4.  [on modal action](/TA_Automation/Topics/bia_on_modal_action.html)  
+4.  [on modal action](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/error-handling/on-modal-action)  
 
-5.  [on timeout action](/TA_Automation/Topics/bia_on_timeout_action.html)  
+5.  [on timeout action](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/error-handling/on-timeout-action)  
 
-6.  [set notice level](/TA_Automation/Topics/bia_set_notice_level.html)  
+6.  [set notice level](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/error-handling/set-notice-level)  
 
 
 

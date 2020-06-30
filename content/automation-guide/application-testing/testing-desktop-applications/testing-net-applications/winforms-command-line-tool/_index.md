@@ -86,7 +86,7 @@ java -jar TAConvertWinFormsClassMapping.jar --ConvertWinFormsClassMapping
     -   Network paths are also supported.
     -   If the destination path contains any spaces, enclose it between a pair of double quotation marks.
 
-1.  [Running the WinForms command line tool](/TA_Automation/Topics/aut_app_testing_WinForms_command_line_tool_example.html)  
+1.  [Running the WinForms command line tool](/automation-guide/application-testing/testing-desktop-applications/testing-net-applications/winforms-command-line-tool/running-the-winforms-command-line-tool)  
 This topic provides, by way of example, an introduction to the use of the WinForms command line tool. Here we'll use the ConvertWinFormsClassMapping command to update the TA legacy mappings of a WinForms-based project.
 
 

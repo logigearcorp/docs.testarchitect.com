@@ -28,18 +28,18 @@ MySQL is a freely available open source Relational Database Management System \(
 -   Should you need to obtain the ODBC driver installer for your particular data source, following the appropriate link below:
     -   MySQL Server: [Read here](http://dev.mysql.com/downloads/connector/odbc/).
 
-        {{<note>}} On macOS, additional configurations are required \([learn more](/TA_Automation/Topics/aut_testing_database_Mac_setup_MySQL.html)\).
+        {{<note>}} On macOS, additional configurations are required \([learn more](/automation-guide/application-testing/testing-with-databases/mysql/configuring-odbc-driver-on-macos)\).
 
 
 ## Actions
 
 TestArchitect provides the following built-in actions for working with SQL-compliant databases. They are listed in the typical order of their workflow:
 
-1.  [create connection string](/TA_Automation/Topics/bia_create_connection_string.html): Generate a connection string for a specified database on a given host.
-2.  [connect database](/TA_Automation/Topics/bia_connect_database.html): Open a database connection using a connection string.
-3.  [use database](/TA_Automation/Topics/bia_use_database.html): Specify a database against which the ensuing SQL action lines are to be applied.
-4.  [execute sql](/TA_Automation/Topics/bia_execute_sql.html): Execute an SQL command against the currently in-use database; optionally, store returned data into one or more data sets.
-5.  [disconnect database](/TA_Automation/Topics/bia_disconnect_database.html): Close the database connection.
+1.  [create connection string](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/create-connection-string): Generate a connection string for a specified database on a given host.
+2.  [connect database](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/connect-database): Open a database connection using a connection string.
+3.  [use database](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/use-database): Specify a database against which the ensuing SQL action lines are to be applied.
+4.  [execute sql](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/execute-sql): Execute an SQL command against the currently in-use database; optionally, store returned data into one or more data sets.
+5.  [disconnect database](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/disconnect-database): Close the database connection.
 
 ## Example
 
@@ -55,7 +55,7 @@ create connection string
 
 ![](/images/TA_Automation/Images/bia_database_MySQL_connection_string_res.png)
 
-1.  [Configuring the ODBC Driver on macOS to connect to MySQL Server](/TA_Automation/Topics/aut_testing_database_Mac_setup_MySQL.html)  
+1.  [Configuring the ODBC Driver on macOS to connect to MySQL Server](/automation-guide/application-testing/testing-with-databases/mysql/configuring-odbc-driver-on-macos)  
 Explain additional configurations on macOS to connect to MySQL Server.
 
 
