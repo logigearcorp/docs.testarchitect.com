@@ -204,7 +204,7 @@ tempCopyInput.style.top = '-1000px';
 let highlight = d.querySelectorAll('pre');// or any div containing code stuff
 
 
-    copyIcon = d.createElement('button');
+copyIcon = d.createElement('button');
 copyIcon.innerHTML = 'copy';
 copyIcon.className='copy_clipboard'
   
@@ -241,12 +241,19 @@ for (let index = 0; index < highlight.length; index++) {
   $("#search-header__form").submit(function(e) {
 
 //prevent Default functionality
-e.preventDefault();
-var queryValue = $("#search-header").val();
-if(queryValue === "") return;
-searchRemote(queryValue);
+// e.preventDefault();
+// var queryValue = $("#search-header").val();
+// if(queryValue === "") return;
+// if(document.getElementById('loader-container')) {
+//   document.getElementById('loader-container').style.display = 'block';
+//   document.getElementById('contain-default-hide').style.display = 'none';
+// }
 
-setTimeout(function(){ $("#search-header").val(""); }, 1000);
+       
+
+// searchRemote(queryValue);
+
+// setTimeout(function(){ $("#search-header").val(""); }, 1000);
 });
 
   function initUI() {
@@ -264,11 +271,14 @@ setTimeout(function(){ $("#search-header").val(""); }, 1000);
 
   function searchOnQuery() {
     var urlParams = new URLSearchParams(window.location.search);
-    var query = urlParams.get('q');
+   
     var page = urlParams.get('page');
+    var query = urlParams.get('search');
     if (query) {
+     
+      setTimeout(function(){ $("#search-header").val(""); }, 1000);
       searchRemote(query, page);
-      $("#search-header").val(decodeURI(query));
+
     }
   }
 
@@ -308,19 +318,19 @@ setTimeout(function(){ $("#search-header").val(""); }, 1000);
     
     if (res.totalPage > 10) {
       const disablec =  res.page <= 10 ? 'pagin-disable': '';
-      pagination.append($('<li><a class="' + disablec + '" href="'+location.protocol + "//"+ location.host+'?q='+query+'&page='+((Math.ceil((res.page-10)/10))*10)+'"> < </a></li>'));
+      pagination.append($('<li><a class="' + disablec + '" href="'+location.protocol + "//"+ location.host+'?search='+query+'&page='+((Math.ceil((res.page-10)/10))*10)+'"> < </a></li>'));
     }
 
     var begin = (Math.ceil(res.page/10)-1)*10+1;
     var end =  begin + 9 > res.totalPage ? res.totalPage : begin + 9;
     for(let i = begin ; i <= end; i++) {
       const cl = i === res.page ? 'active': '';
-      pagination.append($('<li class="'+ cl +'"><a href="'+location.protocol + "//"+ location.host+'?q='+query+'&page='+i+'">'+i+'</a></li>'));
+      pagination.append($('<li class="'+ cl +'"><a href="'+location.protocol + "//"+ location.host+'?search='+query+'&page='+i+'">'+i+'</a></li>'));
     }
     
     if (res.totalPage >10) {
       const disablec = res.totalPage === end ? 'pagin-disable': '';
-      pagination.append($('<li ><a class="' + disablec + '" href="'+location.protocol + "//"+ location.host+'?q='+query+'&page='+((Math.ceil(res.page/10))*10+1)+'"> > </a></li>'));
+      pagination.append($('<li ><a class="' + disablec + '" href="'+location.protocol + "//"+ location.host+'?search='+query+'&page='+((Math.ceil(res.page/10))*10+1)+'"> > </a></li>'));
     }
 
 
