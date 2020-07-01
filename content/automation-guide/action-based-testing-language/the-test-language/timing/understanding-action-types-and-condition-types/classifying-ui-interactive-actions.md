@@ -1,6 +1,6 @@
 --- 
-title: "**Classifying UI-interactive actions**"
-linktitle: "**Classifying UI-interactive actions**"
+title: "Classifying UI-interactive actions"
+linktitle: "Classifying UI-interactive actions"
 description: "Timing settings used for a given action are largely determined by the type of action it is. Actions that interact with the AUT can be classified into UI-testing and UI-interfacing actions. Each group can be further classified into subgroups."
 weight: 1
 aliases: 
