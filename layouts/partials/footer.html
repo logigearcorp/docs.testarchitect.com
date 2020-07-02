@@ -165,6 +165,16 @@
 </div>
 
 <script>
+   var urlParams = new URLSearchParams(window.location.search);
+       var query = urlParams.get('search');
+       var page = urlParams.get('page');
+       console.log(query)
+       if (query) {
+       searchRemote(query, page);
+        document.getElementById('loader-container').style.display = 'block';
+        document.getElementById('main-container-page').style.visibility = 'hidden';
+       } 
+       
   if (/MSIE 10/i.test(navigator.userAgent)) {
   document.getElementById('language-container').style.visibility ='hidden';
 }
@@ -230,31 +240,27 @@ for (let index = 0; index < highlight.length; index++) {
 
     var $results = $("main");
     if (!page) page = 1;
-    $.getJSON(searchHost+query+'&page=' +page)
+     var urlQuery = searchHost+escape(query);
+     console.log(urlQuery);
+    $.getJSON(urlQuery+'&page=' +page)
       .done(function(res) {
         $results.empty();
-        
         renderResults(res, query);
-      });
+        document.getElementById('loader-container').style.display = 'none';
+        document.getElementById('main-container-page').style.visibility = 'visible';
+      }).fail(function() {
+        $results.empty();
+        $results.append($("<div>", {html: "<h3>Sorry we couldn't find any matches for <span class='search-query'></span></h3>"}));
+        var $query = $(".search-query");
+        $query.append(document.createTextNode(query));
+
+        document.getElementById('loader-container').style.display = 'none';
+        document.getElementById('main-container-page').style.visibility = 'visible';
+  });
+     
   }
 
-  $("#search-header__form").submit(function(e) {
 
-//prevent Default functionality
-// e.preventDefault();
-// var queryValue = $("#search-header").val();
-// if(queryValue === "") return;
-// if(document.getElementById('loader-container')) {
-//   document.getElementById('loader-container').style.display = 'block';
-//   document.getElementById('contain-default-hide').style.display = 'none';
-// }
-
-       
-
-// searchRemote(queryValue);
-
-// setTimeout(function(){ $("#search-header").val(""); }, 1000);
-});
 
   function initUI() {
     // $("#search-header").keyup(function() {
@@ -274,11 +280,13 @@ for (let index = 0; index < highlight.length; index++) {
    
     var page = urlParams.get('page');
     var query = urlParams.get('search');
+    
     if (query) {
      
       setTimeout(function(){ $("#search-header").val(""); }, 1000);
       searchRemote(query, page);
-
+    
+     
     }
   }
 
@@ -290,12 +298,12 @@ for (let index = 0; index < highlight.length; index++) {
    */
   function renderResults(res, query) {
     var converter = new showdown.Converter();
-    console.log(query);
     var $results = $("main");
     if (res.results.length < 1) {
       $results.append($("<div>", {html: "<h3>Sorry we couldn't find any matches for <span class='search-query'></span></h3>"}));
        var $query = $(".search-query");
         $query.append(document.createTextNode(query));
+       
         return ;
     }
 
@@ -306,11 +314,18 @@ for (let index = 0; index < highlight.length; index++) {
       var $result = $("<li class='search-result__item'>");
       $result.append(
         $("<a>", {
-          href: result.href,
+          href: result.aliases[0],
           html: "<strong> " +converter.makeHtml(result.title)+"</strongs>"
         })
       );
       $result.append($( converter.makeHtml(result.description)));
+      $result.append(
+        $("<a>", {
+          href: result.aliases[0],
+          html: "<i>" +  result.aliases[0].substr(1) + "</i>",
+          class: "search-result-url"
+        })
+      );
       $results.append($result);
     });
 
@@ -335,6 +350,7 @@ for (let index = 0; index < highlight.length; index++) {
 
 
     $results.append(pagination);
+    
   }
 
   function shortenString(string, length) {
@@ -399,7 +415,7 @@ for (let index = 0; index < highlight.length; index++) {
             .find("main")
             .html();
         $("main").html(remoteContent);
-        window.history.pushState({"html":remoteContent,"pageTitle":url},"", url);
+        // window.history.pushState({"html":remoteContent,"pageTitle":url},"", url);
         // imageviewer("img");
         // createCoppyCode();
       })

@@ -84,6 +84,7 @@ module.exports = function(grunt) {
                     keywords: frontMatter.keywords,
                     description: frontMatter.description ? S(converter.makeHtml(frontMatter.description)).stripTags("em", "p").s : "",
                     href: href,
+                    aliases: frontMatter.aliases,
                     content: (S(converter.makeHtml(content[2])).collapseWhitespace().s).replace(/(<([^>]+)>)/ig,"")
                 };
             }
