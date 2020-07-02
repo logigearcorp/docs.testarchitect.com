@@ -46,11 +46,11 @@ This section describes possible errors that you might encounter during automatio
 
 18. [Interface element <controlName\> was not defined in interface entity <windowName\>. Please define the interface element.](/automation-guide/diagnosing-and-resolving-automation-errors/ne-the-interface-element)  
 
-19. [The argument <argumentName\> cannot be empty. Please input valid data.](/automation-guide/diagnosing-and-resolving-automation-errors/the-argument-lt-argumentname-gt-cannot-be-empty-please-input-valid-datazbNx9uc=)  
+19. [The argument <argumentName\> cannot be empty. Please input valid data.](/automation-guide/diagnosing-and-resolving-automation-errors/the-argument-lt-argumentname-gt-cannot-be-empty-please-input-valid-datazbNx9uc)  
 
 20. [UI Automation is only supported on Microsoft .NET framework 4.0 or higher. Install Microsoft .NET framework 4.0 or higher to use this feature.](/automation-guide/diagnosing-and-resolving-automation-errors/work-4-0-or-higher-to-use-this-feature)  
 
-21. [Argument header\(s\) <headerName\> is invalid. Please look up or retype the action to determine the correct header name\(s\).](/automation-guide/diagnosing-and-resolving-automation-errors/orrect-header-name-sXjMoHXc=)  
+21. [Argument header\(s\) <headerName\> is invalid. Please look up or retype the action to determine the correct header name\(s\).](/automation-guide/diagnosing-and-resolving-automation-errors/orrect-header-name-sXjMoHXc)  
 
 22. [Chrome was not configured in the correct manner. Please refer to web testing section in TestArchitect Help to learn how to reconfigure Chrome for testing.](/automation-guide/diagnosing-and-resolving-automation-errors/-help-to-learn-how-to-reconfigure-chrome-for-testing)  
 
@@ -76,7 +76,7 @@ This section describes possible errors that you might encounter during automatio
 
 33. [TestArchitect is unable to locate the header at index position <index\>. The index value is out of range.](/automation-guide/diagnosing-and-resolving-automation-errors/-range)  
 
-34. [TestArchitect is unable to locate the header at index position <index\>. The index value is out of range.](/automation-guide/diagnosing-and-resolving-automation-errors/-rangeqPFfF2w=)  
+34. [TestArchitect is unable to locate the header at index position <index\>. The index value is out of range.](/automation-guide/diagnosing-and-resolving-automation-errors/-rangeqPFfF2w)  
 
 35. [Column is out of range.](/automation-guide/diagnosing-and-resolving-automation-errors/column-is-out-of-range)  
 
@@ -88,7 +88,7 @@ This section describes possible errors that you might encounter during automatio
 
 39. [TestArchitect is unable to identify the specified menu item. Please check that the <itemName\> menu item, which resides in the <windowName\> window, exists.](/automation-guide/diagnosing-and-resolving-automation-errors/u-item-which-resides-in-the-lt-windowname-gt-window-exists)  
 
-40. [The argument <argumentName\> cannot be empty. Please input valid data.](/automation-guide/diagnosing-and-resolving-automation-errors/the-argument-lt-argumentname-gt-cannot-be-empty-please-input-valid-data2/zijN4=)  
+40. [The argument <argumentName\> cannot be empty. Please input valid data.](/automation-guide/diagnosing-and-resolving-automation-errors/the-argument-lt-argumentname-gt-cannot-be-empty-please-input-valid-data2/zijN4)  
 
 41. [The argument "value" cannot be empty. Please input a number in the range of 0 to 100.](/automation-guide/diagnosing-and-resolving-automation-errors/the-argument-quot-value-quot-cannot-be-empty-please-input-a-number-in-the-range-of-0-to-100)  
 
@@ -98,7 +98,7 @@ This section describes possible errors that you might encounter during automatio
 
 44. [TestArchitect is unable to find the specified item. Please check the <itemName\> item in the <controlName\> control, which resides in the <windowName\> window, exists.](/automation-guide/diagnosing-and-resolving-automation-errors/ntrolname-gt-control-which-resides-in-the-lt-windowname-gt-window-exists)  
 
-45. [TestArchitect is unable to find the specified item. Please check the <itemName\> item in the <controlName\> control, which resides in the <windowName\> window, exists.](/automation-guide/diagnosing-and-resolving-automation-errors/ntrolname-gt-control-which-resides-in-the-lt-windowname-gt-window-existsWbLhTXc=)  
+45. [TestArchitect is unable to find the specified item. Please check the <itemName\> item in the <controlName\> control, which resides in the <windowName\> window, exists.](/automation-guide/diagnosing-and-resolving-automation-errors/ntrolname-gt-control-which-resides-in-the-lt-windowname-gt-window-existsWbLhTXc)  
 
 46. [TestArchitect is unable to locate the cell at row <rowLocation\> / column <columnLocation\>. One or both values are out of range.](/automation-guide/diagnosing-and-resolving-automation-errors/or-both-values-are-out-of-range)  
 
@@ -192,7 +192,7 @@ This section describes possible errors that you might encounter during automatio
 
 91. [TestArchitect is unable to find the specified control. Please check that the <controlName\> control, which resides in the <windowName\> window, exists.](/automation-guide/diagnosing-and-resolving-automation-errors/l-which-resides-in-the-lt-windowname-gt-window-exists)  
 
-92. [TestArchitect is unable to retrieve status of the <itemName\> item in the <controlName\> control, which resides in the <windowName\> window.](/automation-guide/diagnosing-and-resolving-automation-errors/ol-which-resides-in-the-lt-windowname-gt-windowK7qRs8Q=)  
+92. [TestArchitect is unable to retrieve status of the <itemName\> item in the <controlName\> control, which resides in the <windowName\> window.](/automation-guide/diagnosing-and-resolving-automation-errors/ol-which-resides-in-the-lt-windowname-gt-windowK7qRs8Q)  
 
 93. [TestArchitect is unable to select the specified item. Please check the <itemName\> item in the <controlName\> control, which resides in the <windowName\> window, is not disabled.](/automation-guide/diagnosing-and-resolving-automation-errors/controlname-gt-control-which-resides-in-the-lt-windowname-gt-window-is-not-disabled)  
 
