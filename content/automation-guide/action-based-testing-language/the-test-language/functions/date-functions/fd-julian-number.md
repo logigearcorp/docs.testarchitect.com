@@ -31,7 +31,7 @@ The following built-in setting\(s\) are supported: [break year](/automation-guid
 
 ## Example
 
-![](/images/TA_Automation/Images/automationguide_datefunction12.PNG)
+![](/images/TA_Automation/Images/automationguide_datefunction12.png)
 
 
 

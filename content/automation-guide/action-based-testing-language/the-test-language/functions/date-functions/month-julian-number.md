@@ -31,7 +31,7 @@ The following built-in setting\(s\) are supported: [date order](/automation-guid
 
 ## Example
 
-![](/images/TA_Automation/Images/automationguide_datefunction5.PNG)
+![](/images/TA_Automation/Images/automationguide_datefunction5.png)
 
 
 

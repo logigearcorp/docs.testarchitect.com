@@ -75,7 +75,7 @@ To establish this configuration, do the following:
 
     {{<important>}} If you have opted to use an SSL connection, and your LDAP-based directory server's identity has not been verified by a trusted third-party, or the SSL certificate installed on your client machine has expired, TestArchitect displays a Verify Certificate alert. To install the SSL certificate, click the **Accept** button.
 
-    ![](/images/TA_Help/Images/LDAP_verify_cert_dlg.PNG)
+    ![](/images/TA_Help/Images/LDAP_verify_cert_dlg.png)
 
 9.  Click **Apply**.
 

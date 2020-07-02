@@ -30,7 +30,7 @@ To create a registered TA bug, complete the following steps:
 
 3.  In the Bug ID text box, specify the bug ID of a TFS bug you would like to associate this TA bug with.
 
-    ![](/images/TA_Help/Images/ug_Bug_ID_TFS.PNG)
+    ![](/images/TA_Help/Images/ug_Bug_ID_TFS.png)
 
 4.  Click **OK**
 
@@ -58,7 +58,7 @@ To create a registered TA bug, complete the following steps:
 
     A registered bug is created and appears in the main panel. The fields of the Information tab below are explained in [TA bug information](/user-guide/integration-with-third-party-tools/jira-integration/features-jira-integration/ta-bug-information).
 
-    ![](/images/TA_Help/Images/ug_TFS_bug_information_external_bug.PNG)
+    ![](/images/TA_Help/Images/ug_TFS_bug_information_external_bug.png)
 
     {{<note>}}
 

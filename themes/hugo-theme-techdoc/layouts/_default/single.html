@@ -2,4 +2,6 @@
 <h1>{{ .Title | markdownify}}</h1>
 {{- .Content -}}
 <!-- {{- partial "edit-meta.html" . -}} -->
+{{- partial "pagination.html" . -}}
+
 {{- end -}}
