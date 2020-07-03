@@ -99,20 +99,3 @@ This action is applicable to the following controls:tree view, tree table, tree 
 
 ![](/images/TA_Automation/Images/bia_click_tree_node_index_res.png)
 
-## Example
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_click_tree_node_ta4vs_pgm.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_click_tree_node_ta4vs_res.png)
-
-**Effect**
-
-![](/images/TA_Automation/Images/bia_click_tree_node_aut.png)
-
-
-
-

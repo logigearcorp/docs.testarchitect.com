@@ -89,21 +89,6 @@ This action is applicable to the following controls:tree view, tree table, tree 
 
 ![](/images/TA_Automation/Images/bia_check_tree_node_status_index_res.png)
 
-## Example
-
-![](/images/TA_Automation/Images/bia_check_tree_node_status_aut.png)
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_check_tree_node_status_ta4vs_pgm.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_check_tree_node_status_ta4vs_res.png)
-
-
-
-
 **Related information**  
 
 

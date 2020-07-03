@@ -72,34 +72,3 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ![](/images/TA_Automation/Images/bia_refill_inline_data_set_res.png)
 
-## Example - Case 1: Dedicated data sets
-
-![](/images/TA_Automation/Images/bia_refill_data_set_aut.png)
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_refill_data_set_ta4vs_pgm.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_refill_data_set_ta4vs_res.png)
-
-**Effect**
-
-![](/images/TA_Automation/Images/bia_refill_data_set_effect.png)
-
-## Example - Case 2: Inline data sets
-
-![](/images/TA_Automation/Images/bia_refill_inline_data_set_aut.png)
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_refill_inline_data_set_ta4vs_pgm.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_refill_inline_data_set_ta4vs_res.png)
-
-
-
-

@@ -64,18 +64,3 @@ This action is applicable to the following controls:list view
 
 ![](/images/TA_Automation/Images/bia_check_list_cell_value_res.png)
 
-## Example
-
-![](/images/TA_Automation/Images/bia_check_list_cell_value_aut.png)
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_check_list_cell_value_ta4vs_pgm.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_check_list_cell_value_ta4vs_res.png)
-
-
-
-

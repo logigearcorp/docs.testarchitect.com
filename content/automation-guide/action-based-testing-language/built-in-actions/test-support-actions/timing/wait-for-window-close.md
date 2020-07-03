@@ -51,17 +51,3 @@ Suppose that while testing a multi-window application, you have a window that po
 
 ![](/images/TA_Automation/Images/bia_wait_for_window_close_pgm.png)
 
-## Example
-
-![](/images/TA_Automation/Images/bia_wait_for_window_close_ta4vs_aut.png)
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_wait_for_window_close_ta4vs_pgm.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_wait_for_window_close_ta4vs_res.png)
-
-
-

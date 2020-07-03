@@ -73,18 +73,3 @@ This action is applicable to the following controls:menu.
 
 ![](/images/TA_Automation/Images/bia_select_menu_item_res1.png)
 
-## Example
-
-![](/images/TA_Automation/Images/bia_select_menu_item_aut1.png)
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_select_menu_item_ta4vs_pgm1.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_select_menu_item_ta4vs_res1.png)
-
-
-
-

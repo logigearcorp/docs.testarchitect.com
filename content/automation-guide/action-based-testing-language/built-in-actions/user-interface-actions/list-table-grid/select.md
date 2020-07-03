@@ -95,20 +95,3 @@ This action is applicable to the following controls:combo box, list box.
 
 ![](/images/TA_Automation/Images/bia_select_multiple_index_res.png)
 
-## Example
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_select_ta4vs_pgm.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_select_ta4vs_res.png)
-
-**Effect**
-
-![](/images/TA_Automation/Images/bia_select_aut.png)
-
-
-
-

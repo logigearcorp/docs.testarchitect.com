@@ -45,16 +45,3 @@ The following settings are applicable to this action:none.
 
 ![](/images/TA_Automation/Images/bia_exit_loop_res.png)
 
-## Example
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_exit_loop_ta4vs_pgm.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_exit_loop_ta4vs_res.png)
-
-
-
-

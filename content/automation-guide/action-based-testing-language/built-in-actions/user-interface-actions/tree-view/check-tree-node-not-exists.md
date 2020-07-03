@@ -71,21 +71,6 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ![](/images/TA_Automation/Images/bia_check_tree_node_not_exists_index_res.png)
 
-## Example
-
-![](/images/TA_Automation/Images/bia_check_tree_node_not_exists_aut.png)
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_check_tree_node_not_exists_ta4vs_pgm.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_check_tree_node_not_exists_ta4vs_res.png)
-
-
-
-
 **Related information**  
 
 

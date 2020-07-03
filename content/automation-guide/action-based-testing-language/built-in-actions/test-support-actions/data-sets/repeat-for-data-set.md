@@ -34,15 +34,6 @@ The following settings are applicable to this action:none.
 
 ![](/images/TA_Automation/Images/bia_repeat_for_data_set_pgm.png)
 
-## Example
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_repeat_for_data_set_ta4vs_pgm.png)
-
-
-
-
 **Related information**  
 
 

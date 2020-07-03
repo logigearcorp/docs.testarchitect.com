@@ -70,21 +70,6 @@ This action is applicable to the following controls:list box, list view, combo b
 
 ![](/images/TA_Automation/Images/bia_get_selected_item_2_res.png)
 
-## Example
-
-![](/images/TA_Automation/Images/bia_get_selected_item_aut.png)
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_get_selected_item_ta4vs_pgm.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_get_selected_item_ta4vs_res.png)
-
-
-
-
 **Related information**  
 
 

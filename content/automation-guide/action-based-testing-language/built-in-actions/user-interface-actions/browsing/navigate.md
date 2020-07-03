@@ -89,25 +89,6 @@ Suppose you want to open the HTML file, C:/Program Files/LogiGear/TestArchitect/
 
 ![](/images/TA_Automation/Images/bia_navigate_effect_2.png)
 
-## Example
-
-![](/images/TA_Automation/Images/bia_navigate_ta4vs_aut.png)
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_navigate_ta4vs_pgm.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_navigate_ta4vs_res.png)
-
-**Effect**
-
-![](/images/TA_Automation/Images/bia_navigate_ta4vs_effect.png)
-
-
-
-
 **Related information**  
 
 

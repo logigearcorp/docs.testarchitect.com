@@ -60,18 +60,3 @@ This action is applicable to the following controls:tree view, tree table, tree 
 
 ![](/images/TA_Automation/Images/bia_get_selected_tree_node_path_res.png)
 
-## Example
-
-![](/images/TA_Automation/Images/bia_get_selected_tree_node_path_aut.png)
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_get_selected_tree_node_path_ta4vs_pgm.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_get_selected_tree_node_path_ta4vs_res.png)
-
-
-
-

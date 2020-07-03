@@ -61,16 +61,6 @@ This action may be used within the following project items:test modules and user
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells)none .
 
-## Example
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_start_program_ta4vs_pgm.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_start_program_ta4vs_res.png)
-
 ## Example - Case 1: Starting an application
 
 **Action Lines**

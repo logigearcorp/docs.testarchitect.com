@@ -97,21 +97,6 @@ This action is applicable to the following controls:combo box, list box, list vi
 
 ![](/images/TA_Automation/Images/bia_check_selected_items_2_index_res.png)
 
-## Example
-
-![](/images/TA_Automation/Images/bia_check_selected_items_aut.png)
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_check_selected_items_ta4vs_pgm.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_check_selected_items_ta4vs_res.png)
-
-
-
-
 **Related information**  
 
 

@@ -56,21 +56,6 @@ This action is applicable to the following controls:window.
 
 ![](/images/TA_Automation/Images/bia_move_windows_res.png)
 
-## Example
-
-![](/images/TA_Automation/Images/bia_move_windows_ta4vs_aut.png)
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_move_windows_ta4vs_pgm.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_move_windows_ta4vs_res.png)
-
-
-
-
 **Related information**  
 
 

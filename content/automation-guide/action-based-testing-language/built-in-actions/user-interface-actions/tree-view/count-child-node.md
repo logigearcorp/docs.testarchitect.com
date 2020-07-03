@@ -79,18 +79,3 @@ This action is applicable to the following controls:tree view, tree table, tree 
 
 ![](/images/TA_Automation/Images/bia_count_child_node_index_res.png)
 
-## Example
-
-![](/images/TA_Automation/Images/bia_count_child_node_aut.png)
-
-**Test Lines**
-
-![](/images/TA_Automation/Images/bia_count_child_node_ta4vs_pgm.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_count_child_node_ta4vs_res.png)
-
-
-
-

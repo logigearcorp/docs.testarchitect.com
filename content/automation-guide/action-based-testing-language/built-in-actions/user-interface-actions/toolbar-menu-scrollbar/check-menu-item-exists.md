@@ -74,33 +74,6 @@ This action is applicable to the following controls:menu.
 
 ![](/images/TA_Automation/Images/bia_check_menu_item_exists_res.png)
 
-## Example - Case 1: Item on main menu of a Windows application
-
-![](/images/TA_Automation/Images/bia_check_menu_item_exists_ta4vs_aut_1.png)
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_check_menu_item_exists_ta4vs_pgm_1.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_check_menu_item_exists_ta4vs_res_1.png)
-
-## Example - Case 2: Item on menu of a WPF application
-
-![](/images/TA_Automation/Images/bia_check_menu_item_exists_ta4vs_aut_2.png)
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_check_menu_item_exists_ta4vs_pgm_2.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_check_menu_item_exists_ta4vs_res_2.png)
-
-
-
-
 **Related information**  
 
 

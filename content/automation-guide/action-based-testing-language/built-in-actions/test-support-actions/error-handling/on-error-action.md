@@ -58,12 +58,3 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ![](/images/TA_Automation/Images/bia_on_error_action_3_pgm.png)
 
-## Example
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_on_error_action_ta4vs.png)
-
-
-
-

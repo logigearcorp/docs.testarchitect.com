@@ -76,21 +76,6 @@ This action is applicable to the following controls:table, list view.
 
 ![](/images/TA_Automation/Images/bia_is_cell_selected_res.png)
 
-## Example
-
-![](/images/TA_Automation/Images/bia_is_cell_selected_aut.png)
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_is_cell_selected_ta4vs_pgm.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_is_cell_selected_ta4vs_res.png)
-
-
-
-
 **Related information**  
 
 

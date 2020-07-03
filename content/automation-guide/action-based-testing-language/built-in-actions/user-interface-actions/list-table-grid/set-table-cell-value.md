@@ -65,22 +65,6 @@ This action is applicable to the following controls:table, list view.
 
 ![](/images/TA_Automation/Images/bia_set_table_cell_value_aut1.png)
 
-## Example
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_set_table_cell_value_ta4vs_pgm1.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_set_table_cell_value_ta4vs_res1.png)
-
-**Effect**
-
-![](/images/TA_Automation/Images/bia_set_table_cell_value_aut1.png)
-
-
-
 **Related information**  
 
 

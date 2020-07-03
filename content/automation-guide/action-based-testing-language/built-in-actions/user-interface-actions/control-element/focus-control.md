@@ -53,21 +53,6 @@ This action is applicable to the following controls:button, Calendar, check box,
 
 ![](/images/TA_Automation/Images/bia_focus_control_aut.png)
 
-## Example
-
-![](/images/TA_Automation/Images/bia_focus_control_ta4vs_pgm.png)
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_focus_control_ta4vs_res.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_focus_control_aut.png)
-
-
-
-
 **Related information**  
 
 

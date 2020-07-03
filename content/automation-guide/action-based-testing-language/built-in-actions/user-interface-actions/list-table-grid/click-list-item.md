@@ -95,21 +95,6 @@ This action is applicable to the following controls:list box, list view.
 
 ![](/images/TA_Automation/Images/bia_click_list_item_res_3.png)
 
-## Example
-
-![](/images/TA_Automation/Images/bia_click_list_item_aut_ta4vs.png)
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_click_list_item_ta4vs_pgm.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_click_list_item_ta4vs_res.png)
-
-
-
-
 **Related information**  
 
 

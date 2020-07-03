@@ -90,21 +90,6 @@ This action is applicable to the following controls:menu.
 
 ![](/images/TA_Automation/Images/bia_does_menu_item_exist_res1.png)
 
-## Example
-
-![](/images/TA_Automation/Images/bia_does_menu_item_exist_ta4vs_aut.png)
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_does_menu_item_exist_ta4vs_pgm.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_does_menu_item_exist_ta4vs_res.png)
-
-
-
-
 **Related information**  
 
 

@@ -58,18 +58,3 @@ This action is applicable to the following controls:table, tree table, tree list
 
 ![](/images/TA_Automation/Images/bia_get_column_number_res.png)
 
-## Example
-
-![](/images/TA_Automation/Images/bia_get_column_number_aut.png)
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_get_column_number_ta4vs_pgm.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_get_column_number_ta4vs_res.png)
-
-
-
-

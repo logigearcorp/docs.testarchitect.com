@@ -125,22 +125,3 @@ This action is applicable to the following controls:button, Calendar, check box,
 
 ![](/images/TA_Automation/Images/bia_select_context_menu_item_index_aut2.png)
 
-## Example
-
-![](/images/TA_Automation/Images/bia_select_context_menu_item_aut1.png)
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_select_context_menu_item_ta4vs_pgm.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_select_context_menu_item_ta4vs_res.png)
-
-**Effect**
-
-![](/images/TA_Automation/Images/bia_select_context_menu_item_aut2.png)
-
-
-
-

@@ -42,19 +42,6 @@ This action may be used within the following project items:interface entities.
 
 The following settings are applicable to this action:none.
 
-## Example
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_interface_element_pgm.png)
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_interface_element_ta4vs_pgm.png)
-
-
-
-
 **Related information**  
 
 

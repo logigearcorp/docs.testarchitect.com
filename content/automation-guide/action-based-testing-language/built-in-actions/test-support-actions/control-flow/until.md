@@ -64,16 +64,3 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ![](/images/TA_Automation/Images/bia_repeat_res.png)
 
-## Example
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_until_ta4vs_pgm.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_until_ta4vs_res.png)
-
-
-
-

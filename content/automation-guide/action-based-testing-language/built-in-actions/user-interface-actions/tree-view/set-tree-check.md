@@ -93,24 +93,6 @@ This action is applicable to the following controls:tree view, tree table, tree 
 
 ![](/images/TA_Automation/Images/bia_set_tree_check_index_effect2.png)
 
-## Example
-
-![](/images/TA_Automation/Images/bia_set_tree_check_aut1.png)
-
-**Test Lines**
-
-![](/images/TA_Automation/Images/bia_set_tree_check_ta4vs_pgm.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_set_tree_check_ta4vs_res.png)
-
-**Effect**
-
-![](/images/TA_Automation/Images/bia_set_tree_check_aut2.png)
-
-
-
 **Related information**  
 
 

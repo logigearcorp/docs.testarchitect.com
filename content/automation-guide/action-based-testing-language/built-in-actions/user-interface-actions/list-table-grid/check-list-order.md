@@ -65,18 +65,3 @@ This action is applicable to the following controls:combo box, list box, select-
 
 ![](/images/TA_Automation/Images/bia_check_list_order_2_res.png)
 
-## Example
-
-![](/images/TA_Automation/Images/bia_check_list_order_aut.png)
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_check_list_order_ta4vs_pgm.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_check_list_order_ta4vs_res.png)
-
-
-
-

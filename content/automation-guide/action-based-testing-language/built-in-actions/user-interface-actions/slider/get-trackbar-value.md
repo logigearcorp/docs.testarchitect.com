@@ -59,18 +59,3 @@ This action is applicable to the following controls:trackbar.
 
 ![](/images/TA_Automation/Images/bia_get_trackbar_value_res.png)
 
-## Example
-
-![](/images/TA_Automation/Images/bia_get_trackbar_value_aut.png)
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_get_trackbar_value_ta4vs_pgm.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_get_trackbar_value_ta4vs_res.png)
-
-
-
-

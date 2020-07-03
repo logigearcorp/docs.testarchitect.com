@@ -78,22 +78,3 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ![](/images/TA_Automation/Images/bia_select_list_item_menu_effect.png)
 
-## Example
-
-![](/images/TA_Automation/Images/bia_select_list_item_menu_aut_ta4vs.png)
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_select_list_item_menu_pgm_ta4vs.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_select_list_item_menu_res_ta4vs.png)
-
-**Effect**
-
-![](/images/TA_Automation/Images/bia_select_list_item_menu_effect_ta4vs.png)
-
-
-
-
