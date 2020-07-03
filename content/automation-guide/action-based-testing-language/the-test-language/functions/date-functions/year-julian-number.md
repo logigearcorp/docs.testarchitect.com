@@ -1,6 +1,6 @@
 --- 
-title: "year\\(Julian number\\)"
-linktitle: "year\\(Julian number\\)"
+title: "year(Julian number)"
+linktitle: "year(Julian number)"
 description: "Return the Gregorian year from a Julian date number."
 weight: 4
 aliases: 

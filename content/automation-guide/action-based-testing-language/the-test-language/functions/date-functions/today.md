@@ -1,6 +1,6 @@
 --- 
-title: "today\\(\\)"
-linktitle: "today\\(\\)"
+title: "today()"
+linktitle: "today()"
 description: "Convert today’s date to its equivalent Julian day number."
 weight: 2
 aliases: 

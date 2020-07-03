@@ -1,6 +1,6 @@
 --- 
 title: "Invoking Google Chrome on Android during automation"
-linktitle: "Invoking Google Chrome on Android during automation"
+linktitle: "Invoking Chrome Android"
 description: "There are two methods by which Chrome may be invoked on Android devices."
 weight: 2
 aliases: 

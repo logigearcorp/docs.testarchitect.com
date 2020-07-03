@@ -1,6 +1,6 @@
 --- 
-title: "month\\(Julian number\\)"
-linktitle: "month\\(Julian number\\)"
+title: "month(Julian number)"
+linktitle: "month(Julian number)"
 description: "Return the Gregorian month number from a Julian date number."
 weight: 5
 aliases: 

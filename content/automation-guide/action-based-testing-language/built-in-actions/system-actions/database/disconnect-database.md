@@ -1,6 +1,6 @@
 --- 
 title: "disconnect database"
-linktitle: "disconnect database"
+linktitle: "disconnect_database"
 description: "Description Close a database connection. Arguments name Name of the database connection (previously established with the connect database action.) Notes Note that it is permissible for your test to be ..."
 weight: 5
 aliases: 

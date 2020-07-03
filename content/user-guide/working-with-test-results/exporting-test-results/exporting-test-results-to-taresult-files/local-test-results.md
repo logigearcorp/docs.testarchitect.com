@@ -1,6 +1,6 @@
 --- 
 title: "Exporting local test results to .TARESULT files"
-linktitle: "Exporting local test results to .TARESULT files"
+linktitle: "Local test results"
 description: "How to export your local test results to .TARESULT files."
 weight: 1
 aliases: 

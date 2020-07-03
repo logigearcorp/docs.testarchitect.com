@@ -1,6 +1,6 @@
 --- 
 title: "Applicable action suggestions for a window or control"
-linktitle: "Applicable action suggestions for a window or control"
+linktitle: "Applicable action suggestions"
 description: "As you edit your tests, you often find yourself needing to know which actions can be used for a given control or window. Content Assist's applicable actions list provides you with a convenient means of viewing and selecting from the list of actions available for a given UI element."
 weight: 1
 aliases: 

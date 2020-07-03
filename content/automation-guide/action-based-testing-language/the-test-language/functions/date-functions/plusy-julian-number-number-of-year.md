@@ -1,6 +1,6 @@
 --- 
-title: "plusy\\(Julian number, number of year\\)"
-linktitle: "plusy\\(Julian number, number of year\\)"
+title: "plusy(Julian number, number of year)"
+linktitle: "plusy(Julian number, number of year)"
 description: "Add a specified number of years to a given Julian date number, then return the result as a Julian number."
 weight: 7
 aliases: 

@@ -1,6 +1,6 @@
 --- 
 title: "Overview of test results"
-linktitle: "Overview of test results"
+linktitle: "Overview"
 description: "This topic contains information about various tabs and panels, and on viewing test results."
 weight: 1
 aliases: 

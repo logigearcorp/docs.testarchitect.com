@@ -1,6 +1,6 @@
 --- 
-title: "Running ImportRepository command \\(Import/Export tool\\)"
-linktitle: "Running ImportRepository command \\(Import/Export tool\\)"
+title: "Running ImportRepository command (Import/Export tool)"
+linktitle: "Running ImportRepository"
 description: "Ensure that you have installed or upgraded your Java Runtime Environment (JRE) to at least version 8, which is necessary to run TAImportExportTool.jar on your Windows machine. Tip: Refer to JRE 8 ..."
 weight: 1
 aliases: 

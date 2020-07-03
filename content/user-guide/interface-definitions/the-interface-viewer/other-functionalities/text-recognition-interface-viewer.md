@@ -1,6 +1,6 @@
 --- 
-title: "Text recognition \\(Interface Viewer\\)"
-linktitle: "Text recognition \\(Interface Viewer\\)"
+title: "Text recognition (Interface Viewer)"
+linktitle: "Text recognition (Interface Viewer)"
 description: "The Text Recognition feature in the Interface Viewer helps you determine which drawing Windows APIs should be employed. The employed APIs will help the Graphics Device Interface (GDI) built-in actions detect text produced by the AUT."
 weight: 11
 aliases: 

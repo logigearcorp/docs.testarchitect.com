@@ -1,6 +1,6 @@
 --- 
-title: "Positional properties \\(left, top, width, height\\)"
-linktitle: "Positional properties \\(left, top, width, height\\)"
+title: "Positional properties (left, top, width, height)"
+linktitle: "Positional properties (left, top, width, height)"
 description: "The positional properties of a control specify its location and dimensions."
 weight: 1
 aliases: 

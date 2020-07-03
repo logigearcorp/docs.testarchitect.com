@@ -1,6 +1,6 @@
 --- 
-title: "Continuous integration \\(CI\\) tools"
-linktitle: "Continuous integration \\(CI\\) tools"
+title: "Continuous integration (CI) tools"
+linktitle: "Continuous integration (CI) tools"
 description: "To enable integration between TestArchitect and a continuous integration (CI) tool, an xUnit-format XML file must be imported into the tool. This XML file is created by extracting the test result of one or more test modules executed by TestArchitect."
 weight: 4
 aliases: 

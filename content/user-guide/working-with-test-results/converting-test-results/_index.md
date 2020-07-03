@@ -1,6 +1,6 @@
 --- 
 title: "Converting test results generated in earlier versions to TestArchitect 8.3"
-linktitle: "Converting test results generated in earlier versions to TestArchitect 8.3"
+linktitle: "Converting test results"
 description: "It is required to convert test results created in versions prior to TestArchitect 8.3 into the new XML format. This topic explains how to convert test results and several important notes for test result conversion."
 weight: 2
 aliases: 

@@ -1,6 +1,6 @@
 --- 
 title: "TestArchitect-Team Foundation Server Extensibility"
-linktitle: "TestArchitect-Team Foundation Server Extensibility"
+linktitle: "TA-TFS Extensibility"
 description: "The TA-TFS Extensibility feature offers you, by means of TestArchitect-supported API methods, the ability to extend and customize the environment for executing automated test cases."
 weight: 7
 aliases: 

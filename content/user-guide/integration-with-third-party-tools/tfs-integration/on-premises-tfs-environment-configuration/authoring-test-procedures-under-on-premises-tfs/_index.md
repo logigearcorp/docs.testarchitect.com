@@ -1,6 +1,6 @@
 --- 
 title: "Authoring test procedures under Team Foundation Server"
-linktitle: "Authoring test procedures under Team Foundation Server"
+linktitle: "Authoring test procedures under on-premises TFS"
 description: "This section describes how to set up a TestArchitect project to allow for tests to be managed and exchanged with TFS. With your TA project integrated with TFS-MTM, you can import TFS test cases and test suites into TA and, conversely, upload TA test cases, test modules and test folders into TFS."
 weight: 2
 aliases: 

@@ -1,6 +1,6 @@
 --- 
-title: "No settings \\('title', 'doc title' or 'handle', etc.\\) defined for interface entity *<windowName\\>*. Please check if the correct interface is currently in use, or define the interface entity."
-linktitle: "No settings \\('title', 'doc title' or 'handle', etc.\\) defined for interface entity *<windowName\\>*. Please check if the correct interface is currently in use, or define the interface entity."
+title: "No settings ('title', 'doc title' or 'handle', etc.) defined for interface entity <windowName>. Please check if the correct interface is currently in use, or define the interface entity."
+linktitle: "No settings ('title', 'doc title' or 'handle', etc.) defined for interface entity <windowName>. Please check if the correct interface is currently in use, or define the interface entity."
 description: "Error code: 0x80010002L Problem This happens because the specified window is not defined yet. Solution Create the desired interface entity (window), and re-run the test. ( Learn more .) If the windows ..."
 weight: 28
 aliases: 

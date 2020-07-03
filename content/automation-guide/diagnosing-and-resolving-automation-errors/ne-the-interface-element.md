@@ -1,6 +1,6 @@
 --- 
-title: "Interface element *<controlName\\>* was not defined in interface entity *<windowName\\>*. Please define the interface element."
-linktitle: "Interface element *<controlName\\>* was not defined in interface entity *<windowName\\>*. Please define the interface element."
+title: "Interface element <controlName> was not defined in interface entity <windowName>. Please define the interface element."
+linktitle: "Interface element <controlName> was not defined in interface entity <windowName>. Please define the interface element."
 description: "Error code: 0x80010003L Problem This happens because the specified control is not defined yet. Solution Capture the desired control by using the Interface Viewer or point-to-identify tool, and then ..."
 weight: 18
 aliases: 

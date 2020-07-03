@@ -1,6 +1,6 @@
 --- 
-title: "plusd\\(Julian number, number of day\\)"
-linktitle: "plusd\\(Julian number, number of day\\)"
+title: "plusd(Julian number, number of day)"
+linktitle: "plusd(Julian number, number of day)"
 description: "Add a specified number of days to a given Julian date number, then return the result as a Julian number."
 weight: 9
 aliases: 

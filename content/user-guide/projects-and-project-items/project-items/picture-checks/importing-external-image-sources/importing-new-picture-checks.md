@@ -1,6 +1,6 @@
 --- 
 title: "Importing new picture checks from external files"
-linktitle: "Importing new picture checks from external files"
+linktitle: "Importing new picture checks"
 description: "To import new picture checks from external image files, do the following: In the TestArchitect explorer tree , select either: a test module node, and then select Local Pictures , located under the ..."
 weight: 1
 aliases: 

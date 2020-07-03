@@ -1,6 +1,6 @@
 --- 
-title: "Specifying system environment variables for ORACLE\\_HOME and ORACLE\\_SID"
-linktitle: "Specifying system environment variables for ORACLE\\_HOME and ORACLE\\_SID"
+title: "Specifying system environment variables for ORACLE_HOME and ORACLE_SID"
+linktitle: "Specifying system environment variables"
 description: "This topic describes the steps required for specifying system environment variables."
 weight: 2
 aliases: 

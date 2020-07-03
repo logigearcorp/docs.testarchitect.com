@@ -1,6 +1,6 @@
 --- 
 title: "Team Foundation Server integration"
-linktitle: "Team Foundation Server integration"
+linktitle: "TFS integration"
 description: "TestArchitect can be integrated into Team Foundation Server (TFS) allowing you to include your TestArchitect tests in your application’s lifecycle managed by the Visual Studio and Visual Studio Team Foundation tools. You can associate your TestArchitect test cases with TFS test cases in your test plan and run the plan as an automated test in MTM."
 weight: 3
 aliases: 

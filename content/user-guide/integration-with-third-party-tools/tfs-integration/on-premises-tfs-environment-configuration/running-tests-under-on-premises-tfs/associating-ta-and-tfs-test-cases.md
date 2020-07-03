@@ -1,6 +1,6 @@
 --- 
 title: "Associating TestArchitect and Team Foundation Server test cases in Visual Studio"
-linktitle: "Associating TestArchitect and Team Foundation Server test cases in Visual Studio"
+linktitle: "Associating TA and TFS test cases"
 description: "To execute TestArchitect test cases from MTM or the Test Hub, an association between TestArchitect tests and Team Foundation Server tests must be created in the related Visual Studio project."
 weight: 6
 aliases: 

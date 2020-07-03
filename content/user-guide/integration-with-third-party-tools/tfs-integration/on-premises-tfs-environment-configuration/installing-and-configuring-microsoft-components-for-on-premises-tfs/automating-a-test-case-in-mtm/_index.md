@@ -1,6 +1,6 @@
 --- 
 title: "Automating a test case in Microsoft Test Manager"
-linktitle: "Automating a test case in Microsoft Test Manager"
+linktitle: "Automating a test case in MTM"
 description: "To successfully automate a test case in Microsoft Test Manager (MTM), numerous steps must be taken. These include creating TFS test cases, creating UI tests, linking test cases to test methods, creating a lab environment and settings to run your tests, and more. Additionally, in this section, a simple coded UI test project is created to let you verify that the entire AUT, including its user interface, is functioning correctly."
 weight: 7
 aliases: 

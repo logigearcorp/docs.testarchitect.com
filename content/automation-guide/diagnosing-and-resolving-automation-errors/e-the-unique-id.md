@@ -1,6 +1,6 @@
 --- 
-title: "The device ID *<deviceID\\>* is not connected. Connect the device with the ID *<deviceID\\>* or update the unique ID."
-linktitle: "The device ID *<deviceID\\>* is not connected. Connect the device with the ID *<deviceID\\>* or update the unique ID."
+title: "The device ID <deviceID> is not connected. Connect the device with the ID <deviceID> or update the unique ID."
+linktitle: "The device ID <deviceID> is not connected. Connect the device with the ID <deviceID> or update the unique ID."
 description: "Error code: 0x80016002L Problem This issue occurs because the currently connected mobile device has different device ID than the one specified in the assign device built-in action. Solution Ensure ..."
 weight: 25
 aliases: 

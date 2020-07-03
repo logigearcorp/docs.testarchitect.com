@@ -1,6 +1,6 @@
 --- 
 title: "Invoking Safari on iOS during automation"
-linktitle: "Invoking Safari on iOS during automation"
+linktitle: "Invoking Safari iOS"
 description: "There are two methods by which Safari may be invoked on iOS devices:"
 weight: 2
 aliases: 

@@ -1,6 +1,6 @@
 --- 
 title: "Capturing an Android interface with the Interface Viewer"
-linktitle: "Capturing an Android interface with the Interface Viewer"
+linktitle: "Capturing an Android interface"
 description: "The Interface Viewer looks for the presence of an available Android device. If found, it displays the elements of its graphical user interface."
 weight: 3
 aliases: 

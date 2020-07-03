@@ -1,6 +1,6 @@
 --- 
-title: "Creating a new system \\(application under test\\)"
-linktitle: "Creating a new system \\(application under test\\)"
+title: "Creating a new system (application under test)"
+linktitle: "Creating a new system (application under test)"
 description: "Create a new system tree to represent a given dimension of variability of an application under test, or of its environment."
 weight: 1
 aliases: 

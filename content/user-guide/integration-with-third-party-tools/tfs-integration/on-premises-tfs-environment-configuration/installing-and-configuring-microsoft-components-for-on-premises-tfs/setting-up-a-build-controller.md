@@ -1,6 +1,6 @@
 --- 
 title: "Deploying and configuring a build controller for TFS-MTM integration"
-linktitle: "Deploying and configuring a build controller for TFS-MTM integration"
+linktitle: "Setting up a build controller"
 description: "To use Team Foundation Build (TFBuild), you must have at least one build controller, which pools and manages the services of one or more build agents. It distributes processor-intensive work: for example, compiling code or running tests, etc., to the build agents. Each build controller is dedicated to a single team project collection."
 weight: 3
 aliases: 

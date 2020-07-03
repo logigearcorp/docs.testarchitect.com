@@ -1,6 +1,6 @@
 --- 
 title: "Installing TestArchitect on Linux"
-linktitle: "Installing TestArchitect on Linux"
+linktitle: "Linux"
 description: "How to install TestArchitect on a Linux system."
 weight: 3
 aliases: 

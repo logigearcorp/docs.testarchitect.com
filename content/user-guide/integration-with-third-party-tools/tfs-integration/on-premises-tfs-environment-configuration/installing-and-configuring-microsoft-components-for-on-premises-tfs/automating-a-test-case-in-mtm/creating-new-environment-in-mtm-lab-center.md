@@ -1,6 +1,6 @@
 --- 
 title: "Creating a new environment in the Microsoft Test Manager Lab Center"
-linktitle: "Creating a new environment in the Microsoft Test Manager Lab Center"
+linktitle: "Creating new environment in MTM Lab Center"
 description: "To run your automated tests using Microsoft Test Manager (MTM), you must use a lab environment. It must have roles for each of the client and server machines used in your tests."
 weight: 6
 aliases: 

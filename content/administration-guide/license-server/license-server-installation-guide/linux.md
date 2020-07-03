@@ -1,6 +1,6 @@
 --- 
 title: "License Server installation on Linux"
-linktitle: "License Server installation on Linux"
+linktitle: "Linux"
 description: "How to install TestArchitect License Server on Linux."
 weight: 3
 aliases: 

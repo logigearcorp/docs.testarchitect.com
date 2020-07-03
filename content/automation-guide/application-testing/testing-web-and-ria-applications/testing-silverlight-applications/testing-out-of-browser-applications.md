@@ -1,6 +1,6 @@
 --- 
 title: "Testing out-of-browser Silverlight applications"
-linktitle: "Testing out-of-browser Silverlight applications"
+linktitle: "Testing out-of-browser applications"
 description: "Silverlight-based applications, as well as your test machine, must be configured properly to allow the applications to be installed from their host web pages, run outside of the browser, and tested."
 weight: 4
 aliases: 

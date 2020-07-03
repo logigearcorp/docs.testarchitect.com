@@ -1,6 +1,6 @@
 --- 
 title: "Automatically uploading TestArchitect test results to Team Foundation Server"
-linktitle: "Automatically uploading TestArchitect test results to Team Foundation Server"
+linktitle: "Automatically uploading TestArchitect test results to TFS"
 description: "When launching a test run from TestArchitect Client, you can configure TestArchitect to automatically upload the test results to TFS upon conclusion of the run."
 weight: 1
 aliases: 

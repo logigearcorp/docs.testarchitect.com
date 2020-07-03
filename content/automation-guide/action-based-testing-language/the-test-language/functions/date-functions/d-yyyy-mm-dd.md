@@ -1,6 +1,6 @@
 --- 
-title: "d\\(yyyy,mm,dd\\)"
-linktitle: "d\\(yyyy,mm,dd\\)"
+title: "d(yyyy,mm,dd)"
+linktitle: "d(yyyy,mm,dd)"
 description: "Convert a Gregorian date in numeric form to its equivalent Julian day number."
 weight: 1
 aliases: 

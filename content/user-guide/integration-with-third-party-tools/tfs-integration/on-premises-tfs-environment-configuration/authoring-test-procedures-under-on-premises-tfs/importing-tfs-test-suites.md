@@ -1,6 +1,6 @@
 --- 
 title: "Importing Team Foundation Server test suites to TestArchitect"
-linktitle: "Importing Team Foundation Server test suites to TestArchitect"
+linktitle: "Importing TFS test suites"
 description: "Just as TFS test cases may be imported, test suites residing in TFS may be also imported into TestArchitect."
 weight: 5
 aliases: 

@@ -1,6 +1,6 @@
 --- 
 title: "Testing WPF applications - Overview"
-linktitle: "Testing WPF applications - Overview"
+linktitle: "About"
 description: "Some basics of creating and recording tests for WPF applications, WPF control identification via the Interface Viewer, and other concepts."
 weight: 1
 aliases: 

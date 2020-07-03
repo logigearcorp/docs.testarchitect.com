@@ -1,6 +1,6 @@
 --- 
-title: "fj\\(date\\)"
-linktitle: "fj\\(date\\)"
+title: "fj(date)"
+linktitle: "fj(date)"
 description: "Convert a specific Gregorian date to its equivalent Julian day number."
 weight: 3
 aliases: 

@@ -1,6 +1,6 @@
 --- 
-title: "ExportFromPath command \\(Import/Export tool\\)"
-linktitle: "ExportFromPath command \\(Import/Export tool\\)"
+title: "ExportFromPath command (Import/Export tool)"
+linktitle: "ExportFromPath command"
 description: "Export a project item, identified by its TA path, to a file."
 weight: 4
 aliases: 

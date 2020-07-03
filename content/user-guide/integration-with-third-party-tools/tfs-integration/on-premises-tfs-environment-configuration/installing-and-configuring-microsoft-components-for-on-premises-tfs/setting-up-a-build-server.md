@@ -1,6 +1,6 @@
 --- 
 title: "Deploying and configuring a build server for TFS-MTM integration"
-linktitle: "Deploying and configuring a build server for TFS-MTM integration"
+linktitle: "Setting up a build server"
 description: "To use Team Foundation Build (TFBuild) with an on-premise TFS, you must deploy at least one build server. Each build server serves a single team project collection. Although you configure, modify, and manage a build server on the computer where Team Foundation Build Service is running, the configuration data is stored in the team project collection."
 weight: 2
 aliases: 

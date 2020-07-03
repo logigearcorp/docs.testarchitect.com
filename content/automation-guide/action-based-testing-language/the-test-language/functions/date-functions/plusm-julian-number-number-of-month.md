@@ -1,6 +1,6 @@
 --- 
-title: "plusm\\(Julian number, number of month\\)"
-linktitle: "plusm\\(Julian number, number of month\\)"
+title: "plusm(Julian number, number of month)"
+linktitle: "plusm(Julian number, number of month)"
 description: "Add a specified number of months to a given Julian date number, then return the result as a Julian number."
 weight: 8
 aliases: 

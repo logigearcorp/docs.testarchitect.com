@@ -1,6 +1,6 @@
 --- 
-title: "Running ConvertResults command \\(XML Result Conversion tool\\)"
-linktitle: "Running ConvertResults command \\(XML Result Conversion tool\\)"
+title: "Running ConvertResults command (XML Result Conversion tool)"
+linktitle: "Running ConvertResults command (XML Result Conversion tool)"
 description: "An example to show usage of the XML Result Conversion tool."
 weight: 1
 aliases: 

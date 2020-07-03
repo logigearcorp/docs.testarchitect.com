@@ -1,6 +1,6 @@
 --- 
 title: "Configuring an Android device for testing Google Chrome"
-linktitle: "Configuring an Android device for testing Google Chrome"
+linktitle: "Configuring an Android device"
 description: "This section describes the essential configurations needed to ensure that automated tests on Chrome Android run successfully and stably."
 weight: 1
 aliases: 

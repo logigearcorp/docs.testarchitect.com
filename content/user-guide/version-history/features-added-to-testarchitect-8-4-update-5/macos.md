@@ -1,6 +1,6 @@
 --- 
 title: "What's new in TestArchitect for macOS"
-linktitle: "What's new in TestArchitect for macOS"
+linktitle: "macOS"
 description: "The following new features and improvements are introduced in TestArchitect version 8.4 Update 5 running on macOS."
 weight: 3
 aliases: 

@@ -1,6 +1,6 @@
 --- 
-title: "fd\\(Julian number\\)"
-linktitle: "fd\\(Julian number\\)"
+title: "fd(Julian number)"
+linktitle: "fd(Julian number)"
 description: "Convert a Julian date number to its equivalent Gregorian date."
 weight: 11
 aliases: 

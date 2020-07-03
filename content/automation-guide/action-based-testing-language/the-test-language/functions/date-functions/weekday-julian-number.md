@@ -1,6 +1,6 @@
 --- 
-title: "weekday\\(Julian number\\)"
-linktitle: "weekday\\(Julian number\\)"
+title: "weekday(Julian number)"
+linktitle: "weekday(Julian number)"
 description: "Return the day of week numeric value for a given Julian number."
 weight: 12
 aliases: 

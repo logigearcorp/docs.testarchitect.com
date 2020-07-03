@@ -1,6 +1,6 @@
 --- 
-title: "ExportRepository command \\(Import/Export tool\\)"
-linktitle: "ExportRepository command \\(Import/Export tool\\)"
+title: "ExportRepository command (Import/Export tool)"
+linktitle: "ExportRepository command"
 description: "Export a repository to a .dat file."
 weight: 2
 aliases: 

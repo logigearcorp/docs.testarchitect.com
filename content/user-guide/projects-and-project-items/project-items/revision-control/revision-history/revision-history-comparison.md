@@ -1,6 +1,6 @@
 --- 
 title: "Comparing two revisions of a project item"
-linktitle: "Comparing two revisions of a project item"
+linktitle: "Revision history comparison"
 description: "How to view the differences between two historical revisions of a project item."
 weight: 3
 aliases: 

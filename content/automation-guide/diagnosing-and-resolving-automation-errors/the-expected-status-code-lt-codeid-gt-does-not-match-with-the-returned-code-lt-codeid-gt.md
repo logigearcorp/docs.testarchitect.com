@@ -1,6 +1,6 @@
 --- 
-title: "The expected status code *<codeID\\>* does not match with the returned code *<codeID\\>*."
-linktitle: "The expected status code *<codeID\\>* does not match with the returned code *<codeID\\>*."
+title: "The expected status code <codeID> does not match with the returned code <codeID>."
+linktitle: "The expected status code <codeID> does not match with the returned code <codeID>."
 description: "Error code: 0x80017002L Problem This happens because the expected HTTP status code, defined in the send http request built-in action, does not match with the actual HTTP status code returned by the ..."
 weight: 106
 aliases: 

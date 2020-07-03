@@ -1,6 +1,6 @@
 --- 
 title: "Uploading TestArchitect test results to Team Foundation Server"
-linktitle: "Uploading TestArchitect test results to Team Foundation Server"
+linktitle: "Uploading TestArchitect test results"
 description: "TestArchitect test results from test projects which are mapped to TFS can be uploaded to TFS manually or automatically."
 weight: 10
 aliases: 

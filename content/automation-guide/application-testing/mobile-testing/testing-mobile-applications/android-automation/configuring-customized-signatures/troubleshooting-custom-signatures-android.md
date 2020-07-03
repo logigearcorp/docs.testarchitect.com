@@ -1,6 +1,6 @@
 --- 
-title: "Troubleshooting custom signatures \\(Android\\)"
-linktitle: "Troubleshooting custom signatures \\(Android\\)"
+title: "Troubleshooting custom signatures (Android)"
+linktitle: "Troubleshooting custom signatures (Android)"
 description: "Typical issues you may encounter when working with your custom Android certificate."
 weight: 1
 aliases: 

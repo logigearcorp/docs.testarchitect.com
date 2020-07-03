@@ -1,6 +1,6 @@
 --- 
-title: "ImportToPath command \\(Import/Export tool\\)"
-linktitle: "ImportToPath command \\(Import/Export tool\\)"
+title: "ImportToPath command (Import/Export tool)"
+linktitle: "ImportToPath command"
 description: "Import a project item or test case to a TestArchitect project location identified by its TA path."
 weight: 6
 aliases: 

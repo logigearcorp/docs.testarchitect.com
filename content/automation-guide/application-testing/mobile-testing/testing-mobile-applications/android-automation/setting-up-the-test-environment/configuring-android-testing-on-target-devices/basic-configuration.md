@@ -1,6 +1,6 @@
 --- 
 title: "Basic configuration for Android automation"
-linktitle: "Basic configuration for Android automation"
+linktitle: "Basic configuration"
 description: "This section describes the essential configurations needed to ensure that automated tests on Android devices run successfully and stably."
 weight: 1
 aliases: 

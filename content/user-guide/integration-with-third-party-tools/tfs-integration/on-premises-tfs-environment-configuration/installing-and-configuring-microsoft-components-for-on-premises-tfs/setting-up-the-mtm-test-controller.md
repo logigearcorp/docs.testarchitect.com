@@ -1,6 +1,6 @@
 --- 
 title: "Configuring and registering an MTM test controller"
-linktitle: "Configuring and registering an MTM test controller"
+linktitle: "Setting up the MTM test controller"
 description: "This topic describes how to install and configure a test controller. You must install and configure at least one test controller for your team project collection, before you create a lab environment in that team project collection. When you configure a test controller for a lab environment, you have to register it with your team project collection."
 weight: 5
 aliases: 

@@ -1,6 +1,6 @@
 --- 
-title: "day\\(Julian number\\)"
-linktitle: "day\\(Julian number\\)"
+title: "day(Julian number)"
+linktitle: "day(Julian number)"
 description: "Return the Gregorian day of month number from a Julian date number."
 weight: 6
 aliases: 

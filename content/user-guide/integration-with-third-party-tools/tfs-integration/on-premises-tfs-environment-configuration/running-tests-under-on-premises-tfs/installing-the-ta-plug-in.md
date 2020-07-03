@@ -1,6 +1,6 @@
 --- 
 title: "Installing the TestArchitect plug-in"
-linktitle: "Installing the TestArchitect plug-in"
+linktitle: "Installing the TA plug-in"
 description: "Installing the TA plug-in for Microsoft Visual Studio adds a project option to Visual Studio for creating TA-TFS projects."
 weight: 2
 aliases: 

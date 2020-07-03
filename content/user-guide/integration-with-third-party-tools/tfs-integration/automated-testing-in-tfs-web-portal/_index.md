@@ -1,6 +1,6 @@
 --- 
 title: "Team Foundation Server's web portal"
-linktitle: "Team Foundation Server's web portal"
+linktitle: "Automated testing in TFS web portal"
 description: "The TFS web portal allows you to manage source code, work items, builds, test efforts, machines and test runs."
 weight: 4
 aliases: 

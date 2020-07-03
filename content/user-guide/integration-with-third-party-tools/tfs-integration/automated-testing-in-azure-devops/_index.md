@@ -1,6 +1,6 @@
 --- 
 title: "Azure DevOps"
-linktitle: "Azure DevOps"
+linktitle: "Automated testing in Azure DevOps"
 description: "Azure DevOps evolved from Visual Studio Team Services (VSTS). Known as an online version of Team Foundation Server, it both provides an integrated, collaborative environment that supports Git, continuous integration, and Agile tools for planning and tracking work."
 weight: 5
 aliases: 

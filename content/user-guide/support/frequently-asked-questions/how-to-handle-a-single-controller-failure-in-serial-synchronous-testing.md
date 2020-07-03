@@ -1,6 +1,6 @@
 --- 
 title: "What happens when you have a serial synchronous test fail on one controller: do you have the option of continuing or stopping the test execution?"
-linktitle: "What happens when you have a serial synchronous test fail on one controller: do you have the option of continuing or stopping the test execution?"
+linktitle: "How to handle a single controller failure in serial synchronous testing?"
 description: "This depends upon the error handling actions set by the test module. Options for the on error action include continue , exit action , or exit test case . The action on error action allows for more ..."
 weight: 14
 aliases: 

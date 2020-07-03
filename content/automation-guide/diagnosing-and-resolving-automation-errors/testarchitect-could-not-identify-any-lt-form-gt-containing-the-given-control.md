@@ -1,6 +1,6 @@
 --- 
-title: "TestArchitect could not identify any <form\\> containing the given control."
-linktitle: "TestArchitect could not identify any <form\\> containing the given control."
+title: "TestArchitect could not identify any <form> containing the given control."
+linktitle: "TestArchitect could not identify any <form> containing the given control."
 description: "Error code: 0x80010021L Problem This happens because the given HTML element, referenced by the control argument of the submit form built-in action, is not enclosed within a &lt;form&gt; element. Solution ..."
 weight: 101
 aliases: 

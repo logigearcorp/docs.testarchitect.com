@@ -1,6 +1,6 @@
 --- 
 title: "Specifying web service credentials"
-linktitle: "Specifying web service credentials"
+linktitle: "Specifying credentials"
 description: "Details how to specify authentication information for service clients."
 weight: 2
 aliases: 

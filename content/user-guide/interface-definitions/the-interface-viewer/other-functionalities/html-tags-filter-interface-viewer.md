@@ -1,6 +1,6 @@
 --- 
-title: "HTML tags filter \\(Interface Viewer\\)"
-linktitle: "HTML tags filter \\(Interface Viewer\\)"
+title: "HTML tags filter (Interface Viewer)"
+linktitle: "HTML tags filter (Interface Viewer)"
 description: "Web pages are composed of HTML elements rather than controls, with each element type specified by a tag. Web applications can often have pages with a large number of tags that you really have no need to interface with for proper testing. The Interface Viewer helps you by allowing you to limit the elements displayed in the UI explorer to only certain types, excluding all others."
 weight: 4
 aliases: 

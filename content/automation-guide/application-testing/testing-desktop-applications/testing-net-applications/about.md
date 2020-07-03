@@ -1,6 +1,6 @@
 --- 
 title: "Testing .NET applications - Overview"
-linktitle: "Testing .NET applications - Overview"
+linktitle: "About"
 description: "Some basics of creating and recording tests for .NET applications, .NET control identification via the Interface Viewer, and other concepts."
 weight: 1
 aliases: 

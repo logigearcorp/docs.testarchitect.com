@@ -1,6 +1,6 @@
 --- 
 title: "Table of keyboard shortcuts in the Diff Tool"
-linktitle: "Table of keyboard shortcuts in the Diff Tool"
+linktitle: "Keyboard shortcuts"
 description: "In Diff Tool, you can use shortcut keys to perform many different tasks quickly or to work without a mouse."
 weight: 4
 aliases: 

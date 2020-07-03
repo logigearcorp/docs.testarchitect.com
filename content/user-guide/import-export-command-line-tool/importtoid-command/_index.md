@@ -1,6 +1,6 @@
 --- 
-title: "ImportToID command \\(Import/Export tool\\)"
-linktitle: "ImportToID command \\(Import/Export tool\\)"
+title: "ImportToID command (Import/Export tool)"
+linktitle: "ImportToID command"
 description: "Import a project item or test case to a TestArchitect project location identified by a TestArchitect ID."
 weight: 7
 aliases: 

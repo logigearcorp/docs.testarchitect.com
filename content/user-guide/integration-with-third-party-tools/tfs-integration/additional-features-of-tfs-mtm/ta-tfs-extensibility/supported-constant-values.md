@@ -1,6 +1,6 @@
 --- 
 title: "Supported constant values in TAExecutionConstant.cs"
-linktitle: "Supported constant values in TAExecutionConstant.cs"
+linktitle: "Supported constant values"
 description: "Lists constant values of the TAExecutionConstant.cs class."
 weight: 5
 aliases: 

@@ -1,6 +1,6 @@
 --- 
-title: "getglobal\\(variable\\)"
-linktitle: "getglobal\\(variable\\)"
+title: "getglobal(variable)"
+linktitle: "getglobal(variable)"
 description: "Retrieve an existing global variable’s value."
 weight: 1
 aliases: 

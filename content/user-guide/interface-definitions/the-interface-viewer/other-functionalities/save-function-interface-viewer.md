@@ -1,6 +1,6 @@
 --- 
-title: "Save function \\(Interface Viewer\\)"
-linktitle: "Save function \\(Interface Viewer\\)"
+title: "Save function (Interface Viewer)"
+linktitle: "Save function (Interface Viewer)"
 description: "Once the proper controls have been named in the tree, and the identifying properties have been selected, you can save the definitions to the interface entity with the Save button."
 weight: 1
 aliases: 

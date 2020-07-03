@@ -1,6 +1,6 @@
 --- 
 title: "Configuring the ODBC Driver on macOS to connect to MySQL Server"
-linktitle: "Configuring the ODBC Driver on macOS to connect to MySQL Server"
+linktitle: "Configuring ODBC Driver on macOS"
 description: "Explain additional configurations on macOS to connect to MySQL Server."
 weight: 1
 aliases: 

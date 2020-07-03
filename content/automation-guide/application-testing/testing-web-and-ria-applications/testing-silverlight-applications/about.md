@@ -1,6 +1,6 @@
 --- 
 title: "Testing Silverlight applications - Overview"
-linktitle: "Testing Silverlight applications - Overview"
+linktitle: "About"
 description: "TestArchitect provides full support for automated testing of applications based on Microsoft Silverlight technology."
 weight: 1
 aliases: 

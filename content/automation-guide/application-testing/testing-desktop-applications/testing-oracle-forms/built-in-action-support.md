@@ -1,6 +1,6 @@
 --- 
 title: "Support for Oracle Forms built-in actions"
-linktitle: "Support for Oracle Forms built-in actions"
+linktitle: "Built-in action support"
 description: "Built-in actions supported by TestArchitect for testing Oracle Forms."
 weight: 4
 aliases: 

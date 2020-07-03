@@ -1,6 +1,6 @@
 --- 
 title: "Invoking the built-in browser in Android emulator during automation"
-linktitle: "Invoking the built-in browser in Android emulator during automation"
+linktitle: "Invoking the built-in browser"
 description: "There are two methods by which the built-in browser may be invoked in Android emulators."
 weight: 2
 aliases: 

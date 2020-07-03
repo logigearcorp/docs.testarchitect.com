@@ -1,6 +1,6 @@
 --- 
 title: "Creating web service test"
-linktitle: "Creating web service test"
+linktitle: "Creating a test"
 description: "Functional testing of web services consists of invoking web service's APIs from TestArchitect's test procedures and checking the returned result values."
 weight: 1
 aliases: 

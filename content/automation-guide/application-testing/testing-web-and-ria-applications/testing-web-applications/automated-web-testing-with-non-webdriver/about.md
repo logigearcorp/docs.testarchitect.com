@@ -1,6 +1,6 @@
 --- 
 title: "Testing web applications - Overview"
-linktitle: "Testing web applications - Overview"
+linktitle: "About"
 description: "Some basics of creating and recording tests for web applications, web control identification via the Interface Viewer, and other concepts."
 weight: 2
 aliases: 

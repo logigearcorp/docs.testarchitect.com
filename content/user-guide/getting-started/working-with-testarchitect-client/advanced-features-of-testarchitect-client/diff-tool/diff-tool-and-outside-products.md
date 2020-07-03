@@ -1,6 +1,6 @@
 --- 
 title: "Using Diff Tool with other third-party products"
-linktitle: "Using Diff Tool with other third-party products"
+linktitle: "Diff Tool and outside products"
 description: "Integrating TestArchitect with other differencing and merging tools."
 weight: 3
 aliases: 

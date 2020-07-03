@@ -1,6 +1,6 @@
 --- 
 title: "Updating ChromeDriver for Google Chrome on Android cloud devices"
-linktitle: "Updating ChromeDriver for Google Chrome on Android cloud devices"
+linktitle: "Updating ChromeDriver"
 description: "Update ChromeDriver to make automated mobile web tests on Google Chrome version 53 or later work properly."
 weight: 4
 aliases: 

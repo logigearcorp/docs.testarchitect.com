@@ -1,6 +1,6 @@
 --- 
 title: "List of supported web controls"
-linktitle: "List of supported web controls"
+linktitle: "Supported web controls"
 description: "Web controls (tags) supported by TestArchitect for testing web applications."
 weight: 6
 aliases: 

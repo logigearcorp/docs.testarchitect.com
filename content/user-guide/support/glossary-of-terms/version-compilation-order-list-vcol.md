@@ -1,6 +1,6 @@
 --- 
-title: "version compilation order list \\(VCOL\\)"
-linktitle: "version compilation order list \\(VCOL\\)"
+title: "version compilation order list (VCOL)"
+linktitle: "version compilation order list (VCOL)"
 description: ""
 weight: 156
 aliases: 

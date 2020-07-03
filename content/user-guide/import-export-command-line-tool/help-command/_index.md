@@ -1,6 +1,6 @@
 --- 
-title: "Help command \\(Import/Export tool\\)"
-linktitle: "Help command \\(Import/Export tool\\)"
+title: "Help command (Import/Export tool)"
+linktitle: "Help command"
 description: "Retrieve descriptive information on the functionality and options of the Import/Export tool."
 weight: 1
 aliases: 

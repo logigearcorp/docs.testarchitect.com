@@ -1,6 +1,6 @@
 --- 
-title: "Refresh function \\(Interface Viewer\\)"
-linktitle: "Refresh function \\(Interface Viewer\\)"
+title: "Refresh function (Interface Viewer)"
+linktitle: "Refresh function (Interface Viewer)"
 description: "Click the Viewer's Refresh button to prompt it to re-inventory all the currently open windows in the system."
 weight: 2
 aliases: 

@@ -1,6 +1,6 @@
 --- 
 title: "Oracle Database"
-linktitle: "Oracle Database"
+linktitle: "Oracle"
 description: "Information specific to testing with Oracle Database."
 weight: 5
 aliases: 

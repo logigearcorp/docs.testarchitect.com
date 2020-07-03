@@ -1,6 +1,6 @@
 --- 
 title: "Installing TestArchitect on macOS"
-linktitle: "Installing TestArchitect on macOS"
+linktitle: "macOS"
 description: "How to install TestArchitect on a Macintosh system."
 weight: 4
 aliases: 

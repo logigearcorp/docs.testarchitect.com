@@ -1,6 +1,6 @@
 --- 
 title: "Testing Win32 applications - Overview"
-linktitle: "Testing Win32 applications - Overview"
+linktitle: "About"
 description: "Some basics of creating and recording tests for Win32 applications, Win32 control identification via the Interface Viewer, and other concepts."
 weight: 1
 aliases: 

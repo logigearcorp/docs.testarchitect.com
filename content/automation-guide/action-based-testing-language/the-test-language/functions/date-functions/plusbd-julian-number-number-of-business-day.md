@@ -1,6 +1,6 @@
 --- 
-title: "plusbd\\(Julian number, number of business day\\)"
-linktitle: "plusbd\\(Julian number, number of business day\\)"
+title: "plusbd(Julian number, number of business day)"
+linktitle: "plusbd(Julian number, number of business day)"
 description: "Add a specified number of business days to a given Julian date number, then return the result as a Julian number."
 weight: 10
 aliases: 

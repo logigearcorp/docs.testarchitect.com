@@ -1,6 +1,6 @@
 --- 
 title: "Uploading TestArchitect test modules/test cases to Team Foundation Server"
-linktitle: "Uploading TestArchitect test modules/test cases to Team Foundation Server"
+linktitle: "Uploading TA test modules/test cases to TFS"
 description: "TestArchitect test cases and test modules can be uploaded to the TFS server, which also establishes one-to-one mappings between the two sets of test cases."
 weight: 6
 aliases: 

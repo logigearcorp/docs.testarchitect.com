@@ -1,6 +1,6 @@
 --- 
 title: "List of supported Safari iOS built-in actions"
-linktitle: "List of supported Safari iOS built-in actions"
+linktitle: "Supported Safari iOS actions"
 description: "Built-in actions supported by TestArchitect for testing Safari on iOS."
 weight: 4
 aliases: 

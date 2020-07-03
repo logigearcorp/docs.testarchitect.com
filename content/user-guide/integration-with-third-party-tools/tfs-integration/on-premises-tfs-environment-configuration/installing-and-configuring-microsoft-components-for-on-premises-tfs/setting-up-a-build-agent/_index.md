@@ -1,6 +1,6 @@
 --- 
 title: "Deploying and configuring a build agent for TFS-MTM integration"
-linktitle: "Deploying and configuring a build agent for TFS-MTM integration"
+linktitle: "Setting up a build agent"
 description: "With Team Foundation Build (TFBuild), you can create and manage build processes that automatically compile and test your applications, and perform other important functions. You can use your build system to support a strategy of continuous integration or put even more rigorous quality checks in place that prevent bad quality code from breaking the build."
 weight: 4
 aliases: 

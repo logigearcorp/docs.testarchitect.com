@@ -1,6 +1,6 @@
 --- 
-title: "Invalid value for argument *<argumentName\\>*. Indexes must start from 1."
-linktitle: "Invalid value for argument *<argumentName\\>*. Indexes must start from 1."
+title: "Invalid value for argument <argumentName>. Indexes must start from 1."
+linktitle: "Invalid value for argument <argumentName>. Indexes must start from 1."
 description: "Error code: 0x8001044AL Problem This happens because you enter an invalid index value which is less than 1 for a given argument. Solution Check the AUT and enter the correct index value for the given ..."
 weight: 1
 aliases: 

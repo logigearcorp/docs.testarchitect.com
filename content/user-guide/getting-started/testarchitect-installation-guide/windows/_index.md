@@ -1,6 +1,6 @@
 --- 
 title: "Installing TestArchitect on Windows"
-linktitle: "Installing TestArchitect on Windows"
+linktitle: "Windows"
 description: "How to install TestArchitect on a Windows system."
 weight: 2
 aliases: 

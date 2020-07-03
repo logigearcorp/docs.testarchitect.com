@@ -1,6 +1,6 @@
 --- 
 title: "Running TestArchitect tests from Microsoft Test Manager"
-linktitle: "Running TestArchitect tests from Microsoft Test Manager"
+linktitle: "Running TA tests from MTM"
 description: "After creating a TA-TFS integration project in Visual Studio that contains test cases, you can plan your tests, execute test cases, and view test results in MTM."
 weight: 9
 aliases: 

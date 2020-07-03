@@ -1,6 +1,6 @@
 --- 
 title: "Comparing a project item's revisions with Diff Tool"
-linktitle: "Comparing a project item's revisions with Diff Tool"
+linktitle: "Comparing revisions"
 description: "How to view the differences between two historical revisions of a project item."
 weight: 2
 aliases: 

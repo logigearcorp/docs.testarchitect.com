@@ -1,6 +1,6 @@
 --- 
 title: "Team Foundation Server-Microsoft Test Manager prerequisites for TestArchitect"
-linktitle: "Team Foundation Server-Microsoft Test Manager prerequisites for TestArchitect"
+linktitle: "TFS-MTM prerequisites for TestArchitect"
 description: "This section describes the requirements for setting up TestArchitect to develop tests in a TFS-MTM environment."
 weight: 1
 aliases: 

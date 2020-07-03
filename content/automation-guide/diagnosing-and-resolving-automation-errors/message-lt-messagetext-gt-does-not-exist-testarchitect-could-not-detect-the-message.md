@@ -1,6 +1,6 @@
 --- 
-title: "Message *<messageText\\>* does not exist. TestArchitect could not detect the message."
-linktitle: "Message *<messageText\\>* does not exist. TestArchitect could not detect the message."
+title: "Message <messageText> does not exist. TestArchitect could not detect the message."
+linktitle: "Message <messageText> does not exist. TestArchitect could not detect the message."
 description: "Error code: 0x80010019L Problem This error occurs because the default message text of prompt popups, specified in popup-related built-in actions, e.g. check popup default text , does not exist. In ..."
 weight: 60
 aliases: 

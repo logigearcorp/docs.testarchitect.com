@@ -1,6 +1,6 @@
 --- 
 title: "Google Chrome Android testing prerequisites"
-linktitle: "Google Chrome Android testing prerequisites"
+linktitle: "Prerequisites"
 description: "Guides to setting up Chrome Android automation under TestArchitect."
 weight: 1
 aliases: 

@@ -1,6 +1,6 @@
 --- 
-title: "Action Based Testing \\(ABT\\)"
-linktitle: "Action Based Testing \\(ABT\\)"
+title: "Action Based Testing (ABT)"
+linktitle: "Action Based Testing (ABT)"
 description: ""
 weight: 3
 aliases: 

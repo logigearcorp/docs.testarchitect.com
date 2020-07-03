@@ -1,6 +1,6 @@
 --- 
 title: "Selecting a single cloud device during execution"
-linktitle: "Selecting a single cloud device during execution"
+linktitle: "A single cloud device"
 description: "From within your action lines, you can control which cloud device your test is to execute on. The built-in assign cloud device action is used to specify a target cloud device upon which the subsequent action lines are to be run."
 weight: 1
 aliases: 
