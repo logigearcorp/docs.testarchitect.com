@@ -10,7 +10,7 @@ keywords: "built-in actions, check popup default text, check popup default text 
 
 ## Description
 
-Check the default text of the user-entry fields of one or more prompt popups against their respective expected values. Result is Passed ifall values match; otherwise Failed.
+Check the default text of the user-entry fields of one or more prompt popups against their respective expected values. Result is Passed if all values match; otherwise Failed.
 
 ## Arguments
 

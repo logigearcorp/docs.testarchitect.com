@@ -10,7 +10,7 @@ keywords: "built-in actions, check controls matched, built-in actions, compare i
 
 ## Description
 
-Check that all defined controls in an interface entity match the controls in a window of the AUT. Result is Passed ifall the specified controls match; otherwise Failed.
+Check that all defined controls in an interface entity match the controls in a window of the AUT. Result is Passed if all the specified controls match; otherwise Failed.
 
 ## Arguments
 

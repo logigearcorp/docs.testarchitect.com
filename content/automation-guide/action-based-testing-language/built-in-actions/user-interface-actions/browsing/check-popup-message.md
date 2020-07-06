@@ -10,7 +10,7 @@ keywords: "built-in actions, check popup message, check popup message (action), 
 
 ## Description
 
-Check the messages displayed by one or more confirmation, prompt, or alert popups against their respective expected text strings. Result is Passed ifall values match; otherwise Failed.
+Check the messages displayed by one or more confirmation, prompt, or alert popups against their respective expected text strings. Result is Passed if all values match; otherwise Failed.
 
 ## Arguments
 

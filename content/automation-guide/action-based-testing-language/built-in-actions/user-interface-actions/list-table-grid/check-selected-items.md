@@ -10,7 +10,7 @@ keywords: "built-in actions, check selected items, check selected items (action)
 
 ## Description
 
-Check the selection status of specified items in a multiple selection control. Result is Passed ifall the specified items are selected; otherwise Failed.
+Check the selection status of specified items in a multiple selection control. Result is Passed if all the specified items are selected; otherwise Failed.
 
 ## Arguments
 
