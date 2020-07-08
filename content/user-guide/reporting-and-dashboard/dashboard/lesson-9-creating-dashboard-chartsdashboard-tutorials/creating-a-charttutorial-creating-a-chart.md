@@ -75,14 +75,10 @@ Dashboard offers five types of charts: pie charts, line charts, bar charts, stac
 
     ![](/images/TA_Tutorials/Images/tut.Dashboard.drill_down.Car_Rental_Overview.01.png)
 
-6.  {{<note>}}
-
-Because a Dashboard panel is dynamically linked to its data profile, modifications to the profile are reflected in a panel or drill down report as soon as they are generated or refreshed.
-
-Let's suppose you want to know which operating systems were hosting the AUT for each of the failed tests, and wish to see this included in the drill down report.
-
-    Modify the Test Results \(unfiltered\) profile and re-view the drill down report:
-
+6.  **Optional**
+   {{<note>}} Because a Dashboard panel is dynamically linked to its data profile, modifications to the profile are reflected in a panel or drill down report as soon as they are generated or refreshed.  
+   Let's suppose you want to know which operating systems were hosting the AUT for each of the failed tests, and wish to see this included in the drill down report.  
+   Modify the Test Results \(unfiltered\) profile and re-view the drill down report:  
     1.  Click on the browser tab displaying your Dashboard Tutorial Page.
 
     2.  Select **Data Profiles** from the **Administer** menu.
@@ -120,7 +116,7 @@ What you have learned:
 
 
 
-**Parent topic:**[Lesson \#9: Creating Dashboard chartsDashboard tutorials](/user-guide/reporting-and-dashboard/dashboard/lesson-9-creating-dashboard-chartsdashboard-tutorials/)
+
 
 
 
