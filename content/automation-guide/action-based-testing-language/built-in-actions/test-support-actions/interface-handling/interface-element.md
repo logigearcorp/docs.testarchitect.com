@@ -42,6 +42,12 @@ This action may be used within the following project items:interface entities.
 
 The following settings are applicable to this action:none.
 
+## Example
+
+**Action Lines**
+
+![](/images//Images/bia_interface_element_pgm.png)
+
 **Related information**  
 
 

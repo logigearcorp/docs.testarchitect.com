@@ -34,11 +34,6 @@ Built-in actions cannot be modified by you. They can, however, be used as buildi
 
 {{<note>}} See [Built-in actions](/automation-guide/action-based-testing-language/built-in-actions/) for a complete reference to TestArchitect's library of built-in actions.
 
-## Showing applicable built-in actions for windows/controls
-
-From Solution Explorer, drag an interface entity or interface element into a cell in an empty row in the editor to view a drop-down list of applicable built-in actions. After selecting an action from the drop-down list, TestArchitect automatically completes the syntax and the argument cells of the interface entity or interface element.
-
-{{<note>}} This feature is only available in the test editor for test modules and [user-defined actions](/user-guide/actions/user-defined-actions/).
 
 
 

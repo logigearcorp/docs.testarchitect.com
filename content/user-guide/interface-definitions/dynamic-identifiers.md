@@ -125,23 +125,7 @@ you might prefer the clarity that comes with decomposing that complex action lin
 
 ![](/images/TA_Automation/Images/Dynamic_identifiers_multi_level_2b_fixed.png)
 
-## Bilevel dynamic identifiers
 
-A bilevel dynamic identifier is one in which the value setting for a TA property is itself a dynamic identifier. Note that, when constructing a bilevel dynamic identifier, the internal dynamic identifier must be enclosed in apostrophes:
-
-```
-[ta class=panel, anchor='[ta class=panel, anchor=lv3, anchor pos=panel 1]', anchor pos=panel 2]
-```
-
-## Decomposing bilevel dynamic identifiers
-
-From the standpoint of readability, a good practice is to assign the inner level of a bilevel dynamic identifier to a variable, and then construct the full identifier in the control argument of the action that must reference it. For example, instead of using a bilevel dynamic identifier in an action line, such as this:
-
-![](/images/TA_Automation/Images/Dynamic_identifiers_multi_level_2a.png)
-
-you might prefer the clarity that comes with decomposing that complex action line into the following, which is functionally equivalent:
-
-![](/images/TA_Automation/Images/Dynamic_identifiers_multi_level_2b.png)
 
 
 

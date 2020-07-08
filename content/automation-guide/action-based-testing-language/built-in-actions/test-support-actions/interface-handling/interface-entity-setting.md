@@ -46,6 +46,12 @@ This action may be used within the following project items:interface entities
 
 The following settings are applicable to this action:none.
 
+## Example
+
+**Action Lines** In this example, the TA name confirm reservation is mapped to the window whose title property = Car Rental-Confirm Your Reservation:
+
+![](/images//Images/bia_interface_entity_setting_pgm.png)
+
 **Related information**  
 
 
