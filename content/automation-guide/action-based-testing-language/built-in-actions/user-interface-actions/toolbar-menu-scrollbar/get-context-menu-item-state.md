@@ -89,21 +89,6 @@ This action is applicable to the following controls:button, Calendar, check box,
 
 ![](/images/TA_Automation/Images/bia_get_context_menu_item_state_index_res.png)
 
-## Example
-
-![](/images/TA_Automation/Images/bia_get_context_menu_item_state_aut.png)
-
-**Action Lines**
-
-![](/images/TA_Automation/Images/bia_get_context_menu_item_state_pgm.png)
-
-**Result**
-
-![](/images/TA_Automation/Images/bia_get_context_menu_item_state_res.png)
-
-
-
-
 **Related information**  
 
 
