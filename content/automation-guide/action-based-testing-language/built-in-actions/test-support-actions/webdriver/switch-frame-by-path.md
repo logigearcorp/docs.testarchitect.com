@@ -30,13 +30,17 @@ This action may be used within the following project items:test modules and user
 
 -   switch frame by path cannot move the focus back to its parent frame or default page. To move the focus to the parent frame or default page. You ought to adopt the [switch frame by destination](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/webdriver/switch-frame-by-destination) action.
 
-## Example![](/images/TA_Automation/Images/bia_switch_frame_by_path_illustration.png)
+## Example
+
+![](/images/TA_Automation/Images/bia_switch_frame_by_path_illustration.png)
 
 
 
 The current frame is 'frame 1'. You want to switch to 'frame 3'.
 
-## Action Lines![](/images/TA_Automation/Images/bia_switch_frame_by_path_pgm.png)
+## Action Lines
+
+![](/images/TA_Automation/Images/bia_switch_frame_by_path_pgm.png)
 
 
 

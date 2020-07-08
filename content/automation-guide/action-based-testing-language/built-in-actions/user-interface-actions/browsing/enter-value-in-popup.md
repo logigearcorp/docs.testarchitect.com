@@ -34,7 +34,9 @@ You are testing the subscription feature of a news page.
 1.  When you click the **Subscribe** button in the page, a popup appears so that you can enter your email address.
 2.  The test enters an email address, e.g. james.doe@yahoo.com, in the popup.
 
-## Action lines![](/images/TA_Automation/Images/bia_enter_value_in_popup_pgm.png)
+## Action lines
+
+![](/images/TA_Automation/Images/bia_enter_value_in_popup_pgm.png)
 
 
 
