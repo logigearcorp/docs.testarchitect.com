@@ -10,7 +10,7 @@ keywords: "methods of abt, GetMousePosition, GetMousePosition (AbtDevice), AbtDe
 
 ## Syntax
 
-`[TAPoint](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abt-object-classes/tapoint) GetMousePosition()`
+`{{<link title="TAPoint" link="/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abt-object-classes/tapoint">}} GetMousePosition()`
 
 ## Description
 

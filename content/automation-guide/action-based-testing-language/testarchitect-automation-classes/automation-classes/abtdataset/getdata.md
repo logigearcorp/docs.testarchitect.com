@@ -10,7 +10,7 @@ keywords: "methods of abt, GetData, GetData (AbtDataSet), AbtDataSet, get data r
 
 ## Syntax
 
-`List <[AbtDataRow](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdatarow/)> GetData(string filterCriteria)`
+`List <{{<link title="AbtDataRow" link="/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdatarow" >}}> GetData(string filterCriteria)`
 
 ## Description
 

@@ -10,7 +10,7 @@ keywords: "methods of abt, GetBaselineByIndex, GetBaselineByIndex (AbtPictureChe
 
 ## Syntax
 
-`[<AbtBaselinePicture\>](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtbaselinepicture/) GetBaselineByIndex (int index)`
+`{{<link title="<AbtBaselinePicture>" link="/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtbaselinepicture/">}} GetBaselineByIndex (int index)`
 
 ## Description
 

@@ -10,7 +10,7 @@ keywords: "methods of abt, InsertRow, InsertRow (AbtDataSet), AbtDataSet, insert
 
 ## Syntax
 
-`int InsertRow([AbtDataRow](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdatarow/) row, int index)`
+`int InsertRow({{<link title="AbtDataRow" link="/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdatarow/">}} row, int index)`
 
 ## Description
 

@@ -10,7 +10,7 @@ keywords: "methods of abt, GetBaselineByName, GetBaselineByName (AbtPictureCheck
 
 ## Syntax
 
-`[<AbtBaselinePicture\>](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtbaselinepicture/) GetBaselineByName (string name)`
+`{{<link title="<AbtBaselinePicture>" link="/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtbaselinepicture/">}} GetBaselineByName (string name)`
 
 ## Description
 

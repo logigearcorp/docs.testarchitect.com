@@ -10,7 +10,7 @@ keywords: "methods of abt, GetBaselines, GetBaselines (AbtPictureCheck), AbtPict
 
 ## Syntax
 
-`List [<AbtBaselinePicture\>](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtbaselinepicture/) GetBaselines`
+`List {{<link title="<AbtBaselinePicture>" link="/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtbaselinepicture/">}} GetBaselines`
 
 ## Description
 

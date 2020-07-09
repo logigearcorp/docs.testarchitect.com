@@ -10,7 +10,7 @@ keywords: "methods of abt, AddRow, AddRow (AbtDataSet), AbtDataSet, addrow, abtd
 
 ## Syntax
 
-`int AddRow([AbtDataRow](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdatarow/) row)`
+`int AddRow({{<link title="AbtDataRow" link="/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdatarow/" >}} row)`
 
 ## Description
 

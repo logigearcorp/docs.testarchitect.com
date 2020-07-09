@@ -10,7 +10,7 @@ keywords: "methods of abt, GetPictureCheck, GetPictureCheck (AbtPictureCheckMana
 
 ## Syntax
 
-`[AbtPictureCheck](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtpicturecheck/) GetPictureCheck(string path)`
+`{{<link title="AbtPictureCheck" link="/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtpicturecheck/">}} GetPictureCheck(string path)`
 
 ## Description
 
