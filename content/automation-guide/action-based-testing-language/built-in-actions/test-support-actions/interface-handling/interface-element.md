@@ -46,7 +46,7 @@ The following settings are applicable to this action:none.
 
 **Action Lines**
 
-![](/images//Images/bia_interface_element_pgm.png)
+![](/images/TA_Automation/Images/bia_interface_element_pgm.png)
 
 **Related information**  
 
