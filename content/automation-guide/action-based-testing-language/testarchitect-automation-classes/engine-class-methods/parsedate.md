@@ -12,22 +12,22 @@ keywords: "ABT Library Functions, ParseDate, ParseDate (ABT library function)"
 
 `integer ParseDate (string datestring)`
 
-## Description
+## {{< expand >}} Description
 
 Parse \(recognize\) a date and convert it to a number.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **datestring**
 
     The date to be parsed.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 The return value is a number representing the date. If the date can't be formatted a diagnostic is issued and the return value is 0.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This function uses the 3 character "date order" setting to specify the order, for example " mdy " means first month, then day, then year. It accepts a wide variety of formats.
 -   This function is equivalent to the "id" function as it can be used by the tester in a "\#" expression.

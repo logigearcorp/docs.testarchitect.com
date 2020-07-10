@@ -12,19 +12,19 @@ keywords: "ABT Library Functions, DiagnosticTrace, DiagnosticTrace (ABT library 
 
 `string DiagnosticTrace ()`
 
-## Description
+## {{< expand >}} Description
 
 Retrieve the "trace" connected to the most recent diagnostic.
 
-## Parameters
+## {{< expand >}} Parameters
 
 There are no parameters for this function.
 
-## Return Value
+## {{< expand >}} Return Value
 
 The function returns the most recent diagnostic code.
 
-## Notes
+## {{< expand >}} Notes
 
 A diagnostic in the engine consists of the following elements:
 

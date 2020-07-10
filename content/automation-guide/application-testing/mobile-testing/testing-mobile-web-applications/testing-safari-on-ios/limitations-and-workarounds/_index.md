@@ -10,7 +10,7 @@ keywords: "mobile web testing, Safari, limitations, Safari testing, iOS"
 
 This topic categorizes some limitations you might encounter in testing web applications in Safari on iOS. Applicable workarounds, if available, are also discussed.
 
-## Cross-domain web pages
+## {{< expand >}} Cross-domain web pages
 
 -   **Problem**: **[click on next popup](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/click-on-next-popup) built-in action does not work properly.**
 
@@ -25,7 +25,7 @@ This topic categorizes some limitations you might encounter in testing web appli
     **Solution**: At this time, no solution to this problem exists.
 
 
-## Event-fired action model
+## {{< expand >}} Event-fired action model
 
 -   **Problem**: **The [enter](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/enter)action does not work on tags whose contenteditable attribute is true.**
 
@@ -42,7 +42,7 @@ This topic categorizes some limitations you might encounter in testing web appli
         -   [HTML DOM Events](http://www.w3schools.com/jsref/dom_obj_event.asp).
         -   [JavaScript Tutorial](http://www.w3schools.com/js/).
 
-## Page navigation
+## {{< expand >}} Page navigation
 
 -   **Problem**: **Popup-handler queue may affect on a wrong page session.**
 

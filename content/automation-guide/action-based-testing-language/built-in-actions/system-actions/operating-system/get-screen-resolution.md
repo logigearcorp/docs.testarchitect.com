@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, get screen resolution, get screen resolution (action), iOS (action), get screen resolution, Android (action), retrieve screen resolution, get display resolution, retrieve display resolution"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Retrieve the screen resolution of the test machine.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **width**
 
@@ -23,11 +23,11 @@ Retrieve the screen resolution of the test machine.
     Variable to receive the returned screen height in pixels.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   In iOS, all coordinate values are specified using floating-point values in units referred to as points. Consequently, built-in actions acting on iOS applications similarly use points in place of pixels, to specify object positions and dimensions. Note that one point does not necessarily correspond to one pixel on the screen.
 
@@ -43,11 +43,11 @@ This action may be used within the following project items:test modules and user
 -   For each of width and height, if the argument is left empty, a variable with the same name as the argument header is created to hold the return value.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

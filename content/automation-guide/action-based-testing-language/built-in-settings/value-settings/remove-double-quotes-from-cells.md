@@ -8,23 +8,23 @@ aliases:
 keywords: "built-in settings, remove double quotes from cells, settings, remove double quotes from cells (settings), remove double quotes from cells, strip off leading and trailing double quotes from texts, remove double quotation marks that encloses text strings, remove double quotes surrounding strings, strip off double quotes that surround texts"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Strip off the leading and trailing double quotes, if any, from text strings.
 
-## Allowable values
+## {{< expand >}} Allowable values
 
 true, false
 
-## Default value
+## {{< expand >}} Default value
 
 false
 
-## Notes
+## {{< expand >}} Notes
 
 -   This built-in setting has particular utility with content that is imported from certain file formats, such as Excel spreadsheets, which often results data values enclosed in quotation marks.
 
-## Example
+## {{< expand >}} Example
 
 **Action**
 

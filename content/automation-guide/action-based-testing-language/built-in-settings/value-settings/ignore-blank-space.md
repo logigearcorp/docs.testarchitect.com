@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in settings, ignore blank space, settings, ignore blank space (settings), ignore blank space, ignore spaces at the beginning or end of strings, remove both leading and trailing whitespace from strings, trim spaces from beginning and end of strings, strip all spaces at both beginning and ending of string"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Ignore spaces at the beginning or end of strings.
 
-## Allowable values
+## {{< expand >}} Allowable values
 
 -   **yes**
 
@@ -23,11 +23,11 @@ Ignore spaces at the beginning or end of strings.
     Do not ignore spaces at the beginning or the end of a string.
 
 
-## Default value
+## {{< expand >}} Default value
 
 yes
 
-## Notes
+## {{< expand >}} Notes
 
 -   By default, TestArchitect trims the leading and trailing spaces from text strings that it captures from the AUT before making the values available to groups of built-in actions that are used to match or compare the values, such as, [check](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/check), [click list item](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/click-list-item), [select](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/select), etc. You now have the option to skip that processing, leaving any leading or trailing spaces in place.
 -   The TestArchitect interpreter automatically strips leading and trailing whitespace from argument values. When you want to distinguish between a given string that has leading or trailing spaces and one that doesn't, there are two approaches you can take.

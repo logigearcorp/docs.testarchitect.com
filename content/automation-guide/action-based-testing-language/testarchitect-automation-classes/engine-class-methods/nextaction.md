@@ -12,15 +12,15 @@ keywords: "ABT Library Functions, NextAction, NextAction (ABT library function)"
 
 `integer NextAction ()`
 
-## Description
+## {{< expand >}} Description
 
 Set up the execution of the next action line.
 
-## Parameters
+## {{< expand >}} Parameters
 
 There are no parameters for this function.;
 
-## Return Value
+## {{< expand >}} Return Value
 
 Definitions of current NextAction return values:
 
@@ -37,7 +37,7 @@ Definitions of current NextAction return values:
 -   endofactiondefinition: 15
 -   endoftest: 17
 
-## Notes
+## {{< expand >}} Notes
 
 -   An administrative function that prepares the interpretation of an action line. The function searches the action of the action line and keeps track whether the action line should come from the main test file or for example an Action Definition.
 

@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, check table view cell value, check table view cell value (action), iOS (action), check table view cell value, check value of table view cell, check value of specific table view cell against expected value, check if value of specified table view cell matches expected value, check whether value specified of table cell matches expected value, verify if value of specific table cell matches expected value"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Check the contents of a table view cell against an expected text string. Result is Passed ifthe two strings match; otherwise Failed.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **window**
 
@@ -37,22 +37,22 @@ Check the contents of a table view cell against an expected text string. Result 
     The expected text content of the table view cell.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes {{< permerlink >}} {#bia_check_table_view_cell_value__section_tll_j2y_mk} 
 
 -   This built-in action applies only to the iOS operating system.
 -   index argument: Note that index numbering begins with 1.
 -   The expectedargument can accept regular expressions. Note that argument values that include regular expressions must be entirely enclosed in curly braces \{\}. As an example, `{[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}}` specifies the pattern for an acceptable email address. More simply, `.*` represents the general wildcard for regular expressions, so that `{.*arch.*}` matches starch, marching, testarchitect, etc.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only), [item wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/item-wait), [object wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/object-wait), [value changed wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/value-changed-wait), [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait), [load invisible controls](/automation-guide/action-based-testing-language/built-in-settings/other-settings/load-invisible-controls).
 
-## Applicable Controls
+## {{< expand >}} Applicable Controls
 
 This action is applicable to the following controls:table view.
 
@@ -68,7 +68,7 @@ This action is applicable to the following controls:table view.
 
 ![](/images/TA_Automation/Images/bia_check_table_view_cell_value_res.png)
 
-## Example - Case 2: The section header argument is blank
+## {{< expand >}} Example - Case 2: The section header argument is blank
 
 ![](/images/TA_Automation/Images/bia_check_table_view_cell_value_2_aut.png)
 

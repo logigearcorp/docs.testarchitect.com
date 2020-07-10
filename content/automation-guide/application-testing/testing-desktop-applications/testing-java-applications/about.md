@@ -15,7 +15,7 @@ Some basics of creating and recording tests for Java applications, Java control 
 -   By default, TestArchitect Register Server, which is installed with TestArchitect, automatically starts up as a service \(daemon\) each time you boot your computer. This service is often essential for automated testing, and should generally be available. [Ensure the availability of the TestArchitect Register Server service](/administration-guide/testarchitect-register-server) before running your automated tests.
 -   For both Windows and Linux platforms, the environment variable JAVA\_TOOL\_OPTIONS is added during the TestArchitect installation process. This variable is used to invoke the TAJavaLoader.jar agent, located at TA\_INSTALL\_DIR\\binclient\\agents\\java\\lib\\ext\\. \(Note: In Windows, JAVA\_TOOL\_OPTIONS is added as both a **User** variable and **System** variable.\)
 
-## Creating and recording tests for Java applications
+## {{< expand >}} Creating and recording tests for Java applications
 
 TestArchitect's test editor allows you to manually author tests consisting of action lines, based on the Action-Based Testing methodology. However, TestArchitect also provides you with a powerful tool to automate the process of authoring action-based tests, saving you time and eliminating the risk of accidental coding errors. The [Action Recorder](/user-guide/actions/action-recorder/) does this by monitoring and recording your manual interactions with theJavaapplication. It automatically generates the equivalent action lines and writes them to your test file, inserting whatever checks you specify to verify the responses of the application. \(See [Using the Action Recorder](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-4-using-the-action-recorder/) for further information.\)
 
@@ -31,7 +31,7 @@ Auto-generated action lines can subsequently be modified and enhanced by hand in
 
 TestArchitect provides many built-in actions for automating various user interactions on Java applications. When you record a test, TestArchitect records the performed GUI actions using these built-in actions. A full reference guide to these actions may be found in the [User Interface actions](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/) section of the Automation Guide.
 
-## Java control identification
+## {{< expand >}} Java control identification
 
 Every user interface control of aJavaapplication has both a class and a set of properties. Property sets vary depending on the class of object involved: a button, for example, will have a different set of properties than a text box or label. Within a given container \(window, dialog box, etc.\), the combination of a control's class and some set of property-value pairs is used by TestArchitect to uniquely identify the control.
 
@@ -41,7 +41,7 @@ The [Interface Viewer](/user-guide/interface-definitions/the-interface-viewer/) 
 
 ![](/images/TA_Automation/Images/aut_interface_definition_UI_Java_identification.png)
 
-## Native Java properties
+## {{< expand >}} Native Java properties
 
 TestArchitect defines its own set of properties, named [TA properties](/user-guide/interface-definitions/the-interface-viewer/interpreting-the-interface-viewer/), which it applies toJava controls. The Interface Viewer displays not only the TA properties of aJava application's controls, but also exposes all of the controls' [native properties](/user-guide/interface-definitions/the-interface-viewer/interpreting-the-interface-viewer/). These are the same properties that are available in the application’s source code and used by the application developers. You may use these native properties to capture controls or automate tests.
 

@@ -12,22 +12,22 @@ keywords: "methods of abt, SelectByIndices, SelectByIndices (AbtList), AbtList, 
 
 `long SelectByIndices (int[] items)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_SelectByIndecies_list__section.desc} 
 
 Select multiple items in the list control, as specified by their indexes.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_SelectByIndecies_list__section.params} 
 
 -   **items**
 
     Array of integers, each specifying the index of an item in the list control. Note that index numbering begins with 1.
 
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#abt_SelectByIndecies_list__section.return} 
 
 Return 0 if the call is successful; otherwise, -1..
 
-## Notes
+## {{< expand >}} Notes
 
 -   This method is applicable to both ListBox and ListView controls.
 

@@ -10,7 +10,7 @@ keywords: "Oracle testing, Windows, Oracle, database testing, Oracle, Windows, s
 
 Information specific to testing with Oracle Database on Windows machines.
 
-## Supported Oracle Database product family
+## {{< expand >}} Supported Oracle Database product family
 
 -   Oracle Database Enterprise Edition
     -   12c Release 2

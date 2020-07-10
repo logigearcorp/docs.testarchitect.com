@@ -14,7 +14,7 @@ Some basics of creating and recording tests for web applications, web control id
 
 Before testing web applications on a supported browser, ensure that necessary settings or reconfigurations required by TestArchitect are fully met. For detailed instructions, see [Preparing web browsers](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/automated-web-testing-with-non-webdriver/preparing-web-browsers/).
 
-## Creating and recording tests for web applications
+## {{< expand >}} Creating and recording tests for web applications
 
 TestArchitect's test editor allows you to manually author tests consisting of action lines, based on the Action-Based Testing methodology. However, TestArchitect also provides you with a powerful tool to automate the process of authoring action-based tests, saving you time and eliminating the risk of accidental coding errors. The [Action Recorder](/user-guide/actions/action-recorder/) does this by monitoring and recording your manual interactions with thewebapplication. It automatically generates the equivalent action lines and writes them to your test file, inserting whatever checks you specify to verify the responses of the application. \(See [Using the Action Recorder](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-4-using-the-action-recorder/) for further information.\)
 
@@ -32,7 +32,7 @@ Auto-generated action lines can subsequently be modified and enhanced by hand in
 
 TestArchitect provides many built-in actions for automating various user interactions on web applications. A full list of these actions may be found in [browser-based actions](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/automated-web-testing-with-non-webdriver/supported-browser-based-actions).
 
-## Web control identification
+## {{< expand >}} Web control identification
 
 Every user interface control of awebapplication has both a class and a set of properties. Property sets vary depending on the class of object involved: a button, for example, will have a different set of properties than a text box or label. Within a given container \(window, dialog box, etc.\), the combination of a control's class and some set of property-value pairs is used by TestArchitect to uniquely identify the control.
 
@@ -52,7 +52,7 @@ The [Interface Viewer](/user-guide/interface-definitions/the-interface-viewer/) 
 -   Use of the [Interface Viewer](/user-guide/interface-definitions/the-interface-viewer/) and [point-to-identify](/user-guide/interface-definitions/interface-capturing-commands/point-to-identify-tool/) tool are currently not supported for web applications running within Microsoft Edge and Mozilla Firefox on Windows, because automated testing of Microsoft Edge and Mozilla Firefox is now supported through WebDriver and GeckoDriver, respectively. \([Learn more](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/troubleshooting-web-automation/how-to-capture-ui-controls-on-mozilla-firefox-and-microsoft-edge)\)
 -   In order to obtain the XPath property, read [here](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/troubleshooting-web-automation/how-to-capture-ui-controls-on-mozilla-firefox-and-microsoft-edge).
 
-## Native web properties
+## {{< expand >}} Native web properties
 
 TestArchitect defines its own set of properties, named [TA properties](/user-guide/interface-definitions/the-interface-viewer/interpreting-the-interface-viewer/), which it applies toweb controls. The Interface Viewer displays not only the TA properties of aweb application's controls, but also exposes all of the controls' [native properties](/user-guide/interface-definitions/the-interface-viewer/interpreting-the-interface-viewer/). These are the same properties that are available in the application’s source code and used by the application developers. You may use these native properties to capture controls or automate tests.
 

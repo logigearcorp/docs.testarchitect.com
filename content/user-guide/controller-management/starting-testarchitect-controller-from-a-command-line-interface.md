@@ -22,7 +22,7 @@ The usage of both commands is to launch TestArchitect Controller. They are place
 
 A sharp distinction between the two commands is their behavior towards the console prompt. Upon a successful execution, the TAController command will return the console prompt. On contrary, upon a successful execution, the TACTRL command will keep the console prompt. Therefore, TAController, not TACTRL, suits CI/CD testing.
 
-## Using the TAController command
+## {{< expand >}} Using the TAController command {{< permerlink >}} {#Controller_starting_from_CLI__section_uk4_44l_ggb} 
 
 1.  Launch a command line.
 2.  Browse to the folder where the TAController command is located.
@@ -39,7 +39,7 @@ A sharp distinction between the two commands is their behavior towards the conso
     {{<remember>}} The port number of TestArchitect Controller must fall within a range of 53600 to 53699.
 
 
-## Using the TACTRL command
+## {{< expand >}} Using the TACTRL command {{< permerlink >}} {#Controller_starting_from_CLI__section_ekx_jrl_ggb} 
 
 1.  Launch a command line.
 2.  Browse to the folder where the TACTRL command is located.

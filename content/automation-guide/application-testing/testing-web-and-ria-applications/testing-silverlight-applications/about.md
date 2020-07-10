@@ -16,7 +16,7 @@ TestArchitect provides full support for automated testing of applications based 
 
 TestArchitect provides many built-in actions for automating various user interactions on Silverlight applications. A full reference guide to these actions may be found in the [User Interface actions](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/) section of the Automation Guide.
 
-## Silverlight control identification
+## {{< expand >}} Silverlight control identification
 
 {{<remember>}} To capture Silverlight controls in TestArchitect, you have to enable the [UIA Support tool](/automation-guide/microsoft-ui-automation/enabling-uia-support-tool).
 
@@ -30,13 +30,13 @@ The [Interface Viewer](/user-guide/interface-definitions/the-interface-viewer/) 
 
 ![](/images/TA_Automation/Images/aut_interface_definition_UI_Silverlight_identification.png)
 
-## Native Silverlight properties
+## {{< expand >}} Native Silverlight properties
 
 TestArchitect defines its own set of properties, named [TA properties](/user-guide/interface-definitions/the-interface-viewer/interpreting-the-interface-viewer/), which it applies toSilverlight controls. The Interface Viewer displays not only the TA properties of aSilverlight application's controls, but also exposes all of the controls' [native properties](/user-guide/interface-definitions/the-interface-viewer/interpreting-the-interface-viewer/). These are the same properties that are available in the application’s source code and used by the application developers. You may use these native properties to capture controls or automate tests.
 
 ![](/images/TA_Automation/Images/aut_interface_definition_Silverlight_Native_properties.png)
 
-## Class mapping
+## {{< expand >}} Class mapping
 
 Given that each platform has its own specific name for each type of control, supporting test automation across a wide variety of platforms gives rise to complex problems. To address this issue, TestArchitect introduces the concept of TA classes.
 

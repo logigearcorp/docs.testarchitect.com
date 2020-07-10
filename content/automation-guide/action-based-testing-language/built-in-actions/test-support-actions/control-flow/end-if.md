@@ -8,27 +8,27 @@ aliases:
 keywords: "built-in actions, end if, end if (action), endif, end if, endif condition, end if condition, end if statement, endif statement"
 ---
 
-## Description
+## {{< expand >}} Description
 
 End a conditional line sequence.
 
-## Arguments
+## {{< expand >}} Arguments
 
 There are no arguments for this action.
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 Action lines appearing after an end if are interpreted normally; that is, unconditionally. \(Or, to be more specific – and to account for the case of nested if/end if blocks – the end if brings an end to the application of all conditionals specified between it and its matching if.\)
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:none.
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

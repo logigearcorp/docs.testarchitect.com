@@ -8,7 +8,7 @@ aliases:
 keywords: "built-in settings, item wait, settings, item wait (settings), item wait, maximum wait time for specified item to become available, maximum time to wait for specified item to become available"
 ---
 
-## Description
+## {{< expand >}} Description
 
 The maximum wait time for an item to become available or, depending on the action involved, unavailable.
 
@@ -19,15 +19,15 @@ An item can be one of the following:
 -   list item \(that is, an item in a list view, list box, or combo box\)
 -   table cell
 
-## Value units
+## {{< expand >}} Value units
 
 seconds
 
-## Default value
+## {{< expand >}} Default value
 
 3
 
-## Notes
+## {{< expand >}} Notes
 
 -   An item is available when it is visible, enabled, or it has a bounding rectangle.
 -   In the case of tree nodes and menu items: TestArchitect waits within the time-out, specified by item wait, for each level of the node path, or the menu path.

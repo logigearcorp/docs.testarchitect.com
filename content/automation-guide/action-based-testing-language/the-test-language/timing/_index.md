@@ -10,7 +10,7 @@ keywords: "timing techniques, timing settings"
 
 Successful testing requires that the automation correctly handle the varying response times of a system under test, and not to attempt to continue with interactions before the system is finished with the previous function.Conversely, it is also important that we wait no longer than is necessary for a function to complete, as excessive waits could potentially slow down overall run times of larger test runs.
 
-## Timing Settings
+## {{< expand >}} Timing Settings
 
 The behavior of built-in actions in TestArchitect is governed by a number of user-definable settings, documented in [Built-in Settings](/automation-guide/action-based-testing-language/built-in-settings/) of the Automation Guide. Among the built-in settings are several that relate to timing issues during test execution, all summarized in the table below. These timing settings all have default values, but you are free to modify such values within your test modules, using the built-in [setting](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/value-handling/setting) action.
 

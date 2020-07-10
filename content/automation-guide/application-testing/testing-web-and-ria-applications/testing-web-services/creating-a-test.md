@@ -10,7 +10,7 @@ keywords: "web services testing, creating test"
 
 Functional testing of web services consists of invoking web service's APIs from TestArchitect's test procedures and checking the returned result values.
 
-## Planning a web service functional test
+## {{< expand >}} Planning a web service functional test
 
 Before creating test procedures, plan your web service test as follows:
 
@@ -20,7 +20,7 @@ Before creating test procedures, plan your web service test as follows:
 
 After planning your test, start creating it.
 
-## Creating a web service functional test
+## {{< expand >}} Creating a web service functional test {{< permerlink >}} {#concept_dyl_drm_1y__section_l5x_qrm_1y} 
 
 Typically, creation of a web service test includes the following steps:
 

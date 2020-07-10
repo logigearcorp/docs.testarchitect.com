@@ -8,26 +8,26 @@ aliases:
 keywords: "built-in actions, release key, release key (action), release key, key released, key up, key is released"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Release the specified key\(s\) that were previously held down using the [hold key](/automation-guide/action-based-testing-language/built-in-actions/system-actions/keyboard/hold-key) built-in action.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **keys**
 
     \(Optional\) Key\(s\) to release.
 
 
-## Applicable Systems/Platforms
+## {{< expand >}} Applicable Systems/Platforms
 
 Use of this action is supported on the following systems/platforms: Windows and Linux.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Notes
+## {{< expand >}} Notes
 
 -   For special keys, the following notations are used:
     -   Function keys: \{F1\} to \{F12\}
@@ -84,11 +84,11 @@ The following settings are applicable to this action:[remove double quotes from 
 
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Example
+## {{< expand >}} Example
 
 The following sample of test procedures selecting multiple cells in a given table by holding down the **left-CTRL** key, then applying [click table cell](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/click-table-cell) built-in action several times, finally releasing the **left-CTRL** key.
 
-## Action Lines
+## {{< expand >}} Action Lines
 
 ![](/images/TA_Automation/Images/bia_release_key_pgm.png)
 

@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, get displayed text, get displayed text (action), iOS (action), get displayed text, retrieve displayed text, get onscreen text, retrieve onscreen text"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Retrieve the all text displayed in a control.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **window**
 
@@ -27,29 +27,29 @@ Retrieve the all text displayed in a control.
     \(Optional\) Variable to receive the returned text.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## {{< expand >}} Applicable Systems/Platforms {{< permerlink >}} {#bia_get_displayed_text__section_qhy_ybl_zcb} 
 
 Use of this action is supported on the following systems/platforms: iOS.
 
-## Notes
+## {{< expand >}} Notes {{< permerlink >}} {#bia_get_displayed_text__section_tll_j2y_mk} 
 
 -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
 -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive), [ignore blank space](/automation-guide/action-based-testing-language/built-in-settings/value-settings/ignore-blank-space), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only), [object wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/object-wait), [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait), [load invisible controls](/automation-guide/action-based-testing-language/built-in-settings/other-settings/load-invisible-controls).
 
-## Applicable Controls
+## {{< expand >}} Applicable Controls
 
 This action is applicable to the following controls:activity indicator view, button, collection view, collection view cell, date picker, image, label, map view, navigation bar, page control, picker view, progress bar, scroll view, search bar, segmented control, slider, stepper, switch, tab bar, table view, table view cell, text view, text box, toolbar, view, web view, window.
 
-## Example
+## {{< expand >}} Example
 
 Use get displayed text to retrieve the default text found in the **username** control of a login window, then check that it matches the string “John”.
 

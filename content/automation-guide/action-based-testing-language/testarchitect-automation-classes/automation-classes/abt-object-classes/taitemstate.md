@@ -8,7 +8,7 @@ aliases:
 keywords: "constants of abt, TAItemState, TAItemState (constants), determine state of controls, state of listbox or listview, state of menu or toolbar, state of treeview"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Enumeration that indicates the state of items in ListBox, ListView, MenuBar, ToolBar, and TreeView controls.
 

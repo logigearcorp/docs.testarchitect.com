@@ -12,11 +12,11 @@ keywords: "ABT Library Functions, AssignActionSetting, AssignActionSetting (ABT 
 
 `integer AssignActionSetting(string actionname, string settingname, string settingvalue)`
 
-## Description
+## {{< expand >}} Description
 
 Assign a setting to an action word.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **actionname**
 
@@ -31,11 +31,11 @@ Assign a setting to an action word.
     Value of the setting.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Return 1 if the call is successful; otherwise, 0.If unsuccessful, the diagnostic functions can be used to get more details.
 
-## Notes
+## {{< expand >}} Notes
 
 -   See the notes at [ActionSetting](/automation-guide/action-based-testing-language/testarchitect-automation-classes/engine-class-methods/actionsetting).
 

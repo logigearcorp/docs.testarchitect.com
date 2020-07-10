@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, check text not exists, check text not exists (action), iOS (action), check text not exists, Android (action), check specified text does not exist within area, check if specified text does not in area, check nonexistence of specified text within area, verify whether specified text does not exist within area"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Check for the nonexistence of a given [bitmap text fragment](/user-guide/support/glossary-of-terms/bitmap-text-fragment) in a specified area of a bitmap. Result is Passed ifthe text is not found; otherwise Failed.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **window**
 
@@ -53,11 +53,11 @@ Check for the nonexistence of a given [bitmap text fragment](/user-guide/support
     This value is obtained from the [OCR Detector Tool](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/ocr-detector-tool/detecting-matched-texts#note_e3p_3yg_g4) dialog box.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This built-in action employs both [Optional Character Recognition](/automation-guide/action-based-testing-language/the-test-language/text-recognition-techniques) \(OCR\) and [Graphics Device Interface](/automation-guide/action-based-testing-language/the-test-language/text-recognition-techniques) \(GDI\) techniques. By default, the action employs OCR technique. To switch to GDI technique, refer to the [character recognition technique](/automation-guide/action-based-testing-language/built-in-settings/other-settings/character-recognition-technique) built-in setting for details.
 
@@ -103,7 +103,7 @@ This action may be used within the following project items:test modules and user
         3.  Click the **Refresh devices list** ![](/images/Android/Images/Refresh_device_list_btn.png) button.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive) \(see Notes\), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only), [object wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/object-wait), [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait), [load invisible controls](/automation-guide/action-based-testing-language/built-in-settings/other-settings/load-invisible-controls).
 
@@ -119,7 +119,7 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ![](/images/TA_Automation/Images/bia_check_text_not_exists_res.png)
 
-## Example - Case 2: With rect argument specified
+## {{< expand >}} Example - Case 2: With rect argument specified
 
 ![](/images/TA_Automation/Images/bia_check_text_not_exists_aut_2.png)
 
@@ -131,7 +131,7 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ![](/images/TA_Automation/Images/bia_check_text_not_exists_res_2.png)
 
-## Example - Case 3: With index argument specified
+## {{< expand >}} Example - Case 3: With index argument specified
 
 ![](/images/TA_Automation/Images/bia_check_text_not_exists_aut_3.png)
 
@@ -143,7 +143,7 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ![](/images/TA_Automation/Images/bia_check_text_not_exists_res_3.png)
 
-## Example - Case 4: With text color argument specified
+## {{< expand >}} Example - Case 4: With text color argument specified
 
 ![](/images/TA_Automation/Images/bia_check_text_not_exists_aut_4.png)
 

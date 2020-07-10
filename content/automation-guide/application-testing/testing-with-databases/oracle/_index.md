@@ -10,11 +10,11 @@ keywords: "Oracle testing, Oracle, database testing, supported Oracle editions, 
 
 Information specific to testing with Oracle Database.
 
-## Introduction
+## {{< expand >}} Introduction {{< permerlink >}} {#concept_pdk_r1c_5bb__section_fd4_fdj_5bb} 
 
 Oracle Database is the database designed for enterprise grid computing, the most flexible and cost effective way to manage information and applications. Enterprise grid computing creates large pools of industry-standard, modular storage and servers. With this architecture, each new system can be rapidly provisioned from the pool of components. \([Learn more](https://docs.oracle.com/cd/B19306_01/server.102/b14220/intro.htm).\)
 
-## Supported Oracle Database product family
+## {{< expand >}} Supported Oracle Database product family {{< permerlink >}} {#concept_pdk_r1c_5bb__section_p1w_qdj_5bb} 
 
 -   Oracle Database Enterprise Edition
     -   12c Release 2
@@ -22,7 +22,7 @@ Oracle Database is the database designed for enterprise grid computing, the most
 -   Oracle Database Express Edition
     -   11g Release 2
 
-## Actions
+## {{< expand >}} Actions
 
 TestArchitect provides the following built-in actions for working with SQL-compliant databases. They are listed in the typical order of their workflow:
 
@@ -32,7 +32,7 @@ TestArchitect provides the following built-in actions for working with SQL-compl
 4.  [execute sql](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/execute-sql): Execute an SQL command against the currently in-use database; optionally, store returned data into one or more data sets.
 5.  [disconnect database](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/disconnect-database): Close the database connection.
 
-## Example
+## {{< expand >}} Example
 
 ```
 connect database 

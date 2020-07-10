@@ -12,7 +12,7 @@ TestArchitect uses a special TA property, called XPath and derived from the XPat
 
 {{<important>}} In identifying a control within an application, TestArchitect normally allows for any combination of valid TA properties \(and their respective values\) to be specified. The XPath property is an exception. When it is used to identify a control \(such as in an [interface element](/user-guide/support/glossary-of-terms/interface-element) or [dynamic identifier](/user-guide/support/glossary-of-terms/dynamic-identifier)\), no other property-value pairs may accompany it.
 
-## Applicable platforms
+## {{< expand >}} Applicable platforms
 
 The XPath TA property is currently available on the following platforms:
 
@@ -29,7 +29,7 @@ The XPath TA property is currently available on the following platforms:
         {{<restriction>}} XPath is not supported on WebView.
 
 
-## Synopsis
+## {{< expand >}} Synopsis
 
 It is generally the case that, for any given element in an XML or HTML document, more than one XPath expression can be used to identify it. When TestArchitect conducts a [window intake](/user-guide/support/glossary-of-terms/window-intake) on a web page, in which it establishes values for the properties of all controls, it strives to come up with an optimal value for each XPath property. "Optimal" here basically means the simplest value that guarantees unique identification of that control. Syntactically, in its most basic form, an XPath TA property value contains an XPath path expression of the form `//Adapter[@Attribute='Value']`.
 

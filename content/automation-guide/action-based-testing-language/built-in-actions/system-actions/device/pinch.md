@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, pinch, pinch (action), iOS (action), Android (action), pinch in, pinch out, zoom content, Scale"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Simulate the placing of two fingers on the device surface, followed by the fingers approaching each other \(pinch in\) or diverging \(pinch out\).
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **type**
 
@@ -53,15 +53,15 @@ Simulate the placing of two fingers on the device surface, followed by the finge
     \(Optional\) Length of time allocated to the gesture \(units: milliseconds\).
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## {{< expand >}} Applicable Systems/Platforms {{< permerlink >}} {#bia_iOS_pinch__section_hqw_kcl_zcb} 
 
 Use of this action is supported on the following systems/platforms: Mobile operating systems.
 
-## Notes
+## {{< expand >}} Notes
 
 -   **Pinch-in gesture**: Finger 1 starts at \(x1, y1\), finger 2 at \(x2, y2\). Both fingers are drawn toward each other at equal speed \(as determined by duration\), and converge at the midpoint.
 -   **Pinch-out gesture**: Fingers 1 and 2 both start at point \(x1, y1\). With finger 1 remaining stationary, finger 2 slides over to finish at point \(x2, y2\), at a speed determined by duration.
@@ -69,15 +69,15 @@ Use of this action is supported on the following systems/platforms: Mobile opera
 -   For Android versions 4.0 and later, it is essential that you turn off the Pointer Location setting to prevent your device from restarting. Pointer Location is available at: **Settings** \> **Developer options** \> **Pointer location**.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only), [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait).
 
-## Applicable Controls
+## {{< expand >}} Applicable Controls
 
 This action is applicable to the following controls:activity indicator view, button, collection view, collection view cell, date picker, image, label, map view, navigation bar, page control, picker view, progress bar, scroll view, search bar, segmented control, slider, stepper, switch, tab bar, table view, table view cell, text view, text box, toolbar, view, web view, window.
 
-## Example
+## {{< expand >}} Example
 
 In the application, pinch the tomato and papaya towards each other.
 

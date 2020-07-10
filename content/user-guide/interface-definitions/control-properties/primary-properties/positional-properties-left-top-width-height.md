@@ -10,7 +10,7 @@ keywords: "control properties, positional, left, top, width, height, TA property
 
 The positional properties of a control specify its location and dimensions.
 
-## Positional reference
+## {{< expand >}} Positional reference {{< permerlink >}} {#Interface_def.positional_properties__section_klr_l4l_ngb} 
 
 The left and top TA properties of a control specify its position in the display. Specifically, they specify the position of the top left corner of the control.
 
@@ -20,7 +20,7 @@ However, as for TestArchitect 8.4 Update 2, the left TA property of a control is
 
 
 
-## Mobile device browsers
+## {{< expand >}} Mobile device browsers {{< permerlink >}} {#Interface_def.positional_properties__section_emr_l4l_ngb} 
 
 An exception to the rule above applies to web applications running in mobile device browsers. In such cases, the reference point is actually the top-left corner of the browser display window:
 
@@ -28,7 +28,7 @@ An exception to the rule above applies to web applications running in mobile dev
 
 {{<tip>}} The browser display window, indicated in the figure on the right by the dashed green border, is that part of the browser that displays the web page.
 
-## Screen units
+## {{< expand >}} Screen units
 
 As a general rule, the units used by all four positional properties are pixels. One exception to that rule exists with some of the newer Apple iOS devices; specifically, those with high-resolution Retina displays. For GUI elements in these devices, the values for the left, top, width, and height are stored as so-called points, as opposed to pixels. Each point encompasses several pixels, based on a scale factor specific to the given device display:
 

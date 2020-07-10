@@ -12,7 +12,7 @@ keywords: "methods of abt, GetSelectedIndex, GetSelectedIndex (kAbtComboBox), Ab
 
 `int GetSelectedIndex()`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_GetSelectedIndex_combobx__section.desc} 
 
 Retrieve the numeric index of the currently selected item in the object.
 

@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, does toolbar button exist, does toolbar button exist (action), does toolbar button exist, check specified button on toolbar exists, check whether particular button is found on toolbar, verify if specified button on toolbar exists, verify existence of specified button on toolbar"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Return a Boolean value to indicate whether a specified button on a toolbar exists.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **window**
 
@@ -41,11 +41,11 @@ Return a Boolean value to indicate whether a specified button on a toolbar exist
         Item not found.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   button argument:
     -   The buttonmay be specified by either of two means:the caption text, or its numerical index. \(Indexes are one-based; that is, numbering begins at 1.\)
@@ -58,15 +58,15 @@ This action may be used within the following project items:test modules and user
     -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only), [object wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/object-wait), [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait), [load invisible controls](/automation-guide/action-based-testing-language/built-in-settings/other-settings/load-invisible-controls).
 
-## Applicable Controls
+## {{< expand >}} Applicable Controls
 
 This action is applicable to the following controls:toolbar.
 
-## Example - Case 1: Use text value
+## {{< expand >}} Example - Case 1: Use text value
 
 ![](/images/TA_Automation/Images/bia_does_toolbar_button_exist_aut.png)
 
@@ -78,7 +78,7 @@ This action is applicable to the following controls:toolbar.
 
 ![](/images/TA_Automation/Images/bia_does_toolbar_button_exist_res.png)
 
-## Example - Case 2: Use numerical index value
+## {{< expand >}} Example - Case 2: Use numerical index value
 
 ![](/images/TA_Automation/Images/bia_does_toolbar_button_exist_index_aut.png)
 

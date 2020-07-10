@@ -12,11 +12,11 @@ keywords: "methods of abt, GetItemRect, GetItemRect (AbtToolBar), AbtToolBar, ge
 
 `long GetItemRect(int index, TARect rect)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_GetItemRect_toolbar__section.desc} 
 
 Retrieve the bounding rectangle of the specified toolbar item.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **index**
 
@@ -27,7 +27,7 @@ Retrieve the bounding rectangle of the specified toolbar item.
     Returned [TARect](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abt-object-classes/tarect) object indicating the bounding rectangle of the item.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Return 0 if the call is successful; otherwise, -1..
 

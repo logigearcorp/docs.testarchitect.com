@@ -28,11 +28,11 @@ The automation then establishes which open window is being referenced \(the one 
 
 {{<note>}} You may be wondering how TestArchitect is able to identify the correct window in the first place, given the fact that title=Car Rental-Login is a TA property-value pair, not a native property-value pair. It is indeed possible because, at the start of test execution, TestArchitect performs a system intake, in which it surveys all the windows currently active on the test system, establishing their TA properties and values, and retains that information in cache. Furthermore, it refreshes that information every time it is asked to interface with a new window that is not currently in its cache, given the fact that a typical test may involve constant openings and closings of windows. \(Note also the distinction between a system intake, in which TestArchitect resolves and stores the TA property-values for all open windows, and a window intake, which is performed, on an as-needed basis, on all the available controls of a given window.\)
 
-## intake action
+## {{< expand >}} intake action
 
 Under some circumstances, you may wish to force a refresh of TestArchitect's cache of a given window's controls during the test. This may occur when some action has been taken which is expected to modify the controls present in the window, or modify their properties \(such as making a control visible\). You can perform this refresh with TestArchitect's built-in action, [intake](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/interface-handling/intake).
 
-## Intake behavior
+## {{< expand >}} Intake behavior
 
 While some windows and dialog boxes have only a few controls, others may hold quite a large number of controls. Hence, performing an intake of all the controls of a window can take a considerable amount of time. Test performance can take a hit, especially if intakes are performed on several control-intensive windows, or re-performed on the same window multiple times. For that reason, plus the fact that not all controls of a window always need to be interfaced with, TestArchitect's default behavior is to limit the number of controls it processes during an intake. It does this by two means:
 
@@ -41,7 +41,7 @@ While some windows and dialog boxes have only a few controls, others may hold qu
     -   the width and height properties are both equal to or less than zero.
 -   **Ignoring [container class control](/user-guide/interface-definitions/container-classes/) contents**. Some controls, such as those of class Treeview and Table, can contain a potentially large number of child controls. In many cases, a test may have no need to access such child controls. Hence the default behavior of TestArchitect during an intake is to regard any container class control as “locked”; TestArchitect will capture the container control itself, but skips over its contents.
 
-## Overcoming default intake behavior
+## {{< expand >}} Overcoming default intake behavior
 
 **invisible controls**: During testing, if you have a need to interface with controls that are invisible \(as per the above definition of *invisible*\), TestArchitect provides the built-in setting [load invisible controls](/automation-guide/action-based-testing-language/built-in-settings/other-settings/load-invisible-controls). Note that load invisible controls is a setting, not an action, so it has no immediate effect. Its default value is no. By setting it to yes, the next time an intake needs to be performed on a given window, the window's invisible controls are included in the intake. Moreover, with this setting switched from no to yes, TestArchitect understands that any set of window controls already in its intake cache is outdated, hence for each given window a new intake is performed the next time an action line attempts to access a control in that window.
 

@@ -12,15 +12,15 @@ keywords: "methods of abt, Focus, Focus (AbtElement), AbtElement, focus, abtelem
 
 `long Focus()`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_Focus_element__section.desc} 
 
 Apply input focus to the element.
 
-## Return Value
+## {{< expand >}} Return Value
 
 Return 0 ifthe input focus request is successful; otherwise, -1.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Note that the control may successfully receive input focus while not displaying any visual clues of it. This behavior is primarily exhibited by non-selectable controls or any controls derived from them.
 

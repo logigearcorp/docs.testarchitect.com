@@ -8,15 +8,15 @@ aliases:
 keywords: "built-in actions, last updated by, last updated by (action)"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Keyword to document the name of user who made the last update, \(that is, the user who made changes and checked in the result\).
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This action has been deprecated in TestArchitect 7.
 

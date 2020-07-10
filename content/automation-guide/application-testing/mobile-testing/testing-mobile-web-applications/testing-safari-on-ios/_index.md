@@ -15,7 +15,7 @@ With TestArchitect, automated tests may be created and run on web applications r
 -   Testing Safari on iOS must be done via USB cable connection.
 -   TestArchitect does not support capturing native iOS dialog boxes - that is, ones that, regardless of origin, are posted by the operating system rather than directly from the application. \(An example of such a dialog box would be one displaying the message <app name\> Would Like To Use Your Current Location, which originates from an application submitting a request to iOS, which then presents the popup.\)
 
-## Supported iOS versions
+## {{< expand >}} Supported iOS versions
 
 TestArchitect supports the testing of web applications running within the Safari browser on the following iOS versions:
 
@@ -24,7 +24,7 @@ TestArchitect supports the testing of web applications running within the Safari
 -   iOS 10.3.x
 -   iOS 11.4
 
-## Technological approach
+## {{< expand >}} Technological approach {{< permerlink >}} {#concept_qbz_1fc_vp__section_hjf_dzn_gq} 
 
 -   Remote debugging is a remote web inspector for debugging web applications on iOS devices. The following configurations must be set up to allow remote debugging to be performed:
 

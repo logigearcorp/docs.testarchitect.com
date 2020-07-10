@@ -8,13 +8,13 @@ aliases:
 keywords: "built-in settings, date order, settings, date order (settings), date order, set date order"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Specify the order of the elements \(year, month, day\) of dates on output.
 
 {{<tip>}} To specify the format of each individual element of the date, use the [date format](/automation-guide/action-based-testing-language/built-in-settings/date-time-settings/date-format) setting.
 
-## Allowable values
+## {{< expand >}} Allowable values
 
 -   **mdy**
 
@@ -41,7 +41,7 @@ Specify the order of the elements \(year, month, day\) of dates on output.
     Format = year-day-month.
 
 
-## Default value
+## {{< expand >}} Default value
 
 -   **mdy**
 

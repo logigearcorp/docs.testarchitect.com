@@ -143,7 +143,7 @@ Important folder comparison/synchronizing features are indicated in this figure.
     -   the number of inserted project items \(present in the target but not the source hierarchy\)
     -   the number of removed project items \(present in the source but not target hierarchy\)
 
-## Working with multiple Diff Tool windows
+## {{< expand >}} Working with multiple Diff Tool windows
 
 A unique Diff Tool window is launched every time you invoke the Diff Tool. Hence, it is possible to have multiple Diff Tool windows open concurrently, each displaying a separate comparison.
 

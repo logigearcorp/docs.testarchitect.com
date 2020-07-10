@@ -8,23 +8,23 @@ aliases:
 keywords: "built-in actions, end while, end while (action), end while, end while loop, exit while loop, end while statement"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Denote the end of a [while/end while](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/while) block, and return control to the beginning of the block.
 
-## Arguments
+## {{< expand >}} Arguments
 
 There are no arguments for this action.
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:none.
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

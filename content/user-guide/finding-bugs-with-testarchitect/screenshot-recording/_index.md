@@ -17,7 +17,7 @@ Suppose you executed a long automated test that contains a good deal of interact
 -   TestArchitect captures images only for those actions that correspond to UI-interactive actions. Other actions are not accompanied by screenshots.
 -   The mouse pointer is not captured in the screenshots. \(However, for UI-interactive actions that apply an actual stimulus to the GUI, that point of stimulus, such as a mouse click, is highlighted. \)
 
-## Screenshots captured during test automation
+## {{< expand >}} Screenshots captured during test automation {{< permerlink >}} {#concept_smq_5ms_34__section_nnf_wj5_34} 
 
 With screenshot recording enabled, TestArchitect captures screenshots during test execution. It effectively snaps pictures for each UI-interactive action and posts all or some of them to the local test result.
 
@@ -29,7 +29,7 @@ With screenshot recording enabled, TestArchitect captures screenshots during tes
 
 See [below](#screenshot-capture-and-retention-rules) for a full discussion of the rules regarding screenshot retention.
 
-## Results display
+## {{< expand >}} Results display
 
 Screenshots captured during testing are displayed in the [**Result Details**](/user-guide/working-with-test-results/overview/result-details-tab#li_jkx_zqp_5x) and [**Failure/Error Summary**](/user-guide/working-with-test-results/overview/failure-error-summary-tab) tabs of local test results.
 
@@ -37,7 +37,7 @@ Screenshots captured during testing are displayed in the [**Result Details**](/u
 
 ![](/images/TA_Help/Images/Screenshot_captured_images.png)
 
-## Screenshot viewer display
+## {{< expand >}} Screenshot viewer display {{< permerlink >}} {#concept_smq_5ms_34__section_o4c_qj5_34} 
 
 On the web browser, when you click a captured screenshot in the [**Result Details**](/user-guide/working-with-test-results/overview/result-details-tab#li_jkx_zqp_5x) tab, the screenshot viewer, appears.
 
@@ -51,7 +51,7 @@ The screenshot viewer incorporates a number of functions \(below\).
 4.  Click on the action name to launch TestArchitect Client, displaying detailed description of the UI-interacting built-in action.
 5.  Click on the action line number text launch TestArchitect Client, displaying the corresponding line in its execution context.
 
-## Video playback
+## {{< expand >}} Video playback {{< permerlink >}} {#concept_smq_5ms_34__section.Video_playback} 
 
 TestArchitect doesn't only snap pictures. When you have screenshot recording enabled. TestArchitect creates a video of snapshots from important points during the test and stores it at the end of the test run as a video \(.mp4\) file on your machine.
 
@@ -68,7 +68,7 @@ TestArchitect doesn't only snap pictures. When you have screenshot recording ena
     ![](/images/TA_Help/Images/Screenshot_directory_TAC.png "The video snapshot directory in test results on TestArchitect Client")
 
 
-## Screenshot capture and retention rules
+## {{< expand >}} Screenshot capture and retention rules {{< permerlink >}} {#concept_smq_5ms_34__section.screenshot_rules} 
 
 With screenshot recording active, TestArchitect always captures screenshots of the entire desktop screen.
 
@@ -111,7 +111,7 @@ The rules are as follows:
     In it, you specify the events \(Passed, Failed, or Warning/Error\) for which associated screenshots are to be retained. You also specify the number of preceding screenshot sets that are to be retained for each qualified event. A single screenshot set consists of all the screenshots captured during a single UI-interactive action. The above figure indicates that three screenshot sets are to be retained and logged for each Failed and Warning/Error event of the test: the screenshot set of the associated Failed/Warning/Error action, and the screenshot sets of the two UI-interactive actions preceding it. Note that if the **Keep** field is left blank, screenshot sets for *all* preceding UI-interactive actions are retained.
 
 
-## Notes
+## {{< expand >}} Notes
 
 -   **Android:** Screenshot recording, when applied to a connected Android device, requires that the [TestArchitect Agent service](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/setting-up-the-test-environment/setting-up-android-automation/about-testarchitect-agent-in-android/) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
     1.  Connect the Android device to the test controller through a USB cable \(not Wi-Fi\), if not already so connected.

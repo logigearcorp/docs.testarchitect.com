@@ -18,11 +18,11 @@ On the TestArchitect explorer tree, when you double-click the **Tests** node, an
 
 The following operations can be performed on a test case list view:
 
-## Common operations
+## {{< expand >}} Common operations
 
 You can find various common operations that can be performed on a test case list view at [Common operations](/user-guide/projects-and-project-items/project-items/list-view/common-operations/).
 
-## Opening test steps
+## {{< expand >}} Opening test steps
 
 Steps break up a test case into smaller sections which can be maintained in an easier way. You can display the steps of a test case in the main panel by selecting **Open** on the context menu \(see [Steps](/user-guide/tests/test-cases/test-steps/) for details\).
 
@@ -32,17 +32,17 @@ Steps break up a test case into smaller sections which can be maintained in an e
 
 From a test case list view, you can conveniently display a test case of a given test module within the editor by selecting **Open test case in test module** from the context menu.
 
-## Cut-Copy-Paste operations, and Delete command
+## {{< expand >}} Cut-Copy-Paste operations, and Delete command
 
 -   From a test case list view, you can remove a given test case from one test module and paste it to another by performing a **cut-and-paste** operation from the context menu.
 -   The **copy-and-paste** operation from the context menu allows you to create a duplicate of the selected test case.
 -   Use the **Delete** command from the context menu to remove the selected test case\(s\).
 
-## Name change propagation
+## {{< expand >}} Name change propagation
 
 Select **Rename** from the context menu to edit the name of a selected test case. The name of the test case is thus updated within its parent test module.
 
-## Exporting test cases to CSV files
+## {{< expand >}} Exporting test cases to CSV files
 
 Test cases can be exported to [.CSV](/user-guide/tests/exporting-and-importing-tests/exporting-to-csv-files/exporting-a-test-case) files, which can be used as a backup or for re-importing into a TestArchitect test module.
 

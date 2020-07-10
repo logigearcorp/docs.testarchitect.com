@@ -12,15 +12,15 @@ keywords: "methods of abt, Disconnect, Disconnect (AbtDatabase), AbtDatabase, di
 
 `Boolean Disconnect()`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_Disconnect__section.desc} 
 
 Close the database connection.
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#abt_Disconnect__section.return} 
 
 Return 0 if thedisconnect operationis successful; otherwise, -1.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This method is currently supported only by the C\# harness.
 

@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80016002L"
 
 Error code: 0x80016002L
 
-## Problem
+## {{< expand >}} Problem
 
 This issue occurs because the currently connected mobile device has different device ID than the one specified in the [assign device](/automation-guide/action-based-testing-language/built-in-actions/system-actions/device/assign-device) built-in action.
 
-## Solution
+## {{< expand >}} Solution
 
 Ensure either the device with the correct ID is connected, or update a new ID specified in the [assign device](/automation-guide/action-based-testing-language/built-in-actions/system-actions/device/assign-device) built-in action.
 

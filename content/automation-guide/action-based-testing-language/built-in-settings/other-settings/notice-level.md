@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in settings, notice level, settings, notice level (settings), notice level, specify level of problem that request user's intervention, set level problem that test run should be interrupted, set level problem when users are asked to make choice"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Specifies the level of runtime problem that should be allowed to interrupt execution to request user intervention. Problems in a category at or below the current value of the notice level result in an immediate screen message; those above the current setting result only in a warning included in the final report.
 
-## Allowable values
+## {{< expand >}} Allowable values
 
 There are four possible settings:
 
@@ -33,11 +33,11 @@ There are four possible settings:
     \(Default\) Interrupt test run for *any* error or warning.
 
 
-## Default value
+## {{< expand >}} Default value
 
 3
 
-## Notes
+## {{< expand >}} Notes
 
 -   When a problem with a high enough severity causes the test to pause, the user is presented with a message box indicating the nature of the problem, and is offered the choices of stopping the test, continuing with the remainder of the test, or debugging the problem.
 -   notice level can be set with the dedicated [set notice level](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/error-handling/set-notice-level) action, as well as through the [setting](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/value-handling/setting) action.

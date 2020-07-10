@@ -10,13 +10,13 @@ keywords: "Pictures, comparing, pixel-by-pixel, keypoint detection, Comparing, i
 
 TestArchitect offers you two methods for verifying the correctness of images produced by a tested application: pixel-by-pixel comparison and keypoint detection.
 
-## Pixel-by-pixel Comparison
+## {{< expand >}} Pixel-by-pixel Comparison {{< permerlink >}} {#concept_gtj_f1z_f4__section_bpj_xkg_wv} 
 
 In the pixel-by-pixel technique, TestArchitect maintains a baseline image to use for comparison purposes when testing an image produced by the AUT. The comparison is considered successful only if the test image precisely matches its baseline, meaning that the colors of each pair of corresponding pixels of both images are identical. In order to improve the accuracy of image comparison, you should try to ensure that the baseline image, which is stored prior to testing, is captured under the same conditions for which the application is tested. Sometimes, you may encounter situations in which a pixel-by-pixel comparison fails, but where a visual inspection of the baseline and the image under test reveals no discernible difference. This can occur, for example, when the display hardware used during testing differs from that which was used during the baseline capture.
 
 {{<note>}} TestArchitect does allow you to specify multiple baselines for a given image comparison, which in many cases can address this problem.
 
-## Keypoint Detection Comparison
+## {{< expand >}} Keypoint Detection Comparison
 
 A keypoint detection comparison technique is an alternative. This technique is based on the Scale Invariant Feature Transform \(SIFT\) algorithm, which transforms an image into a collection of feature vectors, each of which is invariant to image scaling, rotation, translation, noise, and other possible “corruptions” of an image. Therefore, a keypoint detection comparison technique can be used to perform reliable matching between a baseline image and an image under test in situations where you cannot be assured of a pixel-by-pixel identical match.
 

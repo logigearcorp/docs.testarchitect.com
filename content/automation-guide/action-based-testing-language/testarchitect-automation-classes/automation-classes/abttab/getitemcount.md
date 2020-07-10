@@ -12,11 +12,11 @@ keywords: "methods of abt, GetItemCount, GetItemCount (AbtTab), AbtTab, getitemc
 
 `int GetItemCount()`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_GetItemCount_tab__section.desc} 
 
 Return the number of tabs in the tab control.
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#abt_GetItemCount_tab__section.return} 
 
 Integer value specifying the number of items found. If an error occurs, the return value is -1.
 

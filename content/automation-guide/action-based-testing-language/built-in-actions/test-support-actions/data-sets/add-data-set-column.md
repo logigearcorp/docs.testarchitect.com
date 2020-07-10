@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, add data set column, add data set column (action), add column, add column to dataset, append column to dataset"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Append new column\(s\) to a data set.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **data set**
 
@@ -25,15 +25,15 @@ Append new column\(s\) to a data set.
     {{<tip>}} Use commas \(,\) as delimiters between names, when adding multiple columns.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## {{< expand >}} Applicable Systems/Platforms {{< permerlink >}} {#bia_create_data_set__dataset_applicable_platforms} 
 
 Use of this action is supported on the following systems/platforms: Windows, Linux.
 
-## Notes
+## {{< expand >}} Notes
 
 -   The data set argument may specify a [dedicated data set](/user-guide/support/glossary-of-terms/dedicated-data-set) or [inline data set](/user-guide/support/glossary-of-terms/inline-data-set) that has already been defined within the test.
     -   *for a dedicated data set:* the full TA path from the **Data** node must be specified, with forward slashes \(/\) delimiting each level of the hierarchy.
@@ -47,11 +47,11 @@ Use of this action is supported on the following systems/platforms: Windows, Lin
 
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells)none.
 
-## Example
+## {{< expand >}} Example
 
 The following example adds the four columns CustID, CustLName, CustFName, and Purchases to a dedicated data set Customers.
 

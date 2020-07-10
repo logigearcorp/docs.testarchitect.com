@@ -8,22 +8,22 @@ aliases:
 keywords: "built-in actions, while, while (action), while, while loop, whie statement"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Denotes the beginning of a while/end while loop. Evaluates a conditional expression to determine whether execution is to continue with the action lines directly below it, or with the lines following the matching end while.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **condition to run**
 
     Expression which, when evaluated to True, allows control to proceed to the succeeding action lines. When evaluated to False, control passes to the first action line following the associated [end while](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/end-while).
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This action ignores letter case for values of True and False, and is unaffected by the current state of the [case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive) built-in setting.
 -   It is acceptable to use numeric expressions in thecondition to runargument. TestArchitect treats the value 0 as False, and 1 as True. Note that an error is generated for any other numeric value.
@@ -49,11 +49,11 @@ This action may be used within the following project items:test modules and user
 -   Be careful when using while/end while loops, and in the expressions you use for condition to run. An infinite loop may cause the TA Playback tool to hang.
 -   To exit a while/end while loop from within the block of action lines, use the built-in action [exit loop](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/exit-loop).
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells)none.
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

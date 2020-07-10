@@ -8,15 +8,15 @@ aliases:
 keywords: "built-in actions, priority, priority (action)"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Keyword to document the priority of test module.
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Insert priority into second column. Acceptable values
     -   High

@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
 
-## TestArchitect Automation
+## {{< expand >}} TestArchitect Automation
 
 -   [Lexical scoping](/automation-guide/action-based-testing-language/the-test-language/variables/#li_n3d_m4z_mr): With this alternative to dynamic scoping \(the previous default mode of TestArchitect\), the scope of a local variable does not extend into action calls. This means that a local variable is only accessible within the block in which it is declared, but not in its child blocks. \(Note that, while lexical scoping is now the default, dynamic scoping may be restored by setting the built-in [lexical scoping](/automation-guide/action-based-testing-language/built-in-settings/other-settings/lexical-scoping) setting to no. \)
 

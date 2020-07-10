@@ -12,11 +12,11 @@ keywords: "methods of abt, DoesScrollBarExist, DoesScrollBarExist (AbtList), Abt
 
 `Boolean DoesScrollBarExist(TAScrollBarType scrollbarType)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_DoesScrollBarExist_list__section.desc} 
 
 Determine whether a scroll bar of the specified type exists.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_DoesScrollBarExist_list__section.params} 
 
 -   **scrollbarType**
 
@@ -27,11 +27,11 @@ Determine whether a scroll bar of the specified type exists.
     -   HORIZONTAL
     -   VERTICAL
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#abt_DoesScrollBarExist_list__section.return} 
 
 Return TRUE ifthe scroll bar exists; otherwise, FALSE.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This method is applicable to both ListBox and ListView controls.
 

@@ -8,32 +8,32 @@ aliases:
 keywords: "built-in actions, report error, report error (action)"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Flag a runtime error and specify the error description text.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **text**
 
     Descriptive text to accompany the error notice.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This action increments the error count for the test run.
 -   The contents of the text argument are displayed in the [**Log Information**](/user-guide/working-with-test-results/overview/log-information-tab) tab of the test results.
 -   If the [notice level](/automation-guide/action-based-testing-language/built-in-settings/other-settings/notice-level) built-in setting is set to allow runtime errors to pause testing, the standard error message box is triggered by this action, and also displays the contents of the text argument.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells)none.
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

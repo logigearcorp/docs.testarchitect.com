@@ -10,25 +10,25 @@ keywords: "string functions, char, newline()"
 
 Return a special character signifying the end of a line of text.
 
-## Syntax
+## {{< expand >}} Syntax
 
 `newline()`
 
-## Parameters
+## {{< expand >}} Parameters
 
 `none`
 
-## Return Value
+## {{< expand >}} Return Value
 
 A non-printing character having the effect of forcing subsequent text to begin at a new line.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Depending on the host operating system, the returned control character varies as follows:
     -   Windows: \\r\\n.
     -   Linux and macOS: \\n.
 
-## Example
+## {{< expand >}} Example
 
 **Test Lines**
 

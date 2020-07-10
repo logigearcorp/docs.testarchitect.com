@@ -12,22 +12,22 @@ keywords: "ABT Library Functions, Report, Report (ABT library function)"
 
 `integer Report (string text)`
 
-## Description
+## {{< expand >}} Description
 
 Add an text line to the report.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **text**
 
     Text to be printed in the report.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Return 1 if the call is successful; otherwise, 0.If unsuccessful, the diagnostic functions can be used to get more details.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This function prints text lines with no specific formatting.
 

@@ -8,15 +8,15 @@ aliases:
 keywords: "built-in actions, version, version (action)"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Keyword to document the test module version.
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This action has been deprecated in TestArchitect 7.
 

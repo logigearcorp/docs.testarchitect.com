@@ -12,19 +12,19 @@ keywords: "ABT Library Functions, ActionScript, ActionScript (ABT library functi
 
 `string ActionScript ()`
 
-## Description
+## {{< expand >}} Description
 
 Retrieve the script for the current action.
 
-## Parameters
+## {{< expand >}} Parameters
 
 There are no parameters for this function.
 
-## Return Value
+## {{< expand >}} Return Value
 
 The function returns the script if there is one defined for the action argument of the current action line.
 
-## Notes
+## {{< expand >}} Notes
 
 -   The action itself can be retrieved with [Argument\(0\)](/automation-guide/action-based-testing-language/testarchitect-automation-classes/engine-class-methods/argument).
 -   This function can only be meaningfully called after a successful call to [NextAction](/automation-guide/action-based-testing-language/testarchitect-automation-classes/engine-class-methods/nextaction).

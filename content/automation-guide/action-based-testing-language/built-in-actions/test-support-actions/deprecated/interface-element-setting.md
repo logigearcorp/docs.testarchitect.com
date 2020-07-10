@@ -8,12 +8,12 @@ aliases:
 keywords: "built-in actions, interface element setting, interface element setting (action)"
 ---
 
-## Description
+## {{< expand >}} Description
 
 -   Specific setting of an interface element
 -   This action is an equivalent alternative to specifying settings as argument to the [interface element](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/interface-handling/interface-element) action. The action always refers to the most recently defined action
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **setting**
 
@@ -24,11 +24,11 @@ keywords: "built-in actions, interface element setting, interface element settin
     Value of the setting
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This action has been deprecated in TestArchitect 7.
 

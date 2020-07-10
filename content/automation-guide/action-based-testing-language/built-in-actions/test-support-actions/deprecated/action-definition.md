@@ -8,26 +8,26 @@ aliases:
 keywords: "built-in actions, action definition, action definition (action)"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Action to declare a new user-defined action in a project.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **name**
 
     Name of the user-defined action.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This action has been deprecated in TestArchitect 7.2.
 
-## Example
+## {{< expand >}} Example
 
 ![](/images/TA_Automation/Images/bia_action_definition_pgm.png)
 

@@ -8,13 +8,13 @@ aliases:
 keywords: "Troubleshooting, iOS, problem: Connection not established, start program, troubleshooting"
 ---
 
-## Problem
+## {{< expand >}} Problem
 
 Upon completion of an automated test, the following error message is reported in the Automation Problem dialog box, or in the test result:
 
 The start program action could not complete since the connection between your device and the test machine could not be established.
 
-## Solution
+## {{< expand >}} Solution
 
 -   Check the USB cable connecting the iOS device to the test controller host. Verify that the connectors are free of debris and that the cable is not damaged. If available, replace with a known good cable.
 -   Verify that your iOS device is recognized in iTunes:

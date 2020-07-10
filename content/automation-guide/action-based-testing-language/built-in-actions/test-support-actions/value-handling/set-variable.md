@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, set variable, set variable (action), set variable, assign value to variable, assign variable value, variable assignment, variable declaration and assignment"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Assign a value to an existing [local](/automation-guide/action-based-testing-language/the-test-language/variables/) or [global variable](/automation-guide/action-based-testing-language/the-test-language/variables/). If the variable has not been declared, declare a new [global variable](/automation-guide/action-based-testing-language/the-test-language/variables/) and assign a value to it.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **variable**
 
@@ -23,20 +23,20 @@ Assign a value to an existing [local](/automation-guide/action-based-testing-lan
     Value to assign to the variable.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   In the event that multiple instances of a given variable name exist at the time set variable executes, the action operates on the one that is currently visible. \(See [Variables](/automation-guide/action-based-testing-language/the-test-language/variables/) for more on visibility and scope.\) To ensure that the global instance of a given variable name is accessed \(assuming it exists\), use the [set global variable](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/value-handling/set-global-variable) action.
 -   Use variables within pound sign \(\#\) expressions to access their contained values.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells)none.
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

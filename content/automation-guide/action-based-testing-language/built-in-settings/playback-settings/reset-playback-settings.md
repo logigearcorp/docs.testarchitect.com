@@ -8,7 +8,7 @@ aliases:
 keywords: "built-in settings, reset playback settings, reset playback settings (settings)"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Reset all settings to their defaults.
 

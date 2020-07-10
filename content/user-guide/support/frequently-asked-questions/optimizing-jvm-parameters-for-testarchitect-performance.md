@@ -43,7 +43,7 @@ In simple words, MaxHeapFreeRatio is used to shrink the JVM and MinHeapFreeRatio
 -   If you would like to reconfigure the MaxHeapFreeRatio and MinHeapFreeRatio parameters, ensure that you choose fair values for these parameters.
 -   Specifically, TestArchitect performance is inversely proportional to memory consumption. In other words, the higher performance is, the more memory is consumed. If you decrease MinHeapFreeRatio, MaxHeapFreeRatio, memory consumption will be saved but TestArchitect performance will slow down; whereas, if you increase MinHeapFreeRatio, MaxHeapFreeRatio, TestArchitect performance will be enhanced, but memory will be sacrificed. Therefore, you need to choose fair values, so that they will not affect \(or less penalty on\) TestArchitect performance, as well as memory consumption.
 
-## Adjusting JVM parameters
+## {{< expand >}} Adjusting JVM parameters
 
 To make adjustments to JVM parameters, follow this procedure:
 

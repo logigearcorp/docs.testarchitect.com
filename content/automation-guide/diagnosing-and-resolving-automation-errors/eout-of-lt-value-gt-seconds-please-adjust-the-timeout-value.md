@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80016010L"
 
 Error code: 0x80016010L
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because the given control fails to disappear before the specified timeout.
 
-## Solution
+## {{< expand >}} Solution
 
 Try to set a longer time out value, and re-run the test.
 

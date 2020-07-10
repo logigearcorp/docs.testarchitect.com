@@ -32,14 +32,14 @@ Under synchronous remote execution, control is passed to a deputy in one of two 
 -   Note that [database actions](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/) are not supported on machines operating as deputies.
 -   While Machine A is utilizing Machine B as a deputy, it is impossible for Machine B to utilize Machine A as a deputy.
 
-## Variables
+## {{< expand >}} Variables {{< permerlink >}} {#Test_exec_remote_synchronous__section_q21_dwy_g2b} 
 
 -   If the deputies are running in parallel mode, each thread has its own local/global variables. You cannot refer to a variable declared in another thread no matter whether the variable is local or global.
 -   If the deputies are running in serial mode, the scoping rules are the same as for executing normal tests procedures \(see [Variables](/automation-guide/action-based-testing-language/the-test-language/variables/) for details\).
 -   If a test case variable is declared before both of the [use deputy](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/remote-agents/use-deputy) actions, the deputies can retrieve the value of that local variable regardless of whether the deputies are running in parallel or serial mode.
 -   However, if the deputies write values to an existing local/global variable, the new value takes effect only if the deputies are running in serial mode. Otherwise, the new value is discarded.
 
-## Harness termination on a deputy
+## {{< expand >}} Harness termination on a deputy
 
 Assuming that a lead connects a deputy, running two harnesses - temporarily called testOne and testTwo - on a deputy. You want to terminate testOne.
 

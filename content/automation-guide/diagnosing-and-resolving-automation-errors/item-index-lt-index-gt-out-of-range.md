@@ -10,11 +10,11 @@ keywords: "automation errors, 0x8001040AL"
 
 Error code: 0x8001040AL
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because the specified item's index is out of range.
 
-## Solution
+## {{< expand >}} Solution
 
 Ensure the given index value is in the valid range. Note that index numbering starts from 1.
 

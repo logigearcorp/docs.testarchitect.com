@@ -8,27 +8,27 @@ aliases:
 keywords: "built-in actions, else, else (action), else, else statement, else condition"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Execute the associated action lines if all corresponding [if](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/if) and [else if](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/else-if) conditions are False.
 
-## Arguments
+## {{< expand >}} Arguments
 
 There are no arguments for this action.
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes {{< permerlink >}} {#bia_else__notes_else} 
 
 -   Action lines associated with else are those occurring between the else and its matched end if.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:none.
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

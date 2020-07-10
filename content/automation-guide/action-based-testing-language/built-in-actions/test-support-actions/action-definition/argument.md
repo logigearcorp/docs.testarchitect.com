@@ -8,13 +8,13 @@ aliases:
 keywords: "built-in actions, argument, arguments, built-in actions"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Define an argument for the current action definition.
 
 {{<note>}} This action is both functional and documentary.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **name**
 
@@ -37,20 +37,20 @@ Define an argument for the current action definition.
     \(Optional\) [Modifier](/user-guide/actions/user-defined-actions/argument-types/#sectiondiv.arg_type.value_set) for the type of argument.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:high-level actions
 
-## Notes
+## {{< expand >}} Notes
 
 -   All necessary argument actions for a given user-defined action should appear immediately after the [action definition](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/deprecated/action-definition) line of the action definition.
 -   This action also has a documentary function. Although it is optional, you are strongly urged to make good use of the description argument.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:none.
 
-## Example
+## {{< expand >}} Example
 
 ![](/images/TA_Automation/Images/bia_argument_pgm.png)
 

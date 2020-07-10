@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in settings, date format, settings, date format (settings), format date, date format"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Specify the date format for output.
 
-## Allowable values
+## {{< expand >}} Allowable values
 
 Date format: `year format–month format–day format`.
 
@@ -93,11 +93,11 @@ Date format: `year format–month format–day format`.
     One-digit day for days below 10 \(e.g. 4\).
 
 
-## Default value
+## {{< expand >}} Default value
 
 `yyyy-mm-dd`
 
-## Note
+## {{< expand >}} Note {{< permerlink >}} {#bis_date_format__section_pzn_kxc_rlb} 
 
 SAP controls only support the date format: `yyyy-mm-dd`
 

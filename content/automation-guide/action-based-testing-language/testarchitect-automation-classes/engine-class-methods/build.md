@@ -12,19 +12,19 @@ keywords: "ABT Library Functions, Build, Build (ABT library function)"
 
 `string Build ()`
 
-## Description
+## {{< expand >}} Description
 
 Get the build identification of the engine.
 
-## Parameters
+## {{< expand >}} Parameters
 
 There are no parameters for this function.
 
-## Return Value
+## {{< expand >}} Return Value
 
 String value containing the build identification.
 
-## Notes
+## {{< expand >}} Notes
 
 -   The build number can sometimes be important to identify specific properties or problems of a build. It can for example be printed as part of the header in a report.
 

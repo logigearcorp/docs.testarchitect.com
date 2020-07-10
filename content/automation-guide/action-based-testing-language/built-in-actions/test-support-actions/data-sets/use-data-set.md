@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, use data set, use data set (action), use data set, start data set loop, end data set loop"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Use a new row of data from the specified data set.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **name**
 
@@ -23,15 +23,15 @@ Use a new row of data from the specified data set.
     Filter criteria, or a named filter \(see [filter](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/filter) built-in action\).
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## {{< expand >}} Applicable Systems/Platforms
 
 Use of this action is supported on the following systems/platforms: Windows, Linux.
 
-## Notes
+## {{< expand >}} Notes
 
 -   The data set argument may specify a [dedicated data set](/user-guide/support/glossary-of-terms/dedicated-data-set) or [inline data set](/user-guide/support/glossary-of-terms/inline-data-set) that has already been defined within the test.
     -   *for a dedicated data set:* the full TA path from the **Data** node must be specified, with forward slashes \(/\) delimiting each level of the hierarchy.
@@ -41,17 +41,17 @@ Use of this action is supported on the following systems/platforms: Windows, Lin
 -   The variables populated by this action have names corresponding to the column headers of the rows of the data set.
 -   As a convenience, you can enter a use data set action into a test module by dragging a data set node from the TestArchitect explorer tree to a cell of the first column of the editor. The use data set action is automatically inserted where you release your mouse button, with the data set path and name inserted into the name argument. \(Note that the path is relative to the project's **Data** node, so that a data set directly under it will be preceded in the editor by a single slash \(/\).\) Also, because every use data set begins a loop that must have a closing action, a complementary [repeat for data set](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/repeat-for-data-set) action is auto-inserted several lines below.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells)none.
 
-## Example - Case 1: Dedicated data sets
+## {{< expand >}} Example - Case 1: Dedicated data sets
 
 **Action Lines**
 
 ![](/images/TA_Automation/Images/bia_use_data_set_pgm.png)
 
-## Example - Case 2: Inline data sets
+## {{< expand >}} Example - Case 2: Inline data sets
 
 **Action Lines**
 

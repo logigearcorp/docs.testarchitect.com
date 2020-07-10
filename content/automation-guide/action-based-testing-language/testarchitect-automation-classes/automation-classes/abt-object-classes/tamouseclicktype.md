@@ -8,7 +8,7 @@ aliases:
 keywords: "constants of abt, TAMouseClickType, TAMouseClickType (constants), TAmouseclicktype, type of mouse click, mouse-clicked event"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Enumeration that indicates the mouse button used to click the object.
 

@@ -12,18 +12,18 @@ keywords: "methods of abt, GetProperty, GetProperty (AbtElement), AbtElement, ge
 
 `string GetProperty(string propertyName)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_GetProperty_element__section.desc} 
 
 Retrieve the value of a specified property of the element.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **propertyName**
 
     String specifying the name of the property to retrieve.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 String specifying the value of the property; if the property is not found, an empty string is returned.
 

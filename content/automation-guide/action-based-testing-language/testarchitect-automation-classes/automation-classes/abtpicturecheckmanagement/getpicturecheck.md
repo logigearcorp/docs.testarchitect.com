@@ -8,15 +8,15 @@ aliases:
 keywords: "methods of abt, GetPictureCheck, GetPictureCheck (AbtPictureCheckManagement), AbtPictureCheckManagement, getpicturecheck, abtpicturecheckmanagement getpicturecheck, retrieve picture check, get picture check"
 ---
 
-## Syntax
+## {{< expand >}} Syntax {{< permerlink >}} {#reference_GetPictureCheck__section.syntax} 
 
 `{{<link title="AbtPictureCheck" link="/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtpicturecheck/">}} GetPictureCheck(string path)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#reference_GetPictureCheck__section.desc} 
 
 Retrieve a picture check in the current project or the supplier project.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#reference_GetPictureCheck__section.params} 
 
 -   **path**
 
@@ -29,7 +29,7 @@ Retrieve a picture check in the current project or the supplier project.
 
 Return an [AbtPictureCheck](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtpicturecheck/) object. If the call is unsuccessful, returnnull.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This method is currently supported only by the C\# harness.
 

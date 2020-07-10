@@ -8,13 +8,13 @@ aliases:
 keywords: "Troubleshooting, iOS, problem: Device is missing libraries, start program, troubleshooting"
 ---
 
-## Problem
+## {{< expand >}} Problem
 
 Upon completion of an automated test, the following error message is reported in the Automation Problem dialog box, or in the test result:
 
 The start program action could not complete due to the device missing libraries required for automation. Please connect the device via USB to an macOS machine with Xcode installed. This will load the libraries automatically.
 
-## Solution
+## {{< expand >}} Solution
 
 Synchronize essential development libraries with your iOS test device via Xcode:
 

@@ -14,7 +14,7 @@ Reviewing test results can assist you in verifying which revision of each relate
 
 {{<note>}} It is assumed that you are familiar with test results \(see [Test results](/user-guide/working-with-test-results/) for details\). Only sections related to time-traveling execution are discussed.
 
-## Test result summary
+## {{< expand >}} Test result summary
 
 The **Summary** tab display two additional fields when Time-traveling execution is invoked.
 
@@ -28,7 +28,7 @@ The **Summary** tab display two additional fields when Time-traveling execution 
 -   The values of **Revision timestamp** and **Time traveling** are identical, if there is a revision at the specified timestamp.
 -   The values of **Revision timestamp** and **Time traveling** are different, if there is no revision existing at the specified timestamp. Therefore, TestArchitect automatically runs the most revision preceding the specified timestamp. \([Learn more](/user-guide/test-execution/time-traveling-execution/rules-of-time-traveling-execution).\)
 
-## Test result details
+## {{< expand >}} Test result details {{< permerlink >}} {#concept_nsz_nm4_ls__section_chl_lxp_ls} 
 
 You can see the details of the executed revision of all related project items on a web browser.
 

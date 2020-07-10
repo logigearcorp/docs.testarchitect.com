@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80010207L"
 
 Error code: 0x80010207L
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because the UI-interactive built-in action is unable to set a new value on a uneditable control.
 
-## Solution
+## {{< expand >}} Solution
 
 You might try the following ways:
 

@@ -12,19 +12,19 @@ keywords: "ABT Library Functions, ReturnFromSubTest, ReturnFromSubTest (ABT libr
 
 `integer ReturnFromSubTest ()`
 
-## Description
+## {{< expand >}} Description
 
 Come back from a subtest
 
-## Parameters
+## {{< expand >}} Parameters
 
 There are no parameters for this function.
 
-## Return Value
+## {{< expand >}} Return Value
 
 The function returns 1 if successful or 0 if unsuccessful. If not successful, the diagnostic functions can be used to get more details
 
-## Notes
+## {{< expand >}} Notes
 
 -   The term subtest refers to a test that is launched with the built-in [run test](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/run-test) action.
 -   This function wraps up the interpretation of a test file that was started from an action line \(with [run test](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/run-test)\). It needs to be called when the action lines of that test file have been executed and will make sure that the next action line \(as produced by NextAction\) comes from the main test file.

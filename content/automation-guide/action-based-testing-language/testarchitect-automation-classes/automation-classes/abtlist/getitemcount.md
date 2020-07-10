@@ -12,15 +12,15 @@ keywords: "methods of abt, GetItemCount, GetItemCount (AbtList), AbtList, getite
 
 `int GetItemCount()`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_GetItemCount_list__section.desc} 
 
 Return the number of items in the list.
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#abt_GetItemCount_list__section.return} 
 
 Integer value specifying the number of items found. If an error occurs, the return value is -1.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This method is applicable to both ListBox and ListView controls.
 

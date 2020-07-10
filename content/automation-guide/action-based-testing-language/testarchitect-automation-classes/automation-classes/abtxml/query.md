@@ -8,15 +8,15 @@ aliases:
 keywords: "methods of abt, Query, Query (AbtXml), AbtXml, query, abtxml query, run xpath query, execute xpath query"
 ---
 
-## Syntax
+## {{< expand >}} Syntax {{< permerlink >}} {#abt_Query__section.syntax} 
 
 `string Query(string xml, string xpath)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_Query__section.desc} 
 
 Run an XPath query against an XML string.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_Query__section.params} 
 
 -   **xml**
 

@@ -8,15 +8,15 @@ aliases:
 keywords: "built-in actions, status, status (action)"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Keyword to document the status of a test module.
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This action has been deprecated in TestArchitect 7.
 

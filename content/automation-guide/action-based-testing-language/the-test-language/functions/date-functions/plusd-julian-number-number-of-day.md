@@ -10,11 +10,11 @@ keywords: "date functions, plusd, plusd (function)"
 
 Add a specified number of days to a given Julian date number, then return the result as a Julian number.
 
-## Syntax
+## {{< expand >}} Syntax
 
 `integer plusd(integer date, integer day)`
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **date**
 
@@ -25,15 +25,15 @@ Add a specified number of days to a given Julian date number, then return the re
     Number of days to add to date. Use a negative day value to subtract days from date.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Returns a Julian date number computed by adding a number of days to a Julian number.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following built-in setting\(s\) are supported: [date order](/automation-guide/action-based-testing-language/built-in-settings/date-time-settings/date-order).
 
-## Example
+## {{< expand >}} Example
 
 ![](/images/TA_Automation/Images/automationguide_datefunction10.png)
 

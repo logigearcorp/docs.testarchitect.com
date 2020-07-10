@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be the same version.
 
-## TestArchitect Client
+## {{< expand >}} TestArchitect Client {{< permerlink >}} {#concept_what_new_8.3_Linux_update_3__section_ir4_mm3_b1b} 
 
 **New features**
 
@@ -35,7 +35,7 @@ The following new features and improvements are introduced in TestArchitect vers
 
 -   [**Replication repositions**](/administration-guide/repository-server-management/replication-repositories/introduction-to-replication-repositories): Default value of data [synchronization mode](/administration-guide/repository-server-management/replication-repositories/synchronizing-data) between the primary repository and the replication repository is changed from Lazy to Eager, which means that the data by default is synchronized immediately after each modification.
 
-## TestArchitect Automation
+## {{< expand >}} TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.3_Linux_update_3__section_p2c_51b_cs} 
 
 **Enhancements to existing features**
 

@@ -10,11 +10,11 @@ keywords: "automation errors, 0x8001000DL"
 
 Error code: 0x8001000DL
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because the required argument value of a given built-in action is omitted.
 
-## Solution
+## {{< expand >}} Solution
 
 Fill in a valid value for the required argument, and then re-run the test.
 

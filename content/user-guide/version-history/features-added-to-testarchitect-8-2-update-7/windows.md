@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
 
-## TestArchitect Client
+## {{< expand >}} TestArchitect Client
 
 -   [**Diff Tool**](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/diff-tool/): New capabilities, in addition to the comparison of project items, have been added to the tool:
     -   [**Detect differences at node and folder level**](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/diff-tool/using-diff-tool-for-folder-comparisons/comparing-folders): Compare differences in contents between two nodes or folders in the TestArchitect explorer hierarchy, within a project or across projects and repositories.
@@ -44,7 +44,7 @@ The following new features and improvements are introduced in TestArchitect vers
     -   Result interface:
         -   getTestModule\(\): Retrieve the test module belonging to the current test result.
 
-## TestArchitect Automation
+## {{< expand >}} TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.1_U4_Wins__section_p2c_51b_cs} 
 
 -   [**Microsoft Edge beta support**](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/#li.Edge): This release of TestArchitect introduces support for automated testing of web applications in Microsoft Edge.
 

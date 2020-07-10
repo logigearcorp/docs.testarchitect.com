@@ -12,7 +12,7 @@ keywords: "methods of abt, GetColumnCount, GetColumnCount (AbtList), AbtList, ge
 
 `int GetColumnCount()`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_GetColumnCount_list__section.desc} 
 
 Retrieve the number of columns in the object.
 
@@ -20,7 +20,7 @@ Retrieve the number of columns in the object.
 
 Integer value indicating the number of columns. A negative value indicatesfailure.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This method is applicable to ListView controls only.
 

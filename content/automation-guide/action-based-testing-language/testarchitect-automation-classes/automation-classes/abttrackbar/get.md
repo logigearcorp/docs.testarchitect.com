@@ -12,7 +12,7 @@ keywords: "methods of abt, Get, Get (AbtTrackBar), AbtTrackBar, abtrackbar get, 
 
 `int Get()`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_Get_trackbar__section.desc} 
 
 Retrieve the current value of the trackbar.
 

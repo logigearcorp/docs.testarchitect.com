@@ -8,19 +8,19 @@ aliases:
 keywords: "built-in settings, ignore tabs and newlines, settings, ignore tabs and newlines, ignore tabs and newlines (settings), ignore tabs and newlines, determine whether to ignore tabs and newlines in strings, determine whether to remove tabs and newlines from strings, determine whether to strip tabs and newlines from strings"
 ---
 
-## Description
+## {{< expand >}} Description
 
 During string comparisons, ignore horizontal tabs and newlines.
 
-## Allowable values
+## {{< expand >}} Allowable values
 
 yes, no
 
-## Default value
+## {{< expand >}} Default value
 
 yes
 
-## Example
+## {{< expand >}} Example
 
 **Test Lines**
 

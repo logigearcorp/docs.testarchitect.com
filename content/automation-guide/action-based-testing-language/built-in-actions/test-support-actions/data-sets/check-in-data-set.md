@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, check in data set, check in data set (action), check in data set, dataset checkin"
 ---
 
-## Description
+## {{< expand >}} Description
 
 [Check in](/user-guide/projects-and-project-items/project-items/revision-control/check-in) a data set.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **data set**
 
@@ -27,15 +27,15 @@ keywords: "built-in actions, check in data set, check in data set (action), chec
     \(Optional\) Brief note explaining the changes \(see Notes\).
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## {{< expand >}} Applicable Systems/Platforms
 
 Use of this action is supported on the following systems/platforms: Windows, Linux.
 
-## Notes
+## {{< expand >}} Notes
 
 -   The data set argument may specify a [dedicated data set](/user-guide/support/glossary-of-terms/dedicated-data-set) or [inline data set](/user-guide/support/glossary-of-terms/inline-data-set) that has already been defined within the test.
     -   *for a dedicated data set:* the full TA path from the **Data** node must be specified, with forward slashes \(/\) delimiting each level of the hierarchy.
@@ -58,11 +58,11 @@ Use of this action is supported on the following systems/platforms: Windows, Lin
 
 {{<restriction>}} This action does not support [multiple device execution](/user-guide/test-execution/methods-of-test-execution/multiple-device-execution/).
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells)none.
 
-## Example
+## {{< expand >}} Example
 
 **Scenario**:
 

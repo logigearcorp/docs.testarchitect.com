@@ -8,31 +8,31 @@ aliases:
 keywords: "ABT Library Functions, getEntityInformation, getEntityInformation (ABT library function)"
 ---
 
-## Syntax
+## {{< expand >}} Syntax
 
 `string GetEntityInformation(string itemID)`
 
-## Description
+## {{< expand >}} Description
 
 Return metadata information of a project item specified by an item ID.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **itemID**
 
     Project item ID. \(See **Notes** below.\)
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 A string value containing JSON data. The returned string includes all possible values of the specified project item, such as name, location, status, recent result, url, assigned user, and priority. \(See **Notes** below.\)
 
-## Notes
+## {{< expand >}} Notes
 
 -   For a project item, you have the option of obtaining the item ID from within your [user-scripted action](/user-guide/support/glossary-of-terms/action-user-scripted), using the TestArchitect Engine class method [getCurrentEntityID\(\)](/automation-guide/action-based-testing-language/testarchitect-automation-classes/engine-class-methods/getcurrententityid).
 -   Since the returned string value is JSON-compliant, it is highly recommended that you parse this string to a JSON object. You may then use TestArchitect's [Assign](/automation-guide/action-based-testing-language/testarchitect-automation-classes/engine-class-methods/assign) method to get the individual values of the returned JSON object. \(See example below.\)
 
-## Example
+## {{< expand >}} Example
 
 Let's say you want your user-scripted action to retrieve the **Location** field of the current test module. The test module's ID may first be obtained from [getCurrentEntityID\(\)](/automation-guide/action-based-testing-language/testarchitect-automation-classes/engine-class-methods/getcurrententityid). Subsequently, you would pass the ID to the GetEntityInformation\(\) method, which returns a JSON-structured string. Parse this string and use TestArchitect's [Assign\(\)](/automation-guide/action-based-testing-language/testarchitect-automation-classes/engine-class-methods/assign) method with a key value of “location” to obtain **Location** value.
 

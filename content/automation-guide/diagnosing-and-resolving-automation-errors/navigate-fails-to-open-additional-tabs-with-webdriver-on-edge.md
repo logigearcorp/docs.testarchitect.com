@@ -8,7 +8,7 @@ aliases:
 keywords: "automation errors, 0x16896"
 ---
 
-## Problem
+## {{< expand >}} Problem {{< permerlink >}} {#reference_0x16896__section_zb2_yby_dgb} 
 
 In the event of launching a web page on a new tab on Edge,
 
@@ -25,11 +25,11 @@ Line \#17: navigate \[https//google.com.vn\] works fine.
 
 Line \#19: navigate\[https//www.netflix.com/vn/\] fails to open a new tab.
 
-## Cause
+## {{< expand >}} Cause {{< permerlink >}} {#reference_0x16896__section_tth_b1l_2gb} 
 
 When navigate attempts to open the second/third/etc.tab, Edge will treat the tab as a pop-up, blocking it.
 
-## Solution
+## {{< expand >}} Solution {{< permerlink >}} {#reference_0x16896__section_tpf_pdl_2gb} 
 
 You should turn off the **Block pop-ups** feature on Edge \([Learn more](https://support.microsoft.com/en-us/help/4026392/microsoft-edge-block-pop-ups)\) before running TestArchitect tests with WebDriver.
 

@@ -12,7 +12,7 @@ TestArchitect offers a number of built-in actions and automation methods that al
 
 {{<note>}} In order to query a database, you must be familiar with SQL commands. A variety of good references and tutorials on SQL are available, including this [SQL Tutorial](http://www.w3schools.com/sql/) from W3Schools.
 
-## Actions
+## {{< expand >}} Actions {{< permerlink >}} {#testing_database_use_cases__section_frl_3ts_yp} 
 
 TestArchitect provides the following built-in actions for working with SQL-compliant databases. They are listed in the typical order of their workflow:
 
@@ -22,13 +22,13 @@ TestArchitect provides the following built-in actions for working with SQL-compl
 4.  [execute sql](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/execute-sql): Execute an SQL command against the currently in-use database; optionally, store returned data into one or more data sets.
 5.  [disconnect database](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/disconnect-database): Close the database connection.
 
-## Use cases
+## {{< expand >}} Use cases
 
 1.  **Data-driven testing.** Connect your test to a database and use it in the same manner in which you typically would use a data set: to supply the test with records of input values for your AUT, along with expected outcomes for comparison with AUT outputs. \(See [Example - Case 1](#example---case-1).\)
 2.  **Test the AUT's handling and storage of data.** For database driven applications, interact with the AUT and then query its database to ensure data is being written to it correctly. For example, test a database driven application by entering test records through the GUI, then have your test interface directly with the database to verify the records. \(See [Example - Case 2](#example---case-2).\)
 3.  **Test the AUT's response to database-sourced data.** Ensure that a database driven application responds properly to the contents of its database. \(For example: insert multiple records to the database, then query the AUT to verify that it properly handles the new content.\).\(See [Example - Case 3](#example---case-3).\)
 
-## Example - Case 1
+## {{< expand >}} Example - Case 1 {{< permerlink >}} {#testing_database_use_cases__section_u4c_f5x_vp} 
 
 This example demonstrates a data-driven test whose data is obtained through SQL query to an ODBC-compliant database.
 
@@ -50,7 +50,7 @@ The **md5** submit button is then clicked, whereupon the application computes an
 
 ![](/images/TA_Automation/Images/db_use_case.01.png)
 
-## Example - Case 2
+## {{< expand >}} Example - Case 2 {{< permerlink >}} {#testing_database_use_cases__section_gzn_25x_vp} 
 
 This example tests a database-driven application. It first interfaces with the AUT through its user interface, inducing the application to modify its database. Then it queries the database directly to verify the accuracy of the changes made to it.
 
@@ -80,7 +80,7 @@ Once the first loop completes and all the records have been supplied to the AUT,
 
 ![](/images/TA_Automation/Images/db_use_case.02.png)
 
-## Example - Case 3
+## {{< expand >}} Example - Case 3 {{< permerlink >}} {#testing_database_use_cases__section_kbv_25x_vp} 
 
 In the last example, our test worked through the AUT's user interface to get the application to modify its database; we then queried the database directly to validate the application's actions. In this example, the test configuration is the same: an AUT supported by an SQL-compliant database. But now we'll work in the opposite direction: our test will directly modify the database, and then we'll work with the application's UI to ensure that it responds correctly to the database changes.
 

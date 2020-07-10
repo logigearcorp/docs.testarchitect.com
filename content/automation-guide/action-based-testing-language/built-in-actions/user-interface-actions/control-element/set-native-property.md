@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, set native property, set native property (action), iOS (action), Safari, macOS (action), macOS, Safari (action), set value for native property of control, assign value to native property of control"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Set a new value for a specified native property of a control.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **window**
 
@@ -31,11 +31,11 @@ Set a new value for a specified native property of a control.
     The new value to set. \(See Notes for allowable values.\)
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## {{< expand >}} Applicable Systems/Platforms {{< permerlink >}} {#bia_set_native_property__section_zrb_vmd_zbb} 
 
 This built-in action is supported on the following systems/platforms:
 
@@ -48,7 +48,7 @@ This built-in action is supported on the following systems/platforms:
 
 |
 
-## Notes
+## {{< expand >}} Notes
 
 -   Although TestArchitect provides access to native properties, you should use it very carefully. Because accessing native properties can perform critical or unsafe operations in the AUT that may change the AUT's current state.
 -   property argument: You can find native properties in the **Native Properties** tab of the [Interface Viewer](/user-guide/interface-definitions/the-interface-viewer/interpreting-the-interface-viewer/).
@@ -73,15 +73,15 @@ This built-in action is supported on the following systems/platforms:
 
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only), [page wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/page-wait), [object wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/object-wait), [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait), [load invisible controls](/automation-guide/action-based-testing-language/built-in-settings/other-settings/load-invisible-controls), [color format](/automation-guide/action-based-testing-language/built-in-settings/other-settings/color-format).
 
-## Applicable Controls
+## {{< expand >}} Applicable Controls
 
 This action is applicable to the following controls:button, check box, checklist, clock, combo box, datetime, frame, label, list box, list view, menu, password, picture box, progress bar, radio button, rating bar, richtext, scroll bar, separator, spin, status bar, tab control, table, text box, toggle button, toolbar, trackbar, tree view, window and calendar.
 
-## Example
+## {{< expand >}} Example
 
 ![](/images/TA_Automation/Images/bia_set_native_property_aut.png)
 

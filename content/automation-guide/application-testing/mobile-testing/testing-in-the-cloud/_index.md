@@ -10,13 +10,13 @@ keywords: "cloud testing"
 
 Using cloud computing, you can organize your own infrastructure to test applications in a cloud.
 
-## Cloud computing
+## {{< expand >}} Cloud computing
 
 Cloud computing, or on-demand computing, is an internet-based form of computing, where shared resources and information are provided to computers and other devices on demand. An important thing about the cloud model is that hardware, software and services are not purchased, but rented. A significant benefit is that the resources you need are available on demand and you only pay for those that you actually use.
 
 In addition, all of the hardware and software are located in the providers’ data centers and are accessed via web interfaces, special software or special API’s.
 
-## Supported cloud computing services
+## {{< expand >}} Supported cloud computing services
 
 -   [Remote TestKit](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/testarchitect-and-remote-testkit/)
 -   [WebDriver based cloud services](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/testarchitect-and-appium/) \([Appium](http://appium.io/slate/en/master/?ruby#about-appium) enabled\)

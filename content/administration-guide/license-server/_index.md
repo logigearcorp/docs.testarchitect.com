@@ -10,7 +10,7 @@ keywords: "license server, TestArchitect, servers, licensing"
 
 TestArchitect is sold on a node-locked or floating license basis. You must license your copy of TestArchitect before you can use it.
 
-## Licensing in TestArchitect
+## {{< expand >}} Licensing in TestArchitect
 
 Licensing is handled through a License Server. Each time you start up TestArchitect, a License Server validates your license and grants usage rights. You need only register your license with a License Server one time. This is done by submitting a LogiGear-supplied key to a license server.
 

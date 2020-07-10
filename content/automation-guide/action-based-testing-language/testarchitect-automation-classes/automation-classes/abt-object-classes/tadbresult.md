@@ -8,7 +8,7 @@ aliases:
 keywords: "constants of abt, TADBResult, TADBResult (constants), tadbresult, get result returned from execsqlcommand, retrieve query result"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Object that may contain a single string value or a dataset. Typically created by the [ExecSqlCommand](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdatabase/execsqlcommand) method.
 
@@ -27,7 +27,7 @@ Object that may contain a single string value or a dataset. Typically created by
     Return result as [TADataset](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdataset/). If any error happens, return null
 
 
-## Notes
+## {{< expand >}} Notes
 
 -   This class and its associated methods are currently supported only by the C\# harness.
 

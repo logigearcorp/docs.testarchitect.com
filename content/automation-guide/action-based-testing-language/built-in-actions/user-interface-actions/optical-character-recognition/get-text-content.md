@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, get text content, get text content (action), retrieve text from control, get value returned from control, retrieve value returned from control"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Retrieve all content of the text fragment residing in a given window/control.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **window**
 
@@ -43,21 +43,21 @@ Retrieve all content of the text fragment residing in a given window/control.
     \(Optional\) Variable to receive the returned value.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## {{< expand >}} Applicable Systems/Platforms
 
 Use of this action is supported on the following systems/platforms:
 
 -   Windows: Win32, WinForms.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only), [object wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/object-wait), [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait).
 
-## Notes
+## {{< expand >}} Notes
 
 -   This built-in action always employs the [Graphics Device Interface](/automation-guide/action-based-testing-language/the-test-language/text-recognition-techniques) \(GDI\) technique. In other words, [Optical Character Recognition](/automation-guide/action-based-testing-language/the-test-language/text-recognition-techniques) \(OCR\) technique is not available for this action.
 -   drawing function argument:
@@ -68,7 +68,7 @@ The following settings are applicable to this action:[case sensitive](/automatio
     -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Example
+## {{< expand >}} Example
 
 ![](/images/TA_Automation/Images/bia_get_text_content_aut.png)
 

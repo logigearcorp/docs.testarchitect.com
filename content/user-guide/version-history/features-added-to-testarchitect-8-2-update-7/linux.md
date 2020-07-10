@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
 
-## TestArchitect Client
+## {{< expand >}} TestArchitect Client
 
 -   [**Diff Tool**](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/diff-tool/): New capabilities, in addition to the comparison of project items, have been added to the tool:
     -   [**Detect differences at node and folder level**](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/diff-tool/using-diff-tool-for-folder-comparisons/comparing-folders): Compare differences in contents between two nodes or folders in the TestArchitect explorer hierarchy, within a project or across projects and repositories.
@@ -24,7 +24,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   [**Opening TestArchitect online Help**](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/preferences#li.Use_online_help): You now have the option of having the F1 key open *either* TestArchitect's local help file, or TestArchitect online help.
 -   **[Scheduling hit list clearance](/administration-guide/repository-server-management/clearing-hit-list-periodically)**: Repository hit list clearance now can be scheduled to take place during non-business hours to reduce the cache’s size of repository server, so that the repository server is started more quickly.
 
-## TestArchitect Automation
+## {{< expand >}} TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.1_U4_Linux__section_p2c_51b_cs} 
 
 -   [**Interface Viewer capture of transient controls**](/user-guide/interface-definitions/the-interface-viewer/capturing-transient-controls): The Interface Viewer now caches captured UI objects and their properties, a feature that is especially useful for those controls that become unavailable during the interface capture session. This retention allows you to continue viewing those UI objects in the Viewer, and to save them to your project interface.
 -   **New timing-related built-in settings**:

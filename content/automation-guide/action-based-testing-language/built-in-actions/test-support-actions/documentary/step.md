@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, step, step (action), step, test step"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Title line of a step.
 
-## Arguments
+## {{< expand >}} Arguments
 
 The step action does not have arguments, but does have the following documentary fields, the contents of which are entered indirectly into the edited test module \(see Notes\):
 
@@ -40,22 +40,22 @@ The step action does not have arguments, but does have the following documentary
     -   Failed with warning\(s\) / error\(s\)
     -   Pass with known bug
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules \(specifically, limited to test cases\)
 
-## Notes
+## {{< expand >}} Notes
 
 -   The step action provides a further level of division of the lines in a test case. Note that step actions may *only* exist within `TEST CASE` sections.
 -   TestArchitect does not allow for a step action to be created in the editor. Instead, it must be created from the **Steps** subtab of a test case tab.
 -   The Recent result field is automatically filled in from the results of the most recent test execution added to the repository.
 -   Refer to [Test steps](/user-guide/tests/test-cases/test-steps/) for more details on the step action.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:none.
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

@@ -12,7 +12,7 @@ From within your action lines, you can control which Android device\(s\) your te
 
 {{<note>}} Any device referenced by a use device action within a test must be connected to the same TestArchitect controller on which the test is running.
 
-## Specifying a target device from your action lines
+## {{< expand >}} Specifying a target device from your action lines
 
 An example to indicate which Android device to run automated tests on during runtime might look something like this:
 
@@ -24,7 +24,7 @@ The [use device](/automation-guide/action-based-testing-language/built-in-action
 
 Finally, when testing on the new target device completes, it can be logically disconnected from the test host machine with [disconnect device](/automation-guide/action-based-testing-language/built-in-actions/system-actions/device/disconnect-device) \(line 50\). The subsequent action lines, if any, are run on the host machine.
 
-## Running tests on multiple devices
+## {{< expand >}} Running tests on multiple devices
 
 The use device action allows automated tests to be run on different mobile devices. The devices must all be connected to the host controller on which the test is running, and execution across devices takes place in serial fashion. \(This is essentially the equivalent of [serial synchronous remote execution](/user-guide/test-execution/methods-of-test-execution/remote-test-execution/synchronous-remote-execution/serial-synchronous-remote-execution) for desktop application testing.\)
 

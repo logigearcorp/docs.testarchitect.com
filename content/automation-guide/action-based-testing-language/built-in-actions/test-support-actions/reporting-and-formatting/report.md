@@ -8,33 +8,33 @@ aliases:
 keywords: "built-in actions, report, report (action), report, write text description to test results, define text for test results, define message for test results, assign text to test results"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Write user-defined text to the test results.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **text**
 
     Text to write out to the results.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Output of the report action is displayed in the [**Log Information**](/user-guide/working-with-test-results/overview/log-information-tab) tab of the test results.
 -   This action nay be used to add clarifying text to a result report.
 -   The contents of the text argument may contain an expression, and hence report may be used to view the values of variables at any point in the test.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells)none.
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

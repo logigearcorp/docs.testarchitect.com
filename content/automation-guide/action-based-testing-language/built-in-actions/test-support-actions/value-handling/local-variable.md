@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, local variable, local variable (action), local variable, define local variable, declare local variable, local variable declaration and assignment"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Define a [local variable](/automation-guide/action-based-testing-language/the-test-language/variables/) and \(optionally\) assign a value to it, or assign a value to an existing local variable.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **name**
 
@@ -23,11 +23,11 @@ Define a [local variable](/automation-guide/action-based-testing-language/the-te
     \(Optional\) Value to assign to the local variable.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   For a given execution of local variable, if name specifies a variable that already exists, and whose scope is identical to the variable that would be created, the action merely assigns a new value \(in the value argument\) to the existing variable, without creating a new variable.
 -   Restrictions on usage:
@@ -35,7 +35,7 @@ This action may be used within the following project items:test modules and user
     -   Same-named local and global variables may not be declared within the same local variable scope level.
 -   Use variables within pound sign \(\#\) expressions to access their contained values.
 
-## Usage
+## {{< expand >}} Usage
 
 Unlike global variables, a local variable has limited scope, depending on where it is declared:
 
@@ -50,7 +50,7 @@ In the [use data set](/automation-guide/action-based-testing-language/built-in-a
 
 -   TestArchitect supports block scoping for the [use data set](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/use-data-set) block. Therefore, local variables declared between a [use data set](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/use-data-set) action and its associated [repeat for data set](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/repeat-for-data-set) cannot be accessed from outside of that block.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells)none.
 

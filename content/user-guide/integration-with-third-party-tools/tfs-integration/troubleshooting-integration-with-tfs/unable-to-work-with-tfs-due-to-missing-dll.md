@@ -8,11 +8,11 @@ aliases:
 keywords: "Troubleshooting, Team Foundation Server, missing library"
 ---
 
-## Problem
+## {{< expand >}} Problem
 
 Although you've followed the configuration steps to integrate TestArchitect with Team Foundation Server properly, you encounter the following error message every time TA works with TFS, such as when uploading a TA test module. Could not continue the process: the library 'Newtonsoft.Json' is missing. Please install it, then try again. You can find more details in the help topic 'Unable to work with Team Foundation Server due to missing DLL'.
 
-## Solution
+## {{< expand >}} Solution
 
 Performing the following steps on the repository server machine will help resolve this issue:
 

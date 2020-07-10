@@ -12,11 +12,11 @@ keywords: "methods of abt, IsItemSelectedByText, IsItemSelectedByText (AbtTab), 
 
 `Boolean IsItemSelectedByText(string text)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_IsItemSelectedByText__section.desc} 
 
 Determine whether or not a tab item, as specified by its text content, is selected.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_IsItemSelectedByText__section.params} 
 
 -   **text**
 

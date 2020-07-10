@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80010005L"
 
 Error code: 0x80010005L
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because there is more than one window that matches the definition of a given interface entity. And it is open simultaneously.
 
-## Solution
+## {{< expand >}} Solution
 
 Ensure that only one window is open at a time, and then re-run the automated test.
 

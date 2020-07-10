@@ -15,13 +15,13 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories and check in all test artifacts.
 -   A TestArchitect client and any repository server to which it connects must be the same version.
 
-## TestArchitect Client
+## {{< expand >}} TestArchitect Client {{< permerlink >}} {#concept_what_new_8.3_macOS_update_3__section.TAC} 
 
 **Enhancements to existing features**
 
 [**Delete a TestArchitect repository**](/administration-guide/repository-server-management/deleting-a-repository#): Now when you delete a repository using the TestArchitect Repository Server Control Panel, you no longer have to stop the repository first, you can delete it immediately.
 
-## Known issues
+## {{< expand >}} Known issues
 
 -   Due to changes in the WebDriver coordinate calculation algorithm, there may be a slight deviation of coordinates in relevant built-in actions with Generic Web Driver Mode \(GWD\) on Chrome 75. For precision, please re-calculate your positions and coordinates.
 

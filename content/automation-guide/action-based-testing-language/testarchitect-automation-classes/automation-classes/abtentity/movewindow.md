@@ -12,11 +12,11 @@ keywords: "methods of abt, MoveWindow, MoveWindow (AbtEntity), AbtEntity, movewi
 
 `long MoveWindow(int left, int top)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_MoveWindow__section.desc} 
 
 Move the window to the designated position on the screen.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_MoveWindow__section.params} 
 
 -   **left**
 

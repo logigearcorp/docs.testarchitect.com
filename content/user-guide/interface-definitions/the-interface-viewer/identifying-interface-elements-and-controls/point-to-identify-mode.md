@@ -28,7 +28,7 @@ To identify a given control or window in the **UI explorer** tree:
 
 ![](/images/TA_Help/Images/ug_interface_definition24.png)
 
-## Working with point-to-identify mode
+## {{< expand >}} Working with point-to-identify mode
 
 Point-to-identify mode is available from both the Interface Viewer and [TA Client](/user-guide/interface-definitions/interface-capturing-commands/point-to-identify-tool/). There are some differences, but the following commonalities exist:
 

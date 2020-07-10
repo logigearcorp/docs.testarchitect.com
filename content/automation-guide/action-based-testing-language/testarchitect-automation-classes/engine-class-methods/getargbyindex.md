@@ -8,15 +8,15 @@ aliases:
 keywords: "ABT Library Functions, GetArgByIndex, GetArgByIndex (ABT library function)"
 ---
 
-## Syntax
+## {{< expand >}} Syntax
 
 `string GetArgByIndex (int column)`
 
-## Description
+## {{< expand >}} Description
 
 Retrieve the value of an argument by its index.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **column**
 
@@ -25,7 +25,7 @@ Retrieve the value of an argument by its index.
     Note that index numbering begins with 1. It starts from the leftmost argument and progresses to the right.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 String value containing the argument contents. If the argument isn't found, an empty string is returned.
 

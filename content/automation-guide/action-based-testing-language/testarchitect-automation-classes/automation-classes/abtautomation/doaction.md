@@ -8,26 +8,26 @@ aliases:
 keywords: "methods of abt, DoAction, DoAction (AbtAutomation), AbtAutomation, doaction, abtautomation doaction, execute TA built-in action"
 ---
 
-## Syntax
+## {{< expand >}} Syntax {{< permerlink >}} {#abt_DoAction__section.syntax} 
 
 `int doAction(string actionName)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_DoAction__section.desc} 
 
 Executes a named TestArchitect built-in action.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_DoAction__section.params} 
 
 -   **actionName**
 
     Name of the built-in action.
 
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#abt_DoAction__section.return} 
 
 Return 0 if the call is successful; otherwise, -1..
 
-## Notes
+## {{< expand >}} Notes
 
 -   This function is currently supported only by the C\# and Java harnesses.
 

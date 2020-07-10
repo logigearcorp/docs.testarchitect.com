@@ -12,11 +12,11 @@ keywords: "ABT Library Functions, AddYears, AddYears (ABT library function)"
 
 `integer AddYears (integer datevalue, integer years)`
 
-## Description
+## {{< expand >}} Description
 
 Add years to a date.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **datevalue**
 
@@ -27,11 +27,11 @@ Add years to a date.
     The number of years to add.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 The resultant date.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This function is equivalent to the [plusy](/automation-guide/action-based-testing-language/the-test-language/functions/date-functions/plusy-julian-number-number-of-year) function as it can be used by the tester in a "\#" expression.
 -   To subtract years, use a negative value for the years parameter.

@@ -12,11 +12,11 @@ keywords: "methods of abt, Exists, Exists (AbtEntity), AbtEntity, exists, abtent
 
 `Boolean Exists()`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_Exists_entity__section.desc} 
 
 Determine whether the window currently exists.
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#abt_Exists_entity__section.return} 
 
 Return TRUE ifthe window currently exists; otherwise, FALSE.
 

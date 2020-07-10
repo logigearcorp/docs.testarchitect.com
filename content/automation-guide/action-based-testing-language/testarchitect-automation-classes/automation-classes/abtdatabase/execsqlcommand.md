@@ -12,11 +12,11 @@ keywords: "methods of abt, ExecSqlCommand, ExecSqlCommand (AbtDatabase), AbtData
 
 `TADBResult ExecSqlCommand(string command, int index)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_Execute_Sql_Command__section.desc} 
 
 Execute one or more SQL commands against the AbtDatabase object.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_Execute_Sql_Command__section.params} 
 
 -   **command**
 
@@ -27,11 +27,11 @@ Execute one or more SQL commands against the AbtDatabase object.
     Index specifying query result to be returned. \(See Notes.\)
 
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#abt_Execute_Sql_Command__section.return} 
 
 A [TADBResult](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abt-object-classes/tadbresult) object representing a table or scalar value; or null, if no result is returned or execution is unsuccessful.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This method is currently supported only by the C\# harness.
 -   It is possible for multiple tables and or single scalar values to be produced as results of the SQL query \(or queries\) of the command string. However, ExecSQLCommand\(\) is limited to returning only one such query result. Use the index parameter to specify the result to be returned. Results are indexed starting at 1, in the order in which they are produced by the command string.

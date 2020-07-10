@@ -16,11 +16,11 @@ With TestArchitect, automated tests may be created and run on web applications r
 -   The Android mobile device under test may be a physical device or an emulator.
 -   Ensure that the [Interface Viewer](/user-guide/interface-definitions/the-interface-viewer/) is closed prior to running automated tests.
 
-## Support Android emulators
+## {{< expand >}} Support Android emulators
 
 -   [Android SDK](https://developer.android.com/studio/index.html) \(Software Development Kit\), which includes the Android Virtual Device \(AVD\) emulator that runs on your computer.
 
-## Supported Android versions
+## {{< expand >}} Supported Android versions
 
 TestArchitect supports of the testing of web applications running within the Chrome browser on the following Android versions:
 
@@ -38,11 +38,11 @@ TestArchitect supports of the testing of web applications running within the Chr
 |API level 15|4.0.3 - 4.0.4|
 |API level 14|4.0 - 4.0.2|
 
-## Supported web browser
+## {{< expand >}} Supported web browser
 
 TestArchitect supports testing on Google Chrome browser, up to version 69.
 
-## Technological approach
+## {{< expand >}} Technological approach
 
 -   Remote debugging is a remote web inspector for debugging web applications on Android devices. The following configurations must be set up to allow remote debugging to be performed:
 

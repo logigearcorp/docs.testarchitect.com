@@ -12,19 +12,19 @@ keywords: "ABT Library Functions, DiagnosticDetails, DiagnosticDetails (ABT libr
 
 `string DiagnosticDetails ()`
 
-## Description
+## {{< expand >}} Description
 
 Retrieve the details connected to the most recent diagnostic.
 
-## Parameters
+## {{< expand >}} Parameters
 
 There are no parameters for this function.
 
-## Return Value
+## {{< expand >}} Return Value
 
 The function returns the details of most recent diagnostic.
 
-## Notes
+## {{< expand >}} Notes
 
 A diagnostic in the engine consists of the following elements:
 

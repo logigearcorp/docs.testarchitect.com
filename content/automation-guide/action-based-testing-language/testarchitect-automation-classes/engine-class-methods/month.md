@@ -12,22 +12,22 @@ keywords: "ABT Library Functions, Month, Month (ABT library function)"
 
 `integer Month (integer datevalue)`
 
-## Description
+## {{< expand >}} Description
 
 Get the month number of a date.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **datevalue**
 
     A number representing a date.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 The return value is the month number in the range 1-12.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This function is equivalent to the "month" function as it can be used by the tester in a "\#" expression.
 

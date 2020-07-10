@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, set global variable, set global variable (action), set global variable, assign global variable value, assign value to global variable, global variable assignment"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Assign a value to an existing [global variable](/automation-guide/action-based-testing-language/the-test-language/variables/).
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **variable**
 
@@ -23,21 +23,21 @@ Assign a value to an existing [global variable](/automation-guide/action-based-t
     Value to assign to the variable.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   To create a global variable, use the action global variable.
 -   A global variable is visible throughout all test modules and invoked actions within one test run execution, subsequent to its declaration.
 -   Use variables within pound sign \(\#\) expressions to access their contained values.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells)none.
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

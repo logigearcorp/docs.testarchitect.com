@@ -14,7 +14,7 @@ Test result summaries are displayed on the test result **Summary** tab, and the 
 
 {{<remember>}} The **Summary** tab is available when the test results are viewed either on TestArchitect Client or a web browser.
 
-## General Information section
+## {{< expand >}} General Information section {{< permerlink >}} {#Test_result_summaries__section_ap1_5pz_ldb} 
 
 The top of the **Summary** tab lists such items as follows:
 
@@ -48,7 +48,7 @@ The test result name consists of:
 4.  – \(hyphen\);
 5.  process id of the test module's run, received from the O/S. \(Used to ensure a unique name for the result, in the event that two instances of the given test module's execution happen to have identical timestamps.\)
 
-## Test Case Summary section
+## {{< expand >}} Test Case Summary section {{< permerlink >}} {#Test_result_summaries__section_v2r_fqz_ldb} 
 
 This section displays the executed test cases, skipped test cases \(if any\) and their test results in terms of passed, failed, passed with warning/error, passed with known bug, not run, and not finished.
 
@@ -84,7 +84,7 @@ This section displays the executed test cases, skipped test cases \(if any\) and
 -   This table is only available when you [create test steps](/user-guide/tests/test-cases/test-steps/creating-test-steps).
 -   Click ![](/images/TA_Help/Images/Test_results_expand_detail.png), next to the test case's title, to expand and view **Step Summary** table for each test case.
 
-## Failure/Error Summary section
+## {{< expand >}} Failure/Error Summary section {{< permerlink >}} {#Test_result_summaries__section_failure.error} 
 
 {{<note>}} Applies to TestArchitect [8.3 Update 5](/user-guide/version-history/features-added-to-testarchitect-8-3-update-5/) and higher.
 
@@ -92,7 +92,7 @@ The section exhibits a list of the failures occurring during the test run. For m
 
 ![](/images/TA_Help/Images/Test_results_summary_failure_error_summary.png)
 
-## Known Bug Summary section
+## {{< expand >}} Known Bug Summary section {{< permerlink >}} {#Test_result_summaries__section_known.bug} 
 
 {{<note>}} Applies to TestArchitect [8.3 Update 5](/user-guide/version-history/features-added-to-testarchitect-8-3-update-5/) and higher.
 
@@ -110,7 +110,7 @@ For more details, please refer to [Log Information tab](/user-guide/working-with
 
 ![](/images/TA_Help/Images/Test_results_summary_log_info.png)
 
-## Additional functions
+## {{< expand >}} Additional functions {{< permerlink >}} {#Test_result_summaries__section_py3_gj4_5x} 
 
 The **Summary** tab also has an icon bar from which you can conveniently activate functions such as deleting and exporting test results, setting and comparing baselines, etc. This quick-access icon bar is located in the upper-right hand corner of the **Summary** tab.
 

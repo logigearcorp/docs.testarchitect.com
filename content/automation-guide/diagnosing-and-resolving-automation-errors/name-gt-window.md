@@ -10,11 +10,11 @@ keywords: "automation errors, 0x8001600AL"
 
 Error code: 0x8001600AL
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because the given list is empty, that is, no items are available.
 
-## Solution
+## {{< expand >}} Solution
 
 Ensure that the items are available from the list of the AUT, and then re-run the test.
 

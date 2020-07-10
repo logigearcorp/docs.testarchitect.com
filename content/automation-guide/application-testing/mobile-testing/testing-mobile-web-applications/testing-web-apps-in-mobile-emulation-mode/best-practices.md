@@ -12,7 +12,7 @@ How to conveniently create a list of predefined mobile device profiles to be use
 
 You can certainly add JSON strings to define mobile device profiles in the [send command to browser](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/send-command-to-browser) built-in action. But these JSON strings are lengthy, and this can render your test procedures hard to read. Much more convenient is to create a list of JSON strings defining mobile emulator profiles and assign a name to each one within a [user-defined action](/user-guide/actions/user-defined-actions/). Passing the action a specific device name allows that action to return the associated JSON string. In his example, we call this action get json of device.
 
-## get json of device
+## {{< expand >}} get json of device
 
 **Arguments**:
 
@@ -37,7 +37,7 @@ The following user-defined action's implementation demonstrates how to specify f
 
 ![](/images/TA_Automation/Images/get_json_of_device_pgm.png)
 
-## Invoke an emulator from the list of predefined profiles
+## {{< expand >}} Invoke an emulator from the list of predefined profiles
 
 After creating the user-defined action to supply all needed mobile device profiles, you can easily invoke the desired emulator as follows. This makes your test procedures easier to read.
 

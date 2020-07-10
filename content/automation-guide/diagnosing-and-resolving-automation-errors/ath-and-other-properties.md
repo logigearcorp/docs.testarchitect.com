@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80020004L"
 
 Error code: 0x80020004L
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because you identify a web UI control by combination of [XPath](/user-guide/interface-definitions/control-properties/secondary-properties/xpath-property) TA property, and other TA properties.
 
-## Solution
+## {{< expand >}} Solution
 
 In identifying a control within an application, TestArchitect normally allows for any combination of valid TA properties \(and their respective values\) to be specified. The XPath property is an exception. XPath must not be used in combination with any other TA properties to identify and capture a web control.
 

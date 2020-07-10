@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in settings, escape sequences, settings, escape sequences, escape sequences (settings), escape sequences, escape sequences are supported, escape sequences are allowable, escape sequences are not supported"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Determines whether, during test execution, escape sequences should be supported during string processing.
 
-## Allowable values
+## {{< expand >}} Allowable values
 
 -   **yes/true**
 
@@ -23,11 +23,11 @@ Determines whether, during test execution, escape sequences should be supported 
     Executes in the legacy mode. That is, character strings that would otherwise be treated as escape sequences are *not* given special treatment.
 
 
-## Default value
+## {{< expand >}} Default value
 
 no/false
 
-## Notes
+## {{< expand >}} Notes
 
 -   In order to maintain backward support for legacy test procedures \(those prior to TestArchitect version [8.2](/user-guide/version-history/features-added-to-testarchitect-8-2/)\), the default value of the escape sequences setting is No/False. However, for new tests, it is highly recommended that you set escape sequences to Yes/True, to allow for the added functionality.
 -   Escape sequences in TestArchitect are character combinations consisting of a backslash \(\\\) followed by a letter or sequence of digits. The full set of supported escape sequences is a subset of those used by [Microsoft Visual Studio](https://msdn.microsoft.com/en-us/library/h21280bw.aspx). The following table lists those that are supported in the current version of TestArchitect.
@@ -49,7 +49,7 @@ no/false
 
 -   Escape sequences in TestArchitect must be used within expressions, that is, in strings that begin with a number \(\#\) symbol.
 
-## Example
+## {{< expand >}} Example
 
 The following test procedure illustrates the use of some escape sequences to produce desired characters.
 

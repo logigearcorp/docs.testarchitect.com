@@ -8,15 +8,15 @@ aliases:
 keywords: "methods of abt, GetData, GetData (AbtDataSet), AbtDataSet, get data rows based on criteria, filter data"
 ---
 
-## Syntax
+## {{< expand >}} Syntax {{< permerlink >}} {#reference_pmp_gbw_gq__section.syntax} 
 
 `List <{{<link title="AbtDataRow" link="/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdatarow" >}}> GetData(string filterCriteria)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#reference_pmp_gbw_gq__section.desc} 
 
 Retrieve from the data set object the list of data rows that satisfy the specified filter criteria.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#reference_pmp_gbw_gq__section.params} 
 
 -   **filterCriteria**
 
@@ -27,7 +27,7 @@ Retrieve from the data set object the list of data rows that satisfy the specifi
 
 Array of AbtDataRow objects. If the call is unsuccessful, returnnull.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This method is currently supported only by the C\# harness.
 

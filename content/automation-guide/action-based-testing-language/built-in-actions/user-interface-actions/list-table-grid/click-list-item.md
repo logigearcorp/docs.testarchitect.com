@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, click list item, click list item (action), iOS (action), click list item, Safari, iOS (action), iOS, Safari (action), Android (action), Android, Google Chrome (action), Google Chrome, Android (action), Safari, macOS (action), macOS, Safari (action), click specified item in list box, click specified item in list view"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Click an item in a list control.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **window**
 
@@ -37,11 +37,11 @@ Click an item in a list control.
     \(Optional\) Vertical position of effective click, specified as distance in pixels from top edge of item. \(Defaults to vertical center of the item.\)
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/automation-guide/action-based-testing-language/built-in-actions/system-actions/operating-system/get-screen-resolution#li.ios.get_screen_resolution).\)
 -   item argument:
@@ -51,15 +51,15 @@ This action may be used within the following project items:test modules and user
 -   x and yare unsupported arguments and hence invisible. To use them, you must specify both their values and the headers x and y, respectively, in the cells to the right of the last visible argument.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only), [item wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/item-wait), [page wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/page-wait), [object wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/object-wait), [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait).
 
-## Applicable Controls
+## {{< expand >}} Applicable Controls
 
 This action is applicable to the following controls:list box, list view.
 
-## Example - Case 1: Use text value to click a list box item
+## {{< expand >}} Example - Case 1: Use text value to click a list box item
 
 ![](/images/TA_Automation/Images/bia_click_list_item_aut.png)
 
@@ -71,7 +71,7 @@ This action is applicable to the following controls:list box, list view.
 
 ![](/images/TA_Automation/Images/bia_click_list_item_res.png)
 
-## Example - Case 2: Use numerical index value to click a list box item
+## {{< expand >}} Example - Case 2: Use numerical index value to click a list box item
 
 ![](/images/TA_Automation/Images/bia_click_list_item_index_aut.png)
 
@@ -83,7 +83,7 @@ This action is applicable to the following controls:list box, list view.
 
 ![](/images/TA_Automation/Images/bia_click_list_item_index_res.png)
 
-## Example - Case 3: Use text value to click a list view item
+## {{< expand >}} Example - Case 3: Use text value to click a list view item
 
 ![](/images/TA_Automation/Images/bia_click_list_item_aut_3.png)
 

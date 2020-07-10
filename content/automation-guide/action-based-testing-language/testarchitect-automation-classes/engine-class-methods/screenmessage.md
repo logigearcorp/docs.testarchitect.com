@@ -12,11 +12,11 @@ keywords: "ABT Library Functions, ScreenMessage, ScreenMessage (ABT library func
 
 `integer ScreenMessage (string title, string text)`
 
-## Description
+## {{< expand >}} Description
 
 Display a screen message.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **title**
 
@@ -27,11 +27,11 @@ Display a screen message.
     The text of the message to be displayed.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 The function returns 1 if "OK" button was pressed or 0 if "Cancel" button was pressed.
 
-## Notes
+## {{< expand >}} Notes
 
 -   The exact behavior of this function depends on the operating system. If possible the message will contain an Ok and a Cancel button. The return value of the function reflects which button was pressed.
 

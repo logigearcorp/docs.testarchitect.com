@@ -8,15 +8,15 @@ aliases:
 keywords: "methods of abt, DoesDataSetExist, DoesDataSetExist (AbtDataSetManagement), AbtDataSetManagement, doesdatasetexist, abtdatasetmanagement doesdatasetexist, data set exist, existence of data set, check if data set exists"
 ---
 
-## Syntax
+## {{< expand >}} Syntax {{< permerlink >}} {#reference_zdm_2bw_gq__section.syntax} 
 
 `int DoesDataSetExist(string path)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#reference_zdm_2bw_gq__section.desc} 
 
 Check whether a data set exists.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#reference_zdm_2bw_gq__section.params} 
 
 -   **path**
 
@@ -27,7 +27,7 @@ Check whether a data set exists.
 
 Return 0 if thedata set exists; otherwise, -1.
 
-## Notes
+## {{< expand >}} Notes
 
 -   If the data set you want to check against is created by harness code, only the name \(no path\) of it is necessary for path.
 -   This method is currently supported only by the C\# harness.

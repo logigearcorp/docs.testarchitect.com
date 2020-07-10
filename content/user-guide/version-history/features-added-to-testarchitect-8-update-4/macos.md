@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
 
-## TestArchitect Automation
+## {{< expand >}} TestArchitect Automation
 
 -   **Support for test automation on iOS 8.1.x and iOS 8.0.x**: TestArchitect extends mobile testing and introduces support for testing iOS 8 applications. \(See [iOS Automation](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/ios-automation/) for more information.\)
     -   You can now create automated tests for iOS applications running on the latest versions of Apple smartphones, including iPhone 6 and iPhone 6 Plus.

@@ -19,7 +19,7 @@ There are three ways in which an action can be automated:
 
 -   Additional actions can be implemented using a scripting or programming language, in a harness \(see [Lesson \#8: Using an automation harness](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/)\). These are known as user-scripted actions..
 
-## Action Definition
+## {{< expand >}} Action Definition
 
 An action definition is created in a worksheet in the test editor, same as for a test module. The main difference is in its use of arguments. See the example below of the check message action, which performs three main functions:
 

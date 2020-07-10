@@ -10,11 +10,11 @@ keywords: "automation errors, 0x8001000EL"
 
 Error code: 0x8001000EL
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because the original argument header of a built-in action is renamed or changed.
 
-## Solution
+## {{< expand >}} Solution
 
 You might try the following ways:
 

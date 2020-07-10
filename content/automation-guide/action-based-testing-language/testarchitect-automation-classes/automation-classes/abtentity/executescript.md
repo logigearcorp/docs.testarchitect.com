@@ -12,11 +12,11 @@ keywords: "methods of abt, ExecuteScript, ExecuteScript (AbtEntity), AbtEntity, 
 
 `long ExecuteScript(string script, string language)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#executescript__section.desc} 
 
 Execute JavaScript code of a specified web page, or inline JavaScript.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#executescript__section.params} 
 
 -   **script**
 
@@ -33,11 +33,11 @@ Execute JavaScript code of a specified web page, or inline JavaScript.
 
 Return 0 if successful; otherwise, -1.
 
-## Applicable platforms
+## {{< expand >}} Applicable platforms
 
 -   Web applications
 
-## Notes
+## {{< expand >}} Notes {{< permerlink >}} {#executescript__section_zxd_nzp_s1b} 
 
 -   This function is currently supported only by the C\# and Java harnesses.
 

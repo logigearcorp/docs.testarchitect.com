@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80010303L"
 
 Error code: 0x80010303L
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because the specified tree node does not exist.
 
-## Solution
+## {{< expand >}} Solution
 
 Ensure that the given tree node exists, or try a different node, and then re-run the test.
 

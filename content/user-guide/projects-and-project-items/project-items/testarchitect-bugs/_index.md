@@ -12,7 +12,7 @@ A bug in TestArchitect is a failure in an automation run which impairs or preven
 
 {{<tip>}} For more details on how to work with TA bugs and integrate them with the JIRA bug tracking system, see [JIRA integration](/user-guide/integration-with-third-party-tools/jira-integration/)
 
-## Workflow
+## {{< expand >}} Workflow {{< permerlink >}} {#concept_xpn_tbc_1m__ksec_tabugs_workflow} 
 
 A TestArchitect bug workflow is the set of stages that a TA bug goes through during its life cycle. The following diagram depicts the workflow:
 
@@ -20,7 +20,7 @@ A TestArchitect bug workflow is the set of stages that a TA bug goes through dur
 
 Users of bug tracking systems, such as JIRA, may be familiar with the concept of interim resolution statuses, for example Duplicate, Incomplete, or Cannot Reproduce. A TA bug, by contrast, has only three statuses: Open, Closed, or Reopened.
 
-## Status
+## {{< expand >}} Status
 
 Each TA bug has a status indicating where the bug currently is in its life cycle. A bug starts as being Open, then generally progresses to Closed. Depending on circumstances, it may further progress to Reopened and then Closed again.
 
@@ -28,7 +28,7 @@ Each TA bug has a status indicating where the bug currently is in its life cycle
 -   Reopened: TA bug was once Closed, but is now being reverified and/or addressed. From here, the bug is marked Closed if it is resolved.
 -   Closed - TA bug has been resolved and completed.
 
-## Bug Type
+## {{< expand >}} Bug Type
 
 TA bugs are categorized into two types: registered bugs and unregistered bugs.
 
@@ -36,7 +36,7 @@ Registered bugs are bug records created in TestArchitect and associated with a b
 
 On the other hand, unregistered bugs are created in TestArchitect but not associated with a bug on any external bug tracking system. Refer to [Creating unregistered TA bugs](/user-guide/projects-and-project-items/project-items/testarchitect-bugs/creating-unregistered-ta-bugs).
 
-## Bug information
+## {{< expand >}} Bug information {{< permerlink >}} {#concept_xpn_tbc_1m__section_rkf_vtw_mn} 
 
 Detailed information regarding a TA bug \(that is, registered or unregistered\) is listed in two tabs of information. One is the **Information** tab which contains general information on the bug. The other is the **Related Items** tab, which lists those test modules which expose, or "catch", the bug.
 

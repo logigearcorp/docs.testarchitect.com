@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, on timeout action, on timeout action (action), timeout handler, handle timeout"
 ---
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#bia_on_timeout_action__section_lgr_mjf_4cb} 
 
 Specify the action to be invoked in the event of a timeout event, which occurs in the [INITIAL](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/documentary/initial) section, individual test cases, as well as the [FINAL](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/documentary/final) section.
 
-## Arguments
+## {{< expand >}} Arguments {{< permerlink >}} {#bia_on_timeout_action__section_mgr_mjf_4cb} 
 
 -   **action**
 
@@ -23,11 +23,11 @@ Specify the action to be invoked in the event of a timeout event, which occurs i
     \(Optional\) Arguments to be passed to the action specified in the action argument.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts {{< permerlink >}} {#bia_on_timeout_action__section_ngr_mjf_4cb} 
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes {{< permerlink >}} {#bia_on_timeout_action__section_ogr_mjf_4cb} 
 
 -   Applies to TestArchitect [8.3 Update 4](/user-guide/version-history/features-added-to-testarchitect-8-3-update-4/windows) and higher.
 -   The number of optional arguments depends on the requirements of the action specified in action. \(See Examples below.\)
@@ -38,13 +38,13 @@ This action may be used within the following project items:test modules and user
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Example - Case 1: Timeout handler with no arguments
+## {{< expand >}} Example - Case 1: Timeout handler with no arguments {{< permerlink >}} {#bia_on_timeout_action__section_rgr_mjf_4cb} 
 
 **Action Lines**
 
 ![](/images/TA_Automation/Images/bis_on_timeout_action_pgm.png)
 
-## Example - Case 2: Timeout handler with arguments
+## {{< expand >}} Example - Case 2: Timeout handler with arguments {{< permerlink >}} {#bia_on_timeout_action__section_ugr_mjf_4cb} 
 
 **Action Lines**
 

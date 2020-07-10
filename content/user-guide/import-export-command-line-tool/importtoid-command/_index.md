@@ -12,7 +12,7 @@ Import a project item or test case to a TestArchitect project location identifie
 
 {{<restriction>}} The Import/Export tool is not available in the TestArchitect packages for the Linux and macOS operating systems.
 
-## Synopsis
+## {{< expand >}} Synopsis
 
 ```
 java -Dfile.encoding=UTF-8 -jar TAImportExportTool.jar --ImportToID [--server<value>] [--port<value>] --uid<value> 

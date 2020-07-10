@@ -8,20 +8,20 @@ aliases:
 keywords: "built-in actions, end action definition, end action definition (action)"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Denotes the end of a user-defined action definition.
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Only needed when an [action definition](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/deprecated/action-definition) is done within a test module \(not common practice\).
 -   This action has been deprecated in TestArchitect 7.2.
 
-## Example
+## {{< expand >}} Example
 
 ![](/images/TA_Automation/Images/bia_end_action_definition_pgm.png)
 

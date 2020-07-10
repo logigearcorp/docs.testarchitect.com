@@ -10,7 +10,7 @@ keywords: "Release Notes 8.5.1, License Server, Linux, What is new, Linux, Licen
 
 The following new features and improvements are introduced in the latest version of TestArchitect License Server running on Linux.
 
-## License Server
+## {{< expand >}} License Server {{< permerlink >}} {#Whats_New_LS_Linux_1__section_LS} 
 
 **Enhancements**
 

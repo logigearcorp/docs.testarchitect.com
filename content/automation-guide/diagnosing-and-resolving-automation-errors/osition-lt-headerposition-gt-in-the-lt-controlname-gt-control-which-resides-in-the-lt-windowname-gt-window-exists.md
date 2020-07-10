@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80016004L"
 
 Error code: 0x80016004L
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because the specified header's index position does not exist.
 
-## Solution
+## {{< expand >}} Solution
 
 Ensure the given index is in the valid range. Index numbering starts from 1.
 

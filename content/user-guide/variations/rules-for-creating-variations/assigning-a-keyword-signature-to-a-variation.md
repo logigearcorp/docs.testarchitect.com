@@ -26,7 +26,7 @@ Similarly, if you offer separate Home and Professional editions of your applicat
 
 Let's examine some examples of how keyword signatures are created and assigned to variations. In each case we'll work with the login interface entity.
 
-## Case 1: Single-value keyword signature
+## {{< expand >}} Case 1: Single-value keyword signature
 
 Assume that our application's Login window has differences for each language version, such that a separate login variation is required for each one. We thus might create four variations of login with four different keyword signatures, each with a different keyword of our language-based keyword set:
 
@@ -39,7 +39,7 @@ login {French}
 
 \(Of course, you can certainly use the default variation for one of the languages, and then create only three keyword-based variations, but it's often helpful to have explicitly-labeled variations for each case.\)
 
-## Case 2: Keyword signature with multiple keyterms
+## {{< expand >}} Case 2: Keyword signature with multiple keyterms
 
 It was mentioned earlier that a keyword signature contains one or more keywords along with commas \( , \) and vertical bars \( \| \). Another way to say it is that a keyword signature consists of a string of [keyterms](/user-guide/support/glossary-of-terms/keyterm) separated by commas. \(We'll discuss the vertical bar operators, and keyterms, in the next example. For now, you may consider a keyterm to be equivalent to a keyword.\) Each comma is, in fact, an `AND` operator, specifying that both the keyterms to its left and right identify the variation to which the keyword signature is assigned.
 

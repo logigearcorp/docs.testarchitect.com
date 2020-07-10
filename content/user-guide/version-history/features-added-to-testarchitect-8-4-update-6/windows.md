@@ -15,13 +15,13 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories and check in all test artifacts.
 -   A TestArchitect client and any repository server to which it connects must be the same version.
 
-## TestArchitect Client
+## {{< expand >}} TestArchitect Client {{< permerlink >}} {#Whats_New_Windows__section.TAC} 
 
 **Enhancements to existing features**
 
 -   **Copy & Paste and Paste with Variation for Test Modules**: Now when you copy a Test Module and use paste or paste with variation, the picture checks tab is copied too. This means you can run actions related to local picture checks without any extra steps.
 
-## TestArchitect Automation
+## {{< expand >}} TestArchitect Automation {{< permerlink >}} {#Whats_New_Windows__section.Auto} 
 
 **New features**
 
@@ -33,7 +33,7 @@ The following new features and improvements are introduced in TestArchitect vers
 
 -   **Support for [Chrome 77](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/) and [Firefox 69](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/)**: Now you can run automated tests for web pages displayed in the latest versions of Chrome and Firefox.
 
-## Known issues
+## {{< expand >}} Known issues {{< permerlink >}} {#Whats_New_Windows__section_hhf_pk5_4jb} 
 
 -   While uploading results to TFS when successfully authenticating with a local domain using RESTAPI mode, you may experience inconsistencies.
 -   Hold key and release key may not work as expected when using the key combination alt + f4

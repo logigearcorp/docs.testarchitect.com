@@ -12,11 +12,11 @@ keywords: "methods of abt, MoveMouse, MoveMouse (AbtEntity), AbtEntity, movemous
 
 `long MoveMouse(int x, int y)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_MoveMouse_entity__section.desc} 
 
 Move the mouse pointer to the designated position inside thewindow.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_MoveMouse_entity__section.params} 
 
 -   **x**
 

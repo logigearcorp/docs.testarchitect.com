@@ -12,11 +12,11 @@ ta delete is used to remove local test results from the command-line interface.
 
 {{<note>}} Applies to TestArchitect 8.4 Update 2 and higher
 
-## Syntax
+## {{< expand >}} Syntax {{< permerlink >}} {#ta_command_line_delete__section_bsm_43v_vfb} 
 
 ta delete -rep <repository\> -proj <project\> -u <username\> -p <password\> \[Optional arguments\]
 
-## Arguments
+## {{< expand >}} Arguments {{< permerlink >}} {#ta_command_line_delete__section_kl3_kjv_vfb} 
 
 |Argument|Description|
 |--------|-----------|

@@ -12,11 +12,11 @@ keywords: "methods of abt, GetItemText, GetItemText (AbtList), AbtList, getitemt
 
 `string GetItemText(int index)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_GetItemText_list__section.desc} 
 
 Retrieve the text content ofthe item specified by its index within thelist control.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_GetItemText_list__section.params} 
 
 -   **index**
 
@@ -27,7 +27,7 @@ Retrieve the text content ofthe item specified by its index within thelist contr
 
 String value indicating the text content ofthe specified item.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This method is applicable to both ListBox and ListView controls.
 

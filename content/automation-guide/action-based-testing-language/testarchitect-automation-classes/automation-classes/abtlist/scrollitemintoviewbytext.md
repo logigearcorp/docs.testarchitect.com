@@ -12,22 +12,22 @@ keywords: "methods of abt, ScrollItemIntoViewByText, ScrollItemIntoViewByText (A
 
 `long ScrollItemIntoViewByText(string text)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_ScrollItemIntoViewByText_list__section.desc} 
 
 Ensure that a list item, as specified by its text content, is visible, by scrolling it into view if necessary.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_ScrollItemIntoViewByText_list__section.params} 
 
 -   **text**
 
     String value specifying the text content ofthe item.
 
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#abt_ScrollItemIntoViewByText_list__section.return} 
 
 Return 0 if the call is successful; otherwise, -1..
 
-## Notes
+## {{< expand >}} Notes
 
 -   This method is applicable to both ListBox and ListView controls.
 

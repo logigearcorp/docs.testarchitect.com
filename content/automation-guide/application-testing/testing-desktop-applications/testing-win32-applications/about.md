@@ -10,7 +10,7 @@ keywords: "Win32 testing, testing Win32 applications, overview, record and playb
 
 Some basics of creating and recording tests for Win32 applications, Win32 control identification via the Interface Viewer, and other concepts.
 
-## Creating and recording tests for Win32 applications
+## {{< expand >}} Creating and recording tests for Win32 applications
 
 TestArchitect's test editor allows you to manually author tests consisting of action lines, based on the Action-Based Testing methodology. However, TestArchitect also provides you with a powerful tool to automate the process of authoring action-based tests, saving you time and eliminating the risk of accidental coding errors. The [Action Recorder](/user-guide/actions/action-recorder/) does this by monitoring and recording your manual interactions with theWin32application. It automatically generates the equivalent action lines and writes them to your test file, inserting whatever checks you specify to verify the responses of the application. \(See [Using the Action Recorder](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-4-using-the-action-recorder/) for further information.\)
 
@@ -26,7 +26,7 @@ Auto-generated action lines can subsequently be modified and enhanced by hand in
 
 TestArchitect provides many built-in actions for automating various user interactions on Win32 applications. When you record a test, TestArchitect records the performed user interface actions using these built-in actions. A full reference guide to these actions may be found in the [User Interface actions](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/) section of the Automation Guide.
 
-## Win32 control identification
+## {{< expand >}} Win32 control identification
 
 Every user interface control of aWin32application has both a class and a set of properties. Property sets vary depending on the class of object involved: a button, for example, will have a different set of properties than a text box or label. Within a given container \(window, dialog box, etc.\), the combination of a control's class and some set of property-value pairs is used by TestArchitect to uniquely identify the control.
 
@@ -36,7 +36,7 @@ The [Interface Viewer](/user-guide/interface-definitions/the-interface-viewer/) 
 
 ![](/images/TA_Automation/Images/aut_interface_definition_UI_Win32_identification.png)
 
-## The UIA Support tool
+## {{< expand >}} The UIA Support tool
 
 TestArchitect can work with UI controls that are exposed by Microsoft's UI Automation \(UIA\) technology. TestArchitect includes a special tool, UIA Support, that provides support for Microsoft UIA. This tool is used to obtain the properties of a WPF application’s UI controls. \(See [Microsoft UI Automation](/automation-guide/microsoft-ui-automation/) for further information.\)
 
@@ -44,7 +44,7 @@ When the UIA Support tool is activated, TestArchitect is able to obtain extra an
 
 {{<tip>}} Using a unique and discoverable automation id property to locate a specific UI control is particularly suitable for agile software development. One of the crucial points of agile testing is automation. Software designers can specify unique automation ids for their UI elements. From design specifications, it is possible for QA specialists to implement the interface definition of a UI control using its automation id before the AUT is available for testing. With the aid of declaring a unique and discoverable automation id, the code can be architected for easy testing, and the QA specialists are able to identify test cases as soon as the requirements are defined, even before coding begins or completes. Furthermore, they can also test again as soon as the code has changed.
 
-## Class mapping
+## {{< expand >}} Class mapping
 
 Given that each platform has its own specific name for each type of control, supporting test automation across a wide variety of platforms gives rise to complex problems. To address this issue, TestArchitect introduces the concept of TA classes.
 

@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in settings, enable click hook, settings, enable click hook (settings), enable click hook, try again when click action fails to register, determine whether, after click action fails to register, second attempt with made"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Specifies whether, after a click-related built-in action is executed and fails to register, a second attempt is made with the hook mechanism enabled. \([Learn more.](https://msdn.microsoft.com/en-us/library/windows/desktop/ms644959(v=vs.85).aspx)\) Enabling of hook helps ensure a successful click.
 
-## Allowable values
+## {{< expand >}} Allowable values
 
 -   **yes**
 
@@ -23,17 +23,17 @@ Specifies whether, after a click-related built-in action is executed and fails t
     Disables hook.
 
 
-## Default value
+## {{< expand >}} Default value
 
 no
 
-## Applicable Systems/Platforms
+## {{< expand >}} Applicable Systems/Platforms
 
 Use of this built-in setting is supported on the following systems/platforms:
 
 -   Windows: Win32 applications.
 
-## Applicable Built-in Actions
+## {{< expand >}} Applicable Built-in Actions {{< permerlink >}} {#bis_enable_click_hook__section_n5n_tgq_sv} 
 
 Use of this built-in setting is applicable to the following built-in actions:
 
@@ -54,14 +54,14 @@ Use of this built-in setting is applicable to the following built-in actions:
 -   [select tab](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tab-controls/select-tab)
 -   [select toolbar menu](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/select-toolbar-menu)
 
-## Notes
+## {{< expand >}} Notes
 
 -   This built-in setting affects only single left-click and right-click types.
 -   Use this built-in setting to avoid problems that can result from unstable network connections, virtual machines, remote desktops, etc. Such issues may cause click-related built-in actions to unexpectedly fail to register with the AUT.
 -   This built-in setting is not displayed in the editor by [Content Assist](/user-guide/getting-started/the-test-editor/content-assist/). To use it in the editor, you must manually enter the setting name and its value.
 -   The use of hooks tends to slow down the system because they increase the amount of processing the system must perform for each message. Hence it is recommended that you use enable click hook only as a last resort, and disable it as soon as possible. Preferred alternatives for addressing the issue of lost mouse clicks are the built-in settings [click delay](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/click-delay) and [click method](/automation-guide/action-based-testing-language/built-in-settings/other-settings/click-method).
 
-## Example
+## {{< expand >}} Example
 
 Under various test environment conditions, your click-related built-in actions may fail to properly register with the AUT. Setting enable click hook to yes directs TestArchitect to re-execute such built-in actions when they do fail, in each case with the hook mechanism enabled on the subsequent attempt.
 

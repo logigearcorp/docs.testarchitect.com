@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, interface element class action, interface element class action (action)"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Action definition for a class
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **name**
 
@@ -23,11 +23,11 @@ Action definition for a class
     Class-specific low level action
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Classes can support specific logical actions, like enter to enter something in a control. These logical actions are translated to a low level action that is class-specific \(like enter edit for an edit box\)
 -   This action has been deprecated in TestArchitect 7.2.

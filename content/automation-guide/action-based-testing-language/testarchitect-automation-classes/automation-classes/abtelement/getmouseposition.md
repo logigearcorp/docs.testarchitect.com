@@ -12,7 +12,7 @@ keywords: "methods of abt, GetMousePosition, GetMousePosition (AbtElement), AbtE
 
 `{{<link title="TAPoint" link="/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abt-object-classes/tapoint">}} GetMousePosition()`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_GetMousePosition_1__section.desc} 
 
 Retrieve the coordinates of the current mouse pointer position.
 

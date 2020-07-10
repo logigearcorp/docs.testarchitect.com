@@ -18,7 +18,7 @@ On the TestArchitect explorer tree, when you double-click the **Picture Checks**
 
 Following operations can be performed on the picture check list view:
 
-## Common operations
+## {{< expand >}} Common operations
 
 You can find various common operations that can be performed on the contents of picture check list views at [Common operations](/user-guide/projects-and-project-items/project-items/list-view/common-operations/).
 
@@ -26,11 +26,11 @@ You can find various common operations that can be performed on the contents of 
 
 You can open multiple picture checks by using your keyboard's Shift key to select a contiguous range of picture checks \(or Control to select multiple noncontiguous picture checks \); then right-click the selection, and click Open.
 
-## Adding new baseline
+## {{< expand >}} Adding new baseline
 
 You can save a captured screen image as a new baseline for an existing image. \(For details, see [Saving new baseline image](/user-guide/projects-and-project-items/project-items/picture-checks/picture-capturing-tool/saving-additional-baseline-images) and [Baseline Picture](/user-guide/projects-and-project-items/project-items/picture-checks/#section_mwp_1d1_1l).\)
 
-## Cut-Paste operations, and Delete command
+## {{< expand >}} Cut-Paste operations, and Delete command
 
 -   From a picture check list view, you can remove a given picture check from one picture check folder and paste it to another by performing the **Cut** and **Paste** operations from the context menu.
 

@@ -8,11 +8,11 @@ aliases:
 keywords: "constants of abt, TACheckState, TACheckState (constants), TAcheckstate, checkbox is checked or unchecked, radio button is checked or unchecked"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Enumeration that indicates check box or radio button state.
 
-## Values
+## {{< expand >}} Values
 
 Possible values are:
 

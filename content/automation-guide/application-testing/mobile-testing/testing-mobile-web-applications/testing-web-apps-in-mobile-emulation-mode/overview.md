@@ -19,7 +19,7 @@ Developers use various techniques to make mobile web applications adapt to diffe
 
 Testing on emulators helps verify that your mobile web application looks and works well on various devices, before you actually test the web application on real physical devices.
 
-## Emulation of mobile browsers with Chrome Dev Tools
+## {{< expand >}} Emulation of mobile browsers with Chrome Dev Tools
 
 TestArchitect uses Google Chrome's Device Mode to emulate mobile browsers. The updated [Device Mode](https://developers.google.com/web/tools/chrome-devtools/iterate/device-mode/) \(since Chrome 49\) is an integral part of the now-mobile-first [DevTools](https://developer.chrome.com/devtools).
 
@@ -34,13 +34,13 @@ Although Chrome's Device Mode offers many powerful emulation tools, it does have
 
 {{<restriction>}} TestArchitect's [Interface Viewer](/user-guide/interface-definitions/the-interface-viewer/) and [point-to-identify mode](/user-guide/interface-definitions/interface-capturing-commands/point-to-identify-tool/) are not supported for UI object identification and capture on mobile emulators.
 
-## Supported platforms
+## {{< expand >}} Supported platforms
 
 -   Windows:
     -   Chrome desktop 49 and later versions.
     -   All types of available mobile emulators in the Device Mode of Chrome DevTools.
 
-## Technological approach
+## {{< expand >}} Technological approach
 
 -   Event-fired action model: TestArchitect attempts to implement built-in actions in a manner that, from the standpoint of the AUT, is as close as possible to real user actions. In most cases, for each given UI action, TestArchitect calls a sequence of events, as outlined in the following table.
 

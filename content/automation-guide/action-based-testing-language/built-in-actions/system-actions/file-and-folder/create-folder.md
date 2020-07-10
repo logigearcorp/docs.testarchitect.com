@@ -8,22 +8,22 @@ aliases:
 keywords: "built-in actions, create folder, create folder (action), Android (action), create folder, create new folder"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Create a new folder at the specified location.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **folder**
 
     Full path of target folder.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Observe the following format for the folder path:
     -   **Windows platform**: Use backward slashes as separators for the path.
@@ -32,11 +32,11 @@ This action may be used within the following project items:test modules and user
 -   If a folder specified by the folder argument already exists, the execution of this action is skipped.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

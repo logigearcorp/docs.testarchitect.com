@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80015001L"
 
 Error code: 0x80015001L
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because your mobile device-under test is currently not unlocked, or the re-signed application is not launched in the correct manner.
 
-## Solution
+## {{< expand >}} Solution
 
 Follow the steps below and re-run the test after each step:
 

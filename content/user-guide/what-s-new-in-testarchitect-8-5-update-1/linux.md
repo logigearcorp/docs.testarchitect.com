@@ -14,7 +14,7 @@ The following new features and improvements are introduced in the latest version
 
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories and check in all test artifacts.
 
-## TestArchitect Client
+## {{< expand >}} TestArchitect Client {{< permerlink >}} {#Whats_New_Linux__section.TAC} 
 
 **Enhancements to existing features**
 

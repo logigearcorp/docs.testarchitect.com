@@ -8,7 +8,7 @@ aliases:
 keywords: "built-in settings, color format, color format (settings), color format, specify whether RGB color codes are express in decimal or hexadecimal, specify color formatting code"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Specifies whether RGB color codes are expressed in decimal or hexadecimal format.
 
@@ -18,7 +18,7 @@ Specifies whether RGB color codes are expressed in decimal or hexadecimal format
 -   [set native property](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/set-native-property)
 -   [check native property](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/check-native-property)
 
-## Allowable values
+## {{< expand >}} Allowable values
 
 Two possible values are:
 
@@ -35,11 +35,11 @@ Two possible values are:
     {{<remember>}} Place a black slash \( \\ \) and a pound key \( \# \) before the hexadecimal value to indicate that it is a hexadecimal. For example, the white color is represented as `\#FFFFFF`.
 
 
-## Default value
+## {{< expand >}} Default value
 
 Hex
 
-## Example
+## {{< expand >}} Example
 
 **Test Lines**
 

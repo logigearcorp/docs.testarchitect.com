@@ -8,23 +8,23 @@ aliases:
 keywords: "built-in actions, section, section (action)"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Keyword to document a section of action lines; ignored by the system at run time.
 
-## Arguments
+## {{< expand >}} Arguments
 
 There are no arguments for this action, but appropriate documentary information following the action name is highly encouraged.
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:none.
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

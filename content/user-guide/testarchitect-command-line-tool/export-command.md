@@ -15,11 +15,11 @@ ta export is used to export Test Architect items such as repository, project, te
 
 {{<note>}} Applies to TestArchitect 8.4 Update 3 and higher
 
-## Systax
+## {{< expand >}} Systax {{< permerlink >}} {#TA_command_line_export__section_uzg_3kq_dgb} 
 
 ta export -rep <repository\> -u <username\> -p <password\>\[Optional arguments\]
 
-## Arguments
+## {{< expand >}} Arguments {{< permerlink >}} {#TA_command_line_export__section_vvt_clq_dgb} 
 
 |Argument|Description|
 |--------|-----------|

@@ -12,11 +12,11 @@ keywords: "methods of abt, GetNodeStates, GetNodeStates (AbtTree), AbtTree, getn
 
 `long GetNodeStates(string nodepath, string states)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_GetNodeStates__section.desc} 
 
 Retrieve all states of a specified node in a tree control.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_GetNodeStates__section.params} 
 
 -   **nodepath**
 
@@ -34,7 +34,7 @@ Retrieve all states of a specified node in a tree control.
     -   SELECTED or UNSELECTED
     -   EXPANDED or COLLAPSED
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#abt_GetNodeStates__section.return} 
 
 Return 0 if the call is successful; otherwise, -1..
 

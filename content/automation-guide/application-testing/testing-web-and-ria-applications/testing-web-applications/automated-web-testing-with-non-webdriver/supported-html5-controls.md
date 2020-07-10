@@ -10,7 +10,7 @@ keywords: "HTML5, tags, controls, web testing, supported HTML5 controls"
 
 A list of the HTML5 controls \(tags\) that TestArchitect supports for test automation.
 
-## Semantic/Structural elements
+## {{< expand >}} Semantic/Structural elements
 
 |Controls|Description|
 |--------|-----------|
@@ -36,7 +36,7 @@ A list of the HTML5 controls \(tags\) that TestArchitect supports for test autom
 |<summary\>|Defines a visible heading for the <details\> element. The heading can be clicked to view/hide the details.|
 |<time\>|Defines a date/time.|
 
-## Media elements
+## {{< expand >}} Media elements
 
 Controls that allow your test to determine such things as the state of an audio or video player \(playing/paused/stopped\), and current loading status.
 
@@ -47,7 +47,7 @@ Controls that allow your test to determine such things as the state of an audio 
 |<source\>|Defines multiple media resources for media elements \(<video\> and <audio\>\).|
 |<embed\>|Defines a container for an external \(non-HTML\) application.|
 
-## Canvas element
+## {{< expand >}} Canvas element
 
 Controls that enable you to access the 2D context of a <canvas\> element and use it to verify and simulate drawing.
 
@@ -55,7 +55,7 @@ Controls that enable you to access the 2D context of a <canvas\> element and use
 |--------|-----------|
 |<canvas\>|Used to draw graphics, on the fly, using scripting \(usually JavaScript\).|
 
-## SVG element
+## {{< expand >}} SVG element
 
 Identify inline SVG on Web pages, allowing tests to create verifications for displayed 2D drawings.
 
@@ -96,7 +96,7 @@ Identify inline SVG on Web pages, allowing tests to create verifications for dis
 |<tspan\>|Identical to the <text\> element but can be nested inside text tags and inside itself.|
 |<use\>|Uses a URI to reference a <g\>, <svg\> or other graphical element with a unique id attribute and replicate it.|
 
-## New Input Types
+## {{< expand >}} New Input Types {{< permerlink >}} {#html5_automation_new_tags__section_i4g_cks_tr} 
 
 |Controls|Description|
 |--------|-----------|

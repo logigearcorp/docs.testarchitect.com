@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, exit test module, exit test module (action), exit test module, terminate test module, test module termination, stop test module"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Exit the current test module \(skip all remaining action lines and test cases\) and, if applicable, continue with the calling test module and/or the next module of the test run.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **exit status**
 
@@ -23,11 +23,11 @@ Exit the current test module \(skip all remaining action lines and test cases\) 
     -   complete: The operation is successful.
     -   incomplete: \(Default\) The operation is unsuccessful.
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This action can be used to handle an error situation.
 
@@ -40,11 +40,11 @@ This action may be used within the following project items:test modules and user
     |Complete|The overall status of test results is not necessarily [Not Finished](/user-guide/working-with-test-results/overview/test-result-status).|
 
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:none.
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

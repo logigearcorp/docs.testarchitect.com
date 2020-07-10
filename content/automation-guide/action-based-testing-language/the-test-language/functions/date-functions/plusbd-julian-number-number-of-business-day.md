@@ -10,11 +10,11 @@ keywords: "date functions, plusbd, plusbd (function)"
 
 Add a specified number of business days to a given Julian date number, then return the result as a Julian number.
 
-## Syntax
+## {{< expand >}} Syntax
 
 `integer plusbd(integer date, integer day)`
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **date**
 
@@ -25,19 +25,19 @@ Add a specified number of business days to a given Julian date number, then retu
     Number of business days to add to date. Use a negative value to subtract business days from date.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Returns a Julian date number computed by adding a number of business days to a Julian date number.
 
-## Notes
+## {{< expand >}} Notes
 
 -   There are five working days in a week \(Monday through Friday\). Weekends \(Saturday and Sunday\) are excluded.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following built-in setting\(s\) are supported: [date order](/automation-guide/action-based-testing-language/built-in-settings/date-time-settings/date-order).
 
-## Example
+## {{< expand >}} Example
 
 ![](/images/TA_Automation/Images/automationguide_datefunction11.png)
 

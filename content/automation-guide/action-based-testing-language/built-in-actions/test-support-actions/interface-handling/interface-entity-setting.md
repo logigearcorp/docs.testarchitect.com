@@ -8,13 +8,13 @@ aliases:
 keywords: "built-in actions, interface entity setting, interface entity setting (action), interface entity setting, map property and value of window or HTML page to logical name in TA"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Specify a property-value pair of a window or HTML page of an application under test, to create a mapping \(or partial mapping\) to a given logical name TA name.
 
 {{<note>}} A secondary function of interface entity setting is to issue directives to the TestArchitect runtime system. \(See Notes for example.\)
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **setting**
 
@@ -25,11 +25,11 @@ Specify a property-value pair of a window or HTML page of an application under t
     Identifying value of the property given in the setting argument.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:interface entities
 
-## Notes
+## {{< expand >}} Notes
 
 -   Note that the logical name \(TA name\) that is assigned to the AUT window is not included as one of the arguments of this action; rather, it is the name of the containing interface entity itself. \(In the example below, the interface entity is assigned the TA name confirm reservationmusic library.\)
 -   A single interface entity setting \(unlike an interface element\) can only specify a single property-value pair of a window. In the event that additional property-value pairs are required for the proper identification of the window, use additional interface entity settings.
@@ -42,11 +42,11 @@ This action may be used within the following project items:interface entities
     is used to inform the automation that the [intake](/user-guide/interface-definitions/control-properties/intake) of controls on the current window should include the children of any controls that are of class table. \(table is a container class. By default, TestArchitect intakes ignore the controls held within container class controls.\)
 
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:none.
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines** In this example, the TA name confirm reservation is mapped to the window whose title property = Car Rental-Confirm Your Reservation:
 

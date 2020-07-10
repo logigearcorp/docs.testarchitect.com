@@ -12,11 +12,11 @@ keywords: "methods of abt, GetChildAt, GetChildAt (AbtElement), AbtElement, getc
 
 `long GetChildAt(int index)`
 
-## Description
+## {{< expand >}} Description
 
 Retrieve the child element at the given index.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_GetChildAt_element__section.params} 
 
 -   **index**
 

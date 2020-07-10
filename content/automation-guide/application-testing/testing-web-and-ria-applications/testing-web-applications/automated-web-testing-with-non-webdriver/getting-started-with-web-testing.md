@@ -14,7 +14,7 @@ How to automate some common web testing tasks, such as launching the browser, na
 
 Before testing web applications on a supported browser, ensure that necessary settings or reconfigurations required by TestArchitect are fully met. For detailed instructions, see [Preparing web browsers](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/automated-web-testing-with-non-webdriver/preparing-web-browsers/).
 
-## Specifying the browser
+## {{< expand >}} Specifying the browser
 
 To select the type of web browser to run the test in, you may specify the browser in the [use browser](/automation-guide/action-based-testing-language/built-in-settings/other-settings/use-browser) built-in setting. For example, you can choose Mozilla Firefox to be invoked.
 
@@ -23,7 +23,7 @@ To select the type of web browser to run the test in, you may specify the browse
 setting      use browser      Firefox
 ```
 
-## Launching the browser and navigating to web pages
+## {{< expand >}} Launching the browser and navigating to web pages
 
 You normally launch a browser and open the web page to be tested at the beginning of a web test. You may also need to navigate to web pages in an already-running browser. You can perform these operations with the [navigate](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/navigate) action.
 
@@ -66,11 +66,11 @@ As with desktop testing, you can use an interface entity to identify your browse
 check control exists       #home1        [ta class=div, text={Car No .*}]
 ```
 
-## Waiting for web pages
+## {{< expand >}} Waiting for web pages
 
 Complex dynamic web pages may take a few seconds to load, and the web page scripts can also load additional content after the page has been loaded. As a result, the web page load time may vary. Successful testing requires that the automation correctly handle the varying response times of the web page, and not to attempt to continue with interactions before the web page is finished with the previous function. Therefore, TestArchitect waits for a web page to load completely before attempting the next action. That said, there is always a risk of a connection problem, a web application error, or any issue that might cause the web page not to load completely. To allow your test to handle such problems, rather than wait indefinitely, you can specify a maximum wait time with the [page wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/page-wait) built-in setting. \(For further information regarding how to handle timing issues, please refer to [Timing](/automation-guide/action-based-testing-language/the-test-language/timing/).\)
 
-## Handling JavaScript popups on Safari macOS
+## {{< expand >}} Handling JavaScript popups on Safari macOS {{< permerlink >}} {#concept_uql_lcd_m4__section_f1f_hgd_4s} 
 
 Due to the manner in which the Safari browser engine processes JavaScript code, modal popup windows produced in a web application by JavaScript cannot be tested in a conventional manner. To address this issue, TestArchitect offers a special set of actions for interfacing with JavaScript popups, which include alerts, prompts and confirmation dialogs. These built-in actions allow your tests to properly respond to JavaScript popups, and to capture their displayed content.
 
@@ -174,7 +174,7 @@ In the above action line procedures, the prompt and alert popups are handled in 
 
 check popup message \(line 36\) verifies the message of the alert popup, that is, the last popup. In order to indicate the last popup, the expected argument is used. \(As a convenience, the expected and expected1 arguments are identical – that is, they reference the same thing – as are variable and variable1.\) Likewise, the expected2 argument of check popup message \(line 43\) indicates the second to last popup, the prompt. Finally, check popup default text \(line 49\) verifies the default text of the prompt popup, based on its given message.
 
-## Testing a web app in mobile emulation mode
+## {{< expand >}} Testing a web app in mobile emulation mode
 
 TestArchitect allows you to create and run automated tests of web applications and websites on mobile devices without the necessity of having each such device available. By interfacing with [Google Chrome DevTools](/automation-guide/application-testing/mobile-testing/testing-mobile-web-applications/testing-web-apps-in-mobile-emulation-mode/overview), TestArchitect uses DevTools' Device Mode to emulate mobile browsers within Chrome and allow your automated tests to run on them.
 

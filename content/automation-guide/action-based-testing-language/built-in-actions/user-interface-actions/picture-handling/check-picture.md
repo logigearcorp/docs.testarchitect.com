@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, check picture, check picture (action), iOS (action), check picture, Android (action), check bitmap area against basedline image, check bitmap region against baseline image, check if any pictures in area match baseline one"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Check a bitmap area of the AUT's current display against one or more stored baseline images. Result is Passed ifthe displayed image matches one of the baselines; otherwise Failed.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **window**
 
@@ -47,11 +47,11 @@ Check a bitmap area of the AUT's current display against one or more stored base
     \(Optional\) Specifies the height of the rect area. \(Units: pixels; the default is that value which causes the lower border of the rect area to coincide with the lower border of the active UI element.\)
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/automation-guide/action-based-testing-language/built-in-actions/system-actions/operating-system/get-screen-resolution#li.ios.get_screen_resolution).\)
 -   This built-in action always applies a [pixel-by-pixel image comparison](/automation-guide/action-based-testing-language/the-test-language/image-comparison-techniques) technique.Keypoint detection is not available to check picture.
@@ -108,11 +108,11 @@ This action may be used within the following project items:test modules and user
     3.  Click the **Refresh devices list** ![](/images/Android/Images/Refresh_device_list_btn.png) button.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive),[verify picture](/automation-guide/action-based-testing-language/built-in-settings/other-settings/verify-picture), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only), [object wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/object-wait), [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait), [load invisible controls](/automation-guide/action-based-testing-language/built-in-settings/other-settings/load-invisible-controls).
 
-## Example
+## {{< expand >}} Example
 
 In this example we create a test to verify that the correct car picture is displayed in the Car Rental application when we select a car from the program's catalog. The action lines below launch the application, navigate to the View Cars window, and select the node for **Chevrolet Monte Carlo** from the tree view, which should result in the following display:
 
@@ -126,7 +126,7 @@ Our last step in the action lines is to verify that the correct picture is displ
 
 {{<note>}} We've omitted the positional arguments of left, top, width and height from the check picture action line, meaning that the active area of the picture check corresponds to the entire **car image** control.
 
-## Verifying the picture
+## {{< expand >}} Verifying the picture {{< permerlink >}} {#bia_check_picture__section_z53_zwj_vq} 
 
 Note that the check picture action line in the test assumes that we already have a picture check with a name of chevrolet in existence. In this case, we don't – at least not yet. But [as mentioned](#li.note.picture_check_dlgs.two_types), when a check picture execution runs up against a nonexistent picture check, the result is a suppressed warning and creation of an unverified picture check. And since the built-in setting verify picture has been set to yes, the unverified picture check prompts a Picture Check – New Picture dialog box to appear upon completion of the test:
 
@@ -191,7 +191,7 @@ Finally, click the **Submit** button to complete the picture verification proces
 
 {{<note>}} The **Close** button discards the changes \(if any\) and then closes the dialog box.
 
-## Automation mode
+## {{< expand >}} Automation mode
 
 It has been mentioned that test runs with picture checks may be run in either an automated or semi-automated mode. So far, we have looked at semi-automated test runs, in which manual intervention is required at the end of each run. In a production test environment, it is frequently necessary to run tests, often in series, without stopping for human input.
 
@@ -199,7 +199,7 @@ In a production test environment, it is frequently necessary to run serial tests
 
 {{<tip>}} To set up test runs in automation mode, refer to the [verify picture](/automation-guide/action-based-testing-language/built-in-settings/other-settings/verify-picture) built-in setting.
 
-## Accessing the Picture Check dialog box
+## {{< expand >}} Accessing the Picture Check dialog box
 
 We have seen how the Picture Check dialog box is the means by which new images are designated as baselines. We have also seen that the Picture Check dialog box appears automatically at the end of a semi-automated test run, and does not appear at all after an automated test run.
 

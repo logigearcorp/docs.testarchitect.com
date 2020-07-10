@@ -25,7 +25,7 @@ The Diff Tool makes the job of difference viewing more systematic, reliable, and
 -   The Diff Tool supports the comparing of project items not just within a project, but across projects and across repositories as well.
 -   For comparing pairs of test results, TestArchitect offers a different tool. See [Comparing test results](/user-guide/working-with-test-results/comparing-test-results/).
 
-## The user interface
+## {{< expand >}} The user interface {{< permerlink >}} {#concept_yvy_bhs_yp__section.Diff_tool_GUI} 
 
 The Diff Tool dialog box consists of two main components:
 
@@ -44,7 +44,7 @@ The Diff Tool dialog box consists of the following parts:
     -   Current location panels.
     -   Display panels.
 
-## The toolbar
+## {{< expand >}} The toolbar {{< permerlink >}} {#concept_yvy_bhs_yp__section_Toolbar} 
 
 The Diff Tool's tool bar contains six buttons:
 
@@ -94,7 +94,7 @@ The Diff Tool's tool bar contains six buttons:
     -   **Enabled**: Highlights character-by-character differences.
 6.  **Open External Merge Tool**: The Diff Tool integrates with other applications that allow a third-party file comparison \(diff\) or file merging tool to be specified. \([Learn more.](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/diff-tool/diff-tool-and-outside-products)\)
 
-## The Item panels
+## {{< expand >}} The Item panels {{< permerlink >}} {#concept_yvy_bhs_yp__section_Items_panel} 
 
 ![](/images/TA_Help/Images/ug_diff_tool_source_target_panel.png)
 
@@ -112,7 +112,7 @@ Each Item panel includes the following elements:
     {{<note>}} As you scroll an item up/down or left/right using its scroll bars, the comparison item is scrolled in sync with it, so that the two windows remain visually aligned. Also note that when you select a difference, it is always selected in both Item panels.
 
 
-## Difference highlighting
+## {{< expand >}} Difference highlighting
 
 TestArchitect highlights differences between two items with colors. This section describes how each of the basic difference types is detected and displayed.
 
@@ -154,11 +154,11 @@ TestArchitect highlights differences between two items with colors. This section
 3.  **Differences**: Contains action lines that the tool has determined to be corresponding lines \(due to similarities\), but which nevertheless have differences, which are highlighted.
 4.  **Identicalness**: Contains fully matching action lines.
 
-## Working with multiple Diff Tool windows
+## {{< expand >}} Working with multiple Diff Tool windows
 
 A unique Diff Tool window is launched every time you invoke the Diff Tool. Hence, it is possible to have multiple Diff Tool windows open concurrently, each displaying a separate comparison.
 
-## Using drag-and-drop to update an open Diff Tool window
+## {{< expand >}} Using drag-and-drop to update an open Diff Tool window
 
 Say, for example, that you have a Diff Tool window already open, comparing a default user-defined action against a variation of itself. Now you would like to compare another variation against one of the two items. From the TestArchitect explorer tree tree, you can simply drag and drop the new action's node into either the left or right panel of the window. The contents of the window are automatically replaced with the new item, and the comparison is automatically refreshed.
 

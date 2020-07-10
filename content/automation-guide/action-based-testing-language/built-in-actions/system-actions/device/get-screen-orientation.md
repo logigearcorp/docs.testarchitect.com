@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, get screen orientation, get screen orientation (action), iOS (action), get screen orientation, get device orientation, detect screen orientation, detect mobile orientation, detect device orientation"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Return the current orientation of the mobile device.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **variable**
 
@@ -23,25 +23,25 @@ Return the current orientation of the mobile device.
     -   portrait
     -   landscape
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## {{< expand >}} Applicable Systems/Platforms {{< permerlink >}} {#bia_get_screen_orientation__section_jft_bcl_zcb} 
 
 Use of this action is supported on the following systems/platforms: iOS.
 
-## Notes
+## {{< expand >}} Notes
 
 -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
 -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Example
+## {{< expand >}} Example
 
 ![](/images/TA_Automation/Images/Android_phone.portrait_mode.jpg)
 

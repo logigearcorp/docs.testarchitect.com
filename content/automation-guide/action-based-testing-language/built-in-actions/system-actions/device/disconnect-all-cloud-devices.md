@@ -8,15 +8,15 @@ aliases:
 keywords: "built-in actions, disconnect all cloud devices, disconnect all cloud devices (action), iOS (action), disconnect all cloud devices, Android (action), disconnect all mobile cloud devices, mobile cloud device disconnection, detach all mobile cloud devices"
 ---
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#bia_disconnect_all_cloud_devices__section_nkt_zth_gy} 
 
 Logically disconnect all currently-connected cloud devices.
 
-## Arguments
+## {{< expand >}} Arguments {{< permerlink >}} {#bia_disconnect_all_cloud_devices__section_okt_zth_gy} 
 
 There are no arguments for this action.
 
-## Notes
+## {{< expand >}} Notes {{< permerlink >}} {#bia_disconnect_all_cloud_devices__section_qkt_zth_gy} 
 
 -   This built-in action applies only to WebDriver based cloud services. \([Learn more](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/).\)
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
@@ -25,7 +25,7 @@ There are no arguments for this action.
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Example
+## {{< expand >}} Example {{< permerlink >}} {#bia_disconnect_all_cloud_devices__section_wkt_zth_gy} 
 
 Suppose that during the automation test, you are connecting to two cloud devices. Now, you'd like to terminate all currently-connected cloud devices.
 

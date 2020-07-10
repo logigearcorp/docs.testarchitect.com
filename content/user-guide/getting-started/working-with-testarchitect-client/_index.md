@@ -44,7 +44,7 @@ From one TestArchitect Clientsession, you can be connected to multiple TestArchi
 
 Additionally, if you are logged in as an administrator, an **Administration** node is visible. This is used for repository-level tasks like user administration.
 
-## Folder organization
+## {{< expand >}} Folder organization
 
 To simplify project management, TestArchitect organizes the user-defined items of each project into hierarchical structures, including:
 
@@ -65,7 +65,7 @@ Items within this hierarchical folder structure are added via the context menu o
 
 {{<note>}} The additional option on the menu of adding a new test folder rather than a test module. This type of option \(of creating a subfolder\) applies pretty much across the board. It offers you the ability to further organize and group your test modules, actions, data sets, picture checks and results in a logical fashion, and introduces additional levels of the items hierarchy. \(Subfolders can be created within subfolders, so that there is no practical limit to the number of levels that might exist in your items hierarchy.\)
 
-## Definition tab
+## {{< expand >}} Definition tab
 
 When you open or check out an item in the TestArchitect explorer tree, it shows up as a tab in the main panel. \(Note that checking out items is part of the process of [revision control](/user-guide/projects-and-project-items/project-items/revision-control/revision-history/), and is detailed in [Projects and project items](/user-guide/projects-and-project-items/).\) The item's name appears as the tab's title.
 
@@ -135,7 +135,7 @@ Opening a folder node, or any of the project tree nodes such as **Tests**, bring
 |**Picture checks** node, or a picture check folder|baseline pictures|
 |**Bugs** node|bugs|
 
-## List view
+## {{< expand >}} List view
 
 An example of a list view of actions:
 
@@ -145,11 +145,11 @@ The list view can be used to efficiently perform operations like cut, copy or de
 
 {{<note>}} Refer to [list view](/user-guide/projects-and-project-items/project-items/list-view/) for further information.
 
-## Project item displays
+## {{< expand >}} Project item displays
 
 Each project item – test module, action, data set, etc. – when opened in TestArchitect, has a display unique to its type. Most include subtabs for various screens, such as information fields and editors. See [Project item screens in TestArchitect client](/user-guide/getting-started/working-with-testarchitect-client/project-item-screens-in-testarchitect-client) for descriptions of each project item type's display screens.
 
-## Toolbar
+## {{< expand >}} Toolbar
 
 The TestArchitect toolbar provides easy access to the most commonly used functions of TestArchitect Client. Most of the toolbar's buttons are context-sensitive, and hence at any given time will be enabled or disabled based on the type of item that is selected.
 

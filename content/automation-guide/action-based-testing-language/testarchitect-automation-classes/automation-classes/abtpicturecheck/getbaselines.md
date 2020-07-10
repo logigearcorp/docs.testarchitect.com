@@ -8,11 +8,11 @@ aliases:
 keywords: "methods of abt, GetBaselines, GetBaselines (AbtPictureCheck), AbtPictureCheck, getbaselines, abtpicturecheck getbaselines, list of baseline images, obtain list of baseline images"
 ---
 
-## Syntax
+## {{< expand >}} Syntax {{< permerlink >}} {#reference_GetBaselines__section.syntax} 
 
 `List {{<link title="<AbtBaselinePicture>" link="/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtbaselinepicture/">}} GetBaselines`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#reference_GetBaselines__section.desc} 
 
 Retrieve a full list of baseline images in the current picture check.
 
@@ -20,7 +20,7 @@ Retrieve a full list of baseline images in the current picture check.
 
 Array of [AbtBaselinePicture](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtbaselinepicture/) objects. If the call is unsuccessful, returnnull.
 
-## Notes
+## {{< expand >}} Notes {{< permerlink >}} {#reference_GetBaselines__section_kjj_qgr_vw} 
 
 -   This method is currently supported only by the C\# harness.
 

@@ -12,18 +12,18 @@ keywords: "methods of abt, SelectItemByText, SelectItemByText (AbtComboBox), Abt
 
 `long SelectItemByText(string itemText)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_SelectItemByText_combobox__section.desc} 
 
 Select a list item from the combo box based on the item's text content.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_SelectItemByText_combobox__section.params} 
 
 -   **itemText**
 
     String value specifying the text content ofthe item of interest.
 
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#abt_SelectItemByText_combobox__section.return} 
 
 Return 0 if the call is successful; otherwise, -1..
 

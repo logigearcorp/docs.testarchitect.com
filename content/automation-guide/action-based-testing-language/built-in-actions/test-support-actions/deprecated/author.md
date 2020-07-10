@@ -8,15 +8,15 @@ aliases:
 keywords: "built-in actions, author, author (action)"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Keyword to document the test author’s name.
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This keyword should be followed by author’s name in the second column.
 -   This action has been deprecated in TestArchitect 7.

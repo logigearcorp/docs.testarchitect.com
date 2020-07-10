@@ -8,27 +8,27 @@ aliases:
 keywords: "built-in actions, repeat, repeat (action), repeat, repeat statement, repeat loop"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Denotes the beginning of a repeat/[until](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/until) loop.
 
-## Arguments
+## {{< expand >}} Arguments
 
 There are no arguments for this action.
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   The built-in action [exit loop](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/exit-loop) may be used to escape from a repeat/until loop before its normal termination.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:none.
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

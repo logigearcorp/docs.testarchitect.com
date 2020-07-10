@@ -12,11 +12,11 @@ keywords: "methods of abt, Click, Click (AbtElement), AbtElement, click, abtelem
 
 `long Click()`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_Click_element__section.desc} 
 
 Apply a mouse click to thecontrol.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_Click_element__section.params} 
 
 -   **x**
 

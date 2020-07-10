@@ -12,22 +12,22 @@ keywords: "ABT Library Functions, ReportDump, ReportDump (ABT library function)"
 
 `integer ReportDump (string text)`
 
-## Description
+## {{< expand >}} Description
 
 Print a text line in the report if the "report all details" option is on.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **text**
 
     Text to be printed in the report.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Return 1 if the call is successful; otherwise, 0.If unsuccessful, the diagnostic functions can be used to get more details.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This function is meant to print details of the execution of the actions. The text is only displayed when the "report all details" option is on.
 -   If available a small font is used to print the text.

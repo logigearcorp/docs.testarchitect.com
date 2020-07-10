@@ -16,14 +16,14 @@ Apple's Simulator allows you to rapidly prototype and test builds of your app du
 
 {{<note>}} At present, TestArchitect only supports automation on Simulator for iOS, not watchOS or tvOS.
 
-## Supported iOS versions
+## {{< expand >}} Supported iOS versions
 
 TestArchitect supports the testing of web applications running within the Safari browser on the following versions of a simulated iOS device:
 
 -   iOS 8.4
 -   iOS 8.3
 
-## Technological approach
+## {{< expand >}} Technological approach
 
 -   Remote debugging is a remote web inspector for debugging web applications on the iOS Simulator. The following configuration must be set up to allow remote debugging to be performed:
 

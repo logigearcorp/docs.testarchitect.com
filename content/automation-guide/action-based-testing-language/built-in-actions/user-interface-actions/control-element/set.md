@@ -8,13 +8,13 @@ aliases:
 keywords: "built-in actions, set, set (action), iOS (action), set, Safari, iOS (action), iOS, Safari (action), Android (action), Android, Google Chrome (action), Google Chrome, Android (action), Safari, macOS (action), macOS, Safari (action), set value or state for control, set checked or unchecked status for checkbox or radio button, set value for textbox, assign value to textbox"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Set a new value or state for a specified control.
 
 Set the value of a check box to checked or unchecked, or a radio button to checked.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **window**
 
@@ -53,21 +53,21 @@ Set the value of a check box to checked or unchecked, or a radio button to check
         Clear \(deselect\) the control \(check box only\).
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only), [page wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/page-wait), [object wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/object-wait), [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait), [load invisible controls](/automation-guide/action-based-testing-language/built-in-settings/other-settings/load-invisible-controls).
 
-## Applicable Controls
+## {{< expand >}} Applicable Controls
 
 This action is applicable to the following controls:check box, date picker, input-checkbox, input-color, input-date, input-datetime, input-datetime-local, input-email, input-month, input-number, input-password, input-radio, input-range, input-search, input-text, input-tel, input-time, input-url, input-week, radio button, rating bar, search bar, slider, switch, text box, text view, calendar.
 
 This action is applicable to the following controls:Calender, check box, DatePicker, DateTimePicker, radio button.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Possible values for the value argument:
     -   For a text box or text view control, the value argument holds a string value to assign to that control.
@@ -258,7 +258,7 @@ This action is applicable to the following controls:Calender, check box, DatePic
 -   The set action can serve as a suitable alternative to [enter](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/enter) in some special cases on web platforms, in which enter may trigger an unexpected or undesired event \(examples of which are the Safari data and time controls, discussed above\). Unlike enter, set avoids the triggering of events.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Example - Case 1: Selecting check box
+## {{< expand >}} Example - Case 1: Selecting check box
 
 ![](/images/TA_Automation/Images/bia_set_aut_2.png)
 
@@ -274,7 +274,7 @@ This action is applicable to the following controls:Calender, check box, DatePic
 
 ![](/images/TA_Automation/Images/bia_set_aut.png)
 
-## Example - Case 2: Assigning value to text box
+## {{< expand >}} Example - Case 2: Assigning value to text box
 
 ![](/images/TA_Automation/Images/bia_set_2_aut.png)
 

@@ -10,11 +10,11 @@ keywords: "automation errors, 0x8001000AL"
 
 Error code: 0x8001000AL
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because there is more than one UI control that matches the definition of a given interface element and is available on the AUT simultaneously.
 
-## Solution
+## {{< expand >}} Solution
 
 Check the AUT to ensure that only one control is available at a time, and then re-run the automated test.
 

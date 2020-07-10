@@ -12,18 +12,18 @@ keywords: "methods of abt, GetItemRectByText, GetItemRectByText (AbtList), AbtLi
 
 `TARect GetItemRectByText (string text)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_GetItemRectByText__section.desc} 
 
 Retrieve the bounding rectangle of a list item by its text content.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_GetItemRectByText__section.params} 
 
 -   **text**
 
     String value specifying the text content ofthe list item.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 [TARect](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abt-object-classes/tarect) object representing the bounding rectangle ofthe item. The object contains the following elements:
 
@@ -34,7 +34,7 @@ Retrieve the bounding rectangle of a list item by its text content.
 
 Note: all values are in pixels.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This method is applicable to both ListBox and ListView controls.
 

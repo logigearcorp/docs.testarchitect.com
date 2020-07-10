@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80010407L"
 
 Error code: 0x80010407L
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because the specified header's index position is out of range.
 
-## Solution
+## {{< expand >}} Solution
 
 Ensure the index value is in the valid range. Note that index numbering starts from 1.
 

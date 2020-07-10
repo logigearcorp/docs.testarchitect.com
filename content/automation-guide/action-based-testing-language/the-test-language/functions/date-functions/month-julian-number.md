@@ -10,26 +10,26 @@ keywords: "date functions, month, month (function)"
 
 Return the Gregorian month number from a Julian date number.
 
-## Syntax
+## {{< expand >}} Syntax
 
 `integer month(integer date)`
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **date**
 
     A Julian date number.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Returns the corresponding Gregorian month number.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following built-in setting\(s\) are supported: [date order](/automation-guide/action-based-testing-language/built-in-settings/date-time-settings/date-order).
 
-## Example
+## {{< expand >}} Example
 
 ![](/images/TA_Automation/Images/automationguide_datefunction5.png)
 

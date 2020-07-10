@@ -8,22 +8,22 @@ aliases:
 keywords: "built-in actions, get modal definition, get modal definition (action), get modal definition, get definition of current modal dialog box, retrieve information about current modal dialog box"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Retrieve the definition of the current modal dialog box.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **variable**
 
     \(Optional\) Variable to receive the returned value.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   variable argument:
     -   The returned variable contains values of the following TA properties: title, parent title, and handle of the modal dialog box.
@@ -32,15 +32,15 @@ This action may be used within the following project items:test modules and user
 -   Use the get modal definition built-in action in combination with the [on modal action](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/error-handling/on-modal-action) built-in action to handle the unexpected modal dialog box properly.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Systems/Platforms
+## {{< expand >}} Applicable Systems/Platforms
 
 Use of this action is supported on the following systems/platforms:Windows.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive), [load invisible controls](/automation-guide/action-based-testing-language/built-in-settings/other-settings/load-invisible-controls), [object wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/object-wait), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only), [page wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/page-wait), [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait).
 
-## Example
+## {{< expand >}} Example
 
 **Scenario**: You are aware of the fact that the AUT under development is, at times, capable of throwing unexpected exceptions, resulting in the appearance of modal dialogs. You wish to allow your test to handle such exceptions gracefully wherever they may occur, by dismissing the dialog, so that automation may continue. You also want to record the error message displayed by the dialog. Hence, you want the action lines handling this contingency to:
 

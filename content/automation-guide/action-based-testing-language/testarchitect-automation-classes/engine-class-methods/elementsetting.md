@@ -12,11 +12,11 @@ keywords: "ABT Library Functions, ElementSetting, ElementSetting (ABT library fu
 
 `string ElementSetting(string interface, string entity, string element, string setting)`
 
-## Description
+## {{< expand >}} Description
 
 Get a setting \(attribute\) of an interface element.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **interface**
 
@@ -35,11 +35,11 @@ Get a setting \(attribute\) of an interface element.
     The setting for which the value is to be retrieved.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 The value is returned for the setting as it is defined in the Interface Definitions. If any of the parameters is not defined, a diagnostic is issued and an empty string is returned.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Typical examples settings are "name", "gui id", "class", "row", "column", etc. Which settings are relevant fully depends on the interface and the specific properties of the specific interface element.
 

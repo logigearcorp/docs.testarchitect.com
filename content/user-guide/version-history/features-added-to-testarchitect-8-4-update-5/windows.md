@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be the same version.
 
-## TestArchitect Client
+## {{< expand >}} TestArchitect Client {{< permerlink >}} {#Whats_New_Windows__section.TAC} 
 
 **New features**
 
@@ -32,13 +32,13 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Distributed Result Storage now supports the Verify Picture Check feature.
 -   Enhanced [Add Repository Connection](/user-guide/getting-started/working-with-repositories/connecting-to-a-repository#) - In previous versions, TestArchitect could only connect to one repository at a time. Starting from 8.4 Update 5, TestArchitect has a new and improved Add Repository Connection form. Now you can simultaneously connect to multiple repositories. Additionally, TestArchitect will provide a Connection Progress dialog so that you may view the status of these connections.
 
-## TestArchitect Automation
+## {{< expand >}} TestArchitect Automation {{< permerlink >}} {#Whats_New_Windows__section.Auto} 
 
 **Enhancements to existing features**
 
 -   **Support for [Chrome 75](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/) and [Firefox 67](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/)**: Now you can run automated tests for web pages displayed in the latest versions of Chrome and Firefox.
 
-## Known Issues
+## {{< expand >}} Known Issues {{< permerlink >}} {#Whats_New_Windows__section_zcd_vwz_g3b} 
 
 Due to changes in the WebDriver coordinate calculation algorithm, there may be a slight deviation of coordinates in relevant built-in actions with Generic Web Driver Mode \(GWD\) on Chrome 75. For precision, please re-calculate your positions and coordinates.
 

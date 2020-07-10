@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80010010L"
 
 Error code: 0x80010010L
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because the original number of arguments declared in a built-in action is changed.
 
-## Solution
+## {{< expand >}} Solution
 
 You might try the following ways:
 

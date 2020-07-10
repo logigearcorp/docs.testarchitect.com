@@ -12,11 +12,11 @@ keywords: "methods of abt, ResizeWindow, ResizeWindow (AbtEntity), AbtEntity, re
 
 `long ResizeWindow(int width, int height)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_ResizeWindow__section.desc} 
 
 Resize the window to the specified dimensions.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_ResizeWindow__section.params} 
 
 -   **width**
 
@@ -31,7 +31,7 @@ Resize the window to the specified dimensions.
 
 Return 0 if the call is successful \(as reported back by the operating system\); otherwise, -1.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Position of the upper-left corner of the window remains fixed relative to the screen.
 

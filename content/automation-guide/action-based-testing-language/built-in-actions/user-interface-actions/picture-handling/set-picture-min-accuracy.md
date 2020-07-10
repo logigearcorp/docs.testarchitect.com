@@ -8,22 +8,22 @@ aliases:
 keywords: "built-in actions, set picture min accuracy, set picture min accuracy (action), Android (action), set picture min accuracy"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Specifythe minimum level of accuracy required in matching baseline image objects with objects in captured test images for a match to be considered valid. Applies only to keypoint detection comparisons.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **value**
 
     Minimum acceptable accuracy \(units: percentage; valid range: 0 to 100; default = 50\).
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Minimum accuracy in picture matching may also be set through the built-in [minimum accuracy](/automation-guide/action-based-testing-language/built-in-settings/other-settings/minimum-accuracy) setting.
 -   This built-in action is only applicable to a keypoint detection technique for image recognition. Therefore, it is only valid when the built-in setting [picture algorithm](/automation-guide/action-based-testing-language/built-in-settings/other-settings/picture-algorithm) is set to key point, and applies to all [picture handling](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/) built-in actions except [check picture](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/check-picture).
@@ -34,11 +34,11 @@ This action may be used within the following project items:test modules and user
     3.  Click the **Refresh devices list** ![](/images/Android/Images/Refresh_device_list_btn.png) button.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

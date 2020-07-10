@@ -10,22 +10,22 @@ keywords: "string functions, length, length (string function)"
 
 Return the number of characters in a string.
 
-## Syntax
+## {{< expand >}} Syntax
 
 `integer length(string str)`
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **str**
 
     The source string from which the number of characters is returned.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Returns the number of characters in the string str.
 
-## Example
+## {{< expand >}} Example
 
 **Test Lines**
 

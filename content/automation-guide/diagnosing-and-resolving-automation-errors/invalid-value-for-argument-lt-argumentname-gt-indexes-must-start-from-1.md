@@ -10,11 +10,11 @@ keywords: "automation errors, 0x8001044AL"
 
 Error code: 0x8001044AL
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because you enter an invalid index value which is less than 1 for a given argument.
 
-## Solution
+## {{< expand >}} Solution
 
 Check the AUT and enter the correct index value for the given argument. Then re-run the test.
 

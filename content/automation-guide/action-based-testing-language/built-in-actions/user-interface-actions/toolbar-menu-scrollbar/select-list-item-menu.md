@@ -8,13 +8,13 @@ aliases:
 keywords: "built-in actions, select list item menu, select list item menu (action), select list item menu, select item from menu in list view, select item from list view menu"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Long-tap an item in a list view control to display a menu control, then select \(tap\) an item menu in the open menu.
 
 Select an item on a specified menu.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **window**
 
@@ -39,11 +39,11 @@ Select an item on a specified menu.
     Menu item or menu item path \(see Notes\).
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This built-in action applies to Android operating system only.
 -   The list item argument is specified by the item's caption property.
@@ -52,17 +52,17 @@ This action may be used within the following project items:test modules and user
     -   If a menu path of more than one item must be specified, use arrow symbols \( -\> \) as delimiters between menu items. For example, `Vehicles->Cars->Four-door sedans`.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Controls
+## {{< expand >}} Applicable Controls
 
 This action is applicable to the following controls:list view
 
 This action is applicable to the following controls:list box
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only), [item wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/item-wait), [object wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/object-wait), [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait).
 
-## Example
+## {{< expand >}} Example
 
 ![](/images/TA_Automation/Images/bia_select_list_item_menu_aut.png)
 

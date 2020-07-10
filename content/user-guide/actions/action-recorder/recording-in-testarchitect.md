@@ -10,7 +10,7 @@ keywords: "recorder, start, pause, stop, insert checkpoints, checkpoints"
 
 With TestArchitect's Action Recorder, user interactions with the target application are monitored and recorded in the form of keyword action lines. This topic provides general information on the Action Recorder's recording functionality and controls.
 
-## Starting, pausing, and stopping recording
+## {{< expand >}} Starting, pausing, and stopping recording
 
 To start recording:
 
@@ -45,7 +45,7 @@ To resume recording after a pause, click the **Resume the recording** ![](/image
 
 To stop recording, click the **Stop the recording** ![](/images/TA_Help/Images/Stop_recording.png) button on the recording toolbar.
 
-## Inserting checkpoints into the current test
+## {{< expand >}} Inserting checkpoints into the current test
 
 The Action Recorder records your user interactions as [keyword-based action lines](/automation-guide/action-based-testing-language/built-in-actions/). It can also insert checkpoints into the recorded test procedure as needed.
 
@@ -62,7 +62,7 @@ In the Action Recorder Settings dialog box, if you don't want basic [check](/aut
 
 -   **Expected value**: The value expected to be returned by the check.
 
-## Interface mapping
+## {{< expand >}} Interface mapping
 
 Upon concluding an Action Recorder session \(when you click **Stop the recording** ![](/images/TA_Help/Images/Stop_recording.png)\), if the windows and controls cannot be fully mapped to existing interface entities and elements in the selected interface, or the windows and controls are not yet defined in interface entities and elements, the Action Recorder displays the New interface definitions dialog box.
 

@@ -12,22 +12,22 @@ keywords: "ABT Library Functions, DiagnosticMessage, DiagnosticMessage (ABT libr
 
 `string DiagnosticMessage (integer code)`
 
-## Description
+## {{< expand >}} Description
 
 Retrieve the description connected to a diagnostic code.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **code**
 
     Code of a diagnostic.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 The function returns the description associated with the diagnostic code.
 
-## Notes
+## {{< expand >}} Notes
 
 A diagnostic in the engine consists of the following elements:
 

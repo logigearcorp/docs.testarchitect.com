@@ -12,11 +12,11 @@ keywords: "methods of abt, Set, Set (AbtTrackBar), AbtTrackBar, abttrackbar set,
 
 `long Set(int value)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_Set_trackbar__section.desc} 
 
 Set the trackbar to the specified value.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_Set_trackbar__section.params} 
 
 -   **value**
 

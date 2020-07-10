@@ -12,7 +12,7 @@ Use Content Assist in the test editor to complete your action lines faster and w
 
 TestArchitect's Content Assist feature provides context-sensitive assistance as you author your action lines in test modules, actions, interface entities and data sets. Autocomplete pop-up windows are used to offer appropriate choices for action names, domain-limited argument values, variable names and function names. Whenever a pop-up appears, you have the option of selecting an item from the list for insertion into the current cell. Furthermore, Content Assist's pop-ups for actions offer helpful descriptive information on each action.
 
-## Action assistance
+## {{< expand >}} Action assistance
 
 As you begin creating an action line by typing an action's name into the first cell of a row \(that is, column A\), Content Assist pops up a small window displaying valid user-defined, built-in, and user-scripted actionsuser-defined and built-in actions. If you continue typing, the list is continuously filtered down to only those actions that containbegin withthe entered sequence of characters. \(Actions that actually begin with the sequence appear first in the list.\)
 
@@ -26,7 +26,7 @@ Use the Up and Down arrow keys to scroll through the available choices. Note tha
 
 After selecting an action, you can insert it into your test editor by pressing Enter.
 
-## Argument assistance
+## {{< expand >}} Argument assistance
 
 When you begin typing into the cell of an action line argument whose type is INTERFACE ENTITY, INTERFACE ELEMENT, or VALUE SET, Content Assist displays a list of all appropriate values. The list is continuously filtered to include only the items that begin with the entered characters.
 
@@ -46,7 +46,7 @@ When you begin typing into the cell of an action line argument whose type is INT
 
 After selecting an item, you insert in into your test editor by pressing Enter.
 
-## Variable and function assistance
+## {{< expand >}} Variable and function assistance
 
 For those arguments which accept expressions \(which include variables and functions\), Content Assist attempts to compile a list of all known variables based on those that have been declared and appear to be within scope at that given point, along with a list of valid built-in expression functions. For these arguments, entering the expression indicator \(\#\) triggers the list. As you continue typing characters, the list is filtered to include only the variables and the expression functions that begin with those characters.
 
@@ -62,7 +62,7 @@ After selecting an item with the Up/Down keys, insert it into the editor by pres
 
 -   If more than one variable or expression function is needed in an expression, press Ctrl + Space to trigger the autocomplete for each variable/function.
 
-## Applicable actions assistance
+## {{< expand >}} Applicable actions assistance {{< permerlink >}} {#concept_ymd_xql_3p__section.applicable_actions} 
 
 It may often be the case that you need to write one or a series of test cases related to a given control, but you are not certain which actions can be used on that control. In general, the determination of whether a given control can be handled by a certain action is based on the TA class of the control. To allow you to avoid constantly referring to the Built-in Action reference pages to determine which actions can be used for a control, a Content Assist window is available for any mapped control, presenting a list of those actions that may be used with it. For details, see [Applicable action suggestions for a window or control](/user-guide/getting-started/the-test-editor/content-assist/applicable-action-suggestions).
 

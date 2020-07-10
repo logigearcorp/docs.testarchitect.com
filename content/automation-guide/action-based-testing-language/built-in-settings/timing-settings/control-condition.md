@@ -8,23 +8,23 @@ aliases:
 keywords: "built-in settings, control condition, settings, control condition (settings), wait for control property to satisfy conditions"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Waits for given TA properties of controls to satisfy specified conditions before [UI-interactive actions](/automation-guide/action-based-testing-language/the-test-language/timing/understanding-action-types-and-condition-types/classifying-ui-interactive-actions) are executed.
 
-## Value Units
+## {{< expand >}} Value Units
 
 Dynamic identifier expression that evaluates to a Boolean True or False
 
-## Default Value
+## {{< expand >}} Default Value
 
 None
 
-## Applicable Systems/Platforms
+## {{< expand >}} Applicable Systems/Platforms {{< permerlink >}} {#bis_control_condition__section_t5m_gsg_5v} 
 
 Use of this built-in setting is supported on all systems/platforms.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This built-in setting only takes effect on UI-interactive actions, such as, [enter](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/enter), [select](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/select), [click](/automation-guide/action-based-testing-language/built-in-actions/system-actions/mouse/click), and [type](/automation-guide/action-based-testing-language/built-in-actions/system-actions/keyboard/type).
 -   The definition of readiness of a TA property is based on your preferences. Particularly, a TA property is ready when it satisfies all conditions, defined in the control condition setting, before UI-interactive actions are executed.
@@ -63,7 +63,7 @@ Use of this built-in setting is supported on all systems/platforms.
 -   You can quickly obtain the [dynamic identifier](/user-guide/interface-definitions/dynamic-identifiers#note_g5t_bjt_rw) of given UI controls by using **Copy Definition** from the [Interface Viewer](/user-guide/interface-definitions/the-interface-viewer/) or the [point-to-identify tool](/user-guide/interface-definitions/the-interface-viewer/identifying-interface-elements-and-controls/point-to-identify-mode).
 -   The timeout value waiting for TA properties until all defined conditions are met is specified in the [control conditional wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/control-condition-wait) built-in setting.
 
-## Example
+## {{< expand >}} Example {{< permerlink >}} {#bis_control_condition__section_Example} 
 
 Suppose that you'd like to test a flight booking web page with the following steps:
 

@@ -10,7 +10,7 @@ keywords:
 
 This topic lists additional software requirements needed to perform mobile testing.
 
-## iOS testing
+## {{< expand >}} iOS testing
 
 -   Xcode installed.
 -   Xcode Command Line Tools installed.

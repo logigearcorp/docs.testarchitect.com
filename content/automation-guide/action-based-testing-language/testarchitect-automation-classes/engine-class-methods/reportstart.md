@@ -12,11 +12,11 @@ keywords: "ABT Library Functions, ReportStart, ReportStart (ABT library function
 
 `integer ReportStart(integer runinfo, string filename, string type)`
 
-## Description
+## {{< expand >}} Description
 
 Start the reporting of a test run.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **runinfo**
 
@@ -31,11 +31,11 @@ Start the reporting of a test run.
     The format of the report. Currently supported are "rtf" and "text", which stand for Rich Text Format and plain text respectively.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Return 1 if the call is successful; otherwise, 0.If unsuccessful, the diagnostic functions can be used to get more details.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This function starts the reporting process. It is used in combination with ReportCatchUp and ReportFinish to produce an incremental report \(a report that is produced during the test run\).
 

@@ -8,13 +8,13 @@ aliases:
 keywords: "Troubleshooting, iOS, Cannot detect device, troubleshooting"
 ---
 
-## Problem
+## {{< expand >}} Problem
 
 During an automated test run, the following error message appears in the Automation Problem dialog box or test result:
 
 Could not detect your iOS device. Either it is currently locked or the re-signed app is inactive.
 
-## Solution
+## {{< expand >}} Solution
 
 Follow the steps below and re-run the automated test after each step:
 

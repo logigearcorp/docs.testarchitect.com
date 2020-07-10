@@ -12,7 +12,7 @@ keywords: "methods of abt, Maximize, Maximize (AbtEntity), AbtEntity, maximize, 
 
 `long Maximize()`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_Maximize__section.desc} 
 
 Maximize the window.
 
@@ -20,7 +20,7 @@ Maximize the window.
 
 Return 0 if the call is successful \(as reported back by the operating system\); otherwise, -1.
 
-## Notes
+## {{< expand >}} Notes
 
 -   The effect of execution is that the window represented by the AbtEntity object is displayed full-screen.
 

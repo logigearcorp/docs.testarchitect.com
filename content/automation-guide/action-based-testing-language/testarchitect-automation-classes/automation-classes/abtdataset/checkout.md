@@ -8,11 +8,11 @@ aliases:
 keywords: "methods of abt, CheckOut, CheckOut (AbtDataSet), AbtDataSet, checkout, abtdataset checkout, check out data set from repository, check out data set"
 ---
 
-## Syntax
+## {{< expand >}} Syntax {{< permerlink >}} {#abt_CheckOut_dataset__section.syntax} 
 
 `integer CheckOut()`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_CheckOut_dataset__section.desc} 
 
 Check out a data set.
 
@@ -20,7 +20,7 @@ Check out a data set.
 
 Return 0 if the data set is checked out successfully; otherwise, return an error code \(see Notes\).
 
-## Notes
+## {{< expand >}} Notes
 
 -   This method is currently supported only by the C\# harness.
 -   Possible errors returned:

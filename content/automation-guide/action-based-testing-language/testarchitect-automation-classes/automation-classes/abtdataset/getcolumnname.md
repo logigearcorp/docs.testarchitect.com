@@ -12,11 +12,11 @@ keywords: "methods of abt, GetColumnName, GetColumnName (AbtDataSet), AbtDataSet
 
 `String GetColumnName(int index)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#reference_acx_fbw_gq__section.desc} 
 
 Retrieve the header name of the specified column of the object.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#reference_acx_fbw_gq__section.params} 
 
 -   **index**
 
@@ -27,7 +27,7 @@ Retrieve the header name of the specified column of the object.
 
 String value indicating the column name. If the call is unsuccessful, returnnull.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This method is currently supported only by the C\# harness.
 

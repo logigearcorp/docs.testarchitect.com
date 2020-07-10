@@ -10,22 +10,22 @@ keywords: "string functions, uppercase, uppercase (string function)"
 
 Return a copy of the specified source string in uppercase.
 
-## Syntax
+## {{< expand >}} Syntax
 
 `string uppercase(string str)`
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **str**
 
     The source string to be converted to uppercase.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Returns a copy of the string str in all uppercase.
 
-## Example
+## {{< expand >}} Example
 
 **Test Lines**
 

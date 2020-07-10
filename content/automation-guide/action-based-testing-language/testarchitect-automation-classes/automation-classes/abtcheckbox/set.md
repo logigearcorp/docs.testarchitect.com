@@ -12,11 +12,11 @@ keywords: "methods of abt, Set, Set (AbtCheckBox), AbtCheckBox, set, abtcheckbox
 
 `long Set(TACheckState state)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_Set_checkbox__section.desc} 
 
 Set the checked state of a check box.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_Set_checkbox__section.params} 
 
 -   **state**
 
@@ -27,7 +27,7 @@ Set the checked state of a check box.
     -   1: Select the check box.
     -   0: Clear the check box.
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#abt_Set_checkbox__section.return} 
 
 Return 0 if the call is successful; otherwise, -1..
 

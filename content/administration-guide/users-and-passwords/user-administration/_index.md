@@ -26,7 +26,7 @@ Permissions are based on the functional group, as follows:
 -   test managers: have broad authority in the project.
 -   administrators: have all permissions and the ability to manage users and repositories.
 
-## Detailed permissions of each functional group
+## {{< expand >}} Detailed permissions of each functional group
 
 -   guests:
     -   View tests, actions, data sets, interfaces.

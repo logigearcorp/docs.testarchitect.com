@@ -10,7 +10,7 @@ keywords: "test results, XML conversion, results, XML result conversion"
 
 It is required to convert test results created in versions prior to TestArchitect 8.3 into the new XML format. This topic explains how to convert test results and several important notes for test result conversion.
 
-## General information
+## {{< expand >}} General information
 
 Since TestArchitect version [8.3](/user-guide/version-history/features-added-to-testarchitect-8-3/), [XML result model](/user-guide/working-with-test-results/) has been introduced to view test results in a web browser.
 
@@ -26,7 +26,7 @@ Test results generated in earlier TestArchitect versions must be converted to th
 
 Test result conversion is a one-way process: the **converted test results cannot be opened in TestArchitect versions prior to 8.3**.
 
-## Important notes for test result conversion
+## {{< expand >}} Important notes for test result conversion
 
 -   Before converting test results, remember to [back up your repository](/administration-guide/repository-server-management/backing-up-repositories),
 -   Conversion duration might take up to several hours for colossal test results' size. It is advised that:
@@ -42,7 +42,7 @@ Test result conversion is a one-way process: the **converted test results cannot
     -   To view XML test results in the Internet Explorer browser, ensure that **Active Content** is enabled. \([Learn more](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/automated-web-testing-with-non-webdriver/preparing-web-browsers/preparing-internet-explorer-for-web-testing/advanced-settings#step_hlp_4dc_jy).\)
     -   It is highly recommended that you open test results in the Google Chrome browser, and also set Chrome as the default browser, because Chrome takes up less RAM while opening huge results compared to other web browsers.
 
-## How to convert test results
+## {{< expand >}} How to convert test results {{< permerlink >}} {#concept_xcf_s1v_ky__section.convert_results} 
 
 -   Converting results interactively: To upgrade your test results to the current XML format:
     1.  In TestArchitect Client, from the TestArchitect explorer tree, select and double-click a test result.

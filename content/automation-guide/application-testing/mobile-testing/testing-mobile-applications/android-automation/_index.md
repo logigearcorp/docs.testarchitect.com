@@ -12,7 +12,7 @@ An introduction to the basics of TestArchitect automation on Android devices, an
 
 {{<important>}} Android automation is only supported on Windows.
 
-## Supported Android versions and devices
+## {{< expand >}} Supported Android versions and devices
 
 TestArchitect supports of testing physical devices or emulators running on your PC. Android Virtual Devices \(AVDs\) are available to you as part of the Android Software Development Kit \(SDK\).
 

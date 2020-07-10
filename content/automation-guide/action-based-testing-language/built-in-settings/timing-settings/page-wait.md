@@ -8,19 +8,19 @@ aliases:
 keywords: "built-in settings, page wait, settings, page wait (settings), page wait, maximum webpage loading time, maximum wait time for webpage to load, maximum wait time for loading webpage"
 ---
 
-## Description
+## {{< expand >}} Description
 
 The maximum wait time for a webpage to load.
 
-## Value units
+## {{< expand >}} Value units
 
 seconds
 
-## Default value
+## {{< expand >}} Default value
 
 30
 
-## Notes
+## {{< expand >}} Notes
 
 -   Automation platforms:
     -   Internet Explorer: page wait applies to either the complete loading of a web page, or to the loading of a page only up to the point where it is in an interactive state. This behavior is defined by the [page wait state](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/page-wait-state) built-in setting.

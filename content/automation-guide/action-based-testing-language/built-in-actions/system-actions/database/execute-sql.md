@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, execute sql, execute sql (action), execute SQL operations, perform SQL operations, run SQL operations"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Execute an SQL command against the database currently in use.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **command**
 
@@ -23,7 +23,7 @@ Execute an SQL command against the database currently in use.
     \(Optional\) Names to be assigned to data sets that will hold the results of the query or queries. \(Note: There is no limit to the number of allowed result arguments that may be specified.\)
 
 
-## Notes
+## {{< expand >}} Notes
 
 -   The command argument may contain multiple SQL queries, delimited by semicolons.
 -   Note that different SQL commands can generate different types of results. \(For instance, an SQL Select query returns a table; row-based commands, such as Insert, Update, and Delete return scalar values; while commands such as Create and Use return null values.\) In each case, however, as long as a corresponding resultN argument is specified, the result is stored to a TestArchitect data set.
@@ -35,11 +35,11 @@ Execute an SQL command against the database currently in use.
 -   In order to gain access to a value from an output parameter of a stored procedure, select it in the command string. The value may then be obtained from the data set specified by the corresponding result argument.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cell](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only).
 
-## Applicable Controls
+## {{< expand >}} Applicable Controls
 
 This action is applicable to the following controls:none.
 

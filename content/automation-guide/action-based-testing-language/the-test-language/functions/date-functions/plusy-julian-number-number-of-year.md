@@ -10,11 +10,11 @@ keywords: "date functions, plusy, plusy (function)"
 
 Add a specified number of years to a given Julian date number, then return the result as a Julian number.
 
-## Syntax
+## {{< expand >}} Syntax
 
 `integer plusy(integer date, integer year)`
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **date**
 
@@ -25,15 +25,15 @@ Add a specified number of years to a given Julian date number, then return the r
     Number of years to add to date. Use a negative year value to subtract years from date.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Returns a Julian date number computed by adding a number of years to a Julian number.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following built-in setting\(s\) are supported: [date order](/automation-guide/action-based-testing-language/built-in-settings/date-time-settings/date-order).
 
-## Example
+## {{< expand >}} Example
 
 ![](/images/TA_Automation/Images/automationguide_datefunction8.png)
 

@@ -8,11 +8,11 @@ aliases:
 keywords: "Troubleshooting, Safari, macOS, cannot restore viewer, troubleshooting"
 ---
 
-## Problem
+## {{< expand >}} Problem
 
 When you use the [Highlight/Auto-Highlight](/user-guide/interface-definitions/the-interface-viewer/identifying-interface-elements-and-controls/highlight#li_iyk_rtw_jt) feature in the Interface Viewer to highlight web controls running on Safari macOS, the Viewer automatically minimizes itself to an icon on the Dock. However, clicking on the icon in the Dock fails to restore the minimized Viewer.
 
-## Solution
+## {{< expand >}} Solution
 
 Deactivate the Minimized windows into application icon option by doing the following:
 

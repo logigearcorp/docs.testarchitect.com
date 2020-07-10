@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, get column header name, get column header name (action), get column header name, retrieve column header name, get column name, retrieve column name"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Retrieve the text of a header cell in a table.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **window**
 
@@ -31,11 +31,11 @@ Retrieve the text of a header cell in a table.
     \(Optional\) Variable to receive the returned value.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   variable argument:
     -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
@@ -43,15 +43,15 @@ This action may be used within the following project items:test modules and user
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 -   For `oracle.apps.jtf.table.AccessibleTableGrid`: The [get column header name](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/get-column-header-name) and [check column header name](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/check-column-header-name) built-in actions return an empty value.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive), [ignore blank space](/automation-guide/action-based-testing-language/built-in-settings/value-settings/ignore-blank-space), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only), [object wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/object-wait), [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait), [load invisible controls](/automation-guide/action-based-testing-language/built-in-settings/other-settings/load-invisible-controls).
 
-## Applicable Controls
+## {{< expand >}} Applicable Controls
 
 This action is applicable to the following controls:table, list view, tree table, tree list.
 
-## Example
+## {{< expand >}} Example
 
 ![](/images/TA_Automation/Images/bia_get_column_header_name_aut.png)
 

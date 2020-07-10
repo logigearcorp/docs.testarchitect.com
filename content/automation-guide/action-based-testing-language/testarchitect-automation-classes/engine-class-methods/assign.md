@@ -12,11 +12,11 @@ keywords: "ABT Library Functions, Assign, Assign (ABT library function)"
 
 `integer Assign (string name, string value)`
 
-## Description
+## {{< expand >}} Description
 
 Assign a value to a variable.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **name**
 
@@ -27,11 +27,11 @@ Assign a value to a variable.
     Value to be assigned.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Return 1 if the call is successful; otherwise, 0.If unsuccessful, the diagnostic functions can be used to get more details.
 
-## Notes
+## {{< expand >}} Notes
 
 -   If present, the variable prefix \("\>\>"\) is stripped off from the variable name.
 

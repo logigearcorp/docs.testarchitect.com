@@ -8,28 +8,28 @@ aliases:
 keywords: "built-in actions, exit test action, exit test action (action), exit test action, terminate test action, test action termination, stop test action"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Exit the current action and return control to the calling entity.
 
-## Arguments
+## {{< expand >}} Arguments
 
 There are no arguments for this action.
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:user-defined actions
 
-## Notes
+## {{< expand >}} Notes
 
 -   This action can be used to handle an error situation.
 
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:none.
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

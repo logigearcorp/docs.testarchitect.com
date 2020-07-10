@@ -12,11 +12,11 @@ keywords: "ABT Library Functions, ActionSetting, ActionSetting (ABT library func
 
 `string ActionSetting(string actionname, string settingname, string defaultvalue)`
 
-## Description
+## {{< expand >}} Description
 
 Get the setting of an action word
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **actionname**
 
@@ -31,11 +31,11 @@ Get the setting of an action word
     Value to be returned by the function if the action or setting doesn't exist.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 The value of the setting or, in case either the action or the setting does not exist, the value of defaultvalue .
 
-## Notes
+## {{< expand >}} Notes
 
 -   Action settings can be used to tweak the handling of actions, like extra reporting or logging.
 

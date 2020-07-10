@@ -12,11 +12,11 @@ keywords: "ABT Library Functions, Date, Date (ABT library function)"
 
 `integer Date (integer year, integer month, integer day)`
 
-## Description
+## {{< expand >}} Description
 
 Convert a date to a Julian value
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **year**
 
@@ -31,11 +31,11 @@ Convert a date to a Julian value
     Day number, for example 31.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 The return value is the Julian value.
 
-## Notes
+## {{< expand >}} Notes
 
 -   To perform calculations on date it needs to be in the Julian format. This function can produce this format using year, month and day as input.
 -   This function is equivalent to the "d" function as it can be used by the tester in a "\#" expression.

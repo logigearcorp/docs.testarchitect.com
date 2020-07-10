@@ -12,19 +12,19 @@ keywords: "ABT Library Functions, EndRun, EndRun (ABT library function)"
 
 `integer EndRun ()`
 
-## Description
+## {{< expand >}} Description
 
 End a test run
 
-## Parameters
+## {{< expand >}} Parameters
 
 There are no parameters for this function.;
 
-## Return Value
+## {{< expand >}} Return Value
 
 A number is returned that identifies the result information for the test run. It is to be used as parameter for the "ReportFinish" or the "PrintReport" function.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This function produces the summary and needs to be called before "ReportFinish" or "PrintReport" can be used.
 -   After using ";EndRun", a new call to "StartRun" is needed before "NextAction"can be called.

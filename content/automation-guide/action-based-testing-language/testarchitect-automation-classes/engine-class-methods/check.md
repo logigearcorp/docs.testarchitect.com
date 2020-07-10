@@ -12,11 +12,11 @@ keywords: "ABT Library Functions, Check, Check (ABT library function)"
 
 `integer Check(string label, string expected, string recorded)`
 
-## Description
+## {{< expand >}} Description
 
 Execute a check and administer the result.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **label**
 
@@ -31,11 +31,11 @@ Execute a check and administer the result.
     Recorded value, to be compared with the expected value for equivalency.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Return 1 if the check passed; otherwise, 0.
 
-## Notes
+## {{< expand >}} Notes
 
 -   The expected and recorded strings are compared. If they are equal the check is administered as passed, otherwise it is treated as failed.
 -   See also the chapter on [checks](/automation-guide/action-based-testing-language/the-test-language/working-with-checks/) earlier in this guide.

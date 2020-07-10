@@ -10,11 +10,11 @@ keywords: "string functions, mid, mid (string function)"
 
 Return a substring of a given source string, specifying the substring's size as well as its starting location within the source.
 
-## Syntax
+## {{< expand >}} Syntax
 
 `string mid(string str, integer startLoc, integer len)`
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **str**
 
@@ -29,11 +29,11 @@ Return a substring of a given source string, specifying the substring's size as 
     The number of characters to return.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Returns a string containing len characters from string str, beginning at startLoc. If startLoc is greater than the number of characters in str, return a zero-length string \(""\). If there are fewer than startLoc + len characters in str, all characters from the start position to the end of str are returned.
 
-## Example
+## {{< expand >}} Example
 
 **Test Lines**
 

@@ -10,13 +10,13 @@ keywords: "automation errors, 0x80010004L"
 
 Error code: 0x80010004L
 
-## Common causes
+## {{< expand >}} Common causes
 
 -   AUT change issue, that is when title of the window is changed.
 -   [Timing issue](/automation-guide/action-based-testing-language/the-test-language/timing/), that is when the window is not available within a specified timeout, defined in the [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait) built-in setting.
 -   Scripting issue means improper interface, or improper definition/invalid syntax of [dynamic identifier](/user-guide/interface-definitions/dynamic-identifiers).
 
-## Possible solutions
+## {{< expand >}} Possible solutions
 
 You can apply the following ways to troubleshoot why the window could not be found:
 

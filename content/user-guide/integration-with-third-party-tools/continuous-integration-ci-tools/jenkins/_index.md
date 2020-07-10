@@ -15,7 +15,7 @@ Jenkins is a Java-based open-source continuous integration \(CI\) tool that cont
 -   Ensure that the xUnit plugin is installed on the Jenkins server. The plug-in provides useful information about test results, such as the historical trends. It offers a Web interface for viewing test reports, tracking failures, and more.
 -   To avoid Java-related conflicts, do not install TestArchitect on the same host as your Jenkins master server.
 
-## Continuous integration
+## {{< expand >}} Continuous integration
 
 The continuous integration software life cycle involves a process of coding, building, testing, and bug-fixing, often at a rate of several iterations per day.
 
@@ -23,7 +23,7 @@ The continuous integration software life cycle involves a process of coding, bui
 
 The Jenkins CI system allows for much of this cyclic process to be automated. Code commits can be set to trigger software builds; build completion can trigger automated testing; and test results can be rapidly compiled, processed and reported to allow bugs to be addressed in the coding process.
 
-## The Jenkins–TestArchitect environment
+## {{< expand >}} The Jenkins–TestArchitect environment
 
 A typical Jenkins-based CI environment with integrated TestArchitect involves the following components:
 

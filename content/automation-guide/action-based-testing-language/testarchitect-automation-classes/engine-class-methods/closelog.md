@@ -12,22 +12,22 @@ keywords: "ABT Library Functions, CloseLog, CloseLog (ABT library function)"
 
 `integer CloseLog (string logname)`
 
-## Description
+## {{< expand >}} Description
 
 Close a log.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **logname**
 
     Name of the log, defined in OpenLog.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Return 1 if the call is successful; otherwise, 0.If unsuccessful, the diagnostic functions can be used to get more details.
 
-## Notes
+## {{< expand >}} Notes
 
 -   A log can be used to track the cause of a test run or a specific aspect of that in more detail.
 

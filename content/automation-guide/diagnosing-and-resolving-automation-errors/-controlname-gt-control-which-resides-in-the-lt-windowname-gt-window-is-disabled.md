@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80010204L"
 
 Error code: 0x80010204L
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because the UI-interactive built-in action is unable to work on a disabled control.
 
-## Solution
+## {{< expand >}} Solution
 
 You might try the following ways:
 

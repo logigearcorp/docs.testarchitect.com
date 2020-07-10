@@ -12,22 +12,22 @@ keywords: "ABT Library Functions, FormatDate, FormatDate (ABT library function)"
 
 `string FormatDate (integer date)`
 
-## Description
+## {{< expand >}} Description
 
 Format a date into a string.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **date**
 
     Date in the form of a number \("Julian" format\).
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 The return value is the formatted date string.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Dates are kept as numbers, according the Julian date standard. To make a date readable it needs to be formatted with this function.
 -   The date is formatted according to the "date format" setting. See paragraph 3.1 for a description how this setting controls the date formatting.

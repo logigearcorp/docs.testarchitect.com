@@ -12,11 +12,11 @@ keywords: "methods of abt, Exists, Exists (AbtElement), AbtElement, exists, abte
 
 `Boolean Exists()`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_Exists_element__section.desc} 
 
 Determine whether the element currently exists in the open entity.
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#abt_Exists_element__section.return} 
 
 Return TRUE ifthe element currently exists; otherwise, FALSE.
 

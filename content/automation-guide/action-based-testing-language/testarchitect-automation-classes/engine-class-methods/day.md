@@ -12,22 +12,22 @@ keywords: "ABT Library Functions, Day, Day (ABT library function)"
 
 `integer Day (integer datevalue)`
 
-## Description
+## {{< expand >}} Description
 
 Get the day number \(in a month\) out of a date.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **datevalue**
 
     A number representing a date.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 The return value is the day number in the range 1-31.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This function is equivalent to the "day" function as it can be used by the tester in a "\#" expression.
 -   See paragraph 3.1 for more information on working with dates.

@@ -8,19 +8,19 @@ aliases:
 keywords: "built-in settings, value changed wait, settings, value changed wait (settings), value changed wait, maximum wait time for value in UI element to change, maximum wait time for value in UI element to change in response to actions"
 ---
 
-## Description
+## {{< expand >}} Description
 
 The maximum wait time to allow a value in a UI element to change, in response to some prior action, before sampling that value with a get or check action.
 
-## Value units
+## {{< expand >}} Value units
 
 milliseconds
 
-## Default value
+## {{< expand >}} Default value
 
 500
 
-## Notes
+## {{< expand >}} Notes
 
 -   Examples of get/check value actions are as follows: [check](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/check), [check control property](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/check-control-property), [check control tooltip](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/check-control-tooltip), [get](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/get), [get column number](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/get-column-number), etc.
 -   The effect of value changed wait is to cause a get or check action to continue sampling its target UI element until the sampled value has changed, or a timeout has occurred.

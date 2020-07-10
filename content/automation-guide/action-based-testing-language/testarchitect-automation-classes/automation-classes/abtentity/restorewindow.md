@@ -12,7 +12,7 @@ keywords: "methods of abt, RestoreWindow, RestoreWindow (AbtEntity), AbtEntity, 
 
 `long RestoreWindow()`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_RestoreWindow__section.desc} 
 
 Restore a window to its original size.
 
@@ -20,7 +20,7 @@ Restore a window to its original size.
 
 Return 0 if the call is successful \(as reported back by the operating system\); otherwise, -1.
 
-## Notes
+## {{< expand >}} Notes
 
 -   The window represented by the AbtEntity object is displayed in its original size \(before it was either maximized or minimized\).
 

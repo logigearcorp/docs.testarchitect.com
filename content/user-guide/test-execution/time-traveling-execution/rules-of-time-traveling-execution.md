@@ -14,7 +14,7 @@ You have the option of supplying a specific timestamp to determine which revisio
 
 {{<note>}} The rules of time-traveling execution are independent from the [rules for selecting variations for execution](/user-guide/variations/rules-for-executing-with-variations/).
 
-## Executing backward a revision
+## {{< expand >}} Executing backward a revision
 
 At runtime, you directly specify a timestamp in the Variation Specification panel, located under **Advanced Settings** tab of the Execute Test dialog box. \([Learn more](/user-guide/test-execution/time-traveling-execution/executing-retroactively-with-time-travel).\)
 
@@ -35,7 +35,7 @@ TestArchitect asks: Is there a revision existing at the specified timestamp?
         ![](/images/TA_Help/Images/time_traveling_rules.png)
 
 
-## Executing backward a revision tag
+## {{< expand >}} Executing backward a revision tag
 
 At runtime, you specify a [revision tag](/user-guide/projects-and-project-items/project-items/revision-control/revision-history/revision-tag), that is, a timestamp tagged to an AUT version\(s\) in the Variation Specification panel, located under **Advanced Settings** tab of the Execute Test dialog box. \([Learn more](/user-guide/test-execution/time-traveling-execution/executing-retroactively-with-time-travel)\).
 

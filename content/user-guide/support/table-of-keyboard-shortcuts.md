@@ -22,7 +22,7 @@ You can use shortcut keys to perform lots of different tasks quickly or to work 
 |ENTER|ENTER \(![](/images/TA_Help/Images/Mac_enter_key.png)\)|
 |WINDOWS \(![](/images/TA_Help/Images/Windows_key.png)\)|COMMAND \(![](/images/TA_Help/Images/Mac_command_key.png)\)|
 
-## Test editor
+## {{< expand >}} Test editor
 
 The following table describes shortcuts used to work on a test editor:
 
@@ -47,7 +47,7 @@ The following table describes shortcuts used to work on a test editor:
 |Save an item|Ctrl + S|![](/images/TA_Help/Images/Mac_command_key.png) + S|Ctrl + S|
 |Open a selected item in an editor window|F3|F3|F3|
 
-## Working with item tabs
+## {{< expand >}} Working with item tabs
 
 The following table describes shortcuts used when working with item tabs.
 
@@ -60,7 +60,7 @@ The following table describes shortcuts used when working with item tabs.
 |Go to item tab to the right|Ctrl + Tab|N/A|Ctrl + Tab|
 |Go to item tab to the left|Ctrl + Shift + Tab|N/A|Ctrl + Shift + Tab|
 
-## Cell pointer navigation
+## {{< expand >}} Cell pointer navigation {{< permerlink >}} {#Support_Hotkeys_list__section.test_editor.navigation} 
 
 The following table describes shortcuts used to navigate cell pointer in a test editor.
 
@@ -80,7 +80,7 @@ The following table describes shortcuts used to navigate cell pointer in a test 
 |Enter or edit action lines|Enter|Enter|Enter|
 |Move the cell pointer up to the previous cell|Shift + Enter|![](/images/TA_Help/Images/Mac_shift_key.png) + Enter|Shift + Enter|
 
-## Debugger
+## {{< expand >}} Debugger
 
 The following table describes shortcuts used when working with debugger.
 
@@ -92,7 +92,7 @@ The following table describes shortcuts used when working with debugger.
 |Step Out|Shift + F7|![](/images/TA_Help/Images/Mac_shift_key.png) + F7|Shift + F7|
 |Insert or remove a breakpoint|Ctrl + Alt + B|N/A|Ctrl + Alt + B|
 
-## Other actions
+## {{< expand >}} Other actions
 
 |Action|Windows|macOS|Linux|
 |------|-------|-----|-----|

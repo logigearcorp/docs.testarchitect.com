@@ -12,11 +12,11 @@ keywords: "methods of abt, GetChildAt, GetChildAt (AbtEntity), AbtEntity, getchi
 
 `long GetChildAt(int index)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_GetChildAt_entity__section.desc} 
 
 Retrieve the child element at the given index.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_GetChildAt_entity__section.params} 
 
 -   **index**
 

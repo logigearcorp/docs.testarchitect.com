@@ -12,7 +12,7 @@ Object class representing a baseline image of a given picture check.
 
 {{<note>}} This class and its associated methods are currently supported only by the C\# harness.
 
-## Workflow Implementation
+## {{< expand >}} Workflow Implementation
 
 In general, a basic workflow involves the following steps:
 
@@ -22,7 +22,7 @@ In general, a basic workflow involves the following steps:
     1.  apply various methods belonging to [AbtPictureCheck](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtpicturecheck/) to retrieve a specific baseline image or all baselines of a picture check. An [AbtBaselinePicture](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtbaselinepicture/) object is then returned.
     2.  finally, apply methods belonging to [AbtBaselinePicture](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtbaselinepicture/) to further process the returned baseline\(s\).
 
-## Example
+## {{< expand >}} Example
 
 Suppose that you'd like to save a baseline image, "Baseline \{1\}", which belongs to a shared picture check, "Yellow Chevrolet", into a given folder.
 

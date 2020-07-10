@@ -8,15 +8,15 @@ aliases:
 keywords: "methods of abt, GetTextCoordinates, GetTextCoordinates (AbtElement), AbtElement, GetTextCoordinates, gettextcoordinates, abtelement gettextcoordinates, coordinates, dimensions of bitmap text in control, position, size of bitmap text in element"
 ---
 
-## Syntax
+## {{< expand >}} Syntax {{< permerlink >}} {#abt_GetPictureLocation_element__section.syntax} 
 
 `TARect GetTextCoordinates (string text, TARect rect, int index, string color)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_GetPictureLocation_element__section.desc} 
 
 Return the location and dimensions of an instance of a specified [bitmap text fragment](/user-guide/support/glossary-of-terms/bitmap-text-fragment) within the object's bitmap.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_GetPictureLocation_element__section.params} 
 
 -   **text**
 
@@ -37,7 +37,7 @@ Return the location and dimensions of an instance of a specified [bitmap text fr
     Color code of the text, in hexadecimal.
 
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#abt_GetPictureLocation_element__section.return} 
 
 -   A TARect object is returned, representing the bounding rectangle of the found bitmap text fragment of interest, and containing the following:
     -   left: Horizontal coordinate of left border of the bounding rectangle relative to the left side of the calling object.
@@ -46,7 +46,7 @@ Return the location and dimensions of an instance of a specified [bitmap text fr
     -   height: Height of the bounding rectangle.
 -   If the index-specified instance of the bitmap text fragment is not found, return null.
 
-## Notes
+## {{< expand >}} Notes
 
 -   The returned left and top coordinates are relative to the respective left and top edges of the
 

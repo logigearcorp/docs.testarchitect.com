@@ -12,11 +12,11 @@ keywords: "methods of abt, InsertRow, InsertRow (AbtDataSet), AbtDataSet, insert
 
 `int InsertRow({{<link title="AbtDataRow" link="/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdatarow/">}} row, int index)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#reference_t2g_3bw_gq__section.desc} 
 
 Insert a row object into the data set.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#reference_t2g_3bw_gq__section.params} 
 
 -   **row**
 
@@ -31,7 +31,7 @@ Insert a row object into the data set.
 
 Return 0 if theexecutionis successful; otherwise, -1.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This method is currently supported only by the C\# harness.
 

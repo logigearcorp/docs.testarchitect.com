@@ -12,22 +12,22 @@ keywords: "ABT Library Functions, WeekDay, WeekDay (ABT library function)"
 
 `integer WeekDay (integer datevalue )`
 
-## Description
+## {{< expand >}} Description
 
 Get the weekday number.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **datevalue**
 
     A number representing a date.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 The return value is the day number in the range 1-7 \(Sunday is 1, Saturday is 7\).
 
-## Notes
+## {{< expand >}} Notes
 
 -   This function is equivalent to the "weekday" function as it can be used by the tester in a "\#" expression.
 -   To get a day number in a month use the Day function.

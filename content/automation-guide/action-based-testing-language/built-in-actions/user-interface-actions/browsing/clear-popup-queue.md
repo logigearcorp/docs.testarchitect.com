@@ -8,19 +8,19 @@ aliases:
 keywords: "built-in actions, clear popup queue, clear popup queue (action), iOS (action), clear popup queue, Safari, iOS (action), iOS, Safari (action), Android (action), Android, Google Chrome (action), Google Chrome, Android (action), Safari, macOS (action), macOS, Safari (action), stop popup queue"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Clear any remaining actions from the popup-handler queue, and clear the popup history buffer.
 
-## Arguments
+## {{< expand >}} Arguments
 
 There are no arguments for this action.
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes {{< permerlink >}} {#bia_clear_popup_queue__section.notes} 
 
 -   Prior to using this built-in action, it is recommended that you become familiar with the different kinds of modal JavaScript popups and how to handle them properly.
     -   For Safari
@@ -29,15 +29,15 @@ This action may be used within the following project items:test modules and user
     -   For Google Chrome on Android, refer to [Handling JavaScript popups on Chrome Android](/automation-guide/application-testing/mobile-testing/testing-mobile-web-applications/testing-chrome-on-android/handling-javascript-popups) for details.
 -   This action is especially useful in ensuring that the proper operation of a new popup session is not corrupted by any popup-handling actions left in the FIFO queue from a previous session. It is recommended that you call this action at the end of a popup session, when the contents of the current popup-handler queue are no longer needed. \(See [Handling one or a series of popups](/automation-guide/application-testing/mobile-testing/testing-mobile-web-applications/testing-safari-on-ios/handling-javascript-popups#section_iv1_x5x_vp) for further information\).
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:none
 
-## Applicable Controls
+## {{< expand >}} Applicable Controls
 
 This action is applicable to the following controls:none.
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

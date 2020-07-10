@@ -8,35 +8,35 @@ aliases:
 keywords: "built-in actions, use filter, use filter (action), filter data set, use filter, apply filter to data set"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Apply a named filter to the data retrieved from a data set.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **filter**
 
     Name of the filter to be applied.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## {{< expand >}} Applicable Systems/Platforms
 
 Use of this action is supported on the following systems/platforms: Windows, Linux.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Use the [filter](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/filter) action to create a named filter.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells)none.
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

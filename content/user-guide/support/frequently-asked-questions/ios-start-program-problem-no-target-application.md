@@ -8,13 +8,13 @@ aliases:
 keywords: "Troubleshooting, iOS, problem: AUT not found, start program, troubleshooting"
 ---
 
-## Problem
+## {{< expand >}} Problem
 
 Upon completion of an automated test, the following error message is reported in the Automation Problem dialog box, or in the test result:
 
 The start program action could not complete since the target application does not exist on your device.
 
-## Solution
+## {{< expand >}} Solution
 
 Ensure that the application under test is re-signed and installed on your iOS device, then rerun the test.
 

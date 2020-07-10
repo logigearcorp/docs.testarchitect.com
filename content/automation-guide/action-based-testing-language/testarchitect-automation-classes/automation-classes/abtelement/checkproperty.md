@@ -12,11 +12,11 @@ keywords: "methods of abt, CheckProperty, CheckProperty (AbtElement), AbtElement
 
 `Boolean CheckProperty(string propertyName, string propertyValue)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_CheckProperty.element.java__section.desc} 
 
 Determine whether the control's property matches a specified value.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **propertyName**
 
@@ -27,7 +27,7 @@ Determine whether the control's property matches a specified value.
     String value indicating the expected value.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Return TRUE ifthe property contains the specified value; otherwise, FALSE.
 

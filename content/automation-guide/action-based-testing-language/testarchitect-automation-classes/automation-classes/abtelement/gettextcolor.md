@@ -8,15 +8,15 @@ aliases:
 keywords: "methods of abt, GetTextColor, GetTextColor (AbtElement), AbtElement, gettextcolor, abtelement gettextcolor, color code of text in control, get forecolor of text in HTML element, hexadecimal color code of text fragment in element"
 ---
 
-## Syntax
+## {{< expand >}} Syntax {{< permerlink >}} {#abt_GetTextColor_AbtElement__section.syntax} 
 
 `string GetTextColor (string drawfunction, string text, int index)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_GetTextColor_AbtElement__section.desc} 
 
 Retrieve color code of the text fragment residing in a given control, in hexadecimal.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_GetTextColor_AbtElement__section.params} 
 
 -   **drawfunction**
 
@@ -43,11 +43,11 @@ Retrieve color code of the text fragment residing in a given control, in hexadec
     Specifies a minimum number of instances of the search text that must be discovered within the active area for the target [bitmap text fragment](/user-guide/support/glossary-of-terms/bitmap-text-fragment) to be considered as found \(default = 1\).
 
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#abt_GetTextColor_AbtElement__section.return} 
 
 A hexadecimal value indicating color code of the text.
 
-## Notes
+## {{< expand >}} Notes {{< permerlink >}} {#abt_GetTextColor_AbtElement__section_vwj_hjw_j4} 
 
 -   This method always employs the [Graphics Device Interface](/automation-guide/action-based-testing-language/the-test-language/text-recognition-techniques) \(GDI\) technique to recognize text produced by an AUT.
 

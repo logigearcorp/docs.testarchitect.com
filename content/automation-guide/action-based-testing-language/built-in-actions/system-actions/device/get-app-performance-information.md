@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, get app performance information, get app performance information (action), Android (action), get app performance information, mobile performance monitoring, monitor mobile performance, diagnose mobile performance, manage mobile performance, mobile performance management"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Return the current performance information of an application running on the test device.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **package name**
 
@@ -27,15 +27,15 @@ Return the current performance information of an application running on the test
     Variable to hold returned current memory usage of the application process.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## {{< expand >}} Applicable Systems/Platforms
 
 Use of this action is supported on the following systems/platforms: Android.
 
-## Notes
+## {{< expand >}} Notes
 
 -   If the variables in argumentscpu usage and memoryhave not been declared, the action creates them as globals.
 -   On an Android device, to retrieve the package name for an application, do the following:
@@ -47,11 +47,11 @@ Use of this action is supported on the following systems/platforms: Android.
     3.  In the test editor, paste the copied value into the package name argument of the built-in action.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only).
 
-## Example
+## {{< expand >}} Example
 
 Let's say you wish to obtain the current performance information of two applications running on the test device:
 

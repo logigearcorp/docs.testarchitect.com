@@ -8,19 +8,19 @@ aliases:
 keywords: "built-in settings, object wait probe, settings, object wait probe (settings)"
 ---
 
-## Description
+## {{< expand >}} Description
 
 The maximum wait time for a control to be available.
 
-## Value units
+## {{< expand >}} Value units
 
 seconds
 
-## Default value
+## {{< expand >}} Default value
 
 2
 
-## Notes
+## {{< expand >}} Notes
 
 -   The object wait probe setting applies to the following three built-in actions: [does control exist](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/does-control-exist), [if control exists](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/if-control-exists), and [if control not exists](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/if-control-not-exists).
 -   Setting a high wait time value may negatively impact test performance.

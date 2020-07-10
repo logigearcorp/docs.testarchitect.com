@@ -17,7 +17,7 @@ Variables act as containers for values that are:
 -   retrieved from the automation \(from a get-type action, for instance\), or
 -   returned from a user-defined action.
 
-## Variable scope
+## {{< expand >}} Variable scope
 
 There are two types of variables in TestArchitect: local and global. Whether a variable is local or global is determined by how it is declared, which in turn determines the scope of that variable. A global variable is declared with the [global variable](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/value-handling/global-variable) action, whereas local variables are declared with [local variable](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/value-handling/local-variable).
 
@@ -38,7 +38,7 @@ In all the above cases, the scope of a given local variable or action argument m
 
 -   Within any given section of a test module or its subordinate actions, when two or more variables of the same name might, individually, have visibility, it is the variable with the most localized scope that is visible at any given point. That is, if test module A has declared local variable x, then calls action B, which also declares local variable x, two instantiations of x exist; action B works with its own copy of x, which disappears after control is returned to test module A.
 
-## Scope Binding
+## {{< expand >}} Scope Binding {{< permerlink >}} {#the_test_language_variables__section.variables} 
 
 TestArchitect supports both dynamic scoping and lexical scoping of local variables and arguments. In both types, the above rules for the scope of local variables and arguments still apply. Where they differ is in the applicability of scope to called actions.
 
@@ -57,7 +57,7 @@ TestArchitect supports both dynamic scoping and lexical scoping of local variabl
 
 {{<important>}} By default, lexical scoping is in effect for TestArchitect local variables. To switch to dynamic scoping, use the [lexical scoping](/automation-guide/action-based-testing-language/built-in-settings/other-settings/lexical-scoping) built-in setting.
 
-## Levels of Variable Scope
+## {{< expand >}} Levels of Variable Scope
 
 The scope of a variable determines its lifetime and visibility. TestArchitect supports the following levels of variable scope:
 
@@ -84,7 +84,7 @@ The names of local variables are not susceptible to naming conflicts. If there i
 
 It is common practice to have an action with a name like initialize to assign values to a number of variables used throughout the remainder of a test run, and perhaps shared by several test modules. Each test module would start with a call to initialize to obtain the latest values for the variables.
 
-## Editing expressions
+## {{< expand >}} Editing expressions
 
 During an editing session, entering the *\#* symbol in an empty argument cell triggers an autocomplete pop-up window containing a list of variables thought to be within scope at that position in the action lines. Use the Up and Down arrow keys to select one, should you need it inserted at that point. You can bring back the pop-up list at any further point in the expression by pressing Ctrl + Space.
 

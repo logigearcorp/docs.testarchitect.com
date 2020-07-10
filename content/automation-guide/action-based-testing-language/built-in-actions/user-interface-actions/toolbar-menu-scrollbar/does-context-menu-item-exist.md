@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, does context menu item exist, does context menu item exist (action), iOS (action), does context menu item exist, check for existence of specified item on context menu, check if specified item is found on context menu, verify whether specified item on context menu exists, verify existence of specified item on context menu"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Return a Boolean value to indicate whether a specified item on a context menu exists.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **window**
 
@@ -49,11 +49,11 @@ Return a Boolean value to indicate whether a specified item on a context menu ex
     \(Optional\) Vertical position of effective click on menu control, specified as distance in pixels from top edge of the control. \(Defaults to vertical center of the control.\)
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/automation-guide/action-based-testing-language/built-in-actions/system-actions/operating-system/get-screen-resolution#li.ios.get_screen_resolution).\)
 -   item argument:
@@ -69,17 +69,17 @@ This action may be used within the following project items:test modules and user
     -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only), [page wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/page-wait), [object wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/object-wait), [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait).
 
-## Applicable Controls
+## {{< expand >}} Applicable Controls
 
 This action is applicable to the following controls:button, check box, checklist, clock, combo box, datetime, frame, label, list box, list view, menu, password, picture box, progress bar, radio button, rating bar, richtext, scroll bar, separator, spin, status bar, tab control, table, text box, toggle button, toolbar, trackbar, tree view, window.
 
 This action is applicable to the following controls:button, Calendar, check box, combo box, DatePicker, DateTimePicker, Hyperlink, label, list box, list view, menu, password, picture box, progress bar, radio button, status bar, tab control, table, text box, toggle button, trackbar, tree view.
 
-## Example - Case 1: Use text value
+## {{< expand >}} Example - Case 1: Use text value
 
 ![](/images/TA_Automation/Images/bia_does_context_menu_item_exist_aut.png)
 
@@ -91,7 +91,7 @@ This action is applicable to the following controls:button, Calendar, check box,
 
 ![](/images/TA_Automation/Images/bia_does_context_menu_item_exist_res.png)
 
-## Example - Case 2: Use numerical index value
+## {{< expand >}} Example - Case 2: Use numerical index value
 
 ![](/images/TA_Automation/Images/bia_does_context_menu_item_exist_index_aut.png)
 

@@ -10,17 +10,17 @@ keywords: "automation errors, 0x80020006L"
 
 Error code: 0x80020006L
 
-## Problem
+## {{< expand >}} Problem
 
 This issue happens when you use dynamic identifiers to identify UI controls, but the defined identifier has syntax errors.
 
-## Solution
+## {{< expand >}} Solution
 
 Please read this [topic](/user-guide/interface-definitions/dynamic-identifiers) to understand the dynamic identifier's structure and syntax.
 
 For convenience, you can obtain dynamic identifiers of UI controls quickly via either the [point-to-identify](/user-guide/interface-definitions/interface-capturing-commands/point-to-identify-tool/) tool or the [Interface Viewer](/user-guide/interface-definitions/the-interface-viewer/interpreting-the-interface-viewer/).
 
-## Special characters for dynamic identifiers
+## {{< expand >}} Special characters for dynamic identifiers
 
 -   **Commas, square brackets, or equal signs**
 

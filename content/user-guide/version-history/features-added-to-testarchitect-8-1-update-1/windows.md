@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
 
-## TestArchitect Client
+## {{< expand >}} TestArchitect Client
 
 **Enhancements to existing features**
 
@@ -30,7 +30,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   **Support viewing new line and horizontal tab characters in the test results.**
 -   In the Select Controller dialog box, each controller is identified by its host name, rather than IP address.
 
-## TestArchitect Automation
+## {{< expand >}} TestArchitect Automation
 
 -   **Support for Safari iOS and Chrome Android testing**: You can now use TestArchitect to create automated GUI and functional tests in the [Safari](/automation-guide/application-testing/mobile-testing/testing-mobile-web-applications/testing-safari-on-ios/) mobile web browser on iOS devices, and in the [Google Chrome](/automation-guide/application-testing/mobile-testing/testing-mobile-web-applications/testing-chrome-on-android/) mobile web browser on Android.
     -   **Special handling of Javascript popups** \(applies to [Safari](/automation-guide/application-testing/mobile-testing/testing-mobile-web-applications/testing-safari-on-ios/handling-javascript-popups) on iOS 7 and later, and to [Chrome](/automation-guide/application-testing/mobile-testing/testing-mobile-web-applications/testing-chrome-on-android/handling-javascript-popups)\): Due to the manner in which the web browser engines process JavaScript code, modal popup windows produced in a web application with JavaScript cannot be tested in a conventional manner. To address this issue, TestArchitect offers a special set of actions for interfacing with JavaScript popups, including alerts, prompts and confirmation dialogs.

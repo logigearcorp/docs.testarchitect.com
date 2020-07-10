@@ -12,11 +12,11 @@ keywords: "ABT Library Functions, InterfaceAction, InterfaceAction (ABT library 
 
 `string InterfaceAction(string interface, string classname, string actionname)`
 
-## Description
+## {{< expand >}} Description
 
 Get the action word that belong to an class
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **interface**
 
@@ -31,7 +31,7 @@ Get the action word that belong to an class
     Logical name of an action \(like "enter" or "click"\).
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 The low level action is returned that is defined in the Interface Definitions with respect to the logical action for the element class. If any of the parameters is not defined, a diagnostic is issued and an empty string is returned.
 

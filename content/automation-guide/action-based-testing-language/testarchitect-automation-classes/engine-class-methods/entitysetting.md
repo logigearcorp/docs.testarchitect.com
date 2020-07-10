@@ -12,11 +12,11 @@ keywords: "ABT Library Functions, EntitySetting, EntitySetting (ABT library func
 
 `string EntitySetting(string interface, string entity, string setting)`
 
-## Description
+## {{< expand >}} Description
 
 Get an attribute of the entity \(like the title of a window\)
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **interface**
 
@@ -31,11 +31,11 @@ Get an attribute of the entity \(like the title of a window\)
     The setting for which the value is to be retrieved.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 The value is returned for the setting as it is defined in the Interface Definitions. If any of the parameters is not defined, a diagnostic is issued and an empty string is returned.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Typical examples of entity settings are "title" for a window or "frame" for part of a web page.
 

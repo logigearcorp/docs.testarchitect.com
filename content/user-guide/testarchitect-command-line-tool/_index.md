@@ -10,17 +10,17 @@ keywords: "tool, command line, TestArchitect, command"
 
 The TestArchitect command line tool is a Java program that enables you carry out some directives on TestArchitect.
 
-## Location
+## {{< expand >}} Location {{< permerlink >}} {#TA_command_line_tool__section_pfn_35c_wfb} 
 
 The command line tool is placed in the following locations:
 
 -   On Windows: TA\_INSTALL\_DIR\\binclient
 
-## Syntax
+## {{< expand >}} Syntax {{< permerlink >}} {#TA_command_line_tool__section_isf_m4w_wfb} 
 
 ta <command\> <arguments\>
 
-## Arguments
+## {{< expand >}} Arguments {{< permerlink >}} {#TA_command_line_tool__section_dj4_t4w_wfb} 
 
 |Argument|Description|
 |--------|-----------|

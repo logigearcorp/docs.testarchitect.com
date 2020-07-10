@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, check row item, check row item (action)"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Check the contents of a row in a table. Result is Passed ifexpected contents are found; otherwise Failed.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **window**
 
@@ -37,24 +37,24 @@ Check the contents of a row in a table. Result is Passed ifexpected contents are
     Expected row contents. Use "\|" as delimiter between expected contents of respective cells
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   If exact = 0, section of row to be checked may begin at any column.
 -   This action has been deprecated in TestArchitect 7.
 
-## Example
+## {{< expand >}} Example
 
 ![](/images/TA_Automation/Images/bia_check_row_item_aut.png)
 
-## Action Lines
+## {{< expand >}} Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_row_item_pgm.png)
 
-## Result
+## {{< expand >}} Result
 
 ![](/images/TA_Automation/Images/bia_check_row_item_res.png)
 

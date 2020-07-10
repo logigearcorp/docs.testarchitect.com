@@ -16,7 +16,7 @@ The test editor typically looks something like this:
 
 ![](/images/TA_Help/Images/Test_Editor.png)
 
-## Navigation
+## {{< expand >}} Navigation {{< permerlink >}} {#Test_editor_basics__section.intelligent_nav} 
 
 The editor is designed to facilitate the creation of action-based tests, though in many ways it behaves comparably to other spreadsheet applications, such as Microsoft Excel™. You can move the cell pointer with the standard keyboard commands as follows:
 
@@ -40,7 +40,7 @@ The editor is designed to facilitate the creation of action-based tests, though 
 |Enter|Enter or edit action lines.{{<note>}} The Enter key uses intelligent navigation to anticipate the next cell you intend to edit.<br><br>|<br>
 |Shift+Enter|Move the cell pointer up to the previous cell.|
 
-## Editing cell content
+## {{< expand >}} Editing cell content
 
 Once you navigate to a cell, you can begin typing into it.
 
@@ -48,7 +48,7 @@ Once you navigate to a cell, you can begin typing into it.
 
 To modify, rather than replace existing cell content, double-click the cell. That puts you into cell-edit mode. Alternatively, if the cell is already selected, you can enter cell-edit mode by hitting the F2 key. Once in cell-edit mode, you may use the Left and Right Arrow keys to navigate through the cell text, or use the mouse to place the text cursor where desired.
 
-## Entering action lines
+## {{< expand >}} Entering action lines
 
 When you begin typing an action keyword into column **A**, TestArchitect uses autocomplete to create a drop-down list of possible actions whose names match the letters you have typed. Use the Up and Down arrow keys to navigate through the list. Additionally, as each action in the list is highlighted, a screentip appears, presenting both a description of the action and descriptions of the arguments it accepts.
 
@@ -58,25 +58,25 @@ Press Enter to complete your selection of an action.
 
 Once you have entered or selected an action, the test editor automatically populates the argument names in the row above, as shown in the image below for the [enter](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/enter) action.
 
-## Line continuation
+## {{< expand >}} Line continuation
 
 Sometimes your action lines can be long, expanding past the edge of the editor window. Functionally, there is nothing wrong with that, but if you want to make your test procedures more easily readable, you can break an action line into two or more lines with the help of the line continuation symbol, `>>>`. The symbol must be placed in column A of each added line of the action. Be careful to place it at the level of the argument values, not the headers:
 
 ![](/images/TA_Help/Images/editor_line_continuation.png)
 
-## Entering argument values
+## {{< expand >}} Entering argument values
 
 For arguments of actions related to an interface entity or element, when the cell pointer is on a cell and you press Ctrl+Spacebar, a context-based list of available values appears. Select a value using the Up or Down arrow keys and press Enter.
 
 ![](/images/TA_Help/Images/ug_thetesteditor1.png)
 
-## Intelligent navigation
+## {{< expand >}} Intelligent navigation
 
 You may have noticed that the first time you pressed the Enter key, the cell pointer moved one cell to the right. After typing into the last argument cell and pressing Enter, the cell pointer repositions itself to column **A** of the line three rows down. This is part of TestArchitect's intelligent navigation.
 
 With intelligent navigation, TestArchitect anticipates what your next entry will be, and moves the cell pointer to that cell. Most actions take a set number of arguments that are entered into cells immediately to the right of the action's name. The editor, like the automation, is aware of how many arguments a given action takes. As you enter each argument value, pressing Enter causes the editor to move the cell pointer to the next argument cell. Once all the argument fields are filled, the cell pointer moves to a new row \(three rows below the current line\) in preparation for the entry of a new action line. Additionally, if there are any action lines below the current line \(not more than five rows below\), pressing Enter moves the cell pointer from the current action line to the next existing action line to facilitate editing.
 
-## Saving
+## {{< expand >}} Saving
 
 When content in the editor is changed, a star \( \* \) appears next to the item's name in the tab, as shown below in the **\*Action Based Testing** tab. When content in the editor is changed, a star \( \* \) appears next to the name of the file in the tab, as shown below in the \*Calculation tab. This is an indication that the editor's copy of the file contains unsaved changes.
 
@@ -97,7 +97,7 @@ Alternatively, you can save *all* opened files in the editor two ways:
 
 **Ambiguous entities:**TestArchitect checks for ambiguous entities \(described in [Ambiguous entities](/administration-guide/repository-server-management/upgrading-the-repository-database-for-name-change-propagation/ambiguous-entities)\) before saving the files. If there are ambiguous entities that need mapping, a Select Interface dialog box appears for you to specify which ambiguous entity to map to which interface.
 
-## Commenting
+## {{< expand >}} Commenting
 
 Comments may be added to test modules, actions, interface entities and data sets. A commented line starts with two forward slashes \(//\); its contents are ignored during test execution.
 
@@ -121,14 +121,14 @@ The comment indicator can be entered or removed by hand, but the editor also pro
 -   To uncomment all lines in a test case, right-click the TEST CASE row and select **Uncomment Test Case**.
 -   To comment all lines in a test module, action or data set,right-click in the editor and select **Comment All Test Lines**.
 
-## Reformatting the test editor
+## {{< expand >}} Reformatting the test editor
 
 The TestArchitect test editor does a bit of context-based formatting as you type. On occasion, however, it can miss items. This may happen, for example, when another user creates or deletes an action that you are referencing, with the result that the editor may not adjust the font color as expected \(black for known actions, red for nonexistent actions\). However, you can force the editor to access the repository for the latest status of actions, and then to update all formatting accordingly, by using the **Reformat** command:
 
 1.  Right-click to open the test editor context menu.
 2.  Select **Editor** \> **Reformat**.
 
-## Automatic matching of paired actions
+## {{< expand >}} Automatic matching of paired actions
 
 The TestArchitect test editor provides for the automatic insertion of closing actions for paired built-in actions as follows:
 
@@ -144,11 +144,11 @@ The TestArchitect test editor provides for the automatic insertion of closing ac
 
 For example, when you type [if](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/if) into a test, and then hit Tab or Enter, the [end if](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/end-if) action is automatically inserted several lines below the [if](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/if) action.
 
-## Adjusting the row height or column width
+## {{< expand >}} Adjusting the row height or column width
 
 The height of rows and the width of columns may be adjusted by dragging the separator line between row and column headers. To resize row height or column width to automatically fit the existing text, double-click the separator line.To set the row height or the column width back to its default value, double-click the separator line.
 
-## Inserting empty lines
+## {{< expand >}} Inserting empty lines
 
 -   Ctrl + I: Insert a single new line into the editor worksheet, at the current location of the cell pointer.
 -   Ctrl + Enter: Insert several empty lines into the editor worksheet, below the current location of the cell pointer, and move the cell pointer three lines down to allow you to continue adding action lines.

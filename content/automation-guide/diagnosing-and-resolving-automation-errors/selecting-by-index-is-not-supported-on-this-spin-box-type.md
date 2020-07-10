@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80012001L"
 
 Error code: 0x80012001L
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because a given UI-interactive built-in action selects an item identified by its index in a spin box control.
 
-## Solution
+## {{< expand >}} Solution
 
 Select the item identified by its text value, and then re-run the test.
 

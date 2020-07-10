@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80010409L"
 
 Error code: 0x80010409L
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because the UI-interactive built-in action is unable to work on a disabled item.
 
-## Solution
+## {{< expand >}} Solution
 
 Check the AUT to ensure that the item is not disabled, and then re-run the test.
 

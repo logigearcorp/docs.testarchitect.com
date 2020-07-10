@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, tap stepper button, tap stepper button (action), iOS (action), tap stepper button, increase value of stepper button, decrease value stepper button, increase or decrease value of stepper button"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Increment the value of a stepper control by a specified number of taps.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **window**
 
@@ -41,23 +41,23 @@ Increment the value of a stepper control by a specified number of taps.
     \(Optional\) Number of times to tap the specified stepper button \(default = 1\).
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes {{< permerlink >}} {#bia_tap_stepper_button__section_tll_j2y_mk} 
 
 -   This built-in action applies only to the iOS operating system.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only), [object wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/object-wait), [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait).
 
-## Applicable Controls
+## {{< expand >}} Applicable Controls
 
 This action is applicable to the following controls:stepper.
 
-## Example
+## {{< expand >}} Example
 
 ![](/images/TA_Automation/Images/bia_tap_stepper_button_aut.png)
 

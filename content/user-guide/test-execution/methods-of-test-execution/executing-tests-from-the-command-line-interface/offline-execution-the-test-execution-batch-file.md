@@ -12,7 +12,7 @@ From a TestArchitect client session, you can generate a batch file that invokes 
 
 {{<note>}} The following content discusses the batch files that are typically created in the Windows environment, and hence uses commands and other keywords that are specific to Windows. The batch files created under Linux and macOS are, however, quite similar.
 
-## Running on a single controller
+## {{< expand >}} Running on a single controller
 
 In Windows, the generated batch file to execute a test only single controller has this form:
 
@@ -45,7 +45,7 @@ The Windows batch commands and keywords in the file are as follows:
     Exit and close the command line/terminal.
 
 
-## Running a test on multiple controllers
+## {{< expand >}} Running a test on multiple controllers
 
 The Execute Test dialog box affords you the option to direct your test to be executed on [more than a single controller concurrently](/user-guide/test-execution/methods-of-test-execution/configuring-and-running-tests-from-testarchitect-client#li.exec_test_dlg.controllers_and_devices). When you generate a batch file for multiple controllers, TestArchitect loads it with separate TACommandLine lines which are identical except for the -c \( Machine name or IP address, and port number of the TestArchitect controller that is to run the test\) argument.
 
@@ -84,13 +84,13 @@ Some of the lines not seen earlier include:
     Without delving into details, each start command launches a separate instance of Windows' cmd shell, which then launches the batch code for the TACommandLine execution for one of the specified controllers. By using start to launch each controller-specific test, you ensure that the three tests run asynchronously. \(Without start, each test would not begin until the one before it completed.\)
 
 
-## Running a test on multiple mobile devices
+## {{< expand >}} Running a test on multiple mobile devices
 
 As with multiple controllers, you can elect from the Execute Test dialog box to execute a test on multiple devices. The generated batch file looks similar to that of one of the above two cases \(depending upon whether one or multiple controllers are involved\). For each TACommandLine, an additional argument, -d, is applied, to specify one or more devices attached to the respective controller.
 
 -   **/d "<Device Name 1\>;<Device Name 2\>"**
 
-## Running multiple test modules
+## {{< expand >}} Running multiple test modules
 
 When you specify a [serial test run](/user-guide/test-execution/methods-of-test-execution/executing-multiple-test-modules), a separate TACommandLine line is generated for each test module. \(One exception, discussed below, is when you specify a test suite and accept the default of running all test module sections and test cases.\) In the event that you are also specifying multiple hardware targets \(controllers or devices\), the number of command lines is multiplied accordingly. For example, we can expand on the above example of executing on three controllers by also specifying two test modules, tm01 and tm02:
 

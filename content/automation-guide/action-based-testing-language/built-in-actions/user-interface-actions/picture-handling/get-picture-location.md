@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, get picture location, get picture location (action), iOS (action), get picture location, Android (action)"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Check a bitmap area of the AUT's current display for the presence of a given instance of a specified target image.If found, return the location and dimensions of the picture.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **picture**
 
@@ -65,11 +65,11 @@ Check a bitmap area of the AUT's current display for the presence of a given ins
     \(Optional\) Variable to hold the returned height of the found instance of the picture \(units: pixels\).
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes {{< permerlink >}} {#bia_get_picture_location__section_tll_j2y_mk} 
 
 -   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/automation-guide/action-based-testing-language/built-in-actions/system-actions/operating-system/get-screen-resolution#li.ios.get_screen_resolution).\)
 -   As a convenience when editing, you may drag the appropriate picture check node from the **Picture Checks** folder \(in the TestArchitect explorer tree\) into this action'spicture argument.
@@ -105,7 +105,7 @@ This action may be used within the following project items:test modules and user
 -   If the variables in argumentsleft, top, width, and heighthave not been declared, the action creates them as globals.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only), [object wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/object-wait), [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait), [load invisible controls](/automation-guide/action-based-testing-language/built-in-settings/other-settings/load-invisible-controls), [picture algorithm](/automation-guide/action-based-testing-language/built-in-settings/other-settings/picture-algorithm).
 
@@ -121,7 +121,7 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ![](/images/TA_Automation/Images/bia_get_picture_location_res.png)
 
-## Example - Case 2: The rect argument is specified
+## {{< expand >}} Example - Case 2: The rect argument is specified
 
 ![](/images/TA_Automation/Images/bia_get_picture_location_aut_3.png)
 
@@ -133,7 +133,7 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ![](/images/TA_Automation/Images/bia_get_picture_location_res_3.png)
 
-## Example - Case 3: The index argument is specified
+## {{< expand >}} Example - Case 3: The index argument is specified
 
 ![](/images/TA_Automation/Images/bia_get_picture_location_aut_2.png)
 

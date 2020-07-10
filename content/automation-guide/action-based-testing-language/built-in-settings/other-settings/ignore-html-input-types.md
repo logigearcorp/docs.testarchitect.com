@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in settings, ignore html input types, settings, ignore html input types, ignore html input types (settings)"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Determines whether, during test execution, the legacy captured controls of HTML input types should be taken into consideration.
 
-## Allowable values
+## {{< expand >}} Allowable values
 
 -   **yes**
 
@@ -23,16 +23,16 @@ Determines whether, during test execution, the legacy captured controls of HTML 
     Executes the automated test with new supported HTML5 input control types.
 
 
-## Default value
+## {{< expand >}} Default value
 
 no
 
-## Notes
+## {{< expand >}} Notes
 
 -   In the current version TestArchitect, each of the HTML5 input types of the **<input\>** element \(including **input-color**, **input-date**, **input-datetime**, **input-datetime-local**, **input-email**, **input-month**, **input-number**, **input-range**, **input-search**, **input-tel**, **input-time**, **input-url**, and **input-week**\) is mapped to its own TA class. \(Refer to [List of supported HTML5 controls](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/automated-web-testing-with-non-webdriver/supported-html5-controls) for details.\) Prior to TestArchitect version 8.1 Update 3, all these controls were mapped to the input-text TA class. In order to continue using these mappings for automation playback in this version, set ignore html input types to yes \(see Example below\).
 -   TestArchitect does not support automation playback in mixed mode. That is, with a setting of yes, all your **<input\>** control type mappings must be legacy \(that is, mapped to TA class input-text\). Conversely, with ignore html input types set to no, only the new one-to-one **<input\>** control type mappings \(that is, **input-color** to input-color, **input-date** to input-date, etc.\) are acceptable. Any attempt to do otherwise results in an automation problem at runtime, informing you that no matching UI object could be found.
 
-## Example
+## {{< expand >}} Example
 
 Suppose that you already captured a given **input-search** control as an input-text TA class in a previous version of TestArchitect. Now you want to continue using this legacy mapping for running automation.
 

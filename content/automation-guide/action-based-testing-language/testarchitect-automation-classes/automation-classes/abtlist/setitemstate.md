@@ -12,11 +12,11 @@ keywords: "methods of abt, SetItemState, SetItemState (AbtList), AbtList, setite
 
 `long SetItemState(int index, TAItemState status)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_SetItemState__section.desc} 
 
 Set the state of a specified item or its check box control, if any, in a list control.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_SetItemState__section.params} 
 
 -   **index**
 
@@ -34,11 +34,11 @@ Set the state of a specified item or its check box control, if any, in a list co
     -   SELECTED
     -   UNSELECTED
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#abt_SetItemState__section.return} 
 
 Return 0 if the call is successful; otherwise, -1..
 
-## Notes
+## {{< expand >}} Notes
 
 -   This method is applicable to both ListBox and ListView controls.
 

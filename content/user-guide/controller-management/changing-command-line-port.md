@@ -18,7 +18,7 @@ TestArchitect supports users in changing the TA command line port number to reso
 -   The default value of COMMANDLINE\_PORT is 53800.
 -   Ensure that the new port number must be in the range of 53800-53899. \([Learn more](/administration-guide/default-port-numbers-and-port-ranges)\)
 
-## On a Windows machine
+## {{< expand >}} On a Windows machine
 
 Use the following command:
 
@@ -32,7 +32,7 @@ Set COMMANDLINE_PORT=<New port number>
 Set COMMANDLINE_PORT=53843
 ```
 
-## On a Red Hat Linux machine
+## {{< expand >}} On a Red Hat Linux machine
 
 Use the following command:
 
@@ -46,7 +46,7 @@ For example:
 export COMMANDLINE_PORT= 53843
 ```
 
-## In Docker Environment
+## {{< expand >}} In Docker Environment
 
 When you deploy the [TestArchitect image](https://hub.docker.com/r/logigear/testarchitect/) on multiple containers at once within a single [Docker](https://docs.docker.com/engine/docker-overview/) host machine, the containers will share the same [TestArchitect command line](/user-guide/test-execution/methods-of-test-execution/executing-tests-from-the-command-line-interface/) port. So it is possible that TestArchitect test results are not returned to the proper container.
 

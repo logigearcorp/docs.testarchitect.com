@@ -12,11 +12,11 @@ keywords: "methods of abt, GetChildCount, GetChildCount (AbtEntity), AbtEntity, 
 
 `int GetChildCount()`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_GetChildCount_entity__section.desc} 
 
 Retrieve the number of child objects belonging to the window object.
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#abt_GetChildCount_entity__section.return} 
 
 The number of child objects of the window.
 

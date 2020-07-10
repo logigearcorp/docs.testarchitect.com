@@ -21,20 +21,20 @@ Sometimes, however, rather than checking for the presence of character-based con
 
 Unfortunately, you can't just insert an expected bitmap directly into a picture handling action line. Instead, you have to pre-store the expected picture, known as the baseline picture, in a special item dedicated to that purpose. That item is a picture check. And a picture handling action, such as does picture exist, can test the validity of a bitmap displayed by the AUT simply by pointing to the appropriate picture check against which it is to be compared.
 
-## Baseline Picture
+## {{< expand >}} Baseline Picture {{< permerlink >}} {#picture_check_node__section_mwp_1d1_1l} 
 
 You may save a captured image and designate it as a baseline. All future captured images are then compared against this baseline image. Image comparison is considered to be successful only if the compared image and the baseline image are identical.
 
 Sometimes, comparison may fail even if the content of the compared images seem to be identical. Various factors may cause these image comparison failures. For example, if, during testing, a given image file is rendered on display hardware with a different resolution than that which was used for the capture of the baseline image, it is quite possible for the comparison to fail. To improve the reliability of picture check comparisons, one picture check can store multiple baseline images. When, during testing, multiple baselines exist for a given picture check, a match between the just-captured image and *any one*of the associated baselines is sufficient for the check to be considered as passed.
 
-## Keeping Picture Checks
+## {{< expand >}} Keeping Picture Checks {{< permerlink >}} {#picture_check_node__section_cxx_bq1_43} 
 
 There are two ways in which TestArchitect stores the picture checks:
 
 -   Regular picture checks are kept within a test module only, and are available only within the test module and its subordinate actions.
 -   Shared picture checks are kept in a special tree node, **Picture Checks**, in each project. Shared picture checks can be used across various test modules within a project.
 
-## Definition of regular picture checks
+## {{< expand >}} Definition of regular picture checks {{< permerlink >}} {#picture_check_node__section_abp_qf5_wx} 
 
 As a tester, you would use regular picture checks for pictures like charts \(histograms, graphs, pie charts, etc.\), that need to accurately display data that is specific for the situation where the [check picture](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/check-picture) built-in action is applied.
 
@@ -46,7 +46,7 @@ As a tester, you would use regular picture checks for pictures like charts \(his
 
 -   Instead of capturing regular picture checks through the [check picture](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/check-picture) action, you can also use the [Picture Capturing](/user-guide/projects-and-project-items/project-items/picture-checks/picture-capturing-tool/) tool. Or you can even import regular picture checks from external image files \([learn more](/user-guide/projects-and-project-items/project-items/picture-checks/importing-external-image-sources/).\)
 
-## Definition of shared picture checks
+## {{< expand >}} Definition of shared picture checks {{< permerlink >}} {#picture_check_node__section_azq_rf5_wx} 
 
 Shared picture checks are useful for standard pictures, like symbols and icons, where as a tester you mainly want to know if the correct picture is displayed by an application, but not what that picture exactly looks like. For example, the TestArchitect explorer tree has a special icon designating a test module, which varies slightly depending on whether the given item is checked in, checked out to you, or checked out to someone else. A test may need to verify only that a given icon being displayed is a test module icon, without regard to its particular state-dependent appearance. The example discussed above, with the picture of the Chevrolet Monte Carlo, would also work best as a shared picture check if, say, future versions of the application may update their car pictures.
 

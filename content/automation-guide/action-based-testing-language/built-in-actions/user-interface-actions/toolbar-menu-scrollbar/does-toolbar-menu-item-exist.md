@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, does toolbar menu item exist, does toolbar menu item exist (action), does toolbar menu item exist, check if specified item on drop-down menu on toolbar button exists, check whether given item on drop-down menu on toolbar button is found, check for existence of specified item on drop-down menu on toolbar button, verify existence of specified item on drop-down menu on toolbar button"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Return a Boolean value to indicate the existence of a specified item on a drop-down menu hosted by a toolbar button \(that is, a drop-down menu that appears when user clicks a button on a toolbar\).
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **window**
 
@@ -45,11 +45,11 @@ Return a Boolean value to indicate the existence of a specified item on a drop-d
         Item not found.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   item argument:
     -   Menu items are identified by their caption properties.
@@ -60,15 +60,15 @@ This action may be used within the following project items:test modules and user
     -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
     -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only), [object wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/object-wait), [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait), [load invisible controls](/automation-guide/action-based-testing-language/built-in-settings/other-settings/load-invisible-controls).
 
-## Applicable Controls
+## {{< expand >}} Applicable Controls
 
 This action is applicable to the following controls:toolbar
 
-## Example
+## {{< expand >}} Example
 
 ![](/images/TA_Automation/Images/bia_does_toolbar_menu_item_exist_aut.png)
 

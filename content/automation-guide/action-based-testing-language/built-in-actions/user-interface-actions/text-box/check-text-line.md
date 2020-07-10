@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, check text line, check text line (action), iOS (action), check text line, Android (action), Safari, macOS (action), macOS, Safari (action), check specified line of multi-line text against value, check whether specific line of text matches value, verify if specified line of multi-line text matches regular expression, verify whether specified line of text matches regular expression"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Check a specified line of multi-line text content against a text string or regular expression. Result is Passed ifthe specified line matches the expected line; otherwise Failed.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **value**
 
@@ -27,11 +27,11 @@ Check a specified line of multi-line text content against a text string or regul
     Text or pattern to test for.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   number argument:
     -   Note that line numbering begins with 1.
@@ -41,11 +41,11 @@ This action may be used within the following project items:test modules and user
     -   The expectedargument can accept regular expressions. Note that argument values that include regular expressions must be entirely enclosed in curly braces \{\}. As an example, `{[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}}` specifies the pattern for an acceptable email address. More simply, `.*` represents the general wildcard for regular expressions, so that `{.*arch.*}` matches starch, marching, testarchitect, etc.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only).
 
-## Example
+## {{< expand >}} Example
 
 ![](/images/TA_Automation/Images/bia_check_text_line_aut.png)
 

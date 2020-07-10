@@ -8,7 +8,7 @@ aliases:
 keywords: "built-in settings, case sensitive, settings, case sensitive (settings), case sensitive, enable case sensitivity, enable case insensitivity, distinguish between lower case and upper case texts, do not distinguish between lower case and upper case texts"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Should differences in case \(uppercase vs. lowercase\) of letters be considered in string comparisons?
 
@@ -27,12 +27,12 @@ yes, no
 
 no
 
-## Notes
+## {{< expand >}} Notes
 
 -   This setting affects all built-in actions that interact with an application's user interface, and is applied to the property values that are used for identification of the windows and controls. Unless otherwise noted, it is also applied in all text comparison functions of the built-in actions, as seen in the example below.
 -   Note that, this setting does not support testing [cloud services](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/). In this case, you are required to perform an exact match.
 
-## Example
+## {{< expand >}} Example
 
 ## Test Lines
 

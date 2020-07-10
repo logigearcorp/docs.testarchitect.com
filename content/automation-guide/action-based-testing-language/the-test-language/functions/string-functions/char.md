@@ -10,29 +10,29 @@ keywords: "string functions, char, char(code)"
 
 Return a Unicode character specified by a code number.
 
-## Syntax
+## {{< expand >}} Syntax
 
 `char(code)`
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **code**
 
     Decimal number representing a Unicode character.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Unicode character, as specified by the given decimal code.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This expression function relies on UTF-8 encoding.
 -   The website [Unicode Character Table](http://unicode-table.com/en/) offers a helpful reference for determining the decimal code needed to produce any given Unicode character.
 -   Note that the decimal code of 0 \(that is, the null character\) is unsupported.
 -   The decimal code of 10 \(line feed, LF\), 13 \(Carriage Return, CR\) or a combination of them used in TestArchitect represents a new line regardless of AUT's platform or system-under-test.
 
-## Example
+## {{< expand >}} Example
 
 **Test Lines**
 

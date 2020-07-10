@@ -28,7 +28,7 @@ The AUT window below consists of labels and their associated images. It illustra
 
 Note that *only* physical position is considered, not logical position. So, for instance, the fact that some controls of the image class may exist together in a \(unlocked\) treeview, while others live outside of the treeview, does not factor into the global pos assignment method.
 
-## Risks and benefits
+## {{< expand >}} Risks and benefits
 
 The benefit of using global pos is that each control is guaranteed to have a unique global pos value within its window at any given point in time. The risk, on the other hand, is that for dynamically changing windows, global pos values of controls may differ over time. For example, global pos values are only assigned to visible controls; hence, the expansion of a tree node during testing, exposing additional tree nodes, affects the global pos values of tree nodes below it. Dynamic web pages are also often a case where relying on global pos can pose risks. This is why, as an alternative to global pos, it is recommended that the [anchor pos](/user-guide/interface-definitions/control-properties/secondary-properties/anchor-pos-property/) property be considered for such dynamic environments.
 

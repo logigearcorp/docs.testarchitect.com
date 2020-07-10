@@ -12,22 +12,22 @@ keywords: "ABT Library Functions, ShouldAssign, ShouldAssign (ABT library functi
 
 `integer ShouldAssign (string value )`
 
-## Description
+## {{< expand >}} Description
 
 Test if an argument value specifies a variable that needs to be assigned \(whether the assignment prefix "\>\>" was used\).
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **value**
 
     Value that is either an explicit value or the name of a variable to which a value should be assigned.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 The function returns 1 if an assignment is needed or 0 if not.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Typically used for entry/capture of values that can be generated automatically by the system under test. If a tester specifies the "\>\>" prefix, a generated value should be captured and kept in the variable, otherwise the value should be assigned, possibly overwriting the generated value.
 

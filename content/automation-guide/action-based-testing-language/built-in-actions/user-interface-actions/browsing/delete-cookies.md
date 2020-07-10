@@ -8,29 +8,29 @@ aliases:
 keywords: "built-in actions, delete cookies, delete cookies (action), iOS (action), delete cookies, Safari, iOS (action), iOS, Safari (action), Android (action), Android, Google Chrome (action), Google Chrome, Android (action), Safari, macOS (action), macOS, Safari (action), delete cookies in browser, delete file cookes in browser, clear cookies in browser, clear browser cookies"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Delete all cookies in the browser.
 
-## Arguments
+## {{< expand >}} Arguments
 
 There are no arguments for this action.
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This action deletes all cookies of the browser currently specified by the [use browser](/automation-guide/action-based-testing-language/built-in-settings/other-settings/use-browser) built-in setting.
 -   With Android and iOS mobile testing, delete cookies only removes the cookies of the current website.
 -   For the Firefox and Chrome desktop browsers, it is necessary to close all instances of the browser *prior* to running delete cookies; otherwise an automation error occurs. \(Note that this rule does not apply to the Internet Explorer browser.\)
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[use browser](/automation-guide/action-based-testing-language/built-in-settings/other-settings/use-browser).
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

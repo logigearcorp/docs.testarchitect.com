@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, assign result field, assign result field (action), assign result field new value, assign value to result field, value assignment to result field"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Assign a new value to a modifiable result field.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **field**
 
@@ -23,20 +23,20 @@ Assign a new value to a modifiable result field.
     Value to be assigned.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This action applies only to result fields, and only ones that are runtime-modifiable. These include the result field **Build Number**, and any user-defined fields that are defined as applying to the result project item type. \(See [Creating a user-defined field](/administration-guide/user-defined-fields/creating-a-user-defined-field) for further information.\)
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Example - Case 1: Assign a new value to a user-defined field
+## {{< expand >}} Example - Case 1: Assign a new value to a user-defined field
 
 Suppose there is a user-defined result field named **log file** with a value type of hyperlink:
 

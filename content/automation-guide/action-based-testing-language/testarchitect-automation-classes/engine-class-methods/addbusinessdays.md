@@ -12,11 +12,11 @@ keywords: "ABT Library Functions, AddBusinessDays, AddBusinessDays (ABT library 
 
 `integer AddBusinessDays (integer datevalue, integer days)`
 
-## Description
+## {{< expand >}} Description
 
 Add business days to a date.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **datevalue**
 
@@ -27,11 +27,11 @@ Add business days to a date.
     The number of business days to add to the contents of datevalue.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 The resultant date.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Business days are defined as Monday thru Friday. Weekend days are excluded.
 -   To subtract business days, use a negative value for the days parameter.

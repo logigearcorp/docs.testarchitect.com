@@ -8,7 +8,7 @@ aliases:
 keywords: "constants of abt, TAScrollBarType, TAScrollBarType (constants), TAscrollbartype, scroll bar type, scroll bar orientation, vertical or horizontal scroll bar"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Enumeration that indicates the scroll bar type for a list box, list view, tree view, or table.
 

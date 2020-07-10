@@ -12,18 +12,18 @@ keywords: "methods of abt, GetItemText, GetItemText (AbtToolBar), AbtToolBar, ge
 
 `string GetItemText(int index)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_GetItemText_toolbar__section.desc} 
 
 Retrieve the text content ofthe item specified by its index within thetoolbar.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_GetItemText_toolbar__section.params} 
 
 -   **index**
 
     Integer value specifying the index of the item within thetoolbar. Note that index numbering begins with 1.
 
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#abt_GetItemText_toolbar__section.return} 
 
 String value indicating the text content oftoolbar item.
 

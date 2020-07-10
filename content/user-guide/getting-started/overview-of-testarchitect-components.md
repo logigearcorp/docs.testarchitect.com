@@ -17,7 +17,7 @@ The basic TestArchitect infrastructure includes Repository Server, License Serve
 |Client machine|A workstation having TestArchitect Client installed, from which you can author tests, direct the execution of tests, generate reports, etc.|
 |Execution machine|Real or virtual machine which has TestArchitect Controller and necessary automation libraries installed, and which can be used to execute tests, either locally or on attached mobile devices.<br><br>Note that any client machine \(with TestArchitect Client installed\) also has TestArchitect Controller installed, and so can be used to execute tests. Tests can also be executed on remote machines.|<br>
 
-## Sample model
+## {{< expand >}} Sample model
 
 Since one machine can take on many roles \(as long as it has the necessary components installed\), you don’t need a dedicated machine for each component. The following picture illustrates a typical network topology for a small test team.
 

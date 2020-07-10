@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
 
-## TestArchitect Client
+## {{< expand >}} TestArchitect Client
 
 -   **Support for Windows 10**: TestArchitect has been verified as fully functional under Windows 10.
 
@@ -23,7 +23,7 @@ The following new features and improvements are introduced in TestArchitect vers
 
 -   [**Support for Visual Studio 2015 Update 1**](/user-guide/integration-with-third-party-tools/tfs-integration/supported-versions): TestArchitect now supports integration with Visual Studio 2015 Update 1, and both the on-premise and cloud-based forms of Team Foundation Server 2015 Update 1.
 
-## TestArchitect Automation
+## {{< expand >}} TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.1_U4_Wins__section_p2c_51b_cs} 
 
 -   **Support for Windows 10**: You can now perform the following types of automated testing with a Windows 10-based test controller:
     -   **Automate classic desktop applications**.

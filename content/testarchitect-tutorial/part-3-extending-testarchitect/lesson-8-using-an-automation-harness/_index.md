@@ -20,7 +20,7 @@ There are two essential tasks involved in creating a user-scripted action:
 
 The intended audiences include testers and automation engineers.
 
-## Expected duration
+## {{< expand >}} Expected duration
 
 **Prerequisites:**
 

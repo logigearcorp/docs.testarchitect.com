@@ -10,7 +10,7 @@ keywords: "expressions (cell expression)"
 
 Expressions, like variables, may appear in action line arguments in TestArchitect test modules and actions. An expression is any combination of literal values, variables, operators, and functions that follows a set of rules, and which needs to be evaluated before it can be used.Operators are symbols which specify operations to be performed, such as addition \(a numeric operation\) or concatenation \(a string operation\). \(Functions are discussed in [Functions](/automation-guide/action-based-testing-language/the-test-language/functions/).\) Evaluating an expression means performing all the specified operations on the operands \(the values, variables, and functions\) until a value is produced. An action is invoked only after all the expressions in its arguments have been evaluated.
 
-## The expression indicator
+## {{< expand >}} The expression indicator
 
 As a general rule, TestArchitect treats the contents of an argument literally – that is, as either a numeric or string constant. To get an argument to be treated as an expression, you must precede its contents with the “\#” symbol, which we call the expression indicator.
 
@@ -36,7 +36,7 @@ These actions have no need to evaluate the variables, as their only purpose is t
 check window property     car tally    title       \# Cars
 ```
 
-## Expression parsing
+## {{< expand >}} Expression parsing
 
 Within an expression, the TestArchitect interpreter tries to resolve every non-numeric symbol to a variable, operator or function. Hence, to specify a literal string within an expression, enclose it in double quotation marks.
 
@@ -67,7 +67,7 @@ Upon execution of the above, the results reported are as follows:
 |line 19|a + b|Double quotation marks within an expression allow its contents to be treated as a string literal.|
 |line 20|123|In an expression, single quotation marks surrounding a string that would otherwise be parsed, cause it to be treated as a single symbol \(that is, a variable name\).|
 
-## Expression operators
+## {{< expand >}} Expression operators
 
 A cell expression consists of two classes of items: operands, which are things that are operated on \(such as numbers, strings and variables\), and operators, which specify what operations are to be performed. TestArchitect offers seven operators: six that operate on numbers and one that operates on strings.
 
@@ -85,7 +85,7 @@ The following expression operators are available in TestArchitect.
 |-|subtraction|numeric|2|
 |&|concatenation|string|3|
 
-## Order of operations
+## {{< expand >}} Order of operations
 
 Note the **Precedence** column in the above table. All things being equal, expressions with multiple operators are processed from left to right. However, as you \(hopefully\) learned in grade school, not all operators are created equal: some have higher precedence, or priority, than others. For instance, the expression `4 + 3 * 2`, if processed from left to right, would produce a result of 14. But we all know that standard mathematical rules dictate that the multiplication operation be processed first, so that the expression evaluates to 10.
 
@@ -95,7 +95,7 @@ The priority assigned to operators tells us which operations are performed befor
 
 {{<note>}} For the full list of operator precedence, see [here](/automation-guide/action-based-testing-language/the-test-language/operator-precedence).
 
-## Automatic conversion of data types
+## {{< expand >}} Automatic conversion of data types {{< permerlink >}} {#the_test_language_expressions__section.data_type_conversion} 
 
 In general, numeric operations and functions are performed on numbers, variables holding numbers, and functions that return numbers. Similarly, string operations and functions operate on string literals, variables holding strings, and functions that return strings.
 
@@ -118,7 +118,7 @@ results in an output of: We rented 65 cars this month, with revenue of $7234.38.
 
 By contrast, converting strings into numeric values is not always a sure thing. For automatic conversion to take place, the string must “look like” a number to TestArchitect. Looking like a number means that it must consist of only the characters 0-9, plus zero or one decimal points, plus an optional minus \(-\) sign preceding it. If an automatic string-to-number conversion is attempted on a value that does not meet TestArchitect's criteria, an error is reported in the results.
 
-## Editing expressions
+## {{< expand >}} Editing expressions {{< permerlink >}} {#the_test_language_expressions__section.autocomplete_variables} 
 
 During an editing session, entering the *\#* symbol in an empty argument cell triggers an autocomplete pop-up window containing a list of variables thought to be within scope at that position in the action lines. Use the Up and Down arrow keys to select one, should you need it inserted at that point. You can bring back the pop-up list at any further point in the expression by pressing Ctrl + Space.
 

@@ -8,22 +8,22 @@ aliases:
 keywords: "built-in actions, until, until (action), until, until loop, until statement"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Evaluate a conditional expression to determine whether execution is to continue with another iteration of the [repeat](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/repeat)/until loop, or with the action lines below this point.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **condition to stop**
 
     Expression which, upon evaluating to True, terminates execution of the block of action lines within the repeat/until loop.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   If condition to stop evaluates to True, execution returns to the first action line below the associated repeat action line. \(That is, another iteration of the repeat/until loop is begun.\) If False, execution continues with the lines below the until.
 -   This action ignores letter case for values of True and False, and is unaffected by the current state of the [case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive) built-in setting.
@@ -50,11 +50,11 @@ This action may be used within the following project items:test modules and user
 -   Be careful when using repeat/until loops, and in the expressions you use for condition to stop. An infinite loop may cause the TA Playback tool to hang.
 -   To exit the repeat/until loop from within the block of action lines, use the built-in action [exit loop](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/exit-loop).
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells)none.
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

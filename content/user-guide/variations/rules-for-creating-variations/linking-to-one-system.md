@@ -10,7 +10,7 @@ keywords: "variations, creation rules, linking to a system"
 
 Each variation of a given project item definition must be linked to the same system, or to no system at all.
 
-## Definition
+## {{< expand >}} Definition
 
 The term variation set specifies the set of variations, including the default variation, that exists for a given test module, action, interface entity, or data set.
 

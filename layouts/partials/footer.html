@@ -188,7 +188,7 @@ if (/Edge\/\d./i.test(navigator.userAgent)){
   document.getElementById('language-container').style.visibility ='hidden';
   
 }
-
+  reloadHeaderLink();
   imageviewer("img");
   createCoppyCode();
   function copyToCB (copyIcon, tempCopyInput, d) {
@@ -199,6 +199,50 @@ if (/Edge\/\d./i.test(navigator.userAgent)){
   copyIcon.className='copied_clipboard'
   setTimeout(function(){ copyIcon.textContent   = 'copy'; copyIcon.className='copy_clipboard'}, 3000);
 };
+
+function reloadHeaderLink() {
+  var allElements = $('main').children();
+  var wrapper;
+  $.each(allElements, function (index, element) {
+    
+    if(element.nodeName !== "NAV" && element.nodeName !== "FOOTER") {
+     
+      var parent = element.parentNode;
+      if(element.nodeName === "H2") {
+        wrapper = document.createElement('section');
+        var idy = element.id;
+        var classn = element.className ;
+        if(classn) idy +=classn;
+        wrapper.id = idy;
+        element.removeAttribute('id');
+      }
+      if(wrapper){
+        
+        parent.replaceChild(wrapper, element);
+        wrapper.appendChild(element);
+      }
+    }
+  
+   
+  });
+}
+
+$('span.wh_expand_btn').click(function (e) {
+
+  var siblings = $(this).parent().siblings(':not(.wh_not_expandable)');
+  $(this).toggleClass("expanded");
+  siblings.slideToggle("1000");
+})
+$('span.permalink').click(function (e) {
+  var id = $(this).closest('[id]').attr('id');
+            var hash = '#' + id;
+            e.preventDefault();
+            history.replaceState({}, '', hash);
+
+            $('html, body').animate({scrollTop: $("[id='" + id + "']").offset().top}, 1000);
+
+
+})
 
 function createCoppyCode () {
   const d = document;

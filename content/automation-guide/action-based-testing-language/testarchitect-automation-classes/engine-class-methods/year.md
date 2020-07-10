@@ -12,22 +12,22 @@ keywords: "ABT Library Functions, Year, Year (ABT library function)"
 
 `integer Year (integer datevalue )`
 
-## Description
+## {{< expand >}} Description
 
 Get the year number of a date.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **datevalue**
 
     A number representing a date.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 The return value is the year number, for example 2003.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This function is equivalent to the "year" function as it can be used by the tester in a "\#" expression.
 

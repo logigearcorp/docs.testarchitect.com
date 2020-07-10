@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
 
-## TestArchitect Automation
+## {{< expand >}} TestArchitect Automation
 
 -   [**Database support**](/automation-guide/application-testing/testing-with-databases/): With this update, TestArchitect allows you to interface with a variety of standardized database systems. A set of new built-in actions and harness methods allows your tests to [connect to, and run queries](/automation-guide/application-testing/testing-with-databases/) against, Microsoft SQL Server, MySQL, and MS Excel data sources.
 

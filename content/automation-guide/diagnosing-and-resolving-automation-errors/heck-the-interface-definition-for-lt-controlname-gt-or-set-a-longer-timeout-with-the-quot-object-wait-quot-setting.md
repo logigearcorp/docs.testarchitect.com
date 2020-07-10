@@ -10,13 +10,13 @@ keywords: "automation errors, 0x80010009L"
 
 Error code: 0x80010009L
 
-## Common causes
+## {{< expand >}} Common causes
 
 -   AUT change, that is, previously-captured TA properties are changed, or the control no longer exists.
 -   [Timing issue](/automation-guide/action-based-testing-language/the-test-language/timing/), that is, the control is not available within a specified timeout, defined in the [object wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/object-wait) built-in setting.
 -   Scripting issue, that is, improper definition/invalid syntax of [dynamic identifier](/user-guide/interface-definitions/dynamic-identifiers).
 
-## Possible solutions
+## {{< expand >}} Possible solutions
 
 You can apply the following ways to troubleshoot why the control could not be found:
 

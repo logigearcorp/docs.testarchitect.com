@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80010003L"
 
 Error code: 0x80010003L
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because the specified control is not defined yet.
 
-## Solution
+## {{< expand >}} Solution
 
 Capture the desired control by using the [Interface Viewer](/user-guide/interface-definitions/the-interface-viewer/) or [point-to-identify](/user-guide/interface-definitions/interface-capturing-commands/point-to-identify-tool/) tool, and then re-run the test.
 

@@ -12,15 +12,15 @@ keywords: "methods of abt, BringToTop, BringToTop (AbtEntity), AbtEntity, bringt
 
 `long BringToTop()`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_BringToTop__section.desc} 
 
 Activate the window and give it focus.
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#abt_BringToTop__section.return} 
 
 Return 0 if successful; otherwise, -1.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Brings a window to the front if it belongs to the active application, or flashes the window title bar if it does not. The window must be visible for this latter event to have any visible effect.
 

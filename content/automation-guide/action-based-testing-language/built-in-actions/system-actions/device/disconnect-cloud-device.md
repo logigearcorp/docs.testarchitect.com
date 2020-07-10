@@ -8,18 +8,18 @@ aliases:
 keywords: "built-in actions, disconnect cloud device, disconnect cloud device (action), iOS (action), disconnect cloud device, Android (action), disconnect a mobile cloud device, mobile cloud device disconnection, detach a mobile cloud device"
 ---
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#bia_disconnect_cloud_device__section_nkt_zth_gy} 
 
 Logically disconnect the target cloud device.
 
-## Arguments
+## {{< expand >}} Arguments {{< permerlink >}} {#bia_disconnect_cloud_device__section_okt_zth_gy} 
 
 -   **session id**
 
     Session ID of the currently-connected cloud device
 
 
-## Notes
+## {{< expand >}} Notes {{< permerlink >}} {#bia_disconnect_cloud_device__section_qkt_zth_gy} 
 
 -   This built-in action applies only to WebDriver based cloud services. \([Learn more](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/).\)
 -   The primary value of this action lies in allowing your test to terminate the connection with the current cloud device, and then switch to another cloud device via calling the next [assign cloud device](/automation-guide/action-based-testing-language/built-in-actions/system-actions/device/assign-cloud-device) action.
@@ -29,7 +29,7 @@ Logically disconnect the target cloud device.
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Example
+## {{< expand >}} Example {{< permerlink >}} {#bia_disconnect_cloud_device__section_wkt_zth_gy} 
 
 Suppose that you'd like to automate mobile web application testing on Chrome in an Android cloud device in [Testdroid](http://docs.testdroid.com/appium/testdroid-desired-caps/), a WebDriver based cloud service.
 

@@ -15,11 +15,11 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
 
-## TestArchitect Client
+## {{< expand >}} TestArchitect Client
 
 -   **Supporting for macOS 10.11**: TestArchitect has been verified as fully functional under macOS 10.11 \(El Capitan\).
 
-## TestArchitect Automation
+## {{< expand >}} TestArchitect Automation {{< permerlink >}} {#concept_a3y_tkw_vp__section_p2c_51b_cs} 
 
 -   **Support for automation on macOS 10.11**: You can now perform the following types of testing with a test controller running under macOS 10.11:
     -   **Automate web applications on [Safari](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/#li_pbz_fkq_js) in physical iOS devices.**

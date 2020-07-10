@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, get xml query result, get xml query result (action), get XML query"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Query an XML string by XPath.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **xml**
 
@@ -29,7 +29,7 @@ Query an XML string by XPath.
     \(Optional\) Variable to receive the returned query result.
 
 
-## Notes
+## {{< expand >}} Notes
 
 -   It is possible to insert an entire XML file's content into the xml argument; however, all whitespace and line breaks between XML nodes must be removed manually to avoid automation failure \(see example \#4 below\).
 -   Depending upon the XPath query, some of the following notes for the variable argument may apply:
@@ -40,15 +40,15 @@ Query an XML string by XPath.
 -   If your XML target string has a [namespace](http://www.w3schools.com/xml/xml_namespaces.asp) \(defined by the xmlns attribute in the start tag of an element\), yet no namespace is configured in the XPath expression, your query strings will not return any result. To resolve this namespace problem, you may use the [local-name\(\)](http://www.w3.org/TR/xpath-functions-30/#func-local-name) function. This function returns the query results as if no namespace is declared in the target string \(see example \#7 below\).
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Applicable Controls
+## {{< expand >}} Applicable Controls
 
 This action is applicable to the following controls:none.
 
-## Example - Case 1: Using an XPath predicate in an XPath query
+## {{< expand >}} Example - Case 1: Using an XPath predicate in an XPath query
 
 The following example retrieves the text from the title element of the first book element that is a child of a bookstore element.
 
@@ -78,7 +78,7 @@ The following example retrieves the text from the title element of the first boo
 
 ![](/images/TA_Automation/Images/bia_get_xml_querry_result_1_res.png)
 
-## Example - Case 2: Using an XPath function in an XPath query
+## {{< expand >}} Example - Case 2: Using an XPath function in an XPath query
 
 The following example returns the sum of all price nodes.
 
@@ -108,7 +108,7 @@ The following example returns the sum of all price nodes.
 
 ![](/images/TA_Automation/Images/bia_get_xml_querry_result_4_res.png)
 
-## Example - Case 3: Using a data set
+## {{< expand >}} Example - Case 3: Using a data set
 
 The following example repetitively retrieves the text from the price element based on the title variable defined within a data set.
 
@@ -156,7 +156,7 @@ The following example passes an entire well-formed XML string into the xml argum
 
 ![](/images/TA_Automation/Images/bia_get_xml_querry_result_5_res.png)
 
-## Example - Case 5: Using get text line to extract content
+## {{< expand >}} Example - Case 5: Using get text line to extract content
 
 The following example extracts a single XML line, <title lang="en"\>Harry Potter</title\>, from a variable holding multiple XML lines by using the get text line action.
 
@@ -186,7 +186,7 @@ The following example extracts a single XML line, <title lang="en"\>Harry Potter
 
 ![](/images/TA_Automation/Images/bia_get_xml_querry_result_3_res.png)
 
-## Example - Case 6: Adding a single root element
+## {{< expand >}} Example - Case 6: Adding a single root element
 
 The following example encloses the returned XML document in a single root element to ensure a well-formed XML document. The modified XML document is then used to calculate the sum of all price nodes.
 

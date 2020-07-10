@@ -12,11 +12,11 @@ keywords: "methods of abt, DoesScrollBarExist, DoesScrollBarExist (AbtTree), Abt
 
 `Boolean DoesScrollBarExist(TAScrollBarType scrollbarType)`
 
-## Description
+## {{< expand >}} Description
 
 Determine whether a scroll bar of the specified type exists.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **scrollbarType**
 
@@ -27,7 +27,7 @@ Determine whether a scroll bar of the specified type exists.
     -   HORIZONTAL
     -   VERTICAL
 
-## Return Value
+## {{< expand >}} Return Value
 
 Return TRUE ifthe scroll bar exists; otherwise, FALSE.
 

@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, does file exist, does file exist (action), Android (action), does file exist, check whether file exists or not, check existence and nonexistence of file"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Return a Boolean value to indicate whether a specified file exists.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **file**
 
@@ -33,11 +33,11 @@ Return a Boolean value to indicate whether a specified file exists.
         File not found.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Observe the following format for the file path:
     -   **Windows platform**: Use backward slashes as separators for the path.
@@ -48,11 +48,11 @@ This action may be used within the following project items:test modules and user
     -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

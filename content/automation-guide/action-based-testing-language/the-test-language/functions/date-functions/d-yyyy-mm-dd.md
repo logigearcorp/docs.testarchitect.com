@@ -10,11 +10,11 @@ keywords: "date functions, d(yyyy,mm,dd), d(yyyy,mm,dd) (function)"
 
 Convert a Gregorian date in numeric form to its equivalent Julian day number.
 
-## Syntax
+## {{< expand >}} Syntax
 
 `integer d(integer year,integer month, integer day)`
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **year**
 
@@ -29,19 +29,19 @@ Convert a Gregorian date in numeric form to its equivalent Julian day number.
     Two-digit day value \(from 01 to 31\).
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Returns the equivalent Julian day number.
 
-## Notes
+## {{< expand >}} Notes
 
 -   The difference between the [d](/automation-guide/action-based-testing-language/the-test-language/functions/date-functions/d-yyyy-mm-dd)\(\) and [fj](/automation-guide/action-based-testing-language/the-test-language/functions/date-functions/fj-date)\(\) functions is that d\(\) requires a date to be supplied as three separate parameters, in a very specific format: yyyy,mm,dd, \(such as `d( 2015, 12, 25)`\). fj\(\), by contrast, accepts a single date parameter whose format is flexible.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following built-in setting\(s\) are supported: [date order](/automation-guide/action-based-testing-language/built-in-settings/date-time-settings/date-order).
 
-## Example
+## {{< expand >}} Example
 
 ![](/images/TA_Automation/Images/automationguide_datefunction2.png)
 

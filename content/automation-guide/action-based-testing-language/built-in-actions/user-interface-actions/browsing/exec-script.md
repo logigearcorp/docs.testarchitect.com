@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, exec script, exec script (action), iOS (action), exec script, Safari, iOS (action), iOS, Safari (action), Android (action), Android, Google Chrome (action), Google Chrome, Android (action), Safari, macOS (action), macOS, Safari (action), exect script, execute Javascript, execute Javascript code, run Javascript, run Javascript code"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Execute JavaScript code of a specified web page, or inline JavaScript.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **window**
 
@@ -41,11 +41,11 @@ Use of this action to obtain value and exception message returned from the execu
     -   Microsoft Edge
     -   Google Chrome
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   To execute multiple commands in sequence, separate them with semi-colon \( ; \) delimiters in the script argument.
 -   script argument: It may contain native JavaScript code, calls to JavaScript functions within the specified web page, or a mix of the two.
@@ -60,11 +60,11 @@ This action may be used within the following project items:test modules and user
 -   To specify a string, please enclose it in single quotes \(the character '\).
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only), [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait).
 
-## Example - Case 1: Running a snippet of JavaScript
+## {{< expand >}} Example - Case 1: Running a snippet of JavaScript
 
 **Action Lines**
 
@@ -78,7 +78,7 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ![](/images/TA_Automation/Images/bia_exec_script_aut.png)
 
-## Example - Case 2: Retrieving a return value
+## {{< expand >}} Example - Case 2: Retrieving a return value {{< permerlink >}} {#bia_exec_script__section_wqh_swr_sbb} 
 
 Suppose that you would like to get a value returned from the following snippet of JavaScript code.
 

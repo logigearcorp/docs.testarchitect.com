@@ -48,7 +48,7 @@ TestArchitect's process for selecting the correct variation of each project item
                 ![](/images/TA_Help/Images/Execution_rules_variation_2.png)
 
 
-## Example
+## {{< expand >}} Example
 
 Suppose the following **Version Compilation Order List** exists for the system **Car Rental:**
 

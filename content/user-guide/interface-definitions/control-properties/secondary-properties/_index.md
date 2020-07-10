@@ -10,7 +10,7 @@ keywords: "secondary property, property, secondary"
 
 While most TA properties get their values directly from single native properties of their associated controls, there are some TA properties whose values are calculated, often from two or more native properties, or from other controls. We'll examine a few examples.
 
-## Derived properties
+## {{< expand >}} Derived properties
 
 Not all [TA properties](/user-guide/support/glossary-of-terms/ta-property) obtain their values directly from a single [native property](/user-guide/support/glossary-of-terms/native-property). In some cases, there is a many-to-one mapping from native to TA properties. For example, the state TA property of a WPF radio button takes its value from up to five different native properties: IsEnabled, IsVisible, Focusable, IsFocused, and IsChecked. \(Note also that the mapping doesn't merely copy the True/False values of each property. Instead, it derives the individual values from the combination of both the nature and value of each native property. Hence, for example, with native property IsEnabled = True, the term enabled is included in the value of state.\)
 

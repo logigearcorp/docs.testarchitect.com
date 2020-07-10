@@ -8,12 +8,12 @@ aliases:
 keywords: "built-in actions, assign entity setting, assign entity setting (action)"
 ---
 
-## Description
+## {{< expand >}} Description
 
 -   Assign settings for a specified interface entity
 -   This action should be used when user changes auto-clicked button of specific built-in interface
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **interface**
 
@@ -32,15 +32,15 @@ keywords: "built-in actions, assign entity setting, assign entity setting (actio
     Value to assign
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This action has been deprecated in TestArchitect 7.2.
 
-## Example
+## {{< expand >}} Example
 
 The script below should be added to your test case if you want to click Cancel button of JavaScript confirm dialog box, default for TestArchitect automation to click is OK button
 

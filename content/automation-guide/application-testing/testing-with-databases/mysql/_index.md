@@ -10,11 +10,11 @@ keywords: "MySQL testing, setting up, example"
 
 Information specific to testing with MySQL Server
 
-## Introduction
+## {{< expand >}} Introduction
 
 MySQL is a freely available open source Relational Database Management System \(RDBMS\) that uses Structured Query Language \(SQL\).
 
-## Configuration
+## {{< expand >}} Configuration
 
 -   Supported Database Management Systems: MySQL 5.6.20.
 -   Connecting to and querying a database from a test requires that the correct ODBC driver be used. The correct driver must be specific to both the database application and the architecture \(32-bit or 64-bit\) of the TestArchitect Controller application that uses it. The following utilities may be used to determine whether the correct driver is already installed:
@@ -31,7 +31,7 @@ MySQL is a freely available open source Relational Database Management System \(
         {{<note>}} On macOS, additional configurations are required \([learn more](/automation-guide/application-testing/testing-with-databases/mysql/configuring-odbc-driver-on-macos)\).
 
 
-## Actions
+## {{< expand >}} Actions
 
 TestArchitect provides the following built-in actions for working with SQL-compliant databases. They are listed in the typical order of their workflow:
 
@@ -41,7 +41,7 @@ TestArchitect provides the following built-in actions for working with SQL-compl
 4.  [execute sql](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/execute-sql): Execute an SQL command against the currently in-use database; optionally, store returned data into one or more data sets.
 5.  [disconnect database](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/disconnect-database): Close the database connection.
 
-## Example
+## {{< expand >}} Example
 
 ```
 create connection string  

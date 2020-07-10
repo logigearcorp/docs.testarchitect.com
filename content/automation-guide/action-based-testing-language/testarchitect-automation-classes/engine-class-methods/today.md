@@ -12,19 +12,19 @@ keywords: "ABT Library Functions, Today, Today (ABT library function)"
 
 `integer Today()`
 
-## Description
+## {{< expand >}} Description
 
 Get today's date.
 
-## Parameters
+## {{< expand >}} Parameters
 
 There are no parameters for this function.
 
-## Return Value
+## {{< expand >}} Return Value
 
 The return value is a number representing the date \(Julian standard\).
 
-## Notes
+## {{< expand >}} Notes
 
 -   This function is equivalent to the [today](/automation-guide/action-based-testing-language/the-test-language/functions/date-functions/today) function as it can be used by the tester in a "\#" expression.
 

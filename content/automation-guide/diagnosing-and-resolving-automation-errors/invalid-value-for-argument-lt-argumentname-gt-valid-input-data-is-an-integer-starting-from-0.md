@@ -10,11 +10,11 @@ keywords: "automation errors, 0x8001600FL"
 
 Error code: 0x8001600FL
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because the specified value is a non-integer or smaller than 0.
 
-## Solution
+## {{< expand >}} Solution
 
 Ensure that the value must be an integer starting from 0.
 

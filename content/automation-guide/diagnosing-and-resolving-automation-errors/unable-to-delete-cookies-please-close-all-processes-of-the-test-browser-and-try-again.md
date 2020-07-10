@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80010504L"
 
 Error code: 0x80010504L
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because the browsers whose cookies are to be deleted is still open.
 
-## Solution
+## {{< expand >}} Solution
 
 Close all instances of the browser, and then re-run the test.
 

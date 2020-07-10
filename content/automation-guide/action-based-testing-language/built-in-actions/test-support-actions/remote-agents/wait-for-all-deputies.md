@@ -8,27 +8,27 @@ aliases:
 keywords: "built-in actions, wait for all deputies, wait for all deputies (action), wait for all deputies, wait for all deputies to complete, wait for completion of all deputies, wait until all deputies finish, wait until all deputies compete"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Pause execution until all deputies have completed their tasks.
 
-## Arguments
+## {{< expand >}} Arguments
 
 There are no arguments for this action.
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This action is intended for execution only on lead controllers, and applies only to deputies running in parallel mode \(that is, invoked with the parallel argument of use deputy set to yes\).
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:none.
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

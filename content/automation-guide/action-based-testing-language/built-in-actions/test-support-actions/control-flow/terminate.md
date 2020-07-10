@@ -8,27 +8,27 @@ aliases:
 keywords: "built-in actions, terminate, terminate (action), terminate current test, stop current test, stop running current test, stop execution of current test"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Stop executing the current test.
 
-## Arguments
+## {{< expand >}} Arguments
 
 There are no arguments for this action.
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 This action can be used to handle an error situation.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:none.
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

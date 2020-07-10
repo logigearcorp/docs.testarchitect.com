@@ -8,7 +8,7 @@ aliases:
 keywords: "constants of abt, TAPoint, TAPoint (constants), TApoint, location of point, coordinates of point, find coordinates of point"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Object specifying the coordinates of a point.
 

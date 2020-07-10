@@ -12,11 +12,11 @@ keywords: "ABT Library Functions, CheckNamedArgument, CheckNamedArgument (ABT li
 
 `integer CheckNamedArgument(string argname, string recorded)`
 
-## Description
+## {{< expand >}} Description
 
 Execute a check comparing a recorded value with a named argument in the action line.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **argname**
 
@@ -27,11 +27,11 @@ Execute a check comparing a recorded value with a named argument in the action l
     Recorded value, the value that is to be compared with the expected value.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 The function returns 1 if the check passed or 0 if it failed.
 
-## Notes
+## {{< expand >}} Notes
 
 -   The expected string \(in the argument indicated by the argname parameter\) and recorded string are compared. If they are equal the check is administered as passed, otherwise it is treated as failed.
 

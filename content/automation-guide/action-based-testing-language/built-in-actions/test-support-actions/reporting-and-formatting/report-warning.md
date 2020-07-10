@@ -8,33 +8,33 @@ aliases:
 keywords: "built-in actions, report warning, report warning (action), define warning text, write warning text"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Flag a warning and specify the warning description text.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **text**
 
     Descriptive text to accompany the warning notice.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This action increments the warning count for the test run.
 -   The contents of the text argument are displayed in the [**Log Information**](/user-guide/working-with-test-results/overview/log-information-tab) tab of the test results.
 -   If the [notice level](/automation-guide/action-based-testing-language/built-in-settings/other-settings/notice-level) built-in setting is set to allow runtime warnings to pause testing, the standard warning message box is triggered by this action, and also displays the contents of the text argument.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

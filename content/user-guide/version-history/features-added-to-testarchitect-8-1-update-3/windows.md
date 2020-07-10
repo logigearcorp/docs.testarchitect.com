@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
 
-## TestArchitect Automation
+## {{< expand >}} TestArchitect Automation
 
 -   **Web automation on Google Chrome** now utilizes Google's **[Remote Debugging](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/automated-web-testing-with-non-webdriver/preparing-web-browsers/#li_d2m_vks_tr) technical approach**. Google is phasing out support for NPAPI , the technology previously employed by TestArchitect to automate web applications on Chrome.
 -   **All HTML input types are fully supported** on web browsers including Internet Explorer, Mozilla Firefox, and Google Chrome.

@@ -10,7 +10,7 @@ keywords: "methods of abt, AbtDatabase, AbtDatabase (methods)"
 
 Object class representing a SQL-compliant database.
 
-## Notes
+## {{< expand >}} Notes
 
 -   At present, AbtDatabase methods are available only for the C\# harness.
 -   Supported databases:

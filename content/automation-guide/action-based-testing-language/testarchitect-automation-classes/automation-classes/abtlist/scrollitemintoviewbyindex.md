@@ -12,22 +12,22 @@ keywords: "methods of abt, ScrollItemIntoViewByIndex, ScrollItemIntoViewByIndex 
 
 `long ScrollItemIntoViewByIndex(int index)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_ScrollItemIntoViewByIndex_list__section.desc} 
 
 Ensure that a list item, as specified by its index, is visible, by scrolling it into view if necessary.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **index**
 
     Integer value specifying the index of the item. Note that index numbering begins with 1.
 
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#abt_ScrollItemIntoViewByIndex_list__section.return} 
 
 Return 0 if the call is successful; otherwise, -1..
 
-## Notes
+## {{< expand >}} Notes
 
 -   This method is applicable to both ListBox and ListView controls.
 

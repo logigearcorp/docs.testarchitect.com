@@ -12,7 +12,7 @@ Export a project item, identified by its TA path, to a file.
 
 {{<restriction>}} The Import/Export tool is not available in the TestArchitect packages for the Linux and macOS operating systems.
 
-## Synopsis
+## {{< expand >}} Synopsis
 
 ```
 java -jar TAImportExportTool.jar --ExportFromPath [--server<value>] [--port<value>] --uid<value> --pwd<value> 

@@ -22,7 +22,7 @@ When you start TestArchitect for the first time, you see the sample repository \
 
 To work on data from a TestArchitect repository, you must connect, and log on, to that repository.
 
-## Authentication modes
+## {{< expand >}} Authentication modes
 
 There are two means by which TestArchitect users may log in to a repository. In both cases, users are required to have explicit accounts \(user names\) residing in the repository.
 

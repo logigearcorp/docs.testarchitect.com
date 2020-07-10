@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80010A02L"
 
 Error code: 0x80010A02L
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because the given menu item does not exist.
 
-## Solution
+## {{< expand >}} Solution
 
 Ensure that the menu item exists, and then re-run the test.
 

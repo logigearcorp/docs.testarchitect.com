@@ -25,7 +25,7 @@ The Properties Comparison panel consists of three fields for each row:
 -   More than one row may appear in the panel, as any given interface element can be defined by more than one TA property.
 -   When there are differences between the defined and actual values of a control property, they are indicated with red text.
 
-## Comparing unmatched interface entities and windows
+## {{< expand >}} Comparing unmatched interface entities and windows
 
 Unlike the case for interface elements \(controls\), property comparisons for unmatched interface entities \(windows, dialogs, etc.\) are presented in the Viewer's [Properties panel](/user-guide/interface-definitions/the-interface-viewer/interpreting-the-interface-viewer/properties-panel). When a window node is selected in UI Explorer and the active tab in TestArchitect Client holds an interface entity, *and* the two do not match, the Properties panel goes into Property Comparison mode. An additional column, **Defined value**, displays property values defined in the interface entity, while **Current Value** displays the actual \(just-captured\) values from the application window. Again, non-matching values are indicated with red text.
 

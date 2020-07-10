@@ -10,7 +10,7 @@ keywords: "Compiled HTML Help, full-text search, CHM"
 
 A basic search of topics consists of the word or phrase you want to find. You can use wildcard expressions, nested expressions, boolean operators, similar word matches, the previous results list, or topic titles to refine your search.
 
-## Performing a full-text search
+## {{< expand >}} Performing a full-text search
 
 The full-text search is performed within the **Search** tab of the desktop CHM help viewer:
 
@@ -36,14 +36,14 @@ Rules applied during search:
 -   To search for a phrase, enclose it in quotation marks \( " \). For instance, if you specify "stop test" in the search expression, the search will only return those topics that contain this phrase. If you omit the quotes, for instance, stop test, the search will return topics containing both words stop and test.
 -   You can also group the words and phrases with parentheses. Grouping is typically used with boolean operators \(see [Refining a full-text search](/using-the-testarchitect-help-system/desktop-help/full-text-search-in-desktop-help#section_ffh_4nh_cp)\).
 
-## Highlighting words in searched topics
+## {{< expand >}} Highlighting words in searched topics
 
 When searching for words in Help topics, you can specify that each occurrence of the word or phrase you search for is highlighted in the topics that are found.
 
 -   On the help viewer’s toolbar, click the **Option** \(![](/images/TA_UsingHelpSystem/Images/btn_option.png)\) button and then click **Search Highlight On** to highlight all instances of the word or phrase.
 -   On the help viewer’s toolbar, click the **Option** \(![](/images/TA_UsingHelpSystem/Images/btn_option.png)\) button and then click **Search Highlight Off** to turn off this feature.
 
-## Refining a full-text search
+## {{< expand >}} Refining a full-text search {{< permerlink >}} {#concept_yrq_myb_cp__section_ffh_4nh_cp} 
 
 You can search only on the previous results list, request similar word matches, or search only the titles of topics in the table of contents.
 
@@ -53,14 +53,14 @@ You can search only on the previous results list, request similar word matches, 
 
 In additional, you can also use wildcards, boolean operators and nested expressions to refine your search.
 
-## Wildcards
+## {{< expand >}} Wildcards
 
 |Wildcard|Description|
 |--------|-----------|
 |Question mark \( ? \)|Use the question mark as a substitute for a single character. For example, if you type gloss?, your search returns topics containing the phrase glossy.|
 |Asterisk \( \* \)|Use the asterisk as a substitute for zero or more characters. For example, if you type Esc\*, your search returns topics containing the phrases ESC, escape, escalation, and so on.|
 
-## Boolean operators
+## {{< expand >}} Boolean operators
 
 |Operator|Description|
 |--------|-----------|

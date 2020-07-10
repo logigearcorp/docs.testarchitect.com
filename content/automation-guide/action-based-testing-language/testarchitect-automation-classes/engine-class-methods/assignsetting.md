@@ -12,11 +12,11 @@ keywords: "ABT Library Functions, AssignSetting, AssignSetting (ABT library func
 
 `integer AssignSetting (string settingname, string settingvalue)`
 
-## Description
+## {{< expand >}} Description
 
 Assign a value to a run setting.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **settingname**
 
@@ -27,11 +27,11 @@ Assign a value to a run setting.
     Value to be assigned to the setting.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Return 1 if the call is successful; otherwise, 0.If unsuccessful, the diagnostic functions can be used to get more details.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Settings have a wide variety of uses to tune the behavior of the engine or any other part of the automation.
 -   Settings can be saved in a file with [SaveProfile](/automation-guide/action-based-testing-language/testarchitect-automation-classes/engine-class-methods/saveprofile).

@@ -8,15 +8,15 @@ aliases:
 keywords: "methods of abt, GetBaselineByIndex, GetBaselineByIndex (AbtPictureCheck), AbtPictureCheck, getbaselinebyindex, abtpicturecheck getbaselinebyindex, baseline image by index, get baseline image in current picture check"
 ---
 
-## Syntax
+## {{< expand >}} Syntax {{< permerlink >}} {#reference_GetBaselineByIndex__section_sxm_4fr_vw} 
 
 `{{<link title="<AbtBaselinePicture>" link="/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtbaselinepicture/">}} GetBaselineByIndex (int index)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#reference_GetBaselineByIndex__section_txm_4fr_vw} 
 
 Retrieve the baseline image, as specified by its index, in the current picture check.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#reference_GetBaselineByIndex__section_uxm_4fr_vw} 
 
 -   **index**
 

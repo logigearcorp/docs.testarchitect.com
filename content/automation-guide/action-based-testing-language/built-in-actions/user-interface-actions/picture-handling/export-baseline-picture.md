@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, export baseline picture, export baseline picture (action)"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Save the current baseline image to a file.
 
-## Arguments
+## {{< expand >}} Arguments {{< permerlink >}} {#bia_export_baseline_picture__section_nkl_1zk_vw} 
 
 -   **picture**
 
@@ -32,11 +32,11 @@ Save the current baseline image to a file.
     \(Optional\) Variable to receive the returned absolute path of the saved image.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes {{< permerlink >}} {#bia_export_baseline_picture__section.notes} 
 
 -   The baseline image is saved as .png.
 -   picture argument: Identifies the name of a regular or shared picture check \([learn more](/user-guide/projects-and-project-items/project-items/picture-checks/)\), with the forward slash \(/\) as the path separator.
@@ -56,11 +56,11 @@ This action may be used within the following project items:test modules and user
 -   This built-in action can be applied to pre-process baseline and runtime images, before actually integrating them with a given third-party image processing tool for further processing. \(See **Example** below.\)
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action: [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Applicable Systems/Platforms
+## {{< expand >}} Applicable Systems/Platforms
 
 Use of this action is supported on the following system\(s\)/platform\(s\): Windows, Linux.
 
@@ -80,7 +80,7 @@ Use of this action is supported on the following system\(s\)/platform\(s\): Wind
 
 ![](/images/TA_Automation/Images/bia_export_baseline_picture_effect.png)
 
-## Example - Case 2: Integrating with a third-party image processing tool
+## {{< expand >}} Example - Case 2: Integrating with a third-party image processing tool
 
 In this example, the [ImageMagick](http://www.imagemagick.org/script/index.php) v.6.9.3-7 tool is invoked for further image processing.
 

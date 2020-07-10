@@ -12,7 +12,7 @@ keywords: "methods of abt, GetColumnCount, GetColumnCount (AbtTable), AbtTable, 
 
 `int GetColumnCount()`
 
-## Description
+## {{< expand >}} Description
 
 Retrieve the number of columns in the object.
 

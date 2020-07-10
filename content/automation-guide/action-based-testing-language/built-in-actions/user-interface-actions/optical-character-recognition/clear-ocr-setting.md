@@ -8,19 +8,19 @@ aliases:
 keywords: "built-in actions, clear ocr setting, clear ocr setting (action), iOS (action), clear ocr setting, Android (action), clear OCR setting, Reset OCR settings, Reset optimal character recognition settings"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Reset the adjustable OCR settings to their respective default values.
 
-## Arguments
+## {{< expand >}} Arguments
 
 There are no arguments for this built-in action.
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This built-in action resets any OCR settings whose values have been modified by any prior invocations of action [set ocr setting](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/optical-character-recognition/set-ocr-setting).
 -   On an iOS device, the default logical coordinate space is measured using points. Therefore, all values are specified in points instead of pixels.
@@ -36,11 +36,11 @@ This action may be used within the following project items:test modules and user
     2.  Open the [Android Instrumentation Tool](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/android-instrumentation-tool/) dialog box.
     3.  Click the **Refresh devices list** ![](/images/Android/Images/Refresh_device_list_btn.png) button.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:none.
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

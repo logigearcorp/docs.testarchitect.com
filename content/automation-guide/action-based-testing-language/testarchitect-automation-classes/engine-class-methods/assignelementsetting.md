@@ -8,15 +8,15 @@ aliases:
 keywords: "ABT Library Functions, AssignElementSetting, AssignElementSetting (ABT library function)"
 ---
 
-## Syntax
+## {{< expand >}} Syntax
 
 `integer AssignElementSetting(string interface, string entity, string element, string setting, string value)`
 
-## Description
+## {{< expand >}} Description
 
 Set an attribute of an element.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **interface**
 
@@ -43,7 +43,7 @@ Set an attribute of an element.
 
 Return 0 if the call is successful; otherwise, -1. If the interface, entity, or element is not defined, the function fails, a diagnostic is issued and an empty string is returned.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Typical examples of element settings are name, gui id, class, row, column, etc. Which settings are relevant fully depends on the interface and the specific properties of the given interface element.
 -   This function is analogous to the built-in action [interface element setting](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/deprecated/interface-element-setting) \(or a column in the definition line of an element\).

@@ -12,11 +12,11 @@ keywords: "methods of abt, IsItemSelectedByIndex, IsItemSelectedByIndex (AbtTab)
 
 `Boolean IsItemSelectedByIndex(int index)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_IsItemSelectedByIndex__section.desc} 
 
 Determine whether or not a tab item, as specified by its numeric index, is currently selected.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_IsItemSelectedByIndex__section.params} 
 
 -   **index**
 

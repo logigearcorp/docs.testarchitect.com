@@ -12,11 +12,11 @@ keywords: "ABT Library Functions, MarkedLineNamedArgument, MarkedLineNamedArgume
 
 `string MarkedLineNamedArgument (string mark, string name)`
 
-## Description
+## {{< expand >}} Description
 
 Get the value of an argument in a marked line, the argument being referenced by its name.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **mark**
 
@@ -27,11 +27,11 @@ Get the value of an argument in a marked line, the argument being referenced by 
     The label that appears on top of the argument \(in the cluster this is in the corresponding cell in the row above the current action line\).
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 The function returns the argument as a string. If the argument wasn't found, empty string is returned.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Only lines can be referenced that have been marked with MarkLine.
 

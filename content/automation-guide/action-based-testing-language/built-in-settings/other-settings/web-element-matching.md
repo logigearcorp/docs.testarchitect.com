@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in settings, web element matching, settings, web element matching (settings), web element matching, specify which technique to match web UI elements, select which technique to perform web UI element matching, select technique to match web elements, choose technique to match web elements"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Specify which technique is used to perform web UI element matching.
 
-## Allowable values
+## {{< expand >}} Allowable values
 
 -   **javascript**
 
@@ -23,19 +23,19 @@ Specify which technique is used to perform web UI element matching.
     [WebDriver API](https://www.w3.org/TR/2013/WD-webdriver-20130117/)
 
 
-## Default value
+## {{< expand >}} Default value
 
 javascript
 
-## Applicable system/platforms
+## {{< expand >}} Applicable system/platforms
 
 -   Testing mobile web applications on cloud devices \([learn more](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/)\).
 
-## Notes
+## {{< expand >}} Notes
 
 -   This built-in setting only affects the stage of UI web element matching including window, control, and item matching.
 
-## Example
+## {{< expand >}} Example {{< permerlink >}} {#bis_web_element_matching__section_qfv_fbs_x1b} 
 
 Under mobile cloud test environment conditions, the test duration which includes various UI web element matching actions might vary. You might try switching between JavaScript snippets and WebDriver API techniques to see if the test duration would be shorter.
 

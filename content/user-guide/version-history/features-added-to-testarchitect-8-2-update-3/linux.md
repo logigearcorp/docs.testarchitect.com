@@ -15,13 +15,13 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
 
-## TestArchitect Client
+## {{< expand >}} TestArchitect Client
 
 **Enhancements to existing features**
 
 -   Performance improvement during startup of the Repository Server.
 
-## TestArchitect Automation
+## {{< expand >}} TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.1_U4_Linux__section_p2c_51b_cs} 
 
 -   **Built-in actions/built-in setting to handle unpredicted appearance of a modal dialog box in desktop applications**: The troublesome modal dialog can be automatically closed, or custom-handled by a user-defined action.
     -   [on modal action](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/error-handling/on-modal-action) \(built-in action\): Specify the action to be invoked in the event of the occurrence of a modal dialog box that may block the test automation.

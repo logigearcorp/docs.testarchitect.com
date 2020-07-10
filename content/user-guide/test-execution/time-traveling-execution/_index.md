@@ -12,11 +12,11 @@ Time-traveling execution provides the support for "retroactive" execution; that 
 
 {{<remember>}} To use time-traveling execution on any test module belonging to a legacy repository created prior to TestArchitect version [8.2](/user-guide/version-history/features-added-to-testarchitect-8-2/), you must first upgrade the repository database. \([Learn more](/administration-guide/repository-server-management/upgrading-the-repository-database-for-time-traveling-execution).\)
 
-## The need for retroactive execution
+## {{< expand >}} The need for retroactive execution
 
 Under some circumstances you may need to run automated tests against a specific release version of an AUT, say, version 1, when that is no longer the current version. Now, in a perfect world, you might have used [linked variations](/user-guide/variations/creating-linked-variations/creating-a-variation) to associate all the right versions of project items to the version 1 system. In practice, though, we don't always do things that way. So what do you do when you need to “go back in time” to execute existing tests on an older AUT version? Fortunately, you still have all the necessary versions of project items preserved through TestArchitect's [revision control system](/user-guide/projects-and-project-items/project-items/revision-control/revision-history/). And time-traveling execution helps grant your test run access to the specific revisions that you require for all the project items invoked by your test.
 
-## Use case
+## {{< expand >}} Use case
 
 Suppose that your team has released test assets for an AUT version 1. Now, your team is developing tests for the next release, AUT version 2.
 
@@ -28,7 +28,7 @@ Out of the blue, management decides to release a hot fix, AUT version 1 patch 1,
 
 Given that the new, patched version of AUT version 1 is expected to be able to pass the same set of tests as those of the pre-patch version, what is needed is a way to recapture that “snapshot” of test assets last used for version 1. This is the function of time traveling: to allow your team, at runtime, to specify a retroactive point in the history of your test assets; that point determines which revisions of project items invoked for the test run will be used.
 
-## Best practices for time-traveling execution
+## {{< expand >}} Best practices for time-traveling execution
 
 1.  Create a new [version](/user-guide/variations/creating-linked-variations/the-systems-tree/creating-a-new-version-node) node when you begin test automation development on a new version of your AUT. Do this regardless of whether or you expect to have a need to create [linked variations](/user-guide/variations/creating-linked-variations/creating-a-variation) for this node.
 2.  Tag that version to a particular revision when that automation development cycle is finished. \([Learn more](/user-guide/projects-and-project-items/project-items/revision-control/revision-history/revision-tag).\)

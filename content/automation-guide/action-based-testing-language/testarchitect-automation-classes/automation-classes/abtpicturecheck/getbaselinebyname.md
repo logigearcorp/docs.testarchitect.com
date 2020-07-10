@@ -8,15 +8,15 @@ aliases:
 keywords: "methods of abt, GetBaselineByName, GetBaselineByName (AbtPictureCheck), AbtPictureCheck, getbaselinebyname, abtpicturecheck getbaselinebyname, baseline image with specified name in current picture check, obtain baseline image with specified name"
 ---
 
-## Syntax
+## {{< expand >}} Syntax {{< permerlink >}} {#reference_GetBaselineByName__section_sxm_4fr_vw} 
 
 `{{<link title="<AbtBaselinePicture>" link="/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtbaselinepicture/">}} GetBaselineByName (string name)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#reference_GetBaselineByName__section_txm_4fr_vw} 
 
 Retrieve the baseline image, as specified by its name, in the current picture check.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#reference_GetBaselineByName__section_uxm_4fr_vw} 
 
 -   **name**
 

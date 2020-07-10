@@ -14,7 +14,7 @@ We use the Remote TestKit cloud service, provided by NTT Resonant, to test mobil
 
 The makers of Remote TestKit offer their service as either a web application, accessible immediately from a web browser, or by means of a client software application. For automating with TestArchitect, however, it is necessary that you [download](https://appkitbox.com/en/testkit/download) and [install](https://appkitbox.com/en/testkit/support/signin/signin13) the Remote TestKit Client application.
 
-## Supported technical approach
+## {{< expand >}} Supported technical approach
 
 TestArchitect supports testing on the following platforms on Remote TestKit:
 

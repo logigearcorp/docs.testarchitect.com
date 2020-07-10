@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, get system performance information, get system performance information (action), get system performance information, get system performance info, get system performance status, get system resource usage, Android (action), get system performance information, get"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Return the current system performance information of the test machine or device.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **cpu usage**
 
@@ -31,11 +31,11 @@ Return the current system performance information of the test machine or device.
     \(Mobile systems only\) Variable to hold the returned current battery capacity.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   For Windows/Linux operating systems:
     -   The only two returned values are those for cpu usage and memory usage.
@@ -44,11 +44,11 @@ This action may be used within the following project items:test modules and user
 -   If the variables in argumentscpu usage, memory usage, running apps or battery capacityhave not been declared, the action creates them as globals.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Example - Case 1: On Windows operating system
+## {{< expand >}} Example - Case 1: On Windows operating system
 
 **Action Lines**
 

@@ -10,11 +10,11 @@ keywords: "automation errors, 0x8001040AL"
 
 Error code: 0x8001040AL
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because the specified header's index position is out of range.
 
-## Solution
+## {{< expand >}} Solution
 
 Ensure the given index is in the valid range. Index numbering starts from 1.
 

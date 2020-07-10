@@ -12,11 +12,11 @@ keywords: "ABT Library Functions, MarkedLineArgument, MarkedLineArgument (ABT li
 
 `string MarkedLineArgument (string mark, integer nr)`
 
-## Description
+## {{< expand >}} Description
 
 Get the value of an argument in a book marked line.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **mark**
 
@@ -27,11 +27,11 @@ Get the value of an argument in a book marked line.
     Number of the argument. Note that numbering of arguments starts at zero \(column A in the cluster\).
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Return 1 if the call is successful; otherwise, 0.If unsuccessful, the diagnostic functions can be used to get more details.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Only lines can be referenced that have been marked with MarkLine.
 

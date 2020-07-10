@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in settings, verify picture, settings, verify picture (settings), verify picture, specify whether to verify picture in automated mode or semi-automated mode, determine which mode is used to check picture"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Specifies whether the current test is to run in automated or semi-automated mode with respect to [picture checks](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/check-picture).
 
-## Allowable values
+## {{< expand >}} Allowable values
 
 -   **yes**
 
@@ -31,11 +31,11 @@ Specifies whether the current test is to run in automated or semi-automated mode
     -   [check picture](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/check-picture) actions failing to find a match being tentatively registered as Failed checks;
     -   [check picture](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/check-picture) actions referencing nonexistent picture checks being tentatively registered as Warnings.
 
-## Default value
+## {{< expand >}} Default value
 
 yes
 
-## Example
+## {{< expand >}} Example
 
 **Test Lines**
 

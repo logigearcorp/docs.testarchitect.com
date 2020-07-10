@@ -10,22 +10,22 @@ keywords: "string functions, lowercase, lowercase (string function)"
 
 Return a copy of the specified source string in lowercase.
 
-## Syntax
+## {{< expand >}} Syntax
 
 `string lowercase(string str)`
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **str**
 
     The source string to be converted to lowercase.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Returns a copy of the string str in all lowercase.
 
-## Example
+## {{< expand >}} Example
 
 **Test Lines**
 

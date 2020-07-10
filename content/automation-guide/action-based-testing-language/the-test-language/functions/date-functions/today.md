@@ -10,23 +10,23 @@ keywords: "date functions, today, today (function)"
 
 Convert today’s date to its equivalent Julian day number.
 
-## Syntax
+## {{< expand >}} Syntax
 
 `integer today()`
 
-## Parameters
+## {{< expand >}} Parameters
 
 `none`
 
-## Return Value
+## {{< expand >}} Return Value
 
 Returns today's date as a Julian day number.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following built-in setting\(s\) are supported: none.
 
-## Example
+## {{< expand >}} Example
 
 ![](/images/TA_Automation/Images/automationguide_datefunction3.png)
 

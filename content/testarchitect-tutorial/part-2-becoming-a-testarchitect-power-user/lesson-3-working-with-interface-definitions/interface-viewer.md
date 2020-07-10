@@ -30,7 +30,7 @@ The Interface Viewer enables you to view an application's controls and propertie
 
 ![](/images/TA_Tutorials/Images/dlg.Interface_Viewer_UIA.png)
 
-## UI explorer panel
+## {{< expand >}} UI explorer panel
 
 The UI explorer panel displays the open windows of the host environment as a collection of trees. It offers a choice of two views, selectable from the **View** menu:
 
@@ -58,7 +58,7 @@ Unmapped controls are indicated with red double-angle brackets ![](/images/TA_Tu
 |![](/images/TA_Tutorials/Images/icn.Interface_Viewer.Class.png)|Class|class|
 |![](/images/TA_Tutorials/Images/icn.Interface_Viewer.Unknown_class.png)|Unknown class|class, hierarchy|
 
-## Properties panel
+## {{< expand >}} Properties panel
 
 The Interface Viewer's Properties panel displays the properties and property values of the window or control currently selected in the Process Tree. This panel consists of two tabs: **TA Properties** and**Native Properties**.  For the purposes of interfacing, most users can rely on the `TA` properties of a control and ignore the `Native` properties. Ensure that the property-value pairs displayed in the Properties Panel are taken from an actual UI object in an application, not from any interface entity. 
 
@@ -81,7 +81,7 @@ interface element      clear-button    button       Clear       push button
 
 The last two arguments of the interface entity are a direct result of the selected TA Properties in the Viewer.
 
-## Interface Elements panel
+## {{< expand >}} Interface Elements panel
 
 The Interface Elements panel appears on the far right of the Interface Viewer when a mapped window exists in the UI explorer panel. This panel displays the interface elements of the interface entity behind the mapping.
 
@@ -89,7 +89,7 @@ None of the contents of this panel are editable. Clicking a mapped element in th
 
 As with UI explorer, the interface elements that the Viewer successfully maps to the open application window are denoted with green check marks![](/images/TA_Tutorials/Images/icn.Interface_Viewer.Green_check_mark.png). If the Viewer is unable to find a matching UI control for an interface element, that element is marked with a red crossed-circle ![](/images/TA_Tutorials/Images/icn.Interface_Viewer.Red_crossed_circle.png).
 
-## Properties Comparison panel
+## {{< expand >}} Properties Comparison panel
 
 The Properties Comparison panel is of special value if and when you find that a defined interface element can no longer identify a control in your test application. This panel displays the differences between the defined property values in the interface element and the actual \(just-captured\) values of those properties in the corresponding control, allowing you to understand why that interface element is no longer able to identify the control.
 

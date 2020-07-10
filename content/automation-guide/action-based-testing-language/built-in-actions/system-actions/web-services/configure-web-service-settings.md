@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, configure web service settings, configure web service settings (action), configure web service settings, web service settings, web service configuration, configure web service, web service configuration settings"
 ---
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#bia_configure_web_service_settings__section_iyg_dsd_1y} 
 
 Send JSON string request to a web service in order to apply new configuration settings.
 
-## Arguments
+## {{< expand >}} Arguments {{< permerlink >}} {#bia_configure_web_service_settings__section_jyg_dsd_1y} 
 
 -   **values**
 
@@ -45,17 +45,17 @@ Send JSON string request to a web service in order to apply new configuration se
     Note that you can learn more about JSON syntax [here](http://www.w3schools.com/js/js_json_syntax.asp).
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts {{< permerlink >}} {#bia_configure_web_service_settings__section_kyg_dsd_1y} 
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes {{< permerlink >}} {#bia_configure_web_service_settings__section_lyg_dsd_1y} 
 
 -   It is required that you declare configure web service settings with its configurations, before using the [create http request](/automation-guide/action-based-testing-language/built-in-actions/system-actions/web-services/create-http-request) built-in action.
 -   For a full list of web service's configurations, supported by TestArchitect, see "Supported web service's configurations" below.
 -   You may either declare various web service's configurations in a single configure web service settings action, or in multiple configure web service settings actions. Note that, when identical configurations are declared simultaneously, the latter configuration overrides the former one.
 
-## Supported web service's configurations
+## {{< expand >}} Supported web service's configurations
 
 1.  Proxy: Defines a manual proxy server.
 
@@ -198,7 +198,7 @@ This action may be used within the following project items:test modules and user
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Example: Proxy configurations
+## {{< expand >}} Example: Proxy configurations
 
 **Case 1: User-defined proxy configurations**:
 
@@ -242,7 +242,7 @@ Your JSON string should resemble as follows:
 
 ![](/images/TA_Automation/Images/bia_configure_web_service_settings_proxy_system_pgm.png)
 
-## Example: SSL configuration
+## {{< expand >}} Example: SSL configuration
 
 **Case 1: No SSL validation**
 
@@ -277,7 +277,7 @@ Your JSON string should resemble as follows:
 
 ![](/images/TA_Automation/Images/bia_configure_web_service_settings_ssl_local_validation_pgm.png)
 
-## Example: Cookies configuration
+## {{< expand >}} Example: Cookies configuration
 
 Suppose that you'd like to specify the following cookies which are sent to the server.
 
@@ -294,7 +294,7 @@ Your JSON string should resemble as follows:
 
 ![](/images/TA_Automation/Images/bia_configure_web_service_settings_cookies_pgm.png)
 
-## Example - Case 4: Encoder configuration
+## {{< expand >}} Example - Case 4: Encoder configuration
 
 Suppose that you'd like to specify the following configurations for the encoder.
 
@@ -316,7 +316,7 @@ JSON string resembles the following:
 
 ![](/images/TA_Automation/Images/bia_configure_web_service_settings_encoder_pgm.png)
 
-## Example - Case 5: Decoder configuration
+## {{< expand >}} Example - Case 5: Decoder configuration
 
 Suppose that you'd like to specify the following configurations for the decoder.
 

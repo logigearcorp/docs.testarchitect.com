@@ -12,11 +12,11 @@ keywords: "ABT Library Functions, Log, Log (ABT library function)"
 
 `integer Log(string logname, string trace, string reporttag, string value)`
 
-## Description
+## {{< expand >}} Description
 
 Write an entry into a log.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **logname**
 
@@ -35,11 +35,11 @@ Write an entry into a log.
     The text to be logged.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Return 1 if the call is successful; otherwise, 0.If unsuccessful, the diagnostic functions can be used to get more details.
 
-## Notes
+## {{< expand >}} Notes
 
 -   A log can be used to track the cause of a test run or a specific aspect of that in more detail.
 

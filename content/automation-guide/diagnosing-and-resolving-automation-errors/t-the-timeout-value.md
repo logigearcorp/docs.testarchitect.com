@@ -10,11 +10,11 @@ keywords: "automation errors, 0x8001000CL"
 
 Error code: 0x8001000CL
 
-## Problem
+## {{< expand >}} Problem
 
 This issue occurs when a given window is not absent before the specified maximum wait time, specified in the [wait for window close](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/timing/wait-for-window-close) built-in action.
 
-## Solution
+## {{< expand >}} Solution
 
 Try setting a longer value for the time out argument, and then re-run the test.
 

@@ -8,17 +8,17 @@ aliases:
 keywords: "automation errors, Unable to Open Chrome Browser, automation errors, Cannot open Chrome Browser"
 ---
 
-## Problem:
+## {{< expand >}} Problem: {{< permerlink >}} {#reference_0x80020012L__section_hbk_tk4_c3b} 
 
 After upgrading Chrome. TestArchitect cannot open Chrome.
 
-## Cause:
+## {{< expand >}} Cause:
 
 So that it may be upgraded anytime a new version is release, the auto-upgrade function of Chrome browser is enabled by default.. This can cause version of WebDriver to be incompatible with the upgraded version of Chrome browser.
 
 {{<note>}} Turn off the auto-upgrade function of Chrome browser to avoid this problem in the future .
 
-## Solution:
+## {{< expand >}} Solution: {{< permerlink >}} {#reference_0x80020012L__section_n5h_f2j_dkb} 
 
 Manually upgrade the WebDriver installation on your machine by following these steps:
 

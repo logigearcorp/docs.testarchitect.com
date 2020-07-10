@@ -12,18 +12,18 @@ keywords: "methods of abt, Type, Type (AbtElement), AbtElement, type, abtelement
 
 `long Type(string text)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_Type_element__section.desc} 
 
 Type the specified string into the element.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **text**
 
     String value specifying the text content to be typed.
 
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#abt_Type_element__section.return} 
 
 Return 0 if the call is successful; otherwise, -1.
 

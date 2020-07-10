@@ -12,22 +12,22 @@ keywords: "ABT Library Functions, CreateInterfaceClass, CreateInterfaceClass (AB
 
 `integer CreateInterfaceClass (string classname)`
 
-## Description
+## {{< expand >}} Description
 
 Create a class for elements in the interface.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **classname**
 
     Name of the class to be created.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Return 1 if the call is successful; otherwise, 0.If unsuccessful, the diagnostic functions can be used to get more details.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Classes can be defined at will to describe interface behavior and to assign low level actions to interface elements. Typical examples in a windows interface are "edit" for edit boxes and "button" for push buttons.
 -   This function can only be used after OpenInterface or CreateInterface, or after a successful intake of an file with Interface Definitions.

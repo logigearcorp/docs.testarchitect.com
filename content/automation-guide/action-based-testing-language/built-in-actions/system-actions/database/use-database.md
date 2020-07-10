@@ -8,27 +8,27 @@ aliases:
 keywords: "built-in actions, use database, use database (action), use a database, select a database"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Specify a database against which the ensuing SQL action lines are to be applied.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **name**
 
     Name of the database connection \(previously established via the [connect database](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/connect-database) action\).
 
 
-## Notes
+## {{< expand >}} Notes
 
 -   This action is generally invoked as part of a sequence of actions to allow the test to access a data source. \(See [Testing with databases](/automation-guide/application-testing/testing-with-databases/) for more information.\)
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cell](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Applicable Controls
+## {{< expand >}} Applicable Controls
 
 This action is applicable to the following controls:none.
 

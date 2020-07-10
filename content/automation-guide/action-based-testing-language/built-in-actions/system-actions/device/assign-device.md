@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, assign device, assign device (action), iOS (action), assign device, Android (action), use device, assign a physical mobile device, name a physical mobile device"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Assign a logical name to a physical mobile device or an emulator. This name may then be used in the action [use device](/automation-guide/action-based-testing-language/built-in-actions/system-actions/device/use-device).
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **unique id**
 
@@ -23,15 +23,15 @@ Assign a logical name to a physical mobile device or an emulator. This name may 
     User-assigned, "friendly" name of the device.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## {{< expand >}} Applicable Systems/Platforms
 
 Use of this action is supported on the following systems/platforms: Mobile operating systems.
 
-## Notes
+## {{< expand >}} Notes
 
 -   It is good practice to apply this action to all mobile devices, if any, at the beginning of a test module. You can use assign device to assign logical names to any number of mobile devices. This is especially helpful if use device is invoked in several places in a test module, allowing the automation to switch between devices during execution.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
@@ -45,11 +45,11 @@ Use of this action is supported on the following systems/platforms: Mobile opera
         ![](/images/iOS/Images/iOS_copy_device_ID.png)
 
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Example
+## {{< expand >}} Example
 
 {{<note>}} Refer to the [above note](#li.obtain_device_id) for the means by which a device's unique ID is obtained.
 

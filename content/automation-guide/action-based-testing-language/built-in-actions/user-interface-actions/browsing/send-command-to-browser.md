@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, send command to browser, send command to browser (action), send command to browser, browser emulator, mobile browser emulator, simulate mobile browser"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Send JSON string request to Google Chrome's Device Mode in order to invoke a new mobile browser emulator, or change environment for a given mobile browser emulator to customize its behaviors during the test run.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **window**
 
@@ -53,11 +53,11 @@ Send JSON string request to Google Chrome's Device Mode in order to invoke a new
     \(Optional\) Variable to return the JSON string received from Google DevTools in response to the submitted command.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## {{< expand >}} Applicable Systems/Platforms
 
 Use of this action is supported on the following systems/platforms:Chrome DevTools's Device Mode on Windows.
 
@@ -65,7 +65,7 @@ Use of this action is supported on the following systems/platforms:Chrome DevToo
 
 The following setting is applicable to this action: [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait).
 
-## Notes
+## {{< expand >}} Notes
 
 -   You may want to validate your JSON string with the free resource [jsoneditoronline.org/](http://www.jsoneditoronline.org/), to ensure that its syntax and format are accurate.
 -   You can change as many emulator behaviors as you want, as long as those behaviors are supported by [Chrome debugging protocol](https://chromedevtools.github.io/debugger-protocol-viewer/tot/). \([Learn more](/automation-guide/application-testing/mobile-testing/testing-mobile-web-applications/testing-web-apps-in-mobile-emulation-mode/launching-mobile-browser-emulator#step_d2w_t3d_1w).\) For instance, you can update the following behaviors:
@@ -102,7 +102,7 @@ The following setting is applicable to this action: [window wait](/automation-gu
     -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Example
+## {{< expand >}} Example
 
 Assume that you have set up a Chrome Device Mode mobile device emulator by means of writing a defined JSON profile to the action send command to browser.
 
@@ -113,7 +113,7 @@ During the test run, you'd like to customize certain aspects of the emulator's e
 -   Emulate geolocation data \("latitude":16,"longitude":108,"accuracy":1\)
 -   Emulate accelerometer \("alpha":32,"beta":26,"gamma":7\)
 
-## Action Lines
+## {{< expand >}} Action Lines
 
 ```
 //Launch Google Chrome   

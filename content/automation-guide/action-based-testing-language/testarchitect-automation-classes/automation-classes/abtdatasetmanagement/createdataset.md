@@ -8,15 +8,15 @@ aliases:
 keywords: "methods of abt, CreateDataSet, CreateDataSet (AbtDataSetManagement), AbtDataSetManagement, createdataset, abtdatasetmanagement createdataset, create data set"
 ---
 
-## Syntax
+## {{< expand >}} Syntax {{< permerlink >}} {#reference_rp3_bbw_gq__section.syntax} 
 
 `AbtDataSet CreateDataSet(String name)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#reference_rp3_bbw_gq__section.desc} 
 
 Create a new data set object with the specified name.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#reference_rp3_bbw_gq__section.params} 
 
 -   **name**
 
@@ -27,7 +27,7 @@ Create a new data set object with the specified name.
 
 A new [AbtDataSet](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdataset/) object with the specified name.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This method is currently supported only by the C\# harness.
 

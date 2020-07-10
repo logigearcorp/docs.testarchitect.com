@@ -8,15 +8,15 @@ aliases:
 keywords: "methods of abt, GetTextCount, GetTextCount (AbtElement), AbtElement, gettextcount, abtelement gettextcount, number of texts in control, get number of text fragments in control, count text fragments in control"
 ---
 
-## Syntax
+## {{< expand >}} Syntax
 
 `int getTextCount (string drawfunction, string text)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_Maximize_AbtElement__section.desc} 
 
 Retrieve a count of the total number of text fragments residing in a given control.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_Maximize_AbtElement__section.params} 
 
 -   **drawfunction**
 
@@ -39,11 +39,11 @@ Retrieve a count of the total number of text fragments residing in a given contr
     String representing the [bitmap text fragment](/user-guide/support/glossary-of-terms/bitmap-text-fragment) to be searched for.
 
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#abt_Maximize_AbtElement__section.return} 
 
 An integer value indicating the total number of text fragments found.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This method always employs the [Graphics Device Interface](/automation-guide/action-based-testing-language/the-test-language/text-recognition-techniques) \(GDI\) technique to recognize text produced by an AUT.
 

@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, drag mouse, drag mouse (action), drag, mouse drag, drage mouse"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Effectively drag the mouse pointer between two points within a window.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **window**
 
@@ -39,11 +39,11 @@ Effectively drag the mouse pointer between two points within a window.
     The delay between each incremental mouse movement \(units: milliseconds; default = 10\).
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This action can be used to effect drag-and-drop type events.
 -   As a general rule for all actions involving x,y coordinate arguments, the coordinates are specified in pixels relative to the top-left corner of the:
@@ -58,15 +58,15 @@ This action may be used within the following project items:test modules and user
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 -   Mouse drag across frames is not supported.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only), [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait).
 
-## Applicable Controls
+## {{< expand >}} Applicable Controls
 
 This action is applicable to the following controls:window
 
-## Example
+## {{< expand >}} Example
 
 ![](/images/TA_Automation/Images/bia_drag_mouse_aut.png)
 

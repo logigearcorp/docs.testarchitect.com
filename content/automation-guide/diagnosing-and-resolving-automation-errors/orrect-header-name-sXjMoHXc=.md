@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80010015L"
 
 Error code: 0x80010015L
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because the original argument header of a built-in action is renamed or changed.
 
-## Solution
+## {{< expand >}} Solution
 
 You might try the following ways:
 

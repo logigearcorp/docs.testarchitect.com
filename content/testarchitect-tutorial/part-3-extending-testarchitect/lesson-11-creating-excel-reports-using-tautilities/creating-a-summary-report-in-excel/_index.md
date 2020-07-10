@@ -14,7 +14,7 @@ Exporting TestArchitect data to Microsoft Excel™ is probably the most common u
 
 In the following example, you will export TestArchitect test module information into Excel, using Excel's Visual Basic, on a Windows-based system. The exported information includes the **description**, **assigned user**, **created by**, **date of creation**, and **status result**of each test module residing under a specific test module folder, plus the total number of test modules in the folder.
 
-## System functionality
+## {{< expand >}} System functionality
 
 In order to direct the APIs to retrieve exactly what you want, you provide the following information in designated Excel cells:
 

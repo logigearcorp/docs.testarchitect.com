@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
 
-## TestArchitect Client
+## {{< expand >}} TestArchitect Client
 
 -   [**Time-traveling execution**](/user-guide/test-execution/time-traveling-execution/): Time-traveling execution provides support for retroactive execution, that is, the ability to execute a particular historical snapshot, or set of revisions, of project items in a given project. Given its ability to find the right set of test assets for a particular past version of an application, time-traveling execution is well-suited for regression testing on AUT versions that precede the current release.
 
@@ -54,7 +54,7 @@ The following new features and improvements are introduced in TestArchitect vers
     -   [**Switching to a different TFS account**](/user-guide/integration-with-third-party-tools/tfs-integration/additional-features-of-tfs-mtm/switching-to-a-different-tfs-account): You have the option of rapidly switching from the current TFS account to a different account.
     -   **INITIAL****and****FINAL****sections are both invoked for each [test case run](/user-guide/integration-with-third-party-tools/tfs-integration/on-premises-tfs-environment-configuration/running-tests-under-on-premises-tfs/running-ta-tests-from-mtm#note_xkz_kfr_yq)**: When running an automated test, the execution of every single Team Foundation Server test case entails the execution of both the INITIAL and FINAL sections of the associated TestArchitect test module, if any. For example, the execution of test case \#01 is preceded by the execution of the INITIAL section, and followed by the FINAL section; the same is true for test case \#02, and each subsequent test case.
 
-## TestArchitect Automation
+## {{< expand >}} TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.1_U4_Wins__section_p2c_51b_cs} 
 
 -   [**Introduction of XPath property**](/user-guide/interface-definitions/control-properties/secondary-properties/xpath-property): TestArchitect uses a special new TA property, called XPath and derived from the XPath language, to uniquely locate UI controls within tested web applications. Specifically, TestArchitect depicts the UI controls running on web applications as a hierarchical representation of elements and provides the XPath TA property for each control to uniquely identify it within that hierarchy.
 -   **Support for escape sequences during string processing**: A new built-in setting, [escape sequences](/automation-guide/action-based-testing-language/built-in-settings/value-settings/escape-sequences), allows this functionality to be enabled or turned off.

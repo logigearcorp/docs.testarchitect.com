@@ -8,13 +8,13 @@ aliases:
 keywords: "Troubleshooting, Internet Explorer, incompatible add-on, troubleshooting"
 ---
 
-## Problem
+## {{< expand >}} Problem
 
 During the setup of Internet Explorer 11 to allow for testing of web applications, the TestArchitect Automation Agent add-on is indicated as being incompatible with the browser. This prevents you from automating tests on Internet Explorer.
 
 ![](/images/TA_FAQ/Images/incompatible_add_on_IE.png)
 
-## Solution
+## {{< expand >}} Solution
 
 Sometimes, the protection mode of Internet Explorer 11 causes the TestArchitect Automation Agent to show up as incompatible. Following the steps below will help resolve this issue:
 

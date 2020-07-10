@@ -8,7 +8,7 @@ aliases:
 keywords: "notice, about, Zephyr integration, Zephyr"
 ---
 
-## Naming phases or cycles
+## {{< expand >}} Naming phases or cycles {{< permerlink >}} {#ug_Zephyr_notice__section_tjh_y1b_pfb} 
 
 The back slash \(\\\) is allowed in the names of phases or cycles in Zephyr. However, when TestArchitect generates batch files, this character is treated as a node separator from Zephyr's tree.
 

@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, capture screen, capture screen (action), iOS (action), capture screen, Android (action), Android, Google Chrome (action), Google Chrome, Android (action), take screenshot, screen capture, screenshot"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Capture the screen and store as an image file.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **window**
 
@@ -43,11 +43,11 @@ Capture the screen and store as an image file.
     Full path of file into which to store the image.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   A captured image can only be saved as .JPEG, .BMP, or .PNG. Include the desired extension in the file name portion of the image location value.
 -   This action is applied to that part of the captured bitmap identified as the active area, with the remainder of the image ignored. The active area is determined by the combination of the window, control arguments, along with the four arguments \(left, top, width and height\) that define the rect area.
@@ -86,11 +86,11 @@ This action may be used within the following project items:test modules and user
     3.  Click the **Refresh devices list** ![](/images/Android/Images/Refresh_device_list_btn.png) button.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

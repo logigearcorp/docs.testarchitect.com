@@ -8,29 +8,29 @@ aliases:
 keywords: "built-in settings, test case timeout, settings, test case timeout (settings), test case timeout, specify timeout for individual test cases, set timeout for individual test cases, time limit for running test case, maximum time limit for test case execution"
 ---
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#bis_test_case_timeout__section_i15_jp2_4cb} 
 
 Specify the timeout value for an individual test case.
 
-## Value units
+## {{< expand >}} Value units {{< permerlink >}} {#bis_test_case_timeout__section_j15_jp2_4cb} 
 
 seconds
 
-## Default value
+## {{< expand >}} Default value {{< permerlink >}} {#bis_test_case_timeout__section_k15_jp2_4cb} 
 
 -   **0**
 
     Indicates an infinite timeout period.
 
 
-## Notes
+## {{< expand >}} Notes {{< permerlink >}} {#bis_test_case_timeout__section_m15_jp2_4cb} 
 
 -   Applies to TestArchitect [8.3 Update 4](/user-guide/version-history/features-added-to-testarchitect-8-3-update-4/windows) and higher.
 -   When this setting is not declared or its value is omitted, the value of 0 is used.
 -   The specified timeout value affects all test cases, as well as the [INITIAL](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/documentary/initial) and [FINAL](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/documentary/final) sections, as long as they are declared underneath the test case timeout setting. The test procedures which are declared above the built-in setting is unaffected by the timeout value.
 -   The [test case timeout](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/test-case-timeout) setting, just like other built-in settings, once declared within a single test run, remains present throughout the execution of master test modules and subtest modules within the test run. If test case timeout is called twice in the master test module or the subtest modules, the second invocation merely assigns a new value to the existing timeout period.
 
-## Example
+## {{< expand >}} Example
 
 Suppose that you would like to set the timeout value, such as, 5 seconds, on all individual test cases, as well as INTIAL and FINAL.
 

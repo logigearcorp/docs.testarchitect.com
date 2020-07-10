@@ -12,11 +12,11 @@ keywords: "ABT Library Functions, Execute, Execute (ABT library function)"
 
 `integer Execute(string command,string parameters, string directory, integer wait)`
 
-## Description
+## {{< expand >}} Description
 
 Execute a command using the OS's built mechanism for that.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **command**
 
@@ -35,11 +35,11 @@ Execute a command using the OS's built mechanism for that.
     Whether or not the function should wait for the command to finish.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Return 1 if the call is successful; otherwise, 0.If unsuccessful, the diagnostic functions can be used to get more details.
 
-## Notes
+## {{< expand >}} Notes
 
 -   The exact behavior of this function can differ slightly between operating systems.
 -   If wait is unequal to zero, the function will attempt to wait for the command to finish.

@@ -8,25 +8,25 @@ aliases:
 keywords: "built-in settings, gdi column identifier percentage, settings, gdi column identifier percentage (settings), identify column in GDI, set maximum height of vertical bar to be treated as separator for table column, column identification in GDI using GDI technique"
 ---
 
-## Description
+## {{< expand >}} Description
 
 For [GDI technique](/automation-guide/action-based-testing-language/the-test-language/text-recognition-techniques), specify a percentage value proportional to the vertical bar's max height of a UI control. Technically, when a detected vertical bar's value is equivalent to or higher than the specified percentage value compared to the max vertical bar, the detected vertical bar is treated as a separator for a column in a table.
 
 This is a technical method to reconstruct columns belonging to a table by using GDI technique.
 
-## Allowable values
+## {{< expand >}} Allowable values
 
 Percentage value in the range 1-100.
 
-## Default value
+## {{< expand >}} Default value
 
 80%
 
-## Notes
+## {{< expand >}} Notes
 
 -   This built-in setting is not displayed in the editor by [Content Assist](/user-guide/getting-started/the-test-editor/content-assist/). To use them in the editor, you must manually enter the setting name and its value.
 
-## Example
+## {{< expand >}} Example
 
 **Test Lines**
 

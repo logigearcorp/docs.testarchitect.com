@@ -8,26 +8,26 @@ aliases:
 keywords: "built-in actions, use device, use device (action), iOS (action), Android (action), utilize device, utilize iOS mobile, utilize Android mobile"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Logically connect to a physical mobile device or an emulator and make that device the target for the automation.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **name**
 
     \(Optional\) Target device for the controller to connect to and automation to be performed upon. Optional if only one device is connected to the test controller.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## {{< expand >}} Applicable Systems/Platforms {{< permerlink >}} {#bia_use_device__section_l1l_pcl_zcb} 
 
 Use of this action is supported on the following systems/platforms: Mobile operating systems.
 
-## Notes
+## {{< expand >}} Notes
 
 -   The name specified in the name argument is established in advance by the [assign device](/automation-guide/action-based-testing-language/built-in-actions/system-actions/device/assign-device) action, which assigns a logical name to a mobile device.
 -   It is good practice to specify logical names for all test devices at the beginning of a test module, using assign device for each device that is to be targeted by the test. This is especially helpful if use device is invoked in several places in a test module, allowing the automation to switch between multiple mobile devices during testing.
@@ -35,11 +35,11 @@ Use of this action is supported on the following systems/platforms: Mobile opera
 -   After a device has been targeted for automation, TestArchitect automatically adds it to the devices list in [Lab Manager](/user-guide/lab-manager/), and you can monitor the test progress there.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Example
+## {{< expand >}} Example
 
 Let's say you have two Android mobile devices connected to a controller. Device 1 sends an email. Device 2 receives the email, which your test must then verify. In order to switch between these two devices during testing, they must be identified by logical names. Hence you would first assign a logical name to each device by means of the assign device action. Subsequently, invoke the use device action to designate whichever device you want to apply the test automation to.
 
@@ -47,7 +47,7 @@ Let's say you have two Android mobile devices connected to a controller. Device 
 
 ![](/images/TA_Automation/Images/bia_assign_device_pgm.png)
 
-## Troubleshooting
+## {{< expand >}} Troubleshooting
 
 **What happens if the test executes a use device action specifying a device that is currently busy executing another automated test?**
 

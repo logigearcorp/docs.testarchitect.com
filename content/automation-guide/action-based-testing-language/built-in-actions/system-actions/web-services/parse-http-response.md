@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, parse http response, parse http response (action), parse http response, parse http response header, parse http response body, parse http response status, parse response"
 ---
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#bia_parse_http_response__section_iyg_dsd_1y} 
 
 Parse the response of the request to status, header and body.
 
-## Arguments
+## {{< expand >}} Arguments {{< permerlink >}} {#bia_parse_http_response__section_jyg_dsd_1y} 
 
 -   **response**
 
@@ -31,11 +31,11 @@ Parse the response of the request to status, header and body.
     \(Optional\) Variable to receive the HTTP body of the response
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts {{< permerlink >}} {#bia_parse_http_response__section_kyg_dsd_1y} 
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes {{< permerlink >}} {#bia_parse_http_response__section_lyg_dsd_1y} 
 
 -   If the variables in arguments status, header, or body are left empty, TestArchitect supplies global variables with the names \_status, \_header, or \_body, respectively.
 -   For a full list of returned HTTP status code, refer to [Status Code Definitions](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html).
@@ -47,7 +47,7 @@ This action may be used within the following project items:test modules and user
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Example
+## {{< expand >}} Example {{< permerlink >}} {#bia_parse_http_response__section_pyg_dsd_1y} 
 
 Suppose that you'd like to test a given Google API to send a message to a recipient with the following information:
 

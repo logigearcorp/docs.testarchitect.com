@@ -8,7 +8,7 @@ aliases:
 keywords: "constants of abt, TARect, TARect (constants), TArect, draw rectangle, define area enclosed by rectangle, establish rectangular area"
 ---
 
-## Description
+## {{< expand >}} Description
 
 A TARect specifies an area in a coordinate space that is defined by the TARect object's top-left point \(x, y\) in the coordinate space, its width, and its height.
 

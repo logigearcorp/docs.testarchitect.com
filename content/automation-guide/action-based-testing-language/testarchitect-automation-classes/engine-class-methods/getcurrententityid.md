@@ -8,15 +8,15 @@ aliases:
 keywords: "ABT Library Functions, getCurrentEntityID, getCurrentEntityID (ABT library function)"
 ---
 
-## Syntax
+## {{< expand >}} Syntax
 
 `string getCurrentEntityID(string entityType)`
 
-## Description
+## {{< expand >}} Description
 
 Return the ID of the current project item.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **entityType**
 
@@ -27,7 +27,7 @@ Return the ID of the current project item.
     -   testmodule
     -   testcase
 
-## Return Value
+## {{< expand >}} Return Value
 
 String value containing ID of the specified project item.
 

@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80020001L"
 
 Error code: 0x80020001L
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because using TestArchitect to work with Microsoft UI Automation technology requires .NET Framework 4.0 or higher installed on your test machine.
 
-## Solution
+## {{< expand >}} Solution
 
 Have [.NET Framework 4.0](https://www.microsoft.com/en-us/download/details.aspx?id=17851) or higher installed on your test machine, and re-run the test.
 

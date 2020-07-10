@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, connect database, connect database (action), connect a database, attach a database"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Open a database connection.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **connection string**
 
@@ -23,7 +23,7 @@ Open a database connection.
     Connection name \(see Notes below\).
 
 
-## Notes
+## {{< expand >}} Notes
 
 -   This action is generally invoked as part of a sequence of actions to allow the test to access a data source. \(See [Testing with databases](/automation-guide/application-testing/testing-with-databases/) for more information.\)
 -   The value for connection string may be derived by invoking the action [create connection string](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/connect-database). The nature of a connection string – that is, the parameters that apply to it – is specific to the type of data source that it targets. More information on connection strings is available from the website [www.connectionstrings.com/](http://www.connectionstrings.com/).
@@ -34,11 +34,11 @@ Open a database connection.
 -   The name that you specify in argument name is assigned to the database connection and is available globally throughout your test run set, to be used by the built-in actions [use database](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/use-database) and [disconnect database](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/disconnect-database).
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cell](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Applicable Controls
+## {{< expand >}} Applicable Controls
 
 This action is applicable to the following controls:none.
 

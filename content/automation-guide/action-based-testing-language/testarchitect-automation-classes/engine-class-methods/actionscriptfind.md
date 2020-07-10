@@ -8,15 +8,15 @@ aliases:
 keywords: "ABT Library Functions, ActionScriptFind, ActionScriptFind (ABT library function)"
 ---
 
-## Syntax
+## {{< expand >}} Syntax
 
 `string ActionScriptFind(string action)`
 
-## Description
+## {{< expand >}} Description
 
 Retrieve the definition of a user-defined action.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **action**
 

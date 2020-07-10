@@ -12,11 +12,11 @@ keywords: "ABT Library Functions, SetInterfaceAction, SetInterfaceAction (ABT li
 
 `integer SetInterfaceAction(string interface, string classname, string actionname, string action)`
 
-## Description
+## {{< expand >}} Description
 
 Set an action for a class of elements in the interface \(for example "enter", to enter a value in a text box or select an item in a list box\)
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **interface**
 
@@ -35,11 +35,11 @@ Set an action for a class of elements in the interface \(for example "enter", to
     The low level action \(like "push button" or "enter edit"\).
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 The low level action is defined with respect to the logical action for the element class. If the interface or classes are not defined, the function will fail, a diagnostic will be issued, and an empty string will be returned.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This function is analogous to the built-in action "interface element class action".
 

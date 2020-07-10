@@ -26,7 +26,7 @@ Clearly, the only thing connecting such controls is their proximity to each othe
 
 A summary of the label-finding procedure follows. Details on some of the more technical definitions required for the algorithm's implementation are available in [label property - positional details](/user-guide/interface-definitions/control-properties/secondary-properties/label-property/label-property-positional-details).
 
-## General overview
+## {{< expand >}} General overview
 
 In the matching process for every main \(i.e., label-accepting\) control, TestArchitect looks first for any label controls to the left or right of the main control, and whose top or bottom edges are aligned with it. It also looks for labels above the main control whose left edges are aligned with that of the main control. Labels that exceed some threshold distance from the main control are eliminated from contention. How *alignment* is defined is discussed in [label property - positional details](/user-guide/interface-definitions/control-properties/secondary-properties/label-property/label-property-positional-details).
 
@@ -42,7 +42,7 @@ Note that there is no guarantee that a TA label property of a given control will
 
 ![](/images/TA_Help/Images/label_duplication.png)
 
-## Label-finding procedure
+## {{< expand >}} Label-finding procedure {{< permerlink >}} {#Interface_def.label_property__section.full_algorithm} 
 
 During a [window intake](/user-guide/interface-definitions/control-properties/intake) process, the following label-finding process is applied to each label-accepting control in the window. The logical hierarchy of the controls is followed to determine the order in which each label-accepting control is examined.
 

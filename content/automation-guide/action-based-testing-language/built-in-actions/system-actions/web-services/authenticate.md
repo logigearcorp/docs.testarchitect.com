@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, authenticate, authenticate (action), authenticate web service, web service authentication, authenticaion for web service"
 ---
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#bia_authenticate__section_iyg_dsd_1y} 
 
 Specify an HTTP authentication scheme and its information before working with web services. The user must be authenticated to the services.
 
-## Arguments
+## {{< expand >}} Arguments {{< permerlink >}} {#bia_authenticate__section_jyg_dsd_1y} 
 
 -   **scheme**
 
@@ -28,11 +28,11 @@ Specify an HTTP authentication scheme and its information before working with we
     HTTP authentication information \(see Notes\)
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts {{< permerlink >}} {#bia_authenticate__section_kyg_dsd_1y} 
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes {{< permerlink >}} {#bia_authenticate__section_lyg_dsd_1y} 
 
 -   You are required to declare this built-in action before the authentication is started. Additionally, this built-in action can also be declared after or before the declaration of [create http request](/automation-guide/action-based-testing-language/built-in-actions/system-actions/web-services/create-http-request).
 -   value argument: Depends on which authentication scheme is selected, there are different ways to provide HTTP authentication information.
@@ -52,7 +52,7 @@ This action may be used within the following project items:test modules and user
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Example 1 - Basic authentication scheme
+## {{< expand >}} Example 1 - Basic authentication scheme {{< permerlink >}} {#bia_authenticate__section_fdl_zpz_1y} 
 
 Suppose that you'd like to test the a given API based on the following information:
 
@@ -65,7 +65,7 @@ Suppose that you'd like to test the a given API based on the following informati
 
 ![](/images/TA_Automation/Images/bia_authenticate_pgm_2.png)
 
-## Example 2 - OAuth 2.0 authentication scheme
+## {{< expand >}} Example 2 - OAuth 2.0 authentication scheme {{< permerlink >}} {#bia_authenticate__section_pyg_dsd_1y} 
 
 Suppose that you'd like to test a given Gmail API to get all messages based on the following information:
 
@@ -80,7 +80,7 @@ Suppose that you'd like to test a given Gmail API to get all messages based on t
 
 ![](/images/TA_Automation/Images/bia_authenticate_pgm.png)
 
-## Example 3 - Digest authentication scheme
+## {{< expand >}} Example 3 - Digest authentication scheme {{< permerlink >}} {#bia_authenticate__section_yfb_xrf_mbb} 
 
 Suppose that you'd like to test a given API based on the following information:
 

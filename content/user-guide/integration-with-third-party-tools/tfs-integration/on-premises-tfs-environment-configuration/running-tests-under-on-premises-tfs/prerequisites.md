@@ -10,7 +10,7 @@ keywords: "Microsoft Test Manager, executing tests, prerequisites, MTM, executin
 
 This topic describes the requirements that must be met by the systems involved in running tests under TFS-MTM.
 
-## Requirements for each system
+## {{< expand >}} Requirements for each system
 
 ## Computer hosting the TestArchitect repository server
 
@@ -25,7 +25,7 @@ This topic describes the requirements that must be met by the systems involved i
     -   Microsoft Visual Studio [2015](https://msdn.microsoft.com/en-us/library/dd831853(v=vs.140).aspx), 2015 Update 1 \(Enterprise, Professional and Test Professional editions\).
     -   Microsoft Visual Studio [2013](https://msdn.microsoft.com/en-us/library/dd831853(v=vs.120).aspx) \(Ultimate, Premium, Professional and Test Professional editions\).
 
-## Lab environment where tests run
+## {{< expand >}} Lab environment where tests run
 
 -   Microsoft Test Controller for Visual Studio:
     -   Test controller for Visual Studio [2015](https://msdn.microsoft.com/en-us/library/hh546459(v=vs.140).aspx#controller), 2015 Update 1.

@@ -16,21 +16,21 @@ On the TestArchitect explorer tree, when you double-click a test module node, an
 
 The following operations can be performed on a test objective list view:
 
-## Common operations
+## {{< expand >}} Common operations
 
 You can find various common operations that can be performed on test objective list views at [Common operations](/user-guide/projects-and-project-items/project-items/list-view/common-operations/).
 
-## Opening test objective
+## {{< expand >}} Opening test objective
 
 You can view detailed information on a given test objective by selecting **Open** from the context menu, and then selecting the **Information** tab.
 
 {{<tip>}} You can also open multiple test objectives by using your keyboard's Shift key to select a contiguous range of test objectives \(or Control to select multiple noncontiguous test objectives\); then right-click the selection, and click Open.
 
-## Delete command
+## {{< expand >}} Delete command
 
 Use the **Delete** command, from the context menu, to remove the selected test objective\(s\).
 
-## Name change propagation
+## {{< expand >}} Name change propagation
 
 Select **Rename** from the context menu to edit the name of a selected test objective. The name of the test objective is thus updated within its parent test module.
 

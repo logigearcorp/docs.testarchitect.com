@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, execute command, execute command (action), Android (action), execute a command, run a command"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Execute a command-line command and return its output.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **command**
 
@@ -36,11 +36,11 @@ Execute a command-line command and return its output.
         -   **Shift-JIS**: Encode the file using Shift-JIS format. Recommend for use with Japanese.
         -   **UTF-8**: \(Default\) Encode the file using UTF-8 format.
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This built-in action is supported only on Windows test controllers; it is effective on Windows, iOS and Android test platforms.
 -   The execute command action can be invoked to execute any of the following:
@@ -63,7 +63,7 @@ This action may be used within the following project items:test modules and user
 
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Example - Case 1
+## {{< expand >}} Example - Case 1
 
 Suppose you issue the dir command in your automation script to see the available files and directories in the D:\\Development directory.
 
@@ -89,7 +89,7 @@ Instead of writing the dir output to the var\_output variable, you can write the
 
 ![](/images/TA_Automation/Images/new_execute_command_5.png)
 
-## Example - Case 2
+## {{< expand >}} Example - Case 2
 
 Suppose you may want to issue two commands in your automation script.
 

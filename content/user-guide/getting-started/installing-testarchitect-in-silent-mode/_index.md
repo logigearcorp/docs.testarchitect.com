@@ -12,7 +12,7 @@ In some cases, you may need to install TestArchitect in silent mode. In this mod
 
 For example, you install TestArchitect in silent mode, when you would like to automate the installation process or deploy TestArchitect on various computers. Especially, CI/CD cycle for continuous integration, deployment and delivery fit your needs most.
 
-## Silent installation performed via InstallShield on Windows
+## {{< expand >}} Silent installation performed via InstallShield on Windows
 
 -   The installation runs in the background. It does not show any dialog boxes or messages.
 -   An installation [response file](/user-guide/getting-started/installing-testarchitect-in-silent-mode/creating-an-installation-response-file) is required. Response file is like a mold that helps replicate the installation process again and again.

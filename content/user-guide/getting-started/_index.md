@@ -20,7 +20,7 @@ For detailed instructions, please follow the below links.
 -   [Linux](/user-guide/getting-started/testarchitect-installation-guide/linux)
 -   [macOS](/user-guide/getting-started/testarchitect-installation-guide/macos)
 
-## Licensing in TestArchitect
+## {{< expand >}} Licensing in TestArchitect {{< permerlink >}} {#getting_started__section_licensing_TA} 
 
 TestArchitect is sold on a node-locked or floating license basis. You must license your copy of TestArchitect before you can use it.
 
@@ -28,7 +28,7 @@ Licensing is handled through a License Server. Each time you start up TestArchit
 
 The License Server you use can reside either on your local machine, or on a remote system. The License Server you use for registration is the same server that will validate your license each time you use TestArchitect, so make certain that your License Server is installed on a machine that is always available. This is especially true in the case of multi-user licenses, where you want the active License Server to be available on your network to all valid users.
 
-## Installing TestArchitect License Server
+## {{< expand >}} Installing TestArchitect License Server
 
 Run the TestArchitect License Server installer and follow the instructions to install TestArchitect License Server.
 
@@ -37,11 +37,11 @@ For detailed instructions, please follow the below links.
 -   [Windows](/administration-guide/license-server/license-server-installation-guide/windows)
 -   [Linux](/administration-guide/license-server/license-server-installation-guide/linux)
 
-## Requesting a license key
+## {{< expand >}} Requesting a license key
 
 To obtain your license key, please fill in the License Request form and submit it to us. For more information, read this [topic](/administration-guide/license-server/obtaining-a-testarchitect-license/requesting-a-license-key).
 
-## Adding new license to the License Server
+## {{< expand >}} Adding new license to the License Server
 
 After you submit the request, a LogiGear representative will shortly contact you for verification, and then email you your personal key. Follow this [link](/administration-guide/license-server/obtaining-a-testarchitect-license/adding-new-licenses) to add new licenses to your License Server.
 
@@ -49,7 +49,7 @@ After you submit the request, a LogiGear representative will shortly contact you
 
 See these diagrams [here](http://testarchitect.com/support/documentation/get-started) to understand the basics of TestArchitect's project items, the concept of interface mapping \(in which user interface objects are identified by their properties\), and a quick reference sheet related to Action-Based Testing language.
 
-## Video tutorials
+## {{< expand >}} Video tutorials
 
 These [instructional videos](http://testarchitect.logigear.com/support/documentation/tutorial-videos) take you step-by-step through the test creation and execution process that will enable you to create and maintain large-scale test automation using TestArchitect.
 

@@ -8,13 +8,13 @@ aliases:
 keywords: "built-in actions, check button menu exists, check button menu exists (action), check for existence of specified menu item in drop-down button, check if specific menu item in drop-down button exists, check whether given specific menu item in drop-down button exists, verify if specific menu item in drop-down button exists, verify existence of specific menu item in drop-down button"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Check for the existence of a menu item of a button drop-down. Result is Passed if the specified item is found; otherwise Failed.
 
 {{<note>}} The drop-down button consists of a button. When clicked, the button displays a drop-down menu or list of items.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **window**
 
@@ -29,26 +29,26 @@ Check for the existence of a menu item of a button drop-down. Result is Passed i
     Menu item or menu item path \(see Notes\).
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes {{< permerlink >}} {#bia_check_button_menu_exists__section.notes} 
 
 -   item argument:
     -   Menu items are identified by their caption properties.
     -   If a menu path of more than one item must be specified, use arrow symbols \( -\> \) as delimiters between menu items. For example, `Vehicles->Cars->Four-door sedans`.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only), [item wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/item-wait), [object wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/object-wait), [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait), [load invisible controls](/automation-guide/action-based-testing-language/built-in-settings/other-settings/load-invisible-controls).
 
-## Applicable Controls
+## {{< expand >}} Applicable Controls
 
 This action is applicable to the following controls:menu.
 
-## Example
+## {{< expand >}} Example
 
 ![](/images/TA_Automation/Images/bia_check_button_menu_exists_aut.png)
 

@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, does text exist, does text exist (action), iOS (action), does text exist, Android (action), Is specified text found in area, Find specified text within area"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Return a Boolean value to indicate whether a specified [bitmap text fragment](/user-guide/support/glossary-of-terms/bitmap-text-fragment) is found to exist in a given bitmap.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **window**
 
@@ -67,11 +67,11 @@ Return a Boolean value to indicate whether a specified [bitmap text fragment](/u
     This value is obtained from the [OCR Detector Tool](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/ocr-detector-tool/detecting-matched-texts#note_e3p_3yg_g4) dialog box.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes {{< permerlink >}} {#bia_does_text_exist__section_lgn_3ht_lk} 
 
 -   This built-in action employs both [Optional Character Recognition](/automation-guide/action-based-testing-language/the-test-language/text-recognition-techniques) \(OCR\) and [Graphics Device Interface](/automation-guide/action-based-testing-language/the-test-language/text-recognition-techniques) \(GDI\) techniques. By default, the action employs OCR technique. To switch to GDI technique, refer to the [character recognition technique](/automation-guide/action-based-testing-language/built-in-settings/other-settings/character-recognition-technique) built-in setting for details.
 
@@ -120,7 +120,7 @@ This action may be used within the following project items:test modules and user
         3.  Click the **Refresh devices list** ![](/images/Android/Images/Refresh_device_list_btn.png) button.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive) \(see Notes\), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only), [object wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/object-wait), [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait), [load invisible controls](/automation-guide/action-based-testing-language/built-in-settings/other-settings/load-invisible-controls).
 
@@ -136,7 +136,7 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ![](/images/TA_Automation/Images/bia_does_text_exist_res.png)
 
-## Example - Case 2: With rect argument specified
+## {{< expand >}} Example - Case 2: With rect argument specified
 
 ![](/images/TA_Automation/Images/bia_does_text_exist_aut_2.r01.png)
 
@@ -148,7 +148,7 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ![](/images/TA_Automation/Images/bia_does_text_exist_res_2.png)
 
-## Example - Case 3: With index argument specified
+## {{< expand >}} Example - Case 3: With index argument specified
 
 ![](/images/TA_Automation/Images/bia_does_text_exist_aut_3.png)
 
@@ -160,7 +160,7 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ![](/images/TA_Automation/Images/bia_does_text_exist_res_3.png)
 
-## Example - Case 4: With text color argument specified
+## {{< expand >}} Example - Case 4: With text color argument specified
 
 ![](/images/TA_Automation/Images/bia_does_text_exist_aut_4.png)
 

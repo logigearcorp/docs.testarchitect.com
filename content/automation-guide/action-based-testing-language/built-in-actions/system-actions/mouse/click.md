@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, click, click (action), iOS (action), click, Safari, iOS (action), iOS, Safari (action), Android (action), Android, Google Chrome (action), Google Chrome, Android (action), Safari, macOS (action), macOS, Safari (action), mouse click, left click, single left click"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Click a GUI element.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **window**
 
@@ -49,11 +49,11 @@ Click a GUI element.
     \(Optional\) Vertical position of effective click, specified as distance in pixels from top edge of the specified display element, which may be a control, window or screen \(see note below\). \(Defaults to vertical center of display element.\)
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   click type argument:
     -   The following applies to the use of this action on an iOS device:
@@ -75,15 +75,15 @@ This action may be used within the following project items:test modules and user
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 -   You cannot interact with the control located outside the working document.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only), [object wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/object-wait), [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait).
 
-## Applicable Controls
+## {{< expand >}} Applicable Controls
 
 This action is applicable to the following controls:activity indicator view, button, collection view, collection view cell, date picker, image, label, map view, navigation bar, page control, picker view, progress bar, scroll view, search bar, segmented control, slider, stepper, switch, tab bar, table view, table view cell, text view, text box, toolbar, view, web view, window.
 
-## Example
+## {{< expand >}} Example
 
 ![](/images/TA_Automation/Images/bia_click_aut1.png)
 

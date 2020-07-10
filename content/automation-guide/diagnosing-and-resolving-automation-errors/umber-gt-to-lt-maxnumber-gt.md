@@ -10,11 +10,11 @@ keywords: "automation errors, 0x8001000BL"
 
 Error code: 0x8001000BL
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because the specified argument value of a given built-in action for a slider control is out-of-range.
 
-## Solution
+## {{< expand >}} Solution
 
 Check the slider control on the AUT and enter a new value which is an integer and in the range of the min and max value.
 

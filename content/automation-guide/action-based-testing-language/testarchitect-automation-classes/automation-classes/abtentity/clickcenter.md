@@ -12,11 +12,11 @@ keywords: "methods of abt, ClickCenter, ClickCenter (AbtEntity), AbtEntity, clic
 
 `long ClickCenter (TAMouseClickType mouseType)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_ClickCenter_entity__section.desc} 
 
 Apply a mouse click to the center point of the window.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_ClickCenter_entity__section.params} 
 
 -   **mouseType**
 
@@ -37,7 +37,7 @@ Apply a mouse click to the center point of the window.
         Double left-click
 
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#abt_ClickCenter_entity__section.return} 
 
 Return 0 if theclickis successful; otherwise, -1.
 

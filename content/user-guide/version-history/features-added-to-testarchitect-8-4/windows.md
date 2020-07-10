@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be the same version.
 
-## TestArchitect Client
+## {{< expand >}} TestArchitect Client {{< permerlink >}} {#concept_what_new_8.4__section.TAC} 
 
 **New features**
 
@@ -37,7 +37,7 @@ The following new features and improvements are introduced in TestArchitect vers
     -   **Adding timestamp for log messages**: All report lines in log files are printed with timestamp prefixes.
     -   [**Preventing excessive number of log files**](/user-guide/test-execution/execution-log-files/automatically-removing-old-log-files): Gradually, log files may take up hard disk space over time. Thus, TestArchitect offers you a mechanism to automatically delete old log files.
 
-## TestArchitect Automation
+## {{< expand >}} TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.4__section.Auto} 
 
 **New features**
 

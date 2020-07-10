@@ -8,26 +8,26 @@ aliases:
 keywords: "built-in actions, kill process, kill process (action), Android (action), kill process, terminate process, stop process, remove process, get rid of process"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Terminate a running process on a mobile device.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **process name**
 
     The process id \(aka name, bundle ID or package name\) of the running process. \(See Notes section for how to determine process id.\)
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## {{< expand >}} Applicable Systems/Platforms {{< permerlink >}} {#bia_kill_process__section_ndc_dcl_zcb} 
 
 Use of this action is supported on the following systems/platforms: Android.
 
-## Notes
+## {{< expand >}} Notes
 
 -   process name argument:
     -   On an Android device, process name is the package name of the running application. To retrieve the package name for an Android application:
@@ -39,11 +39,11 @@ Use of this action is supported on the following systems/platforms: Android.
         3.  In the test editor, paste the copied value into the process name argument of the built-in action.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Example
+## {{< expand >}} Example
 
 ![](/images/TA_Automation/Images/bia_kill_process_aut.jpg)
 

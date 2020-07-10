@@ -8,15 +8,15 @@ aliases:
 keywords: "methods of abt, CheckProperty, CheckProperty (AbtEntity), AbtEntity, checkproperty, abtentity checkproperty, window's property matches expected value, check window's property against expected value"
 ---
 
-## Syntax
+## {{< expand >}} Syntax {{< permerlink >}} {#ref.abt_CheckProperty.entity.java__section.syntax} 
 
 `Boolean CheckProperty(string propertyName, string propertyValue)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#ref.abt_CheckProperty.entity.java__section.desc} 
 
 Determine whether the window's property matches a specified value.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#ref.abt_CheckProperty.entity.java__section.params} 
 
 -   **propertyName**
 
@@ -27,7 +27,7 @@ Determine whether the window's property matches a specified value.
     String value indicating the expected value.
 
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#ref.abt_CheckProperty.entity.java__section.return} 
 
 Return TRUE ifthe property contains the specified value; otherwise, FALSE.
 

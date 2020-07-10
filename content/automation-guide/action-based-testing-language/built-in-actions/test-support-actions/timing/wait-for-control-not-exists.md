@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, wait for control not exists, wait for control not exists (action), wait for control not exists, continue test after control no longer exists, continue test after control disappears, delay test until control disappears, suspend test until control disappears"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Allow for execution to proceed only when it is determined that a specified control no longer exists.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **window**
 
@@ -27,11 +27,11 @@ Allow for execution to proceed only when it is determined that a specified contr
     \(Optional\) Maximum time to wait \(units: seconds; default = current value of the [object wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/object-wait) built-in setting – see note below\).
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   If the given control fails to disappear before the specified timeout, an [automation error](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/error-handling/) is generated.
 -   If no value is specified for the time out argument, the current value of the built-in setting [object wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/object-wait) is used. [object wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/object-wait), if not otherwise set in a [setting](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/value-handling/setting) action line, defaults to a value of 20 seconds.
@@ -42,11 +42,11 @@ This action may be used within the following project items:test modules and user
 -   Note that, if the built-in setting [load invisible controls](/automation-guide/action-based-testing-language/built-in-settings/other-settings/load-invisible-controls) is set to yes, only the nonexistence of a matching control \(as opposed to a matching control simply being invisible\) satisfies the "not exists" condition of this action.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive), [load invisible controls](/automation-guide/action-based-testing-language/built-in-settings/other-settings/load-invisible-controls), [object wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/object-wait), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only), [page wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/page-wait), [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait).
 
-## Example
+## {{< expand >}} Example
 
 Your test instructs the AUT to save a given working document. You do not want to allow the test to continue until the save operation is complete, hence you can use the presence \(or absence\) of the **Saving** progress bar to indicate that the save is ongoing \(or complete\).
 

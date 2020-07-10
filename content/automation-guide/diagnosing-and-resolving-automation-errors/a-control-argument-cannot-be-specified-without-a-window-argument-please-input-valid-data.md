@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80010007L"
 
 Error code: 0x80010007L
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because the window argument value of a given built-in action is omitted.
 
-## Solution
+## {{< expand >}} Solution
 
 Fill in a value for the window argument, and then re-run the test.
 

@@ -10,7 +10,7 @@ keywords: "Release Notes 8.4.4, License Server, Windows, What is new, Windows, L
 
 The following new features and improvements are introduced in the latest version of TestArchitect License Server running on Windows.
 
-## License Server
+## {{< expand >}} License Server {{< permerlink >}} {#Whats_New_LS_Windows_8.4.4__section_LS} 
 
 **Enhancements**
 

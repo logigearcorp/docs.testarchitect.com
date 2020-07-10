@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
 
-## TestArchitect Client
+## {{< expand >}} TestArchitect Client
 
 -   [**Support for \| symbol to separate keywords in variation identifiers:**](/user-guide/variations/creating-keyword-variations) Streamlines the process of creating multiple variations for a given keyword-defined attribute, such as Browser.
 

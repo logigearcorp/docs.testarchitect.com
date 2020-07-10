@@ -10,11 +10,11 @@ keywords: "automation errors, 0x8001000EL"
 
 Error code: 0x8001000EL
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because the specified value for the required argument is invalid.
 
-## Solution
+## {{< expand >}} Solution
 
 1.  Check the AUT again.
 2.  Look up the possible values of the corresponding built-in action by pressing F1 on the action to invoke TestArchitect Help.

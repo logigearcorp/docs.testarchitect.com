@@ -18,35 +18,35 @@ On the TestArchitect explorer tree, when you double-click the **Results** node, 
 
 The following operations can be performed on a repository test result list view:
 
-## Common operations
+## {{< expand >}} Common operations
 
 You can find various common operations that can be performed on a repository test result list view at [Common operations](/user-guide/projects-and-project-items/project-items/list-view/common-operations/).
 
-## Opening a result
+## {{< expand >}} Opening a result
 
 From a list view, you can display a repository test result in the main panel by right-clicking its list view entry, then clicking **Open**.
 
 {{<tip>}} You can also open multiple test results by using your keyboard's Shift key to select a contiguous range of test results \(or Control to select multiple noncontiguous test results\); then right-click the selection, and click Open.
 
-## Opening the source test module
+## {{< expand >}} Opening the source test module
 
 You can have the editor open the test module responsible for a given test result by selecting **Open related test** on the context menu.
 
-## Re-executing the tests
+## {{< expand >}} Re-executing the tests
 
 You can re-execute the test\(s\) responsible for selected test result\(s\) by selecting **Execute related test** on the context menu. \([Learn more](/user-guide/test-execution/methods-of-test-execution/configuring-and-running-tests-from-testarchitect-client).\)
 
-## Setting/unsetting a baseline result
+## {{< expand >}} Setting/unsetting a baseline result
 
 Any repository-based test result can be set as the baseline for the test module with which it is associated. Alternatively, if a given baseline result no longer needs to be designated as a baseline, you can unset it. Use the **Set as baseline result** and **Unset baseline** commands of the context menu for these purposes. \(See [Setting baseline result](/user-guide/working-with-test-results/comparing-test-results/setting-baseline-result), and [Unsetting baseline results](/user-guide/working-with-test-results/comparing-test-results/unsetting-baseline-results) for further information.\)
 
-## Comparing test results
+## {{< expand >}} Comparing test results
 
 Side-by-side comparison of test results, or side-by-side comparison between a test result and a baseline result from the same test module, enable you to track your progress over time. To compare a repository test result to its corresponding baseline, use the **Compare to baseline result** command of the context menu.
 
 The **Mark to compare**, **Compare results**, and **Go to marked result** commands may be used to compare any two "peer" results, where neither is required to be a baseline. \(More information is available at [Comparing results with baseline](/user-guide/working-with-test-results/comparing-test-results/comparing-results-with-baseline) and [Comparing results without baseline](/user-guide/working-with-test-results/comparing-test-results/comparing-results-without-baseline).\)
 
-## Cut-Paste operations, and Delete command
+## {{< expand >}} Cut-Paste operations, and Delete command
 
 -   From the repository test result list view, you can remove a given repository test result from one result folder and paste it to another by performing the **Cut** and **Paste** operations from the context menu.
 
@@ -57,11 +57,11 @@ The **Mark to compare**, **Compare results**, and **Go to marked result** comman
     -   During a drag operation, at any time your mouse pointer is over a location that cannot accept the type of item being dragged, the pointer turns into a black crossed circle ![](/images/TA_Help/Images/black_cross_icon.png). Releasing the mouse button at this point simply cancels the operation.
 -   Use the **Delete** command, from the context menu, to remove the selected repository test result\(s\).
 
-## Renaming test results
+## {{< expand >}} Renaming test results
 
 Repository test results can be renamed using **Rename** on the context menu.
 
-## Converting test result to external files
+## {{< expand >}} Converting test result to external files
 
 From the context menu, a local test result can be converted and exported to the following:
 
@@ -69,7 +69,7 @@ From the context menu, a local test result can be converted and exported to the 
 -   XML files in xUnit format \([learn more](/user-guide/working-with-test-results/exporting-test-results/exporting-test-results-to-xunit).\)
 -   XML Detail files for backup or purpose \([learn more](/user-guide/working-with-test-results/exporting-test-results/exporting-test-results-to-xml).\)
 
-## Integration with third-party tools
+## {{< expand >}} Integration with third-party tools
 
 TestArchitect seamlessly integrates with several powerful third-party tools, to assist in application development, continuous integration, and test management. Interfaces with [HP Quality Center](/user-guide/integration-with-third-party-tools/hp-quality-center/) \(QC\), and [Team Foundation Server/Microsoft Test Manager](/user-guide/integration-with-third-party-tools/tfs-integration/) \(TFS-MTM\) are all available to extend TestArchitect's functionality and empower your and your team.
 
@@ -78,7 +78,7 @@ TestArchitect seamlessly integrates with several powerful third-party tools, to 
 -   Team Foundation Server-Microsoft Test Manager:
     -   Upload TA test results to TFS \([learn more](/user-guide/integration-with-third-party-tools/tfs-integration/on-premises-tfs-environment-configuration/running-tests-under-on-premises-tfs/uploading-testarchitect-test-results/manually-uploading-testarchitect-test-results-to-tfs)\)
 
-## Previewing summary of a checkpoint failure or an automation warning/error
+## {{< expand >}} Previewing summary of a checkpoint failure or an automation warning/error
 
 {{<note>}} Applies to TestArchitect [8.3 Update 5](/user-guide/version-history/features-added-to-testarchitect-8-3-update-5/) and higher.
 

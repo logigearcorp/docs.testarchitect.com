@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in settings, click method, settings, click method (settings), click method, specify whether mousemove, mousedown, mouseup events are treated as single sendinput message or separate sendinput messages, treat mousemove, mousedown and mouseup events as single message, treat mousemove, mousedown, mouseup events as separate messages"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Specifies which type of [sendInput\(\)](https://msdn.microsoft.com/en-us/library/windows/desktop/ms647591(v=vs.85).aspx) message – that is, separate sendinput messages or single sendinput message – takes effect when TestArchitect performs click-related built-in actions on the AUT.
 
-## Allowable values
+## {{< expand >}} Allowable values
 
 {{<note>}}
 
@@ -31,17 +31,17 @@ Technically, in TestArchitect, when a mouse click is specified by an action or m
     MouseMove, MouseDown, and MouseUp are combined and sent as a single [sendInput\(\)](https://msdn.microsoft.com/en-us/library/windows/desktop/ms647591(v=vs.85).aspx) message.
 
 
-## Default value
+## {{< expand >}} Default value
 
 single sendinput message
 
-## Applicable Systems/Platforms
+## {{< expand >}} Applicable Systems/Platforms {{< permerlink >}} {#bis_click_method__section_t5m_gsg_5v} 
 
 This built-in setting is supported on the following systems/platforms:
 
 -   Windows: All applications.
 
-## Applicable Built-in Actions
+## {{< expand >}} Applicable Built-in Actions
 
 Use of this built-in setting is applicable to the following built-in actions:
 
@@ -62,11 +62,11 @@ Use of this built-in setting is applicable to the following built-in actions:
 -   [select tab](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tab-controls/select-tab)
 -   [select toolbar menu](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/select-toolbar-menu)
 
-## Notes
+## {{< expand >}} Notes
 
 -   Use this built-in setting to avoid problems that can result from unstable network connections, virtual machines, remote desktops, etc. Such issues may cause click-related built-in actions to unexpectedly fail to register with the AUT.
 
-## Example
+## {{< expand >}} Example
 
 By default, the click method setting holds a value of single sendinput message. System issues such as unstable networks, poor remote desktop connections, etc., can cause click-related built-in actions to unexpectedly fail to register with the AUT during automation. Changing the value of this setting to separate sendinput messages is one means of addressing this issue.
 

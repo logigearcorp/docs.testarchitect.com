@@ -10,11 +10,11 @@ keywords: "Excel testing, setting up, example"
 
 Information specific to testing with Microsoft Excel
 
-## Introduction
+## {{< expand >}} Introduction
 
 Microsoft Excel is a spreadsheet application developed by Microsoft for Microsoft Windows.
 
-## Configuration
+## {{< expand >}} Configuration
 
 -   Supported Microsoft Excel versions: 2007, 2010 and 2013.
 -   Microsoft Excel Supported Extensions: xls, xlsx, xlsm, xlsb.
@@ -31,7 +31,7 @@ Microsoft Excel is a spreadsheet application developed by Microsoft for Microsof
         -   **ODBC driver for Excel 2010 \(both 32 and 64-bit\):** [http://www.microsoft.com/en-us/download/details.aspx?id=13255](http://www.microsoft.com/en-us/download/details.aspx?id=13255)
         -   **ODBC driver Excel 2013 \(32-bit\):** [http://www.microsoft.com/en-us/download/details.aspx?id=39358](http://www.microsoft.com/en-us/download/details.aspx?id=39358)
 
-## Actions
+## {{< expand >}} Actions
 
 TestArchitect provides the following built-in actions for working with SQL-compliant databases. They are listed in the typical order of their workflow:
 
@@ -41,7 +41,7 @@ TestArchitect provides the following built-in actions for working with SQL-compl
 4.  [execute sql](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/execute-sql): Execute an SQL command against the currently in-use database; optionally, store returned data into one or more data sets.
 5.  [disconnect database](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/disconnect-database): Close the database connection.
 
-## Connecting to Excel from your test
+## {{< expand >}} Connecting to Excel from your test
 
 Use the action [create connection string](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/create-connection-string) to establish an ODBC connection to the Excel file. Note that the action's driver argument should have one of the following values:
 
@@ -92,7 +92,7 @@ For the purpose of running an SQL query, Excel offers a few constructs that can 
 
 It's important to note that, for whichever type of table construct you use, TestArchitect treats the first row of the given range as one of column headers. The values in this row are used as the field names of the dynamic data set \(customer\_ds in all the above examples\) that is generated.
 
-## Example
+## {{< expand >}} Example
 
 ```
 create connection string  
@@ -106,7 +106,7 @@ create connection string
 
 ![](/images/TA_Automation/Images/bia_database_Excel_connection_string_res.png)
 
-## Notes
+## {{< expand >}} Notes
 
 -   Note that ODBC Excel Driver also produces some limitations as long as benefits.\([Learn more](http://support.microsoft.com/kb/178717).\)
 

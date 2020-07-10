@@ -12,11 +12,11 @@ keywords: "methods of abt, AddRow, AddRow (AbtDataSet), AbtDataSet, addrow, abtd
 
 `int AddRow({{<link title="AbtDataRow" link="/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdatarow/" >}} row)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#reference_z2y_cbw_gq__section.desc} 
 
 Append a new row to the data set object.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#reference_z2y_cbw_gq__section.params} 
 
 -   **row**
 
@@ -27,7 +27,7 @@ Append a new row to the data set object.
 
 Return 0 if theexecutionis successful; otherwise, -1.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This method is currently supported only by the C\# harness.
 

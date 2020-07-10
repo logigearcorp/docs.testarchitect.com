@@ -12,11 +12,11 @@ keywords: "ABT Library Functions, ReportTitle, ReportTitle (ABT library function
 
 `integer ReportTitle (string text, integer fontsize, integer bold, integer italic, integer underline )`
 
-## Description
+## {{< expand >}} Description
 
 Add a formatted text line to the report.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **text**
 
@@ -39,11 +39,11 @@ Add a formatted text line to the report.
     If true, the text will be underlined.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Return 1 if the call is successful; otherwise, 0.If unsuccessful, the diagnostic functions can be used to get more details.
 
-## Notes
+## {{< expand >}} Notes
 
 -   The exact effect depends on the specifics of the reporting program. The built-in RTF support supports the layout parameters.
 

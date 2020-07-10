@@ -10,11 +10,11 @@ keywords: "getsetting function, built-in setting, user-defined setting, getsetti
 
 Retrieve the current value of a built-in or a user-defined setting.
 
-## Syntax
+## {{< expand >}} Syntax
 
 `getsetting(string name, string type, string default)`
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **name**
 
@@ -33,16 +33,16 @@ Retrieve the current value of a built-in or a user-defined setting.
     Default value to be returned when this setting was not assigned a value.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 The value of the setting specified in name.
 
-## Notes
+## {{< expand >}} Notes
 
 -   default parameter: If the specified setting already has a value, this parameter has no effect. While a value is optional, you must at least specify an empty string. For example: \#getsetting\("language", "user defined", ""\)
 -   Alternatively, you can use [get setting](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/value-handling/get-setting) built-in action to achieve the same functionality.
 
-## Example
+## {{< expand >}} Example
 
 Suppose that you have a user-defined setting named language defined in the Execute Test dialog box \([learn more](/user-guide/test-execution/startup-settings/creating-a-new-user-defined-setting)\). The language setting is used to navigate to the appropriate web site. And its default value is English.
 

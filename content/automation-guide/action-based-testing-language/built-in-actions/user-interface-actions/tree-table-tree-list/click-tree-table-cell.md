@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, click tree table cell, click tree table cell (action), iOS (action), click tree table cell, Safari, iOS (action), click tree table cell, iOS, Safari (action), Android (action), Android, Google Chrome (action), click tree table cell, Google Chrome, Android (action), Safari, macOS (action), macOS, Safari (action), click specified cell in tree table, mouse click on cell in tree table"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Click a specific cell in a tree table or tree list.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **window**
 
@@ -47,32 +47,32 @@ Click a specific cell in a tree table or tree list.
     \(Optional\) Vertical position of effective click, specified as distance in pixels from top edge of cell. \(Defaults to vertical center of cell.\).
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   x and yare unsupported arguments and hence invisible. To use them, you must specify both their values and the headers x and y, respectively, in the cells to the right of the last visible argument.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only), [item wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/item-wait), [page wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/page-wait), [object wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/object-wait), [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait).
 
-## Applicable Controls
+## {{< expand >}} Applicable Controls
 
 This action is applicable to the following controls:Tree table, tree list.
 
-## Applicable Platform
+## {{< expand >}} Applicable Platform {{< permerlink >}} {#bia_click_table_cell__section_pvr_hfr_dkb} 
 
 Systems Applications and Products in Data Processing \(SAP\).
 
-## Applicable Version
+## {{< expand >}} Applicable Version {{< permerlink >}} {#bia_click_table_cell__section_fwl_2jr_dkb} 
 
 TestArchitect version 8.5 onward.
 
-## Example
+## {{< expand >}} Example
 
 ![](/images/TA_Automation/Images/bia_click_tree_table_cell_1.png)
 
@@ -84,7 +84,7 @@ TestArchitect version 8.5 onward.
 
 ![](/images/TA_Automation/Images/bia_click_tree_table_cell_3.png)
 
-## Example
+## {{< expand >}} Example
 
 ![](/images/TA_Automation/Images/bia_click_tree_table_cell_4.png)
 

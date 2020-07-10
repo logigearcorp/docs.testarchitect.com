@@ -10,11 +10,11 @@ keywords: "ABT Library Functions, OpenInterface, OpenInterface (ABT library func
 
 `integer OpenInterface (string name, string filename)`
 
-## Description
+## {{< expand >}} Description
 
 Open an existing interface to add new definitions.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **name**
 
@@ -25,11 +25,11 @@ Open an existing interface to add new definitions.
     Name of a file associated with the interface, the default file to save the interface.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Return 1 if the call is successful; otherwise, 0.If unsuccessful, the diagnostic functions can be used to get more details.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This function is analogous to the built-in action "open interface". The use of this function is not recommended when TestArchitect is used to control the automation.
 

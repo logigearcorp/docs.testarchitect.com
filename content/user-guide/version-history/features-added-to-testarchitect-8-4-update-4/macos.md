@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be the same version.
 
-## TestArchitect Client
+## {{< expand >}} TestArchitect Client {{< permerlink >}} {#Whats_New_Mac_8.4_update_4__section_agh_p2h_f3b} 
 
 **New features**
 
@@ -28,7 +28,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   The TestArchitect supported platforms is supplemented with Windows Server 2019 \(WPF and MFC\).
 -   [Automatically uploading TestArchitect test results to Team Foundation Server](/user-guide/integration-with-third-party-tools/tfs-integration/on-premises-tfs-environment-configuration/running-tests-under-on-premises-tfs/uploading-testarchitect-test-results/automatically-uploading-testarchitect-test-results-to-tfs#) - Previously, you could only upload test result\(s\) to TFS with TFS Helper uploading method. From 8.4 Update 4 onwards, the TestArchitect supports one more method using REST API.
 
-## TestArchitect Automation
+## {{< expand >}} TestArchitect Automation {{< permerlink >}} {#Whats_New_Mac_8.4_update_4__section.Auto} 
 
 **New features**
 

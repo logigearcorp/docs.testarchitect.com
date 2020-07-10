@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, type, type (action), Android (action), type, Safari, macOS (action), macOS, Safari (action), type keys"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Simulate the typing of one or more keys into a window.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **window**
 
@@ -23,11 +23,11 @@ Simulate the typing of one or more keys into a window.
     Keys to type.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This action does not support iOS devices.
 -   Note that this action does not include a control argument. In effect, type emulates typing keys with the character entry being directed to whichever control has focus at that point. To direct entry to a particular control, type is typically preceded by a [focus control](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/focus-control) action.
@@ -56,11 +56,11 @@ This action may be used within the following project items:test modules and user
 -   Curly braces that do not enclose strings recognized as special keys are treated as literal curly braces. For example, \{xyz\} writes \{xyz\} to the specified window, since xyz has no special meaning to TestArchitect. In the event you need to write a literal string that would otherwise be translated by TestArchitect as a special key, enclose the first curly brace in another pair of curly braces. Hence, to type the literal \{home\}, use \{\{\}home\}.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait).
 
-## Example
+## {{< expand >}} Example
 
 ![](/images/TA_Automation/Images/bia_type_aut.png)
 

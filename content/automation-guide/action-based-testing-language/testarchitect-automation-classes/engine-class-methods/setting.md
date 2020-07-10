@@ -12,11 +12,11 @@ keywords: "ABT Library Functions, Setting, Setting (ABT library function)"
 
 `string Setting (string settingname, string defaultvalue)`
 
-## Description
+## {{< expand >}} Description
 
 Get the value of a setting
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **settingname**
 
@@ -27,11 +27,11 @@ Get the value of a setting
     Value to be returned if the setting isn't defined.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 The function returns either the value of the setting or the default value in case the setting doesn't exist.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Settings have a wide variety of uses to tune the behavior of the engine or any other part of the automation. See also the chapter on settings.
 

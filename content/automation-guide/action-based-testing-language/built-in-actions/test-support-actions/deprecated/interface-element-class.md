@@ -8,22 +8,22 @@ aliases:
 keywords: "built-in actions, interface element class, interface element class (action)"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Action to specify the class of an interface element.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **name**
 
     Name of the class
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   For purposes of test automation, the class indicates how an interface element should be treated
 -   This action has been deprecated in TestArchitect 7.2.

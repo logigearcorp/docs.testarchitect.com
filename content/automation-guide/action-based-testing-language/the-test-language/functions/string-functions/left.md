@@ -10,11 +10,11 @@ keywords: "string functions, left, left (string function)"
 
 Return a substring containing a specified number of characters from the left side of a string.
 
-## Syntax
+## {{< expand >}} Syntax
 
 `string left(string str,integer len)`
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **str**
 
@@ -25,11 +25,11 @@ Return a substring containing a specified number of characters from the left sid
     The number of leftmost characters in str to return.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Returns a string containing a specified number of characters from the left side of string str. If len is zero, a zero-length string \(""\) is returned. If len is greater than or equal to the number of characters in str, the entire source string is returned.
 
-## Example
+## {{< expand >}} Example
 
 **Test Lines**
 

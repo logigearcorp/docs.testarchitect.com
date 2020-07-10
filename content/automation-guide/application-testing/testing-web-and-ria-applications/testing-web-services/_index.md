@@ -10,13 +10,13 @@ keywords: "web services testing, application testing"
 
 Web services are applications that can be published and called over the Internet by client applications. TestArchitect supports functional testing of web services.
 
-## Overview of web service
+## {{< expand >}} Overview of web service
 
 Web service is the medium of communication through which two applications exchange data regardless of their underline architecture and the technology. For example you want to display weather forecast information. You no longer need to collect, process and render the data in your application. Instead, you can buy the services from providers who already well-established in processing and publishing such kind of data.
 
 Today's software applications comprise complex web services and APIs which must be flexible and robust enough to scale and grow. It is vital to perform functional testing for web service during pre-deployment stage to identify and resolve defects as early as possible, and regression testing during post-deployment stage to ensure ongoing quality of service and availability.
 
-## Supported web services
+## {{< expand >}} Supported web services
 
 Web services can be implemented in different ways, but the following approach is supported by TestArchitect.
 
@@ -31,11 +31,11 @@ TestArchitect enables you to test web services that use following authentication
 -   [OAuth 2.0](https://oauth.net/2/)
 -   [Digest authentication](https://tools.ietf.org/html/rfc2617#section-3)
 
-## Network connection
+## {{< expand >}} Network connection
 
 A network connection to the web service-under-test is required. Otherwise, TestArchitect is unable to simulate calls to the web service methods.
 
-## Web service testing
+## {{< expand >}} Web service testing
 
 A web service test basically involves \([learn more](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-services/creating-a-test#section_l5x_qrm_1y)\):
 

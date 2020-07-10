@@ -8,7 +8,7 @@ aliases:
 keywords: "automation errors, Cannot matching control on action with multi iframe in Internet Explorer"
 ---
 
-## Scenario:
+## {{< expand >}} Scenario: {{< permerlink >}} {#reference_0x80020012L__section_hbk_tk4_c3b} 
 
 1. Create a **Test Module**
 
@@ -18,11 +18,11 @@ keywords: "automation errors, Cannot matching control on action with multi ifram
 
 4. Execute Test Module with checked checkbox Screenshot recording with browser Internet Explorer.
 
-## Result:
+## {{< expand >}} Result: {{< permerlink >}} {#reference_0x80020012L__section_em1_mr4_c3b} 
 
 Error message: No matching UI object found for "\[ta class=select-one, id=lstComponents\]" within the timeout of "30" seconds. Please check the interface definition for "\[ta class=select-one, id=lstComponents\]", or set a longer timeout with the "object wait" setting.
 
-## Solution:
+## {{< expand >}} Solution: {{< permerlink >}} {#reference_0x80020012L__section_nzz_nr4_c3b} 
 
 1. Open your Internet Option.
 

@@ -12,7 +12,7 @@ Import a repository from a .dat file.
 
 {{<restriction>}} The Import/Export tool is not available in the TestArchitect packages for the Linux and macOS operating systems.
 
-## Synopsis
+## {{< expand >}} Synopsis
 
 ```
 java -jar TAImportExportTool.jar --ImportRepository [--server<value>] [--port<value>] 

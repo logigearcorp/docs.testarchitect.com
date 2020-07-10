@@ -8,7 +8,7 @@ aliases:
 keywords: "built-in settings, add month compensation, settings, break year (settings), break year, change year from 2 digits to 4 digits, convert year from 2 digits to 4 digits, conversion of 2-digit year to 4-digit"
 ---
 
-## Description
+## {{< expand >}} Description
 
 A number that determines if a specified 2 digit year xx is to be treated as 19xx or 20xx:
 
@@ -23,7 +23,7 @@ Integer in the range of 0 to 99.
 
 30
 
-## Example
+## {{< expand >}} Example
 
 ## Test Lines
 

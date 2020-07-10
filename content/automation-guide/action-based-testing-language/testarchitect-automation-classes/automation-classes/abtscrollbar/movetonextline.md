@@ -12,18 +12,18 @@ keywords: "methods of abt, MoveToNextLine, MoveToNextLine (AbtScrollBar), AbtScr
 
 `long MoveToNextLine(long numberOfLines)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_MoveToNextLine__section.desc} 
 
 Move the scroll bar downward, or to the right, by the specified number of lines.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_MoveToNextLine__section.params} 
 
 -   **numberOfLines**
 
     Long value specifying the number of lines by which to move the scroll bar.
 
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#abt_MoveToNextLine__section.return} 
 
 Return 0 if the call is successful; otherwise, -1..
 

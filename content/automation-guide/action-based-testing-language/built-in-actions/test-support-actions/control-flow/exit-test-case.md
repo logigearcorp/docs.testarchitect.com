@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, exit test case, exit test case (action), exit test case, stop test case, terminate test case, test case termination"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Exit the current test case \(skip all remaining action lines in the current test case\), and then continue with the next test case.
 
-## Arguments
+## {{< expand >}} Arguments {{< permerlink >}} {#bia_exit_test_case__section_arguments} 
 
 -   **exit status**
 
@@ -23,11 +23,11 @@ Exit the current test case \(skip all remaining action lines in the current test
     -   complete: The operation is successful.
     -   incomplete: \(Default\) The operation is unsuccessful.
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This action can be used to handle an error situation.
 
@@ -42,11 +42,11 @@ This action may be used within the following project items:test modules and user
     |Complete|The overall status of test results is not necessarily [Not Finished](/user-guide/working-with-test-results/overview/test-result-status).|
 
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:none.
 
-## Example - Case 1: Exit status is Incomplete
+## {{< expand >}} Example - Case 1: Exit status is Incomplete
 
 **Action Lines**
 
@@ -58,7 +58,7 @@ When exit test case with the value of Incomplete is executed, the overall status
 
 ![](/images/TA_Automation/Images/bia_exit_test_case_res_exit_status_incomplete.png)
 
-## Example - Case 2: Exit status is Complete
+## {{< expand >}} Example - Case 2: Exit status is Complete
 
 **Action Lines**
 

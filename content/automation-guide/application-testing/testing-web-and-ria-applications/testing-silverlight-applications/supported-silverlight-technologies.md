@@ -12,11 +12,11 @@ Silverlight applications are rich internet applications \(RIAs\) which are execu
 
 {{<warning>}} Microsoft ceased development of Silverlight. However, Silverlight continues working in TestArchitect.
 
-## Supported Silverlight runtime versions
+## {{< expand >}} Supported Silverlight runtime versions
 
 You must have Silverlight version 5 installed on the TestArchitect test machine. You can download it from [http://www.microsoft.com/silverlight/](http://www.microsoft.com/silverlight/).
 
-## Supported Silverlight application types and modes
+## {{< expand >}} Supported Silverlight application types and modes
 
 -   In-browser applications
 -   Out-of-browser applications, that is, Silverlight applications deployed on a local computer. \(Refer to [Testing out-of-browser applications](/automation-guide/application-testing/testing-web-and-ria-applications/testing-silverlight-applications/testing-out-of-browser-applications) for details.\)
@@ -28,7 +28,7 @@ You must have Silverlight version 5 installed on the TestArchitect test machine.
 -   TestArchitect can test only Silverlight applications that are compiled and packed into an application package \(.xap file\) from which a wrapper web page can load the applications. Note that TestArchitect does not currently support Silverlight applications that are loaded by wrapper web pages directly from \*.xaml files containing the applications’ source code.
 -   If HTTPS protocol communication is employed, you must first [install a TestArchitect Certificate Authority](/automation-guide/application-testing/testing-web-and-ria-applications/testing-silverlight-applications/preparing-the-test-environment/installing-a-certificate-authority).
 
-## Supported web browsers
+## {{< expand >}} Supported web browsers
 
 The tested Silverlight applications must run in the following browsers:
 
@@ -37,7 +37,7 @@ The tested Silverlight applications must run in the following browsers:
     {{<remember>}} It is highly recommend that you clear the browser cache and set the page's zoom ratio to 100% before testing. Refer to [Preparing a web browser](/automation-guide/application-testing/testing-web-and-ria-applications/testing-silverlight-applications/preparing-the-test-environment/preparing-a-web-browser) for more information.
 
 
-## Supported desktop operating systems
+## {{< expand >}} Supported desktop operating systems
 
 -   Windows 7, 32 and 64-bit versions.
 

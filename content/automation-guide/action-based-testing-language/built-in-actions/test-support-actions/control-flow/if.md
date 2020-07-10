@@ -8,22 +8,22 @@ aliases:
 keywords: "built-in actions, if, if (action), if, if statement, if condition, if control flow, if action, action if"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Begin a block of action lines which are executed only if a specified condition is satisfied.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **condition**
 
     Expression that evaluates to a Boolean True or False.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes {{< permerlink >}} {#bia_if__section_l5l_2z1_ml} 
 
 -   If condition evaluates to True, the succeeding block of action lines up until the first occurrence of an [else](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/else), [else if](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/else-if), or [end if](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/end-if), is executed. If False, that block is skipped.
 -   This action ignores letter case for values of True and False, and is unaffected by the current state of the [case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive) built-in setting.
@@ -48,11 +48,11 @@ This action may be used within the following project items:test modules and user
     {{<note>}} For the full list of operator precedence, see [here](/automation-guide/action-based-testing-language/the-test-language/operator-precedence).
 
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells)none.
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

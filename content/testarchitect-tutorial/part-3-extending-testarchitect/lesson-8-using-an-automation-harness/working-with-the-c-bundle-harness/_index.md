@@ -11,7 +11,7 @@ keywords: "C# bundle harness, working with, harness, bundle C#, working with"
 
 How to implement customized TestArchitect actions using the C\# programming language.
 
-## Supported OS environments
+## {{< expand >}} Supported OS environments
 
 -   Windows
 

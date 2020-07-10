@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
 
-## TestArchitect Client
+## {{< expand >}} TestArchitect Client
 
 **Enhancements to existing features**
 
@@ -32,11 +32,11 @@ The following new features and improvements are introduced in TestArchitect vers
     -   Enable Telemetry: The Telemetry feature sends performance and usage info to LogiGear. As you use TestArchitect, Telemetry measures and collects non-personal information, such as performance, hardware, and usage. Furthermore we use this information as a tool to improve TestArchitect. Telemetry is enabled by default.
     -   Enable Error Reporting: By using Error Reporting, descriptions of problems or errors will be sent to LogiGear, which we use to improve TestArchitect. We will also treat this report as confidential and anonymous. Error Reporting is enabled by default.
 
-## Deprecation
+## {{< expand >}} Deprecation
 
 -   [anchor pos](/user-guide/interface-definitions/control-properties/secondary-properties/anchor-pos-property/) property on web automation is going to be dropped support one year later starting from TestArchitect release 8.3 Update 1.
 
-## New Privacy Policy
+## {{< expand >}} New Privacy Policy
 
 -   About [TestArchitect’s policy](http://go.testarchitect.com/fwlink/?linkid=90002)
 

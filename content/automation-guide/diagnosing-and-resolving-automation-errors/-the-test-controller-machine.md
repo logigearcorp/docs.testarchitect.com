@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80013001L"
 
 Error code: 0x80013001L
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because you did not connect your mobile device to the test controller machine.
 
-## Solution
+## {{< expand >}} Solution
 
 Ensure that the device is connected to the test controller machine via USB cable or Wi-Fi, and then re-run the test.
 

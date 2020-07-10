@@ -12,11 +12,11 @@ keywords: "ABT Library Functions, ReportSetting, ReportSetting (ABT library func
 
 `integer ReportSetting (string reporttag, string settingvalue)`
 
-## Description
+## {{< expand >}} Description
 
 Display the value of a setting in the report.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **reporttag**
 
@@ -27,11 +27,11 @@ Display the value of a setting in the report.
     Text of the information item.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Return 1 if the call is successful; otherwise, 0.If unsuccessful, the diagnostic functions can be used to get more details.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Example of a call: ReportSetting \("data directory" \) This lets the report show an entry like this: data directory: c:\\abt\\data.
 

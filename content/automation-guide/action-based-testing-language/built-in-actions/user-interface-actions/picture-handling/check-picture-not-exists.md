@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, check picture not exists, check picture not exists (action), iOS (action), check picture not exists, Android (action), check if picture does not exist, check if any image in area matches one or multiple baseline images, verify whether one or multiple specified images are found in area, check whether one or multiple specified images appears in area"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Check a bitmap area of the AUT's current display for the presence of a given instance of a specified target image. Result is Passed ifthe picture is not found; otherwise Failed.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **picture**
 
@@ -47,11 +47,11 @@ Check a bitmap area of the AUT's current display for the presence of a given ins
     \(Optional\) Specifies a minimum number of instances of the baseline image that must be discovered within the active area for the picture to be considered as found \(default = 1\).
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/automation-guide/action-based-testing-language/built-in-actions/system-actions/operating-system/get-screen-resolution#li.ios.get_screen_resolution).\)
 -   As a convenience when editing, you may drag the appropriate picture check node from the **Picture Checks** folder \(in the TestArchitect explorer tree\) into this action'spicture argument.
@@ -85,7 +85,7 @@ This action may be used within the following project items:test modules and user
     3.  Click the **Refresh devices list** ![](/images/Android/Images/Refresh_device_list_btn.png) button.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only), [object wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/object-wait), [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait), [load invisible controls](/automation-guide/action-based-testing-language/built-in-settings/other-settings/load-invisible-controls), [picture algorithm](/automation-guide/action-based-testing-language/built-in-settings/other-settings/picture-algorithm).
 
@@ -101,7 +101,7 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ![](/images/TA_Automation/Images/bia_check_picture_not_exists_res.png)
 
-## Example - Case 2: The rect argument is specified
+## {{< expand >}} Example - Case 2: The rect argument is specified
 
 ![](/images/TA_Automation/Images/bia_check_picture_not_exists_aut_2.png)
 
@@ -113,7 +113,7 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ![](/images/TA_Automation/Images/bia_check_picture_not_exists_res_2.png)
 
-## Example - Case 3: The index argument is specified
+## {{< expand >}} Example - Case 3: The index argument is specified
 
 ![](/images/TA_Automation/Images/bia_check_picture_not_exists_aut_3.png)
 

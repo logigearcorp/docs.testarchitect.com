@@ -8,7 +8,7 @@ aliases:
 keywords: "built-in settings, set playback setting, set playback setting (settings)"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Set the value for a CodedUI playback setting.
 
@@ -23,7 +23,7 @@ Set the value for a CodedUI playback setting.
     Value for the setting
 
 
-## Notes
+## {{< expand >}} Notes
 
 -   Possible setting/value pairs:
     -   ContinueOnError= True/False

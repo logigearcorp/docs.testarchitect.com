@@ -10,7 +10,7 @@ keywords: "integration, TFS, workflow example, workflow example, Team Foundation
 
 An example of using TA-TFS Extensibility.
 
-## Workflow of using TA-TFS Extensibility
+## {{< expand >}} Workflow of using TA-TFS Extensibility {{< permerlink >}} {#reference_c4m_xty_zbb__section_srl_czy_zbb} 
 
 Suppose that we'd like to implement the extensibility ClassInitialized\(\) method, which is invoked after execution of a ClassInitialize\(\).
 

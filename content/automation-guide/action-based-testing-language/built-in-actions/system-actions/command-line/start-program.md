@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, start program, start program (action), iOS (action), start program, Android (action), start a program, launch program"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Launch a specified application on the test machine.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **program**
 
@@ -29,11 +29,11 @@ Launch a specified application on the test machine.
     {{<note>}} parameter is an invisible argument. To use it, you must specify both the value and parameter header in the column to the right of the program argument.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   **iOS:** To ensure that start program can successfully launch an application on an iOS device, refer to [Launching an AUT](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/ios-automation/launching-an-aut#section_pdh_mzj_m4).
 -   program argument:
@@ -57,7 +57,7 @@ This action may be used within the following project items:test modules and user
 -   On iOS devices, a full path is not required even if your app is grouped under an app folder; only the app's name is required.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells)none .
 
@@ -95,7 +95,7 @@ Say you want to open a text file with the Notepad++ application. Since Notepad++
 
 ![](/images/TA_Automation/Images/bia_start_program_res_2.png)
 
-## Example - Case 3: Starting an application on an iOS device
+## {{< expand >}} Example - Case 3: Starting an application on an iOS device
 
 **Test Lines**
 
@@ -105,7 +105,7 @@ Say you want to open a text file with the Notepad++ application. Since Notepad++
 
 ![](/images/TA_Automation/Images/bia_start_program_iOS_res.png)
 
-## Example - Case 4: Starting an Android application
+## {{< expand >}} Example - Case 4: Starting an Android application
 
 **Action Lines**
 

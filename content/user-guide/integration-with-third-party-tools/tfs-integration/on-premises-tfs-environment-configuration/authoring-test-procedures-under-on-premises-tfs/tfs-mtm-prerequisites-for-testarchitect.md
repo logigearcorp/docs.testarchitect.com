@@ -12,7 +12,7 @@ This section describes the requirements for setting up TestArchitect to develop 
 
 Within the TestArchitect ecosystem, the following software must be installed :
 
-## The computer hosting the TestArchitect repository server
+## {{< expand >}} The computer hosting the TestArchitect repository server
 
 -   The TFS Object Model must exist. This package can be installed once you install Visual Studio. It may be installed as a stand-alone package. Note that if you decide to install the TFS Object Model as a stand-alone package, you must ensure that it is of the same version as your installed TFS. And also restart your repository server after installing the TFS Object Model.
 

@@ -12,17 +12,17 @@ How to implement TestArchitect actions using the Python programming language.
 
 This subsection contains two exercises that demonstrate how to create user-scripted actions implemented in the Python programming language, and how to access such actions in your tests.
 
-## Supported OS environments
+## {{< expand >}} Supported OS environments
 
 -   Windows
 -   Linux
 
-## Supported Python version
+## {{< expand >}} Supported Python version {{< permerlink >}} {#Tutorial_Scripting_actions_in_other_languages_Python__section_drd_ps2_gkb} 
 
 -   Python 2
 -   Python 3
 
-## Installing a Python interpreter
+## {{< expand >}} Installing a Python interpreter
 
 TestArchitect installation does *not* include a Python interpreter, which is a requirement for running Python scripts.
 
@@ -34,7 +34,7 @@ In addition, please observe the following when installing an interpreter:
 -   Use a Python interpreter that is no older than 3.x. \(TestArchitect has a set of import files that expose the automation library objects and functions to the interpreter. These files assume a Python version of 3.x.\).
 -   Both TestArchitect and the Python interpreter must be for the same machine architecture \(32-bit or 64-bit\).
 
-## Before proceeding...
+## {{< expand >}} Before proceeding...
 
 Please ensure that you have Python installed before proceeding with the following examples. In addition, your system’s PATH variable must be set to include the path to the Python executable: for example, C:\\Python.
 

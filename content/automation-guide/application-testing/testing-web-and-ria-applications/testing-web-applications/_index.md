@@ -10,7 +10,7 @@ keywords: "web testing, application testing"
 
 TestArchitect lets you create, manage and run web-based automated tests on different types of browsers.
 
-## Supported web browsers
+## {{< expand >}} Supported web browsers
 
 TestArchitect allows you to test web applications in the following browsers and operating systems:
 
@@ -51,7 +51,7 @@ TestArchitect interacts with web applications through UI controls displayed in b
 -   JavaServer Pages \(JSP\)
 -   Java Servlet
 
-## Supported controls
+## {{< expand >}} Supported controls
 
 TestArchitect recognizes and provides support for various web controls including:
 
@@ -59,7 +59,7 @@ TestArchitect recognizes and provides support for various web controls including
 -   [HTML 5 controls](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/automated-web-testing-with-non-webdriver/supported-html5-controls)
 -   All third-party ASP.NET controls
 
-## Test machine and web browser configuration
+## {{< expand >}} Test machine and web browser configuration
 
 -   By default, TestArchitect Register Server, which is installed with TestArchitect, automatically starts up as a service \(daemon\) each time you boot your computer. This service is often essential for automated testing, and should generally be available. [Ensure the availability of the TestArchitect Register Server service](/administration-guide/testarchitect-register-server) before running your automated tests.
 -   Before testing web applications on a supported browser, ensure that necessary settings or reconfigurations required by TestArchitect are fully met. For detailed instructions, see [Preparing web browsers](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/automated-web-testing-with-non-webdriver/preparing-web-browsers/).

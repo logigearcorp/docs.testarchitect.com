@@ -8,22 +8,22 @@ aliases:
 keywords: "built-in actions, run test, run test (action), run test, run another test module from current test module"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Invoke a specified test module or test suite from the current test module.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **name**
 
     Full TestArchitect explorer tree path of the target test module/test suite \(see note\).
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   name argument:
     -   The full path of the target test module is specified with respect to the current project's **Tests** node, using forward slashes \(/\) to delimit successive folders in the hierarchy.
@@ -44,15 +44,15 @@ This action may be used within the following project items:test modules and user
 -   A convenient way to enter this built-in action as an action line is to drag and drop the node of the target test module or test suite from the TestArchitect explorer tree directly into column **A** of an empty line of your test editor. The line is automatically populated with a run test action line with the name argument specifying the correct target.
 -   Note, however, that if the dragged test module is a [variation](/user-guide/tests/creating-a-test-module-variation), the name inserted to the name argument is just the default, with no variation spec.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Example - Case 1: Drag and drop operations
+## {{< expand >}} Example - Case 1: Drag and drop operations
 
 ![](/images/TA_Automation/Images/bia_run_aut_1.png)
 
-## Example - Case 2: run test action
+## {{< expand >}} Example - Case 2: run test action
 
 Alternatively, you can enter the run test built-in action directly into the test editor.
 

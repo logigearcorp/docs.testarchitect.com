@@ -10,7 +10,7 @@ keywords: "WPF extensibility, technical reference, overview, technical reference
 
 WPF Agent is loaded inside the AUT process when the physical layer needs to obtain information on the running AUT’s controls by the hooking technique.
 
-## Components
+## {{< expand >}} Components
 
 WPF agent is divided into three components as follows:
 
@@ -27,7 +27,7 @@ WPF agent is divided into three components as follows:
     ![](/images/TA_Tutorials/Images/WPF_extensiblity_components.png)
 
 
-## The Extension Library
+## {{< expand >}} The Extension Library
 
 It contains interfaces and abstract classes which are implemented on the extension side.
 

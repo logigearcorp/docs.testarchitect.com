@@ -10,26 +10,26 @@ keywords: "date functions, year, year (function)"
 
 Return the Gregorian year from a Julian date number.
 
-## Syntax
+## {{< expand >}} Syntax
 
 `integer year(integer date)`
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **date**
 
     A Julian date number.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Returns the corresponding Gregorian year.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following built-in setting\(s\) are supported: [date order](/automation-guide/action-based-testing-language/built-in-settings/date-time-settings/date-order).
 
-## Example
+## {{< expand >}} Example
 
 ![](/images/TA_Automation/Images/automationguide_datefunction4.png)
 

@@ -10,7 +10,7 @@ keywords: "installation guide, silent uninstallation, TestArchitect"
 
 In some cases, you may need to uninstall the current version of TestArchitect in silent mode before installing the newer version. In this mode, the uninstallation is performed automatically without any user interaction.
 
-## Silent uninstallation performed via InstallShield on Windows
+## {{< expand >}} Silent uninstallation performed via InstallShield on Windows
 
 -   The uninstallation runs in the background. It does not show any dialog boxes or messages.
 -   An uninstallation [response file](/user-guide/getting-started/uninstalling-testarchitect-in-silent-mode/creating-an-uninstallation-response-file) is required. This file contains all the data needed during silent uninstallation.

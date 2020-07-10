@@ -12,19 +12,19 @@ keywords: "ABT Library Functions, Version, Version (ABT library function)"
 
 `string Version ()`
 
-## Description
+## {{< expand >}} Description
 
 Get the version of TestArchitect.
 
-## Parameters
+## {{< expand >}} Parameters
 
 There are no parameters for this function.
 
-## Return Value
+## {{< expand >}} Return Value
 
 The function returns a string with the version identification.
 
-## Notes
+## {{< expand >}} Notes
 
 -   The version identification can identify specific properties of TestArchitect. It can for example be printed as part of a the header in the report.
 

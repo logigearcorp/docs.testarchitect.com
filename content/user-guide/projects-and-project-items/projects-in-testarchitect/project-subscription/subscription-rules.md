@@ -10,7 +10,7 @@ keywords: "projects, subscription rules, subscriptions, order of precedence, rul
 
 TestArchitect employs a depth-first search \(DFS\) algorithm to locate, among subscribed projects, the definitions for actions, interface entities, interface elements, data sets, and picture checks.
 
-## Depth-first search
+## {{< expand >}} Depth-first search
 
 When searching for a definition, TestArchitect performs a depth-first search \(DFS\), starting from the [host project](/user-guide/support/glossary-of-terms/host-project). DFS is an algorithm for searching for a given node by traversing the data tree starting from the root. Each branch is explored as far as possible, before backtracking. The process continues until the target node is found. The following picture illustrates the DFS algorithm.
 
@@ -30,7 +30,7 @@ Because a project may act as a supplier for any number of other projects, a give
 
 ![](/images/TA_Help/Images/Circularly_linked_subscription.png)
 
-## Search rules by definition type
+## {{< expand >}} Search rules by definition type
 
 **Actions**
 

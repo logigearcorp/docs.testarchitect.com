@@ -12,22 +12,22 @@ keywords: "ABT Library Functions, NamedArgument, NamedArgument (ABT library func
 
 `string NamedArgument (string name)`
 
-## Description
+## {{< expand >}} Description
 
 Retrieve the value of an argument by name.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **name**
 
     The header label that appears above the argument \(in the cluster this is content of the corresponding cell in the row above the current action line\).
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 The function returns the argument as a string. If the argument isn't found, an empty string is returned.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Named arguments have the advantage that they can be optional and are not dependent on a specific order.
 

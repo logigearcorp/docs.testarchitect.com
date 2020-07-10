@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80010402L"
 
 Error code: 0x80010402L
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because the specified item does not exist.
 
-## Solution
+## {{< expand >}} Solution
 
 Ensure that the given item exists, or try a different item, and then re-run the test.
 

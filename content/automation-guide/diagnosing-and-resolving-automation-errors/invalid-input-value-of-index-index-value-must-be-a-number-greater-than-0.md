@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80016005L"
 
 Error code: 0x80016005L
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because you enter an index value for an argument which is less than 0.
 
-## Solution
+## {{< expand >}} Solution
 
 Enter an index numbering that begins with 0 or above.
 

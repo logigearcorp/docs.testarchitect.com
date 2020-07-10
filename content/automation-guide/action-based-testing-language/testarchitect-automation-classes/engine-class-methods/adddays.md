@@ -12,11 +12,11 @@ keywords: "ABT Library Functions, AddDays, AddDays (ABT library function)"
 
 `integer AddDays (integer datevalue, integer days)`
 
-## Description
+## {{< expand >}} Description
 
 Add days to a date.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **datevalue**
 
@@ -27,11 +27,11 @@ Add days to a date.
     The number of days to add to the specified date.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 The resultant date.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This function is equivalent to the plusd function, as it can be used by the tester in a "\#" expression.
 -   To subtract days, use a negative value for the days parameter.

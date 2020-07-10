@@ -10,7 +10,7 @@ keywords: "name change propagation, renaming, entities, subscriptions, rename, v
 
 A TestArchitect feature that automatically updates all references to a given entity when you rename that entity.
 
-## Name change propagation
+## {{< expand >}} Name change propagation
 
 In TestArchitect explorer tree, the following entities can be renamed using the context menu's **Rename** command:
 
@@ -34,11 +34,11 @@ The process of modifying all associated references to a renamed entity is known 
 
 Name change propagation is not supported in the TestArchitect test editor. Changing the name of an entity in the Editor window will not change the name of that entity elsewhere. \([Learn more](/testarchitect-tutorial/part-1-getting-started-with-testarchitect/introducing-testarchitect/test-editor-basics).\)
 
-## Subscription renaming
+## {{< expand >}} Subscription renaming
 
 Name change propagation applies to eligible entities that are subscribed to from other modules and projects. In large-scale test development environments, entities such as actions and data sets may be shared among different projects using [Project subscription](/user-guide/projects-and-project-items/projects-in-testarchitect/project-subscription/). Renaming an eligible subscribed entity results in all associated entity name definitions being automatically renamed in all subscribing modules and projects.
 
-## Variation renaming
+## {{< expand >}} Variation renaming
 
 Name change propagation also applies to eligible entities that are created by copying an entity and pasting using the **Paste as Variation** command \(see [Variations](/user-guide/variations/)\). Well-designed tests incorporate variations to maximize test code reusability. TestArchitect allows different versions of any given entity to coexist with each other to handle small variations in test cases. Renaming eligible system or version nodes results in all corresponding entity name definitions being automatically renamed across all associated variations.
 

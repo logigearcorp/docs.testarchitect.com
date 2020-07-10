@@ -8,15 +8,15 @@ aliases:
 keywords: "methods of abt, CheckIn, CheckIn (AbtDataSet), AbtDataSet, checkin, abtdataset checkin, check in data set, check in data set to repository"
 ---
 
-## Syntax
+## {{< expand >}} Syntax {{< permerlink >}} {#abt_CheckIn_dataset__section.syntax} 
 
 `integer CheckIn(String path, Boolean keepCheckedOut, String comment)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_CheckIn_dataset__section.desc} 
 
 Check in a given data set to the repository.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_CheckIn_dataset__section.params} 
 
 -   **path**
 
@@ -35,7 +35,7 @@ Check in a given data set to the repository.
 
 Return 0 if the data set is successfully checked in; otherwise, return an error code \(see Notes\).
 
-## Notes
+## {{< expand >}} Notes
 
 -   This method is currently supported only by the C\# harness.
 -   Possible errors returned:

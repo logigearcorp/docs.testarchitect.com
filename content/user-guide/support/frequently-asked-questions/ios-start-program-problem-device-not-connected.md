@@ -8,13 +8,13 @@ aliases:
 keywords: "Troubleshooting, iOS, problem: Device not connected, start program, troubleshooting"
 ---
 
-## Problem
+## {{< expand >}} Problem
 
 Upon completion of an automated test, the following error message is reported in the Automation Problem dialog box, or in the test result:
 
 The start program action could not complete since your device was not connected to the test machine via USB cable.
 
-## Solution
+## {{< expand >}} Solution
 
 Check the USB cable connecting the iOS device to the test controller host. Verify that the connectors are free of debris and that the cable is not damaged. If available, replace with a known good cable.
 

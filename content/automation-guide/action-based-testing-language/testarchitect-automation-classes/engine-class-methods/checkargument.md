@@ -12,11 +12,11 @@ keywords: "ABT Library Functions, CheckArgument, CheckArgument (ABT library func
 
 `integer CheckArgument(integer argnr, string recorded)`
 
-## Description
+## {{< expand >}} Description
 
 Execute a check comparing a recorded value with an argument in the action line.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **argnr**
 
@@ -27,11 +27,11 @@ Execute a check comparing a recorded value with an argument in the action line.
     Recorded value, the value that is to be compared with the expected value.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 The function returns 1 if the check passed or 0 if it failed.
 
-## Notes
+## {{< expand >}} Notes
 
 -   The expected string \(in the argument indicated by argnr\) and recorded string are compared. If they are equal the check is administered as passed, otherwise it is treated as failed.
 

@@ -12,11 +12,11 @@ keywords: "methods of abt, GetHeaderName, GetHeaderName (AbtList), AbtList, geth
 
 `string GetHeaderName(int index)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_GetHeaderName__section.desc} 
 
 Retrieve the column header text by its column index.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_GetHeaderName__section.params} 
 
 -   **index**
 
@@ -27,7 +27,7 @@ Retrieve the column header text by its column index.
 
 String value indicating the column header name.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This method is applicable to ListView controls only.
 

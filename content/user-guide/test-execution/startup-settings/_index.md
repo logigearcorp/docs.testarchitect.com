@@ -10,11 +10,11 @@ keywords: "startup settings"
 
 Startup settings are settings which you can configure before launching a test run. These settings are of two types: built-in, and user-defined.
 
-## Built-in settings
+## {{< expand >}} Built-in settings
 
 TestArchitect has a number of built-in settings that control how your action lines are handled by the TestArchitect interpreter or automation. \([Learn more](/automation-guide/action-based-testing-language/built-in-settings/).\) All built-in settings have default values. Those defaults may be overwritten by you prior to the launch of a test run, or during [run time](/user-guide/support/glossary-of-terms/run-time) from within a test procedure.
 
-## User-defined settings
+## {{< expand >}} User-defined settings
 
 User-defined settings are settings that you create at runtime startup, and use within your test procedure in a manner you choose. Your test procedure can read the value of a user-defined setting, store it to a variable, and then use the value of that variable to take appropriate action. Note that, unlike built-in settings, the value of a user-defined setting is not modifiable during runtime.
 

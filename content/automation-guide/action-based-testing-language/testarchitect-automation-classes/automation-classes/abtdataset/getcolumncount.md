@@ -12,7 +12,7 @@ keywords: "methods of abt, GetColumnCount, GetColumnCount (AbtDataSet), AbtDataS
 
 `int GetColumnCount()`
 
-## Description
+## {{< expand >}} Description
 
 Retrieve the number of columns in the object.
 
@@ -20,7 +20,7 @@ Retrieve the number of columns in the object.
 
 Integer value indicating the number of columns in the data set. If the object has no columns, return 0.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This method is currently supported only by the C\# harness.
 

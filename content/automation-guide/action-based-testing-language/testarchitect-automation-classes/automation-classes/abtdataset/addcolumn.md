@@ -12,11 +12,11 @@ keywords: "methods of abt, AddColumn, AddColumn (AbtDataSet), AbtDataSet, addcol
 
 `int AddColumn(String colName)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#reference_kxc_cbw_gq__section.desc} 
 
 Add a new column to the data set object.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#reference_kxc_cbw_gq__section.params} 
 
 -   **colName**
 
@@ -27,7 +27,7 @@ Add a new column to the data set object.
 
 Return 0 if theexecutionis successful; otherwise, -1.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This method is currently supported only by the C\# harness.
 

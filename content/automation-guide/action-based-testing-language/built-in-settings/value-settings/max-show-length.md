@@ -8,15 +8,15 @@ aliases:
 keywords: "built-in settings, max show length, settings, max show length (settings), limit characters displayed, maximum number of characters can be shown, maximum displayed length of characters"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Maximum number of characters to be displayed in the test results for an argument's or variable's value
 
-## Value units
+## {{< expand >}} Value units
 
 characters
 
-## Default value
+## {{< expand >}} Default value
 
 255 \(Minimum allowable value: 100\)
 

@@ -8,11 +8,11 @@ aliases:
 keywords: "Troubleshooting, Google Chrome, modal dialog boxes, troubleshooting"
 ---
 
-## Problem
+## {{< expand >}} Problem {{< permerlink >}} {#reference_zlf_kmz_jy__section_amc_bnz_jy} 
 
 During web automation or web UI control identification, you are using Google Chrome 52 or later. You discover that when [modal JavaScript popup boxes](http://www.w3schools.com/js/js_popup.asp) appear, your automated test fails to proceed, or you are no longer able to identify other UI controls via the [Interface Viewer](/user-guide/interface-definitions/the-interface-viewer/).
 
-## Solution
+## {{< expand >}} Solution {{< permerlink >}} {#reference_zlf_kmz_jy__section_bmc_bnz_jy} 
 
 This issue happens because Chrome has stopped supporting animations while modal dialog boxes are shown since Chrome version 52 \([learn more](https://blog.chromium.org/2016/06/chrome-52-beta-css-containment-simpler.html)\). To resolve this issue, do the following:
 

@@ -8,7 +8,7 @@ aliases:
 keywords: "built-in setting, webdriver mode"
 ---
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#bis_webdriver_mode__section_r5l_k2k_wfb} 
 
 Activate the WebDriver mode.
 
@@ -19,11 +19,11 @@ Activate the WebDriver mode.
 -   on: Adopt WebDriver mode
 -   off: \(Default\) Do not adopt WebDriver mode.
 
-## Note
+## {{< expand >}} Note {{< permerlink >}} {#bis_webdriver_mode__section_up2_52k_wfb} 
 
 As you are testing web-based desktop app with WebDriver mode, if there is a need to switch the automation to other platforms like desktop or mobile apps, set the value of webdriver mode to off.
 
-## Action lines
+## {{< expand >}} Action lines {{< permerlink >}} {#bis_webdriver_mode__section_rql_bch_yfb} 
 
 ![](/images/TA_Automation/Images/WebDriver_basic_structure_of_test.png)
 

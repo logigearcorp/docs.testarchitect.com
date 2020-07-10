@@ -10,7 +10,7 @@ keywords: "power outage, troubleshooting, power blackout"
 
 A discussion of typical issues you may experience after a power outage, and their solutions.
 
-## Repository problems
+## {{< expand >}} Repository problems
 
 -   **Unable to connect to a repository**
 
@@ -42,7 +42,7 @@ A discussion of typical issues you may experience after a power outage, and thei
     1.  [Re-setup](/administration-guide/repository-server-management/replication-repositories/setting-up-primary-replication-repositories) the primary/replication repositories.
     2.  Restart the primary and replication repository server machines.
 
-## License Server
+## {{< expand >}} License Server
 
 **Unable to start TestArchitect License Server**
 
@@ -53,7 +53,7 @@ A discussion of typical issues you may experience after a power outage, and thei
 1.  Uninstall TestArchitect License Server.
 2.  Reinstall TestArchitect License Server.
 
-## TestArchitect Client
+## {{< expand >}} TestArchitect Client
 
 -   **Unable to start TestArchitect**
 

@@ -12,22 +12,22 @@ keywords: "methods of abt, DoesItemExistByText, DoesItemExistByText (AbtList), A
 
 `Boolean DoesItemExistByText(string text)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_DoesItemExistByText_list__section.desc} 
 
 Determine whether an item with specified text exists in the list control.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_DoesItemExistByText_list__section.params} 
 
 -   **text**
 
     String value specifying the text content ofitem to find.
 
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#abt_DoesItemExistByText_list__section.return} 
 
 Return TRUE ifitem exists; otherwise, FALSE.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This method is applicable to both ListBox and ListView controls.
 

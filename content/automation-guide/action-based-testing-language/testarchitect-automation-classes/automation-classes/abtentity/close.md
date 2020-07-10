@@ -12,15 +12,15 @@ keywords: "methods of abt, Close, Close (AbtEntity), AbtEntity, close, abtentity
 
 `long Close()`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_Close__section.desc} 
 
 Close the window.
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#abt_Close__section.return} 
 
 Return 0 if
 
-## Notes
+## {{< expand >}} Notes
 
 -   The window is closed \(destroyed\), not minimized. This function also destroys child or owned windows.
 

@@ -12,15 +12,15 @@ keywords: "methods of abt, Minimize, Minimize (AbtEntity), AbtEntity, minimize, 
 
 `long Minimize()`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_Minimize__section.desc} 
 
 Minimize the window.
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#abt_Minimize__section.return} 
 
 Return 0 if the call is successful \(as reported back by the operating system\); otherwise, -1.
 
-## Notes
+## {{< expand >}} Notes
 
 -   The effect of execution is that the window represented by the AbtEntity object is reduced to an icon on the task bar. The next window in Windows z-order gets the focus.
 

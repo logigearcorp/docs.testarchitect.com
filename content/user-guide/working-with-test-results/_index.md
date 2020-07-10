@@ -10,7 +10,7 @@ keywords: "test results"
 
 TestArchitect automatically generates a report containing the results of an automated test after the test concludes. The test results are immediately displayed in the main window of TestArchitect Client.
 
-## Viewing test results in a web browser
+## {{< expand >}} Viewing test results in a web browser
 
 Since TestArchitect version [8.3](/user-guide/version-history/features-added-to-testarchitect-8-3/), [XML result model](/user-guide/working-with-test-results/) has been introduced to view test results in a web browser.
 
@@ -22,13 +22,13 @@ Since TestArchitect version [8.3](/user-guide/version-history/features-added-to-
 
 {{<remember>}} To view XML test results in the Internet Explorer browser, ensure that **Active Content** is enabled. \([Learn more](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/automated-web-testing-with-non-webdriver/preparing-web-browsers/preparing-internet-explorer-for-web-testing/advanced-settings#step_hlp_4dc_jy).\)
 
-## Optimizing test results
+## {{< expand >}} Optimizing test results
 
 Colossal test results, which contain hundreds of thousands of action lines, might consume a huge amount of memory when they are open in a web browser. TestArchitect optimizes these test results by trimming a specific given number of [iterations](/user-guide/support/glossary-of-terms/iteration), and also removing the pagination page.
 
 The number of truncated iterations is determined based on several predefined settings. Note that, these settings are adjustable. \([Learn more](/user-guide/working-with-test-results/customizing-xml-test-results/adjusting-the-number-of-truncated-iterations-and-pagination-page).\)
 
-## User-defined fields
+## {{< expand >}} User-defined fields {{< permerlink >}} {#Test_result__section_svb_t2p_wfb} 
 
 {{<note>}} Applies to TestArchitect 8.4 Update 2 and higher.
 

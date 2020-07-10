@@ -12,22 +12,22 @@ keywords: "methods of abt, SelectColumn, SelectColumn (AbtList), AbtList, select
 
 `long SelectColumn(int index)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_SelectColumn_list__section.desc} 
 
 Select a column in the list control based on its column index.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_SelectColumn_list__section.params} 
 
 -   **index**
 
     Integer value specifying the index of the column within thelist control. Note that index numbering begins with 1.
 
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#abt_SelectColumn_list__section.return} 
 
 Return 0 if the call is successful; otherwise, -1..
 
-## Notes
+## {{< expand >}} Notes
 
 -   This method is applicable to ListView controls only.
 

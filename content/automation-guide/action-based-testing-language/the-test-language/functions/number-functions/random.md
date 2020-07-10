@@ -10,11 +10,11 @@ keywords: "number functions, random, random (number function)"
 
 Return a random integer in the range, inclusive, of the given limits.
 
-## Syntax
+## {{< expand >}} Syntax
 
 `integer random(integer min,integer max)`
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **min**
 
@@ -27,11 +27,11 @@ Return a random integer in the range, inclusive, of the given limits.
     max must be greater than or equal to min.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Returns a random integer number in the range from min through max, inclusive.
 
-## Example
+## {{< expand >}} Example
 
 **Test Lines**
 

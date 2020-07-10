@@ -10,11 +10,11 @@ keywords: "automation errors, 0x8001000EL"
 
 Error code: 0x8001000EL
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because the specified value for the value argument is not a numeric number in the range of 0 to 100.
 
-## Solution
+## {{< expand >}} Solution
 
 For the value argument enter an numeric value in the range of 0 to 100, and then re-run the test.
 

@@ -8,12 +8,12 @@ aliases:
 keywords: "built-in actions, interface frame, interface frame (action)"
 ---
 
-## Description
+## {{< expand >}} Description
 
 -   Documentary action to define an interface frame or sub-window in interface entity.
 -   In automation that supports hierarchies, frames are either frames in a web page or sub-windows in a window.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **level**
 
@@ -28,11 +28,11 @@ keywords: "built-in actions, interface frame, interface frame (action)"
     Logical class name of the element
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This action has been deprecated in TestArchitect 7.
 

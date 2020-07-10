@@ -8,27 +8,27 @@ aliases:
 keywords: "built-in actions, objectives, objectives (action), Objectives section, beginning of objectives section of test module, beginning of objectives block of test module, start objectives section of test module"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Defines the beginning of the test objectives section of the test module.
 
-## Arguments
+## {{< expand >}} Arguments
 
 There are no arguments for this action.
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules
 
-## Notes
+## {{< expand >}} Notes
 
 -   Establishes the section in which the test requirements of the test module are specified, by means of one or more [test objective](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/documentary/test-objective) actions.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:none.
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

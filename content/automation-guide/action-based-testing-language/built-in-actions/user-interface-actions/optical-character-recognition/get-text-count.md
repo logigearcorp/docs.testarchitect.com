@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, get text count, get text count (action), count occurrences of particular text in window, count how many times specfied text occurs in control, count number of occurrences of specific text string in window or control"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Retrieve a count of the total number of text fragments residing in a given window/control.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **window**
 
@@ -51,21 +51,21 @@ Retrieve a count of the total number of text fragments residing in a given windo
     \(Optional\) Variable to receive the returned value.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## {{< expand >}} Applicable Systems/Platforms
 
 Use of this action is supported on the following systems/platforms:
 
 -   Windows: Win32, WinForms.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only), [object wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/object-wait), [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait).
 
-## Notes
+## {{< expand >}} Notes
 
 -   This built-in action always employs the [Graphics Device Interface](/automation-guide/action-based-testing-language/the-test-language/text-recognition-techniques) \(GDI\) technique. In other words, [Optical Character Recognition](/automation-guide/action-based-testing-language/the-test-language/text-recognition-techniques) \(OCR\) technique is not available for this action.
 -   drawing function argument:
@@ -79,7 +79,7 @@ The following settings are applicable to this action:[case sensitive](/automatio
     -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Example
+## {{< expand >}} Example
 
 Suppose that we'd like to retrieve a count of the total number of the Administration text drawn by the all six functions.
 

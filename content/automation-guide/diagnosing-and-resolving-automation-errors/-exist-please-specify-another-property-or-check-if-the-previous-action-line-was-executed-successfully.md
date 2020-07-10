@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80010203L"
 
 Error code: 0x80010203L
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because the specified property does not exist.
 
-## Solution
+## {{< expand >}} Solution
 
 You might use [Interface Viewer](/user-guide/interface-definitions/the-interface-viewer/) or [point-to-identify](/user-guide/interface-definitions/interface-capturing-commands/point-to-identify-tool/) tool to verify the existence of the desired property. Or try a different property.
 

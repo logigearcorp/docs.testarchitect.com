@@ -12,11 +12,11 @@ keywords: "ABT Library Functions, SetActionScript, SetActionScript (ABT library 
 
 `integer SetActionScript (string action, string script, integer echo)`
 
-## Description
+## {{< expand >}} Description
 
 Associate a script to an action.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **action**
 
@@ -31,11 +31,11 @@ Associate a script to an action.
     Indicator whether the action line should be printed in the report as it appears in the cluster. A value of 1 means do print, 0 means printing is suppressed. Printing should typically not be done for documentary actions like "remark".
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Return 1 if the call is successful; otherwise, 0.If unsuccessful, the diagnostic functions can be used to get more details.
 
-## Notes
+## {{< expand >}} Notes
 
 -   The script parameter can typically denote a function to be executed or the name of a script file.
 -   For tools and script languages that need a case statement it is good practice to let this case statement work in two levels:

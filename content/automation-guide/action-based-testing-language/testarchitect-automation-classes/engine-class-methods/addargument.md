@@ -8,15 +8,15 @@ aliases:
 keywords: "ABT Library Functions, AddArgument, AddArgument (ABT library function)"
 ---
 
-## Syntax
+## {{< expand >}} Syntax
 
 `integer AddArgument(string name, string value)`
 
-## Description
+## {{< expand >}} Description
 
 Add an argument to the current action line.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **name**
 
@@ -27,11 +27,11 @@ Add an argument to the current action line.
     Value of the argument.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Return 1 if the call is successful; otherwise, 0.If unsuccessful, the diagnostic functions can be used to get more details.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Use this function only in combination with [NewActionLine\(\)](/automation-guide/action-based-testing-language/testarchitect-automation-classes/engine-class-methods/newactionline).
 

@@ -8,15 +8,15 @@ aliases:
 keywords: "methods of abt, CreateDataRow, CreateDataRow (AbtDataSetManagement), AbtDataSetManagement, createdatarow, abtdatasetmanagement createdatarow, create data row with specified content"
 ---
 
-## Syntax
+## {{< expand >}} Syntax {{< permerlink >}} {#reference_vhs_v1w_gq__section.syntax} 
 
 `AbtDataRow CreateDataRow(Array<System.String> contents)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#reference_vhs_v1w_gq__section.desc} 
 
 Create a new data row with the specified contents.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#reference_vhs_v1w_gq__section.params} 
 
 -   **contents**
 
@@ -27,7 +27,7 @@ Create a new data row with the specified contents.
 
 A new [AbtDataRow](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdatarow/) object, representing a data set row, with the specified contents.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This method is currently supported only by the C\# harness.
 

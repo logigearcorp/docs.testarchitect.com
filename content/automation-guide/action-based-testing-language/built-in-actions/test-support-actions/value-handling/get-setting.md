@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, get setting, get setting (action), get setting, get current value of setting, retrieve current value of setting, get current value setting, retrieve current setting value"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Retrieve the current value of a [built-in](/automation-guide/action-based-testing-language/built-in-settings/) or [user-defined](/user-guide/test-execution/startup-settings/creating-a-new-user-defined-setting) setting.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **name**
 
@@ -35,11 +35,11 @@ Retrieve the current value of a [built-in](/automation-guide/action-based-testin
     \(Optional\) Value to which to set the variable if the specified setting has no value. \(Applies only to user-defined settings – See Notes.\)
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   default argument:
     -   *Built-in setting*: For a built-in setting, any value in the default argument is ineffectual, because TestArchitect enforces the rule that all built-in settings always have a non-empty value.

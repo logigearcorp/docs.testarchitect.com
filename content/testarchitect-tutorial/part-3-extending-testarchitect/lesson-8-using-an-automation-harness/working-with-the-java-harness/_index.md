@@ -12,7 +12,7 @@ How to implement TestArchitect actions using the Java programming language.
 
 This subsection contains two exercises that demonstrate how to create user-scripted actions implemented in the Java programming language, and how to access such actions in your tests.
 
-## Supported OS environments
+## {{< expand >}} Supported OS environments
 
 -   Windows
 -   Linux

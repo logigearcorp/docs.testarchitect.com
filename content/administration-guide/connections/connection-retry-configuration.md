@@ -12,7 +12,7 @@ TestArchitect allows you to set the number of attempts for a failed connection w
 
 {{<note>}} Applies to TestArchitect 8.4 Update 2 and higher
 
-## TestArchitect Controller
+## {{< expand >}} TestArchitect Controller {{< permerlink >}} {#Connection_retry_configuration__section_q2s_jdb_yfb} 
 
 The procedure below describes how to define the number of connection retries for the TestArchitect Controller.
 

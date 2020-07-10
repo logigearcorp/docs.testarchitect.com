@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, on modal action, on modal action (action), handle modal dialog, modal dialog handler, handle modal popup, handle modal window"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Specify the action to be invoked in the event of the appearance of a modal dialog box which would otherwise disrupt the intended flow of test automation.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **action**
 
@@ -21,11 +21,11 @@ Specify the action to be invoked in the event of the appearance of a modal dialo
     If no action handler is defined, on modal action, by default, simply attempts to close the dialog.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   The on modal action directive is triggered by the appearance of a modal dialog box which belongs to the same process as that of the window argument of the last interfacing action.
 -   Upon a TA Client-initiated execution of an on modal action action, its directive remains in effect until the end of the test run \(or until another on modal action action is executed\). This is true even in the case of a [serial test run](/user-guide/test-execution/methods-of-test-execution/executing-multiple-test-modules). However, when running a [batch file](/user-guide/test-execution/methods-of-test-execution/executing-tests-from-the-command-line-interface/creating-a-batch-file), the on modal action directive remains in effect only until the end of the test module in which it appears.
@@ -40,15 +40,15 @@ This action may be used within the following project items:test modules and user
 -   Execution of an on modal action causes any existing on modal action directive to be superseded. That is, at any given point in a test run, it is the handler action \(or close directive\) of the last executed on modal action action that will be triggered by the appearance of a qualifying modal dialog.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Systems/Platforms
+## {{< expand >}} Applicable Systems/Platforms
 
 Use of this action is supported on the following systems/platforms:Windows.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Example
+## {{< expand >}} Example {{< permerlink >}} {#bia_on_modal_action__section.Example} 
 
 **Scenario**: You are aware of the fact that the AUT under development is, at times, capable of throwing unexpected exceptions, resulting in the appearance of modal dialogs. You wish to allow your test to handle such exceptions gracefully wherever they may occur, by dismissing the dialog, so that automation may continue. You also want to record the error message displayed by the dialog. Hence, you want the action lines handling this contingency to:
 

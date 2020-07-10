@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, identify windows, TA handle, identify windows (action), Safari, macOS (action), identify windows, macOS, Safari (action), Identify windows"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Find all windows matching a definition and assign their physical IDs to variables.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **definition**
 
@@ -23,11 +23,11 @@ Find all windows matching a definition and assign their physical IDs to variable
     Names of the variable\(s\) to receive the returned TA handles. All but the first are optional.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Use this action in situations where you want your test to be able to interface with two or more windows to which the same definition \(that is, interface entity\) applies.
 -   Subsequent to using this action, a returned TA handle may be used in place of the TA name of an interface entity in the window argument of any action. \(When working with a variable holding a TA handle, precede it with the expression identifier, \#.\)
@@ -37,15 +37,15 @@ This action may be used within the following project items:test modules and user
     -   If the variables in argumentsvariable1, variable2, etc.have not been declared, the action creates them as globals.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only), [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait).
 
-## Applicable Controls
+## {{< expand >}} Applicable Controls
 
 This action is applicable to the following controls:window.
 
-## Example
+## {{< expand >}} Example
 
 ![](/images/TA_Automation/Images/bia_identify_window_aut.png)
 

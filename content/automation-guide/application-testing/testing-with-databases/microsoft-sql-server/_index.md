@@ -10,11 +10,11 @@ keywords: "Microsoft SQL testing, introduction, configuration, example"
 
 Information specific to testing with Microsoft SQL Server
 
-## Introduction
+## {{< expand >}} Introduction
 
 Microsoft SQL Server is a relational database management system developed by Microsoft.
 
-## Configuration
+## {{< expand >}} Configuration
 
 -   Supported Database Management Systems: Microsoft SQL Server 2008 R2, Microsoft SQL Server 2012.
 -   Connecting to and querying a database from a test requires that the correct ODBC driver be used. The correct driver must be specific to both the database application and the architecture \(32-bit or 64-bit\) of the TestArchitect Controller application that uses it. The following utilities may be used to determine whether the correct driver is already installed:
@@ -31,7 +31,7 @@ Microsoft SQL Server is a relational database management system developed by Mic
         -   **On Linux:** [Read here](https://docs.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server).
         -   **On macOS:** Microsoft does not provide a SQL Server ODBC driver for the macOS machine. However, a good open source alternative, [FreeTDS](http://www.freetds.org/), is available. Note that, additional configurations are also required \([learn more](/automation-guide/application-testing/testing-with-databases/microsoft-sql-server/configuring-odbc-driver-on-macos)\).
 
-## Actions
+## {{< expand >}} Actions
 
 TestArchitect provides the following built-in actions for working with SQL-compliant databases. They are listed in the typical order of their workflow:
 
@@ -41,7 +41,7 @@ TestArchitect provides the following built-in actions for working with SQL-compl
 4.  [execute sql](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/execute-sql): Execute an SQL command against the currently in-use database; optionally, store returned data into one or more data sets.
 5.  [disconnect database](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/disconnect-database): Close the database connection.
 
-## Example
+## {{< expand >}} Example
 
 ```
 create connection string  

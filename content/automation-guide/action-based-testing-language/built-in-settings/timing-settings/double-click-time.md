@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in settings, double click time, settings, double click time (settings), minimum length for double click time, double click speed, slowest speed of double click, set interval between clicks in double-click"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Set the interval between clicks for TestArchitect to use in applying double-clicks. A double-click is a series of two clicks of the mouse button, the second occurring within a specified time after the first.
 
-## Allowable value
+## {{< expand >}} Allowable value
 
 Integer value whose lower limit is the test system's minimum allowable double-click interval, and whose upper limit is the current double-click time of the host system, in milliseconds.
 
@@ -28,15 +28,15 @@ Integer value whose lower limit is the test system's minimum allowable double-cl
     -   The minimum value is 200 milliseconds.
     -   The maximum value is the current double-click time of the system.
 
-## Default value
+## {{< expand >}} Default value
 
 Current double-click time of the host system minus 50 milliseconds.
 
-## Notes
+## {{< expand >}} Notes
 
 -   The double click time built-in setting affects only the interval between clicks that TestArchitect applies when a built-in action is required to supply a double click to an AUT. An example is the [click](/automation-guide/action-based-testing-language/built-in-actions/system-actions/mouse/click) action when its click type argument has a value of double. Using this built-in setting does not alter the double-click time of the host system.
 
-## Example
+## {{< expand >}} Example
 
 **Scenario**: Suppose that your AUT is running on a virtual machine with slow performance; thus, you may slow down the speed at which you need to double-click by setting a new value that is as close to the host system's value as possible. This ensures that the click built-in action takes effect properly.
 

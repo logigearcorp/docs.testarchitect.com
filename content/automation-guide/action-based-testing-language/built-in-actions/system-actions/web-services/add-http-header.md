@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, add http header, add http header (action), add http header to URL, set http header for URL"
 ---
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#bia_add_http_header__section_iyg_dsd_1y} 
 
 Add a name/value pair as an HTTP header field that you might want to include with your request.
 
-## Arguments
+## {{< expand >}} Arguments {{< permerlink >}} {#bia_add_http_header__section_jyg_dsd_1y} 
 
 -   **key**
 
@@ -23,11 +23,11 @@ Add a name/value pair as an HTTP header field that you might want to include wit
     \(Optional\) Value of the header field
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts {{< permerlink >}} {#bia_add_http_header__section_kyg_dsd_1y} 
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes {{< permerlink >}} {#bia_add_http_header__section_lyg_dsd_1y} 
 
 -   An HTTP request must be instantiated via [create http request](/automation-guide/action-based-testing-language/built-in-actions/system-actions/web-services/create-http-request) before calling this built-in action.
 -   Refer to [here](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) for syntax and semantics of all standard HTTP header fields. In general, each header field consists of a name followed by a colon \(":"\) and the field value.
@@ -37,7 +37,7 @@ This action may be used within the following project items:test modules and user
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Example
+## {{< expand >}} Example {{< permerlink >}} {#bia_add_http_header__section_pyg_dsd_1y} 
 
 Suppose that you'd like to test a Google Maps API with the following header fields:
 

@@ -8,22 +8,22 @@ aliases:
 keywords: "built-in actions, enter text on next popup, enter text on next popup (action), iOS (action), Safari, iOS (action), iOS, Safari (action), Android (action), Android, Google Chrome (action), Google Chrome, Android (action), Safari, macOS (action), macOS, Safari (action), input text on next popup, assign text on next popup"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Write text to the user-entry field of a prompt popup, then click **OK**.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **text**
 
     The input text.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes {{< permerlink >}} {#bia_enter_text_on_next_popup__section.notes} 
 
 -   Prior to using this built-in action, it is recommended that you become familiar with the different kinds of modal JavaScript popups and how to handle them properly.
     -   For Safari
@@ -48,15 +48,15 @@ This action may be used within the following project items:test modules and user
 -   If this action is applied \(inadvertently or otherwise\) to an alert or a confirmation popup, TestArchitect ignores the text argument and clicks **OK** on the popup.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Applicable Controls
+## {{< expand >}} Applicable Controls
 
 This action is applicable to the following controls:none.
 
-## Example - Case 1: A single popup
+## {{< expand >}} Example - Case 1: A single popup
 
 **Scenario:** You are testing a customer information page with a button, **Sign up**, used for submitting one's name:
 
@@ -76,7 +76,7 @@ This action is applicable to the following controls:none.
 
 ![](/images/TA_Automation/Images/bia_enter_text_on_next_popup_single_popup_res.png)
 
-## Example - Case 2: A sequence of multiple popups
+## {{< expand >}} Example - Case 2: A sequence of multiple popups
 
 **Scenario:** You are testing a customer information page with a button, **Sign up**, used for submitting one's name:
 

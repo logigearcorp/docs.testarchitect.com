@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80016000L"
 
 Error code: 0x80016000L
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because variable names cannot start with a number.
 
-## Solution
+## {{< expand >}} Solution
 
 Change the current variable names into a new ones which comply to the variable naming rules. \([Learn more](/automation-guide/action-based-testing-language/the-test-language/variables/variable-naming-rules).\)
 

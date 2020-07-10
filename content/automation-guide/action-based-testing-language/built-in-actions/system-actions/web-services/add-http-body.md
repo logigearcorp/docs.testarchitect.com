@@ -8,22 +8,22 @@ aliases:
 keywords: "built-in actions, add http body, add http body (action), add http body, add message body to http request, add body to http"
 ---
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#bia_add_http_body__section_iyg_dsd_1y} 
 
 Add a message body into an HTTP request.
 
-## Arguments
+## {{< expand >}} Arguments {{< permerlink >}} {#bia_add_http_body__section_jyg_dsd_1y} 
 
 -   **content**
 
     Data of the message body
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts {{< permerlink >}} {#bia_add_http_body__section_kyg_dsd_1y} 
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes {{< permerlink >}} {#bia_add_http_body__section_lyg_dsd_1y} 
 
 -   An HTTP request must be instantiated via [create http request](/automation-guide/action-based-testing-language/built-in-actions/system-actions/web-services/create-http-request) before calling this built-in action.
 -   Properties of the request body must be written in JSON format.
@@ -33,7 +33,7 @@ This action may be used within the following project items:test modules and user
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Example
+## {{< expand >}} Example {{< permerlink >}} {#bia_add_http_body__section_pyg_dsd_1y} 
 
 Suppose that you'd like to test a given Google API to send a message to a recipient with the following information:
 

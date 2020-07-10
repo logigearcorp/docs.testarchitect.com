@@ -10,26 +10,26 @@ keywords: "date functions, weekday, weekday (function)"
 
 Return the day of week numeric value for a given Julian number.
 
-## Syntax
+## {{< expand >}} Syntax
 
 `integer weekday(integer date)`
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **date**
 
     Julian date number.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Returns an integer value from 1 to 7 representing the day of the week. Integer 1 is Sunday, 2 is Monday, ..., and 7 is Saturday.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following built-in setting\(s\) are supported: [date order](/automation-guide/action-based-testing-language/built-in-settings/date-time-settings/date-order).
 
-## Example
+## {{< expand >}} Example
 
 ![](/images/TA_Automation/Images/automationguide_datefunction7.png)
 

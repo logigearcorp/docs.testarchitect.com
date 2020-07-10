@@ -18,7 +18,7 @@ On the TestArchitect explorer tree, when you double-click the [**Tests**](/user-
 
 The following operations can be performed on a test module list view:
 
-## Common operations
+## {{< expand >}} Common operations
 
 You can find various common operations that can be performed on test module list views [here](/user-guide/projects-and-project-items/project-items/list-view/common-operations/).
 
@@ -28,11 +28,11 @@ From a list view, you can open a test module in the editor by right-clicking its
 
 {{<tip>}} You can also open multiple test modules by using your keyboard's Shift key to select a contiguous range of test modules \(or Control to select multiple noncontiguous test modules\); then right-click the selection, and click Open.
 
-## Creating test suites
+## {{< expand >}} Creating test suites
 
 Test suites are used to organize and execute test modules based on certain criteria. They provide flexibility in managing execution plans. For example, you can create a test suite based on an existing set of test modules and then execute all of the test modules as a set with a single action. \([Learn more](/user-guide/projects-and-project-items/project-items/test-suites/static-test-suites/creating-a-static-test-suite#step.Option_4).\)
 
-## Test execution
+## {{< expand >}} Test execution {{< permerlink >}} {#test_module_list_view__section.Test_executions} 
 
 -   **Option \#1: Running tests through the context menu**
 
@@ -51,29 +51,29 @@ Test suites are used to organize and execute test modules based on certain crite
     ![](/images/TA_Help/Images/tm_listview_drag_drop_execution.png)
 
 
-## Test results
+## {{< expand >}} Test results
 
 -   **Opening latest test result**: If you run a test multiple times, you can conveniently open the most recent test result. \([Learn more](/user-guide/working-with-test-results/opening-latest-test-result).\)
 -   **Opening baseline result**: If your test module currently has a [baseline test result](/user-guide/working-with-test-results/comparing-test-results/results-comparison-page) associated with it, you can easily access it. \([Learn more](/user-guide/working-with-test-results/opening-baseline-result).\)
 
-## Revision control
+## {{< expand >}} Revision control {{< permerlink >}} {#test_module_list_view__section.Revision_control_listView} 
 
 -   Check-out is the process of creating a local working copy from the repository. When a project item is checked out, a lock is placed on that item preventing other users from modifying it. \([Learn more](/user-guide/projects-and-project-items/project-items/revision-control/check-out).\)
 -   Check-in is the process of writing the changes made to a local working copy back to the repository. Checking in a project item releases the lock on it, allowing other authorized users to check out the item and modify it as needed. \([Learn more](/user-guide/projects-and-project-items/project-items/revision-control/check-in).\)
 -   Undoing a checkout allows you to cancel a checkout and discard any changes you have made to the local copy. \([Learn more](/user-guide/projects-and-project-items/project-items/revision-control/undo-check-out).\)
 
-## Revision history
+## {{< expand >}} Revision history {{< permerlink >}} {#test_module_list_view__section.Revision_history_listView} 
 
 Repository saves pertinent information on a project item at every check-in. This includes timestamp, assigned version, project name, item type, item name, user who checked in the item, and included comments. \([Learn more](/user-guide/projects-and-project-items/project-items/revision-control/revision-history/).\)
 
-## Project item comparisons
+## {{< expand >}} Project item comparisons {{< permerlink >}} {#test_module_list_view__section.Diff_tool_listView} 
 
 TestArchitect's Diff Tool can be invoked from the list view, allowing you to compare the differences between two project items in the list, or two revisions of the same item.
 
 -   For comparing two project items, see [Comparing project items with Diff Tool](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/diff-tool/diff-tool-for-project-items/comparing-project-items).
 -   For comparing two revisions of a project item, see [Comparing a project item's revisions with Diff Tool](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/diff-tool/diff-tool-for-project-items/comparing-revisions).
 
-## Cut-Copy-Paste operations, and Delete command
+## {{< expand >}} Cut-Copy-Paste operations, and Delete command
 
 -   From a test module list view, you can remove a given test module from one test folder and paste it to another by performing a cut-and-paste operation from the context menu.
 -   The copy-and-paste operation from the context menu allows you to create a duplicate of a selected test module.
@@ -85,23 +85,23 @@ TestArchitect's Diff Tool can be invoked from the list view, allowing you to com
     -   During a drag operation, at any time your mouse pointer is over a location that cannot accept the type of item being dragged, the pointer turns into a black crossed circle ![](/images/TA_Help/Images/black_cross_icon.png). Releasing the mouse button at this point simply cancels the operation.
 -   Use the **Delete** command from the context menu to remove the selected test module\(s\).
 
-## Name change propagation
+## {{< expand >}} Name change propagation {{< permerlink >}} {#test_module_list_view__section.Name_change_propagation_listView} 
 
 The process of renaming a given entity so that the change propagates to all references to that item is known as [name change propagation](/user-guide/support/glossary-of-terms/name-change-propagation). Renaming an entity automatically updates all applicable action lines, test modules, and action definitions where the entity name appears. \([Learn more](/user-guide/projects-and-project-items/project-items/name-change-propagation).\)
 
-## Exporting test module to external files
+## {{< expand >}} Exporting test module to external files
 
 Test modules can be exported as [.ZIP](/user-guide/tests/exporting-and-importing-tests/exporting-to-zip-file) or [.CSV](/user-guide/tests/exporting-and-importing-tests/exporting-to-csv-files/exporting-a-single-test-module) files, which can be used as a backup or for re-importing.
 
-## Importing test cases from CSV files
+## {{< expand >}} Importing test cases from CSV files
 
 Test cases can be imported from [.CSV](/user-guide/tests/exporting-and-importing-tests/importing-from-csv-files/importing-test-cases) files into a test module.
 
-## Reporting
+## {{< expand >}} Reporting {{< permerlink >}} {#test_module_list_view__section.Reporting_listView} 
 
 TestArchitect can generate reports to show the progress of the test or automation development, as well as test run performance and results. \([Learn more](/user-guide/reporting-and-dashboard/reporting/creating-reports#choice_oj2_cwb_cw).\)
 
-## Integration with third-party tools
+## {{< expand >}} Integration with third-party tools
 
 TestArchitect seamlessly integrates with several powerful third-party tools, to assist in application development, continuous integration, and test management. Interfaces with [HP Quality Center](/user-guide/integration-with-third-party-tools/hp-quality-center/) \(QC\), and [Team Foundation Server/Microsoft Test Manager](/user-guide/integration-with-third-party-tools/tfs-integration/) \(TFS-MTM\) are all available to extend TestArchitect's functionality and empower your and your team.
 

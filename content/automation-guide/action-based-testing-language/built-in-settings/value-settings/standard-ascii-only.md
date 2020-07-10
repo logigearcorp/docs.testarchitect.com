@@ -8,24 +8,24 @@ aliases:
 keywords: "built-in settings, standard ASCII only, settings, standard ASCII only (settings), standard ASCII only, discard characters whose ASCII codes are out of range of 32-217, remove characters that are not standard ASCII characters, accept standard ASCII characters only"
 ---
 
-## Description
+## {{< expand >}} Description
 
 When set to yes, TestArchitect discards any characters whose decimal ASCII codes are not within the range of 32-127.
 
-## Allowable values
+## {{< expand >}} Allowable values
 
 yes, no
 
-## Default value
+## {{< expand >}} Default value
 
 no
 
-## Notes
+## {{< expand >}} Notes
 
 -   The range of allowed ASCII characters when this setting is set to yes includes all the printable characters found on a standard English language keyboard: letters, digits, punctuation marks, and a few miscellaneous symbols.
 -   A full chart of ASCII codes maybe found at the website [ASCII-Code.com](http://www.ascii-code.com/).
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

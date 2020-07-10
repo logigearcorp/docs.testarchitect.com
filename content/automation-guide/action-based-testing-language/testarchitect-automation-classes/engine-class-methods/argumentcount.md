@@ -8,23 +8,23 @@ aliases:
 keywords: "ABT Library Functions, ArgumentCount, ArgumentCount (ABT library function)"
 ---
 
-## Syntax
+## {{< expand >}} Syntax
 
 `integer ArgumentCount ()`
 
-## Description
+## {{< expand >}} Description
 
 Retrieve the number of arguments in the current action line.
 
-## Parameters
+## {{< expand >}} Parameters
 
 There are no parameters for this function.
 
-## Return Value
+## {{< expand >}} Return Value
 
 Number of arguments in the current action line.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This function counts until there are no more arguments \(cells in the cluster\) with either a non-empty name or a non-empty value.
 

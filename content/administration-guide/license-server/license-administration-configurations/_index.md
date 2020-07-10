@@ -26,19 +26,19 @@ The type of available license scheme to you depends upon your license of TestArc
 -   Copies of Universal licenses are sold under both a floating or node-locked license \([learn more](/administration-guide/license-server/obtaining-a-testarchitect-license/requesting-a-license-key#choice.Premium_floating)\). However, you have the option of converting a license from a floating to a host-based license, and vice versa, at any time.
 -   Agent licenses are available for purchase under a floating licensing agreement \([learn more](/administration-guide/license-server/obtaining-a-testarchitect-license/requesting-a-license-key#choice.Agent_floating)\). However, similar to Universal, you have the option of converting a license from a floating to a host-based license, and vice versa, at any time.
 
-## Floating licenses
+## {{< expand >}} Floating licenses
 
 A floating license is one that can be reused among members of an organization and is not tied to any one particular person or machine. The only limitation is that, at any given point in time, a single license may only be used by one host. For example, one company owning five full licenses may have 10, 50 or 200 machines each with TestArchitect, and each of which, when licensed, is fully capable of running tests and allowing tests to be developed. But, with a pool of only five licenses to draw from, only a maximum of five machines may be engaged in these activities concurrently.
 
 {{<note>}} You have the option of [converting a license](/administration-guide/license-server/managing-licenses/license-conversion/converting-a-floating-license-into-a-host-based-license) from a floating to a host-based license, and vice versa, at any time.
 
-## Host-based licenses
+## {{< expand >}} Host-based licenses
 
 A dedicated host-based license is one that can only be granted to a specific machine. When the specified host is not using the license designated for it, the license goes unused, regardless of how much demand there may be for licenses by other machines on the network.
 
 {{<note>}} You have the option of [converting a license](/administration-guide/license-server/managing-licenses/license-conversion/converting-a-host-based-license-into-a-floating-license) from a host-based to a floating license, and vice versa, at any time.
 
-## Node-locked licenses
+## {{< expand >}} Node-locked licenses
 
 Similarly, a node-locked license is granted to a specific machine, and when that machine is not using the node-locked license, the license generally goes unused.
 
@@ -47,7 +47,7 @@ Similarly, a node-locked license is granted to a specific machine, and when that
 -   A node-locked license can be [transferred from one machine to another](/administration-guide/license-server/managing-licenses/node-locked-licenses/transferring-a-node-locked-machine-license), but with some limitations placed on the frequency of such transfers.
 -   Once you have successfully assigned or reassigned a node-locked license to a new machine, you are granted a 24-hour “grace” period, during which you are free to re-transfer the license to another machine. After the 24-hour grace period, a 72-hour lock-in period kicks in. For the duration of the lock-in period, you are restricted from transferring the node-locked license. Upon expiration of the lock-in period, you are once again free to transfer the license. This 24/72-hour policy applies on every subsequent occasion that the node-locked license is transferred.
 
-## Agent licenses
+## {{< expand >}} Agent licenses
 
 [Agent](/administration-guide/license-server/managing-licenses/testarchitect-editions#p.ta_editions.agent) licenses for TestArchitect, which allow for tests to be run on a machine but do not cover the TestArchitect Client software.
 

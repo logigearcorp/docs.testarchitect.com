@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
 
-## TestArchitect Client
+## {{< expand >}} TestArchitect Client
 
 **Enhancements to existing features**
 
@@ -23,7 +23,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   **Support viewing new line and horizontal tab characters in the test results.**
 -   In the Select Controller dialog box, each controller is identified by its host name, rather than IP address.
 
-## TestArchitect Automation
+## {{< expand >}} TestArchitect Automation
 
 -   [**Support for latest macOS versions**](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/ios-automation/): TestArchitect offers support for the most recent version of macOS, Yosemite \(10.10\).
 -   **Support for Safari iOS testing**: You can now use TestArchitect to create automated GUI and functional tests in the [Safari](/automation-guide/application-testing/mobile-testing/testing-mobile-web-applications/testing-safari-on-ios/) mobile web browser on iOS devices.

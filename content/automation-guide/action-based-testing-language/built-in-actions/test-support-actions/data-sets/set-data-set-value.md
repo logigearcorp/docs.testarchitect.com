@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, set data set value, set data set value (action), set data set value, assign value to data set, set value to data set"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Set the value of one or more cells of a column in a data set.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **data set**
 
@@ -39,15 +39,15 @@ Set the value of one or more cells of a column in a data set.
     Boolean expression establishing the filter criteria \(see Notes\), or a named filter as defined by the [filter](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/filter) action.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## {{< expand >}} Applicable Systems/Platforms
 
 Use of this action is supported on the following systems/platforms: Windows, Linux.
 
-## Notes
+## {{< expand >}} Notes
 
 -   The data set argument may specify a [dedicated data set](/user-guide/support/glossary-of-terms/dedicated-data-set) or [inline data set](/user-guide/support/glossary-of-terms/inline-data-set) that has already been defined within the test.
     -   *for a dedicated data set:* the full TA path from the **Data** node must be specified, with forward slashes \(/\) delimiting each level of the hierarchy.
@@ -83,11 +83,11 @@ Use of this action is supported on the following systems/platforms: Windows, Lin
 
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells)none.
 
-## Example - Case 1: using the row argument
+## {{< expand >}} Example - Case 1: using the row argument
 
 1.  Add a new value, 1 Smith Lane , to the **Address** cell at row 1, column 5 of the Customers dedicated data set.
 2.  Check in the dedicated data set.
@@ -106,7 +106,7 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ![](/images/TA_Automation/Images/bia_set_data_set_value_effect.png)
 
-## Example - Case 2: using the criterion argument
+## {{< expand >}} Example - Case 2: using the criterion argument
 
 In the Customers data set:
 

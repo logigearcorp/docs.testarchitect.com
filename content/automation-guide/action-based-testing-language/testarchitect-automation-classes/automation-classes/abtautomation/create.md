@@ -8,29 +8,29 @@ aliases:
 keywords: "methods of abt, Create, Create (AbtAutomation), AbtAutomation, create abtautomation, create new class instance of abtautomation, create abtautomatin class instance"
 ---
 
-## Syntax
+## {{< expand >}} Syntax {{< permerlink >}} {#abt_Create__section.syntax} 
 
 `void create()`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_Create__section.desc} 
 
 Creates a new class instance of AbtAutomation.
 
-## Parameters
+## {{< expand >}} Parameters
 
 There are no parameters for this function.
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#abt_Create__section.return} 
 
 There are no returned values for this function.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This function is currently supported only by the Python and Java harnesses.
 -   You are required to call this method to instantiate an object of class AbtAutomation.
 -   When you no longer need the instance, use [Destroy](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtautomation/destroy) to avoid memory leak.
 
-## Example
+## {{< expand >}} Example
 
 -   For Python harness:
 

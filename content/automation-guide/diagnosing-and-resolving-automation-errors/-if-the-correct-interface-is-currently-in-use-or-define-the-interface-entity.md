@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80010002L"
 
 Error code: 0x80010002L
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because the specified window is not defined yet.
 
-## Solution
+## {{< expand >}} Solution
 
 -   Create the desired interface entity \(window\), and re-run the test. \([Learn more](/user-guide/interface-definitions/creating-interface-entities).\)
 -   If the windows is already defined, ensure that you are using the correct interface. If you do not want to set the [default interface](/user-guide/interface-definitions/setting-a-default-interface), you might use the [use interface](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/interface-handling/use-interface) built-in action.

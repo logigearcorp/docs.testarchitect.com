@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be the same version.
 
-## TestArchitect Client
+## {{< expand >}} TestArchitect Client
 
 **New features**
 
@@ -35,7 +35,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   **Pace of license key validation sped up**: Parallel paradigm is now applied while checking license keys. Specifically, the license key validation is performed on both the primary and the redundant license servers simultaneously, so that the amount of time spent on validating key is decreased significantly.
 -   **Error-tolerant in license checking**: Occasionally you may encounter the issue of a non- interactive network license. This is due to a problem in network connectivity, which blocks your machines from connecting to the TestArchitect License Server. Now, the TestArchitect Controller allows a given amount of timeout value to avoid license check failure due to network instability issue.
 
-## TestArchitect Automation
+## {{< expand >}} TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.3_Windows_update_3__section_p2c_51b_cs} 
 
 **New features**
 

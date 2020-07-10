@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80010701L"
 
 Error code: 0x80010701L
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because the specified menu item does not exist.
 
-## Solution
+## {{< expand >}} Solution
 
 Ensure that the given menu item exists, or try a different menu item, and then re-run the test.
 

@@ -12,22 +12,22 @@ keywords: "ABT Library Functions, Value, Value (ABT library function)"
 
 `string Value (string variable)`
 
-## Description
+## {{< expand >}} Description
 
 Get the value of a variable
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **variable**
 
     The name of the variable.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 The function returns the current value of the variable, or empty if it is not defined, in which case a diagnostic is produced.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Variables can be assigned by either using Assign, by using the "\>\>" in the cluster or by the "set variable" action.
 

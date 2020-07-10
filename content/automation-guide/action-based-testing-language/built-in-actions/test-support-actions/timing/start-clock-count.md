@@ -8,25 +8,25 @@ aliases:
 keywords: "built-in actions, start clock count, start clock count (action), start clock count, start count up timer, start time counter"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Start the TestArchitect performance timer.
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This action is paired along with [get clock count](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/timing/get-clock-count) for ascertaining the execution performance of a test or segment of a test. Bookend these two actions at whichever segments of your tests that you wish to time.
 -   The TestArchitect timer runs continuously across action calls and test modules of the same test run \(whether in serial runs or [run test](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/run-test) invocations\), with its value globally available to the get clock count action.
 -   The TestArchitect timer runs continuously across action calls and test modules of the same test run with its value globally available to the get clock count action.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:none.
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

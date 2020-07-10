@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be the same version.
 
-## TestArchitect Client
+## {{< expand >}} TestArchitect Client {{< permerlink >}} {#Whats_New_macOS__section.TAC} 
 
 **New features**
 
@@ -24,13 +24,13 @@ The following new features and improvements are introduced in TestArchitect vers
 -   **Loading mechanism of a test module is changed.** When you open a test module, the Results tab is not loaded until you switch to it. So the loading time of the test module is reduced.
 -   When you open a test result, the tree node does not automatically expand and focus the result for faster loading time. The **Summary** tab of the test results features the [locate in result tree node](/user-guide/working-with-test-results/overview/summary-tab) button.
 
-## TestArchitect Automation
+## {{< expand >}} TestArchitect Automation {{< permerlink >}} {#Whats_New_macOS__section.Auto} 
 
 **Enhancements to existing features**
 
 -   **Support for multiple test runs on** [Generic WebDriver](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/automated-web-testing-with-webdriver/) - WebDriver can work on multiple instances at once. So it provides the capability to test more than one web page simultaneously.
 
-## Repository Server
+## {{< expand >}} Repository Server {{< permerlink >}} {#Whats_New_macOS__section_yht_rqp_yfb} 
 
 -   [**Garbage collector**](/administration-guide/repository-server-management/repository-server-control-panel-user-interface) is introduced in order to improve the performance of repositories.
 

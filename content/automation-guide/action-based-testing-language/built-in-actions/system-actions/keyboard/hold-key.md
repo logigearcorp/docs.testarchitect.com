@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, hold key, hold key (action), hold key, hold key down"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Hold specified keyboard key\(s\) down.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **window**
 
@@ -23,19 +23,19 @@ Hold specified keyboard key\(s\) down.
     \(Optional\) Key\(s\) to hold down.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## {{< expand >}} Applicable Systems/Platforms
 
 Use of this action is supported on the following systems/platforms: Windows and Linux.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait).
 
-## Notes
+## {{< expand >}} Notes
 
 -   For special keys, the following notations are used:
     -   Function keys: \{F1\} to \{F12\}
@@ -99,11 +99,11 @@ The following settings are applicable to this action:[case sensitive](/automatio
 -   For simple key combinations, such as ALT-F, hold key is not really needed. You can simulate this key combination by using the [type](/automation-guide/action-based-testing-language/built-in-actions/system-actions/keyboard/type) built-in action. hold key is only needed when one or more keys need to be held down across multiple steps.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Example
+## {{< expand >}} Example
 
 The following sample of test procedures selecting multiple cells in a given table by holding down the **left-CTRL** key, then applying [click table cell](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/click-table-cell) built-in action several times, finally releasing the **left-CTRL** key.
 
-## Action Lines
+## {{< expand >}} Action Lines
 
 ![](/images/TA_Automation/Images/bia_hold_key_pgm.png)
 

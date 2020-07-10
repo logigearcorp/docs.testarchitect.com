@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80020003L"
 
 Error code: 0x80020003L
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because the Google Chrome browser is not configured properly which results in automation playback being unable to properly match web controls.
 
-## Solution
+## {{< expand >}} Solution
 
 You can resolve this issue in one of two ways:
 

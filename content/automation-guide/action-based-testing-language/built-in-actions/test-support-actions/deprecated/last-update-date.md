@@ -8,15 +8,15 @@ aliases:
 keywords: "built-in actions, last update date, last update date (action)"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Keyword to document the last update date for the test module.
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This date is updated by the system when a test module is checked in.
 -   This action has been deprecated in TestArchitect 7.

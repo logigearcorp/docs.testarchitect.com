@@ -10,14 +10,14 @@ keywords: "column headers property, TA property, column headers, properties, sec
 
 column headers is a secondary TA property that applies to certain grid-style controls with column labels. It simply maintains the text content of all the headers in one long string.
 
-## TA classes employing the property
+## {{< expand >}} TA classes employing the property
 
 |TA class|Applicable platform\(s\)|
 |--------|------------------------|
 |table|UIA|
 |calendar|UIA|
 
-## Values
+## {{< expand >}} Values
 
 -   **table control**: A TA class table control is a native datagrid control in UIA. Each datagrid control has a header, which in turn contains header item controls. Each header item contains the text for a single column header of the datagrid. The column headers property concatenates these values, separating them with spaces. Example:
 

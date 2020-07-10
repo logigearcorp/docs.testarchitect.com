@@ -15,7 +15,7 @@ This topic describes the changes made in TestArchitect version 8.
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
 
-## TestArchitect Client
+## {{< expand >}} TestArchitect Client {{< permerlink >}} {#concept_what_new_8__section_jqm_z13_nh} 
 
 -   [**Leverage the power of JIRA**](/user-guide/integration-with-third-party-tools/jira-integration/): JIRA, a popular defect tracking system, can now be integrated with TestArchitect, allowing you and your team to more easily log and track the progress of JIRA bug issues by associating them with TestArchitect bugs. The following capabilities are offered:
     -   [**Attaching HTML test results to a JIRA bug**](/user-guide/integration-with-third-party-tools/jira-integration/features-jira-integration/working-with-jira-attachments/attaching-html-test-results-to-a-jira-bug): Attach both local and repository-based test results, in HTML format, to a JIRA bug.
@@ -115,7 +115,7 @@ This topic describes the changes made in TestArchitect version 8.
 
 -   Flash application testing is no longer supported.
 
-## License Server
+## {{< expand >}} License Server
 
 -   [**Amendment to node-locked license transfer policy**](/administration-guide/license-server/managing-licenses/node-locked-licenses/): Once you have successfully transferred a node-locked license to a new machine, you are granted a 24-hour grace period, during which you are free to re-transfer the license to another machine. After the 24-hour grace period, the 72-hour lock-in period kicks in. For the duration of the lock-in period, you are restricted from transferring the node-locked license. Upon expiration of lock-in, you are once again free to transfer the license.
 -   [**License log file**](/administration-guide/license-server/license-log-file/): The license log file tracks license requests submitted to the license server, and the outcomes of those requests.

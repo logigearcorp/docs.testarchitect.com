@@ -8,7 +8,7 @@ aliases:
 keywords: "built-in action, switch frame by destination"
 ---
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#bia_switch_frame_by_destination__section_b1x_zh3_wfb} 
 
 Switch the focus to the parent frame of the current one or the main frame \(default content\). \([Learn more](https://www.guru99.com/handling-iframes-selenium.html)\)
 
@@ -29,7 +29,7 @@ Assuming the current frame is 'frame 2'.
 
 In a web page with multiple frames, you have to switch the focus to the frame containing the element before locating the element.
 
-## Argument
+## {{< expand >}} Argument {{< permerlink >}} {#bia_switch_frame_by_destination__section_qk2_f33_wfb} 
 
 -   destination: the frame to which you want to shift the focus.
 
@@ -38,11 +38,11 @@ In a web page with multiple frames, you have to switch the focus to the frame co
     -   parent: the parent of the current frame.
     -   main: the main frame \(default content\).
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Action lines
+## {{< expand >}} Action lines {{< permerlink >}} {#bia_switch_frame_by_destination__section_y51_phj_wfb} 
 
 ![](/images/TA_Automation/Images/bia_switch_frame_by_destination_parent_pgm.png)
 

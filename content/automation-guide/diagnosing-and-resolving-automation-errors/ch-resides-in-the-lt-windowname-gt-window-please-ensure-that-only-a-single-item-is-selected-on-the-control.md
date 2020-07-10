@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80010408L"
 
 Error code: 0x80010408L
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because the given control is single selection, but you use a UI-interactive action to select more than one item.
 
-## Solution
+## {{< expand >}} Solution
 
 Remove the redundant items to be selected from the single selection control, and re-run the test.
 

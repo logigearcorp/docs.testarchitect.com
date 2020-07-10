@@ -10,19 +10,19 @@ keywords: "string functions, char, tab()"
 
 Return a horizontal tab character.
 
-## Syntax
+## {{< expand >}} Syntax
 
 `tab()`
 
-## Parameters
+## {{< expand >}} Parameters
 
 `none`
 
-## Return Value
+## {{< expand >}} Return Value
 
 A horizontal tab character.
 
-## Example
+## {{< expand >}} Example
 
 **Test Lines**
 

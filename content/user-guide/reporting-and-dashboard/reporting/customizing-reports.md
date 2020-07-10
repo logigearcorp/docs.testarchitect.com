@@ -14,11 +14,11 @@ The Edit Profile panel \(accessed via the [context menu in the TestArchitect exp
 
 ![](/images/TA_Help/Images/Edit_profile_panel.png)
 
-## Selecting displayed attributes
+## {{< expand >}} Selecting displayed attributes
 
 The **Show** check box in the Test module attributes panel governs whether a given attribute is included in the records of a generated report.
 
-## Sorting attributes
+## {{< expand >}} Sorting attributes {{< permerlink >}} {#Report_customizing__section_dr2_htp_14} 
 
 The **Sort** check box in the Test module attributes panel enables the sorting of records in the generated report by their attributes. The selected attribute\(s\) serve as the key\(s\) by which the report is sorted. For example, if you want to sort by test module name, select the **Sort** check box for the **Name** attribute. When a **Sort** check box is selected, additional sort options are displayed, enabling you to fine tune the presentation of the report.
 
@@ -28,7 +28,7 @@ The **Sort** check box in the Test module attributes panel enables the sorting o
 -   **desc** check box: Reverses the sort order \(from ascending to descending\) for the corresponding attribute.
 -   **group** check box: Creates sections and section titles for records, grouping them by the corresponding attribute.
 
-## Filtering attributes
+## {{< expand >}} Filtering attributes
 
 Simple expressions can be used to filter the records that are included in a report. Selecting a **filter** check box for a given attribute causes a text box to be displayed in which you may define how the filter is to be applied. The **filter** text box accepts and evaluates logical expressions composed of one or more comparison terms. The filter expression is applied to each record and, in each case, if the result of that expression is true, that record is displayed in the report; otherwise, it is omitted.
 
@@ -79,7 +79,7 @@ Here are some example filtering expressions applied to the **Priority** attribut
     ![](/images/TA_Help/Images/Edit_profile_panel_matching_expressions.png)
 
 
-## Statistics
+## {{< expand >}} Statistics
 
 Each attribute can be used for generating statistics in the report. Statistic reports show you counts and sums. This report lists the total number of items for each unique value of a selected attribute. This is achieved by selecting the **Stats** check box of each attribute for which such stats are desired.
 
@@ -91,7 +91,7 @@ For date related attributes \(for example, **Last update date**, **Creation date
 
 ![](/images/TA_Help/Images/Edit_profile_panel_stats_date.png)
 
-## Subreports
+## {{< expand >}} Subreports {{< permerlink >}} {#Report_customizing__section_uvw_3jp_cl} 
 
 If a project item has related items, it is possible to include the related items in a report as a subreport. For example, in a report on test modules, you can use a subreport to display the test results for each test module.
 
@@ -133,7 +133,7 @@ The test module report that matches the specified conditions is displayed.
 
 
 
-## Control panel buttons
+## {{< expand >}} Control panel buttons
 
 The toolbar of the Edit Profile panel offers the following buttons:
 

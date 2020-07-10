@@ -8,28 +8,28 @@ aliases:
 keywords: "methods of abt, Destroy, Destroy (AbtAutomation), AbtAutomation, destroy abtautomation, destroy class instance of abtautomation, kill class instance of abtautomation, get rid of automation class"
 ---
 
-## Syntax
+## {{< expand >}} Syntax {{< permerlink >}} {#abt_Destroy__section.syntax} 
 
 `void destroy()`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_Destroy__section.desc} 
 
 Explicitly destroys the class instance of AbtAutomation previously created by [Create](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtautomation/create).
 
-## Parameters
+## {{< expand >}} Parameters
 
 There are no parameters for this function.
 
-## Return Value
+## {{< expand >}} Return Value {{< permerlink >}} {#abt_Destroy__section.return} 
 
 There are no returned values for this function.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This function is currently supported only by the Python and Java harnesses.
 -   It is highly recommended that when you no longer need a given AbtAutomation class instance, you use this function to explicitly destroy the instance. Doing so frees memory and avoids memory leakage issues.
 
-## Example
+## {{< expand >}} Example
 
 -   For Python harness:
 

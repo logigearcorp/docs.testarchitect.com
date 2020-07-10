@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
 
-## TestArchitect Automation
+## {{< expand >}} TestArchitect Automation
 
 -   **All HTML input types are fully supported**.
     -   New input types of the **<input\>** element are supported as unique TA classes:

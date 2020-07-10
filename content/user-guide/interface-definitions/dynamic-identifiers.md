@@ -16,7 +16,7 @@ The static identifiers created by interface elements are useful for application 
 
 To compound the problem, such controls are often created in amounts that cannot be known in advance. A typical example is a search on a web page that presents its matches with hyperlinks. The better alternative is to use dynamic identifiers, in which you explicitly specify the class of the control and the values of identifying properties within the actual action lines of a test module or action.
 
-## Using dynamic identifiers
+## {{< expand >}} Using dynamic identifiers
 
 A dynamic identifier is surrounded by a pair of square brackets \(**\[** and **\]**\) and contains a set of one or more TA property-value pairs \(property names and their values\), separated by commas. In the case of controls \(but not windows\), the list must also include a TA class-value pair:
 
@@ -74,7 +74,7 @@ Note that, on line 18 in this revised action, we replace only the control argume
 
     3.  In the test editor, paste the content from the clipboard into the control’s argument in the appropriate action line.
 
-## Dynamic identifiers and expressions
+## {{< expand >}} Dynamic identifiers and expressions {{< permerlink >}} {#the_test_language_dynamic_identifiers__section_dzp_ynv_ns} 
 
 So, we've established that dynamic identifiers are great for people who are too lazy to create interface entities. But what else are they good for?
 
@@ -86,7 +86,7 @@ As an example, the following test case uses a variable-based dynamic identifier 
 
 See also [Using anchor pos with dynamic identifiers](/user-guide/interface-definitions/control-properties/secondary-properties/anchor-pos-property/using-anchor-pos-with-dynamic-identifiers) for an example of dynamic identifiers and expressions.
 
-## Multilevel dynamic identifiers
+## {{< expand >}} Multilevel dynamic identifiers {{< permerlink >}} {#the_test_language_dynamic_identifiers__section_u3g_wb2_wq} 
 
 A multilevel dynamic identifier is one in which the value setting for a TA property is itself a dynamic identifier. In turn, that inner dynamic identifier may also have a TA property defined by a dynamic identifier, and this can go on for any number of levels.
 

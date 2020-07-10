@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
 
-## TestArchitect Client
+## {{< expand >}} TestArchitect Client
 
 **New features**
 
@@ -39,7 +39,7 @@ The following new features and improvements are introduced in TestArchitect vers
     -   **[Importing external image sources](/user-guide/projects-and-project-items/project-items/picture-checks/importing-external-image-sources/)**: TestArchitect now lets you easily import image files \(i.e. .PNG\) format\) for new picture checks or additional new baseline images.
     -   **[Resolving unverified picture checks](/user-guide/projects-and-project-items/project-items/picture-checks/resolving-unverified-picture-checks)**: You are now able to upload unverified picture checks to the repository, and then resolve those unverified picture checks.
 
-## TestArchitect Automation
+## {{< expand >}} TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.3_Windows__section_p2c_51b_cs} 
 
 **New features**
 

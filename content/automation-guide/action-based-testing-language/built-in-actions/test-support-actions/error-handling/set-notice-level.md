@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, set notice level, set notice level (action), set notice level, notice level settings, set error notice level"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Set the severity level of runtime problem that will result in execution being interrupted to await user intervention.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **level**
 
@@ -37,22 +37,22 @@ Set the severity level of runtime problem that will result in execution being in
         \(Default\) Interrupt test run for *any* error or warning.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This action sets the value of the [notice level](/automation-guide/action-based-testing-language/built-in-settings/other-settings/notice-level) built-in setting. Note that the same effect can be achieved by using the [setting](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/value-handling/setting) action with notice level.
 -   When a problem with a high enough severity causes the test to pause, the user is presented with a message box indicating the nature of the problem, and is offered the choices of stopping the test, continuing with the remainder of the test, or debugging the problem.
 -   All problem events, whether or not of sufficient severity to trigger a pause in the test run, are logged to the test results.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

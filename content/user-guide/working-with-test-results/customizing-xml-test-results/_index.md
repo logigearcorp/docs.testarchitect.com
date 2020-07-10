@@ -16,7 +16,7 @@ XSLT is the style sheet language for XML. With XSLT you can add/remove elements 
 
 You are free to customize how the test results are displayed, as long as you understand the [XML Schema](https://www.w3.org/XML/Schema) and [XSLT](https://www.w3.org/TR/xslt) syntax. However, a tutorial on XSLT is beyond the scope of this help system. For more information on XSLT, you can refer to this [XSLT Tutorial](http://www.w3schools.com/xml/xsl_intro.asp).
 
-## Modifying a set of XSL files
+## {{< expand >}} Modifying a set of XSL files
 
 Go to the following location, and then modify .xsl files as you wish.
 

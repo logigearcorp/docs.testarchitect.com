@@ -12,11 +12,11 @@ keywords: "methods of abt, WaitForProperty, WaitForProperty (AbtEntity), AbtEnti
 
 `Boolean WaitForProperty(string propertyName, string propertyValue, long timeOut)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_WaitForProperty_entity__section.desc} 
 
 Wait until the given window property achieves the specified value or exceeds the specified timeout before continuing to the next action.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#abt_WaitForProperty_entity__section.params} 
 
 -   **propertyName**
 
@@ -35,7 +35,7 @@ Wait until the given window property achieves the specified value or exceeds the
 
 Return TRUE if the property achieves the expected value within the time limit; FALSE if the timeout is reached before the property achieves that value.
 
-## Notes
+## {{< expand >}} Notes
 
 -   During the period specified by timeOut, sampling of the specified window property is conducted periodically until a match with the value in propertyValue is found, or the timeout is reached. Either eventuality results in the automation continuing to the next action in the test.
 

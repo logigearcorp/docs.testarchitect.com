@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, filter, filter (action), filter, filter dataset"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Establish a named filter for an inline or dedicated data set.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **name**
 
@@ -23,15 +23,15 @@ Establish a named filter for an inline or dedicated data set.
     Boolean expression establishing the filter criteria.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules, data set modules, user-defined actions
 
-## Applicable Systems/Platforms
+## {{< expand >}} Applicable Systems/Platforms
 
 Use of this action is supported on the following systems/platforms: Windows, Linux.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This action may be employed within either a [dedicated data set](/user-guide/support/glossary-of-terms/dedicated-data-set) or an [inline data set](/user-guide/support/glossary-of-terms/inline-data-set) \(within the confines of a [create data set](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/create-data-set)/[end create data set](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/end-create-data-set) construct, in a test module or user-defined action\).
 -   The filter action associates a set of filter criteria with a name. It does not, in and of itself, have the effect of filtering data. The actual filtering of data occurs when the established filter is invoked, either by a [use data set](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/use-data-set), [use filter](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/use-filter), or [set data set value](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/set-data-set-value) action.
@@ -57,11 +57,11 @@ Use of this action is supported on the following systems/platforms: Windows, Lin
 
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells)none.
 
-## Example
+## {{< expand >}} Example
 
 ![](/images/TA_Automation/Images/bia_filter_pgm.png)
 

@@ -10,7 +10,7 @@ keywords: "Database testing, application testing"
 
 Using SQL-conversant external data sources in your tests.
 
-## Overview
+## {{< expand >}} Overview
 
 Many applications today, whether desktop, mobile or web-based, involve the storage and retrieval of structured data. And an ever-growing number of applications rely on external database management systems \(DBMSs\) to manage that data. Most of these DBMSs “speak” Structured Query Language \(SQL\), and are supported by a wide range of drivers, known as ODBC drivers, available across platforms. This allows the host applications to take advantage of a standard language and interface for storing and retrieving records, running queries for various sorts of information, and manipulating the stored data.
 
@@ -22,7 +22,7 @@ An additional benefit of these actions is that your test can use a database to s
 
 {{<note>}} In order to query a database, you must be familiar with SQL commands. A variety of good references and tutorials on SQL are available, including this [SQL Tutorial](http://www.w3schools.com/sql/) from W3Schools.
 
-## Prerequisites
+## {{< expand >}} Prerequisites
 
 -   Supported databases:
 

@@ -15,7 +15,7 @@ Convert a WinForms-based project's interface mappings to mappings based on TA cl
 -   The WinForms command-line tool is not available in the TestArchitect packages for the Linux and macOS operating systems.
 -   This tool does not support the conversion of WinForms dynamic controls.
 
-## Synopsis
+## {{< expand >}} Synopsis
 
 ```
 java -jar TAConvertWinFormsClassMapping.jar --ConvertWinFormsClassMapping 

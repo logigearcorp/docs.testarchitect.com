@@ -14,7 +14,7 @@ This topic describes the changes made in TestArchitect version 7.2.
 
 It is strongly recommended that you back up all repositories before upgrading to the latest version of TestArchitect.
 
-## TestArchitect Client
+## {{< expand >}} TestArchitect Client {{< permerlink >}} {#concept_what_new_7.2__section_jqm_z13_nh} 
 
 -   [**Multiple device execution**](/user-guide/test-execution/methods-of-test-execution/multiple-device-execution/): An automated test can be run on multiple devices attached to a local machine and/or remote machines.
 -   [**Device management in the Lab Manager**](/user-guide/lab-manager/managing-automation-lab/device-status): Adding or removing controllers/devices, and terminating tests running on controllers/devices can be directly managed in the TestArchitect Lab Manager.
@@ -91,7 +91,7 @@ It is strongly recommended that you back up all repositories before upgrading to
 -   The return coordinate values left and top of the actions [get picture location](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/get-picture-location) and [get text coordinate](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/optical-character-recognition/get-text-coordinates) \(for Android\) is relative to screen/window/control.
 -   The TA property doc title in the interface viewer has highest suggestion priority.
 
-## Installation and Upgrades
+## {{< expand >}} Installation and Upgrades
 
 -   **Install selectable components**:  User can select which TestArchitect components \(TestArchitect Client and Repository Server\) to install.
 -   **Update installer for JTO**: Installer resolves the*Java Tool Option* conflicts.

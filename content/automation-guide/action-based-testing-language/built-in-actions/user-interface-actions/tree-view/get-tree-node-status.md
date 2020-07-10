@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, get tree node status, get tree node status (action), get tree node status, retrieve states of specified tree node, get states of given tree node"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Retrieve the state\(s\) of a specified tree node.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **window**
 
@@ -45,11 +45,11 @@ Retrieve the state\(s\) of a specified tree node.
         The tree node has zero child nodes, hence this node is not expandable.
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   node argument:
     -   The node path may be specified by its display textor by a numerical index representing its cardinal placement in its branch, with index values starting at 1.
@@ -62,11 +62,11 @@ This action may be used within the following project items:test modules and user
         -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive), [ignore blank space](/automation-guide/action-based-testing-language/built-in-settings/value-settings/ignore-blank-space), [remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells), [standard ASCII only](/automation-guide/action-based-testing-language/built-in-settings/value-settings/standard-ascii-only), [item wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/item-wait), [object wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/object-wait), [value changed wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/value-changed-wait), [window wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/window-wait), [load invisible controls](/automation-guide/action-based-testing-language/built-in-settings/other-settings/load-invisible-controls).
 
-## Applicable Controls
+## {{< expand >}} Applicable Controls
 
 This action is applicable to the following controls:tree view, tree table, tree list.
 
@@ -82,7 +82,7 @@ This action is applicable to the following controls:tree view, tree table, tree 
 
 ![](/images/TA_Automation/Images/bia_get_tree_node_status_res.png)
 
-## Example - Case 2: Using a numerical index for node path
+## {{< expand >}} Example - Case 2: Using a numerical index for node path
 
 ![](/images/TA_Automation/Images/bia_get_tree_node_status_index_aut.png)
 

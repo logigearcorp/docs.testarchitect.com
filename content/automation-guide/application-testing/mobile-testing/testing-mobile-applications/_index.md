@@ -16,7 +16,7 @@ For power-saving purposes, computers are often configured to go into a non-activ
 
 {{<important>}} By default, TestArchitect Register Server, which is installed with TestArchitect, automatically starts up as a service \(daemon\) each time you boot your computer. This service is often essential for automated testing, and should generally be available. [Ensure the availability of the TestArchitect Register Server service](/administration-guide/testarchitect-register-server) before running your automated tests.
 
-## Executing automated mobile tests
+## {{< expand >}} Executing automated mobile tests
 
 ![](/images/TA_Automation/Images/mobile_execution_diagram.png)
 

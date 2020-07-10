@@ -16,7 +16,7 @@ It is very common that you'd like to navigate to a specified URL either within a
 
 Because you are already aware of the control triggering a popup window on the target URL, to avoid this problem, it is highly recommended that your test procedure [waits for the control](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/timing/wait-for-control) until it is available before invoking its popup-handling action. In this manner, you are assured that the popup-handling action, and all subsequent ones, apply to the target URL page session.
 
-## Scenario
+## {{< expand >}} Scenario
 
 You want to navigate to a shopping cart page, for example, www.shoppingcart.com, from an existing instance of Safari running on iOS. On the target page, your test will click a button, **Delete this item**, to remove an item from your cart:
 

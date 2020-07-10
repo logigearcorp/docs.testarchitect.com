@@ -8,15 +8,15 @@ aliases:
 keywords: "built-in settings, skip manual check, settings, skip manual check (settings), skip over manual check, determine whether to skip manual check, skip manual check"
 ---
 
-## Description
+## {{< expand >}} Description
 
 If set to yes, causes automation execution to skip over all [manual check actions](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/reporting-and-formatting/manual-check).
 
-## Allowable values
+## {{< expand >}} Allowable values
 
 yes, no
 
-## Default value
+## {{< expand >}} Default value
 
 no
 

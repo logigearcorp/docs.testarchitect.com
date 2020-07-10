@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, set ocr setting, set ocr setting (action), iOS (action), tap, Android (action), set ocr setting, set ocr, optimal character recognition setting, threshold to detect bitmapped text, OCR detection thresholds"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Set various thresholds to optimize the detection of bitmapped text in an image under test.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **fill color**
 
@@ -36,11 +36,11 @@ Set various thresholds to optimize the detection of bitmapped text in an image u
     The default value is 50%. \(Valid range is 1 to 500.\)
 
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/automation-guide/action-based-testing-language/built-in-actions/system-actions/operating-system/get-screen-resolution#li.ios.get_screen_resolution).\)
 -   In most cases of text detection, the default OCR detection thresholds are acceptable. Use this action in difficult cases, such as images with noisy backgrounds, or ones whose text color is very similar to the background.
@@ -53,11 +53,11 @@ This action may be used within the following project items:test modules and user
     3.  Click the **Refresh devices list** ![](/images/Android/Images/Refresh_device_list_btn.png) button.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:none.
 
-## Example
+## {{< expand >}} Example
 
 **Action Lines**
 

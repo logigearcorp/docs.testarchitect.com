@@ -8,19 +8,19 @@ aliases:
 keywords: "built-in actions, end interface frame, end interface frame (action)"
 ---
 
-## Description
+## {{< expand >}} Description
 
 End of a frame.
 
-## Arguments
+## {{< expand >}} Arguments
 
 There are no arguments for this action.
 
-## Valid contexts
+## {{< expand >}} Valid contexts
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## {{< expand >}} Notes
 
 -   The following interface elements are siblings of the frame.
 -   This action has been deprecated in TestArchitect 7.

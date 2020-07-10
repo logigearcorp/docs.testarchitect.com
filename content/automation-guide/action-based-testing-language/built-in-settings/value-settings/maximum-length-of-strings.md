@@ -8,7 +8,7 @@ aliases:
 keywords: "built-in settings, maximum length of strings, settings, maximum length of strings (settings), maximum length of strings, limit length of strings"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Maximum length TestArchitect will allow for strings passed as parameters to library functions \(which includes most values coming from the test modules\).
 

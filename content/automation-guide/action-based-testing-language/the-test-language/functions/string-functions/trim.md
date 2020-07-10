@@ -10,22 +10,22 @@ keywords: "string functions, trim, trim (string function)"
 
 Return a substring of a specified source string, in which all leading and trailing white space has been removed.
 
-## Syntax
+## {{< expand >}} Syntax
 
 `string trim(string str)`
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **str**
 
     The source string from which leading and trailing white spaces are removed to produce the return value.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Returns a copy of the string str, without the leading and trailing white spaces.
 
-## Example
+## {{< expand >}} Example
 
 **Test Lines**
 

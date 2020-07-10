@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in settings, winforms raw class, settings, winforms raw class (settings), winforms raw class, convert winforms raw class, winforms raw class conversion"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Determines whether, during automation, the legacy classes of captured WinForms application controls should be used in identifying those controls, in cases where the option to use TA classes exists.
 
-## Allowable values
+## {{< expand >}} Allowable values
 
 -   **yes**
 
@@ -23,11 +23,11 @@ Determines whether, during automation, the legacy classes of captured WinForms a
     Executes the automated test with new WinForms class mappings \(to TA classes\), when the option to do so exists.
 
 
-## Default value
+## {{< expand >}} Default value
 
 yes
 
-## Notes
+## {{< expand >}} Notes
 
 -   This built-in setting is not displayed in the editor by [Content Assist](/user-guide/getting-started/the-test-editor/content-assist/).
 -   This setting only affects controls mapped to WinForms legacy classes which have, in turn, been remapped to TA classes in the applicable $ Class Maps file. Controls mapped to legacy classes which have not been remapped to TA classes are unaffected by this setting.

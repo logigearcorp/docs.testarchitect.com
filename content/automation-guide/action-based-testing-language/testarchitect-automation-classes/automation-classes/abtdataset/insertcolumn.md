@@ -12,11 +12,11 @@ keywords: "methods of abt, InsertColumn, InsertColumn (AbtDataSet), AbtDataSet, 
 
 `int InsertColumn(int index, string colName)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#reference_hsk_hbw_gq__section.desc} 
 
 Insert a new column into the data set.
 
-## Parameters
+## {{< expand >}} Parameters {{< permerlink >}} {#reference_hsk_hbw_gq__section.params} 
 
 -   **index**
 
@@ -31,7 +31,7 @@ Insert a new column into the data set.
 
 Return 0 if theexecutionis successful; otherwise, -1.
 
-## Notes
+## {{< expand >}} Notes
 
 -   This method is currently supported only by the C\# harness.
 

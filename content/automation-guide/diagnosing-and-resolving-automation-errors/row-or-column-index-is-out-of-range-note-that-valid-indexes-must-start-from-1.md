@@ -10,11 +10,11 @@ keywords: "automation errors, 0x8001040AL"
 
 Error code: 0x8001040AL
 
-## Problem
+## {{< expand >}} Problem
 
 This happens because the specified row or column's number is out of range.
 
-## Solution
+## {{< expand >}} Solution
 
 Ensure the given number of row or column is in the valid range. Note that the row and column numbers starts from 1.
 

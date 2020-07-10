@@ -12,18 +12,18 @@ keywords: "methods of abt, MoveToPreviousLine, MoveToPreviousLine (AbtScrollBar)
 
 `long MoveToPreviousLine(long numberOfLines)`
 
-## Description
+## {{< expand >}} Description {{< permerlink >}} {#abt_MoveToPreviousLine__section.desc} 
 
 Move the scroll bar upward, or to the left, by the specified number of lines.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **numberOfLines**
 
     Long value specifying the number of lines by which to move the scroll bar.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Return 0 if the call is successful; otherwise, -1..
 

@@ -8,22 +8,22 @@ aliases:
 keywords: "built-in settings, get flash controls, settings, get flash controls (settings)"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Specifies if TestArchitect automation is allowed to interact with flash controls.
 
-## Allowable values
+## {{< expand >}} Allowable values
 
 Two possible values are:
 
 -   yes: allows TestArchitect automation to interact with flash controls.
 -   no: prohibits TestArchitect automation from interacting with flash controls.
 
-## Default value
+## {{< expand >}} Default value
 
 no
 
-## Notes
+## {{< expand >}} Notes
 
 This built-in setting has been deprecated.
 

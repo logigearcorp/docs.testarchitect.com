@@ -20,7 +20,7 @@ In order to capture UI controls on Microsoft Edge and Mozilla Firefox, there are
 
 -   Option \#2: Use the Developer Tools which are available on both [Microsoft Edge](https://docs.microsoft.com/en-us/microsoft-edge/f12-devtools-guide) and [Mozilla Firefox](https://developer.mozilla.org/en-US/docs/Tools/Tools_Toolbox) to identify the UI controls' property value. \(See below.\)
 
-## Use of the Developer Tools
+## {{< expand >}} Use of the Developer Tools
 
 1.  Invoke the Developer Tools.
     -   Microsoft Edge: Press F12

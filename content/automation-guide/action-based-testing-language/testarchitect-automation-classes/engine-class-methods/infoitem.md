@@ -12,11 +12,11 @@ keywords: "ABT Library Functions, InfoItem, InfoItem (ABT library function)"
 
 `integer InfoItem (string tag, string text)`
 
-## Description
+## {{< expand >}} Description
 
 Add an "info item", to appear in the report.
 
-## Parameters
+## {{< expand >}} Parameters
 
 -   **tag**
 
@@ -27,11 +27,11 @@ Add an "info item", to appear in the report.
     Text of the information item.
 
 
-## Return Value
+## {{< expand >}} Return Value
 
 Return 1 if the call is successful; otherwise, 0.If unsuccessful, the diagnostic functions can be used to get more details.
 
-## Notes
+## {{< expand >}} Notes
 
 -   Example of a call: InfoItem \("time of day", "noon" \)
 -   This will let the report show an entry like this: time of day: noon.

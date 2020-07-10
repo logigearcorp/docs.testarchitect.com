@@ -8,15 +8,15 @@ aliases:
 keywords: "built-in settings, number digits after decimal, settings, number digits after decimal, number digits after decimal (settings), number of digits after decimal point, number of decimal places, specify number of digits after decimal point, set decimal precision, specify decimal precision"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Set the number of digits after the decimal point when executing an expression \(+, -, \*, /, etc.\).
 
-## Default value
+## {{< expand >}} Default value
 
 2 digits
 
-## Example
+## {{< expand >}} Example
 
 **Test Lines**
 

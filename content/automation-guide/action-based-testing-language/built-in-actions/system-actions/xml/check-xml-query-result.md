@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, check xml query result, check xml query result (action), check XML query"
 ---
 
-## Description
+## {{< expand >}} Description
 
 Check an XPath query result against an expected string.Result is Passed ifthe strings match; otherwise Failed.
 
-## Arguments
+## {{< expand >}} Arguments
 
 -   **xml**
 
@@ -29,22 +29,22 @@ Check an XPath query result against an expected string.Result is Passed ifthe st
     \(Optional\) Expected query result.
 
 
-## Notes
+## {{< expand >}} Notes
 
 -   An empty expected argument results in Pass if the returned XML is indeed empty; otherwise Fail.
 -   It is possible to insert an entire XML file's content into the xml argument; however, all whitespace and line breaks between XML nodes must be removed manually to avoid automation failure \(see example \#4 below\).
 -   If your XML target string has a [namespace](http://www.w3schools.com/xml/xml_namespaces.asp) \(defined by the xmlns attribute in the start tag of an element\), yet no namespace is configured in the XPath expression, your query strings will not return any result. To resolve this namespace problem, you may use the [local-name\(\)](http://www.w3.org/TR/xpath-functions-30/#func-local-name) function. This function returns the query results as if no namespace is declared in the target string \(see example \#5 below\).
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Applicable Built-In Settings
+## {{< expand >}} Applicable Built-In Settings
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Applicable Controls
+## {{< expand >}} Applicable Controls
 
 This action is applicable to the following controls:none
 
-## Example - Case 1: Using an XPath predicate in an XPath query
+## {{< expand >}} Example - Case 1: Using an XPath predicate in an XPath query
 
 The following example retrieves the text from the **title** element of the first **book** element that is a child of a **bookstore** element and then compares the retrieved text against an expected value, `Everyday Italian`.
 
@@ -74,7 +74,7 @@ The following example retrieves the text from the **title** element of the first
 
 ![](/images/TA_Automation/Images/bia_check_xml_querry_result_1_res.png)
 
-## Example - Case 2: Using an XPath function in an XPath query
+## {{< expand >}} Example - Case 2: Using an XPath function in an XPath query
 
 The following example calculates the sum of all **price** nodes and then compares the returned sum against an expected value, `65`.
 
@@ -104,7 +104,7 @@ The following example calculates the sum of all **price** nodes and then compare
 
 ![](/images/TA_Automation/Images/bia_check_xml_querry_result_2_res.png)
 
-## Example - Case 3: Using a data set
+## {{< expand >}} Example - Case 3: Using a data set
 
 The following example iteratively retrieves the contents of the **price** element based on the title variable defined within a data set and then compares it against the expected value, **price**, also defined within the data set.
 

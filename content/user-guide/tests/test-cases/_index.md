@@ -48,7 +48,7 @@ Once a test module is given test cases and is checked in, it becomes a subtree o
 -   The **Information** tab, which is similar to the information panels of other tree items;
 -   The **Test Objectives** tab, which lists all the test objectives of the test case.
 
-## Modifying or deleting test cases
+## {{< expand >}} Modifying or deleting test cases
 
 You can delete a test case either through the TestArchitect explorer tree or the editor window:
 

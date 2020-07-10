@@ -12,12 +12,12 @@ TestArchitect automated tests may be created and run on web applications running
 
 {{<remember>}} Ensure that the [Interface Viewer](/user-guide/interface-definitions/the-interface-viewer/) is closed prior to running automated tests.
 
-## Supported Android emulators
+## {{< expand >}} Supported Android emulators
 
 -   [Android SDK](https://developer.android.com/studio/index.html) \(Software Development Kit\), which includes the Android Virtual Device \(AVD\) emulator that runs on your computer.
 -   Genymotion Desktop. \([Learn more](https://www.genymotion.com/#!/).\)
 
-## Supported Android versions
+## {{< expand >}} Supported Android versions
 
 |API level|Android OS version|
 |---------|------------------|
@@ -26,7 +26,7 @@ TestArchitect automated tests may be created and run on web applications running
 |API level 21|5.0.x|
 |API level 19|4.4.x|
 
-## Technological approach
+## {{< expand >}} Technological approach
 
 -   Remote Debugging: Remote Debugging is a remote web inspector for debugging web applications on Android emulators. The following must be set up to allow remote debugging to be performed:
 

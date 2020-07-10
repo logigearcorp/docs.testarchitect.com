@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
 
-## TestArchitect Client
+## {{< expand >}} TestArchitect Client
 
 **New features**
 
@@ -61,7 +61,7 @@ The following new features and improvements are introduced in TestArchitect vers
             -   [exportFromPath\(\)](https://www.testarchitect.com/OnlineHelp/TAUtilities/com/testarchitect/Project.html#exportFromPath-java.lang.String-java.lang.String-java.lang.String-boolean-): Export a specific project item, identified by its TA path, to a file.
             -   [exportFromId\(\)](https://www.testarchitect.com/OnlineHelp/TAUtilities/com/testarchitect/Project.html#exportFromId-java.lang.String-java.lang.String-java.lang.String-boolean-): Export a specific project item, identified by its TestArchitect ID, to a file.
 
-## TestArchitect Automation
+## {{< expand >}} TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.3_Windows_update_2__section_p2c_51b_cs} 
 
 **New features**
 

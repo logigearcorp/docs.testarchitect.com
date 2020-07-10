@@ -10,17 +10,17 @@ keywords:
 
 TestArchitect offers you two methods for recognizing text produced by an AUT: Optical Character Recognition \(OCR\) and Graphics Device Interface \(GDI\) techniques.
 
-## OCR technique
+## {{< expand >}} OCR technique
 
 OCR technique is used to obtain the text of a control on the AUT. To determine the text, it uses specific algorithms that read the text character by character.
 
 OCR is the process of conversion handwritten or printed text into computer readable text. TestArchitect captures an image of AUT and use OCR to read the text in it. An example of the character recognition usage in testing is searching for the needed text fragment within the captured image of an AUT.
 
-## GDI technique
+## {{< expand >}} GDI technique
 
 TestArchitect also includes the GDI technique that uses other principles to identify UI controls by the their text. Specifically, GDI traces text that the operating system is drawing on the screen.
 
-## OCR vs. GDI
+## {{< expand >}} OCR vs. GDI
 
 OCR uses specific algorithms to read text from an onscreen region character by character. These algorithms depend on several factors, such as, font, text and background colors, text size and others. These factors make OCR prone to errors.
 

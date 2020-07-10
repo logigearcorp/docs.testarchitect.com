@@ -12,19 +12,19 @@ keywords: "ABT Library Functions, Terminate, Terminate (ABT library function)"
 
 `integer Terminate ()`
 
-## Description
+## {{< expand >}} Description
 
 Stop the test run as soon as possible.
 
-## Parameters
+## {{< expand >}} Parameters
 
 There are no parameters for this function.
 
-## Return Value
+## {{< expand >}} Return Value
 
 The function returns "1" if successful or "0" if unsuccessful. If unsuccessful, the diagnostic functions can be used to get more details
 
-## Notes
+## {{< expand >}} Notes
 
 -   The function raises an internal flag that will cause "NextAction" to return the "nonextaction" return value on every subsequent call. It will also cause most of the "terminate" functions to return immediately with an "unsuccessful" return value.
 -   The actual termination is a responsibility of the automation script.
