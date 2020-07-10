@@ -24,7 +24,7 @@ To create a TA-TFS integration project, do the following:
 
         ![](/images/TA_Help/Images/TA_TFS_projects.png)
 
-    4.  Specify the name or location of the project that you are about to add.
+    4.  **Optional:** Specify the name or location of the project that you are about to add.
 
     5.  Click **OK**.
 

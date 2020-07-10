@@ -26,7 +26,7 @@ To perform a custom installation of TestArchitect, follow these steps:
 
 4.  Click **Next**.
 
-5.  If you have installed TestArchitect previously, a confirmation message appears asking whether you wish to replace the sample repository named SampleRepository.
+5.  **Optional:** If you have installed TestArchitect previously, a confirmation message appears asking whether you wish to replace the sample repository named SampleRepository.
 
     -   Click **Yes** to replace your existing SampleRepository with a fresh copy, thus losing any changes or additions you may have made.
     -   Click **No** if you wish to continue working with your existing sample repository.

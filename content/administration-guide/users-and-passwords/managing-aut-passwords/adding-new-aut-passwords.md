@@ -54,7 +54,7 @@ Only members of the administrators and test managers groups have privileges for 
     -   The **Logical Name** of each password must be unique across all projects.
     -   If the identified window has [variations](/user-guide/variations/), the encrypted password is applied to both the default variation and the keyword variations.
     -   Password management is also applicable to [Project Subscription](/user-guide/projects-and-project-items/projects-in-testarchitect/project-subscription/). Specifically, you can subscribe a project to a supplier's projects and then use password management to create encrypted passwords for controls that belong to the supplier projects.
-4.  Instead of adding one encrypted password at a time, you can add multiple encrypted passwords by right-clicking inside the Manage Passwords dialog box and selecting **Add row** from the context menu \(or pressing Ctrl + I on your keyboard\).
+4.  **Optional:** Instead of adding one encrypted password at a time, you can add multiple encrypted passwords by right-clicking inside the Manage Passwords dialog box and selecting **Add row** from the context menu \(or pressing Ctrl + I on your keyboard\).
 
 5.  Click **Apply** to save.
 

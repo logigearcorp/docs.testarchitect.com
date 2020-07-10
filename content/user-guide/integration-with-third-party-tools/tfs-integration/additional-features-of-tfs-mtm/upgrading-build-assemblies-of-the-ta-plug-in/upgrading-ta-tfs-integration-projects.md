@@ -34,7 +34,7 @@ To upgrade TA-TFS projects, do the following:
         -   Create a new class file called TAIntegrationExtensibility.cs, which is used to develop [TFS-MTM Extensibility](/user-guide/integration-with-third-party-tools/tfs-integration/additional-features-of-tfs-mtm/ta-tfs-extensibility/)
         -   Move C\# test method files, generated during [test association](/user-guide/integration-with-third-party-tools/tfs-integration/on-premises-tfs-environment-configuration/running-tests-under-on-premises-tfs/associating-ta-and-tfs-test-cases), into a new subfolder called TestArchitect\_Generated.
         -   Move assembly methods into the TAIntegrationAssembly.cs file.
-4.  If you want Visual Studio to back up your projects before upgrading them, select the **Auto back-up updating project\(s\)** check box.
+4.  **Optional:** If you want Visual Studio to back up your projects before upgrading them, select the **Auto back-up updating project\(s\)** check box.
 
 5.  Click **Update** to begin the upgrade process.
 

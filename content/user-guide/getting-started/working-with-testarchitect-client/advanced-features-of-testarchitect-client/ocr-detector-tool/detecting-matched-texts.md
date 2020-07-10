@@ -35,7 +35,7 @@ You will train the system by establishing optimal settings for detecting text du
 
     ![](/images/TA_Help/Images/OCR_detector_tool_dlg_loaded_image.png)
 
-4.  For some images, it is easier to see the effect of the edge detection process when the color information is removed from the image's display. To do this, select the **Gray Scale** check box under the **Settings** tab.
+4.  **Optional:** For some images, it is easier to see the effect of the edge detection process when the color information is removed from the image's display. To do this, select the **Gray Scale** check box under the **Settings** tab.
 
 5.  Under the **Settings** tab, select the **Pick Color** check box to enable color code selection and retrieval of desired text.
 

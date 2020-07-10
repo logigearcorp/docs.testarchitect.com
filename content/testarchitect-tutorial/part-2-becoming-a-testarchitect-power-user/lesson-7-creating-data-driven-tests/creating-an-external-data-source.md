@@ -26,7 +26,7 @@ Create a tab-delimited text file to supply data sets to your test.This external 
 
     {{<note>}} If you have a text editor that can visualize hidden characters, verify that all tabs and linefeeds are correctly positioned.
 
-6.  Change some of the data in your file. For example, change the first occurrence of Prius to Thunderbird.
+6.  **Optional:** Change some of the data in your file. For example, change the first occurrence of Prius to Thunderbird.
 
     By doing this you can verify that data is being pulled from the external file and not the Rental Cars data set.
 

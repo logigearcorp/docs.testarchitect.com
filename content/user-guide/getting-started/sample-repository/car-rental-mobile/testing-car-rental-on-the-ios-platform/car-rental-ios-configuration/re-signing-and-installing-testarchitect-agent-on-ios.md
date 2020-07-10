@@ -14,7 +14,7 @@ Ensure that basic requirements are met before installing TestArchitect Agent ont
 
 The following procedures for re-signing the TestArchitect Agent app can only be performed from an macOS machine:
 
-1.  If the test machine does not yet have a development private key already imported into the Keychain Access application, go ahead and import the private key file \(\*.p12\) on your test machine:
+1.  **Optional:** If the test machine does not yet have a development private key already imported into the Keychain Access application, go ahead and import the private key file \(\*.p12\) on your test machine:
 
     1.  If you need to export the development private key from another test machine, select **Applications** \> **Utilities** \> **Keychain Access**. In the Keychain Access window, click **login** in the **Keychains** panel, then click **Keys** in the **Category** panel. In the **Name** panel, expand the imported private key node you want to use, right-click the certificate, select **Export** and save the keychain file.
 

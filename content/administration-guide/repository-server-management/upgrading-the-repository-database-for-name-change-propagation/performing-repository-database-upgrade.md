@@ -43,7 +43,7 @@ Ensure the following requirements are met before upgrading a database.
 
     There is no way for TestArchitect to undo the changes made to the database after it has been upgraded.
 
-6.  TestArchitect may present additional Specify Interface dialog boxes for you to map [ambiguous entities](/administration-guide/repository-server-management/upgrading-the-repository-database-for-name-change-propagation/ambiguous-entities), depending on whether or not the database has any such ambiguities which need to be resolved.
+6.  **Optional:** TestArchitect may present additional Specify Interface dialog boxes for you to map [ambiguous entities](/administration-guide/repository-server-management/upgrading-the-repository-database-for-name-change-propagation/ambiguous-entities), depending on whether or not the database has any such ambiguities which need to be resolved.
 
 
 Depending on the size of the database, it may take some time to complete the upgrade. An Upgrade Database Tool dialog box appears showing the status of the upgrade and the upgrade results for each project in the database. Successfully upgraded projects are marked with check icons ![](/images/TA_Administration/Images/Repo_upgrade_pass.png). Projects that fail to upgrade are marked with 'X' ![](/images/TA_Administration/Images/Repo_upgrade_fail.png) icons. Click **View upgrade log** next to a project's name to view the upgrade log for that project.

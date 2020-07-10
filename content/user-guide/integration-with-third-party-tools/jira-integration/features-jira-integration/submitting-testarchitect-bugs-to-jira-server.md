@@ -45,7 +45,7 @@ To submit a bug from a TestArchitect test result to a JIRA project, do the follo
     -   **Description**: A detailed description of the bug.
     ![](/images/TA_Help/Images/Submit_bug_to_JIRA_dlg_General_Bug_Information.png)
 
-6.  By default, the **Submit TestArchitect HTML test result as attachment** check box is selected, to attach the HTML test result to the JIRA bug. Clear this check box if you don't want the HTML test result attached to the JIRA bug.
+6.  **Optional:** By default, the **Submit TestArchitect HTML test result as attachment** check box is selected, to attach the HTML test result to the JIRA bug. Clear this check box if you don't want the HTML test result attached to the JIRA bug.
 
 7.  Click **OK**.
 

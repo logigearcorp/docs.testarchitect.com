@@ -23,7 +23,7 @@ To automatically upload test results to Quality Center after test execution:
 
 2.  Specify a destination folder in Quality Center to upload the test results to. Alternatively, click the browse ![](/images/TA_Help/Images/btn.browse-ellipsis.02.png) button to select a Quality Center test set location.
 
-3.  If you elect to browse to a Quality Center test set location, the Select Test Set To Upload dialog box appears for you to specify where in Quality Center to upload the test results. Select a test set node to upload to and click **OK**.
+3.  **Optional:** If you elect to browse to a Quality Center test set location, the Select Test Set To Upload dialog box appears for you to specify where in Quality Center to upload the test results. Select a test set node to upload to and click **OK**.
 
 
 After the test run terminates, TestArchitect automatically uploads the generated test results to Quality Center at the specified location. Successfully uploaded test results can be viewed in Quality Center at **Testing** \> **Test Lab** \> **Test Runs tab**.

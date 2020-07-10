@@ -49,7 +49,7 @@ Begin by opening TestArchitect Client, then expand a specific project of the Tes
 
 9.  In the New Test Module dialog box, enter a name of My scripted tests in the **Name** box, along with an optional description in **Description**.
 
-10. Enter some descriptive information:
+10. **Optional:** Enter some descriptive information:
 
     1.  In the `OBJECTIVES` section, for test objective `T0 01`, enter the title test TestArchitect's C\# harness in the third column.
 

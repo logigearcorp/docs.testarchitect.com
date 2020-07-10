@@ -45,7 +45,7 @@ To create a new chart panel on a Dashboard page:
         -   **Categories**: Use the values of the horizontal axis to label each group of data on the chart.
         -   **Value**: Use the raw numerical values of each group to label the group data on the chart.
         -   **Percentage**: Use the percentage values of each group to label the group data on the chart.
-4.  To restrict the data used by the panel based on the values of one or more data fields, select and enter the filtering expression\(s\) as needed on the **Data** \> **Filter Fields** tab.
+4.  **Optional:** To restrict the data used by the panel based on the values of one or more data fields, select and enter the filtering expression\(s\) as needed on the **Data** \> **Filter Fields** tab.
 
     ![](/images/TA_Help/Images/Dashboard_filter_fields_tab.png)
 
@@ -59,7 +59,7 @@ To create a new chart panel on a Dashboard page:
     -   **Remove**: Remove the highlighted logical expression from the filter list.
     -   **Add: \( \)**: Add parentheses to the highlighted logical expression to override the default order of precedence.
     -   **Remove: \( \)**: Remove parentheses from the highlighted logical expression.
-5.  After adding customized filters to the panel, if you want to save the new filtering expression\(s\) to a new data profile, click **Save as** on the **Filters** tab and enter the name of the data profile on the **Save setting profile as** text box, then click **Save**.
+5.  **Optional:** After adding customized filters to the panel, if you want to save the new filtering expression\(s\) to a new data profile, click **Save as** on the **Filters** tab and enter the name of the data profile on the **Save setting profile as** text box, then click **Save**.
 
     ![](/images/TA_Help/Images/Dashboard_save_setting_profile_as.png)
 

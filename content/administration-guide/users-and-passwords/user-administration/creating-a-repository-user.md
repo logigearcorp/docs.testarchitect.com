@@ -36,7 +36,7 @@ To create a TestArchitect user, do the following:
 
     ![](/images/TA_Administration/Images/LDAP_error_message_1.png)
 
-5.  At this point, you have the option to change the authentication mode used by the repository. See [Setting a repository's user authentication mode](/administration-guide/users-and-passwords/user-administration/setting-a-repository-s-user-authentication-mode).
+5.  **Optional:** At this point, you have the option to change the authentication mode used by the repository. See [Setting a repository's user authentication mode](/administration-guide/users-and-passwords/user-administration/setting-a-repository-s-user-authentication-mode).
 
 
 

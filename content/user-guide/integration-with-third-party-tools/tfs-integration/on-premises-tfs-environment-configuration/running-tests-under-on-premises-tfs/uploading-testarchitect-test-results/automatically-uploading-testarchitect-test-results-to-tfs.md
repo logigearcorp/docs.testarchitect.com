@@ -95,7 +95,7 @@ To automatically upload TestArchitect test results to TFS after execution:
     -   **Automatically compress result\(s\) if file size \> KB**: Upload the result as a compressed \(zipped\) HTML file if the file exceeds the specified size. Otherwise, upload the result as an uncompressed HTML file.
     ![](/images/TA_Help/Images/ug_MTM_upload_results_automatic_attachment_type.png)
 
-9.  To upload results as an HTML with your own view layout, select the **Apply customized XSLT template** check box, and then choose a location of your customized XSLT template.
+9.  **Optional:** To upload results as an HTML with your own view layout, select the **Apply customized XSLT template** check box, and then choose a location of your customized XSLT template.
 
     ![](/images/TA_Help/Images/ug_MTM_upload_results_HTML_layout.png)
 

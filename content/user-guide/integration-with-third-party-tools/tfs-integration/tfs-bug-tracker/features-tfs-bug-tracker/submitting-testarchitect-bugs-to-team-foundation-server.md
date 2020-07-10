@@ -33,7 +33,7 @@ To submit a bug from a TestArchitect test result to a TFS project, do the follow
     -   **Description**: A detailed description of the bug.
     ![](/images/TA_Help/Images/ug_submit_bug_TFS.png)
 
-5.  By default, the **Submit TestArchitect HTML test result as attachment** check box is selected, to attach the HTML test result to the TFS bug. Clear this check box if you don't want the HTML test result attached to the TFS bug.
+5.  **Optional:** By default, the **Submit TestArchitect HTML test result as attachment** check box is selected, to attach the HTML test result to the TFS bug. Clear this check box if you don't want the HTML test result attached to the TFS bug.
 
     **Optional**: By default **Automatically compress result\(s\) if file size \> KB** check box is un-selected and default value is 2048 KB, to upload the result as a compressed \(zipped\) HTML file if the file exceeds the specified size. Otherwise, upload the result as an uncompressed HTML file.
 

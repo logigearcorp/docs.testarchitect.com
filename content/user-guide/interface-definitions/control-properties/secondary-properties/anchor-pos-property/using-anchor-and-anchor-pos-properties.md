@@ -75,7 +75,7 @@ The **div** element with `id="national_section"` is a good candidate as an ancho
 
 {{<warning>}} Note that there is an assumption being made for this example, which is that the only <a\> elements in the articles are the headlines. That is a dangerous assumption, as <a\> is used for hyperlinks and it is certainly possible for hyperlinks to appear in an article's content. We will address this problem in a [later topic](/user-guide/interface-definitions/control-properties/secondary-properties/anchor-pos-property/using-anchor-pos-with-multilevel-dynamic-identifiers).
 
-1.  If you wish to follow along with the steps in this example:
+1.  **Optional:** If you wish to follow along with the steps in this example:
 
     1.  Select and copy the HTML code at the top of this page.
 

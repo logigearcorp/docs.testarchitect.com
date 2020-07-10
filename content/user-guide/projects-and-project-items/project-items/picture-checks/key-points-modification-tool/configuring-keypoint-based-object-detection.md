@@ -44,7 +44,7 @@ In the following example, we wish to find the presence of a given object \(a Rub
     -   The **Show picture in gray scale mode** check box is selected by default. By displaying the image without color, the colored keypoints are, again, easier to detect by eye. You may clear the check box if you wish.
     -   The **Min Accuracy \(%\)** box allows you to specify a threshold of similarity between the baseline object defined by the set of active keypoints and any given portion of the test image \(or, at this point, the training image\) that appears to be a match. Any training image region whose accuracy rating is equal to or greater than this threshold is treated as a detected object. The default value is 50.
 3.  It's often the case that you will want to limit the area of the baseline that will be used for finding a match with the captured image, or, more likely, with a portion of the captured image.
-4.  Select a rectangular keypoint region by clicking on a starting point in the baseline image and dragging the mouse pointer while holding the left mouse button.
+4.  **Optional:** Select a rectangular keypoint region by clicking on a starting point in the baseline image and dragging the mouse pointer while holding the left mouse button.
 
     A red rectangle appears while you drag the mouse pointer to define the selected region.
 

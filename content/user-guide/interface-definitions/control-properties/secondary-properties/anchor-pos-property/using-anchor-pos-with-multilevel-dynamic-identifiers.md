@@ -86,7 +86,7 @@ Note that the content div of the first article now has a new link element encomp
 
 This will help us ensure that our new approach works correctly. \(Feel free, by the way, to try out the test cases of the previous two examples against this new web page, to verify that they are no longer adequate solutions.\)
 
-1.  {{<note>}} If you already saved the HTML code from the previous example, you can skip the following substeps. \(But remember to change the content div element as mentioned above, and to open the web page in a browser.\)
+1.  **Optional:** {{<note>}} If you already saved the HTML code from the previous example, you can skip the following substeps. \(But remember to change the content div element as mentioned above, and to open the web page in a browser.\)
 
     If you wish to follow along with the steps in this example:
 
@@ -109,7 +109,7 @@ This will help us ensure that our new approach works correctly. \(Feel free, by 
     Be sure to save it.
 
 3.  Now we're ready to write our test procedure.
-4.  In TestArchitect, if you have not already created the newspaper test module from the previous example, go ahead and do so.
+4.  **Optional:** In TestArchitect, if you have not already created the newspaper test module from the previous example, go ahead and do so.
 
 5.  In the test editor, create a new test case, and \(optionally\) give it a title, such as Use multi-level anchoring to better ensure reliable results.
 

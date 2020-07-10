@@ -20,7 +20,7 @@ To execute the Music Library automated test samples:
 
 3.  In the TestArchitect explorer tree, expand the **Music Library** node and its **Tests** subnode.
 
-4.  Select the particular Music Library test \(for example, UI functional tests\) you want to execute and click the **Execute** ![](/images/TA_Tutorials_Sample_App/Images/btn.TAC_toolbar.Execute.png) button on the toolbar.
+4.  **Optional:** Select the particular Music Library test \(for example, UI functional tests\) you want to execute and click the **Execute** ![](/images/TA_Tutorials_Sample_App/Images/btn.TAC_toolbar.Execute.png) button on the toolbar.
 
 5.  In the Execute Test dialog box, click **Execute** to start the test.
 

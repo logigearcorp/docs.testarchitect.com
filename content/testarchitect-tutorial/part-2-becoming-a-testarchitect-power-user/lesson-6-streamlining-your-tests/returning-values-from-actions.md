@@ -80,7 +80,7 @@ We will extend the action choose rental location and dates by having it return t
 
 13. Navigate to the application window Car Rental-Select Date and Location by clicking **Login**,then **New Order**.
 
-14. Execute test case `TC 04` of your test.
+14. **Optional:** Execute test case `TC 04` of your test.
 
     With your test displayed in the editor, do the following:
 

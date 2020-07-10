@@ -20,7 +20,7 @@ To add new test modules to an existing dynamic test suite, do the following:
 
     ![](/images/TA_Help/Images/Edit_profile_panel.png)
 
-3.  To verify that the customized data profile specifies the set of test modules that you want it to, click the **Show** button.
+3.  **Optional:** To verify that the customized data profile specifies the set of test modules that you want it to, click the **Show** button.
 
     The test module report that matches the new conditions appears.
 

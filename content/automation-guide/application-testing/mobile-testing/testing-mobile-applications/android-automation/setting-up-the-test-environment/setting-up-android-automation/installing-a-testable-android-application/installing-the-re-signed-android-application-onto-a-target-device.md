@@ -31,11 +31,11 @@ After successfully re-signing the application, you can install it to a device.
 
         Following that, TestArchitect installs an instance of TestArchitect Agent, which handles all communications between the AUT and the TestArchitect controller. \(An instance of TestArchitect Agent is installed for every installed AUT.\) This process also can result in the device inadvertently repeating the installation continuously. As before, end the loop by pressing the device's **Back** button.
 
-5.  If TestArchitect detects conflicts between your current signature setting and your signed application,\(for example, your current signature setting is LogiGear, but your application is signed with your custom signature\), TestArchitect displays a warning message asking whether you want to overwrite the application's certificate with the current signature setting.
+5.  **Optional:** If TestArchitect detects conflicts between your current signature setting and your signed application,\(for example, your current signature setting is LogiGear, but your application is signed with your custom signature\), TestArchitect displays a warning message asking whether you want to overwrite the application's certificate with the current signature setting.
 
     -   Yes: Re-sign the application with the current signature setting, then install it.
     -   No: Close the warning message, then continue installing the application with its existing certificate.
-6.  If the selected application is already installed on the chosen device, a dialog box appears asking if you want to replace the installed application.
+6.  **Optional:** If the selected application is already installed on the chosen device, a dialog box appears asking if you want to replace the installed application.
 
     ![](/images/Android/Images/android_13.png)
 

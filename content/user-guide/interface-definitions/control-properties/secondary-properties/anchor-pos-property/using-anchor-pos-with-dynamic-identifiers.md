@@ -69,7 +69,7 @@ As before, we can use the **div** element with `id="national_section"` as an anc
 
 {{<warning>}} The last example included a warning that we are assuming that the only link \(<a\>\) elements in the articles are those that contain the headlines. That assumption still holds for this example. It is addressed in a [later example](/user-guide/interface-definitions/control-properties/secondary-properties/anchor-pos-property/using-anchor-pos-with-multilevel-dynamic-identifiers).
 
-1.  {{<note>}} If you already saved the HTML code from the previous example, you can skip the following substeps. \(But remember to open the web page in a browser.\)
+1.  **Optional:** {{<note>}} If you already saved the HTML code from the previous example, you can skip the following substeps. \(But remember to open the web page in a browser.\)
 
     If you wish to follow along with the steps in this example:
 
@@ -92,7 +92,7 @@ As before, we can use the **div** element with `id="national_section"` as an anc
     Be sure to save it.
 
 3.  Now we're ready to write our test procedure.
-4.  In TestArchitect, if you have not already created the newspaper test module from the previous example, go ahead and do so.
+4.  **Optional:** In TestArchitect, if you have not already created the newspaper test module from the previous example, go ahead and do so.
 
 5.  In the test editor, create a new test case, and \(optionally\) give it a title, such as Use anchor pos with dynamic identifier to allow for looping thru headlines.
 

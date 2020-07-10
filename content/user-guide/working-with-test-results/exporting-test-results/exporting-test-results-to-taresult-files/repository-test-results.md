@@ -24,7 +24,7 @@ Ensure that the test results you want to export are [stored in the repository](/
 
     ![](/images/TA_Help/Images/Export_Results_To_File_taresult.dlg.png)
 
-3.  In the dialog box, click the **Browse** ![](/images/TA_Help/Images/btn.browse-ellipsis.01.png) button to choose a location to which to save the file \(in .TARESULT format\).
+3.  **Optional:** In the dialog box, click the **Browse** ![](/images/TA_Help/Images/btn.browse-ellipsis.01.png) button to choose a location to which to save the file \(in .TARESULT format\).
 
     You can accept the default location, but any place that is easy to remember will work.
 
@@ -32,11 +32,11 @@ Ensure that the test results you want to export are [stored in the repository](/
 
     -   On Windows: Network paths are also supported.
     -   On Linux, macOS: Mounted paths are also supported.
-4.  To reduce the size of your repository, select the **Remove from repository** check box to delete the source test result from the repository.
+4.  **Optional:** To reduce the size of your repository, select the **Remove from repository** check box to delete the source test result from the repository.
 
-5.  To open the parent folder containing the exported test result, select the **Open folder after saving** check box.
+5.  **Optional:** To open the parent folder containing the exported test result, select the **Open folder after saving** check box.
 
-6.  If the exported test result is a master result, meaning, it is a [test suite result](/user-guide/working-with-test-results/overview/#section.TS_results), or it contains [subresults](/user-guide/working-with-test-results/overview/#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into .TARESULT format.
+6.  **Optional:** If the exported test result is a master result, meaning, it is a [test suite result](/user-guide/working-with-test-results/overview/#section.TS_results), or it contains [subresults](/user-guide/working-with-test-results/overview/#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into .TARESULT format.
 
 7.  In the Export Result\(s\) To File, click **OK**.
 

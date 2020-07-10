@@ -30,7 +30,7 @@ Do the following to install the TestArchitect Agent onto your Android device:
 
     ![](/images/Android/Images/android_10.png)
 
-3.  You may remove the USB cable connection after you have installed the TestArchitect Agent onto the physical device that you intend to test.
+3.  **Optional:** You may remove the USB cable connection after you have installed the TestArchitect Agent onto the physical device that you intend to test.
 
 
 In addition to the presence of a green icon in the Android Instrumentation Applications dialog box, you may verify that the TestArchitect Agent is running on a device by checking Android’s **Manage Applications** utility:

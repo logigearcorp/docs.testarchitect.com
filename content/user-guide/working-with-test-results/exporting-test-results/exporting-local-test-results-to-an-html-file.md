@@ -51,7 +51,7 @@ You have two options for exporting your test results to HTML:
 
         -   Optimized resolution: Included screenshot's dimensions are optimized to save space in the exported HTML test results. Specifically, the screenshots are saved as thumbnail images.
         -   Regular resolution: Original resolution of included screenshots is retained. Specifically, the screenshots are saved as full size images.
-    8.  To open the parent folder containing the exported test result, select the **Open folder after saving** check box.
+    8.  **Optional:** To open the parent folder containing the exported test result, select the **Open folder after saving** check box.
 
     9.  Click **Save**.
 

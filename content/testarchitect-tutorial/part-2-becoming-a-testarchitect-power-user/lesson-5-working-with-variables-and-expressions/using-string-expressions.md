@@ -24,7 +24,7 @@ How to use concatenation to manipulate text in action arguments.
 
     You are now ready to begin writing your action lines.
 
-4.  In the third column of the TEST CASE line, provide a useful description, such as string ops.
+4.  **Optional:** In the third column of the TEST CASE line, provide a useful description, such as string ops.
 
 5.  Enter the following action lines:
 

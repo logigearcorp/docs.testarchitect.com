@@ -22,7 +22,7 @@ To work on a given project, you must create a connection to its host repository,
 
     The **Server** drop-down list contains the list of recently-used servers in the form: `{server_name:port}`. Initially \(before any outside repository connections have been set up\), this field displays only `localhost:53400` \(`53400` is the default port use for repository servers\).
 
-3.  If the repository server you want to connect to is not found in the **Server** drop-down list, click **Add** to open the Add Server dialog box.
+3.  **Optional:** If the repository server you want to connect to is not found in the **Server** drop-down list, click **Add** to open the Add Server dialog box.
 
     1.  Enter the server name or IP address into the **Host name** box.
 

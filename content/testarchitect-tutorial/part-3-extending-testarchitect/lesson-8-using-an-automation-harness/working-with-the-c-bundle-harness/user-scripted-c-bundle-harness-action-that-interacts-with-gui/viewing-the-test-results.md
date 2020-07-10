@@ -49,7 +49,7 @@ After creating the C\# bundle harness to implement the custom action get list vi
 
 10. Click **OK** to return to the Execute Test dialog box.
 
-11. In the Test Modules panel, expand the tree and select only test case TC 02 check box.
+11. **Optional:** In the Test Modules panel, expand the tree and select only test case TC 02 check box.
 
 12. Click **Execute** to run the test.
 

@@ -59,7 +59,7 @@ To establish this configuration, do the following:
 
     ![](/images/TA_Help/Images/LDAP_tool_dlg_authentication_settings.png)
 
-7.  Enter Base DN value in LDAP Schema Settings.
+7.  **Optional:** Enter Base DN value in LDAP Schema Settings.
 
     The Base Distinguished Name \(Base DN\) corresponds to a node in the LDAP directory tree. By specifying a Base DN, you can restrict authentication queries to only those subnodes that reside below that point \(as opposed to all subnodes under the root\). This reduces the time and overhead of such queries, since it narrows downs the scope of the search.
 

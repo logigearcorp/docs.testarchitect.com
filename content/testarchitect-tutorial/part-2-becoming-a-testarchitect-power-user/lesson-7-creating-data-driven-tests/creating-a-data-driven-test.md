@@ -24,7 +24,7 @@ Create a test that uses multiple data records from a data set. A data set is a d
 
     You are now ready to begin writing your action lines.
 
-4.  In the third column of the TEST CASE line, provide a useful description, such as Report data out of a data set.
+4.  **Optional:** In the third column of the TEST CASE line, provide a useful description, such as Report data out of a data set.
 
 5.  {{<note>}} The first step is to enter a use data set action line, but TestArchitect offers a shortcut for this:
 

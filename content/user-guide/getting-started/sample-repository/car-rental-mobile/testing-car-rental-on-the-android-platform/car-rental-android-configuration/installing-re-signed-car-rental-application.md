@@ -29,7 +29,7 @@ Perform the following procedures on the host machine.
 
     An Android Instrumentation Tool dialog box appears displaying the list of connected devices in the **Devices** panel.
 
-4.  If you have more than one device connected, click, on the **Devices** panel, the device into which you want to install the re-signed application file.
+4.  **Optional:** If you have more than one device connected, click, on the **Devices** panel, the device into which you want to install the re-signed application file.
 
 5.  On the Android Instrumentation Tool dialog box, click the **Install more** button.
 

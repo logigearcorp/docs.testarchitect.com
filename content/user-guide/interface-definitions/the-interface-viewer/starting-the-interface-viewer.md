@@ -10,7 +10,7 @@ keywords: "interface viewer, starting, viewer"
 
 Launching the Interface Viewer tool.
 
-1.  Do the following:
+1.  **Optional:** Do the following:
 
     -   Start up an application for which you already have an interface; navigate to a window of that application.
     -   Check out and open an interface entity corresponding to the open application window, and ensure that it occupies the active tab on the client's main panel.

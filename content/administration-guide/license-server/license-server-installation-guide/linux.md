@@ -36,13 +36,13 @@ How to install TestArchitect License Server on Linux.
 
 4.  Please read through the text of the agreement and then select **I accept the terms of the license agreement**. Then click **Next**.
 
-5.  Choose the location for installation of TestArchitect License Server by clicking the **Browse** button or, alternatively, accept the given default location.
+5.  **Optional:** Choose the location for installation of TestArchitect License Server by clicking the **Browse** button or, alternatively, accept the given default location.
 
     ![](/images/TA_InstallationGuide/DITA_source/Images/install_LS_Linux_4.png)
 
 6.  Click **Next** to continue.
 
-7.  Choose the location for TestArchitect License Server to store its data files by clicking the **Browse** button or, alternatively, accept the given default location.
+7.  **Optional:** Choose the location for TestArchitect License Server to store its data files by clicking the **Browse** button or, alternatively, accept the given default location.
 
     ![](/images/TA_InstallationGuide/DITA_source/Images/install_LS_Linux_5.png)
 

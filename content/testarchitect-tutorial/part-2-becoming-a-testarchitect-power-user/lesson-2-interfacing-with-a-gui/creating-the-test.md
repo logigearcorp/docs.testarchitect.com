@@ -24,7 +24,7 @@ Build a new test module based on the interface of the Car Rental sample applicat
 
     Note that **TO 01** under TEST CASE **TC01** is automatically updated to reflect your changes.
 
-5.  In the leftmost cell of a row somewhere in the `INITIAL` section, type [use interface](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/interface-handling/use-interface), with the argument Car Rental, leaving at least one blank line above it to allow for a header name:
+5.  **Optional:** In the leftmost cell of a row somewhere in the `INITIAL` section, type [use interface](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/interface-handling/use-interface), with the argument Car Rental, leaving at least one blank line above it to allow for a header name:
 
     ![](/images/TA_Tutorials/Images/tut.Interfacing_with_GUI_02.png)
 

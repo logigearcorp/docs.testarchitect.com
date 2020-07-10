@@ -24,7 +24,7 @@ To create a new branch, do the following:
 
     ![](/images/TA_Help/Images/New_branch_effect.png)
 
-3.  Unless you're satisfied with the default name, give this branch an appropriate name \(for example: Patches\), and then press Enter.
+3.  **Optional:** Unless you're satisfied with the default name, give this branch an appropriate name \(for example: Patches\), and then press Enter.
 
 
 A new branch is created.

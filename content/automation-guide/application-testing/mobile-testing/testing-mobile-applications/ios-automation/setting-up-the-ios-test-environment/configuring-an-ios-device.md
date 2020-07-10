@@ -28,7 +28,7 @@ Perform the following on your iOS device:
 
     2.  Set **AssistiveTouch** to Off.
 
--   accessibility label is a property of some controls in iOS. If your test needs to access this property, turn on **Speak Screen** in iOS 8 or, in iOS 7, set **Triple-Click Home** to control Toggle VoiceOver. This allows for the [Interface Viewer](/user-guide/interface-definitions/the-interface-viewer/interpreting-the-interface-viewer/) to capture the accessibility label property:
+-   **Optional:** accessibility label is a property of some controls in iOS. If your test needs to access this property, turn on **Speak Screen** in iOS 8 or, in iOS 7, set **Triple-Click Home** to control Toggle VoiceOver. This allows for the [Interface Viewer](/user-guide/interface-definitions/the-interface-viewer/interpreting-the-interface-viewer/) to capture the accessibility label property:
 
     -   iOS 8:
         -   Tap **Settings** \> **General** \> **Accessibility** \> **Speech**.

@@ -41,7 +41,7 @@ The following offers a simple example of rearranging the test modules in a dynam
 
         ![](/images/TA_Help/Images/Edit_profile_panel_example_desc.png "After editing a data profile")
 
-3.  To verify that the test modules are reordered in the customized data profile, click the **Show** button.
+3.  **Optional:** To verify that the test modules are reordered in the customized data profile, click the **Show** button.
 
     ![](/images/TA_Help/Images/Edit_profile_panel_example_after.png)
 

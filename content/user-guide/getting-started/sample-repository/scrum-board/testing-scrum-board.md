@@ -22,7 +22,7 @@ To execute the Scrum Board sample:
 
 3.  In the TestArchitect explorer tree, expand the **Scrum Board** node and then its **Tests** subnode.
 
-4.  Select the particular Scrum Board test \(for example, **Input Validation**\) you want to execute and click **Execute** ![](/images/TA_Tutorials_Sample_App/Images/btn.TAC_toolbar.Execute.png) on the toolbar.
+4.  **Optional:** Select the particular Scrum Board test \(for example, **Input Validation**\) you want to execute and click **Execute** ![](/images/TA_Tutorials_Sample_App/Images/btn.TAC_toolbar.Execute.png) on the toolbar.
 
 5.  In the Execute Test dialog box, click the **Select Version** button in the Variation Specification panel.
 
@@ -39,7 +39,7 @@ To execute the Scrum Board sample:
     -   Linux platform: select the **Linux** check box.
 7.  Click **OK**.
 
-8.  In the Execute Test dialog box, fill-in the language type variation **Keyword** in the Variation Specification frame. To test Scrum Board in English, clear the **Keyword** text box. To test in Spanish \(only for the Scrum Board's Multi-language Test module\) set the variation keyword to spanish.
+8.  **Optional:** In the Execute Test dialog box, fill-in the language type variation **Keyword** in the Variation Specification frame. To test Scrum Board in English, clear the **Keyword** text box. To test in Spanish \(only for the Scrum Board's Multi-language Test module\) set the variation keyword to spanish.
 
     {{<note>}} The variation keyword spanish is applicable only for the Scrum Board's Multi-language Test module.
 

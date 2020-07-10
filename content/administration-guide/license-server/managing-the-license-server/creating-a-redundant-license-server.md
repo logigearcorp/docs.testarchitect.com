@@ -26,7 +26,7 @@ On the machine that is to host the redundant license server:
 
     {{<note>}} If you use the full host name of the machine, ensure that the machine is connected to your working domain.
 
-5.  Use the default port number for the redundant license server, or overwrite the port value with a different value.
+5.  **Optional:** Use the default port number for the redundant license server, or overwrite the port value with a different value.
 
     ![](/images/TA_Administration/Images/adm_configure_RLS.png)
 

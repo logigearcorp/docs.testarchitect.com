@@ -36,7 +36,7 @@ In this exercise you will refactor your last test case by encapsulating its repo
 5.  Navigate to the application window Car Rental-Select Date and Location by clicking **Login**,then **New Order**.
 
 6.  Optionally, you may test your new test case now to ensure that it properly interfaces with the AUT, or you may skip the next step. We will run the test again later, after the action lines have been encapsulated.
-7.  Execute test case `TC 03` of your test.
+7.  **Optional:** Execute test case `TC 03` of your test.
 
     With your test displayed in the editor, do the following:
 
@@ -125,7 +125,7 @@ In this exercise you will refactor your last test case by encapsulating its repo
 
     ![](/images/TA_Tutorials/Images/tut.actions.encapsulation.012.png)
 
-21. Execute test case `TC 04` of your test.
+21. **Optional:** Execute test case `TC 04` of your test.
 
     With your test displayed in the editor, do the following:
 

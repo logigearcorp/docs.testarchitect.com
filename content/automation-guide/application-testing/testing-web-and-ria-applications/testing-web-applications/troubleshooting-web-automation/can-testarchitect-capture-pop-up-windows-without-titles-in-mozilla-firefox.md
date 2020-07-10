@@ -16,7 +16,7 @@ keywords: "FAQ, capturing pop-up window without title (Mozilla Firefox), capturi
 
 2.  Click the **I'll be careful, I promise!** button.
 
-3.  Clear the **Show this warning next time** check box to disable this warning page next time.
+3.  **Optional:** Clear the **Show this warning next time** check box to disable this warning page next time.
 
 4.  Locate the prompts.tab\_modal.enabled option. Double-click it to change the default value from TRUE to FALSE.
 

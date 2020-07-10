@@ -24,15 +24,15 @@ Ensure that the test results you want to export are [stored in the repository](/
 
     ![](/images/TA_Help/Images/Save_repo_results_to_html.png)
 
-4.  If you'd like, TestArchitect creates subdirectories to store the exported HTML results, select the **Create folder structure** check box.
+4.  **Optional:** If you'd like, TestArchitect creates subdirectories to store the exported HTML results, select the **Create folder structure** check box.
 
     Specifically, two options are available as follows.
 
     -   Flat structure \(the **Create folder structure** check box is cleared\): TestArchitect does not create subdirectories. There is only a single top-level directory that contains all HTML results.
     -   Folder structure \(the **Create folder structure** check box is enabled\): TestArchitect creates a hierarchical tree structure, or subdirectories to store HTML results.
-5.  If the exported test result is a master result, that is, it is a [test suite result](/user-guide/working-with-test-results/overview/#section.TS_results) or it contains [subresults](/user-guide/working-with-test-results/overview/#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into HTML files.
+5.  **Optional:** If the exported test result is a master result, that is, it is a [test suite result](/user-guide/working-with-test-results/overview/#section.TS_results) or it contains [subresults](/user-guide/working-with-test-results/overview/#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into HTML files.
 
-6.  To export HTML results with your own view layout, select the **Apply customized XSLT template** check box, and then choose a location of your customized XSLT template.
+6.  **Optional:** To export HTML results with your own view layout, select the **Apply customized XSLT template** check box, and then choose a location of your customized XSLT template.
 
     You are first required to customize the default XSLT template, which means you need to modify [a set of XSL files](/user-guide/working-with-test-results/customizing-xml-test-results/) to suit your desired view layout. \(See more examples [here](/user-guide/working-with-test-results/customizing-xml-test-results/).\)
 
@@ -43,7 +43,7 @@ Ensure that the test results you want to export are [stored in the repository](/
     -   macOS: /Applications/TestArchitect/templates/xsl/
     {{<note>}} if you are using a repository on another machine, make sure that the template you choose is accessible to the repository server under the account that starts the repository server service. It means that the template needs placing either on the repository server or in a network shared folder. Otherwise, the default template will be used.
 
-7.  To open the parent folder containing the exported test result, select the **Open folder after saving** check box.
+7.  **Optional:** To open the parent folder containing the exported test result, select the **Open folder after saving** check box.
 
 8.  Click **OK**.
 

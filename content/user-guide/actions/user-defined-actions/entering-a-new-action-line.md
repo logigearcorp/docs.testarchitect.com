@@ -34,11 +34,11 @@ Choose one of the following two methods to use an action in the test editor:
 
         ![](/images/TA_Help/Images/Dialogs_Use_Action_1.png)
 
-    2.  Deselect any optional arguments that you do not want displayed in the editor.
+    2.  **Optional:** Deselect any optional arguments that you do not want displayed in the editor.
 
         Be warned that it is possible to deselect even required arguments. If you do that, you are likely to encounter run-time errors.
 
-    3.  {{<note>}} The Options panel presents two check boxes:
+    3.  **Optional:** {{<note>}} The Options panel presents two check boxes:
 
 -   **Wrap action line after**: It is possible to have the test editor wrap long lines automatically. If that is something you want, enter the number of columns to which to limit each line before wrapping occurs.
 -   **Show this form when I drag an action**: Clear this box if you have no need to see this form again when you enter actions in this manner.

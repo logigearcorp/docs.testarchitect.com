@@ -26,7 +26,7 @@ How to have TestArchitect generate a test execution batch file for you, with all
 
     The Execute Test dialog box is closed.
 
-7.  If you want to change the generated batch file to only compile tests and not run the tests when the batch file executes, manually add the **-co** flag to the file after the ta execute statement but before the last flag in the batch file, as shown below:
+7.  **Optional:** If you want to change the generated batch file to only compile tests and not run the tests when the batch file executes, manually add the **-co** flag to the file after the ta execute statement but before the last flag in the batch file, as shown below:
 
     ![](/images/TA_Help/Images/Test_exec_compileonly_flag.png)
 

@@ -28,7 +28,7 @@ Create a test module / test case that reports the sales tax for cars across a ra
 
     Since these local variables are declared in the `INITIAL` section, they are accessible throughout the test module.
 
-4.  In the third column of the TEST CASE line, type a description \(for example, create a report\).
+4.  **Optional:** In the third column of the TEST CASE line, type a description \(for example, create a report\).
 
 5.  Skip down a few rows and type the following action lines:
 
@@ -50,7 +50,7 @@ Create a test module / test case that reports the sales tax for cars across a ra
 
 7.  Move your cell pointer a few rows past the last line, and press Ctrl+V to paste. Repeat this process so that your test case holds a total of seven action lines.
 
-8.  You can delete the two new local variable lines for NY sales tax, as that value will not be changed.
+8.  **Optional:** You can delete the two new local variable lines for NY sales tax, as that value will not be changed.
 
 9.  Modify the value argument of the third local variable action for car price to `25000`, then modify the next one to `30000`.
 

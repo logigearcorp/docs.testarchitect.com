@@ -18,7 +18,7 @@ How to install TestArchitect License Server on Windows.
 
     ![](/images/TA_InstallationGuide/DITA_source/Images/install_LS_Wins_1.png)
 
-3.  In the Configuration dialog box, use the **Browse** buttons to choose the program and data locations for the TestArchitect License Server or, alternatively, accept the default locations.
+3.  **Optional:** In the Configuration dialog box, use the **Browse** buttons to choose the program and data locations for the TestArchitect License Server or, alternatively, accept the default locations.
 
     ![](/images/TA_InstallationGuide/DITA_source/Images/install_LS_Wins_2.png)
 

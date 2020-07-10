@@ -24,7 +24,7 @@ How to export your local test results to .TARESULT files.
 
         ![](/images/TA_Help/Images/Export_Results_To_File_local_result_dlg.png)
 
-    3.  In the dialog box, click the **Browse** ![](/images/TA_Help/Images/btn.browse-ellipsis.01.png) button to choose a location to which to save the file \(in .TARESULT format\).
+    3.  **Optional:** In the dialog box, click the **Browse** ![](/images/TA_Help/Images/btn.browse-ellipsis.01.png) button to choose a location to which to save the file \(in .TARESULT format\).
 
         You can accept the default location, but any place that is easy to remember will work.
 
@@ -34,7 +34,7 @@ How to export your local test results to .TARESULT files.
         -   On Linux, macOS: Mounted paths are also supported.
     4.  To include all captured [screenshots](/user-guide/finding-bugs-with-testarchitect/screenshot-recording/) in the exported test result, select the **Include screenshots** check box.
 
-    5.  To open the parent folder containing the exported test result, select the **Open folder after saving** check box.
+    5.  **Optional:** To open the parent folder containing the exported test result, select the **Open folder after saving** check box.
 
     6.  If the exported test result is a master result, meaning, it is a [test suite result](/user-guide/working-with-test-results/overview/#section.TS_results), or it contains [subresults](/user-guide/working-with-test-results/overview/#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into .TARESULT format.
 

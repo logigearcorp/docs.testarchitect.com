@@ -34,7 +34,7 @@ Note that, while it is necessary that you[implement the hello action in Java](/t
 
 6.  In the New Test Module dialog box, enter a name of My scripted tests in the **Name** box, along with an optional description in **Description**.
 
-7.  Enter some descriptive information:
+7.  **Optional:** Enter some descriptive information:
 
     1.  In the `OBJECTIVES` section, for test objective `T0 01`, enter the title test TestArchitect's Java harness in the third column.
 

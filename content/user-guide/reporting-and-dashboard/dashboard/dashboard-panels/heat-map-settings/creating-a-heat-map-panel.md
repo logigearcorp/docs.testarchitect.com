@@ -39,7 +39,7 @@ To create a new heat map panel on a Dashboard page:
     -   **Set as Heat Value**: Select this option to display the series value data with color variations and cell number labeling when there are consecutive recurrences of the same values.
     -   **Color**: Set the heat map cell color for each type of series value.
     -   **Legends**: Select the position on the panel at which the chart’s legends are to be displayed.
-4.  To restrict the data used by the panel based on the values of one or more data fields, select and enter the filtering expression\(s\) as needed on the **Data** \> **Filter Fields** tab.
+4.  **Optional:** To restrict the data used by the panel based on the values of one or more data fields, select and enter the filtering expression\(s\) as needed on the **Data** \> **Filter Fields** tab.
 
     ![](/images/TA_Help/Images/Dashboard_filter_fields_tab.png)
 
@@ -53,7 +53,7 @@ To create a new heat map panel on a Dashboard page:
     -   **Remove**: Remove the highlighted logical expression from the filter list.
     -   **Add: \( \)**: Add parentheses to the highlighted logical expression to override the default order of precedence.
     -   **Remove: \( \)**: Remove parentheses from the highlighted logical expression.
-5.  After adding customized filters to the panel, if you want to save the new filtering expression\(s\) to a new data profile, click **Save as** on the **Filters** tab and enter the name of the data profile on the **Save setting profile as** text box, then click **Save**.
+5.  **Optional:** After adding customized filters to the panel, if you want to save the new filtering expression\(s\) to a new data profile, click **Save as** on the **Filters** tab and enter the name of the data profile on the **Save setting profile as** text box, then click **Save**.
 
     ![](/images/TA_Help/Images/Dashboard_save_setting_profile_as.png)
 

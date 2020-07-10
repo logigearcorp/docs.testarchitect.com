@@ -24,7 +24,7 @@ The purpose of each system that you create under the **Systems & Platforms** nod
 
     ![](/images/TA_Help/Images/New_version_effect.png)
 
-3.  Unless you're satisfied with the default name, give this version node an appropriate name \(for example: 1\), and then press Enter.
+3.  **Optional:** Unless you're satisfied with the default name, give this version node an appropriate name \(for example: 1\), and then press Enter.
 
 
 The new version node is added under the selected system node.

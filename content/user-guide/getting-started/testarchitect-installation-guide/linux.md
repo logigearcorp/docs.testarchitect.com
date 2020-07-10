@@ -47,13 +47,13 @@ Contact LogiGear Sales to obtain the correct TestArchitect installation file for
 
 5.  Please read through the license agreement and then select the radio button labelled **I accept the terms of the license agreement**. Then click **Next** .
 
-6.  Click the **Browse** button to choose the location for the TestArchitect executable. Alternatively, just accept the indicated default location.
+6.  **Optional:** Click the **Browse** button to choose the location for the TestArchitect executable. Alternatively, just accept the indicated default location.
 
     ![](/images/TA_InstallationGuide/DITA_source/Images/install_TA_Linux_5.png)
 
 7.  Click **Next** to proceed.
 
-8.  Click the **Browse** button to select the location where TestArchitect will store its data files. Alternatively, just accept the indicated default location.
+8.  **Optional:** Click the **Browse** button to select the location where TestArchitect will store its data files. Alternatively, just accept the indicated default location.
 
     ![](/images/TA_InstallationGuide/DITA_source/Images/install_TA_Linux_6.png)
 
