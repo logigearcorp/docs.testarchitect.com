@@ -1,8 +1,8 @@
 --- 
 title: >-
-    "Invalid data. The value of 'picture' argument cannot contain 'high ASCII' characters or any of the following character:/:?'&#60;&#62;\|#=\[\];%%."
+    "Invalid data. The value of 'picture' argument cannot contain 'high ASCII' characters or any of the following character:\\/:*?\"<>|#=[];%."
 linktitle: >-
-    "Invalid data. The value of 'picture' argument cannot contain 'high ASCII' characters or any of the following character:/:?'&#60;&#62;\|#=\[\];%%."
+    "Invalid data. The value of 'picture' argument cannot contain 'high ASCII' characters or any of the following character:\\/:*?\"<>|#=[];%."
 description: "Error code: 0x8001000EL This page is currently under construction. Please contact TestArchitect Support at support@logigear.com ."
 weight: 55
 slug: ing-character-quot-amp-60-amp-62
