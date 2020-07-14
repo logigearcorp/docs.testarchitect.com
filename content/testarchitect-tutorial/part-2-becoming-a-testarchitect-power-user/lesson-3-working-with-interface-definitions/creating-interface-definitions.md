@@ -5,7 +5,7 @@ description: "Create interface definitions to enable a test to interact with an 
 weight: 2
 aliases: 
     - /TA_Tutorials/Topics/Creating_interface_definitions.html
-keywords: "interface entities, creating, interfaces, creating definitions, built-in actions, interface entity setting, interface element, interface entity setting (action), interface element (action)"
+keywords: "interface entities, creating, interfaces, creating definitions, built-in actions,   `interface entity setting`, interface element,   `interface entity setting` (action), interface element (action)"
 ---
 
 Create interface definitions to enable a test to interact with an application window.In this first exercise, you will create definitions manually. In a later exercise, you will use the TestArchitect Interface Viewer to verify the definitions you created and create further definitions.
@@ -32,11 +32,11 @@ Create interface definitions to enable a test to interact with an application wi
 
 4.  Now you will create interface definitions, each of which maps a GUI element \(window or control\) to a TA name. As seen in [Lesson \#2: Interfacing with a GUI](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-2-interfacing-with-a-gui/), TA names are used by the tests you create to refer to the GUI elements of the AUT.
 
-    Two types of interface definitions exist: interface entity setting, to map a TA name to a window, and interface element, to map a TA name to a control \(or HTML element\). These definitions are implemented as built-in actions, but ones which are valid only in the context of an interface entity \(not in a test module or action.\)
+    Two types of interface definitions exist:   `interface entity setting`, to map a TA name to a window, and interface element, to map a TA name to a control \(or HTML element\). These definitions are implemented as built-in actions, but ones which are valid only in the context of an interface entity \(not in a test module or action.\)
 
-    Begin by linking this interface entity to the Car Rental application's Login window. The interface entity setting action links the TA name which you’ve already chosen \(my login, the name of your interface entity\) to a window by specifying a property of that window and its value.
+    Begin by linking this interface entity to the Car Rental application's Login window. The   `interface entity setting` action links the TA name which you’ve already chosen \(my login, the name of your interface entity\) to a window by specifying a property of that window and its value.
 
-5.  In the leftmost cell of a row near the top of the editor, type interface entity setting. Press Tab.
+5.  In the leftmost cell of a row near the top of the editor, type   `interface entity setting`. Press Tab.
 
     Headers for arguments setting and value appear over the adjacent cells.
 

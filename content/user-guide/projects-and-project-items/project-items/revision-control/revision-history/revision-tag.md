@@ -25,7 +25,7 @@ To associate an AUT version with a specific revision, do the following:
 
     2.  Click the **Browse** ![](/images/TA_Help/Images/btn.browse-ellipsis.01.png) button to look for a suitable revision.
 
-        {{<note>}} Alternatively, in the **Revision Timestamp** box, you may directly enter a revision you wish to associate with. The format of a revision, or timestamp is `MM/dd/yyyy hh:mm:ss.mmm`, for example: 04/09/2015 22:04:27.446. However, it is not recommended that you enter the timestamp by hand.
+        {{<note>}} Alternatively, in the **Revision Timestamp** box, you may directly enter a revision you wish to associate with. The format of a revision, or timestamp is `MM/dd/yyyy hh:mm:ss.mmm`, for example:   `04/09/2015 22:04:27.446`. However, it is not recommended that you enter the timestamp by hand.
 
     3.  In the **Select Timestamp** dialog box, select a revision with which you want to associate the given version.
 

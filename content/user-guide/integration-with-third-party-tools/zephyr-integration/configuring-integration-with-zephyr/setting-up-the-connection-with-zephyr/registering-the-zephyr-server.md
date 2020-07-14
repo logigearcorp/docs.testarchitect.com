@@ -43,7 +43,7 @@ To register the Zephyr server with TestArchitect, carry out the following proced
         {{<note>}} Both HTTP and HTTPS are supported.
 
         -   Syntax: `server=[Zephyr server]`
-        -   Example: server=http://lgvn1434:81
+        -   Example:   `server=http://lgvn1434:81`
     -   **Notes**: \(Optional\) Enter any notes.
     ![](/images/TA_Help/Images/Zephyr_registering_server.png)
 

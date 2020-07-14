@@ -22,7 +22,7 @@ The Action Recorder Settings dialog box offers the following options:
     {{<note>}}
 
     -   To specify keyword variations, type one or more comma-delimited keywords, such as, Spanish, Business.
-    -   To specify a linked variation, type a name and its variation signature in the form of `<System>:<node1>, <node2>`. For example, Browser:Chrome, Firefox.
+    -   To specify a linked variation, type a name and its variation signature in the form of `<System>:<node1>, <node2>`. For example,   `Browser:Chrome, Firefox`.
 3.  **Generate "navigate" action for web browser**: This setting applies when you are recording manual actions on a web browser. When you navigate to a different web page, this setting causes TestArchitect to generate the [navigate](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/navigate) action containing the specified URL. Additionally, the action lines generated prior to the navigate are automatically commented out, and accompanied by the following description:
 
     ```

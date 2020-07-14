@@ -50,7 +50,7 @@ TestArchitect, in support of the Action Based Testing model, is built around tes
 
 9.  TC01 appears on cell **B14** as the ID for this test case.
 
-10. Select cell **C14** \(one cell to the right\) and enter Say hello to the world as the short description for this test case.
+10. Select cell **C14** \(one cell to the right\) and enter   `Say hello to the world` as the short description for this test case.
 
     ![](/images/TA_Tutorials/Images/tut.Simple_Tests.creating03.png)
 

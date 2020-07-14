@@ -44,7 +44,7 @@ This action may be used within the following project items:test modules and user
 
         -   Plain text string: John:Doe
         -   Base64url encoded string: Sm9objpEb2U
-    2.  For OAuth 2.0 scheme: Specifying an access token which is required to access OAuth protected resources. For example: ya29.Ci-fA76X0cjJXa2Lx0RM-fRyAQ6-6pboEX-iuT7PR-yYV6D-Rfbos7bs151wiL-O7w
+    2.  For OAuth 2.0 scheme: Specifying an access token which is required to access OAuth protected resources. For example:   `  `ya29.Ci-fA76X0cjJXa2Lx0RM-fRyAQ6-6pboEX-iuT7PR-yYV6D`-Rfbos7bs151wiL-O7w`
     3.  For Digest authentication scheme: Specify two fields including username and password to authenticate with the service you are using. Follow this format username:password.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
@@ -57,7 +57,7 @@ The following settings are applicable to this action:[remove double quotes from 
 Suppose that you'd like to test the a given API based on the following information:
 
 -   Authentication scheme: Basic authentication
--   Web service under test: http://192.168.190.212:8091/api/authenticate
+-   Web service under test:   `  `http://192.168.190.212:8091/api/authenticate``
 -   Username: john.doe
 -   Password: R6z,nUjeH\];3L4r:
 
@@ -71,7 +71,7 @@ Suppose that you'd like to test a given Gmail API to get all messages based on t
 
 -   Authentication scheme: OAuth 2.0
 -   Web service under test: [Users.messages: get](https://developers.google.com/gmail/api/v1/reference/users/messages/get)
--   Access token: ya29.Ci-fA76X0cjJXa2Lx0RM-fRyAQ6-6pboEX-iuT7PR-yYV6D
+-   Access token:   `ya29.Ci-fA76X0cjJXa2Lx0RM-fRyAQ6-6pboEX-iuT7PR-yYV6D`
 
     {{<tip>}} For Google APIs in order to retrieve the access token for OAuth 2.0, read [here](https://developers.google.com/oauthplayground/).
 
@@ -85,7 +85,7 @@ Action Lines
 Suppose that you'd like to test a given API based on the following information:
 
 -   Authentication scheme: Digest authentication
--   Web service under test: http://192.168.190.212:8091/api/authenticate
+-   Web service under test:   `  `http://192.168.190.212:8091/api/authenticate``
 -   Username: john.doe
 -   Password: 123
 

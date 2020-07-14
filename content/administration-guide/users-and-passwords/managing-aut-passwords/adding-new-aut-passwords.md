@@ -26,7 +26,7 @@ Only members of the administrators and test managers groups have privileges for 
     -   **Window**: Name of the selected window.
     -   **Window Properties**: \(Optional\) Properties of the selected window.
 
-        {{<tip>}} Separate each window property with a comma \(for example: title=Car Rental-Login, top=272, height=185.\).
+        {{<tip>}} Separate each window property with a comma \(for example:   `title=Car Rental-Login, top=272, height=185.`\).
 
     -   **Control**: Name of the selected control.
 

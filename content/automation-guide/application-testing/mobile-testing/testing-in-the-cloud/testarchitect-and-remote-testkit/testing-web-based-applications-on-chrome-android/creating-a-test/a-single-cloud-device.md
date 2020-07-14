@@ -41,14 +41,14 @@ Ensure that the following requirements are met before implementing automated mob
     -   Specify local URL Appium server:
 
         -   The format is in the form of `http://<server_address>:<port_number>/wd/hub/`
-        -   For example: http://127.0.0.1:4723/wd/hub/
+        -   For example:   `http://127.0.0.1:4723/wd/hub/`
         ![](/images/TA_Automation/Images/Appium_URL.png)
 
     -   [assign device](/automation-guide/action-based-testing-language/built-in-actions/system-actions/device/assign-cloud-device) should resemble the following.
 
         ```
                              url                             capability                                                            name   
-        assign cloud device  http://127.0.0.1:4723/wd/hub/   [{"deviceName" : "galaxy_s7_edge_sm-g935f.adb.appkitbox.com:58564",   S7 edge 
+        assign cloud device    `http://127.0.0.1:4723/wd/hub/`   [{"deviceName" : "galaxy_s7_edge_sm-g935f.adb.appkitbox.com:58564",   S7 edge 
                                                              "platformName" : "Android", 
                                                              "browserName" : "Chrome"}]    
         ```
@@ -85,7 +85,7 @@ Ensure that the following requirements are met before implementing automated mob
     ```
     //Define desired capabilities
                             url                             capability                                                            name   
-    assign cloud device     http://127.0.0.1:4723/wd/hub/   [{"deviceName" : "galaxy_s7_edge_sm-g935f.adb.appkitbox.com:58564",   S7 edge 
+    assign cloud device       `http://127.0.0.1:4723/wd/hub/`   [{"deviceName" : "galaxy_s7_edge_sm-g935f.adb.appkitbox.com:58564",   S7 edge 
                                                             "platformName" : "Android", 
                                                             "browserName" : "Chrome"}]   
     

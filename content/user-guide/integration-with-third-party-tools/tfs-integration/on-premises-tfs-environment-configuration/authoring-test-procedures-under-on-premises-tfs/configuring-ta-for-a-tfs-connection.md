@@ -20,7 +20,7 @@ Use the TestArchitect external tool to set up a repository for integration with 
 
 4.  In the TEST MANAGEMENT window, select the **Active** check box to enable the Team Foundation Server connection.
 
-5.  In the **Available options** box, type server= \[Full web access URL of your TFS server\]. For example, server=http://lgvn13388:8080/tfs
+5.  In the **Available options** box, type server= \[Full web access URL of your TFS server\]. For example,   `server=http://lgvn13388:8080/tfs`
 
     {{<tip>}} You can find the **Web Access URL** in the **Application Tier** node from the Team Foundation Server Administration Console dialog box. \([Learn more.](http://msdn.microsoft.com/en-us/library/vstudio/dd273718(v=vs.110).aspx)\)
 

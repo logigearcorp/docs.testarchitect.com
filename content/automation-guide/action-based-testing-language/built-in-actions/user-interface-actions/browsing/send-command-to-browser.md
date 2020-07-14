@@ -109,9 +109,9 @@ Assume that you have set up a Chrome Device Mode mobile device emulator by means
 During the test run, you'd like to customize certain aspects of the emulator's environment. You accomplish this with the send command to browser action, sending the appropriate JSON strings through its command argument. The features to be changed \(and their corresponding JSON command strings\) are:
 
 -   Override user agent \("userAgent":"Mozilla/5.0 \(Linux; Android 5.0; SM-G900P Build/LRX21T\) AppleWebKit/537.36 \(KHTML, like Gecko\) Chrome/48.0.2564.23 Mobile Safari/537.36"\)
--   Emulate a regular 3G network \("offline":false,"latency":100,"downloadThroughput":750,"uploadThroughput":250\)
--   Emulate geolocation data \("latitude":16,"longitude":108,"accuracy":1\)
--   Emulate accelerometer \("alpha":32,"beta":26,"gamma":7\)
+-   Emulate a regular 3G network \(  `"offline":false,"latency":100,"downloadThroughput":750,"uploadThroughput":250`\)
+-   Emulate geolocation data \(  `"latitude":16,"longitude":108,"accuracy":1`\)
+-   Emulate accelerometer \(  `"alpha":32,"beta":26,"gamma":7`\)
 
 ## Action Lines
 
@@ -143,9 +143,9 @@ refresh                     google
                             
                             window                    command                                                                                                                                                                                                          variable
 send command to browser     google                    [{"method":"Network.setUserAgentOverride","params":{"userAgent":"Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.23 Mobile Safari/537.36"}},     >>new_behavior
-                                                      {"method":"Network.emulateNetworkConditions","params":{"offline":false,"latency":100,"downloadThroughput":750,"uploadThroughput":250}},
-                                                      {"method":"Emulation.setGeolocationOverride","params":{"latitude":16,"longitude":108,"accuracy":1}},
-                                                      {"method":"DeviceOrientation.setDeviceOrientationOverride","params":{"alpha":32,"beta":26,"gamma":7}}]
+                                                      {"method":"Network.emulateNetworkConditions","params":{  `"offline":false,"latency":100,"downloadThroughput":750,"uploadThroughput":250`}},
+                                                      {"method":"Emulation.setGeolocationOverride","params":{  `"latitude":16,"longitude":108,"accuracy":1`}},
+                                                      {"method":"DeviceOrientation.setDeviceOrientationOverride","params":{  `"alpha":32,"beta":26,"gamma":7`}}]
 
 //Refresh the page to ensure all new behaviors take effect
 
