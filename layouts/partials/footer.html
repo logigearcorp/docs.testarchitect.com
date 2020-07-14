@@ -195,6 +195,17 @@ if (/Edge\/\d./i.test(navigator.userAgent)){
   fixTableScroll();
   imageviewer("img");
   createCoppyCode();
+  hideListStyle();
+  function hideListStyle() {
+    var allElements = $('ol'); 
+    $.each(allElements, function (index, element) {
+     if($(element).children().length == 1) {
+      $(element).css("padding-left", "0px")
+       var lielement = $(element).children()[0];
+       $(lielement).css("list-style-type", "none")
+     }
+    });
+  }
 
   if($('thead').text().trim() == "") {
     $('thead').hide();
