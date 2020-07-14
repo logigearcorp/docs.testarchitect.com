@@ -28,7 +28,7 @@ Example:
 
 ![](/images/TA_Help/Images/QC_test_folder.mapping.01.png)
 
-## TestArchitect test module
+## TestArchitect test module {{< permerlink >}} {#concept.ta_qc_mappings__section.ta_test_module} 
 
 |TA field|Direction of flow1|QC field2|QC entity|Notes / Conditions|
 |--------|------------------|---------|---------|------------------|
@@ -45,7 +45,7 @@ Example:
 
 ![](/images/TA_Help/Images/QC_test_module.mapping.02.png "Handling of test module's test objectives on import and upload")
 
-## TestArchitect test case
+## TestArchitect test case {{< permerlink >}} {#concept.ta_qc_mappings__section.ta_test_case} 
 
 |TA field|Direction of flow1|QC field2|QC entity|Notes / Conditions|
 |--------|------------------|---------|---------|------------------|
@@ -61,7 +61,7 @@ Example:
 
 ![](/images/TA_Help/Images/QC_test_case.mapping.01.png)
 
-1 **Direction of flow**:
+1 Direction of flow:
 
 |||
 |------|------|
@@ -97,7 +97,6 @@ TestArchitect items are uploaded to Quality Center as follows:
 -   Detailed step levels for both test module and test cases are uploaded to Quality Center. You can view the detailed step-by-step execution results in Quality Center from its Test Lab's **Execution Grid** tab. Select a test module or test case on the **Execution Grid** tab to view its step-by-step results in the **Last Run Report** tab as illustrated below:
 
     ![](/images/TA_Help/Images/Integration_QC_step_levels.png)
-
 
 
 

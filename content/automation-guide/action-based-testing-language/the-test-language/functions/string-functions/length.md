@@ -27,14 +27,13 @@ Returns the number of characters in the string str.
 
 ## Example
 
-**Test Lines**
+Test Lines
 
 ![](/images/TA_Automation/Images/automationguide_stringfunction_length_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/automationguide_stringfunction_length_res.png)
-
 
 
 

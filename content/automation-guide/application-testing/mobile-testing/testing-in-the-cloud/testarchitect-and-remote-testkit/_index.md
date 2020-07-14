@@ -36,4 +36,3 @@ Using TestArchitect, you can create and run automated tests for mobile web appli
 Using TestArchitect, you can create and run automated tests for mobile web applications \(Safari\) on iOS cloud devices rented in the Remote TestKit service.
 
 
-

@@ -18,8 +18,8 @@ node path is a secondary TA property that specifies the position of a cell in a 
 
 ## Values
 
--   **format:** <element1\>/<element2\>/... <elementN\>, where <elementX\> at any given level is concatenated text of qualifying controls \(discussed below\).
--   **Examples:**
+-   format: <element1\>/<element2\>/... <elementN\>, where <elementX\> at any given level is concatenated text of qualifying controls \(discussed below\).
+-   Examples:
     -   Europe/France/Paris
     -   Europe/France Italy Germany/Paris Rome Berlin
 
@@ -39,5 +39,4 @@ If no eligible child controls exist for a given tree node, its element in the no
 ## Example
 
 ![](/images/TA_Help/Images/prop_node_path.png "node path values for a tree node ")
-
 

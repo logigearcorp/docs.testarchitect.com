@@ -97,7 +97,7 @@ Date format: `year format–month format–day format`.
 
 `yyyy-mm-dd`
 
-## Note
+## Note {{< permerlink >}} {#bis_date_format__section_pzn_kxc_rlb} 
 
 SAP controls only support the date format: `yyyy-mm-dd`
 

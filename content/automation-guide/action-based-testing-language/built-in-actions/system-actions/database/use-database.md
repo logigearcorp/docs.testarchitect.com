@@ -36,11 +36,11 @@ This action is applicable to the following controls:none.
 
 The following example illustrates the process of connecting to, and using, a database from within a test. After creating a named connection string and using it to connect to the database, invoke use database to specify the active database to be used by the test.
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_use_database_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_use_database_res.png)
 
@@ -51,4 +51,3 @@ The following example illustrates the process of connecting to, and using, a dat
 
 
 [Testing with databases](/automation-guide/application-testing/testing-with-databases/)
-

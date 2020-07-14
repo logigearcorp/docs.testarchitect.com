@@ -11,9 +11,9 @@ keywords: "TAUtilities, tutorial"
 
 TAUtilities provides a set of public APIs that perform interactive functions with TestArchitect items, such as retrieving a test module’s name or most recent result.
 
-**Audience:** Automation engineers, Software developers, Test managers, Automation leads
+Audience: Automation engineers, Software developers, Test managers, Automation leads
 
-**Prerequisites:**
+Prerequisites:
 
 -   Installation of TestArchitect Client
 -   Basic understanding of how a TestArchitect interface is used
@@ -21,7 +21,7 @@ TAUtilities provides a set of public APIs that perform interactive functions wit
 -   Essential understanding of TestArchitect repositories, projects and tests
 -   Some familiarity with programming languages which can interface with the Microsoft Component Object Model \(COM\) or Java
 
-**What you will learn:**
+What you will learn:
 
 -   How to process data queries between your application program and TestArchitect
 -   How to utilize TAUtilities' APIs from application programs, such as Microsoft Excel™, to interface with TestArchitect items
@@ -32,6 +32,5 @@ TAUtilities' APIs can be invoked from application programs that are based on Mic
 Exporting TestArchitect data to Microsoft Excel™ is probably the most common use of TAUtilities. This topic focuses on invoking TAUtilities' APIs from Excel, a COM application program.
 3.  [TAUtilities API reference](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-11-creating-excel-reports-using-tautilities/tautilities-api-reference)  
 How to access the API specifications of the TAUtilities library.
-
 
 

@@ -12,11 +12,11 @@ keywords: "methods of abt, InsertColumn, InsertColumn (AbtDataSet), AbtDataSet, 
 
 `int InsertColumn(int index, string colName)`
 
-## Description
+## Description {{< permerlink >}} {#reference_hsk_hbw_gq__section.desc} 
 
 Insert a new column into the data set.
 
-## Parameters
+## Parameters {{< permerlink >}} {#reference_hsk_hbw_gq__section.params} 
 
 -   **index**
 

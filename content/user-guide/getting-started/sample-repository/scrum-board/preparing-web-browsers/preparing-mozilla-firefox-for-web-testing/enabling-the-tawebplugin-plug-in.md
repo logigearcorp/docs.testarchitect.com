@@ -25,4 +25,3 @@ The TAWebPlugin plug-in is now always enabled in Mozilla Firefox.
 
 
 
-

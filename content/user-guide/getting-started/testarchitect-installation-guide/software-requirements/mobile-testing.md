@@ -17,4 +17,3 @@ This topic lists additional software requirements needed to perform mobile testi
 -   iTunes installed. Available from: [http://www.apple.com/itunes](http://www.apple.com/itunes)
 
 
-

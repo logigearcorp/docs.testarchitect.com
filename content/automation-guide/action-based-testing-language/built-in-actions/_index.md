@@ -10,7 +10,7 @@ keywords: "action, built-in"
 
 TestArchitect includes a library of built-in actions to perform a myriad of functions.
 
-Built-in actions are automatically available with your installation of TestArchitect. They can be found listed in the **Built-In Actions** subtree of the repository tree. There are three categories of built-in actions:
+Built-in actions are automatically available with your installation of TestArchitect. They can be found listed in the Built-In Actions subtree of the repository tree. There are three categories of built-in actions:
 
 -   **[System actions](/automation-guide/action-based-testing-language/built-in-actions/system-actions/)**
 
@@ -37,7 +37,6 @@ System built-in actions include those which allow your test to interact with the
 The Test Support category of built-in actions includes those actions which perform execution control, test resource declaration, test documentation, and reporting.
 3.  [User Interface actions](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/)  
 User interface actions include those automation actions which interact with the application under test.
-
 
 
 

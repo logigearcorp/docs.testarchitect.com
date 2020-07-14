@@ -51,11 +51,11 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ![](/images/TA_Automation/Images/bia_check_tree_node_not_exists_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_tree_node_not_exists_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_tree_node_not_exists_res.png)
 
@@ -63,11 +63,11 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ![](/images/TA_Automation/Images/bia_check_tree_node_not_exists_index_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_tree_node_not_exists_index_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_tree_node_not_exists_index_res.png)
 
@@ -77,4 +77,3 @@ The following settings are applicable to this action:[case sensitive](/automatio
 [check tree node exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-view/check-tree-node-exists)
 
 [does tree node exist](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-view/does-tree-node-exist)
-

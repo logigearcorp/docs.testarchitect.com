@@ -108,4 +108,3 @@ How to export your local test results to .TARESULT files.
             -   1: Export screenshots.
 
 
-

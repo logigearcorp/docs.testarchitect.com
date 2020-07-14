@@ -59,10 +59,9 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ![](/images/TA_Automation/Images/bia_does_text_contain_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_does_text_contain_res.png)
-
 
 
 

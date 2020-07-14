@@ -17,4 +17,3 @@ To ensure that automated web application testing in Google Chrome runs properly 
 2.  [Setting 100% zoom](/user-guide/getting-started/sample-repository/scrum-board/preparing-web-browsers/preparing-google-chrome-for-web-testing/setting-100-zoom)  
 TestArchitect requires that the browser zoom be set to 100% to correctly identify HTML controls and their positions on web pages.
 
-

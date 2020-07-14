@@ -17,7 +17,7 @@ Ensure that you meet the following requirements before comparing test results:
 
 Choose one of the following two methods to compare test results. To avoid confusion with the term baseline results, we'll refer to the test results that act as the reference in this case as the reference results.
 
--   **Option 1**:
+-   Option 1:
 
     1.  In the TestArchitect explorer tree, establish a reference result by right-clicking a chosen test result node and selecting **Mark to Compare**.
 
@@ -31,7 +31,7 @@ Choose one of the following two methods to compare test results. To avoid confus
 
         ![](/images/TA_Help/Images/compare_with_reference_result.png)
 
--   **Option 2**:
+-   Option 2:
 
     1.  In the TestArchitect explorer tree, mark the reference test result by right-clicking the test result node and select **Mark to Compare**.
 
@@ -59,4 +59,3 @@ The Result Comparison dialog box appears to show the differences at checkpoints 
 [Unsetting baseline results](/user-guide/working-with-test-results/comparing-test-results/unsetting-baseline-results)
 
 [Comparing results with baseline](/user-guide/working-with-test-results/comparing-test-results/comparing-results-with-baseline)
-

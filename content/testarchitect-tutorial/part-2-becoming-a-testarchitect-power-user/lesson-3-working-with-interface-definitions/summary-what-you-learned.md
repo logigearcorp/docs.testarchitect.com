@@ -8,11 +8,10 @@ aliases:
 keywords: 
 ---
 
-**What you learned in this lesson:**
+What you learned in this lesson:
 
 -   How to read, create and maintain interface entities and interface elements.
 -   How to map and maintain interface definitions with the Interface Viewer.
 -   How to use your interface definitions in a test.
-
 
 

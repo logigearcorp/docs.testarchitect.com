@@ -12,11 +12,11 @@ keywords: "methods of abt, GetCellText, GetCellText (AbtTable), AbtTable, getcel
 
 `string getCellText(int rowIndex, int columnIndex)`
 
-## Description
+## Description {{< permerlink >}} {#abt_GetCellText__section.desc} 
 
 Retrieve the text content ofthe specified cell.
 
-## Parameters
+## Parameters {{< permerlink >}} {#abt_GetCellText__section.params} 
 
 -   **rowIndex**
 

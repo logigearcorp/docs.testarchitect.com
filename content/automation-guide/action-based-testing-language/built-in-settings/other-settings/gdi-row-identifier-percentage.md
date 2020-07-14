@@ -28,10 +28,9 @@ Percentage value in the range 1-100.
 
 ## Example
 
-**Test Lines**
+Test Lines
 
 ![](/images/TA_Automation/Images/bis_gdi_gdi_row_identifier_percentage_pgm.png)
-
 
 
 

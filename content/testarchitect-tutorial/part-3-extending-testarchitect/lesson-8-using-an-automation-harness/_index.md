@@ -22,14 +22,14 @@ The intended audiences include testers and automation engineers.
 
 ## Expected duration
 
-**Prerequisites:**
+Prerequisites:
 
 -   Basic understanding of the TestArchitect user interface
 -   Familiarity with the TestArchitect test editor
 -   Essential understanding of TestArchitect repositories, projects and tests
 -   Some familiarity with high level programming language\(s\), such as, Python, Java and C\#.
 
-**What you will learn:**
+What you will learn:
 
 -   How to invoke a user-scripted action
 -   How to develop a custom user-scripted action
@@ -48,7 +48,6 @@ How to implement TestArchitect actions using the Java programming language.
 5.  [Working with the C\# bundle harness](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/working-with-the-c-bundle-harness/)  
 How to implement customized TestArchitect actions using the C\# programming language.
 6.  [Summary: What you have learned](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/summary-what-you-have-learned)  
-
 
 
 

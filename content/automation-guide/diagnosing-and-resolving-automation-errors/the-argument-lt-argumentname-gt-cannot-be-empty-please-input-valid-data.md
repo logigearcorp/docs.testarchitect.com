@@ -10,14 +10,13 @@ keywords: "automation errors, 0x80010007L"
 
 Error code: 0x80010007L
 
-## Problem
+## Problem {{< permerlink >}} {#reference_0x80010007L__section_prob} 
 
 This happens because the required argument value of a given built-in action is omitted.
 
-## Solution
+## Solution {{< permerlink >}} {#reference_0x80010007L__section_sol} 
 
 Fill in a valid value for the required argument, and then re-run the test.
-
 
 
 

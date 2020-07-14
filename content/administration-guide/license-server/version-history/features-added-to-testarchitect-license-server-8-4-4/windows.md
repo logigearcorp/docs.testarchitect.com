@@ -10,10 +10,9 @@ keywords: "Release Notes 8.4.4, License Server, Windows, What is new, Windows, L
 
 The following new features and improvements are introduced in the latest version of TestArchitect License Server running on Windows.
 
-## License Server
+## License Server {{< permerlink >}} {#Whats_New_LS_Windows_8.4.4__section_LS} 
 
-**Enhancements**
+Enhancements
 
 -   **New mechanism to keep license key:** From TestArchitect 8.4 update 4 onward, the license key in License Server works under a new mechanism, which enables the license key to get over abrupt/ sudden/ unexpected problems such as power outage.
-
 

@@ -35,11 +35,11 @@ The following TestArchitect built-in actions are provided to both scan and handl
 
 You will need to stop the execution and debug the test.
 
-## Handling one or a series of popups
+## Handling one or a series of popups {{< permerlink >}} {#concept_obs_4pq_vp__section_iv1_x5x_vp} 
 
 Your test of a web application running under Safari iOS may trigger a single popup or a sequence of popups. It is important to understand how TestArchitect handles such popups, and how the popup-directed actions work, so that you can construct your tests properly.
 
-1.  **Popup-handling actions.** There are two actions that have a direct impact on Safari iOS popups:
+1.  Popup-handling actions. There are two actions that have a direct impact on Safari iOS popups:
 
     -   **click on next popup**
 
@@ -57,7 +57,7 @@ Your test of a web application running under Safari iOS may trigger a single pop
 
     {{<important>}} In general, the situation to avoid is the one in which a popup is launched when the popup-handler queue is empty. Such unhandled popups make their presence known by the fact that they are visible: that is, without a TestArchitect popup-handling action to provide the overriding JavaScript-processing code, the browser's own JavaScript API allows the popup to be displayed. \(Something you don't want, if you've been following along so far.\) And your test, at least until you resolve the matter, grinds to a halt.
 
-2.  **Popup-sampling actions.** The remaining popup-directed actions listed above, with the exception of clear popup queue, are used to retrieve and/or verify messages and default text of the alert, confirmation, and prompt popups.
+2.  Popup-sampling actions. The remaining popup-directed actions listed above, with the exception of clear popup queue, are used to retrieve and/or verify messages and default text of the alert, confirmation, and prompt popups.
 
     It has been mentioned that every JavaScript window that pops up needs to have an appropriate popup-handling action waiting for it in the queue, ready to instantly dispatch it to digital oblivion. If that is the case, how can it be possible for an action like get popup message to work, if no popup with a message is allowed to linger around?
 
@@ -79,11 +79,11 @@ Your test of a web application running under Safari iOS may trigger a single pop
     get popup message       first_msg   fourth_msg  last_msg     
     ```
 
-3.  **clear popup queue.** This final action essentially closes out your test's popup session, preparing it for a new one. It does this by clearing out both the popup history buffer and the popup-handler queue. \(Note, however, that we would generally expect a well-written test procedure to already have an empty popup-handler queue by the end of the session.\) cases.
+3.  clear popup queue. This final action essentially closes out your test's popup session, preparing it for a new one. It does this by clearing out both the popup history buffer and the popup-handler queue. \(Note, however, that we would generally expect a well-written test procedure to already have an empty popup-handler queue by the end of the session.\) cases.
 
 {{<tip>}} As a matter of best practice, it is suggested that you place all the popup-handling actions for a given popup session at the beginning of the session. At the least, this will help ensure that the invocation of popups never “gets ahead” of the sequence of handlers. Remember, a popup handler action must always be invoked *before* its corresponding popup window; once a popup window is launched, it is too late to invoke its handler.
 
-## Session termination
+## Session termination {{< permerlink >}} {#concept_obs_4pq_vp__section.Session_termination} 
 
 The built-in clear popup queue action \(discussed above\) is the one explicit means of ending a popup session, but a number of other events also have the same effect. You need to be aware of these, and take them into account when using popup-directed actions, to ensure that the popup history buffer expected by an action still exists. Each of the following events closes out a popup session, clearing out the popup history buffer, as well as the popup-handler queue:
 
@@ -94,7 +94,7 @@ The built-in clear popup queue action \(discussed above\) is the one explicit me
 
 {{<note>}} In the event of an unexpected TestArchitect crash, information in either the history buffer or popup-handler queue may not be cleared out. It is recommended, therefore, that you always initialize your test with a clear popup queue action \(or one of the above events\) prior to starting any popup sessions.
 
-## Example
+## Example {{< permerlink >}} {#concept_obs_4pq_vp__section.JS_example} 
 
 Suppose that you are testing a web page on Safari with the following scenario:
 
@@ -111,7 +111,6 @@ A typical test procedures employing the above scenario above might look somethin
 In the above action line procedures, the prompt and alert popups are handled in advanced with enter text on next popup \(line 20\), and click on next popup \(line 23\). The click action \(line 26\) clicks the **new email account** button and triggers a prompt popup. You will not see prompt popups appear since its function call is overridden at runtime by the enter text on next popup \(line 20\). Likewise, the coming alert popup’s function call is overridden by the click on next popup \(line 23\).
 
 check popup message \(line 36\) verifies the message of the alert popup, that is, the last popup. In order to indicate the last popup, the expected argument is used. \(As a convenience, the expected and expected1 arguments are identical – that is, they reference the same thing – as are variable and variable1.\) Likewise, the expected2 argument of check popup message \(line 43\) indicates the second to last popup, the prompt. Finally, check popup default text \(line 49\) verifies the default text of the prompt popup, based on its given message.
-
 
 
 

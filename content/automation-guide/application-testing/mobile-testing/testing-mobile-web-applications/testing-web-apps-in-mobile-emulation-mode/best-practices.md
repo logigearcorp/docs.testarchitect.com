@@ -14,7 +14,7 @@ You can certainly add JSON strings to define mobile device profiles in the [send
 
 ## get json of device
 
-**Arguments**:
+Arguments:
 
 -   **title**
 
@@ -78,6 +78,5 @@ refresh	               home
 			
 //Develop web automation on the iPhone 6 Plus here
 ```
-
 
 

@@ -20,4 +20,3 @@ Describes detailed steps to configure Appium server locally on macOS machines.
 The SafariLauncher application is used to launch Safari and run tests against mobile Safari. This application is required to be used with Appium for running mobile web application testing on iOS cloud devices rented in the Remote TestKit service.
 
 
-

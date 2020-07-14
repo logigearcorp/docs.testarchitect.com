@@ -12,7 +12,7 @@ After creating a user-defined action, the test editor is made aware of it.
 
 Choose one of the following two methods to use an action in the test editor:
 
--   **Option 1**:
+-   Option 1:
 
     1.  Type the name of an action, whether built-in or user-defined, into the A column of the test editor worksheet.
 
@@ -24,7 +24,7 @@ Choose one of the following two methods to use an action in the test editor:
 
         {{<tip>}} The test editor displays a list of available actions when you start entering an action in the A column of a test worksheet. This list narrows as you type, using the characters you have entered as its criteria for filtering the list. You then have the option to either complete your typing, or, as a shortcut, select an item from the list.
 
--   **Option 2**:
+-   Option 2:
 
     1.  From the TestArchitect explorer tree, drag an action into the desired line in the test editor.
 
@@ -51,7 +51,6 @@ Choose one of the following two methods to use an action in the test editor:
     {{<note>}} \>\>\> represents the line continuation symbol. \([Learn more](/user-guide/getting-started/the-test-editor/).\)
 
     ![](/images/TA_Help/Images/Test_Lines_continuation.png)
-
 
 
 

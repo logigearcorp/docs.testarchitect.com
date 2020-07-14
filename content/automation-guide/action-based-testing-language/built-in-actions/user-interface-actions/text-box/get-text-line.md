@@ -34,7 +34,7 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   value argument:
-    -   While it is possible to use literal text content in the value argument, in most practical cases you will want to use a variable here \(preceded by **\#**\) which has been pre-loaded with multi-line text. Possible sources of such text: a multi-line text control \(see [get](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/get)\), or a text file \(see [get text file](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/get-text-file) action\).
+    -   While it is possible to use literal text content in the value argument, in most practical cases you will want to use a variable here \(preceded by \#\) which has been pre-loaded with multi-line text. Possible sources of such text: a multi-line text control \(see [get](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/get)\), or a text file \(see [get text file](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/get-text-file) action\).
 -   number argument:
     -   Note that line numbering begins with 1.
     -   TestArchitect issues a warning if the value in number is larger than the total number of lines in the multi-line text.
@@ -51,11 +51,10 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ![](/images/TA_Automation/Images/bia_get_text_line_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_text_line_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_text_line_res.png)
-

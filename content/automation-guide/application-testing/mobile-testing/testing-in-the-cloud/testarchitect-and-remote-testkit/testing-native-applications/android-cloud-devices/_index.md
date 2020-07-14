@@ -17,4 +17,3 @@ Guides to setting up WebView, and native applications on cloud Android devices, 
 2.  [Cloud automation testing](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/testarchitect-and-remote-testkit/testing-native-applications/android-cloud-devices/cloud-automation-testing)  
 After having completed the prerequisites, you can now start to automate your tests on the target cloud devices.
 
-

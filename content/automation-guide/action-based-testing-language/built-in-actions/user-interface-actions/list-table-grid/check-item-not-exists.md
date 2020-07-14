@@ -54,11 +54,11 @@ This action is applicable to the following controls:list box, list view, combo b
 
 ![](/images/TA_Automation/Images/bia_check_item_not_exist_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_item_not_exists_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_item_not_exists_res.png)
 
@@ -66,11 +66,11 @@ This action is applicable to the following controls:list box, list view, combo b
 
 ![](/images/TA_Automation/Images/bia_check_item_not_exist_index_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_item_not_exists_index_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_item_not_exist_index_res.png)
 
@@ -78,11 +78,11 @@ This action is applicable to the following controls:list box, list view, combo b
 
 ![](/images/TA_Automation/Images/bia_check_item_not_exist_2_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_item_not_exists_2_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_item_not_exists_2_res.png)
 
@@ -90,11 +90,11 @@ This action is applicable to the following controls:list box, list view, combo b
 
 ![](/images/TA_Automation/Images/bia_check_item_not_exist_2_index_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_item_not_exists_2_index_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_item_not_exist_2_index_res.png)
 
@@ -104,4 +104,3 @@ This action is applicable to the following controls:list box, list view, combo b
 [check item exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/check-item-exists)
 
 [does item exist](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/does-item-exist)
-

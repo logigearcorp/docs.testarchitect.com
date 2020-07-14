@@ -23,7 +23,7 @@ Check that a specified process is running on a mobile device. Result is Passed i
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_check_process_running__section.notes} 
 
 -   This built-in action applies only to the Android operating system.
 -   process argument:
@@ -44,11 +44,11 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ![](/images/TA_Automation/Images/bia_check_process_running_Android_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_process_running_Android_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_process_running_Android_res.png)
 
@@ -63,4 +63,3 @@ The following settings are applicable to this action:[remove double quotes from 
 [is process running](/automation-guide/action-based-testing-language/built-in-actions/system-actions/operating-system/is-process-running)
 
 [kill process](/automation-guide/action-based-testing-language/built-in-actions/system-actions/device/kill-process)
-

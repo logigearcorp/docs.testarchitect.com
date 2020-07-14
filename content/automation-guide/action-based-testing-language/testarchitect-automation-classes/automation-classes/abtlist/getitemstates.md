@@ -12,18 +12,18 @@ keywords: "methods of abt, GetItemStates, GetItemStates (AbtList), AbtList, geti
 
 `TAItemState GetItemStates(int index)`
 
-## Description
+## Description {{< permerlink >}} {#abt_GetItemStatesString__section.desc} 
 
 Retrieve the current state\(s\) of an item in the list control.
 
-## Parameters
+## Parameters {{< permerlink >}} {#abt_GetItemStatesString__section.params} 
 
 -   **index**
 
     Integer index of item in the list control. Note that index numbering begins with 1.
 
 
-## Return Value
+## Return Value {{< permerlink >}} {#abt_GetItemStatesString__section.return} 
 
 TAItemState object specifying a comma-delimited list of all of the current states of the item. Possible listed values are:
 

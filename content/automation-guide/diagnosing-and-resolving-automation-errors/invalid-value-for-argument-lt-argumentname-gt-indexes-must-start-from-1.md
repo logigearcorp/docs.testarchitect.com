@@ -21,4 +21,3 @@ Check the AUT and enter the correct index value for the given argument. Then re-
 {{<note>}} Index numbering begins with 1.
 
 
-

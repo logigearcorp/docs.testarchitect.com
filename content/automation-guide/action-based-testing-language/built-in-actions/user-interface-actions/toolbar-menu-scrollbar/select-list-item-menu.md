@@ -66,15 +66,14 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ![](/images/TA_Automation/Images/bia_select_list_item_menu_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_select_list_item_menu_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_select_list_item_menu_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_select_list_item_menu_effect.png)
-

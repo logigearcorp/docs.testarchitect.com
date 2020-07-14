@@ -35,7 +35,7 @@ Check for the existence of an item on a drop-down menu hosted by a toolbar butto
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_check_toolbar_menu_item_exists__section.notes} 
 
 -   item argument:
     -   Menu items are identified by their caption properties.
@@ -54,11 +54,11 @@ This action is applicable to the following controls:toolbar
 
 ![](/images/TA_Automation/Images/bia_check_toolbar_menu_item_exists_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_toolbar_menu_item_exists_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_toolbar_menu_item_exists_res.png)
 
@@ -71,4 +71,3 @@ This action is applicable to the following controls:toolbar
 [check toolbar menu item not exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/check-toolbar-menu-item-not-exists)
 
 [does toolbar menu item exist](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/does-toolbar-menu-item-exist)
-

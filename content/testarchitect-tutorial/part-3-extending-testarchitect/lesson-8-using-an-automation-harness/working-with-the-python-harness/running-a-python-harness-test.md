@@ -45,10 +45,9 @@ Upon completion of execution, the **Result Details** tab of the test results dis
 
 {{<tip>}} **IDE Users:** It is generally recommended that you try out your automation in your IDE \(Integrated Development Environment\), such as Eclipse. Use the **Compile** button in TestArchitect’s **Execution** dialog to set up the necessary information for the test to run. Afterwards, launch the test directly from the IDE. Be sure to set the PYTHONPATH environment variable to the lib/python directory in the **TestArchitect** program folder. Under Windows, if TestArchitect is installed in the default folder, this would typically be: C:\\Program Files\\LogiGear\\TestArchitect\\lib\\python
 
-{{<tip>}} **Developers**: Eclipse with PyDev is a good solution for Python. In Eclipse with PyDev, this setting is best set in the project properties. Right click the **project** node in the Package Explorer, then select **Properties**. In the Properties dialog select **Python - PYTHONPATH**. Select the **External Libraries** tab, and click the **Add source folder** button.
+{{<tip>}} Developers: Eclipse with PyDev is a good solution for Python. In Eclipse with PyDev, this setting is best set in the project properties. Right click the **project** node in the Package Explorer, then select **Properties**. In the Properties dialog select **Python - PYTHONPATH**. Select the **External Libraries** tab, and click the **Add source folder** button.
 
 So far, you have created your own user-scripted action along with a test that runs it, but they have no interaction with the outside world. In the next exercise, you will create a user-scripted action that communicates with a target application.
-
 
 
 

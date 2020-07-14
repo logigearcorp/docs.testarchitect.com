@@ -17,15 +17,14 @@ The following new features and improvements are introduced in TestArchitect vers
 
 ## TestArchitect Client
 
-**Enhancements to existing features**
+Enhancements to existing features
 
 -   Performance improvement during startup of the Repository Server.
 
-## TestArchitect Automation
+## TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.1_U4_Linux__section_p2c_51b_cs} 
 
 -   **Built-in actions/built-in setting to handle unpredicted appearance of a modal dialog box in desktop applications**: The troublesome modal dialog can be automatically closed, or custom-handled by a user-defined action.
     -   [on modal action](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/error-handling/on-modal-action) \(built-in action\): Specify the action to be invoked in the event of the occurrence of a modal dialog box that may block the test automation.
     -   [get modal definition](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/window/get-modal-definition) \(built-in action\): Retrieve the definition of the current modal dialog box.
     -   [modal close attempts](/automation-guide/action-based-testing-language/built-in-settings/other-settings/modal-close-attempts) \(built-in setting\): Set the number of retries for the invoked action handler specified in the [on modal action](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/error-handling/on-modal-action) built-in action.
-
 

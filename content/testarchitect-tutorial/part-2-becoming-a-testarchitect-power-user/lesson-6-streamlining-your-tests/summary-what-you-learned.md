@@ -8,13 +8,12 @@ aliases:
 keywords: 
 ---
 
-**What you learned in this lesson:**
+What you learned in this lesson:
 
 -   Incorporating repetitive test logic into loops
 -   Creating user-defined actions
 -   How to encapsulate a set of action lines into a new user-defined action
 -   Optimizing your use of arguments to maximize the reusability of an action
 -   How to return values from a called action
-
 
 

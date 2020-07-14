@@ -12,11 +12,11 @@ keywords: "methods of abt, RemoveRowAt, RemoveRowAt (AbtDataSet), AbtDataSet, re
 
 `int RemoveRowAt(int index)`
 
-## Description
+## Description {{< permerlink >}} {#reference_rhd_lbw_gq__section.desc} 
 
 Remove a row, specified by its index, from the data set object.
 
-## Parameters
+## Parameters {{< permerlink >}} {#reference_rhd_lbw_gq__section.params} 
 
 -   **index**
 

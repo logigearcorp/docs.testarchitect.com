@@ -34,7 +34,7 @@ exact
 
 ## Example
 
-**Test Lines**
+Test Lines
 
 ![](/images/TA_Automation/Images/bis_picture_algorithm_pgm.png)
 
@@ -45,4 +45,3 @@ exact
 
 
 [Image comparison techniques](/automation-guide/action-based-testing-language/the-test-language/image-comparison-techniques)
-

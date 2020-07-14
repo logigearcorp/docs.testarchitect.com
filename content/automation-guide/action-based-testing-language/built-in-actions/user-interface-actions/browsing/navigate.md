@@ -61,15 +61,15 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ![](/images/TA_Automation/Images/bia_navigate_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_navigate_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_navigate_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_navigate_effect.png)
 
@@ -77,15 +77,15 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 Suppose you want to open the HTML file, C:/Program Files/LogiGear/TestArchitect/samples/ScrumBoard/index.html, in a running web browser window. Since the URL to the local HTML file contains a white space, that is, inside Program Files, it is essential to replace the white space with %20. The value for location should therefore be file:///C:/Program%20Files/LogiGear/TestArchitect/samples/ScrumBoard/index.html file://///lgvn10003
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_navigate_pgm_2.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_navigate_res_2.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_navigate_effect_2.png)
 
@@ -99,4 +99,3 @@ Suppose you want to open the HTML file, C:/Program Files/LogiGear/TestArchitect/
 [go home](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/go-home)
 
 [refresh](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/refresh)
-

@@ -50,11 +50,11 @@ This action is applicable to the following controls:list box, list view, combo b
 
 ![](/images/TA_Automation/Images/bia_get_selected_item_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_selected_item_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_selected_item_res.png)
 
@@ -62,11 +62,11 @@ This action is applicable to the following controls:list box, list view, combo b
 
 ![](/images/TA_Automation/Images/bia_get_selected_item_2_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_selected_item_2_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_selected_item_2_res.png)
 
@@ -76,4 +76,3 @@ This action is applicable to the following controls:list box, list view, combo b
 [check selected items](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/check-selected-items)
 
 [click list item](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/click-list-item)
-

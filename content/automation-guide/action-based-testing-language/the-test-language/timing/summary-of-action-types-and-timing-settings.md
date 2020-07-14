@@ -23,4 +23,3 @@ The following table presents an overview of timing settings applying to actions 
 Keep in mind that the above table applies to actions related to the UI of the AUT. With one or two minor exceptions \(e.g., get clipboard\), timing settings are not applied to actions that are independent of AUT interaction. These include actions that interact with the host operating system \(check file exists, does folder exist, etc.\), actions that have no external interactions \(if, does text contain\), documentary actions \(report, test case\), etc.
 
 
-

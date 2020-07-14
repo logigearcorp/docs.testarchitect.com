@@ -14,7 +14,7 @@ You can use shortcut keys to perform lots of different tasks quickly or to work 
 
 |Windows|macOS|
 |-------|-----|
-|CONTROL|CONTROL \(**^**\)|
+|CONTROL|CONTROL \(^\)|
 |ALT|OPTION \(![](/images/TA_Help/Images/Mac_option_key.png)\)|
 |DELETE|DELETE RIGHT \(![](/images/TA_Help/Images/Mac_delete_key.png)\)|
 |BACKSPACE|DELETE LEFT \(![](/images/TA_Help/Images/Mac_delete_left_key.png)\)|
@@ -60,7 +60,7 @@ The following table describes shortcuts used when working with item tabs.
 |Go to item tab to the right|Ctrl + Tab|N/A|Ctrl + Tab|
 |Go to item tab to the left|Ctrl + Shift + Tab|N/A|Ctrl + Shift + Tab|
 
-## Cell pointer navigation
+## Cell pointer navigation {{< permerlink >}} {#Support_Hotkeys_list__section.test_editor.navigation} 
 
 The following table describes shortcuts used to navigate cell pointer in a test editor.
 
@@ -117,7 +117,6 @@ The following table describes shortcuts used when working with debugger.
 |Pause or resume a running harness|Ctrl + Alt + P|N/A|N/A|
 |Show/hide the Running status window during the automated test|Ctrl + Alt + R|N/A|N/A|
 |Exit TestArchitect Client|Alt + F4|![](/images/TA_Help/Images/Mac_option_key.png) + F4|Alt + F4|
-
 
 
 

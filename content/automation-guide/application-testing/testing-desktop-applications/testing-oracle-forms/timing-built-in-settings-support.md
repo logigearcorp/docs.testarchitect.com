@@ -29,4 +29,3 @@ Successful testing requires that the automation correctly handle the varying res
 |11|[control condition](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/control-condition)|
 
 
-

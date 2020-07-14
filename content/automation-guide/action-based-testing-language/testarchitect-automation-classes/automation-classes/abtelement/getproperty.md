@@ -12,7 +12,7 @@ keywords: "methods of abt, GetProperty, GetProperty (AbtElement), AbtElement, ge
 
 `string GetProperty(string propertyName)`
 
-## Description
+## Description {{< permerlink >}} {#abt_GetProperty_element__section.desc} 
 
 Retrieve the value of a specified property of the element.
 

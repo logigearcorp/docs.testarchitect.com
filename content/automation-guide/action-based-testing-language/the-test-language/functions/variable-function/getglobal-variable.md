@@ -32,12 +32,11 @@ Returns the value of the specified [global variable](/automation-guide/action-ba
 
 ## Example
 
-**Test Lines**
+Test Lines
 
 ![](/images/TA_Automation/Images/automationguide_getglobalfunction_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/automationguide_getglobalfunction_res.png)
-
 

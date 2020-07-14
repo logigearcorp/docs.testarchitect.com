@@ -39,7 +39,7 @@ Retrieve both the index and text content of the currently selected item of a com
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_get_selected_picker_view_item__section_tll_j2y_mk} 
 
 -   This built-in action applies only to the iOS operating system.
 -   If the variables in argumentstext variable and index variablehave not been declared, the action creates them as globals.
@@ -57,14 +57,13 @@ This action is applicable to the following controls:picker view.
 
 ![](/images/TA_Automation/Images/bia_get_selected_picker_view_item_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_selected_picker_view_item_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_selected_picker_view_item_res.png)
-
 
 
 

@@ -42,4 +42,3 @@ If at some point in time you need to change the license server information, firs
 
 
 [Troubleshooting power outage-related problems](/user-guide/support/frequently-asked-questions/troubleshooting-power-outage-related-problems)
-

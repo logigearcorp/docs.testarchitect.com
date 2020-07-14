@@ -8,18 +8,18 @@ aliases:
 keywords: "built-in actions, use cloud device, use cloud device (action), iOS (action), use cloud device, Android (action)"
 ---
 
-## Description
+## Description {{< permerlink >}} {#bia_use_cloud_device__section_nkt_zth_gy} 
 
 Use a cloud device, as specified by its session ID, to run automated tests.
 
-## Arguments
+## Arguments {{< permerlink >}} {#bia_use_cloud_device__section_okt_zth_gy} 
 
 -   **session id**
 
     Session ID of the target cloud device.
 
 
-## Notes
+## Notes {{< permerlink >}} {#bia_use_cloud_device__section_qkt_zth_gy} 
 
 -   This built-in action applies only to WebDriver based cloud services. \([Learn more](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/).\)
 -   The session ID specified in the session id argument is retrieved via the [connect cloud device](/automation-guide/action-based-testing-language/built-in-actions/system-actions/device/connect-cloud-device) action.
@@ -29,7 +29,7 @@ Use a cloud device, as specified by its session ID, to run automated tests.
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Example
+## Example {{< permerlink >}} {#bia_use_cloud_device__section_wkt_zth_gy} 
 
 Suppose that you'd like to automate mobile web application testing on Chrome in an Android cloud device in [Testdroid](http://docs.testdroid.com/appium/testdroid-desired-caps/), a WebDriver based cloud service.
 
@@ -61,7 +61,7 @@ Suppose that you'd like to automate mobile web application testing on Chrome in 
 
 -   Specify URL Appium server of the given WebDriver based cloud service. For example: Testdroid, the URL Appium server is http://appium.testdroid.com/wd/hub
 
-**Action Lines**
+Action Lines
 
 ```
 //Define desired capabilities
@@ -103,4 +103,3 @@ use cloud device         #Xperia_Z_sessionID
 [use host machine](/automation-guide/action-based-testing-language/built-in-actions/system-actions/device/use-host-machine)
 
 [disconnect all cloud devices](/automation-guide/action-based-testing-language/built-in-actions/system-actions/device/disconnect-all-cloud-devices)
-

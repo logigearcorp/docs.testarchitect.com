@@ -63,11 +63,11 @@ This action is applicable to the following controls:status bar.
 
 ![](/images/TA_Automation/Images/bia_check_status_bar_section_state_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_status_bar_section_state_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_status_bar_section_state_res.png)
 
@@ -77,4 +77,3 @@ This action is applicable to the following controls:status bar.
 
 
 [get status bar section state](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/status-bar/get-status-bar-section-state)
-

@@ -35,7 +35,7 @@ Retrieve the number of items of a component of a picker view control.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_get_picker_view_component_item_count__section_tll_j2y_mk} 
 
 -   This built-in action applies only to the iOS operating system.
 -   variable argument:
@@ -55,14 +55,13 @@ This action is applicable to the following controls:picker view.
 
 ![](/images/TA_Automation/Images/bia_get_picker_view_component_item_count_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_picker_view_component_item_count_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_picker_view_component_item_count_res.png)
-
 
 
 

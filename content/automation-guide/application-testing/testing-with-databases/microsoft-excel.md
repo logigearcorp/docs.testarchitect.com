@@ -19,7 +19,7 @@ Microsoft Excel is a spreadsheet application developed by Microsoft for Microsof
 -   Supported Microsoft Excel versions: 2007, 2010 and 2013.
 -   Microsoft Excel Supported Extensions: xls, xlsx, xlsm, xlsb.
 -   Connecting to and querying a database from a test requires that the correct ODBC driver be used. The correct driver must be specific to both the DBMS and the architecture \(32-bit or 64-bit\) of the TestArchitect Controller application that uses it. The following utilities may be used to determine whether the correct driver is already installed:
-    -   **Windows**: [Open](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/open-the-odbc-data-source-administrator) the ODBC Data Source Administrator dialog box. A list of installed ODBC drivers is available under the **Drivers** tab. \([Learn more](https://docs.microsoft.com/en-us/sql/odbc/admin/viewing-drivers).\)
+    -   Windows: [Open](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/open-the-odbc-data-source-administrator) the ODBC Data Source Administrator dialog box. A list of installed ODBC drivers is available under the **Drivers** tab. \([Learn more](https://docs.microsoft.com/en-us/sql/odbc/admin/viewing-drivers).\)
 
         ![](/images/TA_Automation/Images/ODBC_data_source_administration_dlg.png)
 
@@ -56,7 +56,7 @@ Use the others argument to specify the path and name of the Excel file, using th
 
 For the purpose of running an SQL query, Excel offers a few constructs that can act as tables:
 
--   **named range**
+-   named range
 
     Excel allows you to create a *defined name* for a given range of cells. To use this within an SQL query, simply treat it as a table name. For example, with a named range of customers, you could issue a query with:
 
@@ -67,7 +67,7 @@ For the purpose of running an SQL query, Excel offers a few constructs that can 
 
     {{<note>}} The query treats the last row of the named range as the last row of the table. Note that any empty rows at the end of the range are treated as table rows with NULL values in each cell.
 
--   **worksheet**
+-   worksheet
 
     An Excel spreadsheet file can consist of any number of worksheets, each of which must have a unique name. In your SQL query, you can use a worksheet name in place of a table by appending a $ to it and enclosing it in square brackets. For example, with a worksheet named customer\_sheet, you could issue a query in this manner:
 
@@ -78,7 +78,7 @@ For the purpose of running an SQL query, Excel offers a few constructs that can 
 
     {{<note>}} For a query on a full worksheet, the last non-empty row is treated as the end of the table. Note that any empty rows preceding it are treated as table rows with NULL values in each cell.
 
--   **a specified range within a worksheet**
+-   a specified range within a worksheet
 
     You can also restrict the “table” to a range within a worksheet by following it with the columns and rows that define its edges. For example:
 
@@ -98,18 +98,17 @@ It's important to note that, for whichever type of table construct you use, Test
 create connection string  
 ```
 
-**Test Lines**
+Test Lines
 
 ![](/images/TA_Automation/Images/bia_database_Excel_connection_string_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_database_Excel_connection_string_res.png)
 
 ## Notes
 
 -   Note that ODBC Excel Driver also produces some limitations as long as benefits.\([Learn more](http://support.microsoft.com/kb/178717).\)
-
 
 
 

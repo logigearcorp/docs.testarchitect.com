@@ -8,11 +8,11 @@ aliases:
 keywords: "methods of abt, EndRun, EndRun (AbtAutoation), AbtAutomation, endrun, endrun abtautomation, end test run, end test execution"
 ---
 
-## Syntax
+## Syntax {{< permerlink >}} {#abt_EndRun__section.syntax} 
 
 `int EndRun()`
 
-## Description
+## Description {{< permerlink >}} {#abt_EndRun__section.desc} 
 
 Ends a test run.
 
@@ -20,7 +20,7 @@ Ends a test run.
 
 There are no parameters for this function.
 
-## Return Value
+## Return Value {{< permerlink >}} {#abt_EndRun__section.return} 
 
 An integer value is returned that identifies the result information for the test run. It is to be used as parameter for the [ReportFinish](/automation-guide/action-based-testing-language/testarchitect-automation-classes/engine-class-methods/reportfinish) or the [PrintReport](/automation-guide/action-based-testing-language/testarchitect-automation-classes/engine-class-methods/printreport) function.
 

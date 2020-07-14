@@ -19,12 +19,12 @@ index path is a secondary TA property that uses one or two index values to speci
 
 ## Values
 
--   **If control is a header cell**:
-    -   **format:** <integer index\>
-    -   **Example:** 4
--   **If control is a subordinate cell**:
-    -   **format:** <integer index\> . <integer index\>
-    -   **Example:** 4.3
+-   If control is a header cell:
+    -   format: <integer index\>
+    -   Example: 4
+-   If control is a subordinate cell:
+    -   format: <integer index\> . <integer index\>
+    -   Example: 4.3
 
 ## Description
 
@@ -35,5 +35,4 @@ If the control is subordinate to a header cell, its index path value has two par
 ## Example
 
 ![](/images/TA_Help/Images/prop_index_path.table_view.png "index path values in a table view")
-
 

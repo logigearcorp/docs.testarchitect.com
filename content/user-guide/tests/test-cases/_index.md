@@ -52,10 +52,10 @@ Once a test module is given test cases and is checked in, it becomes a subtree o
 
 You can delete a test case either through the TestArchitect explorer tree or the editor window:
 
--   **TestArchitect explorer tree:**
+-   TestArchitect explorer tree:
     -   select the test case's node, then press Delete on your keyboard; or
     -   right-click on the node, and select **Delete** from the context menu.
--   **Editor window:** do one of the following:
+-   Editor window: do one of the following:
     -   select any part of the test case header line, then press the Delete key; or
     -   right-click anywhere on the test case header, and select **Test case** \> **Delete Test Case**
 
@@ -69,7 +69,7 @@ In all the above cases, the Delete Test Case dialog box appears, offering you tw
 
 A test case may be modified in one of two ways. Under either option, you must have the parent test module checked out.
 
-To change any field values of a test case, open it in TestArchitect explorer tree and use its **Information** tab:
+To change any field values of a test case, open it in TestArchitect explorer tree and use its Information tab:
 
 -   Double-click the test case node.
 -   Select the **Information** tab of the test case in the main panel.
@@ -78,12 +78,11 @@ To change any field values of a test case, open it in TestArchitect explorer tre
 
 An alternative way to modify a test case is to right-click the cell containing the test case and select **Test case** \> **Edit Test Case** \(or type F2\) in the context menu. The **Information** tab is presented.
 
-{{<note>}} If a test case is not checked in to become a subordinate node in TestArchitect explorer tree, **Edit Test Case** in the context menu is not visible. In order to edit the test case, you can edit it directly in the grid cell containing TC ID in the editor.
+{{<note>}} If a test case is not checked in to become a subordinate node in TestArchitect explorer tree, Edit Test Case in the context menu is not visible. In order to edit the test case, you can edit it directly in the grid cell containing TC ID in the editor.
 
 1.  [Test steps](/user-guide/tests/test-cases/test-steps/)  
 Test steps break up a test case into multiple smaller sections, which can be maintained in an easier manner.
 2.  [Test objectives](/user-guide/tests/test-cases/test-objectives/)  
 Test objectives provide details of scope of the tests of a test module.
-
 
 

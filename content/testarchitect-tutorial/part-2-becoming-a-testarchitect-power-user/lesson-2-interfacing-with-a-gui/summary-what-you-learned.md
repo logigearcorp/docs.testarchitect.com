@@ -8,11 +8,10 @@ aliases:
 keywords: 
 ---
 
-**What you learned in this lesson:**
+What you learned in this lesson:
 
 -   How to create a working test of an application \(AUT\) in TestArchitect.
 -   How to make use of a TestArchitect interface in your test cases.
 -   How to run a test and view its results.
-
 
 

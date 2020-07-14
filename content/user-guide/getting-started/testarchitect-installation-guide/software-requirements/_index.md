@@ -19,4 +19,3 @@ This topic lists additional software requirements needed to perform web-based te
 4.  [Mobile testing](/user-guide/getting-started/testarchitect-installation-guide/software-requirements/mobile-testing)  
 This topic lists additional software requirements needed to perform mobile testing.
 
-

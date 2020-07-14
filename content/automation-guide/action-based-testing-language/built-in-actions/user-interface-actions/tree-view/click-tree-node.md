@@ -75,15 +75,15 @@ This action is applicable to the following controls:tree view, tree table, tree 
 
 ## Example - Case 1: Using a text value for node path
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_click_tree_node_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_click_tree_node_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_click_tree_node_aut.png)
 
@@ -91,11 +91,10 @@ This action is applicable to the following controls:tree view, tree table, tree 
 
 ![](/images/TA_Automation/Images/bia_click_tree_node_index_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_click_tree_node_index_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_click_tree_node_index_res.png)
-

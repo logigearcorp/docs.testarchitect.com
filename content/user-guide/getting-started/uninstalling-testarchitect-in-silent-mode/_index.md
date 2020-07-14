@@ -24,4 +24,3 @@ In silent mode, the uninstallation wizard shows no informative, warning or error
 
 
 
-

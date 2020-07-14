@@ -21,7 +21,7 @@ The format of an anchor pos value is identical to that of [global pos](/user-gui
 <ta class> <index>
 ```
 
-Some examples: **treenode 6**, **div 1**, **link 12**.
+Some examples: treenode 6, div 1, **link 12**.
 
 The difference is the basis of the index. The global pos properties of controls are essentially anchored to the window, as index values \(within a given class\) start at 1 in the window and continue to increment. That can be a problem in a dynamic environment, where controls of a given class may come and go. This is especially the case with web applications.
 
@@ -43,5 +43,4 @@ Using anchor and anchor pos properties to map a control.
 Using anchor and anchor pos properties within variable-based dynamic identifiers.
 3.  [Using anchor pos with multilevel dynamic identifiers](/user-guide/interface-definitions/control-properties/secondary-properties/anchor-pos-property/using-anchor-pos-with-multilevel-dynamic-identifiers)  
 Using anchor and anchor pos properties within multilevel dynamic identifiers is often essential to ensure that you are targeting the right controls.
-
 

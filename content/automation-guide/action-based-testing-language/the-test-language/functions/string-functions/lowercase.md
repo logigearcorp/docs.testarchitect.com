@@ -27,14 +27,13 @@ Returns a copy of the string str in all lowercase.
 
 ## Example
 
-**Test Lines**
+Test Lines
 
 ![](/images/TA_Automation/Images/automationguide_stringfunction_lowercase_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/automationguide_stringfunction_lowercase_res.png)
-
 
 
 

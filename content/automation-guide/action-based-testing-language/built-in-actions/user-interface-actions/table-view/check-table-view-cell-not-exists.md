@@ -55,11 +55,11 @@ This action is applicable to the following controls:table view.
 
 ![](/images/TA_Automation/Images/bia_check_table_view_cell_not_exists_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_table_view_cell_not_exists_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_table_view_cell_not_exists_res.png)
 
@@ -67,14 +67,13 @@ This action is applicable to the following controls:table view.
 
 ![](/images/TA_Automation/Images/bia_check_table_view_cell_not_exists_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_table_view_cell_not_exists_2_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_table_view_cell_not_exists_2_res.png)
-
 
 
 

@@ -12,7 +12,7 @@ If your test module contains a baseline test result, you can conveniently open t
 
 Choose one of the following two methods to open the baseline test result directly from the test module:
 
--   **Option 1**:
+-   Option 1:
 
     1.  In the TestArchitect explorer tree, right-click the test module folder containing the test module that generated the baseline test result.
 
@@ -22,7 +22,7 @@ Choose one of the following two methods to open the baseline test result directl
 
     3.  On the context menu, select **Results** \> **Open Baseline Result**.
 
--   **Option 2**:
+-   Option 2:
 
     1.  In the TestArchitect explorer tree, right-click the test module that generated the baseline test result.
 
@@ -30,7 +30,6 @@ Choose one of the following two methods to open the baseline test result directl
 
 
 The baseline test result appears on the main panel.
-
 
 
 

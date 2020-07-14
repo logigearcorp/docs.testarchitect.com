@@ -52,14 +52,13 @@ This action is applicable to the following controls:picker view.
 
 ![](/images/TA_Automation/Images/bia_check_picker_view_item_not_exists_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_picker_view_item_not_exists_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_picker_view_item_not_exists_res.png)
-
 
 
 

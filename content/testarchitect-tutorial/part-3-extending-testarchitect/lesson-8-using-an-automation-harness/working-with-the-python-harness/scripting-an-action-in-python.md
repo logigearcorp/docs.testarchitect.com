@@ -79,4 +79,3 @@ Your scripted hello action is now ready to be run, but while the runtime system 
 
 
 [Action basics](/testarchitect-tutorial/part-1-getting-started-with-testarchitect/introducing-testarchitect/action-basics)
-

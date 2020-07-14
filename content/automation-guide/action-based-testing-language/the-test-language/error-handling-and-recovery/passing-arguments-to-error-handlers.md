@@ -33,9 +33,8 @@ The test case below makes use of my failure handler. It runs a check that \(erro
 
 ![](/images/TA_Automation/Images/abtErrorHandling_Failure_handler_test01.png)
 
-In the results page generated after the test is run, a **Log Information** section is created, with the following entry, reflecting both the message passed to the handler, plus the name of the capture file:
+In the results page generated after the test is run, a Log Information section is created, with the following entry, reflecting both the message passed to the handler, plus the name of the capture file:
 
 ![](/images/TA_Automation/Images/abtErrorHandling_Failure_handler_result_log.png)
-
 
 

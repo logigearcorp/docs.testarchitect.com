@@ -33,21 +33,21 @@ The following settings are applicable to this action:[remove double quotes from 
     -   Function keys: \{F1\} to \{F12\}
     -   Named keys: \{enter\}, \{esc\}, \{capslock\}, \{numlock\}, \{scrolllock\} \{spacebar\}, \{backspace\}, \{home\}, \{end\}, \{pause\}, \{delete\}, \{page down\}, \{page up\}
     -   Arrow keys: \{up\}, \{down\}, \{left\}, \{right\}
-    -   **TAB** key: \{tab\}
-    -   **CTRL** key: Caret \(**^**\)
-        -   Left CTRL: **<^**
-        -   Right CTRL: **\>^**
-    -   **ALT** key: Percent sign \(**%**\)
-        -   Left **ALT**: **<%**
-        -   **Right** ALT: **\>%**
-    -   **SHIFT** key: Plus sign \(**+**\)
-        -   Left SHIFT: **<+**
-        -   Right SHIFT:**\>+**
-    -   **WINDOW** key: \{Win\} or \{WIN\}
-        -   Left WINDOW: **\{lWin\}** or **\{lWIN\}**
-        -   Right WINDOW: **\{rWin\}** or **\{rWIN\}**
+    -   TAB key: \{tab\}
+    -   CTRL key: Caret \(^\)
+        -   Left CTRL: <^
+        -   Right CTRL: \>^
+    -   ALT key: Percent sign \(%\)
+        -   Left ALT: <%
+        -   Right ALT: \>%
+    -   SHIFT key: Plus sign \(+\)
+        -   Left SHIFT: <+
+        -   Right SHIFT:\>+
+    -   WINDOW key: \{Win\} or \{WIN\}
+        -   Left WINDOW: \{lWin\} or **\{lWIN\}**
+        -   Right WINDOW: \{rWin\} or \{rWIN\}
 -   TestArchitect supports all basic characters that are present on a standard keyboard, including all letters, digits and symbols, including all of \` ~ @ \# $ % ^ & \* \( \) \_ + \| \} \{ \] \[ ' " ; : ? / \> . < , " = -. However, certain symbol keys have special meaning in TestArchitect, and need to be “escaped” when you want to use them for straight character entry:
-    -   Since the caret, percent sign, and plus sign characters are used to represent the **CTRL**, **ALT**, and **SHIFT** keys, respectively, in order to effectively type ^, %, and + with this action, enclose these keys in curly braces. For example: \{+\} writes + to the specified window.
+    -   Since the caret, percent sign, and plus sign characters are used to represent the CTRL, ALT, and SHIFT keys, respectively, in order to effectively type ^, %, and + with this action, enclose these keys in curly braces. For example: \{+\} writes + to the specified window.
     -   As the pound key \( \# \) is used in TestArchitect as an expression indicator, you must prepend a backslash \( \\ \) to it to escape that functionality as use the symbol itself. For example: \\\# cars writes \# cars to the specified window.
     -   For other symbolic keys, do not enclose them in curly braces. For example, use ? to write ? to the specified window.
     -   For other symbolic keys, enclosing them in curly braces is optional – there is no difference in effect. For example, both ? and \{?\} write ? to the specified window.
@@ -61,7 +61,7 @@ The following settings are applicable to this action:[remove double quotes from 
         release key       A
         ```
 
-        TestArchitect releases the lowercase **a** letter.
+        TestArchitect releases the lowercase a letter.
 
     -   Multiple keys to be released simultaneously supported.
 -   Generally, the [release key](/automation-guide/action-based-testing-language/built-in-actions/system-actions/keyboard/release-key) built-in action is used in conjunction with the [hold key](/automation-guide/action-based-testing-language/built-in-actions/system-actions/keyboard/hold-key) built-in action to release keys that were previously held down spanning multiple steps. For example, if the AUT requires that the ALT key be held down while mouse left-clicks are taking place, that task could begin with a hold key action to hold down the ALT key, followed by the mouse left-click steps, finally ending with this release key built-in action.
@@ -73,7 +73,7 @@ The following settings are applicable to this action:[remove double quotes from 
         ```
 
     -   TestArchitect also automatically releases keys being held down at the end of every test case run; although, the release key is not declared explicitly in the test procedures.
-    -   When you are aware of what specific keys are being held down even by another applications, you can have TestArchitect release those keys. For example, **CTRL** is being held down by another applications, declare
+    -   When you are aware of what specific keys are being held down even by another applications, you can have TestArchitect release those keys. For example, CTRL is being held down by another applications, declare
 
         ```
                         keys
@@ -86,12 +86,11 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ## Example
 
-The following sample of test procedures selecting multiple cells in a given table by holding down the **left-CTRL** key, then applying [click table cell](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/click-table-cell) built-in action several times, finally releasing the **left-CTRL** key.
+The following sample of test procedures selecting multiple cells in a given table by holding down the left-CTRL key, then applying [click table cell](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/click-table-cell) built-in action several times, finally releasing the left-CTRL key.
 
 ## Action Lines
 
 ![](/images/TA_Automation/Images/bia_release_key_pgm.png)
-
 
 
 

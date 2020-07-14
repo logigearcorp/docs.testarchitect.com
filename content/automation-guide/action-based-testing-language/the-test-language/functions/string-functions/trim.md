@@ -27,14 +27,13 @@ Returns a copy of the string str, without the leading and trailing white spaces.
 
 ## Example
 
-**Test Lines**
+Test Lines
 
 ![](/images/TA_Automation/Images/automationguide_stringfunction_trim_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/automationguide_stringfunction_trim_res.png)
-
 
 
 

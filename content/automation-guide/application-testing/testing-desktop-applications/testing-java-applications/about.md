@@ -13,7 +13,7 @@ Some basics of creating and recording tests for Java applications, Java control 
 {{<important>}}
 
 -   By default, TestArchitect Register Server, which is installed with TestArchitect, automatically starts up as a service \(daemon\) each time you boot your computer. This service is often essential for automated testing, and should generally be available. [Ensure the availability of the TestArchitect Register Server service](/administration-guide/testarchitect-register-server) before running your automated tests.
--   For both Windows and Linux platforms, the environment variable JAVA\_TOOL\_OPTIONS is added during the TestArchitect installation process. This variable is used to invoke the TAJavaLoader.jar agent, located at TA\_INSTALL\_DIR\\binclient\\agents\\java\\lib\\ext\\. \(Note: In Windows, JAVA\_TOOL\_OPTIONS is added as both a **User** variable and **System** variable.\)
+-   For both Windows and Linux platforms, the environment variable JAVA\_TOOL\_OPTIONS is added during the TestArchitect installation process. This variable is used to invoke the TAJavaLoader.jar agent, located at TA\_INSTALL\_DIR\\binclient\\agents\\java\\lib\\ext\\. \(Note: In Windows, JAVA\_TOOL\_OPTIONS is added as both a User variable and System variable.\)
 
 ## Creating and recording tests for Java applications
 
@@ -46,6 +46,5 @@ The [Interface Viewer](/user-guide/interface-definitions/the-interface-viewer/) 
 TestArchitect defines its own set of properties, named [TA properties](/user-guide/interface-definitions/the-interface-viewer/interpreting-the-interface-viewer/), which it applies toJava controls. The Interface Viewer displays not only the TA properties of aJava application's controls, but also exposes all of the controls' [native properties](/user-guide/interface-definitions/the-interface-viewer/interpreting-the-interface-viewer/). These are the same properties that are available in the application’s source code and used by the application developers. You may use these native properties to capture controls or automate tests.
 
 ![](/images/TA_Automation/Images/aut_interface_definition_Java_Native_properties.png)
-
 
 

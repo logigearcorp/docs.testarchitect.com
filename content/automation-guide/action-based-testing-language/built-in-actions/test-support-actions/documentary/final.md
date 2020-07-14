@@ -26,9 +26,8 @@ The following settings are applicable to this action:none.
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_final_pgm.png)
-
 
 

@@ -53,10 +53,9 @@ no/false
 
 The following test procedure illustrates the use of some escape sequences to produce desired characters.
 
-**Test Lines**
+Test Lines
 
 ![](/images/TA_Automation/Images/bis_escape_sequences_pgm.png)
-
 
 
 

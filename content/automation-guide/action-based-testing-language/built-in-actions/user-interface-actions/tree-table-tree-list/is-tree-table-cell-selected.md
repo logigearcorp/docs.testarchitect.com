@@ -64,11 +64,11 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 This action is applicable to the following controls:Tree table, tree list.
 
-## Applicable Platform
+## Applicable Platform {{< permerlink >}} {#bia_is_cell_selected__section_pvr_hfr_dkb} 
 
 Systems Applications and Products in Data Processing \(SAP\).
 
-## Applicable Version
+## Applicable Version {{< permerlink >}} {#bia_is_cell_selected__section_fwl_2jr_dkb} 
 
 TestArchitect version 8.5 onward.
 
@@ -76,11 +76,11 @@ TestArchitect version 8.5 onward.
 
 ![](/images/TA_Automation/Images/bia_is_tree_table_cell_selected_1.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_is_tree_table_cell_selected_2.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_is_tree_table_cell_selected_3.png)
 
@@ -88,14 +88,13 @@ TestArchitect version 8.5 onward.
 
 ![](/images/TA_Automation/Images/bia_is_tree_table_cell_selected_4.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_is_tree_table_cell_selected_5.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_is_tree_table_cell_selected_6.png)
-
 
 
 

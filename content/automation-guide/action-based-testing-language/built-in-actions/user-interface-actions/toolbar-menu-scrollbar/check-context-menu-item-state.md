@@ -83,11 +83,11 @@ This action is applicable to the following controls:button, Calendar, check box,
 
 ![](/images/TA_Automation/Images/bia_check_context_menu_item_state_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_context_menu_item_state_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_context_menu_item_state_res.png)
 
@@ -95,11 +95,11 @@ This action is applicable to the following controls:button, Calendar, check box,
 
 ![](/images/TA_Automation/Images/bia_check_context_menu_item_state_index_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_context_menu_item_state_index_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_context_menu_item_state_index_res.png)
 
@@ -109,4 +109,3 @@ This action is applicable to the following controls:button, Calendar, check box,
 
 
 [get context menu item state](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/get-context-menu-item-state)
-

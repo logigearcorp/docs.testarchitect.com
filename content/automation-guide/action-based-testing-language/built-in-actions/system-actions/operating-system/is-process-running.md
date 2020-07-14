@@ -51,11 +51,11 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ![](/images/TA_Automation/Images/bia_is_process_running_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_is_process_running_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_is_process_running_res.png)
 
@@ -70,4 +70,3 @@ The following settings are applicable to this action:[remove double quotes from 
 [check process running](/automation-guide/action-based-testing-language/built-in-actions/system-actions/operating-system/check-process-running)
 
 [kill process](/automation-guide/action-based-testing-language/built-in-actions/system-actions/device/kill-process)
-

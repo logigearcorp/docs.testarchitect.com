@@ -12,11 +12,11 @@ keywords: "methods of abt, RemoveColumnByName, RemoveColumnByName (AbtDataSet), 
 
 `int RemoveColumnByName(string colName)`
 
-## Description
+## Description {{< permerlink >}} {#reference_msh_kbw_gq__section.desc} 
 
 Remove a column, specified by its header name, from the data set object.
 
-## Parameters
+## Parameters {{< permerlink >}} {#reference_msh_kbw_gq__section.params} 
 
 -   **colName**
 

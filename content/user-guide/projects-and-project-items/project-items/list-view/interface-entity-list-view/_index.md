@@ -69,7 +69,7 @@ By selecting **Search** from the context menu, you can search all test modules a
 
 {{<tip>}} You can include [supplier project\(s](/user-guide/projects-and-project-items/projects-in-testarchitect/project-subscription/)\) in your search for the given interface entity by selecting the **Including supplier project\(s\)** check box in the Search dialog box.
 
-## Exporting an interface entity
+## Exporting an interface entity {{< permerlink >}} {#interface_entity_list_view__section_xdk_lxm_sk} 
 
 Interface entities can be exported to archive files \(.ZIP format\), which can be used as a backup or for re-importing \([Learn more](/user-guide/interface-definitions/exporting-an-interface-entity#step_vft_h3f_fw).\)
 

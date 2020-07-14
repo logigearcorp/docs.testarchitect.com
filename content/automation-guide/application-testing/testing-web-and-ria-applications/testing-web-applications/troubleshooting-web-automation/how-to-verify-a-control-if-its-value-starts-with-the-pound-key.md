@@ -8,7 +8,7 @@ aliases:
 keywords: "FAQ, pound key character"
 ---
 
-**A**: TestArchitect recognizes the pound key \(\#\) character as the beginning of an expression. In order to get around this issue, insert a back slash \( \\ \) escape character before the value being verified.
+A: TestArchitect recognizes the pound key \(\#\) character as the beginning of an expression. In order to get around this issue, insert a back slash \( \\ \) escape character before the value being verified.
 
 For example, you may want to verify the contents of a text box whose value is expected to be \#john. In the test editor, you would write:
 
@@ -16,5 +16,4 @@ For example, you may want to verify the contents of a text box whose value is ex
               window        control         value
 check         login         user name       \#john
 ```
-
 

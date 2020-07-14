@@ -83,4 +83,3 @@ A chart's appearance, and data used to render the chart, can be modified at any 
 [Indicator settings](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/indicator-settings/)
 
 [Chart settings](/user-guide/reporting-and-dashboard/dashboard/dashboard-panels/chart-settings/)
-

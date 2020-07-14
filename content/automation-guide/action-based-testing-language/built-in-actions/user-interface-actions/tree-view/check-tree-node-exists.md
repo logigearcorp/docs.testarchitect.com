@@ -31,7 +31,7 @@ Check for the existence of a specified tree node. Result is Passed ifthe node is
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_check_tree_node_exists__section.notes} 
 
 -   node path argument:
     -   The node path may be specified by its display textor by a numerical index representing its cardinal placement in its branch, with index values starting at 1.
@@ -51,11 +51,11 @@ This action is applicable to the following controls:tree view, tree table, tree 
 
 ![](/images/TA_Automation/Images/bia_check_tree_node_exists_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_tree_node_exists_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_tree_node_exists_res.png)
 
@@ -63,11 +63,11 @@ This action is applicable to the following controls:tree view, tree table, tree 
 
 ![](/images/TA_Automation/Images/bia_check_tree_node_exists_index_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_tree_node_exists_index_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_tree_node_exists_index_res.png)
 
@@ -77,4 +77,3 @@ This action is applicable to the following controls:tree view, tree table, tree 
 [check tree node not exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-view/check-tree-node-not-exists)
 
 [does tree node exist](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-view/does-tree-node-exist)
-

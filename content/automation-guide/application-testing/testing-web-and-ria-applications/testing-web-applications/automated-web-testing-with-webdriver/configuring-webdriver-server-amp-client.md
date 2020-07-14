@@ -24,11 +24,11 @@ The files of WebDriver server & client are packaged inside the TestArchitect ins
 
 There are two methods to change the files of the WebDriver server/client:
 
-## Method \#1: Via the **Automation Agent Manager** dialog box.
+## Method \#1: Via the Automation Agent Manager dialog box.
 
 1.  Download the preferred WebDriver server/client file into the test machine.
 2.  If the browser for which you want to change WebDriver server/client is running, close all its opened browser instances and terminate all its running background processes.
-3.  In TestArchitect, select menu: **Tools** \> **Automation Agent Manager**.
+3.  In TestArchitect, select menu: Tools \> **Automation Agent Manager**.
 4.  In the TestArchitect Automation Agent dialog box, click the **Configure** button corresponding to the browser.
 
     ![](/images/TA_Automation/Images/WebDriver_Automation_Agent_Manager_dlg.png)
@@ -54,7 +54,6 @@ Only when you need an advanced test environment, should you adopt this method.
 If the network path of the WebDriver client is: \\\\LGVN17978\\chromedriver\\selenium-server-standalone-3.14.0.jar
 
 In the JSON format, it will be: \\\\\\\\LGVN17978\\\\chromedriver\\\\selenium-server-standalone-3.14.0.jar
-
 
 
 

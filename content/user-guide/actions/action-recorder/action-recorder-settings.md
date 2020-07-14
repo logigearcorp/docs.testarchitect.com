@@ -44,7 +44,7 @@ The Action Recorder Settings dialog box offers the following options:
 
     ![](/images/TA_Help/Images/AR_show_TA_class.png)
 
-8.  **Ignore formatting tags**: Some HTML elements, such as formatting elements like **<strong\>** or **<em\>**, are not considered the ideal types of controls to automate against. In such cases, a containing element – that is, a parent, parent of a parent, etc. – is generally a better choice. With **Ignore formatting tags**, the recorder determines whether to record the specific element that is interacted with, or to navigate up the DOM hierarchy until a suitable element is found. It then generates the appropriate built-in action with the recorder's choice of element specified as the control to be operated on.
+8.  Ignore formatting tags: Some HTML elements, such as formatting elements like **<strong\>** or **<em\>**, are not considered the ideal types of controls to automate against. In such cases, a containing element – that is, a parent, parent of a parent, etc. – is generally a better choice. With **Ignore formatting tags**, the recorder determines whether to record the specific element that is interacted with, or to navigate up the DOM hierarchy until a suitable element is found. It then generates the appropriate built-in action with the recorder's choice of element specified as the control to be operated on.
 
     {{<important>}} This option is currently supported only in Internet Explorer
 
@@ -56,4 +56,3 @@ The Action Recorder Settings dialog box offers the following options:
 
 
 [Introduction to the Action Recorder](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-4-using-the-action-recorder/introduction-to-the-action-recorder)
-

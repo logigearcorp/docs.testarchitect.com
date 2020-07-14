@@ -10,7 +10,7 @@ keywords: "control properties, positional, left, top, width, height, TA property
 
 The positional properties of a control specify its location and dimensions.
 
-## Positional reference
+## Positional reference {{< permerlink >}} {#Interface_def.positional_properties__section_klr_l4l_ngb} 
 
 The left and top TA properties of a control specify its position in the display. Specifically, they specify the position of the top left corner of the control.
 
@@ -20,7 +20,7 @@ However, as for TestArchitect 8.4 Update 2, the left TA property of a control is
 
 
 
-## Mobile device browsers
+## Mobile device browsers {{< permerlink >}} {#Interface_def.positional_properties__section_emr_l4l_ngb} 
 
 An exception to the rule above applies to web applications running in mobile device browsers. In such cases, the reference point is actually the top-left corner of the browser display window:
 

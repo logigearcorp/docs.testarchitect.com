@@ -35,14 +35,13 @@ The following settings are applicable to this action:none.
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_sleep_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_sleep_res.png)
-
 
 
 

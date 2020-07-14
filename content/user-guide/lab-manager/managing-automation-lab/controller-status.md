@@ -30,7 +30,7 @@ The fields, from left to right, in the **Controller** table are:
     -   Idle: Indicates that the controller is not currently running any harnesses.
     -   Running: Indicates that the controller is running at least one harness.
     -   Automation Error: Indicates that at least one harness running the controller has encountered an automation problem.
-    -   Failed to Connect: Indicates that the Lab Manager is no longer able to communicate with the controller. All of its running harnesses get the **Failed to Connect** status also.
+    -   Failed to Connect: Indicates that the Lab Manager is no longer able to communicate with the controller. All of its running harnesses get the Failed to Connect status also.
 -   **Label**: Alias, if any, that has been assigned to the controller. \([Learn more](/user-guide/lab-manager/managing-automation-lab/self-registering-a-controller#choice.label).\)
 
 ## The **Harness** sub-table
@@ -48,7 +48,6 @@ Containing a list of harnesses run by a specific controller, the sub-table appea
     -   **Test Cases**: As with test modules, the value of the denominator indicates the total number of test cases in the harness run, while the value of the numerator indicates which test case is currently running \(**Status** = Running\), or which test case was last run.
     -   **Duration**: Overall elapsed execution time of the harness run is formatted in **hours:minutes:seconds**
     -   **Current action duration**: Elapsed execution time for the currently running test case or test module.
-
 
 
 

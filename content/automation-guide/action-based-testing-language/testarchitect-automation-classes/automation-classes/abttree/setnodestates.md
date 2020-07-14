@@ -12,11 +12,11 @@ keywords: "methods of abt, SetNodeStates, SetNodeStates (AbtTree), AbtTree, setn
 
 `long SetNodeStates(string nodepath, TAItemState status)`
 
-## Description
+## Description {{< permerlink >}} {#abt_SetNodeStates__section.desc} 
 
 Set the state of a check box icon of the specified node in a tree view control.
 
-## Parameters
+## Parameters {{< permerlink >}} {#abt_SetNodeStates__section.params} 
 
 -   **nodepath**
 
@@ -38,7 +38,7 @@ Set the state of a check box icon of the specified node in a tree view control.
     -   SELECTED
     -   UNSELECTED
 
-## Return Value
+## Return Value {{< permerlink >}} {#abt_SetNodeStates__section.return} 
 
 Return 0 if the call is successful; otherwise, -1..
 

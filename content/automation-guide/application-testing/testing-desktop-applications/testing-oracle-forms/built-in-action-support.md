@@ -143,4 +143,3 @@ Built-in actions supported by TestArchitect for testing Oracle Forms.
 
 
 
-

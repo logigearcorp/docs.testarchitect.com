@@ -136,4 +136,3 @@ You have two options for exporting your test results to HTML:
 [Working with test results](/user-guide/working-with-test-results/)
 
 [Exporting test results](/user-guide/working-with-test-results/exporting-test-results/)
-

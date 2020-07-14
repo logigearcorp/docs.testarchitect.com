@@ -8,12 +8,11 @@ aliases:
 keywords: 
 ---
 
-**What you learned in this lesson:**
+What you learned in this lesson:
 
 -   How to create a test module in TestArchitect Client.
 -   How to enter an action line with an action in the editor
 -   How to execute a test in TestArchitect
 -   How to view the test results
-
 
 

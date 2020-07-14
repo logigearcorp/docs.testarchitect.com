@@ -37,7 +37,7 @@ This action may be used within the following project items:test modules and user
     -   Note that line numbering begins with 1.
     -   Result registers as Failed if value in number is larger than the total lines in the multi-line text.
 -   expected argument:
-    -   While it is possible to use literal text content in the value argument, in most practical cases you will want to use a variable here \(preceded by **\#**\) which has been pre-loaded with multi-line text. Possible sources of such text: a multi-line text control \(see [get](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/get)\), or a text file \(see [get text file](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/get-text-file) action\).
+    -   While it is possible to use literal text content in the value argument, in most practical cases you will want to use a variable here \(preceded by \#\) which has been pre-loaded with multi-line text. Possible sources of such text: a multi-line text control \(see [get](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/get)\), or a text file \(see [get text file](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/get-text-file) action\).
     -   The expectedargument can accept regular expressions. Note that argument values that include regular expressions must be entirely enclosed in curly braces \{\}. As an example, `{[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}}` specifies the pattern for an acceptable email address. More simply, `.*` represents the general wildcard for regular expressions, so that `{.*arch.*}` matches starch, marching, testarchitect, etc.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
@@ -49,11 +49,10 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ![](/images/TA_Automation/Images/bia_check_text_line_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_text_line_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_text_line_res.png)
-

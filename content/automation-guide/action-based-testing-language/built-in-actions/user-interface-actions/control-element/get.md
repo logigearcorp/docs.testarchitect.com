@@ -54,14 +54,13 @@ This action is applicable to the following controls:button, Calendar, check box,
 
 ![](/images/TA_Automation/Images/bia_get_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_res.png)
-
 
 
 

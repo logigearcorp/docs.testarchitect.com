@@ -45,7 +45,7 @@ Starting and stopping the TestArchitect Utility Server is done via the Repositor
 
 1.  The Repository Server Control Panel may be accessed through its icon ![](/images/TA_Help/Images/admin_RS_icn_RSrunning.png) in the Windows notification area \(generally on the right side of the Windows taskbar\), or through the Windows Start menu \(**Start** \> **All Programs** \> **TestArchitect** \> **Repository Server**\).
 2.  [Launch](/administration-guide/repository-server-management/launching-the-repository-server-control-panel) the Repository Server Control Panel.
-3.  Within the Repository Server Control Panel, select **TestArchitect Utility Server Information** from the **Tools** menu:
+3.  Within the Repository Server Control Panel, select TestArchitect Utility Server Information from the **Tools** menu:
 
     ![](/images/TA_Help/Images/DB_1.png)
 
@@ -58,6 +58,5 @@ Starting and stopping the TestArchitect Utility Server is done via the Repositor
 Within a few seconds the server starts up; completion of the startup process is indicated by the **Start** button becoming disabled, and **Stop** enabled.
 
 At this point, you should be able to start up Lab Manager. \(Feel free to close this dialog box, along with the Repository Server Control Panel.\)
-
 
 

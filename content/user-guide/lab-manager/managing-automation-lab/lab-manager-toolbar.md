@@ -10,7 +10,7 @@ keywords: "Lab Manager, Toolbar, Toolbars"
 
 The Lab Manager toolbar consists of several buttons for managing the controllers/devices, test runs, and the display.
 
-Only users with **administrator** privileges have access to all buttons. For **non-administrators**, only the **Refresh** button is visible.
+Only users with administrator privileges have access to all buttons. For **non-administrators**, only the **Refresh** button is visible.
 
 ![](/images/TA_Help/Images/LabManager_Toolbar_minimal_labeled.png)
 
@@ -43,7 +43,6 @@ Only users with **administrator** privileges have access to all buttons. For **n
 -   **Configuration**: Invoke the Server Configuration dialog box, which allows you to specify the **Refresh Latency** period applicable to this Lab Manager session and highlight controllers that have been registered to the session:
 
     ![](/images/TA_Help/Images/ug_labmanager15.png)
-
 
 
 

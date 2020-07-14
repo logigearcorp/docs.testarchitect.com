@@ -38,7 +38,7 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_use_filter_pgm.png)
 
@@ -48,4 +48,3 @@ The following settings are applicable to this action:[remove double quotes from 
 
 
 [repeat for data set](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/repeat-for-data-set)
-

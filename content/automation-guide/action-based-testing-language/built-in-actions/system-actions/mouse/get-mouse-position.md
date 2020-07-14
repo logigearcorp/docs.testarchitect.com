@@ -60,14 +60,13 @@ This action is applicable to the following controls:all.
 
 ![](/images/TA_Automation/Images/bia_get_mouse_position_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_mouse_position_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_mouse_position_res.png)
-
 
 
 

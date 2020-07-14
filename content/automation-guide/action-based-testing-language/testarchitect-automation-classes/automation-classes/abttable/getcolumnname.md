@@ -16,14 +16,14 @@ keywords: "methods of abt, GetColumnName, GetColumnName (AbtTable), AbtTable, ge
 
 Retrieve the header name of the specified column of the object.
 
-## Parameters
+## Parameters {{< permerlink >}} {#abt_GetColumnName__section.params} 
 
 -   **columnIndex**
 
     Integer index of the column. Note that index numbering begins with 1.
 
 
-## Return Value
+## Return Value {{< permerlink >}} {#abt_GetColumnName__section.return} 
 
 String value indicating column name.
 

@@ -24,7 +24,7 @@ TestArchitect supports the testing of web applications running within the Safari
 -   iOS 10.3.x
 -   iOS 11.4
 
-## Technological approach
+## Technological approach {{< permerlink >}} {#concept_qbz_1fc_vp__section_hjf_dzn_gq} 
 
 -   Remote debugging is a remote web inspector for debugging web applications on iOS devices. The following configurations must be set up to allow remote debugging to be performed:
 

@@ -16,13 +16,13 @@ To assign a node-locked license to a machine:
 
 1.  On the license server machine, launch the License Server Control Panel:
 
-    -   **Windows platform**: do one of the following:
+    -   Windows platform: do one of the following:
         -   Double-click the **TestArchitect - License Server** ![](/images/TA_Administration/Images/LS_icon.png) icon in your Windows notification area.
         -   Select **Start Menu** \> **All Programs** \> **TestArchitect** \> **License Server**.
-    -   **Linux platform**: do one of the following:
+    -   Linux platform: do one of the following:
         -   Double-click the **TestArchitect - License Server** ![](/images/TA_Administration/Images/LS_icon.png) icon in your notification area.
         -   From a terminal window, navigate to /usr/local/logigear/licenseserver/licenseserver and run the TestArchitect License Server executable.
-    -   **macOS**: Note that the TestArchitect License Server is not currently supported on macOS.
+    -   macOS: Note that the TestArchitect License Server is not currently supported on macOS.
 2.  Right-click an available node-locked key beneath the **Node-Locked License** node and select **Add Machine**.
 
     ![](/images/TA_Administration/Images/LS_TA_Add_machine_context.png)
@@ -45,6 +45,5 @@ To assign a node-locked license to a machine:
 
 
 If the machine that you are requesting the node-locked license for is not on any assigned-license list, the license server issues a node-locked license to it, and the number of available licenses decreases accordingly.
-
 
 

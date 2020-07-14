@@ -39,15 +39,15 @@ To import TFS test cases into TestArchitect:
 
         {{<note>}} The **Scan Project for Existing Test Cases/Modules** function applies to Test Steps Only
 
-5.  Click the **OK** button.
+5.  Click the OK button.
 
-6.  Only if you have chose the Test Steps Only option in the previous step, does the Confirm Overwriting dialog box appear, showing the list of test cases/ test modules that already exists in TestArchitect. Select the check boxes for the TestArchitect test cases/ test modules that you want to overwrite with the TFS test cases. Click the **OK** button.
+6.  Only if you have chose the Test Steps Only option in the previous step, does the Confirm Overwriting dialog box appear, showing the list of test cases/ test modules that already exists in TestArchitect. Select the check boxes for the TestArchitect test cases/ test modules that you want to overwrite with the TFS test cases. Click the OK button.
 
     ![](/images/TA_Help/Images/TFS_import_overwrite_dlg.png)
 
-    {{<note>}} The **Copy to Clipboard** button is used to copy the list of existing test cases to the clipboard.
+    {{<note>}} The Copy to Clipboard button is used to copy the list of existing test cases to the clipboard.
 
-7.  An information dialog box will appear stating The importing process completed successfully if the upload was successful. Click the **OK** button.
+7.  An information dialog box will appear stating The importing process completed successfully if the upload was successful. Click the OK button.
 
 
 TestArchitect creates a corresponding test case with the following attributes added automatically:
@@ -57,7 +57,6 @@ TestArchitect creates a corresponding test case with the following attributes ad
     ![](/images/TA_Help/Images/ug_MTM_mapped_commented_steps.png)
 
 -   TestArchitect maps each TFS test ID to the **Source** field of the corresponding TestArchitect test case. The **Source** number can be found on the **Information** tab of the test case.
-
 
 
 

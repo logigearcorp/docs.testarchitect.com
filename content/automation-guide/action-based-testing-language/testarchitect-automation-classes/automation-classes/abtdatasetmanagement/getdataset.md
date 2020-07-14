@@ -8,15 +8,15 @@ aliases:
 keywords: "methods of abt, GetDataSet, GetDataSet (AbtDataSetManagement), AbtDataSetManagement, getdataset, abtdatasetmanagement getdataset, data set content, obtain content of data set"
 ---
 
-## Syntax
+## Syntax {{< permerlink >}} {#abt_GetDataSet_dataset__section.syntax} 
 
 `AbtDataSet GetDataSet(String path)`
 
-## Description
+## Description {{< permerlink >}} {#abt_GetDataSet_dataset__section.desc} 
 
 Retrieve data set content in the current project or supplier project. If variations of the data set exist, the returned variation is that which satisfies the runtime variation specification.
 
-## Parameters
+## Parameters {{< permerlink >}} {#abt_GetDataSet_dataset__section.params} 
 
 -   **path**
 

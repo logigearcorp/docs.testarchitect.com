@@ -26,8 +26,8 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   Observe the following format for the file path:
-    -   **Windows platform**: Use backward slashes as separators for the path.
-    -   **Linux and Android platforms**: Use forward slashes as separators for the path. \(Note that network paths are not supported.\)
+    -   Windows platform: Use backward slashes as separators for the path.
+    -   Linux and Android platforms: Use forward slashes as separators for the path. \(Note that network paths are not supported.\)
 -   Note that this built-in action is not currently supported on the macOS or iOS platforms.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
@@ -37,11 +37,11 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_file_not_exists_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_file_not_exists_res.png)
 
@@ -54,4 +54,3 @@ The following settings are applicable to this action:[remove double quotes from 
 [check file exists](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/check-file-exists)
 
 [does file exist](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/does-file-exist)
-

@@ -20,4 +20,3 @@ For the value argument enter an numeric value in the range of 0 to 100, and then
 
 
 
-

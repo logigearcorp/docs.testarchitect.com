@@ -29,4 +29,3 @@ You can use **point-to-identify** to simply verify that the control you have spe
     -   **If the specified window and control are known but either is not matched on the physical side**: That is, the respective TA names are mapped to an interface entity and interface element, but TestArchitect is unable to identify the corresponding UI item on the physical side, a message to that effect is displayed: Entity is not matched, or Element is not matched.
 
 
-

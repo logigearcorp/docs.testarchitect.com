@@ -10,7 +10,7 @@ keywords: "Quality Center, importing to TA from, HP Quality Center, test develop
 
 Tests residing in Quality Center can be imported into TestArchitect. Each Quality Center test is mapped automatically to a test case in TestArchitect.
 
-Ensure that the machine hosting the TestArchitect repository server has the **HP ALM Connectivity Add-in** installed, to allow for integration and synchronization between TestArchitect and HP Quality Center.
+Ensure that the machine hosting the TestArchitect repository server has the HP ALM Connectivity Add-in installed, to allow for integration and synchronization between TestArchitect and HP Quality Center.
 
 Ensure that you have already taken the following steps:
 
@@ -33,6 +33,5 @@ You have two options when importing tests from Quality Center to TestArchitect:
 A test in the test plan of an HP Quality Center project may be imported into an existing TestArchitect test module, generating a new test case in the module.
 2.  [Importing a Quality Center folder](/user-guide/integration-with-third-party-tools/hp-quality-center/features/importing-quality-center-tests-into-a-testarchitect-test-module/importing-a-quality-center-folder)  
 A folder in the test plan of an HP Quality Center project may be imported into an existing TestArchitect test folder, generating new test modules and/or test folders.
-
 
 

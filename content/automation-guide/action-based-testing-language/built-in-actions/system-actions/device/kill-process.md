@@ -23,7 +23,7 @@ Terminate a running process on a mobile device.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## Applicable Systems/Platforms {{< permerlink >}} {#bia_kill_process__section_ndc_dcl_zcb} 
 
 Use of this action is supported on the following systems/platforms: Android.
 
@@ -47,11 +47,11 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ![](/images/TA_Automation/Images/bia_kill_process_aut.jpg)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_kill_process_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_kill_process_res.png)
 
@@ -66,4 +66,3 @@ The following settings are applicable to this action:[remove double quotes from 
 [check process running](/automation-guide/action-based-testing-language/built-in-actions/system-actions/operating-system/check-process-running)
 
 [is process running](/automation-guide/action-based-testing-language/built-in-actions/system-actions/operating-system/is-process-running)
-

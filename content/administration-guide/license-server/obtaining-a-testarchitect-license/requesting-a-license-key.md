@@ -12,13 +12,13 @@ License keys may be requested from your TestArchitect or LogiGear sales represen
 
 1.  On the license server machine, launch the License Server Control Panel:
 
-    -   **Windows platform**: do one of the following:
+    -   Windows platform: do one of the following:
         -   Double-click the **TestArchitect - License Server** ![](/images/TA_Administration/Images/LS_icon.png) icon in your Windows notification area.
         -   Select **Start Menu** \> **All Programs** \> **TestArchitect** \> **License Server**.
-    -   **Linux platform**: do one of the following:
+    -   Linux platform: do one of the following:
         -   Double-click the **TestArchitect - License Server** ![](/images/TA_Administration/Images/LS_icon.png) icon in your notification area.
         -   From a terminal window, navigate to /usr/local/logigear/licenseserver/licenseserver and run the TestArchitect License Server executable.
-    -   **macOS**: Note that the TestArchitect License Server is not currently supported on macOS.
+    -   macOS: Note that the TestArchitect License Server is not currently supported on macOS.
 2.  On the toolbar, select the **Request License** ![](/images/TA_Administration/Images/Request_license_btn.png) button to invoke the Request TestArchitect Licenses dialog box.
 
     {{<note>}}
@@ -72,6 +72,5 @@ License keys may be requested from your TestArchitect or LogiGear sales represen
 
 
 A LogiGear representative will respond to your email with details regarding your personal license key.
-
 
 

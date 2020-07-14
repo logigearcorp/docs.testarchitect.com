@@ -23,7 +23,7 @@ Check the messages displayed by one or more confirmation, prompt, or alert popup
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_check_popup_message__section.notes} 
 
 -   Prior to using this built-in action, it is recommended that you become familiar with the different kinds of modal JavaScript popups and how to handle them properly.
     -   For Safari
@@ -47,23 +47,23 @@ This action is applicable to the following controls:none.
 
 ## Example - Case 1: A single popup
 
-**Scenario:** You are testing a shopping cart page with a button, **Delete this item**, for removing an item from your cart:
+Scenario: You are testing a shopping cart page with a button, Delete this item, for removing an item from your cart:
 
 1.  Upon clicking the button, a confirmation popup appears with the message Do you want to delete this item?. Two buttons, **OK** and **Cancel**, are displayed.
 2.  In the popup, the **OK** button is clicked.
 3.  The test then verifies the message of the confirmation popup.
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_popup_message_single_popup_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_popup_message_single_popup_res.png)
 
-## Example - Case 2: A sequence of multiple popups
+## Example - Case 2: A sequence of multiple popups {{< permerlink >}} {#bia_check_popup_message__section.ex02} 
 
-**Scenario:** You are testing a shopping cart page with a button, **Delete this item**, for removing an item from your cart:
+Scenario: You are testing a shopping cart page with a button, Delete this item, for removing an item from your cart:
 
 1.  Upon clicking the button, a confirmation popup appears with the message Do you want to delete this item?. Two buttons, **OK** and **Cancel**, are displayed.
 2.  In the popup, the **OK** button is clicked.
@@ -74,11 +74,11 @@ This action is applicable to the following controls:none.
     -   The message of the second most recently handled popup \(the confirmation popup\).
     -   The messages of both popups.
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_popup_message_multiple_popups_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_popup_message_multiple_popups_res.png)
 
@@ -99,4 +99,3 @@ This action is applicable to the following controls:none.
 [check popup default text](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/check-popup-default-text)
 
 [clear popup queue](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/clear-popup-queue)
-

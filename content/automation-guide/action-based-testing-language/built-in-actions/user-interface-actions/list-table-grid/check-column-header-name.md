@@ -53,11 +53,10 @@ This action is applicable to the following controls:table, list view, tree table
 
 ![](/images/TA_Automation/Images/bia_check_column_header_name_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_column_header_name_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_column_header_name_res.png)
-

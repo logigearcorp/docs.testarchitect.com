@@ -16,13 +16,13 @@ An upgrade key received from the LogiGear sales team is added to your license se
 
 1.  On the license server machine, launch the License Server Control Panel:
 
-    -   **Windows platform**: do one of the following:
+    -   Windows platform: do one of the following:
         -   Double-click the **TestArchitect - License Server** ![](/images/TA_Administration/Images/LS_icon.png) icon in your Windows notification area.
         -   Select **Start Menu** \> **All Programs** \> **TestArchitect** \> **License Server**.
-    -   **Linux platform**: do one of the following:
+    -   Linux platform: do one of the following:
         -   Double-click the **TestArchitect - License Server** ![](/images/TA_Administration/Images/LS_icon.png) icon in your notification area.
         -   From a terminal window, navigate to /usr/local/logigear/licenseserver/licenseserver and run the TestArchitect License Server executable.
-    -   **macOS**: Note that the TestArchitect License Server is not currently supported on macOS.
+    -   macOS: Note that the TestArchitect License Server is not currently supported on macOS.
 2.  On the toolbar, click the **Add License** ![](/images/TA_Administration/Images/Add_license_btn.png) button.
 
 3.  **License Key**: Open the email containing the license key you received from the LogiGear sales team, select all of the key text, and copy the key text to the clipboard \(press Ctrl+C\).
@@ -65,7 +65,6 @@ An upgrade key received from the LogiGear sales team is added to your license se
 
 
 ![](/images/TA_Administration/Images/upgrade_NL_to_FL.png)
-
 
 
 

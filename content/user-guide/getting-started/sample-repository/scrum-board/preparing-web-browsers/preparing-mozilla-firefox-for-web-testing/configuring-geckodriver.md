@@ -37,4 +37,3 @@ On Windows machines only, automating tests on Mozilla Firefox requires GeckoDriv
 
 
 
-

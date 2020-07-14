@@ -27,7 +27,7 @@ Retrieve the default text of the user-entry field of one or more recent prompt p
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_get_popup_default_text__section.notes} 
 
 -   Prior to using this built-in action, it is recommended that you become familiar with the different kinds of modal JavaScript popups and how to handle them properly.
     -   For Safari
@@ -57,7 +57,7 @@ This action is applicable to the following controls:none.
 
 ## Example - Case 1: A single popup
 
-**Scenario:** You are testing a customer information page with a button, **Sign up**, used for submitting one's name:
+Scenario: You are testing a customer information page with a button, Sign up, used for submitting one's name:
 
 1.  Upon clicking the button, a prompt appears with one input field and two buttons: **OK** and **Cancel**.
 
@@ -68,17 +68,17 @@ This action is applicable to the following controls:none.
 2.  The test enters a new input value, e.g. Jane Doe, and then clicks **OK** to proceed.
 3.  The test then retrieves the default text of the prompt popup based on a given message.
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_popup_default_text_single_popup_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_popup_default_text_single_popup_res.png)
 
 ## Example - Case 2: A sequence of multiple popups
 
-**Scenario:** You are testing an email registration page, with a button, **Sign up**, used for submitting a new email address:
+Scenario: You are testing an email registration page, with a button, Sign up, used for submitting a new email address:
 
 1.  Upon clicking the button, a prompt popup appears with one input field and two buttons: **OK** and **Cancel**.
 
@@ -103,11 +103,11 @@ This action is applicable to the following controls:none.
     \(Hint: We can retrieve both default texts in a single action call by specifying prompts whose messages begin with the string Please enter\)
 
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_popup_default_text_multiple_popups_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_popup_default_text_multiple_popups_res.png)
 
@@ -128,4 +128,3 @@ This action is applicable to the following controls:none.
 [check popup default text](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/check-popup-default-text)
 
 [clear popup queue](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/clear-popup-queue)
-

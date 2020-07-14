@@ -35,7 +35,7 @@ The following list provides an introductory overview of C\# bundle harness folde
             |AssemblyHarnessBundleAttribute|            -   Specify that this module \(assembly\) is a C\# bundle harness<br>            -   Provide bundle information including bundle name, bundle version, etc.<br>            -   Defined under the /Properties/AssemblyInfo.cs<br>|<br>
 
         -   Also, this DLL exposes additional custom attributes to trigger test run, action, test case, and test module events.
-            -   **Test case event**:
+            -   Test case event:
                 -   BeginTestCase: Specifies the method to be called before a given test case is executed.
 
                     ```
@@ -72,7 +72,7 @@ The following list provides an introductory overview of C\# bundle harness folde
                     }
                     ```
 
-            -   **Test module event**:
+            -   Test module event:
                 -   BeginTestModule: Specifies the method to be called before a given test module is executed.
 
                     ```
@@ -109,7 +109,7 @@ The following list provides an introductory overview of C\# bundle harness folde
                     } 
                     ```
 
-            -   **Action event**:
+            -   Action event:
                 -   BeginAction: Specifies the method to be called before a given action is executed.
 
                     ```
@@ -146,7 +146,7 @@ The following list provides an introductory overview of C\# bundle harness folde
                     }
                     ```
 
-            -   **Test run event**:
+            -   Test run event:
                 -   BeginRun: Specifies the method to be called after a given test run is executed.
 
                     ```
@@ -227,6 +227,5 @@ Add a new user-scripted action to an already existing C\# class in the bundle ha
             -   Assign a dependency, such as B with version 1.0, to A1 bundle harness.
             -   Assign a dependency, such as B with version 1.1, to A2 bundle harness.
         -   TestArchitect detects the conflicted versions of the dependency when TestArchitect loads both A1 and A2 bundle harnesses. Consequently, TestArchitect fails to proceed the automation.
-
 
 

@@ -22,14 +22,13 @@ yes
 
 ## Example
 
-**Test Lines**
+Test Lines
 
 ![](/images/TA_Automation/Images/bis_ignore_tabs_and_newlines_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bis_ignore_tabs_and_newlines_res.png)
-
 
 
 

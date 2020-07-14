@@ -49,11 +49,11 @@ This action is applicable to the following controls:window.
 
 ![](/images/TA_Automation/Images/bia_check_window_property_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_window_property_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_window_property_res.png)
 
@@ -64,4 +64,3 @@ This action is applicable to the following controls:window.
 
 
 [get window property](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/window/get-window-property)
-

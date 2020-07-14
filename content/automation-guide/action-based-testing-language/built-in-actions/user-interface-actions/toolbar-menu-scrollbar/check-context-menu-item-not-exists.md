@@ -66,11 +66,11 @@ This action is applicable to the following controls:button, Calendar, check box,
 
 ![](/images/TA_Automation/Images/bia_check_context_menu_item_not_exists_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_context_menu_item_not_exists_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_context_menu_item_not_exists_res.png)
 
@@ -78,11 +78,11 @@ This action is applicable to the following controls:button, Calendar, check box,
 
 ![](/images/TA_Automation/Images/bia_check_context_menu_item_not_exists_index_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_context_menu_item_not_exists_index_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_context_menu_item_not_exists_index_res.png)
 
@@ -92,4 +92,3 @@ This action is applicable to the following controls:button, Calendar, check box,
 [check context menu item exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/check-context-menu-item-exists)
 
 [does context menu item exist](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/does-context-menu-item-exist)
-

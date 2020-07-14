@@ -17,7 +17,7 @@ The following new features and improvements are introduced in TestArchitect vers
 
 ## TestArchitect Automation
 
--   **All HTML input types are fully supported**.
+-   All HTML input types are fully supported.
     -   New input types of the **<input\>** element are supported as unique TA classes:
         -   **<input-color\>**
         -   **<input-date\>**
@@ -33,11 +33,11 @@ The following new features and improvements are introduced in TestArchitect vers
         -   **<input-url\>**
         -   **<input-week\>**
 
-**Enhancements to existing features**
+Enhancements to existing features
 
 -   Each HTML **<input\>** type control is now mapped directly into a unique TA class. \(Note: In earlier versions of TestArchitect, this only applied to pre-HTML5 **<input\>** type controls: that is, **<input-button\>**, **<input-password\>**, **<input-text\>**, **<input-submit\>**, **<input-checkbox\>** and **<input-radio\>** were mapped to distinct TA classes; all others were mapped into the general input-text TA class.\)
 -   If you captured HTML5 **<input\>** type controls in a previous version of TestArchitect, your TA class mappings of those controls are no longer recognized by the current version in its default mode. You have two options:
-    1.  **Recommended:** Recapture the controls so that they are mapped into their appropriate TA classes. \(For example, remapping an **<input-color\>** control will change its TA class mapping from the legacy input-text class to the new input-color class.\)
+    1.  Recommended: Recapture the controls so that they are mapped into their appropriate TA classes. \(For example, remapping an **<input-color\>** control will change its TA class mapping from the legacy input-text class to the new input-color class.\)
     2.  Leave your legacy mappings intact and set the ignore html input types built-in setting to yes in all tests that interface with HTML5 **<input\>** type controls.
 
         {{<note>}} [ignore html input types](/automation-guide/action-based-testing-language/built-in-settings/other-settings/ignore-html-input-types) built-in setting: Determines whether, during the test execution, the TA classes of legacy-captured HTML **<input\>** type controls are taken into consideration.
@@ -59,5 +59,4 @@ The following new features and improvements are introduced in TestArchitect vers
         -   **<input-range\>**
         -   **<input-time\>**
         -   **<input-week\>**
-
 

@@ -14,7 +14,7 @@ In Diff Tool, you can use shortcut keys to perform many different tasks quickly 
 
 |Windows|macOS|
 |-------|-----|
-|CONTROL|CONTROL \(**^**\)|
+|CONTROL|CONTROL \(^\)|
 |ALT|OPTION \(![](/images/TA_Help/Images/Mac_option_key.png)\)|
 |DELETE|DELETE RIGHT \(![](/images/TA_Help/Images/Mac_delete_key.png)\)|
 |BACKSPACE|DELETE LEFT \(![](/images/TA_Help/Images/Mac_delete_left_key.png)\)|
@@ -33,6 +33,5 @@ In Diff Tool, you can use shortcut keys to perform many different tasks quickly 
 |Refresh|F5|F5|F5|
 |Select All|Ctrl + A|Ctrl + A|![](/images/TA_Help/Images/Mac_control_key.png) + A|
 |Deselect All|Ctrl + Shift + A|Ctrl + Shift + A|![](/images/TA_Help/Images/Mac_control_key.png) + ![](/images/TA_Help/Images/Mac_shift_key.png) + A|
-
 
 

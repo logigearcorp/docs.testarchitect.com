@@ -38,4 +38,3 @@ The fields, from left to right, are:
     -   **Current action duration**: Elapsed execution time for the currently running test case or test module.
 
 
-

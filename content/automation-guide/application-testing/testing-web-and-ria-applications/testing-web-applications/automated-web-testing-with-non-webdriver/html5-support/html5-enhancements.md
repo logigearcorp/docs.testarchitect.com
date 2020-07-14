@@ -14,7 +14,7 @@ TestArchitect offers significant enhancements for automating an AUT on HTML5. It
 
     |||
     |------|------|
-    |**Action**|**Description**|
+    |Action|Description|
     |[get control property](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/get-control-property)|Retrieves the value of a control's property.|
     |[check control property](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/check-control-property)|Captures the value of a specified property from a control, then compares it against an expected value. Result is Passed if the values match; otherwise Failed.|
     |[check control exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/check-control-exists)|Checks for the existence of a control. Result is Passed if the specified control is found; otherwise Failed.|
@@ -25,12 +25,11 @@ TestArchitect offers significant enhancements for automating an AUT on HTML5. It
 
     |||
     |------|------|
-    |**Action**|**Description**|
+    |Action|Description|
     |[play](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/media-control/play)|Plays a video/audio file at a specified starting point.|
     |[pause](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/media-control/pause)|Pauses a video/audio file at a specified point.|
     |[set volume](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/media-control/set-volume)|Sets volume for audio and video controls.|
     |[set media property](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/media-control/set-media-property)|Sets various values for audio and video controls.|
-
 
 
 

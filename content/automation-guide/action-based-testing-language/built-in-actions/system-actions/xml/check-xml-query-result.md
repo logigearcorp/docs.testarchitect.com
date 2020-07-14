@@ -66,11 +66,11 @@ The following example retrieves the text from the **title** element of the first
 </bookstore>
 ```
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_xml_querry_result_1_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_xml_querry_result_1_res.png)
 
@@ -100,7 +100,7 @@ The following example calculates the sum of all **price** nodes and then compare
 
 ![](/images/TA_Automation/Images/bia_check_xml_querry_result_2_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_xml_querry_result_2_res.png)
 
@@ -132,11 +132,11 @@ As an example, the first iteration of the use data set loop issues an XPath quer
 
 ![](/images/TA_Automation/Images/bia_check_xml_querry_result_3_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_xml_querry_result_3_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_xml_querry_result_3_res.png)
 
@@ -144,11 +144,11 @@ As an example, the first iteration of the use data set loop issues an XPath quer
 
 The following example passes an entire well-formed XML string into the xml argument. Whitespace and line breaks between XML nodes within the document have been removed beforehand, as required.
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_xml_querry_result_4_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_xml_querry_result_4_res.png)
 
@@ -172,9 +172,8 @@ Use the local-name\(\) function for your XPath, in order to retrieve the content
 
 ![](/images/TA_Automation/Images/bia_check_xml_querry_result_5_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_xml_querry_result_5_res.png)
-
 
 

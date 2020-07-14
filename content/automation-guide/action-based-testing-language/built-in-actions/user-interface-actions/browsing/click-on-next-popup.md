@@ -23,7 +23,7 @@ Click a specified button in a prompt, alert, or confirmation popup.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_click_on_next_popup__section.notes} 
 
 -   Prior to using this built-in action, it is recommended that you become familiar with the different kinds of modal JavaScript popups and how to handle them properly.
     -   For Safari
@@ -55,33 +55,33 @@ This action is applicable to the following controls:none.
 
 ## Example - Case 1: A single popup
 
-**Scenario:** You are testing a shopping cart page with a button, **Delete this item**, for removing an item from your cart:
+Scenario: You are testing a shopping cart page with a button, Delete this item, for removing an item from your cart:
 
 1.  Upon clicking the button, a confirmation popup appears with the message Do you want to delete this item?. Two buttons, **OK** and **Cancel**, are displayed.
 2.  In the popup, the **OK** button is clicked.
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_click_on_next_popup_single_popup_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_click_on_next_popup_single_popup_res.png)
 
 ## Example - Case 2: A sequence of multiple popups
 
-**Scenario:** You are testing a shopping cart page with a button, **Delete this item**, for removing an item from your cart:
+Scenario: You are testing a shopping cart page with a button, Delete this item, for removing an item from your cart:
 
 1.  Upon clicking the button, a confirmation popup appears with the message Do you want to delete this item?. Two buttons, **OK** and **Cancel**, are displayed.
 2.  In the popup, the **OK** button is clicked.
 3.  This triggers an alert popup with the message Item deleted, and a single **OK** button.
 4.  The test clicks **OK** in the alert to dismiss it and proceed.
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_click_on_next_popup_multiple_popups_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_click_on_next_popup_multiple_popups_res.png)
 
@@ -102,4 +102,3 @@ This action is applicable to the following controls:none.
 [check popup default text](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/check-popup-default-text)
 
 [clear popup queue](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/clear-popup-queue)
-

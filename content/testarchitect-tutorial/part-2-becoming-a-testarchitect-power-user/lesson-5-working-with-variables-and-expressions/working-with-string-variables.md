@@ -10,7 +10,7 @@ keywords: "built-in actions, local variable, local variable (action), variables,
 
 You can use variables to store text strings, which can be used in place of string literals in your cell expressions.
 
-**Before proceeding:** Ensure that you have completed the steps of the last exercise. You will continue to work with the string ops test case.
+Before proceeding: Ensure that you have completed the steps of the last exercise. You will continue to work with the string ops test case.
 
 1.  Add three local variable action lines to the bottom of your existing test case:
 
@@ -52,7 +52,6 @@ You can use variables to store text strings, which can be used in place of strin
 As seen in the results, once the expression in row 24 is evaluated, and the three local variables are resolved to the values they hold, the results are identical to those produced by the first two action lines:
 
 ![](/images/TA_Tutorials/Images/tut.Vars_and_Exps.Strings.TestFull_Results.png)
-
 
 
 

@@ -23,7 +23,7 @@ Begin a block of action lines which are executed only if a specified condition i
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_if__section_l5l_2z1_ml} 
 
 -   If condition evaluates to True, the succeeding block of action lines up until the first occurrence of an [else](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/else), [else if](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/else-if), or [end if](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/end-if), is executed. If False, that block is skipped.
 -   This action ignores letter case for values of True and False, and is unaffected by the current state of the [case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive) built-in setting.
@@ -54,11 +54,10 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_else_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_else_res.png)
-

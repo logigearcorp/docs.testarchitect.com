@@ -35,11 +35,11 @@ Mimic the gesture of placing the fingers on specified locations, then swiping wi
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## Applicable Systems/Platforms {{< permerlink >}} {#bia_multi_touch_slide__section_zfb_2cl_zcb} 
 
 Use of this action is supported on the following systems/platforms: iOS.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_multi_touch_slide__section_tll_j2y_mk} 
 
 -   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/automation-guide/action-based-testing-language/built-in-actions/system-actions/operating-system/get-screen-resolution#li.ios.get_screen_resolution).\)
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
@@ -57,12 +57,11 @@ Have your test move the cherry, apple and papaya icons in this application 320 p
 
 ![](/images/TA_Automation/Images/bia_multi_touch_slide_aut.r02.png)
 
-**Action Lines**
+Action Lines
 
 The following action lines presume that picture checks have already been created for the various fruit icons.
 
 ![](/images/TA_Automation/Images/bia_multi_touch_slide_pgm.r02.png)
-
 
 
 

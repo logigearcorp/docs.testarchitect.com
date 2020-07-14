@@ -70,7 +70,7 @@ Active keypoints, as mentioned, are ultimately used to define the keypoint profi
 2.  Varying the **Min Accuracy** value, again to optimize accuracy;
 3.  Varying the training image \(that is, opening other .png files\), to test your settings against various other images that will be encountered during actual testing.
 
-**Adding & removing active keypoints**: Keypoints may be toggled between their inactive and active states by clicking on them individually, effectively adding or removing them from the current keypoint profile. You can also drag your mouse over the image to select a rectangular region, then click either **Active All** or **Inactive All** to affect all keypoints in the selected area. Without a region selected, the **Active All** or **Inactive All** buttons pertain to the entire image.
+Adding & removing active keypoints: Keypoints may be toggled between their inactive and active states by clicking on them individually, effectively adding or removing them from the current keypoint profile. You can also drag your mouse over the image to select a rectangular region, then click either **Active All** or **Inactive All** to affect all keypoints in the selected area. Without a region selected, the **Active All** or **Inactive All** buttons pertain to the entire image.
 
 Note that, when in Match mode \(discussed in a bit\), you can activate or deactivate baseline keypoints via the training image, again either individually or within selection rectangles. \(That is, you can turn keypoints on or off in the training image to have their corresponding keypoints in the baseline activated or deactivated.\) The training image in unaffected. Instead, the best-match correspondence lines connecting the two images determine which baseline keypoints are affected.
 
@@ -93,7 +93,7 @@ A keypoint in the baseline image can have one of three colors:
 
 {{<remember>}} If you have any trouble discerning keypoints from their background, try selecting the **Show picture in gray scale mode** check box.
 
-**Matching**: Matching is the process of determining best keypoint matches between the current baseline object and the training image, and displaying those matches. It is intended as an aid in letting you determine which points to include in your keypoint profile \(that is, active keypoints\).
+Matching: Matching is the process of determining best keypoint matches between the current baseline object and the training image, and displaying those matches. It is intended as an aid in letting you determine which points to include in your keypoint profile \(that is, active keypoints\).
 
 With one or more baseline keypoints active, click the **Match** button. TestArchitect responds by calculating all the keypoints in the training image. Then, for each active keypoint in the baseline image, it determines the closest match in the training image, based on the contents of each keypoint descriptor, and renders a gray best-match correspondence line between each associated pair of keypoints.
 
@@ -109,7 +109,7 @@ You should note, however, that Match mode by itself has limited utility. Three f
 
 When in Match mode, the **Match** button changes to **Clear**. Click **Clear** to remove the correspondence lines and exit Match mode.
 
-**Object detection**: With your tentative settings for active keypoints established, click **Find Object**. This activates keypoint-based object detection, using your current keypoint profile, along with the similarity threshold set in the **Min Accuracy \(%\)** box, to find copies, or variants, of the baseline object. The process generally takes a few seconds, during which a progress bar appears at the bottom of the dialog box:
+Object detection: With your tentative settings for active keypoints established, click **Find Object**. This activates keypoint-based object detection, using your current keypoint profile, along with the similarity threshold set in the **Min Accuracy \(%\)** box, to find copies, or variants, of the baseline object. The process generally takes a few seconds, during which a progress bar appears at the bottom of the dialog box:
 
 ![](/images/TA_Automation/Images/keypoint.010.png)
 
@@ -126,5 +126,4 @@ Note that, as seen above, we have successfully detected all four of our fedora p
 Once you have tweaked everything to your satisfaction \(established an active keypoint set, set a similarity threshold in **Min Accuracy \(%\)**, and tested your settings with one or more training images\), click **OK** in the Key Points Modification Tool. You are taken back to the associated baseline tab, where you can see that your settings for **Min Accuracy** and the active keypoint set \(**Key Point** box\) have been recorded:
 
 ![](/images/TA_Automation/Images/keypoint.012.png)
-
 

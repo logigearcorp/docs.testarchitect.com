@@ -8,15 +8,15 @@ aliases:
 keywords: "methods of abt, GetTextCoordinates, GetTextCoordinates (AbtImageProcessor), AbtImageProcessor, GetTextCoordinates, gettextcoordinates, abtimageprocessor gettextcoordinates, coordinates and dimensions of text fragment in bitmap, location and size of text fragment in bitmap"
 ---
 
-## Syntax
+## Syntax {{< permerlink >}} {#abt_GetPictureLocation_image_processor__section.syntax} 
 
 `TARect GetTextCoordinates (string text, TARect rect, int index, string color)`
 
-## Description
+## Description {{< permerlink >}} {#abt_GetPictureLocation_image_processor__section.desc} 
 
 Return the location and dimensions of an instance of a specified [bitmap text fragment](/user-guide/support/glossary-of-terms/bitmap-text-fragment) within the object's bitmap.
 
-## Parameters
+## Parameters {{< permerlink >}} {#abt_GetPictureLocation_image_processor__section.params} 
 
 -   **text**
 
@@ -37,7 +37,7 @@ Return the location and dimensions of an instance of a specified [bitmap text fr
     Color code of the text, in hexadecimal.
 
 
-## Return Value
+## Return Value {{< permerlink >}} {#abt_GetPictureLocation_image_processor__section.return} 
 
 -   A TARect object is returned, representing the bounding rectangle of the found bitmap text fragment of interest, and containing the following:
     -   left: Horizontal coordinate of left border of the bounding rectangle relative to the left side of the calling object.
@@ -46,7 +46,7 @@ Return the location and dimensions of an instance of a specified [bitmap text fr
     -   height: Height of the bounding rectangle.
 -   If the index-specified instance of the bitmap text fragment is not found, return null.
 
-## Notes
+## Notes {{< permerlink >}} {#abt_GetPictureLocation_image_processor__section_vwj_hjw_j4} 
 
 -   As an [AbtImageProcessor](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtimageprocessor/) object represents the entire display; the returned left and top coordinates are relative to the left and top of screen, respectively.
 -   This method is currently supported only by the C\# harness.

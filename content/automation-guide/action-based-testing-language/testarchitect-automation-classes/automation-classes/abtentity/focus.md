@@ -12,11 +12,11 @@ keywords: "methods of abt, Focus, Focus (AbtEntity), AbtEntity, focus, abtentity
 
 `long Focus()`
 
-## Description
+## Description {{< permerlink >}} {#abt_Focus_entity__section.desc} 
 
 Apply input focus to the window.
 
-## Return Value
+## Return Value {{< permerlink >}} {#abt_Focus_entity__section.return} 
 
 Return 0 ifthe input focus request is successful; otherwise, -1.
 

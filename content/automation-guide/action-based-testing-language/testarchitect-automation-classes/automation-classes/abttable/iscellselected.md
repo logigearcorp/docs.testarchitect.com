@@ -12,11 +12,11 @@ keywords: "methods of abt, IsCellSelected, IsCellSelected (AbtTable), AbtTable, 
 
 `Boolean isCellSelected(int rowIndex, int columnIndex)`
 
-## Description
+## Description {{< permerlink >}} {#abt_IsCellSelected__section.desc} 
 
 Determine whether or not a specified cell of the table is selected.
 
-## Parameters
+## Parameters {{< permerlink >}} {#abt_IsCellSelected__section.params} 
 
 -   **rowIndex**
 

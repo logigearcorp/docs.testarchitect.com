@@ -15,15 +15,15 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories and check in all test artifacts.
 -   A TestArchitect client and any repository server to which it connects must be the same version.
 
-## TestArchitect Client
+## TestArchitect Client {{< permerlink >}} {#concept_what_new_8.3_macOS_update_3__section.TAC} 
 
-**Enhancements to existing features**
+Enhancements to existing features
 
 **Copy & Paste and Paste with Variation for Test Modules**: Now when you copy a Test Module and use paste or paste with variation, the picture checks tab is copied too. This means you can run actions related to local picture checks without any extra steps.
 
 ## TestArchitect Automation
 
-**New features**
+New features
 
 -   **Keep the Browser Open**: From now on Test Architect will support keeping the browser open after a test has been executed in Generic Webdriver \(GWD\) mode. There are two methods to do so:
     -   Setting a new JSON key named [cleanup](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/webdriver/configure-webdriver#).
@@ -36,5 +36,4 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Due to changes in the WebDriver coordinate calculation algorithm, there may be a slight deviation of coordinates in relevant built-in actions with Generic Web Driver Mode \(GWD\) on Chrome 75. For precision, please re-calculate your positions and coordinates.
 
 {{<note>}} These changes do not effect non-GWD mode.
-
 

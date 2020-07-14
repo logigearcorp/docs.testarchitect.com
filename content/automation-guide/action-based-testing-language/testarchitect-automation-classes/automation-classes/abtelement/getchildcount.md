@@ -12,7 +12,7 @@ keywords: "methods of abt, GetChildCount, GetChildCount (AbtElement), AbtElement
 
 `int GetChildCount()`
 
-## Description
+## Description {{< permerlink >}} {#abt_GetChildCount_element__section.desc} 
 
 Retrieve the number of child objects belonging to the element object.
 

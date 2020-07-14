@@ -41,4 +41,3 @@ The example below demonstrates three critical wait settings - [window wait](/aut
 
 ![](/images/TA_Automation/Images/timing_stages_of_get_table_cell_value_01.png)
 
-

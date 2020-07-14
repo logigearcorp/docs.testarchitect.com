@@ -17,11 +17,11 @@ Ensure that the following requirements are met:
 
     {{<restriction>}} authentication access with **Personal access tokens** and **Alternate authentication credentials** is supported.
 
-    -   **Using basic authentication.** To do this, you must 'enable alternate authentication credentials'.
+    -   Using basic authentication. To do this, you must 'enable alternate authentication credentials'.
 
         ![](/images/TA_Help/Images/Azure_DevOps_alternate_authentication_credentials.png)
 
-    -   **Using a personal access token that can be used as your password.** \([Learn more](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=vsts)\).
+    -   Using a personal access token that can be used as your password. \([Learn more](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=vsts)\).
 
         ![](/images/TA_Help/Images/Azure_DevOps_personal_access_token.png)
 
@@ -63,7 +63,6 @@ To map a TA project to an Azure DevOps project, perform as follows:
     If authentication succeeds, a confirmation dialog box to that effect is displayed.
 
 6.  Click **OK** to close the confirmation dialog box.
-
 
 
 

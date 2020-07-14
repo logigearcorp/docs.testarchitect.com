@@ -58,11 +58,10 @@ This action is applicable to the following controls:list view.
 
 ![](/images/TA_Automation/Images/bia_get_list_cell_value_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_list_cell_value_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_list_cell_value_res.png)
-

@@ -10,16 +10,15 @@ keywords: "automation errors, 0x8001000EL"
 
 Error code: 0x8001000EL
 
-## Problem
+## Problem {{< permerlink >}} {#reference_0x8001000EL-4__section_prob} 
 
 This happens because the specified argument value for date picker controls does not conform to the date format specified by the [date format](/automation-guide/action-based-testing-language/built-in-settings/date-time-settings/date-format) built-in setting.
 
-## Solution
+## Solution {{< permerlink >}} {#reference_0x8001000EL-4__section_sol} 
 
 Check the current date format of setting [date format](/automation-guide/action-based-testing-language/built-in-settings/date-time-settings/date-format), and use an valid date value that conforms to the format.
 
 For example: Given a date format setting of `yyyy-mm-dd`, the correct value for Christmas 2016 is 2016-12-25.
-
 
 
 

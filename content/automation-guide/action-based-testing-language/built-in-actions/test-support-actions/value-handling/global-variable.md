@@ -42,11 +42,11 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_global_variable_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_global_variable_res.png)
 
@@ -57,4 +57,3 @@ The following settings are applicable to this action:[remove double quotes from 
 
 
 [Variables](/automation-guide/action-based-testing-language/the-test-language/variables/)
-

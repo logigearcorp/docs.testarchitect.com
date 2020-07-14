@@ -17,7 +17,7 @@ The following new features and improvements are introduced in TestArchitect vers
 
 ## TestArchitect Automation
 
--   [**Database support**](/automation-guide/application-testing/testing-with-databases/): With this update, TestArchitect allows you to interface with a variety of standardized database systems. A set of new built-in actions and harness methods allows your tests to [connect to, and run queries](/automation-guide/application-testing/testing-with-databases/) against, Microsoft SQL Server, MySQL, and MS Excel data sources.
+-   [Database support](/automation-guide/application-testing/testing-with-databases/): With this update, TestArchitect allows you to interface with a variety of standardized database systems. A set of new built-in actions and harness methods allows your tests to [connect to, and run queries](/automation-guide/application-testing/testing-with-databases/) against, Microsoft SQL Server, MySQL, and MS Excel data sources.
 
     |Action|Harness method|Description|
     |------|--------------|-----------|
@@ -27,11 +27,10 @@ The following new features and improvements are introduced in TestArchitect vers
     |[execute sql](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/execute-sql)|[ExecSqlCommand](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdatabase/execsqlcommand)|Execute an SQL command against the database currently in use.|
     |[disconnect database](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/disconnect-database)|[Disconnect](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdatabase/disconnect)|Close a database connection.|
 
--   **A new mouse-related built-in action:**
+-   A new mouse-related built-in action:
 
     |Action|Harness method|Description|
     |------|--------------|-----------|
     |[get mouse position](/automation-guide/action-based-testing-language/built-in-actions/system-actions/mouse/get-mouse-position)|[GetMousePosition](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/getmouseposition)|Retrieve the coordinates of the current mouse pointer position.|
-
 
 

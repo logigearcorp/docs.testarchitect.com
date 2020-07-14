@@ -37,7 +37,7 @@ Simulate the pressing of a physical button on a mobile device.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## Applicable Systems/Platforms {{< permerlink >}} {#bia_press_device_buttons__section_otf_mcl_zcb} 
 
 Use of this action is supported on the following systems/platforms: Android.
 
@@ -54,10 +54,9 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ![](/images/TA_Automation/Images/bia_press_device_buttons_aut_2.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_press_device_buttons_pgm_2.png)
-
 
 
 

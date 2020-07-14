@@ -50,24 +50,23 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ## Example - Case 1: On Windows operating system
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_system_performance_information_desktop_OS_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_system_performance_information_desktop_OS_res.png)
 
 ## Example - Case 2: On mobile operating systems
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_system_performance_information_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_system_performance_information_res.png)
-
 
 
 

@@ -30,7 +30,7 @@ Check the state of a specified menu item on a context menu of a tree node agains
 
     Menu item or menu item path \(see Notes\).
 
--   **expected**
+-   expected
 
     Expected value\(s\) of the menu item.
 
@@ -59,7 +59,7 @@ Check the state of a specified menu item on a context menu of a tree node agains
     \(Optional\) Vertical position of effective click on tree node , specified as distance in pixels from top edge of tree node. \(Defaults to vertical center of tree node.\)
 
 
-**expected**
+expected
 
 ## Valid contexts
 
@@ -92,7 +92,7 @@ This action is applicable to the following controls:tree view, tree table, tree 
 
 ![](/images/TA_Automation/Images/bia_check_tree_node_menu_state_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_tree_node_menu_state_res.png)
 
@@ -104,10 +104,9 @@ This action is applicable to the following controls:tree view, tree table, tree 
 
 ![](/images/TA_Automation/Images/bia_check_tree_node_menu_state_index_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_tree_node_menu_state_index_res.png)
-
 
 
 

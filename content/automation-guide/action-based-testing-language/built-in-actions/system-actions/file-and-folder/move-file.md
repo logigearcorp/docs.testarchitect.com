@@ -30,8 +30,8 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   Observe the following format for the file path:
-    -   **Windows platform**: Use backward slashes as separators for the path.
-    -   **Linux platform**: Use forward slashes as separators for the path. \(Note that network paths are not supported.\)
+    -   Windows platform: Use backward slashes as separators for the path.
+    -   Linux platform: Use forward slashes as separators for the path. \(Note that network paths are not supported.\)
 -   Note that this built-in action is not currently supported on macOS or mobile platforms.
 -   An existing file in the destination folder with the same name as the file being copied is automatically overwritten, with no notice or warning.
 -   Full paths both to the source file and the destination folder must be specified.
@@ -43,11 +43,11 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_move_file_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_move_file_res.png)
 
@@ -62,4 +62,3 @@ The following settings are applicable to this action:[remove double quotes from 
 [delete file](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/delete-file)
 
 [rename file](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/rename-file)
-

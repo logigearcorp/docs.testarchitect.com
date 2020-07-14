@@ -70,7 +70,7 @@ check control exists       #home1        [ta class=div, text={Car No .*}]
 
 Complex dynamic web pages may take a few seconds to load, and the web page scripts can also load additional content after the page has been loaded. As a result, the web page load time may vary. Successful testing requires that the automation correctly handle the varying response times of the web page, and not to attempt to continue with interactions before the web page is finished with the previous function. Therefore, TestArchitect waits for a web page to load completely before attempting the next action. That said, there is always a risk of a connection problem, a web application error, or any issue that might cause the web page not to load completely. To allow your test to handle such problems, rather than wait indefinitely, you can specify a maximum wait time with the [page wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/page-wait) built-in setting. \(For further information regarding how to handle timing issues, please refer to [Timing](/automation-guide/action-based-testing-language/the-test-language/timing/).\)
 
-## Handling JavaScript popups on Safari macOS
+## Handling JavaScript popups on Safari macOS {{< permerlink >}} {#concept_uql_lcd_m4__section_f1f_hgd_4s} 
 
 Due to the manner in which the Safari browser engine processes JavaScript code, modal popup windows produced in a web application by JavaScript cannot be tested in a conventional manner. To address this issue, TestArchitect offers a special set of actions for interfacing with JavaScript popups, which include alerts, prompts and confirmation dialogs. These built-in actions allow your tests to properly respond to JavaScript popups, and to capture their displayed content.
 
@@ -97,11 +97,11 @@ The following TestArchitect built-in actions are provided to both scan and handl
 
 You will need to stop the execution and debug the test.
 
-**Handling one or a series of popups:**
+Handling one or a series of popups:
 
 Your test of a web application running under Safari macOS may trigger a single popup or a sequence of popups. It is important to understand how TestArchitect handles such popups, and how the popup-directed actions work, so that you can construct your tests properly.
 
-1.  **Popup-handling actions.** There are two actions that have a direct impact on Safari macOS popups:
+1.  Popup-handling actions. There are two actions that have a direct impact on Safari macOS popups:
 
     -   **click on next popup**
 
@@ -119,7 +119,7 @@ Your test of a web application running under Safari macOS may trigger a single p
 
     {{<important>}} In general, the situation to avoid is the one in which a popup is launched when the popup-handler queue is empty. Such unhandled popups make their presence known by the fact that they are visible: that is, without a TestArchitect popup-handling action to provide the overriding JavaScript-processing code, the browser's own JavaScript API allows the popup to be displayed. \(Something you don't want, if you've been following along so far.\) And your test, at least until you resolve the matter, grinds to a halt.
 
-2.  **Popup-sampling actions.** The remaining popup-directed actions listed above, with the exception of clear popup queue, are used to retrieve and/or verify messages and default text of the alert, confirmation, and prompt popups.
+2.  Popup-sampling actions. The remaining popup-directed actions listed above, with the exception of clear popup queue, are used to retrieve and/or verify messages and default text of the alert, confirmation, and prompt popups.
 
     It has been mentioned that every JavaScript window that pops up needs to have an appropriate popup-handling action waiting for it in the queue, ready to instantly dispatch it to digital oblivion. If that is the case, how can it be possible for an action like get popup message to work, if no popup with a message is allowed to linger around?
 
@@ -141,11 +141,11 @@ Your test of a web application running under Safari macOS may trigger a single p
     get popup message       first_msg   fourth_msg  last_msg     
     ```
 
-3.  **clear popup queue.** This final action essentially closes out your test's popup session, preparing it for a new one. It does this by clearing out both the popup history buffer and the popup-handler queue. \(Note, however, that we would generally expect a well-written test procedure to already have an empty popup-handler queue by the end of the session.\) cases.
+3.  clear popup queue. This final action essentially closes out your test's popup session, preparing it for a new one. It does this by clearing out both the popup history buffer and the popup-handler queue. \(Note, however, that we would generally expect a well-written test procedure to already have an empty popup-handler queue by the end of the session.\) cases.
 
 {{<tip>}} As a matter of best practice, it is suggested that you place all the popup-handling actions for a given popup session at the beginning of the session. At the least, this will help ensure that the invocation of popups never “gets ahead” of the sequence of handlers. Remember, a popup handler action must always be invoked *before* its corresponding popup window; once a popup window is launched, it is too late to invoke its handler.
 
-**Session termination:**
+Session termination:
 
 The built-in clear popup queue action \(discussed above\) is the one explicit means of ending a popup session, but a number of other events also have the same effect. You need to be aware of these, and take them into account when using popup-directed actions, to ensure that the popup history buffer expected by an action still exists. Each of the following events closes out a popup session, clearing out the popup history buffer, as well as the popup-handler queue:
 
@@ -156,7 +156,7 @@ The built-in clear popup queue action \(discussed above\) is the one explicit me
 
 {{<note>}} In the event of an unexpected TestArchitect crash, information in either the history buffer or popup-handler queue may not be cleared out. It is recommended, therefore, that you always initialize your test with a clear popup queue action \(or one of the above events\) prior to starting any popup sessions.
 
-**Example:**
+Example:
 
 Suppose that you are testing a web page on Safari with the following scenario:
 
@@ -296,7 +296,6 @@ refresh                     google
 
 -   Whenever you invoke an emulator, or change an emulator's behaviors on-the-fly, you are required to refresh its current page by means of the [refresh](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/refresh) built-in action before proceeding with further testing. This helps ensure that the invoked emulator and all new behaviors take effect properly.
 -   It should be noted that, upon conclusion of an automated run on the emulator, the Chrome browser automatically switches out of Device Mode and returns to Desktop Mode.
-
 
 
 

@@ -52,11 +52,11 @@ This action is applicable to the following controls:menu.
 
 ![](/images/TA_Automation/Images/bia_check_button_menu_not_exists_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_button_menu_not_exists_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_button_menu_not_exists_res.png)
 
@@ -66,4 +66,3 @@ This action is applicable to the following controls:menu.
 [check button menu exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/check-button-menu-exists)
 
 [does button menu exist](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/does-button-menu-exist)
-

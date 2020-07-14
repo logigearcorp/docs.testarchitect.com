@@ -18,7 +18,7 @@ The Edit Profile panel \(accessed via the [context menu in the TestArchitect exp
 
 The **Show** check box in the Test module attributes panel governs whether a given attribute is included in the records of a generated report.
 
-## Sorting attributes
+## Sorting attributes {{< permerlink >}} {#Report_customizing__section_dr2_htp_14} 
 
 The **Sort** check box in the Test module attributes panel enables the sorting of records in the generated report by their attributes. The selected attribute\(s\) serve as the key\(s\) by which the report is sorted. For example, if you want to sort by test module name, select the **Sort** check box for the **Name** attribute. When a **Sort** check box is selected, additional sort options are displayed, enabling you to fine tune the presentation of the report.
 
@@ -91,7 +91,7 @@ For date related attributes \(for example, **Last update date**, **Creation date
 
 ![](/images/TA_Help/Images/Edit_profile_panel_stats_date.png)
 
-## Subreports
+## Subreports {{< permerlink >}} {#Report_customizing__section_uvw_3jp_cl} 
 
 If a project item has related items, it is possible to include the related items in a report as a subreport. For example, in a report on test modules, you can use a subreport to display the test results for each test module.
 

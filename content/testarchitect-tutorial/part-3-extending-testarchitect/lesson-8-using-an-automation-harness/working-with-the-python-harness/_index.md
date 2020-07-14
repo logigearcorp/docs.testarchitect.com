@@ -17,7 +17,7 @@ This subsection contains two exercises that demonstrate how to create user-scrip
 -   Windows
 -   Linux
 
-## Supported Python version
+## Supported Python version {{< permerlink >}} {#Tutorial_Scripting_actions_in_other_languages_Python__section_drd_ps2_gkb} 
 
 -   Python 2
 -   Python 3
@@ -26,8 +26,8 @@ This subsection contains two exercises that demonstrate how to create user-scrip
 
 TestArchitect installation does *not* include a Python interpreter, which is a requirement for running Python scripts.
 
--   **Linux**: Linux machines come with Python 2.x pre-installed.
--   **Windows**: Windows does not, by default, include a Python interpreter. You may, however, easily obtain a free interpreter from the [Python Releases for Windows](https://www.python.org/downloads/windows/) page of [python.org](https://www.python.org/downloads/windows/).
+-   Linux: Linux machines come with Python 2.x pre-installed.
+-   Windows: Windows does not, by default, include a Python interpreter. You may, however, easily obtain a free interpreter from the [Python Releases for Windows](https://www.python.org/downloads/windows/) page of [python.org](https://www.python.org/downloads/windows/).
 
 In addition, please observe the following when installing an interpreter:
 
@@ -48,7 +48,6 @@ Create a stub action in TestArchitect as a placeholder for thescripted hello act
 Execute the test that calls the user-scripted action you implemented in thePython harness.
 5.  [User-scripted Python harness action that interacts with GUI](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/working-with-the-python-harness/user-scripted-python-harness-action-that-interacts-with-gui/)  
  In this exercise, we create a Python-scripted action that interacts with an AUT's user interface.
-
 
 
 

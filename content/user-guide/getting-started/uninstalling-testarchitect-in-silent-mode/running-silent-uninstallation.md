@@ -41,4 +41,3 @@ Deploying TestArchitect uninstallation file on other computers and running the u
     The uninstallation program removes TestArchitect in the background using the options specified in the response file. The uninstallation program displays no dialog boxes. The uninstallation progress is not shown either.
 
 
-

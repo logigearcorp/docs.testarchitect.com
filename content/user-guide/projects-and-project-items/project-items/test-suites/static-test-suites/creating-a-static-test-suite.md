@@ -35,7 +35,7 @@ Perform one of the following procedures to create a static test suite:
 
         **Fastpath:** Ctrl + N
 
-    1.  In the New Test Suite dialog box, repeat steps 3 and 4 of **Option 1**.
+    1.  In the New Test Suite dialog box, repeat steps 3 and 4 of Option 1.
 
 -   **Option \#3**:
 
@@ -68,12 +68,11 @@ Perform one of the following procedures to create a static test suite:
 
     3.  Right-click over one of the selected test modules, then click **Create Test Suite**.
 
-    4.  In the New Test Suite dialog box, repeat steps 4 and 5 of **Option 3**.
+    4.  In the New Test Suite dialog box, repeat steps 4 and 5 of Option 3.
 
 
 The new static test suite is saved as a node beneath the project's **Test Suites** folder in the TestArchitect explorer tree.
 
 ![](/images/TA_Help/Images/create_test_suite_node.png)
-
 
 

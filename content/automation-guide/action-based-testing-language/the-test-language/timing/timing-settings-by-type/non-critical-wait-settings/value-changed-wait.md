@@ -37,4 +37,3 @@ Note also that, given the fact that the value changed wait timer is restarted by
 
 
 [value changed wait](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/value-changed-wait)
-

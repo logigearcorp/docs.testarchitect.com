@@ -51,4 +51,3 @@ To change date time format of the **Start Time** built-in field from mm/dd/yyyy 
 
 
 
-

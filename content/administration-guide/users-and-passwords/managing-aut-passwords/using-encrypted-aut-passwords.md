@@ -20,11 +20,11 @@ Suppose, for example, that your test needs to verify the login process of a live
 
     {{<tip>}} There are two methods available for retrieving the **Logical Name**:
 
-    -   **Option 1**: Using the Manage Passwords dialog box:
+    -   Option 1: Using the Manage Passwords dialog box:
         1.  In the TestArchitect explorer tree right-click the project node and select **Manage Passwords**.
         2.  In the Manage Passwords dialog box, right-click the **Logical Name** that you want to use, then select **Copy**.
         3.  Paste the copied data into the value argument of the [enter](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/enter) action in the test editor. The double brackets are added automatically.
-    -   **Option 2**: Using the auto-complete drop-down list:
+    -   Option 2: Using the auto-complete drop-down list:
         1.  In the test editor, in the cell beneath the value argument of the [enter](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/enter) action, press Ctrl + Spacebar on your keyboard. TestArchitect auto-complete functionality suggests all possible passwords already defined for that control in the Manage Passwords dialog box.
         2.  Select a password and press Enter. The double brackets are generated automatically.
 3.  Execute the test.
@@ -33,7 +33,6 @@ Suppose, for example, that your test needs to verify the login process of a live
 When your test completes executing, TestArchitect displays the test results page automatically. In the test results, the password's logical name, rather than the unencrypted password itself, is displayed to prevent its inadvertent disclosure.
 
 ![](/images/TA_Administration/Images/Manage_password_result.png)
-
 
 
 

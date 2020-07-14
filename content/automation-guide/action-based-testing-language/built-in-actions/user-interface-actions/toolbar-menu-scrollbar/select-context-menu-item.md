@@ -97,15 +97,15 @@ This action is applicable to the following controls:button, Calendar, check box,
 
 ![](/images/TA_Automation/Images/bia_select_context_menu_item_aut1.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_select_context_menu_item_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_select_context_menu_item_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_select_context_menu_item_aut2.png)
 
@@ -113,15 +113,14 @@ This action is applicable to the following controls:button, Calendar, check box,
 
 ![](/images/TA_Automation/Images/bia_select_context_menu_item_index_aut1.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_select_context_menu_item_index_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_select_context_menu_item_index_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_select_context_menu_item_index_aut2.png)
-

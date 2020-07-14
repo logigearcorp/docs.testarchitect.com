@@ -52,11 +52,11 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ![](/images/TA_Automation/Images/bia_refill_data_set_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_refill_data_set_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_refill_data_set_effect.png)
 
@@ -68,7 +68,6 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ![](/images/TA_Automation/Images/bia_refill_inline_data_set_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_refill_inline_data_set_res.png)
-

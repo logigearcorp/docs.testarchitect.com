@@ -12,7 +12,7 @@ keywords: "built-in actions, export baseline picture, export baseline picture (a
 
 Save the current baseline image to a file.
 
-## Arguments
+## Arguments {{< permerlink >}} {#bia_export_baseline_picture__section_nkl_1zk_vw} 
 
 -   **picture**
 
@@ -36,7 +36,7 @@ Save the current baseline image to a file.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_export_baseline_picture__section.notes} 
 
 -   The baseline image is saved as .png.
 -   picture argument: Identifies the name of a regular or shared picture check \([learn more](/user-guide/projects-and-project-items/project-items/picture-checks/)\), with the forward slash \(/\) as the path separator.
@@ -53,7 +53,7 @@ This action may be used within the following project items:test modules and user
     -   Only the path to the folder is required.
         -   Windows: Use backward slashes as separators for the folder path.
         -   Linux: Use forward slashes as separators for the folder path. \(Note that network paths are not supported.\)
--   This built-in action can be applied to pre-process baseline and runtime images, before actually integrating them with a given third-party image processing tool for further processing. \(See **Example** below.\)
+-   This built-in action can be applied to pre-process baseline and runtime images, before actually integrating them with a given third-party image processing tool for further processing. \(See Example below.\)
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings
@@ -68,15 +68,15 @@ Use of this action is supported on the following system\(s\)/platform\(s\): Wind
 
 ![](/images/TA_Automation/Images/bia_export_baseline_picture_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_export_baseline_picture_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_export_baseline_picture_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_export_baseline_picture_effect.png)
 
@@ -97,7 +97,7 @@ A basic workflow is as follows:
 5.  Use [ImageMagick CLI](http://www.imagemagick.org/script/command-line-processing.php) to preprocess and compare the baseline image\(s\) against the runtime image.
 6.  Get the returned value from ImageMagick, and then check it against an expected value.
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_baseline_image_count_2_pgm.png)
 
@@ -108,4 +108,3 @@ A basic workflow is as follows:
 
 
 [Exporting baseline images](/user-guide/projects-and-project-items/project-items/picture-checks/exporting-baseline-images)
-

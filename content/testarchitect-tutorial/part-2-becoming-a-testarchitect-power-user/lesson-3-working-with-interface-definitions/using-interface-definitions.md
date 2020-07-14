@@ -10,7 +10,7 @@ keywords: "definitions, using interfaces, test cases, creating, interfaces, usin
 
 Write and execute a test that makes use of the interface definitions you have created.
 
-**Before proceeding:** Ensure that you have created the interface entity my login as described in the preceding lesson.
+Before proceeding: Ensure that you have created the interface entity my login as described in the preceding lesson.
 
 In this exercise you will write a simple test case that uses your interface definitions for the Login window to enter text into the **User name** and **Password** fields. To do this you will create the following:
 
@@ -71,4 +71,3 @@ In this exercise you will write a simple test case that uses your interface defi
 [Interface definitions](/user-guide/interface-definitions/)
 
 [Capturing interface definitions](/user-guide/interface-definitions/the-interface-viewer/capturing-interface-definitions)
-

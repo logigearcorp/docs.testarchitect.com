@@ -12,8 +12,7 @@ Type of [UI-interactive action](/user-guide/support/glossary-of-terms/ui-interac
 
 |||
 |------|------|
-|**effect**|**action type**|
+|effect|action type|
 |checkpoint pass/fail|check...|
 |true\(1\)/false\(0\) assigned to a variable|does...exist, is...|
 |control flow determined|if...exists|
-

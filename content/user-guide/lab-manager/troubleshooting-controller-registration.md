@@ -10,7 +10,7 @@ keywords: "Lab Manager, troubleshooting controller registration, troubleshooting
 
 This topic lists typical issues you may experience when registering controllers to a Lab Manager session, and offers possible solutions.
 
-**TestArchitect cannot add the controller you want to register**
+TestArchitect cannot add the controller you want to register
 
 A controller may only be registered to a single Lab Manager session at a time. If TestArchitect cannot add the controller you want to register, there are two most likely reasons:
 
@@ -28,8 +28,7 @@ A controller may only be registered to a single Lab Manager session at a time. I
 
     ![](/images/TA_Help/Images/Lab_Manager_troubleshoot_registered_controller_2.png)
 
-    To resolve this, on the machine in which the controller resides, start it from **Start menu** \> **All Programs** \> **TestArchitect** \> **TestArchitect Controller**, or double-click the **TestArchitect Controller** icon on the machine's desktop.
-
+    To resolve this, on the machine in which the controller resides, start it from Start menu \> **All Programs** \> **TestArchitect** \> **TestArchitect Controller**, or double-click the **TestArchitect Controller** icon on the machine's desktop.
 
 
 

@@ -72,11 +72,11 @@ This action is applicable to the following controls:toolbar
 
 ![](/images/TA_Automation/Images/bia_does_toolbar_menu_item_exist_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_does_toolbar_menu_item_exist_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_does_toolbar_menu_item_exist_res.png)
 
@@ -86,4 +86,3 @@ This action is applicable to the following controls:toolbar
 [check toolbar menu item exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/check-toolbar-menu-item-exists)
 
 [check toolbar menu item not exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/check-toolbar-menu-item-not-exists)
-

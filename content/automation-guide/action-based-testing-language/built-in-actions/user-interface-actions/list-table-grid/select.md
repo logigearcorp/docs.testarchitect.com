@@ -51,11 +51,11 @@ This action is applicable to the following controls:combo box, list box.
 
 ![](/images/TA_Automation/Images/bia_select_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_select_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_select_res.png)
 
@@ -63,11 +63,11 @@ This action is applicable to the following controls:combo box, list box.
 
 ![](/images/TA_Automation/Images/bia_select_index_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_select_index_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_select_index_res.png)
 
@@ -75,11 +75,11 @@ This action is applicable to the following controls:combo box, list box.
 
 ![](/images/TA_Automation/Images/bia_select_multiple_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_select_multiple_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_select_multiple_res.png)
 
@@ -87,11 +87,10 @@ This action is applicable to the following controls:combo box, list box.
 
 ![](/images/TA_Automation/Images/bia_select_multiple_index_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_select_multiple_index_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_select_multiple_index_res.png)
-

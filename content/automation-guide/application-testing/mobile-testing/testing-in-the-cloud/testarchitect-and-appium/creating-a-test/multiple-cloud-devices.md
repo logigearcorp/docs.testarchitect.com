@@ -127,4 +127,3 @@ The automated tests are run on target cloud devices. On test results, you will a
 ![](/images/TA_Automation/Images/result_desired_cap_name.png)
 
 
-

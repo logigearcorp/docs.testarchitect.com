@@ -47,4 +47,3 @@ The selected item is opened as a new and active tab.
 [Connecting to a repository](/user-guide/getting-started/working-with-repositories/connecting-to-a-repository)
 
 [Logging in to a repository](/user-guide/getting-started/working-with-repositories/logging-in-to-a-repository)
-

@@ -28,4 +28,3 @@ In order for the Car Rental application to run as an AUT on an iOS device, the a
 Configuring an iOS device for test automation.
 
 
-

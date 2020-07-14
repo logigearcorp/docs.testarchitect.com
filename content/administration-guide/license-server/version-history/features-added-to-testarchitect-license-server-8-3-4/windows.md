@@ -10,10 +10,9 @@ keywords: "Release Notes 8.3.4, License Server, Windows, What is new, Windows, L
 
 The following new features and improvements are introduced in TestArchitect License Server version 8.3.4 running under Windows.
 
-## License Server
+## License Server {{< permerlink >}} {#concept_what_new_8.3_Windows__section_LS} 
 
-**Enhancements to existing features**
+Enhancements to existing features
 
--   **Robust recovery ability**: The TestArchitect License Server has now significantly improved, so that previous issues, occurring from a sudden server power outage or when the TestArchitect License Sever processes are ended suddenly, become no longer available.
-
+-   Robust recovery ability: The TestArchitect License Server has now significantly improved, so that previous issues, occurring from a sudden server power outage or when the TestArchitect License Sever processes are ended suddenly, become no longer available.
 

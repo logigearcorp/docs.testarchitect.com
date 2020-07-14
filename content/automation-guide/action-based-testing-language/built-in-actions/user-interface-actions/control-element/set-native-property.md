@@ -35,7 +35,7 @@ Set a new value for a specified native property of a control.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## Applicable Systems/Platforms {{< permerlink >}} {#bia_set_native_property__section_zrb_vmd_zbb} 
 
 This built-in action is supported on the following systems/platforms:
 
@@ -85,15 +85,15 @@ This action is applicable to the following controls:button, check box, checklist
 
 ![](/images/TA_Automation/Images/bia_set_native_property_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_set_native_property_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_set_native_property_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_set_native_property_effect.png)
 
@@ -105,4 +105,3 @@ This action is applicable to the following controls:button, check box, checklist
 [check native property](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/check-native-property)
 
 [get native property](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/get-native-property)
-

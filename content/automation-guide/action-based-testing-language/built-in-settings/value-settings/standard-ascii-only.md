@@ -27,14 +27,13 @@ no
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bis_standard_ASCII_only_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bis_standard_ASCII_only_res.png)
-
 
 
 

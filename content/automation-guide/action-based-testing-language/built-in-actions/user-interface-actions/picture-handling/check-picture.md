@@ -102,7 +102,7 @@ This action may be used within the following project items:test modules and user
     |overlaps the active UI element|the rect area|
     |no overlap with active UI element|the rect area|
 
--   **Android:** This built-in action, when applied to a connected Android device, requires that the [TestArchitect Agent service](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/setting-up-the-test-environment/setting-up-android-automation/about-testarchitect-agent-in-android/) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
+-   Android: This built-in action, when applied to a connected Android device, requires that the [TestArchitect Agent service](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/setting-up-the-test-environment/setting-up-android-automation/about-testarchitect-agent-in-android/) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
     1.  Connect the Android device to the test controller through a USB cable \(not Wi-Fi\), if not already so connected.
     2.  Open the [Android Instrumentation Tool](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/android-instrumentation-tool/) dialog box.
     3.  Click the **Refresh devices list** ![](/images/Android/Images/Refresh_device_list_btn.png) button.
@@ -120,13 +120,13 @@ In this example we create a test to verify that the correct car picture is displ
 
 Our last step in the action lines is to verify that the correct picture is displayed:
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_picture_pgm.01.png)
 
 {{<note>}} We've omitted the positional arguments of left, top, width and height from the check picture action line, meaning that the active area of the picture check corresponds to the entire **car image** control.
 
-## Verifying the picture
+## Verifying the picture {{< permerlink >}} {#bia_check_picture__section_z53_zwj_vq} 
 
 Note that the check picture action line in the test assumes that we already have a picture check with a name of chevrolet in existence. In this case, we don't – at least not yet. But [as mentioned](#li.note.picture_check_dlgs.two_types), when a check picture execution runs up against a nonexistent picture check, the result is a suppressed warning and creation of an unverified picture check. And since the built-in setting verify picture has been set to yes, the unverified picture check prompts a Picture Check – New Picture dialog box to appear upon completion of the test:
 
@@ -154,7 +154,7 @@ Finally, clicking **Submit** completes the picture verification.
 
 -   Whichever option \(that is, Pass or Fail\) is selected in this dialog box is stored only in temporary memory, and is not saved to the repository, until you click the **Submit** button.
 -   The **Close** button discards the changes \(if any\) and then closes the dialog box.
--   **Multiple baselines**:
+-   Multiple baselines:
 
     A picture check is not limited to a single baseline image. Instead, one picture check can store multiple baselines. This is important for those cases in which more than a single bitmap presented by the AUT may be considered acceptable for a given picture check. \(Note that one common reason for a picture check having multiple baselines is that a given picture file may be rendered in slightly different ways on different hardware.\) When multiple baselines exist for a given picture check, TestArchitect's criterion for a passed check is that any one of the stored baselines match the test picture.
 
@@ -171,7 +171,7 @@ If, on the other hand, the newly captured test image does not match the baseline
 
 In this dialog box, we can again observe the test picture. We also have the option of either comparing it with the test question, or against the existing baseline picture \(or pictures\), which can be observed by clicking the **Baseline** subtab. Our options are now:
 
--   **Fail**: Report this check as having Failed. \(That is, the image under test is not one that the AUT was expected to display, nor should have displayed, at the time of execution of this check picture action.\)
+-   Fail: Report this check as having Failed. \(That is, the image under test is not one that the AUT was expected to display, nor should have displayed, at the time of execution of this check picture action.\)
 -   **Pass, this is the new baseline**: Report this check as Passed, remove all existing baseline images, and save the test image as the baseline.
 
     {{<warning>}} If the current picture check has multiple baseline pictures, this option removes all of them.
@@ -207,7 +207,7 @@ The obvious question here is *"What happens when a new image – a baseline cand
 
 -   As with semi-automated runs, this is achieved by accessing the Picture Check dialog box after the test run has completed.
 -   As with automated runs:
-    -   For each results report for a test containing picture checks, TestArchitect maintains records, including images captured from the AUT of every unverified picture check that was conducted during the test run. The icon for the test result that has unverified picture checks has a **U** overlaid on it. Once you resolve the unverified picture checks. the test result loses its designation.
+    -   For each results report for a test containing picture checks, TestArchitect maintains records, including images captured from the AUT of every unverified picture check that was conducted during the test run. The icon for the test result that has unverified picture checks has a U overlaid on it. Once you resolve the unverified picture checks. the test result loses its designation.
 
         ![](/images/TA_Help/Images/test_result_unverified_node.png)
 
@@ -227,4 +227,3 @@ The obvious question here is *"What happens when a new image – a baseline cand
 [does picture exist](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/does-picture-exist)
 
 [Image comparison techniques](/automation-guide/action-based-testing-language/the-test-language/image-comparison-techniques)
-

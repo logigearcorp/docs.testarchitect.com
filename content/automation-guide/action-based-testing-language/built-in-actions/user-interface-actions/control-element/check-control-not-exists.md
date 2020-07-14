@@ -45,11 +45,11 @@ This action is applicable to the following controls:button, Calendar, check box,
 
 ![](/images/TA_Automation/Images/bia_check_control_not_exists_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_control_not_exists_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_control_not_exists_res.png)
 
@@ -62,4 +62,3 @@ This action is applicable to the following controls:button, Calendar, check box,
 [check control exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/check-control-exists)
 
 [does control exist](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/does-control-exist)
-

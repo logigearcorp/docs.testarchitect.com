@@ -40,14 +40,13 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_wait_for_window_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_wait_for_window_res.png)
-
 
 
 

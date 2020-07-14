@@ -108,4 +108,3 @@ A test result is displayed in TestArchitect Client with two or three subtabs:
 -   **Result Details**: A log of action line-by-action line execution results.
 -   **Information** \(repository-based results only\): More detailed information fields on the test run.
 
-

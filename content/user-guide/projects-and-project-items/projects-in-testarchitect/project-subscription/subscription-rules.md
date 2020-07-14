@@ -32,11 +32,11 @@ Because a project may act as a supplier for any number of other projects, a give
 
 ## Search rules by definition type
 
-**Actions**
+Actions
 
 To search for an action, TestArchitect applies a depth-first search \(DFS\) algorithm, starting from the [host project](/user-guide/support/glossary-of-terms/host-project). Once the target action is found, if that action calls another action, the DFS algorithm is again applied, this time starting the search at the supplying project, and using the supplying project's suppliers list.
 
-**Interface entities and elements**
+Interface entities and elements
 
 The method by which TestArchitect searches for an interface definition is similar to that used for actions, but with the following rules applied:
 
@@ -47,11 +47,11 @@ The method by which TestArchitect searches for an interface definition is simila
 
 The method by which TestArchitect searches for the interface entities & elements is similar to the method used to search for actions.
 
-**Picture checks**
+Picture checks
 
 The method by which TestArchitect searches for the picture checks is similar to the method used to search for actions.
 
-**Data sets**
+Data sets
 
 TestArchitect applies the depth-first search algorithm when searching for a data set definition, in a manner similar to that discussed for actions. Note that, if a required data set definition is defined in the [host project](/user-guide/support/glossary-of-terms/host-project), TestArchitect uses that definition regardless of where the [use data set](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/use-data-set) action is invoked from. That is, while it is possible that the invoked use data set action originates in a user-defined action provided by a supplier project, that fact has no bearing on which project the data set comes from. To put it more generally, the DFS search for a data set starts with the host project and proceeds from there based on that project's suppliers list, independent of the suppliers of any other project items.
 
@@ -69,7 +69,7 @@ The results below, for execution of TEST1's tm1 test module, do indeed indicate 
 
 ![](/images/TA_Help/Images/Test_results_rules_dataset_run_results.png)
 
-**Variations**
+Variations
 
 TestArchitect also applies a similar depth-first search algorithm when searching for a given variation of any project item, but with qualifications. If a test is run with a variation specification, and a given project item is invoked, and no qualified variation of that item exists in the [host project](/user-guide/support/glossary-of-terms/host-project), the default variation of that host project's item is used. This happens regardless of whether or not a more qualified variation exists in any supplier projects. Only if the given item itself \(that is, the default variation of it\) does not exist in the host project, does the search algorithm expand to the suppliers. And then it applies the same rule to each supplier it encounters as it did the host project.
 
@@ -78,6 +78,5 @@ The figure below depicts the situation in which a specified keyword variation is
 ![](/images/TA_Help/Images/Test_results_rules_variations.png)
 
 If test module tm1 is executed with keyword variation `win`, and tm1 calls action act1, TestArchitect uses the default definition \(act1 in project 1\) because, as shown, there is no variation of act1 defined in Project 1 for keyword `win`. However, if there were also no act1 \(default\) in project 1, TestArchitect would then use `act1 {win}`, as defined in the project Project 2.
-
 
 

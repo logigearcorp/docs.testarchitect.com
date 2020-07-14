@@ -12,11 +12,11 @@ keywords: "methods of abt, Expand, Expand (AbtTree), AbtTree, expand, abttree ex
 
 `long Expand(string nodepath)`
 
-## Description
+## Description {{< permerlink >}} {#abt_Expand__section.desc} 
 
 Display the hidden subnodes of the specified node in a TreeView control.
 
-## Parameters
+## Parameters {{< permerlink >}} {#abt_Expand__section.params} 
 
 -   **nodepath**
 
@@ -27,7 +27,7 @@ Display the hidden subnodes of the specified node in a TreeView control.
     -   A string containing all node texts separated by forward slashes \( / \).
     -   A string containing all node indexes separated by forward slashes \( / \).
 
-## Return Value
+## Return Value {{< permerlink >}} {#abt_Expand__section.return} 
 
 Return 0 if the call is successful; otherwise, -1.
 

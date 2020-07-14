@@ -12,7 +12,7 @@ How to export a detailed test results report to an XML file.
 
 Choose one of the following two methods to export test results to XML:
 
--   **Option 1**: Manually exporting test results to XML.
+-   Option 1: Manually exporting test results to XML.
 
     1.  Select the test results that you want to export to an XML file.
 
@@ -28,7 +28,7 @@ Choose one of the following two methods to export test results to XML:
 
         The test results are exported to an XML file at the designated location.
 
--   **Option 2**: Exporting to XML automatically after test completion.
+-   Option 2: Exporting to XML automatically after test completion.
 
     1.  Select the test module\(s\) that you want to execute.
 
@@ -56,4 +56,3 @@ Choose one of the following two methods to export test results to XML:
 [Working with test results](/user-guide/working-with-test-results/)
 
 [Exporting test results](/user-guide/working-with-test-results/exporting-test-results/)
-

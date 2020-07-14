@@ -26,15 +26,15 @@ Hence, in the case of each of these actions, if the respective condition is sati
 
 The following tables provide the general rules that explain when the automation pauses to allow a given condition or precondition to be satisfied, and when it proceeds without further waiting:
 
-**For all actions that have preconditions:**
+For all actions that have preconditions:
 
 ![](/images/TA_Automation/Images/timing_tbl_sampling_logic-preconditions.png)
 
-**For the check…exists and does…exist actions:**
+For the check…exists and does…exist actions:
 
 ![](/images/TA_Automation/Images/timing_tbl_sampling_logic-check_exist-does_exist.png)
 
-**For if…exists actions:** For these, the sampling logic is slightly different. Rather than base the logic on the condition specified as the *if* condition, the automation simply asks whether or not the referenced element exists. \(That is, it doesn’t care whether the action is an if…exists or if…not exists action.\) Hence the logic looks like this:
+For if…exists actions: For these, the sampling logic is slightly different. Rather than base the logic on the condition specified as the *if* condition, the automation simply asks whether or not the referenced element exists. \(That is, it doesn’t care whether the action is an if…exists or if…not exists action.\) Hence the logic looks like this:
 
 ![](/images/TA_Automation/Images/timing_tbl_sampling_logic-if_exists.png)
 
@@ -43,7 +43,6 @@ So, the general case for the result of an if…exists is simply that, if the spe
 Finally, the following table lists each timing setting along with indications of whether it is used for conditions or preconditions, whether its timeout is ever associated with a failed test, and when its timer is triggered.
 
 ![](/images/TA_Automation/Images/timing_tbl_timing_setting_attributes.png)
-
 
 
 

@@ -44,7 +44,7 @@ The following settings are applicable to this action:none.
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_interface_element_pgm.png)
 
@@ -55,4 +55,3 @@ The following settings are applicable to this action:none.
 [interface element setting](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/deprecated/interface-element-setting)
 
 [interface entity setting](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/interface-handling/interface-entity-setting)
-

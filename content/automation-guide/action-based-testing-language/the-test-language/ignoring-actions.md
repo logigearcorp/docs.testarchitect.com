@@ -36,12 +36,11 @@ The ignore modifier is not supported in the following built-in actions:
 -   All [documentary and delimiting](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/documentary/) built-in actions, such as [test case](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/documentary/test-case) and [final](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/documentary/final).
 -   The [setting](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/value-handling/setting) action.
 
-**Example**
+Example
 
 ![](/images/TA_Automation/Images/ignore_modifier_pgm.png)
 
 In the example, an action, enter customer information, is defined to fill out customer information \(e.g. title, first name, middle name, etc.\) in the registration window. It does so with a separate enter action for each value. The default value of each of the arguments is `<ignore>`, which means that, if no value is supplied by the caller for any given argument, the corresponding enter action is skipped during test execution. So if, in the test module editor, we want to call enter customer information but only have it fill in the title, first name and surname information, we need only supply values for those three arguments. We have the option of leaving the others blank, or entering the “<ignore\>” string in them.
-
 
 
 

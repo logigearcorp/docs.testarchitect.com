@@ -32,10 +32,9 @@ The following settings are applicable to this action:[use browser](/automation-g
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_delete_cookies_pgm.png)
-
 
 
 

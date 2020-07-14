@@ -23,7 +23,7 @@ Return the physical screen size of the mobile device under test.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## Applicable Systems/Platforms {{< permerlink >}} {#bia_get_device_screen_size__section_ofz_xbl_zcb} 
 
 Use of this action is supported on the following systems/platforms: Mobile operating systems.
 
@@ -41,14 +41,13 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ![](/images/TA_Automation/Images/bia_get_device_screen_size_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_device_screen_size_pgm.png)
 
-**Result** x\`
+Result x\`
 
 ![](/images/TA_Automation/Images/bia_get_device_screen_size_res.png)
-
 
 
 

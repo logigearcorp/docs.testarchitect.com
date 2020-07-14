@@ -43,7 +43,7 @@ During test execution, TestArchitect captures screenshots in accordance with its
 {{<note>}}
 
 -   If you choose to generate a batch file \(see [Executing tests from the command line interface](/user-guide/test-execution/methods-of-test-execution/executing-tests-from-the-command-line-interface/)\) for test automation, two parameters provide the specifications for screen recording: -capturecond specifies the screenshot-logging events, while -capturelimit indicates the number of screenshot sets to be logged per event:
--   **Android:** This feature, when applied to a connected Android device, requires that the [TestArchitect Agent service](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/setting-up-the-test-environment/setting-up-android-automation/about-testarchitect-agent-in-android/) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
+-   Android: This feature, when applied to a connected Android device, requires that the [TestArchitect Agent service](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/setting-up-the-test-environment/setting-up-android-automation/about-testarchitect-agent-in-android/) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
     1.  Connect the Android device to the test controller through a USB cable \(not Wi-Fi\), if not already so connected.
     2.  Open the [Android Instrumentation Tool](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/android-instrumentation-tool/) dialog box.
     3.  Click the **Refresh devices list** ![](/images/Android/Images/Refresh_device_list_btn.png) button.
@@ -55,4 +55,3 @@ During test execution, TestArchitect captures screenshots in accordance with its
 [Exporting local test results to an HTML file](/user-guide/working-with-test-results/exporting-test-results/exporting-local-test-results-to-an-html-file)
 
 [Result Details tab](/user-guide/working-with-test-results/overview/result-details-tab)
-

@@ -17,7 +17,7 @@ The following new features and improvements are introduced in TestArchitect vers
 
 ## TestArchitect Client
 
-**Enhancements to existing features**
+Enhancements to existing features
 
 -   [Deleting](/user-guide/projects-and-project-items/projects-in-testarchitect/delete-a-project) TestArchitect projects containing project items is now supported.
 -   [TAUtilities](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-11-creating-excel-reports-using-tautilities/tautilities-overview), a library which allows you to connect and retrieve data from a TestArchitect repository server, is significantly updated:
@@ -51,12 +51,12 @@ The following new features and improvements are introduced in TestArchitect vers
         -   TestCase interface:
             -   getURL\(\): Gets the value of the **URL** field in the current test case.
 
-## TestArchitect Automation
+## TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.1_U4_Wins__section_p2c_51b_cs} 
 
 -   [hold key](/automation-guide/action-based-testing-language/built-in-actions/system-actions/keyboard/hold-key) built-in action: Hold specified keyboard key\(s\) down.
 -   [release key](/automation-guide/action-based-testing-language/built-in-actions/system-actions/keyboard/release-key) built-in action: Release the specified key\(s\) that were previously held down using the [hold key](/automation-guide/action-based-testing-language/built-in-actions/system-actions/keyboard/hold-key) built-in action.
 
-**Enhancements to existing features**
+Enhancements to existing features
 
 -   Support for [picture handling](/automation-guide/application-testing/mobile-testing/testing-mobile-web-applications/testing-the-built-in-browser-on-android-emulators/automation-testing#section.Android_emu_bia) built-in actions on Android emulators.
 
@@ -68,5 +68,4 @@ The following new features and improvements are introduced in TestArchitect vers
 
 -   global pos property on web automation has been deprecated. We highly recommend that you use [XPath](/user-guide/interface-definitions/control-properties/secondary-properties/xpath-property) instead.
 -   [TAUtilities](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-11-creating-excel-reports-using-tautilities/tautilities-overview): getVersion\(\) method has been deprecated, due to the fact that the **Version** field of a project item is no longer available.
-
 

@@ -124,4 +124,3 @@ To start automated mobile web testing on a cloud device in a given WebDriver bas
 
 
 
-

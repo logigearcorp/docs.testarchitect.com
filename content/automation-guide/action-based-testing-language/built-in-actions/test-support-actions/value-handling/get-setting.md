@@ -101,4 +101,3 @@ In the example below, the use browser setting is read into variable browser in u
 
 
 [Startup settings](/user-guide/test-execution/startup-settings/)
-

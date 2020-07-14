@@ -22,7 +22,7 @@ Follow these steps to set up the Diff Tool to work with a third-party product.
     -   %tname: Reference to the Target item of the current comparison.
     Here are two examples of how to set up Preferences to allow the Diff Tool to invoke two popular file comparison and merging tools:
 
-    -   [**WinMerge**](http://manual.winmerge.org/Command_line.html): In the entry field, we enter the command line `C:\Program Files (x86)\WinMerge\WinMergeU.exe -dl %sname -dr %tname`
+    -   [WinMerge](http://manual.winmerge.org/Command_line.html): In the entry field, we enter the command line `C:\Program Files (x86)\WinMerge\WinMergeU.exe -dl %sname -dr %tname`
 
         ![](/images/TA_Help/Images/diff_tool_external_tools_WinMerge.png)
 
@@ -51,7 +51,6 @@ Follow these steps to set up the Diff Tool to work with a third-party product.
 5.  From the invoked external tool, make any changes, if necessary.
 
     Upon closing the external tool, if a change has been made to either item \(Source or Target\), it is displayed in the TestArchitect editor. The changes are unsaved, allowing you to save them, or close the file without saving.
-
 
 
 

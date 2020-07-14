@@ -53,4 +53,3 @@ To execute the Scrum Board sample:
 At the end of the test run, TestArchitect displays a summary and detailed results of the run. See [Working with test results](/user-guide/working-with-test-results/) for details regarding interpreting test results.
 
 
-

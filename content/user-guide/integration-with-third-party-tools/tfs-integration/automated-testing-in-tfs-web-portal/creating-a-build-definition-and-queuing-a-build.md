@@ -21,11 +21,11 @@ This topic gives you a basic guide on creating a build definition and queuing it
 
     ![](/images/TA_Help/Images/TFS2018_build_def_select_source.png)
 
-4.  On the **Choose a template** page, select the **Empty** template.
+4.  On the Choose a template page, select the **Empty** template.
 
     ![](/images/TA_Help/Images/TFS2018_build_def_empty_template.png)
 
-5.  On the **Tasks** tab, add the **Visual Studio Build** and **Publish Build Artifacts** tasks to the phase.
+5.  On the Tasks tab, add the **Visual Studio Build** and **Publish Build Artifacts** tasks to the phase.
 
     ![](/images/TA_Help/Images/TFS2018_build_def_add_tasks.png)
 
@@ -36,7 +36,6 @@ This topic gives you a basic guide on creating a build definition and queuing it
 7.  Save to finish creating a build defintion.
 
 8.  Queue the build
-
 
 
 

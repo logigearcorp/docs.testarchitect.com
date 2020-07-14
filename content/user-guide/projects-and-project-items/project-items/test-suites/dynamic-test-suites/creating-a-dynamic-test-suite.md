@@ -12,7 +12,7 @@ You can create a dynamic test suite based on the following data profile types: t
 
 Perform one of the following procedures to create a dynamic test suite:
 
--   **Option 1**:
+-   Option 1:
 
     1.  In the TestArchitect explorer tree, select the **Test Suites** node ![](/images/TA_Help/Images/test_suite_item_add_icon.png)
 
@@ -31,7 +31,7 @@ Perform one of the following procedures to create a dynamic test suite:
 
     4.  Click **Create**.
 
--   **Option 2**:
+-   Option 2:
 
     1.  In the TestArchitect explorer tree, right-click the project node, and then select **Reporting** \> **Create reports**.
 
@@ -58,6 +58,5 @@ Perform one of the following procedures to create a dynamic test suite:
 The new dynamic test suite is saved as a node beneath the project's **Test Suites** node on the TestArchitect explorer tree.
 
 ![](/images/TA_Help/Images/create_dynamic_test_suite_node.png)
-
 
 

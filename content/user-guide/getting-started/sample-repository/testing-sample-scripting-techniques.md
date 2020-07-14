@@ -35,4 +35,3 @@ At the end of the test run, TestArchitect displays a summary and detailed result
 
 
 
-

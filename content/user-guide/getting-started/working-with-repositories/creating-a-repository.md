@@ -30,4 +30,3 @@ The new repository is added to the **Repository** list. The repository is select
 {{<note>}} New repositories are automatically assigned a single user account named administrator. By default, no password is assigned to this account. If this is a production repository, or one with sensitive contents, the password should be changed.
 
 
-

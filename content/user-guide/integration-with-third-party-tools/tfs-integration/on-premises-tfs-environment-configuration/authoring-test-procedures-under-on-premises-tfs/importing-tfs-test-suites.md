@@ -42,21 +42,21 @@ To import a TFS test suite into TestArchitect:
 
         {{<note>}} The **Scan Project for Existing Test Cases/Modules** function applies to Test Steps Only.
 
-4.  Click the **OK** button.
+4.  Click the OK button.
 
-5.  Only if you have chose the Test Steps Only option in the previous step, the Confirm Overwriting dialog box appears, showing the list of test cases/ test modules that already exists in TestArchitect. Select the check boxes for the TestArchitect test cases/ test modules that you want to overwrite with the TFS test cases. Click the **OK** button.
+5.  Only if you have chose the Test Steps Only option in the previous step, the Confirm Overwriting dialog box appears, showing the list of test cases/ test modules that already exists in TestArchitect. Select the check boxes for the TestArchitect test cases/ test modules that you want to overwrite with the TFS test cases. Click the OK button.
 
     ![](/images/TA_Help/Images/TFS_import_overwrite_dlg.png)
 
-    {{<note>}} The **Copy to Clipboard** button is used to copy the list of existing test cases to the clipboard.
+    {{<note>}} The Copy to Clipboard button is used to copy the list of existing test cases to the clipboard.
 
-6.  An information dialog box will appear stating “The Importing process completed successfully” if the upload was successful. Click the **OK** button.
+6.  An information dialog box will appear stating “The Importing process completed successfully” if the upload was successful. Click the OK button.
 
 
 -   If an imported TFS test suite contains test case\(s\), it will take the form of a test module in TestArchitect.
 -   If an imported TFS test suite contains child test suite\(s\), it will take the form of a test folder in TestArchitect.
 
-**Special Cases**:
+Special Cases:
 
 -   Some of the test cases that are being imported have the same ID. The Import as Test Case\(s\) option is selected.
     -   The test cases with the first occurrence of the duplicate ID will be imported normally.
@@ -67,7 +67,6 @@ To import a TFS test suite into TestArchitect:
 
 -   There is an imported test case that already exists in a TestArchitect test module. Test Steps Only and Keep Folder Structure are selected. You choose "overwrite".
     -   The step content of the TestArchitect will be overwritten with that of the TFS test case, no new corresponding test module will be created.
-
 
 
 

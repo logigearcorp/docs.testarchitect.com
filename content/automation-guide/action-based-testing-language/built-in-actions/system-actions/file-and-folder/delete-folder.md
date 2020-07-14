@@ -40,8 +40,8 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   Observe the following format for the folder path:
-    -   **Windows platform**: Use backward slashes as separators for the path.
-    -   **Linux and Android platforms**: Use forward slashes as separators for the path. \(Note that network paths are not supported.\)
+    -   Windows platform: Use backward slashes as separators for the path.
+    -   Linux and Android platforms: Use forward slashes as separators for the path. \(Note that network paths are not supported.\)
 -   Note that this built-in action is not currently supported on the macOS or iOS platforms.
 -   The delete folder action does not distinguish between folders that are empty and those that are not. The specified folder is deleted regardless of whether or not it has contents.
 -   The force argument applies only to the Linux platform. Forced deletion is automatic with Windows \(that is, the forced argument is ignored.\) Forced deletion is performed on hidden or read-only folders and subfolders. However, forced deletion will not take place if the folder has been locked by another process.
@@ -54,11 +54,11 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_delete_folder_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_delete_folder_res.png)
 
@@ -75,4 +75,3 @@ The following settings are applicable to this action:[remove double quotes from 
 [move folder](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/move-folder)
 
 [rename folder](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/rename-folder)
-

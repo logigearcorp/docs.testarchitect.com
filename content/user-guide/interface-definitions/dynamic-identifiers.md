@@ -74,7 +74,7 @@ Note that, on line 18 in this revised action, we replace only the control argume
 
     3.  In the test editor, paste the content from the clipboard into the control’s argument in the appropriate action line.
 
-## Dynamic identifiers and expressions
+## Dynamic identifiers and expressions {{< permerlink >}} {#the_test_language_dynamic_identifiers__section_dzp_ynv_ns} 
 
 So, we've established that dynamic identifiers are great for people who are too lazy to create interface entities. But what else are they good for?
 
@@ -86,7 +86,7 @@ As an example, the following test case uses a variable-based dynamic identifier 
 
 See also [Using anchor pos with dynamic identifiers](/user-guide/interface-definitions/control-properties/secondary-properties/anchor-pos-property/using-anchor-pos-with-dynamic-identifiers) for an example of dynamic identifiers and expressions.
 
-## Multilevel dynamic identifiers
+## Multilevel dynamic identifiers {{< permerlink >}} {#the_test_language_dynamic_identifiers__section_u3g_wb2_wq} 
 
 A multilevel dynamic identifier is one in which the value setting for a TA property is itself a dynamic identifier. In turn, that inner dynamic identifier may also have a TA property defined by a dynamic identifier, and this can go on for any number of levels.
 

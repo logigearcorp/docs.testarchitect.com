@@ -39,7 +39,7 @@ Administer a tap within the test device's control, window or screen.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## Applicable Systems/Platforms {{< permerlink >}} {#bia_tap__section_kzx_4cl_zcb} 
 
 Use of this action is supported on the following systems/platforms: Mobile operating systems.
 
@@ -68,10 +68,9 @@ Let's say you are testing a mobile application, and you want verify the applicat
 
 ![](/images/TA_Automation/Images/bia_check_toast_message_aut.r02.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_toast_message_pgm.r02.png)
-
 
 
 

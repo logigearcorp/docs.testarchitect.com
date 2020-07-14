@@ -20,4 +20,3 @@ Remove the redundant items to be selected from the single selection control, and
 
 
 
-

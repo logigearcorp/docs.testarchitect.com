@@ -11,14 +11,14 @@ keywords: "Dashboard, tutorials"
 
 The following set of activities will guide you in creating and editing data-reporting panels in the Dashboard, to allow you to display the types of data you need, in the forms that you need.
 
-**Audience:** Testers, Automation engineers, Administrators.
+Audience: Testers, Automation engineers, Administrators.
 
-**Prerequisites:**
+Prerequisites:
 
 -   Basic understanding of the TestArchitect Dashboard and its purpose.
 -   Essential understanding of TestArchitect repositories, projects, and tests
 
-**What you will learn:**
+What you will learn:
 
 -   How to start up and log on to the Dashboard.
 -   How to create a data profile.
@@ -42,7 +42,6 @@ In this activity, you will create a stacked bar chart, which is useful for visua
 7.  [Creating a heat mapTutorial: Creating a heat map](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-9-creating-dashboard-panelsdashboard-tutorials/creating-a-heat-maptutorial-creating-a-heat-map)  
 In this activity, you will create a heat map, which is a matrix in which the color, or shade, of each cell is used to represent a certain quantitative and/or qualitative value.
 8.  [Summary: What you have learned](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-9-creating-dashboard-panelsdashboard-tutorials/summary-what-you-have-learned)  
-
 
 
 

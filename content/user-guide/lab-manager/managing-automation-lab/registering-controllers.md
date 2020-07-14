@@ -10,7 +10,7 @@ keywords: "Lab Manager, registering controllers, controllers, registering, Lab M
 
 How to register a controller from Lab Manager.
 
-To register a new controller to a Lab Manager session from the session itself, ensure that you are logged in to the session with **administrator** rights.
+To register a new controller to a Lab Manager session from the session itself, ensure that you are logged in to the session with administrator rights.
 
 1.  On the Lab Manager toolbar, click the **Add** ![](/images/TA_Help/Images/LabManager_add_controller_btn.png) button. The Add New Machine dialog box appears.
 2.  In the dialog box, specify an IP address \(or machine name\) and port \(default: 53600\) for the controller to be added:
@@ -29,4 +29,3 @@ To register a new controller to a Lab Manager session from the session itself, e
 
 
 [Default port numbers and port ranges](/administration-guide/default-port-numbers-and-port-ranges)
-

@@ -18,14 +18,14 @@ This happens because the Google Chrome browser is not configured properly which 
 
 You can resolve this issue in one of two ways:
 
--   Option \#1**: Manually reconfigure Chrome.**
+-   Option \#1: Manually reconfigure Chrome.
 
     Follow the steps below:
 
     1.  Stop the currently running test.
     2.  Follow the procedure discussed in [Setting command line switches](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/automated-web-testing-with-non-webdriver/preparing-web-browsers/preparing-google-chrome-for-web-testing/configuring-google-chrome).
     3.  Re-run the automated test.
--   Option \#2**: Use the [navigate](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/navigate) action.**
+-   Option \#2: Use the [navigate](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/navigate) action.
 
     {{<note>}} The built-in navigate action automatically reconfigures Chrome by setting several of its [command line switches](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/automated-web-testing-with-non-webdriver/preparing-web-browsers/preparing-google-chrome-for-web-testing/configuring-google-chrome).
 
@@ -36,7 +36,6 @@ You can resolve this issue in one of two ways:
         {{<important>}} Only a value for the action's location argument should be specified. If your test needs require you to specify a window argument as well, ensure that the specified window is [reconfigured](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/automated-web-testing-with-non-webdriver/preparing-web-browsers/preparing-google-chrome-for-web-testing/configuring-google-chrome) and launched .
 
     4.  Re-run the automated test.
-
 
 
 

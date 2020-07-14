@@ -20,7 +20,7 @@ For detailed instructions, please follow the below links.
 -   [Linux](/user-guide/getting-started/testarchitect-installation-guide/linux)
 -   [macOS](/user-guide/getting-started/testarchitect-installation-guide/macos)
 
-## Licensing in TestArchitect
+## Licensing in TestArchitect {{< permerlink >}} {#getting_started__section_licensing_TA} 
 
 TestArchitect is sold on a node-locked or floating license basis. You must license your copy of TestArchitect before you can use it.
 
@@ -54,7 +54,7 @@ See these diagrams [here](http://testarchitect.com/support/documentation/get-sta
 These [instructional videos](http://testarchitect.logigear.com/support/documentation/tutorial-videos) take you step-by-step through the test creation and execution process that will enable you to create and maintain large-scale test automation using TestArchitect.
 
 1.  [Overview](/user-guide/getting-started/overview)  
-The features of TestArchitect are built upon a framework that offers you a powerful tool to integrate **Action Based Testing™**\(ABT\) into your testing organization.
+The features of TestArchitect are built upon a framework that offers you a powerful tool to integrate Action Based Testing™\(ABT\) into your testing organization.
 2.  [TestArchitect installation guide](/user-guide/getting-started/testarchitect-installation-guide/)  
 Recommended system requirements, software requirements, and instructions for installing TestArchitect on Windows, Linux, and macOS operating systems.
 3.  [TestArchitect editions](/user-guide/getting-started/testarchitect-editions)  
@@ -79,7 +79,6 @@ TestArchitect Client provides you with an interface to create, manage, and execu
 TestArchitect provides you with a worksheet-like test editor to let you view, create and modify action-based tests.
 13. [Sample Repository](/user-guide/getting-started/sample-repository/)  
 The sample repository contains projects with test modules and other items designed work with sample applications \(also provided\) to demonstrate automated testing on a variety of platforms.
-
 
 
 

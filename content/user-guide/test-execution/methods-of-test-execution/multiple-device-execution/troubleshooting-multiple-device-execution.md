@@ -24,8 +24,7 @@ At this point, you can click the **Debug** button in the Automation Problem dial
 -   To abort execution on a device which is encountering an automation problem, click the **Stop** button in the Automation Problem dialog box.
 -   To skip the action line on a device which is reporting an automation problem, then resume executing the next action lines, click the **Continue** button in the Automation Problem dialog box.
 
-**What happens if, in the Execute Test dialog box, we have specified that the test is to execute on device A, but the test procedure itself invokes built-in action [use device](/automation-guide/action-based-testing-language/built-in-actions/system-actions/device/use-device) to specify that execution is to take place on device B?**
+What happens if, in the Execute Test dialog box, we have specified that the test is to execute on device A, but the test procedure itself invokes built-in action [use device](/automation-guide/action-based-testing-language/built-in-actions/system-actions/device/use-device) to specify that execution is to take place on device B?
 
 The use device built-in action overrides any device specified in the Execute Test dialog box. For example, after selecting device A and clicking the **Execute** button on the dialog box, the test is executed on device A. The automated test runs on device A until it meets the action use device defined in the test procedure. At this time, the automation stops running on device A, and TestArchitect logically connects to device B and makes that device the target device for resuming the remaining automated test.
-
 

@@ -15,7 +15,7 @@ While TestArchitect offers a library of hundreds of built-in actions for you to 
 
 In general, you create user-defined actions for two reasons:
 
-1.  **Modularity**:
+1.  Modularity:
 
     It is often the case that a given sequence of action lines performs what can be considered a single, well-defined function. Often this function must be repeated throughout a test, or across tests in a project. In such instances, it makes sense to embody, or [encapsulate](/user-guide/support/glossary-of-terms/action-encapsulationn1eTveA), the sequence into a user-defined action. In place of each instance of the action line sequence, only a single action line, one that invokes the new user-defined action, is required.
 
@@ -23,9 +23,9 @@ In general, you create user-defined actions for two reasons:
 
     Encapsulating action line sequences into user-defined actions enhances your test in two ways:
 
-    -   **Readability**: It is easier to comprehend a test that presents steps at a higher, more humanly-intuitive level. It is also less tiring when one doesn't have to frequently encounter identical sets of steps.
-    -   **Maintainability**: Incorporating a frequently used functionality into an action that can be called from multiple places means that, when a change to that functionality is warranted, the modification need only be performed in a single place, rather than multiple places. This not only reduces maintenance time, but lessens the chance of introducing errors.
-2.  **Isolation of implementation details**: Some functionalities of an application under test may easily change from one version to the next. It is in your best interest to confine implementation-dependent actions to your custom actions. Again, maintenance is minimized across application versions, and your test modules are left to focus solely on business logic.
+    -   Readability: It is easier to comprehend a test that presents steps at a higher, more humanly-intuitive level. It is also less tiring when one doesn't have to frequently encounter identical sets of steps.
+    -   Maintainability: Incorporating a frequently used functionality into an action that can be called from multiple places means that, when a change to that functionality is warranted, the modification need only be performed in a single place, rather than multiple places. This not only reduces maintenance time, but lessens the chance of introducing errors.
+2.  Isolation of implementation details: Some functionalities of an application under test may easily change from one version to the next. It is in your best interest to confine implementation-dependent actions to your custom actions. Again, maintenance is minimized across application versions, and your test modules are left to focus solely on business logic.
 
 A user-defined action is comparable to a function, complete with arguments that can be passed to it to control the action’s behavior, as well as arguments that allow the function to return values to the calling entity. By calling on a user-defined action, a test module \(or other user-defined action\) executes a number of steps relating to a particular function or activity while isolating itself from all of the individual actions involved. Letting user-defined actions do low-level work enhances the readability of test modules, especially when the actions are well-named and their purpose is clear.
 
@@ -41,7 +41,6 @@ An action argument can have one of several possible data types.
 A user-defined action can be exported to an archive file \(.ZIP format\), which can be used as a backup or for reimporting.
 6.  [Importing actions](/user-guide/actions/user-defined-actions/importing-actions)  
 You can easily import a user-defined action stored in an archive file \(.ZIP format\).
-
 
 
 

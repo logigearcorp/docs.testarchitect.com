@@ -22,4 +22,3 @@ The following new features and improvements are introduced in TestArchitect vers
     Previously, each comma-delimited term within the keyword portion of a variation signature was limited to a single keyword. Now, each term, or "keyterm", may consist of multiple keywords OR'd together, for example, login \{Chrome \| Firefox\}. TestArchitect factors such variations into multiple "effective variations".
 
 
-

@@ -12,8 +12,8 @@ Revision control is the process used to track and control changes made to projec
 
 The TestArchitect repository serves two primary functions:
 
--   **A database**: Storing project settings and description information for test modules, test folders, assigned users, project's notes, etc.
--   **File storage**: Storing actual contents of items that can be edited; for example, test modules, data sets, action or interface definitions.
+-   A database: Storing project settings and description information for test modules, test folders, assigned users, project's notes, etc.
+-   File storage: Storing actual contents of items that can be edited; for example, test modules, data sets, action or interface definitions.
 
 Repository files are subject to revision control and management. Older revision of a file are retained. You need to check out a file before you can modify it. Once checked out, a lock is placed on the file and no other users may modify it until the file is checked back in. By checking a file back in, you are:
 
@@ -39,4 +39,3 @@ The TestArchitect repository saves pertinent information on a project item every
 
 
 [Revision history](/user-guide/projects-and-project-items/project-items/revision-control/revision-history/)
-

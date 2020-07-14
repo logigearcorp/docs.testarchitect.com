@@ -8,15 +8,15 @@ aliases:
 keywords: "methods of abt, GetPictureLocation, GetPictureLocation (AbtImageProcessor), AbtImageProcessor, GetPictureLocation, getpicturelocation, abtimageprocessor getpicturelocation, coordinates and dimensions of image in bitmap, location and size of image in bitmap"
 ---
 
-## Syntax
+## Syntax {{< permerlink >}} {#abt_GetPictureLocationAbtImageProcessor__section.syntax} 
 
 `TARect GetPictureLocation (string picture, TARect rect, int index)`
 
-## Description
+## Description {{< permerlink >}} {#abt_GetPictureLocationAbtImageProcessor__section.desc} 
 
 Return the location and dimensions of an instance of a specified image within the object's bitmap.
 
-## Parameters
+## Parameters {{< permerlink >}} {#abt_GetPictureLocationAbtImageProcessor__section.params} 
 
 -   **picture**
 
@@ -33,7 +33,7 @@ Return the location and dimensions of an instance of a specified image within th
     Note that index numbering begins with 1. \(Default: 1\)
 
 
-## Return Value
+## Return Value {{< permerlink >}} {#abt_GetPictureLocationAbtImageProcessor__section.return} 
 
 -   [TARect](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abt-object-classes/tarect) object representing the bounding rectangle ofthe found picture, and containing the following:
 
@@ -45,7 +45,7 @@ Return the location and dimensions of an instance of a specified image within th
 
 -   If the index-specified instance of a matching image is not found, return null.
 
-## Notes
+## Notes {{< permerlink >}} {#abt_GetPictureLocationAbtImageProcessor__section_vwj_hjw_j4} 
 
 -   As an [AbtImageProcessor](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtimageprocessor/) object represents the entire display; the returned left and top coordinates are relative to the left and top of screen, respectively.
 -   This method is currently supported only by the C\# harness.

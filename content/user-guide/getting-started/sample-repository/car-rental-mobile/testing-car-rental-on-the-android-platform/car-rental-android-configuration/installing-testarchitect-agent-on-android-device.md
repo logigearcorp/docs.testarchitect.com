@@ -47,4 +47,3 @@ Perform the following procedures on the host machine with the USB cable connecte
 After installing the TestArchitect Agent on the Android device, the TestArchitect Agent icon is displayed on the device's desktop.
 
 
-

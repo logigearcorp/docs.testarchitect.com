@@ -30,11 +30,11 @@ The following settings are applicable to this action:none.
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_repeat_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_repeat_res.png)
 
@@ -42,4 +42,3 @@ The following settings are applicable to this action:none.
 
 
 [while](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/while)
-

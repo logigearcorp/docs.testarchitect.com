@@ -12,7 +12,7 @@ keywords: "methods of abt, Get, Get (AbtRadioButton), AbtRadioButton, abtradiobu
 
 `TACheckState Get()`
 
-## Description
+## Description {{< permerlink >}} {#abt_Get_radiobutton__section.desc} 
 
 Retrieve the state of the radio button.
 

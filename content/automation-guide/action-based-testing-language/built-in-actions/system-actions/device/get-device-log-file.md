@@ -23,7 +23,7 @@ Capture the Android system log file associated with the Android [logcat](https:/
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## Applicable Systems/Platforms {{< permerlink >}} {#bia_get_device_log_file__section_r3t_wbl_zcb} 
 
 Use of this action is supported on the following systems/platforms: Android.
 
@@ -46,16 +46,15 @@ The following settings are applicable to this action:[remove double quotes from 
 
 Suppose that after launching a given AUT on the target device, you want your test to inspect something in the device's Android system log file. In this procedure, you issue a get device log file action to write the log to the file device.log on the test controller. You then follow up by disconnecting from the device, which is necessary to allow you to access the file on the host controller. You check that the file exists, and if it does, write out its contents to a variable as a single string. You can then follow up by inspecting the variable's string for whatever information your test requires..
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_device_log_file_pgm.r02.png)
 
-**Result**
+Result
 
 A typical device log file:
 
 ![](/images/TA_Automation/Images/bia_get_device_log_file_aut.r02.png)
-
 
 
 

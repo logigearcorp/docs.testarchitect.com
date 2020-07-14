@@ -12,7 +12,7 @@ If you no longer need to use an encrypted password, you can delete it.
 
 Only members of the administrators and test managers groups have privileges for accessing password management.
 
--   **Option 1**: To delete a single password:
+-   Option 1: To delete a single password:
 
     1.  Log into a project as a user with an administrator or test manager role. \(See [User administration](/administration-guide/users-and-passwords/user-administration/) for details\).
 
@@ -28,7 +28,7 @@ Only members of the administrators and test managers groups have privileges for 
 
     6.  Click **Apply**.
 
--   **Option 2**: To delete multiple passwords:
+-   Option 2: To delete multiple passwords:
 
     1.  Log into a project as a user with an administrator or test manager role. \(See [User administration](/administration-guide/users-and-passwords/user-administration/) for details\).
 
@@ -43,7 +43,6 @@ Only members of the administrators and test managers groups have privileges for 
         The passwords and their corresponding information are removed.
 
     6.  Click **Apply**.
-
 
 
 

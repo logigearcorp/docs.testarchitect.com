@@ -47,4 +47,3 @@ The Scrum Board application, a part of the TestArchitect's automation sample tes
 The Music Library automated test project is provided in the Sample Repository to demonstrate automated testing of the Music Library application, which is based on Windows Presentation Foundation \(WPF\).
 
 
-

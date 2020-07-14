@@ -20,4 +20,3 @@ Ensure that the device is connected to the test controller machine via USB cable
 
 
 
-

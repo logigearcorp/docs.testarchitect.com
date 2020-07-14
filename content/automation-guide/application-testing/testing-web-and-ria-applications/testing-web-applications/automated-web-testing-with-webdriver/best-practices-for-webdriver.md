@@ -12,7 +12,7 @@ keywords: "for generic webdriver, best practices, webdriver best practices"
 
 When you navigate to a page, you have three options: opening the page on a new tab, a new window or the current tab. [target browser instance](/automation-guide/action-based-testing-language/built-in-settings/other-settings/target-browser-instance)
 
-## Handling multiple window instances
+## Handling multiple window instances {{< permerlink >}} {#WebDriver_best_practices__section_qg1_csv_yfb} 
 
 When you are working with web applications, you are faced with multiple window instances. You can achieve your goals by using the [auto switch windows](/automation-guide/action-based-testing-language/built-in-settings/other-settings/auto-switch-window) built-in setting and the [switch window](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/webdriver/switch-window) built-in action.
 
@@ -20,7 +20,7 @@ When you are working with web applications, you are faced with multiple window i
 
 When you open a new window instance and the auto switch window mode is on, the focus will be shifted to the newly opened window instance. However, when the auto switch window mode is off, the focus will stay in the current window instance. In the event that you want to interact with the newly opened window instance, you are required to explicitly use the [switch window](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/webdriver/switch-window) built-in action.
 
-## Switching frames
+## Switching frames {{< permerlink >}} {#WebDriver_best_practices__section_ljs_lqv_yfb} 
 
 In a web page with multiple frames, you have to switch the focus to the frame containing the element before locating the element. Needless to say that TestArchitect is capable of switching frames automatically.
 
@@ -36,7 +36,7 @@ See also
 -   [HTML <iframe\> Tag](https://www.w3schools.com/tags/tag_iframe.asp)
 -   [Handling iFrames in Selenium Webdriver](https://www.guru99.com/handling-iframes-selenium.html)
 
-## Handling popups
+## Handling popups {{< permerlink >}} {#WebDriver_best_practices__section_nj5_v4v_yfb} 
 
 While you are testing a web application, one or multiple popups may be triggered.
 

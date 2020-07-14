@@ -76,7 +76,7 @@ This action is applicable to the following controls:tree view, tree table, tree 
 
 ![](/images/TA_Automation/Images/bia_get_tree_node_menu_state_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_tree_node_menu_state_res.png)
 
@@ -88,10 +88,9 @@ This action is applicable to the following controls:tree view, tree table, tree 
 
 ![](/images/TA_Automation/Images/bia_get_tree_node_menu_state_index_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_tree_node_menu_state_index_res.png)
-
 
 
 

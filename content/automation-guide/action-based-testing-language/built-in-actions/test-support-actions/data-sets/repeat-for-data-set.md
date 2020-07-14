@@ -30,7 +30,7 @@ The following settings are applicable to this action:none.
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_repeat_for_data_set_pgm.png)
 
@@ -40,4 +40,3 @@ The following settings are applicable to this action:none.
 [filter](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/filter)
 
 [use filter](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/use-filter)
-

@@ -48,4 +48,3 @@ To remove previously installed TestArchitect in silent mode by using InstallShie
 9.  Rename setup.iss into uninstall.iss, which is in charge of silent uninstallation.
 
 
-

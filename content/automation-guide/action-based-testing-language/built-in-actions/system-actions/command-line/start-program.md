@@ -20,8 +20,8 @@ Launch a specified application on the test machine.
 
     For mobile devices:
 
-    -   **Android**: the application package name. \(See also note below.\)
-    -   **iOS**: the application name. \(See also note below.\)
+    -   Android: the application package name. \(See also note below.\)
+    -   iOS: the application name. \(See also note below.\)
 -   **parameter**
 
     \(Optional\) A parameter or string, such as the name of a data file, to be passed to the launched program.
@@ -35,7 +35,7 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   **iOS:** To ensure that start program can successfully launch an application on an iOS device, refer to [Launching an AUT](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/ios-automation/launching-an-aut#section_pdh_mzj_m4).
+-   iOS: To ensure that start program can successfully launch an application on an iOS device, refer to [Launching an AUT](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/ios-automation/launching-an-aut#section_pdh_mzj_m4).
 -   program argument:
     -   For an iOS device, theprogramargument should hold the name of the running application itself, e.g. Car Rental. If needed, you can obtain the application's name through the Interface Viewer:
         1.  Launch the [Interface Viewer](/user-guide/interface-definitions/the-interface-viewer/starting-the-interface-viewer) and then switch to your connected iOS device.
@@ -63,11 +63,11 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ## Example - Case 1: Starting an application
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_start_program_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_start_program_res.png)
 
@@ -75,23 +75,23 @@ The following settings are applicable to this action:[remove double quotes from 
 
 Say you want to open a text file with the Notepad++ application. Since Notepad++ accepts the path of a text file as a command line argument, we can specify the file when we launch the application. We have two options for doing this.
 
-**Option 1: Using the parameter argument:**
+Option 1: Using the parameter argument:
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_start_program_pgm_1.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_start_program_res_1.png)
 
 **Option 2: Including the argument to the application in the program argument:**
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_start_program_pgm_2.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_start_program_res_2.png)
 
@@ -101,19 +101,18 @@ Say you want to open a text file with the Notepad++ application. Since Notepad++
 
 ![](/images/TA_Automation/Images/bia_start_program_iOS_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_start_program_iOS_res.png)
 
 ## Example - Case 4: Starting an Android application
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_start_program_Android_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_start_program_Android_res.png)
-
 
 

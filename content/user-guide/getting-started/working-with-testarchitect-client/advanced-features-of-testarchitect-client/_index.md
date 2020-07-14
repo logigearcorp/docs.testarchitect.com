@@ -29,4 +29,3 @@ The OCR Detector tool is used to improve the ability of OCR-related built-in act
 9.  [Diff tool](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/diff-tool/)  
 The TestArchitect Diff Tool offers you a visual and convenient means of determining the differences between two similar project items, or differences in the contents of similar TestArchitect explorer tree nodes or folders.
 
-

@@ -38,4 +38,3 @@ The screenshot below shows a typical comparison of two folders, in this case the
 ![](/images/TA_Help/Images/diff_tool_dlg_dir.png)
 
 
-

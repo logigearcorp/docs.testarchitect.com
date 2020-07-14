@@ -18,4 +18,3 @@ The following table summarizes the relationship between types of actions and the
 
 \*All timing settings associated with is… actions are used for preconditions, not conditions. \(e.g., the action is control focused, when used on a desktop application, looks for both a window and the target control as preconditions for determining the state of the control. If either the window or control is not available, the response is a warning.\)
 
-

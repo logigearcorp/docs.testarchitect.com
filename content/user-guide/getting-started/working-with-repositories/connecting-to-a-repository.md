@@ -49,7 +49,7 @@ Your TestArchitect Client session is now connected to the chosen server and repo
 -   **Error**: The connection process has a problem.
 -   **Canceled**: The repository connection was canceled.
 
-**Cancel Action**: This action allows you to cancel adding a repository. Additionally, you can use button **Close** to cancel all the repositories.
+Cancel Action: This action allows you to cancel adding a repository. Additionally, you can use button **Close** to cancel all the repositories.
 
 {{<note>}} Cancel only works if repository is still in the queue, meaning the repository has status **On hold**.
 
@@ -68,4 +68,3 @@ If the limit number of concurrent connections to the repository servers is excee
 [Troubleshooting power outage-related problems](/user-guide/support/frequently-asked-questions/troubleshooting-power-outage-related-problems)
 
 [Default port numbers and port ranges](/administration-guide/default-port-numbers-and-port-ranges)
-

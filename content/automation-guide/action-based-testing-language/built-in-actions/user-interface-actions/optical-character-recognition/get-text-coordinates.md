@@ -67,7 +67,7 @@ Search a bitmap for a given text string and, if found, return its location.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_get_text_coordinate__section_lgn_3ht_lk} 
 
 -   This built-in action employs both [Optional Character Recognition](/automation-guide/action-based-testing-language/the-test-language/text-recognition-techniques) \(OCR\) and [Graphics Device Interface](/automation-guide/action-based-testing-language/the-test-language/text-recognition-techniques) \(GDI\) techniques. By default, the action employs OCR technique. To switch to GDI technique, refer to the [character recognition technique](/automation-guide/action-based-testing-language/built-in-settings/other-settings/character-recognition-technique) built-in setting for details.
 
@@ -109,7 +109,7 @@ This action may be used within the following project items:test modules and user
     -   Otherwise, a value is required for text color, and is generally obtained through the OCR Detector Tool. This ensures that OCR-related built-in actions are able to detect the given text properly, in the same way that you would identify it manually with the OCR Detector Tool.
 -   For testing mobile applications:
     -   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/automation-guide/action-based-testing-language/built-in-actions/system-actions/operating-system/get-screen-resolution#li.ios.get_screen_resolution).\)
-    -   **Android:** This built-in action, when applied to a connected Android device, requires that the [TestArchitect Agent service](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/setting-up-the-test-environment/setting-up-android-automation/about-testarchitect-agent-in-android/) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
+    -   Android: This built-in action, when applied to a connected Android device, requires that the [TestArchitect Agent service](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/setting-up-the-test-environment/setting-up-android-automation/about-testarchitect-agent-in-android/) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
         1.  Connect the Android device to the test controller through a USB cable \(not Wi-Fi\), if not already so connected.
         2.  Open the [Android Instrumentation Tool](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/android-instrumentation-tool/) dialog box.
         3.  Click the **Refresh devices list** ![](/images/Android/Images/Refresh_device_list_btn.png) button.
@@ -123,11 +123,11 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ![](/images/TA_Automation/Images/bia_get_text_coordinate_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_text_coordinate_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_text_coordinate_res.png)
 
@@ -135,11 +135,11 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ![](/images/TA_Automation/Images/bia_get_text_coordinate_aut_2.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_text_coordinate_pgm_2.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_text_coordinate_res_2.png)
 
@@ -147,14 +147,13 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ![](/images/TA_Automation/Images/bia_get_text_coordinate_aut_3.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_text_coordinate_pgm_3.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_text_coordinate_res_3.png)
-
 
 
 

@@ -49,11 +49,11 @@ The following example retrieves the `CName` field from the `CTable` table of the
 
 ![](/images/TA_Automation/Images/db_CTable.01.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_execute_sql_1_pgm.r02.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_execute_sql_1_res.r01.png)
 
@@ -65,11 +65,11 @@ The stored procedure looks like this:
 
 ![](/images/TA_Automation/Images/bia_execute_sql_aut.r01.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_execute_sql_2_pgm.r01.png)
 
-**Result**
+Result
 
 The resulting text files appear as follows:
 
@@ -88,4 +88,3 @@ July\_shipments.txt
 
 
 [Testing with databases](/automation-guide/application-testing/testing-with-databases/)
-

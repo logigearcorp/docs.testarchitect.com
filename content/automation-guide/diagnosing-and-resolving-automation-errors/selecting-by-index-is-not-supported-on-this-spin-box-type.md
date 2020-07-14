@@ -20,4 +20,3 @@ Select the item identified by its text value, and then re-run the test.
 
 
 
-

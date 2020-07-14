@@ -11,15 +11,15 @@ keywords: "interfaces, defining, mappings, tutorial, Interface Viewer, Applicati
 
 The exercises in this lesson guide you through the creation of a test that simulates a user logging into the sample application, populating a text field and clicking a button.
 
-**Audience:** Testers, Automation engineers
+Audience: Testers, Automation engineers
 
-**Prerequisites:**
+Prerequisites:
 
 -   Basic understanding of the TestArchitect Client user interface
 -   Familiarity with the TestArchitect test editor
 -   Essential understanding of TestArchitect repositories, projects and tests
 
-**What you will learn:**
+What you will learn:
 
 -   How to read, create and maintain the interface entities and interface elements of TestArchitect interfaces.
 -   Mapping and maintaining interface definitions with the TestArchitectInterface Viewer.
@@ -36,7 +36,6 @@ Use the Interface Viewer to create mappings for user interface elements.
 5.  [Using interface definitions](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-3-working-with-interface-definitions/using-interface-definitions)  
 Write and execute a test that makes use of the interface definitions you have created.
 6.  [Summary: What you learned](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-3-working-with-interface-definitions/summary-what-you-learned)  
-
 
 
 

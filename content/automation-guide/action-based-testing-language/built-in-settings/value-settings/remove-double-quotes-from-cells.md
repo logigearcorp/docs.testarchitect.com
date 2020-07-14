@@ -26,14 +26,13 @@ false
 
 ## Example
 
-**Action**
+Action
 
 ![](/images/TA_Automation/Images/bis_remove_double_quotes_from_cells_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bis_remove_double_quotes_from_cells_res.png)
-
 
 
 

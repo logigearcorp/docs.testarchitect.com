@@ -66,4 +66,3 @@ In all cases, your default browser displays the main API reference of the TAUtil
 **Parent topic:**[Lesson \#11: Creating Excel reports using TAUtilities](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-11-creating-excel-reports-using-tautilities/)
 
 **Previous topic:**[Creating a summary report in Excel](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-11-creating-excel-reports-using-tautilities/creating-a-summary-report-in-excel/)
-

@@ -8,7 +8,7 @@ aliases:
 keywords: 
 ---
 
-**What you learned in this lesson:**
+What you learned in this lesson:
 
 -   How to launch and log on to TestArchitect Dashboard.
 -   How to create a Dashboard data profile to define the source and presentation of project data for a Dashboard panel.
@@ -21,5 +21,4 @@ keywords:
 
 
 **Parent topic:**[Lesson \#9: Creating Dashboard chartsDashboard tutorials](/user-guide/reporting-and-dashboard/dashboard/lesson-9-creating-dashboard-chartsdashboard-tutorials/)
-
 

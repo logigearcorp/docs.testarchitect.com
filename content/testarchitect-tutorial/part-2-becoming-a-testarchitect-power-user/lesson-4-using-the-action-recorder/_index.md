@@ -13,15 +13,15 @@ TestArchitect can generate tests by recording your interactions with the applica
 
 The Action Recorder allows for the recording of control actions \(for example, click and enter\) as well as testing actions \(for example, check and check control property\).
 
-**Audience:** Testers, Automation engineers
+Audience: Testers, Automation engineers
 
-**Prerequisites:**
+Prerequisites:
 
 -   Basic understanding of the TestArchitect Client user interface
 -   Familiarity with the TestArchitect test editor
 -   Essential understanding of TestArchitect repositories, projects and tests
 
-**What you will learn:**
+What you will learn:
 
 -   How to record actions on controls
 -   How to generate a check action
@@ -36,7 +36,6 @@ Insert validity checks during your recording sessions to generate action lines t
 4.  [Updating interface definitions](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-4-using-the-action-recorder/updating-interface-definitions)  
 When the Action Recorder generates actions that operate on windows and controls, it populates the arguments of those actions with TA names. If necessary, it allows you to define those names "on the fly".
 5.  [Summary: What you learned](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-4-using-the-action-recorder/summary-what-you-learned)  
-
 
 
 

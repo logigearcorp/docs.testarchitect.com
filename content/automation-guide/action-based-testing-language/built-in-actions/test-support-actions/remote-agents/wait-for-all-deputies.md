@@ -30,7 +30,7 @@ The following settings are applicable to this action:none.
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_wait_for_all_deputies_pgm.png)
 
@@ -41,4 +41,3 @@ The following settings are applicable to this action:none.
 
 
 [Synchronous remote execution](/user-guide/test-execution/methods-of-test-execution/remote-test-execution/synchronous-remote-execution/)
-

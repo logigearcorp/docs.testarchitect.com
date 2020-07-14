@@ -23,7 +23,7 @@ Check for the existence of a specified window. Result is Passed ifthe window doe
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_check_window_exists__section.notes} 
 
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of the argument, or the argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
@@ -39,11 +39,11 @@ This action is applicable to the following controls:window.
 
 ![](/images/TA_Automation/Images/bia_check_window_exists_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_window_exists_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_window_exists_res.png)
 
@@ -56,4 +56,3 @@ This action is applicable to the following controls:window.
 [check window not exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/window/check-window-not-exists)
 
 [does window exist](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/window/does-window-exist)
-

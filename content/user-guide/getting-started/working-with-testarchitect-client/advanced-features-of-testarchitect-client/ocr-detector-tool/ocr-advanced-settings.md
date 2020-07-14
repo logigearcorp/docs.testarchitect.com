@@ -49,4 +49,3 @@ The **Advanced Settings** tab of the OCR Detector Tool offers the following sett
     -   to apply all rows to the training picture, click the **Apply** button.
 
 
-

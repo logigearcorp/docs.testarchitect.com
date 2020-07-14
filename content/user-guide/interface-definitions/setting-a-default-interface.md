@@ -12,7 +12,7 @@ The default interface in a project is the one that is in effect during a test if
 
 Choose one of the following three methods to set a default interface:
 
--   **Option 1**:
+-   Option 1:
 
     1.  Double-click the interface that you want to set as default.
 
@@ -24,7 +24,7 @@ Choose one of the following three methods to set a default interface:
 
     4.  Click **Apply**.
 
--   **Option 2**:
+-   Option 2:
 
     1.  In the TestArchitect explorer tree, double-click the **Interfaces** node
 
@@ -32,7 +32,7 @@ Choose one of the following three methods to set a default interface:
 
     2.  Select the **Default** radio button for the interface you wish to set as the default.
 
--   **Option 3**:
+-   Option 3:
 
     1.  In the TestArchitect explorer tree, right-click the interface that you want to set as default.
 
@@ -42,7 +42,6 @@ Choose one of the following three methods to set a default interface:
 The icon for the interface that has been set as default displays a red horizontal bar across the top.
 
 ![](/images/TA_Help/Images/default_interface_icon.png)
-
 
 
 

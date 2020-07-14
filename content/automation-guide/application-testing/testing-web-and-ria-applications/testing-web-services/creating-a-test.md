@@ -20,7 +20,7 @@ Before creating test procedures, plan your web service test as follows:
 
 After planning your test, start creating it.
 
-## Creating a web service functional test
+## Creating a web service functional test {{< permerlink >}} {#concept_dyl_drm_1y__section_l5x_qrm_1y} 
 
 Typically, creation of a web service test includes the following steps:
 

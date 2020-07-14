@@ -47,14 +47,13 @@ This action is applicable to the following controls:tab control
 
 ![](/images/TA_Automation/Images/bia_close_tab_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_close_tab_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_close_tab_res.png)
-
 
 
 

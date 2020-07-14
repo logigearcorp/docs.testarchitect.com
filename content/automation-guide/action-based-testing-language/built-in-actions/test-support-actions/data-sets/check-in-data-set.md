@@ -47,10 +47,10 @@ Use of this action is supported on the following systems/platforms: Windows, Lin
 -   comments argument:
     -   It is highly recommended that you add a brief note explaining the changes made to the data set before checking it in.
     -   This comment can be helpful when querying changes made at each check-in, or to view a general history of changes to the item.
--   **Versioning**: If the specified data set already resides on a repository, and:
+-   Versioning: If the specified data set already resides on a repository, and:
     -   *no data changes are made*: check-in does not update the current [version number](/user-guide/projects-and-project-items/project-items/revision-control/revision-history/) of the data set.
     -   *data changes are made*: check-in does update the current [version number](/user-guide/projects-and-project-items/project-items/revision-control/revision-history/) of the data set.
--   **Check-in validation**: TestArchitect issues a warning/error in response to this action if any of the following conditions hold:
+-   Check-in validation: TestArchitect issues a warning/error in response to this action if any of the following conditions hold:
     -   the data set is currently checked out to another user;
     -   the data set is already in a checked in state; or
     -   the current user lacks permission to modify the data set.
@@ -64,24 +64,23 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ## Example
 
-**Scenario**:
+Scenario:
 
 1.  Create an inline data set, Customers.
 2.  Add columns and rows to the inline data set.
 3.  Finally, check in the inline data set to create a data set node under the **Customer info** data set folder.
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_in_data_set_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_in_data_set_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_check_in_data_set_effect.png)
-
 
 
 

@@ -12,11 +12,11 @@ keywords: "methods of abt, GetItemRectByText, GetItemRectByText (AbtList), AbtLi
 
 `TARect GetItemRectByText (string text)`
 
-## Description
+## Description {{< permerlink >}} {#abt_GetItemRectByText__section.desc} 
 
 Retrieve the bounding rectangle of a list item by its text content.
 
-## Parameters
+## Parameters {{< permerlink >}} {#abt_GetItemRectByText__section.params} 
 
 -   **text**
 

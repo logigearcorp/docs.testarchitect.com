@@ -10,7 +10,7 @@ keywords: "Quality Center, uploading test modules, HP Quality Center integration
 
 TestArchitect test modules and test cases can be uploaded to Quality Center which establishes one-to-one mappings between TestArchitect test cases and Quality Center tests.
 
-Ensure that the machine hosting the TestArchitect repository server has the **HP ALM Connectivity Add-in** installed, to allow for integration and synchronization between TestArchitect and HP Quality Center.
+Ensure that the machine hosting the TestArchitect repository server has the HP ALM Connectivity Add-in installed, to allow for integration and synchronization between TestArchitect and HP Quality Center.
 
 Ensure that you have already taken the following steps:
 
@@ -35,7 +35,7 @@ To upload TestArchitect test modules/test cases to Quality Center, carry out the
 
     -   TestArchitect entities whose names contain special characters \(see below\) can not be successfully uploaded to Quality Center. Ensure that you avoid these special characters when naming TestArchitect test folders, test modules, and test cases.
 
-        **Prohibited characters:**
+        Prohibited characters:
 
         -   For TestArchitect test folders:
 
@@ -114,7 +114,6 @@ The following topic describes how TestArchitect test module and test case inform
 This topic describes how TestArchitect test module and test case information is mapped to the corresponding Quality Center test fields.
 -   **[Turning on/off automatic uploading](/user-guide/integration-with-third-party-tools/hp-quality-center/features/uploading-testarchitect-test-modules-test-cases-to-quality-center/turning-on-off-automatic-uploading)**  
 Controlling whether or not TestArchitect uploads tests to Quality Center automatically.
-
 
 
 

@@ -35,7 +35,7 @@ Retrieve the value of a control's specified native property.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## Applicable Systems/Platforms {{< permerlink >}} {#bia_get_native_property__section_uzk_zmd_zbb} 
 
 This built-in action is supported on the following systems/platforms:
 
@@ -78,11 +78,11 @@ This action is applicable to the following controls:button, check box, checklist
 
 ![](/images/TA_Automation/Images/bia_get_native_property_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_native_property_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_native_property_res.png)
 
@@ -97,4 +97,3 @@ This action is applicable to the following controls:button, check box, checklist
 [set native property](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/set-native-property)
 
 [date format](/automation-guide/action-based-testing-language/built-in-settings/date-time-settings/date-format)
-

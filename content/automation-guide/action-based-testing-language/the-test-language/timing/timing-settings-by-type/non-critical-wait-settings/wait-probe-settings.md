@@ -42,4 +42,3 @@ can handle the nonexistence of the target window just as “gracefully” as the
 
 Granted, you can always change your wait settings on the fly with the setting action. But in a large test, that can get tedious. Hence the purpose of the probe settings is really a matter of convenience. If your does…exist and if…exists actions depended on window wait and object wait, you might well find your tests littered with settings actions that constantly changed the values of those timing settings back and forth.
 
-

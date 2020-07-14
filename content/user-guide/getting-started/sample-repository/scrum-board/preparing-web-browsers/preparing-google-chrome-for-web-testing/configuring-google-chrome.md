@@ -48,4 +48,3 @@ Carry out the following procedure:
 ![](/images/TA_Automation/Images/Chrome_active_flags.png)
 
 
-

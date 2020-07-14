@@ -58,4 +58,3 @@ You can now view the results of your work by dragging controls of your user-defi
 {{<anchor fntarg_1 >}}
 <di{{<anchor fnsrc_1 >}}
 [1](#fnsrc_1) Such would be the case if you were mapping multiple native classes to a single user-defined TA class, or using the class across platforms.
-

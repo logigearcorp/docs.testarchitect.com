@@ -8,15 +8,15 @@ aliases:
 keywords: "methods of abt, DoesDataSetExist, DoesDataSetExist (AbtDataSetManagement), AbtDataSetManagement, doesdatasetexist, abtdatasetmanagement doesdatasetexist, data set exist, existence of data set, check if data set exists"
 ---
 
-## Syntax
+## Syntax {{< permerlink >}} {#reference_zdm_2bw_gq__section.syntax} 
 
 `int DoesDataSetExist(string path)`
 
-## Description
+## Description {{< permerlink >}} {#reference_zdm_2bw_gq__section.desc} 
 
 Check whether a data set exists.
 
-## Parameters
+## Parameters {{< permerlink >}} {#reference_zdm_2bw_gq__section.params} 
 
 -   **path**
 

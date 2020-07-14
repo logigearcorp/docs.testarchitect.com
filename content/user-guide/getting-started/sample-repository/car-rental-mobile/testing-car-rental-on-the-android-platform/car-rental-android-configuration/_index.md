@@ -26,4 +26,3 @@ In order for the Car Rental application to run as an AUT on an Android device, t
 After re-signing the Car Rental Android application, you can proceed to install it on an Android device via TestArchitect's **Manage Applications Under Test** dialog box.
 
 
-

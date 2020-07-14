@@ -12,18 +12,18 @@ keywords: "methods of abt, GetItemStates, GetItemStates (AbtToolBar), AbtToolBar
 
 `TAItemState GetItemStates(int index)`
 
-## Description
+## Description {{< permerlink >}} {#abt_GetItemStates__section.desc} 
 
 Retrieve the current state\(s\) of an item in the toolbar.
 
-## Parameters
+## Parameters {{< permerlink >}} {#abt_GetItemStates__section.params} 
 
 -   **index**
 
     Integer index of the item in the toolbar. Note that index numbering begins with 1.
 
 
-## Return Value
+## Return Value {{< permerlink >}} {#abt_GetItemStates__section.return} 
 
 TAItemState object specifying a comma-delimited list of all of the current states of the item. Possible listed values are:
 

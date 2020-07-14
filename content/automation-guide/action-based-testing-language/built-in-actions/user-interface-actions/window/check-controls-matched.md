@@ -42,13 +42,12 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ![](/images/TA_Automation/Images/bia_check_controls_matched_multiple_controls_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_controls_matched_multiple_controls_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_controls_matched_multiple_controls_res.png)
-
 
 

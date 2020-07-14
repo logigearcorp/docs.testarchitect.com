@@ -29,13 +29,12 @@ You can open one or more favorite items in several ways.
         -   One left-click to select a single favorite item.
         -   Shift + left-click to select a contiguous range of favorite items.
         -   Control + left-click to select multiple noncontiguous favorite items.
-    3.  Right-click the selection, and then click **Open** from the context menu.
+    3.  Right-click the selection, and then click Open from the context menu.
 
-        {{<tip>}} You can also click the **Open** button.
+        {{<tip>}} You can also click the Open button.
 
 
 The selected favorite items are opened as new tabs.
-
 
 
 

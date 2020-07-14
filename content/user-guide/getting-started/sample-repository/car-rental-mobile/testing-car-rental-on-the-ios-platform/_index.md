@@ -20,4 +20,3 @@ Before executing tests on an iOS device with the sample Car Rental application, 
 The Car Rental automated test scripts are part of the TestArchitect test suites provided in the sample repository that demonstrate automated testing of the AUT on the iOS platform.
 
 
-

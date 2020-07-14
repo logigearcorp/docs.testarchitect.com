@@ -12,11 +12,11 @@ keywords: "methods of abt, GetItemIndex, GetItemIndex (AbtList), AbtList, getite
 
 `int GetItemIndex(string text)`
 
-## Description
+## Description {{< permerlink >}} {#abt_GetItemIndex_list__section.desc} 
 
 Retrieve the numeric index of a list item by its text content.
 
-## Parameters
+## Parameters {{< permerlink >}} {#abt_GetItemIndex_list__section.params} 
 
 -   **text**
 

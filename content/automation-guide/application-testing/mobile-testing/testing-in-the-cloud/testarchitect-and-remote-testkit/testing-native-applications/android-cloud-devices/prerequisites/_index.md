@@ -18,4 +18,3 @@ TestArchitect Agent is an essential component in allowing TestArchitect to commu
 Installing an AUT on a target cloud device for testing purposes is a two-step process which involves re-signing and installing the application.
 
 
-

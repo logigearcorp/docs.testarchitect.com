@@ -20,4 +20,3 @@ Check the control of the AUT to ensure whether the control can get the focus, an
 
 
 
-

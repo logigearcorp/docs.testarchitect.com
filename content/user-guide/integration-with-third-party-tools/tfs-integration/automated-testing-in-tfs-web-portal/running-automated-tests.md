@@ -27,12 +27,11 @@ keywords:
 
     2.  Choose the appropriate build artifact, release and environment for the testing.
 
-    3.  Click the **OK** button.
+    3.  Click the OK button.
 
 
-**See also**:
+See also:
 
 -   [Run automated tests from test plans](https://docs.microsoft.com/en-us/azure/devops/test/run-automated-tests-from-test-hub?view=vsts)
-
 
 

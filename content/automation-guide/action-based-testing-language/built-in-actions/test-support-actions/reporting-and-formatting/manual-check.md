@@ -10,7 +10,7 @@ keywords: "built-in actions, manual check, manual check (action), asking users f
 
 ## Description
 
-Display a modal dialog box asking user to perform a manual check. Result is Passed ifthe user clicks the **Yes** button displayed in the dialog box; Failed if he/she clicks **No**.
+Display a modal dialog box asking user to perform a manual check. Result is Passed ifthe user clicks the Yes button displayed in the dialog box; Failed if he/she clicks **No**.
 
 ## Arguments
 
@@ -41,14 +41,13 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ![](/images/TA_Automation/Images/bia_manual_check_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_manual_check_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_manual_check_res.png)
-
 
 
 

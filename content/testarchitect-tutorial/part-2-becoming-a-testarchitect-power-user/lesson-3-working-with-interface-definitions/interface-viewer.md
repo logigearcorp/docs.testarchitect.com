@@ -32,15 +32,15 @@ The Interface Viewer enables you to view an application's controls and propertie
 
 ## UI explorer panel
 
-The UI explorer panel displays the open windows of the host environment as a collection of trees. It offers a choice of two views, selectable from the **View** menu:
+The UI explorer panel displays the open windows of the host environment as a collection of trees. It offers a choice of two views, selectable from the View menu:
 
 ![](/images/TA_Tutorials/Images/tut.Interface_Defs.Int_Viewer.UIExpl_views.png "Class and Hierarchy views of the same mapped window.")
 
--   **Class View**
+-   Class View
 
     Default view of the UI explorer panel. It presents each window as a tree. Within each tree, GUI controls and elements are grouped into classes as subnodes of the window node.
 
--   **Hierarchy View**
+-   Hierarchy View
 
     Displays the container relationships between objects \(windows, panels, controls, elements, etc.\) in tree form.
 
@@ -49,7 +49,7 @@ Unmapped controls are indicated with red double-angle brackets ![](/images/TA_Tu
 
 ||||
 |------|------|------|
-|**Icon**|**Meaning**|**View**|
+|Icon|Meaning|View|
 |![](/images/TA_Tutorials/Images/icn.Interface_Viewer.Green_check_mark_on_window.png)|Mapped window|class, hierarchy|
 |![](/images/TA_Tutorials/Images/icn.Interface_Viewer.Green_check_mark.png)|Mapped control/container|class, hierarchy|
 |![](/images/TA_Tutorials/Images/icn.Interface_Viewer.Window.png)|Unmapped window|class, hierarchy|
@@ -60,7 +60,7 @@ Unmapped controls are indicated with red double-angle brackets ![](/images/TA_Tu
 
 ## Properties panel
 
-The Interface Viewer's Properties panel displays the properties and property values of the window or control currently selected in the Process Tree. This panel consists of two tabs: **TA Properties** and**Native Properties**.  For the purposes of interfacing, most users can rely on the `TA` properties of a control and ignore the `Native` properties. Ensure that the property-value pairs displayed in the Properties Panel are taken from an actual UI object in an application, not from any interface entity. 
+The Interface Viewer's Properties panel displays the properties and property values of the window or control currently selected in the Process Tree. This panel consists of two tabs: TA Properties and**Native Properties**.  For the purposes of interfacing, most users can rely on the `TA` properties of a control and ignore the `Native` properties. Ensure that the property-value pairs displayed in the Properties Panel are taken from an actual UI object in an application, not from any interface entity. 
 
 You can edit the values of properties in the Properties panel it is not possible to change the properties of the actual UI controls.
 
@@ -108,4 +108,3 @@ The Properties Comparison panel consists of three fields for each row:
 
 
 [The Interface Viewer](/user-guide/interface-definitions/the-interface-viewer/)
-

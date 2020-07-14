@@ -24,23 +24,23 @@ The primary functions available from the control panel are:
 
 To launch the License Server Control Panel:
 
--   **Windows platform**: do one of the following:
+-   Windows platform: do one of the following:
     -   Double-click the **TestArchitect - License Server** ![](/images/TA_Administration/Images/LS_icon.png) icon in your Windows notification area.
     -   Select **Start Menu** \> **All Programs** \> **TestArchitect** \> **License Server**.
--   **Linux platform**: do one of the following:
+-   Linux platform: do one of the following:
     -   Double-click the **TestArchitect - License Server** ![](/images/TA_Administration/Images/LS_icon.png) icon in your notification area.
     -   From a terminal window, navigate to /usr/local/logigear/licenseserver/licenseserver and run the TestArchitect License Server executable.
--   **macOS**: Note that the TestArchitect License Server is not currently supported on macOS.
+-   macOS: Note that the TestArchitect License Server is not currently supported on macOS.
 
 To launch the License Server Control Panel:
 
--   **Windows platform**: do one of the following:
+-   Windows platform: do one of the following:
     -   Double-click the **TestArchitect - License Server** ![](/images/TA_Administration/Images/LS_icon.png) icon in your Windows notification area.
     -   Select **Start Menu** \> **All Programs** \> **TestArchitect** \> **License Server**.
--   **Linux platform**: do one of the following:
+-   Linux platform: do one of the following:
     -   Double-click the **TestArchitect - License Server** ![](/images/TA_Administration/Images/LS_icon.png) icon in your notification area.
     -   From a terminal window, navigate to /usr/local/logigear/licenseserver/licenseserver and run the TestArchitect License Server executable.
--   **macOS**: Note that the TestArchitect License Server is not currently supported on macOS.
+-   macOS: Note that the TestArchitect License Server is not currently supported on macOS.
 
 ![](/images/TA_Administration/Images/licenseserver_7-1.png)
 
@@ -86,7 +86,7 @@ The information is presented in the form of a tree structure, with nodes grouped
     |[8.3 Update 4](/user-guide/version-history/features-added-to-testarchitect-8-3-update-4/) or earlier|[8.3.4](/administration-guide/license-server/version-history/features-added-to-testarchitect-license-server-8-3-4/) or earlier|Unsupported|
 
 
-## Toolbar
+## Toolbar {{< permerlink >}} {#TA_License_server_interface__section_ms4t_ue8i} 
 
 ![](/images/TA_Administration/Images/licenseserver_8_1.png)
 
@@ -97,7 +97,7 @@ The information is presented in the form of a tree structure, with nodes grouped
 5.  **Convert license**: Click to convert a floating license into a host-based license and vice-versa. \(Refer to [Converting a floating license into a host-based license](/administration-guide/license-server/managing-licenses/license-conversion/converting-a-floating-license-into-a-host-based-license) and [Converting a host-based license into a floating license](/administration-guide/license-server/managing-licenses/license-conversion/converting-a-host-based-license-into-a-floating-license) for details.\)
 6.  [Remove license](/administration-guide/license-server/managing-licenses/removing-licenses): Click this button after selecting a license package node, to remove the licenses from the license server.
 
-    {{<note>}} Use **Remove license** to remove expired license packages.
+    {{<note>}} Use Remove license to remove expired license packages.
 
 7.  [Serve as Redundant License Server](/administration-guide/license-server/managing-the-license-server/creating-a-redundant-license-server): Allows this license server to be designated as a redundant license server for a specified primary license server.
 8.  Refresh display: Updates the display to reflect any changes in status, such as license requests and grants, since the last display.
@@ -105,7 +105,7 @@ The information is presented in the form of a tree structure, with nodes grouped
 10. [Open license log folder](/administration-guide/license-server/license-log-file/): Open the folder containing log files that track license requests submitted to the license server.
 11. View license server help: View help topics related to the TestArchitect license server.
 
-## Status bar
+## Status bar {{< permerlink >}} {#TA_License_server_interface__section_h77q_oh8k} 
 
 The status bar consists of two lines of information. The lower line reports the current state of the license server \(started or stopped\), the name and IP Address of the machine hosting the server, and the port number on which the server listens for license requests. If this machine is part of a primary server / redundant server configuration, the upper line reports the IP address and port number of the related server, and indicates its role \(primary or redundant\).
 
@@ -116,4 +116,3 @@ The status bar consists of two lines of information. The lower line reports the 
 
 
 [Default port numbers and port ranges](/administration-guide/default-port-numbers-and-port-ranges)
-

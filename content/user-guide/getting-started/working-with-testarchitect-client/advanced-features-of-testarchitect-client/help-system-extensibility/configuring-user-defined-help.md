@@ -39,4 +39,3 @@ The mapping file contains pairs of custom actions and their corresponding comman
     -   check login\[MAC\] = open '/Users/John.Doe/Desktop/data\_folder/check\_login.html'
 
 
-

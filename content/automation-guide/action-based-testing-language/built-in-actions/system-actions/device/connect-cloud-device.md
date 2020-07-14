@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, connect cloud device, connect cloud device (action), iOS (action), connect cloud device, Android (action), connect a mobile cloud device, mobile cloud device connection, attach a mobile cloud device"
 ---
 
-## Description
+## Description {{< permerlink >}} {#bia_connect_cloud_device__section_nkt_zth_gy} 
 
 Logically connect to a cloud-based device and make that device the target for the automation.
 
-## Arguments
+## Arguments {{< permerlink >}} {#bia_connect_cloud_device__section_okt_zth_gy} 
 
 -   **name**
 
@@ -23,7 +23,7 @@ Logically connect to a cloud-based device and make that device the target for th
     Variable to hold the returned session ID of the connected cloud device.
 
 
-## Notes
+## Notes {{< permerlink >}} {#bia_connect_cloud_device__section_qkt_zth_gy} 
 
 -   This built-in action applies only to WebDriver based cloud services. \([Learn more](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/).\)
 -   name argument:
@@ -34,7 +34,7 @@ Logically connect to a cloud-based device and make that device the target for th
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Example
+## Example {{< permerlink >}} {#bia_connect_cloud_device__section_wkt_zth_gy} 
 
 Suppose that you'd like to automate mobile web application testing on Chrome in an Android cloud device in [Testdroid](http://docs.testdroid.com/appium/testdroid-desired-caps/), a WebDriver based cloud service.
 
@@ -66,7 +66,7 @@ Suppose that you'd like to automate mobile web application testing on Chrome in 
 
 -   Specify URL Appium server of the given WebDriver based cloud service. For example: Testdroid, the URL Appium server is http://appium.testdroid.com/wd/hub
 
-**Action Lines**
+Action Lines
 
 ```
 //Define desired capabilities
@@ -104,4 +104,3 @@ connect cloud device     Xperia Z                           >>Xperia_Z_sessionID
 [use host machine](/automation-guide/action-based-testing-language/built-in-actions/system-actions/device/use-host-machine)
 
 [disconnect all cloud devices](/automation-guide/action-based-testing-language/built-in-actions/system-actions/device/disconnect-all-cloud-devices)
-

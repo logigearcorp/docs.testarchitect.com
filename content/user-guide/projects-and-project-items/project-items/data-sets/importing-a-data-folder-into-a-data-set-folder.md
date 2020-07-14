@@ -14,7 +14,7 @@ At times, rather than import a single tab-delimited text file to a data set, you
 
 {{<note>}} TestArchitect supports the import of two file types, .csv and .txt, into data sets. These files must contain tab-delimited text lines.
 
--   **Option 1**: To import an external data folder of .csv and/or .txt files into an existing data set folder, perform the following:
+-   Option 1: To import an external data folder of .csv and/or .txt files into an existing data set folder, perform the following:
 
     1.  In the TestArchitect explorer tree, right-click a data set folder node, and then select **Import Data folder**.
 
@@ -38,7 +38,7 @@ At times, rather than import a single tab-delimited text file to a data set, you
         -   **Cancel**: Cancel the selection and return to the Select dialog box.
     Imported data sets appear as nodes beneath the data set folder node.
 
--   **Option 2**: To import an external data folder into a new data set folder.
+-   Option 2: To import an external data folder into a new data set folder.
 
     1.  Right-click the **Data** node in your project, then select **New Data Set Folder**.
 
@@ -61,7 +61,6 @@ At times, rather than import a single tab-delimited text file to a data set, you
         ![](/images/TA_Help/Images/New_data_set_folder_creation.png)
 
     Imported data sets appear as nodes beneath the data set folder node.
-
 
 
 

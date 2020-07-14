@@ -34,4 +34,3 @@ The screenshot below shows a typical comparison of two project items. The elemen
 ![](/images/TA_Help/Images/diff_tool_dlg_2.png)
 
 
-

@@ -12,14 +12,14 @@ TestArchitect provides you the capability to execute tests with multiple remote 
 
 {{<note>}} Applies to TestArchitect 8.4 Update 3 and higher.
 
-**Preconditions**
+Preconditions
 
 -   You are familiar with the Remote Desktop feature.
 -   You have a TestArchitect Client installed on the local computer.
 -   You have Windows Server 2016 or Windows Server 2019 and a TestArchitect Client installed on the remote computer.
 -   Ensure that Access to the remote computer from the local computer is enabled. \([Learn more](https://support.microsoft.com/en-us/help/17463/windows-7-connect-to-another-computer-remote-desktop-connection)\)
 
-**Supported platforms:**
+Supported platforms:
 
 -   WPF
 -   MFC
@@ -38,14 +38,14 @@ TestArchitect provides you the capability to execute tests with multiple remote 
 
     There are three approaches to port number assignment.
 
-    -   **From a command line interface**: Utilize the -port argument in the [command](/user-guide/controller-management/starting-testarchitect-controller-from-a-command-line-interface) that starts TestArchitect Controller.
-    -   **Using the environment variable**: Create the CONTROLLER\_PORT environment variable which holds a port number. When you start TestArchitect Controller on a session without assigning a specific port, TestArchitect automatically assigns CONTROLLER\_PORT to the port of the controller.
+    -   From a command line interface: Utilize the -port argument in the [command](/user-guide/controller-management/starting-testarchitect-controller-from-a-command-line-interface) that starts TestArchitect Controller.
+    -   Using the environment variable: Create the CONTROLLER\_PORT environment variable which holds a port number. When you start TestArchitect Controller on a session without assigning a specific port, TestArchitect automatically assigns CONTROLLER\_PORT to the port of the controller.
 
         In case the port number stored in CONTROLLER\_PORT is occupied, the port number assigned to the controller will automatically be increased by 1 each time until an available port is detected.
 
         ![](/images/TA_Help/Images/CONTROLLER_PORT_env_variable.png)
 
-    -   **Get TestArchitect to choose a port number**: you do not create the CONTROLLER\_PORT environment variable. When you start TestArchitect Controller on a session without assigning a specific port, TestArchitect will automatically choose an available port number for the controller.
+    -   Get TestArchitect to choose a port number: you do not create the CONTROLLER\_PORT environment variable. When you start TestArchitect Controller on a session without assigning a specific port, TestArchitect will automatically choose an available port number for the controller.
 3.  Launch the TestArchitect Client on the local computer.
 
 4.  In the TestArchitect tree explorer, select the preferred test module/suite and press Ctrl + F9 to invoke the Execute Test dialog box.
@@ -65,6 +65,5 @@ TestArchitect provides you the capability to execute tests with multiple remote 
 The **Session Name** and **Session ID** fields will be shown in the General information section of the test results.
 
 ![](/images/TA_Help/Images/Multi_remote_desktop_sessions_test_result.png)
-
 
 

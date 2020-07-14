@@ -49,18 +49,17 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ![](/images/TA_Automation/Images/bia_select_page_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_select_page_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_select_page_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_select_page_effect.png)
-
 
 
 

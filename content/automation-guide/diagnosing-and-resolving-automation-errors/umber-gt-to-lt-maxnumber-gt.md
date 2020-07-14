@@ -20,4 +20,3 @@ Check the slider control on the AUT and enter a new value which is an integer an
 
 
 
-

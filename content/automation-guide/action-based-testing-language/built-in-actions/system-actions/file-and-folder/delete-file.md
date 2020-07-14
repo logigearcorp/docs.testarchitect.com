@@ -40,8 +40,8 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   Observe the following format for the file path:
-    -   **Windows platform**: Use backward slashes as separators for the path.
-    -   **Linux and Android platforms**: Use forward slashes as separators for the path. \(Note that network paths are not supported.\)
+    -   Windows platform: Use backward slashes as separators for the path.
+    -   Linux and Android platforms: Use forward slashes as separators for the path. \(Note that network paths are not supported.\)
 -   Note that this built-in action is not currently supported on the macOS or iOS platforms.
 -   Forced deletion is only successful under certain circumstances in which the program would otherwise have insufficient permission for deletion \(e.g., a read-only file\). However, delete file does not force deletion of a file that has been locked by another process.
 -   A warning is issued if the file specified in file is not found to exist.
@@ -53,11 +53,11 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_delete_file_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_delete_file_res.png)
 
@@ -72,4 +72,3 @@ The following settings are applicable to this action:[remove double quotes from 
 [move file](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/move-file)
 
 [rename file](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/rename-file)
-

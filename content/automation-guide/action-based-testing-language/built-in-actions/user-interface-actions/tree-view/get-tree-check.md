@@ -73,7 +73,7 @@ This action is applicable to the following controls:tree view, tree table, tree 
 
 ![](/images/TA_Automation/Images/bia_get_tree_check_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_tree_check_res.png)
 
@@ -85,7 +85,7 @@ This action is applicable to the following controls:tree view, tree table, tree 
 
 ![](/images/TA_Automation/Images/bia_get_tree_check_index_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_tree_check_index_res.png)
 
@@ -93,4 +93,3 @@ This action is applicable to the following controls:tree view, tree table, tree 
 
 
 [set tree check](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-view/set-tree-check)
-

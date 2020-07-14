@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, send http request, send http request (action), send http request, send http get request, send http post request"
 ---
 
-## Description
+## Description {{< permerlink >}} {#bia_send_http_request__section_iyg_dsd_1y} 
 
 Send an HTTP request to a given resource.
 
-## Arguments
+## Arguments {{< permerlink >}} {#bia_send_http_request__section_jyg_dsd_1y} 
 
 -   **uri**
 
@@ -48,11 +48,11 @@ Send an HTTP request to a given resource.
     Full path of file location to which to save the returned response body on the test machine.
 
 
-## Valid contexts
+## Valid contexts {{< permerlink >}} {#bia_send_http_request__section_kyg_dsd_1y} 
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_send_http_request__section_lyg_dsd_1y} 
 
 -   Supported web services:
     -   [RESTful](http://docs.oracle.com/javaee/6/tutorial/doc/gijqy.html) \(Representational State Transfer architecture\)
@@ -103,19 +103,19 @@ Suppose that you'd like to test a given Google API to send a message to a recipi
     -   Base64url encoded body content: VG86IGxvZ2lnZWFyZXBndGVzdDJAZ21haWwuY29tClN1YmplY3Q6IFRoaXMgaXMgdGVzdCBtYWlsCgpUaGlzIGlzIGEgdGVzdCBtYWls
     -   Request body declared in JSON format \{"raw":"base64url encoded string"\}
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_send_http_request_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_send_http_request_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_send_http_request_effect.png)
 
-## Example - Case 2: Testing SOAP over HTTP-based web services
+## Example - Case 2: Testing SOAP over HTTP-based web services {{< permerlink >}} {#bia_send_http_request__section_tyg_cp3_5z} 
 
 Suppose that you'd like to test a given API of the GlobalWeather web service to get all major cities by a specific country name.
 
@@ -143,7 +143,7 @@ Suppose that you'd like to test a given API of the GlobalWeather web service to 
     ```
 
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_send_http_request_soap_pgm.png)
 
@@ -153,7 +153,7 @@ Suppose that you'd like to test a given API web service to return an image throu
 
 -   Full path of file location to which to save the returned response body on the test machine: D:\\TestData\\tmp\\testfile.png
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_send_http_request_response_file_pgm.png)
 
@@ -164,4 +164,3 @@ Suppose that you'd like to test a given API web service to return an image throu
 
 
 [Testing web services](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-services/)
-

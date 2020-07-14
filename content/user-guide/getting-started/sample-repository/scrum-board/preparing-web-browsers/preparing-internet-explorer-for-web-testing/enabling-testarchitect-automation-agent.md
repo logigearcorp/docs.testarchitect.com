@@ -28,4 +28,3 @@ To enable the TestArchitect Automation Agent in Internet Explorer:
 The TestArchitect Automation Agent is now enabled in Internet Explorer.
 
 
-

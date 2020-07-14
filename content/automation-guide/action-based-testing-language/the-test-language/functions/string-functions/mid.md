@@ -35,14 +35,13 @@ Returns a string containing len characters from string str, beginning at startLo
 
 ## Example
 
-**Test Lines**
+Test Lines
 
 ![](/images/TA_Automation/Images/automationguide_stringfunction_mid_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/automationguide_stringfunction_mid_res.png)
-
 
 
 

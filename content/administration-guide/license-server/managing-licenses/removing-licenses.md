@@ -22,13 +22,13 @@ To remove a set of licenses:
 
 1.  On the license server machine, launch the License Server Control Panel:
 
-    -   **Windows platform**: do one of the following:
+    -   Windows platform: do one of the following:
         -   Double-click the **TestArchitect - License Server** ![](/images/TA_Administration/Images/LS_icon.png) icon in your Windows notification area.
         -   Select **Start Menu** \> **All Programs** \> **TestArchitect** \> **License Server**.
-    -   **Linux platform**: do one of the following:
+    -   Linux platform: do one of the following:
         -   Double-click the **TestArchitect - License Server** ![](/images/TA_Administration/Images/LS_icon.png) icon in your notification area.
         -   From a terminal window, navigate to /usr/local/logigear/licenseserver/licenseserver and run the TestArchitect License Server executable.
-    -   **macOS**: Note that the TestArchitect License Server is not currently supported on macOS.
+    -   macOS: Note that the TestArchitect License Server is not currently supported on macOS.
 2.  Select the node that represents the license set.
 
 3.  Right-click the node, then select **Remove License**.
@@ -64,6 +64,5 @@ To remove a set of licenses:
 
 
 {{<tip>}} This operation is reversible. If the set of licenses has not yet expired, you can reuse and reinstall the same licenses that you had previously. However, you may only reinstall those licenses to the same license server.
-
 
 

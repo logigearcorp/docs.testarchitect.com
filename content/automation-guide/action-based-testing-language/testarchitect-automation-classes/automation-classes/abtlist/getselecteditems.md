@@ -12,18 +12,18 @@ keywords: "methods of abt, GetSelectedItems, GetSelectedItems (AbtList), AbtList
 
 `string[] GetSelectedItems( string delim)`
 
-## Description
+## Description {{< permerlink >}} {#abt_GetSelectedItems__section.desc} 
 
 Retrieve the text content of each of the the selected items in the list view.
 
-## Parameters
+## Parameters {{< permerlink >}} {#abt_GetSelectedItems__section.params} 
 
 -   **delim**
 
     String value used within each returned string array element to delimit the values of each field of the returned list item.
 
 
-## Return Value
+## Return Value {{< permerlink >}} {#abt_GetSelectedItems__section.return} 
 
 Returns an array of strings, each containing the text content of a selected list item. Field values within each array element are separated by the specified delimiter.
 

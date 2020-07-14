@@ -12,11 +12,11 @@ keywords: "methods of abt, BringToTop, BringToTop (AbtEntity), AbtEntity, bringt
 
 `long BringToTop()`
 
-## Description
+## Description {{< permerlink >}} {#abt_BringToTop__section.desc} 
 
 Activate the window and give it focus.
 
-## Return Value
+## Return Value {{< permerlink >}} {#abt_BringToTop__section.return} 
 
 Return 0 if successful; otherwise, -1.
 

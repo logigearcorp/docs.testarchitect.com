@@ -53,11 +53,11 @@ This action is applicable to the following controls:toolbar.
 
 ![](/images/TA_Automation/Images/bia_check_toolbar_button_not_exists_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_toolbar_button_not_exists_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_toolbar_button_not_exists_res.png)
 
@@ -65,11 +65,11 @@ This action is applicable to the following controls:toolbar.
 
 ![](/images/TA_Automation/Images/bia_check_toolbar_button_not_exists_index_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_toolbar_button_not_exists_index_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_toolbar_button_not_exists_index_res.png)
 
@@ -82,4 +82,3 @@ This action is applicable to the following controls:toolbar.
 [check toolbar button exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/check-toolbar-button-exists)
 
 [does toolbar button exist](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/does-toolbar-button-exist)
-

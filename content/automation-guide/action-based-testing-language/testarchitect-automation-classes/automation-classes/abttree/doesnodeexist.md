@@ -12,11 +12,11 @@ keywords: "methods of abt, DoesNodeExist, DoesNodeExist (AbtTree), AbtTree, does
 
 `Boolean DoesNodeExist(string nodepath)`
 
-## Description
+## Description {{< permerlink >}} {#abt_DoesNodeExist__section.desc} 
 
 Determine whether a specified tree node path exists.
 
-## Parameters
+## Parameters {{< permerlink >}} {#abt_DoesNodeExist__section.params} 
 
 -   **nodepath**
 
@@ -27,7 +27,7 @@ Determine whether a specified tree node path exists.
     -   A string containing all node texts separated by forward slashes \( / \).
     -   A string containing all node indexes separated by forward slashes \( / \).
 
-## Return Value
+## Return Value {{< permerlink >}} {#abt_DoesNodeExist__section.return} 
 
 Return TRUE ifthe node path exists; otherwise, FALSE.
 

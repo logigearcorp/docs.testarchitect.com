@@ -16,11 +16,11 @@ The test editor typically looks something like this:
 
 ![](/images/TA_Help/Images/Test_Editor.png)
 
-## Navigation
+## Navigation {{< permerlink >}} {#Test_editor_basics__section.intelligent_nav} 
 
 The editor is designed to facilitate the creation of action-based tests, though in many ways it behaves comparably to other spreadsheet applications, such as Microsoft Excel™. You can move the cell pointer with the standard keyboard commands as follows:
 
-|**Key**|**Description**|
+|Key|Description|
 |-------|---------------|
 |Arrow keys|Move the cell pointer up, down, left and right.|
 |Tab|Advance the cell pointer to the next cell in the column on the right.|
@@ -162,4 +162,3 @@ The height of rows and the width of columns may be adjusted by dragging the sepa
 
 
 [Working with TestArchitect Client](/user-guide/getting-started/working-with-testarchitect-client/)
-

@@ -49,15 +49,15 @@ This action is applicable to the following controls:tree view, tree table, tree 
 
 ## Example - Case 1: Using a text value for node
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_collapse_tree_node_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_collapse_tree_node_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_collapse_tree_node_aut2.png)
 
@@ -69,11 +69,11 @@ This action is applicable to the following controls:tree view, tree table, tree 
 
 ![](/images/TA_Automation/Images/bia_collapse_tree_node_index_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_collapse_tree_node_index_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_collapse_tree_node_aut2.png)
 
@@ -81,4 +81,3 @@ This action is applicable to the following controls:tree view, tree table, tree 
 
 
 [expand tree node](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-view/expand-tree-node)
-

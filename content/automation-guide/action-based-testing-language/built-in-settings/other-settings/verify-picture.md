@@ -37,10 +37,9 @@ yes
 
 ## Example
 
-**Test Lines**
+Test Lines
 
 ![](/images/TA_Automation/Images/bis_verify_picture_pgm_3.png)
-
 
 
 

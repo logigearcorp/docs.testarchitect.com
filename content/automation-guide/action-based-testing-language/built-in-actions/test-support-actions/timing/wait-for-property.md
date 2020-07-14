@@ -52,14 +52,13 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ![](/images/TA_Automation/Images/bia_wait_for_property_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_wait_for_property_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_wait_for_property_res.png)
-
 
 
 

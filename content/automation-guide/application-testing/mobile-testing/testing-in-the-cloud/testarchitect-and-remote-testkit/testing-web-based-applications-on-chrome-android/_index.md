@@ -19,4 +19,3 @@ Explains general workflow to test mobile web applications on Android cloud devic
 
 
 
-

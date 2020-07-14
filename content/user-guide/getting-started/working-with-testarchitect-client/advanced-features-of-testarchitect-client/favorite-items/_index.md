@@ -42,4 +42,3 @@ Use the **Favorite** list view if you need to remove a favorite item or multiple
 [Logging in to a repository](/user-guide/getting-started/working-with-repositories/logging-in-to-a-repository)
 
 [Favorite list view](/user-guide/projects-and-project-items/project-items/list-view/favorite-list-view/)
-

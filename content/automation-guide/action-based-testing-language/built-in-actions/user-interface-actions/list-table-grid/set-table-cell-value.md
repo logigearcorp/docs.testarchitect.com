@@ -53,15 +53,15 @@ This action is applicable to the following controls:table, list view.
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_set_table_cell_value_pgm1.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_set_table_cell_value_res1.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_set_table_cell_value_aut1.png)
 
@@ -71,4 +71,3 @@ This action is applicable to the following controls:table, list view.
 [check table cell value](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/check-table-cell-value)
 
 [get table cell value](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/get-table-cell-value)
-

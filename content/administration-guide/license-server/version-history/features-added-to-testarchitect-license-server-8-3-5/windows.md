@@ -10,10 +10,9 @@ keywords: "Release Notes 8.3.5, License Server, Windows, What is new, Windows, L
 
 The following new features and improvements are introduced in the latest version of TestArchitect License Server running on Windows.
 
-## License Server
+## License Server {{< permerlink >}} {#concept_what_new_8.3_Windows__section_LS} 
 
-**New features**
+New features
 
--   **Support for the TestArchitect image on Docker**: Every licensed machine is now presented by its computer name and IP address followed by session ID.
-
+-   Support for the TestArchitect image on Docker: Every licensed machine is now presented by its computer name and IP address followed by session ID.
 

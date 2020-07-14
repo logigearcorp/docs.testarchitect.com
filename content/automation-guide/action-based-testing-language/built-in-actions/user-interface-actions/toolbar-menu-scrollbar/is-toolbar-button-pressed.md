@@ -67,11 +67,11 @@ This action is applicable to the following controls:toolbar.
 
 ![](/images/TA_Automation/Images/bia_is_toolbar_button_pressed_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_is_toolbar_button_pressed_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_is_toolbar_button_pressed_res.png)
 
@@ -79,14 +79,13 @@ This action is applicable to the following controls:toolbar.
 
 ![](/images/TA_Automation/Images/bia_is_toolbar_button_pressed_index_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_is_toolbar_button_pressed_index_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_is_toolbar_button_pressed_index_res.png)
-
 
 
 

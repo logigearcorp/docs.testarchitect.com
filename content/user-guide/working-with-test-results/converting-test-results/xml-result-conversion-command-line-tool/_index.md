@@ -10,7 +10,7 @@ keywords: "test results, XML Result Conversion, results"
 
 Converts all test results belonging to a given repository into XML test result format. Note that, run this tool on the repository server machine.
 
-## Synopsis
+## Synopsis {{< permerlink >}} {#concept_n3p_1z3_xx__section_smx_jgj_xx} 
 
 -   Windows:
 

@@ -21,4 +21,3 @@ If you do not see the device you want to register in Lab Manger, there are two m
 2.  The desired device is already registered to your Lab Manager session.
 
 
-

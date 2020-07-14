@@ -45,17 +45,16 @@ This action is applicable to the following controls:spin
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_spin_down_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_spin_down_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_spin_down_aut.png)
-
 
 

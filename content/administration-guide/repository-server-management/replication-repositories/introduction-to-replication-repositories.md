@@ -22,11 +22,10 @@ A primary/replication-repository configuration offers a better solution: Each te
 
 The significant functions related to primary/replication-repositories are:
 
--   **Establishing a repository as a replication repository**: Importing a repository to create a replication repository.
--   **Synchronizing data**: The synchronization process between primary and replication repositories is a two-way process. Each modification made on the primary repository is synchronized with the replication repository, and vice-versa.
--   **Breaking a primary/replication-repository relationship**: There are two categories of disconnections:
+-   Establishing a repository as a replication repository: Importing a repository to create a replication repository.
+-   Synchronizing data: The synchronization process between primary and replication repositories is a two-way process. Each modification made on the primary repository is synchronized with the replication repository, and vice-versa.
+-   Breaking a primary/replication-repository relationship: There are two categories of disconnections:
     -   Removing a replication repository from a primary/replication-repository relationship
     -   Removing a primary repository from a primary/replication-repository relationship
-
 
 

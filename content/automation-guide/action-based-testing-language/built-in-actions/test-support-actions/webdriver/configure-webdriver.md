@@ -8,7 +8,7 @@ aliases:
 keywords: "built-in actions, configure webdriver, configure webdriver (action), configure webdriver"
 ---
 
-## Description
+## Description {{< permerlink >}} {#reference_vk2_yzk_zdb__section_ofx_fbl_zdb} 
 
 Set up an advanced test environment where you are going to run tests with WebDriver. \(Learn more about [Webdriver](https://www.w3.org/TR/webdriver/)\)
 
@@ -18,14 +18,14 @@ Set up an advanced test environment where you are going to run tests with WebDri
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Arguments
+## Arguments {{< permerlink >}} {#reference_vk2_yzk_zdb__section_uqp_4bl_zdb} 
 
 -   **values**
 
     Set of keys and values, in JSON format, sent by the client to describe the capabilities that a new session created by the server should possess
 
 
-## Example
+## Example {{< permerlink >}} {#reference_vk2_yzk_zdb__section_zt3_12l_zdb} 
 
 Suppose that we 'd like to launch Chrome in headless and webdriver mode. The desired capabilities should resemble the following:
 
@@ -39,7 +39,7 @@ Suppose that we 'd like to launch Chrome in headless and webdriver mode. The des
     -   args: list of command-line arguments to use when starting Chrome.
         -   --headless: Run in headless mode, i.e., without a UI or display server dependencies.
 
-**Action lines**
+Action lines
 
 ![](/images/TA_Automation/Images/bia_configure_webdriver.png)
 
@@ -57,6 +57,5 @@ Besides, in GWD mode, you can decide whether or not to keep the browser open aft
 Additionally, you can use the Start-up settings to configure the cleanup. Click [here](/automation-guide/diagnosing-and-resolving-automation-errors/using-start-up-setting-for-configure-cleanup-key#) for more information.
 
 {{<important>}} The purpose of keeping the browser open is to help you to debug your test. Using it may cause some problems related to headless mode, multi-execution, un-rent devices, etc. Please be aware of this before using this setting.
-
 
 

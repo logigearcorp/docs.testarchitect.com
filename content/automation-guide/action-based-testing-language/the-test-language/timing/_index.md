@@ -56,4 +56,3 @@ The click action is expected to trigger a response from the AUT in which the Log
 
 
 [Built-in settings](/automation-guide/action-based-testing-language/built-in-settings/)
-

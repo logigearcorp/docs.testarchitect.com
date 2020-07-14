@@ -26,7 +26,7 @@ Every UI element of an AUT has both a class and a set of properties. Property se
 
 {{<note>}} During creation of interfaces, you have the option of determining which properties to use to identify controls and windows. [However, as described in a later topic](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-3-working-with-interface-definitions/interface-viewer), TestArchitect has built-in intelligence to select the minimum number of properties necessary to identify controls and windows during playback, thus relieving you of that burden.
 
-## Interface entities
+## Interface entities {{< permerlink >}} {#Interface_entities_and_elements__section.Interface_entity} 
 
 An interface entity, when opened in TestArchitect Client, appears as a worksheet in the test editor. It acts as a container for two types of actions: interface entity setting actions, which appear at the top, and interface element actions.
 

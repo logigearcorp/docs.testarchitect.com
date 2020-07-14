@@ -16,7 +16,7 @@ Suppose that you need to test the website `www.google.com` on different types of
 
 You may ask: *Do I need different interface definitions for each of Internet Explorer, Firefox and Chrome?*
 
-**Solution**: No, you do *not* need to capture three interface definitions for each browser. Simply use a wildcard \(\{.\*\}\) to allow for the differences between browsers.
+Solution: No, you do *not* need to capture three interface definitions for each browser. Simply use a wildcard \(\{.\*\}\) to allow for the differences between browsers.
 
 1.  Capturing HTML pages \(windows\):
 
@@ -39,5 +39,4 @@ You may ask: *Do I need different interface definitions for each of Internet Exp
     -   If the unique properties do not have same or similar values across browsers, you can use Variations. Refer to [Variations](/user-guide/variations/) to learn how to create a variation and run the same test modules across different browsers/platforms.
 
 {{<tip>}} In order to launch a specific browser from your test, use the [use browser](/automation-guide/action-based-testing-language/built-in-settings/other-settings/use-browser) built-in setting.
-
 

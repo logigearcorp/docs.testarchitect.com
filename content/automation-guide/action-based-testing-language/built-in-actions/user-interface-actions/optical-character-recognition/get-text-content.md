@@ -62,7 +62,7 @@ The following settings are applicable to this action:[case sensitive](/automatio
 -   This built-in action always employs the [Graphics Device Interface](/automation-guide/action-based-testing-language/the-test-language/text-recognition-techniques) \(GDI\) technique. In other words, [Optical Character Recognition](/automation-guide/action-based-testing-language/the-test-language/text-recognition-techniques) \(OCR\) technique is not available for this action.
 -   drawing function argument:
     -   By default, when the argument's value is omitted, this built-in action automatically employs all available drawing functions. This might significantly cause a performance issue, since every drawing function will be in turn verified.
-    -   To determine which exact drawing functions should be employed to enhance automation performance, use the **Text Recognition** feature available in the Interface Viewer. \([Learn more](/user-guide/interface-definitions/the-interface-viewer/other-functionalities/text-recognition-interface-viewer).\)
+    -   To determine which exact drawing functions should be employed to enhance automation performance, use the Text Recognition feature available in the Interface Viewer. \([Learn more](/user-guide/interface-definitions/the-interface-viewer/other-functionalities/text-recognition-interface-viewer).\)
 -   variable argument:
     -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
     -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
@@ -72,16 +72,15 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ![](/images/TA_Automation/Images/bia_get_text_content_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_text_content_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_text_content_res.png)
 
 From the result, we can see that the Administration text is drawn by two functions including ExtTextOutA and ExtTextOutW.
-
 
 
 

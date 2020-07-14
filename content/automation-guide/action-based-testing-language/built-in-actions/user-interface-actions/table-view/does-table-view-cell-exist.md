@@ -51,7 +51,7 @@ Return a Boolean value to indicate whether the specified table view cell is foun
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_does_table_view_cell_exist__section_tll_j2y_mk} 
 
 -   This built-in action applies only to the iOS operating system.
 -   index argument: Note that index numbering begins with 1.
@@ -72,11 +72,11 @@ This action is applicable to the following controls:table view.
 
 ![](/images/TA_Automation/Images/bia_does_table_view_cell_exist_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_does_table_view_cell_exist_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_does_table_view_cell_exist_res.png)
 
@@ -84,14 +84,13 @@ This action is applicable to the following controls:table view.
 
 ![](/images/TA_Automation/Images/bia_does_table_view_cell_exist_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_does_table_view_cell_exist_2_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_does_table_view_cell_exist_2_res.png)
-
 
 
 

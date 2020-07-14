@@ -38,7 +38,7 @@ In all the above cases, the scope of a given local variable or action argument m
 
 -   Within any given section of a test module or its subordinate actions, when two or more variables of the same name might, individually, have visibility, it is the variable with the most localized scope that is visible at any given point. That is, if test module A has declared local variable x, then calls action B, which also declares local variable x, two instantiations of x exist; action B works with its own copy of x, which disappears after control is returned to test module A.
 
-## Scope Binding
+## Scope Binding {{< permerlink >}} {#the_test_language_variables__section.variables} 
 
 TestArchitect supports both dynamic scoping and lexical scoping of local variables and arguments. In both types, the above rules for the scope of local variables and arguments still apply. Where they differ is in the applicability of scope to called actions.
 
@@ -68,9 +68,9 @@ The scope of a variable determines its lifetime and visibility. TestArchitect su
     {{<note>}} The name of the local variable inside the [use data set](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/use-data-set)-[repeat for data set](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/repeat-for-data-set) block cannot be the same as the name of the data set columns.
 
 -   **Test case scope:** A local variable declared within a test case is not available outside of that test case.
--   **Test module scope**: A local variable declared within a test module is not visible outside of that test module. If it is declared within the [`INITIAL`](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/documentary/initial) section of the test module, it is visible in every test cases of the module.
--   **Action scope**: A local variable declared in an action is not visible outside of that action.
--   **Global scope**: During run time, a global variable is visible throughout all sections in the current test module/action *subsequent* to its declaration. Use the [global variable](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/value-handling/global-variable) action to declare a global variable.
+-   Test module scope: A local variable declared within a test module is not visible outside of that test module. If it is declared within the [`INITIAL`](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/documentary/initial) section of the test module, it is visible in every test cases of the module.
+-   Action scope: A local variable declared in an action is not visible outside of that action.
+-   Global scope: During run time, a global variable is visible throughout all sections in the current test module/action *subsequent* to its declaration. Use the [global variable](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/value-handling/global-variable) action to declare a global variable.
 
 Using local variables is a good choice for holding temporary values, especially for calculations. Local variables consume memory only when the entity \(test module, test case, or action\) containing them executes. This memory is reclaimed when the TestArchitect interpreter passes outside of the scope of the variable. By contrast, global variables consume memory resources until the entire execution ends.
 
@@ -103,4 +103,3 @@ TestArchitect 7.22.1 maintains support for the set variable action.
 
 
 [set variable](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/value-handling/set-variable)
-

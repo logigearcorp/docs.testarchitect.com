@@ -8,11 +8,11 @@ aliases:
 keywords: "methods of abt, GetLastError, GetLastError (AbtAutomation), AbtAutomation, getlasterror, get the last automation error, retrieve the last automation error"
 ---
 
-## Syntax
+## Syntax {{< permerlink >}} {#abt_GetLastError__section.syntax} 
 
 `int GetLastError()`
 
-## Description
+## Description {{< permerlink >}} {#abt_GetLastError__section.desc} 
 
 Retrieves the last automation error.
 
@@ -20,7 +20,7 @@ Retrieves the last automation error.
 
 There are no parameters for this function.
 
-## Return Value
+## Return Value {{< permerlink >}} {#abt_GetLastError__section.return} 
 
 Returns the most recent error code.
 

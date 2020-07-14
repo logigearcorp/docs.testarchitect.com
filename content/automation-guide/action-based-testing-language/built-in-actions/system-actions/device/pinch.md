@@ -57,14 +57,14 @@ Simulate the placing of two fingers on the device surface, followed by the finge
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## Applicable Systems/Platforms {{< permerlink >}} {#bia_iOS_pinch__section_hqw_kcl_zcb} 
 
 Use of this action is supported on the following systems/platforms: Mobile operating systems.
 
 ## Notes
 
 -   **Pinch-in gesture**: Finger 1 starts at \(x1, y1\), finger 2 at \(x2, y2\). Both fingers are drawn toward each other at equal speed \(as determined by duration\), and converge at the midpoint.
--   **Pinch-out gesture**: Fingers 1 and 2 both start at point \(x1, y1\). With finger 1 remaining stationary, finger 2 slides over to finish at point \(x2, y2\), at a speed determined by duration.
+-   Pinch-out gesture: Fingers 1 and 2 both start at point \(x1, y1\). With finger 1 remaining stationary, finger 2 slides over to finish at point \(x2, y2\), at a speed determined by duration.
 -   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/automation-guide/action-based-testing-language/built-in-actions/system-actions/operating-system/get-screen-resolution#li.ios.get_screen_resolution).\)
 -   For Android versions 4.0 and later, it is essential that you turn off the Pointer Location setting to prevent your device from restarting. Pointer Location is available at: **Settings** \> **Developer options** \> **Pointer location**.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
@@ -83,7 +83,7 @@ In the application, pinch the tomato and papaya towards each other.
 
 ![](/images/TA_Automation/Images/bia_pinch_close.jpg)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_pinch_open_pgm.r02.png)
 
@@ -92,4 +92,3 @@ In the application, pinch the tomato and papaya towards each other.
 
 {{<anchor fn.iOS_screen_units >}}
 1 In the case of iOS device testing, screen units are points. \(See Notes.\)
-

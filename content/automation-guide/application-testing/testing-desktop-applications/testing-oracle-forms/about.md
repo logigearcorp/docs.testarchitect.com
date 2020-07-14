@@ -14,7 +14,7 @@ In TestArchitect, you can create and run tests for Oracle Forms. TestArchitect r
 
 TestArchitect recognizes UI windows and [controls](/automation-guide/application-testing/testing-desktop-applications/testing-oracle-forms/controls-support) of Oracle Forms and provides [built-in actions](/automation-guide/application-testing/testing-desktop-applications/testing-oracle-forms/built-in-action-support) for simulating user actions on them.
 
-## Supported Oracle Forms versions
+## Supported Oracle Forms versions {{< permerlink >}} {#concept_mj4_h24_mcb__section_fmz_4f4_mcb} 
 
 -   You can test applets created with the following versions of Oracle Forms:
     -   Oracle Forms 11gR2
@@ -27,6 +27,5 @@ TestArchitect recognizes UI windows and [controls](/automation-guide/application
 In order to be able to capture the unique name property of Oracle Forms controls in the [Interface Viewer](/user-guide/interface-definitions/the-interface-viewer/) and perform automation testing, you are first required to enable the name property, supplied by the Oracle Applications server. \([Learn more](/automation-guide/application-testing/testing-desktop-applications/testing-oracle-forms/enabling-the-unique-name-property).\)
 
 {{<note>}} The availability of the name property depends on whether your Oracle Server supplies it or not. \([Learn more](https://admhelp.microfocus.com/uft/en/14.02/UFT_Help/Content/Addins_Guide/Verifying_OracleServer_UniqueName_Attributes.htm).\)
-
 
 

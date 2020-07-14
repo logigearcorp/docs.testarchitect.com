@@ -77,4 +77,3 @@ You will train the system by establishing optimal settings for detecting text du
 If your text of interest is unrecognizable or improperly recognized, try using the [OCR advanced settings](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/ocr-detector-tool/ocr-advanced-settings).
 
 
-

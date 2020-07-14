@@ -45,7 +45,7 @@ Increment the value of a stepper control by a specified number of taps.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_tap_stepper_button__section_tll_j2y_mk} 
 
 -   This built-in action applies only to the iOS operating system.
 
@@ -61,16 +61,15 @@ This action is applicable to the following controls:stepper.
 
 ![](/images/TA_Automation/Images/bia_tap_stepper_button_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_tap_stepper_button_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_tap_stepper_button_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_tap_stepper_button_effect.png)
-
 

@@ -14,7 +14,7 @@ When a project item is continuously modified over time, there is often a need to
 
 You can choose between either of the two following methods to compare two historical revisions of a given project item:
 
--   **Option 1**: To compare two arbitrary past revisions of a project item, invoke the Diff Tool from the Revision History dialog box.
+-   Option 1: To compare two arbitrary past revisions of a project item, invoke the Diff Tool from the Revision History dialog box.
 
     {{<note>}} Using this approach, you may:
 
@@ -36,7 +36,7 @@ You can choose between either of the two following methods to compare two histor
 
         {{<tip>}} If at any time you wish to view the current reference item in the test editor, right-click any item in the list \(it doesn't matter which\), and then select **Diff Tool** \> **Go to Marked Item**.
 
--   **Option 2**: This approach lets you compare your current version of a project item against the most recently checked-in revision.
+-   Option 2: This approach lets you compare your current version of a project item against the most recently checked-in revision.
 
     {{<note>}} Differences between the two items will exist only if your current version of the project item has changes which have not yet been checked in.
 
@@ -50,6 +50,5 @@ The Diff Tool window appears, with the two items displayed in side-by-side panel
 The screenshot below shows a comparison of two revisions of a project item. The UI elements of the window are described in more detail in [Diff Tool dialog box](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/diff-tool/diff-tool-for-project-items/#section.Diff_tool_GUI).
 
 ![](/images/TA_Help/Images/diff_tool_1.png)
-
 
 

@@ -8,7 +8,7 @@ aliases:
 keywords: "Oracle Forms testing, enable name property"
 ---
 
-This task describes the way in which you can enable the **name** property supplied by the Oracle Applications server before using TestArchitect to test Oracle Forms.
+This task describes the way in which you can enable the name property supplied by the Oracle Applications server before using TestArchitect to test Oracle Forms.
 
 {{<note>}} Applies to TestArchitect [8.3 Update 5](/user-guide/version-history/features-added-to-testarchitect-8-3-update-5/) and higher.
 
@@ -38,7 +38,7 @@ Set up the following system profile option at \(your\) user level to enable the 
 
 4.  Copy the value from the **Site** box of the ICX: Forms Launcher profile, and paste it in the **User** box.
 
-5.  In the **User** box, add `play=&record=names` to the end of the URL.
+5.  In the User box, add `play=&record=names` to the end of the URL.
 
     ![](/images/TA_Automation/Images/OracleForms_system_profiles_values_dlg.png)
 
@@ -53,8 +53,7 @@ Set up the following system profile option at \(your\) user level to enable the 
 
     ![](/images/TA_Automation/Images/unique_name_OracleForms.png)
 
--   The figure above shows how the name property of the **Description** text field looks like in the Interface Viewer. Usually name is displayed in capital letters in the format `FORM:BLOCK:FIELD` or `FORM_BLOCK_FIELD`.
-
+-   The figure above shows how the name property of the Description text field looks like in the Interface Viewer. Usually name is displayed in capital letters in the format `FORM:BLOCK:FIELD` or `FORM_BLOCK_FIELD`.
 
 
 

@@ -11,16 +11,16 @@ keywords: "expressions, working with, variables"
 
 Explores how constants, variables, and operations are combined to form expressions that can be included in your tests. Through careful use of variables and expressions, your tests can be flexible, modular, powerful, and compact.
 
-**Audience:** Testers, Automation engineers
+Audience: Testers, Automation engineers
 
-**Prerequisites:**
+Prerequisites:
 
 -   Basic understanding of the TestArchitect user interface
 -   Familiarity with the TestArchitect test editor
 -   Essential understanding of TestArchitect repositories, projects, and tests
 -   Basic understanding of basic computer programming concepts
 
-**What you will learn:**
+What you will learn:
 
 -   How variables are used to store different types of data
 -   How expressions are formed from numeric and string operations
@@ -47,7 +47,6 @@ Use numeric and string variables, as well as constants, in your mixed expression
 9.  [Using wildcards](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-5-working-with-variables-and-expressions/using-wildcards)  
 Use a wildcard to allow a check action to match a range of dates.
 10. [Summary: What you learned](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-5-working-with-variables-and-expressions/summary-what-you-learned)  
-
 
 
 

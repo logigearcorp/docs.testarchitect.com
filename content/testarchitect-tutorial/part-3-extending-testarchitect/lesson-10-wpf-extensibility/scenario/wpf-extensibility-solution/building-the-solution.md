@@ -16,7 +16,7 @@ To build the DLL file \(for example, WpfExtensionSample\) for the Extension proj
 
 1.  In Solution Explorer, right-click WpfExtensionSample.
 
-2.  Select **Build** from the context menu.
+2.  Select Build from the context menu.
 
     The DLL file will be created in the location you specified for the WpfExtensionSample project in the [earlier step](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-10-wpf-extensibility/scenario/wpf-extensibility-solution/creating-an-extension#step_z5w_p23_jm).
 
@@ -27,7 +27,6 @@ To build the DLL file \(for example, WpfExtensionSample\) for the Extension proj
 5.  Copy the generated DLL file into C:\\Users\\Public\\LogiGear\\TestArchitect\\wpf\\extensions.
 
     This is the location where TestArchitect loads all extensions \(\*.DLL files\).
-
 
 
 

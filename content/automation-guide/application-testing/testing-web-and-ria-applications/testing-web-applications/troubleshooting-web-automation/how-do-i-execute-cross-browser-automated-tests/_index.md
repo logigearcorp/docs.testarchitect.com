@@ -8,7 +8,7 @@ aliases:
 keywords: "FAQ, cross-browser testing, variations"
 ---
 
-**A**: TestArchitect provides a [Variations](/user-guide/variations/) feature that makes creating cross-browser tests easier. Additionally, the [Scrum Board](/user-guide/getting-started/sample-repository/scrum-board/) sample project is provided when you install TestArchitect to help you understand how to use [Variations](/user-guide/variations/) in creating cross-browser tests.
+A: TestArchitect provides a [Variations](/user-guide/variations/) feature that makes creating cross-browser tests easier. Additionally, the [Scrum Board](/user-guide/getting-started/sample-repository/scrum-board/) sample project is provided when you install TestArchitect to help you understand how to use [Variations](/user-guide/variations/) in creating cross-browser tests.
 
 {{<note>}} Supported browsers are Internet Explorer, Mozilla Firefox and Google Chrome.
 
@@ -22,5 +22,4 @@ How to create different types of browser platforms to support cross-browser test
 After creating different types of browsers, you need to link your interfaces/actions to the browsers.
 4.  [Execute a test with variations](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/troubleshooting-web-automation/how-do-i-execute-cross-browser-automated-tests/execute-a-test-with-variations)  
 Execute your cross-browser web automated test.
-
 

@@ -12,11 +12,11 @@ keywords: "methods of abt, MoveMouse, MoveMouse (AbtElement), AbtElement, movemo
 
 `long MoveMouse(int x, int y)`
 
-## Description
+## Description {{< permerlink >}} {#abt_MoveMouse_element__section.desc} 
 
 Move the mouse pointer to the designated position inside theelement.
 
-## Parameters
+## Parameters {{< permerlink >}} {#abt_MoveMouse_element__section.params} 
 
 -   **x**
 
@@ -27,7 +27,7 @@ Move the mouse pointer to the designated position inside theelement.
     Vertical position of mouse pointer, specified as distance in pixels from top edge of the element.
 
 
-## Return Value
+## Return Value {{< permerlink >}} {#abt_MoveMouse_element__section.return} 
 
 Return 0 if the call is successful \(as reported back by the operating system\); otherwise, -1.
 

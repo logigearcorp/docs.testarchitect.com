@@ -10,7 +10,7 @@ keywords: "test results, customize layout, results, customize XML layout, XML re
 
 In order to customize the layout of XML test results, you are required to edit XSLT style sheets.
 
-## **Displaying XML with XSLT**
+## Displaying XML with XSLT
 
 XSLT is the style sheet language for XML. With XSLT you can add/remove elements and attributes to or from the XML result files. You can also rearrange and sort elements, and make decisions about which elements to hide and display in the XML results, and a lot more. \([Learn more](http://www.w3schools.com/xml/xml_xslt.asp).\)
 
@@ -36,7 +36,6 @@ Explain steps to remove the **Result Details** tab in test results.
 Explain steps to change date format in test results.
 3.  [Adjusting the number of truncated iterations and pagination page](/user-guide/working-with-test-results/customizing-xml-test-results/adjusting-the-number-of-truncated-iterations-and-pagination-page)  
 Explain steps to adjust several parameters to optimize HTML test results.
-
 
 
 

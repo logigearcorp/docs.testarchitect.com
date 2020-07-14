@@ -14,7 +14,7 @@ How to manually store local test results to the repository.
 
 Perform the following steps:
 
--   **Option 1:**
+-   Option 1:
 
     1.  Select the local test results that you want stored to the repository.
 
@@ -26,7 +26,7 @@ Perform the following steps:
 
     4.  Click **OK**.
 
--   **Option 2:**
+-   Option 2:
 
     1.  In the TestArchitect explorer tree, double-click a local test result node of results you want stored to the repository.
 
@@ -39,6 +39,5 @@ After being stored in the repository, the results can be:
 
 -   renamed, by typing F2 on your keyboard \(or click **Rename** from the context menu\).
 -   organized inside result folders, similar to the manner in which test modules may be organized into test folders.
-
 
 

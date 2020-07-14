@@ -12,7 +12,7 @@ Opening the most recent result, for a test run multiple times.
 
 Choose one of the following two methods to open the latest test result of a test module:
 
--   **Option 1**:
+-   Option 1:
 
     1.  In the TestArchitect explorer tree, select the test module folder containing the test module that you want to open the latest test result of.
 
@@ -24,7 +24,7 @@ Choose one of the following two methods to open the latest test result of a test
 
     4.  On the context menu, select **Results** \> **Open Latest Test Result**.
 
--   **Option 2**:
+-   Option 2:
 
     1.  Select the test module that you want to open the latest test result of.
 
@@ -34,7 +34,6 @@ Choose one of the following two methods to open the latest test result of a test
 
 
 The latest test result appears on the main panel.
-
 
 
 

@@ -38,14 +38,13 @@ Suppose that you already captured a given **input-search** control as an input-t
 
 ![](/images/TA_Automation/Images/bis_ignore_html_input_types_aut_1.png)
 
-**Test Lines**
+Test Lines
 
 ![](/images/TA_Automation/Images/bis_ignore_html_input_types_pgm_1.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bis_ignore_html_input_types_res_1.png)
-
 
 
 

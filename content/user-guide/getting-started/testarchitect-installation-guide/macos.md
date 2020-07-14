@@ -54,4 +54,3 @@ Contact LogiGear Sales to obtain the correct compressed TestArchitect installati
 
 TestArchitect setup is complete.
 
-

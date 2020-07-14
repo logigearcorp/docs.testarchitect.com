@@ -23,7 +23,7 @@ Logically connect to a physical mobile device or an emulator and make that devic
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## Applicable Systems/Platforms {{< permerlink >}} {#bia_use_device__section_l1l_pcl_zcb} 
 
 Use of this action is supported on the following systems/platforms: Mobile operating systems.
 
@@ -43,18 +43,17 @@ The following settings are applicable to this action:[remove double quotes from 
 
 Let's say you have two Android mobile devices connected to a controller. Device 1 sends an email. Device 2 receives the email, which your test must then verify. In order to switch between these two devices during testing, they must be identified by logical names. Hence you would first assign a logical name to each device by means of the assign device action. Subsequently, invoke the use device action to designate whichever device you want to apply the test automation to.
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_assign_device_pgm.png)
 
 ## Troubleshooting
 
-**What happens if the test executes a use device action specifying a device that is currently busy executing another automated test?**
+What happens if the test executes a use device action specifying a device that is currently busy executing another automated test?
 
 If you try to execute an automated test on a currently busy device with the built-in use device action, an Automation Problem dialog box appears. You are offered the options to debug, stop, or even continue the automated test. This automation problem is later reported in the test result once the automated test is complete.
 
 ![](/images/TA_Automation/Images/automation_problem_busy_phone.png)
-
 
 
 

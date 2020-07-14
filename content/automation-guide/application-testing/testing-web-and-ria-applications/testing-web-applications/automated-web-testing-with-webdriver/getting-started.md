@@ -21,17 +21,17 @@ A WebDriver test often starts with:
 
 --- o0o ---
 
-## Configuration
+## Configuration {{< permerlink >}} {#WebDriver_basic_structure__section_o2n_k5v_yfb} 
 
 To execute tests with WebDriver, it is required to configure [WebDriver server & client](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/automated-web-testing-with-webdriver/configuring-webdriver-server-amp-client).
 
 {{<note>}} Providing that you use Safari, configure it to enable WebDriver support. \([Learn more](https://developer.apple.com/documentation/webkit/testing_with_webdriver_in_safari)\)
 
-## Setting an environment
+## Setting an environment {{< permerlink >}} {#WebDriver_basic_structure__section_sfx_grv_yfb} 
 
 You can set up an environment using the [configure webdriver](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/webdriver/configure-webdriver) built-in action.
 
-## Navigation
+## Navigation {{< permerlink >}} {#WebDriver_basic_structure__section_xhk_kqv_yfb} 
 
 When you navigate to a page, you have three options: opening the page on a new tab, a new window or the current tab. [target browser instance](/automation-guide/action-based-testing-language/built-in-settings/other-settings/target-browser-instance)
 

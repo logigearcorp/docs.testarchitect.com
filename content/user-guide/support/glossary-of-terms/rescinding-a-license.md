@@ -11,4 +11,3 @@ keywords: "glossary, rescinding a license"
 The process, under control of a license server, of taking back a floating TestArchitect license from a specified host and returning it to the license pool.
 
 Also referred to as: **reclaiming a license**.
-

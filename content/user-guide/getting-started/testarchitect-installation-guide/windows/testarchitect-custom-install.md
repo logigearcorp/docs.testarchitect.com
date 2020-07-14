@@ -12,7 +12,7 @@ The Custom Install option allows you to choose the components you wish to instal
 
 To perform a custom installation of TestArchitect, follow these steps:
 
-1.  On the Installation Options dialog box, select the Custom Install option, and then click **Next**.
+1.  On the Installation Options dialog box, select the Custom Install option, and then click Next.
 
     The Select Components dialog box appears, allowing you to choose what components of TestArchitect are to be installed. If the check box next to a component is selected, that component is installed during this process. Conversely, if the check box is cleared, that component is not installed.
 
@@ -47,7 +47,7 @@ To perform a custom installation of TestArchitect, follow these steps:
     -   The path to the TestArchitect executable.
     -   The path to TestArchitect's data directory.
     -   The components to be installed.
-7.  Click **Install** to begin the installation process.
+7.  Click Install to begin the installation process.
 
     A message box appears to display the tasks being performed, along with a progress bar presenting the installation's degree of completion.
 
@@ -82,7 +82,6 @@ To perform a custom installation of TestArchitect, follow these steps:
 10. Click **Finish**.
 
     TestArchitect setup is complete.
-
 
 
 

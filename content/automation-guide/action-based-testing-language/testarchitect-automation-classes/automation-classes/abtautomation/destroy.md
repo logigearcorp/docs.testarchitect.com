@@ -8,11 +8,11 @@ aliases:
 keywords: "methods of abt, Destroy, Destroy (AbtAutomation), AbtAutomation, destroy abtautomation, destroy class instance of abtautomation, kill class instance of abtautomation, get rid of automation class"
 ---
 
-## Syntax
+## Syntax {{< permerlink >}} {#abt_Destroy__section.syntax} 
 
 `void destroy()`
 
-## Description
+## Description {{< permerlink >}} {#abt_Destroy__section.desc} 
 
 Explicitly destroys the class instance of AbtAutomation previously created by [Create](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtautomation/create).
 
@@ -20,7 +20,7 @@ Explicitly destroys the class instance of AbtAutomation previously created by [C
 
 There are no parameters for this function.
 
-## Return Value
+## Return Value {{< permerlink >}} {#abt_Destroy__section.return} 
 
 There are no returned values for this function.
 

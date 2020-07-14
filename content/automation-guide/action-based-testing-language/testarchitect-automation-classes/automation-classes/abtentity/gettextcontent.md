@@ -8,15 +8,15 @@ aliases:
 keywords: "methods of abt, GetTextContent, GetTextContent (AbtEntity), AbtEntity, gettextcontent, abtentity gettextcontent, get content of text in window, obtain text"
 ---
 
-## Syntax
+## Syntax {{< permerlink >}} {#abt_GetTextContent_AbtEntity__section.syntax} 
 
 `string getTextContent (string drawfunction, string text, int index)`
 
-## Description
+## Description {{< permerlink >}} {#abt_GetTextContent_AbtEntity__section.desc} 
 
 Retrieve content of the text fragment residing in a given window.
 
-## Parameters
+## Parameters {{< permerlink >}} {#abt_GetTextContent_AbtEntity__section.params} 
 
 -   **drawfunction**
 
@@ -43,11 +43,11 @@ Retrieve content of the text fragment residing in a given window.
     Specifies a minimum number of instances of the search text that must be discovered within the active area for the target [bitmap text fragment](/user-guide/support/glossary-of-terms/bitmap-text-fragment) to be considered as found \(default = 1\).
 
 
-## Return Value
+## Return Value {{< permerlink >}} {#abt_GetTextContent_AbtEntity__section.return} 
 
 A string value indicating content of the text.
 
-## Notes
+## Notes {{< permerlink >}} {#abt_GetTextContent_AbtEntity__section_vwj_hjw_j4} 
 
 -   This method is currently supported only by the C\# harness.
 -   This method always employs the [Graphics Device Interface](/automation-guide/action-based-testing-language/the-test-language/text-recognition-techniques) \(GDI\) technique to recognize text produced by an AUT.

@@ -55,14 +55,13 @@ The following settings are applicable to this action:[remove double quotes from 
 
 Let's say you wish to obtain the current performance information of two applications running on the test device:
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_app_performance_information_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_app_performance_information_res.png)
-
 
 
 

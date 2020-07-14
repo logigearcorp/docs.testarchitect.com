@@ -67,11 +67,11 @@ This action is applicable to the following controls:list box.
 
 ![](/images/TA_Automation/Images/bia_get_list_check_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_list_check_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_list_check_res.png)
 
@@ -79,11 +79,10 @@ This action is applicable to the following controls:list box.
 
 ![](/images/TA_Automation/Images/bia_get_list_check_index_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_list_check_index_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_list_check_index_res.png)
-

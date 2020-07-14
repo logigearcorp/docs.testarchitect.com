@@ -27,19 +27,19 @@ In general, while the focus is on an argument cell:
 2.  Using the mouse or arrow keys, select a value.
 3.  Double-click, or hit **Enter**, to insert the selected value into the cell.
 
-## Types of arguments
+## Types of arguments {{< permerlink >}} {#Creating_and-using_actions_arg_type__section.arg_types.types} 
 
-**String**
+String
 
 This is the default type that is assigned to an argument when it is created. Any value is accepted as a literal string.
 
-{{<note>}} The **Argument Modifier** field is not applicable to the String type, so the **Argument Modifier** field is disabled when `Argument Type = String`.
+{{<note>}} The Argument Modifier field is not applicable to the String type, so the **Argument Modifier** field is disabled when `Argument Type = String`.
 
-**Date**
+Date
 
 When you enter data into an argument field of the Date type, you have the option of either typing a date directly in, or allowing TestArchitect to assist you with a pop-up calendar control. The calendar control is invoked by hitting Ctrl + Spacebar, or by putting the cell into a text-insertion state. \(That's what you're in when you see the blinking text cursor in the cell\). Next, click the triangle button that appears. Once in the calendar control, you may navigate to the date you wish to insert, then simply click it.
 
-The **Argument Modifier** field of a Date argument allows you to specify the form that the entered date will take. Several formats are available for the date type, using different arrangements of various month, day and year specifiers. The set of available specifiers is as follows:
+The Argument Modifier field of a Date argument allows you to specify the form that the entered date will take. Several formats are available for the date type, using different arrangements of various month, day and year specifiers. The set of available specifiers is as follows:
 
 ![](/images/TA_Help/Images/ug_argumenttype1.png)
 
@@ -54,7 +54,7 @@ Allowable delimiters between specifiers are hyphen \( - \), forward slash \( / \
 |mmmm dd,yyyy|december 27,2011|
 |dddd,mmmm yyyy|tuesday,december 2011|
 
-**Value Set**
+Value Set
 
 A value set is a user-defined set of allowable values, also known as the value domain. In the editor, when you wish to enter data into a cell of an argument of type Value Set, you have access to a drop-down list of all elements in the value domain.
 
@@ -64,7 +64,7 @@ Alternatively, the list may be brought up by double- or triple-clicking in the c
 
 {{<note>}} In some cases \(depending on the argument modifier constraints\), the value domain is essentially "open": values outside the Value Set list are treated as acceptable, and in other cases, they may be unacceptable. \(However, the only real difference is that values outside the value set appear red in the editor. Unless there is specific language in the user-defined action's action lines that catches non-domain values during execution, they are treated normally.\)
 
-The **Argument Modifier** field of a Value Set argument is where you specify the value domain. Your modifier may be as straightforward as a simple list `(1, 2, 3, 4, 5)`, or can involve complex expressions in which the value domain depends on the contents of one or more other argument fields. For example, for a given action, an argument named car model might have different value domains, depending on the existing contents of the car type \(`standard`, `compact`, `premium`, or `minivan`\) argument.
+The Argument Modifier field of a Value Set argument is where you specify the value domain. Your modifier may be as straightforward as a simple list `(1, 2, 3, 4, 5)`, or can involve complex expressions in which the value domain depends on the contents of one or more other argument fields. For example, for a given action, an argument named car model might have different value domains, depending on the existing contents of the car type \(`standard`, `compact`, `premium`, or `minivan`\) argument.
 
 The following syntax rules apply when defining a modifier for a Value Set argument:
 
@@ -123,7 +123,7 @@ Example of value set modifiers:
 |----|---------|-----------|
 |country|US, Canada, Mexico|Example of simple value set. Only US, Canada, and Mexico are acceptable. All others will display in red.|
 
-**Interface Entity**
+Interface Entity
 
 This argument type is used to pass the name of an interface entity to an action. When an argument has the Interface Entity type, you are presented with a drop-down list of interface entities to choose from. The list includes all interface entities defined in the project.
 
@@ -134,13 +134,13 @@ Additionally, if your project subscribes to any other projects, the list include
 {{<note>}}
 
 -   Any name conflicts \(same-named interface entities existing in both the working project and a supplier project\) are resolved in favor of the working project.
--   The **Argument modifier** field is not applicable to arguments of Interface Entity type.
+-   The Argument modifier field is not applicable to arguments of Interface Entity type.
 
-**Interface Element**
+Interface Element
 
 This argument type is used to pass the name of an interface element to an action. When an argument has the Interface Element type, you are presented with a drop-down list of interface elements to choose from. The list includes all interface elements defined in the project.
 
-{{<note>}} The **Argument modifier** field is not applicable to arguments of Interface Element type.
+{{<note>}} The Argument modifier field is not applicable to arguments of Interface Element type.
 
 ## Hiding arguments that use default values
 
@@ -154,7 +154,6 @@ After setting this option, arguments in action lines that pass default values ar
 
 1.  [Automating actions](/user-guide/actions/user-defined-actions/argument-types/automating-actions)  
 An action which can be automated belongs to one of three categories: built-in, user-defined or user-scripted.
-
 
 
 

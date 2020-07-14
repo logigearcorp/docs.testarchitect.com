@@ -40,7 +40,7 @@ To log in to a repository as a different user, do the following:
 
             {{<note>}} Your LDAP password always remains identical to your system password, and cannot be changed from an application. **Remember me on this computer** is not available because your are automatically remembered.
 
-        -   **Troubleshooting:** In the event that the LDAP server is down or the LDAP-based directory service is otherwise unavailable, you will be prevented from logging in to the repository. In that case, you will need someone with super administrator permissions for that repository to log into it and [change your authentication mode](/administration-guide/users-and-passwords/user-administration/setting-a-repository-s-user-authentication-mode).
+        -   Troubleshooting: In the event that the LDAP server is down or the LDAP-based directory service is otherwise unavailable, you will be prevented from logging in to the repository. In that case, you will need someone with super administrator permissions for that repository to log into it and [change your authentication mode](/administration-guide/users-and-passwords/user-administration/setting-a-repository-s-user-authentication-mode).
 5.  \(LDAP authentication mode only\) If the entered LDAP user name has not been mapped to any TestArchitect user name, the following message appears.
 
     ![](/images/TA_Help/Images/LDAP_error.png)
@@ -50,7 +50,6 @@ To log in to a repository as a different user, do the following:
     2.  In the Match LDAP and TestArchitect Users dialog box, specify the TestArchitect user name and the password to be matched, and then click **OK**.
 
         ![](/images/TA_Help/Images/Match_LDAP_and_TA_users.png)
-
 
 
 

@@ -12,7 +12,7 @@ A test module can be exported to a .ZIP file, which can be used as a backup or f
 
 Choose one of the following two methods to export a test module:
 
--   **Option 1**:
+-   Option 1:
 
     1.  Right-click the test module in the TestArchitect explorer tree that you want to export.
 
@@ -24,7 +24,7 @@ Choose one of the following two methods to export a test module:
 
     4.  Click **OK**.
 
--   **Option 2**:
+-   Option 2:
 
     1.  Double-click the **Tests** node in the TestArchitect explorer tree
 
@@ -44,6 +44,5 @@ Choose one of the following two methods to export a test module:
 
 
 TestArchitect exports the test module archive file \(.ZIP\) to the specified file.
-
 
 

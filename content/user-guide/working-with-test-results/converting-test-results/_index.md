@@ -42,7 +42,7 @@ Test result conversion is a one-way process: the **converted test results cannot
     -   To view XML test results in the Internet Explorer browser, ensure that **Active Content** is enabled. \([Learn more](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/automated-web-testing-with-non-webdriver/preparing-web-browsers/preparing-internet-explorer-for-web-testing/advanced-settings#step_hlp_4dc_jy).\)
     -   It is highly recommended that you open test results in the Google Chrome browser, and also set Chrome as the default browser, because Chrome takes up less RAM while opening huge results compared to other web browsers.
 
-## How to convert test results
+## How to convert test results {{< permerlink >}} {#concept_xcf_s1v_ky__section.convert_results} 
 
 -   Converting results interactively: To upgrade your test results to the current XML format:
     1.  In TestArchitect Client, from the TestArchitect explorer tree, select and double-click a test result.
@@ -51,7 +51,6 @@ Test result conversion is a one-way process: the **converted test results cannot
 
 -   **[XML Result Conversion command line tool](/user-guide/working-with-test-results/converting-test-results/xml-result-conversion-command-line-tool/)**  
  Converts all test results belonging to a given repository into XML test result format. Note that, run this tool on the repository server machine.
-
 
 
 

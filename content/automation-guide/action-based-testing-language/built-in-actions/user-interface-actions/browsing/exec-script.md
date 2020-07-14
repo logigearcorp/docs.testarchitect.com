@@ -66,19 +66,19 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ## Example - Case 1: Running a snippet of JavaScript
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_exec_script_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_exec_script_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_exec_script_aut.png)
 
-## Example - Case 2: Retrieving a return value
+## Example - Case 2: Retrieving a return value {{< permerlink >}} {#bia_exec_script__section_wqh_swr_sbb} 
 
 Suppose that you would like to get a value returned from the following snippet of JavaScript code.
 
@@ -86,14 +86,13 @@ Suppose that you would like to get a value returned from the following snippet o
 function addNumber(num1, num2){var sum=num1+num2; return 'Total is '+sum;}; return addNumber(1, 2);
 ```
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_exec_script_pgm_2.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_exec_script_res_2.png)
-
 
 
 

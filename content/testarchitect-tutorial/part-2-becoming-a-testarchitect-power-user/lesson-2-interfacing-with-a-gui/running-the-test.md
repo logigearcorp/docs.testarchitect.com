@@ -44,4 +44,3 @@ Congratulations, you have completed all of the exercises in this lesson of the T
 
 
 [Running a test and viewing the results](/testarchitect-tutorial/part-1-getting-started-with-testarchitect/lesson-1-creating-a-simple-test/running-a-test-and-viewing-the-results)
-

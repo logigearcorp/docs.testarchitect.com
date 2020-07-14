@@ -59,11 +59,11 @@ This action is applicable to the following controls:tree view, tree table, tree 
 
 ![](/images/TA_Automation/Images/bia_count_child_node_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_count_child_node_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_count_child_node_res.png)
 
@@ -75,7 +75,6 @@ This action is applicable to the following controls:tree view, tree table, tree 
 
 ![](/images/TA_Automation/Images/bia_count_child_node_index_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_count_child_node_index_res.png)
-

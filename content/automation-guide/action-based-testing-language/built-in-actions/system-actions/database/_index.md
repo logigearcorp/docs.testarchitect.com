@@ -10,7 +10,7 @@ keywords:
 
 This section includes built-in actions that connect to and run queries on database management systems \(DBMSs\) or Microsoft Excel data sources.
 
-## Overview
+## Overview {{< permerlink >}} {#reference_qc4_jnc_rp__database_overview} 
 
 The set of actions in this section allows you to connect to a database, run SQL commands on it, retrieve any records or other values produced by those commands, and disconnect from the database.
 
@@ -24,7 +24,7 @@ The following built-in actions are provided. They are listed here in the typical
 4.  [execute sql](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/execute-sql): Execute an SQL command against the currently in-use database; optionally, store returned data into one or more data sets.
 5.  [disconnect database](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/disconnect-database): Close the database connection.
 
-## Prerequisites
+## Prerequisites {{< permerlink >}} {#reference_qc4_jnc_rp__database_prerequisites} 
 
 -   Supported databases:
 
@@ -43,18 +43,18 @@ The following built-in actions are provided. They are listed here in the typical
     -   SQL Server and MySQL are standard relational database management systems \(DBMSs\) that enjoy widespread use. While MS Excel is not a DBMS per se, its data is also structured in a relational \(table\) form, allowing for it to also be queried by means of SQL commands.
     -   In principle, while only the DBMSs listed are explicitly supported, any SQL-conversant DBMS with ODBC-compliant drivers for the platform of the given test system should also behave well with TestArchitect. For assistance, contact TestArchitect Support at [support@logigear.com](mailto:support@logigear.com).
 -   Connecting to and querying a database from a test requires that the correct ODBC driver be used. The correct driver must be specific to both the database application and the architecture \(32-bit or 64-bit\) of the TestArchitect Controller application that uses it. The following utilities may be used to determine whether the correct driver is already installed:
-    -   **Windows**: [Open](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/open-the-odbc-data-source-administrator) the ODBC Data Source Administrator dialog box. A list of installed ODBC drivers is available under the **Drivers** tab. \([Learn more](https://docs.microsoft.com/en-us/sql/odbc/admin/viewing-drivers).\)
+    -   Windows: [Open](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/open-the-odbc-data-source-administrator) the ODBC Data Source Administrator dialog box. A list of installed ODBC drivers is available under the **Drivers** tab. \([Learn more](https://docs.microsoft.com/en-us/sql/odbc/admin/viewing-drivers).\)
 
         ![](/images/TA_Automation/Images/ODBC_data_source_administration_dlg.png)
 
         {{<note>}} On the 64-bit version of Windows, only the 64-bit ODBC drivers are displayed in this tool. If your 64-bit Windows system should happen to be running a 32-bit version of the TestArchitect Controller software, you need to ensure that the 32-bit ODBC driver is installed. You can check this by directly running the 32-bit version of the Microsoft Open Database Connectivity \(ODBC\) Data Source Administrator tool, which is found at %systemdrive%\\Windows\\System32\\Odbcad32.exe. \([Learn more](https://support.microsoft.com/en-us/kb/942976).\)
 
-    -   **macOS and Linux**: If you do not already have a utility that lists installed ODBC drivers, one good option is the open source project [unixODBC](http://www.unixodbc.org/).
+    -   macOS and Linux: If you do not already have a utility that lists installed ODBC drivers, one good option is the open source project [unixODBC](http://www.unixodbc.org/).
 -   Should you need to obtain the ODBC driver installer for your particular data source, following the appropriate link below:
     -   Microsoft SQL Server:
-        -   **On Windows:** [Read here](https://docs.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server).
-        -   **On Linux:** [Read here](https://docs.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server).
-        -   **On macOS:** Microsoft does not provide a SQL Server ODBC driver for the macOS machine. However, a good open source alternative, [FreeTDS](http://www.freetds.org/), is available. Note that, additional configurations are also required \([learn more](/automation-guide/application-testing/testing-with-databases/microsoft-sql-server/configuring-odbc-driver-on-macos)\).
+        -   On Windows: [Read here](https://docs.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server).
+        -   On Linux: [Read here](https://docs.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server).
+        -   On macOS: Microsoft does not provide a SQL Server ODBC driver for the macOS machine. However, a good open source alternative, [FreeTDS](http://www.freetds.org/), is available. Note that, additional configurations are also required \([learn more](/automation-guide/application-testing/testing-with-databases/microsoft-sql-server/configuring-odbc-driver-on-macos)\).
     -   MySQL Server: [Read here](http://dev.mysql.com/downloads/connector/odbc/).
 
         {{<note>}} On macOS, additional configurations are required \([learn more](/automation-guide/application-testing/testing-with-databases/mysql/configuring-odbc-driver-on-macos)\).
@@ -73,7 +73,6 @@ The following built-in actions are provided. They are listed here in the typical
 4.  [execute sql](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/execute-sql)  
 
 5.  [disconnect database](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/disconnect-database)  
-
 
 
 

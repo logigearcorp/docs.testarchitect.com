@@ -10,7 +10,7 @@ keywords: "label property, TA property, label, properties, secondary"
 
 Associating controls with labels donated from other controls is a multi-step process. The procedure implemented by TestArchitect requires precise definitions of what constitutes alignment between controls, proximity of controls, and determining the distance between them. Those technical details are explained here.
 
-## Aligned labels
+## Aligned labels {{< permerlink >}} {#Interface_def.label_property_supplement__section.alignment} 
 
 For a full understanding of the label-finding algorithm employed by TestArchitect, one needs to understand, in precise terms, how the system determines whether a label control is aligned with a label-accepting control.
 
@@ -58,7 +58,7 @@ Most broadly, TestArchitect recognizes three types of alignment between label co
 
 ![](/images/TA_Help/Images/prop_label.special_case.alignment_margin.png)
 
-## Proximate non-aligned labels
+## Proximate non-aligned labels {{< permerlink >}} {#Interface_def.label_property_supplement__section.proximate_labels} 
 
 Assuming that, for a given label-accepting control, no suitable aligned label control is found, the system proceeds to search for as-yet-unassigned labels that lie within a certain portion of the neighborhood of the main control.
 
@@ -110,7 +110,7 @@ The following figure illustrates the acceptable top zone placement of a label co
     |iPhone 6 Plus|401|
 
 
-## Distance determination between label and main control
+## Distance determination between label and main control {{< permerlink >}} {#Interface_def.label_property_supplement__section.distance_determination} 
 
 At any of several points along the label-finding procedure, a pool of more than one qualified label candidates may be found for a given label-accepting control. When that happens, the candidate deemed physically closest to the main control is selected as the label donor. Specifically, the chosen label control is the one whose center point is closest to the upper-left corner of the main control:
 

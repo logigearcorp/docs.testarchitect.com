@@ -42,11 +42,11 @@ Suppose there is a user-defined result field named **log file** with a value typ
 
 ![](/images/TA_Automation/Images/bia_assign_result_field_aut_1.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_assign_result_field_pgm_1.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_assign_result_field_res_1.png)
 
@@ -54,13 +54,12 @@ Suppose there is a user-defined result field named **log file** with a value typ
 
 ![](/images/TA_Automation/Images/bia_assign_result_field_aut_2.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_assign_result_field_pgm_2.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_assign_result_field_res_2.png)
-
 
 

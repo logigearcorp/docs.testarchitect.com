@@ -38,7 +38,7 @@ Let's say you want your user-scripted action to retrieve the **Location** field 
 
 The code for this example for each of the Python, and C\# harnesses is presented below. Note that, for the Python script, the location value is assigned to a variable named \_location; in the case of the C\# scripts, that variable has the name entLocation.
 
-**For Python harness**: Your snippet of code might resemble the following:
+For Python harness: Your snippet of code might resemble the following:
 
 ```
 #Get ID of the test module
@@ -76,7 +76,6 @@ foreach (var entField in entObject)
       Interpreter.AbtLibrary.Assign(entLocation, value);
 }
 ```
-
 
 
 

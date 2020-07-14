@@ -12,13 +12,13 @@ You can change the connection port on which a license server listens and grants 
 
 1.  On the license server machine, launch the License Server Control Panel:
 
-    -   **Windows platform**: do one of the following:
+    -   Windows platform: do one of the following:
         -   Double-click the **TestArchitect - License Server** ![](/images/TA_Administration/Images/LS_icon.png) icon in your Windows notification area.
         -   Select **Start Menu** \> **All Programs** \> **TestArchitect** \> **License Server**.
-    -   **Linux platform**: do one of the following:
+    -   Linux platform: do one of the following:
         -   Double-click the **TestArchitect - License Server** ![](/images/TA_Administration/Images/LS_icon.png) icon in your notification area.
         -   From a terminal window, navigate to /usr/local/logigear/licenseserver/licenseserver and run the TestArchitect License Server executable.
-    -   **macOS**: Note that the TestArchitect License Server is not currently supported on macOS.
+    -   macOS: Note that the TestArchitect License Server is not currently supported on macOS.
 2.  Select **Change Port…** from the **Tools** menu.
 
     The License Server - Communication Port dialog box appears:
@@ -39,4 +39,3 @@ You can change the connection port on which a license server listens and grants 
 
 
 [Default port numbers and port ranges](/administration-guide/default-port-numbers-and-port-ranges)
-

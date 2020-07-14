@@ -41,11 +41,11 @@ Use of this action is supported on the following system\(s\)/platform\(s\): Wind
 
 ![](/images/TA_Automation/Images/bia_get_system_double_click_time_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_system_double_click_time_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_system_double_click_time_res.png)
 
@@ -56,4 +56,3 @@ Use of this action is supported on the following system\(s\)/platform\(s\): Wind
 
 
 [double click time](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/double-click-time)
-

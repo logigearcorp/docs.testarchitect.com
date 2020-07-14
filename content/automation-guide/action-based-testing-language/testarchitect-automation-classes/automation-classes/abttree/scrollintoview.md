@@ -12,11 +12,11 @@ keywords: "methods of abt, ScrollIntoView, ScrollIntoView (AbtTree), AbtTree, sc
 
 `long ScrollIntoView(string nodepath)`
 
-## Description
+## Description {{< permerlink >}} {#abt_ScrollIntoView__section.desc} 
 
 Ensure a tree node is visible by, if necessary, scrolling it into view.
 
-## Parameters
+## Parameters {{< permerlink >}} {#abt_ScrollIntoView__section.params} 
 
 -   **nodepath**
 
@@ -27,7 +27,7 @@ Ensure a tree node is visible by, if necessary, scrolling it into view.
     -   A string containing all node texts separated by forward slashes \( / \).
     -   A string containing all node indexes separated by forward slashes \( / \).
 
-## Return Value
+## Return Value {{< permerlink >}} {#abt_ScrollIntoView__section.return} 
 
 Return 0 if the call is successful; otherwise, -1..
 

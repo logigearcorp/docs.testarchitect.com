@@ -8,7 +8,7 @@ aliases:
 keywords: "methods of abt, GetPictureLocation, GetPictureLocation (AbtElement), AbtElement, GetPictureLocation, getpicturelocation, abtelement getpicturelocation, position and size of object in baseline image, find object in baseline image, location and dimensions of picture in based image"
 ---
 
-## Syntax
+## Syntax {{< permerlink >}} {#abt_GetPictureLocationAbtElement__section.syntax} 
 
 `TARect GetPictureLocation (string picture, TARect rect, int index)`
 
@@ -16,7 +16,7 @@ keywords: "methods of abt, GetPictureLocation, GetPictureLocation (AbtElement), 
 
 Return the location and dimensions of an instance of a specified image within the object's bitmap.
 
-## Parameters
+## Parameters {{< permerlink >}} {#abt_GetPictureLocationAbtElement__section.params} 
 
 -   **picture**
 
@@ -33,7 +33,7 @@ Return the location and dimensions of an instance of a specified image within th
     Note that index numbering begins with 1. \(Default: 1\)
 
 
-## Return Value
+## Return Value {{< permerlink >}} {#abt_GetPictureLocationAbtElement__section.return} 
 
 -   [TARect](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abt-object-classes/tarect) object representing the bounding rectangle ofthe found picture, and containing the following:
 

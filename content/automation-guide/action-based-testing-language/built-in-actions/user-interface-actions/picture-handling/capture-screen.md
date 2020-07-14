@@ -78,9 +78,9 @@ This action may be used within the following project items:test modules and user
     |overlaps the active UI element|the intersection space \(Cases 1 & 2 above\)|
     |no overlap with active UI element|the active UI element \(Case 3 above\)|
 
--   **Windows platform**: Use backward slashes as separators for the path.
--   **Linux platform**: Use forward slashes as separators for the path. \(Note that network paths are not supported.\)
--   **Android:** This built-in action, when applied to a connected Android device, requires that the [TestArchitect Agent service](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/setting-up-the-test-environment/setting-up-android-automation/about-testarchitect-agent-in-android/) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
+-   Windows platform: Use backward slashes as separators for the path.
+-   Linux platform: Use forward slashes as separators for the path. \(Note that network paths are not supported.\)
+-   Android: This built-in action, when applied to a connected Android device, requires that the [TestArchitect Agent service](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/setting-up-the-test-environment/setting-up-android-automation/about-testarchitect-agent-in-android/) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
     1.  Connect the Android device to the test controller through a USB cable \(not Wi-Fi\), if not already so connected.
     2.  Open the [Android Instrumentation Tool](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/android-instrumentation-tool/) dialog box.
     3.  Click the **Refresh devices list** ![](/images/Android/Images/Refresh_device_list_btn.png) button.
@@ -92,13 +92,12 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_capture_screen_pgm.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_capture_screen_aut.png)
-
 
 

@@ -70,11 +70,11 @@ This action is applicable to the following controls:menu.
 
 ![](/images/TA_Automation/Images/bia_does_menu_item_exist_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_does_menu_item_exist_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_does_menu_item_exist_res.png)
 
@@ -82,11 +82,11 @@ This action is applicable to the following controls:menu.
 
 ![](/images/TA_Automation/Images/bia_does_menu_item_exist_aut1.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_does_menu_item_exist_pgm1.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_does_menu_item_exist_res1.png)
 
@@ -94,4 +94,3 @@ This action is applicable to the following controls:menu.
 
 
 [check menu item exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/check-menu-item-exists)
-

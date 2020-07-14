@@ -36,4 +36,3 @@ The simplest way to add items to favorites is to click the ![](/images/TA_Help/I
 {{<note>}} When you log in to a repository on another test machine with your account, all changes that you make to your favorite items will instantly show up on that test machine.
 
 
-

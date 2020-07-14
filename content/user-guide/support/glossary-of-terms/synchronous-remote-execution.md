@@ -15,5 +15,4 @@ There are two types of synchronous remote execution:
 -   [serial synchronous remote execution](/user-guide/support/glossary-of-terms/serial-synchronous-remote-execution)
 -   [parallel synchronous remote execution](/user-guide/support/glossary-of-terms/parallel-synchronous-remote-execution)
 
-Also referred to as: **lead-deputy execution**
-
+Also referred to as: lead-deputy execution

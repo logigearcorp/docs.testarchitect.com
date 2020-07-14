@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in settings, anchor pos report, settings, anchor pos report (settings), anchor pos report, replace anchor and anchor pos with xpath, convert anchor and anchor post into xpath, generate report to replace anchor and anchor pos with xpath, generate report for conversion of anchor and anchor pos into xpath"
 ---
 
-## Description
+## Description {{< permerlink >}} {#reference_dw2_k13_wbb__section_u3z_v13_wbb} 
 
 Determines whether after the given automated tests are finished, TestArchitect generates a report file which contains the [anchor](/user-guide/interface-definitions/control-properties/secondary-properties/anchor-pos-property/using-anchor-and-anchor-pos-properties) and/or [anchor pos](/user-guide/interface-definitions/control-properties/secondary-properties/anchor-pos-property/) properties and their replacement [XPath](/user-guide/interface-definitions/control-properties/secondary-properties/xpath-property) property.
 
-## Allowable values
+## Allowable values {{< permerlink >}} {#reference_dw2_k13_wbb__section_v3z_v13_wbb} 
 
 -   **yes/true**
 
@@ -27,7 +27,7 @@ Determines whether after the given automated tests are finished, TestArchitect g
 
 no/false
 
-## Applicable Systems/Platforms
+## Applicable Systems/Platforms {{< permerlink >}} {#reference_dw2_k13_wbb__section_t5m_gsg_5v} 
 
 -   This built-in setting is supported on the following systems/platforms:
     -   Windows: Mozilla Firefox.
@@ -35,7 +35,7 @@ no/false
     1.  The [use browser](/automation-guide/action-based-testing-language/built-in-settings/other-settings/use-browser) built-in setting is set to Firefox.
     2.  The presence of the [anchor](/user-guide/interface-definitions/control-properties/secondary-properties/anchor-pos-property/using-anchor-and-anchor-pos-properties) and/or [anchor pos](/user-guide/interface-definitions/control-properties/secondary-properties/anchor-pos-property/) properties in test procedures.
 
-## Notes
+## Notes {{< permerlink >}} {#reference_dw2_k13_wbb__section_x3z_v13_wbb} 
 
 -   It is highly recommended that you declare this built-in setting in [startup settings](/user-guide/test-execution/startup-settings/), before launching a test run. This minimizes the modifications to your test procedures.
 -   After the given automation tests are done, a report file is automatically exported to the following location C:\\Users\\Public\\LogiGear\\TestArchitect\\log \(Windows\).

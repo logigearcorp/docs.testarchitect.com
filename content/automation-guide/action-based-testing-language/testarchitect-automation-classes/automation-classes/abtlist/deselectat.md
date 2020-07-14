@@ -12,18 +12,18 @@ keywords: "methods of abt, DeselectAt, DeselectAt (AbtList), AbtList, deselectat
 
 `long DeselectAt(int index)`
 
-## Description
+## Description {{< permerlink >}} {#abt_DeselectAt__section.desc} 
 
 Deselect an item in the list.
 
-## Parameters
+## Parameters {{< permerlink >}} {#abt_DeselectAt__section.params} 
 
 -   **index**
 
     Integer value specifying the index of item from the list. Note that index numbering begins with 1.
 
 
-## Return Value
+## Return Value {{< permerlink >}} {#abt_DeselectAt__section.return} 
 
 Return 0 if the call is successful; otherwise, -1..
 

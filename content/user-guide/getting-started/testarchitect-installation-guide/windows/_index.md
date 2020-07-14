@@ -38,4 +38,3 @@ The Quick Install option allows you to install TestArchitect and its components 
 2.  [TestArchitect Custom Install](/user-guide/getting-started/testarchitect-installation-guide/windows/testarchitect-custom-install)  
 The Custom Install option allows you to choose the components you wish to install, and select other options.
 
-

@@ -62,7 +62,7 @@ After selecting an item with the Up/Down keys, insert it into the editor by pres
 
 -   If more than one variable or expression function is needed in an expression, press Ctrl + Space to trigger the autocomplete for each variable/function.
 
-## Applicable actions assistance
+## Applicable actions assistance {{< permerlink >}} {#concept_ymd_xql_3p__section.applicable_actions} 
 
 It may often be the case that you need to write one or a series of test cases related to a given control, but you are not certain which actions can be used on that control. In general, the determination of whether a given control can be handled by a certain action is based on the TA class of the control. To allow you to avoid constantly referring to the Built-in Action reference pages to determine which actions can be used for a control, a Content Assist window is available for any mapped control, presenting a list of those actions that may be used with it. For details, see [Applicable action suggestions for a window or control](/user-guide/getting-started/the-test-editor/content-assist/applicable-action-suggestions).
 
@@ -70,6 +70,5 @@ It may often be the case that you need to write one or a series of test cases re
 As you edit your tests, you often find yourself needing to know which actions can be used for a given control or window. Content Assist's **applicable actions** list provides you with a convenient means of viewing and selecting from the list of actions available for a given UI element.
 -   **[Specifying action suggestion for a control belonging to a user-defined TA class](/user-guide/getting-started/the-test-editor/content-assist/specifying-applicable-actions)**  
 For any set of controls whose TA class is user-defined, you can specify the list of actions that apply. This list will then appear in the **applicable actions** list of the Content Assist window when you work with these controls in the test editor.
-
 
 

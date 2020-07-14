@@ -26,7 +26,7 @@ Use the following command:
 Set COMMANDLINE_PORT=<New port number>
 ```
 
-**For example**:
+For example:
 
 ```
 Set COMMANDLINE_PORT=53843
@@ -59,6 +59,5 @@ $ docker run -it --rm -p 53843:53843 **-e COMMANDLINE\_PORT=53843** --name <Cont
 ```
 
 Where [-e](https://docs.docker.com/engine/reference/commandline/run/#options): to modify the COMMANDLINE\_PORT environment variable.
-
 
 

@@ -41,7 +41,7 @@ Check the contents of a table view cell against an expected text string. Result 
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_check_table_view_cell_value__section_tll_j2y_mk} 
 
 -   This built-in action applies only to the iOS operating system.
 -   index argument: Note that index numbering begins with 1.
@@ -60,11 +60,11 @@ This action is applicable to the following controls:table view.
 
 ![](/images/TA_Automation/Images/bia_check_table_view_cell_value_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_table_view_cell_value_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_table_view_cell_value_res.png)
 
@@ -72,14 +72,13 @@ This action is applicable to the following controls:table view.
 
 ![](/images/TA_Automation/Images/bia_check_table_view_cell_value_2_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_table_view_cell_value_2_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_table_view_cell_value_2_res.png)
-
 
 
 

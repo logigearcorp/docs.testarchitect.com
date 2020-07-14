@@ -50,11 +50,10 @@ This action is applicable to the following controls:combo box, list box, list vi
 
 ![](/images/TA_Automation/Images/bia_get_list_item_count_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_list_item_count_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_list_item_count_res.png)
-

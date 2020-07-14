@@ -20,7 +20,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   [Lexical scoping](/automation-guide/action-based-testing-language/the-test-language/variables/#li_n3d_m4z_mr): With this alternative to dynamic scoping \(the previous default mode of TestArchitect\), the scope of a local variable does not extend into action calls. This means that a local variable is only accessible within the block in which it is declared, but not in its child blocks. \(Note that, while lexical scoping is now the default, dynamic scoping may be restored by setting the built-in [lexical scoping](/automation-guide/action-based-testing-language/built-in-settings/other-settings/lexical-scoping) setting to no. \)
 -   [Support for Android 5.0](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/): Test automation on Android 5 is now supported. The supported types of AUTs include native Android apps, WebView and Google Chrome up to version 41.
 
-**Enhancements to existing features**
+Enhancements to existing features
 
 -   [ignore tabs and newlines](/automation-guide/action-based-testing-language/built-in-settings/value-settings/ignore-tabs-and-newlines) built-in setting: Ignoring of tab and newline characters is now supported on additional platforms, such as Java, mobile \(Android, iOS\), etc.
 -   Support for transmission of [tab\(\)](/automation-guide/action-based-testing-language/the-test-language/functions/string-functions/tab) and [newline\(\)](/automation-guide/action-based-testing-language/the-test-language/functions/string-functions/newline) characters for various user-interface actions such as [set](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/set) and [enter](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/enter).
@@ -36,5 +36,4 @@ The following new features and improvements are introduced in TestArchitect vers
 -   New additional Android 5 controls are supported, including **toolbar** and **menu bar**.
 -   The **TextSwitcher** Android control is remapped to the text switcher TA control, instead of label.
 -   The **SearchView** Android control is remapped to the search view TA control, instead of textbox.
-
 

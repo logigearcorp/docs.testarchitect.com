@@ -13,4 +13,3 @@ In silent mode, the installation wizard shows no informative, warning or error m
 The file is located in the folder, specified by the /f2 parameter \([learn more](/user-guide/getting-started/installing-testarchitect-in-silent-mode/running-silent-installation#step_kgh_glc_vw)\). Open the file and check the ResultCode value. 0 indicates success, any other values indicate an error. A complete list of error codes is available [here](http://helpnet.installshield.com/installshield19helplib/helplibrary/SetupLog.htm).
 
 
-

@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, attach file, attach file (action), attach file, attach file to web service, upload attachment to web service, add attachment to web service"
 ---
 
-## Description
+## Description {{< permerlink >}} {#bia_attach_file__section_iyg_dsd_1y} 
 
 Attach given file\(s\) to a web service.
 
-## Arguments
+## Arguments {{< permerlink >}} {#bia_attach_file__section_jyg_dsd_1y} 
 
 -   **path**
 
@@ -61,11 +61,11 @@ Attach given file\(s\) to a web service.
         Sixteen-bit UCS Transformation Format, byte order identified by an optional byte-order mark
 
 
-## Valid contexts
+## Valid contexts {{< permerlink >}} {#bia_attach_file__section_kyg_dsd_1y} 
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_attach_file__section_lyg_dsd_1y} 
 
 -   It is required that this built-in action must be declared before using the [send http request](/automation-guide/action-based-testing-language/built-in-actions/system-actions/web-services/send-http-request) action. When this built-in action is called, the multipart form data technique, provided by [Rest Assured](http://static.javadoc.io/io.rest-assured/rest-assured/3.0.1/io/restassured/builder/MultiPartSpecBuilder.html), is applied.
 -   To attach multiple files, in test procedures, call multiple attach file in sequence.
@@ -136,7 +136,7 @@ Suppose that you'd like to attach a file with the following information:
 
 Verify the if the HTTP status of the response is [201](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html), which means the request has been fulfilled and resulted in a new resource being created.
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_attach_file_example_pgm.png)
 
@@ -147,4 +147,3 @@ Verify the if the HTTP status of the response is [201](https://www.w3.org/Protoc
 
 
 [Testing web services](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-services/)
-

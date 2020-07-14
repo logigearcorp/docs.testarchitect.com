@@ -47,7 +47,6 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 Suppose that while testing a multi-window application, you have a window that pops up and you want to wait for that window to disappear, before the next action line in the test is executed.
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_wait_for_window_close_pgm.png)
-

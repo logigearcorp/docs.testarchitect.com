@@ -57,11 +57,11 @@ This action is applicable to the following controls:button, Calendar, check box,
 
 ![](/images/TA_Automation/Images/bia_check_control_property_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_control_property_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_control_property_res.png)
 
@@ -72,4 +72,3 @@ This action is applicable to the following controls:button, Calendar, check box,
 
 
 [get control property](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/get-control-property)
-

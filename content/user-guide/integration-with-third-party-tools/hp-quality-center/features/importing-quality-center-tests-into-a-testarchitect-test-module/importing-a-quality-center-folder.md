@@ -10,7 +10,7 @@ keywords: "Quality Center, importing folders, HP Quality Center"
 
 A folder in the test plan of an HP Quality Center project may be imported into an existing TestArchitect test folder, generating new test modules and/or test folders.
 
-Ensure that the machine hosting the TestArchitect repository server has the **HP ALM Connectivity Add-in** installed, to allow for integration and synchronization between TestArchitect and HP Quality Center.
+Ensure that the machine hosting the TestArchitect repository server has the HP ALM Connectivity Add-in installed, to allow for integration and synchronization between TestArchitect and HP Quality Center.
 
 Ensure that you have already taken the following steps:
 
@@ -43,10 +43,10 @@ Your target test folder may contain other test folders and/or test modules prior
 
 Upon completion of the import process, TestArchitect creates the corresponding test cases, test modules, and/or test folders with the following attributes added automatically:
 
--   **Test modules and test folders**:
+-   Test modules and test folders:
     -   For each generated test folder and test module, the **Name** field is populated with the name of the corresponding Quality Center folder.
     -   The `OBJECTIVES` section of each generated test module is loaded with test objectives of each of its imported test cases, which in turn receive those objectives from the **Comments** fields of their corresponding Quality Center tests.
--   **Test cases**: For test cases, the following fields are populated from their Quality Center counterparts:
+-   Test cases: For test cases, the following fields are populated from their Quality Center counterparts:
 
     |TestArchitect test case field|supplier field in Quality Center test|
     |-----------------------------|-------------------------------------|
@@ -58,7 +58,7 @@ Upon completion of the import process, TestArchitect creates the corresponding t
 
     Except for **Test Objectives**, all the above TestArchitect test case fields may be found in the **Information** tab of each given test case. The Quality Center test fields are available in the **Details** tab of the respective tests.
 
--   **Steps**: Each pre-defined step, including names and descriptions, written in the Quality Center test plan is are added as a comment in the TestArchitect test module editor.
+-   Steps: Each pre-defined step, including names and descriptions, written in the Quality Center test plan is are added as a comment in the TestArchitect test module editor.
 
     ![](/images/TA_Help/Images/QC_import_test_case_2.png)
 
@@ -66,6 +66,5 @@ Upon completion of the import process, TestArchitect creates the corresponding t
 ![](/images/TA_Help/Images/QC_import_test_case_mapped_ID.png)
 
 Note also that TestArchitect history versioning is applied to each test module affected by the import. A copy of the test module as it existed prior to the import is versioned, as are one or more copies produced during the import process.
-
 
 

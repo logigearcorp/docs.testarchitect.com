@@ -20,4 +20,3 @@ Describes detailed steps to configure Appium server locally on Windows machines.
 Update ChromeDriver to make automated mobile web tests on Google Chrome version 53 or later work properly.
 
 
-

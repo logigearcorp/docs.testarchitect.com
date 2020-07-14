@@ -52,4 +52,3 @@ To configure the browser settings, carry out the following steps:
 
 
 
-

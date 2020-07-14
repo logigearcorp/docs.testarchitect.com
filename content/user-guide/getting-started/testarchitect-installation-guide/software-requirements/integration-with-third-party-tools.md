@@ -19,4 +19,3 @@ This topic lists additional software requirements needed to support the integrat
 -   Interoperability between TestArchitect and HP Quality Center requires that the HP Quality Center Connectivity Add-In be installed on your computer \([Learn more](/user-guide/integration-with-third-party-tools/hp-quality-center/configuring-integration-with-hp-quality-center/)\). You can download the add-in from [HP Quality Center](https://centre.qualitat.solucions.gencat.cat/qcbin/TDConnectivity_index.html)
 
 
-

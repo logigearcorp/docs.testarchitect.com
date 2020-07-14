@@ -14,13 +14,13 @@ New license keys or credential information received from the LogiGear sales team
 
 1.  On the license server machine, launch the License Server Control Panel:
 
-    -   **Windows platform**: do one of the following:
+    -   Windows platform: do one of the following:
         -   Double-click the **TestArchitect - License Server** ![](/images/TA_Administration/Images/LS_icon.png) icon in your Windows notification area.
         -   Select **Start Menu** \> **All Programs** \> **TestArchitect** \> **License Server**.
-    -   **Linux platform**: do one of the following:
+    -   Linux platform: do one of the following:
         -   Double-click the **TestArchitect - License Server** ![](/images/TA_Administration/Images/LS_icon.png) icon in your notification area.
         -   From a terminal window, navigate to /usr/local/logigear/licenseserver/licenseserver and run the TestArchitect License Server executable.
-    -   **macOS**: Note that the TestArchitect License Server is not currently supported on macOS.
+    -   macOS: Note that the TestArchitect License Server is not currently supported on macOS.
 2.  On the toolbar, click the **Add License** ![](/images/TA_Administration/Images/Add_license_btn.png) button.
 
 3.  Select which type of license you want to input.
@@ -50,7 +50,6 @@ New license keys or credential information received from the LogiGear sales team
     -   Repeat the procedures above when you change the current license server machine to another one. Ensure that your server's fully qualified domain name or IP address is static.
     -   With **license key** you can add multiple key. But with **credential information** you can only use one account for one License Server.
     {{<remember>}} If you are using license keys of [TestArchitect Team](/administration-guide/license-server/managing-licenses/testarchitect-editions#entry_ta.editions.universal), but now you'd like to add new license keys of [TestArchitect Enterprise](/administration-guide/license-server/managing-licenses/testarchitect-editions#entry_ta.editions.universal). Please first remove license keys of TestArchitect Team. \([Learn more](/administration-guide/license-server/managing-licenses/removing-licenses).\)
-
 
 
 

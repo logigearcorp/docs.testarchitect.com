@@ -20,4 +20,3 @@ In identifying a control within an application, TestArchitect normally allows fo
 
 
 
-

@@ -12,11 +12,11 @@ keywords: "methods of abt, GetValue, GetValue (AbtElement), AbtElement, getvalue
 
 `string GetValue()`
 
-## Description
+## Description {{< permerlink >}} {#abt_GetValue__section.desc} 
 
 Retrieve the current value of the element.
 
-## Return Value
+## Return Value {{< permerlink >}} {#abt_GetValue__section.return} 
 
 A string value indicating the retrieved value of the control or HTML element.
 

@@ -56,8 +56,8 @@ Generate a connection string to a specified database.
     -   If creating a Unicode-supported connection with the FreeTDS ODBC driver, others must contain `ClientCharset=UTF-8;`.
 -   Use of a data source name \(DSN\) is supported. DSNs may be specified in the others argument with the following formats:
 
-    -   **User and System DSNs:** `DSN=myDsn;`
-    -   **File DSNs:** `FILEDSN=c:\myDsnFile.dsn;`
+    -   User and System DSNs: `DSN=myDsn;`
+    -   File DSNs: `FILEDSN=c:\myDsnFile.dsn;`
     \(Refer to [Creating a Data Source Name \(DSN\) in Windows](https://www.websense.com/content/support/library/data/v80/help/windows%20dsn.aspx) for further details.\)
 
 -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
@@ -76,11 +76,11 @@ This action is applicable to the following controls:none.
 
 The following example illustrates the process of connecting to, and using, a database from within a test, of which creating a connection string is the first step.
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_create_connection_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_create_connection_res.png)
 
@@ -90,4 +90,3 @@ The following example illustrates the process of connecting to, and using, a dat
 
 
 [Testing with databases](/automation-guide/application-testing/testing-with-databases/)
-

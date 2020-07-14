@@ -8,7 +8,7 @@ aliases:
 keywords: "automation errors, using start-up setting for configure cleanup key"
 ---
 
-## Workflow:
+## Workflow: {{< permerlink >}} {#reference_0x80020012L__section_hbk_tk4_c3b} 
 
 Step 1: Create a new **user-defined** setting named **var** in the**Startup Settings** tab of the **Execution** dialog.
 
@@ -27,7 +27,6 @@ Step 4: Check the **Startup Settings** checkbox
 Step 5: Click the **Execute** button
 
 {{<important>}} The purpose of keeping the browser open is to help you to debug your test. Using it may cause some problems related to headless mode, multi-execution, un-rent devices, etc. Please be aware of this before using this setting.
-
 
 
 

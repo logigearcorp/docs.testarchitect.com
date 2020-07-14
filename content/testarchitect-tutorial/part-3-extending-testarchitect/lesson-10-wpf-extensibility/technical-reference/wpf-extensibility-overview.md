@@ -14,15 +14,15 @@ WPF Agent is loaded inside the AUT process when the physical layer needs to obta
 
 WPF agent is divided into three components as follows:
 
--   **Agent core**: This is main part of the WPF Extension. Its tasks are to:
+-   Agent core: This is main part of the WPF Extension. Its tasks are to:
     -   manage controls cache,
     -   manage all extensions and load extension handlers,
     -   communicate with TAPM, and
     -   receive requests from TAPM and pass it to a handler which has the responsibility to process and return result.
--   **Library**:
+-   Library:
     -   ExtensionLib contains the interfaces and abstract classes which are implemented on the extension side, such as ITAControlHandler and TAComponentHandlerBase.
     -   UtilitiesLib library exports classes which are able to be reused by extensions. For instance, WPF reflection lib.
--   **Extensions**: Sets of handlers which support a type of control or overwrite the behavior of available handlers such as WPF Control Support.
+-   Extensions: Sets of handlers which support a type of control or overwrite the behavior of available handlers such as WPF Control Support.
 
     ![](/images/TA_Tutorials/Images/WPF_extensiblity_components.png)
 
@@ -55,7 +55,6 @@ It contains interfaces and abstract classes which are implemented on the extensi
             We have the following flow code:
 
             ![](/images/TA_Tutorials/Images/WPF_extensiblity_TATelerikTableHandler_flow_code.png)
-
 
 
 

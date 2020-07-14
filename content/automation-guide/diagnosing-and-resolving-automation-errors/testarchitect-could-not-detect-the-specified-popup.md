@@ -22,4 +22,3 @@ Check the availability of the desired popup from the AUT.
 
 
 
-

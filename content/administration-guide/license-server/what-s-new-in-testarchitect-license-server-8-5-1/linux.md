@@ -10,10 +10,9 @@ keywords: "Release Notes 8.5.1, License Server, Linux, What is new, Linux, Licen
 
 The following new features and improvements are introduced in the latest version of TestArchitect License Server running on Linux.
 
-## License Server
+## License Server {{< permerlink >}} {#Whats_New_LS_Linux_1__section_LS} 
 
-**Enhancements**
+Enhancements
 
 -   [**Annual Subscription**:](/administration-guide/license-server/obtaining-a-testarchitect-license/adding-new-licenses#) TestArchitect now uses an annual subscription model. Once a customer purchases an annual subscription, they can use the software and download all software updates released in the next year. The price also includes professional support & maintenance costs. It will provide a more streamlined approach for customers to adopt TestArchitect.
-
 

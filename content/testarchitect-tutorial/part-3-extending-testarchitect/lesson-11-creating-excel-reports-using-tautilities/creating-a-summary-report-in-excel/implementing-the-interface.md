@@ -10,7 +10,7 @@ keywords: "TAUtilities, creating event handler, Microsoft Excel, macro, implemen
 
 In this topic, the procedure generateMethod\(\), which interfaces with the TAUtilities APIs, is implemented.
 
-**Before proceeding:**At this point, your Excel spreadsheet should be created, with a **Generate** button and a macro attached to it. The macro code is defined in the [Creating the macro in Microsoft Excel](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-11-creating-excel-reports-using-tautilities/creating-a-summary-report-in-excel/creating-the-macro-in-microsoft-excel) topic.
+Before proceeding:At this point, your Excel spreadsheet should be created, with a **Generate** button and a macro attached to it. The macro code is defined in the [Creating the macro in Microsoft Excel](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-11-creating-excel-reports-using-tautilities/creating-a-summary-report-in-excel/creating-the-macro-in-microsoft-excel) topic.
 
 You will now create the code for the generateMethod\(\) procedure, which implements the interface to TAUtilities.
 
@@ -312,7 +312,6 @@ Sub SetColorForRow(row, colorIndex)
     Range(LColorCells).Interior.colorIndex = colorIndex
 End Sub
 ```
-
 
 
 

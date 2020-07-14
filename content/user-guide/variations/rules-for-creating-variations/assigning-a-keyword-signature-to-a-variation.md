@@ -10,9 +10,9 @@ keywords: "variations, creation rules, assigning a keyword signature"
 
 A given variation is identified by its variation signature: the combination of the system versions it is linked to \(system signature\) and the keywords assigned to it \(keyword signature\). This topic discusses the keyword signature.
 
-A [keyword signature](/user-guide/support/glossary-of-terms/keyword-signature) is the full set of keywords assigned to a given variation, along with two operators \( **,** and **\|** \) that specify relationships between those keywords. \(By contrast, the keywords that define an execution run, which are specified in the Execute Test dialog box just prior to execution, are referred to as the [keyword run set](/user-guide/support/glossary-of-terms/keyword-run-set).\)
+A [keyword signature](/user-guide/support/glossary-of-terms/keyword-signature) is the full set of keywords assigned to a given variation, along with two operators \( , and \| \) that specify relationships between those keywords. \(By contrast, the keywords that define an execution run, which are specified in the Execute Test dialog box just prior to execution, are referred to as the [keyword run set](/user-guide/support/glossary-of-terms/keyword-run-set).\)
 
-You can specify a keyword signature when you [create a variation](/user-guide/variations/creating-keyword-variations#step.dlg.create_var), in the Create Variation dialog box. \(You may also [modify an existing variation's signature](/user-guide/variations/creating-keyword-variations#postreq.dlg.edit_var) through the **Edit Variation** dialog box.\) Note that the keywords specified for a test run during execution cause TestArchitect to search for a matching keyword signature. \(It should also be noted that the matching process is not always straightforward, and is fully discussed in [Rules for executing with variations](/user-guide/variations/rules-for-executing-with-variations/).\)
+You can specify a keyword signature when you [create a variation](/user-guide/variations/creating-keyword-variations#step.dlg.create_var), in the Create Variation dialog box. \(You may also [modify an existing variation's signature](/user-guide/variations/creating-keyword-variations#postreq.dlg.edit_var) through the Edit Variation dialog box.\) Note that the keywords specified for a test run during execution cause TestArchitect to search for a matching keyword signature. \(It should also be noted that the matching process is not always straightforward, and is fully discussed in [Rules for executing with variations](/user-guide/variations/rules-for-executing-with-variations/).\)
 
 ![](/images/TA_Help/Images/Variations_set_of_keyword.02.png)
 
@@ -43,7 +43,7 @@ login {French}
 
 It was mentioned earlier that a keyword signature contains one or more keywords along with commas \( , \) and vertical bars \( \| \). Another way to say it is that a keyword signature consists of a string of [keyterms](/user-guide/support/glossary-of-terms/keyterm) separated by commas. \(We'll discuss the vertical bar operators, and keyterms, in the next example. For now, you may consider a keyterm to be equivalent to a keyword.\) Each comma is, in fact, an `AND` operator, specifying that both the keyterms to its left and right identify the variation to which the keyword signature is assigned.
 
-**Example**: Assume that we offer both Home and Professional editions of our application for all but the French market, and that, in each case, the edition level also necessitates a variation to login. Hence we would require seven variations \(aside from the default\) for login:
+Example: Assume that we offer both Home and Professional editions of our application for all but the French market, and that, in each case, the edition level also necessitates a variation to login. Hence we would require seven variations \(aside from the default\) for login:
 
 ```
 login {EngUK, Home}
@@ -66,7 +66,7 @@ It was mentioned that the comma in a keyword signature is really an `AND` operat
 
 So far we've equated keyterms with keywords. In fact, though, a keyterm can consist of multiple keywords, effectively `OR`'d together with the vertical bar \( \| \). The value of doing this is that it reduces the number of [explicit variations](/user-guide/support/glossary-of-terms/explicit-variation) you need to create.
 
-**Example:** Let's say we add another edition to our offerings: an Enterprise edition, in addition to Home and Professional. And to continue the previous example, the French version is now offered in all three editions. Moreover, while the same login variation works for both the French Home and Professional editions, a slightly different one is required for the Enterprise edition. We can address this by creating two explicit variations for the French version:
+Example: Let's say we add another edition to our offerings: an Enterprise edition, in addition to Home and Professional. And to continue the previous example, the French version is now offered in all three editions. Moreover, while the same login variation works for both the French Home and Professional editions, a slightly different one is required for the Enterprise edition. We can address this by creating two explicit variations for the French version:
 
 ```
 login {French, Home|Professional}
@@ -81,7 +81,6 @@ Hence, it is useful to think in terms of both [explicit variations](/user-guide/
 login {French, Home}
 login {French, Professional}
 ```
-
 
 
 

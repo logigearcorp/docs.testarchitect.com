@@ -48,7 +48,7 @@ The following settings are applicable to this action:none.
 
 ## Example
 
-**Action Lines** In this example, the TA name confirm reservation is mapped to the window whose title property = Car Rental-Confirm Your Reservation:
+Action Lines In this example, the TA name confirm reservation is mapped to the window whose title property = Car Rental-Confirm Your Reservation:
 
 ![](/images/TA_Automation/Images/bia_interface_entity_setting_pgm.png)
 
@@ -56,4 +56,3 @@ The following settings are applicable to this action:none.
 
 
 [interface element](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/interface-handling/interface-element)
-

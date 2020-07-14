@@ -31,8 +31,8 @@ This action may be used within the following project items:test modules and user
 
 -   Full paths to both the source folder and the destination folder must be specified.
 -   Observe the following format for the folder path:
-    -   **Windows platform**: Use backward slashes as separators for the path.
-    -   **Linux and Android platforms**: Use forward slashes as separators for the path. \(Note that network paths are not supported.\)
+    -   Windows platform: Use backward slashes as separators for the path.
+    -   Linux and Android platforms: Use forward slashes as separators for the path. \(Note that network paths are not supported.\)
 -   Note that this built-in action is not currently supported on the macOS or iOS platforms.
 -   If prior to the action there exists a folder in the destination folder with the same name as the one being copied, it is automatically overwritten, with no notice or warning.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
@@ -43,11 +43,11 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_copy_folder_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_copy_folder_res.png)
 
@@ -64,4 +64,3 @@ The following settings are applicable to this action:[remove double quotes from 
 [move folder](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/move-folder)
 
 [rename folder](/automation-guide/action-based-testing-language/built-in-actions/system-actions/file-and-folder/rename-folder)
-

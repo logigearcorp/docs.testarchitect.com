@@ -64,14 +64,13 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_fire_event_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_fire_event_res.png)
-
 
 
 

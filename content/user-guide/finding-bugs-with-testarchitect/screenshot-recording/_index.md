@@ -17,7 +17,7 @@ Suppose you executed a long automated test that contains a good deal of interact
 -   TestArchitect captures images only for those actions that correspond to UI-interactive actions. Other actions are not accompanied by screenshots.
 -   The mouse pointer is not captured in the screenshots. \(However, for UI-interactive actions that apply an actual stimulus to the GUI, that point of stimulus, such as a mouse click, is highlighted. \)
 
-## Screenshots captured during test automation
+## Screenshots captured during test automation {{< permerlink >}} {#concept_smq_5ms_34__section_nnf_wj5_34} 
 
 With screenshot recording enabled, TestArchitect captures screenshots during test execution. It effectively snaps pictures for each UI-interactive action and posts all or some of them to the local test result.
 
@@ -37,7 +37,7 @@ Screenshots captured during testing are displayed in the [**Result Details**](/u
 
 ![](/images/TA_Help/Images/Screenshot_captured_images.png)
 
-## Screenshot viewer display
+## Screenshot viewer display {{< permerlink >}} {#concept_smq_5ms_34__section_o4c_qj5_34} 
 
 On the web browser, when you click a captured screenshot in the [**Result Details**](/user-guide/working-with-test-results/overview/result-details-tab#li_jkx_zqp_5x) tab, the screenshot viewer, appears.
 
@@ -51,7 +51,7 @@ The screenshot viewer incorporates a number of functions \(below\).
 4.  Click on the action name to launch TestArchitect Client, displaying detailed description of the UI-interacting built-in action.
 5.  Click on the action line number text launch TestArchitect Client, displaying the corresponding line in its execution context.
 
-## Video playback
+## Video playback {{< permerlink >}} {#concept_smq_5ms_34__section.Video_playback} 
 
 TestArchitect doesn't only snap pictures. When you have screenshot recording enabled. TestArchitect creates a video of snapshots from important points during the test and stores it at the end of the test run as a video \(.mp4\) file on your machine.
 
@@ -68,7 +68,7 @@ TestArchitect doesn't only snap pictures. When you have screenshot recording ena
     ![](/images/TA_Help/Images/Screenshot_directory_TAC.png "The video snapshot directory in test results on TestArchitect Client")
 
 
-## Screenshot capture and retention rules
+## Screenshot capture and retention rules {{< permerlink >}} {#concept_smq_5ms_34__section.screenshot_rules} 
 
 With screenshot recording active, TestArchitect always captures screenshots of the entire desktop screen.
 
@@ -113,14 +113,14 @@ The rules are as follows:
 
 ## Notes
 
--   **Android:** Screenshot recording, when applied to a connected Android device, requires that the [TestArchitect Agent service](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/setting-up-the-test-environment/setting-up-android-automation/about-testarchitect-agent-in-android/) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
+-   Android: Screenshot recording, when applied to a connected Android device, requires that the [TestArchitect Agent service](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/setting-up-the-test-environment/setting-up-android-automation/about-testarchitect-agent-in-android/) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
     1.  Connect the Android device to the test controller through a USB cable \(not Wi-Fi\), if not already so connected.
     2.  Open the [Android Instrumentation Tool](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/android-instrumentation-tool/) dialog box.
     3.  Click the **Refresh devices list** ![](/images/Android/Images/Refresh_device_list_btn.png) button.
 
 -   **[Capturing screenshots during test execution](/user-guide/finding-bugs-with-testarchitect/screenshot-recording/capturing-screenshots-during-test-execution)**  
 With screenshot recording active,TestArchitect captures screenshots during test execution for each UI-interactive action. Depending on your settings, it retains some of these screenshots and logs them to the generated test result.
--   **[Capturing screenshots in Web Testing](/user-guide/finding-bugs-with-testarchitect/screenshot-recording/capturing-screenshots-in-web-testing)**  
+-   [Capturing screenshots in Web Testing](/user-guide/finding-bugs-with-testarchitect/screenshot-recording/capturing-screenshots-in-web-testing)  
 TestArchitect currently provides two ways of capturing screenshots:
 
 
@@ -131,4 +131,3 @@ TestArchitect currently provides two ways of capturing screenshots:
 [Exporting local test results to an HTML file](/user-guide/working-with-test-results/exporting-test-results/exporting-local-test-results-to-an-html-file)
 
 [Result Details tab](/user-guide/working-with-test-results/overview/result-details-tab)
-

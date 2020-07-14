@@ -10,7 +10,7 @@ keywords: "built-in actions, action, built-in"
 
 TestArchitect includes a library of built-in actions to perform a myriad of functions.
 
-Built-in actions are automatically available with your installation of TestArchitect. They can be found listed in the **Built-In Actions** subtree of the repository tree. There are three categories of built-in actions:
+Built-in actions are automatically available with your installation of TestArchitect. They can be found listed in the Built-In Actions subtree of the repository tree. There are three categories of built-in actions:
 
 -   **[System actions](/automation-guide/action-based-testing-language/built-in-actions/system-actions/)**
 
@@ -32,7 +32,6 @@ Built-in actions cannot be modified by you. They can, however, be used as buildi
 {{<tip>}} When writing your test, if you do not know which built-in actions to use, it is suggested you use the TestArchitect [Action Recorder](/user-guide/actions/action-recorder/), a tool to record your manual mouse and keyboard operations when testing an application. The interactive operations generate the corresponding built-in actions.
 
 {{<note>}} See [Built-in actions](/automation-guide/action-based-testing-language/built-in-actions/) for a complete reference to TestArchitect's library of built-in actions.
-
 
 
 

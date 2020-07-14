@@ -14,7 +14,7 @@ In general, the steps required for automating on the built-in browser in Android
 
 -   Handling JavaScript popups \([Learn more](/automation-guide/application-testing/mobile-testing/testing-mobile-web-applications/testing-chrome-on-android/handling-javascript-popups)\).
 
-## List of supported built-in actions
+## List of supported built-in actions {{< permerlink >}} {#concept_jqn_5cz_45__section.Android_emu_bia} 
 
 |Groups|Actions|
 |------|-------|

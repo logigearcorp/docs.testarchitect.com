@@ -64,4 +64,3 @@ To perform a quick installation of TestArchitect, follow these steps:
 
 
 
-

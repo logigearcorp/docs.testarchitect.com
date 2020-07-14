@@ -24,7 +24,7 @@ To remove a replication server, follow these steps:
 
     ![](/images/TA_Administration/Images/admin_RS_dlg_replication_8.png)
 
-    **For example**: You disconnect from replication repository 192.168.168.96:53:53400
+    For example: You disconnect from replication repository 192.168.168.96:53:53400
 
     A confirmation dialog box appears:
 
@@ -40,5 +40,4 @@ To remove a replication server, follow these steps:
 The selected replication repository is removed from the primary-replication relationship. The change is reflected in the **Replication Repository** field on the Repository List panel.
 
 ![](/images/TA_Administration/Images/Replication_primary_relationship_2.png)
-
 

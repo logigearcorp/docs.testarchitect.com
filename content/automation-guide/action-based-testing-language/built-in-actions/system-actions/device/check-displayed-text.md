@@ -35,7 +35,7 @@ This action may be used within the following project items:test modules and user
 
 Use of this action is supported on the following systems/platforms: iOS.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_check_displayed_text__section_tll_j2y_mk} 
 
 -   This built-in action applies only to the iOS operating system.
 -   The expectedargument can accept regular expressions. Note that argument values that include regular expressions must be entirely enclosed in curly braces \{\}. As an example, `{[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}}` specifies the pattern for an acceptable email address. More simply, `.*` represents the general wildcard for regular expressions, so that `{.*arch.*}` matches starch, marching, testarchitect, etc.
@@ -53,14 +53,13 @@ This action is applicable to the following controls:activity indicator view, but
 
 ![](/images/TA_Automation/Images/bia_check_displayed_text_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_displayed_text_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_displayed_text_res.png)
-
 
 
 

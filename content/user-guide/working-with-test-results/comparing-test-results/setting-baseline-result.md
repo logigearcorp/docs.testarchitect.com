@@ -14,7 +14,7 @@ Ensure that TestArchitect is running and connected to the repository that contai
 
 Choose one of the following three methods to designate a test result as the baseline:
 
--   **Option 1**:
+-   Option 1:
 
     1.  Select the test result node you want to set as the baseline in the TestArchitect explorer tree, and right-click the selection.
 
@@ -22,7 +22,7 @@ Choose one of the following three methods to designate a test result as the base
 
         ![](/images/TA_Help/Images/ug_resultbaseline2.png)
 
--   **Option 2:**
+-   Option 2:
 
     1.  On the TestArchitect explorer tree, double-click the test result node you want to set as the baseline.
 
@@ -30,7 +30,7 @@ Choose one of the following three methods to designate a test result as the base
 
         ![](/images/TA_Help/Images/ug_resultbaseline4.png)
 
--   **Option 3**:
+-   Option 3:
 
     1.  Open the repository test result list view, that is, Double-click the **Results** node on the TestArchitect explorer tree.
 
@@ -55,4 +55,3 @@ The icon for the test result that has been set as the baseline now has a **B** o
 [Comparing results with baseline](/user-guide/working-with-test-results/comparing-test-results/comparing-results-with-baseline)
 
 [Comparing results without baseline](/user-guide/working-with-test-results/comparing-test-results/comparing-results-without-baseline)
-

@@ -12,7 +12,7 @@ This class is the central point for interacting with data set's information.
 
 {{<note>}} This class and its associated methods are currently supported only by the C\# harness.
 
-## Workflow Implementation
+## Workflow Implementation {{< permerlink >}} {#abt_AbtDataSetManagement__section.Workflow} 
 
 In general, a basic workflow involves the following steps:
 
@@ -22,7 +22,7 @@ In general, a basic workflow involves the following steps:
     1.  [AbtDataSet](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdataset/) to continue processing the returned data set, or
     2.  [AbtDataRow](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdatarow/) to continue processing the returned data set row.
 
-## Example
+## Example {{< permerlink >}} {#abt_AbtDataSetManagement__section.Example} 
 
 Suppose that you'd like to get the total number of columns in a given [dedicated data set](/user-guide/support/glossary-of-terms/dedicated-data-set).
 

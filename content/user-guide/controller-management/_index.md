@@ -26,7 +26,7 @@ The controller manages the execution of tests, with functions such as:
 -   Handling multi-station \(lead-deputy\) testing.
 -   Providing functions for a debugger, like pausing and stepping.
 
-## Working on the TestArchitect Controller dialog box
+## Working on the TestArchitect Controller dialog box {{< permerlink >}} {#Test_exec_controller__section_ytz_dwy_22b} 
 
 The TestArchitect Controller dialog box displays detailed execution information or compilation information that occurs on the local machine controller depending on whether you are executing or compiling a test.
 

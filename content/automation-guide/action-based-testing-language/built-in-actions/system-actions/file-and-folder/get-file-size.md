@@ -30,8 +30,8 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   Observe the following format for the file path:
-    -   **Windows platform**: Use backward slashes as separators for the path.
-    -   **Linux platform**: Use forward slashes as separators for the path. \(Note that network paths are not supported.\)
+    -   Windows platform: Use backward slashes as separators for the path.
+    -   Linux platform: Use forward slashes as separators for the path. \(Note that network paths are not supported.\)
 -   Note that this built-in action is not currently supported on macOS or mobile platforms.
 -   variable argument:
     -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
@@ -44,14 +44,13 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_file_size_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_file_size_res.png)
-
 
 
 

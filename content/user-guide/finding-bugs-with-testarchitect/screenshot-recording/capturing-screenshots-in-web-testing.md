@@ -25,4 +25,3 @@ Generally, both ways support your screen capturing but the processing method and
 |HTML document|Capture the viewport only|Capture the title bar, the task bar, and the view port|
 |Extend monitor|Support|No|
 
-

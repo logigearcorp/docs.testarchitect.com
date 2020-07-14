@@ -30,4 +30,3 @@ To enable the TestArchitect Automation Agent in Mozilla Firefox:
 The TestArchitect Automation Agent is now enabled in Mozilla Firefox.
 
 
-

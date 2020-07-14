@@ -10,14 +10,13 @@ keywords: "automation errors, 0x80016013L"
 
 Error code: 0x80016013L
 
-## Problem
+## Problem {{< permerlink >}} {#reference_0x80016013L__section_um5_jvb_2y} 
 
 This happens because the given picture name could not be detected during automation.
 
-## Solution
+## Solution {{< permerlink >}} {#reference_0x80016013L__section_vm5_jvb_2y} 
 
 Firstly, review column headers of the given data set. And then in the test procedures, within the scope of the [use data set](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/use-data-set) / [repeat for data set](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/repeat-for-data-set) block, ensure that the expression with variables whose names must be equivalent to the column headers of the data set is currently being employed. Or if you specify a header column based on its index number, the index must start from 1.
-
 
 
 

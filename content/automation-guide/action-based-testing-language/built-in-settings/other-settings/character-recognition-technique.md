@@ -27,7 +27,7 @@ Specifies which algorithm, OCR or GDI, is applied to recognize text produced by 
 
 OCR
 
-## Applicable Systems/Platforms
+## Applicable Systems/Platforms {{< permerlink >}} {#bis_character_recognition_technique__section_t5m_gsg_5v} 
 
 This built-in setting is supported on the following systems/platforms:
 
@@ -43,12 +43,11 @@ This built-in setting is supported on the following systems/platforms:
 
 ## Example
 
-**Test Lines**
+Test Lines
 
 Note that, since the default value of this built-in setting is OCR, remember to switch to GDI when applying GDI-technique built-in actions.
 
 ![](/images/TA_Automation/Images/bis_character_recognition_technique_pgm.png)
-
 
 
 

@@ -56,7 +56,7 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ## Example \#1: Demonstrating test case scope
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_local_variable_test_case_scope_pgm.png)
 
@@ -69,7 +69,7 @@ In Example \#1:
 
 ## Example \#2: Demonstrating block scope \(use data set/repeat for data set\)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_local_variable_block_scope_pgm.png)
 
@@ -79,7 +79,7 @@ In Example \#2:
 
 ## Example \#3: Demonstrating test module scope
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_local_variable_test_module_scope_pgm.png)
 
@@ -89,14 +89,13 @@ In Example \#3:
 
 ## Example \#4: Demonstrating action scope
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_local_variable_action_scope_pgm.png)
 
 In Example \#4:
 
 -   Local variable a is declared in test case TC01 and TC01 section calls actions Action 1 and Action 2. Variable a is visible in TC01 and is accessible in Action 1 and Action 2, since both of those actions are children of TC01. Consequently, the value of the variable b will be 10, and the value of the variable c will be 30.
-
 
 
 

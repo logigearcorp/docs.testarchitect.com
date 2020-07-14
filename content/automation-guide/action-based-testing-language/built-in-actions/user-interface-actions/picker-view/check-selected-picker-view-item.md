@@ -35,7 +35,7 @@ Check whether the display text of the currently selected item of a specified pic
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_check_selected_picker_view_item__section_tll_j2y_mk} 
 
 -   This built-in action applies only to the iOS operating system.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
@@ -52,14 +52,13 @@ This action is applicable to the following controls:picker view.
 
 ![](/images/TA_Automation/Images/bia_check_selected_picker_view_item_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_selected_picker_view_item_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_selected_picker_view_item_res.png)
-
 
 
 

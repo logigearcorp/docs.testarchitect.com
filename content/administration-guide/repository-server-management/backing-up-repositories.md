@@ -44,13 +44,12 @@ To set up or modify the auto-backup schedule, do the following:
 
     -   **Run backup without disconnecting the connection**: Backs up the selected repositories without stopping any client connections to those repositories.
     -   **Disconnect the connection and run backup**: Automatically stops all client connections to the selected repositories to allow the backup to proceed.
-8.  Click **OK**.
+8.  Click OK.
 
 
 The general state of auto-backup, including on/off status, schedule, and which repositories are covered, can be ascertained with a glance at the Repository Server Control Panel dialog box.
 
 ![](/images/TA_Administration/Images/admin_RSCP_backup_info.png)
-
 
 
 

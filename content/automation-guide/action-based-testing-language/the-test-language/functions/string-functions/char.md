@@ -34,15 +34,14 @@ Unicode character, as specified by the given decimal code.
 
 ## Example
 
-**Test Lines**
+Test Lines
 
 ![](/images/TA_Automation/Images/automationguide_stringfunction_char_pgm.png)
 
 \( Note: The decimal value of 8364 represents the Euro symbol. \)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/automationguide_stringfunction_char_res.png)
-
 
 

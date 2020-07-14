@@ -18,4 +18,3 @@ How to set up Safari on a cloud iOS device for automation under TestArchitect.
 Explains general workflow to test mobile web applications on iOS cloud devices in the Remote TestKit cloud service.
 
 
-

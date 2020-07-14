@@ -12,8 +12,7 @@ The following new features and improvements are introduced in the latest version
 
 ## License Server
 
-**Enhancements**
+Enhancements
 
 -   **New mechanism to keep license key:** From TestArchitect 8.4 update 4 onward, the license key in License Server works under a new mechanism, which enables the license key to get over abrupt/ sudden/ unexpected problems such as power outage.
-
 

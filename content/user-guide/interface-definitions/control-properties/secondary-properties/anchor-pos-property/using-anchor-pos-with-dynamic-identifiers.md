@@ -10,9 +10,9 @@ keywords: "anchor, anchor pos, interface elements, properties"
 
 Using anchor and anchor pos properties within variable-based dynamic identifiers.
 
-In the [previous example](/user-guide/interface-definitions/control-properties/secondary-properties/anchor-pos-property/using-anchor-and-anchor-pos-properties) demonstrating the use of the anchor pos property, we had dedicated action lines accessing several link elements in a web page with a repetitive pattern of elements. And the test used “hard-coded” references to each element. If the next day's newspaper had more than three **National News** articles, the test case would fail to capture any headlines past the third one. And were it to have only two, the get action would error out when it attempted to access the \(nonexistent\) third headline.
+In the [previous example](/user-guide/interface-definitions/control-properties/secondary-properties/anchor-pos-property/using-anchor-and-anchor-pos-properties) demonstrating the use of the anchor pos property, we had dedicated action lines accessing several link elements in a web page with a repetitive pattern of elements. And the test used “hard-coded” references to each element. If the next day's newspaper had more than three National News articles, the test case would fail to capture any headlines past the third one. And were it to have only two, the get action would error out when it attempted to access the \(nonexistent\) third headline.
 
-Ideally, we need a test procedure that can retrieve all of the **National News** headlines regardless of their number. And because of the repetitive nature of the pattern of elements surrounding each headline, it would be preferable to be able to iterate through them, especially in an AUT window or web page containing a large number of these repetitions.
+Ideally, we need a test procedure that can retrieve all of the National News headlines regardless of their number. And because of the repetitive nature of the pattern of elements surrounding each headline, it would be preferable to be able to iterate through them, especially in an AUT window or web page containing a large number of these repetitions.
 
 To recap, recall from the last example that the HTML code of the web page is as follows:
 
@@ -61,7 +61,7 @@ To recap, recall from the last example that the HTML code of the web page is as 
 
 ```
 
-Also recall that we are interested in retrieving the text of the headlines of the **National News** section, which are contained in link \(<a\>\) elements:
+Also recall that we are interested in retrieving the text of the headlines of the National News section, which are contained in link \(<a\>\) elements:
 
 ![](/images/TA_Help/Images/interface.anchor_pos.06.png)
 
@@ -121,7 +121,6 @@ Upon completion of execution, your headlines02.txt file holds the three retrieve
 ![](/images/TA_Help/Images/IV_tree_for_anchor_pos.13a.png)
 
 One issue that remains is that we have so far relied on the assumption that, in all possible editions of this web page, the only <a\> \(link\) elements within the national\_section div will be those for the headlines. If we're wrong about that, we will find ourselves retrieving non-headline text. One solution in this case is to use multilevel anchors, discussed in the next topic.
-
 
 
 

@@ -68,11 +68,11 @@ This action is applicable to the following controls:tree view, tree table, tree 
 
 ![](/images/TA_Automation/Images/bia_does_tree_node_exist_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_does_tree_node_exist_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_does_tree_node_exist_res.png)
 
@@ -80,11 +80,11 @@ This action is applicable to the following controls:tree view, tree table, tree 
 
 ![](/images/TA_Automation/Images/bia_does_tree_node_exist_index_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_does_tree_node_exist_index_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_does_tree_node_exist_index_res.png)
 
@@ -94,4 +94,3 @@ This action is applicable to the following controls:tree view, tree table, tree 
 [check tree node exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-view/check-tree-node-exists)
 
 [check tree node not exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-view/check-tree-node-not-exists)
-

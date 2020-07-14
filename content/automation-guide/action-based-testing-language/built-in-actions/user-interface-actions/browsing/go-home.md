@@ -35,15 +35,15 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_go_home_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_go_home_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_go_home_effect.png)
 
@@ -57,4 +57,3 @@ The following settings are applicable to this action:[case sensitive](/automatio
 [navigate](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/navigate)
 
 [refresh](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/refresh)
-

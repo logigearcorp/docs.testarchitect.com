@@ -18,4 +18,3 @@ Timing settings used for a given action are largely determined by the type of ac
  The execution of an action may involve one or more UI-related tests that must be satisfied before the primary function of the action can be executed.
 
 
-

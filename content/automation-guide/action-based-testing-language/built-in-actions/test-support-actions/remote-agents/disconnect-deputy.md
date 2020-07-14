@@ -34,7 +34,7 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_disconnect_deputy_pgm.png)
 
@@ -45,4 +45,3 @@ The following settings are applicable to this action:[remove double quotes from 
 
 
 [Synchronous remote execution](/user-guide/test-execution/methods-of-test-execution/remote-test-execution/synchronous-remote-execution/)
-

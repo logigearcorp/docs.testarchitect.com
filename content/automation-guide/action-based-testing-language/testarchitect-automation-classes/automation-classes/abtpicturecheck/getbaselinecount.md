@@ -8,15 +8,15 @@ aliases:
 keywords: "methods of abt, GetBaselineCount, GetBaselineCount (AbtPictureCheck), AbtPictureCheck, getbaselinecount, abtpicturecheck getbaselinecount, count baseline images in picture check, number of baseline images in picture check, how many baseline images in picture check"
 ---
 
-## Syntax
+## Syntax {{< permerlink >}} {#reference_GetBaselineCount__section.syntax} 
 
 `int GetBaselineCount()`
 
-## Description
+## Description {{< permerlink >}} {#reference_GetBaselineCount__section.desc} 
 
 Retrieve the number of baseline images in a given picture check.
 
-## Return Value
+## Return Value {{< permerlink >}} {#reference_GetBaselineCount__section.return} 
 
 Integer value indicating the number of baseline images found. If an error occurs, the return value is -1.
 

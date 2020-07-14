@@ -16,7 +16,7 @@ Exit the current test module \(skip all remaining action lines and test cases\) 
 
 -   **exit status**
 
-    \(Optional\) Determine whether the overall final result status must be [Not Finished](/user-guide/working-with-test-results/overview/test-result-status) or not. \(See **Notes** below.\)
+    \(Optional\) Determine whether the overall final result status must be [Not Finished](/user-guide/working-with-test-results/overview/test-result-status) or not. \(See Notes below.\)
 
     Possible values:
 
@@ -46,14 +46,13 @@ The following settings are applicable to this action:none.
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_exit_test_module_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_exit_test_module_res.png)
-
 
 
 

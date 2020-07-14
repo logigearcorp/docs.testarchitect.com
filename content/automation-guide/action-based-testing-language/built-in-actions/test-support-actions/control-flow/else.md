@@ -20,7 +20,7 @@ There are no arguments for this action.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_else__notes_else} 
 
 -   Action lines associated with else are those occurring between the else and its matched end if.
 
@@ -30,11 +30,10 @@ The following settings are applicable to this action:none.
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_else_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_else_res.png)
-

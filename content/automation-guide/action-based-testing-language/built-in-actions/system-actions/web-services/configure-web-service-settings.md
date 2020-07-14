@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, configure web service settings, configure web service settings (action), configure web service settings, web service settings, web service configuration, configure web service, web service configuration settings"
 ---
 
-## Description
+## Description {{< permerlink >}} {#bia_configure_web_service_settings__section_iyg_dsd_1y} 
 
 Send JSON string request to a web service in order to apply new configuration settings.
 
-## Arguments
+## Arguments {{< permerlink >}} {#bia_configure_web_service_settings__section_jyg_dsd_1y} 
 
 -   **values**
 
@@ -45,11 +45,11 @@ Send JSON string request to a web service in order to apply new configuration se
     Note that you can learn more about JSON syntax [here](http://www.w3schools.com/js/js_json_syntax.asp).
 
 
-## Valid contexts
+## Valid contexts {{< permerlink >}} {#bia_configure_web_service_settings__section_kyg_dsd_1y} 
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_configure_web_service_settings__section_lyg_dsd_1y} 
 
 -   It is required that you declare configure web service settings with its configurations, before using the [create http request](/automation-guide/action-based-testing-language/built-in-actions/system-actions/web-services/create-http-request) built-in action.
 -   For a full list of web service's configurations, supported by TestArchitect, see "Supported web service's configurations" below.
@@ -92,21 +92,21 @@ This action may be used within the following project items:test modules and user
         -   REST Assured automatically determines system proxy by looking at Java settings, environment variables, browser settings and operating system settings.
         -   TestArchitect supports mixed mode. Specially, you might use the system hostname in combination with a user-defined port, or vice versa.
 2.  SSL: Defines SSL configurations. There are three supported modes in TestArchitect.
-    1.  **Server validation**: Run HTTPS normally, the SSL validation is handled from the server side.
+    1.  Server validation: Run HTTPS normally, the SSL validation is handled from the server side.
         -   JSON string defined:
 
             ```
             {"ssl":"trusted"}
             ```
 
-    2.  **No SSL validation**: TestArchitect employs "[relaxed HTTP validation](http://static.javadoc.io/io.rest-assured/rest-assured/3.0.1/io/restassured/config/SSLConfig.html#relaxedHTTPSValidation--)", that is, skip SSL validation. Trust all hosts regardless if the SSL certificate is invalid. By using this mode, you don't need to specify a keystore or trust store.
+    2.  No SSL validation: TestArchitect employs "[relaxed HTTP validation](http://static.javadoc.io/io.rest-assured/rest-assured/3.0.1/io/restassured/config/SSLConfig.html#relaxedHTTPSValidation--)", that is, skip SSL validation. Trust all hosts regardless if the SSL certificate is invalid. By using this mode, you don't need to specify a keystore or trust store.
         -   JSON string defined:
 
             ```
             {"ssl":"skip"}
             ```
 
-    3.  **SSL client validation**: You can be more fine-grained and have Java keystore file and use it with REST Assured.
+    3.  SSL client validation: You can be more fine-grained and have Java keystore file and use it with REST Assured.
         -   JSON string must be defined as follows.
 
             ```
@@ -200,7 +200,7 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ## Example: Proxy configurations
 
-**Case 1: User-defined proxy configurations**:
+Case 1: User-defined proxy configurations:
 
 Suppose that you'd like add the following proxy configurations:
 
@@ -217,11 +217,11 @@ Your JSON string should resemble as follows:
 {"proxy":{"hostname":"192.168.167.29","port":8888,"scheme":"http","username":"john","password":"doe"}}
 ```
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_configure_web_service_settings_proxy_pgm.png)
 
-**Case 2: System proxy configurations**:
+Case 2: System proxy configurations:
 
 Suppose that you'd like to apply system proxy configurations for hostname and port:
 
@@ -238,13 +238,13 @@ Your JSON string should resemble as follows:
 {"proxy":{"hostname":"system","port":"system","scheme":"http","username":"john","password":"doe"}}
 ```
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_configure_web_service_settings_proxy_system_pgm.png)
 
 ## Example: SSL configuration
 
-**Case 1: No SSL validation**
+Case 1: No SSL validation
 
 For example, you run into a problem, because the server is using an invalid SSL certificate. The easiest way to workaround this is that you trust all hosts.
 
@@ -254,11 +254,11 @@ Your JSON string should resemble as follows:
 {"ssl":"skip"}
 ```
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_configure_web_service_settings_ssl_skip_pgm.png)
 
-**Case 2: SSL client validation**
+Case 2: SSL client validation
 
 Suppose that you'd like to configure SSL with the following certificate authentications:
 
@@ -273,7 +273,7 @@ Your JSON string should resemble as follows:
 {"ssl":{"pathToKeyStore":"C:/Test_Folder/newkeystore.jks","keyStorePassword":"123456","pathToTrustStore":"C:/Test_Folder/cacerts","trustStorePassword":"changeit"}}
 ```
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_configure_web_service_settings_ssl_local_validation_pgm.png)
 
@@ -290,7 +290,7 @@ Your JSON string should resemble as follows:
 {"cookies":{"yummy_cookie":"choco","tasty_cookie":"strawberry"}}
 ```
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_configure_web_service_settings_cookies_pgm.png)
 
@@ -312,7 +312,7 @@ JSON string resembles the following:
 {"encoder":{"contentTypeToDefaultCharset":{"application/json":"UTF-8","text/plain":"US-ASCII"},"defaultQueryParameterCharset":"US-ASCII","urlEncodingEnabled":"false"}}
 ```
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_configure_web_service_settings_encoder_pgm.png)
 
@@ -333,7 +333,7 @@ JSON string resembles the following:
 {"decoder":{"contentDecoders":"identity","contentTypeToDefaultCharset":{"application/octet-stream":"us-ascii"}}}
 ```
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_configure_web_service_settings_decoder_pgm.png)
 
@@ -356,7 +356,7 @@ JSON string resembles the following:
 {"redirect":{"followRedirects":"true","allowCircularRedirects":"true","rejectRelativeRedirect":"true","maxRedirects":50}}
 ```
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_configure_web_service_settings_redirect_pgm.png)
 
@@ -367,4 +367,3 @@ JSON string resembles the following:
 
 
 [Testing web services](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-services/)
-

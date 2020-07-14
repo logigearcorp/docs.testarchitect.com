@@ -44,18 +44,17 @@ Select the default web browser on which to act.
 
 ## Example
 
-**Test Lines**
+Test Lines
 
 ![](/images/TA_Automation/Images/bis_use_browser_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bis_use_browser_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bis_use_browser_effect.png)
-
 
 
 

@@ -63,7 +63,7 @@ To configure your custom harness test tool, do the following:
             |Value\_if\_cleared|The value written to the command line if this option is cleared. \(Visible in the **Command Line** field of the Automation Tools dialog box.\)|
             |Default\_value|Can be true or false. If true, this option's check box is selected when the Automation Tools dialog box is first opened; if false, it is cleared.|
 
-        -   **Example**: The following options are entered into the **Available options** field:
+        -   Example: The following options are entered into the Available options field:
 
             ```
             "Quit when done"/""/"-don't_quit"/true, "Tracing"/""/"-animate"/false, "Run minimized"/"-run_minimized"/""/true, "Batch mode"/"on"/"off"/false
@@ -73,10 +73,10 @@ To configure your custom harness test tool, do the following:
 
             |Option\_name|Value\_if\_checked|Value\_if\_cleared|Default\_value|
             |------------|------------------|------------------|--------------|
-            |**Quit when done**|\(empty string\)|-don’t\_quit|true|
-            |**Tracing**|\(empty string\)|-animate|false|
-            |**Run minimized**|-run\_minimized|\(empty string\)|true|
-            |**Batch mode**|on|off|false|
+            |Quit when done|\(empty string\)|-don’t\_quit|true|
+            |Tracing|\(empty string\)|-animate|false|
+            |Run minimized|-run\_minimized|\(empty string\)|true|
+            |Batch mode|on|off|false|
 
             and results in four check boxes being displayed in the Options panel of the Automation Tools dialog box during test run setup, two of which are pre-selected:
 
@@ -100,7 +100,7 @@ To configure your custom harness test tool, do the following:
 
                 ![](/images/TA_Administration/Images/Available_options_test_tool_example_3.png)
 
-        -   **Example:** The following template is entered into the **Command line** field:
+        -   Example: The following template is entered into the Command line field:
 
             ```
             -t {SCRIPT} -run {QUIT_WHEN_DONE} {TRACING} {RUN_MINIMIZED} -batch {BATCH_MODE} -dont_show_welcome
@@ -111,10 +111,10 @@ To configure your custom harness test tool, do the following:
             |Command line template variable|Replacement value \(general case\)|Replacement value for above Automation Tools settings|
             |------------------------------|----------------------------------|-----------------------------------------------------|
             |\{SCRIPT\}|Replaced by the value specified in Automation Tools\>**Script\(s\)** field.|`D:\harness samples\python\ta_main.py`|
-            |\{QUIT\_WHEN\_DONE\}|Replaced by empty string when Automation Tools\>**Quit when done** check box is selected; otherwise replaced by `-don't quit`.|\(empty string\)|
-            |\{TRACING\}|Replaced by empty string when Automation Tools\>**Tracing** check box is selected; otherwise replaced by `-animate`.|`-animate`|
-            |\{RUN\_MINIMIZE\}|Replaced by `-run_minimized` when Automation Tools\>**Run minimized** check box is selected; otherwise replaced by empty string.|`-run_minimized`|
-            |\{BATCH\_MODE\}|Replaced by `on` when Automation Tools\>**Batch mode** check box is selected; otherwise replaced by `off`.|`off`|
+            |\{QUIT\_WHEN\_DONE\}|Replaced by empty string when Automation Tools\>Quit when done check box is selected; otherwise replaced by `-don't quit`.|\(empty string\)|
+            |\{TRACING\}|Replaced by empty string when Automation Tools\>Tracing check box is selected; otherwise replaced by `-animate`.|`-animate`|
+            |\{RUN\_MINIMIZE\}|Replaced by `-run_minimized` when Automation Tools\>Run minimized check box is selected; otherwise replaced by empty string.|`-run_minimized`|
+            |\{BATCH\_MODE\}|Replaced by `on` when Automation Tools\>Batch mode check box is selected; otherwise replaced by `off`.|`off`|
 
             Assuming that \{INSTALL\_DIR\} evaluates to `D:\Program Files\LogiGear\TestArchitect`, the ultimate command string that is formed, including the executable, is:
 
@@ -126,5 +126,4 @@ To configure your custom harness test tool, do the following:
 
 
 A new test tool is created and added as a child node beneath the **Test Tool** node.
-
 

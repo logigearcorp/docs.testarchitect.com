@@ -62,8 +62,8 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   Observe the following format for the folder path:
-    -   **Windows platform**: Use backward slashes as separators for the path.
-    -   **Linux platform**: Use forward slashes as separators for the path. \(Note that network paths are not supported.\)
+    -   Windows platform: Use backward slashes as separators for the path.
+    -   Linux platform: Use forward slashes as separators for the path. \(Note that network paths are not supported.\)
 -   Note that this built-in action is not currently supported on macOS or mobile platforms.
 -   The attributes argument may include any combination of attributes allowed for the given platform, separated by commas.
 -   \(Windows only\) If the attributes argument's value is set to normal, the action clears all existing attributes of the specified folder.
@@ -75,14 +75,13 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_change_folder_attribute_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_change_folder_attribute_res.png)
-
 
 
 

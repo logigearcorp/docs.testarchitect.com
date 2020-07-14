@@ -15,16 +15,16 @@ One key to good testing is to repeat tasks multiple times, supplying the target 
 
 Another means of creating efficient, maintainable tests is through the liberal use of user-defined actions. User-defined actions are composed of other actions, which may be built-in, user-scripted, or other user-defined actions. They are used to effectively encapsulate what, from a business logic standpoint, may be considered a single task, such as log in or rent a car. User-defined actions, like loops, allow your tests to be more compact, readable and maintainable, and by eliminating redundancy, reduce the time required to write tests.
 
-**Audience:** Testers, Automation engineers
+Audience: Testers, Automation engineers
 
-**Prerequisites:**
+Prerequisites:
 
 -   Basic understanding of the TestArchitect user interface
 -   Familiarity with the TestArchitect test editor
 -   Essential understanding of TestArchitect repositories, projects, and tests
 -   An understanding of basic computer programming concepts is helpful
 
-**What you will learn:**
+What you will learn:
 
 -   Incorporating repetitive test logic into loops
 -   Creating user-defined actions
@@ -46,7 +46,6 @@ In this exercise you will refactor your last test case by encapsulating its repo
 7.  [Returning values from actions](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-6-streamlining-your-tests/returning-values-from-actions)  
 In this exercise you expand the functionality of your new action by having it derive some values and return them to the calling entity.
 8.  [Summary: What you learned](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-6-streamlining-your-tests/summary-what-you-learned)  
-
 
 
 

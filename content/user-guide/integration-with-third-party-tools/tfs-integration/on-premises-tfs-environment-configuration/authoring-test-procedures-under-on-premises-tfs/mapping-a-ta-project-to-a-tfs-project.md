@@ -22,7 +22,7 @@ To map a TestArchitect project to a TFS project:
 
 2.  In the **Source** field, specify the team project to map to.
 
-    The format must be in the form of the **TFS Team Project Collection** name, followed by a backslash \(\\\), followed by the \(case insensitive\) **TFS Team Project** name. You can obtain this information from within Visual Studio from the Connect to Team Foundation Server dialog box. \(Refer to your Visual Studio Help to learn how to access this dialog box.\)
+    The format must be in the form of the TFS Team Project Collection name, followed by a backslash \(\\\), followed by the \(case insensitive\) TFS Team Project name. You can obtain this information from within Visual Studio from the Connect to Team Foundation Server dialog box. \(Refer to your Visual Studio Help to learn how to access this dialog box.\)
 
     For example, to point to the TFS CarRental project shown below, you would enter DefaultCollection\\CarRental into the **Source** field of the Project panel.     ![](/images/TA_Help/Images/MTM_map_proj.png)
     
@@ -43,7 +43,6 @@ To map a TestArchitect project to a TFS project:
     If authentication succeeds, a confirmation dialog box to that effect is displayed.
 
 6.  Click **OK** to close the confirmation dialog box.
-
 
 
 

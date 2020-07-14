@@ -29,4 +29,3 @@ On Windows machines only, automating tests on Mozilla Firefox requires GeckoDriv
 4.  [Setting 100% zoom](/user-guide/getting-started/sample-repository/scrum-board/preparing-web-browsers/preparing-mozilla-firefox-for-web-testing/setting-100-zoom)  
 On Windows and Linux machines, TestArchitect requires that the browser zoom be set to 100% to correctly identify HTML controls and their positions on web pages.
 
-

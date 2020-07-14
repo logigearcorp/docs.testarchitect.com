@@ -67,25 +67,25 @@ This action may be used within the following project items:test modules and user
 
 Suppose you issue the dir command in your automation script to see the available files and directories in the D:\\Development directory.
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/new_execute_command_1.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/new_execute_command_2.png)
 
 Instead of writing the dir output to the var\_output variable, you can write the output to a file by using the redirect command output \(\>\) operator.
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/new_execute_command_3.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/new_execute_command_4.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/new_execute_command_5.png)
 
@@ -98,13 +98,12 @@ Suppose you may want to issue two commands in your automation script.
 
 Additionally, these two commands must run asynchronously \(without waiting for each command to finish\).
 
-**Test Lines**
+Test Lines
 
 ![](/images/TA_Automation/Images/new_execute_command_7.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/new_execute_command_6.png)
-
 
 

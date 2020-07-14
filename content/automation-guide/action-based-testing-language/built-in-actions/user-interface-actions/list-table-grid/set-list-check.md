@@ -62,29 +62,28 @@ This action is applicable to the following controls:list box.
 
 ## Example - Case 1: Use text value
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_set_list_check_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_set_list_check_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_set_list_check_aut.png)
 
 ## Example - Case 2: Use numerical index value
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_set_list_check_index_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_set_list_check_index_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_set_list_check_index_aut.png)
-

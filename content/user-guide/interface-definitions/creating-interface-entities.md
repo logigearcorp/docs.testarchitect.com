@@ -12,7 +12,7 @@ How to create an interface entity, which is used to represent such AUT elements 
 
 Choose one of the two following methods to create an interface entity:
 
--   **Option 1**:
+-   Option 1:
 
     1.  Right-click an interface, and then select **New Interface Entity**.
 
@@ -24,7 +24,7 @@ Choose one of the two following methods to create an interface entity:
         -   **Description**: \(Optional\) Short description for the interface entity.
     3.  Click **Create**.
 
--   **Option 2**:
+-   Option 2:
 
     1.  Open the interface list view, that is, double-click the **Interfaces** node on the TestArchitect explorer tree.
 
@@ -44,7 +44,6 @@ Choose one of the two following methods to create an interface entity:
 A new interface entity is added to the project under the selected interface, and the editor opens with a blank worksheet view of the interface entity.
 
 {{<note>}} In the editor, you can add an [interface element](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/interface-handling/interface-element) line for each item in your interface entity. However, manually entering interface elements is not an efficient way to develop your interface. Choosing TA names might be straightforward enough, but manually determining the identifying properties of each physical element and entering them in the editor can be tedious and prone to error. To address that problem, TestArchitect includes an [Interface Viewer](/user-guide/interface-definitions/the-interface-viewer/) tool and assorted [toolbar icons](/user-guide/interface-definitions/interface-capturing-commands/) to allow you to visually map the interface entity and its elements.
-
 
 
 

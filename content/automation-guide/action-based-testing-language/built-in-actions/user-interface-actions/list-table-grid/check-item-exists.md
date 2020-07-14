@@ -31,7 +31,7 @@ Check for the existence of a specified item in a list box, list view, or combo b
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_check_item_exists__section.notes} 
 
 -   item argument:
     -   The item argumentmay be specified by either of two means:the displayed text of the item, or its numerical index. \(Indexes are one-based; that is, numbering begins at 1.\)
@@ -54,11 +54,11 @@ This action is applicable to the following controls:list box, list view, combo b
 
 ![](/images/TA_Automation/Images/bia_check_item_exist_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_item_exists_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_item_exist_res.png)
 
@@ -66,11 +66,11 @@ This action is applicable to the following controls:list box, list view, combo b
 
 ![](/images/TA_Automation/Images/bia_check_item_exist_index_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_item_exists_index_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_item_exist_index_res.png)
 
@@ -78,11 +78,11 @@ This action is applicable to the following controls:list box, list view, combo b
 
 ![](/images/TA_Automation/Images/bia_check_item_exist_2_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_item_exists_2_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_item_exist_2_res.png)
 
@@ -90,11 +90,11 @@ This action is applicable to the following controls:list box, list view, combo b
 
 ![](/images/TA_Automation/Images/bia_check_item_exist_2_index_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_item_exists_2_index_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_item_exist_2_index_res.png)
 
@@ -104,4 +104,3 @@ This action is applicable to the following controls:list box, list view, combo b
 [check item not exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/check-item-not-exists)
 
 [does item exist](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/does-item-exist)
-

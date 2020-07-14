@@ -48,11 +48,10 @@ This action is applicable to the following controls:menu.
 
 ![](/images/TA_Automation/Images/bia_select_button_menu_pgm.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_select_button_menu_res.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_select_button_menu_aut.png)
-

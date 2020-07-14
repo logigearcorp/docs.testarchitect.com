@@ -87,15 +87,14 @@ This action is applicable to the following controls:menu.
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_click_select_menu_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_click_select_menu_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_click_select_menu_aut.png)
-

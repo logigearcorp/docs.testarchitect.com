@@ -12,7 +12,7 @@ Interface entities can be exported to archive files \(.ZIP format\), which can b
 
 Choose one of the following two methods to export interface entities:
 
--   **Option 1**:
+-   Option 1:
 
     1.  In the TestArchitect explorer tree, right-click an interface entity node, and then click **Export to ZIP file**.
 
@@ -28,7 +28,7 @@ Choose one of the following two methods to export interface entities:
 
     4.  Click **OK** to dismiss the dialog box.
 
--   **Option 2**:
+-   Option 2:
 
     1.  In the TestArchitect explorer tree, double-click an interface node.
 
@@ -48,7 +48,6 @@ Choose one of the following two methods to export interface entities:
 
 
 The interface entity archive file \(.ZIP\) is exported successfully at the specified location.
-
 
 
 

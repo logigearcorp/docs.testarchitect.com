@@ -12,7 +12,7 @@ keywords: "methods of abt, GetSelectedIndex, GetSelectedIndex (AbtToolBar), AbtT
 
 `int GetSelectedIndex()`
 
-## Description
+## Description {{< permerlink >}} {#abt_GetSelectedIndex_toolbar__d653e54} 
 
 Retrieve the numeric index of the currently selected item in the object.
 

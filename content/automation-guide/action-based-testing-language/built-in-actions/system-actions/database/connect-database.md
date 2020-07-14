@@ -46,11 +46,11 @@ This action is applicable to the following controls:none.
 
 The following example illustrates the process of connecting to, and using, a database from within a test. After creating a named connection string with the action [create connection string](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/connect-database), the string is used by this action to connect to the database.
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_connect_database_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_connect_database_res.png)
 
@@ -61,4 +61,3 @@ The following example illustrates the process of connecting to, and using, a dat
 
 
 [Testing with databases](/automation-guide/application-testing/testing-with-databases/)
-

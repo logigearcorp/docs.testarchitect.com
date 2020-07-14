@@ -49,18 +49,17 @@ This action is applicable to the following controls:scroll bar
 
 ![](/images/TA_Automation/Images/bia_scroll_left_aut1.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_scroll_left_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_scroll_left_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_scroll_left_aut2.png)
-
 
 
 

@@ -31,7 +31,7 @@ Check for the existence of a tab item \(a single tab in a tab bar\) as identifie
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_check_tab_exists__section.notes} 
 
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
@@ -47,11 +47,11 @@ This action is applicable to the following controls:tab control.
 
 ![](/images/TA_Automation/Images/bia_check_tab_exists_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_tab_exists_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_tab_exists_res.png)
 
@@ -63,4 +63,3 @@ This action is applicable to the following controls:tab control.
 [check tab not exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tab-controls/check-tab-not-exists)
 
 [does tab exist](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tab-controls/does-tab-exist)
-

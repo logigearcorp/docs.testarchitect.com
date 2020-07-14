@@ -39,7 +39,7 @@ Retrieve both the header and footer text of a section of a table view control.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_get_table_view_section__section_tll_j2y_mk} 
 
 -   This built-in action applies only to the iOS operating system.
 -   index argument: Note that index numbering begins with 1.
@@ -58,16 +58,15 @@ This action is applicable to the following controls:table view.
 
 ![](/images/TA_Automation/Images/bia_get_table_view_section_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_table_view_section_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_table_view_section_res.png)
 
 {{<note>}} In this example, the returned table view section footer text is null since that section has no footer.
-
 
 
 

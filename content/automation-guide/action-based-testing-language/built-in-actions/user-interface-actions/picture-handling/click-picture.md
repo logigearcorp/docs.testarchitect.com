@@ -79,7 +79,7 @@ Check a bitmap area of the AUT's current display for the presence of a given ins
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_click_picture__section_tll_j2y_mk} 
 
 -   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/automation-guide/action-based-testing-language/built-in-actions/system-actions/operating-system/get-screen-resolution#li.ios.get_screen_resolution).\)
 -   As a convenience when editing, you may drag the appropriate picture check node from the **Picture Checks** folder \(in the TestArchitect explorer tree\) into this action'spicture argument.
@@ -108,7 +108,7 @@ This action may be used within the following project items:test modules and user
     |no overlap with active UI element|the active UI element \(Case 3 above\)|
 
 -   If the action fails to find the specified instance of the target image, an error is generated.
--   **Android:** This built-in action, when applied to a connected Android device, requires that the [TestArchitect Agent service](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/setting-up-the-test-environment/setting-up-android-automation/about-testarchitect-agent-in-android/) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
+-   Android: This built-in action, when applied to a connected Android device, requires that the [TestArchitect Agent service](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/setting-up-the-test-environment/setting-up-android-automation/about-testarchitect-agent-in-android/) be running. Note also that, if and when an Android device is restarted, TestArchitect Agent is then stopped. Should this be the case, it is essential that you reactivate the service by observing the following steps:
     1.  Connect the Android device to the test controller through a USB cable \(not Wi-Fi\), if not already so connected.
     2.  Open the [Android Instrumentation Tool](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/android-instrumentation-tool/) dialog box.
     3.  Click the **Refresh devices list** ![](/images/Android/Images/Refresh_device_list_btn.png) button.
@@ -122,15 +122,15 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ![](/images/TA_Automation/Images/bia_click_picture_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_click_picture_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_click_picture_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_click_picture_effect.png)
 
@@ -138,15 +138,15 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ![](/images/TA_Automation/Images/bia_click_picture_aut_2.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_click_picture_pgm_2.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_click_picture_res_2.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_click_picture_effect.png)
 
@@ -157,4 +157,3 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 
 [Image comparison techniques](/automation-guide/action-based-testing-language/the-test-language/image-comparison-techniques)
-

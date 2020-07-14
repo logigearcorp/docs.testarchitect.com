@@ -69,11 +69,11 @@ This action is applicable to the following controls:tree view, tree table, tree 
 
 ![](/images/TA_Automation/Images/bia_check_tree_node_status_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_tree_node_status_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_tree_node_status_res.png)
 
@@ -81,11 +81,11 @@ This action is applicable to the following controls:tree view, tree table, tree 
 
 ![](/images/TA_Automation/Images/bia_check_tree_node_status_index_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_tree_node_status_index_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_tree_node_status_index_res.png)
 
@@ -93,4 +93,3 @@ This action is applicable to the following controls:tree view, tree table, tree 
 
 
 [get tree node status](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-view/get-tree-node-status)
-

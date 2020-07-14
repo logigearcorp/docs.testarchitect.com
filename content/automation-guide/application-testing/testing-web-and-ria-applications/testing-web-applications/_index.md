@@ -14,7 +14,7 @@ TestArchitect lets you create, manage and run web-based automated tests on diffe
 
 TestArchitect allows you to test web applications in the following browsers and operating systems:
 
--   **Windows**:
+-   Windows:
     -   Microsoft Edge, version 42.17134.1.0, 38.14393.0.0
         -   Windows 10 Anniversary version 1607 \(build number 14393\), Pro edition.
         -   Microsoft WebDriver Release [14393](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
@@ -26,12 +26,12 @@ TestArchitect allows you to test web applications in the following browsers and 
         -   ChromeDriver version: 81
     -   Mozilla Firefox, up to version 74, 75
         -   GeckoDriver version [0.26.0](https://github.com/mozilla/geckodriver/releases)
--   **Linux**:
+-   Linux:
     -   Red Hat 7.2, 6.6, 6.3: Mozilla Firefox, up to version 52.3.0 Extended Support Release ESR.
 
         {{<important>}} Note that, you are required to install Firefox from the [package manager](https://support.mozilla.org/en-US/kb/install-firefox-linux). For details, please refer to the documentation of the Red Hat Enterprise Linux version you are using.
 
--   **macOS**:
+-   macOS:
 
     -   MAC OS \(10.13, 10.14\): Safari version 12.0.2.
     {{<restriction>}}
@@ -77,6 +77,5 @@ WebDriver is a tool for automating web application testing executing tests acros
 A discussion of issues you may encounter when automating tests on web browsers, and possible solutions to these problems. FAQs are also mentioned.
 4.  [WebKit vs WebDriver](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/webkit-vs-webdriver)  
 Differences between WebKit and WebDriver
-
 
 

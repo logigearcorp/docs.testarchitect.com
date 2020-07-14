@@ -12,4 +12,3 @@ In silent mode, the uninstallation wizard shows no informative, warning or error
 
 The file is located in the folder, specified by the /f2 parameter \([learn more](/user-guide/getting-started/uninstalling-testarchitect-in-silent-mode/running-silent-uninstallation#choice.f2.param)\). Open the file and check the ResultCode value. 0 indicates success, any other values indicate an error. A complete list of error codes is available [here](http://helpnet.installshield.com/installshield19helplib/helplibrary/SetupLog.htm).
 
-

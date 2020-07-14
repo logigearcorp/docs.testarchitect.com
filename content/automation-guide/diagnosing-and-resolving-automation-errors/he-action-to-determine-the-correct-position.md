@@ -10,17 +10,16 @@ keywords: "automation errors, 0x8001000EL"
 
 Error code: 0x8001000EL
 
-## Problem
+## Problem {{< permerlink >}} {#reference_0x8001000EL-2__section_prob} 
 
 This happens because the required argument header name is reordered into an invalid column, or even deleted..
 
-## Solution
+## Solution {{< permerlink >}} {#reference_0x8001000EL-2__section_sol} 
 
 Try either the following ways:
 
 -   Look up the correct column of the argument header by pressing F1 on the action to invoke TestArchitect Help.
 -   Retype the built-in action on the editor. The new action replaces the existing one, along with new argument headers.
-
 
 
 

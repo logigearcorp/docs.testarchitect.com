@@ -70,4 +70,3 @@ TestArchitect setup is complete.
 
 {{<note>}} Desktop shortcuts for TestArchitect Client, TestArchitect Controller, and Repository Server are automatically created *only if* the installation was conducted with root user permissions.
 
-

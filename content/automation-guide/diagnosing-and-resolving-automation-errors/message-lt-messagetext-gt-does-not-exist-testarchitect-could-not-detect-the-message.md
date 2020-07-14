@@ -20,4 +20,3 @@ Check the correct default text from the AUT that you want TestArchitect to look 
 
 
 
-

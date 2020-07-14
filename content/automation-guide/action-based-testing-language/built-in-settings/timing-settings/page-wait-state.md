@@ -37,10 +37,9 @@ Use of this built-in setting is supported on the following systems/platforms: In
 
 Suppose that in test case TC 01 you only want to wait until a page finishes loading interactively, so that you can access the DOM elements quickly, including **username** and **password** controls. By contrast, in test case TC 02, in order to verify CSS files applied to the given page, your test must wait until a page finishes loading fully.
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bis_page_wait_state_pgm.png)
-
 
 
 

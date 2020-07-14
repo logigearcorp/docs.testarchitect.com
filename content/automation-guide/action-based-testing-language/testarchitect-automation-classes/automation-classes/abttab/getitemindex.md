@@ -12,11 +12,11 @@ keywords: "methods of abt, GetItemIndex, GetItemIndex (AbtTab), AbtTab, getitemi
 
 `int GetItemIndex(string text)`
 
-## Description
+## Description {{< permerlink >}} {#abt_GetItemIndex_tab__section.desc} 
 
 Retrieve the numeric index of a tab by its text content.
 
-## Parameters
+## Parameters {{< permerlink >}} {#abt_GetItemIndex_tab__section.params} 
 
 -   **text**
 

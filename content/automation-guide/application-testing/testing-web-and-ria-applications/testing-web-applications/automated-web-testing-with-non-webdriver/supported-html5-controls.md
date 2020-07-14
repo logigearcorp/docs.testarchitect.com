@@ -96,7 +96,7 @@ Identify inline SVG on Web pages, allowing tests to create verifications for dis
 |<tspan\>|Identical to the <text\> element but can be nested inside text tags and inside itself.|
 |<use\>|Uses a URI to reference a <g\>, <svg\> or other graphical element with a unique id attribute and replicate it.|
 
-## New Input Types
+## New Input Types {{< permerlink >}} {#html5_automation_new_tags__section_i4g_cks_tr} 
 
 |Controls|Description|
 |--------|-----------|

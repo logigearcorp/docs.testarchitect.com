@@ -23,7 +23,7 @@ Write text to the user-entry field of a prompt popup, then click **OK**.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_enter_text_on_next_popup__section.notes} 
 
 -   Prior to using this built-in action, it is recommended that you become familiar with the different kinds of modal JavaScript popups and how to handle them properly.
     -   For Safari
@@ -58,7 +58,7 @@ This action is applicable to the following controls:none.
 
 ## Example - Case 1: A single popup
 
-**Scenario:** You are testing a customer information page with a button, **Sign up**, used for submitting one's name:
+Scenario: You are testing a customer information page with a button, Sign up, used for submitting one's name:
 
 1.  Upon clicking the button, a prompt appears with one input field and two buttons: **OK** and **Cancel**.
 
@@ -68,28 +68,28 @@ This action is applicable to the following controls:none.
     -   Default text: Joe Doe
 2.  The test enters a new input value, e.g. Jane Doe, and then clicks **OK** to proceed.
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_enter_text_on_next_popup_single_popup_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_enter_text_on_next_popup_single_popup_res.png)
 
 ## Example - Case 2: A sequence of multiple popups
 
-**Scenario:** You are testing a customer information page with a button, **Sign up**, used for submitting one's name:
+Scenario: You are testing a customer information page with a button, Sign up, used for submitting one's name:
 
 1.  Upon clicking the button, a prompt popup appears with one input field and two buttons: **OK** and **Cancel**.
 2.  The test enters a new input value, e.g. Jane Doe, and then clicks **OK** to proceed.
 3.  An alert popup is next triggered to confirm acceptance of the name just entered.
 4.  The test clicks **OK** in the alert to dismiss it and proceed.
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_enter_text_on_next_popup_multiple_popups_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_enter_text_on_next_popup_multiple_popups_res.png)
 
@@ -110,4 +110,3 @@ This action is applicable to the following controls:none.
 [check popup default text](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/check-popup-default-text)
 
 [clear popup queue](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/clear-popup-queue)
-

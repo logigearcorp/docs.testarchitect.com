@@ -8,11 +8,10 @@ aliases:
 keywords: 
 ---
 
-**What you learned in this lesson:**
+What you learned in this lesson:
 
 -   How to record actions on controls with the Action Recorder.
 -   How to record a check action.
 -   How the Action Recorder creates new interface definitions when warranted, and allows you to modify their TA names.
-
 
 

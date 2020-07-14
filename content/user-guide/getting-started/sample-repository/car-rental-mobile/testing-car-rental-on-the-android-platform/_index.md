@@ -20,4 +20,3 @@ Before executing sample Car Rental automated tests on an Android device, a serie
 The Car Rental automated test modules are part of the TestArchitect test suites provided in the Sample Repository to demonstrate automated testing of the AUT on the Android platform.
 
 
-

@@ -37,7 +37,7 @@ Check for the existence of a specified table view cell. Result is Passed ifthe s
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_check_table_view_cell_exists__section.notes} 
 
 -   This built-in action applies only to the iOS operating system.
 -   index argument: Note that index numbering begins with 1.
@@ -55,11 +55,11 @@ This action is applicable to the following controls:table view.
 
 ![](/images/TA_Automation/Images/bia_check_table_view_cell_exists_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_table_view_cell_exists_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_table_view_cell_exists_res.png)
 
@@ -67,13 +67,12 @@ This action is applicable to the following controls:table view.
 
 ![](/images/TA_Automation/Images/bia_check_table_view_cell_exists_aut2.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_table_view_cell_exists_2_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_table_view_cell_exists_2_res.png)
-
 
 

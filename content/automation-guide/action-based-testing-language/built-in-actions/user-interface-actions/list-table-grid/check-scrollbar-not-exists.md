@@ -59,11 +59,11 @@ This action is applicable to the following controls:checklist, list box, list vi
 
 ![](/images/TA_Automation/Images/bia_check_scollbar_not_exists_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_scollbar_not_exists_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_scollbar_not_exists_res.png)
 
@@ -76,4 +76,3 @@ This action is applicable to the following controls:checklist, list box, list vi
 [check scrollbar exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/check-scrollbar-exists)
 
 [does scrollbar exist](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/does-scrollbar-exist)
-

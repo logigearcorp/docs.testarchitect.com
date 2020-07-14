@@ -9,7 +9,7 @@ aliases:
 keywords: "Troubleshooting, missing csharp_harness.exe, troubleshooting"
 ---
 
-## Problem
+## Problem {{< permerlink >}} {#reference_mst_vnf_my__section_wtl_w4m_ky} 
 
 In TestArchitect version [8.3](/user-guide/version-history/features-added-to-testarchitect-8-3/windows) or later, when you execute C\# automation harness, you may encounter the following automation error.
 
@@ -17,7 +17,7 @@ In TestArchitect version [8.3](/user-guide/version-history/features-added-to-tes
 
 Since TestArchitect 8.3, [C\# bundle harness](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/working-with-the-c-bundle-harness/) architecture has been introduced, but the connected repository was created in TestArchitect versions prior to 8.3. This repository remembers the setting of the legacy C\# automation harness. It is necessary to modify the setting to reflect new C\# bundle harness.
 
-## Solution
+## Solution {{< permerlink >}} {#reference_mst_vnf_my__section_ydk_2nz_vw} 
 
 To address this issue, do the following:
 

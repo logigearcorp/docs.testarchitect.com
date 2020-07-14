@@ -14,11 +14,11 @@ Ensure that TestArchitect is running and log in to the repository containing the
 
 To unset a baseline test result:
 
--   **Option 1**:
+-   Option 1:
 
     1.  In the TestArchitect explorer tree, right-click the baseline test result node that you want to unset, and then select **Unset Baseline**
 
--   **Option 2:**
+-   Option 2:
 
     1.  In the TestArchitect explorer tree, double-click the test result node for which you want to unset the baseline.
 
@@ -26,7 +26,7 @@ To unset a baseline test result:
 
         ![](/images/TA_Help/Images/ug_resultbaseline4.png)
 
--   **Option 3**:
+-   Option 3:
 
     1.  Open the repository test result list view.
 
@@ -50,4 +50,3 @@ The **B** icon overlay on the baseline test result disappears, indicating that t
 [Comparing results with baseline](/user-guide/working-with-test-results/comparing-test-results/comparing-results-with-baseline)
 
 [Comparing results without baseline](/user-guide/working-with-test-results/comparing-test-results/comparing-results-without-baseline)
-

@@ -19,9 +19,9 @@ Perform the following procedures on the host machine.
 
 1.  Establish a valid connection between the host machine and the Android device.
 
-    **Option 1**: Connect the USB cable between the host machine and the device. \(On a device with Android 4.0 or higher, enable the **USB debugging** option in **Settings** \> **Developer options**. On one with an Android version lower than 4.0, enable **USB debugging** in **Settings** \> **Applications** \> **Development**\)
+    Option 1: Connect the USB cable between the host machine and the device. \(On a device with Android 4.0 or higher, enable the **USB debugging** option in **Settings** \> **Developer options**. On one with an Android version lower than 4.0, enable **USB debugging** in **Settings** \> **Applications** \> **Development**\)
 
-    **Option 2**: [Connect via Wi-Fi](/user-guide/getting-started/sample-repository/car-rental-mobile/testing-car-rental-on-the-android-platform/car-rental-android-configuration/connecting-to-android-s-testarchitect-agent-via-wi-fi)
+    Option 2: [Connect via Wi-Fi](/user-guide/getting-started/sample-repository/car-rental-mobile/testing-car-rental-on-the-android-platform/car-rental-android-configuration/connecting-to-android-s-testarchitect-agent-via-wi-fi)
 
 2.  Start TestArchitect Client.
 
@@ -45,6 +45,5 @@ Perform the following procedures on the host machine.
 
 
 The installed Car Rental applications are available on the device desktop ready to be tested.
-
 
 

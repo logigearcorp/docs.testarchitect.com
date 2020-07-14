@@ -12,11 +12,11 @@ keywords: "built-in actions, exit test case, exit test case (action), exit test 
 
 Exit the current test case \(skip all remaining action lines in the current test case\), and then continue with the next test case.
 
-## Arguments
+## Arguments {{< permerlink >}} {#bia_exit_test_case__section_arguments} 
 
 -   **exit status**
 
-    \(Optional\) Determine whether the overall final result status must be [Not Finished](/user-guide/working-with-test-results/overview/test-result-status) or not. \(See **Notes** below.\)
+    \(Optional\) Determine whether the overall final result status must be [Not Finished](/user-guide/working-with-test-results/overview/test-result-status) or not. \(See Notes below.\)
 
     Possible values:
 
@@ -48,11 +48,11 @@ The following settings are applicable to this action:none.
 
 ## Example - Case 1: Exit status is Incomplete
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_exit_test_case_pgm.png)
 
-**Result**
+Result
 
 When exit test case with the value of Incomplete is executed, the overall status of this test result is Not Finished.
 
@@ -60,16 +60,15 @@ When exit test case with the value of Incomplete is executed, the overall status
 
 ## Example - Case 2: Exit status is Complete
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_exit_test_case_complete_pgm.png)
 
-**Result**
+Result
 
 When exit test case with the value of Complete is executed, the overall status of this result is by definition Not Finished. Inf act, in this example, the status is Passed, because checkpoints are successful.
 
 ![](/images/TA_Automation/Images/bia_exit_test_case_res_exit_status_complete.png)
-
 
 
 

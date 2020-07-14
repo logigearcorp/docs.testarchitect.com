@@ -48,11 +48,11 @@ This action is applicable to the following controls:list box, list view.
 
 ![](/images/TA_Automation/Images/bia_check_selected_count_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_selected_count_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_selected_count_res.png)
 
@@ -60,4 +60,3 @@ This action is applicable to the following controls:list box, list view.
 
 
 [get selected count](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/get-selected-count)
-

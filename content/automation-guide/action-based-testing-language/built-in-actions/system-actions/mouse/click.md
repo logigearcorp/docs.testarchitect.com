@@ -87,17 +87,16 @@ This action is applicable to the following controls:activity indicator view, but
 
 ![](/images/TA_Automation/Images/bia_click_aut1.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_click_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_click_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_click_aut2.png)
-
 
 

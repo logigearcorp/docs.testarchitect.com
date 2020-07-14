@@ -20,7 +20,7 @@ There are no arguments for this action.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_clear_popup_queue__section.notes} 
 
 -   Prior to using this built-in action, it is recommended that you become familiar with the different kinds of modal JavaScript popups and how to handle them properly.
     -   For Safari
@@ -39,7 +39,7 @@ This action is applicable to the following controls:none.
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_clear_popup_queue_pgm.png)
 
@@ -60,4 +60,3 @@ This action is applicable to the following controls:none.
 [check popup message](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/check-popup-message)
 
 [check popup default text](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/check-popup-default-text)
-

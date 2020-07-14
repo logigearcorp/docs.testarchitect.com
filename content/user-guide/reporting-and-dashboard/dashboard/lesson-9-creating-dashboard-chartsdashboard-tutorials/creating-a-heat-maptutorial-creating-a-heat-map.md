@@ -78,4 +78,3 @@ What you have learned:
 **Parent topic:**[Lesson \#9: Creating Dashboard chartsDashboard tutorials](/user-guide/reporting-and-dashboard/dashboard/lesson-9-creating-dashboard-chartsdashboard-tutorials/)
 
 
-

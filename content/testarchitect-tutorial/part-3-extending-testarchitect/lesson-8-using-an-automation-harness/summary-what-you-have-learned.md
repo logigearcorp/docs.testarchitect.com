@@ -8,13 +8,12 @@ aliases:
 keywords: 
 ---
 
-**What you learned in this lesson:**
+What you learned in this lesson:
 
 -   How to invoke a harness
 -   How to develop custom harnesses in Python, Java, and C\#
 -   How to create a test case and stub action
 -   How to script a GUI-interfacing action
 -   How to execute a test that uses a harness
-
 
 

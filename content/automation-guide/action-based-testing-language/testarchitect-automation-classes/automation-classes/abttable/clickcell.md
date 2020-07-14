@@ -12,11 +12,11 @@ keywords: "methods of abt, ClickCell, ClickCell (AbtTable), AbtTable, clickcell,
 
 `long clickCell(int rowIndex, int columnIndex)`
 
-## Description
+## Description {{< permerlink >}} {#abt_ClickCell__section.desc} 
 
 Click the specified cell in the table.
 
-## Parameters
+## Parameters {{< permerlink >}} {#abt_ClickCell__section.params} 
 
 -   **rowIndex**
 

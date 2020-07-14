@@ -89,4 +89,3 @@ Now that you have created some interface definitions manually, you can use the I
 [Interface definitions](/user-guide/introduction-to-action-based-testing/action-based-testing/interface-definitions)
 
 [Interface definitions](/user-guide/interface-definitions/)
-

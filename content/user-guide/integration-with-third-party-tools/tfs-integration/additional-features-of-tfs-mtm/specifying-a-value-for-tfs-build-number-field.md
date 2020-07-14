@@ -14,10 +14,9 @@ Within TFS, for each test run that is recorded, a run build number must be suppl
 
 A build number can be specified to TFS by one of several means:
 
--   **Option 1 - When kicking off a test from TestArchitect**: Through TestArchitect's Execute Test dialog box. \([Learn more](/user-guide/integration-with-third-party-tools/tfs-integration/on-premises-tfs-environment-configuration/running-tests-under-on-premises-tfs/uploading-testarchitect-test-results/automatically-uploading-testarchitect-test-results-to-tfs#step.Enter_build_number).\)
--   **Option 2 - When manually uploading a TestArchitect test result to TFS**: Through the Select Location dialog box that appears. \([Learn more](/user-guide/integration-with-third-party-tools/tfs-integration/on-premises-tfs-environment-configuration/running-tests-under-on-premises-tfs/uploading-testarchitect-test-results/manually-uploading-testarchitect-test-results-to-tfs#step.Enter_build_number).\)
--   **Option 3 - During execution**: Within the TestArchitect test procedure code, by means of the assign result field built-in action. \([Learn more](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/reporting-and-formatting/assign-result-field).\)
-
+-   Option 1 - When kicking off a test from TestArchitect: Through TestArchitect's Execute Test dialog box. \([Learn more](/user-guide/integration-with-third-party-tools/tfs-integration/on-premises-tfs-environment-configuration/running-tests-under-on-premises-tfs/uploading-testarchitect-test-results/automatically-uploading-testarchitect-test-results-to-tfs#step.Enter_build_number).\)
+-   Option 2 - When manually uploading a TestArchitect test result to TFS: Through the Select Location dialog box that appears. \([Learn more](/user-guide/integration-with-third-party-tools/tfs-integration/on-premises-tfs-environment-configuration/running-tests-under-on-premises-tfs/uploading-testarchitect-test-results/manually-uploading-testarchitect-test-results-to-tfs#step.Enter_build_number).\)
+-   Option 3 - During execution: Within the TestArchitect test procedure code, by means of the assign result field built-in action. \([Learn more](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/reporting-and-formatting/assign-result-field).\)
 
 
 

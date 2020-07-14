@@ -31,14 +31,13 @@ Returns a string containing a specified number of characters from the right side
 
 ## Example
 
-**Test Lines**
+Test Lines
 
 ![](/images/TA_Automation/Images/automationguide_stringfunction_right_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/automationguide_stringfunction_right_res.png)
-
 
 
 

@@ -262,15 +262,15 @@ This action is applicable to the following controls:Calender, check box, DatePic
 
 ![](/images/TA_Automation/Images/bia_set_aut_2.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_set_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_set_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_set_aut.png)
 
@@ -278,15 +278,14 @@ This action is applicable to the following controls:Calender, check box, DatePic
 
 ![](/images/TA_Automation/Images/bia_set_2_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_set_2_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_set_2_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_set_2_effect.png)
-

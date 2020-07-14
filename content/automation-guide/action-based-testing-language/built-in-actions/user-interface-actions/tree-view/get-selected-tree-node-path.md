@@ -52,11 +52,10 @@ This action is applicable to the following controls:tree view, tree table, tree 
 
 ![](/images/TA_Automation/Images/bia_get_selected_tree_node_path_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_selected_tree_node_path_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_selected_tree_node_path_res.png)
-

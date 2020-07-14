@@ -68,11 +68,11 @@ This action is applicable to the following controls:table, list view.
 
 ![](/images/TA_Automation/Images/bia_is_cell_selected_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_is_cell_selected_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_is_cell_selected_res.png)
 
@@ -80,4 +80,3 @@ This action is applicable to the following controls:table, list view.
 
 
 [click table cell](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/click-table-cell)
-

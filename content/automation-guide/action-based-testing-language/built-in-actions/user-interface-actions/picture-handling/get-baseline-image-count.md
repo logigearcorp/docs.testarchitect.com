@@ -12,7 +12,7 @@ keywords: "built-in actions, get baseline image count, get baseline image count 
 
 Retrieve a count of the total number of baseline images that reside in a given picture check.
 
-## Arguments
+## Arguments {{< permerlink >}} {#bia_baseline_image_count__section_a2x_t5k_vw} 
 
 -   **picture**
 
@@ -35,7 +35,7 @@ The following settings are applicable to this action: [remove double quotes from
 
 Use of this action is supported on the following system\(s\)/platform\(s\): Windows, Linux.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_baseline_image_count__section.notes} 
 
 -   picture argument: Identifies the name of a regular or shared picture check \([learn more](/user-guide/projects-and-project-items/project-items/picture-checks/)\), with the forward slash \(/\) as the path separator.
     -   If the target image is in a shared picture check, the path starts with the forward slash \(/\), which corresponds to the Picture Checks subfolder of the project, followed by picture's name.
@@ -43,22 +43,22 @@ Use of this action is supported on the following system\(s\)/platform\(s\): Wind
 -   variable argument:
     -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
     -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
--   This built-in action can be applied to pre-process baseline and runtime images, before actually integrating them with a given third-party image processing tool for further processing. \(See **Example** below.\)
+-   This built-in action can be applied to pre-process baseline and runtime images, before actually integrating them with a given third-party image processing tool for further processing. \(See Example below.\)
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
-## Example - Case 1: Retrieving the total number of a given baseline image
+## Example - Case 1: Retrieving the total number of a given baseline image {{< permerlink >}} {#bia_baseline_image_count__section_unk_5wk_vw} 
 
 ![](/images/TA_Automation/Images/bia_get_baseline_image_count_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_baseline_image_count_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_baseline_image_count_res.png)
 
-## Example - Case 2: Integrating with a third-party image processing tool
+## Example - Case 2: Integrating with a third-party image processing tool {{< permerlink >}} {#bia_baseline_image_count__section_x3x_4ft_yw} 
 
 In this example, the [ImageMagick](http://www.imagemagick.org/script/index.php) v.6.9.3-7 tool is invoked for further image processing.
 
@@ -75,10 +75,9 @@ A basic workflow is as follows:
 5.  Use [ImageMagick CLI](http://www.imagemagick.org/script/command-line-processing.php) to preprocess and compare the baseline image\(s\) against the runtime image.
 6.  Get the returned value from ImageMagick, and then check it against an expected value.
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_baseline_image_count_2_pgm.png)
-
 
 
 

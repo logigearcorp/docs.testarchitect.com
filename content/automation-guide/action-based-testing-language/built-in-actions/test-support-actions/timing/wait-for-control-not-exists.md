@@ -50,10 +50,9 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 Your test instructs the AUT to save a given working document. You do not want to allow the test to continue until the save operation is complete, hence you can use the presence \(or absence\) of the **Saving** progress bar to indicate that the save is ongoing \(or complete\).
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_wait_for_control_not_exists_pgm.png)
-
 
 
 

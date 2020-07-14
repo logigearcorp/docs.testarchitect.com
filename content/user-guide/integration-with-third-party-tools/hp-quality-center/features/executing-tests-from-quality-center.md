@@ -10,7 +10,7 @@ keywords: "Quality Center, executing tests, HP Quality Center, from Quality Cent
 
 As an alternative to executing tests from TestArchitect, TestArchitect test cases and test modules can be executed from Quality Center.
 
-Ensure that the machine hosting the TestArchitect repository server has the **HP ALM Connectivity Add-in** installed, to allow for integration and synchronization between TestArchitect and HP Quality Center.
+Ensure that the machine hosting the TestArchitect repository server has the HP ALM Connectivity Add-in installed, to allow for integration and synchronization between TestArchitect and HP Quality Center.
 
 Ensure that you have already taken the following steps:
 
@@ -201,4 +201,3 @@ A detailed test report is also stored in the **Local Results** folder of the Tes
 
 
 [Default port numbers and port ranges](/administration-guide/default-port-numbers-and-port-ranges)
-

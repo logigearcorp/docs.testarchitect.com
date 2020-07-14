@@ -12,7 +12,7 @@ keywords: "methods of abt, MoveToPreviousPage, MoveToPreviousPage (AbtScrollBar)
 
 `long MoveToPreviousPage(long numberOfPages)`
 
-## Description
+## Description {{< permerlink >}} {#abt_MoveToPreviousPage__section.desc} 
 
 Move the scroll bar upward, or to the left, the specified number of pages.
 

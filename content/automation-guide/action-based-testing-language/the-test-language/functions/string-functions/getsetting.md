@@ -50,7 +50,7 @@ Suppose that you have a user-defined setting named language defined in the Execu
 
 While you are developing test procedures, you can use the getsetting function to obtain the current value of the language setting to determine which regional site to navigated to.
 
-**Test Lines**
+Test Lines
 
 ![](/images/TA_Automation/Images/automationguide_stringfunction_getstring_pgm.png)
 
@@ -61,4 +61,3 @@ While you are developing test procedures, you can use the getsetting function to
 
 
 [Startup settings](/user-guide/test-execution/startup-settings/)
-

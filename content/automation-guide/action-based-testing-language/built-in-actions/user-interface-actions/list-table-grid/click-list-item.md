@@ -63,11 +63,11 @@ This action is applicable to the following controls:list box, list view.
 
 ![](/images/TA_Automation/Images/bia_click_list_item_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_click_list_item_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_click_list_item_res.png)
 
@@ -75,11 +75,11 @@ This action is applicable to the following controls:list box, list view.
 
 ![](/images/TA_Automation/Images/bia_click_list_item_index_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_click_list_item_index_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_click_list_item_index_res.png)
 
@@ -87,11 +87,11 @@ This action is applicable to the following controls:list box, list view.
 
 ![](/images/TA_Automation/Images/bia_click_list_item_aut_3.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_click_list_item_pgm_3.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_click_list_item_res_3.png)
 
@@ -101,4 +101,3 @@ This action is applicable to the following controls:list box, list view.
 [check selected items](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/check-selected-items)
 
 [get selected items](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/list-table-grid/get-selected-items)
-

@@ -56,13 +56,12 @@ This action is applicable to the following controls:button, Calendar, check box,
 
 ![](/images/TA_Automation/Images/bia_check_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_res.png)
-
 
 

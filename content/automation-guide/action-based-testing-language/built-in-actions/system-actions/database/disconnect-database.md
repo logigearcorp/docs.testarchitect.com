@@ -36,11 +36,11 @@ This action is applicable to the following controls:none.
 
 The following example illustrates the process of a test connecting to, using, and then disconnecting from a database. Use the action disconnect database once you no longer require access to the database.
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_disconnect_database_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_disconnect_database_res.png)
 
@@ -50,4 +50,3 @@ The following example illustrates the process of a test connecting to, using, an
 
 
 [Testing with databases](/automation-guide/application-testing/testing-with-databases/)
-

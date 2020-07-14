@@ -45,11 +45,11 @@ This action is applicable to the following controls:button, Calendar, check box,
 
 ![](/images/TA_Automation/Images/bia_focus_control_pgm.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_focus_control_res.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_focus_control_aut.png)
 
@@ -57,4 +57,3 @@ This action is applicable to the following controls:button, Calendar, check box,
 
 
 [is control focused](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/is-control-focused)
-

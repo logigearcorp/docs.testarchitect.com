@@ -43,16 +43,15 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/check_opearting_system_pgm.png)
 
-**Result**
+Result
 
-If the verification succeeds, [report check](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/reporting-and-formatting/report-check) reports a Passed check, and displays the accompanying message in the [**Result Details**](/user-guide/working-with-test-results/overview/result-details-tab) tab of the test results:
+If the verification succeeds, [report check](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/reporting-and-formatting/report-check) reports a Passed check, and displays the accompanying message in the [Result Details](/user-guide/working-with-test-results/overview/result-details-tab) tab of the test results:
 
 ![](/images/TA_Automation/Images/check_opearting_system_res.png)
-
 
 
 

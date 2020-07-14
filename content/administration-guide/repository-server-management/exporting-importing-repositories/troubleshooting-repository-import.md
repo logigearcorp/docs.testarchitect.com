@@ -18,11 +18,10 @@ The following table describes the error messages that you may encounter while im
 
 |||
 |------|------|
-|**Message**|**Description**|
+|Message|Description|
 |The **Import Information** list already has a repository with the same name as <repository\_name\>. Please remove duplicated repository name in the **Import Information** list.<br><br>|This error is commonly encountered when there is more than one duplicated repository file listed in the **Import Information** list.|<br>
 |The server <IP\_address: repository\_port\> already has a repository with the same name as <repository\_name\>. If you want to import <repository\_name\>, check on **overwrite** option, and then click **OK**.|This error occurs when the repository file you are trying to import is identical to an existing repository.|
 |The server <IP\_address: repository\_port\> already has a running repository with the same name as <repository\_name\>. If you want to import the <repository\_name\]\>, stop the currently running repository, select the **overwrite** option, and then click **OK** .|An attempt to overwrite an existing repository could not be completed because the existing repository is still running.|
 |This file is either corrupted or in invalid format. Check the file and try again.|Often caused when the repository file is corrupted or the file has an invalid format.|
-
 
 

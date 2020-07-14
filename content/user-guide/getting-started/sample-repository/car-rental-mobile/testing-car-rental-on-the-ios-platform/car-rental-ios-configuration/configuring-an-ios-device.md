@@ -41,4 +41,3 @@ Configuring an iOS device for test automation.
 
 
 
-

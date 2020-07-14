@@ -43,15 +43,15 @@ Importing of Zephyr test cases into TestArchitect can be done on a one-by-one ba
 
     -   Keep Folder Structure: Organize the uploaded tests in Zephyr in a similar way to those in TestArchitect.
     -   Scan Project for Existing Test Cases/Modules: if selected, the whole TestArchitect project will be scanned for test cases that already exist. Otherwise, the selected test node will be scanned.
-5.  Click the **OK** button.
+5.  Click the OK button.
 
-6.  The Confirm Overwriting dialog box appears, showing a list of test cases/ test modules that already exists in TestArchitect if any. Select the check boxes for the TestArchitect test cases / test modules that you want to overwrite with TestArchitect test cases/ test modules. Click the **OK** button.
+6.  The Confirm Overwriting dialog box appears, showing a list of test cases/ test modules that already exists in TestArchitect if any. Select the check boxes for the TestArchitect test cases / test modules that you want to overwrite with TestArchitect test cases/ test modules. Click the OK button.
 
     ![](/images/TA_Help/Images/Zephyr_import_overwrite_dlg.png)
 
     {{<note>}} The **Copy to Clipboard** button is used to copy the list of existing test cases to the clipboard.
 
-7.  An information dialog box will appear stating Import process completed successfully if the upload was successful. Click the **OK** button.
+7.  An information dialog box will appear stating Import process completed successfully if the upload was successful. Click the OK button.
 
 
 -   In case a Zephyr test case is imported as a TestArchitect test module, the name of the test module is made up of the Zephyr test case's ID and Zephyr test case's title separated by underscore \(\_\). For instance, 90\_TC01.
@@ -64,6 +64,5 @@ Zephyr test steps are imported into TestArchitect with their corresponding colum
 ![](/images/TA_Help/Images/Zephyr_import_teststeps.png)
 
 {{<note>}} If you want to import a custom column from Zephyr into TestArchitect, you must first [create new column](/administration-guide/user-defined-fields/creating-a-user-defined-field#) in TestArchitect with the same name.
-
 
 

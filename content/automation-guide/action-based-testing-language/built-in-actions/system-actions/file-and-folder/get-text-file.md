@@ -30,8 +30,8 @@ This action may be used within the following project items:test modules and user
 ## Notes
 
 -   Observe the following format for the file path:
-    -   **Windows platform**: Use backward slashes as separators for the path.
-    -   **Linux platform**: Use forward slashes as separators for the path. \(Note that network paths are not supported.\)
+    -   Windows platform: Use backward slashes as separators for the path.
+    -   Linux platform: Use forward slashes as separators for the path. \(Note that network paths are not supported.\)
 -   Note that this built-in action is not currently supported on macOS or mobile platforms.
 -   On Windows: In order to specify [mapping network drives](http://www.dummies.com/computers/operating-systems/windows-7/how-to-map-a-network-folder-in-windows-7/), please disable User Account Control \(UAC\).
 -   File extensions are not taken into consideration, as long as they are text or word processing \(.doc and .rtf\) files.
@@ -47,14 +47,13 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_text_file_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_text_file_res.png)
-
 
 
 

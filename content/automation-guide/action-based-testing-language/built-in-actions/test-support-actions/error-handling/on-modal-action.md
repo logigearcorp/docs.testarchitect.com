@@ -48,9 +48,9 @@ Use of this action is supported on the following systems/platforms:Windows.
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Example
+## Example {{< permerlink >}} {#bia_on_modal_action__section.Example} 
 
-**Scenario**: You are aware of the fact that the AUT under development is, at times, capable of throwing unexpected exceptions, resulting in the appearance of modal dialogs. You wish to allow your test to handle such exceptions gracefully wherever they may occur, by dismissing the dialog, so that automation may continue. You also want to record the error message displayed by the dialog. Hence, you want the action lines handling this contingency to:
+Scenario: You are aware of the fact that the AUT under development is, at times, capable of throwing unexpected exceptions, resulting in the appearance of modal dialogs. You wish to allow your test to handle such exceptions gracefully wherever they may occur, by dismissing the dialog, so that automation may continue. You also want to record the error message displayed by the dialog. Hence, you want the action lines handling this contingency to:
 
 1.  capture screenshots when the modal dialog box unexpectedly appears, using the built-in [capture screen](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/capture-screen) action;
 2.  click the **Continue** button, which such exception dialogs are always expected to have, to dismiss the dialog and allow automation to proceed; and
@@ -58,16 +58,15 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ![](/images/TA_Automation/Images/bia_on_modal_action_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_on_modal_action_pgm.png)
 
-**Result**
+Result
 
 At line \#19 in the test procedure during the automated run, an unexpected modal dialog box appears. This triggers the modal dialog handler action to dismiss the dialog. Subsequently, TestArchitect resumes normal automation starting with the last action \(line \#19\) executed prior to the invoking of the handler action.
 
 ![](/images/TA_Automation/Images/bia_on_modal_action_res.png)
-
 
 
 

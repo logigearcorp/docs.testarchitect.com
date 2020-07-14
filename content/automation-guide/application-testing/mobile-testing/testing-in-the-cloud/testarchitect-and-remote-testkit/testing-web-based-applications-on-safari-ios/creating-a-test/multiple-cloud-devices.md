@@ -122,4 +122,3 @@ Carry out the following steps:
 The automated tests are run on target cloud devices. On test results, you will also see the name of the cloud device and the full path to JSON file, which defines target cloud devices. ![](/images/TA_Automation/Images/result_RTK_multiple_cloud_devices.png)
 
 
-

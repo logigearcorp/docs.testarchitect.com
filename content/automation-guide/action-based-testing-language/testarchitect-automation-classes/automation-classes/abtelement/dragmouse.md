@@ -12,11 +12,11 @@ keywords: "methods of abt, DragMouse, DragMouse (AbtElement), AbtElement, dragmo
 
 `long DragMouse(int x1, int y1, int x2, int y2)`
 
-## Description
+## Description {{< permerlink >}} {#abt_DragMouse_element__section.desc} 
 
 Perform a drag-and-drop operation from one specified location within the element to another.
 
-## Parameters
+## Parameters {{< permerlink >}} {#abt_DragMouse_element__section.params} 
 
 -   **x1**
 

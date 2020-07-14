@@ -68,9 +68,9 @@ When interface entities and elements are not created for given windows or contro
 
     The New Interface Definitions dialog box appears.
 
-    {{<note>}} **If this dialog fails to appear:** The Car Rental sample project installed with TestArchitect does not include interface definitions for the three controls you've just clicked on \(and has no interface entity for the Car Rental-About window\). If New Interface Definitions does not appear, however, it is likely the interface definitions needed for the generated action lines already exist, possibly because someone already performed this exercise with your repository. Delete them \(the window and control arguments of your generated action lines tell you where to find them\) and start the exercise again.
+    {{<note>}} If this dialog fails to appear: The Car Rental sample project installed with TestArchitect does not include interface definitions for the three controls you've just clicked on \(and has no interface entity for the Car Rental-About window\). If New Interface Definitions does not appear, however, it is likely the interface definitions needed for the generated action lines already exist, possibly because someone already performed this exercise with your repository. Delete them \(the window and control arguments of your generated action lines tell you where to find them\) and start the exercise again.
 
-13. **New Interface Definition dialog box**
+13. New Interface Definition dialog box
 
     The New Interface Definitions dialog box is comprised of three panels:
 
@@ -118,7 +118,6 @@ When interface entities and elements are not created for given windows or contro
 
 
 You have used the Action Recorder to generate action lines, as you did in the prior exercises of this Lesson. This time, however, your manual interactions involved controls \(and a window\) which were not yet defined by your project's interface. The Action Recorder responded by creating new interface definitions, allowing you to assign your own choice of TA names to them.
-
 
 
 

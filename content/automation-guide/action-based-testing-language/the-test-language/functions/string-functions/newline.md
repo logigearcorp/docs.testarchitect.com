@@ -30,14 +30,13 @@ A non-printing character having the effect of forcing subsequent text to begin a
 
 ## Example
 
-**Test Lines**
+Test Lines
 
 ![](/images/TA_Automation/Images/automationguide_stringfunction_newLine_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/automationguide_stringfunction_newLine_res.png)
-
 
 
 

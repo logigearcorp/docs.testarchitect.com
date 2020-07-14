@@ -55,11 +55,11 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_while_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_while_res.png)
 
@@ -67,4 +67,3 @@ The following settings are applicable to this action:[remove double quotes from 
 
 
 [repeat](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/repeat)
-

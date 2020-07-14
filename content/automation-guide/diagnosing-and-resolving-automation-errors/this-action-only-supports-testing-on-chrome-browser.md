@@ -20,4 +20,3 @@ Use this action on Chrome only. You can first apply the [use browser](/automatio
 
 
 
-

@@ -12,11 +12,11 @@ keywords: "methods of abt, GetSubCount, GetSubCount (AbtMenuBar), AbtMenuBar, ge
 
 `int GetSubCount(string itemPath)`
 
-## Description
+## Description {{< permerlink >}} {#abt_GetSubCount__section.desc} 
 
 Retrieve the submenu count for a specified menu item.
 
-## Parameters
+## Parameters {{< permerlink >}} {#abt_GetSubCount__section.params} 
 
 -   **itemPath**
 

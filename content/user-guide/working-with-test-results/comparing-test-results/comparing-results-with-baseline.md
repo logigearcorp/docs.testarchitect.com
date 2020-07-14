@@ -21,7 +21,7 @@ Ensure that you meet the following requirements before comparing test results to
 
 Choose one of the following two methods to compare the test results against the baseline results:
 
--   **Option 1**:
+-   Option 1:
 
     1.  In the TestArchitect explorer tree, right-click the test results node you want to compare to the baseline, then click **Compare to Baseline Result**.
 
@@ -29,7 +29,7 @@ Choose one of the following two methods to compare the test results against the 
 
     {{<tip>}} Baseline comparison is available for any test results within the same test module or test module variation.
 
--   **Option 2**:
+-   Option 2:
 
     1.  Double-click the **Results** node in the TestArchitect explorer tree to open the result list view.
 
@@ -37,7 +37,7 @@ Choose one of the following two methods to compare the test results against the 
 
         {{<tip>}} Multiple test results can be selected from the result list view.
 
--   **Option 3**:
+-   Option 3:
 
     1.  In the TestArchitect explorer tree, double-click a test result node.
 
@@ -61,4 +61,3 @@ The Result Comparison dialog box appears to show the differences at checkpoints 
 [Unsetting baseline results](/user-guide/working-with-test-results/comparing-test-results/unsetting-baseline-results)
 
 [Comparing results without baseline](/user-guide/working-with-test-results/comparing-test-results/comparing-results-without-baseline)
-

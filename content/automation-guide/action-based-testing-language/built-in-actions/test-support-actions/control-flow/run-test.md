@@ -56,10 +56,9 @@ The following settings are applicable to this action:[remove double quotes from 
 
 Alternatively, you can enter the run test built-in action directly into the test editor.
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_run_pgm_2.png)
-
 
 
 

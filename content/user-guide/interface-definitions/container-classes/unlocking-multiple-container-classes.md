@@ -20,7 +20,7 @@ How to unlock more than one container class at one time.
 -   Windows Forms \(WinForms\)
 -   SAP
 
--   **Option 1**: Unlocking container classes from Identify mode:
+-   Option 1: Unlocking container classes from Identify mode:
 
     1.  Repeat steps \#[1](/user-guide/interface-definitions/container-classes/unlocking-container-classes#step_fwb_rb1_1l) through \#[5](/user-guide/interface-definitions/container-classes/unlocking-container-classes#step_qpb_sb1_1l) in [Unlocking container classes](/user-guide/interface-definitions/container-classes/unlocking-container-classes).
 
@@ -38,7 +38,7 @@ How to unlock more than one container class at one time.
 
     4.  Click **Apply**.
 
--   **Option 2**: Unlocking container classes from the **Settings** tab on the Interface Viewer.
+-   Option 2: Unlocking container classes from the **Settings** tab on the Interface Viewer.
 
     1.  Ensure that your target AUT is running, and navigate to the window with the container classes of interest.
 
@@ -79,4 +79,3 @@ The selected container classes are unlocked.
 [Remapping known controls](/user-guide/interface-definitions/class-mapping/remapping-known-controls/)
 
 [Mapping unknown controls](/user-guide/interface-definitions/class-mapping/mapping-unknown-controls/)
-

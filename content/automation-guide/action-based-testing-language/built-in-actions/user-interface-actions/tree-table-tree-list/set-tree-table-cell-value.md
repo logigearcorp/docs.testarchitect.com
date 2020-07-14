@@ -51,28 +51,27 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 This action is applicable to the following controls:Tree table, tree list.
 
-## Applicable Platform
+## Applicable Platform {{< permerlink >}} {#bia_set_table_cell_value__section_pvr_hfr_dkb} 
 
 Systems Applications and Products in Data Processing \(SAP\).
 
-## Applicable Version
+## Applicable Version {{< permerlink >}} {#bia_set_table_cell_value__section_fwl_2jr_dkb} 
 
 TestArchitect version 8.5 onward.
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_set_tree_table_cell_value_1.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_set_tree_table_cell_value_2.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_set_tree_table_cell_value_3.png)
-
 
 
 

@@ -49,14 +49,13 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_screen_resolution_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_screen_resolution_res.png)
-
 
 
 

@@ -24,13 +24,13 @@ The playback controller contains of the following items:
 
     **Fastpath:** Press a key combination of Ctrl + Alt + P.
 
-    **Alternative**: Right-click the **TestArchitect Controller** ![](/images/TA_Help/Images/TA_controller_icon.png) icon in the Windows notification area. Select **Pause** or **Resume** from the context menu.
+    Alternative: Right-click the TestArchitect Controller ![](/images/TA_Help/Images/TA_controller_icon.png) icon in the Windows notification area. Select Pause or **Resume** from the context menu.
 
 -   **Terminate**: Terminate the selected harness.
 
     **Fastpath:** Press a key combination of Ctrl + Alt + T.
 
-    **Alternative**: Right-click the **TestArchitect Controller** ![](/images/TA_Help/Images/TA_controller_icon.png) icon in the Windows notification area. Select **Terminate** from the context menu.
+    Alternative: Right-click the TestArchitect Controller ![](/images/TA_Help/Images/TA_controller_icon.png) icon in the Windows notification area. Select Terminate from the context menu.
 
     {{<note>}} TestArchitect generates a test result even after the test run is terminated prematurely.
 
@@ -38,7 +38,7 @@ The playback controller contains of the following items:
 
     **Fastpath:** Press a key combination of Ctrl + Alt + A.
 
-    **Alternative**: To terminate all running harnesses, right-click the **TestArchitect Controller** ![](/images/TA_Help/Images/TA_controller_icon.png) icon in the Windows notification area. Select **Terminate All** from the context menu.
+    Alternative: To terminate all running harnesses, right-click the TestArchitect Controller ![](/images/TA_Help/Images/TA_controller_icon.png) icon in the Windows notification area. Select Terminate All from the context menu.
 
     {{<note>}} Applies to TestArchitect [8.4](/user-guide/version-history/features-added-to-testarchitect-8-4/) and higher.
 
@@ -53,7 +53,7 @@ The playback controller contains of the following items:
 
 {{<restriction>}} Keyboard shortcuts for the playback toolbar are not supported on the Linux platform. For the full list of TestArchitect-supported keyboard shortcuts, refer to the [Table of keyboard shortcuts](/user-guide/support/table-of-keyboard-shortcuts).
 
-## Naming convention for harnesses
+## Naming convention for harnesses {{< permerlink >}} {#Test_exec_playback_toolbar__harness_name} 
 
 The name of a harness is formed by combining the result name with the timestamp and request ID:
 
@@ -78,7 +78,6 @@ Where
 -   MultipleReservations: Result name.
 -   2018-07-03 11.09.47: Timestamp.
 -   bmmtiq0jok0f: Request ID.
-
 
 
 

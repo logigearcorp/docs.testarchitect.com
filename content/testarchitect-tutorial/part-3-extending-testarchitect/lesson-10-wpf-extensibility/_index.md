@@ -11,9 +11,9 @@ keywords: "extensibility, tutorial, WPF extensibility"
 
 TestArchitect supports every WPF control with an exception to very few specific controls, such as Telerik list box control. Therefore, there is a need to have a solution to this issue. The WPF Extensibility solution provides a public API which you can use to override TestArchitect's built-in actions.
 
-**Audience:** Testers, Automation engineers, Software developers
+Audience: Testers, Automation engineers, Software developers
 
-**Prerequisites:**
+Prerequisites:
 
 -   Installation of TestArchitect Client
 -   Basic understanding of the TestArchitect user interface
@@ -23,7 +23,7 @@ TestArchitect supports every WPF control with an exception to very few specific 
     {{<remember>}} It is highly recommended that you use Microsoft Visual Studio 2010 to program WPF Extensibility.
 
 
-**What you will learn:**
+What you will learn:
 
 -   How to map an unknown class to a supported TestArchitect class
 -   How to create WPF Extensibility
@@ -34,7 +34,6 @@ TestArchitect supports every WPF control with an exception to very few specific 
 Suppose that we are running an AUT based on Telerik controls, and we may want to get the total number of items in a list box control.
 2.  [Technical reference](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-10-wpf-extensibility/technical-reference/)  
 This section explains the WPF Extensibility overview and its workflow.
-
 
 
 

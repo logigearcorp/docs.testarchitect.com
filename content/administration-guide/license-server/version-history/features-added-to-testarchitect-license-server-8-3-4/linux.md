@@ -12,8 +12,7 @@ The following new features and improvements are introduced in TestArchitect Lice
 
 ## License Server
 
-**Enhancements to existing features**
+Enhancements to existing features
 
--   **Robust recovery ability**: The TestArchitect License Server has now significantly improved, so that previous issues, occurring from a sudden server power outage or when the TestArchitect License Sever processes are ended suddenly, become no longer available.
-
+-   Robust recovery ability: The TestArchitect License Server has now significantly improved, so that previous issues, occurring from a sudden server power outage or when the TestArchitect License Sever processes are ended suddenly, become no longer available.
 

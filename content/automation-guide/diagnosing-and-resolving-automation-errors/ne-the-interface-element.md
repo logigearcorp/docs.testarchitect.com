@@ -20,4 +20,3 @@ Capture the desired control by using the [Interface Viewer](/user-guide/interfac
 
 
 
-

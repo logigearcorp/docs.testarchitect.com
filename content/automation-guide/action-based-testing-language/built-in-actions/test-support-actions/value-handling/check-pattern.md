@@ -40,13 +40,12 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ![](/images/TA_Automation/Images/bia_check_pattern_in_text_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_pattern_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_pattern_res.png)
-
 
 

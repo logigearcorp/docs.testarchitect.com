@@ -47,13 +47,12 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ## Example - Case 1: Dedicated data sets
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_use_data_set_pgm.png)
 
 ## Example - Case 2: Inline data sets
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_use_data_set_inline_pgm.png)
-

@@ -14,4 +14,3 @@ Using TestArchitect, you can create and run automated tests for native applicati
 Describes prerequisites and automation cloud testing on Android mobile devices.
 
 
-

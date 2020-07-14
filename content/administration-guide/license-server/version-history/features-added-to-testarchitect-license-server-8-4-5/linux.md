@@ -12,8 +12,7 @@ The following new features and improvements are introduced in the latest version
 
 ## License Server
 
-**New features**
+New features
 
--   **Support for the TestArchitect image on Docker**: Every licensed machine is now presented by its computer name and IP address followed by session ID.
-
+-   Support for the TestArchitect image on Docker: Every licensed machine is now presented by its computer name and IP address followed by session ID.
 

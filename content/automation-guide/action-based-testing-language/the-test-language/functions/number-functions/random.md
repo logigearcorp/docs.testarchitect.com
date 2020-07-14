@@ -33,12 +33,11 @@ Returns a random integer number in the range from min through max, inclusive.
 
 ## Example
 
-**Test Lines**
+Test Lines
 
 ![](/images/TA_Automation/Images/automationguide_numberfunction_random_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/automationguide_numberfunction_random_res.png)
-
 

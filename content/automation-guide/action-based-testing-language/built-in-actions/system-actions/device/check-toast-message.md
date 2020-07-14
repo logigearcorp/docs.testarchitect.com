@@ -47,10 +47,9 @@ Let's say you are testing an application on a mobile device. After you tap to se
 
 ![](/images/TA_Automation/Images/bia_check_toast_message_aut.r02.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_toast_message_pgm.r02.png)
-
 
 
 

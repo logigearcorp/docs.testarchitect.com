@@ -10,14 +10,13 @@ keywords: "automation errors, 0x8001000EL"
 
 Error code: 0x8001000EL
 
-## Problem
+## Problem {{< permerlink >}} {#reference_0x8001000EL-5__section_prob} 
 
 This happens because the specified argument value for controls with binary states, such as, check box, radio button, or switch control is not a Boolean value.
 
-## Solution
+## Solution {{< permerlink >}} {#reference_0x8001000EL-5__section_sol} 
 
 Enter a Boolean value, that is, on to select control, or off to clear \(deselect\) the control, and then re-run the test.
-
 
 
 

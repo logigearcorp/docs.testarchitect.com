@@ -12,7 +12,7 @@ TestArchitect offers a number of built-in actions and automation methods that al
 
 {{<note>}} In order to query a database, you must be familiar with SQL commands. A variety of good references and tutorials on SQL are available, including this [SQL Tutorial](http://www.w3schools.com/sql/) from W3Schools.
 
-## Actions
+## Actions {{< permerlink >}} {#testing_database_use_cases__section_frl_3ts_yp} 
 
 TestArchitect provides the following built-in actions for working with SQL-compliant databases. They are listed in the typical order of their workflow:
 
@@ -24,11 +24,11 @@ TestArchitect provides the following built-in actions for working with SQL-compl
 
 ## Use cases
 
-1.  **Data-driven testing.** Connect your test to a database and use it in the same manner in which you typically would use a data set: to supply the test with records of input values for your AUT, along with expected outcomes for comparison with AUT outputs. \(See [Example - Case 1](#example---case-1).\)
-2.  **Test the AUT's handling and storage of data.** For database driven applications, interact with the AUT and then query its database to ensure data is being written to it correctly. For example, test a database driven application by entering test records through the GUI, then have your test interface directly with the database to verify the records. \(See [Example - Case 2](#example---case-2).\)
-3.  **Test the AUT's response to database-sourced data.** Ensure that a database driven application responds properly to the contents of its database. \(For example: insert multiple records to the database, then query the AUT to verify that it properly handles the new content.\).\(See [Example - Case 3](#example---case-3).\)
+1.  Data-driven testing. Connect your test to a database and use it in the same manner in which you typically would use a data set: to supply the test with records of input values for your AUT, along with expected outcomes for comparison with AUT outputs. \(See [Example - Case 1](#example---case-1).\)
+2.  Test the AUT's handling and storage of data. For database driven applications, interact with the AUT and then query its database to ensure data is being written to it correctly. For example, test a database driven application by entering test records through the GUI, then have your test interface directly with the database to verify the records. \(See [Example - Case 2](#example---case-2).\)
+3.  Test the AUT's response to database-sourced data. Ensure that a database driven application responds properly to the contents of its database. \(For example: insert multiple records to the database, then query the AUT to verify that it properly handles the new content.\).\(See [Example - Case 3](#example---case-3).\)
 
-## Example - Case 1
+## Example - Case 1 {{< permerlink >}} {#testing_database_use_cases__section_u4c_f5x_vp} 
 
 This example demonstrates a data-driven test whose data is obtained through SQL query to an ODBC-compliant database.
 
@@ -46,11 +46,11 @@ In the test, the entire table holding the data records is queried and written to
 
 The **md5** submit button is then clicked, whereupon the application computes and displays the MD5 hash code for the string. That hash code is then checked against the **Hash** value stored with the original record, so that only a complete match results in a Passed checkpoint. The process continues until all the records from the database have been run through the AUT.
 
-**Test Lines**
+Test Lines
 
 ![](/images/TA_Automation/Images/db_use_case.01.png)
 
-## Example - Case 2
+## Example - Case 2 {{< permerlink >}} {#testing_database_use_cases__section_gzn_25x_vp} 
 
 This example tests a database-driven application. It first interfaces with the AUT through its user interface, inducing the application to modify its database. Then it queries the database directly to verify the accuracy of the changes made to it.
 
@@ -76,11 +76,11 @@ If the AUT is functioning correctly, the pseudo-random records it supplies to it
 
 Once the first loop completes and all the records have been supplied to the AUT, a second loop, with the same number of iterations, is used to directly verify the contents of the database. The output of generate values is deterministic, meaning that a given seed value is always guarateed to produce the same results. Hence, after supplying records for the AUT to add to its database, generate values can be used again in the verification loop to ensure that the database holds the correct values. All that's required is that the same original seed value be supplied to it at the start of that loop.
 
-**Test Lines**
+Test Lines
 
 ![](/images/TA_Automation/Images/db_use_case.02.png)
 
-## Example - Case 3
+## Example - Case 3 {{< permerlink >}} {#testing_database_use_cases__section_kbv_25x_vp} 
 
 In the last example, our test worked through the AUT's user interface to get the application to modify its database; we then queried the database directly to validate the application's actions. In this example, the test configuration is the same: an AUT supported by an SQL-compliant database. But now we'll work in the opposite direction: our test will directly modify the database, and then we'll work with the application's UI to ensure that it responds correctly to the database changes.
 
@@ -94,9 +94,8 @@ Once the first loop completes and several records have been written to the datab
 
 A checkpoint then compares the retrieved database **String\_value** to the value of the string value argument supplied to the action. The action then exits and the while loop is repeated for all the new records.
 
-**Test Lines**
+Test Lines
 
 ![](/images/TA_Automation/Images/db_use_case.03.png)
-
 
 

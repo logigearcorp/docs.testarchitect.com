@@ -22,4 +22,3 @@ Check the availability of the desired prompt popup from the AUT.
 
 
 
-

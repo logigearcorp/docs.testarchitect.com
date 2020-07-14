@@ -12,11 +12,11 @@ keywords: "methods of abt, Close, Close (AbtEntity), AbtEntity, close, abtentity
 
 `long Close()`
 
-## Description
+## Description {{< permerlink >}} {#abt_Close__section.desc} 
 
 Close the window.
 
-## Return Value
+## Return Value {{< permerlink >}} {#abt_Close__section.return} 
 
 Return 0 if
 

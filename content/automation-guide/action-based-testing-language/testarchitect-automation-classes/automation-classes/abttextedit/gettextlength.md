@@ -12,7 +12,7 @@ keywords: "methods of abt, GetTextLength, GetTextLength (AbtTextEdit), AbtTextEd
 
 `int GetTextLength()`
 
-## Description
+## Description {{< permerlink >}} {#abt_GetTextLength__section.desc} 
 
 Retrieve the length of the text content in the text control.
 

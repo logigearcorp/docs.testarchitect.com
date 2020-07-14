@@ -62,14 +62,13 @@ This action is applicable to the following controls:combo box, list box, select-
 
 ![](/images/TA_Automation/Images/bia_check_list_item_order_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_list_item_order_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_list_item_order_res.png)
-
 
 
 

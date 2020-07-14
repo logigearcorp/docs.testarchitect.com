@@ -55,7 +55,7 @@ Retrieve color code of the text background, in hexadecimal.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## Applicable Systems/Platforms {{< permerlink >}} {#get_text_background_color__section_Applicable.Systems.Platforms} 
 
 Use of this action is supported on the following systems/platforms:
 
@@ -73,7 +73,7 @@ The following settings are applicable to this action:[case sensitive](/automatio
     -   It is highly recommended that you apply [wildcards](/user-guide/support/glossary-of-terms/wildcard) for this argument's value, since the text re-drawn by given drawing functions might contain surrounding noise. For example: given a value of \{Administration.\*\}, TestArchitect searches for texts whose string beginnings match Administration. In more general terms, this argument accepts regular expressions.
 -   drawing function argument:
     -   By default, when the argument's value is omitted, this built-in action automatically employs all available drawing functions. This might significantly cause a performance issue, since every drawing function will be in turn verified.
-    -   To determine which exact drawing functions should be employed to enhance automation performance, use the **Text Recognition** feature available in the Interface Viewer. \([Learn more](/user-guide/interface-definitions/the-interface-viewer/other-functionalities/text-recognition-interface-viewer).\)
+    -   To determine which exact drawing functions should be employed to enhance automation performance, use the Text Recognition feature available in the Interface Viewer. \([Learn more](/user-guide/interface-definitions/the-interface-viewer/other-functionalities/text-recognition-interface-viewer).\)
 -   variable argument:
     -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
     -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.
@@ -83,14 +83,13 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ![](/images/TA_Automation/Images/bia_get_text_background_color_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_text_background_color_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_text_background_color_res.png)
-
 
 
 

@@ -35,14 +35,13 @@ Returns the position of the first occurrence of string2 in the search area of st
 
 ## Example
 
-**Test Lines**
+Test Lines
 
 ![](/images/TA_Automation/Images/automationguide_stringfunction_instr_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/automationguide_stringfunction_instr_res.png)
-
 
 
 

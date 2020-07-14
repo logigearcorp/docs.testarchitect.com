@@ -48,4 +48,3 @@ Ensure that the following requirements are met before the executing the Car Rent
 At the end of the test run, TestArchitect displays a summary and detailed results of the run. See [Working with test results](/user-guide/working-with-test-results/) for details regarding interpreting test results.
 
 
-

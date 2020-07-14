@@ -23,7 +23,7 @@ Ensure that your system meets the following software requirements:
 
 You have two options for installing the Eclipse plug-in:
 
--   **Option 1**: Install the Eclipse plug-in using the Eclipse **Help** menu:
+-   Option 1: Install the Eclipse plug-in using the Eclipse **Help** menu:
 
     1.  If it is not already running, launch Eclipse.
 
@@ -57,7 +57,7 @@ You have two options for installing the Eclipse plug-in:
 
     11. Read and accept the license agreements, then click **Finish**.
 
--   **Option 2**: Install the Eclipse plug-in using the TestArchitect **Tools** menu:
+-   Option 2: Install the Eclipse plug-in using the TestArchitect **Tools** menu:
 
     1.  If it is not already running, launch TestArchitect.
 
@@ -69,6 +69,5 @@ You have two options for installing the Eclipse plug-in:
 
 
 After installation, restart Eclipse.
-
 
 

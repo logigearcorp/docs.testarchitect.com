@@ -49,11 +49,11 @@ This action is applicable to the following controls:window.
 
 ![](/images/TA_Automation/Images/bia_identify_window_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_identify_window_pgm.png)
 
-**Result**
+Result
 
 In the example, you see that each matching window, based on the specified definition, is assigned an unique handle number \(identifier\) as follows:
 
@@ -69,10 +69,9 @@ From each matching window, perform different operations as follows:
 
 ![](/images/TA_Automation/Images/bia_identify_window_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_identify_window_effect.png)
-
 
 
 

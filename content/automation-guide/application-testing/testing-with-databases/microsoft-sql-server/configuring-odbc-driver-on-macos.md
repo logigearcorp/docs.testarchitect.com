@@ -34,4 +34,3 @@ To set up macOS machines to connect to Microsoft SQL Server, do the following:
     ```
 
 
-

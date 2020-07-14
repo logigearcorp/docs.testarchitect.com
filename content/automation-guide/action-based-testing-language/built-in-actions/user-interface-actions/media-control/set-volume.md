@@ -49,17 +49,16 @@ This action is applicable to the following controls:Audio, Video
 
 ![](/images/TA_Automation/Images/bia_set_volume_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_set_volume_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_set_volume_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_set_volume_effect.png)
-
 
 

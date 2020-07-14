@@ -12,8 +12,8 @@ An example to show usage of the XML Result Conversion tool.
 
 Ensure the following requirements are met:
 
--   You have installed or upgraded your Java Runtime Environment \(JRE\) to at least **version 8**, which is necessary to run convertresults tool on your machine.
--   **JRE version 8** must be set as the default JRE.
+-   You have installed or upgraded your Java Runtime Environment \(JRE\) to at least version 8, which is necessary to run convertresults tool on your machine.
+-   JRE version 8 must be set as the default JRE.
 -   The user name has permission to log into the repository.
 -   Run the XML Result Conversion command line tool on the repository server machine.
 
@@ -48,7 +48,6 @@ To run the convertresults command, do the following:
     The result summary displays the number of test results converted successfully, warnings/errors, and ignored test results because they are already in XML format.
 
     ![](/images/TA_Help/Images/XML_command_line.png)
-
 
 
 

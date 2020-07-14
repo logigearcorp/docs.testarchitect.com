@@ -35,13 +35,12 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_clipboard_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_clipboard_res.png)
-
 
 

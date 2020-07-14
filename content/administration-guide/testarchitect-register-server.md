@@ -12,17 +12,17 @@ By default, TestArchitect Register Server, which is installed with TestArchitect
 
 To check whether TestArchitect Register Server is running, carry out the following procedures:
 
--   **Windows**
+-   Windows
     1.  Launch Task Manager.
     2.  Under the **Processes** tab, verify the presence of TARegisterServer.exe.
--   **Linux**
+-   Linux
     -   GNOME:
         1.  Launch System Monitor.
         2.  Under the **Processes** tab, verify the availability of TARegisterServer.
     -   KDE:
         1.  Launch KSysGuard.
         2.  Under the **Process Table** tab, verify the availability of TARegisterServer.
--   **macOS**
+-   macOS
     1.  Launch Activity Monitor.
     2.  Under the **CPU** tab, verify the availability of TARegisterServer.
 
@@ -34,9 +34,9 @@ If, for any reason, TestArchitect Register Server is not running, it is automati
 
 Otherwise, to manually restart TestArchitect Register Server:
 
--   in **Windows**: Go to location TA\_INSTALL\_DIR\\binclient\\agents\\, then double-click the TARegisterServer.exe file.
--   in **Linux**: From a command prompt, navigate to location /usr/local/logigear/testarchitect/binclient/agents/, then execute the TARegisterServer.sh file.
--   in **macOS**: From a command prompt, navigate to location /Applications/TestArchitect/binclient/agents/, then execute the TARegisterServer.sh file.
+-   in Windows: Go to location TA\_INSTALL\_DIR\\binclient\\agents\\, then double-click the TARegisterServer.exe file.
+-   in Linux: From a command prompt, navigate to location /usr/local/logigear/testarchitect/binclient/agents/, then execute the TARegisterServer.sh file.
+-   in macOS: From a command prompt, navigate to location /Applications/TestArchitect/binclient/agents/, then execute the TARegisterServer.sh file.
 
 
 
@@ -45,4 +45,3 @@ Otherwise, to manually restart TestArchitect Register Server:
 
 
 [Default port numbers and port ranges](/administration-guide/default-port-numbers-and-port-ranges)
-

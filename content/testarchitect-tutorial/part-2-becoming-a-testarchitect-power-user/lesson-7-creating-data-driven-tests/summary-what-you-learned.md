@@ -8,11 +8,10 @@ aliases:
 keywords: 
 ---
 
-**What you learned in this lesson:**
+What you learned in this lesson:
 
 -   How to create a data set
 -   How to run a data-driven test
 -   How to create an external data source
-
 
 

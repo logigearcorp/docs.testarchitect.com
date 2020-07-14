@@ -25,7 +25,7 @@ The Diff Tool makes the job of difference viewing more systematic, reliable, and
 -   The Diff Tool supports the comparing of project items not just within a project, but across projects and across repositories as well.
 -   For comparing pairs of test results, TestArchitect offers a different tool. See [Comparing test results](/user-guide/working-with-test-results/comparing-test-results/).
 
-## The user interface
+## The user interface {{< permerlink >}} {#concept_yvy_bhs_yp__section.Diff_tool_GUI} 
 
 The Diff Tool dialog box consists of two main components:
 
@@ -44,7 +44,7 @@ The Diff Tool dialog box consists of the following parts:
     -   Current location panels.
     -   Display panels.
 
-## The toolbar
+## The toolbar {{< permerlink >}} {#concept_yvy_bhs_yp__section_Toolbar} 
 
 The Diff Tool's tool bar contains six buttons:
 
@@ -94,13 +94,13 @@ The Diff Tool's tool bar contains six buttons:
     -   **Enabled**: Highlights character-by-character differences.
 6.  **Open External Merge Tool**: The Diff Tool integrates with other applications that allow a third-party file comparison \(diff\) or file merging tool to be specified. \([Learn more.](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/diff-tool/diff-tool-and-outside-products)\)
 
-## The Item panels
+## The Item panels {{< permerlink >}} {#concept_yvy_bhs_yp__section_Items_panel} 
 
 ![](/images/TA_Help/Images/ug_diff_tool_source_target_panel.png)
 
 Each Item panel includes the following elements:
 
-1.  **Header**: The header at the top of each Item panel displays the name of that item.
+1.  Header: The header at the top of each Item panel displays the name of that item.
     -   The item's name is a hyperlink. Clicking this link opens the item in a TestArchitect editor window.
     -   Hover your mouse over the hyperlink to see a screentip for the item. The displayed information includes the item's name, its TestArchitect explorer path within the repository, and revision timestamp.
 
@@ -116,7 +116,7 @@ Each Item panel includes the following elements:
 
 TestArchitect highlights differences between two items with colors. This section describes how each of the basic difference types is detected and displayed.
 
--   **Differences between lines**:
+-   Differences between lines:
     -   Whenever a difference is detected between corresponding lines of the two items, the differing lines are highlighted in yellow.
 
         ![](/images/TA_Help/Images/diff_tool_difference_blocks.png)
@@ -138,21 +138,21 @@ TestArchitect highlights differences between two items with colors. This section
 
             ![](/images/TA_Help/Images/diff_tool_break_word.png)
 
--   **Missing lines**: Sometimes, lines existing in one project item do not exist in the compared item. Lines in an item that are found to have no counterparts are highlighted in blue, with all the text in red. In the compared item, the corresponding blank lines are colored grey; if no such corresponding blank lines exist, they are automatically inserted, to maintain visual correspondence.
+-   Missing lines: Sometimes, lines existing in one project item do not exist in the compared item. Lines in an item that are found to have no counterparts are highlighted in blue, with all the text in red. In the compared item, the corresponding blank lines are colored grey; if no such corresponding blank lines exist, they are automatically inserted, to maintain visual correspondence.
 
     ![](/images/TA_Help/Images/diff_tool_missing_blocks.png)
 
 
 {{<note>}}
 
-**Interface entity comparisons** are a special case. Unlike other project items, the order in which an interface entity's actions lines \(interface element and interface entity setting lines\) appear is basically inconsequential. Hence it is possible for two interface entities to look very different, yet be functionally identical. In addition to the usual highlighting rules, the Diff Tool automatically rearranges the two compared interface entities' action lines, so that they ultimately appear in their respective Item panels grouped into four distinct sections:
+Interface entity comparisons are a special case. Unlike other project items, the order in which an interface entity's actions lines \(interface element and interface entity setting lines\) appear is basically inconsequential. Hence it is possible for two interface entities to look very different, yet be functionally identical. In addition to the usual highlighting rules, the Diff Tool automatically rearranges the two compared interface entities' action lines, so that they ultimately appear in their respective Item panels grouped into four distinct sections:
 
 ![](/images/TA_Help/Images/ug_diff_tool_interface_entities.png)
 
-1.  **Header**: Contains interface entity and [interface entity setting](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/interface-handling/interface-entity-setting) action lines.
-2.  **Missing**: Contains action lines present in only one of the two interface entities.
-3.  **Differences**: Contains action lines that the tool has determined to be corresponding lines \(due to similarities\), but which nevertheless have differences, which are highlighted.
-4.  **Identicalness**: Contains fully matching action lines.
+1.  Header: Contains interface entity and [interface entity setting](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/interface-handling/interface-entity-setting) action lines.
+2.  Missing: Contains action lines present in only one of the two interface entities.
+3.  Differences: Contains action lines that the tool has determined to be corresponding lines \(due to similarities\), but which nevertheless have differences, which are highlighted.
+4.  Identicalness: Contains fully matching action lines.
 
 ## Working with multiple Diff Tool windows
 
@@ -170,6 +170,5 @@ Say, for example, that you have a Diff Tool window already open, comparing a def
 How to view the differences between two project items of the same type in TestArchitect.
 2.  [Comparing a project item's revisions with Diff Tool](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/diff-tool/diff-tool-for-project-items/comparing-revisions)  
 How to view the differences between two historical revisions of a project item.
-
 
 

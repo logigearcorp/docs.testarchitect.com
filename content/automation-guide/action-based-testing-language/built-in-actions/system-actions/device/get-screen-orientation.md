@@ -27,7 +27,7 @@ Return the current orientation of the mobile device.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## Applicable Systems/Platforms {{< permerlink >}} {#bia_get_screen_orientation__section_jft_bcl_zcb} 
 
 Use of this action is supported on the following systems/platforms: iOS.
 
@@ -45,11 +45,11 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ![](/images/TA_Automation/Images/Android_phone.portrait_mode.jpg)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_screen_orientation_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_screen_orientation_res.png)
 
@@ -60,4 +60,3 @@ The following settings are applicable to this action:[remove double quotes from 
 
 
 [set screen orientation](/automation-guide/action-based-testing-language/built-in-actions/system-actions/device/set-screen-orientation)
-

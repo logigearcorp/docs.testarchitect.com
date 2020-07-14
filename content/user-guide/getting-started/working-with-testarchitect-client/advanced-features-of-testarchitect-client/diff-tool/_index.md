@@ -27,4 +27,3 @@ Integrating TestArchitect with other differencing and merging tools.
 In Diff Tool, you can use shortcut keys to perform many different tasks quickly or to work without a mouse.
 
 
-

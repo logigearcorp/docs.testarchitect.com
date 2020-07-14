@@ -43,7 +43,7 @@ Simulate a long press operation, and then perform a drag-and-drop to a specified
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## Applicable Systems/Platforms {{< permerlink >}} {#bia_drag__section_c3z_5bl_zcb} 
 
 Use of this action is supported on the following systems/platforms: Mobile operating systems.
 
@@ -62,7 +62,7 @@ Drag the Android robot into the bucket.
 
 ![](/images/TA_Automation/Images/bia_drag_aut.r02.jpg)
 
-**Action Lines**
+Action Lines
 
 The following action lines presume that picture checks have already been created for both the Android robot and bucket icons.
 
@@ -73,4 +73,3 @@ The following action lines presume that picture checks have already been created
 
 {{<anchor fn.iOS_screen_units >}}
 1 In the case of iOS device testing, screen units are points. \(See Notes.\)
-

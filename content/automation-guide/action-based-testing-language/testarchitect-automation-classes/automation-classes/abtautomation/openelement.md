@@ -8,15 +8,15 @@ aliases:
 keywords: "methods of abt, MoveMouse, OpenElement (AbtAutomation), OpenElement, abtelement openelement, open control"
 ---
 
-## Syntax
+## Syntax {{< permerlink >}} {#abt_OpenElement__section.syntax} 
 
 `AbtElement openElement (string window, string control)`
 
-## Description
+## Description {{< permerlink >}} {#abt_OpenElement__section.desc} 
 
 Opens a control.
 
-## Parameters
+## Parameters {{< permerlink >}} {#abt_OpenElement__section.params} 
 
 -   **window**
 
@@ -27,7 +27,7 @@ Opens a control.
     TA name of the control.
 
 
-## Return Value
+## Return Value {{< permerlink >}} {#abt_OpenElement__section.return} 
 
 Returns an object of the class [AbtElement](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtelement/), referencing the specified control, if the call is successful.
 

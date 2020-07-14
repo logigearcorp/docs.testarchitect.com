@@ -18,13 +18,12 @@ Set the number of digits after the decimal point when executing an expression \(
 
 ## Example
 
-**Test Lines**
+Test Lines
 
 ![](/images/TA_Automation/Images/bis_number_digits_after_decimal_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bis_number_digits_after_decimal_res.png)
-
 
 

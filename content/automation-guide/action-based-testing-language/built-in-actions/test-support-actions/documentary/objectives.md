@@ -30,10 +30,9 @@ The following settings are applicable to this action:none.
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_test_objective_pgm.png)
-
 
 
 

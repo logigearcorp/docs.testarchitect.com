@@ -30,7 +30,7 @@ To start the TestArchitect Dashboard, follow these steps:
 
 2.  Start a browser on a machine with network access to the TestArchitect Utility Server and enter the Dashboard's URL using the follow syntax:
 
-    **http://**<IP of the TestArchitect Utility Server Information\>**:**<Port number of the TestArchitect Utility Server Information\>**/TADashboard**
+    http://<IP of the TestArchitect Utility Server Information\>:<Port number of the TestArchitect Utility Server Information\>/TADashboard
 
     http://192.168.167.160:54000/TADashboard
 
@@ -53,4 +53,3 @@ A Dashboard page appears showing the saved panels for the logged-in user. Depend
 [Repository Server Control Panel user interface](/administration-guide/repository-server-management/repository-server-control-panel-user-interface)
 
 [Dashboard permissions](/user-guide/reporting-and-dashboard/dashboard/dashboard-permissions)
-

@@ -24,7 +24,7 @@ The following configurations must be set up on your Android test device prior to
 
     -   On Android 4.0 and higher, enable this option in **Settings** \> **Developer options**.
 
-        {{<note>}} On Android 4.2 and higher, the **Developer options** screen is hidden by default. To make it visible, go to **Settings** \> **About phone** and tap **Build number** seven times.
+        {{<note>}} On Android 4.2 and higher, the Developer options screen is hidden by default. To make it visible, go to **Settings** \> **About phone** and tap **Build number** seven times.
 
     -   On Android version lower than 4.0, enable this option in **Settings** \> **Applications** \> **Development**.
     {{<remember>}}
@@ -47,7 +47,6 @@ The following configurations must be set up on your Android test device prior to
     2.  Tap **Permissions**.
 
     3.  Grant all necessary permissions.
-
 
 
 

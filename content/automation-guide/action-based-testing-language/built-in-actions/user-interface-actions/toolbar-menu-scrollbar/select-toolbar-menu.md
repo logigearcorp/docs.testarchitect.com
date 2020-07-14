@@ -48,17 +48,16 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_select_toolbar_menu_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_select_toolbar_menu_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_select_toolbar_menu_aut.png)
-
 
 

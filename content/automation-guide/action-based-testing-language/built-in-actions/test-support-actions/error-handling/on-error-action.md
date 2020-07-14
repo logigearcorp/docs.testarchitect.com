@@ -40,11 +40,11 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ## Example - Case 1: The error handler action has no arguments
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_on_error_action_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_on_error_action_res.png)
 
@@ -54,7 +54,6 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ![](/images/TA_Automation/Images/bia_on_error_action_3_res.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_on_error_action_3_pgm.png)
-

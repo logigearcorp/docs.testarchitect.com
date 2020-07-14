@@ -12,7 +12,7 @@ Data sets can be exported to archive files \(.ZIP format\), which can be used as
 
 Choose one of the following two methods to export data sets:
 
--   **Option 1**:
+-   Option 1:
 
     1.  Select a data set node on the TestArchitect explorer tree, then right-click the node, and click **Export to ZIP file**.
 
@@ -22,7 +22,7 @@ Choose one of the following two methods to export data sets:
 
     3.  Click **OK**.
 
--   **Option 2**:
+-   Option 2:
 
     1.  Double-click the **Data** node on the TestArchitect explorer tree.
 
@@ -36,7 +36,6 @@ Choose one of the following two methods to export data sets:
 
 
 The test result archive file \(.ZIP\) is exported to the specified location.
-
 
 
 

@@ -14,7 +14,7 @@ Tests are automated by executing them manually just one time against the user in
 
 The general view on record and playback is that it has both positive and negative sides, as listed here:
 
-**Potential benefits**:
+Potential benefits:
 
 -   No programming skills are necessary.
 -   You can quickly generate automated tests based on existing manual test cases.
@@ -22,7 +22,7 @@ The general view on record and playback is that it has both positive and negativ
 -   Easy way to determine the commands needed to work with various controls.
 -   Complex sequences that occur in advanced UI’s can be captured.
 
-**Potential risks**:
+Potential risks:
 
 -   Can produce large amounts of unstructured and undocumented action lines.
 -   Promotes making testers responsible for automation, which has proven to be a different task requiring different skills.
@@ -30,6 +30,5 @@ The general view on record and playback is that it has both positive and negativ
 -   The technique can only be applied to an already correctly working version of the application under test, which limits the use to regression testing only.
 
 {{<note>}} Note that TestArchitect does support record and playback. TestArchitect Client includes the [Action Recorder](/user-guide/actions/action-recorder/), which is similar to other recorders, but is designed to work as part of a keyword-based approach.
-
 
 

@@ -14,7 +14,7 @@ On a Windows machine during TestArchitect installation, you may encounter an err
 
 ![](/images/TA_FAQ/Images/installing_TA_fail_to_register.png)
 
-## Solution
+## Solution {{< permerlink >}} {#ref.faq.tshoot.installation_fail_to_register_registry__section_ydk_2nz_vw} 
 
 This issue occurs when the Microsoft Visual C++ 2012 Redistributable \(either 32 or b4 bit version\) has been previously manually uninstalled from the machine.
 

@@ -18,9 +18,8 @@ The following table describes the error message\(s\) that you may encounter whil
 
 |||
 |------|------|
-|**Message**|**Description**|
+|Message|Description|
 |Unable to find the file at specified path. Make sure the destination folder is writeable.<br><br>|This error is commonly encountered when you do not have write permission on the destination folder.|<br>
-
 
 
 

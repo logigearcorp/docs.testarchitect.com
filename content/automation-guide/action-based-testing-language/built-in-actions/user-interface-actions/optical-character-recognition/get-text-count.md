@@ -70,7 +70,7 @@ The following settings are applicable to this action:[case sensitive](/automatio
 -   This built-in action always employs the [Graphics Device Interface](/automation-guide/action-based-testing-language/the-test-language/text-recognition-techniques) \(GDI\) technique. In other words, [Optical Character Recognition](/automation-guide/action-based-testing-language/the-test-language/text-recognition-techniques) \(OCR\) technique is not available for this action.
 -   drawing function argument:
     -   By default, when the argument's value is omitted, this built-in action automatically employs all available drawing functions. This might significantly cause a performance issue, since every drawing function will be in turn verified.
-    -   To determine which exact drawing functions should be employed to enhance automation performance, use the **Text Recognition** feature available in the Interface Viewer. \([Learn more](/user-guide/interface-definitions/the-interface-viewer/other-functionalities/text-recognition-interface-viewer).\)
+    -   To determine which exact drawing functions should be employed to enhance automation performance, use the Text Recognition feature available in the Interface Viewer. \([Learn more](/user-guide/interface-definitions/the-interface-viewer/other-functionalities/text-recognition-interface-viewer).\)
 -   text argument:
     -   While the [case sensitive](/automation-guide/action-based-testing-language/built-in-settings/value-settings/case-sensitive) built-in setting applies to the property values used to identify the correct window or control for this action, the action's GDI text identification functionality is also case sensitive, and is affected by the value of this setting.
     -   It is highly recommended that you apply [wildcards](/user-guide/support/glossary-of-terms/wildcard) for this argument's value, since the text re-drawn by given drawing functions might contain surrounding noise. For example: given a value of \{Administration.\*\}, TestArchitect searches for texts whose string beginnings match Administration. In more general terms, this argument accepts regular expressions.
@@ -85,16 +85,15 @@ Suppose that we'd like to retrieve a count of the total number of the Administra
 
 ![](/images/TA_Automation/Images/bia_get_text_count_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_get_text_count_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_get_text_count_res.png)
 
 The total count is 2 since the Administration text is drawn twice by the following two functions, ExtTextOutA and ExtTextOutW.
-
 
 
 

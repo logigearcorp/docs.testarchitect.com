@@ -16,7 +16,7 @@ This topic describes the changes made in TestArchitect version 8 update 3.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
 -   When installing TestArchitect, make sure that both the components TestArchitect Client and Repository Server are selected; this is essential to ensuring that the Interface Viewer can detect Silverlight controls.
 
-## TestArchitect Automation
+## TestArchitect Automation {{< permerlink >}} {#concept_what_new_8_U3__section_jqm_z13_nh} 
 
 -   [**Support for Silverlight**](/automation-guide/application-testing/testing-web-and-ria-applications/testing-silverlight-applications/): Silverlight now joins the family of development platforms supported by TestArchitect, allowing you to design and execute automated tests of Silverlight applications.
     -   Supported Silverlight versions:
@@ -35,7 +35,6 @@ This topic describes the changes made in TestArchitect version 8 update 3.
         -   [Unlocking container classes](/user-guide/interface-definitions/container-classes/).
 
 {{<note>}} Silverlight is a powerful development tool for creating engaging, interactive user experiences for Web and mobile applications. Silverlight is a free plug-in, powered by the .NET framework and compatible with multiple browsers, devices and operating systems, bringing a new level of interactivity wherever the Web works. For details, refer to the link [http://www.microsoft.com/silverlight/](http://www.microsoft.com/silverlight/).
-
 
 
 

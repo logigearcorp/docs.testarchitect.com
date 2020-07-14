@@ -28,4 +28,3 @@ This topic describes the changes made in TestArchitect version 8 beta 2.
 
 
 
-

@@ -49,18 +49,17 @@ This action is applicable to the following controls:password, text box.
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_enter_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_enter_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_enter_aut.png)
-
 
 
 

@@ -33,7 +33,7 @@ Use of this built-in setting is supported on the following systems/platforms:
 
 -   Windows: Win32 applications.
 
-## Applicable Built-in Actions
+## Applicable Built-in Actions {{< permerlink >}} {#bis_enable_click_hook__section_n5n_tgq_sv} 
 
 Use of this built-in setting is applicable to the following built-in actions:
 

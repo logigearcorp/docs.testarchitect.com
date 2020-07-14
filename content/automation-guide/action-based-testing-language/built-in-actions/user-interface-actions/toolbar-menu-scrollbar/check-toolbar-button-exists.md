@@ -31,7 +31,7 @@ Check for the existence of a button on a toolbar. Result is Passed ifthe specifi
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_check_toolbar_button_exists__section.notes} 
 
 -   button argument:
     -   The buttonmay be specified by either of two means:the caption text, or its numerical index. \(Indexes are one-based; that is, numbering begins at 1.\)
@@ -53,11 +53,11 @@ This action is applicable to the following controls:toolbar.
 
 ![](/images/TA_Automation/Images/bia_check_toolbar_button_exists_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_toolbar_button_exists_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_toolbar_button_exists_res.png)
 
@@ -65,11 +65,11 @@ This action is applicable to the following controls:toolbar.
 
 ![](/images/TA_Automation/Images/bia_check_toolbar_button_exists_index_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_toolbar_button_exists_index_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_toolbar_button_exists_index_res.png)
 
@@ -82,4 +82,3 @@ This action is applicable to the following controls:toolbar.
 [check toolbar button not exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/check-toolbar-button-not-exists)
 
 [does toolbar button exist](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/toolbar-menu-scrollbar/does-toolbar-button-exist)
-

@@ -16,7 +16,7 @@ For power-saving purposes, computers are often configured to go into a non-activ
 
 ## Supported mobile browsers
 
--   **iOS**:
+-   iOS:
     -   [Safari](/automation-guide/application-testing/mobile-testing/testing-mobile-web-applications/testing-safari-on-ios/) \(on both iOS devices and Apple's [iOS simulator](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/iOS_Simulator_Guide/Introduction/Introduction.html)\).
 
         {{<remember>}}
@@ -27,8 +27,8 @@ For power-saving purposes, computers are often configured to go into a non-activ
 
         {{<remember>}} Before testing a web view on iOS devices, you must set up and configure your mobile device. \([Learn more](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/ios-automation/setting-up-the-ios-test-environment/).\)
 
--   **Android**:
-    -   **Android devices:**
+-   Android:
+    -   Android devices:
         -   [Google Chrome](/automation-guide/application-testing/mobile-testing/testing-mobile-web-applications/testing-chrome-on-android/).
 
             {{<remember>}} Before testing Chrome on Android devices, you must set up and configure the mobile test device. \([Learn more](/automation-guide/application-testing/mobile-testing/testing-mobile-web-applications/testing-chrome-on-android/prerequisites/).\)
@@ -37,7 +37,7 @@ For power-saving purposes, computers are often configured to go into a non-activ
 
             {{<remember>}} Before testing a web view on Android devices, you must set up and configure your mobile device. \([Learn more](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/setting-up-the-test-environment/).\)
 
-    -   **Android emulators**, including [Genymotion](https://www.genymotion.com/#!/) and [Android virtual device](http://developer.android.com/intl/vi/tools/devices/emulator.html) \(AVD\), packaged with Android SDK:
+    -   Android emulators, including [Genymotion](https://www.genymotion.com/#!/) and [Android virtual device](http://developer.android.com/intl/vi/tools/devices/emulator.html) \(AVD\), packaged with Android SDK:
         -   [Android built-in browser](/automation-guide/application-testing/mobile-testing/testing-mobile-web-applications/testing-the-built-in-browser-on-android-emulators/).
 
             {{<remember>}} Before testing the built-in browser on Android emulators, you must install TestArchitect Agent onto the emulators. \([Learn more](/automation-guide/application-testing/mobile-testing/testing-mobile-web-applications/testing-the-built-in-browser-on-android-emulators/installing-testarchitect-agent).\)
@@ -55,7 +55,6 @@ TestArchitect allows you to create and run automated tests of web applications i
 WithTestArchitect, you can create and run automated tests for mobile web applications and websites without the need for real mobile devices, also known as agent-based automation testing.
 6.  [Troubleshooting errors in mobile web application testing](/automation-guide/application-testing/mobile-testing/testing-mobile-web-applications/troubleshooting-errors-in-mobile-web-application-testing/)  
 This section offers you solutions to common issues that you might encounter while testing mobile web applications.
-
 
 
 

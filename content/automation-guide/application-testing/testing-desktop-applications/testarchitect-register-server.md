@@ -12,17 +12,17 @@ By default, TestArchitect Register Server, which is installed with TestArchitect
 
 To check whether TestArchitect Register Server is running, carry out the following procedures:
 
--   **Windows**
+-   Windows
     1.  Launch Task Manager.
     2.  Under the **Processes** tab, verify the presence of TARegisterServer.exe.
--   **Linux**
+-   Linux
     -   GNOME:
         1.  Launch System Monitor.
         2.  Under the **Processes** tab, verify the availability of TARegisterServer.
     -   KDE:
         1.  Launch KSysGuard.
         2.  Under the **Process Table** tab, verify the availability of TARegisterServer.
--   **macOS**
+-   macOS
     1.  Launch Activity Monitor.
     2.  Under the **CPU** tab, verify the availability of TARegisterServer.
 
@@ -34,9 +34,8 @@ If TestArchitect Register Server is terminated, it is auto-started while you are
 
 Otherwise, do the following to restart TestArchitect Register Server manually:
 
--   **Windows**: Go to location TA\_INSTALL\_DIR\\binclient\\agents\\, then double-click the TARegisterServer.exe file.
--   **Linux**: Go to location /usr/local/logigear/testarchitect/binclient/agents/, then execute the TARegisterServer.sh file using the terminal.
--   **macOS**: Go to location /Applications/TestArchitect/binclient/agents/, then execute the TARegisterServer.sh file using the terminal.
-
+-   Windows: Go to location TA\_INSTALL\_DIR\\binclient\\agents\\, then double-click the TARegisterServer.exe file.
+-   Linux: Go to location /usr/local/logigear/testarchitect/binclient/agents/, then execute the TARegisterServer.sh file using the terminal.
+-   macOS: Go to location /Applications/TestArchitect/binclient/agents/, then execute the TARegisterServer.sh file using the terminal.
 
 

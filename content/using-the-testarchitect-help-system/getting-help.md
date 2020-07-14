@@ -25,7 +25,7 @@ TestArchitect Help may be invoked by doing any one of the following:
 -   Clicking the **TestArchitect Help** \(![](/images/TA_UsingHelpSystem/Images/btn_help.png)\) button on the right of the TestArchitect toolbar.
 -   Pressing F1.
 
-## Accessing context-specific TestArchitect Help
+## Accessing context-specific TestArchitect Help {{< permerlink >}} {#concept_wp5_gqb_cp__section.context_sensitive_help} 
 
 In addition to the general Help system, TestArchitect offers various shortcuts to let you get to the specific Help page of your current area of interest:
 

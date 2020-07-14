@@ -57,11 +57,11 @@ This action is applicable to the following controls:window.
 
 ![](/images/TA_Automation/Images/bia_does_window_exist_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_does_window_exist_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_does_window_exist_res.png)
 
@@ -74,4 +74,3 @@ This action is applicable to the following controls:window.
 [check window exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/window/check-window-exists)
 
 [check window not exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/window/check-window-not-exists)
-

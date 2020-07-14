@@ -168,9 +168,11 @@
    var urlParams = new URLSearchParams(window.location.search);
        var query = urlParams.get('search');
        var page = urlParams.get('page');
-       console.log(query)
+      
+       
        if (query) {
        searchRemote(query, page);
+       $('#search-header').val(query);
         document.getElementById('loader-container').style.display = 'block';
         document.getElementById('main-container-page').style.visibility = 'hidden';
        } 
@@ -189,8 +191,15 @@ if (/Edge\/\d./i.test(navigator.userAgent)){
   
 }
 
+  reloadHeaderLink();
+  fixTableScroll();
   imageviewer("img");
   createCoppyCode();
+
+  if($('thead').text().trim() == "") {
+    $('thead').hide();
+  }
+
   function copyToCB (copyIcon, tempCopyInput, d) {
   tempCopyInput.select();
   d.execCommand('copy');
@@ -199,6 +208,66 @@ if (/Edge\/\d./i.test(navigator.userAgent)){
   copyIcon.className='copied_clipboard'
   setTimeout(function(){ copyIcon.textContent   = 'copy'; copyIcon.className='copy_clipboard'}, 3000);
 };
+
+function reloadHeaderLink() {
+  var allElements = $('main').children();
+  var wrapper;
+  $.each(allElements, function (index, element) {
+    
+    if(element.nodeName !== "NAV" && element.nodeName !== "FOOTER") {
+     
+      var parent = element.parentNode;
+      if(element.nodeName === "H2") {
+        wrapper = document.createElement('section');
+        var idy = element.id;
+        var classn = element.className ;
+        if(classn) idy +=classn;
+        wrapper.id = idy;
+        element.removeAttribute('id');
+      }
+      if(wrapper){
+        
+        parent.replaceChild(wrapper, element);
+        wrapper.appendChild(element);
+      }
+    }
+  
+   
+  });
+}
+
+$('span.wh_expand_btn').click(function (e) {
+
+  var siblings = $(this).parent().siblings(':not(.wh_not_expandable)');
+  $(this).toggleClass("expanded");
+  siblings.slideToggle("1000");
+})
+$('span.permalink').click(function (e) {
+  var id = $(this).closest('[id]').attr('id');
+            var hash = '#' + id;
+            e.preventDefault();
+            history.replaceState({}, '', hash);
+
+            $('html, body').animate({scrollTop: $("[id='" + id + "']").offset().top}, 1000);
+
+
+})
+
+
+function fixTableScroll() {
+  const d = document;
+let highlight = d.querySelectorAll('table');// or any div containing code stuff
+  
+for (let index = 0; index < highlight.length; index++) {
+  const hl = highlight[index];
+  var parent = hl.parentNode;
+  var wrapper = document.createElement('div');
+  wrapper.className='table_container';
+  parent.replaceChild(wrapper, hl);
+  wrapper.appendChild(hl);
+}
+
+}
 
 function createCoppyCode () {
   const d = document;
@@ -241,7 +310,7 @@ for (let index = 0; index < highlight.length; index++) {
     var $results = $("main");
     if (!page) page = 1;
      var urlQuery = searchHost+escape(query);
-     console.log(urlQuery);
+    
     $.getJSON(urlQuery+'&page=' +page)
       .done(function(res) {
         $results.empty();
@@ -283,7 +352,6 @@ for (let index = 0; index < highlight.length; index++) {
     
     if (query) {
      
-      setTimeout(function(){ $("#search-header").val(""); }, 1000);
       searchRemote(query, page);
     
      
@@ -389,7 +457,6 @@ for (let index = 0; index < highlight.length; index++) {
 
   function loadContent(url, el) {
     window.scrollTo({ top: 0});
-    $("#search-header").val('');
     var parentEl = $(el).parent();
     var siblingsEl = parentEl.siblings();
     siblingsEl.removeClass("open");

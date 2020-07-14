@@ -26,7 +26,7 @@ How to create a variation of a project item.
     For example, enter spanish.
 
 5.  If no system versions are to be linked to this variation, proceed to step [6](/user-guide/variations/creating-linked-variations/creating-a-variation#step.finished).
-6.  **Optional:** Select the **Links to version node** check box, and then select a system from the **Select system** drop-down list.
+6.  Optional: Select the **Links to version node** check box, and then select a system from the **Select system** drop-down list.
 
     For example, select the **Car Rental** system.
 
@@ -35,8 +35,8 @@ How to create a variation of a project item.
     {{<note>}}
 
     -   A [branch node](/user-guide/variations/creating-linked-variations/the-systems-tree/create-a-new-branch-node) is not linkable to a variation. In other words, you are not allowed to link a variation to a branch node.
-    -   If the **Select system** drop-down list is disabled, it is for one of two possible reasons:
-        -   Only one system \(e.g., **Car Rental**\) currently exists under the **Systems & Platforms** node, or
+    -   If the Select system drop-down list is disabled, it is for one of two possible reasons:
+        -   Only one system \(e.g., Car Rental\) currently exists under the **Systems & Platforms** node, or
         -   Another variation of this project item has already been linked to a node of some system \(specifically, the system displayed in the header of the list\). Such linking restricts each variation of the entire [variation set](/user-guide/support/glossary-of-terms/variation-set) to that system, or to no system at all. \(See [Linking to one system](/user-guide/variations/rules-for-creating-variations/linking-to-one-system#p_gkf_3dy_dm).\)
 7.  **Optional:** Link the variation to one or more system versions by selecting the appropriate check boxes under the selected system.
 
@@ -50,7 +50,6 @@ How to create a variation of a project item.
 The new variation appears as a node in theTestArchitect explorer tree, identified by its name and variation signature, in the form of <default definition name\> \{<System\>:<node1\>, <node2\>\} \{<keyword1\>, <keyword2\>\}
 
 ![](/images/TA_Help/Images/ug_systemtree17.png)
-
 
 
 

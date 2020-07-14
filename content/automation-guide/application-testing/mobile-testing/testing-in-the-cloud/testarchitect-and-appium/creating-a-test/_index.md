@@ -15,4 +15,3 @@ From within your action lines, you can control which cloud device your test is t
 2.  [Selecting multiple cloud devices at launch time](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/testarchitect-and-appium/creating-a-test/multiple-cloud-devices)  
 It is important to test mobile web applications on different cloud devices \(smartphones, tablets, phablets, etc.\) to ensure that it behaves in a consistent and correct manner on all of them. TestArchitect allows an automated test to run on multiple cloud mobile devices concurrently.
 
-

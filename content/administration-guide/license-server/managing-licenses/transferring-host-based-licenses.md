@@ -14,13 +14,13 @@ To transfer a host-based license to another machine:
 
 1.  On the license server machine, launch the License Server Control Panel:
 
-    -   **Windows platform**: do one of the following:
+    -   Windows platform: do one of the following:
         -   Double-click the **TestArchitect - License Server** ![](/images/TA_Administration/Images/LS_icon.png) icon in your Windows notification area.
         -   Select **Start Menu** \> **All Programs** \> **TestArchitect** \> **License Server**.
-    -   **Linux platform**: do one of the following:
+    -   Linux platform: do one of the following:
         -   Double-click the **TestArchitect - License Server** ![](/images/TA_Administration/Images/LS_icon.png) icon in your notification area.
         -   From a terminal window, navigate to /usr/local/logigear/licenseserver/licenseserver and run the TestArchitect License Server executable.
-    -   **macOS**: Note that the TestArchitect License Server is not currently supported on macOS.
+    -   macOS: Note that the TestArchitect License Server is not currently supported on macOS.
 2.  Right-click a node representing a dedicated host-based license.
 
     {{<important>}} This node is in either the **Universal License** or **Agent License** subtree of the **Host-based License** tree.
@@ -37,7 +37,6 @@ To transfer a host-based license to another machine:
 
 
 The host-based license is rescinded from the original host and is now available for the new host to use.
-
 
 
 

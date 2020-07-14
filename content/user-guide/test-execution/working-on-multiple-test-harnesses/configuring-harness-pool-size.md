@@ -41,7 +41,7 @@ To define the maximum allowable number of harnesses, follow the instructions bel
 
 4.  Save the abt.ini file.
 
-## Changing the heap size of the TestArchitect Controller
+## Changing the heap size of the TestArchitect Controller {{< permerlink >}} {#Multiple_harnesses_pool_size__TA_controller_heap_size} 
 
 The Java heap is the memory portion where blocks of memory are allocated to objects and freed during garbage collection.
 
@@ -64,7 +64,7 @@ Follow the instructions below to change JVM parameters:
 
 4.  Save the abt.ini file.
 
-## Changing the heap size of an individual harness
+## Changing the heap size of an individual harness {{< permerlink >}} {#Multiple_harnesses_pool_size__individual_harness_heap_size} 
 
 Generally speaking, the heap size of an individual harness is inversely proportional to the harness pool size simply because your machine's memory is a fixed amount. If you raise the number of harnesses running in parallel, decrease the heap size.
 

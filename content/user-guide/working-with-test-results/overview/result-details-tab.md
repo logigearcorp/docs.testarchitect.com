@@ -46,7 +46,7 @@ Click ![](/images/TA_Help/Images/Test_results_expand_detail.png) to expand and v
     ![](/images/TA_Help/Images/Result_startup_settings.png)
 
 
-## Additional functions
+## Additional functions {{< permerlink >}} {#Test_result_details__section_ixc_hk4_5x} 
 
 The **Result Details** tab also provide additional functions, such as, turning on the execution time reporting for all action lines, number of displayed action lines per page, collapsing/expanding all action lines, etc.
 
@@ -54,9 +54,9 @@ The **Result Details** tab also provide additional functions, such as, turning o
 
 1.  Option:
     -   **Show Start Time & Run Duration**: Display the start time and duration of each action's execution.
-    -   [**Show recorded screenshots**](/user-guide/finding-bugs-with-testarchitect/screenshot-recording/): Displays all logged screenshots captured during test automation. Note that TestArchitect captures screenshots only for UI-interacting actions, and posts to the local test result only those matching the specifications provided at the start of execution \(in the Screen recording panel of the Execute Test dialog box\).
+    -   [Show recorded screenshots](/user-guide/finding-bugs-with-testarchitect/screenshot-recording/): Displays all logged screenshots captured during test automation. Note that TestArchitect captures screenshots only for UI-interacting actions, and posts to the local test result only those matching the specifications provided at the start of execution \(in the Screen recording panel of the Execute Test dialog box\).
 
-        {{<important>}} Recorded screenshots are only available to **local test results**. They are unavailable to **repository test results**. \([Learn more](/user-guide/finding-bugs-with-testarchitect/screenshot-recording/#section_nnf_wj5_34).\)
+        {{<important>}} Recorded screenshots are only available to local test results. They are unavailable to **repository test results**. \([Learn more](/user-guide/finding-bugs-with-testarchitect/screenshot-recording/#section_nnf_wj5_34).\)
 
     -   [**Show revision timestamp**](/user-guide/test-execution/time-traveling-execution/reviewing-test-results#section_chl_lxp_ls): Display the executed revision of each project item involved, such as user-defined actions, interface entities, and data sets.
 2.  Collapse all sections.
@@ -73,4 +73,3 @@ The **Result Details** tab also provide additional functions, such as, turning o
 [Comparing test results](/user-guide/working-with-test-results/comparing-test-results/)
 
 [Startup settings](/user-guide/test-execution/startup-settings/)
-

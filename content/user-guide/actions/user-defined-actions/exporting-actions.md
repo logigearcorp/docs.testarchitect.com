@@ -12,7 +12,7 @@ A user-defined action can be exported to an archive file \(.ZIP format\), which 
 
 Choose one of the following two methods to export user-defined actions:
 
--   **Option 1**:
+-   Option 1:
 
     1.  In the TestArchitect explorer tree, right-click a user-defined action node, then click **Export to ZIP file**.
 
@@ -22,7 +22,7 @@ Choose one of the following two methods to export user-defined actions:
 
     3.  Click **OK**.
 
--   **Option 2**:
+-   Option 2:
 
     1.  Double-click the **Actions** node in the TestArchitect explorer tree
 
@@ -36,7 +36,6 @@ Choose one of the following two methods to export user-defined actions:
 
 
 The action archive file \(.ZIP\) is exported to the specified location.
-
 
 
 

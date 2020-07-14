@@ -41,10 +41,9 @@ Hex
 
 ## Example
 
-**Test Lines**
+Test Lines
 
 ![](/images/TA_Automation/Images/bis_color_format_pgm.png)
-
 
 
 

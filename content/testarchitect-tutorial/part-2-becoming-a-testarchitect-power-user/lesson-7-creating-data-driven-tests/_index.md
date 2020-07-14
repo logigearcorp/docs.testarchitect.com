@@ -11,15 +11,15 @@ keywords: "data-driven tests, tutorial, creating"
 
 Demonstrates how to enhance your tests with external test data to better simulate real-world user actions.
 
-**Audience:** Testers, Automation engineers
+Audience: Testers, Automation engineers
 
-**Prerequisites:**
+Prerequisites:
 
 -   Basic understanding of the TestArchitect user interface
 -   Familiarity with the TestArchitect test editor
 -   Essential understanding of TestArchitect repositories, projects, and tests
 
-**What you will learn:**
+What you will learn:
 
 -   Creating data sets
 -   Incorporating data sets into your test
@@ -53,7 +53,6 @@ Add a filter to your test to limit the data coming in.
 13. [Named filters](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-7-creating-data-driven-tests/named-filters)  
 Named filters are established in a data set and may be referenced in your tests.
 14. [Summary: What you learned](/testarchitect-tutorial/part-2-becoming-a-testarchitect-power-user/lesson-7-creating-data-driven-tests/summary-what-you-learned)  
-
 
 
 

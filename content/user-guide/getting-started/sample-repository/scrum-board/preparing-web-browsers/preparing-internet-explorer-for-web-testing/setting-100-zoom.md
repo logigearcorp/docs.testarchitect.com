@@ -18,4 +18,3 @@ Internet Explorer uses 100% zoom by default. If you changed the zoom manually, y
 
 
 
-

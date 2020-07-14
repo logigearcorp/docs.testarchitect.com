@@ -37,13 +37,13 @@ This topic gives you a basic guide on creating a release definition in the TFS w
 
         ![](/images/TA_Help/Images/TFS2018_release_def_env.png)
 
-    3.  On the **Tasks** tab, configure **Agent phase**: select the agent queue to run tests
+    3.  On the Tasks tab, configure **Agent phase**: select the agent queue to run tests
 
         {{<note>}} In order to run Visual Studio Test, an agent queue needs to have VSTest.Console.exe.
 
         -   You can acquire VSTest.Console.exe by installing Visual Studio.
         -   If VSTest.Console.exe already exists on the agent queue, you can custom the VS Test parameter in **Agent Queues**
-    4.  Add the **Visual Studio Test** task to the phase and configure it.
+    4.  Add the Visual Studio Test task to the phase and configure it.
 
         1.  Select Test run from the **Select test using** dropdown list.
         2.  Browse to the location of the TA-TFS plug-in based artifact in the **Search folder** box.
@@ -53,7 +53,6 @@ This topic gives you a basic guide on creating a release definition in the TFS w
 
 
 An environment has been created.
-
 
 
 

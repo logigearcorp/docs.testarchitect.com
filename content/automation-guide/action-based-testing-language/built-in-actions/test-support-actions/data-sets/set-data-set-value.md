@@ -94,15 +94,15 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ![](/images/TA_Automation/Images/bia_set_data_set_value_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_set_data_set_value_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_set_data_set_value_res.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_set_data_set_value_effect.png)
 
@@ -115,18 +115,17 @@ In the Customers data set:
 
 ![](/images/TA_Automation/Images/bia_set_data_set_value_aut_2.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_set_data_set_value_pgm_2.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_set_data_set_value_res_2.png)
 
-**Effect**
+Effect
 
 ![](/images/TA_Automation/Images/bia_set_data_set_value_effect_2.png)
-
 
 
 

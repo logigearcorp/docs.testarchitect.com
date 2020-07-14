@@ -20,4 +20,3 @@ In general, the steps required for automating on cloud-based Android devices do 
 -   Android command line tool. \([Learn more](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/android-command-line-tool/).\)
 
 
-

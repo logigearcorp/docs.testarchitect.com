@@ -12,11 +12,11 @@ keywords: "methods of abt, GetSelectedText, GetSelectedText (AbtComboBox), AbtCo
 
 `string GetSelectedText()`
 
-## Description
+## Description {{< permerlink >}} {#abt_GetSelectedText_combobox__section.desc} 
 
 Retrieve the text content ofthe currently selected item in the object.
 
-## Return Value
+## Return Value {{< permerlink >}} {#abt_GetSelectedText_combobox__section.return} 
 
 String value indicating the text content ofthe selected item.
 

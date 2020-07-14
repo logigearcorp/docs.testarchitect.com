@@ -53,14 +53,13 @@ This action is applicable to the following controls:toolbar.
 
 ![](/images/TA_Automation/Images/bia_check_toolbar_control_value_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_toolbar_control_value_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_toolbar_control_value_res.png)
-
 
 
 

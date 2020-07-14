@@ -49,11 +49,11 @@ This action is applicable to the following controls:richtext,text box, text view
 
 ![](/images/TA_Automation/Images/bia_check_pattern_not_in_text_aut.png)
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_pattern_not_in_text_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_pattern_not_in_text_res.png)
 
@@ -64,4 +64,3 @@ This action is applicable to the following controls:richtext,text box, text view
 
 
 [check pattern in text](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/text-box/check-pattern-in-text)
-

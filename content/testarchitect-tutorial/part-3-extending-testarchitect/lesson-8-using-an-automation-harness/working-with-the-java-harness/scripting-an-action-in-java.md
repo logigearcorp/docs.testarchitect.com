@@ -57,7 +57,7 @@ These steps are implemented in the following procedure:
 
     Mod\_Example.java opens in the editor.
 
-6.  In the editor, add an additional setActionScript\(\) line to the setActions\(\) method of Mod\_Example.java, as shown \(in **bold**\):
+6.  In the editor, add an additional setActionScript\(\) line to the setActions\(\) method of Mod\_Example.java, as shown \(in bold\):
 
     ```
     /**
@@ -82,7 +82,7 @@ These steps are implemented in the following procedure:
 
     {{<note>}} setActionScript\(\) is a member function of an object called AbtLIBRARY. This object represents the core interpreter library of TestArchitect, which has functions for common tasks like registering actions, retrieving arguments and reporting results of checks.
 
-7.  Next, add an else-if clause \(in **bold**\) to the `if` block in the class’ divert\(\) method:
+7.  Next, add an else-if clause \(in bold\) to the `if` block in the class’ divert\(\) method:
 
     ```
     	/**
@@ -159,7 +159,6 @@ You have now completed the implementation of a TestArchitect user-scripted actio
 {{<note>}} Note the similarity of the code here to that of method action\_helloWorld\(\), which implements the hello world action included in the example code. The principal difference is that, whereas the pre-existing action simply writes out the string hello world, your new one accepts an argument, one which replaces “world” as the recipient of the hello greeting. The difference in code is that a library function called NamedArgument\(\) is now used to get the value of the who argument of the hello action. The code first assigns this to a variable named whovar, then uses it to create the text for the report. You may also have noticed the use of the Report\(\) function of the LIBRARY object to write the string to the output. Report\(\) is a wrapper that calls up TestArchitect’s implementation of the report action. Similarly, ReportError\(\), seen in the above step, calls up the implementation of TestArchitect's report error action.
 
 You are now ready to execute your test and verify that your user-scripted action works correctly.
-
 
 
 

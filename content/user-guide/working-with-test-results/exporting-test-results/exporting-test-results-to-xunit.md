@@ -12,7 +12,7 @@ How to export your test results to an XML file in xUnit format.
 
 Choose one of the following two methods to export test results to xUnit:
 
--   **Option 1**: Manually exporting test results to an xUnit file.
+-   Option 1: Manually exporting test results to an xUnit file.
 
     1.  Select the test results that you want to export to xUnit.
 
@@ -28,7 +28,7 @@ Choose one of the following two methods to export test results to xUnit:
 
         The test results are exported to the specified XML file in xUnit format.
 
--   **Option 2**: Automatically exporting test results to an xUnit file upon test completion.
+-   Option 2: Automatically exporting test results to an xUnit file upon test completion.
 
     1.  In the TestArchitect explorer tree, select the test module\(s\) that you want to execute.
 
@@ -55,4 +55,3 @@ Choose one of the following two methods to export test results to xUnit:
 [Working with test results](/user-guide/working-with-test-results/)
 
 [Exporting test results](/user-guide/working-with-test-results/exporting-test-results/)
-

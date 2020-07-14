@@ -26,28 +26,28 @@ TestArchitect License Server now has a dedicated stand-alone installer.
 
 ## Test Architect Client
 
--   [**New Quick Start page**](/using-the-testarchitect-help-system/quick-start-tab): The Quick Start page provides quick access to basic tasks such as connecting to a repository, creating a new project, and recording a test module.
--   [**Test module template**](/user-guide/introduction-to-action-based-testing/action-based-testing/test-modules): A basic test module template is provided to get you started with the Action-Based Testing methodology.
--   [**Test case steps**](/user-guide/tests/test-cases/test-steps/): Test case steps enable you to define a sequence of events and a test result for each test case.
--   [**Test case**](/user-guide/tests/test-cases/) and [**test module**](/user-guide/tests/creating-a-test-module) buttons: Toolbar buttons are now available for quickly creating a new test case or a new test module.
--   [**TA item URLs**](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/testarchitect-url): Each TA item has a unique URL, making it easy for you to access any item by clicking its link..
--   [**Create new action from action lines**](/user-guide/actions/user-defined-actions/smart-creation-of-new-actions): Creating new actions from action lines is a smart and easy way to create new actions.
--   [**Picture capturing tool:**](/user-guide/projects-and-project-items/project-items/picture-checks/picture-capturing-tool/) Use this tool to capture on-screen images and save them as a baseline or picture.
--   [**Device Live Screen**](/automation-guide/application-testing/mobile-testing/additional-tasks-and-tools/capturing-screenshots-of-a-mobile-device): Displays the screen of a connected device for testing of mobile devices.
+-   [New Quick Start page](/using-the-testarchitect-help-system/quick-start-tab): The Quick Start page provides quick access to basic tasks such as connecting to a repository, creating a new project, and recording a test module.
+-   [Test module template](/user-guide/introduction-to-action-based-testing/action-based-testing/test-modules): A basic test module template is provided to get you started with the Action-Based Testing methodology.
+-   [Test case steps](/user-guide/tests/test-cases/test-steps/): Test case steps enable you to define a sequence of events and a test result for each test case.
+-   [Test case](/user-guide/tests/test-cases/) and [test module](/user-guide/tests/creating-a-test-module) buttons: Toolbar buttons are now available for quickly creating a new test case or a new test module.
+-   [TA item URLs](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/testarchitect-url): Each TA item has a unique URL, making it easy for you to access any item by clicking its link..
+-   [Create new action from action lines](/user-guide/actions/user-defined-actions/smart-creation-of-new-actions): Creating new actions from action lines is a smart and easy way to create new actions.
+-   [Picture capturing tool:](/user-guide/projects-and-project-items/project-items/picture-checks/picture-capturing-tool/) Use this tool to capture on-screen images and save them as a baseline or picture.
+-   [Device Live Screen](/automation-guide/application-testing/mobile-testing/additional-tasks-and-tools/capturing-screenshots-of-a-mobile-device): Displays the screen of a connected device for testing of mobile devices.
 -   Enhancements to existing features:
-    -   [**History roll back**](/user-guide/projects-and-project-items/project-items/revision-control/revision-history/revision-rollback): Create a new version of a test case using the content of an earlier version \(use this instead of deleting the current version\).
-    -   [**Reporting:**](/user-guide/reporting-and-dashboard/reporting/) Graphic design has been enhanced to increase usability.
-    -   [**Screentips identify control class:**](/user-guide/interface-definitions/the-interface-viewer/identifying-interface-elements-and-controls/point-to-identify-mode) Hold your cursor over a control to view the control's TA class.
+    -   [History roll back](/user-guide/projects-and-project-items/project-items/revision-control/revision-history/revision-rollback): Create a new version of a test case using the content of an earlier version \(use this instead of deleting the current version\).
+    -   [Reporting:](/user-guide/reporting-and-dashboard/reporting/) Graphic design has been enhanced to increase usability.
+    -   [Screentips identify control class:](/user-guide/interface-definitions/the-interface-viewer/identifying-interface-elements-and-controls/point-to-identify-mode) Hold your cursor over a control to view the control's TA class.
     -   Automation problem dialog box: More information is now included in error messages, making it easier for you to debug issues.
-    -   [**User permission:**](/administration-guide/users-and-passwords/user-administration/) You can now define permissions across an entire project.
-    -   [**TA list view:**](/user-guide/projects-and-project-items/project-items/list-view/) Columns in TA list view have been enhanced to increase usability.
+    -   [User permission:](/administration-guide/users-and-passwords/user-administration/) You can now define permissions across an entire project.
+    -   [TA list view:](/user-guide/projects-and-project-items/project-items/list-view/) Columns in TA list view have been enhanced to increase usability.
     -   **Edit command \(context menu\)** The **Edit** command \(accessed from the context menu\) assists you with editing items such as interface entities and datasets.
-    -   [**Harness sample:**](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/) Harness samples have been provided to make it easier for you to get started developing an automation harness.
-    -   **Process for updating/deleting test cases and objectives**: Updating and deleting test cases and test objectives needs to follow the process to ensure data integrity. \(Refer to [test cases](/user-guide/tests/test-cases/) and [test objectives](/user-guide/tests/test-cases/test-objectives/) for details.\)
-    -   [**Playback toolbar:**](/user-guide/test-execution/playback-toolbar) A toolbar with **Stop**, **Pause**, and **Resume** buttons is available when tests are run.
-    -   [**Action recorder**](/user-guide/actions/action-recorder/): Graphic design of the Action Recorder has been improved to increase usability.
-    -   **Create New Item form:** The Create New Item form has been simplified.
-    -   [**Test result**](/user-guide/working-with-test-results/): Test results have been redesigned to increase usability.
+    -   [Harness sample:](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/) Harness samples have been provided to make it easier for you to get started developing an automation harness.
+    -   Process for updating/deleting test cases and objectives: Updating and deleting test cases and test objectives needs to follow the process to ensure data integrity. \(Refer to [test cases](/user-guide/tests/test-cases/) and [test objectives](/user-guide/tests/test-cases/test-objectives/) for details.\)
+    -   [Playback toolbar:](/user-guide/test-execution/playback-toolbar) A toolbar with **Stop**, **Pause**, and **Resume** buttons is available when tests are run.
+    -   [Action recorder](/user-guide/actions/action-recorder/): Graphic design of the Action Recorder has been improved to increase usability.
+    -   Create New Item form: The Create New Item form has been simplified.
+    -   [Test result](/user-guide/working-with-test-results/): Test results have been redesigned to increase usability.
 
 ## TestArchitect Automation
 
@@ -60,6 +60,5 @@ TestArchitect License Server now has a dedicated stand-alone installer.
 -   Deprecated: use frame setting
 -   Deprecated: Hierarchy mode
 -   The [use interface](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/interface-handling/use-interface) setting is now optional
-
 
 

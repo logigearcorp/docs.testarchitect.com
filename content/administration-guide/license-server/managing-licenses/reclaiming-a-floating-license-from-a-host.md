@@ -14,13 +14,13 @@ To reclaim a license and return it to the license pool:
 
 1.  On the license server machine, launch the License Server Control Panel:
 
-    -   **Windows platform**: do one of the following:
+    -   Windows platform: do one of the following:
         -   Double-click the **TestArchitect - License Server** ![](/images/TA_Administration/Images/LS_icon.png) icon in your Windows notification area.
         -   Select **Start Menu** \> **All Programs** \> **TestArchitect** \> **License Server**.
-    -   **Linux platform**: do one of the following:
+    -   Linux platform: do one of the following:
         -   Double-click the **TestArchitect - License Server** ![](/images/TA_Administration/Images/LS_icon.png) icon in your notification area.
         -   From a terminal window, navigate to /usr/local/logigear/licenseserver/licenseserver and run the TestArchitect License Server executable.
-    -   **macOS**: Note that the TestArchitect License Server is not currently supported on macOS.
+    -   macOS: Note that the TestArchitect License Server is not currently supported on macOS.
 2.  Right-click the node representing the machine whose license is to be reclaimed, and select **Rescind License**.
 
     {{<important>}} This option is only available for nodes in the **Floating License** and **Floating Agent License** trees.
@@ -33,7 +33,6 @@ To reclaim a license and return it to the license pool:
 
 
 The floating license is reclaimed and the corresponding **Issued** and **Available** license counts are increased by one.
-
 
 
 

@@ -20,7 +20,7 @@ The fields displayed in the above **Information** tab are as follows:
 |-----|-----------|
 |**Bug ID**|\(Automatically generated\) The ID of the TA bug. This bug ID is combination of [a prefix key](/user-guide/projects-and-project-items/projects-in-testarchitect/create-a-new-project) followed by an ID number, separated by a hyphen.|
 |**Summary**|A brief one-line summary of the TA bug. {{<note>}} The **Summary** field cannot be empty.<br><br>|<br>
-|**Description**|A detailed description of the TA bug.|
+|Description|A detailed description of the TA bug.|
 |**URL**|\(Automatically generated\) The [TestArchitect URL address](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/testarchitect-url) of this bug.|
 |**Source**|The TFS bug ID associated with the TA bug.<br><br> {{<note>}}<br><br>-   If this is an unregistered bug, this field is empty.<br>-   You may change the **Source** value to drop the current link and association this bug with another TFS bug.<br>-   You can also clear the **Source** content to decouple this bug from its associated TFS bug, rendering this an unregistered bug.<br><br>|<br>
 |**Current status**|The current life cycle stage of this TA bug \(refer to [Workflow](/user-guide/projects-and-project-items/project-items/testarchitect-bugs/#ksec_tabugs_workflow)\)|
@@ -38,11 +38,10 @@ The fields displayed in the above **Information** tab are as follows:
 
 The column heading fields of the **Related Items** tab \(above\) are:
 
-|**Field**|**Description**|
+|Field|Description|
 |---------|---------------|
 |**Test Module**|Name of a test module which exposes the bug.|
 |**Test Case**|The particular section in the test module in which the bug is exposed. The section can be `Initial`, `Final` or a specific test case.<br><br>|<br>
 |**Test Line**|The line number where the bug is marked as a known bug.|
 |**Marked By**|The person who marked the bug.|
-
 

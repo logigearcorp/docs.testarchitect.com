@@ -17,23 +17,23 @@ The following new features and improvements are introduced in TestArchitect vers
 
 ## TestArchitect Client
 
-**New features**
+New features
 
 -   [**Modern TestArchitect command-line interface**](/user-guide/test-execution/methods-of-test-execution/executing-tests-from-the-command-line-interface/):
-    -   **Flexibility**: With new TestArchitect's command line tool, tests can be launched from a command shell. When incorporated into batch files, the tool significantly extends the flexibility of test execution, especially from a scheduling standpoint.
-    -   **Standards for command-line interfaces**: In order to provide a consistent, cohesive user experience, the new TestArchitect command-line interface has been standardized on the following aspects:
+    -   Flexibility: With new TestArchitect's command line tool, tests can be launched from a command shell. When incorporated into batch files, the tool significantly extends the flexibility of test execution, especially from a scheduling standpoint.
+    -   Standards for command-line interfaces: In order to provide a consistent, cohesive user experience, the new TestArchitect command-line interface has been standardized on the following aspects:
         -   Consistent argument naming conventions
         -   Consistent error messages and exit codes
         -   Consistent command syntax
-    -   **Ease of use**: The presence of optional arguments in batches files is no longer required. When the optional arguments are absent, their default value will be automatically applied.
+    -   Ease of use: The presence of optional arguments in batches files is no longer required. When the optional arguments are absent, their default value will be automatically applied.
 -   **[A separate TestArchitect Help file installer](/using-the-testarchitect-help-system/getting-help)**: The TestArchitect Help package has been removed from TestArchitect installer. If you'd like to continue to open local help documentation in offline mode, please follow this [link](/using-the-testarchitect-help-system/getting-help).
 
-**Enhancements to existing features**
+Enhancements to existing features
 
--   **Improved TestArchitect-Team Foundation Server integration**:
+-   Improved TestArchitect-Team Foundation Server integration:
     -   Support for [Microsoft Visual Studio 2017 Update 1](/user-guide/integration-with-third-party-tools/tfs-integration/supported-versions).
     -   TestArchitect and [Team Build](https://www.visualstudio.com/en-us/docs/build/news/2017) integration, which is applicable to both on-premises TFS and Visual Studio Team Services.
--   [**Adding test results to the repository**](/user-guide/working-with-test-results/adding-test-results-to-the-repository/adding-test-results-automatically):
+-   [Adding test results to the repository](/user-guide/working-with-test-results/adding-test-results-to-the-repository/adding-test-results-automatically):
 
     -   In the Continuous Integration/Continuous Deployment \(CI/CD\) process, after automated tests are entirety finished, you are able to add local test results into the repository, even if the specified result folder might not exist beforehand.
     -   At the moment, TestArchitect is capable of dynamically creating result folders on-the-fly. Name of the result folders is determined based on the following predefined macro variables.
@@ -45,42 +45,42 @@ The following new features and improvements are introduced in TestArchitect vers
     |\{today\}|Get today's date in the form of mm-dd-yyyy|08-09-2017|
 
 -   [**Exporting test results into various formats**](/user-guide/working-with-test-results/exporting-test-results/):
-    -   **Export test result into .TARESULT files**:
+    -   Export test result into .TARESULT files:
         -   Test run results now can be converted and [exported](/user-guide/working-with-test-results/exporting-test-results/exporting-test-results-to-taresult-files/) to .TARESULT extension, an archive filename extension, developed by LogiGear. This new extension is extremely convenient for test result query purposes, especially in the CI/CD process. Specifically, upon test completion, you can aggregate all test results quickly by just simply querying all returned .TARESULT files.
         -   TARESULT then also can be [imported](https://www.testarchitect.com/OnlineHelp/index.html#TA_Help/Topics/ug_importing_test_results.html) back into TestArchitect.
-    -   **Export test results to HTML**:
-        -   [**XSLT template**](/user-guide/working-with-test-results/exporting-test-results/exporting-local-test-results-to-an-html-file): Ability to export HTML results with your own view layout, customized by your XSLT template.
-        -   [**Directory structure output**](/user-guide/working-with-test-results/exporting-test-results/exporting-local-test-results-to-an-html-file): Ability to output different types of directory structure folder which store HTML files.
+    -   Export test results to HTML:
+        -   [XSLT template](/user-guide/working-with-test-results/exporting-test-results/exporting-local-test-results-to-an-html-file): Ability to export HTML results with your own view layout, customized by your XSLT template.
+        -   [Directory structure output](/user-guide/working-with-test-results/exporting-test-results/exporting-local-test-results-to-an-html-file): Ability to output different types of directory structure folder which store HTML files.
             -   Folder structure: TestArchitect creates a hierarchical tree structure, or subdirectories to store HTML results.
             -   Flat structure: TestArchitect does not create subdirectories. There is only a single top-level directory which contains all HTML results.
-        -   **Create output folders on-the-fly**: TestArchitect automatically creates a folder to store HTML files if the specified folder does not exist.
-    -   **TAUtilities**, a library which allows you to connect and retrieve data from a TestArchitect repository server, is updated:
+        -   Create output folders on-the-fly: TestArchitect automatically creates a folder to store HTML files if the specified folder does not exist.
+    -   TAUtilities, a library which allows you to connect and retrieve data from a TestArchitect repository server, is updated:
         -   [Result](https://www.testarchitect.com/OnlineHelp/TAUtilities/com/testarchitect/Result.html) interface:
             -   [getIgnoredFails\(\)](https://www.testarchitect.com/OnlineHelp/TAUtilities/com/testarchitect/Result.html#getIgnoredFails--): Returns the number of failed checkpoints that are marked as known bugs.
         -   [Project](https://www.testarchitect.com/OnlineHelp/TAUtilities/com/testarchitect/Project.html) interface: Additional filename extension \([.TARESULT](/user-guide/working-with-test-results/exporting-test-results/exporting-test-results-to-taresult-files/)\) supported for the following methods:
             -   [exportFromPath\(\)](https://www.testarchitect.com/OnlineHelp/TAUtilities/com/testarchitect/Project.html#exportFromPath-java.lang.String-java.lang.String-java.lang.String-boolean-): Export a specific project item, identified by its TA path, to a file.
             -   [exportFromId\(\)](https://www.testarchitect.com/OnlineHelp/TAUtilities/com/testarchitect/Project.html#exportFromId-java.lang.String-java.lang.String-java.lang.String-boolean-): Export a specific project item, identified by its TestArchitect ID, to a file.
 
-## TestArchitect Automation
+## TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.3_Windows_update_2__section_p2c_51b_cs} 
 
-**New features**
+New features
 
--   **Testing in cloud services**:
-    -   **Official release for automation testing in [WebDriver based cloud services](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/)**: It delivers cost saving, time saving, remote/mobile access to information, high productivity, and increased test coverage across different mobile device types, etc.
-    -   **Execution on multiple cloud devices**: You are now able to automate tests on multiple cloud devices concurrently. The cloud devices will be defined via desired capabilities, specified in [JSON files](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/testarchitect-and-appium/creating-a-test/multiple-cloud-devices).
-    -   **New built-in [disconnect all cloud devices](/automation-guide/action-based-testing-language/built-in-actions/system-actions/device/disconnect-all-cloud-devices) action added**: Logically disconnect all currently-connected cloud devices.
+-   Testing in cloud services:
+    -   Official release for automation testing in [WebDriver based cloud services](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/): It delivers cost saving, time saving, remote/mobile access to information, high productivity, and increased test coverage across different mobile device types, etc.
+    -   Execution on multiple cloud devices: You are now able to automate tests on multiple cloud devices concurrently. The cloud devices will be defined via desired capabilities, specified in [JSON files](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/testarchitect-and-appium/creating-a-test/multiple-cloud-devices).
+    -   New built-in [disconnect all cloud devices](/automation-guide/action-based-testing-language/built-in-actions/system-actions/device/disconnect-all-cloud-devices) action added: Logically disconnect all currently-connected cloud devices.
     -   [web element matching](/automation-guide/action-based-testing-language/built-in-settings/other-settings/web-element-matching) built-in setting: Specify which technique is used to perform web UI element matching.
 -   [Web service testing](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-services/):
-    -   **New built-in actions supported**:
+    -   New built-in actions supported:
         -   [configure web service settings](/automation-guide/action-based-testing-language/built-in-actions/system-actions/web-services/configure-web-service-settings): Send JSON string request to a web service in order to apply new configuration settings.
-            1.  **Proxy**: Defines a manual proxy server.
-            2.  **SSL**: Defines SSL configurations.
-            3.  **Cookies**: Specifies HTTP cookies that are sent back to the server.
-            4.  **Encoder**: Specifies configurations for the encoder.
-            5.  **Decoder**: Specifies configurations for the decoder.
-            6.  **Redirect**: Configures the redirect settings
+            1.  Proxy: Defines a manual proxy server.
+            2.  SSL: Defines SSL configurations.
+            3.  Cookies: Specifies HTTP cookies that are sent back to the server.
+            4.  Encoder: Specifies configurations for the encoder.
+            5.  Decoder: Specifies configurations for the decoder.
+            6.  Redirect: Configures the redirect settings
         -   [attach file](/automation-guide/action-based-testing-language/built-in-actions/system-actions/web-services/attach-file): Attach given file\(s\) to a web service.
-    -   **Common HTTP request methods are fully supported** for the [send http request](/automation-guide/action-based-testing-language/built-in-actions/system-actions/web-services/send-http-request) action including:
+    -   Common HTTP request methods are fully supported for the [send http request](/automation-guide/action-based-testing-language/built-in-actions/system-actions/web-services/send-http-request) action including:
         -   [GET](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET): Request data from a specified resource.
         -   [POST](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST): Submit data to be processed to a specified resource.
         -   [PUT](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT): Replace all the current representations of the target resource with the uploaded content.
@@ -88,16 +88,15 @@ The following new features and improvements are introduced in TestArchitect vers
         -   [PATCH](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PATCH): The PATCH method is used to apply partial modifications to a resource.
         -   [HEAD](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/HEAD): The HEAD method asks for a response identical to that of a GET request, but without the response body.
         -   [OPTIONS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/OPTIONS): The OPTIONS method is used to describe the communication options for the target resource.
--   **A new method of AbtEntity** for a user-scripted action \(applicable to Java and C\# harnesses only\):
+-   A new method of AbtEntity for a user-scripted action \(applicable to Java and C\# harnesses only\):
     -   [ExecuteScript](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/executescript): Executes JavaScript code of a specified web page, or inline JavaScript.
 
-**Enhancements to existing features**
+Enhancements to existing features
 
 -   Android testing:
     -   [Support for **Android 7.0**](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/): You can now run tests for applications on Android devices running this Android version.
 -   iOS testing:
     -   [Support for **iOS 10.3.2**](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/ios-automation/): You can now run tests for applications on iOS devices running this iOS version.
 -   Web testing:
-    -   [Added support for **Firefox 54**](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/): Now you can create and run automated tests for web pages that are displayed in this version of Firefox.
-
+    -   [Added support for Firefox 54](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/): Now you can create and run automated tests for web pages that are displayed in this version of Firefox.
 

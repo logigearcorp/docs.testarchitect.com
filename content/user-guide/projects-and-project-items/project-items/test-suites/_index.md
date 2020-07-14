@@ -16,10 +16,10 @@ The contents of a test suite can be created either manually \([static test suite
 
 Test suites are especially useful for the following types of test:
 
--   **Build verification test**: A collection of test modules that performs basic validation of most the functional areas in the product. The test modules are executed on each new build of a product before the build is released to the test team for further testing.
--   **Smoke test**: A collection of test modules that ensures basic product functionality. Smoke tests are preliminary testing that is performed after changes are made to the AUT.
--   **Functional verification tests**: A collection of test modules that focus on a specific function. The test modules are executed to ensure that all aspects of the specific feature are tested.
--   **Regression tests**: A collection of test modules that is used to ensure that changes made to the AUT, such as enhancements, patches, etc., have not introduced new defects.
+-   Build verification test: A collection of test modules that performs basic validation of most the functional areas in the product. The test modules are executed on each new build of a product before the build is released to the test team for further testing.
+-   Smoke test: A collection of test modules that ensures basic product functionality. Smoke tests are preliminary testing that is performed after changes are made to the AUT.
+-   Functional verification tests: A collection of test modules that focus on a specific function. The test modules are executed to ensure that all aspects of the specific feature are tested.
+-   Regression tests: A collection of test modules that is used to ensure that changes made to the AUT, such as enhancements, patches, etc., have not introduced new defects.
 
 1.  [Static test suites](/user-guide/projects-and-project-items/project-items/test-suites/static-test-suites/)  
 A static test suite is a collection of test modules that are grouped manually for test execution purposes.
@@ -29,7 +29,6 @@ A dynamic test suite is a collection of test modules whose membership is determi
 Static and dynamic test suites, test suite folders, and modules within the same project can be moved and copied around the TestArchitect explorer tree.
 4.  [Executing a test suite](/user-guide/projects-and-project-items/project-items/test-suites/executing-a-test-suite)  
 Both static test suites and dynamic test suites can be executed from the **Execute Test** dialog box.
-
 
 
 

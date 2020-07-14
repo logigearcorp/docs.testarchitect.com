@@ -29,7 +29,7 @@ Append new column\(s\) to a data set.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## Applicable Systems/Platforms {{< permerlink >}} {#bia_create_data_set__dataset_applicable_platforms} 
 
 Use of this action is supported on the following systems/platforms: Windows, Linux.
 
@@ -55,9 +55,8 @@ The following settings are applicable to this action:[remove double quotes from 
 
 The following example adds the four columns CustID, CustLName, CustFName, and Purchases to a dedicated data set Customers.
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_add_data_set_column_pgm.png)
-
 
 

@@ -27,7 +27,7 @@ Check for the existence of a specified string of text within another string. Res
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes
+## Notes {{< permerlink >}} {#bia_check_text_contains__section.notes} 
 
 -   This action is useful for determining whether a string captured at runtime contains the target string of interest.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
@@ -38,14 +38,13 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 ## Example
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_check_text_contains_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_check_text_contains_res.png)
-
 
 
 

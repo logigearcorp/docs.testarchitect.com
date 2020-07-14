@@ -20,7 +20,7 @@ Note that the expression indicator is required even for arguments that contain n
 
 {{<caution>}}
 
-**Exception to the requirement of an expression indicator:** While the expression indicator is generally required for an argument that contains a variable, it should not be used for arguments in which a variable name is explicitly *expected*. That is the case for arguments that the called action is expected to return a value to. An example would be any of the built-in get... actions:
+Exception to the requirement of an expression indicator: While the expression indicator is generally required for an argument that contains a variable, it should not be used for arguments in which a variable name is explicitly *expected*. That is the case for arguments that the called action is expected to return a value to. An example would be any of the built-in get... actions:
 
 ```
                           window    property    variable
@@ -29,7 +29,7 @@ get window property       login     title       logtitle
 
 These actions have no need to evaluate the variables, as their only purpose is to assign values to them. \(One exception is the case in which a variable or argument holds the name of the variable you wish to write to, which is typically with case for user-defined actions that return values.\)
 
-{{<important>}} **Escaping the expression indicator:** In some instances, you may need to deal with a string that begins with a pound \(\#\) symbol, and not have it treated as an expression indicator. To do so, precede the character with a backslash \(\\\). For example, the following action line allows you to check for whether the clipboard is holding the string “\# Cars”:
+{{<important>}} Escaping the expression indicator: In some instances, you may need to deal with a string that begins with a pound \(\#\) symbol, and not have it treated as an expression indicator. To do so, precede the character with a backslash \(\\\). For example, the following action line allows you to check for whether the clipboard is holding the string “\# Cars”:
 
 ```
                           window       property    expected
@@ -61,7 +61,7 @@ Upon execution of the above, the results reported are as follows:
 
 ||||
 |------|------|------|
-|**line**|**reported value**|**why?**|
+|line|reported value|why?|
 |line 17|a + b|Contents of the text argument are treated literally, since there is no expression indicator \(\#\).|
 |line 18|13|The expression indicator \(\#\) causes the interpreter to parse the expression into the addition of variables a and b.|
 |line 19|a + b|Double quotation marks within an expression allow its contents to be treated as a string literal.|
@@ -87,15 +87,15 @@ The following expression operators are available in TestArchitect.
 
 ## Order of operations
 
-Note the **Precedence** column in the above table. All things being equal, expressions with multiple operators are processed from left to right. However, as you \(hopefully\) learned in grade school, not all operators are created equal: some have higher precedence, or priority, than others. For instance, the expression `4 + 3 * 2`, if processed from left to right, would produce a result of 14. But we all know that standard mathematical rules dictate that the multiplication operation be processed first, so that the expression evaluates to 10.
+Note the Precedence column in the above table. All things being equal, expressions with multiple operators are processed from left to right. However, as you \(hopefully\) learned in grade school, not all operators are created equal: some have higher precedence, or priority, than others. For instance, the expression `4 + 3 * 2`, if processed from left to right, would produce a result of 14. But we all know that standard mathematical rules dictate that the multiplication operation be processed first, so that the expression evaluates to 10.
 
 The priority assigned to operators tells us which operations are performed before others. Within a group of operators of equal priority, operations are performed from left to right.
 
-**Parentheses** can be used to modify the order of operations in an expression. For instance, if we want the expression above to have its addition operation performed first, we need only surround the term with parentheses: `(4 + 3) * 2`.
+Parentheses can be used to modify the order of operations in an expression. For instance, if we want the expression above to have its addition operation performed first, we need only surround the term with parentheses: `(4 + 3) * 2`.
 
 {{<note>}} For the full list of operator precedence, see [here](/automation-guide/action-based-testing-language/the-test-language/operator-precedence).
 
-## Automatic conversion of data types
+## Automatic conversion of data types {{< permerlink >}} {#the_test_language_expressions__section.data_type_conversion} 
 
 In general, numeric operations and functions are performed on numbers, variables holding numbers, and functions that return numbers. Similarly, string operations and functions operate on string literals, variables holding strings, and functions that return strings.
 
@@ -118,7 +118,7 @@ results in an output of: We rented 65 cars this month, with revenue of $7234.38.
 
 By contrast, converting strings into numeric values is not always a sure thing. For automatic conversion to take place, the string must “look like” a number to TestArchitect. Looking like a number means that it must consist of only the characters 0-9, plus zero or one decimal points, plus an optional minus \(-\) sign preceding it. If an automatic string-to-number conversion is attempted on a value that does not meet TestArchitect's criteria, an error is reported in the results.
 
-## Editing expressions
+## Editing expressions {{< permerlink >}} {#the_test_language_expressions__section.autocomplete_variables} 
 
 During an editing session, entering the *\#* symbol in an empty argument cell triggers an autocomplete pop-up window containing a list of variables thought to be within scope at that position in the action lines. Use the Up and Down arrow keys to select one, should you need it inserted at that point. You can bring back the pop-up list at any further point in the expression by pressing Ctrl + Space.
 
@@ -128,7 +128,6 @@ The variables listed in the autocomplete window are purely suggested variables. 
 
 -   **[Return values](/automation-guide/action-based-testing-language/the-test-language/expressions/return-values)**  
 Actions can be written to return values to test modules or actions that call them.
-
 
 
 

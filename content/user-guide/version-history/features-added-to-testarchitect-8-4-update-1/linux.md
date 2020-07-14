@@ -15,10 +15,9 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be the same version.
 
-## TestArchitect Client
+## TestArchitect Client {{< permerlink >}} {#Whats_New_Linux__section_dnc_vg2_jfb} 
 
-**Enhancements to existing features**
+Enhancements to existing features
 
 -   The length limit of a **[test step](/user-guide/tests/test-cases/test-steps/creating-test-steps)**’s title has been increased from 70 characters up to 30,000 characters. This improvement allows you to create more meaningful and descriptive titles.
-
 

@@ -38,24 +38,23 @@ The following settings are applicable to this action:[remove double quotes from 
 
 ## Example - Case 1: Failure handler with no arguments
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_on_failure_action_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_on_failure_action_res.png)
 
 ## Example - Case 2: Failure handler with arguments
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_on_failure_action_2_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bia_on_failure_action_2_res.png)
-
 
 
 

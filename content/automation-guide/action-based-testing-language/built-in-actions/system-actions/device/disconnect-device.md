@@ -20,7 +20,7 @@ There are no arguments for this action.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms
+## Applicable Systems/Platforms {{< permerlink >}} {#bia_disconnect_device__section_pvz_tbl_zcb} 
 
 Use of this action is supported on the following systems/platforms: Mobile operating systems.
 
@@ -37,10 +37,9 @@ The following settings are applicable to this action:none.
 
 You want to run some tests on a device, then check the device's system log file. Your test needs to connect to the device and run the tests. Next, in order to access the contents of the device's log, it is necessary to copy it to the host system with a get device log file action. Now, in order to access the copied file on the host, you must first disconnect from the device, to ensure that subsequent actions are indeed directed to the host, and not to the device.
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bia_disconnect_device_pgm.r02.png)
-
 
 
 

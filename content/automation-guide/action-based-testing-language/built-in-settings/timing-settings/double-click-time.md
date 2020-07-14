@@ -38,13 +38,13 @@ Current double-click time of the host system minus 50 milliseconds.
 
 ## Example
 
-**Scenario**: Suppose that your AUT is running on a virtual machine with slow performance; thus, you may slow down the speed at which you need to double-click by setting a new value that is as close to the host system's value as possible. This ensures that the click built-in action takes effect properly.
+Scenario: Suppose that your AUT is running on a virtual machine with slow performance; thus, you may slow down the speed at which you need to double-click by setting a new value that is as close to the host system's value as possible. This ensures that the click built-in action takes effect properly.
 
-**Action Lines**
+Action Lines
 
 ![](/images/TA_Automation/Images/bis_double_click_time_pgm.png)
 
-**Result**
+Result
 
 ![](/images/TA_Automation/Images/bis_double_click_time_res.png)
 
@@ -55,4 +55,3 @@ Current double-click time of the host system minus 50 milliseconds.
 
 
 [get system double click time](/automation-guide/action-based-testing-language/built-in-actions/system-actions/mouse/get-system-double-click-time)
-
