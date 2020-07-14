@@ -22,7 +22,7 @@ In this exercise you will refactor your last test case by encapsulating its repo
 
     3.  In the second column of the new line, assign the test case an ID ofTC 03\(if not already set to that value\).
 
-    4.  Press Tab to advance to the next column, and provide a description for your test case, such asSame-location car rental.
+    4.  Press Tab to advance to the next column, and provide a description for your test case, such as  `Same-location car rental`.
 
 2.  We choose this test case name because its purpose is to initiate an order for a rental car, one which is to be picked up and returned to the same location
 3.  Add enough space to the test case \(you can use Ctrl+i to insert rows\) to allow for the following set of action lines to be entered, and then enter them: ![](/images/TA_Tutorials/Images/tut.actions.encapsulation.001.png)
@@ -111,7 +111,7 @@ In this exercise you will refactor your last test case by encapsulating its repo
 
     3.  In the second column of the new line, assign the test case an ID ofTC 04\(if not already set to that value\).
 
-    4.  Press Tab to advance to the next column, and provide a description for your test case, such ascall the encapsulated action.
+    4.  Press Tab to advance to the next column, and provide a description for your test case, such as  `call the encapsulated action`.
 
     5.  Insert some blank lines \(Ctrl + i\) under the `TEST CASE` header, so that the test case has at least 10 rows.
 

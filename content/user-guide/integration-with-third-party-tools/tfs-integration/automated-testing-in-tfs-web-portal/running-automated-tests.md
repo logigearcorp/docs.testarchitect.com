@@ -23,7 +23,7 @@ keywords:
 
     ![](/images/TA_Help/Images/TFS2018_Run_with_options_dlg.png)
 
-    1.  Select Automated tests using Release environment from the Test type and runner dropdown list.
+    1.  Select   `Automated tests using Release environment` from the Test type and runner dropdown list.
 
     2.  Choose the appropriate build artifact, release and environment for the testing.
 

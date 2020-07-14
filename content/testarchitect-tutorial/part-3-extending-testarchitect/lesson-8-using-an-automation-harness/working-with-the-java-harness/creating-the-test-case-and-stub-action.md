@@ -36,7 +36,7 @@ Note that, while it is necessary that you[implement the hello action in Java](/t
 
 7.  **Optional:** Enter some descriptive information:
 
-    1.  In the `OBJECTIVES` section, for test objective `T0 01`, enter the title test TestArchitect's Java harness in the third column.
+    1.  In the `OBJECTIVES` section, for test objective `T0 01`, enter the title   `test TestArchitect's Java harness` in the third column.
 
         Note that the new description is reflected in the test objective action several lines lower, which specifies the same test objective \(`TO 01`\).
 

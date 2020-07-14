@@ -24,7 +24,7 @@ Use one of the following methods to execute a retroactive revision of a given te
 
     3.  In the **Time Traveling** box, specify a revision you wish to execute backward by either one of the following ways:
 
-        -   Enter directly your desired a timestamp in the format of `MM/dd/yyyy hh:mm:ss.mmm`. For example: 04/09/2015 22:04:27.446.
+        -   Enter directly your desired a timestamp in the format of `MM/dd/yyyy hh:mm:ss.mmm`. For example:   `04/09/2015 22:04:27.446`.
 
             {{<remember>}} Ensure that the input timestamp must not earlier than the creation date of the test module; otherwise, TestArchitect shows a warning message dialog box when you run the test.
 

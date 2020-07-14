@@ -43,7 +43,7 @@ The heat map consists of a matrix with each unique test module placed along the 
     -   **Series**: Result \(under **Related Test Results**\)
     -   **Series Value**: Set colors for each of the possible values as follows:
         -   Passed: green
-        -   Passed with Warnings/Errors: yellow
+        -     `Passed with Warnings/Errors`: yellow
         -   Failed: red Additionally, select **Set as Heat Value** for the Failed setting of **Series Value**.
     1.  From the **Global Setting** icon ![](/images/TA_Tutorials/Images/icn.Dashboard.Global_Setting.png) of the Dashboard's tool bar, select **Create Panel**.
 
@@ -62,7 +62,7 @@ The heat map consists of a matrix with each unique test module placed along the 
 
     ![](/images/TA_Tutorials/Images/tut.Dashboard.heat_map.Car_Rental.failure_monitor.01.png)
 
-    Observe that all Passed results are a single shade of green, allPassed with Warnings/Errors a single shade of yellow. But Failed results are various shades of red, as Failed was selected as the heat value. Failures cells grow darker as time progresses, but only for consecutive Failed cells. Data labels indicating number of consecutive failures, but only to cells that are part of a consecutive failure trend.
+    Observe that all Passed results are a single shade of green, all  `Passed with Warnings/Errors` a single shade of yellow. But Failed results are various shades of red, as Failed was selected as the heat value. Failures cells grow darker as time progresses, but only for consecutive Failed cells. Data labels indicating number of consecutive failures, but only to cells that are part of a consecutive failure trend.
 
 
 What you have learned:

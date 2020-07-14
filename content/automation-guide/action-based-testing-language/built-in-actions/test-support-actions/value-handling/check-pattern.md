@@ -29,7 +29,7 @@ This action may be used within the following project items:test modules and user
 
 ## Notes
 
--   The pattern argument can accept regular expressions. Note that argument values that include regular expressions must be entirely enclosed in curly braces \{\}. As an example, `{[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}}` specifies the pattern for an acceptable email address. More simply, `.*` represents the general wildcard for regular expressions, so that `{.*arch.*}` matches starch, marching, testarchitect, etc. As an example: \{\[A-Z0-9.\_%+-\]+@\[A-Z0-9.-\]+\\.\[A-Z\]\{2,4\}\} specifies the pattern for an acceptable email address.
+-   The pattern argument can accept regular expressions. Note that argument values that include regular expressions must be entirely enclosed in curly braces \{\}. As an example, `  `{[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}}`` specifies the pattern for an acceptable email address. More simply, `.*` represents the general wildcard for regular expressions, so that `{.*arch.*}` matches starch, marching, testarchitect, etc. As an example: \{\[A-Z0-9.\_%+-\]+@\[A-Z0-9.-\]+\\.\[A-Z\]\{2,4\}\} specifies the pattern for an acceptable email address.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
 
 ## Applicable Built-In Settings

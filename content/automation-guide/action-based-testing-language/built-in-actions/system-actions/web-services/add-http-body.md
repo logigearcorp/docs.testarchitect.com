@@ -38,7 +38,7 @@ The following settings are applicable to this action:[remove double quotes from 
 Suppose that you'd like to test a given Google API to send a message to a recipient with the following information:
 
 -   API under test: [Users.messages: send](https://developers.google.com/gmail/api/v1/reference/users/messages/send)
--   URI: https://www.googleapis.com/gmail/v1/users/me/messages/send
+-   URI:   `https://www.googleapis.com/gmail/v1/users/me/messages/send`
 -   Authentication scheme: OAuth 2.0
 -   In the request body, supply a Users.messages resource with the following property as the metadata.
 
@@ -55,7 +55,7 @@ Suppose that you'd like to test a given Google API to send a message to a recipi
         This is a test mail
         ```
 
-    -   Base64url encoded body content: VG86IGxvZ2lnZWFyZXBndGVzdDJAZ21haWwuY29tClN1YmplY3Q6IFRoaXMgaXMgdGVzdCBtYWlsCgpUaGlzIGlzIGEgdGVzdCBtYWls
+    -   Base64url encoded body content:   `VG86IGxvZ2lnZWFyZXBndGVzdDJAZ21haWwuY29tClN1YmplY3Q6IFRoaXMgaXMgdGVzdCBtYWlsCgpUaGlzIGlzIGEgdGVzdCBtYWls`
     -   Request body declared in JSON format \{"raw":"base64url encoded string"\}
 
 Action Lines

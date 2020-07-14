@@ -12,7 +12,7 @@ Launching a Lab Manager session from a web browser.
 
 A Lab Manager session may be started or accessed on any machine on the network, provided it has an up-and-running web server and the Lab Manager application \(which, in most cases, means simply that TestArchitect is installed\).
 
-In a web browser, enter the Lab Manager web server IP address and port in the address bar, in the form of: `http://{server IP:port }/LabManager`, such as, http://192.168.167.113:80/LabManager
+In a web browser, enter the Lab Manager web server IP address and port in the address bar, in the form of: `http://{server IP:port }/LabManager`, such as,   `http://192.168.167.113:80/LabManager`
 
 {{<note>}}
 

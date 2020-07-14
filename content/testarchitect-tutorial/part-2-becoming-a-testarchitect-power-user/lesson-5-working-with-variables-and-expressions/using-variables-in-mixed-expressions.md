@@ -22,7 +22,7 @@ Use numeric and string variables, as well as constants, in your mixed expression
 
     3.  In the second column of the new line, assign the test case an ID ofTC 04\(if not already set to that value\).
 
-    4.  Press Tab to advance to the next column, and provide a description for your test case, such asadding variables to the mix.
+    4.  Press Tab to advance to the next column, and provide a description for your test case, such as  `adding variables to the mix`.
 
 2.  Create several local variable action lines, as follows:
 

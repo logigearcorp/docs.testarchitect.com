@@ -28,13 +28,13 @@ Our task now is to create a pie chart similar to the first, except that we limit
 
     1.  Click the **Clone Panel** icon ![](/images/TA_Help/Images/Dashboard_clone_panel_icon.png) at the top-right corner of the Car Rental Test Results Overview panel.
 
-    2.  In the Clone Panel dialog, select **Tutorial Page** from the **Select page** drop-down menu, and set **Display Name** to Car Rental Test Results, Latest Build. Click OK.
+    2.  In the Clone Panel dialog, select **Tutorial Page** from the **Select page** drop-down menu, and set **Display Name** to   `Car Rental Test Results, Latest Build`. Click OK.
 
         A new panel, identical to the first except for the display name, is created.
 
 2.  Add a filter to the new panel.
 
-    1.  Click the **Edit Panel** icon ![](/images/TA_Help/Images/Dashboard_edit_panel_icon.png) at the top-right corner of the Car Rental Test Results, Latest Build panel.
+    1.  Click the **Edit Panel** icon ![](/images/TA_Help/Images/Dashboard_edit_panel_icon.png) at the top-right corner of the   `Car Rental Test Results, Latest Build` panel.
 
     2.  Click the **Filters** tab in the Edit Panel dialog.
 
@@ -47,7 +47,7 @@ Our task now is to create a pie chart similar to the first, except that we limit
         -   **Value**: latest build
     4.  Click on the **Display Settings** tab.
 
-    5.  {{<note>}} The **Chart Title** of Summarized test results across test modules and dates no longer applies to this chart. Since we already have a name for the panel, let's just make **Chart Title** invisible.
+    5.  {{<note>}} The **Chart Title** of   `Summarized test results across test modules and dates` no longer applies to this chart. Since we already have a name for the panel, let's just make **Chart Title** invisible.
 
         Under Chart Settings, clear the **Show Title** check box.
 

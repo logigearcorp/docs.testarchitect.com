@@ -27,7 +27,7 @@ To start automated mobile web testing on a cloud device in a given WebDriver bas
             -   testdroid\_username: Email registered at Testdroid Cloud. Example: username@domain.com.
             -   testdroid\_password: Password for your Testdroid Cloud account. Example: p4s$w0rd
             -   testdroid\_target: Target test type. Example: chrome, which invokes Google Chrome browser during mobile web application testing.
-            -   testdroid\_project: Project name that will be displayed on Web UI. Example: Chrome Android Project.
+            -   testdroid\_project: Project name that will be displayed on Web UI. Example:   `Chrome Android Project`.
             -   testdroid\_testrun: Name given to each Test Run under a Project. Example: Test Run 1.
             -   **testdroid\_device**: The device name that uniquely identifies a device on Testdroid Cloud. Example: Sony Xperia Z C6603.
         -   For Appium server capabilities:
@@ -43,7 +43,7 @@ To start automated mobile web testing on a cloud device in a given WebDriver bas
             "testdroid_username": "username@domain.com", 
             "testdroid_password": "p4s$w0rd", 
             "testdroid_target": "chrome",
-            "testdroid_project": "Chrome Android Project", 
+            "testdroid_project": "  `Chrome Android Project`", 
             "testdroid_testrun": "Test Run 1",
             "testdroid_device": "Sony Xperia Z C6603"}
             ```
@@ -59,7 +59,7 @@ To start automated mobile web testing on a cloud device in a given WebDriver bas
                                                                      "testdroid_username": "username@domain.com",
                                                                      "testdroid_password": "p4s$w0rd", 
                                                                      "testdroid_target": "chrome",
-                                                                     "testdroid_project": "Chrome Android Project", 
+                                                                     "testdroid_project": "  `Chrome Android Project`", 
                                                                      "testdroid_testrun": "Test Run 1",
                                                                      "testdroid_device": "Sony Xperia Z C6603"}    
         ```
@@ -103,7 +103,7 @@ To start automated mobile web testing on a cloud device in a given WebDriver bas
                                                                  "testdroid_username": "username@domain.com",
                                                                  "testdroid_password": "p4s$w0rd", 
                                                                  "testdroid_target": "chrome",
-                                                                 "testdroid_project": "Chrome Android Project", 
+                                                                 "testdroid_project": "  `Chrome Android Project`", 
                                                                  "testdroid_testrun": "Test Run 1",
                                                                  "testdroid_device": "Sony Xperia Z C6603"}   
                   

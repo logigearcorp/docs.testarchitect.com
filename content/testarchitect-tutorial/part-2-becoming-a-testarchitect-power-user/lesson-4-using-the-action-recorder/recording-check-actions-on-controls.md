@@ -34,7 +34,7 @@ The Car Rental Login window should be displaying john as the **User name** \(the
 
     3.  In the second column of the new line, assign the test case an ID ofTC 02\(if not already set to that value\).
 
-    4.  Press Tab to advance to the next column, and provide a description for your test case, such asRecording control checks.
+    4.  Press Tab to advance to the next column, and provide a description for your test case, such as  `Recording control checks`.
 
 2.  Select an empty cell within test case `TC 02`.
 

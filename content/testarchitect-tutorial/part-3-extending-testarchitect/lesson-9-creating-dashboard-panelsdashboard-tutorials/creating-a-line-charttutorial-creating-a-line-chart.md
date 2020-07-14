@@ -23,7 +23,7 @@ Line charts are one of the best ways to visualize trends relating to quantitativ
 
     -   **Type**: Chart
     -   **Data Profile**: Test Results \(unfiltered\)
-    -   **Display Name**: Car Rental Test Results Trend
+    -   **Display Name**:   `Car Rental Test Results Trend`
     -   **Chart Type**: Line
     -   **Category**: Date of run
     -   **Caption** \(for **Category**\): Date of run

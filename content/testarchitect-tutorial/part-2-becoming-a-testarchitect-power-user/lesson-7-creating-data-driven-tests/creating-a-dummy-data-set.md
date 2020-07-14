@@ -24,11 +24,11 @@ Although your test will receive its data from an external file, the action lines
 
     Now that the data set has been checked out, it can be renamed.
 
-4.  Right-click **Copy of Rented Cars** again and select **Rename**. Rename the node to Rented Cars file link.
+4.  Right-click **Copy of Rented Cars** again and select **Rename**. Rename the node to   `Rented Cars file link`.
 
-5.  If Rented Cars file link is not already displayed in the test editor, double-click its node.
+5.  If   `Rented Cars file link` is not already displayed in the test editor, double-click its node.
 
-    The contents of Rented Cars file link are displayed in the editor. The contents are identical to those of the Rented Cars data set.
+    The contents of   `Rented Cars file link` are displayed in the editor. The contents are identical to those of the Rented Cars data set.
 
 6.  Delete all the data set content except for the column headers and one row of data. Optionally, you can change the data to dummy values.
 

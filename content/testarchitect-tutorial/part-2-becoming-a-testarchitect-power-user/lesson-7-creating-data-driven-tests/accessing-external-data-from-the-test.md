@@ -24,7 +24,7 @@ You will now adapt the same test performed in the previous lesson to allow an ex
 
     3.  In the second column of the new line, assign the test case an ID ofTC 02\(if not already set to that value\).
 
-    4.  Press Tab to advance to the next column, and provide a description for your test case, such asReport data from an external source.
+    4.  Press Tab to advance to the next column, and provide a description for your test case, such as  `Report data from an external source`.
 
 2.  Select the three action lines from the previous test case \(TC 01\), and copy them. Do not include the [test case](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/documentary/test-case) line.
 

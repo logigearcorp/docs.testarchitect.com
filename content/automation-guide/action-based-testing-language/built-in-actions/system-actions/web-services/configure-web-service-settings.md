@@ -270,7 +270,7 @@ Suppose that you'd like to configure SSL with the following certificate authenti
 Your JSON string should resemble as follows:
 
 ```
-{"ssl":{"pathToKeyStore":"C:/Test_Folder/newkeystore.jks","keyStorePassword":"123456","pathToTrustStore":"C:/Test_Folder/cacerts","trustStorePassword":"changeit"}}
+{"ssl":{"pathToKeyStore":"  `C:/Test_Folder/newkeystore.jks`","keyStorePassword":"123456","pathToTrustStore":"  `C:/Test_Folder/cacerts`","trustStorePassword":"changeit"}}
 ```
 
 Action Lines
@@ -299,12 +299,12 @@ Action Lines
 Suppose that you'd like to specify the following configurations for the encoder.
 
 1.  The default charset to use for the specific content-type.
-    -   application/json=UTF-8
+    -     `application/json=UTF-8`
     -   text/plain=US-ASCII
 2.  The default charset for query parameters.
-    -   defaultQueryParameterCharset=US-ASCII
+    -     `defaultQueryParameterCharset=US-ASCII`
 3.  REST Assured does not encode the URL.
-    -   urlEncodingEnabled=false
+    -     `urlEncodingEnabled=false`
 
 JSON string resembles the following:
 
@@ -321,7 +321,7 @@ Action Lines
 Suppose that you'd like to specify the following configurations for the decoder.
 
 1.  The default charset to use for the specific content-type.
-    -   application/octet-stream=us-ascii
+    -     `application/octet-stream=us-ascii`
 2.  The content decoder to apply: No compression.
 
     {{<note>}} When you do this the [Accept-Encoding](https://developer.mozilla.org/vi/docs/Web/HTTP/Headers/Accept-Encoding) header will be added automatically to the request and the response body will not be encoded. In this case, identity value, which indicates no compression, is enabled.
@@ -344,9 +344,9 @@ Suppose that you'd like to configure the following redirect settings:
 1.  Follow redirects.
     -   followRedirects=true
 2.  Allow circular redirects.
-    -   allowCircularRedirects=true
+    -     `allowCircularRedirects=true`
 3.  Reject relative redirects
-    -   rejectRelativeRedirect=true
+    -     `rejectRelativeRedirect=true`
 4.  The maximum number of redirects: 50
     -   maxRedirects=50
 
