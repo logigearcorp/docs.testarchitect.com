@@ -50,7 +50,7 @@ Our task now is to create a pie chart similar to the first, except that we limit
 
         Under Chart Settings, clear the **Show Title** check box.
 
-    6.  {{<note>}} You can also change some other display settings, to see their effect.
+    6.  **Optional:** {{<note>}} You can also change some other display settings, to see their effect.
 
         Under Chart Settings, set **Legends** to None; On the **Data Labels** line, select the **Series** check box, and clear the **Percentage** check box.
 

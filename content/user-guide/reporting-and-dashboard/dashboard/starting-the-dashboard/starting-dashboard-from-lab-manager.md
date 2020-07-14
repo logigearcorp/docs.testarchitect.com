@@ -12,7 +12,7 @@ As a convenience, a Dashboard instance can be easily accessed from a TestArchite
 
 To start a TestArchitect Dashboard instance from Lab Manager, follow these steps:
 
-1.  If the TestArchitect Utility Server has not been started, carry out the following steps:
+1.  **Optional:** If the TestArchitect Utility Server has not been started, carry out the following steps:
 
     1.  Open the TestArchitect Repository Server - Control Panel by double-clicking on the TestArchitect Repository Server icon on Windows’ notification area.
 

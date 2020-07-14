@@ -28,15 +28,15 @@ You have two options for exporting your test results to HTML:
 
         You can accept the default location, but any place that is easy to remember will work.
 
-    4.  If you'd like, TestArchitect creates subdirectories to store the exported HTML results, select the **Create folder structure** check box.
+    4.  **Optional:** If you'd like, TestArchitect creates subdirectories to store the exported HTML results, select the **Create folder structure** check box.
 
         Specifically, two options are available as follows.
 
         -   Folder structure \(the **Create folder structure** check box is enabled\): TestArchitect creates a hierarchical tree structure, or subdirectories to store HTML results.
         -   Flat structure \(the **Create folder structure** check box is cleared\): TestArchitect does not create subdirectories. There is only a single top-level directory that contains all HTML results.
-    5.  If the exported test result is a master result, that is, it is a [test suite result](/user-guide/working-with-test-results/overview/#section.TS_results) or it contains [subresults](/user-guide/working-with-test-results/overview/#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into HTML files.
+    5.  **Optional:** If the exported test result is a master result, that is, it is a [test suite result](/user-guide/working-with-test-results/overview/#section.TS_results) or it contains [subresults](/user-guide/working-with-test-results/overview/#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into HTML files.
 
-    6.  To export HTML results with your own view layout, select the **Apply customized XSLT template** check box, and then choose a location of your customized XSLT template.
+    6.  **Optional:** To export HTML results with your own view layout, select the **Apply customized XSLT template** check box, and then choose a location of your customized XSLT template.
 
         You are first required to customize the default XSLT template, which means you need to modify [a set of XSL files](/user-guide/working-with-test-results/customizing-xml-test-results/) to suit your desired view layout. \(See more examples [here](/user-guide/working-with-test-results/customizing-xml-test-results/).\)
 
@@ -47,7 +47,7 @@ You have two options for exporting your test results to HTML:
         -   macOS: /Applications/TestArchitect/templates/xsl/
         {{<note>}} if you are using a repository on another machine, make sure that the template you choose is accessible to the repository server under the account that starts the repository server service. It means that the template needs placing either on the repository server or in a network shared folder. Otherwise, the default template will be used.
 
-    7.  To include all captured screenshots in the exported test result, select the **Include screenshots** check box. With this option chosen, select one of the following:
+    7.  **Optional:** To include all captured screenshots in the exported test result, select the **Include screenshots** check box. With this option chosen, select one of the following:
 
         -   Optimized resolution: Included screenshot's dimensions are optimized to save space in the exported HTML test results. Specifically, the screenshots are saved as thumbnail images.
         -   Regular resolution: Original resolution of included screenshots is retained. Specifically, the screenshots are saved as full size images.
@@ -75,15 +75,15 @@ You have two options for exporting your test results to HTML:
 
         You can choose the default location, but any place that is easy to remember will work.
 
-    6.  If you'd like, TestArchitect creates subdirectories to store the exported HTML results, select the **Create folder structure** check box.
+    6.  **Optional:** If you'd like, TestArchitect creates subdirectories to store the exported HTML results, select the **Create folder structure** check box.
 
         Specifically, two options are available as follows.
 
         -   Folder structure \(the **Create folder structure** check box is enabled\): TestArchitect creates a hierarchical tree structure, or subdirectories to store HTML results.
         -   Flat structure \(the **Create folder structure** check box is cleared\): TestArchitect does not create subdirectories. There is only a single top-level directory that contains all HTML results.
-    7.  If the exported test result is a master result, that is, it is a [test suite result](/user-guide/working-with-test-results/overview/#section.TS_results) or it contains [subresults](/user-guide/working-with-test-results/overview/#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into HTML files.
+    7.  **Optional:** If the exported test result is a master result, that is, it is a [test suite result](/user-guide/working-with-test-results/overview/#section.TS_results) or it contains [subresults](/user-guide/working-with-test-results/overview/#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into HTML files.
 
-    8.  To export HTML results with your own view layout, select the **Apply customized XSLT template** check box, and then choose a location of your customized XSLT template.
+    8.  **Optional:** To export HTML results with your own view layout, select the **Apply customized XSLT template** check box, and then choose a location of your customized XSLT template.
 
         ![](/images/TA_Help/Images/export_repo_result_HTML_customized_XSLT_automatic.png)
 
@@ -96,7 +96,7 @@ You have two options for exporting your test results to HTML:
         -   macOS: /Applications/TestArchitect/templates/xsl/
         {{<note>}} if you are using a repository on another machine, make sure that the template you choose is accessible to the repository server under the account that starts the repository server service. It means that the template needs placing either on the repository server or in a network shared folder. Otherwise, the default template will be used.
 
-    9.  To include all captured screenshots in the exported test result, select the **Include screenshots** check box. With this option chosen, select one of the following:
+    9.  **Optional:** To include all captured screenshots in the exported test result, select the **Include screenshots** check box. With this option chosen, select one of the following:
 
         -   Optimized resolution: Included screenshot's dimensions are optimized to save space in the exported HTML test results. Specifically, the screenshots are saved as thumbnail images.
         -   Regular resolution: Original resolution of included screenshots is retained. Specifically, the screenshots are saved as full size images.

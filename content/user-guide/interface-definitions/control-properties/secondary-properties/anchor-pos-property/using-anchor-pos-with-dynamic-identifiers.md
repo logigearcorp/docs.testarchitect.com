@@ -83,7 +83,7 @@ As before, we can use the **div** element with `id="national_section"` as an anc
 
         {{<remember>}} During this exercise, ensure that the web page for this file is maintained as the active tab in its browser window.
 
-2.  {{<note>}} You can skip this step if you already created the front\_page interface entity from the previous example, as we will continue to work with it. Note that, if you do not yet have it, in this case it only requires a single interface element, that for the anchor.
+2.  **:Optional:** {{<note>}} You can skip this step if you already created the front\_page interface entity from the previous example, as we will continue to work with it. Note that, if you do not yet have it, in this case it only requires a single interface element, that for the anchor.
 
     In a TestArchitect project, create a [new interface entity](/user-guide/interface-definitions/creating-interface-entities), name it front\_page, and enter the following two mappings:
 
@@ -91,12 +91,13 @@ As before, we can use the **div** element with `id="national_section"` as an anc
 
     Be sure to save it.
 
-3.  Now we're ready to write our test procedure.
-4.  **Optional:** In TestArchitect, if you have not already created the newspaper test module from the previous example, go ahead and do so.
+Now we're ready to write our test procedure.
 
-5.  In the test editor, create a new test case, and \(optionally\) give it a title, such as Use anchor pos with dynamic identifier to allow for looping thru headlines.
+3.  **Optional:** In TestArchitect, if you have not already created the newspaper test module from the previous example, go ahead and do so.
 
-6.  Enter the following action lines for the test case:
+4.  In the test editor, create a new test case, and \(optionally\) give it a title, such as Use anchor pos with dynamic identifier to allow for looping thru headlines.
+
+5.  Enter the following action lines for the test case:
 
     ![](/images/TA_Help/Images/IV_tree_for_anchor_pos.12b.png)
 

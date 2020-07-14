@@ -14,7 +14,7 @@ Device Live Screen extends to mobile apps the functionality of the Interface Vie
 
 To identify mobile app UI controls from the [Interface Viewer](/user-guide/interface-definitions/the-interface-viewer/identifying-interface-elements-and-controls/point-to-identify-mode), carry out the following steps:
 
-1.  Launch Device Live Screen. \([Learn more.](/automation-guide/application-testing/mobile-testing/additional-tasks-and-tools/device-live-screen/)\)
+1.  **Optional:** Launch Device Live Screen. \([Learn more.](/automation-guide/application-testing/mobile-testing/additional-tasks-and-tools/device-live-screen/)\)
 
 2.  Launch the Interface Viewer. \([Learn more.](/user-guide/interface-definitions/the-interface-viewer/starting-the-interface-viewer)\)
 

@@ -44,7 +44,7 @@ When interface entities and elements are not created for given windows or contro
 
     3.  In the second column of the new line, assign the test case an ID ofTC 03\(if not already set to that value\).
 
-    4.  Press Tab to advance to the next column, and provide a description for your test case, such asAdding interface definitions.
+    4.  **Optional:** Press Tab to advance to the next column, and provide a description for your test case, such asAdding interface definitions.
 
 6.  Select an empty cell within test case `TC 03`.
 

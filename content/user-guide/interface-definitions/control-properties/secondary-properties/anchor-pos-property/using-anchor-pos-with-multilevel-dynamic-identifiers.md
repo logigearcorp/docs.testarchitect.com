@@ -100,7 +100,7 @@ This will help us ensure that our new approach works correctly. \(Feel free, by 
 
         {{<remember>}} During this exercise, ensure that the web page for this file is maintained as the active tab in its browser window.
 
-2.  {{<note>}} You can skip this step if you already have the front\_page interface entity from the previous example, as we will continue to work with it.
+2.  **Optional:** {{<note>}} You can skip this step if you already have the front\_page interface entity from the previous example, as we will continue to work with it.
 
     In a TestArchitect project, create a [new interface entity](/user-guide/interface-definitions/creating-interface-entities), name it front\_page, and enter the following two mappings:
 
@@ -108,12 +108,13 @@ This will help us ensure that our new approach works correctly. \(Feel free, by 
 
     Be sure to save it.
 
-3.  Now we're ready to write our test procedure.
-4.  **Optional:** In TestArchitect, if you have not already created the newspaper test module from the previous example, go ahead and do so.
+Now we're ready to write our test procedure.
 
-5.  In the test editor, create a new test case, and \(optionally\) give it a title, such as Use multi-level anchoring to better ensure reliable results.
+3.  **Optional:** In TestArchitect, if you have not already created the newspaper test module from the previous example, go ahead and do so.
 
-6.  Enter the following action lines for the test case:
+4.  In the test editor, create a new test case, and \(optionally\) give it a title, such as Use multi-level anchoring to better ensure reliable results.
+
+5.  Enter the following action lines for the test case:
 
     ![](/images/TA_Help/Images/IV_tree_for_anchor_pos.12c.png)
 
@@ -125,7 +126,7 @@ This will help us ensure that our new approach works correctly. \(Feel free, by 
 
     ![](/images/TA_Help/Images/IV_tree_for_anchor_pos.12d.png)
 
-7.  Now [execute](/user-guide/test-execution/methods-of-test-execution/configuring-and-running-tests-from-testarchitect-client) your test case.
+6.  Now [execute](/user-guide/test-execution/methods-of-test-execution/configuring-and-running-tests-from-testarchitect-client) your test case.
 
     {{<note>}} If your test module now holds the test cases from the previous examples, you might want to restrict execution to just this test case. On the other hand, if they all use different output files, you may want to let all of them run and compare the results.
 
