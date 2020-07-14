@@ -7,7 +7,9 @@ function imageviewer(selector)
 		let imageLink = $(this).attr('src');
 		let imageclass = $(this).attr('class');
 		if(imageclass && imageclass.includes("disable-view")) return;
-		
+		if($(this).width() < 100 && $(this).height() < 100) {
+			return;
+		}
 		if (imageLink === '') return console.warn('[ImageViewer] Invalid link to image');
 
 		$('<div>', {
