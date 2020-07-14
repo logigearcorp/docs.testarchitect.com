@@ -42,9 +42,9 @@ To create a TA-TFS integration project, do the following:
 
         ![](/images/TA_Help/Images/MTM_VS_add_solution.png)
 
-    4.  In **Type a name for the solution folder**, enter a name for the subfolder that will be created for your solution, or leave as default.
+    4.  **Optional:** In **Type a name for the solution folder**, enter a name for the subfolder that will be created for your solution, or leave as default.
 
-    5.  Click **OK**.
+    5.  **Optional:** Click **OK**.
 
     6.  Visual Studio will add the project files to the Team Foundation source control.
 

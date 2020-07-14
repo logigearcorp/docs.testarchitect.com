@@ -32,11 +32,11 @@ How to export your local test results to .TARESULT files.
 
         -   On Windows: Network paths are also supported.
         -   On Linux, macOS: Mounted paths are also supported.
-    4.  To include all captured [screenshots](/user-guide/finding-bugs-with-testarchitect/screenshot-recording/) in the exported test result, select the **Include screenshots** check box.
+    4.  **Optional:** To include all captured [screenshots](/user-guide/finding-bugs-with-testarchitect/screenshot-recording/) in the exported test result, select the **Include screenshots** check box.
 
     5.  **Optional:** To open the parent folder containing the exported test result, select the **Open folder after saving** check box.
 
-    6.  If the exported test result is a master result, meaning, it is a [test suite result](/user-guide/working-with-test-results/overview/#section.TS_results), or it contains [subresults](/user-guide/working-with-test-results/overview/#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into .TARESULT format.
+    6.  **Optional:** If the exported test result is a master result, meaning, it is a [test suite result](/user-guide/working-with-test-results/overview/#section.TS_results), or it contains [subresults](/user-guide/working-with-test-results/overview/#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into .TARESULT format.
 
     7.  In the Export Result\(s\) To File, click **OK**.
 
@@ -73,9 +73,9 @@ How to export your local test results to .TARESULT files.
 
         -   On Windows: Network paths are also supported.
         -   On Linux, macOS: Mounted paths are also supported.
-    6.  To include all captured [screenshots](/user-guide/finding-bugs-with-testarchitect/screenshot-recording/) in the exported test result, select the **Include screenshots** check box.
+    6.  **Optional:** To include all captured [screenshots](/user-guide/finding-bugs-with-testarchitect/screenshot-recording/) in the exported test result, select the **Include screenshots** check box.
 
-    7.  If the exported test result is a master result, meaning, it is a [test suite result](/user-guide/working-with-test-results/overview/#section.TS_results), or it contains [subresults](/user-guide/working-with-test-results/overview/#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into .TARESULT format.
+    7.  **Optional:** If the exported test result is a master result, meaning, it is a [test suite result](/user-guide/working-with-test-results/overview/#section.TS_results), or it contains [subresults](/user-guide/working-with-test-results/overview/#section.Subresults), the **Include all sub test results** check box is available. With this option chosen, the master result and its subresults are all exported into .TARESULT format.
 
     8.  Click **Execute**.
 

@@ -43,20 +43,21 @@ In the following example, we wish to find the presence of a given object \(a Rub
     -   Use the ![](/images/TA_Help/Images/btn_zoom_in.png) and ![](/images/TA_Help/Images/btn_zoom_out.png) buttons to zoom in or out on the baseline image, respectively, to better help you visualize the locations of keypoints.
     -   The **Show picture in gray scale mode** check box is selected by default. By displaying the image without color, the colored keypoints are, again, easier to detect by eye. You may clear the check box if you wish.
     -   The **Min Accuracy \(%\)** box allows you to specify a threshold of similarity between the baseline object defined by the set of active keypoints and any given portion of the test image \(or, at this point, the training image\) that appears to be a match. Any training image region whose accuracy rating is equal to or greater than this threshold is treated as a detected object. The default value is 50.
-3.  It's often the case that you will want to limit the area of the baseline that will be used for finding a match with the captured image, or, more likely, with a portion of the captured image.
-4.  **Optional:** Select a rectangular keypoint region by clicking on a starting point in the baseline image and dragging the mouse pointer while holding the left mouse button.
+
+It's often the case that you will want to limit the area of the baseline that will be used for finding a match with the captured image, or, more likely, with a portion of the captured image.  
+3.  **Optional:** Select a rectangular keypoint region by clicking on a starting point in the baseline image and dragging the mouse pointer while holding the left mouse button.
 
     A red rectangle appears while you drag the mouse pointer to define the selected region.
 
-5.  Release the mouse button when you've established the region you want.
+4.  Release the mouse button when you've established the region you want.
 
     The keypoints in the selected region are highlighted in green, indicating that they are selected.
 
-6.  Click the **Active All** button to enable the selected keypoints.
+5.  Click the **Active All** button to enable the selected keypoints.
 
     TestArchitect highlights the selected keypoints in red to indicate they are in the Active state. The number of active keypoints is displayed in the **Active key points** field.
 
-7.  If you want TestArchitect to recalculate the number of active keypoints, do the following steps:
+6.  **Optional:** If you want TestArchitect to recalculate the number of active keypoints, do the following steps:
 
     1.  Click the **Inactive All** button to reset the **Active key points** and the **Inactive key points** fields.
 
@@ -66,13 +67,13 @@ In the following example, we wish to find the presence of a given object \(a Rub
 
         TestArchitect recalculates the number of active keypoints in the new selected region.
 
-8.  After defining the number of active keypoints within the baseline image, click the **Browse** ![](/images/TA_Help/Images/btn.browse-ellipsis.01.png) button next to the **Select file to test** field to open a training image.
+7.  After defining the number of active keypoints within the baseline image, click the **Browse** ![](/images/TA_Help/Images/btn.browse-ellipsis.01.png) button next to the **Select file to test** field to open a training image.
 
-9.  In the Select dialog box, browse to the appropriate image file, then click the Select button.
+8.  In the Select dialog box, browse to the appropriate image file, then click the Select button.
 
     The selected image is displayed in the Training Image panel.
 
-10. Click the **Match** button to find the closest keypoint matches of the training image with the baseline's active keypoints.
+9. Click the **Match** button to find the closest keypoint matches of the training image with the baseline's active keypoints.
 
     Each matched pair of keypoints is connected through a single line.
 
@@ -88,7 +89,7 @@ In the following example, we wish to find the presence of a given object \(a Rub
 
     4.  Click the **Match** button again to start finding corresponding pairs of keypoints between images.
 
-11. After finding corresponding pairs of keypoints between images, click the **Find Object** button to use these pairs to match the baseline image and the target image.
+10. After finding corresponding pairs of keypoints between images, click the **Find Object** button to use these pairs to match the baseline image and the target image.
 
     The matching process is based on the number of active keypoints and the minimum accuracy percentage, specified in the preceding steps.
 
@@ -96,13 +97,13 @@ In the following example, we wish to find the presence of a given object \(a Rub
 
     ![](/images/TA_Help/Images/Key_Point_Modify_tool_dlg_matched_image.png)
 
-12. Click **OK** .
+11. Click **OK** .
 
     ![](/images/TA_Help/Images/Baseline_tab_after.png)
 
     -   A set of keypoint locations is saved in the Key Point field in the Baseline tab. These are the keypoints that define the baseline object. Each keypoint is defined by its \(x, y\) coordinates.
     -   The value specified in the **Min Accuracy \(%\)** field of the Key Points Modification Tool dialog box is also updated in the **Min Accuracy** field.
-13. Click **Apply** to save the changes.
+12. Click **Apply** to save the changes.
 
 
 You may now use the newly established keypoint-based baseline object within your [picture handling](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/picture-handling/) built-in actions to detect objects in tested images during automated testing. However your test must first set the built-in setting [picture algorithm](/automation-guide/action-based-testing-language/built-in-settings/other-settings/picture-algorithm) to the value key points to activate keypoint detection as the active picture handling technique.

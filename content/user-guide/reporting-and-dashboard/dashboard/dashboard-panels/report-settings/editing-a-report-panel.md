@@ -22,13 +22,13 @@ To edit the properties of a report panel on the Dashboard page:
 
     -   Height: Set the height \(in pixels\) of the panel. Taller panels have higher resolution, producing sharper charts.
     -   Folder: Select a TestArchitect repository folder containing the report data you want displayed in the new panel.
-4.  After adding customized filters to the panel, if you want to save the new filtering expression\(s\) to a new data profile, click **Save as** on the **Filters** tab and enter the name of the data profile on the **Save setting profile as** text box, then click **Save**.
+4.  **Optional:** After adding customized filters to the panel, if you want to save the new filtering expression\(s\) to a new data profile, click **Save as** on the **Filters** tab and enter the name of the data profile on the **Save setting profile as** text box, then click **Save**.
 
     ![](/images/TA_Help/Images/Dashboard_save_setting_profile_as.png)
 
     The Dashboard creates a new data profile based on the profile specified in the **Data Profile** drop-down list \(on the **Display Settings** tab\) with customized filters added. The logged-in user owns the newly created data profile, and this Dashboard panel uses this new profile.
 
-5.  After adding customized filters to the panel, if you want to save the new filtering expression\(s\) to a new data profile, click **Save as** on the **Filters** tab and enter the name of the data profile on the **Save setting profile as** text box, then click **Save**.
+5.  **Optional:** After adding customized filters to the panel, if you want to save the new filtering expression\(s\) to a new data profile, click **Save as** on the **Filters** tab and enter the name of the data profile on the **Save setting profile as** text box, then click **Save**.
 
     ![](/images/TA_Help/Images/Dashboard_save_setting_profile_as.png)
 

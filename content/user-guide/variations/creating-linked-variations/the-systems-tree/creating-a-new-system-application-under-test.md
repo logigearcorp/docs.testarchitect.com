@@ -20,7 +20,7 @@ To create a new system, do the following:
 
     ![](/images/TA_Help/Images/New_system_effect.png)
 
-2.  Give this system a name \(for example, Car Rental\), and then press Enter.
+2.  **Optional:** Give this system a name \(for example, Car Rental\), and then press Enter.
 
 
 ![](/images/TA_Help/Images/New_system_car_rental.png)

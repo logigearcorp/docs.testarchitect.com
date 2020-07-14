@@ -12,7 +12,7 @@ You can start the Dashboard from any browser running on a machine with a network
 
 To start the TestArchitect Dashboard, follow these steps:
 
-1.  If the TestArchitect Utility Server has not been started, carry out the following steps:
+1.  **Optional**: If the TestArchitect Utility Server has not been started, carry out the following steps:
 
     1.  Open the TestArchitect Repository Server - Control Panel by double-clicking on the TestArchitect Repository Server icon on Windows’ notification area.
 
