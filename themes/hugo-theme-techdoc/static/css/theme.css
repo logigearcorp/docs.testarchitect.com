@@ -443,9 +443,11 @@ fieldset {
 }
 
 body {
-  background-color: #fafafa;
+  background-color: #616060;
   margin: 0;
 }
+
+a.headerLink:hover, a.headerLink:active{color: #494949; text-decoration: none; }
 
 h1,
 h2,
