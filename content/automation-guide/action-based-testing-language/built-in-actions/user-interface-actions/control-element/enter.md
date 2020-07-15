@@ -45,7 +45,7 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 This action is applicable to the following controls:combo box, input-datetime, input-email, input-number,input-password, input-search, input-tel, input-text, input-url, password, richtext, search bar, text box, text view,
 
-This action is applicable to the following controls:password, text box.
+
 
 ## Example
 

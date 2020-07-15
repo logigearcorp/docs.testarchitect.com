@@ -50,7 +50,7 @@ This action is applicable to the following controls:check box, combo box, date p
 
 {{<note>}} When getting very long strings from an SAP BW **richtext** control, you may experience perfomance issues.
 
-This action is applicable to the following controls:button, Calendar, check box, combo box, DatePicker, DateTimePicker, Hyperlink, label, progress bar, radio button, text box, toogle button.
+
 
 ## Example
 
