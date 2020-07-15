@@ -84,6 +84,7 @@ a.has-child::before {
     height: 40px;
     padding-bottom: 5px;
     width: 700px;
+    margin-top: 15px;
 }
 .search__label{
   color: black;
@@ -96,6 +97,7 @@ a.has-child::before {
     position: absolute;
     height: 34px;
     margin-right: -6px;
+    top: 60px;
 }
 .search-query{
   color: #337ab7;
@@ -184,6 +186,7 @@ a.has-child::before {
     left: 50%;
     margin-left: -350px;
     margin-top: -52px;
+    z-index: 99999;
 }
 .search-title{
     display: block;
@@ -201,6 +204,7 @@ a.has-child::before {
 
 .search__container_label{
     margin-top: 15px;
+    display: inline-grid;
   }
 @media only screen and (max-width: 800px) {
   .search-baner{
@@ -664,40 +668,20 @@ th,td {
   border-right: 1px solid black;
 }
 
-#fastSearch { 
- 
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  display: inline-block;
-  width: 300px;
-}      
 
-#fastSearch input { 
-  padding: 4px 10px;
-  width: 100%;
-  height: 31px;
-  font-size: 1.6em;
-  color: #aaa;
-  font-weight: bold;
-  background-color: #000;
-  border-radius: 3px 3px 0px 0px;
-  border: none;
-  outline: none;
-  text-align: left;
-  display: inline-block;
-}
 
 #searchResults li { 
   list-style: none; 
   margin-left: 0em;
-  background-color: #333; 
-  border-bottom: 1px dotted #000;
+  background-color: white; 
+  border-bottom: 1px solid rgba(58, 54, 54, 0.2);
 }
   #searchResults li .title { font-size: 1.1em; margin-bottom: 10px; display: inline-block;}
 
-#searchResults { visibility: inherit; display: inline-block; width: 320px; }
-#searchResults a { text-decoration: none !important; padding: 10px; display: inline-block; }
+#searchResults { visibility: inherit;  width: 700px; padding: 0px; border-bottom: 1px solid lightgrey; 
+ max-height: 400px;
+    overflow-y: auto;}
+#searchResults a { text-decoration: none !important; padding: 10px 10px 0px 10px; display: block; color: black;}
   #searchResults a:hover, a:focus { outline: 0; background-color: #666; color: #fff; }
   
 </style>
