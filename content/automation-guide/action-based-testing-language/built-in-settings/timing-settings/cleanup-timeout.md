@@ -8,28 +8,28 @@ aliases:
 keywords: "built-in settings, cleanup timeout, settings, cleanup timeout (settings), cleanup timeout, set timeout, timeout"
 ---
 
-## Description  
+## Description {{< permerlink >}} {#bis_cleanup_timeout__section_i15_jp2_4cb} 
 
 Specify the timeout value, for action to be invoked by [on timeout action](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/error-handling/on-timeout-action).
 
-## Value units  
+## Value units {{< permerlink >}} {#bis_cleanup_timeout__section_j15_jp2_4cb} 
 
 seconds
 
-## Default value  
+## Default value {{< permerlink >}} {#bis_cleanup_timeout__section_k15_jp2_4cb} 
 
 -   **0**
 
     Indicates an infinite timeout period.
 
 
-## Notes  
+## Notes {{< permerlink >}} {#bis_cleanup_timeout__section_m15_jp2_4cb} 
 
 -   Applies to TestArchitect [8.3 Update 4](/user-guide/version-history/features-added-to-testarchitect-8-3-update-4/windows) and higher.
 -   When this setting is not declared or its value is omitted, the value of 0 is used.
 -   When the duration of test case timeout's action handler, invoked by [on timeout action](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/error-handling/on-timeout-action), exceeds the timeout period, the remaining lines of the action handler will stop instantly.
 
-## Example  
+## Example {{< permerlink >}} {#bis_cleanup_timeout__section_rgr_mjf_4cb} 
 
 **Action Lines**
 

@@ -16,7 +16,7 @@ The test editor typically looks something like this:
 
 ![](/images/TA_Help/Images/Test_Editor.png)
 
-## Navigation  
+## Navigation {{< permerlink >}} {#getting_started_the_test_editor__section.intelligent_nav} 
 
 The editor is designed to facilitate the creation of action-based tests, though in many ways it behaves comparably to other spreadsheet applications, such as Microsoft Excel™. You can move the cell pointer with the standard keyboard commands as follows:
 

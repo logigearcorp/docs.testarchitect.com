@@ -12,11 +12,11 @@ keywords: "methods of abt, GetColumnIndex, GetColumnIndex (AbtTable), AbtTable, 
 
 `int GetColumnIndex(string columnName)`
 
-## Description  
+## Description {{< permerlink >}} {#abt_GetColumnIndex_table__section.desc} 
 
 Retrieve the index of the column having the specified name.
 
-## Parameters  
+## Parameters {{< permerlink >}} {#abt_GetColumnIndex_table__section.params} 
 
 -   **columnName**
 

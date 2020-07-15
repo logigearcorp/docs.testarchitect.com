@@ -49,7 +49,7 @@ Return a Boolean value to indicate whether an item, as specified by its displaye
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes  
+## Notes {{< permerlink >}} {#bia_does_picker_view_item_exist__section_tll_j2y_mk} 
 
 -   This built-in action applies only to the iOS operating system.
 -   variable argument:

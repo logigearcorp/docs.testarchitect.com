@@ -31,7 +31,7 @@ Check for the existence of a specified tree node. Result is Passed ifthe node is
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes  
+## Notes {{< permerlink >}} {#bia_check_tree_node_exists__section.notes} 
 
 -   node path argument:
     -   The node path may be specified by its display textor by a numerical index representing its cardinal placement in its branch, with index values starting at 1.

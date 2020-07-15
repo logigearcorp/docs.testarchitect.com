@@ -21,7 +21,7 @@ WebDriver is a tool for automating web application testing executing tests acros
 
 By using WebDriver, you are able to run tests across browsers with minor changes. It saves your time in implementing as well as maintaining test scripts. Besides that, WebDriver is a stand-alone component which is released frequently to support new versions and features of browsers.
 
-## Locating interface elements  
+## Locating interface elements {{< permerlink >}} {#Generic_WebDriver__section_fjn_pzl_cgb} 
 
 -   WebDriver only supports locating interface elements by Selenium-supported properties such as id, name, tagname and xpath. You had better use [POM Builder](https://chrome.google.com/webstore/detail/pombuilder-–-auto-generat/akcejfbfkkjnghlfngighgncolfaghco) or the browser's **inspect** feature to identify web elements instead of the [Interface Viewer](/user-guide/interface-definitions/the-interface-viewer/).
 -   For legacy interface elements that were captured with different from Selenium-supported properties, replace these properties with. It means that you ought to re-capture the interface elements using the Selenium-supported property.

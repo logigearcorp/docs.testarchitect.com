@@ -12,11 +12,11 @@ keywords: "methods of abt, BringIntoView, BringIntoView (AbtElement), AbtElement
 
 `long BringIntoView()`
 
-## Description  
+## Description {{< permerlink >}} {#abt_BringIntoView__section.desc} 
 
 Bring the control into view, within any scrollable region containing it, aligning it at the top of the window.
 
-## Return Value  
+## Return Value {{< permerlink >}} {#abt_BringIntoView__section.return} 
 
 Return 0 ifthe control or HTML element is successfully brought into view; otherwise, -1.
 

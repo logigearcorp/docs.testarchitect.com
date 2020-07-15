@@ -67,7 +67,7 @@ Search a bitmap for a given text string and, if found, return its location.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes  
+## Notes {{< permerlink >}} {#bia_get_text_coordinate__section_lgn_3ht_lk} 
 
 -   This built-in action employs both [Optional Character Recognition](/automation-guide/action-based-testing-language/the-test-language/text-recognition-techniques) \(OCR\) and [Graphics Device Interface](/automation-guide/action-based-testing-language/the-test-language/text-recognition-techniques) \(GDI\) techniques. By default, the action employs OCR technique. To switch to GDI technique, refer to the [character recognition technique](/automation-guide/action-based-testing-language/built-in-settings/other-settings/character-recognition-technique) built-in setting for details.
 

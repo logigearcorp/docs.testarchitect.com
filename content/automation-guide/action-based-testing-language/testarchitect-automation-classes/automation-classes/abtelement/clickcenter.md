@@ -12,11 +12,11 @@ keywords: "methods of abt, clickCenter, clickCenter (AbtElement), AbtElement, cl
 
 `long ClickCenter (TAMouseClickType mouseType)`
 
-## Description  
+## Description {{< permerlink >}} {#abt_ClickCenter_element__section.desc} 
 
 Apply a mouse click to the center point of the control or HTML element represented by the object.
 
-## Parameters  
+## Parameters {{< permerlink >}} {#abt_ClickCenter_element__section.params} 
 
 -   **mouseType**
 
@@ -37,7 +37,7 @@ Apply a mouse click to the center point of the control or HTML element represent
         Double left-click
 
 
-## Return Value  
+## Return Value {{< permerlink >}} {#abt_ClickCenter_element__section.return} 
 
 Return 0 if theclickis successful; otherwise, -1.
 

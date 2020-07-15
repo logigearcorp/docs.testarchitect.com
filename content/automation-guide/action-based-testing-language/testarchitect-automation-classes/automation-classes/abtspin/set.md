@@ -12,18 +12,18 @@ keywords: "methods of abt, Set, Set (AbtSpin), AbtSpin, abtspin set, set value o
 
 `long Set(string value)`
 
-## Description  
+## Description {{< permerlink >}} {#abt_Set_spin__section.desc} 
 
 Set the value of the spin object.
 
-## Parameters  
+## Parameters {{< permerlink >}} {#abt_Set_spin__section.params} 
 
 -   **value**
 
     String value specifying the value to which to set the control.
 
 
-## Return Value  
+## Return Value {{< permerlink >}} {#abt_Set_spin__section.return} 
 
 Return 0 if the call is successful; otherwise, -1..
 

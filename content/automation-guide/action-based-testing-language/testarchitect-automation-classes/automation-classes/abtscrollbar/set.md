@@ -12,11 +12,11 @@ keywords: "methods of abt, Set, Set (AbtScrollBar), AbtScrollBar, abtscrollbar s
 
 `long Set(long position)`
 
-## Description  
+## Description {{< permerlink >}} {#abt_Set_scrollbar__section.desc} 
 
 Set the scroll bar position.
 
-## Parameters  
+## Parameters {{< permerlink >}} {#abt_Set_scrollbar__section.params} 
 
 -   **position**
 

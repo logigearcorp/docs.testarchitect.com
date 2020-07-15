@@ -12,11 +12,11 @@ keywords: "methods of abt, SpinUp, SpinUp (AbtSpin), AbtSpin, spinup, abtspin sp
 
 `long SpinUp()`
 
-## Description  
+## Description {{< permerlink >}} {#abt_SpinUp__section.desc} 
 
 Set the spin object to its next lower value.
 
-## Return Value  
+## Return Value {{< permerlink >}} {#abt_SpinUp__section.return} 
 
 Return 0 if the call is successful; otherwise, -1..
 

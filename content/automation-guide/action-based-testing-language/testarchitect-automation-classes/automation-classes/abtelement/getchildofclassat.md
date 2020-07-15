@@ -12,11 +12,11 @@ keywords: "methods of abt, GetChildOfClassAt, GetChildOfClassAt (AbtElement), Ab
 
 `GetChildOfClassAt(class, index)`
 
-## Description  
+## Description {{< permerlink >}} {#abt_getChildOfClassAt_element__d2225e58} 
 
 Retrieve the child element of the specified class by its index.
 
-## Parameters  
+## Parameters {{< permerlink >}} {#abt_getChildOfClassAt_element__d2225e66} 
 
 -   **class**
 

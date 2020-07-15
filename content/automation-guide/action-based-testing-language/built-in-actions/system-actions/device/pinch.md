@@ -57,7 +57,7 @@ Simulate the placing of two fingers on the device surface, followed by the finge
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms  
+## Applicable Systems/Platforms {{< permerlink >}} {#bia_iOS_pinch__section_hqw_kcl_zcb} 
 
 Use of this action is supported on the following systems/platforms: Mobile operating systems.
 

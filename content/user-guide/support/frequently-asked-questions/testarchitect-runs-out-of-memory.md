@@ -14,7 +14,7 @@ After opening many item tabs in TestArchitect, you may receive a notification me
 
 TestArchitect does not have enough memory to complete the task. Please close unnecessary item tabs, or increase the value of parameter xmx.
 
-## Solution  
+## Solution {{< permerlink >}} {#ref.faq.tshoot.TA.out_of_memory__section_ydk_2nz_vw} 
 
 This issue occurs because of the heap size limitation of the Java Virtual Machine \(JVM\). TestArchitect runs in a JVM. When started, the JVM is allocated a certain amount of memory, which it makes available to TestArchitect. Sometimes, the allocated amount of memory is inadequate for TestArchitect's needs. The solution is to either 1\), reduce TestArchitect's memory requirements, or 2\) increased the available amount of JVM heap memory.
 

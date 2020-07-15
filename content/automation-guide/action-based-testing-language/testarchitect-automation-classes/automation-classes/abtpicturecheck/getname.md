@@ -8,15 +8,15 @@ aliases:
 keywords: "methods of abt, GetName, GetName (AbtPictureCheck), AbtPictureCheck, getname, abtpicturecheck getname, name of current picture check, get name of current picture check"
 ---
 
-## Syntax  
+## Syntax {{< permerlink >}} {#reference_GetName__section.syntax} 
 
 `string GetName()`
 
-## Description  
+## Description {{< permerlink >}} {#reference_GetName__section.desc} 
 
 Retrieve the name of the current picture check.
 
-## Return Value  
+## Return Value {{< permerlink >}} {#reference_GetName__section.return} 
 
 String value indicating the picture check's name. If the call is unsuccessful, returnnull.
 

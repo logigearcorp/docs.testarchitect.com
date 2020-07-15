@@ -37,7 +37,7 @@ Check for the existence of a specified table view cell. Result is Passed ifthe s
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes  
+## Notes {{< permerlink >}} {#bia_check_table_view_cell_exists__section.notes} 
 
 -   This built-in action applies only to the iOS operating system.
 -   index argument: Note that index numbering begins with 1.

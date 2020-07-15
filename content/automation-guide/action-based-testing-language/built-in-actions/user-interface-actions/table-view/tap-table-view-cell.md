@@ -49,7 +49,7 @@ Tap a specified table view cell.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes  
+## Notes {{< permerlink >}} {#bia_tap_table_view_cell__section_tll_j2y_mk} 
 
 -   This built-in action applies only to the iOS operating system.
 -   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/automation-guide/action-based-testing-language/built-in-actions/system-actions/operating-system/get-screen-resolution#li.ios.get_screen_resolution).\)

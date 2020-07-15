@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80018003L"
 
 Error code: 0x80018003L
 
-## Problem  
+## Problem {{< permerlink >}} {#reference_0x80018003L__section_um5_jvb_2y} 
 
 This issue occurs when you make a connection to the target cloud device via the [connect cloud device](/automation-guide/action-based-testing-language/built-in-actions/system-actions/device/connect-cloud-device) built-in action, as specified by its logical name; however, the logical name does not exist.
 
-## Solution  
+## Solution {{< permerlink >}} {#reference_0x80018003L__section_vm5_jvb_2y} 
 
 Ensure that logical name of the target cloud device is specified in the [assign cloud device](/automation-guide/action-based-testing-language/built-in-actions/system-actions/device/assign-cloud-device) built-in action.
 

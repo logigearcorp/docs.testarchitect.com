@@ -16,13 +16,13 @@ keywords: "automation errors, 0x80020011L"
 
 3. Use action click on a element in the website.
 
-## Result:  
+## Result: {{< permerlink >}} {#reference_0x80020011L__section_bhz_shl_lhb} 
 
 **Expected:**Click on a element successfully.
 
 **Observed:**Return error "No matching UI"
 
-## Solution:  
+## Solution: {{< permerlink >}} {#reference_0x80020011L__section_yhg_zhl_lhb} 
 
 To get over this issue you have do two steps:
 

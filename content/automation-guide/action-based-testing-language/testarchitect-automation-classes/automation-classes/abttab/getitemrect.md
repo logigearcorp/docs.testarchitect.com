@@ -12,11 +12,11 @@ keywords: "methods of abt, GetItemRect, GetItemRect (AbtTab), AbtTab, getitemrec
 
 `long GetItemRect(int index, TARect rect)`
 
-## Description  
+## Description {{< permerlink >}} {#abt_GetItemRect_Tab__section.desc} 
 
 Retrieve the bounding rectangle of a specified tab item.
 
-## Parameters  
+## Parameters {{< permerlink >}} {#abt_GetItemRect_Tab__section.params} 
 
 -   **index**
 
@@ -27,7 +27,7 @@ Retrieve the bounding rectangle of a specified tab item.
     Returned [TARect](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abt-object-classes/tarect) object indicating the bounding rectangle of the item.
 
 
-## Return Value  
+## Return Value {{< permerlink >}} {#abt_GetItemRect_Tab__section.return} 
 
 Return 0 if the call is successful; otherwise, -1..
 

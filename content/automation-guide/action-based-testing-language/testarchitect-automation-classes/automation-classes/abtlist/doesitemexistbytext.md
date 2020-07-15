@@ -12,18 +12,18 @@ keywords: "methods of abt, DoesItemExistByText, DoesItemExistByText (AbtList), A
 
 `Boolean DoesItemExistByText(string text)`
 
-## Description  
+## Description {{< permerlink >}} {#abt_DoesItemExistByText_list__section.desc} 
 
 Determine whether an item with specified text exists in the list control.
 
-## Parameters  
+## Parameters {{< permerlink >}} {#abt_DoesItemExistByText_list__section.params} 
 
 -   **text**
 
     String value specifying the text content ofitem to find.
 
 
-## Return Value  
+## Return Value {{< permerlink >}} {#abt_DoesItemExistByText_list__section.return} 
 
 Return TRUE ifitem exists; otherwise, FALSE.
 

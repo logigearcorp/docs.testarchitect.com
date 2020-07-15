@@ -126,7 +126,7 @@ Action Lines
 
 {{<note>}} We've omitted the positional arguments of left, top, width and height from the check picture action line, meaning that the active area of the picture check corresponds to the entire **car image** control.
 
-## Verifying the picture  
+## Verifying the picture {{< permerlink >}} {#bia_check_picture__section_z53_zwj_vq} 
 
 Note that the check picture action line in the test assumes that we already have a picture check with a name of chevrolet in existence. In this case, we don't – at least not yet. But [as mentioned](#li.note.picture_check_dlgs.two_types), when a check picture execution runs up against a nonexistent picture check, the result is a suppressed warning and creation of an unverified picture check. And since the built-in setting verify picture has been set to yes, the unverified picture check prompts a Picture Check – New Picture dialog box to appear upon completion of the test:
 

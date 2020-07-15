@@ -39,7 +39,7 @@ Retrieve both the header and footer text of a section of a table view control.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes  
+## Notes {{< permerlink >}} {#bia_get_table_view_section__section_tll_j2y_mk} 
 
 -   This built-in action applies only to the iOS operating system.
 -   index argument: Note that index numbering begins with 1.

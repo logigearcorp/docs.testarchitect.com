@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be the same version.
 
-## TestArchitect Client  
+## TestArchitect Client {{< permerlink >}} {#concept_what_new_8.3_Linux_update_3__section_ir4_mm3_b1b} 
 
 New features
 
@@ -35,7 +35,7 @@ Enhancements to existing features
 -   Editing [Source ID**](/user-guide/projects-and-project-items/project-items/list-view/test-case-list-view/changing-source-id)**. A Source ID that is the ID of a test case in an external tool \([Quality Center](/user-guide/integration-with-third-party-tools/hp-quality-center/), [Team Foundation Server](/user-guide/integration-with-third-party-tools/tfs-integration/) or [Zephyr](/user-guide/integration-with-third-party-tools/zephyr-integration/)\) and is used for mapping purpose now can be modified quickly in a test case list view.
 -   **[Generating batch file to run on separate terminals](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/preferences#li.xterm)**: Activating this option forces your batch files to run on multiple terminals in a parallel manner.
 
-## TestArchitect Automation  
+## TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.3_Linux_update_3__section_p2c_51b_cs} 
 
 New features
 

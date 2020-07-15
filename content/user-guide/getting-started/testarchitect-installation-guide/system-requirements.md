@@ -10,7 +10,7 @@ keywords: "system requirements, getting started"
 
 Recommended hardware and software requirements for installation of TestArchitect.
 
-## Recommended system requirements  
+## Recommended system requirements {{< permerlink >}} {#concept_tyr_vjt_mh__section_ujq_hk5_mh} 
 
 ||||
 |------|------|------|

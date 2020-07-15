@@ -12,18 +12,18 @@ keywords: "methods of abt, SelectColumn, SelectColumn (AbtTable), AbtTable, sele
 
 `long SelectColumn(int columnIndex)`
 
-## Description  
+## Description {{< permerlink >}} {#abt_SelectColumn_table__section.desc} 
 
 Select a column in the table control based on its column index.
 
-## Parameters  
+## Parameters {{< permerlink >}} {#abt_SelectColumn_table__section.params} 
 
 -   **columnIndex**
 
     Integer value specifying the index of the column within thetable control. Note that index numbering begins with 1.
 
 
-## Return Value  
+## Return Value {{< permerlink >}} {#abt_SelectColumn_table__section.return} 
 
 Return 0 if the call is successful; otherwise, -1..
 

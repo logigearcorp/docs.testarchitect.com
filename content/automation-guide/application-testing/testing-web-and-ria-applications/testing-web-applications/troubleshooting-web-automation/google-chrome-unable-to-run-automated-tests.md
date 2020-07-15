@@ -16,7 +16,7 @@ Chrome was not configured in the correct manner. Please refer to web testing sec
 
 Note that improper configuration of Chrome results in automation playback being unable to properly match web controls. Hence, for example, a [check control exists](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/control-element/check-control-exists) action would produce a Failed result despite the existence of the target control.
 
-## Solution  
+## Solution {{< permerlink >}} {#ref.faq.tshoot.chrome.automation_not_run__section.Sol} 
 
 You can resolve this issue in one of two ways:
 

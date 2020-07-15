@@ -8,11 +8,11 @@ aliases:
 keywords: "methods of abt, CheckOut, CheckOut (AbtDataSet), AbtDataSet, checkout, abtdataset checkout, check out data set from repository, check out data set"
 ---
 
-## Syntax  
+## Syntax {{< permerlink >}} {#abt_CheckOut_dataset__section.syntax} 
 
 `integer CheckOut()`
 
-## Description  
+## Description {{< permerlink >}} {#abt_CheckOut_dataset__section.desc} 
 
 Check out a data set.
 

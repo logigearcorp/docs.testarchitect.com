@@ -51,7 +51,7 @@ Enhancements to existing features
         -   TestCase interface:
             -   getURL\(\): Gets the value of the **URL** field in the current test case.
 
-## TestArchitect Automation  
+## TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.1_U4_Wins__section_p2c_51b_cs} 
 
 -   [hold key](/automation-guide/action-based-testing-language/built-in-actions/system-actions/keyboard/hold-key) built-in action: Hold specified keyboard key\(s\) down.
 -   [release key](/automation-guide/action-based-testing-language/built-in-actions/system-actions/keyboard/release-key) built-in action: Release the specified key\(s\) that were previously held down using the [hold key](/automation-guide/action-based-testing-language/built-in-actions/system-actions/keyboard/hold-key) built-in action.

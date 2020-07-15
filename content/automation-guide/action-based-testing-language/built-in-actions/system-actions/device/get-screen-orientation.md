@@ -27,7 +27,7 @@ Return the current orientation of the mobile device.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms  
+## Applicable Systems/Platforms {{< permerlink >}} {#bia_get_screen_orientation__section_jft_bcl_zcb} 
 
 Use of this action is supported on the following systems/platforms: iOS.
 

@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
 
-## TestArchitect Client  
+## TestArchitect Client {{< permerlink >}} {#concept_what_new_8.3_macOS_update_2__section_nhy_mm3_b1b} 
 
 New features
 
@@ -52,7 +52,7 @@ Enhancements to existing features
             -   Flat structure: TestArchitect does not create subdirectories. There is only a single top-level directory which contains all HTML results.
         -   Create output folders on-the-fly: TestArchitect automatically creates a folder to store HTML files if the specified folder does not exist.
 
-## TestArchitect Automation  
+## TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.3_macOS_update_2__section_p2c_51b_cs} 
 
 New features
 

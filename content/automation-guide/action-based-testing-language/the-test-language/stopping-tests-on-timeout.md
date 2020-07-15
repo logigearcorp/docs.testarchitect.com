@@ -24,11 +24,11 @@ Setting time limits for test cases has the following effects:
 
 {{<note>}} In TA-TFS integration, Not Finished can be mapped to various TFS test statuses. \([Learn more](/user-guide/integration-with-third-party-tools/tfs-integration/on-premises-tfs-environment-configuration/running-tests-under-on-premises-tfs/uploading-testarchitect-test-results/mapping-results-between-ta-and-tfs).\)
 
-## Definitions of a test case timeout  
+## Definitions of a test case timeout {{< permerlink >}} {#concept_ldh_xxt_mcb__section_abk_5my_ncb} 
 
 A test case timeout occurs during runtime when run duration, accumulated from the beginning of a test case, exceeds a specific timeout. Run duration is calculated by accumulating total time spent on automated test activities. Non-automated test activities, such as, compiling tests, licensing checking or collecting results, etc. are not included.
 
-## Specifying a test case timeout period  
+## Specifying a test case timeout period {{< permerlink >}} {#concept_ldh_xxt_mcb__section_wzm_wmy_ncb} 
 
 The [test case timeout](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/test-case-timeout) built-in setting is used to set timeout period for individual test cases.
 
@@ -42,7 +42,7 @@ This built-in setting can be configured
 -   in a batch file via [Startup Settings](/user-guide/test-execution/startup-settings/creating-a-startup-setting-for-a-built-in-setting), or
 -   in a test module during runtime
 
-## Scope of the test case timeout's built-in setting  
+## Scope of the test case timeout's built-in setting {{< permerlink >}} {#concept_ldh_xxt_mcb__section_pdj_fzs_4cb} 
 
 The [test case timeout](/automation-guide/action-based-testing-language/built-in-settings/timing-settings/test-case-timeout) setting, just like other built-in settings, once declared within a single test run, remains present throughout the execution of master test modules and subtest modules within the test run. If test case timeout is called twice in the master test module or the subtest modules, the second invocation merely assigns a new value to the existing timeout period.
 
@@ -116,7 +116,7 @@ For example:
     ![](/images/TA_Automation/Images/bis_test_case_timeout_parallel_pgm.png)
 
 
-## Handling a test case timeout event  
+## Handling a test case timeout event {{< permerlink >}} {#concept_ldh_xxt_mcb__section_xbd_1ny_ncb} 
 
 If you do not handle the event when the test case timeout occurs, TestArchitect moves to the subsequent test case; otherwise, you can provide TestArchitect with specific instructions as what to do when the timeout occurs.
 

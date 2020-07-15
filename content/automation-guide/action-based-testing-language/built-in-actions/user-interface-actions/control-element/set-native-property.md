@@ -35,7 +35,7 @@ Set a new value for a specified native property of a control.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms  
+## Applicable Systems/Platforms {{< permerlink >}} {#bia_set_native_property__section_zrb_vmd_zbb} 
 
 This built-in action is supported on the following systems/platforms:
 

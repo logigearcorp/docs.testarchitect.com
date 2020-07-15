@@ -14,7 +14,7 @@ This topic describes the changes made in TestArchitect version 7.2 update 1.
 
 It is strongly recommended that you back up all repositories before upgrading to the latest version of TestArchitect.
 
-## TestArchitect Client  
+## TestArchitect Client {{< permerlink >}} {#concept_what_new_7.2_U1__section_jqm_z13_nh} 
 
 Enhancements to existing features:
 

@@ -8,7 +8,7 @@ aliases:
 keywords: "automation errors, using start-up setting for configure cleanup key"
 ---
 
-## Workflow:  
+## Workflow: {{< permerlink >}} {#reference_0x80020012L__section_hbk_tk4_c3b} 
 
 Step 1: Create a new **user-defined** setting named **var** in the**Startup Settings** tab of the **Execution** dialog.
 

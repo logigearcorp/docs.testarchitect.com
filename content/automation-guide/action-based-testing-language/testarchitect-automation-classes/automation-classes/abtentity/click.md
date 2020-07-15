@@ -12,11 +12,11 @@ keywords: "methods of abt, Click, Click (AbtEntity), AbtEntity, click, abtentity
 
 `long Click(int x, int y, TAMouseClickType mouseType)`
 
-## Description  
+## Description {{< permerlink >}} {#abt_Click_entity__section.desc} 
 
 Apply a mouse click to thewindow.
 
-## Parameters  
+## Parameters {{< permerlink >}} {#abt_Click_entity__section.params} 
 
 -   **x**
 

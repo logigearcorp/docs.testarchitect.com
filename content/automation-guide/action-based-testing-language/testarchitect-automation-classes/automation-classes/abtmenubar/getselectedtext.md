@@ -12,11 +12,11 @@ keywords: "methods of abt, GetSelectedText, GetSelectedText (AbtMenuBar), AbtMen
 
 `string GetSelectedText()`
 
-## Description  
+## Description {{< permerlink >}} {#abt_GetSelectedText_menubar__d956e54} 
 
 Retrieve the text content ofthe currently selected item in the object.
 
-## Return Value  
+## Return Value {{< permerlink >}} {#abt_GetSelectedText_menubar__d956e60} 
 
 String value indicating the text content ofthe selected item.
 

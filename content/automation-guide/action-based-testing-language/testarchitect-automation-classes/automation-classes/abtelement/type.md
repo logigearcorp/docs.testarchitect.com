@@ -12,7 +12,7 @@ keywords: "methods of abt, Type, Type (AbtElement), AbtElement, type, abtelement
 
 `long Type(string text)`
 
-## Description  
+## Description {{< permerlink >}} {#abt_Type_element__section.desc} 
 
 Type the specified string into the element.
 
@@ -23,7 +23,7 @@ Type the specified string into the element.
     String value specifying the text content to be typed.
 
 
-## Return Value  
+## Return Value {{< permerlink >}} {#abt_Type_element__section.return} 
 
 Return 0 if the call is successful; otherwise, -1.
 

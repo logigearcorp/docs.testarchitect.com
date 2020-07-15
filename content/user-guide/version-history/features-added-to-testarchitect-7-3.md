@@ -15,7 +15,7 @@ This topic describes the changes made in TestArchitect version 7.3.
 -   It is strongly recommended that you back up all repositories before upgrading to the latest version of TestArchitect.
 -   A TestArchitect client and any Repository Server to which it connects must be of the same version.
 
-## TestArchitect Client  
+## TestArchitect Client {{< permerlink >}} {#concept_what_new_7.3__section_jqm_z13_nh} 
 
 -   [Favorite items](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/favorite-items/): Keep track of frequently-visited items \(test modules, data sets, actions, etc.\) by storing them as favorites in TestArchitect.
 -   [Opening recently used items](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/opening-recently-used-items): Conveniently open recently used items, such as test modules, data sets, actions, test suites, etc.

@@ -8,11 +8,11 @@ aliases:
 keywords: "Java heap space, Out of memory"
 ---
 
-## Cause  
+## Cause {{< permerlink >}} {#faq.java_heap_space_outofmemory__section_rr4_scp_mgb} 
 
 You attempts to export a huge repository using the TestArchitect command line tool. This error is thrown when there is insufficient space to allocate an object in the Java heap. \([Learn more](https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/memleaks002.html)\)
 
-## Solution  
+## Solution {{< permerlink >}} {#faq.java_heap_space_outofmemory__section_r5k_3dp_mgb} 
 
 Increase java heap size by setting the TA\_SHELL\_HEAP\_SIZE variable in the command line console, and run the export command again.
 

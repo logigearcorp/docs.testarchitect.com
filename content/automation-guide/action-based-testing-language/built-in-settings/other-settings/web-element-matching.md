@@ -35,7 +35,7 @@ javascript
 
 -   This built-in setting only affects the stage of UI web element matching including window, control, and item matching.
 
-## Example  
+## Example {{< permerlink >}} {#bis_web_element_matching__section_qfv_fbs_x1b} 
 
 Under mobile cloud test environment conditions, the test duration which includes various UI web element matching actions might vary. You might try switching between JavaScript snippets and WebDriver API techniques to see if the test duration would be shorter.
 

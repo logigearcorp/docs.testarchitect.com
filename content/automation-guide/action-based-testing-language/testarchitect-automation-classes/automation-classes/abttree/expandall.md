@@ -12,7 +12,7 @@ keywords: "methods of abt, ExpandAll, ExpandAll (AbtTree), AbtTree, expandall, a
 
 `long ExpandAll()`
 
-## Description  
+## Description {{< permerlink >}} {#abt_ExpandAll__section.desc} 
 
 Display all the nodes of the TreeView control.
 

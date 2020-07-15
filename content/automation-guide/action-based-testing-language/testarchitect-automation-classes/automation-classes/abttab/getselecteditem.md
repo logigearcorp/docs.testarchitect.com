@@ -12,7 +12,7 @@ keywords: "methods of abt, GetSelectedItem, GetSelectedItem (AbtTab), AbtTab, ge
 
 `string GetSelectedItem()`
 
-## Description  
+## Description {{< permerlink >}} {#abt_GetSelectedItem__section.desc} 
 
 Retrieve the text content ofthe selected tab.
 

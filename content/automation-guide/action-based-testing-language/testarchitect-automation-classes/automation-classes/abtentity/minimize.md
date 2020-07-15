@@ -12,11 +12,11 @@ keywords: "methods of abt, Minimize, Minimize (AbtEntity), AbtEntity, minimize, 
 
 `long Minimize()`
 
-## Description  
+## Description {{< permerlink >}} {#abt_Minimize__section.desc} 
 
 Minimize the window.
 
-## Return Value  
+## Return Value {{< permerlink >}} {#abt_Minimize__section.return} 
 
 Return 0 if the call is successful \(as reported back by the operating system\); otherwise, -1.
 

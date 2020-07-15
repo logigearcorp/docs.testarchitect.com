@@ -8,15 +8,15 @@ aliases:
 keywords: "methods of abt, GetTextBackgroundColor, GetTextBackgroundColor (AbtElement), AbtElement, gettextbackgroundcolor, abtelement gettextbackgroundelement, hexadecimal color code of text background in control, background color of text in HTML element, text background color in element"
 ---
 
-## Syntax  
+## Syntax {{< permerlink >}} {#abt_GetTextBackgroundColor_AbtElement__section.syntax} 
 
 `string GetTextBackgroundColor (string drawfunction, string text, int index)`
 
-## Description  
+## Description {{< permerlink >}} {#abt_GetTextBackgroundColor_AbtElement__section.desc} 
 
 Retrieve color code of the text background residing in a given control, in hexadecimal.
 
-## Parameters  
+## Parameters {{< permerlink >}} {#abt_GetTextBackgroundColor_AbtElement__section.params} 
 
 -   **drawfunction**
 
@@ -43,7 +43,7 @@ Retrieve color code of the text background residing in a given control, in hexad
     Specifies a minimum number of instances of the search text that must be discovered within the active area for the target [bitmap text fragment](/user-guide/support/glossary-of-terms/bitmap-text-fragment) to be considered as found \(default = 1\).
 
 
-## Return Value  
+## Return Value {{< permerlink >}} {#abt_GetTextBackgroundColor_AbtElement__section.return} 
 
 A hexadecimal value indicating color code of the text background.
 

@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80010D06L"
 
 Error code: 0x80010D06L
 
-## Problem  
+## Problem {{< permerlink >}} {#reference_0x80010D06L__section_um5_jvb_2y} 
 
 This happens because the value of the picture argument is omitted.
 
-## Solution  
+## Solution {{< permerlink >}} {#reference_0x80010D06L__section_vm5_jvb_2y} 
 
 Since picture is a required argument, fill in a value for the argument, and then re-run the test.
 

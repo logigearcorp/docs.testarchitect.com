@@ -12,11 +12,11 @@ keywords: "methods of abt, SetValueByColIndex, SetValueByColIndex (AbtDataRow), 
 
 `int SetValueByColIndex(int index, String value)`
 
-## Description  
+## Description {{< permerlink >}} {#reference_ofn_z1w_gq__section.desc} 
 
 Set the value for a cell in the data set row; ; the cell is specified by its column index.
 
-## Parameters  
+## Parameters {{< permerlink >}} {#reference_ofn_z1w_gq__section.params} 
 
 -   **index**
 

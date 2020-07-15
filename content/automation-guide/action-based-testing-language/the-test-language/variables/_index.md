@@ -38,7 +38,7 @@ In all the above cases, the scope of a given local variable or action argument m
 
 -   Within any given section of a test module or its subordinate actions, when two or more variables of the same name might, individually, have visibility, it is the variable with the most localized scope that is visible at any given point. That is, if test module A has declared local variable x, then calls action B, which also declares local variable x, two instantiations of x exist; action B works with its own copy of x, which disappears after control is returned to test module A.
 
-## Scope Binding  
+## Scope Binding {{< permerlink >}} {#the_test_language_variables__section.variables} 
 
 TestArchitect supports both dynamic scoping and lexical scoping of local variables and arguments. In both types, the above rules for the scope of local variables and arguments still apply. Where they differ is in the applicability of scope to called actions.
 

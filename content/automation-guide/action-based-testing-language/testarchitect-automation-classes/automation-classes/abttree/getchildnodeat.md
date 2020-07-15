@@ -12,11 +12,11 @@ keywords: "methods of abt, GetChildNodeAt, GetChildNodeAt (AbtTree), AbtTree, ge
 
 `string GetChildNodeAt(string parentPath, int index)`
 
-## Description  
+## Description {{< permerlink >}} {#abt_GetChildNodeAt__section.desc} 
 
 Return the child node path of a tree node at a specified index.
 
-## Parameters  
+## Parameters {{< permerlink >}} {#abt_GetChildNodeAt__section.params} 
 
 -   **parentPath**
 

@@ -33,7 +33,7 @@ Check for the existence of a menu item of a button drop-down. Result is Passed i
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes  
+## Notes {{< permerlink >}} {#bia_check_button_menu_exists__section.notes} 
 
 -   item argument:
     -   Menu items are identified by their caption properties.

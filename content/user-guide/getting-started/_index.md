@@ -20,7 +20,7 @@ For detailed instructions, please follow the below links.
 -   [Linux](/user-guide/getting-started/testarchitect-installation-guide/linux)
 -   [macOS](/user-guide/getting-started/testarchitect-installation-guide/macos)
 
-## Licensing in TestArchitect  
+## Licensing in TestArchitect {{< permerlink >}} {#getting_started__section_licensing_TA} 
 
 TestArchitect is sold on a node-locked or floating license basis. You must license your copy of TestArchitect before you can use it.
 

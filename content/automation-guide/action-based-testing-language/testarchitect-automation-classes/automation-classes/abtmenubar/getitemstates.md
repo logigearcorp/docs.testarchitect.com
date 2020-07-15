@@ -12,18 +12,18 @@ keywords: "methods of abt, GetItemStates, GetItemStates (AbtMenuBar), AbtMenuBar
 
 `TAItemState GetItemStates(string itemPath)`
 
-## Description  
+## Description {{< permerlink >}} {#abt_GetItemState__section.desc} 
 
 Retrieve the current state\(s\) of a menu item in the menu bar.
 
-## Parameters  
+## Parameters {{< permerlink >}} {#abt_GetItemState__section.params} 
 
 -   **itemPath**
 
     String specifying the path to the menu item. \(Use arrow symbols \( -\> \) as delimiters between menu items.\)
 
 
-## Return Value  
+## Return Value {{< permerlink >}} {#abt_GetItemState__section.return} 
 
 TAItemState object specifying a comma-delimited list of all of the current states of the item. Possible listed values are:
 

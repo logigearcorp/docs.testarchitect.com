@@ -12,7 +12,7 @@ keywords: "methods of abt, WaitForProperty, WaitForProperty (AbtElement), AbtEle
 
 `Boolean WaitForProperty(string propertyName, string propertyValue, long timeOut)`
 
-## Description  
+## Description {{< permerlink >}} {#abt_WaitForProperty_element__section.desc} 
 
 Wait until the given control property achieves the specified value or exceeds the specified timeout before continuing to the next action.
 

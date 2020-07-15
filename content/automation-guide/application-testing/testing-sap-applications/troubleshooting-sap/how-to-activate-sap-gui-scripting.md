@@ -10,13 +10,13 @@ keywords: "SAP, GUI Scripting activated"
 
 To steer the SAP application SAP GUI Scripting must be activated.
 
-## Situation  
+## Situation {{< permerlink >}} {#concept_afk_5kt_jdb__section_tns_mmg_2kb} 
 
 Scripting needs to be enabled both on the **server** and the corresponding **client** to be able to steer SAP applications.
 
-## Solution  
+## Solution {{< permerlink >}} {#concept_afk_5kt_jdb__section_gqb_rmg_2kb} 
 
-## ACTIVATING SCRIPTING ON THE SERVER  
+## ACTIVATING SCRIPTING ON THE SERVER {{< permerlink >}} {#concept_afk_5kt_jdb__section_m11_mtg_2kb} 
 
 You have to activate scripting on the server to steer SAP applications via the SAP scripting interface.
 
@@ -32,7 +32,7 @@ If one of the following parameters is available, it must have the value **FALSE*
 -   sapgui/user\_scripting\_set\_readonly
 -   sapgui/nwbc\_scripting
 
-## Procedure  
+## Procedure {{< permerlink >}} {#concept_afk_5kt_jdb__section_fhl_lng_2kb} 
 
 1. Open transaction **RZ11** in the system.
 
@@ -46,7 +46,7 @@ If one of the following parameters is available, it must have the value **FALSE*
 
 5. Repeat the previous steps for all available parameters mentioned above.
 
-## ACTIVATING SCRIPTING ON THE CLIENT  
+## ACTIVATING SCRIPTING ON THE CLIENT {{< permerlink >}} {#concept_afk_5kt_jdb__section_wlw_ktg_2kb} 
 
 You have to activate scripting on the client to steer SAP applications via the SAP scripting interface.
 
@@ -56,7 +56,7 @@ You have to activate scripting on the client to steer SAP applications via the S
 
 ![](/images/TA_Automation/Images/sap_config_client_2.png)
 
-## ACTIVATING MODAL DIALOG BOXES ON THE CLIENT  
+## ACTIVATING MODAL DIALOG BOXES ON THE CLIENT {{< permerlink >}} {#concept_afk_5kt_jdb__section_oqy_hwg_2kb} 
 
 You have to activate modal dialog boxes on the client to steer SAP applications.
 

@@ -35,7 +35,7 @@ Retrieve the index of a table view section identified by its header text.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes  
+## Notes {{< permerlink >}} {#bia_get_table_view_section_containing__section_tll_j2y_mk} 
 
 -   This built-in action applies only to the iOS operating system.
 -   variable argument:

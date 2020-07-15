@@ -39,7 +39,7 @@ Retrieve the displayed text content of an item in a component of a picker view c
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes  
+## Notes {{< permerlink >}} {#bia_get_picker_view_item_by_index__section_tll_j2y_mk} 
 
 -   This built-in action applies only to the iOS operating system.
 -   variable argument:

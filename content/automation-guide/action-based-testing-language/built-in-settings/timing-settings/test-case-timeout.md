@@ -8,22 +8,22 @@ aliases:
 keywords: "built-in settings, test case timeout, settings, test case timeout (settings), test case timeout, specify timeout for individual test cases, set timeout for individual test cases, time limit for running test case, maximum time limit for test case execution"
 ---
 
-## Description  
+## Description {{< permerlink >}} {#bis_test_case_timeout__section_i15_jp2_4cb} 
 
 Specify the timeout value for an individual test case.
 
-## Value units  
+## Value units {{< permerlink >}} {#bis_test_case_timeout__section_j15_jp2_4cb} 
 
 seconds
 
-## Default value  
+## Default value {{< permerlink >}} {#bis_test_case_timeout__section_k15_jp2_4cb} 
 
 -   **0**
 
     Indicates an infinite timeout period.
 
 
-## Notes  
+## Notes {{< permerlink >}} {#bis_test_case_timeout__section_m15_jp2_4cb} 
 
 -   Applies to TestArchitect [8.3 Update 4](/user-guide/version-history/features-added-to-testarchitect-8-3-update-4/windows) and higher.
 -   When this setting is not declared or its value is omitted, the value of 0 is used.

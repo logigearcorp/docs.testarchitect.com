@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
 
-## TestArchitect Automation  
+## TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.1_U4_Linux__section_p2c_51b_cs} 
 
 -   [wait for control not exists](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/timing/wait-for-control-not-exists) built-in action: Wait \(up until some specified time limit\) for a given control to disappear before executing the next test line.
 

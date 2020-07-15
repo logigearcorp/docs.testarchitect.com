@@ -12,18 +12,18 @@ keywords: "methods of abt, SelectItemByIndex, SelectItemByIndex (AbtComboBox), A
 
 `long SelectItemByIndex(int index)`
 
-## Description  
+## Description {{< permerlink >}} {#abt_SelectItemByIndex__section.desc} 
 
 Select a list item from the combo box by its index.
 
-## Parameters  
+## Parameters {{< permerlink >}} {#abt_SelectItemByIndex__section.params} 
 
 -   **index**
 
     Integer value specifying the index of the item within thecombo box. Note that index numbering begins with 1.
 
 
-## Return Value  
+## Return Value {{< permerlink >}} {#abt_SelectItemByIndex__section.return} 
 
 Return 0 if the call is successful; otherwise, -1.
 

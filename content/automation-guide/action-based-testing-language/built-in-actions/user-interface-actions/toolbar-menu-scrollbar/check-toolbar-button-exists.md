@@ -31,7 +31,7 @@ Check for the existence of a button on a toolbar. Result is Passed ifthe specifi
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes  
+## Notes {{< permerlink >}} {#bia_check_toolbar_button_exists__section.notes} 
 
 -   button argument:
     -   The buttonmay be specified by either of two means:the caption text, or its numerical index. \(Indexes are one-based; that is, numbering begins at 1.\)

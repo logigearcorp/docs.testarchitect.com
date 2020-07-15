@@ -42,7 +42,7 @@ Note that there is no guarantee that a TA label property of a given control will
 
 ![](/images/TA_Help/Images/label_duplication.png)
 
-## Label-finding procedure  
+## Label-finding procedure {{< permerlink >}} {#Interface_def.label_property__section.full_algorithm} 
 
 During a [window intake](/user-guide/interface-definitions/control-properties/intake) process, the following label-finding process is applied to each label-accepting control in the window. The logical hierarchy of the controls is followed to determine the order in which each label-accepting control is examined.
 

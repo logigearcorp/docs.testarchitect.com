@@ -27,7 +27,7 @@ Submit the form to which the given HTML control belongs.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes  
+## Notes {{< permerlink >}} {#bia_submit_form__section.notes} 
 
 -   Once you have finished filling out a form running on a mobile device, you probably want to submit it. One way to do this would be to find the **Submit** button and click it. However, some sites lack that button, requiring instead that a user press the **Submit** button on a virtual keyboard. To resolve this issue, TestArchitect offers this submit form action. When directed at any HTML control within a given form, TestArchitect finds the enclosing form and then directly calls the submit function with it.
 -   Note that, should the HTML element referenced by the control argument not be enclosed within a <form\> element, an automation error is reported.

@@ -23,7 +23,7 @@ Check for the existence of a specified file. Result is Passed ifthe file is foun
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes  
+## Notes {{< permerlink >}} {#bia_check_file_exists__section.notes} 
 
 -   Observe the following format for the file path:
     -   Windows platform: Use backward slashes as separators for the path.

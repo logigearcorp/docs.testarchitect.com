@@ -43,7 +43,7 @@ Simulate a long press operation, and then perform a drag-and-drop to a specified
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms  
+## Applicable Systems/Platforms {{< permerlink >}} {#bia_drag__section_c3z_5bl_zcb} 
 
 Use of this action is supported on the following systems/platforms: Mobile operating systems.
 

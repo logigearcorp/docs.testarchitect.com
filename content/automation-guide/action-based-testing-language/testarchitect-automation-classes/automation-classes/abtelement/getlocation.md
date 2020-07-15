@@ -12,7 +12,7 @@ keywords: "methods of abt, GetLocation, GetLocation (AbtElement), AbtElement, ge
 
 `TARect GetLocation()`
 
-## Description  
+## Description {{< permerlink >}} {#abt_GetLocation__section.desc} 
 
 Retrieve the bounding rectangle of the element object.
 

@@ -8,15 +8,15 @@ aliases:
 keywords: "methods of abt, GetTextBackgroundColor, GetTextBackgroundColor (AbtEntity), AbtEntity, gettextbackgroundcolor, abtentity gettextbackgroundcolor, color code of text background in window, get backcolor of text in window, hexadecimal color code of text background in window"
 ---
 
-## Syntax  
+## Syntax {{< permerlink >}} {#abt_GetTextBackgroundColor_AbtEntity__section.syntax} 
 
 `string GetTextBackgroundColor (string drawfunction, string text, int index)`
 
-## Description  
+## Description {{< permerlink >}} {#abt_GetTextBackgroundColor_AbtEntity__section.desc} 
 
 Retrieve color code of the text background residing in a given window, in hexadecimal.
 
-## Parameters  
+## Parameters {{< permerlink >}} {#abt_GetTextBackgroundColor_AbtEntity__section.params} 
 
 -   **drawfunction**
 
@@ -43,11 +43,11 @@ Retrieve color code of the text background residing in a given window, in hexade
     Specifies a minimum number of instances of the search text that must be discovered within the active area for the target [bitmap text fragment](/user-guide/support/glossary-of-terms/bitmap-text-fragment) to be considered as found \(default = 1\).
 
 
-## Return Value  
+## Return Value {{< permerlink >}} {#abt_GetTextBackgroundColor_AbtEntity__section.return} 
 
 A hexadecimal value indicating color code of the text background.
 
-## Notes  
+## Notes {{< permerlink >}} {#abt_GetTextBackgroundColor_AbtEntity__section.note} 
 
 -   This method is currently supported only by the C\# harness.
 -   This method always employs the [Graphics Device Interface](/automation-guide/action-based-testing-language/the-test-language/text-recognition-techniques) \(GDI\) technique to recognize text produced by an AUT.

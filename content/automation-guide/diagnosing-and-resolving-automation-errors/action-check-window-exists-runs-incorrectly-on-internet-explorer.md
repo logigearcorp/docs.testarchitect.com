@@ -8,7 +8,7 @@ aliases:
 keywords: "automation errors, Action check window exists runs incorrectly on Internet Explorer"
 ---
 
-## Scenario:  
+## Scenario: {{< permerlink >}} {#reference_0x80020012L__section_hbk_tk4_c3b} 
 
 1. Create a **Test Module**
 
@@ -22,11 +22,11 @@ keywords: "automation errors, Action check window exists runs incorrectly on Int
 
 6. Execute **Test Module**
 
-## Result:  
+## Result: {{< permerlink >}} {#reference_0x80020012L__section_em1_mr4_c3b} 
 
 Action **check window exists** returns failed
 
-## Solution:  
+## Solution: {{< permerlink >}} {#reference_0x80020012L__section_nzz_nr4_c3b} 
 
 1. Open your Internet Options
 

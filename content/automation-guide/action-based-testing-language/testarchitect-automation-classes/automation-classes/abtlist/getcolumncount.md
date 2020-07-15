@@ -12,7 +12,7 @@ keywords: "methods of abt, GetColumnCount, GetColumnCount (AbtList), AbtList, ge
 
 `int GetColumnCount()`
 
-## Description  
+## Description {{< permerlink >}} {#abt_GetColumnCount_list__section.desc} 
 
 Retrieve the number of columns in the object.
 

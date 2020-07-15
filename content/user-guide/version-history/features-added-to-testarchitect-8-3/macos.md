@@ -38,7 +38,7 @@ Enhancements to existing features
     -   [Importing external image sources](/user-guide/projects-and-project-items/project-items/picture-checks/importing-external-image-sources/): TestArchitect now lets you easily import image files \(i.e. .PNG\) format\) for new picture checks or additional new baseline images.
     -   **[Resolving unverified picture checks](/user-guide/projects-and-project-items/project-items/picture-checks/resolving-unverified-picture-checks)**: You are now able to upload unverified picture checks to the repository, and then resolve those unverified picture checks.
 
-## TestArchitect Automation  
+## TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.3_macOS__section_p2c_51b_cs} 
 
 New features
 

@@ -12,11 +12,11 @@ keywords: "methods of abt, AddColumn, AddColumn (AbtDataSet), AbtDataSet, addcol
 
 `int AddColumn(String colName)`
 
-## Description  
+## Description {{< permerlink >}} {#reference_kxc_cbw_gq__section.desc} 
 
 Add a new column to the data set object.
 
-## Parameters  
+## Parameters {{< permerlink >}} {#reference_kxc_cbw_gq__section.params} 
 
 -   **colName**
 

@@ -23,7 +23,7 @@ Retrieve the messages of one or more recent confirmation, prompt, or alert popup
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes  
+## Notes {{< permerlink >}} {#bia_get_popup_message__section.notes} 
 
 -   Prior to using this built-in action, it is recommended that you become familiar with the different kinds of modal JavaScript popups and how to handle them properly.
     -   For Safari
@@ -61,7 +61,7 @@ Result
 
 ![](/images/TA_Automation/Images/bia_get_popup_message_single_popup_res.png)
 
-## Example - Case 2: A sequence of multiple popups  
+## Example - Case 2: A sequence of multiple popups {{< permerlink >}} {#bia_get_popup_message__section.ex02} 
 
 Scenario: You are testing a shopping cart page with a button, Delete this item, for removing an item from your cart:
 

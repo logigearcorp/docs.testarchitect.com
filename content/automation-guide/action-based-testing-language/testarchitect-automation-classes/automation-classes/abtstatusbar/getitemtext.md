@@ -12,11 +12,11 @@ keywords: "methods of abt, GetItemText, GetItemText (AbtStatusBar), AbtStatusBar
 
 `string GetItemText(int index)`
 
-## Description  
+## Description {{< permerlink >}} {#abt_GetItemText_statusbar__section.desc} 
 
 Retrieve the text content ofthe item specified by its index within thestatus bar.
 
-## Parameters  
+## Parameters {{< permerlink >}} {#abt_GetItemText_statusbar__section.params} 
 
 -   **index**
 

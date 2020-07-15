@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be the same version.
 
-## TestArchitect Client  
+## TestArchitect Client {{< permerlink >}} {#concept_what_new_8.4__section.TAC} 
 
 New features
 
@@ -35,7 +35,7 @@ Zephyr 6.2 is fully supported. The import and upload processes from/to Zephyr ex
 -   Scan project for existing tests option - helps eliminate test duplication on Zephyr by not only examining the existing test in the target test folder but also in the whole project.
 -   Create folder corresponding to test module option - creates a test folder in Zephyr corresponding to each TA test module.
 
-## TestArchitect Automation  
+## TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.4__section.Auto} 
 
 New features
 

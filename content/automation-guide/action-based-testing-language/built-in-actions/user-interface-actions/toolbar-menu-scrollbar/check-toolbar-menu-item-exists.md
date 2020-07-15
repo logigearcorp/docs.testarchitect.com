@@ -35,7 +35,7 @@ Check for the existence of an item on a drop-down menu hosted by a toolbar butto
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes  
+## Notes {{< permerlink >}} {#bia_check_toolbar_menu_item_exists__section.notes} 
 
 -   item argument:
     -   Menu items are identified by their caption properties.

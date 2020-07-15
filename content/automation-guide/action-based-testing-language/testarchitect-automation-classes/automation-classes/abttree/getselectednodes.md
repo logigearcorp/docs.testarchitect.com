@@ -12,7 +12,7 @@ keywords: "methods of abt, GetSelectedNodes, GetSelectedNodes (AbtTree), AbtTree
 
 `string[] GetSelectedNodes()`
 
-## Description  
+## Description {{< permerlink >}} {#abt_GetSelectedNodes__section.desc} 
 
 Retrieve the text content of each of the selected nodes in the TreeView control.
 

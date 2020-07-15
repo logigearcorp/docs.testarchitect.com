@@ -12,11 +12,11 @@ keywords: "methods of abt, SelectCell, SelectCell (AbtTable), AbtTable, selectce
 
 `long selectCell(int rowIndex, int columnIndex)`
 
-## Description  
+## Description {{< permerlink >}} {#abt_SelectCell__section.desc} 
 
 Select the specified cell of the table.
 
-## Parameters  
+## Parameters {{< permerlink >}} {#abt_SelectCell__section.params} 
 
 -   **rowIndex**
 
@@ -27,7 +27,7 @@ Select the specified cell of the table.
     Integer value specifying column indexof cell.Note that index numbering begins with 1.
 
 
-## Return Value  
+## Return Value {{< permerlink >}} {#abt_SelectCell__section.return} 
 
 Return 0 if the call is successful; otherwise, -1..
 

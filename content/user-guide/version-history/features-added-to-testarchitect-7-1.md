@@ -19,7 +19,7 @@ This topic describes the changes made in TestArchitect version 7.1.
 
 The License Server model has been restructured. Currently, TestArchitect is available in three different editions \(Professional, Mobile Plus and Enterprise\). These three editions are tailored to the needs and sizes of specific teams, as well as their development plans.
 
-## TestArchitect Client and Repository Server  
+## TestArchitect Client and Repository Server {{< permerlink >}} {#concept_what_new_7.1__section_jqm_z13_nh} 
 
 -   [Name change propagation](/user-guide/projects-and-project-items/project-items/name-change-propagation): Entities such as arguments, actions, test modules, interfaces, interface entities, interface elements, and data sets can be renamed. Renaming an entity automatically updates all applicable action lines, test modules, and action definitions where the entity name appears.
 -   **Just-in time compilation \(JIT\)**: improves the runtime performance of TestArchitect during test execution.
@@ -48,7 +48,7 @@ Enhancements to existing features:
     -   [Car Rental – Mobile](/user-guide/getting-started/sample-repository/car-rental-mobile/) project replaces the Car Rental application on the Android platform to illustrate automation testing on all mobile platforms including Android and iOS.
     -   Current Web sample Project Manager Selection is replaced by [Scrum Board](/user-guide/getting-started/sample-repository/scrum-board/) to provide a better illustration of Web application automation.
 
-## TestArchitect Automation  
+## TestArchitect Automation {{< permerlink >}} {#concept_what_new_7.1__section_j3v_4b3_nh} 
 
 -   Mobile platforms:
     -   [iOS automation platform](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/ios-automation/) is now supported:

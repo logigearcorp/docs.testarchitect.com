@@ -14,7 +14,7 @@ This topic describes the changes made in TestArchitect version 7.2.
 
 It is strongly recommended that you back up all repositories before upgrading to the latest version of TestArchitect.
 
-## TestArchitect Client  
+## TestArchitect Client {{< permerlink >}} {#concept_what_new_7.2__section_jqm_z13_nh} 
 
 -   [Multiple device execution](/user-guide/test-execution/methods-of-test-execution/multiple-device-execution/): An automated test can be run on multiple devices attached to a local machine and/or remote machines.
 -   [Device management in the Lab Manager](/user-guide/lab-manager/managing-automation-lab/device-status): Adding or removing controllers/devices, and terminating tests running on controllers/devices can be directly managed in the TestArchitect Lab Manager.

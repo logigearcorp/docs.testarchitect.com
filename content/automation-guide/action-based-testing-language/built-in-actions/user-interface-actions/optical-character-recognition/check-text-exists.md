@@ -12,7 +12,7 @@ keywords: "built-in actions, check text exists, check text exists (action), iOS 
 
 Check for the existence of a given [bitmap text fragment](/user-guide/support/glossary-of-terms/bitmap-text-fragment) within a specified area of a bitmap. Result is Passed ifthe text is found; otherwise Failed.
 
-## Arguments  
+## Arguments {{< permerlink >}} {#bia_check_text_exists__section_ict_qgt_lk} 
 
 -   **window**
 
@@ -57,7 +57,7 @@ Check for the existence of a given [bitmap text fragment](/user-guide/support/gl
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes  
+## Notes {{< permerlink >}} {#bia_check_text_exists__section.notes} 
 
 -   This built-in action employs both [Optional Character Recognition](/automation-guide/action-based-testing-language/the-test-language/text-recognition-techniques) \(OCR\) and [Graphics Device Interface](/automation-guide/action-based-testing-language/the-test-language/text-recognition-techniques) \(GDI\) techniques. By default, the action employs OCR technique. To switch to GDI technique, refer to the [character recognition technique](/automation-guide/action-based-testing-language/built-in-settings/other-settings/character-recognition-technique) built-in setting for details.
 

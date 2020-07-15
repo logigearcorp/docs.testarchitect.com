@@ -17,7 +17,7 @@ This subsection contains two exercises that demonstrate how to create user-scrip
 -   Windows
 -   Linux
 
-## Supported Python version  
+## Supported Python version {{< permerlink >}} {#Tutorial_Scripting_actions_in_other_languages_Python__section_drd_ps2_gkb} 
 
 -   Python 2
 -   Python 3

@@ -95,7 +95,7 @@ Parentheses can be used to modify the order of operations in an expression. For 
 
 {{<note>}} For the full list of operator precedence, see [here](/automation-guide/action-based-testing-language/the-test-language/operator-precedence).
 
-## Automatic conversion of data types  
+## Automatic conversion of data types {{< permerlink >}} {#the_test_language_expressions__section.data_type_conversion} 
 
 In general, numeric operations and functions are performed on numbers, variables holding numbers, and functions that return numbers. Similarly, string operations and functions operate on string literals, variables holding strings, and functions that return strings.
 
@@ -118,7 +118,7 @@ results in an output of: We rented 65 cars this month, with revenue of $7234.38.
 
 By contrast, converting strings into numeric values is not always a sure thing. For automatic conversion to take place, the string must “look like” a number to TestArchitect. Looking like a number means that it must consist of only the characters 0-9, plus zero or one decimal points, plus an optional minus \(-\) sign preceding it. If an automatic string-to-number conversion is attempted on a value that does not meet TestArchitect's criteria, an error is reported in the results.
 
-## Editing expressions  
+## Editing expressions {{< permerlink >}} {#the_test_language_expressions__section.autocomplete_variables} 
 
 During an editing session, entering the *\#* symbol in an empty argument cell triggers an autocomplete pop-up window containing a list of variables thought to be within scope at that position in the action lines. Use the Up and Down arrow keys to select one, should you need it inserted at that point. You can bring back the pop-up list at any further point in the expression by pressing Ctrl + Space.
 

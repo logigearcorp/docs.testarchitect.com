@@ -23,7 +23,7 @@ Logically connect to a physical mobile device or an emulator and make that devic
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms  
+## Applicable Systems/Platforms {{< permerlink >}} {#bia_use_device__section_l1l_pcl_zcb} 
 
 Use of this action is supported on the following systems/platforms: Mobile operating systems.
 

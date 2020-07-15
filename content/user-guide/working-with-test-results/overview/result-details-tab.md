@@ -46,7 +46,7 @@ Click ![](/images/TA_Help/Images/Test_results_expand_detail.png) to expand and v
     ![](/images/TA_Help/Images/Result_startup_settings.png)
 
 
-## Additional functions  
+## Additional functions {{< permerlink >}} {#Test_result_details__section_ixc_hk4_5x} 
 
 The **Result Details** tab also provide additional functions, such as, turning on the execution time reporting for all action lines, number of displayed action lines per page, collapsing/expanding all action lines, etc.
 

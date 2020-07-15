@@ -10,7 +10,7 @@ keywords:
 
 Upon startup, the Interface Viewer takes inventory of every open window in the system on which it is pointed, and displays each one as a node in its **UI Explorer** tree. During this system intake process, the Viewer keeps an eye out for an open window to which the active interface entity \(if any\) is mapped. \(That is, a window whose property-value pairs match those specified by the interface entity setting action\(s\) of the interface entity.\) If the matching window is found, its node in the tree is highlighted and partially expanded.
 
-## View modes  
+## View modes {{< permerlink >}} {#concept_myj_pmw_gt__section.View_mode} 
 
 Two views are available for this panel: Class View and Hierarchy View.
 
@@ -23,7 +23,7 @@ Class View groups GUI controls and elements by their TA classes, displaying the 
 
 Hierarchy View, by contrast, displays the container relationships between objects \(windows, panels, controls, elements, etc.\), also in tree form. As such, there is no restriction on the number of levels that can exist in subtrees in this view. Unmapped nodes consist of a TA class name in boldface, followed by the value of a property that the Interface Viewer has chosen as a suitable identifier. Mapped nodes also include the TA name in uppercase.
 
-## Desktop mode and Device mode  
+## Desktop mode and Device mode {{< permerlink >}} {#concept_myj_pmw_gt__section.device_desktop_mode} 
 
 Desktop mode gives you the access to the GUI environment of AUTs running on your desktop.
 

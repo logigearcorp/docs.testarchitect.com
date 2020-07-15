@@ -12,11 +12,11 @@ keywords: "methods of abt, GetTAClass, GetTAClass (AbtElement), AbtElement, gett
 
 `string GetTAClass()`
 
-## Description  
+## Description {{< permerlink >}} {#abt_GetTAClass__section.desc} 
 
 Retrieve the TA class of this control.
 
-## Return Value  
+## Return Value {{< permerlink >}} {#abt_GetTAClass__section.return} 
 
 A string value indicating the TA class of the control or HTML element.
 

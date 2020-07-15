@@ -12,7 +12,7 @@ keywords: "built-in actions, export baseline picture, export baseline picture (a
 
 Save the current baseline image to a file.
 
-## Arguments  
+## Arguments {{< permerlink >}} {#bia_export_baseline_picture__section_nkl_1zk_vw} 
 
 -   **picture**
 
@@ -36,7 +36,7 @@ Save the current baseline image to a file.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes  
+## Notes {{< permerlink >}} {#bia_export_baseline_picture__section.notes} 
 
 -   The baseline image is saved as .png.
 -   picture argument: Identifies the name of a regular or shared picture check \([learn more](/user-guide/projects-and-project-items/project-items/picture-checks/)\), with the forward slash \(/\) as the path separator.

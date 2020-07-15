@@ -15,7 +15,7 @@ This topic describes the changes made in TestArchitect version 8.
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
 
-## TestArchitect Client  
+## TestArchitect Client {{< permerlink >}} {#concept_what_new_8__section_jqm_z13_nh} 
 
 -   [Leverage the power of JIRA](/user-guide/integration-with-third-party-tools/jira-integration/): JIRA, a popular defect tracking system, can now be integrated with TestArchitect, allowing you and your team to more easily log and track the progress of JIRA bug issues by associating them with TestArchitect bugs. The following capabilities are offered:
     -   [Attaching HTML test results to a JIRA bug](/user-guide/integration-with-third-party-tools/jira-integration/features-jira-integration/working-with-jira-attachments/attaching-html-test-results-to-a-jira-bug): Attach both local and repository-based test results, in HTML format, to a JIRA bug.

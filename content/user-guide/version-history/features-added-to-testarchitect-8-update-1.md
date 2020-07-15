@@ -15,7 +15,7 @@ This topic describes the changes made in TestArchitect version 8 update 1.
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
 
-## TestArchitect Automation  
+## TestArchitect Automation {{< permerlink >}} {#concept_what_new_8_U1__section_jqm_z13_nh} 
 
 -   Automation support for the following controls in Microsoft .NET 4.0:
 

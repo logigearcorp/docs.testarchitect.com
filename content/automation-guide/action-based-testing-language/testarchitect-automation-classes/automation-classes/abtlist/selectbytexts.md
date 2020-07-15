@@ -12,18 +12,18 @@ keywords: "methods of abt, SelectByTexts, SelectByTexts (AbtList), AbtList, sele
 
 `long SelectByTexts (string[] items)`
 
-## Description  
+## Description {{< permerlink >}} {#abt_SelectByTexts_list__section.desc} 
 
 Select multiple items in the list control, based on their respective text contents.
 
-## Parameters  
+## Parameters {{< permerlink >}} {#abt_SelectByTexts_list__section.params} 
 
 -   **items**
 
     Array of strings, each element specifying the text content of an item in the list control.
 
 
-## Return Value  
+## Return Value {{< permerlink >}} {#abt_SelectByTexts_list__section.return} 
 
 Return 0 if the call is successful; otherwise, -1..
 

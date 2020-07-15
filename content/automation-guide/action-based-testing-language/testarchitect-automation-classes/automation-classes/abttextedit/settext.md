@@ -12,18 +12,18 @@ keywords: "methods of abt, SetText, SetText (AbtTextEdit), AbtTextEdit, settext,
 
 `long SetText(string text)`
 
-## Description  
+## Description {{< permerlink >}} {#abt_SetText__section.desc} 
 
 Set the contents of a text control to the specified text data.
 
-## Parameters  
+## Parameters {{< permerlink >}} {#abt_SetText__section.params} 
 
 -   **text**
 
     String value specifying the text to be entered into the text box.
 
 
-## Return Value  
+## Return Value {{< permerlink >}} {#abt_SetText__section.return} 
 
 Return 0 if the call is successful; otherwise, -1..
 

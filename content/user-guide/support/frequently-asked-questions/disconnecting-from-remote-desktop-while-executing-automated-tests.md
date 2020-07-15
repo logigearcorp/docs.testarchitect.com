@@ -10,11 +10,11 @@ keywords: "Troubleshooting, disconnecting from Remote Desktop, Remote Desktop, d
 
 Explains how to restore a remote desktop session to the local console of the remote computer while you are executing automated tests on the remote computer.
 
-## Problem  
+## Problem {{< permerlink >}} {#reference_nqf_gby_gbb__section_qqh_hby_gbb} 
 
 When using Remote Desktop to connect to a remote computer, terminating Remote Desktop locks out the remote computer, displaying the logon screen. In the locked mode, TestArchitect is unable to continue to interact with the AUT's GUI, so any currently running automated tests might fail.
 
-## Solution  
+## Solution {{< permerlink >}} {#reference_nqf_gby_gbb__section_ccb_3by_gbb} 
 
 To avoid this problem, use the [tscon](https://technet.microsoft.com/en-us/library/cc770988(v=ws.10).aspx) command to disconnect from Remote Desktop. tscon returns the control to the original local session on the remote computer, overcoming the logon screen. All programs on the remote computer continue running normally, including your running automated tests.
 

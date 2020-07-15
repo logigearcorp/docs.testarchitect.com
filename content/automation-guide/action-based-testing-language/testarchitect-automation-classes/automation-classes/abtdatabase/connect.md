@@ -12,18 +12,18 @@ keywords: "methods of abt, Connect, Connect (AbtDatabase), AbtDatabase, connect,
 
 `int Connect(string connectionString)`
 
-## Description  
+## Description {{< permerlink >}} {#abt_Connect__section.desc} 
 
 Open a connection to a database.
 
-## Parameters  
+## Parameters {{< permerlink >}} {#abt_Connect__section.params} 
 
 -   **connectionString**
 
     ODBC database connection string.
 
 
-## Return Value  
+## Return Value {{< permerlink >}} {#abt_Connect__section.return} 
 
 Return 0 if theconnectionis successful; otherwise, -1.
 

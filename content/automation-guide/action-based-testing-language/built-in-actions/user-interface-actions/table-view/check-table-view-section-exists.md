@@ -31,7 +31,7 @@ Check for the existence of a table view section as identified by its header text
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes  
+## Notes {{< permerlink >}} {#bia_check_table_view_section_exists__section_tll_j2y_mk} 
 
 -   This built-in action applies only to the iOS operating system.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.

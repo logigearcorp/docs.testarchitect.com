@@ -23,7 +23,7 @@ Enhancements to existing features
 
 -   [**Support for Visual Studio 2015 Update 1**](/user-guide/integration-with-third-party-tools/tfs-integration/supported-versions): TestArchitect now supports integration with Visual Studio 2015 Update 1, and both the on-premise and cloud-based forms of Team Foundation Server 2015 Update 1.
 
-## TestArchitect Automation  
+## TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.1_U4_Wins__section_p2c_51b_cs} 
 
 -   Support for Windows 10: You can now perform the following types of automated testing with a Windows 10-based test controller:
     -   Automate classic desktop applications.

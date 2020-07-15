@@ -12,11 +12,11 @@ keywords: "methods of abt, GetChildOfClassAt, GetChildOfClassAt (AbtEntity), Abt
 
 `GetChildOfClassAt(class, index)`
 
-## Description  
+## Description {{< permerlink >}} {#abt_getChildOfClassAt_entity__section.desc} 
 
 Retrieve the child element of the specified class by its index.
 
-## Parameters  
+## Parameters {{< permerlink >}} {#abt_getChildOfClassAt_entity__section.params} 
 
 -   **class**
 

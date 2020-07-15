@@ -12,18 +12,18 @@ keywords: "methods of abt, ScrollItemIntoViewByText, ScrollItemIntoViewByText (A
 
 `long ScrollItemIntoViewByText(string text)`
 
-## Description  
+## Description {{< permerlink >}} {#abt_ScrollItemIntoViewByText_combobox__section.desc} 
 
 Scroll an item, as specified by its text content, into view. If the combo box list is not currently open, align the item to the top of the viewport.
 
-## Parameters  
+## Parameters {{< permerlink >}} {#abt_ScrollItemIntoViewByText_combobox__section.params} 
 
 -   **text**
 
     String value specifying the text content ofthe item.
 
 
-## Return Value  
+## Return Value {{< permerlink >}} {#abt_ScrollItemIntoViewByText_combobox__section.return} 
 
 Return 0 if the call is successful; otherwise, -1..
 

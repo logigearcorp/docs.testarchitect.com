@@ -12,11 +12,11 @@ keywords: "methods of abt, ClickEx, ClickEx (AbtElement), AbtElement, press butt
 
 `long ClickEx(int x, int y, mouseType)`
 
-## Description  
+## Description {{< permerlink >}} {#abt_ClickEx__section.desc} 
 
 Apply a context-based mouse click simulation to the control.
 
-## Parameters  
+## Parameters {{< permerlink >}} {#abt_ClickEx__section.params} 
 
 -   **x**
 
@@ -45,7 +45,7 @@ Apply a context-based mouse click simulation to the control.
         Double left-click
 
 
-## Return Value  
+## Return Value {{< permerlink >}} {#abt_ClickEx__section.return} 
 
 Return 0 if theclickis successful; otherwise, -1.
 

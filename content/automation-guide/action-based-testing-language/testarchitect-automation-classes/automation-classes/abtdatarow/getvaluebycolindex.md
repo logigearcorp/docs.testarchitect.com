@@ -12,11 +12,11 @@ keywords: "methods of abt, GetValueByColIndex, GetValueByColIndex (AbtDataRow), 
 
 `String GetValueByColIndex(int index)`
 
-## Description  
+## Description {{< permerlink >}} {#reference_igx_x1w_gq__section.desc} 
 
 Retrieve contents of a cell in the data set row; the cell is specified by its column index.
 
-## Parameters  
+## Parameters {{< permerlink >}} {#reference_igx_x1w_gq__section.params} 
 
 -   **index**
 

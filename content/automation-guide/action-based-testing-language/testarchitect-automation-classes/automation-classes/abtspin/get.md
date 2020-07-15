@@ -12,7 +12,7 @@ keywords: "methods of abt, Get, Get (AbtSpin), AbtSpin, abtspin get, value of sp
 
 `string Get()`
 
-## Description  
+## Description {{< permerlink >}} {#abt_Get_spin__section.desc} 
 
 Retrieve the current value of the spin object.
 

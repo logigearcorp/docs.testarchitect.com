@@ -12,7 +12,7 @@ A bug in TestArchitect is a failure in an automation run which impairs or preven
 
 {{<tip>}} For more details on how to work with TA bugs and integrate them with the JIRA bug tracking system, see [JIRA integration](/user-guide/integration-with-third-party-tools/jira-integration/)
 
-## Workflow  
+## Workflow {{< permerlink >}} {#concept_xpn_tbc_1m__ksec_tabugs_workflow} 
 
 A TestArchitect bug workflow is the set of stages that a TA bug goes through during its life cycle. The following diagram depicts the workflow:
 
@@ -36,7 +36,7 @@ Registered bugs are bug records created in TestArchitect and associated with a b
 
 On the other hand, unregistered bugs are created in TestArchitect but not associated with a bug on any external bug tracking system. Refer to [Creating unregistered TA bugs](/user-guide/projects-and-project-items/project-items/testarchitect-bugs/creating-unregistered-ta-bugs).
 
-## Bug information  
+## Bug information {{< permerlink >}} {#concept_xpn_tbc_1m__section_rkf_vtw_mn} 
 
 Detailed information regarding a TA bug \(that is, registered or unregistered\) is listed in two tabs of information. One is the **Information** tab which contains general information on the bug. The other is the **Related Items** tab, which lists those test modules which expose, or "catch", the bug.
 

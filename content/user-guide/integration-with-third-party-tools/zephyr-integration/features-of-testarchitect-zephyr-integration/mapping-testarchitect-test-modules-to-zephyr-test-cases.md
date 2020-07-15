@@ -19,7 +19,7 @@ Ensure that you have already taken the following steps:
 -   [Registered the Zephyr server with TestArchitect](/user-guide/integration-with-third-party-tools/zephyr-integration/configuring-integration-with-zephyr/setting-up-the-connection-with-zephyr/registering-the-zephyr-server).
 -   [Mapped the TestArchitect project containing the test cases of interest to a Zephyr project](/user-guide/integration-with-third-party-tools/zephyr-integration/configuring-integration-with-zephyr/setting-up-the-connection-with-zephyr/mapping-a-testarchitect-project-to-a-zephyr-project).
 
-## Via Test module list view  
+## Via Test module list view {{< permerlink >}} {#Zephyr_mapping_TM__section_o1p_szl_jgb} 
 
 1.  In the TestArchitect explorer tree, double-click the test node that contains the test module to be mapped.
 2.  On the **Test Modules** tab, double-click the preferred source ID in the **Source** column.
@@ -28,7 +28,7 @@ Ensure that you have already taken the following steps:
 
 3.  Type/change the source ID. Press Enter.
 
-## Via the Source field on the Information tab  
+## Via the Source field on the Information tab {{< permerlink >}} {#Zephyr_mapping_TM__section_el4_ccm_jgb} 
 
 1.  Open the test module to be mapped.
 2.  On the **Information** tab, type/change the source ID in the **Source** field. Click the **Apply** button.

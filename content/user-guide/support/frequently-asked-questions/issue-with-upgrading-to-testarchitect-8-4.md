@@ -8,7 +8,7 @@ aliases:
 keywords: "Issue with, upgrading to TestArchitect 8.4, TestArchitect 84. upgrade, issue"
 ---
 
-## Problem  
+## Problem {{< permerlink >}} {#faq.ta8.4_upgrade_issue__section_ddt_c4x_k2b} 
 
 As I am upgrading TestArchitect from version 8.3 to 8.4, the error - COMAutomation.dll failed to register - occurs. My TestArchitect 8.3 was previously from TestArchitect 8.1.
 

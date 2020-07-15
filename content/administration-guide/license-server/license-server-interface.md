@@ -86,7 +86,7 @@ The information is presented in the form of a tree structure, with nodes grouped
     |[8.3 Update 4](/user-guide/version-history/features-added-to-testarchitect-8-3-update-4/) or earlier|[8.3.4](/administration-guide/license-server/version-history/features-added-to-testarchitect-license-server-8-3-4/) or earlier|Unsupported|
 
 
-## Toolbar  
+## Toolbar {{< permerlink >}} {#TA_License_server_interface__section_ms4t_ue8i} 
 
 ![](/images/TA_Administration/Images/licenseserver_8_1.png)
 
@@ -105,7 +105,7 @@ The information is presented in the form of a tree structure, with nodes grouped
 10. [Open license log folder](/administration-guide/license-server/license-log-file/): Open the folder containing log files that track license requests submitted to the license server.
 11. View license server help: View help topics related to the TestArchitect license server.
 
-## Status bar  
+## Status bar {{< permerlink >}} {#TA_License_server_interface__section_h77q_oh8k} 
 
 The status bar consists of two lines of information. The lower line reports the current state of the license server \(started or stopped\), the name and IP Address of the machine hosting the server, and the port number on which the server listens for license requests. If this machine is part of a primary server / redundant server configuration, the upper line reports the IP address and port number of the related server, and indicates its role \(primary or redundant\).
 

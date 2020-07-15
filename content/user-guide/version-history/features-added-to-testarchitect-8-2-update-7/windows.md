@@ -44,7 +44,7 @@ Enhancements to existing features
     -   Result interface:
         -   getTestModule\(\): Retrieve the test module belonging to the current test result.
 
-## TestArchitect Automation  
+## TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.1_U4_Wins__section_p2c_51b_cs} 
 
 -   [**Microsoft Edge beta support**](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/#li.Edge): This release of TestArchitect introduces support for automated testing of web applications in Microsoft Edge.
 

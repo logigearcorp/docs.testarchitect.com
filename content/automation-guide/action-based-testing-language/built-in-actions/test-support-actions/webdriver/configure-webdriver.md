@@ -8,7 +8,7 @@ aliases:
 keywords: "built-in actions, configure webdriver, configure webdriver (action), configure webdriver"
 ---
 
-## Description  
+## Description {{< permerlink >}} {#reference_vk2_yzk_zdb__section_ofx_fbl_zdb} 
 
 Set up an advanced test environment where you are going to run tests with WebDriver. \(Learn more about [Webdriver](https://www.w3.org/TR/webdriver/)\)
 
@@ -18,14 +18,14 @@ Set up an advanced test environment where you are going to run tests with WebDri
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Arguments  
+## Arguments {{< permerlink >}} {#reference_vk2_yzk_zdb__section_uqp_4bl_zdb} 
 
 -   **values**
 
     Set of keys and values, in JSON format, sent by the client to describe the capabilities that a new session created by the server should possess
 
 
-## Example  
+## Example {{< permerlink >}} {#reference_vk2_yzk_zdb__section_zt3_12l_zdb} 
 
 Suppose that we 'd like to launch Chrome in headless and webdriver mode. The desired capabilities should resemble the following:
 
