@@ -119,7 +119,7 @@ Effect
 
 Suppose that you'd like to test a given API of the GlobalWeather web service to get all major cities by a specific country name.
 
--   API under test: [GetCitiesByCountry](  `http://www.webservicex.com/globalweather.asmx`?op=GetCitiesByCountry)
+-   API under test: `{{<link title="GetCitiesByCountry" link="http://www.webservicex.com/globalweather.asmx?op=GetCitiesByCountry">}}`
 -   URI: [  `http://www.webservicex.com/globalweather.asmx`](  `http://www.webservicex.com/globalweather.asmx`)
 
 -   Header fields:

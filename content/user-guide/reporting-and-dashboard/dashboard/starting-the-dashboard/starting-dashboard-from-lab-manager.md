@@ -28,7 +28,7 @@ To start a TestArchitect Dashboard instance from Lab Manager, follow these steps
 
     3.  If the **Start** button in the TestArchitect Utility Server Information dialog box is enabled, click it.
 
-2.  [**Optional:** Start the Lab Manager](/user-guide/lab-manager/starting-lab-manager/) if it is not already running.
+2.  **Optional:** [Start the Lab Manager](/user-guide/lab-manager/starting-lab-manager/) if it is not already running.
 
 3.  In the Lab Manager ribbon menu, click **Dashboard**.
 

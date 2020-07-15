@@ -56,7 +56,7 @@ This action may be used within the following project items:test modules and user
 
 This action is applicable to the following controls:list view
 
-This action is applicable to the following controls:list box
+
 
 ## Applicable Built-In Settings
 

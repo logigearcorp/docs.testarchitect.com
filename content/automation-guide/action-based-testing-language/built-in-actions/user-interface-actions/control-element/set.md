@@ -65,7 +65,7 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 This action is applicable to the following controls:check box, date picker, input-checkbox, input-color, input-date, input-datetime, input-datetime-local, input-email, input-month, input-number, input-password, input-radio, input-range, input-search, input-text, input-tel, input-time, input-url, input-week, radio button, rating bar, search bar, slider, switch, text box, text view, calendar.
 
-This action is applicable to the following controls:Calender, check box, DatePicker, DateTimePicker, radio button.
+
 
 ## Notes
 

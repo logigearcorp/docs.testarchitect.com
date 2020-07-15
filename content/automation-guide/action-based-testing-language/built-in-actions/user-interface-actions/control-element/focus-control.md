@@ -39,7 +39,7 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 This action is applicable to the following controls:button, check box, checklist, combo box, datetime, link, list box, menu, password, radio button, richtext, separator, spin, tab control, table, text box, toggle button, toolbar, trackbar, tree view.
 
-This action is applicable to the following controls:button, Calendar, check box, combo box, DatePicker, DateTimePicker, Hyperlink, list box, list view, menu, password, radio button, status bar, tab control, table, text box, toggle button, trackbar, tree view.
+
 
 ## Example
 

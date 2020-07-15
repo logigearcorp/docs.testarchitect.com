@@ -55,6 +55,6 @@ The action is automatically inserted into your test, along with appropriate inte
 
 
 
-<di{{<anchor fntarg_1 >}}
-<di{{<anchor fnsrc_1 >}}
+{{<anchor fntarg_1 >}}
+{{<anchor fnsrc_1 >}}
 [1](#fnsrc_1) This only applies to user-scripted actions that are “front- ended” by user-defined [stub actions](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/working-with-the-python-harness/creating-the-test-case-and-stub-action).
