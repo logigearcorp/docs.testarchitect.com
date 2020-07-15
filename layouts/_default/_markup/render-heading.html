@@ -1,5 +1,5 @@
 {{ if  ( eq 2  .Level)  }}
-<h{{ .Level }} id="{{ .Anchor | safeURL }}" > {{ .Text | safeHTML }} <span class="permalink" id="{{ .Anchor | safeURL }}"></span> </h{{ .Level }}>
+<h{{ .Level }} id="{{ .Anchor | safeURL }}" > <a class="h2" href="#{{ .Anchor | safeURL }}" >{{ .Text | safeHTML }}</a></h{{ .Level }}>
 {{ else }}
 <h{{ .Level }} >{{ .Text | safeHTML }}2</h{{ .Level }}>
 {{end}}
