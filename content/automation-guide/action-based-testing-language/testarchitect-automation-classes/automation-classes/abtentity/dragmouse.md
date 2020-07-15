@@ -12,11 +12,11 @@ keywords: "methods of abt, DragMouse, DragMouse (AbtEntity), AbtEntity, dragmous
 
 `long DragMouse(int x1, int y1, int x2, int y2)`
 
-## Description {{< permerlink >}} {#abt_DragMouse_entity__section.desc} 
+## Description  
 
 Perform a drag-and-drop operation from one specified location within the window to another.
 
-## Parameters {{< permerlink >}} {#abt_DragMouse_entity__section.params} 
+## Parameters  
 
 -   **x1**
 

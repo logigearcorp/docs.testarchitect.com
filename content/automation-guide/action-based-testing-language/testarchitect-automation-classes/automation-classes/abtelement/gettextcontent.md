@@ -12,11 +12,11 @@ keywords: "methods of abt, GetTextContent, GetTextContent (AbtElement), AbtEleme
 
 `string getTextContent (string drawfunction, string text, int index)`
 
-## Description {{< permerlink >}} {#abt_GetTextContent_AbtElement__section.desc} 
+## Description  
 
 Retrieve content of the text fragment residing in a given control.
 
-## Parameters {{< permerlink >}} {#abt_GetTextContent_AbtElement__section.params} 
+## Parameters  
 
 -   **drawfunction**
 
@@ -43,7 +43,7 @@ Retrieve content of the text fragment residing in a given control.
     Specifies a minimum number of instances of the search text that must be discovered within the active area for the target [bitmap text fragment](/user-guide/support/glossary-of-terms/bitmap-text-fragment) to be considered as found \(default = 1\).
 
 
-## Return Value {{< permerlink >}} {#abt_GetTextContent_AbtElement__section.return} 
+## Return Value  
 
 A string value indicating content of the text.
 

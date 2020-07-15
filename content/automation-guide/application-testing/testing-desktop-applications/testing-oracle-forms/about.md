@@ -14,7 +14,7 @@ In TestArchitect, you can create and run tests for Oracle Forms. TestArchitect r
 
 TestArchitect recognizes UI windows and [controls](/automation-guide/application-testing/testing-desktop-applications/testing-oracle-forms/controls-support) of Oracle Forms and provides [built-in actions](/automation-guide/application-testing/testing-desktop-applications/testing-oracle-forms/built-in-action-support) for simulating user actions on them.
 
-## Supported Oracle Forms versions {{< permerlink >}} {#concept_mj4_h24_mcb__section_fmz_4f4_mcb} 
+## Supported Oracle Forms versions  
 
 -   You can test applets created with the following versions of Oracle Forms:
     -   Oracle Forms 11gR2

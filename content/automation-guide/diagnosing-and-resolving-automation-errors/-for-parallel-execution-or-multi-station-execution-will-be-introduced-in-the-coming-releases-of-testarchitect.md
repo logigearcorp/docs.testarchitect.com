@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80018011L"
 
 Error code: 0x80018011L
 
-## Problem {{< permerlink >}} {#reference_0x80018011L__section_um5_jvb_2y} 
+## Problem  
 
 When you invoke another cloud device to run automated tests in test procedure, but do not terminate the connection with the currently-connected cloud device, TestArchitect will report an automation error. It happens because TestArchitect currently does not support testing mobile web applications running on multiple cloud devices simultaneously.
 
-## Solution {{< permerlink >}} {#reference_0x80018011L__section_vm5_jvb_2y} 
+## Solution  
 
 To resolve this issue, please terminate the connection with the currently-executed cloud device, before executing next tests on another cloud device. You achieve it by using the [disconnect cloud device](/automation-guide/action-based-testing-language/built-in-actions/system-actions/device/disconnect-cloud-device) built-in action. For example:
 

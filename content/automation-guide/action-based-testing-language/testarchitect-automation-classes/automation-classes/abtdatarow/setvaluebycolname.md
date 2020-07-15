@@ -12,11 +12,11 @@ keywords: "methods of abt, SetValueByColName, SetValueByColName (AbtDataRow), Ab
 
 `int SetValueByColName(String colName, String value)`
 
-## Description {{< permerlink >}} {#reference_eng_1bw_gq__section.desc} 
+## Description  
 
 Set the value of a cell in the data set row; the cell is specified by its column name.
 
-## Parameters {{< permerlink >}} {#reference_eng_1bw_gq__section.params} 
+## Parameters  
 
 -   **colName**
 

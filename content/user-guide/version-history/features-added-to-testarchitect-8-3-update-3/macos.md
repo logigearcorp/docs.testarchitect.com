@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be the same version.
 
-## TestArchitect Client {{< permerlink >}} {#concept_what_new_8.3_macOS_update_3__section_ir4_mm3_b1b} 
+## TestArchitect Client  
 
 New features
 
@@ -31,7 +31,7 @@ New features
             -   [exit test case](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/exit-test-case)
             -   [terminate](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/terminate).
 
-## TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.3_macOS_update_3__section_p2c_51b_cs} 
+## TestArchitect Automation  
 
 Enhancements to existing features
 

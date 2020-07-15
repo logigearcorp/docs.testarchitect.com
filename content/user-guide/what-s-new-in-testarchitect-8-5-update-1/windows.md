@@ -14,13 +14,13 @@ The following new features and improvements are introduced in the latest version
 
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories and check in all test artifacts.
 
-## TestArchitect Client {{< permerlink >}} {#Whats_New_Windows__section.TAC} 
+## TestArchitect Client  
 
 Enhancements to existing features
 
 -   [**Repository Versioning**](/administration-guide/repository-server-management/repository-version#): From 8.5 Update 1 onward, as long as TestArchitect Client and Repository Server share the same major version number, they can work with each other without any compatibility problems.
 
-## TestArchitect Automation {{< permerlink >}} {#Whats_New_Windows__section.Auto} 
+## TestArchitect Automation  
 
 New features
 

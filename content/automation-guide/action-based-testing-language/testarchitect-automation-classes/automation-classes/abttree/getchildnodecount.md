@@ -12,11 +12,11 @@ keywords: "methods of abt, GetChildNodeCount, GetChildNodeCount (AbtTree), AbtTr
 
 `int GetChildNodeCount(string nodepath)`
 
-## Description {{< permerlink >}} {#abt_GetChildNodeCount__section.desc} 
+## Description  
 
 Return the number of children of a node.
 
-## Parameters {{< permerlink >}} {#abt_GetChildNodeCount__section.params} 
+## Parameters  
 
 -   **nodepath**
 

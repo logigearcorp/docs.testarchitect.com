@@ -35,7 +35,7 @@ Technically, in TestArchitect, when a mouse click is specified by an action or m
 
 single sendinput message
 
-## Applicable Systems/Platforms {{< permerlink >}} {#bis_click_method__section_t5m_gsg_5v} 
+## Applicable Systems/Platforms  
 
 This built-in setting is supported on the following systems/platforms:
 

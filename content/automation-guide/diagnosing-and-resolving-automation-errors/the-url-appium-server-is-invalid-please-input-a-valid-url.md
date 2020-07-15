@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80018001L"
 
 Error code: 0x80018001L
 
-## Problem {{< permerlink >}} {#reference_0x80018001L__section_um5_jvb_2y} 
+## Problem  
 
 This issue occurs when URL Appium server, specified in the [assign cloud device](/automation-guide/action-based-testing-language/built-in-actions/system-actions/device/assign-cloud-device) built-in action, is invalid.
 
-## Solution {{< permerlink >}} {#reference_0x80018001L__section_vm5_jvb_2y} 
+## Solution  
 
 Double-check the availability of URL Appium Server of your provided WebDriver cloud based service.
 

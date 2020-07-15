@@ -8,15 +8,15 @@ aliases:
 keywords: "methods of abt, GetPictureCheck, GetPictureCheck (AbtPictureCheckManagement), AbtPictureCheckManagement, getpicturecheck, abtpicturecheckmanagement getpicturecheck, retrieve picture check, get picture check"
 ---
 
-## Syntax {{< permerlink >}} {#reference_GetPictureCheck__section.syntax} 
+## Syntax  
 
 `{{<link title="AbtPictureCheck" link="/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtpicturecheck/">}} GetPictureCheck(string path)`
 
-## Description {{< permerlink >}} {#reference_GetPictureCheck__section.desc} 
+## Description  
 
 Retrieve a picture check in the current project or the supplier project.
 
-## Parameters {{< permerlink >}} {#reference_GetPictureCheck__section.params} 
+## Parameters  
 
 -   **path**
 

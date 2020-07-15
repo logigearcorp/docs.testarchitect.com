@@ -23,7 +23,7 @@ Terminate a running process on a mobile device.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms {{< permerlink >}} {#bia_kill_process__section_ndc_dcl_zcb} 
+## Applicable Systems/Platforms  
 
 Use of this action is supported on the following systems/platforms: Android.
 

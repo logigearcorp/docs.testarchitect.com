@@ -23,7 +23,7 @@ Capture the Android system log file associated with the Android [logcat](https:/
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms {{< permerlink >}} {#bia_get_device_log_file__section_r3t_wbl_zcb} 
+## Applicable Systems/Platforms  
 
 Use of this action is supported on the following systems/platforms: Android.
 

@@ -12,7 +12,7 @@ keywords: "methods of abt, Clear, Clear (AbtDataSet), AbtDataSet, clear, abtdata
 
 `int Clear()`
 
-## Description {{< permerlink >}} {#reference_fvq_dbw_gq__section.desc} 
+## Description  
 
 Clear the contents of all rows of the data set.
 

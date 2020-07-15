@@ -12,11 +12,11 @@ keywords: "methods of abt, SpinDown, SpinDown (AbtSpin), AbtSpin, spindown, abts
 
 `long SpinDown()`
 
-## Description {{< permerlink >}} {#abt_SpinDown__section.desc} 
+## Description  
 
 Set the spin object to its next incremental value.
 
-## Return Value {{< permerlink >}} {#abt_SpinDown__section.return} 
+## Return Value  
 
 Return 0 if the call is successful; otherwise, -1..
 

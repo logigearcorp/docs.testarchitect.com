@@ -20,7 +20,7 @@ There are no arguments for this action.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms {{< permerlink >}} {#bia_disconnect_device__section_pvz_tbl_zcb} 
+## Applicable Systems/Platforms  
 
 Use of this action is supported on the following systems/platforms: Mobile operating systems.
 

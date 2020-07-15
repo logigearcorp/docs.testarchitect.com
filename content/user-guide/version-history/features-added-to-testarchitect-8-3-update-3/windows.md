@@ -55,7 +55,7 @@ Enhancements to existing features
             -   Configuring automation playback tools.
             -   Using TFS test ID to name the TestArchitect test results attached to TFS.
 
-## TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.3_Windows_update_3__section_p2c_51b_cs} 
+## TestArchitect Automation  
 
 New features
 

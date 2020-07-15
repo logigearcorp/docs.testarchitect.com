@@ -55,7 +55,7 @@ Retrieve color code of the text background, in hexadecimal.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms {{< permerlink >}} {#get_text_background_color__section_Applicable.Systems.Platforms} 
+## Applicable Systems/Platforms  
 
 Use of this action is supported on the following systems/platforms:
 

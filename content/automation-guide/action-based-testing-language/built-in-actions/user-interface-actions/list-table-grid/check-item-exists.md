@@ -31,7 +31,7 @@ Check for the existence of a specified item in a list box, list view, or combo b
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes {{< permerlink >}} {#bia_check_item_exists__section.notes} 
+## Notes  
 
 -   item argument:
     -   The item argumentmay be specified by either of two means:the displayed text of the item, or its numerical index. \(Indexes are one-based; that is, numbering begins at 1.\)

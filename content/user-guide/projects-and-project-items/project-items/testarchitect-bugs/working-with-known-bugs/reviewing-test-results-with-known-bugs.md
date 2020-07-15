@@ -39,7 +39,7 @@ Reviewing test results can assist you in determining if and when JIRA bug issues
 |**Warning**|The number of checkpoints producing automation warnings in each test case.|
 |**Error**|The number of checkpoints resulting in automation errors in each test case.|
 
-## Known Bug Summary tab {{< permerlink >}} {#concept_yht_q4x_vn__section_KBSum} 
+## Known Bug Summary tab  
 
 {{<remember>}} The contents of **Known Bug Summary** are organized into a tab when the test results are viewed on a web browser; whereas they are organized into a sub-section when the results are viewed on TestArchitect Client.
 
@@ -57,7 +57,7 @@ This tab displays the information about TA bugs marked in the action lines.
 |**Line**|The line number in the test where the action is marked as a known bug. \(Note that any number of action lines may be marked with a given bug ID.\) Clicking on the line number allows you to view the corresponding line in the [**Result Details**](/user-guide/working-with-test-results/overview/result-details-tab) tab.|
 |**Ignored Fails**|The number of executions of the marked action line that failed during the run.|
 
-## Suggested TA bug status {{< permerlink >}} {#concept_yht_q4x_vn__section_m3b_t2l_wn} 
+## Suggested TA bug status  
 
 The suggested status, or life cycle stage, of a TA bug is determined based on the combination of the actual status of that bug in a new automation run \(Passed, Failed, Passed with Warning/Error, or Passed with known bug\) plus its current status. Based on the suggested status, you can decide whether or not the corresponding JIRA bug issue on a JIRA server should be closed.
 

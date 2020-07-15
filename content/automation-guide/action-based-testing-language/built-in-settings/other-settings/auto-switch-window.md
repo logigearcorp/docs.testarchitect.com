@@ -8,24 +8,24 @@ aliases:
 keywords: "built-in setting, auto switch windows"
 ---
 
-## Description {{< permerlink >}} {#bia_auto_switch_windows__section_b1x_zh3_wfb} 
+## Description  
 
 Determine whether TestArchitect automatically switches among window instances.
 
 {{<important>}} This setting is dedicated to Generic WebDriver.
 
-## Usage of auto switch window {{< permerlink >}} {#bia_auto_switch_windows__section_bhv_xtz_xfb} 
+## Usage of auto switch window  
 
 When you open a new window instance and the auto switch window mode is on, the focus will be shifted to the newly opened window instance.
 
 However, when the auto switch window mode is off, the focus will stay in the current window instance. In the event that you want to interact with the newly opened window instance, you are required to explicitly use the [switch window](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/webdriver/switch-window) built-in action.
 
-## Allowable values {{< permerlink >}} {#bia_auto_switch_windows__section_qk2_f33_wfb} 
+## Allowable values  
 
 -   yes: Automatically switch among window instances.
 -   no: \(Default\) Do not automatically switch among window instances.
 
-## Example {{< permerlink >}} {#bia_auto_switch_windows__section_epf_z5j_wfb} 
+## Example  
 
 Suppose you have the following scenario:
 
@@ -35,7 +35,7 @@ Suppose you have the following scenario:
 
 2.  Switch to the **Search** window, and perform checkpoint verifications.
 
-## Action lines {{< permerlink >}} {#bia_auto_switch_windows__section_d3z_gvj_wfb} 
+## Action lines  
 
 ![](/images/TA_Automation/Images/bia_auto_switch_windows_off_pgm.png)
 

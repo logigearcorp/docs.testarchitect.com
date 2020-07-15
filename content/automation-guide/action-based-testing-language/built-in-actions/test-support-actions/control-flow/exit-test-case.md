@@ -12,7 +12,7 @@ keywords: "built-in actions, exit test case, exit test case (action), exit test 
 
 Exit the current test case \(skip all remaining action lines in the current test case\), and then continue with the next test case.
 
-## Arguments {{< permerlink >}} {#bia_exit_test_case__section_arguments} 
+## Arguments  
 
 -   **exit status**
 

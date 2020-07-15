@@ -12,11 +12,11 @@ keywords: "methods of abt, ExecuteJS, ExecuteJS (AbtEntity), AbtEntity, executej
 
 `String ExecuteJS(string script)`
 
-## Description {{< permerlink >}} {#abt_BringToTop__section.desc} 
+## Description  
 
 Obtain the value returned from the executed snippets of JavaScript code.
 
-## Parameters {{< permerlink >}} {#abt_BringToTop__section.params} 
+## Parameters  
 
 -   **script**
 
@@ -27,7 +27,7 @@ Obtain the value returned from the executed snippets of JavaScript code.
 
 The value returned from the executed snippets of JavaScript code.
 
-## Applicable Harnesses {{< permerlink >}} {#abt_BringToTop__section_c2p_tyr_sbb} 
+## Applicable Harnesses  
 
 -   Python
 -   Java

@@ -12,11 +12,11 @@ keywords: "methods of abt, Collapse, Collapse (AbtTree), AbtTree, collapse, abtt
 
 `long Collapse(string nodepath)`
 
-## Description {{< permerlink >}} {#abt_Collapse__section.desc} 
+## Description  
 
 Hide the subnodes of the specified node in the tree view control.
 
-## Parameters {{< permerlink >}} {#abt_Collapse__section.params} 
+## Parameters  
 
 -   **nodepath**
 
@@ -27,7 +27,7 @@ Hide the subnodes of the specified node in the tree view control.
     -   A string containing all node texts separated by forward slashes \( / \).
     -   A string containing all node indexes separated by forward slashes \( / \).
 
-## Return Value {{< permerlink >}} {#abt_Collapse__section.return} 
+## Return Value  
 
 Return 0 if the call is successful; otherwise, -1..
 

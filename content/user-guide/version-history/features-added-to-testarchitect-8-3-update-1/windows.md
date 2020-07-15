@@ -32,7 +32,7 @@ Enhancements to existing features
     -   Enable Telemetry: The Telemetry feature sends performance and usage info to LogiGear. As you use TestArchitect, Telemetry measures and collects non-personal information, such as performance, hardware, and usage. Furthermore we use this information as a tool to improve TestArchitect. Telemetry is enabled by default.
     -   Enable Error Reporting: By using Error Reporting, descriptions of problems or errors will be sent to LogiGear, which we use to improve TestArchitect. We will also treat this report as confidential and anonymous. Error Reporting is enabled by default.
 
-## TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.3_Windows_update_1__section_p2c_51b_cs} 
+## TestArchitect Automation  
 
 New features
 
@@ -41,11 +41,11 @@ New features
     {{<restriction>}} Use of the TestArchitect [Interface Viewer](/user-guide/interface-definitions/the-interface-viewer/) and [point-to-identify](/user-guide/interface-definitions/interface-capturing-commands/point-to-identify-tool/) tool are not supported on Firefox.
 
 
-## Deprecation {{< permerlink >}} {#concept_what_new_8.3_Windows_update_1__section_qls_4jc_xz} 
+## Deprecation  
 
 -   [anchor pos](/user-guide/interface-definitions/control-properties/secondary-properties/anchor-pos-property/) property on web automation is going to be dropped support one year later starting from TestArchitect release 8.3 Update 1.
 
-## New Privacy Policy {{< permerlink >}} {#concept_what_new_8.3_Windows_update_1__section.TA_policy} 
+## New Privacy Policy  
 
 -   About [TestArchitect’s policy](http://go.testarchitect.com/fwlink/?linkid=90002)
 

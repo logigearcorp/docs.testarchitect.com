@@ -24,7 +24,7 @@ Team Foundation Server \(TFS\) offers both web-based and client-based solutions 
 
 Accordingly Build vNext and the Test Hub in the [TFS web portal](/user-guide/integration-with-third-party-tools/tfs-integration/automated-testing-in-tfs-web-portal/) are ideal replacements for respective XAML Build and MTM.\(See also: [Team Foundation Server 2018 Release Notes](https://docs.microsoft.com/en-us/visualstudio/releasenotes/tfs2018-relnotes)\)
 
-## Build System {{< permerlink >}} {#concept_apv_cfq_qq__section_epr_vw2_rq} 
+## Build System  
 
 -   [Build Definition](/user-guide/integration-with-third-party-tools/tfs-integration/on-premises-tfs-environment-configuration/installing-and-configuring-microsoft-components-for-on-premises-tfs/setting-up-a-build-server): A build definition contains the information and the logic needed to execute the build. \(Refer to [Creating a build definition](/user-guide/integration-with-third-party-tools/tfs-integration/on-premises-tfs-environment-configuration/installing-and-configuring-microsoft-components-for-on-premises-tfs/automating-a-test-case-in-mtm/creating-and-configuring-a-build-definition/creating-xaml-build) for details.\)
 -   Build Controller:
@@ -35,7 +35,7 @@ Accordingly Build vNext and the Test Hub in the [TFS web portal](/user-guide/int
     -   a Windows Service that executes such tasks as getting files needed for execution;
     -   can be associated with a build controller. \(Refer to [Deploying and configuring build agent](/user-guide/integration-with-third-party-tools/tfs-integration/on-premises-tfs-environment-configuration/installing-and-configuring-microsoft-components-for-on-premises-tfs/setting-up-a-build-agent/) for details.\)
 
-## Test Controller {{< permerlink >}} {#concept_apv_cfq_qq__section_yzq_zw2_rq} 
+## Test Controller  
 
 It is a Windows Service that
 
@@ -45,7 +45,7 @@ It is a Windows Service that
 
 {{<remember>}} When you install and configure Test Controller, use the full domain namefor your test controller.
 
-## Test Agent {{< permerlink >}} {#concept_apv_cfq_qq__section_jf2_sqc_3fb} 
+## Test Agent  
 
 It is a Windows Service. It executes test cases in a test machine and collects results. These results are then collected and published to Microsoft Test Controller. \(Refer to [Configuring and registering test agent](/user-guide/integration-with-third-party-tools/tfs-integration/on-premises-tfs-environment-configuration/installing-and-configuring-microsoft-components-for-on-premises-tfs/setting-up-the-mtm-test-agent) for details.\)
 

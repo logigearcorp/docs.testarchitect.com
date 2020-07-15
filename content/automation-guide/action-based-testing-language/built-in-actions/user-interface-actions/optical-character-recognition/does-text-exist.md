@@ -71,7 +71,7 @@ Return a Boolean value to indicate whether a specified [bitmap text fragment](/u
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes {{< permerlink >}} {#bia_does_text_exist__section_lgn_3ht_lk} 
+## Notes  
 
 -   This built-in action employs both [Optional Character Recognition](/automation-guide/action-based-testing-language/the-test-language/text-recognition-techniques) \(OCR\) and [Graphics Device Interface](/automation-guide/action-based-testing-language/the-test-language/text-recognition-techniques) \(GDI\) techniques. By default, the action employs OCR technique. To switch to GDI technique, refer to the [character recognition technique](/automation-guide/action-based-testing-language/built-in-settings/other-settings/character-recognition-technique) built-in setting for details.
 

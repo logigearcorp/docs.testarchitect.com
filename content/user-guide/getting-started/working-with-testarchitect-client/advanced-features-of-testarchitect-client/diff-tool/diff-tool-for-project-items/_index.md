@@ -25,7 +25,7 @@ The Diff Tool makes the job of difference viewing more systematic, reliable, and
 -   The Diff Tool supports the comparing of project items not just within a project, but across projects and across repositories as well.
 -   For comparing pairs of test results, TestArchitect offers a different tool. See [Comparing test results](/user-guide/working-with-test-results/comparing-test-results/).
 
-## The user interface {{< permerlink >}} {#concept_yvy_bhs_yp__section.Diff_tool_GUI} 
+## The user interface  
 
 The Diff Tool dialog box consists of two main components:
 
@@ -44,7 +44,7 @@ The Diff Tool dialog box consists of the following parts:
     -   Current location panels.
     -   Display panels.
 
-## The toolbar {{< permerlink >}} {#concept_yvy_bhs_yp__section_Toolbar} 
+## The toolbar  
 
 The Diff Tool's tool bar contains six buttons:
 
@@ -94,7 +94,7 @@ The Diff Tool's tool bar contains six buttons:
     -   **Enabled**: Highlights character-by-character differences.
 6.  **Open External Merge Tool**: The Diff Tool integrates with other applications that allow a third-party file comparison \(diff\) or file merging tool to be specified. \([Learn more.](/user-guide/getting-started/working-with-testarchitect-client/advanced-features-of-testarchitect-client/diff-tool/diff-tool-and-outside-products)\)
 
-## The Item panels {{< permerlink >}} {#concept_yvy_bhs_yp__section_Items_panel} 
+## The Item panels  
 
 ![](/images/TA_Help/Images/ug_diff_tool_source_target_panel.png)
 

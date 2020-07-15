@@ -12,11 +12,11 @@ keywords: "methods of abt, Set, Set (AbtRadioButton), AbtRadioButton, abtradiobu
 
 `long Set(TACheckState state)`
 
-## Description {{< permerlink >}} {#abt_Set_radiobutton__section.desc} 
+## Description  
 
 Set the checked state of a radio button.
 
-## Parameters {{< permerlink >}} {#abt_Set_radiobutton__section.params} 
+## Parameters  
 
 -   **state**
 
@@ -27,7 +27,7 @@ Set the checked state of a radio button.
     -   1: Select the radio button.
     -   0: Clear the radio button.
 
-## Return Value {{< permerlink >}} {#abt_Set_radiobutton__section.return} 
+## Return Value  
 
 Return 0 if the call is successful; otherwise, -1..
 

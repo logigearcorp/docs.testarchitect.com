@@ -21,7 +21,7 @@ Enhancements to existing features
 
 -   [Deleting](/user-guide/projects-and-project-items/projects-in-testarchitect/delete-a-project) TestArchitect projects containing project items is now supported.
 
-## TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.1_U4_Linux__section_p2c_51b_cs} 
+## TestArchitect Automation  
 
 -   [hold key](/automation-guide/action-based-testing-language/built-in-actions/system-actions/keyboard/hold-key) built-in action: Hold specified keyboard key\(s\) down.
 -   [release key](/automation-guide/action-based-testing-language/built-in-actions/system-actions/keyboard/release-key) built-in action: Release the specified key\(s\) that were previously held down using the [hold key](/automation-guide/action-based-testing-language/built-in-actions/system-actions/keyboard/hold-key) built-in action.

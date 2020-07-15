@@ -12,7 +12,7 @@ keywords: "methods of abt, GetMinimumValue, GetMinimumValue (AbtTrackBar), AbtTr
 
 `int GetMinimumValue()`
 
-## Description {{< permerlink >}} {#abt_GetMinimumValue__section.desc} 
+## Description  
 
 Retrieve the minimum value of the trackbar.
 

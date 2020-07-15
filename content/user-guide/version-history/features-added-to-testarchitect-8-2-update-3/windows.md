@@ -26,7 +26,7 @@ Enhancements to existing features
 -   [**Access to test results in a web browser**](/user-guide/working-with-test-results/displaying-test-results-in-a-browser) on any machine, regardless of whether or not TestArchitect Client is installed.
 -   Performance improvement during startup of the Repository Server.
 
-## TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.1_U4_Wins__section_p2c_51b_cs} 
+## TestArchitect Automation  
 
 -   Mobile testing
     -   Support for mobile apps testing on [Android 5.x](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/android-automation/#table.Android_versions) and [iOS 9.x](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/ios-automation/#row.iOS_version)

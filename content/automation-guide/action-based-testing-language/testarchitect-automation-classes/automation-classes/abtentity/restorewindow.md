@@ -12,7 +12,7 @@ keywords: "methods of abt, RestoreWindow, RestoreWindow (AbtEntity), AbtEntity, 
 
 `long RestoreWindow()`
 
-## Description {{< permerlink >}} {#abt_RestoreWindow__section.desc} 
+## Description  
 
 Restore a window to its original size.
 

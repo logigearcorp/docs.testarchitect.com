@@ -12,11 +12,11 @@ keywords: "methods of abt, ExecSqlCommand, ExecSqlCommand (AbtDatabase), AbtData
 
 `TADBResult ExecSqlCommand(string command, int index)`
 
-## Description {{< permerlink >}} {#abt_Execute_Sql_Command__section.desc} 
+## Description  
 
 Execute one or more SQL commands against the AbtDatabase object.
 
-## Parameters {{< permerlink >}} {#abt_Execute_Sql_Command__section.params} 
+## Parameters  
 
 -   **command**
 
@@ -27,7 +27,7 @@ Execute one or more SQL commands against the AbtDatabase object.
     Index specifying query result to be returned. \(See Notes.\)
 
 
-## Return Value {{< permerlink >}} {#abt_Execute_Sql_Command__section.return} 
+## Return Value  
 
 A [TADBResult](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abt-object-classes/tadbresult) object representing a table or scalar value; or null, if no result is returned or execution is unsuccessful.
 

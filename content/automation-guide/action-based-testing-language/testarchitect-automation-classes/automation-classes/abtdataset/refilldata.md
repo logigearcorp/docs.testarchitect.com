@@ -12,11 +12,11 @@ keywords: "methods of abt, ReFillData, ReFillData (AbtDataSet), AbtDataSet, refi
 
 `int ReFillData(string fileName)`
 
-## Description {{< permerlink >}} {#reference_vwy_3bw_gq__section.desc} 
+## Description  
 
 Refill the data set with data from an external file.
 
-## Parameters {{< permerlink >}} {#reference_vwy_3bw_gq__section.params} 
+## Parameters  
 
 -   **fileName**
 

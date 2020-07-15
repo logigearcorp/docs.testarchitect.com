@@ -12,11 +12,11 @@ keywords: "methods of abt, GetRole, GetRole (AbtElement), AbtElement, getrole, a
 
 `string GetRole()`
 
-## Description {{< permerlink >}} {#abt_GetRole__section.desc} 
+## Description  
 
 Retrieve the [role](/user-guide/interface-definitions/class-mapping/mapping-unknown-controls/mapping-unknown-controls-to-a-known-class#choice.role) of the control or HTML element.
 
-## Return Value {{< permerlink >}} {#abt_GetRole__section.return} 
+## Return Value  
 
 A string value specifying the retrieved role value.
 

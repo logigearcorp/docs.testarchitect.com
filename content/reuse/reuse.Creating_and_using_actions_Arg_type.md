@@ -27,7 +27,7 @@ In general, while the focus is on an argument cell:
 2.  Using the mouse or arrow keys, select a value.
 3.  Double-click, or hit **Enter**, to insert the selected value into the cell.
 
-## Types of arguments {{< permerlink >}} {#Creating_and-using_actions_arg_type__section.arg_types.types} 
+## Types of arguments  
 
 String
 

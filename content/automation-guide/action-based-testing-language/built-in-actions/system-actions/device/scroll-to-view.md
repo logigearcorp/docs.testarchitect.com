@@ -27,7 +27,7 @@ If the control exists in the window but is outside of the viewing area, scroll t
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms {{< permerlink >}} {#bia_iOS_scroll_to_view__section_y2c_ncl_zcb} 
+## Applicable Systems/Platforms  
 
 Use of this action is supported on the following systems/platforms: Mobile operating systems.
 

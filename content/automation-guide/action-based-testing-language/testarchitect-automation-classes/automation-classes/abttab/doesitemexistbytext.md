@@ -12,18 +12,18 @@ keywords: "methods of abt, DoesItemExistByText, DoesItemExistByText (AbtTab), Ab
 
 `Boolean DoesItemExistByText(string text)`
 
-## Description {{< permerlink >}} {#abt_DoesItemExistByText_tab__section.desc} 
+## Description  
 
 Determine whether or not a tab, as specified by its text content, exists.
 
-## Parameters {{< permerlink >}} {#abt_DoesItemExistByText_tab__section.params} 
+## Parameters  
 
 -   **text**
 
     String value specifying the text content oftab to find.
 
 
-## Return Value {{< permerlink >}} {#abt_DoesItemExistByText_tab__section.return} 
+## Return Value  
 
 Return TRUE iftab exists; otherwise, FALSE.
 

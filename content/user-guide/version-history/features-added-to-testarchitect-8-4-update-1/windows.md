@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be the same version.
 
-## TestArchitect Client {{< permerlink >}} {#Whats_New_Windows__section.TAC} 
+## TestArchitect Client  
 
 New features
 
@@ -32,7 +32,7 @@ Enhancements to existing features
 -   The length limit of a [test step](/user-guide/tests/test-cases/test-steps/creating-test-steps)’s title has been increased from 70 characters up to 30,000 characters. This improvement allows you to create more meaningful and descriptive titles.
 -   Support for [Windows Server 2016](/user-guide/getting-started/supported-platforms): TestArchitect has been verified as fully functional on Windows Server 2016.
 
-## TestArchitect Automation {{< permerlink >}} {#Whats_New_Windows__section.Auto} 
+## TestArchitect Automation  
 
 -   Support for Windows Server 2016: you are able to conduct different types of automated testing on Windows Server 2016:
     -   Automate desktop applications.

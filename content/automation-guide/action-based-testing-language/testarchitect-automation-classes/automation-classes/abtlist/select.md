@@ -12,18 +12,18 @@ keywords: "methods of abt, Select, Select (AbtList), AbtList, select item in lis
 
 `long Select (int index)`
 
-## Description {{< permerlink >}} {#abt_Select_list__section.desc} 
+## Description  
 
 Select an item in the list control based on its index.
 
-## Parameters {{< permerlink >}} {#abt_Select_list__section.params} 
+## Parameters  
 
 -   **index**
 
     Integer value specifying the index of the item within thelist control. Note that index numbering begins with 1.
 
 
-## Return Value {{< permerlink >}} {#abt_Select_list__section.return} 
+## Return Value  
 
 Return 0 if the call is successful; otherwise, -1..
 

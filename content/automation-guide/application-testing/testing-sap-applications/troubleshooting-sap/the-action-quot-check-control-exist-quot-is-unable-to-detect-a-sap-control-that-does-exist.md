@@ -10,21 +10,21 @@ keywords: "SAP, GUI Scripting activated, The action &#34;check control exist&#34
 
 SAP application and TestArchitect must run with the same integrity
 
-## Situation {{< permerlink >}} {#concept_afk_5kt_jdb__section_tns_mmg_2kb} 
+## Situation  
 
 This may be caused by running TestArchitect with elevated permissions while running the AUT with normal permissions or vice-versa. In order for TestArchitect to automate the application both TestArchitect Client and the AUT must be run with the same permissions.
 
-## Solution {{< permerlink >}} {#concept_afk_5kt_jdb__section_gqb_rmg_2kb} 
+## Solution  
 
-## 1. Run both with normal privileges. {{< permerlink >}} {#concept_afk_5kt_jdb__section_m11_mtg_2kb} 
+## 1. Run both with normal privileges.  
 
 Open both TestArchitect Client and the AUT by double-clicking on their icon.
 
-## 2. Run both with administrator privileges. {{< permerlink >}} {#concept_afk_5kt_jdb__section_hqh_wyl_2kb} 
+## 2. Run both with administrator privileges.  
 
 To run both TestArchitect Client and the AUT with Administrative privileges right click on their icon and select **Run as administrator**
 
-## For example: {{< permerlink >}} {#concept_afk_5kt_jdb__section_xm1_1zl_2kb} 
+## For example:  
 
 Run TestArchitect Client as administrator.
 

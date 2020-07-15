@@ -10,11 +10,11 @@ keywords: "automation errors, 0x8001000EL"
 
 Error code: 0x8001000EL
 
-## Problem {{< permerlink >}} {#reference_0x8001000EL-2__section_prob} 
+## Problem  
 
 This happens because the required argument header name is reordered into an invalid column, or even deleted..
 
-## Solution {{< permerlink >}} {#reference_0x8001000EL-2__section_sol} 
+## Solution  
 
 Try either the following ways:
 

@@ -38,13 +38,13 @@ Your automated tests can also be run in cloud. Tests are run against the rented 
 
 -   On [Sauce Labs](https://saucelabs.com/), [Appium iOS Driver](https://github.com/appium/appium-ios-driver), a test automation tool, does not support iOS 10.
 
-## Session {{< permerlink >}} {#concept_x4z_j13_gy__section_fhd_sp3_gy} 
+## Session  
 
 Automation in Appium is performed in the context of a [session](http://appium.io/slate/en/master/?ruby#appium-concepts). Clients initiate a session with a server in ways specific to each library, but they all end up sending a POST /session request to the server, with a JSON object called the desired capabilities object. At this point the server will start up the automation session and respond with a session ID which is used for sending further commands.
 
 {{<note>}} In TestArchitect, session ID of the rented mobile cloud device can be retrieved through the [connect cloud device](/automation-guide/action-based-testing-language/built-in-actions/system-actions/device/connect-cloud-device) and [get cloud device session id](/automation-guide/action-based-testing-language/built-in-actions/system-actions/device/get-cloud-device-session-id) built-in actions.
 
-## Desired capabilities {{< permerlink >}} {#concept_x4z_j13_gy__section_p5f_qp3_gy} 
+## Desired capabilities  
 
 Desired capabilities are a set of keys and values sent to the Appium server to tell the server what kind of automation session should be starting up \([learn more](http://appium.io/slate/en/master/?ruby#appium-concepts)\). There are also various capabilities which can modify the behavior of the server during automation.
 

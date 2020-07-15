@@ -8,15 +8,15 @@ aliases:
 keywords: "built-in actions, use host machine, use host machine (action), iOS (action), use host machine, Android (action), switch to host machine, change to host machine"
 ---
 
-## Description {{< permerlink >}} {#bia_use_host_machine__section_nkt_zth_gy} 
+## Description  
 
 Switch the test run back to the host machine from the currently-connected cloud device in order to continue to run the remaining tests.
 
-## Arguments {{< permerlink >}} {#bia_use_host_machine__section_fxc_5yh_gy} 
+## Arguments  
 
 There are no arguments for this built-in action.
 
-## Notes {{< permerlink >}} {#bia_use_host_machine__section_qkt_zth_gy} 
+## Notes  
 
 -   This built-in action applies only to WebDriver based cloud services. \([Learn more](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/).\)
 
@@ -24,7 +24,7 @@ There are no arguments for this built-in action.
 
 The following settings are applicable to this action:none.
 
-## Example {{< permerlink >}} {#bia_use_host_machine__section_wkt_zth_gy} 
+## Example  
 
 Action Lines
 

@@ -10,7 +10,7 @@ keywords:
 
 This section includes built-in actions that connect to and run queries on database management systems \(DBMSs\) or Microsoft Excel data sources.
 
-## Overview {{< permerlink >}} {#reference_qc4_jnc_rp__database_overview} 
+## Overview  
 
 The set of actions in this section allows you to connect to a database, run SQL commands on it, retrieve any records or other values produced by those commands, and disconnect from the database.
 
@@ -24,7 +24,7 @@ The following built-in actions are provided. They are listed here in the typical
 4.  [execute sql](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/execute-sql): Execute an SQL command against the currently in-use database; optionally, store returned data into one or more data sets.
 5.  [disconnect database](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/disconnect-database): Close the database connection.
 
-## Prerequisites {{< permerlink >}} {#reference_qc4_jnc_rp__database_prerequisites} 
+## Prerequisites  
 
 -   Supported databases:
 

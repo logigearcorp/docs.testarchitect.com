@@ -12,11 +12,11 @@ keywords: "methods of abt, InsertRow, InsertRow (AbtDataSet), AbtDataSet, insert
 
 `int InsertRow({{<link title="AbtDataRow" link="/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdatarow/">}} row, int index)`
 
-## Description {{< permerlink >}} {#reference_t2g_3bw_gq__section.desc} 
+## Description  
 
 Insert a row object into the data set.
 
-## Parameters {{< permerlink >}} {#reference_t2g_3bw_gq__section.params} 
+## Parameters  
 
 -   **row**
 

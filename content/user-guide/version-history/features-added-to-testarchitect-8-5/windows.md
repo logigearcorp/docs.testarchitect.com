@@ -15,13 +15,13 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories and check in all test artifacts.
 -   A TestArchitect client and any repository server to which it connects must be the same version.
 
-## TestArchitect Client {{< permerlink >}} {#Whats_New_Windows__section.TAC} 
+## TestArchitect Client  
 
 Enhancements to existing features
 
 -   [**Delete a TestArchitect repository**](/administration-guide/repository-server-management/deleting-a-repository#): Now when you delete a repository using the TestArchitect Repository Server Control Panel, you no longer have to stop the repository first, you can delete it immediately.
 
-## TestArchitect Automation {{< permerlink >}} {#Whats_New_Windows__section.Auto} 
+## TestArchitect Automation  
 
 New features
 
@@ -33,7 +33,7 @@ Enhancements to existing features
 -   Support for [Chrome 79](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/) and [Firefox 71](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/): Now you can run automated tests for web pages displayed in the latest versions of Chrome and Firefox.
 -   [**Python 3**](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/working-with-the-python-harness/#): TestArchitect now supports using Python 3 to implement TestArchitect actions.
 
-## Known issues {{< permerlink >}} {#Whats_New_Windows__section_hhf_pk5_4jb} 
+## Known issues  
 
 -   [**Firefox 70+**](/automation-guide/diagnosing-and-resolving-automation-errors/testarchitect-cannot-navigate-with-webdriver-mode-in-firefox-70-and-geckodriver-v0-26-0#): There is an issue with geckodriver. Some computers may experience issues when navigating in webdriver mode.
 -   Due to changes in the WebDriver coordinate calculation algorithm, there may be a slight deviation of coordinates in relevant built-in actions with Generic Web Driver Mode \(GWD\) on Chrome 75. For precision, please re-calculate your positions and coordinates.

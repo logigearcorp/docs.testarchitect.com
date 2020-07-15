@@ -35,7 +35,7 @@ Retrieve the position, within its table, of the cell containing a specified text
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes {{< permerlink >}} {#bia_get_table_view_cell_containing__section_tll_j2y_mk} 
+## Notes  
 
 -   This built-in action applies only to the iOS operating system.
 -   In the event that the target text exists in more than one cell, it is the position of the first one encountered that is returned.

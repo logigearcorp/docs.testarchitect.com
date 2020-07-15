@@ -57,7 +57,7 @@ Check for the existence of a specified [bitmap text fragment](/user-guide/suppor
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes {{< permerlink >}} {#bia_if_text_exists__section.notes} 
+## Notes  
 
 -   This built-in action employs both [Optional Character Recognition](/automation-guide/action-based-testing-language/the-test-language/text-recognition-techniques) \(OCR\) and [Graphics Device Interface](/automation-guide/action-based-testing-language/the-test-language/text-recognition-techniques) \(GDI\) techniques. By default, the action employs OCR technique. To switch to GDI technique, refer to the [character recognition technique](/automation-guide/action-based-testing-language/built-in-settings/other-settings/character-recognition-technique) built-in setting for details.
 

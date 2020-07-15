@@ -8,11 +8,11 @@ aliases:
 keywords: "methods of abt, Create, Create (AbtAutomation), AbtAutomation, create abtautomation, create new class instance of abtautomation, create abtautomatin class instance"
 ---
 
-## Syntax {{< permerlink >}} {#abt_Create__section.syntax} 
+## Syntax  
 
 `void create()`
 
-## Description {{< permerlink >}} {#abt_Create__section.desc} 
+## Description  
 
 Creates a new class instance of AbtAutomation.
 
@@ -20,7 +20,7 @@ Creates a new class instance of AbtAutomation.
 
 There are no parameters for this function.
 
-## Return Value {{< permerlink >}} {#abt_Create__section.return} 
+## Return Value  
 
 There are no returned values for this function.
 

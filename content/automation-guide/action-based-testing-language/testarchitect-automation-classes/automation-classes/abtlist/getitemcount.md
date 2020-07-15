@@ -12,11 +12,11 @@ keywords: "methods of abt, GetItemCount, GetItemCount (AbtList), AbtList, getite
 
 `int GetItemCount()`
 
-## Description {{< permerlink >}} {#abt_GetItemCount_list__section.desc} 
+## Description  
 
 Return the number of items in the list.
 
-## Return Value {{< permerlink >}} {#abt_GetItemCount_list__section.return} 
+## Return Value  
 
 Integer value specifying the number of items found. If an error occurs, the return value is -1.
 

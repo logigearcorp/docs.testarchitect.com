@@ -12,11 +12,11 @@ keywords: "methods of abt, GetTextCount, GetTextCount (AbtElement), AbtElement, 
 
 `int getTextCount (string drawfunction, string text)`
 
-## Description {{< permerlink >}} {#abt_Maximize_AbtElement__section.desc} 
+## Description  
 
 Retrieve a count of the total number of text fragments residing in a given control.
 
-## Parameters {{< permerlink >}} {#abt_Maximize_AbtElement__section.params} 
+## Parameters  
 
 -   **drawfunction**
 
@@ -39,7 +39,7 @@ Retrieve a count of the total number of text fragments residing in a given contr
     String representing the [bitmap text fragment](/user-guide/support/glossary-of-terms/bitmap-text-fragment) to be searched for.
 
 
-## Return Value {{< permerlink >}} {#abt_Maximize_AbtElement__section.return} 
+## Return Value  
 
 An integer value indicating the total number of text fragments found.
 

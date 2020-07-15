@@ -35,7 +35,7 @@ Retrieve the value of a control's specified native property.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms {{< permerlink >}} {#bia_get_native_property__section_uzk_zmd_zbb} 
+## Applicable Systems/Platforms  
 
 This built-in action is supported on the following systems/platforms:
 

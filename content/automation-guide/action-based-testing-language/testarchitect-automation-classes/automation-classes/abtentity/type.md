@@ -12,18 +12,18 @@ keywords: "methods of abt, Type, Type (AbtEntity), AbtEntity, type, abtentity ty
 
 `long Type(string text)`
 
-## Description {{< permerlink >}} {#abt_Type_entity__section.desc} 
+## Description  
 
 Type the specified string into the window.
 
-## Parameters {{< permerlink >}} {#abt_Type_entity__section.params} 
+## Parameters  
 
 -   **text**
 
     String value specifying the text content to be typed.
 
 
-## Return Value {{< permerlink >}} {#abt_Type_entity__section.return} 
+## Return Value  
 
 Return 0 if the call is successful; otherwise, -1.
 

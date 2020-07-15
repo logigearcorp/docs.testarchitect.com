@@ -12,18 +12,18 @@ keywords: "methods of abt, SelectItemByIndex, SelectItemByIndex (AbtTab), AbtTab
 
 `long SelectItemByIndex(int index)`
 
-## Description {{< permerlink >}} {#abt_SelectItemByIndex_tab__section.desc} 
+## Description  
 
 Select a tab item from the tab control by its index.
 
-## Parameters {{< permerlink >}} {#abt_SelectItemByIndex_tab__section.params} 
+## Parameters  
 
 -   **index**
 
     Integer value specifying the index of the item within thetab control. Note that index numbering begins with 1.
 
 
-## Return Value {{< permerlink >}} {#abt_SelectItemByIndex_tab__section.return} 
+## Return Value  
 
 Return 0 if the call is successful; otherwise, -1..
 

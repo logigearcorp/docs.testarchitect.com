@@ -8,15 +8,15 @@ aliases:
 keywords: "methods of abt, CreateDataSet, CreateDataSet (AbtDataSetManagement), AbtDataSetManagement, createdataset, abtdatasetmanagement createdataset, create data set"
 ---
 
-## Syntax {{< permerlink >}} {#reference_rp3_bbw_gq__section.syntax} 
+## Syntax  
 
 `AbtDataSet CreateDataSet(String name)`
 
-## Description {{< permerlink >}} {#reference_rp3_bbw_gq__section.desc} 
+## Description  
 
 Create a new data set object with the specified name.
 
-## Parameters {{< permerlink >}} {#reference_rp3_bbw_gq__section.params} 
+## Parameters  
 
 -   **name**
 

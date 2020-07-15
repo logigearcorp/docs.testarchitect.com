@@ -12,11 +12,11 @@ keywords: "methods of abt, GetItemCount, GetItemCount (AbtComboBox), AbtComboBox
 
 `int GetItemCount()`
 
-## Description {{< permerlink >}} {#abt_GetItemCount_combobox__section.desc} 
+## Description  
 
 Return the number of items in the combo box.
 
-## Return Value {{< permerlink >}} {#abt_GetItemCount_combobox__section.return} 
+## Return Value  
 
 Integer value specifying the number of items found. If an error occurs, the return value is -1.
 

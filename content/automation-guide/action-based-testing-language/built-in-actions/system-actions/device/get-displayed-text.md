@@ -31,11 +31,11 @@ Retrieve the all text displayed in a control.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms {{< permerlink >}} {#bia_get_displayed_text__section_qhy_ybl_zcb} 
+## Applicable Systems/Platforms  
 
 Use of this action is supported on the following systems/platforms: iOS.
 
-## Notes {{< permerlink >}} {#bia_get_displayed_text__section_tll_j2y_mk} 
+## Notes  
 
 -   If the variable in argumentvariablehas not been declared, the action creates it as a global.
 -   If the variable argument is left empty, TestArchitect supplies a global variable with the name \_result.

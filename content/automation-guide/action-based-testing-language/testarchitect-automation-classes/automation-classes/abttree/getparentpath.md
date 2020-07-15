@@ -12,11 +12,11 @@ keywords: "methods of abt, GetParentPath, GetParentPath (AbtTree), AbtTree, getp
 
 `string GetParentPath (string nodepath)`
 
-## Description {{< permerlink >}} {#abt_GetParentPath__section.desc} 
+## Description  
 
 Return the node path of the parent node of a specified tree node.
 
-## Parameters {{< permerlink >}} {#abt_GetParentPath__section.params} 
+## Parameters  
 
 -   **nodepath**
 
@@ -27,7 +27,7 @@ Return the node path of the parent node of a specified tree node.
     -   A string containing all node texts separated by forward slashes \( / \).
     -   A string containing all node indexes separated by forward slashes \( / \).
 
-## Return Value {{< permerlink >}} {#abt_GetParentPath__section.return} 
+## Return Value  
 
 A string value indicating the parent node path.
 

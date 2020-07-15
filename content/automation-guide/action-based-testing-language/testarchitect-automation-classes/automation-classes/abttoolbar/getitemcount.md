@@ -12,7 +12,7 @@ keywords: "methods of abt, GetItemCount, GetItemCount (AbtToolBar), AbtToolBar, 
 
 `int GetItemCount()`
 
-## Description {{< permerlink >}} {#abt_GetItemCount_toolbar__section.desc} 
+## Description  
 
 Return the number of items in the toolbar control.
 

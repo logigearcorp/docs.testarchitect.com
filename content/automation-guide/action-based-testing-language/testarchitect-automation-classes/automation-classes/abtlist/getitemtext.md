@@ -12,11 +12,11 @@ keywords: "methods of abt, GetItemText, GetItemText (AbtList), AbtList, getitemt
 
 `string GetItemText(int index)`
 
-## Description {{< permerlink >}} {#abt_GetItemText_list__section.desc} 
+## Description  
 
 Retrieve the text content ofthe item specified by its index within thelist control.
 
-## Parameters {{< permerlink >}} {#abt_GetItemText_list__section.params} 
+## Parameters  
 
 -   **index**
 

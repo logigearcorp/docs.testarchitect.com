@@ -20,7 +20,7 @@ There are no arguments for this action.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes {{< permerlink >}} {#bia_continue__notes_else} 
+## Notes  
 
 -   Applies to TestArchitect [8.3 Update 5](/user-guide/version-history/features-added-to-testarchitect-8-3-update-5/) and higher.
 -   The continue built-in action gives you the option to skip over the part of a loop where an external condition is triggered, but to go on to complete the rest of the loop. That is, the current iteration of the loop will be skipped, but the test run will return to the top of the loop.

@@ -23,7 +23,7 @@ Click a specified button in a prompt, alert, or confirmation popup.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes {{< permerlink >}} {#bia_click_on_next_popup__section.notes} 
+## Notes  
 
 -   Prior to using this built-in action, it is recommended that you become familiar with the different kinds of modal JavaScript popups and how to handle them properly.
     -   For Safari

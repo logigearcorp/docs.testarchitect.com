@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, check json query result, check json query result (action), check json query, json query check"
 ---
 
-## Description {{< permerlink >}} {#bia_check_json_query_result__section_iyg_dsd_1y} 
+## Description  
 
 Check a JSON query result against an expected string. The result is Passed if the strings match; otherwise it is Failed.
 
-## Arguments {{< permerlink >}} {#bia_check_json_query_result__section_jyg_dsd_1y} 
+## Arguments  
 
 -   **json**
 
@@ -27,11 +27,11 @@ Check a JSON query result against an expected string. The result is Passed if th
     \(Optional\) Expected query result.
 
 
-## Valid contexts {{< permerlink >}} {#bia_check_json_query_result__section_kyg_dsd_1y} 
+## Valid contexts  
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes {{< permerlink >}} {#bia_check_json_query_result__section_lyg_dsd_1y} 
+## Notes  
 
 -   JSONPath of REST Assured, a Java framework for simplifying testing of REST based services and currently employed in TestArchitect, uses [Groovy GPath](https://blog.jayway.com/2013/04/12/whats-new-in-rest-assured-1-8/) expressions. A tutorial on GPath is beyond the scope of this help system. For more information on GPath, you can refer to this [site](http://groovy-lang.org/processing-xml.html#_gpath).
 -   An empty expected argument results in Pass if the returned JSON is indeed empty; otherwise Fail.
@@ -45,7 +45,7 @@ This action may be used within the following project items:test modules and user
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Example {{< permerlink >}} {#bia_check_json_query_result__section_pyg_dsd_1y} 
+## Example  
 
 Given the following JSON document:
 

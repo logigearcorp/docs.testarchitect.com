@@ -44,7 +44,7 @@ TestArchitect defines its own set of properties, named [TA properties](/user-gui
 
 ![](/images/TA_Automation/Images/ug_interface_definition_TA_Native_properties.png)
 
-## The UIA Support tool {{< permerlink >}} {#concept_lpj_vbw_xn__sect.uia_support_tool} 
+## The UIA Support tool  
 
 TestArchitect can work with UI controls that are exposed by Microsoft's UI Automation \(UIA\) technology. TestArchitect includes a special tool, UIA Support, that provides support for Microsoft UIA. This tool is used to obtain the properties of a WPF application’s UI controls. \(See [Microsoft UI Automation](/automation-guide/microsoft-ui-automation/) for further information.\)
 

@@ -12,18 +12,18 @@ keywords: "methods of abt, DeselectRow, DeselectRow (AbtTable), AbtTable, desele
 
 `long deselectRow(int rowIndex)`
 
-## Description {{< permerlink >}} {#abt_DeselectRow__section.desc} 
+## Description  
 
 If the specified row of the table is selected, deselect it.
 
-## Parameters {{< permerlink >}} {#abt_DeselectRow__section.params} 
+## Parameters  
 
 -   **rowIndex**
 
     Integer value specifying row indexNote that index numbering begins with 1.
 
 
-## Return Value {{< permerlink >}} {#abt_DeselectRow__section.return} 
+## Return Value  
 
 Return 0 if the call is successful; otherwise, -1.
 

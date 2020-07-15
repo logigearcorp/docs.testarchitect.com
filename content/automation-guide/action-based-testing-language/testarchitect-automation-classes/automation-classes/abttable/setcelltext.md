@@ -12,11 +12,11 @@ keywords: "methods of abt, SetCellText, SetCellText (AbtTable), AbtTable, setcel
 
 `long setCellText(int rowIndex, int columnIndex, string cellText)`
 
-## Description {{< permerlink >}} {#abt_SetCellText__section.desc} 
+## Description  
 
 Set the contents of a table cell to the specified text data.
 
-## Parameters {{< permerlink >}} {#abt_SetCellText__section.params} 
+## Parameters  
 
 -   **rowIndex**
 
@@ -31,7 +31,7 @@ Set the contents of a table cell to the specified text data.
     String value specifying the cell content to set.
 
 
-## Return Value {{< permerlink >}} {#abt_SetCellText__section.return} 
+## Return Value  
 
 Return 0 if the call is successful; otherwise, -1.
 

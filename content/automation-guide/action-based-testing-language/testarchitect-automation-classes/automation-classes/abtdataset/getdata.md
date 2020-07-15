@@ -8,15 +8,15 @@ aliases:
 keywords: "methods of abt, GetData, GetData (AbtDataSet), AbtDataSet, get data rows based on criteria, filter data"
 ---
 
-## Syntax {{< permerlink >}} {#reference_pmp_gbw_gq__section.syntax} 
+## Syntax  
 
 `List <{{<link title="AbtDataRow" link="/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdatarow" >}}> GetData(string filterCriteria)`
 
-## Description {{< permerlink >}} {#reference_pmp_gbw_gq__section.desc} 
+## Description  
 
 Retrieve from the data set object the list of data rows that satisfy the specified filter criteria.
 
-## Parameters {{< permerlink >}} {#reference_pmp_gbw_gq__section.params} 
+## Parameters  
 
 -   **filterCriteria**
 

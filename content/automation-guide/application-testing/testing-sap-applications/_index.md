@@ -10,7 +10,7 @@ keywords: "SAP, Integration"
 
 SAP Business Warehouse is a powerful business tool for managing data. TestArchitect can now automate SAP BW applications.
 
-## Fully support SAP controls {{< permerlink >}} {#aut_docker_supported_features___section_cpp_vjq_fkb} 
+## Fully support SAP controls  
 
 Now, TestArchitect has complete support for 21 SAP BW controls.
 
@@ -38,7 +38,7 @@ Now, TestArchitect has complete support for 21 SAP BW controls.
 |GuiTree TreeTableView|treetable|
 |GuiTree TreeListView|treelist|
 
-## Built-In Actions {{< permerlink >}} {#aut_docker_supported_features___section_pct_xjq_fkb} 
+## Built-In Actions  
 
 SAP BW has specific controls such as tree lists and tree tables. We've added new Built-In Actions for interacting with these controls.
 

@@ -12,7 +12,7 @@ keywords: "methods of abt, Focus, Focus (AbtElement), AbtElement, focus, abtelem
 
 `long Focus()`
 
-## Description {{< permerlink >}} {#abt_Focus_element__section.desc} 
+## Description  
 
 Apply input focus to the element.
 

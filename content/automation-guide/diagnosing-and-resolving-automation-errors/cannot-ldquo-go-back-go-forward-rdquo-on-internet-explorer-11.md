@@ -8,7 +8,7 @@ aliases:
 keywords: "automation errors, 0x80020010L"
 ---
 
-## Scenario 1: {{< permerlink >}} {#reference_0x80020010L__section_rcd_yvw_fhb} 
+## Scenario 1:  
 
 1. Open Internet Explorer 11 and navigate following steps:
 
@@ -16,7 +16,7 @@ keywords: "automation errors, 0x80020010L"
 
 2. Using action go back to return previous page.
 
-## Scenario 2: {{< permerlink >}} {#reference_0x80020010L__section_ptd_kww_fhb} 
+## Scenario 2:  
 
 1. Open Internet Explorer 11 and navigate following steps:
 
@@ -24,15 +24,15 @@ keywords: "automation errors, 0x80020010L"
 
 2. Using action go forward to move to next page.
 
-## Result: {{< permerlink >}} {#reference_0x80020010L__section_fj2_tww_fhb} 
+## Result:  
 
 Action "go back/go forward" does not effected. The journey still stuck in the current page.
 
-## Problem: {{< permerlink >}} {#reference_0x80020010L__section_d3r_www_fhb} 
+## Problem:  
 
 The browser setting is "off", TestArchitect actions are not work without run as administrator.
 
-## Solution: {{< permerlink >}} {#reference_0x80020010L__section_qtf_hxw_fhb} 
+## Solution:  
 
 User need to start TestArchitect controller with administrator.
 

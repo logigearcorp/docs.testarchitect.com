@@ -29,7 +29,7 @@ You can store test results across multiple locations as an alternative to a cent
         {{<note>}} The hierarchical tree only shows the structure of the mapped folder. You have to double-click on folder to view list of results in grid view.
 
 
-## Edit mapped folders {{< permerlink >}} {#Test_result_distributed_storage__section_abm_fsg_jhb} 
+## Edit mapped folders  
 
 In the TestArchitect explorer tree,
 
@@ -40,11 +40,11 @@ In the TestArchitect explorer tree,
 -   Click the Browse ![](/images/TA_Help/Images/Browse_btn.png) button next to the **Select a folder** box to locate the new directory.
 -   Click **Save** button
 
-## Disconnect from a result folder {{< permerlink >}} {#Test_result_distributed_storage__section_tnx_lmg_mgb} 
+## Disconnect from a result folder  
 
 In the TestArchitect explorer tree, right-click the mapped folder from which you want to disconnect. Select **Disconnect** from the context menu.
 
-## Add a test result/result sub-folder to the repository {{< permerlink >}} {#Test_result_distributed_storage__section_kn5_j4g_mgb} 
+## Add a test result/result sub-folder to the repository  
 
 1.  In the TestArchitect explorer tree, right-click the preferred result or sub-folder in the mapped folder. Next, select **Add to Repository** from the context menu.
 2.  In the **Select a Destination** dialog box, browse to the location where you want to place the result/sub-folder, and then click the **OK** button.

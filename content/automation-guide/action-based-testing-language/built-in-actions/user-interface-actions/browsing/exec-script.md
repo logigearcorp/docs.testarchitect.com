@@ -78,7 +78,7 @@ Effect
 
 ![](/images/TA_Automation/Images/bia_exec_script_aut.png)
 
-## Example - Case 2: Retrieving a return value {{< permerlink >}} {#bia_exec_script__section_wqh_swr_sbb} 
+## Example - Case 2: Retrieving a return value  
 
 Suppose that you would like to get a value returned from the following snippet of JavaScript code.
 

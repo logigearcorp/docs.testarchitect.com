@@ -8,16 +8,16 @@ aliases:
 keywords: 
 ---
 
-## Description {{< permerlink >}} {#menu_interact_type__section_qwb_kkc_ggb} 
+## Description  
 
 Specifies which mouse action \(click or hover\) to take on each middle-level menu item.
 
-## Allowable values {{< permerlink >}} {#menu_interact_type__section_hmq_kmc_ggb} 
+## Allowable values  
 
 -   click: \(Default\) click menu items of all levels.
 -   hover: point to \(hover\) menu items of middle levels and click the menu items of the top and last levels
 
-## Applicable Systems/Platforms {{< permerlink >}} {#menu_interact_type__section_ss4_rrc_ggb} 
+## Applicable Systems/Platforms  
 
 This built-in setting is supported on the following systems/platforms:
 
@@ -26,7 +26,7 @@ This built-in setting is supported on the following systems/platforms:
 -   UIA
 -   Winform
 
-## Applicable Built-in Actions {{< permerlink >}} {#menu_interact_type__section_pvm_vrc_ggb} 
+## Applicable Built-in Actions  
 
 Use of this built-in setting is applicable to the following built-in actions:
 
@@ -54,7 +54,7 @@ Use of this built-in setting is applicable to the following built-in actions:
 -   [select tree node menu](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-view/select-tree-node-menu)
 -   [check tree node menu state](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-view/check-tree-node-menu-state)
 
-## Notes {{< permerlink >}} {#menu_interact_type__section_tvs_vc4_fgb} 
+## Notes  
 
 -   Valid range is from 0 to 2,147,483,647 milliseconds.
 -   Support both menu and context menu on:
@@ -65,7 +65,7 @@ Use of this built-in setting is applicable to the following built-in actions:
 -   Only support menu on:
     -   WPF
 
-## Example {{< permerlink >}} {#menu_interact_type__section_w2l_xqd_ggb} 
+## Example  
 
 ![](/images/TA_Automation/Images/bis_menu_interact_type_illustration.png)
 

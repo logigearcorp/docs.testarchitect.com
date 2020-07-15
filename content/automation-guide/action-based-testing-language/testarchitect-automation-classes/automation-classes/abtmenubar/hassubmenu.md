@@ -12,18 +12,18 @@ keywords: "methods of abt, HasSubMenu, HasSubMenu (AbtMenuBar), AbtMenuBar, hass
 
 `Boolean HasSubMenu(string itemPath)`
 
-## Description {{< permerlink >}} {#abt_HasSubMenu__section.desc} 
+## Description  
 
 Determine whether or not a menu item has any submenus.
 
-## Parameters {{< permerlink >}} {#abt_HasSubMenu__section.params} 
+## Parameters  
 
 -   **itemPath**
 
     String specifying the path to the menu item. \(Use arrow symbols \( -\> \) as delimiters between menu items.\)
 
 
-## Return Value {{< permerlink >}} {#abt_HasSubMenu__section.return} 
+## Return Value  
 
 Return TRUE ifthe menu item has a submenu; otherwise, FALSE.
 

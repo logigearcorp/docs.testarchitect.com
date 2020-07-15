@@ -23,7 +23,7 @@ Check that a specified process is running on a mobile device. Result is Passed i
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes {{< permerlink >}} {#bia_check_process_running__section.notes} 
+## Notes  
 
 -   This built-in action applies only to the Android operating system.
 -   process argument:

@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, add http parameter, add http parameter (action), add http parameter, add parameter to http get request, add get parameter to url, add url parameter"
 ---
 
-## Description {{< permerlink >}} {#reference_t5m_mt3_zx__section_iyg_dsd_1y} 
+## Description  
 
 Add a parameter including a pair of name/value to a GET request. Note that, this parameter will be added to the query string in the requester URL. For example: http://example.com/reseource/path/search?name=value
 
-## Arguments {{< permerlink >}} {#reference_t5m_mt3_zx__section_jyg_dsd_1y} 
+## Arguments  
 
 -   **key**
 
@@ -23,11 +23,11 @@ Add a parameter including a pair of name/value to a GET request. Note that, this
     \(Optional\) Value of the parameter
 
 
-## Valid contexts {{< permerlink >}} {#reference_t5m_mt3_zx__section_kyg_dsd_1y} 
+## Valid contexts  
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes {{< permerlink >}} {#reference_t5m_mt3_zx__section_lyg_dsd_1y} 
+## Notes  
 
 -   An HTTP request must be instantiated via [create http request](/automation-guide/action-based-testing-language/built-in-actions/system-actions/web-services/create-http-request) before calling this built-in action.
 -   To add multiple value parameters into the URI of the GET request, in your test procedures declare several add http parameter. These name/value pairs are joined with equal signs and different pairs are separated by the ampersand. For example: /test/demo\_form.asp?name1=value1&name2=value2.
@@ -38,7 +38,7 @@ This action may be used within the following project items:test modules and user
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Example {{< permerlink >}} {#reference_t5m_mt3_zx__section_pyg_dsd_1y} 
+## Example  
 
 Action Lines
 

@@ -61,7 +61,7 @@ Enhancements to existing features
             -   [exportFromPath\(\)](https://www.testarchitect.com/OnlineHelp/TAUtilities/com/testarchitect/Project.html#exportFromPath-java.lang.String-java.lang.String-java.lang.String-boolean-): Export a specific project item, identified by its TA path, to a file.
             -   [exportFromId\(\)](https://www.testarchitect.com/OnlineHelp/TAUtilities/com/testarchitect/Project.html#exportFromId-java.lang.String-java.lang.String-java.lang.String-boolean-): Export a specific project item, identified by its TestArchitect ID, to a file.
 
-## TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.3_Windows_update_2__section_p2c_51b_cs} 
+## TestArchitect Automation  
 
 New features
 

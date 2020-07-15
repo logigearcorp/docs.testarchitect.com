@@ -12,18 +12,18 @@ keywords: "methods of abt, SelectRow, SelectRow (AbtTable), AbtTable, selectrow,
 
 `long selectRow(int rowIndex)`
 
-## Description {{< permerlink >}} {#abt_SelectRow__section.desc} 
+## Description  
 
 Select the specified row of the table.
 
-## Parameters {{< permerlink >}} {#abt_SelectRow__section.params} 
+## Parameters  
 
 -   **rowIndex**
 
     Integer value specifying row indexwithin the table control. Note that index numbering begins with 1.
 
 
-## Return Value {{< permerlink >}} {#abt_SelectRow__section.return} 
+## Return Value  
 
 Return 0 if the call is successful; otherwise, -1..
 

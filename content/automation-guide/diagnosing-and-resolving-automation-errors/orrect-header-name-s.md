@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80010016L"
 
 Error code: 0x80010016L
 
-## Problem {{< permerlink >}} {#reference_0x80010016L__section_prob} 
+## Problem  
 
 This happens because the original argument header of a built-in action is renamed or changed.
 
-## Solution {{< permerlink >}} {#reference_0x80010016L__section_sol} 
+## Solution  
 
 You might try the following ways:
 

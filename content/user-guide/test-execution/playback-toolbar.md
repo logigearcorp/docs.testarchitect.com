@@ -53,7 +53,7 @@ The playback controller contains of the following items:
 
 {{<restriction>}} Keyboard shortcuts for the playback toolbar are not supported on the Linux platform. For the full list of TestArchitect-supported keyboard shortcuts, refer to the [Table of keyboard shortcuts](/user-guide/support/table-of-keyboard-shortcuts).
 
-## Naming convention for harnesses {{< permerlink >}} {#Test_exec_playback_toolbar__harness_name} 
+## Naming convention for harnesses  
 
 The name of a harness is formed by combining the result name with the timestamp and request ID:
 

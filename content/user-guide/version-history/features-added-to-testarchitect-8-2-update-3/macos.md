@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
 
-## TestArchitect Automation {{< permerlink >}} {#concept_a3y_tkw_vp__section_p2c_51b_cs} 
+## TestArchitect Automation  
 
 -   Mobile testing:
     -   Support for mobile apps testing on [iOS 9.x](/automation-guide/application-testing/mobile-testing/testing-mobile-applications/ios-automation/#row.iOS_version)

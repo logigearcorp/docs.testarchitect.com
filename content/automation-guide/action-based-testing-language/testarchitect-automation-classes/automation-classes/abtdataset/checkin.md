@@ -8,15 +8,15 @@ aliases:
 keywords: "methods of abt, CheckIn, CheckIn (AbtDataSet), AbtDataSet, checkin, abtdataset checkin, check in data set, check in data set to repository"
 ---
 
-## Syntax {{< permerlink >}} {#abt_CheckIn_dataset__section.syntax} 
+## Syntax  
 
 `integer CheckIn(String path, Boolean keepCheckedOut, String comment)`
 
-## Description {{< permerlink >}} {#abt_CheckIn_dataset__section.desc} 
+## Description  
 
 Check in a given data set to the repository.
 
-## Parameters {{< permerlink >}} {#abt_CheckIn_dataset__section.params} 
+## Parameters  
 
 -   **path**
 

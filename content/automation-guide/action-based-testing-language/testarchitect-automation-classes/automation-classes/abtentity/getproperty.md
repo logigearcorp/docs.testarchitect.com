@@ -12,18 +12,18 @@ keywords: "methods of abt, GetProperty, GetProperty (AbtEntity), AbtEntity, getp
 
 `string GetProperty(string propertyName)`
 
-## Description {{< permerlink >}} {#abt_GetProperty_entity__section.desc} 
+## Description  
 
 Retrieve the value of a specified property of the window.
 
-## Parameters {{< permerlink >}} {#abt_GetProperty_entity__section.params} 
+## Parameters  
 
 -   **propertyName**
 
     String specifying the name of the property to retrieve.
 
 
-## Return Value {{< permerlink >}} {#abt_GetProperty_entity__section.return} 
+## Return Value  
 
 String specifying the value of the property; if the property is not found, an empty string is returned.
 

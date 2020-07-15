@@ -12,15 +12,15 @@ keywords: "methods of abt, DeselectAll, DeselectAll (AbtList), AbtList, deselect
 
 `long DeselectAll()`
 
-## Description {{< permerlink >}} {#abt_DeselectAll__section.desc} 
+## Description  
 
 Deselect all items in the list.
 
-## Return Value {{< permerlink >}} {#abt_DeselectAll__section.return} 
+## Return Value  
 
 Return 0 if the call is successful; otherwise, -1..
 
-## Notes {{< permerlink >}} {#abt_DeselectAll__section.notes} 
+## Notes  
 
 -   This method is applicable to both ListBox and ListView controls.
 -   This method can be applied only to lists that allow multiple selection.

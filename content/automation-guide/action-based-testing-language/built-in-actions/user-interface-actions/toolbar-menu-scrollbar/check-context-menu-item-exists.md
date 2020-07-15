@@ -39,7 +39,7 @@ Check for the existence of an item on a context menu. Result is Passed ifthe spe
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes {{< permerlink >}} {#bia_check_context_menu_item_exists__section.notes} 
+## Notes  
 
 -   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/automation-guide/action-based-testing-language/built-in-actions/system-actions/operating-system/get-screen-resolution#li.ios.get_screen_resolution).\)
 -   item argument:

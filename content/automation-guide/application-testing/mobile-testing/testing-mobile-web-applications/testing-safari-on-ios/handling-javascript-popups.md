@@ -35,7 +35,7 @@ The following TestArchitect built-in actions are provided to both scan and handl
 
 You will need to stop the execution and debug the test.
 
-## Handling one or a series of popups {{< permerlink >}} {#concept_obs_4pq_vp__section_iv1_x5x_vp} 
+## Handling one or a series of popups  
 
 Your test of a web application running under Safari iOS may trigger a single popup or a sequence of popups. It is important to understand how TestArchitect handles such popups, and how the popup-directed actions work, so that you can construct your tests properly.
 
@@ -83,7 +83,7 @@ Your test of a web application running under Safari iOS may trigger a single pop
 
 {{<tip>}} As a matter of best practice, it is suggested that you place all the popup-handling actions for a given popup session at the beginning of the session. At the least, this will help ensure that the invocation of popups never “gets ahead” of the sequence of handlers. Remember, a popup handler action must always be invoked *before* its corresponding popup window; once a popup window is launched, it is too late to invoke its handler.
 
-## Session termination {{< permerlink >}} {#concept_obs_4pq_vp__section.Session_termination} 
+## Session termination  
 
 The built-in clear popup queue action \(discussed above\) is the one explicit means of ending a popup session, but a number of other events also have the same effect. You need to be aware of these, and take them into account when using popup-directed actions, to ensure that the popup history buffer expected by an action still exists. Each of the following events closes out a popup session, clearing out the popup history buffer, as well as the popup-handler queue:
 
@@ -94,7 +94,7 @@ The built-in clear popup queue action \(discussed above\) is the one explicit me
 
 {{<note>}} In the event of an unexpected TestArchitect crash, information in either the history buffer or popup-handler queue may not be cleared out. It is recommended, therefore, that you always initialize your test with a clear popup queue action \(or one of the above events\) prior to starting any popup sessions.
 
-## Example {{< permerlink >}} {#concept_obs_4pq_vp__section.JS_example} 
+## Example  
 
 Suppose that you are testing a web page on Safari with the following scenario:
 

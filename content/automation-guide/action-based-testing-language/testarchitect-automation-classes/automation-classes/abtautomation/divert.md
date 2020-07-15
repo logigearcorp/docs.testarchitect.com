@@ -8,22 +8,22 @@ aliases:
 keywords: "methods of abt, Divert, Divert (AbtAutomation), AbtAutomation, divert, abtautomation divert, direct harness action to implementation class"
 ---
 
-## Syntax {{< permerlink >}} {#abt_Divert__section.syntax} 
+## Syntax  
 
 `void divert (string actionName)`
 
-## Description {{< permerlink >}} {#abt_Divert__section.desc} 
+## Description  
 
 Directs a call to a [user-scripted action](/testarchitect-tutorial/part-3-extending-testarchitect/lesson-8-using-an-automation-harness/invoking-a-user-scripted-action) \(a harness action\), to the method/function that implements the action.
 
-## Parameters {{< permerlink >}} {#abt_Divert__section.params} 
+## Parameters  
 
 -   **actionName**
 
     Name of the user-scripted action.
 
 
-## Return Value {{< permerlink >}} {#abt_Divert__section.return} 
+## Return Value  
 
 There are no returned values for this function.
 

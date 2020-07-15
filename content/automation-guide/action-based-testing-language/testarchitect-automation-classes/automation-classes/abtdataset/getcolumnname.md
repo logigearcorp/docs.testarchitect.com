@@ -12,11 +12,11 @@ keywords: "methods of abt, GetColumnName, GetColumnName (AbtDataSet), AbtDataSet
 
 `String GetColumnName(int index)`
 
-## Description {{< permerlink >}} {#reference_acx_fbw_gq__section.desc} 
+## Description  
 
 Retrieve the header name of the specified column of the object.
 
-## Parameters {{< permerlink >}} {#reference_acx_fbw_gq__section.params} 
+## Parameters  
 
 -   **index**
 

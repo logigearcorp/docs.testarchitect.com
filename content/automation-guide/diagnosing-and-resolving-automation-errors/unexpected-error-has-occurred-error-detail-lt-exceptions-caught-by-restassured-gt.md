@@ -10,11 +10,11 @@ keywords: "automation errors, 0x80017003L"
 
 Error code: 0x80017003L
 
-## Problem {{< permerlink >}} {#reference_0x80017003L__section_um5_jvb_2y} 
+## Problem  
 
 This issue occurs when an exception, which is not recognized by TestArchitect, is thrown by [RestAssured](http://rest-assured.io/). This error is returned from the tested web service.
 
-## Solution {{< permerlink >}} {#reference_0x80017003L__section_vm5_jvb_2y} 
+## Solution  
 
 Since there are various exception types caught by RestAssured, please seek TestArchitect Support at [support@logigear.com](mailto:support@logigear.com)
 

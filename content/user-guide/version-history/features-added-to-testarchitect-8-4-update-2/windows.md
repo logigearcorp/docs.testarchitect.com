@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be the same version.
 
-## TestArchitect Client {{< permerlink >}} {#Whats_New_Windows__section.TAC} 
+## TestArchitect Client  
 
 New features
 
@@ -23,7 +23,7 @@ New features
 -   Ability to configure the [number of retries for a failed connection](/administration-guide/connections/connection-retry-configuration) which the TestArchitect Controller establishes to a repository server. This helps users deal with an unstable network efficiently.
 -   **[Users are prevented from changing the values of user-defined fields used in test results](/user-guide/working-with-test-results/)**. If you adjust the value of a user-defined field on the **Information** tab of a test module, it will not take effect on the test result of this module. The test result will still adopt the default value.
 
-## TestArchitect Automation {{< permerlink >}} {#Whats_New_Windows__section.Auto} 
+## TestArchitect Automation  
 
 New features
 
@@ -38,11 +38,11 @@ Enhancements to existing features
 
 -   Support for [Chrome 70](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/) and [Firefox 63](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/): Now you can run automated tests for web pages displayed in the latest versions of Chrome and Firefox.
 
-## Repository Server {{< permerlink >}} {#Whats_New_Windows__section_yht_rqp_yfb} 
+## Repository Server  
 
 -   Ability to configure the **[connection backlog size](/administration-guide/repository-server-management/configuring-connection-backlog-size-for-a-repository-server)** for a repository server – allows users to specify the maximum size of the queue used for holding pending connections to a repository server.
 
-## Known Issues {{< permerlink >}} {#Whats_New_Windows__section_wrh_brp_yfb} 
+## Known Issues  
 
 -   The repository memory is leaked after an enormous number of nodes connect to and interact with the repository server. A typical case is that 3 JPPF servers submit 13000 jobs to 72 nodes, and test results are sent to a repository server; as a result, memory leak occurs.
 

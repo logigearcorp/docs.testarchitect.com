@@ -12,11 +12,11 @@ keywords: "methods of abt, WaitForProperty, WaitForProperty (AbtEntity), AbtEnti
 
 `Boolean WaitForProperty(string propertyName, string propertyValue, long timeOut)`
 
-## Description {{< permerlink >}} {#abt_WaitForProperty_entity__section.desc} 
+## Description  
 
 Wait until the given window property achieves the specified value or exceeds the specified timeout before continuing to the next action.
 
-## Parameters {{< permerlink >}} {#abt_WaitForProperty_entity__section.params} 
+## Parameters  
 
 -   **propertyName**
 

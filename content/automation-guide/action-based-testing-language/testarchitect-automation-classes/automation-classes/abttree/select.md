@@ -12,11 +12,11 @@ keywords: "methods of abt, Select, Select (AbtTree), AbtTree, abttree select, se
 
 `long Select(string nodepath)`
 
-## Description {{< permerlink >}} {#abt_Select_tree__section.desc} 
+## Description  
 
 Select a node from the TreeView control based on its node path.
 
-## Parameters {{< permerlink >}} {#abt_Select_tree__section.params} 
+## Parameters  
 
 -   **nodepath**
 
@@ -27,7 +27,7 @@ Select a node from the TreeView control based on its node path.
     -   A string containing all node texts separated by forward slashes \( / \).
     -   A string containing all node indexes separated by forward slashes \( / \).
 
-## Return Value {{< permerlink >}} {#abt_Select_tree__section.return} 
+## Return Value  
 
 Return 0 if the call is successful; otherwise, -1..
 

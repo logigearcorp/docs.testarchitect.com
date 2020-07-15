@@ -12,11 +12,11 @@ keywords: "methods of abt, Click, Click (AbtButton), AbtButton, click, abtbutton
 
 `long Click(TAMouseClickType mouseType)`
 
-## Description {{< permerlink >}} {#abt_Click_button__section.desc} 
+## Description  
 
 Apply a mouse click to thebutton control.
 
-## Parameters {{< permerlink >}} {#abt_Click_button__section.params} 
+## Parameters  
 
 -   **mouseType**
 

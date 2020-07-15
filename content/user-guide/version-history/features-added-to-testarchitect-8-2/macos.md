@@ -44,7 +44,7 @@ Enhancements to existing features
 -   New UI for the [Version History](/user-guide/projects-and-project-items/project-items/revision-control/revision-history/) dialog box.
 -   [Support for Context-sensitive help](/using-the-testarchitect-help-system/getting-help) of [**built-in settings**](/automation-guide/action-based-testing-language/built-in-settings/): Positioning your cell pointer over a built-in setting in the test editor and pressing F1 opens TestArchitect Help with the associated reference topic displayed.
 
-## TestArchitect Automation {{< permerlink >}} {#concept_a3y_tkw_vp__section_p2c_51b_cs} 
+## TestArchitect Automation  
 
 -   Support for automation on [Safari](/automation-guide/application-testing/testing-web-and-ria-applications/testing-web-applications/#li_pbz_fkq_js) running on macOS machines – Beta version: TestArchitect now supports recognition of UI web controls in Safari, allowing you to carry out testing of web applications running on Safari.
 -   Support for escape sequences during string processing: A new built-in setting, [escape sequences](/automation-guide/action-based-testing-language/built-in-settings/value-settings/escape-sequences), allows this functionality to be enabled or turned off.

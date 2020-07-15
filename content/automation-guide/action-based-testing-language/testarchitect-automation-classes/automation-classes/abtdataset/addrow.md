@@ -12,11 +12,11 @@ keywords: "methods of abt, AddRow, AddRow (AbtDataSet), AbtDataSet, addrow, abtd
 
 `int AddRow({{<link title="AbtDataRow" link="/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtdatarow/" >}} row)`
 
-## Description {{< permerlink >}} {#reference_z2y_cbw_gq__section.desc} 
+## Description  
 
 Append a new row to the data set object.
 
-## Parameters {{< permerlink >}} {#reference_z2y_cbw_gq__section.params} 
+## Parameters  
 
 -   **row**
 

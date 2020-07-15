@@ -27,7 +27,7 @@ Set the orientation of the device's screen to portrait or landscape.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms {{< permerlink >}} {#bia_set_screen_orientation__section_jfp_ncl_zcb} 
+## Applicable Systems/Platforms  
 
 Use of this action is supported on the following systems/platforms: Mobile operating systems.
 

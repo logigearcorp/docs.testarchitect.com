@@ -23,7 +23,7 @@ The following new features and improvements are introduced in TestArchitect vers
 
 -   [Variation for test modules](/user-guide/tests/creating-a-test-module-variation): Project item variation is now supported for test modules, enhancing modularity by limiting test changes to applicable sections, while allowing your test to otherwise remain intact from one version to the next.
 
-## TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.1_U4_Wins__section_p2c_51b_cs} 
+## TestArchitect Automation  
 
 -   New built-in actions for data sets:
     -   [add data set column](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/add-data-set-column): Append new column\(s\) to a data set.

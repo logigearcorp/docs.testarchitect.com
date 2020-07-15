@@ -60,7 +60,7 @@ The following table describes shortcuts used when working with item tabs.
 |Go to item tab to the right|Ctrl + Tab|N/A|Ctrl + Tab|
 |Go to item tab to the left|Ctrl + Shift + Tab|N/A|Ctrl + Shift + Tab|
 
-## Cell pointer navigation {{< permerlink >}} {#Support_Hotkeys_list__section.test_editor.navigation} 
+## Cell pointer navigation  
 
 The following table describes shortcuts used to navigate cell pointer in a test editor.
 

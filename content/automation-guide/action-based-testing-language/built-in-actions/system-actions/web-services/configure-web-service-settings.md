@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, configure web service settings, configure web service settings (action), configure web service settings, web service settings, web service configuration, configure web service, web service configuration settings"
 ---
 
-## Description {{< permerlink >}} {#bia_configure_web_service_settings__section_iyg_dsd_1y} 
+## Description  
 
 Send JSON string request to a web service in order to apply new configuration settings.
 
-## Arguments {{< permerlink >}} {#bia_configure_web_service_settings__section_jyg_dsd_1y} 
+## Arguments  
 
 -   **values**
 
@@ -45,11 +45,11 @@ Send JSON string request to a web service in order to apply new configuration se
     Note that you can learn more about JSON syntax [here](http://www.w3schools.com/js/js_json_syntax.asp).
 
 
-## Valid contexts {{< permerlink >}} {#bia_configure_web_service_settings__section_kyg_dsd_1y} 
+## Valid contexts  
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes {{< permerlink >}} {#bia_configure_web_service_settings__section_lyg_dsd_1y} 
+## Notes  
 
 -   It is required that you declare configure web service settings with its configurations, before using the [create http request](/automation-guide/action-based-testing-language/built-in-actions/system-actions/web-services/create-http-request) built-in action.
 -   For a full list of web service's configurations, supported by TestArchitect, see "Supported web service's configurations" below.

@@ -12,7 +12,7 @@ keywords: "methods of abt, GetName, GetName (AbtElement), AbtElement, getname, a
 
 `string GetName()`
 
-## Description {{< permerlink >}} {#abt_GetName__section.desc} 
+## Description  
 
 Retrieve the name of the element object.
 

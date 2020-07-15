@@ -43,7 +43,7 @@ When searching for words in Help topics, you can specify that each occurrence of
 -   On the help viewer’s toolbar, click the Option \(![](/images/TA_UsingHelpSystem/Images/btn_option.png)\) button and then click **Search Highlight On** to highlight all instances of the word or phrase.
 -   On the help viewer’s toolbar, click the Option \(![](/images/TA_UsingHelpSystem/Images/btn_option.png)\) button and then click **Search Highlight Off** to turn off this feature.
 
-## Refining a full-text search {{< permerlink >}} {#concept_yrq_myb_cp__section_ffh_4nh_cp} 
+## Refining a full-text search  
 
 You can search only on the previous results list, request similar word matches, or search only the titles of topics in the table of contents.
 

@@ -35,11 +35,11 @@ Mimic concurrent taps in multiple locations within a window or control.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms {{< permerlink >}} {#bia_multi_touch_tap__section_eqr_2cl_zcb} 
+## Applicable Systems/Platforms  
 
 Use of this action is supported on the following systems/platforms: iOS.
 
-## Notes {{< permerlink >}} {#bia_multi_touch_tap__section_tll_j2y_mk} 
+## Notes  
 
 -   Built-in UI actions applied to iOS devices specify screen coordinates in points rather than pixels. \(For further details, refer to the built-in action [get screen resolution](/automation-guide/action-based-testing-language/built-in-actions/system-actions/operating-system/get-screen-resolution#li.ios.get_screen_resolution).\)
 -   If a value is provided for the control argument, coordinates of the touch arguments relate to the top left corner of the control. If control is blank, the touch arguments relate to the window. For example: to simulate two touches at locations \(20,35\) and \(45, 80\) relative to the window, omit the control argument and set touch1 to 20, 35 and touch2 to 45, 80.

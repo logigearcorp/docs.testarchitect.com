@@ -12,11 +12,11 @@ keywords: "methods of abt, GetHeaderRect, GetHeaderRect (AbtList), AbtList, geth
 
 `long GetHeaderRect(int index, TARect rect)`
 
-## Description {{< permerlink >}} {#abt_GetHeaderRect__section.desc} 
+## Description  
 
 Retrieve the bounding rectangle of the column header by its index.
 
-## Parameters {{< permerlink >}} {#abt_GetHeaderRect__section.params} 
+## Parameters  
 
 -   **index**
 
@@ -27,7 +27,7 @@ Retrieve the bounding rectangle of the column header by its index.
     Returned TARect value specifying the bounding rectangle of the column header.
 
 
-## Return Value {{< permerlink >}} {#abt_GetHeaderRect__section.return} 
+## Return Value  
 
 Return 0 if the call is successful; otherwise, -1..
 

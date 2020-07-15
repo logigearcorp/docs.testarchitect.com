@@ -12,11 +12,11 @@ keywords: "methods of abt, RemoveColumnByIndex, RemoveColumnByIndex (AbtDataSet)
 
 `int RemoveColumnByIndex(int index)`
 
-## Description {{< permerlink >}} {#reference_wfr_jbw_gq__section.desc} 
+## Description  
 
 Remove a column, specified by its index, from the data set object.
 
-## Parameters {{< permerlink >}} {#reference_wfr_jbw_gq__section.params} 
+## Parameters  
 
 -   **index**
 

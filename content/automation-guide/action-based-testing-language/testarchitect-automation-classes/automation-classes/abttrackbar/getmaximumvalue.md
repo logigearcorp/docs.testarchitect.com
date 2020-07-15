@@ -12,7 +12,7 @@ keywords: "methods of abt, GetMaximumValue, GetMaximumValue (AbtTrackBar), AbtTr
 
 `int GetMaximumValue()`
 
-## Description {{< permerlink >}} {#abt_GetMaximumValue__section.desc} 
+## Description  
 
 Retrieve the maximum value of the trackbar.
 

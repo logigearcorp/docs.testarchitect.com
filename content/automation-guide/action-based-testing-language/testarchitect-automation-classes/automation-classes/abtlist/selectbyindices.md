@@ -12,18 +12,18 @@ keywords: "methods of abt, SelectByIndices, SelectByIndices (AbtList), AbtList, 
 
 `long SelectByIndices (int[] items)`
 
-## Description {{< permerlink >}} {#abt_SelectByIndecies_list__section.desc} 
+## Description  
 
 Select multiple items in the list control, as specified by their indexes.
 
-## Parameters {{< permerlink >}} {#abt_SelectByIndecies_list__section.params} 
+## Parameters  
 
 -   **items**
 
     Array of integers, each specifying the index of an item in the list control. Note that index numbering begins with 1.
 
 
-## Return Value {{< permerlink >}} {#abt_SelectByIndecies_list__section.return} 
+## Return Value  
 
 Return 0 if the call is successful; otherwise, -1..
 

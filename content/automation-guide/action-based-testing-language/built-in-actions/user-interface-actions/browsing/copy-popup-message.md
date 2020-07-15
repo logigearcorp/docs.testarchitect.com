@@ -8,7 +8,7 @@ aliases:
 keywords: "built-in action, copy popup message"
 ---
 
-## Description {{< permerlink >}} {#bia_copy_popup_message__section_b1x_zh3_wfb} 
+## Description  
 
 Obtain the message in a popup and store it in a variable.
 
@@ -18,23 +18,23 @@ Obtain the message in a popup and store it in a variable.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Arguments {{< permerlink >}} {#bia_copy_popup_message__section_qk2_f33_wfb} 
+## Arguments  
 
 -   variable: is used to hold the message displayed in the popup.
 -   timeout: maximum time \(in seconds\) to wait for the message in the popup to be obtained.
 
-## Note {{< permerlink >}} {#bia_copy_popup_message__section_u5l_q4j_wfb} 
+## Note  
 
 copy popup message does not include the [click popup](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/browsing/click-popup) action. Hence you ought to explicitly call the click popup action following copy popup message.
 
-## Example {{< permerlink >}} {#bia_copy_popup_message__section_y51_phj_wfb} 
+## Example  
 
 You are testing a registration page.
 
 1.  When the test leaves one or two some mandatory fields blank and clicks the **Submit** button, a popup appears to show the missing required fields, for instance, "The email address is required".
 2.  In the popup, the test will obtain the message and clicks the **OK** button.
 
-## Action lines {{< permerlink >}} {#bia_copy_popup_message__section_s3k_jpj_wfb} 
+## Action lines  
 
 ![](/images/TA_Automation/Images/bia_copy_popup_message_pgm.png)
 

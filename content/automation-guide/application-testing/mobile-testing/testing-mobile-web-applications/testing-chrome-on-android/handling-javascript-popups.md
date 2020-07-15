@@ -35,7 +35,7 @@ The following TestArchitect built-in actions are provided to both scan and handl
 
 You will need to stop the execution and debug the test.
 
-## Handling one or a series of popups {{< permerlink >}} {#concept_em2_4bh_qq__section_iv1_x5x_vp} 
+## Handling one or a series of popups  
 
 Your test of a web application running under Chrome Android may trigger a single popup or a sequence of popups. It is important to understand how TestArchitect handles such popups, and how the popup-directed actions work, so that you can construct your tests properly.
 

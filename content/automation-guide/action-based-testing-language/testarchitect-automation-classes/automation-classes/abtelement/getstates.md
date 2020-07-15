@@ -12,7 +12,7 @@ keywords: "methods of abt, GetStates, GetStates (AbtElement), AbtElement, getsta
 
 `string GetStates()`
 
-## Description {{< permerlink >}} {#abt_GetStates__section.desc} 
+## Description  
 
 Retrieve all states of the element.
 

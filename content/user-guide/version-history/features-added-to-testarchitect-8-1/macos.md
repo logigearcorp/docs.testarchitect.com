@@ -52,7 +52,7 @@ Enhancements to existing features
         -   Check in an item with the Keep Checked Out option selected.
         -   Check out an item.
 
-## TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.1_Mac__section_jqm_z13_nh} 
+## TestArchitect Automation  
 
 All new TestArchitect Automation features since the previous release of TestArchitect 8 are documented in the interim updates previously published. Please refer to the Release Notes for TestArchitect 8 [update 1](/user-guide/version-history/features-added-to-testarchitect-8-update-1), [update 2](/user-guide/version-history/features-added-to-testarchitect-8-update-2), [update 3](/user-guide/version-history/features-added-to-testarchitect-8-update-3) and [update 4](/user-guide/version-history/features-added-to-testarchitect-8-update-4/macos).
 

@@ -27,7 +27,7 @@ Specifies which algorithm, OCR or GDI, is applied to recognize text produced by 
 
 OCR
 
-## Applicable Systems/Platforms {{< permerlink >}} {#bis_character_recognition_technique__section_t5m_gsg_5v} 
+## Applicable Systems/Platforms  
 
 This built-in setting is supported on the following systems/platforms:
 

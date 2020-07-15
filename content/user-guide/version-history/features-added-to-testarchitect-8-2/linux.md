@@ -44,7 +44,7 @@ Enhancements to existing features
 -   New UI for the [Version History](/user-guide/projects-and-project-items/project-items/revision-control/revision-history/) dialog box.
 -   [Support for Context-sensitive help](/using-the-testarchitect-help-system/getting-help) of [**built-in settings**](/automation-guide/action-based-testing-language/built-in-settings/): Positioning your cell pointer over a built-in setting in the test editor and pressing F1 opens TestArchitect Help with the associated reference topic displayed.
 
-## TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.1_U4_Linux__section_p2c_51b_cs} 
+## TestArchitect Automation  
 
 -   [Introduction of XPath property](/user-guide/interface-definitions/control-properties/secondary-properties/xpath-property): TestArchitect uses a special new TA property, called XPath and derived from the XPath language, to uniquely locate UI controls within tested web applications. Specifically, TestArchitect depicts the UI controls running on web applications as a hierarchical representation of elements and provides the XPath TA property for each control to uniquely identify it within that hierarchy.
 -   Support for escape sequences during string processing: A new built-in setting, [escape sequences](/automation-guide/action-based-testing-language/built-in-settings/value-settings/escape-sequences), allows this functionality to be enabled or turned off.

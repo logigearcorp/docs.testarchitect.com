@@ -8,19 +8,19 @@ aliases:
 keywords: 
 ---
 
-## Description {{< permerlink >}} {#Untitled__section_l5r_1zn_fgb} 
+## Description  
 
 Specifies the delay before clicking the next menu items.
 
-## Value Units {{< permerlink >}} {#Untitled__section_jwd_x14_fgb} 
+## Value Units  
 
 milliseconds
 
-## Default Value {{< permerlink >}} {#Untitled__section_zvs_y14_fgb} 
+## Default Value  
 
 100
 
-## Applicable Systems/Platforms {{< permerlink >}} {#Untitled__section_zfm_fb4_fgb} 
+## Applicable Systems/Platforms  
 
 This built-in setting is supported on the following systems/platforms:
 
@@ -29,7 +29,7 @@ This built-in setting is supported on the following systems/platforms:
 -   UIA
 -   Winform
 
-## Applicable Built-in Actions {{< permerlink >}} {#Untitled__section_msc_xb4_fgb} 
+## Applicable Built-in Actions  
 
 Use of this built-in setting is applicable to the following built-in actions:
 
@@ -57,7 +57,7 @@ Use of this built-in setting is applicable to the following built-in actions:
 -   [select tree node menu](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-view/select-tree-node-menu)
 -   [check tree node menu state](/automation-guide/action-based-testing-language/built-in-actions/user-interface-actions/tree-view/check-tree-node-menu-state)
 
-## Notes {{< permerlink >}} {#Untitled__section_tvs_vc4_fgb} 
+## Notes  
 
 -   Valid range is from 0 to 2,147,483,647 milliseconds.
 -   Support both menu and context menu on:
@@ -68,7 +68,7 @@ Use of this built-in setting is applicable to the following built-in actions:
 -   Only support menu on:
     -   WPF
 
-## Example {{< permerlink >}} {#Untitled__section_aww_c24_fgb} 
+## Example  
 
 ![](/images/TA_Automation/Images/bis_menu_interact_delay.png)
 

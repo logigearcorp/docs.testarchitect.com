@@ -25,7 +25,7 @@ Rules that are applied during a search include:
     -   stop words will be ignored.
     -   Specifically, to improve performance, the Search feature excludes certain stop words. For example: a, an, and, are, as, at, be, but, by, for, if, in, into, is, it, no, not, of, on, or, such, that, the, their, then, there, these, they, this, to, was, will, with.
 
-## Autocomplete suggestions {{< permerlink >}} {#concept_cj3_jv3_cp__section_r1s_31m_ndb} 
+## Autocomplete suggestions  
 
 When you are typing in the **Search** box, proposals are presented to help you to compute the search query.
 
@@ -37,7 +37,7 @@ The information proposed when you are typing is collected from:
 -   The titles collected from your documentation.
 -   Documentation index terms and keywords.
 
-## Search results page {{< permerlink >}} {#concept_cj3_jv3_cp__section_op5_h5p_ndb} 
+## Search results page  
 
 When you enter search terms in the **Search** box, and then press Enter, the results are displayed in a results page.
 
@@ -66,7 +66,7 @@ The search results are sorted depending on the following:
     -   The search term is in bold text in a paragraph
     -   The search term is in normal text in a paragraph
 
-## Missing terms {{< permerlink >}} {#concept_cj3_jv3_cp__section_v3f_p1m_ndb} 
+## Missing terms  
 
 If you enter multiple search terms \(other than stop words\), for any result that the search engine found at least one term but not one or more of the other terms, the **Missing** terms will be listed below each result.
 

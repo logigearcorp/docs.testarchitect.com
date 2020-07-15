@@ -8,15 +8,15 @@ aliases:
 keywords: "methods of abt, CreateDataRow, CreateDataRow (AbtDataSetManagement), AbtDataSetManagement, createdatarow, abtdatasetmanagement createdatarow, create data row with specified content"
 ---
 
-## Syntax {{< permerlink >}} {#reference_vhs_v1w_gq__section.syntax} 
+## Syntax  
 
 `AbtDataRow CreateDataRow(Array<System.String> contents)`
 
-## Description {{< permerlink >}} {#reference_vhs_v1w_gq__section.desc} 
+## Description  
 
 Create a new data row with the specified contents.
 
-## Parameters {{< permerlink >}} {#reference_vhs_v1w_gq__section.params} 
+## Parameters  
 
 -   **contents**
 

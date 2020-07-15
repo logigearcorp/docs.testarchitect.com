@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, send http request, send http request (action), send http request, send http get request, send http post request"
 ---
 
-## Description {{< permerlink >}} {#bia_send_http_request__section_iyg_dsd_1y} 
+## Description  
 
 Send an HTTP request to a given resource.
 
-## Arguments {{< permerlink >}} {#bia_send_http_request__section_jyg_dsd_1y} 
+## Arguments  
 
 -   **uri**
 
@@ -48,11 +48,11 @@ Send an HTTP request to a given resource.
     Full path of file location to which to save the returned response body on the test machine.
 
 
-## Valid contexts {{< permerlink >}} {#bia_send_http_request__section_kyg_dsd_1y} 
+## Valid contexts  
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes {{< permerlink >}} {#bia_send_http_request__section_lyg_dsd_1y} 
+## Notes  
 
 -   Supported web services:
     -   [RESTful](http://docs.oracle.com/javaee/6/tutorial/doc/gijqy.html) \(Representational State Transfer architecture\)
@@ -115,7 +115,7 @@ Effect
 
 ![](/images/TA_Automation/Images/bia_send_http_request_effect.png)
 
-## Example - Case 2: Testing SOAP over HTTP-based web services {{< permerlink >}} {#bia_send_http_request__section_tyg_cp3_5z} 
+## Example - Case 2: Testing SOAP over HTTP-based web services  
 
 Suppose that you'd like to test a given API of the GlobalWeather web service to get all major cities by a specific country name.
 

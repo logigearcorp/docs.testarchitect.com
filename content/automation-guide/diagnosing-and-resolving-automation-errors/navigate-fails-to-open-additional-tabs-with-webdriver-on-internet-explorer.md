@@ -8,7 +8,7 @@ aliases:
 keywords: "automation errors, 0x16896"
 ---
 
-## Problem {{< permerlink >}} {#reference_0x16896b__section_d3t_nfp_fgb} 
+## Problem  
 
 In the event of launching a web page on a new tab on Internet Explorer,
 
@@ -25,7 +25,7 @@ Line \#21: navigate \[https//google.com.vn\] works fine.
 
 Line \#23: navigate\[https//www.netflix.com/vn/\] fails to open a new tab.
 
-## Cause {{< permerlink >}} {#reference_0x16896b__section_py2_q3p_fgb} 
+## Cause  
 
 As its limitation, WebDriver always opens a new window instead of a new tab on Internet Explorer.
 

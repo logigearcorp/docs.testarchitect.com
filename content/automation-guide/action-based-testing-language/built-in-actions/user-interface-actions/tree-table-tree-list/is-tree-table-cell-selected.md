@@ -64,11 +64,11 @@ The following settings are applicable to this action:[case sensitive](/automatio
 
 This action is applicable to the following controls:Tree table, tree list.
 
-## Applicable Platform {{< permerlink >}} {#bia_is_cell_selected__section_pvr_hfr_dkb} 
+## Applicable Platform  
 
 Systems Applications and Products in Data Processing \(SAP\).
 
-## Applicable Version {{< permerlink >}} {#bia_is_cell_selected__section_fwl_2jr_dkb} 
+## Applicable Version  
 
 TestArchitect version 8.5 onward.
 

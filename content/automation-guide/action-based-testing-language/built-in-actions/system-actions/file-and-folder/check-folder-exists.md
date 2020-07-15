@@ -23,7 +23,7 @@ Check for the existence of a specified folder. Result is Passed ifthe folder is 
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes {{< permerlink >}} {#bia_check_folder_exists__section.notes} 
+## Notes  
 
 -   Observe the following format for the folder path:
     -   Windows platform: Use backward slashes as separators for the path.

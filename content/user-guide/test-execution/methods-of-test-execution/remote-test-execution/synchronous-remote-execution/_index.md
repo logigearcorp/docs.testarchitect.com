@@ -32,7 +32,7 @@ Under synchronous remote execution, control is passed to a deputy in one of two 
 -   Note that [database actions](/automation-guide/action-based-testing-language/built-in-actions/system-actions/database/) are not supported on machines operating as deputies.
 -   While Machine A is utilizing Machine B as a deputy, it is impossible for Machine B to utilize Machine A as a deputy.
 
-## Variables {{< permerlink >}} {#Test_exec_remote_synchronous__section_q21_dwy_g2b} 
+## Variables  
 
 -   If the deputies are running in parallel mode, each thread has its own local/global variables. You cannot refer to a variable declared in another thread no matter whether the variable is local or global.
 -   If the deputies are running in serial mode, the scoping rules are the same as for executing normal tests procedures \(see [Variables](/automation-guide/action-based-testing-language/the-test-language/variables/) for details\).

@@ -10,11 +10,11 @@ keywords: "Oracle testing, Oracle, database testing, supported Oracle editions, 
 
 Information specific to testing with Oracle Database.
 
-## Introduction {{< permerlink >}} {#concept_pdk_r1c_5bb__section_fd4_fdj_5bb} 
+## Introduction  
 
 Oracle Database is the database designed for enterprise grid computing, the most flexible and cost effective way to manage information and applications. Enterprise grid computing creates large pools of industry-standard, modular storage and servers. With this architecture, each new system can be rapidly provisioned from the pool of components. \([Learn more](https://docs.oracle.com/cd/B19306_01/server.102/b14220/intro.htm).\)
 
-## Supported Oracle Database product family {{< permerlink >}} {#concept_pdk_r1c_5bb__section_p1w_qdj_5bb} 
+## Supported Oracle Database product family  
 
 -   Oracle Database Enterprise Edition
     -   12c Release 2

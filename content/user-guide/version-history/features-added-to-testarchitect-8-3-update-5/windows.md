@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be the same version.
 
-## TestArchitect Client {{< permerlink >}} {#concept_what_new_8.3_Windows_update_3__section.TAC} 
+## TestArchitect Client  
 
 New features
 
@@ -37,7 +37,7 @@ Enhancements to existing features
 -   Improvement for the [Lab Manager](/user-guide/lab-manager/managing-automation-lab/controller-status#li.host.address): Host address is added to the Lab Manger. A host address is composed of the IP address and port number of the controller machine.
 -   Editing [Source ID**](/user-guide/projects-and-project-items/project-items/list-view/test-case-list-view/changing-source-id)**. A Source ID that is the ID of a test case in an external tool \([Quality Center](/user-guide/integration-with-third-party-tools/hp-quality-center/), [Team Foundation Server](/user-guide/integration-with-third-party-tools/tfs-integration/) or [Zephyr](/user-guide/integration-with-third-party-tools/zephyr-integration/)\) and is used for mapping purpose now can be modified quickly in a test case list view.
 
-## TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.3_Windows_update_3__section.Auto} 
+## TestArchitect Automation  
 
 New features
 
@@ -62,7 +62,7 @@ Enhancements to existing features
     -   [repeat](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/repeat) - [until](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/control-flow/until)
     -   [use data set](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/use-data-set) - [repeat for data set](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/data-sets/repeat-for-data-set)
 
-## Repository Server {{< permerlink >}} {#concept_what_new_8.3_Windows_update_3__section.RS} 
+## Repository Server  
 
 Enhancements to existing features
 

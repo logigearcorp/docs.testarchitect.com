@@ -12,11 +12,11 @@ keywords: "methods of abt, GetItemIndex, GetItemIndex (AbtComboBox), AbtComboBox
 
 `int GetItemIndex(string itemText)`
 
-## Description {{< permerlink >}} {#abt_GetItemIndex_combobox__section.desc} 
+## Description  
 
 Retrieve the numeric index of a combo box item by its text content.
 
-## Parameters {{< permerlink >}} {#abt_GetItemIndex_combobox__section.params} 
+## Parameters  
 
 -   **itemText**
 

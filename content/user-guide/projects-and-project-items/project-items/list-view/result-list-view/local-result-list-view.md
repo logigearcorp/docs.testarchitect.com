@@ -32,11 +32,11 @@ From a list view, you can open a local test result in the main panel by right-cl
 
 Local test results may be added to the repository manually or automatically. \([Learn more.](/user-guide/working-with-test-results/adding-test-results-to-the-repository/)\)
 
-## Opening the source test module {{< permerlink >}} {#result_local_list_view__section.Open_source_TM} 
+## Opening the source test module  
 
 You can have the editor open the test module responsible for a given test result by selecting **Open related test** on the context menu.
 
-## Re-executing the tests {{< permerlink >}} {#result_local_list_view__section.Reexecute_tests} 
+## Re-executing the tests  
 
 You can re-execute the test\(s\) responsible for selected test result\(s\) by selecting **Execute related test** on the context menu. \([Learn more](/user-guide/test-execution/methods-of-test-execution/configuring-and-running-tests-from-testarchitect-client).\)
 
@@ -60,7 +60,7 @@ From the context menu, a local test result can be converted and exported to the 
 -   XML files in xUnit format \([learn more](/user-guide/working-with-test-results/exporting-test-results/exporting-test-results-to-xunit)\)
 -   XML Detail files for backup or purpose \([learn more](/user-guide/working-with-test-results/exporting-test-results/exporting-test-results-to-xml)\)
 
-## Previewing summary of a checkpoint failure or an automation warning/error {{< permerlink >}} {#result_local_list_view__section.preview_checkpoint} 
+## Previewing summary of a checkpoint failure or an automation warning/error  
 
 {{<note>}} Applies to TestArchitect [8.3 Update 5](/user-guide/version-history/features-added-to-testarchitect-8-3-update-5/) and higher.
 
@@ -72,7 +72,7 @@ You can preview a checkpoint by selecting the desired checkpoint in the result l
 
 {{<note>}} It may take a while to load a tooltip, when the result list view contains thousands of checkpoints.
 
-## Integration with third-party tools {{< permerlink >}} {#result_local_list_view__section.Local_listView_third_party_tools} 
+## Integration with third-party tools  
 
 TestArchitect seamlessly integrates with several powerful third-party tools, to assist in application development, continuous integration, and test management. Interfaces with [HP Quality Center](/user-guide/integration-with-third-party-tools/hp-quality-center/) \(QC\), and [Team Foundation Server/Microsoft Test Manager](/user-guide/integration-with-third-party-tools/tfs-integration/) \(TFS-MTM\) are all available to extend TestArchitect's functionality and empower your and your team.
 

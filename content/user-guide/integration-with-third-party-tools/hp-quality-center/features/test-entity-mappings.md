@@ -28,7 +28,7 @@ Example:
 
 ![](/images/TA_Help/Images/QC_test_folder.mapping.01.png)
 
-## TestArchitect test module {{< permerlink >}} {#concept.ta_qc_mappings__section.ta_test_module} 
+## TestArchitect test module  
 
 |TA field|Direction of flow1|QC field2|QC entity|Notes / Conditions|
 |--------|------------------|---------|---------|------------------|
@@ -45,7 +45,7 @@ Example:
 
 ![](/images/TA_Help/Images/QC_test_module.mapping.02.png "Handling of test module's test objectives on import and upload")
 
-## TestArchitect test case {{< permerlink >}} {#concept.ta_qc_mappings__section.ta_test_case} 
+## TestArchitect test case  
 
 |TA field|Direction of flow1|QC field2|QC entity|Notes / Conditions|
 |--------|------------------|---------|---------|------------------|

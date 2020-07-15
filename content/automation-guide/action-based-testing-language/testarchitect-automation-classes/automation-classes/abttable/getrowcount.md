@@ -12,7 +12,7 @@ keywords: "methods of abt, GetRowCount, GetRowCount (AbtTable), AbtTable, getrow
 
 `int getRowCount()`
 
-## Description {{< permerlink >}} {#abt_GetRowCount__section.desc} 
+## Description  
 
 Retrieve the number of rows in the table.
 

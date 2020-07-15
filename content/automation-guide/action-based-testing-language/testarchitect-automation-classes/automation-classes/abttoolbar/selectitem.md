@@ -12,18 +12,18 @@ keywords: "methods of abt, SelectItem, SelectItem (AbtToolBar), AbtToolBar, sele
 
 `long SelectItem(string itemPath)`
 
-## Description {{< permerlink >}} {#abt_SelectItem_toolbar__section.desc} 
+## Description  
 
 Select a toolbar menu item by its path.
 
-## Parameters {{< permerlink >}} {#abt_SelectItem_toolbar__section.params} 
+## Parameters  
 
 -   **itemPath**
 
     String specifying the path to the menu item. \(Use arrow symbols \( -\> \) as delimiters between menu items.\)
 
 
-## Return Value {{< permerlink >}} {#abt_SelectItem_toolbar__section.return} 
+## Return Value  
 
 Return 0 if the call is successful; otherwise, -1..
 

@@ -12,7 +12,7 @@ keywords: "methods of abt, GetText, GetText (AbtTextEdit), AbtTextEdit, gettext,
 
 `string GetText()`
 
-## Description {{< permerlink >}} {#abt_GetText__section.desc} 
+## Description  
 
 Retrieve the text content ofthe text control.
 

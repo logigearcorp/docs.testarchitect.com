@@ -12,11 +12,11 @@ keywords: "methods of abt, GetValueByColName, GetValueByColName (AbtDataRow), Ab
 
 `String GetValueByColName(String colName)`
 
-## Description {{< permerlink >}} {#reference_h3r_y1w_gq__section.desc} 
+## Description  
 
 Retrieve contents of a cell in the data set row; the cell is specified by its column name.
 
-## Parameters {{< permerlink >}} {#reference_h3r_y1w_gq__section.params} 
+## Parameters  
 
 -   **colName**
 

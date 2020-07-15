@@ -12,11 +12,11 @@ keywords: "methods of abt, FindCellWithText, FindCellWithText (AbtTable), AbtTab
 
 `long findCellWithText(string cellText, int rowIndex, int columnIndex)`
 
-## Description {{< permerlink >}} {#abt_FindCellWithText__section.desc} 
+## Description  
 
 Locate the cell with containing the specified text.
 
-## Parameters {{< permerlink >}} {#abt_FindCellWithText__section.params} 
+## Parameters  
 
 -   **cellText**
 
@@ -31,7 +31,7 @@ Locate the cell with containing the specified text.
     Returned Integer value specifying column indexof cell.Note that index numbering begins with 1.
 
 
-## Return Value {{< permerlink >}} {#abt_FindCellWithText__section.return} 
+## Return Value  
 
 Return 0 if the call is successful; otherwise, -1..
 

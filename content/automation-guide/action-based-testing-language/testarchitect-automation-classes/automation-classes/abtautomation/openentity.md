@@ -8,22 +8,22 @@ aliases:
 keywords: "methods of abt, Automation, openEntity (AbtAutomation), AbtAutomation, openEntity, abtentity"
 ---
 
-## Syntax {{< permerlink >}} {#abt_MoveMouse_entity__section.syntax} 
+## Syntax  
 
 `AbtEntity openEntity (string window)`
 
-## Description {{< permerlink >}} {#abt_MoveMouse_entity__section.desc} 
+## Description  
 
 Opens a specified window.
 
-## Parameters {{< permerlink >}} {#abt_MoveMouse_entity__section.params} 
+## Parameters  
 
 -   **window**
 
     TA name of the window.
 
 
-## Return Value {{< permerlink >}} {#abt_MoveMouse_entity__section.return} 
+## Return Value  
 
 If the call is successful, returns an object of class [AbtEntity](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abtentity/), referencing the given window.
 

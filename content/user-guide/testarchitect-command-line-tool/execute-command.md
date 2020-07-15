@@ -10,11 +10,11 @@ keywords: "TestArchitect tests, execute, from command line interface, test run"
 
 ta execute is used to execute tests from the command-line interface.
 
-## Syntax {{< permerlink >}} {#TA_command_line_execute__section_dmr_y1p_wfb} 
+## Syntax  
 
 ta execute -ls <machine name:port\> -rep <repository\> -proj <project\> -u <username\> -p <password\> t <test path\> \[Optional arguments\]
 
-## Arguments {{< permerlink >}} {#TA_command_line_execute__section_dph_2jp_wfb} 
+## Arguments  
 
 |Argument|Description|
 |--------|-----------|

@@ -41,7 +41,7 @@ Retrieve the text content of a table view cell.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes {{< permerlink >}} {#bia_get_table_view_cell_value__section_tll_j2y_mk} 
+## Notes  
 
 -   This built-in action applies only to the iOS operating system.
 -   index argument: Note that index numbering begins with 1.

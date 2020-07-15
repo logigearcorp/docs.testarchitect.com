@@ -10,7 +10,7 @@ keywords: "test results, comparison page, dialog boxes, Results Comparison page,
 
 The Result comparison page which is available on a web browser displays the differences, side-by-side, between two test results at checkpoints defined in the test procedure.
 
-## Results Comparison {{< permerlink >}} {#Test_result_baseline_result__sect_e383h_k3e8} 
+## Results Comparison  
 
 The Results Comparison HTML page, as illustrated in the images below, displays the typical checkpoint output when two test results are compared. There are two tabs including **Summary** and **Comparison Details**.
 
@@ -60,7 +60,7 @@ The Results Comparison HTML page, as illustrated in the images below, displays t
         Displays the checks that passed with warning/error status.
 
 
-## Comparing serial run results {{< permerlink >}} {#Test_result_baseline_result__sect_nd6h_kd83} 
+## Comparing serial run results  
 
 If the baseline test result is a set of serial test results, an additional Comparing Multiple Paris of Results dialog box appears to show the differences between pairs of results.
 

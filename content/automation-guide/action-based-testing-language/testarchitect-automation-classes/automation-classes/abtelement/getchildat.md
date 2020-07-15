@@ -16,7 +16,7 @@ keywords: "methods of abt, GetChildAt, GetChildAt (AbtElement), AbtElement, getc
 
 Retrieve the child element at the given index.
 
-## Parameters {{< permerlink >}} {#abt_GetChildAt_element__section.params} 
+## Parameters  
 
 -   **index**
 

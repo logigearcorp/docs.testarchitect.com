@@ -12,11 +12,11 @@ keywords: "methods of abt, GetHeaderName, GetHeaderName (AbtList), AbtList, geth
 
 `string GetHeaderName(int index)`
 
-## Description {{< permerlink >}} {#abt_GetHeaderName__section.desc} 
+## Description  
 
 Retrieve the column header text by its column index.
 
-## Parameters {{< permerlink >}} {#abt_GetHeaderName__section.params} 
+## Parameters  
 
 -   **index**
 

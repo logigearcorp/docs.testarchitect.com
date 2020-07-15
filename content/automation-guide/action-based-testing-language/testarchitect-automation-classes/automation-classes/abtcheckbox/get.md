@@ -12,7 +12,7 @@ keywords: "methods of abt, Get, Get (AbtCheckBox), AbtCheckBox, abtcheckbox get,
 
 `TACheckState Get()`
 
-## Description {{< permerlink >}} {#abt_Get_checkbox__section.desc} 
+## Description  
 
 Retrieve the value of the check box.
 

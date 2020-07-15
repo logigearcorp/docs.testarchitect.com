@@ -12,7 +12,7 @@ keywords: "methods of abt, ScrollItemIntoViewByIndex, ScrollItemIntoViewByIndex 
 
 `long ScrollItemIntoViewByIndex(int index)`
 
-## Description {{< permerlink >}} {#abt_ScrollItemIntoViewByIndex_list__section.desc} 
+## Description  
 
 Ensure that a list item, as specified by its index, is visible, by scrolling it into view if necessary.
 
@@ -23,7 +23,7 @@ Ensure that a list item, as specified by its index, is visible, by scrolling it 
     Integer value specifying the index of the item. Note that index numbering begins with 1.
 
 
-## Return Value {{< permerlink >}} {#abt_ScrollItemIntoViewByIndex_list__section.return} 
+## Return Value  
 
 Return 0 if the call is successful; otherwise, -1..
 

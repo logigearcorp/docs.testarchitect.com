@@ -12,11 +12,11 @@ keywords: "methods of abt, GetNodeRect, GetNodeRect (AbtTree), AbtTree, getnoder
 
 `long GetNodeRect(string nodepath, TARect rect)`
 
-## Description {{< permerlink >}} {#abt_GetNodeRect__section.desc} 
+## Description  
 
 Retrieve the bounding rectangle of a specified node in the tree control.
 
-## Parameters {{< permerlink >}} {#abt_GetNodeRect__section.params} 
+## Parameters  
 
 -   **nodepath**
 
@@ -31,7 +31,7 @@ Retrieve the bounding rectangle of a specified node in the tree control.
     Returned [TARect](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abt-object-classes/tarect) object specifying the bounding rectangle of the node.
 
 
-## Return Value {{< permerlink >}} {#abt_GetNodeRect__section.return} 
+## Return Value  
 
 Return 0 if the call is successful; otherwise, -1..
 

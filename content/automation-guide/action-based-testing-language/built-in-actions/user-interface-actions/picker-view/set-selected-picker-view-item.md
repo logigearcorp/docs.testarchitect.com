@@ -35,7 +35,7 @@ Select an item in a component of a picker view control based on its text content
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes {{< permerlink >}} {#bia_set_selected_picker_view_item__section_tll_j2y_mk} 
+## Notes  
 
 -   This built-in action applies only to the iOS operating system.
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.

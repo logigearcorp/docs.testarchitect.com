@@ -12,18 +12,18 @@ keywords: "methods of abt, ScrollItemIntoViewByText, ScrollItemIntoViewByText (A
 
 `long ScrollItemIntoViewByText(string text)`
 
-## Description {{< permerlink >}} {#abt_ScrollItemIntoViewByText_list__section.desc} 
+## Description  
 
 Ensure that a list item, as specified by its text content, is visible, by scrolling it into view if necessary.
 
-## Parameters {{< permerlink >}} {#abt_ScrollItemIntoViewByText_list__section.params} 
+## Parameters  
 
 -   **text**
 
     String value specifying the text content ofthe item.
 
 
-## Return Value {{< permerlink >}} {#abt_ScrollItemIntoViewByText_list__section.return} 
+## Return Value  
 
 Return 0 if the call is successful; otherwise, -1..
 

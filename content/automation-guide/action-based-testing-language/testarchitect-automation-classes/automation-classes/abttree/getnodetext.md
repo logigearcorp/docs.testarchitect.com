@@ -12,11 +12,11 @@ keywords: "methods of abt, GetNodeText, GetNodeText (AbtTree), AbtTree, getnodet
 
 `string GetNodeText(string nodepath)`
 
-## Description {{< permerlink >}} {#abt_GetNodeText__section.desc} 
+## Description  
 
 Retrieve the text content ofa specified node in the tree control.
 
-## Parameters {{< permerlink >}} {#abt_GetNodeText__section.params} 
+## Parameters  
 
 -   **nodepath**
 
@@ -27,7 +27,7 @@ Retrieve the text content ofa specified node in the tree control.
     -   A string containing all node texts separated by forward slashes \( / \).
     -   A string containing all node indexes separated by forward slashes \( / \).
 
-## Return Value {{< permerlink >}} {#abt_GetNodeText__section.return} 
+## Return Value  
 
 String value indicating the text content ofthe specified node.
 

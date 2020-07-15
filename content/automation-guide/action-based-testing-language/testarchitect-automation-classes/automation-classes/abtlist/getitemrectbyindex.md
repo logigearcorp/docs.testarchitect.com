@@ -12,18 +12,18 @@ keywords: "methods of abt, GetItemRectByIndex, GetItemRectByIndex (AbtList), Abt
 
 `TARect GetItemRectByIndex (int index)`
 
-## Description {{< permerlink >}} {#abt_GetItemRectByIndex__section.desc} 
+## Description  
 
 Retrieve the bounding rectangle of a list item by its index.
 
-## Parameters {{< permerlink >}} {#abt_GetItemRectByIndex__section.params} 
+## Parameters  
 
 -   **index**
 
     Index of item in the list control. Note that index numbering begins with 1.
 
 
-## Return Value {{< permerlink >}} {#abt_GetItemRectByIndex__section.return} 
+## Return Value  
 
 [TARect](/automation-guide/action-based-testing-language/testarchitect-automation-classes/automation-classes/abt-object-classes/tarect) object representing the bounding rectangle ofthe item. The object contains the following elements:
 

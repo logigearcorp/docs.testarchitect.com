@@ -15,7 +15,7 @@ The following new features and improvements are introduced in TestArchitect vers
 -   Before upgrading to the latest version of TestArchitect, it is strongly recommended that you back up all repositories.
 -   A TestArchitect client and any repository server to which it connects must be of the same version.
 
-## TestArchitect Client {{< permerlink >}} {#concept_what_new_8.1_Wins__section_rmb_jkv_gq} 
+## TestArchitect Client  
 
 -   [LDAP authentication](/user-guide/integration-with-third-party-tools/ldap-overview/): TestArchitect's support for LDAP \(Lightweight Directory Access Protocol\) allows your TestArchitect login credentials to be established through your system account.
 -   Content Assist – new features and enhancements: TestArchitect’s Content Assist feature, which provides context-sensitive assistance as you author your action lines, has been expanded and improved.
@@ -52,7 +52,7 @@ Enhancements to existing features
     -   Check in an item with the Keep Checked Out option selected.
     -   Check out an item.
 
-## TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.1_Wins__section_jqm_z13_nh} 
+## TestArchitect Automation  
 
 All new TestArchitect Automation features since the previous release of TestArchitect 8 are documented in the interim updates previously published. Please refer to the Release Notes for TestArchitect 8 [update 1](/user-guide/version-history/features-added-to-testarchitect-8-update-1), [update 2](/user-guide/version-history/features-added-to-testarchitect-8-update-2), [update 3](/user-guide/version-history/features-added-to-testarchitect-8-update-3) and [update 4](/user-guide/version-history/features-added-to-testarchitect-8-update-4/windows).
 

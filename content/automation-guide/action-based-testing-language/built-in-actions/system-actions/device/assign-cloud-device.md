@@ -8,11 +8,11 @@ aliases:
 keywords: "built-in actions, assign cloud device, assign cloud device (action), iOS (action), assign cloud device, Android (action), assign a mobile cloud device, name a mobile cloud device"
 ---
 
-## Description {{< permerlink >}} {#bia_assign_cloud_device__section_nkt_zth_gy} 
+## Description  
 
 Assign a logical name for a given capability of a target cloud device. This name may then be used in the action [connect cloud device](/automation-guide/action-based-testing-language/built-in-actions/system-actions/device/connect-cloud-device).
 
-## Arguments {{< permerlink >}} {#bia_assign_cloud_device__section_okt_zth_gy} 
+## Arguments  
 
 -   **url**
 
@@ -27,11 +27,11 @@ Assign a logical name for a given capability of a target cloud device. This name
     User-assigned, "friendly" name of the capability
 
 
-## Valid contexts {{< permerlink >}} {#bia_assign_cloud_device__section_pkt_zth_gy} 
+## Valid contexts  
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Notes {{< permerlink >}} {#bia_assign_cloud_device__section_qkt_zth_gy} 
+## Notes  
 
 -   This built-in action applies only to WebDriver based cloud services. \([Learn more](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/).\)
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
@@ -40,7 +40,7 @@ This action may be used within the following project items:test modules and user
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Example {{< permerlink >}} {#bia_assign_cloud_device__section_wkt_zth_gy} 
+## Example  
 
 Suppose that you'd like to automate mobile web application testing on Chrome in an Android cloud device in [Testdroid](http://docs.testdroid.com/appium/testdroid-desired-caps/), a WebDriver based cloud service.
 

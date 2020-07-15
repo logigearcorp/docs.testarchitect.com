@@ -12,18 +12,18 @@ keywords: "methods of abt, DoesItemExistByIndex, DoesItemExistByIndex (AbtTab), 
 
 `Boolean DoesItemExistByIndex(int index)`
 
-## Description {{< permerlink >}} {#abt_DoesItemExist_tab__section.desc} 
+## Description  
 
 Determine whether or not a tab, as specified by its index, exists.
 
-## Parameters {{< permerlink >}} {#abt_DoesItemExist_tab__section.params} 
+## Parameters  
 
 -   **index**
 
     Integer index of the tab. Note that index numbering begins with 1.
 
 
-## Return Value {{< permerlink >}} {#abt_DoesItemExist_tab__section.return} 
+## Return Value  
 
 Return TRUE ifthe tab exists; otherwise, FALSE.
 

@@ -28,7 +28,7 @@ Colossal test results, which contain hundreds of thousands of action lines, migh
 
 The number of truncated iterations is determined based on several predefined settings. Note that, these settings are adjustable. \([Learn more](/user-guide/working-with-test-results/customizing-xml-test-results/adjusting-the-number-of-truncated-iterations-and-pagination-page).\)
 
-## User-defined fields {{< permerlink >}} {#Test_result__section_svb_t2p_wfb} 
+## User-defined fields  
 
 {{<note>}} Applies to TestArchitect 8.4 Update 2 and higher.
 

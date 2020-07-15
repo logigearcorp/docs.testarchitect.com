@@ -12,7 +12,7 @@ keywords: "methods of abt, Maximize, Maximize (AbtEntity), AbtEntity, maximize, 
 
 `long Maximize()`
 
-## Description {{< permerlink >}} {#abt_Maximize__section.desc} 
+## Description  
 
 Maximize the window.
 

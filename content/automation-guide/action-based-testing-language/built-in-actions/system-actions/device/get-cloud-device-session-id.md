@@ -8,18 +8,18 @@ aliases:
 keywords: "built-in actions, get cloud device session id, get cloud device session id (action), iOS (action), get cloud device session id, Android (action), session ID, get session ID, retrieve session ID, obtain session ID, session ID mobile cloud device"
 ---
 
-## Description {{< permerlink >}} {#bia_get_cloud_device_session_id__section_nkt_zth_gy} 
+## Description  
 
 Retrieve session ID of the connected cloud device.
 
-## Arguments {{< permerlink >}} {#bia_get_cloud_device_session_id__section_okt_zth_gy} 
+## Arguments  
 
 -   **session id**
 
     Variable to receive the session ID.
 
 
-## Notes {{< permerlink >}} {#bia_get_cloud_device_session_id__section_qkt_zth_gy} 
+## Notes  
 
 -   This built-in action applies only to WebDriver based cloud services. \([Learn more](/automation-guide/application-testing/mobile-testing/testing-in-the-cloud/).\)
 -   This action supports the [<ignore\>](/automation-guide/action-based-testing-language/the-test-language/ignoring-actions) modifier. If the string `<ignore>` is present as the value of any of the arguments, or any argument contains an expression that evaluates to `<ignore>`, the action is skipped during execution.
@@ -28,7 +28,7 @@ Retrieve session ID of the connected cloud device.
 
 The following settings are applicable to this action:[remove double quotes from cells](/automation-guide/action-based-testing-language/built-in-settings/value-settings/remove-double-quotes-from-cells).
 
-## Example {{< permerlink >}} {#bia_get_cloud_device_session_id__section_wkt_zth_gy} 
+## Example  
 
 Action Lines
 

@@ -12,7 +12,7 @@ keywords: "methods of abt, GetItemRect, GetItemRect (AbtToolBar), AbtToolBar, ge
 
 `long GetItemRect(int index, TARect rect)`
 
-## Description {{< permerlink >}} {#abt_GetItemRect_toolbar__section.desc} 
+## Description  
 
 Retrieve the bounding rectangle of the specified toolbar item.
 

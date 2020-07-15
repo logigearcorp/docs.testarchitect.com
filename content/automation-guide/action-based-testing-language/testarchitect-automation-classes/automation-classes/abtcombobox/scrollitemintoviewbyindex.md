@@ -12,18 +12,18 @@ keywords: "methods of abt, ScrollItemIntoViewByIndex, ScrollItemIntoViewByIndex 
 
 `long ScrollItemIntoViewByIndex(int index)`
 
-## Description {{< permerlink >}} {#abt_ScrollItemIntoViewByIndex_combobox__section.desc} 
+## Description  
 
 Scroll a combo box item, as specified by its index, into view. If the combo box list is not currently open, align the item to the top of the viewport.
 
-## Parameters {{< permerlink >}} {#abt_ScrollItemIntoViewByIndex_combobox__section.params} 
+## Parameters  
 
 -   **index**
 
     Integer value specifying the index of the item. Note that index numbering begins with 1.
 
 
-## Return Value {{< permerlink >}} {#abt_ScrollItemIntoViewByIndex_combobox__section.return} 
+## Return Value  
 
 Return 0 if the call is successful; otherwise, -1..
 

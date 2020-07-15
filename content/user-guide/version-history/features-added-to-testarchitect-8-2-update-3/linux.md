@@ -21,7 +21,7 @@ Enhancements to existing features
 
 -   Performance improvement during startup of the Repository Server.
 
-## TestArchitect Automation {{< permerlink >}} {#concept_what_new_8.1_U4_Linux__section_p2c_51b_cs} 
+## TestArchitect Automation  
 
 -   **Built-in actions/built-in setting to handle unpredicted appearance of a modal dialog box in desktop applications**: The troublesome modal dialog can be automatically closed, or custom-handled by a user-defined action.
     -   [on modal action](/automation-guide/action-based-testing-language/built-in-actions/test-support-actions/error-handling/on-modal-action) \(built-in action\): Specify the action to be invoked in the event of the occurrence of a modal dialog box that may block the test automation.

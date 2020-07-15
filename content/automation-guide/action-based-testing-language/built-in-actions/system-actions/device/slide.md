@@ -39,7 +39,7 @@ Mimic the action of a finger sliding across the screen.
 
 This action may be used within the following project items:test modules and user-defined actions.
 
-## Applicable Systems/Platforms {{< permerlink >}} {#bia_slide__section_nr3_4cl_zcb} 
+## Applicable Systems/Platforms  
 
 Use of this action is supported on the following systems/platforms: Mobile operating systems.
 

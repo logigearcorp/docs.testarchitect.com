@@ -12,11 +12,11 @@ keywords: "methods of abt, MoveToNextPage, MoveToNextPage (AbtScrollBar), AbtScr
 
 `long MoveToNextPage(long numberOfPages)`
 
-## Description {{< permerlink >}} {#abt_MoveToNextPage__section.desc} 
+## Description  
 
 Move the scroll bar downward, or to the right, the specified number of pages.
 
-## Parameters {{< permerlink >}} {#abt_MoveToNextPage__section.params} 
+## Parameters  
 
 -   **numberOfPages**
 
