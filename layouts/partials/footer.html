@@ -192,6 +192,8 @@ var urlParams = new URLSearchParams(window.location.search);
     currentPage = urlParams.get('page') ? urlParams.get('page'): 1;
 if(query) {
   $('#search-header').val(query);
+  $("main").empty();
+  document.getElementById('main-container-page').style.visibility = 'hidden';
   document.getElementById('loader-container').style.display = 'block';
 } else {
   if(document.getElementById('contain-default-hide')) 
@@ -492,6 +494,7 @@ for (let index = 0; index < highlight.length; index++) {
   function renderResults(res, query) {
    
     document.getElementById('loader-container').style.display = 'none';
+    document.getElementById('main-container-page').style.visibility = 'visible';
     var converter = new showdown.Converter();
     var $results = $("main");
     if (res.length < 1) {
