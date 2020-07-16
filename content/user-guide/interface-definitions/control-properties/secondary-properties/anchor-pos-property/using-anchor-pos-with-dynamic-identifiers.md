@@ -83,7 +83,7 @@ As before, we can use the **div** element with `id="national_section"` as an anc
 
         {{<remember>}} During this exercise, ensure that the web page for this file is maintained as the active tab in its browser window.
 
-2.  **:Optional:** {{<note>}} You can skip this step if you already created the front\_page interface entity from the previous example, as we will continue to work with it. Note that, if you do not yet have it, in this case it only requires a single interface element, that for the anchor.
+2.  **Optional:** {{<note>}} You can skip this step if you already created the front\_page interface entity from the previous example, as we will continue to work with it. Note that, if you do not yet have it, in this case it only requires a single interface element, that for the anchor.
 
     In a TestArchitect project, create a [new interface entity](/user-guide/interface-definitions/creating-interface-entities), name it front\_page, and enter the following two mappings:
 
