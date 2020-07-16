@@ -168,20 +168,35 @@
 //--------------- Fuse search----------------------------------
 
 var fuse; // holds our search engine
-var searchVisible = true; 
+var searchResult;
 var firstRun = true; // allow us to delay loading json data unless search activated
 var list = document.getElementById('searchResults'); // targets the <ul>
 var first = list.firstChild; // first child of search list
 var last = list.lastChild; // last child of search list
 var maininput = document.getElementById('searchInput'); // input box for search
 var resultsAvailable = false; // Did we get any search results?
-
-
+var currentPage =1;
+var itemPerpage = 10;
+var searchitems="";
 document.getElementById("search-header").onkeyup = function(e) { 
   executeSearch(this.value);
 }
 
 
+
+
+
+var urlParams = new URLSearchParams(window.location.search);
+    var query = urlParams.get('search');
+      
+    currentPage = urlParams.get('page') ? urlParams.get('page'): 1;
+if(query) {
+  $('#search-header').val(query);
+  document.getElementById('loader-container').style.display = 'block';
+} else {
+  if(document.getElementById('contain-default-hide')) 
+  document.getElementById('contain-default-hide').style.display = 'block';
+}
 // ==========================================
 // fetch some json without jquery
 //
@@ -200,25 +215,27 @@ function fetchJSONFile(path, callback) {
 }
 
 
-function loadSearch() { 
+function loadSearch(callback) { 
   
   fetchJSONFile('/index.json', function(data){
     
-    var options = { // fuse.js options; check fuse.js website for details
+    var options = {
       shouldSort: true,
       location: 0,
-      distance: 500,
-      threshold: 0.2,
-      minMatchCharLength: 3,
+      distance: 100,
+      threshold: 0.4,
+      minMatchCharLength: 2,
       keys: [
         'title',
         'permalink',
         'contents',
         'description',
-        'keywords'
+        'keywords',
+        'aliases'
         ]
     };
     fuse = new Fuse(data, options); // build the index from the json file
+    callback();
   });
 }
 
@@ -229,41 +246,47 @@ function loadSearch() {
 // in the search box
 //
 function executeSearch(term) {
-  let results = fuse.search(term); // the actual query being run using fuse.js
-  let searchitems = ''; // our results bucket
+  searchResult = fuse.search(term); 
    
-  if (results.length === 0) { // no results based on what was typed into the input box
+  if (searchResult.length === 0) { // no results based on what was typed into the input box
     resultsAvailable = false;
     searchitems = '';
   } else { // build our html 
-    for (let item in results) { // only show first 5 results
+    for (let item in searchResult) { // only show first 5 results
        
-      searchitems = searchitems + '<li><a href="' + results[item]["item"].permalink + '" tabindex="0">' + '<span class="title">' + results[item]["item"].title + '</a></li>';
+      searchitems = searchitems + '<li><a href="' + searchResult[item]["item"].permalink + '" tabindex="0">' + '<span class="title">' + searchResult[item]["item"].title + '</a></li>';
     }
     resultsAvailable = true;
   }
-
   document.getElementById("searchResults").innerHTML = searchitems;
-  if (results.length > 0) {
+  if (searchResult.length > 0) {
     first = list.firstChild.firstElementChild; // first result container — used for checking against keyboard up/down location
     last = list.lastChild.firstElementChild; // last result container — used for checking against keyboard up/down location
   }
 }
 
+  if(firstRun) {
+      loadSearch(function() {
+        if (query) {
+        
+        
+      searchResult = fuse.search(query); 
+   
+      var $results = $("main");
+      $results.empty();
+        renderResults(searchResult, query);
+ 
+       } 
+      }); 
+      firstRun = false;
+  }
+
+
 //-------------------------------------------------------------
 
-
-   var urlParams = new URLSearchParams(window.location.search);
-       var query = urlParams.get('search');
-       var page = urlParams.get('page');
-      
        
-       if (query) {
-       searchRemote(query, page);
-       $('#search-header').val(query);
-        document.getElementById('loader-container').style.display = 'block';
-        document.getElementById('main-container-page').style.visibility = 'hidden';
-       } 
+      
+
        
   if (/MSIE 10/i.test(navigator.userAgent)) {
   document.getElementById('language-container').style.visibility ='hidden';
@@ -341,6 +364,8 @@ $('span.wh_expand_btn').click(function (e) {
   $(this).toggleClass("expanded");
   siblings.slideToggle("1000");
 })
+
+
 $('span.permalink').click(function (e) {
   var id = $(this).closest('[id]').attr('id');
             var hash = '#' + id;
@@ -414,8 +439,7 @@ for (let index = 0; index < highlight.length; index++) {
       .done(function(res) {
         $results.empty();
         renderResults(res, query);
-        document.getElementById('loader-container').style.display = 'none';
-        document.getElementById('main-container-page').style.visibility = 'visible';
+      
       }).fail(function() {
         $results.empty();
         $results.append($("<div>", {html: "<h3>Sorry we couldn't find any matches for <span class='search-query'></span></h3>"}));
@@ -443,19 +467,21 @@ for (let index = 0; index < highlight.length; index++) {
     // });
   }
 
-  function searchOnQuery() {
-    var urlParams = new URLSearchParams(window.location.search);
+  // function searchOnQuery() {
+  //   var urlParams = new URLSearchParams(window.location.search);
+
    
-    var page = urlParams.get('page');
-    var query = urlParams.get('search');
+  //   var query = urlParams.get('search');
     
-    if (query) {
-     
-      searchRemote(query, page);
+  //   if (query) {
+      
+  //     searchRemote(query, page);
     
      
-    }
-  }
+  //   } else {
+  
+  //   }
+  // }
 
   
   /**
@@ -464,9 +490,11 @@ for (let index = 0; index < highlight.length; index++) {
    * @param  {Array} results to display
    */
   function renderResults(res, query) {
+   
+    document.getElementById('loader-container').style.display = 'none';
     var converter = new showdown.Converter();
     var $results = $("main");
-    if (res.results.length < 1) {
+    if (res.length < 1) {
       $results.append($("<div>", {html: "<h3>Sorry we couldn't find any matches for <span class='search-query'></span></h3>"}));
        var $query = $(".search-query");
         $query.append(document.createTextNode(query));
@@ -474,22 +502,27 @@ for (let index = 0; index < highlight.length; index++) {
         return ;
     }
 
-    $results.append($("<div>", {html: '<div ><div class="search-contain"><h4>' + res.totalResults + ' document(s) found for: <span class="search-query">'+query +'</span><h4></div> <span class="search-query-right"><h5>Page '+res.page +'/' + res.totalPage +'</h5></span></div>'}));
+    $results.append($("<div>", {html: '<div ><div class="search-contain"><h4>' + res.length + ' document(s) found for: <span class="search-query">'+query +'</span><h4></div> <span class="search-query-right"><h5>Page '+currentPage +'/' + res.length +'</h5></span></div>'}));
 
-    // Only show the ten first results
-    res.results.forEach(function(result) {
+    
+    currentPage = parseInt(currentPage);
+   
+	var startIndex = (currentPage - 1)*itemPerpage;
+	res = searchResult.slice(startIndex, startIndex + itemPerpage);
+
+    res.forEach(function(result) {
       var $result = $("<li class='search-result__item'>");
       $result.append(
         $("<a>", {
-          href: result.aliases[0],
-          html: "<strong> " +converter.makeHtml(result.title)+"</strongs>"
+          href: result.item.aliases[0],
+          html: "<strong> " +converter.makeHtml(result.item.title)+"</strongs>"
         })
       );
-      $result.append($( converter.makeHtml(result.description)));
+      $result.append($( converter.makeHtml(result.item.description)));
       $result.append(
         $("<a>", {
-          href: result.aliases[0],
-          html: "<i>" +  result.aliases[0].substr(1) + "</i>",
+          href: result.item.aliases[0],
+          html: "<i>" +  result.item.aliases[0].substr(1) + "</i>",
           class: "search-result-url"
         })
       );
@@ -498,26 +531,49 @@ for (let index = 0; index < highlight.length; index++) {
 
     let pagination = $('<ul class="search-pagination">');
     
-    if (res.totalPage > 10) {
-      const disablec =  res.page <= 10 ? 'pagin-disable': '';
-      pagination.append($('<li><a class="' + disablec + '" href="'+location.protocol + "//"+ location.host+'?search='+query+'&page='+((Math.ceil((res.page-10)/10))*10)+'"> < </a></li>'));
+    if (searchResult.length > itemPerpage) {
+      const disablec =  currentPage <= itemPerpage ? 'pagin-disable': '';
+      pagination.append($('<li><a class="pre-list ' + disablec + '" href="javascript:void(0)" class="paging-item"> < </a></li>'));
     }
 
-    var begin = (Math.ceil(res.page/10)-1)*10+1;
-    var end =  begin + 9 > res.totalPage ? res.totalPage : begin + 9;
+    var begin = (Math.ceil(currentPage/itemPerpage)-1)*itemPerpage+1;
+    var end =  (begin+itemPerpage-1) > Math.ceil(searchResult.length/itemPerpage) ? Math.ceil(searchResult.length/itemPerpage) : (begin+itemPerpage-1);
+   
     for(let i = begin ; i <= end; i++) {
-      const cl = i === res.page ? 'active': '';
-      pagination.append($('<li class="'+ cl +'"><a href="'+location.protocol + "//"+ location.host+'?search='+query+'&page='+i+'">'+i+'</a></li>'));
+      const cl = i === currentPage ? 'active': '';
+      pagination.append($('<li class="'+ cl +'"><a href="javascript:void(0)" class="paging-item" >'+i+'</a></li>'));
     }
     
-    if (res.totalPage >10) {
-      const disablec = res.totalPage === end ? 'pagin-disable': '';
-      pagination.append($('<li ><a class="' + disablec + '" href="'+location.protocol + "//"+ location.host+'?search='+query+'&page='+((Math.ceil(res.page/10))*10+1)+'"> > </a></li>'));
+    if (searchResult.length >itemPerpage) {
+      const disablec = Math.ceil(searchResult.length / itemPerpage) === end ? 'pagin-disable': '';
+      pagination.append($('<li ><a class="next-list ' + disablec + '" href="javascript:void(0)" > > </a></li>'));
     }
 
 
     $results.append(pagination);
-    
+    $('.paging-item').bind("click", function(e) {
+      window.scrollTo({ top: 0, behavior: 'smooth'});
+      currentPage=$(this).text();
+      var $results = $("main");
+      $results.empty();
+      renderResults(searchResult, query);   
+});
+
+$('.pre-list').bind("click", function(e) {
+  window.scrollTo({ top: 0, behavior: 'smooth'});
+  currentPage = ((Math.ceil((currentPage-itemPerpage)/itemPerpage))*itemPerpage);
+  var $results = $("main");
+      $results.empty();
+      renderResults(searchResult, query);  
+});
+
+$('.next-list').bind("click", function(e) {
+   window.scrollTo({ top: 0, behavior: 'smooth'});
+  currentPage = ((Math.ceil(currentPage/itemPerpage))*itemPerpage+1);
+  var $results = $("main");
+      $results.empty();
+      renderResults(searchResult, query);  
+});
   }
 
   function shortenString(string, length) {
@@ -547,12 +603,13 @@ for (let index = 0; index < highlight.length; index++) {
   }
 
   $(document).ready(function() {
-    if(firstRun) {
-      loadSearch(); 
-      firstRun = false;
-    }
+  
+    $(document).click(function() {
+    $('#searchResults').empty();
+});
+
     initUI();
-    searchOnQuery();
+   // searchOnQuery();
     $(".open-menu > ul > li").each(function(idx, item) {
       updateHasChild($(item));
     });
