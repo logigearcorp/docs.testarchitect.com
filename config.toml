@@ -1,5 +1,5 @@
-#baseURL = "https://docs.testarchitect.com/"
-baseURL = "https://ta-docs.gondolatest.com/"
+baseURL = "https://docs.testarchitect.com/"
+#baseURL = "https://ta-docs.gondolatest.com/"
 disablePathToLower = true
 
 
